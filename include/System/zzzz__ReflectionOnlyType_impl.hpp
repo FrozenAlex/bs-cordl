@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ReflectionOnlyType::*)()>(&::System::ReflectionOnlyType::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5c87c48;
+  constexpr static std::size_t addrs = 0x5c859b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ReflectionOnlyType*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::RuntimeTypeHandle (::System::ReflectionOnlyType::*)()>(&::System::ReflectionOnlyType::get_TypeHandle)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5c87c9c;
+  constexpr static std::size_t addrs = 0x5c85a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ReflectionOnlyType*>(), { ::i2c::class_of<::System::ReflectionOnlyType*>(), 113 }));

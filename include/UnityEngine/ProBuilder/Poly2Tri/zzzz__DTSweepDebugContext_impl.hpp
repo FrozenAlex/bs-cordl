@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* (::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::get_PrimaryTriangle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66abd80;
+  constexpr static std::size_t addrs = 0x66a9b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::*)(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::set_PrimaryTriangle)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x66a9914;
+  constexpr static std::size_t addrs = 0x66a76b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* (::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::get_SecondaryTriangle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66abd88;
+  constexpr static std::size_t addrs = 0x66a9b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::*)(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::set_SecondaryTriangle)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x66aaab8;
+  constexpr static std::size_t addrs = 0x66a8854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* (::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::get_ActivePoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66abd90;
+  constexpr static std::size_t addrs = 0x66a9b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::set_ActivePoint)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x66abd98;
+  constexpr static std::size_t addrs = 0x66a9b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext*>(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* (::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::get_ActiveNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66abdf4;
+  constexpr static std::size_t addrs = 0x66a9b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::*)(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::set_ActiveNode)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x66a90cc;
+  constexpr static std::size_t addrs = 0x66a6e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext*>(),
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* (::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::get_ActiveConstraint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66abdfc;
+  constexpr static std::size_t addrs = 0x66a9b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::*)(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::set_ActiveConstraint)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x66a86c0;
+  constexpr static std::size_t addrs = 0x66a645c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::*)(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66ab764;
+  constexpr static std::size_t addrs = 0x66a9500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext*>(),
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::get_IsDebugContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66abe0c;
+  constexpr static std::size_t addrs = 0x66a9ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::*)()>(&::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext::Clear)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x66abe14;
+  constexpr static std::size_t addrs = 0x66a9bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext*>(),

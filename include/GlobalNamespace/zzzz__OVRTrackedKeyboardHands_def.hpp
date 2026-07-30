@@ -292,45 +292,45 @@ public:
   /// @brief Field rightHand_, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_rightHand_, put = __cordl_internal_set_rightHand_)) ::UnityW<::GlobalNamespace::OVRHand> rightHand_;
 
-  /// @brief Method Awake, addr 0x5ee0c04, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5ede970, size 0x270, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ComputeOpacity, addr 0x5ee2224, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ComputeOpacity, addr 0x5edff90, size 0x28, virtual false, abstract: false, final false
   inline float_t ComputeOpacity(float_t distance, float_t innerThreshold, float_t outerThreshold);
 
-  /// @brief Method DisableHandObjects, addr 0x5ee1b6c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method DisableHandObjects, addr 0x5edf8d8, size 0xf0, virtual false, abstract: false, final false
   inline void DisableHandObjects();
 
-  /// @brief Method GetHandDistanceToKeyboard, addr 0x5ee1c5c, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method GetHandDistanceToKeyboard, addr 0x5edf9c8, size 0x2d8, virtual false, abstract: false, final false
   inline float_t GetHandDistanceToKeyboard(::GlobalNamespace::OVRSkeleton* handSkeleton);
 
-  /// @brief Method LateUpdate, addr 0x5ee135c, size 0x810, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5edf0c8, size 0x810, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::OVRTrackedKeyboardHands* New_ctor();
 
-  /// @brief Method RetargetHandTrackingToHandPresence, addr 0x5ee11a0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method RetargetHandTrackingToHandPresence, addr 0x5edef0c, size 0x180, virtual false, abstract: false, final false
   inline void RetargetHandTrackingToHandPresence();
 
-  /// @brief Method SetHandModelsEnabled, addr 0x5ee2014, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method SetHandModelsEnabled, addr 0x5edfd80, size 0x210, virtual false, abstract: false, final false
   inline void SetHandModelsEnabled(bool enableLeftModel, bool enableRightModel);
 
-  /// @brief Method ShouldEnableModel, addr 0x5ee1fa4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ShouldEnableModel, addr 0x5edfd10, size 0x70, virtual false, abstract: false, final false
   inline bool ShouldEnableModel(float_t distance);
 
-  /// @brief Method ShouldEnablePassthrough, addr 0x5ee1f34, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ShouldEnablePassthrough, addr 0x5edfca0, size 0x70, virtual false, abstract: false, final false
   inline bool ShouldEnablePassthrough(float_t distance);
 
-  /// @brief Method Start, addr 0x5ee0e74, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5edebe0, size 0x32c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StopHandPresence, addr 0x5ee224c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method StopHandPresence, addr 0x5edffb8, size 0x30, virtual false, abstract: false, final false
   inline void StopHandPresence();
 
-  /// @brief Method TrackedKeyboardActiveUpdated, addr 0x5ee227c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method TrackedKeyboardActiveUpdated, addr 0x5edffe8, size 0xc, virtual false, abstract: false, final false
   inline void TrackedKeyboardActiveUpdated(::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent e);
 
-  /// @brief Method TrackedKeyboardVisibilityChanged, addr 0x5ee2288, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method TrackedKeyboardVisibilityChanged, addr 0x5edfff4, size 0x1c8, virtual false, abstract: false, final false
   inline void TrackedKeyboardVisibilityChanged(::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent e);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_HandsMaterial() const;
@@ -495,7 +495,7 @@ public:
 
   constexpr void __cordl_internal_set_rightHand_(::UnityW<::GlobalNamespace::OVRHand> value);
 
-  /// @brief Method .ctor, addr 0x5ee2450, size 0x698, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ee01bc, size 0x698, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline float_t getStaticF_handInnerAlphaThreshold_();
@@ -506,13 +506,13 @@ public:
 
   static inline float_t getStaticF_minimumModelHandsDistance_();
 
-  /// @brief Method get_AreControllersActive, addr 0x5ee1320, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_AreControllersActive, addr 0x5edf08c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_AreControllersActive();
 
-  /// @brief Method get_LeftHandOverKeyboard, addr 0x5ee0bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LeftHandOverKeyboard, addr 0x5ede960, size 0x8, virtual false, abstract: false, final false
   inline bool get_LeftHandOverKeyboard();
 
-  /// @brief Method get_RightHandOverKeyboard, addr 0x5ee0be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RightHandOverKeyboard, addr 0x5ede950, size 0x8, virtual false, abstract: false, final false
   inline bool get_RightHandOverKeyboard();
 
   static inline void setStaticF_handInnerAlphaThreshold_(float_t value);
@@ -523,10 +523,10 @@ public:
 
   static inline void setStaticF_minimumModelHandsDistance_(float_t value);
 
-  /// @brief Method set_LeftHandOverKeyboard, addr 0x5ee0bfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LeftHandOverKeyboard, addr 0x5ede968, size 0x8, virtual false, abstract: false, final false
   inline void set_LeftHandOverKeyboard(bool value);
 
-  /// @brief Method set_RightHandOverKeyboard, addr 0x5ee0bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RightHandOverKeyboard, addr 0x5ede958, size 0x8, virtual false, abstract: false, final false
   inline void set_RightHandOverKeyboard(bool value);
 
 protected:

@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorType (*)(::BeatmapSaveDataVersion2_6_0AndEarlier::ColorType)>(
     &::GlobalNamespace::BeatmapTypeConverters::ConvertNoteColorType)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3710f1c;
+  constexpr static std::size_t addrs = 0x370f944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapTypeConverters*>(),
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorType (*)(::BeatmapSaveDataCommon::NoteColorType)>(&::GlobalNamespace::BeatmapTypeConverters::ConvertNoteColorType)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3710f30;
+  constexpr static std::size_t addrs = 0x370f958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EnvironmentColorType (*)(::BeatmapSaveDataCommon::EnvironmentColorType)>(
     &::GlobalNamespace::BeatmapTypeConverters::ConvertEnvironmentColorType)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3710f44;
+  constexpr static std::size_t addrs = 0x370f96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LightAxis (*)(::BeatmapSaveDataCommon::Axis)>(&::GlobalNamespace::BeatmapTypeConverters::ConvertLightAxis)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3710f58;
+  constexpr static std::size_t addrs = 0x370f980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EaseType (*)(::BeatmapSaveDataCommon::EaseType)>(&::GlobalNamespace::BeatmapTypeConverters::ConvertEaseType)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3710f6c;
+  constexpr static std::size_t addrs = 0x370f994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteLineLayer (*)(int32_t)>(&::GlobalNamespace::BeatmapTypeConverters::ConvertNoteLineLayer)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x371104c;
+  constexpr static std::size_t addrs = 0x370fa74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteLineLayer (*)(int32_t)>(&::GlobalNamespace::BeatmapTypeConverters::ConvertObstacleLineLayer)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3711060;
+  constexpr static std::size_t addrs = 0x370fa88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteLineLayer (*)(::BeatmapSaveDataCommon::NoteLineLayer)>(&::GlobalNamespace::BeatmapTypeConverters::ConvertNoteLineLayer)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3711070;
+  constexpr static std::size_t addrs = 0x370fa98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SliderData_Type (*)(::BeatmapSaveDataVersion3::SliderType)>(
     &::GlobalNamespace::BeatmapTypeConverters::ConvertSliderDataType)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3711084;
+  constexpr static std::size_t addrs = 0x370faac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LightRotationDirection (*)(::BeatmapSaveDataCommon::RotationDirection)>(
     &::GlobalNamespace::BeatmapTypeConverters::ConvertLightRotationDirection)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3711090;
+  constexpr static std::size_t addrs = 0x370fab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapTypeConverters*>(),
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BasicBeatmapEventType (*)(::BeatmapSaveDataCommon::BeatmapEventType)>(
     &::GlobalNamespace::BeatmapTypeConverters::ConvertBasicBeatmapEventType)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x37110a4;
+  constexpr static std::size_t addrs = 0x370facc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapTypeConverters*>(),
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapEventDataBox_DistributionParamType (*)(::BeatmapSaveDataCommon::DistributionParamType)>(
     &::GlobalNamespace::BeatmapTypeConverters::ConvertDistributionParamType)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x37110a8;
+  constexpr static std::size_t addrs = 0x370fad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteCutDirection (*)(::BeatmapSaveDataCommon::NoteCutDirection)>(
     &::GlobalNamespace::BeatmapTypeConverters::ConvertNoteCutDirection)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x37110b8;
+  constexpr static std::size_t addrs = 0x370fae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapTypeConverters*>(),
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SliderMidAnchorMode (*)(::BeatmapSaveDataCommon::SliderMidAnchorMode)>(
     &::GlobalNamespace::BeatmapTypeConverters::ConvertSliderMidAnchorMode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x37110c8;
+  constexpr static std::size_t addrs = 0x370faf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapTypeConverters*>(),
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OffsetDirection (*)(::BeatmapSaveDataCommon::OffsetDirection)>(
     &::GlobalNamespace::BeatmapTypeConverters::ConvertOffsetDirection)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x37110dc;
+  constexpr static std::size_t addrs = 0x370fb04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapTypeConverters*>(),
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::BeatmapSaveDataVersion3::TransitionType)>(&::GlobalNamespace::BeatmapTypeConverters::ConvertTransitionTypeToExtension)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x37110fc;
+  constexpr static std::size_t addrs = 0x370fb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EaseType (*)(::BeatmapSaveDataVersion3::TransitionType)>(
     &::GlobalNamespace::BeatmapTypeConverters::ConvertTransitionTypeToEaseType)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3711108;
+  constexpr static std::size_t addrs = 0x370fb30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Timeline::TimelineClip*)>(&::UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsLooping)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69baf64;
+  constexpr static std::size_t addrs = 0x69b8d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimelineClipCapsExtensions*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Timeline::TimelineClip*)>(&::UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsExtrapolation)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69baf7c;
+  constexpr static std::size_t addrs = 0x69b8d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimelineClipCapsExtensions*>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Timeline::TimelineClip*)>(&::UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsClipIn)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69baf94;
+  constexpr static std::size_t addrs = 0x69b8d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimelineClipCapsExtensions*>(),
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Timeline::TimelineClip*)>(&::UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsSpeedMultiplier)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69bafac;
+  constexpr static std::size_t addrs = 0x69b8d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimelineClipCapsExtensions*>(),
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Timeline::TimelineClip*)>(&::UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsBlending)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69bafc4;
+  constexpr static std::size_t addrs = 0x69b8d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimelineClipCapsExtensions*>(),
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Timeline::ClipCaps, ::UnityEngine::Timeline::ClipCaps)>(&::UnityEngine::Timeline::TimelineClipCapsExtensions::HasAll)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69bafdc;
+  constexpr static std::size_t addrs = 0x69b8d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Timeline::ClipCaps, ::UnityEngine::Timeline::ClipCaps)>(&::UnityEngine::Timeline::TimelineClipCapsExtensions::HasAny)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69ad818;
+  constexpr static std::size_t addrs = 0x69ab5b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

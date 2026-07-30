@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::System::IntPtr, int32_t)>(&::UnityEngine::UIElements::UIR::JobProcessor::ScheduleNudgeJobs)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6ccf488;
+  constexpr static std::size_t addrs = 0x6ccae8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::JobProcessor*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::System::IntPtr, int32_t)>(&::UnityEngine::UIElements::UIR::JobProcessor::ScheduleConvertMeshJobs)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6ccf538;
+  constexpr static std::size_t addrs = 0x6ccaf3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::JobProcessor*>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::System::IntPtr, int32_t)>(&::UnityEngine::UIElements::UIR::JobProcessor::ScheduleCopyMeshJobs)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6ccf5e8;
+  constexpr static std::size_t addrs = 0x6ccafec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::JobProcessor*>(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::Unity::Jobs::JobHandle>)>(
     &::UnityEngine::UIElements::UIR::JobProcessor::ScheduleNudgeJobs_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6ccf4e4;
+  constexpr static std::size_t addrs = 0x6ccaee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::Unity::Jobs::JobHandle>)>(
     &::UnityEngine::UIElements::UIR::JobProcessor::ScheduleConvertMeshJobs_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6ccf594;
+  constexpr static std::size_t addrs = 0x6ccaf98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, ::by_ref<::Unity::Jobs::JobHandle>)>(
     &::UnityEngine::UIElements::UIR::JobProcessor::ScheduleCopyMeshJobs_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6ccf644;
+  constexpr static std::size_t addrs = 0x6ccb048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

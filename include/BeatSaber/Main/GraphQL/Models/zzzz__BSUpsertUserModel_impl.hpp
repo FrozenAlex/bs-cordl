@@ -3,13 +3,102 @@
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLModel_impl.hpp"
 #include "BeatSaber/Main/GraphQL/Models/zzzz__BSUpsertUserModel_def.hpp"
 #include "BeatSaber/Main/GraphQL/Models/zzzz__BSUpsertUserModel_def.hpp"
+//  Writing Method size for method: ::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel.set_Id
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel::*)(
+    ::StringW)>(&::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel::set_Id)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x329d120;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel*>(),
+                                         { "set_Id", {}, { ::i2c::type_of<::StringW>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel.get_Id
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<::StringW (::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel::*)()>(
+        &::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel::get_Id)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x329d128;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel*>(),
+                                         { "get_Id", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<void (::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel::*)()>(
+        &::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x329d130;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel*>(),
+                                         { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+constexpr ::StringW& BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel::__cordl_internal_get__Id_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Id_k__BackingField;
+}
+constexpr ::StringW const&
+BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel::__cordl_internal_get__Id_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Id_k__BackingField;
+}
+constexpr void
+BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel::__cordl_internal_set__Id_k__BackingField(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____Id_k__BackingField = value;
+}
+inline void BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel::set_Id(::StringW value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel*>(),
+                                              { "set_Id", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::StringW BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel::get_Id() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel*>(),
+                                              { "get_Id", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel*>(),
+                                              { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel*
+BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel*>());
+}
+// Ctor Parameters []
+constexpr ::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel::
+    BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel() {}
 //  Writing Method size for method: ::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel.set_Id
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel::*)(::StringW)>(
     &::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel::set_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f8c4;
+  constexpr static std::size_t addrs = 0x329d0fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,11 +113,46 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel::get_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f8cc;
+  constexpr static std::size_t addrs = 0x329d104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel*>(), { "get_Id", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel.set_ActiveEnvironmentPlayerRoot
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel::*)(
+    ::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel*)>(
+    &::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel::set_ActiveEnvironmentPlayerRoot)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x329d10c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel*>(),
+                            { "set_ActiveEnvironmentPlayerRoot",
+                              {},
+                              { ::i2c::type_of<::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel.get_ActiveEnvironmentPlayerRoot
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel* (
+    ::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel::*)()>(
+    &::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel::get_ActiveEnvironmentPlayerRoot)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x329d114;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel*>(), { "get_ActiveEnvironmentPlayerRoot", {}, {} })));
     return ___internal_method;
   }
 };
@@ -38,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x329f8d4;
+  constexpr static std::size_t addrs = 0x329d11c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,6 +182,21 @@ constexpr void BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSU
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Id_k__BackingField = value;
 }
+constexpr ::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel*&
+BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel::__cordl_internal_get__ActiveEnvironmentPlayerRoot_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____ActiveEnvironmentPlayerRoot_k__BackingField;
+}
+constexpr ::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel* const&
+BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel::__cordl_internal_get__ActiveEnvironmentPlayerRoot_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____ActiveEnvironmentPlayerRoot_k__BackingField;
+}
+constexpr void BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel::__cordl_internal_set__ActiveEnvironmentPlayerRoot_k__BackingField(
+    ::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____ActiveEnvironmentPlayerRoot_k__BackingField = value;
+}
 inline void BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel::set_Id(::StringW value) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel*>(),
@@ -68,6 +207,24 @@ inline ::StringW BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_B
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel*>(), { "get_Id", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline void BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel::set_ActiveEnvironmentPlayerRoot(
+    ::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel*>(),
+                          { "set_ActiveEnvironmentPlayerRoot",
+                            {},
+                            { ::i2c::type_of<::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
+}
+inline ::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel*
+BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel::get_ActiveEnvironmentPlayerRoot() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel*>(), { "get_ActiveEnvironmentPlayerRoot", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::BeatSaber::Main::GraphQL::Models::BeatGamesUserModel_XocBeatGamesUserUpsertModel_BSUpsertUserModel_ActiveEnvironmentPlayerRootModel*>(
+      this, ___internal_method);
 }
 inline void BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +244,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::
     ::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel*)>(
     &::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel_XocBeatGamesUserUpsertModel::set_BeatGamesUser)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f8b0;
+  constexpr static std::size_t addrs = 0x329d0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::GraphQL::Models::XocBeatGamesUserUpsertModel_BSUpsertUserModel_BeatGamesUserModel* (
     ::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel_XocBeatGamesUserUpsertModel::*)()>(&::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel_XocBeatGamesUserUpsertModel::get_BeatGamesUser)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f8b8;
+  constexpr static std::size_t addrs = 0x329d0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel_XocBeatGamesUserUpsertModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel_XocBeatGamesUserUpsertModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x329f8c0;
+  constexpr static std::size_t addrs = 0x329d0f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel::*)(
     ::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel_XocBeatGamesUserUpsertModel*)>(&::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel::set_XocBeatGamesUserUpsert)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f89c;
+  constexpr static std::size_t addrs = 0x329d0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel_XocBeatGamesUserUpsertModel* (::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel::get_XocBeatGamesUserUpsert)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f8a4;
+  constexpr static std::size_t addrs = 0x329d0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel::*)()>(&::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x329f8ac;
+  constexpr static std::size_t addrs = 0x329d0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel*>(), { ".ctor", {}, {} })));

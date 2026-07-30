@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::MissingMemberException::*)()>(&::System::MissingMemberException::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5c681b4;
+  constexpr static std::size_t addrs = 0x5c65f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::MissingMemberException*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::MissingMemberException::*)(::StringW)>(&::System::MissingMemberException::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c6814c;
+  constexpr static std::size_t addrs = 0x5c65eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::MissingMemberException*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::MissingMemberException::*)(::System::Runtime::Serialization::SerializationInfo*,
                                                                                                   ::System::Runtime::Serialization::StreamingContext)>(&::System::MissingMemberException::_ctor)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x5c68214;
+  constexpr static std::size_t addrs = 0x5c65f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::MissingMemberException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::MissingMemberException::GetObjectData)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5c68574;
+  constexpr static std::size_t addrs = 0x5c662e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::MissingMemberException::*)()>(&::System::MissingMemberException::get_Message)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5c68484;
+  constexpr static std::size_t addrs = 0x5c661f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<uint8_t>)>(&::System::MissingMemberException::FormatSignature)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c686c8;
+  constexpr static std::size_t addrs = 0x5c66434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::TimeValue::*)()>(&::UnityEngine::UIElements::TimeValue::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c91dc4;
+  constexpr static std::size_t addrs = 0x6c8d7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TimeValue>(), { "get_value", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TimeValue::*)(float_t)>(&::UnityEngine::UIElements::TimeValue::set_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c91dcc;
+  constexpr static std::size_t addrs = 0x6c8d7d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TimeUnit (::UnityEngine::UIElements::TimeValue::*)()>(&::UnityEngine::UIElements::TimeValue::get_unit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c91dd4;
+  constexpr static std::size_t addrs = 0x6c8d7d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TimeValue>(), { "get_unit", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TimeValue::*)(::UnityEngine::UIElements::TimeUnit)>(&::UnityEngine::UIElements::TimeValue::set_unit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c91ddc;
+  constexpr static std::size_t addrs = 0x6c8d7e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TimeValue::*)(float_t)>(&::UnityEngine::UIElements::TimeValue::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c91de4;
+  constexpr static std::size_t addrs = 0x6c8d7e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TimeValue>(), { ".ctor", {}, { ::i2c::type_of<float_t>() } })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TimeValue::*)(float_t, ::UnityEngine::UIElements::TimeUnit)>(&::UnityEngine::UIElements::TimeValue::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c91df0;
+  constexpr static std::size_t addrs = 0x6c8d7f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TimeValue>(),
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TimeValue (*)(float_t)>(&::UnityEngine::UIElements::TimeValue::op_Implicit___UnityEngine__UIElements__TimeValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c91dfc;
+  constexpr static std::size_t addrs = 0x6c8d800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::TimeValue, ::UnityEngine::UIElements::TimeValue)>(&::UnityEngine::UIElements::TimeValue::op_Equality)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c91e04;
+  constexpr static std::size_t addrs = 0x6c8d808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::TimeValue, ::UnityEngine::UIElements::TimeValue)>(&::UnityEngine::UIElements::TimeValue::op_Inequality)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c91e24;
+  constexpr static std::size_t addrs = 0x6c8d828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TimeValue::*)(::UnityEngine::UIElements::TimeValue)>(&::UnityEngine::UIElements::TimeValue::Equals)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6c91e44;
+  constexpr static std::size_t addrs = 0x6c8d848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TimeValue::*)(::System::Object*)>(&::UnityEngine::UIElements::TimeValue::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6c91e68;
+  constexpr static std::size_t addrs = 0x6c8d86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::TimeValue::*)()>(&::UnityEngine::UIElements::TimeValue::GetHashCode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6c91efc;
+  constexpr static std::size_t addrs = 0x6c8d900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::TimeValue::*)()>(&::UnityEngine::UIElements::TimeValue::ToString)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6c91f20;
+  constexpr static std::size_t addrs = 0x6c8d924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c921f4;
+  constexpr static std::size_t addrs = 0x6c8dbf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty*>(),
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c921fc;
+  constexpr static std::size_t addrs = 0x6c8dc00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty*>(),
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::*)(::by_ref<::UnityEngine::UIElements::TimeValue>)>(
     &::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c92204;
+  constexpr static std::size_t addrs = 0x6c8dc08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty*>(),
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::*)(::by_ref<::UnityEngine::UIElements::TimeValue>, float_t)>(
     &::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9220c;
+  constexpr static std::size_t addrs = 0x6c8dc10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty*>(),
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6c9212c;
+  constexpr static std::size_t addrs = 0x6c8db30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty*>(), { ".ctor", {}, {} })));
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c92214;
+  constexpr static std::size_t addrs = 0x6c8dc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty*>(),
@@ -394,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9221c;
+  constexpr static std::size_t addrs = 0x6c8dc20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty*>(),
@@ -408,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TimeUnit (::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::*)(
     ::by_ref<::UnityEngine::UIElements::TimeValue>)>(&::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c92224;
+  constexpr static std::size_t addrs = 0x6c8dc28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty*>(),
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::*)(
     ::by_ref<::UnityEngine::UIElements::TimeValue>, ::UnityEngine::UIElements::TimeUnit)>(&::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9222c;
+  constexpr static std::size_t addrs = 0x6c8dc30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty*>(),
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6c92190;
+  constexpr static std::size_t addrs = 0x6c8db94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty*>(), { ".ctor", {}, {} })));
@@ -501,7 +501,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TimeValue_PropertyBag::*)()>(&::UnityEngine::UIElements::TimeValue_PropertyBag::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6c92018;
+  constexpr static std::size_t addrs = 0x6c8da1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TimeValue_PropertyBag*>(), { ".ctor", {}, {} })));

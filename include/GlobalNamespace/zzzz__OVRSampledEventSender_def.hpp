@@ -47,13 +47,13 @@ public:
   static inline ::GlobalNamespace::OVRSampledEventSender* New_ctor(int32_t markerId, float_t recordRecordChance,
                                                                    ::System::Func_2<::GlobalNamespace::OVRTelemetryMarker, ::GlobalNamespace::OVRTelemetryMarker>* addAnnotationsFunc);
 
-  /// @brief Method Send, addr 0x5edbfb0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x5ed9d1c, size 0x30, virtual false, abstract: false, final false
   inline void Send();
 
-  /// @brief Method ShouldSendEvent, addr 0x5edc230, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendEvent, addr 0x5ed9f9c, size 0x40, virtual false, abstract: false, final false
   static inline bool ShouldSendEvent(float_t chance);
 
-  /// @brief Method Start, addr 0x5edc124, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5ed9e90, size 0x10c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::System::Func_2<::GlobalNamespace::OVRTelemetryMarker, ::GlobalNamespace::OVRTelemetryMarker>* const& __cordl_internal_get__addAnnotationsFunc() const;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__shouldSend(bool value);
 
-  /// @brief Method .ctor, addr 0x5edbfa0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ed9d0c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t markerId, float_t recordRecordChance, ::System::Func_2<::GlobalNamespace::OVRTelemetryMarker, ::GlobalNamespace::OVRTelemetryMarker>* addAnnotationsFunc);
 
 protected:

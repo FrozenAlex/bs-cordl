@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*)>(
     &::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::_ctor)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x336729c;
+  constexpr static std::size_t addrs = 0x3365864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x33630c0;
+  constexpr static std::size_t addrs = 0x3361688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::*)()>(&::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x33673dc;
+  constexpr static std::size_t addrs = 0x33659a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession*>(), { ".ctor", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::*)(::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey*)>(
     &::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3367444;
+  constexpr static std::size_t addrs = 0x3365a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession*>(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::*)(int32_t, ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey*)>(
     &::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3367454;
+  constexpr static std::size_t addrs = 0x3365a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::*)()>(&::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3367460;
+  constexpr static std::size_t addrs = 0x3365a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::get_Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3367468;
+  constexpr static std::size_t addrs = 0x3365a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession::ToAsn1Object)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3367470;
+  constexpr static std::size_t addrs = 0x3365a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

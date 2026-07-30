@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::ConnectionRequestResult (::LiteNetLib::ConnectionRequest::*)()>(&::LiteNetLib::ConnectionRequest::get_Result)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x589b8dc;
+  constexpr static std::size_t addrs = 0x5899d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::ConnectionRequest*>(), { "get_Result", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::ConnectionRequest::*)(::LiteNetLib::ConnectionRequestResult)>(&::LiteNetLib::ConnectionRequest::set_Result)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x589b8e4;
+  constexpr static std::size_t addrs = 0x5899d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::LiteNetLib::ConnectionRequest::*)()>(&::LiteNetLib::ConnectionRequest::TryActivate)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x589b8ec;
+  constexpr static std::size_t addrs = 0x5899d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::ConnectionRequest*>(), { "TryActivate", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::ConnectionRequest::*)(::LiteNetLib::NetConnectRequestPacket*)>(&::LiteNetLib::ConnectionRequest::UpdateRequest)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x589b914;
+  constexpr static std::size_t addrs = 0x5899dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::ConnectionRequest::*)(int64_t, uint8_t, ::LiteNetLib::Utils::NetDataReader*, ::System::Net::IPEndPoint*,
                                                                                                  ::LiteNetLib::NetManager*)>(&::LiteNetLib::ConnectionRequest::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x589b940;
+  constexpr static std::size_t addrs = 0x5899dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::NetPeer* (::LiteNetLib::ConnectionRequest::*)(::StringW)>(&::LiteNetLib::ConnectionRequest::AcceptIfKey)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x589b958;
+  constexpr static std::size_t addrs = 0x5899e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::NetPeer* (::LiteNetLib::ConnectionRequest::*)()>(&::LiteNetLib::ConnectionRequest::Accept)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x589bfe8;
+  constexpr static std::size_t addrs = 0x589a494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::ConnectionRequest*>(), { "Accept", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::ConnectionRequest::*)(::ArrayW<uint8_t>, int32_t, int32_t, bool)>(&::LiteNetLib::ConnectionRequest::Reject)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x589c050;
+  constexpr static std::size_t addrs = 0x589a4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::ConnectionRequest::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::LiteNetLib::ConnectionRequest::Reject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x589c0dc;
+  constexpr static std::size_t addrs = 0x589a588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::ConnectionRequest::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::LiteNetLib::ConnectionRequest::RejectForce)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x589c0e4;
+  constexpr static std::size_t addrs = 0x589a590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::ConnectionRequest::*)()>(&::LiteNetLib::ConnectionRequest::RejectForce)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x589c0ec;
+  constexpr static std::size_t addrs = 0x589a598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::ConnectionRequest*>(), { "RejectForce", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::ConnectionRequest::*)(::ArrayW<uint8_t>)>(&::LiteNetLib::ConnectionRequest::RejectForce)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x589c100;
+  constexpr static std::size_t addrs = 0x589a5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::ConnectionRequest::*)(::LiteNetLib::Utils::NetDataWriter*)>(&::LiteNetLib::ConnectionRequest::RejectForce)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x589c11c;
+  constexpr static std::size_t addrs = 0x589a5c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::ConnectionRequest::*)()>(&::LiteNetLib::ConnectionRequest::Reject)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x589c140;
+  constexpr static std::size_t addrs = 0x589a5ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::ConnectionRequest*>(), { "Reject", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::ConnectionRequest::*)(::ArrayW<uint8_t>)>(&::LiteNetLib::ConnectionRequest::Reject)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x589c154;
+  constexpr static std::size_t addrs = 0x589a600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::ConnectionRequest::*)(::LiteNetLib::Utils::NetDataWriter*)>(&::LiteNetLib::ConnectionRequest::Reject)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x589c170;
+  constexpr static std::size_t addrs = 0x589a61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

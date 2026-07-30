@@ -44,16 +44,16 @@ public:
 
   constexpr void __cordl_internal_set__methodName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x62f77a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62f5540, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW methodName);
 
-  /// @brief Method get_IsAny, addr 0x62f77b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsAny, addr 0x62f5550, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAny();
 
-  /// @brief Method get_MethodName, addr 0x62f77ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MethodName, addr 0x62f5548, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MethodName();
 
-  /// @brief Method set_IsAny, addr 0x62f77bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsAny, addr 0x62f5558, size 0x8, virtual false, abstract: false, final false
   inline void set_IsAny(bool value);
 
 protected:

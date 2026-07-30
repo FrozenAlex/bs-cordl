@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadStateException::*)()>(&::System::Threading::ThreadStateException::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5ca6fa4;
+  constexpr static std::size_t addrs = 0x5ca4d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ThreadStateException*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadStateException::*)(::StringW)>(&::System::Threading::ThreadStateException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5ca7004;
+  constexpr static std::size_t addrs = 0x5ca4d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ThreadStateException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Threading::ThreadStateException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca7028;
+  constexpr static std::size_t addrs = 0x5ca4d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

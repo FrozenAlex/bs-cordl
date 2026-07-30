@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::ARC4Managed::*)()>(&::Mono::Security::Cryptography::ARC4Managed::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5a9c3ac;
+  constexpr static std::size_t addrs = 0x5a9a1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::ARC4Managed*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::ARC4Managed::*)()>(&::Mono::Security::Cryptography::ARC4Managed::Finalize)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5a9c4b4;
+  constexpr static std::size_t addrs = 0x5a9a2f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::ARC4Managed::*)(bool)>(&::Mono::Security::Cryptography::ARC4Managed::Dispose)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5a9c504;
+  constexpr static std::size_t addrs = 0x5a9a348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::Cryptography::ARC4Managed::*)()>(&::Mono::Security::Cryptography::ARC4Managed::get_Key)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5a9c5b4;
+  constexpr static std::size_t addrs = 0x5a9a3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::ARC4Managed::*)(::ArrayW<uint8_t>)>(&::Mono::Security::Cryptography::ARC4Managed::set_Key)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5a9c648;
+  constexpr static std::size_t addrs = 0x5a9a48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::ICryptoTransform* (::Mono::Security::Cryptography::ARC4Managed::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Mono::Security::Cryptography::ARC4Managed::CreateEncryptor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a9c804;
+  constexpr static std::size_t addrs = 0x5a9a648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::ICryptoTransform* (::Mono::Security::Cryptography::ARC4Managed::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Mono::Security::Cryptography::ARC4Managed::CreateDecryptor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5a9c824;
+  constexpr static std::size_t addrs = 0x5a9a668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::ARC4Managed::*)()>(&::Mono::Security::Cryptography::ARC4Managed::GenerateIV)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5a9c850;
+  constexpr static std::size_t addrs = 0x5a9a694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::ARC4Managed::*)()>(&::Mono::Security::Cryptography::ARC4Managed::GenerateKey)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a9c8b0;
+  constexpr static std::size_t addrs = 0x5a9a6f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Cryptography::ARC4Managed::*)()>(&::Mono::Security::Cryptography::ARC4Managed::get_CanTransformMultipleBlocks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9c944;
+  constexpr static std::size_t addrs = 0x5a9a788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Security::Cryptography::ARC4Managed::*)()>(&::Mono::Security::Cryptography::ARC4Managed::get_InputBlockSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9c94c;
+  constexpr static std::size_t addrs = 0x5a9a790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::ARC4Managed*>(), { "get_InputBlockSize", {}, {} })));
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Security::Cryptography::ARC4Managed::*)()>(&::Mono::Security::Cryptography::ARC4Managed::get_OutputBlockSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9c954;
+  constexpr static std::size_t addrs = 0x5a9a798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::ARC4Managed*>(), { "get_OutputBlockSize", {}, {} })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::ARC4Managed::*)(::ArrayW<uint8_t>)>(&::Mono::Security::Cryptography::ARC4Managed::KeySetup)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5a9c724;
+  constexpr static std::size_t addrs = 0x5a9a568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::ARC4Managed::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Mono::Security::Cryptography::ARC4Managed::CheckInput)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5a9c95c;
+  constexpr static std::size_t addrs = 0x5a9a7a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Security::Cryptography::ARC4Managed::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<uint8_t>, int32_t)>(
     &::Mono::Security::Cryptography::ARC4Managed::TransformBlock)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x5a9ca98;
+  constexpr static std::size_t addrs = 0x5a9a8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Security::Cryptography::ARC4Managed::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<uint8_t>, int32_t)>(
     &::Mono::Security::Cryptography::ARC4Managed::InternalTransformBlock)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5a9cbf4;
+  constexpr static std::size_t addrs = 0x5a9aa38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::Cryptography::ARC4Managed::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Mono::Security::Cryptography::ARC4Managed::TransformFinalBlock)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5a9cd2c;
+  constexpr static std::size_t addrs = 0x5a9ab70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

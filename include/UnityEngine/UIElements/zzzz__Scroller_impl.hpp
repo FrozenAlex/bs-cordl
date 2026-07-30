@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Scroller_ScrollerSlider::*)(float_t, float_t, ::UnityEngine::UIElements::SliderDirection, float_t)>(
     &::UnityEngine::UIElements::Scroller_ScrollerSlider::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6d6c45c;
+  constexpr static std::size_t addrs = 0x6d67e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::Scroller_ScrollerSlider::*)(float_t, float_t, float_t)>(
     &::UnityEngine::UIElements::Scroller_ScrollerSlider::SliderNormalizeValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6d6cb18;
+  constexpr static std::size_t addrs = 0x6d6851c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Scroller_ScrollerSlider*>(),
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Scroller_UxmlFactory::*)()>(&::UnityEngine::UIElements::Scroller_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6d6cbe8;
+  constexpr static std::size_t addrs = 0x6d685ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Scroller_UxmlFactory*>(), { ".ctor", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Scroller_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::Scroller_UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x6d6cc50;
+  constexpr static std::size_t addrs = 0x6d68654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Scroller_UxmlTraits::*)()>(&::UnityEngine::UIElements::Scroller_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x6d6ce70;
+  constexpr static std::size_t addrs = 0x6d68874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Scroller_UxmlTraits*>(), { ".ctor", {}, {} })));
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(::System::Action_1<float_t>*)>(&::UnityEngine::UIElements::Scroller::add_valueChanged)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6d6bf38;
+  constexpr static std::size_t addrs = 0x6d6793c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(::System::Action_1<float_t>*)>(&::UnityEngine::UIElements::Scroller::remove_valueChanged)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6d6bff8;
+  constexpr static std::size_t addrs = 0x6d679fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Slider* (::UnityEngine::UIElements::Scroller::*)()>(&::UnityEngine::UIElements::Scroller::get_slider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d6c0b8;
+  constexpr static std::size_t addrs = 0x6d67abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Scroller*>(), { "get_slider", {}, {} })));
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::RepeatButton* (::UnityEngine::UIElements::Scroller::*)()>(&::UnityEngine::UIElements::Scroller::get_lowButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d6c0c0;
+  constexpr static std::size_t addrs = 0x6d67ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Scroller*>(), { "get_lowButton", {}, {} })));
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::RepeatButton* (::UnityEngine::UIElements::Scroller::*)()>(&::UnityEngine::UIElements::Scroller::get_highButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d6c0c8;
+  constexpr static std::size_t addrs = 0x6d67acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Scroller*>(), { "get_highButton", {}, {} })));
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::Scroller::*)()>(&::UnityEngine::UIElements::Scroller::get_value)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6d64968;
+  constexpr static std::size_t addrs = 0x6d6036c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Scroller*>(), { "get_value", {}, {} })));
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(float_t)>(&::UnityEngine::UIElements::Scroller::set_value)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6d64b00;
+  constexpr static std::size_t addrs = 0x6d60504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::Scroller::*)()>(&::UnityEngine::UIElements::Scroller::get_lowValue)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6d69c40;
+  constexpr static std::size_t addrs = 0x6d65644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Scroller*>(), { "get_lowValue", {}, {} })));
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(float_t)>(&::UnityEngine::UIElements::Scroller::set_lowValue)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6d6a28c;
+  constexpr static std::size_t addrs = 0x6d65c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::Scroller::*)()>(&::UnityEngine::UIElements::Scroller::get_highValue)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6d66024;
+  constexpr static std::size_t addrs = 0x6d61a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Scroller*>(), { "get_highValue", {}, {} })));
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(float_t)>(&::UnityEngine::UIElements::Scroller::set_highValue)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6d6a3d4;
+  constexpr static std::size_t addrs = 0x6d65dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::SliderDirection (::UnityEngine::UIElements::Scroller::*)()>(&::UnityEngine::UIElements::Scroller::get_direction)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6d6c0d0;
+  constexpr static std::size_t addrs = 0x6d67ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Scroller*>(), { "get_direction", {}, {} })));
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(::UnityEngine::UIElements::SliderDirection)>(
     &::UnityEngine::UIElements::Scroller::set_direction)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x6d6c190;
+  constexpr static std::size_t addrs = 0x6d67b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -344,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Scroller::*)()>(&::UnityEngine::UIElements::Scroller::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6d6c448;
+  constexpr static std::size_t addrs = 0x6d67e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Scroller*>(), { ".ctor", {}, {} })));
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(float_t, float_t, ::System::Action_1<float_t>*, ::UnityEngine::UIElements::SliderDirection)>(
     &::UnityEngine::UIElements::Scroller::_ctor)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x6d67294;
+  constexpr static std::size_t addrs = 0x6d62c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -373,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(float_t)>(&::UnityEngine::UIElements::Scroller::Adjust)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6d6a214;
+  constexpr static std::size_t addrs = 0x6d65c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Scroller*>(), { "Adjust", {}, { ::i2c::type_of<float_t>() } })));
@@ -386,7 +386,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(::UnityEngine::UIElements::ChangeEvent_1<float_t>*)>(
     &::UnityEngine::UIElements::Scroller::OnSliderValueChange)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6d6c4f0;
+  constexpr static std::size_t addrs = 0x6d67ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Scroller*>(),
@@ -399,7 +399,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Scroller::*)()>(&::UnityEngine::UIElements::Scroller::ScrollPageUp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d6c5ac;
+  constexpr static std::size_t addrs = 0x6d67fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Scroller*>(), { "ScrollPageUp", {}, {} })));
@@ -411,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Scroller::*)()>(&::UnityEngine::UIElements::Scroller::ScrollPageDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d6c674;
+  constexpr static std::size_t addrs = 0x6d68078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Scroller*>(), { "ScrollPageDown", {}, {} })));
@@ -423,7 +423,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(float_t)>(&::UnityEngine::UIElements::Scroller::ScrollPageUp)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6d6c5b4;
+  constexpr static std::size_t addrs = 0x6d67fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -436,7 +436,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(float_t)>(&::UnityEngine::UIElements::Scroller::ScrollPageDown)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6d6c67c;
+  constexpr static std::size_t addrs = 0x6d68080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

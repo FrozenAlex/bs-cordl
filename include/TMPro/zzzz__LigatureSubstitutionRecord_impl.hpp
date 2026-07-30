@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint32_t> (::TMPro::LigatureSubstitutionRecord::*)()>(&::TMPro::LigatureSubstitutionRecord::get_componentGlyphIDs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6932158;
+  constexpr static std::size_t addrs = 0x692fef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::LigatureSubstitutionRecord>(), { "get_componentGlyphIDs", {}, {} })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::LigatureSubstitutionRecord::*)(::ArrayW<uint32_t>)>(&::TMPro::LigatureSubstitutionRecord::set_componentGlyphIDs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6932160;
+  constexpr static std::size_t addrs = 0x692fefc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::TMPro::LigatureSubstitutionRecord::*)()>(&::TMPro::LigatureSubstitutionRecord::get_ligatureGlyphID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6932168;
+  constexpr static std::size_t addrs = 0x692ff04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::LigatureSubstitutionRecord>(), { "get_ligatureGlyphID", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::LigatureSubstitutionRecord::*)(uint32_t)>(&::TMPro::LigatureSubstitutionRecord::set_ligatureGlyphID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6932170;
+  constexpr static std::size_t addrs = 0x692ff0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::TMPro::LigatureSubstitutionRecord, ::TMPro::LigatureSubstitutionRecord)>(&::TMPro::LigatureSubstitutionRecord::op_Equality)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6932178;
+  constexpr static std::size_t addrs = 0x692ff14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::TMPro::LigatureSubstitutionRecord, ::TMPro::LigatureSubstitutionRecord)>(&::TMPro::LigatureSubstitutionRecord::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69321f0;
+  constexpr static std::size_t addrs = 0x692ff8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

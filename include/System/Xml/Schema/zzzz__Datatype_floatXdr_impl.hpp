@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::Datatype_floatXdr::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::Datatype_floatXdr::ParseValue)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x61c4ffc;
+  constexpr static std::size_t addrs = 0x61c2d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Datatype_floatXdr::*)()>(&::System::Xml::Schema::Datatype_floatXdr::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x61ba6fc;
+  constexpr static std::size_t addrs = 0x61b8498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_floatXdr*>(), { ".ctor", {}, {} })));

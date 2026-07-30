@@ -28,37 +28,37 @@ public:
   /// @brief Field xmlCharType, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_xmlCharType, put = setStaticF_xmlCharType)) ::System::Xml::XmlCharType xmlCharType;
 
-  /// @brief Method GetInvalidNameException, addr 0x62d3e80, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method GetInvalidNameException, addr 0x62d1c1c, size 0x1d0, virtual false, abstract: false, final false
   static inline ::System::Exception* GetInvalidNameException(::StringW s, int32_t offsetStartChar, int32_t offsetBadChar);
 
-  /// @brief Method IsNameNoNamespaces, addr 0x62d38a4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsNameNoNamespaces, addr 0x62d1640, size 0x84, virtual false, abstract: false, final false
   static inline bool IsNameNoNamespaces(::StringW s);
 
-  /// @brief Method ParseNCName, addr 0x62d3a68, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ParseNCName, addr 0x62d1804, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t ParseNCName(::StringW s);
 
-  /// @brief Method ParseNCName, addr 0x62d3928, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ParseNCName, addr 0x62d16c4, size 0x140, virtual false, abstract: false, final false
   static inline int32_t ParseNCName(::StringW s, int32_t offset);
 
-  /// @brief Method ParseNameNoNamespaces, addr 0x62d3744, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ParseNameNoNamespaces, addr 0x62d14e0, size 0x160, virtual false, abstract: false, final false
   static inline int32_t ParseNameNoNamespaces(::StringW s, int32_t offset);
 
-  /// @brief Method ParseNmtoken, addr 0x62d358c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ParseNmtoken, addr 0x62d1328, size 0xd8, virtual false, abstract: false, final false
   static inline int32_t ParseNmtoken(::StringW s, int32_t offset);
 
-  /// @brief Method ParseNmtokenNoNamespaces, addr 0x62d3664, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ParseNmtokenNoNamespaces, addr 0x62d1400, size 0xe0, virtual false, abstract: false, final false
   static inline int32_t ParseNmtokenNoNamespaces(::StringW s, int32_t offset);
 
-  /// @brief Method ParseQName, addr 0x62d3ac4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ParseQName, addr 0x62d1860, size 0xe4, virtual false, abstract: false, final false
   static inline int32_t ParseQName(::StringW s, int32_t offset, ::by_ref<int32_t> colonOffset);
 
-  /// @brief Method ParseQNameThrow, addr 0x62d3ba8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ParseQNameThrow, addr 0x62d1944, size 0x11c, virtual false, abstract: false, final false
   static inline void ParseQNameThrow(::StringW s, ::by_ref<::StringW> prefix, ::by_ref<::StringW> localName);
 
-  /// @brief Method SplitQName, addr 0x62d4050, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SplitQName, addr 0x62d1dec, size 0x130, virtual false, abstract: false, final false
   static inline void SplitQName(::StringW name, ::by_ref<::StringW> prefix, ::by_ref<::StringW> lname);
 
-  /// @brief Method ThrowInvalidName, addr 0x62d3cc4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidName, addr 0x62d1a60, size 0x188, virtual false, abstract: false, final false
   static inline void ThrowInvalidName(::StringW s, int32_t offsetStartChar, int32_t offsetBadChar);
 
   static inline ::System::Xml::XmlCharType getStaticF_xmlCharType();

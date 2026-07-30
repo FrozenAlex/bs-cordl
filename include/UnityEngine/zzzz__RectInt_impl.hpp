@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::RectInt::*)()>(&::UnityEngine::RectInt::get_x)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a7c894;
+  constexpr static std::size_t addrs = 0x6a7a630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { "get_x", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::RectInt::*)(int32_t)>(&::UnityEngine::RectInt::set_x)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a7c89c;
+  constexpr static std::size_t addrs = 0x6a7a638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { "set_x", {}, { ::i2c::type_of<int32_t>() } })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::RectInt::*)()>(&::UnityEngine::RectInt::get_y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a7c8a4;
+  constexpr static std::size_t addrs = 0x6a7a640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { "get_y", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::RectInt::*)(int32_t)>(&::UnityEngine::RectInt::set_y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a7c8ac;
+  constexpr static std::size_t addrs = 0x6a7a648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { "set_y", {}, { ::i2c::type_of<int32_t>() } })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::RectInt::*)()>(&::UnityEngine::RectInt::get_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a7c8b4;
+  constexpr static std::size_t addrs = 0x6a7a650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { "get_width", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::RectInt::*)(int32_t)>(&::UnityEngine::RectInt::set_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a7c8bc;
+  constexpr static std::size_t addrs = 0x6a7a658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { "set_width", {}, { ::i2c::type_of<int32_t>() } })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::RectInt::*)()>(&::UnityEngine::RectInt::get_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a7c8c4;
+  constexpr static std::size_t addrs = 0x6a7a660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { "get_height", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::RectInt::*)(int32_t)>(&::UnityEngine::RectInt::set_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a7c8cc;
+  constexpr static std::size_t addrs = 0x6a7a668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { "set_height", {}, { ::i2c::type_of<int32_t>() } })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::RectInt::*)()>(&::UnityEngine::RectInt::get_xMin)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6a7c8d4;
+  constexpr static std::size_t addrs = 0x6a7a670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { "get_xMin", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::RectInt::*)()>(&::UnityEngine::RectInt::get_yMin)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6a7c93c;
+  constexpr static std::size_t addrs = 0x6a7a6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { "get_yMin", {}, {} })));
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::RectInt::*)()>(&::UnityEngine::RectInt::get_xMax)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6a7c9a4;
+  constexpr static std::size_t addrs = 0x6a7a740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { "get_xMax", {}, {} })));
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::RectInt::*)()>(&::UnityEngine::RectInt::get_yMax)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6a7ca0c;
+  constexpr static std::size_t addrs = 0x6a7a7a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { "get_yMax", {}, {} })));
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::RectInt::*)(int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::RectInt::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a7ca74;
+  constexpr static std::size_t addrs = 0x6a7a810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::RectInt::*)(::UnityEngine::RectInt)>(&::UnityEngine::RectInt::Overlaps)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x6a7ca80;
+  constexpr static std::size_t addrs = 0x6a7a81c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::RectInt::*)()>(&::UnityEngine::RectInt::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6a7cd1c;
+  constexpr static std::size_t addrs = 0x6a7aab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { ::i2c::class_of<::UnityEngine::RectInt>(), 3 }));
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::RectInt::*)(::StringW, ::System::IFormatProvider*)>(&::UnityEngine::RectInt::ToString)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x6a7cd2c;
+  constexpr static std::size_t addrs = 0x6a7aac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::RectInt::*)()>(&::UnityEngine::RectInt::GetHashCode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6a7cf3c;
+  constexpr static std::size_t addrs = 0x6a7acd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { ::i2c::class_of<::UnityEngine::RectInt>(), 2 }));
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::RectInt::*)(::System::Object*)>(&::UnityEngine::RectInt::Equals)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6a7cf60;
+  constexpr static std::size_t addrs = 0x6a7acfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { ::i2c::class_of<::UnityEngine::RectInt>(), 0 }));
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::RectInt::*)(::UnityEngine::RectInt)>(&::UnityEngine::RectInt::Equals)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a7d00c;
+  constexpr static std::size_t addrs = 0x6a7ada8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::RectInt>(), { "Equals", {}, { ::i2c::type_of<::UnityEngine::RectInt>() } })));

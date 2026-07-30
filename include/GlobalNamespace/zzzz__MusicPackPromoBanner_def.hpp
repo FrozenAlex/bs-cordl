@@ -21,9 +21,6 @@ class Image;
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine {
-class RectTransform;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class MusicPackPromoBanner;
@@ -38,10 +35,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE MusicPackPromoBanner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _backgroundImage, offset 0x40, size 0x8
+  /// @brief Field _backgroundImage, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__backgroundImage, put = __cordl_internal_set__backgroundImage)) ::UnityW<::UnityEngine::UI::Image> _backgroundImage;
 
-  /// @brief Field _goButton, offset 0x48, size 0x8
+  /// @brief Field _goButton, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__goButton, put = __cordl_internal_set__goButton)) ::UnityW<::UnityEngine::UI::Button> _goButton;
 
   /// @brief Field _loadingIndicator, offset 0x28, size 0x8
@@ -50,17 +47,14 @@ public:
   /// @brief Field _promoBannerGo, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__promoBannerGo, put = __cordl_internal_set__promoBannerGo)) ::UnityW<::UnityEngine::GameObject> _promoBannerGo;
 
-  /// @brief Field _promoBannerTransform, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__promoBannerTransform, put = __cordl_internal_set__promoBannerTransform)) ::UnityW<::UnityEngine::RectTransform> _promoBannerTransform;
-
-  /// @brief Field <promoInfo>k__BackingField, offset 0x50, size 0x8
+  /// @brief Field <promoInfo>k__BackingField, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__promoInfo_k__BackingField,
                       put = __cordl_internal_set__promoInfo_k__BackingField)) ::GlobalNamespace::DlcPromoPanelModel_PromoInfo* _promoInfo_k__BackingField;
 
-  /// @brief Field _promoText, offset 0x38, size 0x8
+  /// @brief Field _promoText, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__promoText, put = __cordl_internal_set__promoText)) ::UnityW<::TMPro::TextMeshProUGUI> _promoText;
 
-  /// @brief Field _text, offset 0x58, size 0x8
+  /// @brief Field _text, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::StringW _text;
 
   __declspec(property(get = get_promoButtonText)) ::StringW promoButtonText;
@@ -69,10 +63,10 @@ public:
 
   static inline ::GlobalNamespace::MusicPackPromoBanner* New_ctor();
 
-  /// @brief Method Setup, addr 0x5a1f064, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5a1cecc, size 0x13c, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* newPromoInfo, bool probablyOwned);
 
-  /// @brief Method StartLoading, addr 0x5a1eff8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method StartLoading, addr 0x5a1ce60, size 0x6c, virtual false, abstract: false, final false
   inline void StartLoading();
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__backgroundImage() const;
@@ -90,10 +84,6 @@ public:
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__promoBannerGo() const;
 
   constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__promoBannerGo();
-
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__promoBannerTransform() const;
-
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__promoBannerTransform();
 
   constexpr ::GlobalNamespace::DlcPromoPanelModel_PromoInfo* const& __cordl_internal_get__promoInfo_k__BackingField() const;
 
@@ -115,24 +105,22 @@ public:
 
   constexpr void __cordl_internal_set__promoBannerGo(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr void __cordl_internal_set__promoBannerTransform(::UnityW<::UnityEngine::RectTransform> value);
-
   constexpr void __cordl_internal_set__promoInfo_k__BackingField(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* value);
 
   constexpr void __cordl_internal_set__promoText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
   constexpr void __cordl_internal_set__text(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5a1f1c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a1d008, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_promoButtonText, addr 0x5a1eff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promoButtonText, addr 0x5a1ce58, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_promoButtonText();
 
-  /// @brief Method get_promoInfo, addr 0x5a1efe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promoInfo, addr 0x5a1ce48, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DlcPromoPanelModel_PromoInfo* get_promoInfo();
 
-  /// @brief Method set_promoInfo, addr 0x5a1efe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_promoInfo, addr 0x5a1ce50, size 0x8, virtual false, abstract: false, final false
   inline void set_promoInfo(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* value);
 
 protected:
@@ -150,7 +138,7 @@ public:
   MusicPackPromoBanner(MusicPackPromoBanner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6466 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6462 };
 
   /// @brief Field kGetNow offset 0xffffffff size 0x8
   static constexpr ::ConstString kGetNow{ u"PROMO_GET_NOW_LABEL" };
@@ -164,22 +152,19 @@ public:
   /// @brief Field _loadingIndicator, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____loadingIndicator;
 
-  /// @brief Field _promoBannerTransform, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::RectTransform> ____promoBannerTransform;
-
-  /// @brief Field _promoText, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _promoText, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____promoText;
 
-  /// @brief Field _backgroundImage, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _backgroundImage, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____backgroundImage;
 
-  /// @brief Field _goButton, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _goButton, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____goButton;
 
-  /// @brief Field <promoInfo>k__BackingField, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field <promoInfo>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::DlcPromoPanelModel_PromoInfo* ____promoInfo_k__BackingField;
 
-  /// @brief Field _text, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _text, offset: 0x50, size: 0x8, def value: None
   ::StringW ____text;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -189,18 +174,16 @@ static_assert(offsetof(::GlobalNamespace::MusicPackPromoBanner, ____promoBannerG
 
 static_assert(offsetof(::GlobalNamespace::MusicPackPromoBanner, ____loadingIndicator) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MusicPackPromoBanner, ____promoBannerTransform) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MusicPackPromoBanner, ____promoText) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MusicPackPromoBanner, ____promoText) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MusicPackPromoBanner, ____backgroundImage) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MusicPackPromoBanner, ____backgroundImage) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MusicPackPromoBanner, ____goButton) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MusicPackPromoBanner, ____goButton) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MusicPackPromoBanner, ____promoInfo_k__BackingField) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MusicPackPromoBanner, ____promoInfo_k__BackingField) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MusicPackPromoBanner, ____text) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MusicPackPromoBanner, ____text) == 0x58, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::MusicPackPromoBanner) == 0x60, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::MusicPackPromoBanner) == 0x58, "Size mismatch!");
 
 } // namespace GlobalNamespace

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* (::Zenject::SceneDecoratorContext::*)()>(
     &::Zenject::SceneDecoratorContext::get_LateInstallers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e71d0c;
+  constexpr static std::size_t addrs = 0x6e6d710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneDecoratorContext*>(), { "get_LateInstallers", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SceneDecoratorContext::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>*)>(
     &::Zenject::SceneDecoratorContext::set_LateInstallers)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6e71d14;
+  constexpr static std::size_t addrs = 0x6e6d718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* (::Zenject::SceneDecoratorContext::*)()>(
     &::Zenject::SceneDecoratorContext::get_LateInstallerPrefabs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e71dd0;
+  constexpr static std::size_t addrs = 0x6e6d7d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneDecoratorContext*>(), { "get_LateInstallerPrefabs", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SceneDecoratorContext::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>*)>(
     &::Zenject::SceneDecoratorContext::set_LateInstallerPrefabs)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6e71dd8;
+  constexpr static std::size_t addrs = 0x6e6d7dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* (::Zenject::SceneDecoratorContext::*)()>(
     &::Zenject::SceneDecoratorContext::get_LateScriptableObjectInstallers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e71e94;
+  constexpr static std::size_t addrs = 0x6e6d898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneDecoratorContext*>(), { "get_LateScriptableObjectInstallers", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SceneDecoratorContext::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>*)>(
     &::Zenject::SceneDecoratorContext::set_LateScriptableObjectInstallers)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6e71e9c;
+  constexpr static std::size_t addrs = 0x6e6d8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Zenject::SceneDecoratorContext::*)()>(&::Zenject::SceneDecoratorContext::get_DecoratedContractName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e71f58;
+  constexpr static std::size_t addrs = 0x6e6d95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneDecoratorContext*>(), { "get_DecoratedContractName", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::DiContainer* (::Zenject::SceneDecoratorContext::*)()>(&::Zenject::SceneDecoratorContext::get_Container)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6e71f60;
+  constexpr static std::size_t addrs = 0x6e6d964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* (::Zenject::SceneDecoratorContext::*)()>(
     &::Zenject::SceneDecoratorContext::GetRootGameObjects)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6e71f80;
+  constexpr static std::size_t addrs = 0x6e6d984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SceneDecoratorContext::*)(::Zenject::DiContainer*)>(&::Zenject::SceneDecoratorContext::Initialize)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6e707f0;
+  constexpr static std::size_t addrs = 0x6e6c1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SceneDecoratorContext::*)()>(&::Zenject::SceneDecoratorContext::InstallDecoratorSceneBindings)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6e70f50;
+  constexpr static std::size_t addrs = 0x6e6c954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneDecoratorContext*>(), { "InstallDecoratorSceneBindings", {}, {} })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SceneDecoratorContext::*)()>(&::Zenject::SceneDecoratorContext::InstallDecoratorInstallers)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e70fd4;
+  constexpr static std::size_t addrs = 0x6e6c9d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneDecoratorContext*>(), { "InstallDecoratorInstallers", {}, {} })));
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SceneDecoratorContext::*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*)>(
     &::Zenject::SceneDecoratorContext::GetInjectableMonoBehaviours)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e71fa8;
+  constexpr static std::size_t addrs = 0x6e6d9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SceneDecoratorContext::*)()>(&::Zenject::SceneDecoratorContext::InstallLateDecoratorInstallers)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6e70fe0;
+  constexpr static std::size_t addrs = 0x6e6c9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneDecoratorContext*>(), { "InstallLateDecoratorInstallers", {}, {} })));
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SceneDecoratorContext::*)()>(&::Zenject::SceneDecoratorContext::_ctor)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6e71ff4;
+  constexpr static std::size_t addrs = 0x6e6d9f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneDecoratorContext*>(), { ".ctor", {}, {} })));
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::SceneDecoratorContext::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6e7211c;
+  constexpr static std::size_t addrs = 0x6e6db20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SceneDecoratorContext*>(), { "__zenCreateInjectTypeInfo", {}, {} })));

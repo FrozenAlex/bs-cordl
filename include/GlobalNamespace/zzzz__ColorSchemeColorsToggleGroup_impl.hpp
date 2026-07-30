@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(::System::Action_1<::UnityEngine::Color>*)>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::add_selectedColorDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x591d640;
+  constexpr static std::size_t addrs = 0x591bb60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(::System::Action_1<::UnityEngine::Color>*)>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::remove_selectedColorDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x591d700;
+  constexpr static std::size_t addrs = 0x591bc20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)()>(&::GlobalNamespace::ColorSchemeColorsToggleGroup::get_color)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x591d7c0;
+  constexpr static std::size_t addrs = 0x591bce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemeColorsToggleGroup*>(), { "get_color", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(::UnityEngine::Color)>(&::GlobalNamespace::ColorSchemeColorsToggleGroup::set_color)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x591d80c;
+  constexpr static std::size_t addrs = 0x591bd2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(::GlobalNamespace::ColorScheme*)>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::SetColorScheme)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x591d8ac;
+  constexpr static std::size_t addrs = 0x591bdcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)()>(&::GlobalNamespace::ColorSchemeColorsToggleGroup::Awake)> {
   constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x591d98c;
+  constexpr static std::size_t addrs = 0x591beac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemeColorsToggleGroup*>(), { "Awake", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)()>(&::GlobalNamespace::ColorSchemeColorsToggleGroup::OnDestroy)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x591de00;
+  constexpr static std::size_t addrs = 0x591c320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemeColorsToggleGroup*>(), { "OnDestroy", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(::GlobalNamespace::ColorSchemeColorToggleController*, bool)>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::HandleToggleWasSelected)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x591de18;
+  constexpr static std::size_t addrs = 0x591c338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorScheme* (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)()>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::CreateColorSchemeFromEditedColors)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x591de58;
+  constexpr static std::size_t addrs = 0x591c378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)()>(&::GlobalNamespace::ColorSchemeColorsToggleGroup::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x591e01c;
+  constexpr static std::size_t addrs = 0x591c53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemeColorsToggleGroup*>(), { ".ctor", {}, {} })));
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(bool)>(&::GlobalNamespace::ColorSchemeColorsToggleGroup::_Awake_b__17_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x591e020;
+  constexpr static std::size_t addrs = 0x591c540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(bool)>(&::GlobalNamespace::ColorSchemeColorsToggleGroup::_Awake_b__17_1)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x591e030;
+  constexpr static std::size_t addrs = 0x591c550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(bool)>(&::GlobalNamespace::ColorSchemeColorsToggleGroup::_Awake_b__17_2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x591e040;
+  constexpr static std::size_t addrs = 0x591c560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(bool)>(&::GlobalNamespace::ColorSchemeColorsToggleGroup::_Awake_b__17_3)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x591e050;
+  constexpr static std::size_t addrs = 0x591c570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(bool)>(&::GlobalNamespace::ColorSchemeColorsToggleGroup::_Awake_b__17_4)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x591e060;
+  constexpr static std::size_t addrs = 0x591c580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(bool)>(&::GlobalNamespace::ColorSchemeColorsToggleGroup::_Awake_b__17_5)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x591e070;
+  constexpr static std::size_t addrs = 0x591c590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(bool)>(&::GlobalNamespace::ColorSchemeColorsToggleGroup::_Awake_b__17_6)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x591e080;
+  constexpr static std::size_t addrs = 0x591c5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

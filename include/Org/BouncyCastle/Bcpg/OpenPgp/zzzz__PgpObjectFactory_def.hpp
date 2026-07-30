@@ -42,20 +42,20 @@ public:
   /// @brief Field bcpgIn, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_bcpgIn, put = __cordl_internal_set_bcpgIn)) ::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn;
 
-  /// @brief Method AllPgpObjects, addr 0x3584e78, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method AllPgpObjects, addr 0x3583440, size 0x10c, virtual false, abstract: false, final false
   inline ::System::Collections::IList* AllPgpObjects();
 
-  /// @brief Method FilterPgpObjects, addr 0x3584f84, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method FilterPgpObjects, addr 0x358354c, size 0x13c, virtual false, abstract: false, final false
   inline ::System::Collections::IList* FilterPgpObjects(::System::Type* type);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory* New_ctor(::ArrayW<uint8_t> bytes);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory* New_ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method NextObject, addr 0x3584e74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NextObject, addr 0x358343c, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* NextObject();
 
-  /// @brief Method NextPgpObject, addr 0x35842f0, size 0xaac, virtual false, abstract: false, final false
+  /// @brief Method NextPgpObject, addr 0x35828b8, size 0xaac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject* NextPgpObject();
 
   constexpr ::Org::BouncyCastle::Bcpg::BcpgInputStream* const& __cordl_internal_get_bcpgIn() const;
@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set_bcpgIn(::Org::BouncyCastle::Bcpg::BcpgInputStream* value);
 
-  /// @brief Method .ctor, addr 0x3584274, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x358283c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> bytes);
 
-  /// @brief Method .ctor, addr 0x3584254, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x358281c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inputStream);
 
 protected:

@@ -26,10 +26,10 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_time* New_ctor();
 
-  /// @brief Method .ctor, addr 0x61bab54, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b88f0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeCode, addr 0x61c0f64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x61bed00, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:

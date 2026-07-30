@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ENet::ENetAddress (::ENet::Address::*)()>(&::ENet::Address::get_NativeData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5893f0c;
+  constexpr static std::size_t addrs = 0x58923b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Address>(), { "get_NativeData", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Address::*)(::ENet::ENetAddress)>(&::ENet::Address::set_NativeData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5893f20;
+  constexpr static std::size_t addrs = 0x58923cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Address>(), { "set_NativeData", {}, { ::i2c::type_of<::ENet::ENetAddress>() } })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Address::*)(::ENet::ENetAddress)>(&::ENet::Address::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5893f34;
+  constexpr static std::size_t addrs = 0x58923e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Address>(), { ".ctor", {}, { ::i2c::type_of<::ENet::ENetAddress>() } })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::ENet::Address::*)()>(&::ENet::Address::get_Port)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5893f48;
+  constexpr static std::size_t addrs = 0x58923f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Address>(), { "get_Port", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Address::*)(uint16_t)>(&::ENet::Address::set_Port)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5893f50;
+  constexpr static std::size_t addrs = 0x58923fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Address>(), { "set_Port", {}, { ::i2c::type_of<uint16_t>() } })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::ENet::Address::*)()>(&::ENet::Address::GetIP)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5893f58;
+  constexpr static std::size_t addrs = 0x5892404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Address>(), { "GetIP", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::ENet::Address::*)(::StringW)>(&::ENet::Address::SetIP)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x58940cc;
+  constexpr static std::size_t addrs = 0x5892578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Address>(), { "SetIP", {}, { ::i2c::type_of<::StringW>() } })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::ENet::Address::*)()>(&::ENet::Address::GetHost)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x58941d4;
+  constexpr static std::size_t addrs = 0x5892680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Address>(), { "GetHost", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::ENet::Address::*)(::StringW)>(&::ENet::Address::SetHost)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5894348;
+  constexpr static std::size_t addrs = 0x58927f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Address>(), { "SetHost", {}, { ::i2c::type_of<::StringW>() } })));

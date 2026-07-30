@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::GetInstance)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x344e524;
+  constexpr static std::size_t addrs = 0x344caec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::GetInstance)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x344e81c;
+  constexpr static std::size_t addrs = 0x344cde4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x344e714;
+  constexpr static std::size_t addrs = 0x344ccdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::*)(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x344e70c;
+  constexpr static std::size_t addrs = 0x344ccd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::*)(
     ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x344e890;
+  constexpr static std::size_t addrs = 0x344ce58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice (::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::get_Type)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x344e930;
+  constexpr static std::size_t addrs = 0x344cef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::GetCertificateBytes)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x344e950;
+  constexpr static std::size_t addrs = 0x344cf18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::ToAsn1Object)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x344ea50;
+  constexpr static std::size_t addrs = 0x344d018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>(),

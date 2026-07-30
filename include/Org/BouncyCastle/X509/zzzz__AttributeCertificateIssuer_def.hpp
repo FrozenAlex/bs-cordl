@@ -54,28 +54,28 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x364253c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x3640b04, size 0x70, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method Equals, addr 0x364274c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3640d14, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x3642804, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3640dcc, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetNames, addr 0x3641fe4, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method GetNames, addr 0x36405ac, size 0x208, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*> GetNames();
 
-  /// @brief Method GetPrincipals, addr 0x36421ec, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetPrincipals, addr 0x36407b4, size 0x1cc, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509Name*> GetPrincipals();
 
-  /// @brief Method Match, addr 0x364281c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Match, addr 0x3640de4, size 0x9c, virtual true, abstract: false, final true
   inline bool Match(::System::Object* obj);
 
-  /// @brief Method Match, addr 0x36425ac, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Match, addr 0x3640b74, size 0x1a0, virtual false, abstract: false, final false
   inline bool Match(::Org::BouncyCastle::X509::X509Certificate* x509Cert);
 
-  /// @brief Method MatchesDN, addr 0x36423b8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method MatchesDN, addr 0x3640980, size 0x184, virtual false, abstract: false, final false
   inline bool MatchesDN(::Org::BouncyCastle::Asn1::X509::X509Name* subject, ::Org::BouncyCastle::Asn1::X509::GeneralNames* targets);
 
   static inline ::Org::BouncyCastle::X509::AttributeCertificateIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::AttCertIssuer* issuer);
@@ -88,10 +88,10 @@ public:
 
   constexpr void __cordl_internal_set_form(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x3641f08, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36404d0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AttCertIssuer* issuer);
 
-  /// @brief Method .ctor, addr 0x3641f20, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36404e8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* principal);
 
   /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Selector"

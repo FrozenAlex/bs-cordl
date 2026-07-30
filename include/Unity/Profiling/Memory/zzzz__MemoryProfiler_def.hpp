@@ -53,22 +53,22 @@ public:
   /// @brief Field m_SnapshotFinished, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_SnapshotFinished, put = setStaticF_m_SnapshotFinished)) ::System::Action_2<::StringW, bool>* m_SnapshotFinished;
 
-  /// @brief Method FinalizeSnapshot, addr 0x6a59474, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method FinalizeSnapshot, addr 0x6a57210, size 0x88, virtual false, abstract: false, final false
   static inline void FinalizeSnapshot(::StringW path, bool result);
 
-  /// @brief Method PrepareMetadata, addr 0x6a59128, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method PrepareMetadata, addr 0x6a56ec4, size 0x1f8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> PrepareMetadata();
 
-  /// @brief Method SaveScreenshotToDisk, addr 0x6a594fc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SaveScreenshotToDisk, addr 0x6a57298, size 0xf0, virtual false, abstract: false, final false
   static inline void SaveScreenshotToDisk(::StringW path, bool result, ::System::IntPtr pixelsPtr, int32_t pixelsCount, ::UnityEngine::TextureFormat format, int32_t width, int32_t height);
 
-  /// @brief Method WriteIntToByteArray, addr 0x6a59320, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method WriteIntToByteArray, addr 0x6a570bc, size 0x88, virtual false, abstract: false, final false
   static inline int32_t WriteIntToByteArray(::ArrayW<uint8_t> array, int32_t offset, int32_t value);
 
-  /// @brief Method WriteStringToByteArray, addr 0x6a593a8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WriteStringToByteArray, addr 0x6a57144, size 0x78, virtual false, abstract: false, final false
   static inline int32_t WriteStringToByteArray(::ArrayW<uint8_t> array, int32_t offset, ::StringW value);
 
-  /// @brief Method add_CreatingMetadata, addr 0x6a58f60, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method add_CreatingMetadata, addr 0x6a56cfc, size 0xe4, virtual false, abstract: false, final false
   static inline void add_CreatingMetadata(::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>* value);
 
   static inline ::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>* getStaticF_CreatingMetadata();
@@ -77,7 +77,7 @@ public:
 
   static inline ::System::Action_2<::StringW, bool>* getStaticF_m_SnapshotFinished();
 
-  /// @brief Method remove_CreatingMetadata, addr 0x6a59044, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method remove_CreatingMetadata, addr 0x6a56de0, size 0xe4, virtual false, abstract: false, final false
   static inline void remove_CreatingMetadata(::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>* value);
 
   static inline void setStaticF_CreatingMetadata(::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>* value);

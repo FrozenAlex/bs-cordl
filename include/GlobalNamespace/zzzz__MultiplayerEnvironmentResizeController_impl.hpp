@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeType (
     ::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::*)()>(&::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::get_resizeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59d10a0;
+  constexpr static std::size_t addrs = 0x59cf710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::get_offset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59d10a8;
+  constexpr static std::size_t addrs = 0x59cf718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>> (::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::get_lights)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59d10b0;
+  constexpr static std::size_t addrs = 0x59cf720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Transform>> (::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::get_otherTransforms)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59d10b8;
+  constexpr static std::size_t addrs = 0x59cf728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController_ResizeData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59d10c0;
+  constexpr static std::size_t addrs = 0x59cf730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::get_isResizingFinished)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59d09a8;
+  constexpr static std::size_t addrs = 0x59cf018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)(::System::Action*)>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::add_resizingDidFinishEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59d09b0;
+  constexpr static std::size_t addrs = 0x59cf020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerEnvironmentResizeController*>(),
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)(::System::Action*)>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::remove_resizingDidFinishEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59d0a5c;
+  constexpr static std::size_t addrs = 0x59cf0cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerEnvironmentResizeController*>(),
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)()>(&::GlobalNamespace::MultiplayerEnvironmentResizeController::Start)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x59d0b08;
+  constexpr static std::size_t addrs = 0x59cf178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerEnvironmentResizeController*>(), { "Start", {}, {} })));
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)()>(&::GlobalNamespace::MultiplayerEnvironmentResizeController::OnDestroy)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x59d0ce0;
+  constexpr static std::size_t addrs = 0x59cf350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerEnvironmentResizeController*>(), { "OnDestroy", {}, {} })));
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::HandleEdgeDistanceFromCenterWasCalculated)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59d0cb0;
+  constexpr static std::size_t addrs = 0x59cf320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerEnvironmentResizeController*>(),
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerEnvironmentResizeController::HandleSpawnCenterDistanceWasFound)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59d0cc8;
+  constexpr static std::size_t addrs = 0x59cf338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)()>(&::GlobalNamespace::MultiplayerEnvironmentResizeController::TryResize)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59d0ea4;
+  constexpr static std::size_t addrs = 0x59cf514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerEnvironmentResizeController*>(), { "TryResize", {}, {} })));
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)()>(&::GlobalNamespace::MultiplayerEnvironmentResizeController::Resize)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x59d0ebc;
+  constexpr static std::size_t addrs = 0x59cf52c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerEnvironmentResizeController*>(), { "Resize", {}, {} })));
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentResizeController::*)()>(&::GlobalNamespace::MultiplayerEnvironmentResizeController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59d109c;
+  constexpr static std::size_t addrs = 0x59cf70c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerEnvironmentResizeController*>(), { ".ctor", {}, {} })));

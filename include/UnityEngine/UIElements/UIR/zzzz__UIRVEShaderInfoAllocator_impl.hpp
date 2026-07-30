@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::get_pageWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cf13ec;
+  constexpr static std::size_t addrs = 0x6cecdf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator*>(), { "get_pageWidth", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::get_pageHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cf13f4;
+  constexpr static std::size_t addrs = 0x6cecdf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::AcquireDefaultShaderInfoTexture)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x6cf13fc;
+  constexpr static std::size_t addrs = 0x6cece00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::ReleaseDefaultShaderInfoTexture)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6cf16c0;
+  constexpr static std::size_t addrs = 0x6ced0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2Int (*)(::by_ref<::UnityEngine::UIElements::UIR::BitmapAllocator32>, ::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::AllocToTexelCoord)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6cf1780;
+  constexpr static std::size_t addrs = 0x6ced184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::UIElements::UIR::BitmapAllocator32>, ::UnityEngine::UIElements::UIR::BMPAlloc, ::UnityEngine::RectInt)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::AtlasRectMatchesPage)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6cf17d0;
+  constexpr static std::size_t addrs = 0x6ced1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture> (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::get_atlas)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6cf1940;
+  constexpr static std::size_t addrs = 0x6ced344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator*>(), { "get_atlas", {}, {} })));
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(::UnityEngine::ColorSpace)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::_ctor)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6cf19c8;
+  constexpr static std::size_t addrs = 0x6ced3cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::ReallyCreateStorage)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x6cf1b04;
+  constexpr static std::size_t addrs = 0x6ced508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)()>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::Dispose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6cf1ebc;
+  constexpr static std::size_t addrs = 0x6ced8c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator*>(), { "Dispose", {}, {} })));
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::IssuePendingStorageChanges)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6cf1f24;
+  constexpr static std::size_t addrs = 0x6ced928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::BMPAlloc (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::AllocTransform)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6ceac00;
+  constexpr static std::size_t addrs = 0x6ce6604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::BMPAlloc (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::AllocClipRect)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6cec700;
+  constexpr static std::size_t addrs = 0x6ce8104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator*>(), { "AllocClipRect", {}, {} })));
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::BMPAlloc (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::AllocOpacity)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6cec760;
+  constexpr static std::size_t addrs = 0x6ce8164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator*>(), { "AllocOpacity", {}, {} })));
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::BMPAlloc (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::AllocColor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6ced8c4;
+  constexpr static std::size_t addrs = 0x6ce92c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator*>(), { "AllocColor", {}, {} })));
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::BMPAlloc (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(
     ::UnityEngine::UIElements::UIR::TextCoreSettings)>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::AllocTextCoreSettings)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6ced204;
+  constexpr static std::size_t addrs = 0x6ce8c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator*>(),
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(::UnityEngine::UIElements::UIR::BMPAlloc, ::UnityEngine::Matrix4x4)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::SetTransformValue)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6ceb64c;
+  constexpr static std::size_t addrs = 0x6ce7050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(::UnityEngine::UIElements::UIR::BMPAlloc, ::UnityEngine::Vector4)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::SetClipRectValue)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6cecadc;
+  constexpr static std::size_t addrs = 0x6ce84e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(::UnityEngine::UIElements::UIR::BMPAlloc, float_t)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::SetOpacityValue)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6cec788;
+  constexpr static std::size_t addrs = 0x6ce818c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(::UnityEngine::UIElements::UIR::BMPAlloc, ::UnityEngine::Color)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::SetColorValue)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6ced8ec;
+  constexpr static std::size_t addrs = 0x6ce92f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -308,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(
     ::UnityEngine::UIElements::UIR::BMPAlloc, ::UnityEngine::UIElements::UIR::TextCoreSettings)>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::SetTextCoreSettingValue)> {
   constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x6ced22c;
+  constexpr static std::size_t addrs = 0x6ce8c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::FreeTransform)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6cebeb8;
+  constexpr static std::size_t addrs = 0x6ce78bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator*>(),
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::FreeClipRect)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6cebe18;
+  constexpr static std::size_t addrs = 0x6ce781c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator*>(),
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::FreeOpacity)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6cebcd8;
+  constexpr static std::size_t addrs = 0x6ce76dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator*>(),
@@ -366,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::FreeColor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6cebd78;
+  constexpr static std::size_t addrs = 0x6ce777c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator*>(),
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::FreeTextCoreSettings)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6cebc38;
+  constexpr static std::size_t addrs = 0x6ce763c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator*>(),
@@ -394,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color32 (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::TransformAllocToVertexData)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6cf1f3c;
+  constexpr static std::size_t addrs = 0x6ced940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator*>(),
@@ -408,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color32 (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::ClipRectAllocToVertexData)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6cf2038;
+  constexpr static std::size_t addrs = 0x6ceda3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator*>(),
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color32 (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::OpacityAllocToVertexData)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6cf2134;
+  constexpr static std::size_t addrs = 0x6cedb38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator*>(),
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color32 (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::ColorAllocToVertexData)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6cf2230;
+  constexpr static std::size_t addrs = 0x6cedc34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator*>(),
@@ -450,7 +450,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color32 (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::TextCoreSettingsToVertexData)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6cf232c;
+  constexpr static std::size_t addrs = 0x6cedd30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator*>(),

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x33dedfc;
+  constexpr static std::size_t addrs = 0x33dd3c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33dee58;
+  constexpr static std::size_t addrs = 0x33dd420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33dee60;
+  constexpr static std::size_t addrs = 0x33dd428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::GenerateDerivedKey)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x33dee68;
+  constexpr static std::size_t addrs = 0x33dd430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::GenerateDerivedParameters)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x33df1f0;
+  constexpr static std::size_t addrs = 0x33dd7b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator*>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::*)(::StringW, int32_t)>(
     &::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::GenerateDerivedParameters)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x33df1fc;
+  constexpr static std::size_t addrs = 0x33dd7c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::*)(int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::GenerateDerivedParameters)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x33df298;
+  constexpr static std::size_t addrs = 0x33dd860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator*>(),
@@ -110,7 +110,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::*)(::StringW, int32_t, int32_t)>(
         &::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::GenerateDerivedParameters)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x33df380;
+  constexpr static std::size_t addrs = 0x33dd948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator*>(),
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator::GenerateDerivedMacParameters)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x33df484;
+  constexpr static std::size_t addrs = 0x33dda4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator*>(),

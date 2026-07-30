@@ -81,13 +81,13 @@ public:
 
   static inline ::GlobalNamespace::TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint* New_ctor();
 
-  /// @brief Method SetActive, addr 0x599afc8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetActive, addr 0x5999134, size 0xbc, virtual false, abstract: false, final false
   inline void SetActive(bool enabled, ::UnityEngine::Color mainLightColor);
 
-  /// @brief Method SetCollisionLength, addr 0x599ada4, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method SetCollisionLength, addr 0x59992e0, size 0x224, virtual false, abstract: false, final false
   inline void SetCollisionLength(bool rayHitGeometry, ::UnityEngine::RaycastHit hit);
 
-  /// @brief Method SetData, addr 0x599b084, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x59991f0, size 0xf0, virtual false, abstract: false, final false
   inline void SetData(float_t remainingLength, float_t startAlpha, ::UnityEngine::Vector3 hitWorldPosition, ::UnityEngine::Vector3 hitReflection);
 
   constexpr bool const& __cordl_internal_get__hitPointState() const;
@@ -132,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set_showHitPoint(bool value);
 
-  /// @brief Method .ctor, addr 0x599b174, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5999508, size 0x350, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -221,15 +221,15 @@ public:
                       put = __cordl_internal_set__tubeBloomPrePassLightBounces)) ::ArrayW<::GlobalNamespace::TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint*>
       _tubeBloomPrePassLightBounces;
 
-  /// @brief Method Awake, addr 0x599a57c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5998c40, size 0x7c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LateUpdate, addr 0x599a5f8, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5998cbc, size 0x1c8, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::TubeBloomPrePassLightReflectionEffect* New_ctor();
 
-  /// @brief Method RaycastAndSetLightLength, addr 0x599a7c8, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method RaycastAndSetLightLength, addr 0x5998e84, size 0x2b0, virtual false, abstract: false, final false
   inline bool RaycastAndSetLightLength(::GlobalNamespace::TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint* bounce, ::UnityEngine::Vector3 rayWorldOrigin,
                                        ::UnityEngine::Vector3 rayDirection, ::by_ref<::UnityEngine::Vector3> hitWorldPosition, ::by_ref<::UnityEngine::Vector3> hitReflection, ::by_ref<float_t> length,
                                        ::by_ref<float_t> endAlpha);
@@ -264,7 +264,7 @@ public:
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLightBounces(::ArrayW<::GlobalNamespace::TubeBloomPrePassLightReflectionEffect_TubeBloomPrePassLightWithHitPoint*> value);
 
-  /// @brief Method .ctor, addr 0x599aa7c, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5999504, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

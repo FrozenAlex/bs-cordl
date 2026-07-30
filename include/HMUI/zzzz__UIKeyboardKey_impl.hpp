@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::KeyCode (::HMUI::UIKeyboardKey::*)()>(&::HMUI::UIKeyboardKey::get_keyCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x587ddf8;
+  constexpr static std::size_t addrs = 0x587c2a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboardKey*>(), { "get_keyCode", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::UIKeyboardKey::*)()>(&::HMUI::UIKeyboardKey::get_canBeUppercase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x587de00;
+  constexpr static std::size_t addrs = 0x587c2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboardKey*>(), { "get_canBeUppercase", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboardKey::*)()>(&::HMUI::UIKeyboardKey::Awake)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x587de08;
+  constexpr static std::size_t addrs = 0x587c2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboardKey*>(), { "Awake", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboardKey::*)()>(&::HMUI::UIKeyboardKey::OnValidate)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x587deac;
+  constexpr static std::size_t addrs = 0x587c358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboardKey*>(), { "OnValidate", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboardKey::*)()>(&::HMUI::UIKeyboardKey::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x587df90;
+  constexpr static std::size_t addrs = 0x587c43c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboardKey*>(), { ".ctor", {}, {} })));

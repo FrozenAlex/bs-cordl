@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LightConstants_BakeId, ::UnityW<::GlobalNamespace::LightmapLightWithIds>>* (
     ::GlobalNamespace::BakedLightsNormalizer::*)()>(&::GlobalNamespace::BakedLightsNormalizer::get_lightmapLightDict)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x586e798;
+  constexpr static std::size_t addrs = 0x586cc44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BakedLightsNormalizer*>(), { "get_lightmapLightDict", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BakedLightsNormalizer::*)()>(&::GlobalNamespace::BakedLightsNormalizer::get_maxTotalIntensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x586e7a0;
+  constexpr static std::size_t addrs = 0x586cc4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BakedLightsNormalizer*>(), { "get_maxTotalIntensity", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BakedLightsNormalizer::*)()>(&::GlobalNamespace::BakedLightsNormalizer::LateUpdate)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x586e7a8;
+  constexpr static std::size_t addrs = 0x586cc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BakedLightsNormalizer*>(), { "LateUpdate", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BakedLightsNormalizer::*)()>(&::GlobalNamespace::BakedLightsNormalizer::GetLightmapLights)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x586ea10;
+  constexpr static std::size_t addrs = 0x586cebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BakedLightsNormalizer*>(), { "GetLightmapLights", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BakedLightsNormalizer::*)()>(&::GlobalNamespace::BakedLightsNormalizer::UpdateGrayscaleTotal)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x586e804;
+  constexpr static std::size_t addrs = 0x586ccb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BakedLightsNormalizer*>(), { "UpdateGrayscaleTotal", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BakedLightsNormalizer::*)()>(&::GlobalNamespace::BakedLightsNormalizer::GetNormalizationMultiplier)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x586eb34;
+  constexpr static std::size_t addrs = 0x586cfe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BakedLightsNormalizer*>(), { "GetNormalizationMultiplier", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BakedLightsNormalizer::*)()>(&::GlobalNamespace::BakedLightsNormalizer::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x586eba4;
+  constexpr static std::size_t addrs = 0x586d050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BakedLightsNormalizer*>(), { ".ctor", {}, {} })));

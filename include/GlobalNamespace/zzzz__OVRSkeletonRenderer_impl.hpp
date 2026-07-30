@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)()>(
     &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::get_RootScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f110d4;
+  constexpr static std::size_t addrs = 0x5f0ee40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)(float_t)>(
     &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::set_RootScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f110dc;
+  constexpr static std::size_t addrs = 0x5f0ee48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)()>(
     &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::get_IsDataValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f110e4;
+  constexpr static std::size_t addrs = 0x5f0ee50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)(bool)>(
     &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::set_IsDataValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f110ec;
+  constexpr static std::size_t addrs = 0x5f0ee58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)()>(
     &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::get_IsDataHighConfidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f110f4;
+  constexpr static std::size_t addrs = 0x5f0ee60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)(bool)>(
     &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::set_IsDataHighConfidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f110fc;
+  constexpr static std::size_t addrs = 0x5f0ee68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)()>(
     &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::get_ShouldUseSystemGestureMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f11104;
+  constexpr static std::size_t addrs = 0x5f0ee70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)(bool)>(
     &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::set_ShouldUseSystemGestureMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f1110c;
+  constexpr static std::size_t addrs = 0x5f0ee78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -222,7 +222,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::UnityEngine::GameObject*, ::UnityEngine::Material*, ::UnityEngine::Material*, float_t, ::UnityEngine::Transform*, ::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::_ctor)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x5f10528;
+  constexpr static std::size_t addrs = 0x5f0e294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     float_t, bool, bool, ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior, ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior)>(
     &::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::Update)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x5f10aa4;
+  constexpr static std::size_t addrs = 0x5f0e810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -362,7 +362,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                                              ::UnityEngine::Material*, float_t, ::GlobalNamespace::OVRBoneCapsule*)>(
     &::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::_ctor)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x5f106fc;
+  constexpr static std::size_t addrs = 0x5f0e468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -381,7 +381,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     float_t, bool, bool, ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior, ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior)>(
     &::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::Update)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x5f10c44;
+  constexpr static std::size_t addrs = 0x5f0e9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -501,7 +501,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::get_IsInitialized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f0fbc0;
+  constexpr static std::size_t addrs = 0x5f0d92c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSkeletonRenderer*>(), { "get_IsInitialized", {}, {} })));
@@ -513,7 +513,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)(bool)>(&::GlobalNamespace::OVRSkeletonRenderer::set_IsInitialized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f0fbc8;
+  constexpr static std::size_t addrs = 0x5f0d934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -526,7 +526,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::get_IsDataValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f0fbd0;
+  constexpr static std::size_t addrs = 0x5f0d93c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSkeletonRenderer*>(), { "get_IsDataValid", {}, {} })));
@@ -538,7 +538,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)(bool)>(&::GlobalNamespace::OVRSkeletonRenderer::set_IsDataValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f0fbd8;
+  constexpr static std::size_t addrs = 0x5f0d944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -551,7 +551,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::get_IsDataHighConfidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f0fbe0;
+  constexpr static std::size_t addrs = 0x5f0d94c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSkeletonRenderer*>(), { "get_IsDataHighConfidence", {}, {} })));
@@ -563,7 +563,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)(bool)>(&::GlobalNamespace::OVRSkeletonRenderer::set_IsDataHighConfidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f0fbe8;
+  constexpr static std::size_t addrs = 0x5f0d954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -576,7 +576,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::get_ShouldUseSystemGestureMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f0fbf0;
+  constexpr static std::size_t addrs = 0x5f0d95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -589,7 +589,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)(bool)>(&::GlobalNamespace::OVRSkeletonRenderer::set_ShouldUseSystemGestureMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f0fbf8;
+  constexpr static std::size_t addrs = 0x5f0d964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -602,7 +602,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::Awake)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5f0fc00;
+  constexpr static std::size_t addrs = 0x5f0d96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSkeletonRenderer*>(), { "Awake", {}, {} })));
@@ -614,7 +614,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::Start)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5f0fcc4;
+  constexpr static std::size_t addrs = 0x5f0da30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSkeletonRenderer*>(), { "Start", {}, {} })));
@@ -626,7 +626,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::ShouldInitialize)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5f0fd74;
+  constexpr static std::size_t addrs = 0x5f0dae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSkeletonRenderer*>(), { "ShouldInitialize", {}, {} })));
@@ -638,7 +638,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::Initialize)> {
   constexpr static std::size_t size = 0x784;
-  constexpr static std::size_t addrs = 0x5f0fda4;
+  constexpr static std::size_t addrs = 0x5f0db10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSkeletonRenderer*>(), { "Initialize", {}, {} })));
@@ -650,7 +650,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::Update)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5f108c4;
+  constexpr static std::size_t addrs = 0x5f0e630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSkeletonRenderer*>(), { "Update", {}, {} })));
@@ -662,7 +662,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::OnDestroy)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5f10f30;
+  constexpr static std::size_t addrs = 0x5f0ec9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSkeletonRenderer*>(), { "OnDestroy", {}, {} })));
@@ -674,7 +674,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f11060;
+  constexpr static std::size_t addrs = 0x5f0edcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSkeletonRenderer*>(), { ".ctor", {}, {} })));

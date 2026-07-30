@@ -126,7 +126,7 @@ public:
   static ::GlobalNamespace::DownloadSongConsoleCommand_AssetLookup const NotFound;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19351 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -153,10 +153,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x32cd720, size 0x145c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32cb0ac, size 0x145c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x32ceb7c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32cc508, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -184,7 +184,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter __u__4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19352 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
@@ -266,10 +266,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x32cebfc, size 0x5cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32cc588, size 0x5cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x32cf1c8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32ccb54, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -291,7 +291,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19355 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19353 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -356,16 +356,16 @@ public:
 
   __declspec(property(get = get_description)) ::StringW description;
 
-  /// @brief Method ExecuteAsync, addr 0x32cd388, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x32cad14, size 0xf4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
-  /// @brief Method FindAssetByBundleNameAsync, addr 0x32cd47c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method FindAssetByBundleNameAsync, addr 0x32cae08, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_3<::GlobalNamespace::DownloadSongConsoleCommand_AssetLookup, uint64_t, ::StringW>>*
   FindAssetByBundleNameAsync(::StringW assetBundleName, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::DownloadSongConsoleCommand* New_ctor();
 
-  /// @brief Method <ExecuteAsync>b__12_0, addr 0x32cd61c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method <ExecuteAsync>b__12_0, addr 0x32cafa8, size 0x104, virtual false, abstract: false, final false
   inline void _ExecuteAsync_b__12_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* message);
 
   constexpr ::GlobalNamespace::BeatmapLevelsModel* const& __cordl_internal_get__beatmapLevelsModel() const;
@@ -392,13 +392,13 @@ public:
 
   constexpr void __cordl_internal_set__levelId(::GlobalNamespace::RequiredArgument_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x32cd56c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32caef8, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandName, addr 0x32cd300, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x32cac8c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0x32cd344, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x32cacd0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_description();
 
 protected:
@@ -416,7 +416,7 @@ public:
   DownloadSongConsoleCommand(DownloadSongConsoleCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19356 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19354 };
 
   /// @brief Field kDownloadTimeoutSeconds offset 0xffffffff size 0x4
   static constexpr float_t kDownloadTimeoutSeconds{ static_cast<float_t>(300.0f) };

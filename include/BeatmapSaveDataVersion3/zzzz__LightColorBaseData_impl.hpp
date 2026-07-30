@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapSaveDataVersion3::LightColorBaseData::*)()>(&::BeatmapSaveDataVersion3::LightColorBaseData::get_beat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375aca8;
+  constexpr static std::size_t addrs = 0x37597cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::LightColorBaseData*>(), { "get_beat", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataVersion3::TransitionType (::BeatmapSaveDataVersion3::LightColorBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightColorBaseData::get_transitionType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375acb0;
+  constexpr static std::size_t addrs = 0x37597d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::LightColorBaseData*>(), { "get_transitionType", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::EnvironmentColorType (::BeatmapSaveDataVersion3::LightColorBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightColorBaseData::get_colorType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375acb8;
+  constexpr static std::size_t addrs = 0x37597dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::LightColorBaseData*>(), { "get_colorType", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapSaveDataVersion3::LightColorBaseData::*)()>(&::BeatmapSaveDataVersion3::LightColorBaseData::get_brightness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375acc0;
+  constexpr static std::size_t addrs = 0x37597e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::LightColorBaseData*>(), { "get_brightness", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::LightColorBaseData::*)()>(&::BeatmapSaveDataVersion3::LightColorBaseData::get_strobeBeatFrequency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375acc8;
+  constexpr static std::size_t addrs = 0x37597ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::LightColorBaseData*>(), { "get_strobeBeatFrequency", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapSaveDataVersion3::LightColorBaseData::*)()>(&::BeatmapSaveDataVersion3::LightColorBaseData::get_strobeBrightness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375acd0;
+  constexpr static std::size_t addrs = 0x37597f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::LightColorBaseData*>(), { "get_strobeBrightness", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatmapSaveDataVersion3::LightColorBaseData::*)()>(&::BeatmapSaveDataVersion3::LightColorBaseData::get_strobeFade)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x375acd8;
+  constexpr static std::size_t addrs = 0x37597fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::LightColorBaseData*>(), { "get_strobeFade", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion3::LightColorBaseData::*)(
     float_t, ::BeatmapSaveDataVersion3::TransitionType, ::BeatmapSaveDataCommon::EnvironmentColorType, float_t, int32_t, float_t, bool)>(&::BeatmapSaveDataVersion3::LightColorBaseData::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x375ace8;
+  constexpr static std::size_t addrs = 0x375980c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

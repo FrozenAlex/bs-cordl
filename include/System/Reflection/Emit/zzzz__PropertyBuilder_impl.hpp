@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::PropertyBuilder::*)()>(&::System::Reflection::Emit::PropertyBuilder::get_CanRead)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9122c;
+  constexpr static std::size_t addrs = 0x5b8f070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::PropertyBuilder::*)()>(&::System::Reflection::Emit::PropertyBuilder::get_CanWrite)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b91264;
+  constexpr static std::size_t addrs = 0x5b8f0a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::Emit::PropertyBuilder::*)()>(&::System::Reflection::Emit::PropertyBuilder::get_DeclaringType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9129c;
+  constexpr static std::size_t addrs = 0x5b8f0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::Emit::PropertyBuilder::*)()>(&::System::Reflection::Emit::PropertyBuilder::get_Name)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b912d4;
+  constexpr static std::size_t addrs = 0x5b8f118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::Emit::PropertyBuilder::*)()>(&::System::Reflection::Emit::PropertyBuilder::get_PropertyType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9130c;
+  constexpr static std::size_t addrs = 0x5b8f150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::Emit::PropertyBuilder::*)()>(&::System::Reflection::Emit::PropertyBuilder::get_ReflectedType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b91344;
+  constexpr static std::size_t addrs = 0x5b8f188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Reflection::Emit::PropertyBuilder::*)(bool)>(
     &::System::Reflection::Emit::PropertyBuilder::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9137c;
+  constexpr static std::size_t addrs = 0x5b8f1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Reflection::Emit::PropertyBuilder::*)(::System::Type*, bool)>(
     &::System::Reflection::Emit::PropertyBuilder::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b913b4;
+  constexpr static std::size_t addrs = 0x5b8f1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (::System::Reflection::Emit::PropertyBuilder::*)(bool)>(
     &::System::Reflection::Emit::PropertyBuilder::GetGetMethod)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b913ec;
+  constexpr static std::size_t addrs = 0x5b8f230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::ParameterInfo*> (::System::Reflection::Emit::PropertyBuilder::*)()>(
     &::System::Reflection::Emit::PropertyBuilder::GetIndexParameters)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b91424;
+  constexpr static std::size_t addrs = 0x5b8f268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (::System::Reflection::Emit::PropertyBuilder::*)(bool)>(
     &::System::Reflection::Emit::PropertyBuilder::GetSetMethod)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9145c;
+  constexpr static std::size_t addrs = 0x5b8f2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::System::Reflection::Emit::PropertyBuilder::*)(::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::ArrayW<::System::Object*>,
                                                                                    ::System::Globalization::CultureInfo*)>(&::System::Reflection::Emit::PropertyBuilder::GetValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b91494;
+  constexpr static std::size_t addrs = 0x5b8f2d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::PropertyBuilder::*)(::System::Type*, bool)>(&::System::Reflection::Emit::PropertyBuilder::IsDefined)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b914cc;
+  constexpr static std::size_t addrs = 0x5b8f310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflectio
     ::System::Object*, ::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::ArrayW<::System::Object*>, ::System::Globalization::CultureInfo*)>(
     &::System::Reflection::Emit::PropertyBuilder::SetValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b91504;
+  constexpr static std::size_t addrs = 0x5b8f348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

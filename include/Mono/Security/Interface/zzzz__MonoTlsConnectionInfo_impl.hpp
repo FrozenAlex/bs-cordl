@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Interface::CipherSuiteCode (::Mono::Security::Interface::MonoTlsConnectionInfo::*)()>(
     &::Mono::Security::Interface::MonoTlsConnectionInfo::get_CipherSuiteCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bc38;
+  constexpr static std::size_t addrs = 0x5a99a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoTlsConnectionInfo*>(), { "get_CipherSuiteCode", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::MonoTlsConnectionInfo::*)(::Mono::Security::Interface::CipherSuiteCode)>(
     &::Mono::Security::Interface::MonoTlsConnectionInfo::set_CipherSuiteCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bc40;
+  constexpr static std::size_t addrs = 0x5a99a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoTlsConnectionInfo*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Interface::TlsProtocols (::Mono::Security::Interface::MonoTlsConnectionInfo::*)()>(
     &::Mono::Security::Interface::MonoTlsConnectionInfo::get_ProtocolVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bc48;
+  constexpr static std::size_t addrs = 0x5a99a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoTlsConnectionInfo*>(), { "get_ProtocolVersion", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::MonoTlsConnectionInfo::*)(::Mono::Security::Interface::TlsProtocols)>(
     &::Mono::Security::Interface::MonoTlsConnectionInfo::set_ProtocolVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bc50;
+  constexpr static std::size_t addrs = 0x5a99a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoTlsConnectionInfo*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::MonoTlsConnectionInfo::*)(::StringW)>(
     &::Mono::Security::Interface::MonoTlsConnectionInfo::set_PeerDomainName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bc58;
+  constexpr static std::size_t addrs = 0x5a99a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Security::Interface::MonoTlsConnectionInfo::*)()>(&::Mono::Security::Interface::MonoTlsConnectionInfo::ToString)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5a9bc60;
+  constexpr static std::size_t addrs = 0x5a99aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::MonoTlsConnectionInfo::*)()>(&::Mono::Security::Interface::MonoTlsConnectionInfo::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a9bd40;
+  constexpr static std::size_t addrs = 0x5a99b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoTlsConnectionInfo*>(), { ".ctor", {}, {} })));

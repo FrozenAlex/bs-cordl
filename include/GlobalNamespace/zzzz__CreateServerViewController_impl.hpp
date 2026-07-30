@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreateServerViewController::*)(::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>*)>(
     &::GlobalNamespace::CreateServerViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x595e8c0;
+  constexpr static std::size_t addrs = 0x595d0a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreateServerViewController::*)(::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>*)>(
     &::GlobalNamespace::CreateServerViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x595e980;
+  constexpr static std::size_t addrs = 0x595d168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerModeSettings* (::GlobalNamespace::CreateServerViewController::*)()>(
     &::GlobalNamespace::CreateServerViewController::get_multiplayerModeSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x595ea40;
+  constexpr static std::size_t addrs = 0x595d228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreateServerViewController::*)(::GlobalNamespace::MultiplayerModeSettings*)>(
     &::GlobalNamespace::CreateServerViewController::Setup)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x595ea48;
+  constexpr static std::size_t addrs = 0x595d230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreateServerViewController::*)(bool, bool, bool)>(&::GlobalNamespace::CreateServerViewController::DidActivate)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x595ea8c;
+  constexpr static std::size_t addrs = 0x595d274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::CreateServerFormData (::GlobalNamespace::CreateServerViewController::*)()>(
     &::GlobalNamespace::CreateServerViewController::ApplyAndGetData)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x595ebcc;
+  constexpr static std::size_t addrs = 0x595d3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreateServerViewController*>(), { "ApplyAndGetData", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreateServerViewController::*)()>(&::GlobalNamespace::CreateServerViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x595ec98;
+  constexpr static std::size_t addrs = 0x595d480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreateServerViewController*>(), { ".ctor", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreateServerViewController::*)()>(&::GlobalNamespace::CreateServerViewController::_DidActivate_b__10_0)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x595ec9c;
+  constexpr static std::size_t addrs = 0x595d484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreateServerViewController*>(), { "<DidActivate>b__10_0", {}, {} })));
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreateServerViewController::*)()>(&::GlobalNamespace::CreateServerViewController::_DidActivate_b__10_1)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x595ecd8;
+  constexpr static std::size_t addrs = 0x595d4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreateServerViewController*>(), { "<DidActivate>b__10_1", {}, {} })));

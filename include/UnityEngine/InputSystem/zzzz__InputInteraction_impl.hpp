@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*)>(&::UnityEngine::InputSystem::InputInteraction::GetValueType)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x64cd6a0;
+  constexpr static std::size_t addrs = 0x64cb43c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::InputSystem::InputInteraction::GetDisplayName)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x64cd774;
+  constexpr static std::size_t addrs = 0x64cb510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Type*)>(&::UnityEngine::InputSystem::InputInteraction::GetDisplayName)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x64cd858;
+  constexpr static std::size_t addrs = 0x64cb5f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

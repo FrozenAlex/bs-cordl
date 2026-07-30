@@ -36,7 +36,7 @@ public:
 
   static inline ::GlobalNamespace::MirrorCamera* New_ctor();
 
-  /// @brief Method SetMainCamera, addr 0x5f44944, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method SetMainCamera, addr 0x5f42630, size 0x220, virtual false, abstract: false, final false
   inline void SetMainCamera(::UnityEngine::Camera* camera);
 
   constexpr ::UnityW<::GlobalNamespace::BloomPrePass> const& __cordl_internal_get__bloomPrePass() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__mirrorCamera(::UnityW<::UnityEngine::Camera> value);
 
-  /// @brief Method .ctor, addr 0x5f44b64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f42850, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   MirrorCamera(MirrorCamera const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20895 };
 
   /// @brief Field _mirrorCamera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____mirrorCamera;

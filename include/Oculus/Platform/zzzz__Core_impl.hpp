@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Oculus::Platform::Core::IsInitialized)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5ddbdd0;
+  constexpr static std::size_t addrs = 0x5dd9b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Core*>(), { "IsInitialized", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Oculus::Platform::Core::ForceInitialized)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5ddbe2c;
+  constexpr static std::size_t addrs = 0x5dd9b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Core*>(), { "ForceInitialized", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::Oculus::Platform::Core::getAppID)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x5ddbe8c;
+  constexpr static std::size_t addrs = 0x5dd9bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Core*>(), { "getAppID", {}, { ::i2c::type_of<::StringW>() } })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* (*)(::StringW)>(&::Oculus::Platform::Core::AsyncInitialize)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x5ddc0f4;
+  constexpr static std::size_t addrs = 0x5dd9e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Core*>(), { "AsyncInitialize", {}, { ::i2c::type_of<::StringW>() } })));
@@ -61,7 +61,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* (*)(::StringW, ::System::Collections::Generic::Dictionary_2<::Oculus::Platform::InitConfigOptions, bool>*,
                                                                                         ::StringW)>(&::Oculus::Platform::Core::AsyncInitialize)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x5ddc6a0;
+  constexpr static std::size_t addrs = 0x5dda40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::Oculus::Platform::Core::Initialize)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x5ddca6c;
+  constexpr static std::size_t addrs = 0x5dda7d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Core*>(), { "Initialize", {}, { ::i2c::type_of<::StringW>() } })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::Oculus::Platform::Core::GetAppIDFromConfig)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5ddc044;
+  constexpr static std::size_t addrs = 0x5dd9db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Core*>(), { "GetAppIDFromConfig", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Core::*)()>(&::Oculus::Platform::Core::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ddcf60;
+  constexpr static std::size_t addrs = 0x5ddaccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Core*>(), { ".ctor", {}, {} })));

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback::*)()>(
     &::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e114b0;
+  constexpr static std::size_t addrs = 0x6e0ceb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback*>(), { ".ctor", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::CoroutineTween::FloatTween::*)()>(&::UnityEngine::UI::CoroutineTween::FloatTween::get_startValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e11334;
+  constexpr static std::size_t addrs = 0x6e0cd38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::CoroutineTween::FloatTween>(), { "get_startValue", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::CoroutineTween::FloatTween::*)(float_t)>(&::UnityEngine::UI::CoroutineTween::FloatTween::set_startValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e1133c;
+  constexpr static std::size_t addrs = 0x6e0cd40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::CoroutineTween::FloatTween::*)()>(&::UnityEngine::UI::CoroutineTween::FloatTween::get_targetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e11344;
+  constexpr static std::size_t addrs = 0x6e0cd48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::CoroutineTween::FloatTween>(), { "get_targetValue", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::CoroutineTween::FloatTween::*)(float_t)>(&::UnityEngine::UI::CoroutineTween::FloatTween::set_targetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e1134c;
+  constexpr static std::size_t addrs = 0x6e0cd50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::CoroutineTween::FloatTween::*)()>(&::UnityEngine::UI::CoroutineTween::FloatTween::get_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e11354;
+  constexpr static std::size_t addrs = 0x6e0cd58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::CoroutineTween::FloatTween>(), { "get_duration", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::CoroutineTween::FloatTween::*)(float_t)>(&::UnityEngine::UI::CoroutineTween::FloatTween::set_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e1135c;
+  constexpr static std::size_t addrs = 0x6e0cd60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::CoroutineTween::FloatTween::*)()>(&::UnityEngine::UI::CoroutineTween::FloatTween::get_ignoreTimeScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e11364;
+  constexpr static std::size_t addrs = 0x6e0cd68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::CoroutineTween::FloatTween>(), { "get_ignoreTimeScale", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::CoroutineTween::FloatTween::*)(bool)>(&::UnityEngine::UI::CoroutineTween::FloatTween::set_ignoreTimeScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e1136c;
+  constexpr static std::size_t addrs = 0x6e0cd70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::CoroutineTween::FloatTween::*)(float_t)>(&::UnityEngine::UI::CoroutineTween::FloatTween::TweenValue)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6e11374;
+  constexpr static std::size_t addrs = 0x6e0cd78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::CoroutineTween::FloatTween::*)(::UnityEngine::Events::UnityAction_1<float_t>*)>(
     &::UnityEngine::UI::CoroutineTween::FloatTween::AddOnChangedCallback)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6e11418;
+  constexpr static std::size_t addrs = 0x6e0ce1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::CoroutineTween::FloatTween>(),
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::CoroutineTween::FloatTween::*)()>(&::UnityEngine::UI::CoroutineTween::FloatTween::GetIgnoreTimescale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e114fc;
+  constexpr static std::size_t addrs = 0x6e0cf00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::CoroutineTween::FloatTween>(), { "GetIgnoreTimescale", {}, {} })));
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::CoroutineTween::FloatTween::*)()>(&::UnityEngine::UI::CoroutineTween::FloatTween::GetDuration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e11504;
+  constexpr static std::size_t addrs = 0x6e0cf08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::CoroutineTween::FloatTween>(), { "GetDuration", {}, {} })));
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::CoroutineTween::FloatTween::*)()>(&::UnityEngine::UI::CoroutineTween::FloatTween::ValidTarget)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e11408;
+  constexpr static std::size_t addrs = 0x6e0ce0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::CoroutineTween::FloatTween>(), { "ValidTarget", {}, {} })));

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::GUIStyleState*)>(&::UnityEngine::GUIStyleState_BindingsMarshaller::ConvertToNative)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b46084;
+  constexpr static std::size_t addrs = 0x6b41a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIStyleState::*)(::UnityEngine::Color)>(&::UnityEngine::GUIStyleState::set_textColor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6b45a50;
+  constexpr static std::size_t addrs = 0x6b41454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::GUIStyleState::Init)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6b45ed8;
+  constexpr static std::size_t addrs = 0x6b418dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyleState*>(), { "Init", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIStyleState::*)()>(&::UnityEngine::GUIStyleState::Cleanup)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6b45f00;
+  constexpr static std::size_t addrs = 0x6b41904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyleState*>(), { "Cleanup", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIStyleState::*)()>(&::UnityEngine::GUIStyleState::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6b45f8c;
+  constexpr static std::size_t addrs = 0x6b41990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyleState*>(), { ".ctor", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIStyleState::*)(::UnityEngine::GUIStyle*, ::System::IntPtr)>(&::UnityEngine::GUIStyleState::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b45fcc;
+  constexpr static std::size_t addrs = 0x6b419d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GUIStyleState* (*)(::UnityEngine::GUIStyle*, ::System::IntPtr)>(&::UnityEngine::GUIStyleState::GetGUIStyleState)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6b45fd4;
+  constexpr static std::size_t addrs = 0x6b419d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIStyleState::*)()>(&::UnityEngine::GUIStyleState::Finalize)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6b46030;
+  constexpr static std::size_t addrs = 0x6b41a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::GUIStyleState*>(), { ::i2c::class_of<::UnityEngine::GUIStyleState*>(), 1 }));
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Color>)>(&::UnityEngine::GUIStyleState::set_textColor_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b45e94;
+  constexpr static std::size_t addrs = 0x6b41898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::GUIStyleState::Cleanup_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b45f50;
+  constexpr static std::size_t addrs = 0x6b41954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

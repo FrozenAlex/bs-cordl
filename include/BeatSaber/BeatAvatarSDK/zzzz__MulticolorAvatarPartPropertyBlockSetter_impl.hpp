@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::get_defaultColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x327d650;
+  constexpr static std::size_t addrs = 0x327a910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::get_darkerColorMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x327d65c;
+  constexpr static std::size_t addrs = 0x327a91c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::get_whiteBoost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x327d664;
+  constexpr static std::size_t addrs = 0x327a924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x327d66c;
+  constexpr static std::size_t addrs = 0x327a92c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x327d6d8;
+  constexpr static std::size_t addrs = 0x327a998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::*)(
     ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*)>(&::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::_OnValidate_b__10_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x327d6dc;
+  constexpr static std::size_t addrs = 0x327a99c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::OnValidate)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x327d268;
+  constexpr static std::size_t addrs = 0x327a528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::*)(::ArrayW<::UnityEngine::Color>)>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::SetColors)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x327ce68;
+  constexpr static std::size_t addrs = 0x327a128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter*>(),
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::*)(bool, int32_t)>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::SetHighlight)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x327d190;
+  constexpr static std::size_t addrs = 0x327a450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter*>(),
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::UpdateRenderer)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x327d440;
+  constexpr static std::size_t addrs = 0x327a700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x327d5e0;
+  constexpr static std::size_t addrs = 0x327a8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

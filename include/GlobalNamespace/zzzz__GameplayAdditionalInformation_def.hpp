@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set_useTestNoteCutSoundEffects(bool value);
 
-  /// @brief Method .ctor, addr 0x3709cbc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37086e4, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused, ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath, bool profileSong,
                     ::StringW reportDescriptor);
 
@@ -110,7 +110,7 @@ public:
   GameplayAdditionalInformation(GameplayAdditionalInformation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14838 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14836 };
 
   /// @brief Field backButtonText, offset: 0x10, size: 0x8, def value: None
   ::StringW ___backButtonText;

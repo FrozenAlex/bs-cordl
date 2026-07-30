@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ToggleableCanvasGroup::*)()>(&::GlobalNamespace::ToggleableCanvasGroup::OnEnable)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x587661c;
+  constexpr static std::size_t addrs = 0x5874ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ToggleableCanvasGroup*>(), { "OnEnable", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ToggleableCanvasGroup::*)()>(&::GlobalNamespace::ToggleableCanvasGroup::OnDisable)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5876744;
+  constexpr static std::size_t addrs = 0x5874bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ToggleableCanvasGroup*>(), { "OnDisable", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ToggleableCanvasGroup::*)(bool)>(&::GlobalNamespace::ToggleableCanvasGroup::HandleToggleValueChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x587682c;
+  constexpr static std::size_t addrs = 0x5874cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ToggleableCanvasGroup::*)(bool)>(&::GlobalNamespace::ToggleableCanvasGroup::SetCanvasGroupData)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5876718;
+  constexpr static std::size_t addrs = 0x5874bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ToggleableCanvasGroup::*)()>(&::GlobalNamespace::ToggleableCanvasGroup::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5876830;
+  constexpr static std::size_t addrs = 0x5874cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ToggleableCanvasGroup*>(), { ".ctor", {}, {} })));

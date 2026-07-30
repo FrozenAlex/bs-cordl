@@ -38,22 +38,22 @@ public:
   __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager, put = __cordl_internal_set__nodePoseSyncStateManager)) ::UnityW<::GlobalNamespace::NodePoseSyncStateManager>
       _nodePoseSyncStateManager;
 
-  /// @brief Method Dispose, addr 0x59c8358, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x59c69c8, size 0xd4, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method FindPlayerToMirror, addr 0x59c84f0, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method FindPlayerToMirror, addr 0x59c6b60, size 0x380, virtual false, abstract: false, final false
   inline void FindPlayerToMirror();
 
-  /// @brief Method HandleOptionalAvatarDataReceived, addr 0x59c8870, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method HandleOptionalAvatarDataReceived, addr 0x59c6ee0, size 0x1e0, virtual false, abstract: false, final false
   inline void HandleOptionalAvatarDataReceived(::BeatSaber::AvatarCore::OptionalAvatarDataPacket* optionalAvatarDataPacket, ::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method Init, addr 0x59c8354, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x59c69c4, size 0x4, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror* New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager,
                                                                                 ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
 
-  /// @brief Method Tick, addr 0x59c842c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x59c6a9c, size 0xc4, virtual true, abstract: false, final false
   inline void Tick();
 
   constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__mirroredPlayer() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__nodePoseSyncStateManager(::UnityW<::GlobalNamespace::NodePoseSyncStateManager> value);
 
-  /// @brief Method .ctor, addr 0x59c6110, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c4780, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
 
 protected:

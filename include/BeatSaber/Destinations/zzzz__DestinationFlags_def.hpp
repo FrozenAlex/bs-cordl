@@ -27,6 +27,7 @@ public:
     __E_None = static_cast<int32_t>(0x0),
     __E_LoadMenu = static_cast<int32_t>(0x1),
     __E_RequiresHealthWarning = static_cast<int32_t>(0x2),
+    __E_MockOnlineServices = static_cast<int32_t>(0x40),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -49,6 +50,9 @@ public:
   /// @brief Field LoadMenu value: I32(1)
   static ::BeatSaber::Destinations::DestinationFlags const LoadMenu;
 
+  /// @brief Field MockOnlineServices value: I32(64)
+  static ::BeatSaber::Destinations::DestinationFlags const MockOnlineServices;
+
   /// @brief Field None value: I32(0)
   static ::BeatSaber::Destinations::DestinationFlags const None;
 
@@ -56,7 +60,7 @@ public:
   static ::BeatSaber::Destinations::DestinationFlags const RequiresHealthWarning;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23062 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23013 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::XR::XRInputSubsystem*)>(&::UnityEngine::XR::XRInputSubsystem_BindingsMarshaller::ConvertToNative)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e3612c;
+  constexpr static std::size_t addrs = 0x6e31b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::XRInputSubsystem_BindingsMarshaller*>(),
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::XRInputSubsystem::*)()>(&::UnityEngine::XR::XRInputSubsystem::TryRecenter)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6e35b30;
+  constexpr static std::size_t addrs = 0x6e31534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::XRInputSubsystem*>(), { "TryRecenter", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::XRInputSubsystem::*)(::UnityEngine::XR::TrackingOriginModeFlags)>(
     &::UnityEngine::XR::XRInputSubsystem::TrySetTrackingOriginMode)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6e35bbc;
+  constexpr static std::size_t addrs = 0x6e315c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::XRInputSubsystem*>(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::XRInputSubsystem::*)(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*)>(
     &::UnityEngine::XR::XRInputSubsystem::add_trackingOriginUpdated)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6e35c58;
+  constexpr static std::size_t addrs = 0x6e3165c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::XRInputSubsystem::*)(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*)>(
     &::UnityEngine::XR::XRInputSubsystem::remove_trackingOriginUpdated)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6e35d18;
+  constexpr static std::size_t addrs = 0x6e3171c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::XRInputSubsystem::*)(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*)>(
     &::UnityEngine::XR::XRInputSubsystem::add_boundaryChanged)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6e35dd8;
+  constexpr static std::size_t addrs = 0x6e317dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::XRInputSubsystem::*)(::System::Action_1<::UnityEngine::XR::XRInputSubsystem*>*)>(
     &::UnityEngine::XR::XRInputSubsystem::remove_boundaryChanged)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6e35e98;
+  constexpr static std::size_t addrs = 0x6e3189c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::XR::XRInputSubsystem::InvokeTrackingOriginUpdatedEvent)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6e35f58;
+  constexpr static std::size_t addrs = 0x6e3195c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::XR::XRInputSubsystem::InvokeBoundaryChangedEvent)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6e36024;
+  constexpr static std::size_t addrs = 0x6e31a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::XRInputSubsystem::*)()>(&::UnityEngine::XR::XRInputSubsystem::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e360f0;
+  constexpr static std::size_t addrs = 0x6e31af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::XRInputSubsystem*>(), { ".ctor", {}, {} })));
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::XR::XRInputSubsystem::TryRecenter_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e35b80;
+  constexpr static std::size_t addrs = 0x6e31584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::UnityEngine::XR::TrackingOriginModeFlags)>(
     &::UnityEngine::XR::XRInputSubsystem::TrySetTrackingOriginMode_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e35c14;
+  constexpr static std::size_t addrs = 0x6e31618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

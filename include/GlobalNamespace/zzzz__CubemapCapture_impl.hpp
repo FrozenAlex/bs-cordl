@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CubemapCapture::*)()>(&::GlobalNamespace::CubemapCapture::Update)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5a2161c;
+  constexpr static std::size_t addrs = 0x5a1f460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CubemapCapture*>(), { "Update", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CubemapCapture::*)()>(&::GlobalNamespace::CubemapCapture::GenerateAndSaveCubemapTexture)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5a216a0;
+  constexpr static std::size_t addrs = 0x5a1f4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CubemapCapture*>(), { "GenerateAndSaveCubemapTexture", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CubemapCapture::*)(::UnityEngine::Cubemap*)>(&::GlobalNamespace::CubemapCapture::RenderCubemapTexture)> {
   constexpr static std::size_t size = 0x4c0;
-  constexpr static std::size_t addrs = 0x5a21754;
+  constexpr static std::size_t addrs = 0x5a1f598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CubemapCapture::*)(::UnityEngine::Cubemap*, ::StringW)>(&::GlobalNamespace::CubemapCapture::SaveCubemapTexture)> {
   constexpr static std::size_t size = 0x7dc;
-  constexpr static std::size_t addrs = 0x5a21c14;
+  constexpr static std::size_t addrs = 0x5a1fa58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CubemapCapture*>(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::GlobalNamespace::CubemapCapture::*)(::UnityEngine::Texture2D*)>(
     &::GlobalNamespace::CubemapCapture::SerializeTextureToByteArray)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5a223f0;
+  constexpr static std::size_t addrs = 0x5a20234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CubemapCapture::*)()>(&::GlobalNamespace::CubemapCapture::_ctor)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5a224d0;
+  constexpr static std::size_t addrs = 0x5a20314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CubemapCapture*>(), { ".ctor", {}, {} })));

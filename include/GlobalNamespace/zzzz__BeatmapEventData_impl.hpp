@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::BeatmapEventData::*)()>(
     &::GlobalNamespace::BeatmapEventData::get_previousSameTypeEventData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3259640;
+  constexpr static std::size_t addrs = 0x3256900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventData*>(), { "get_previousSameTypeEventData", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventData::*)(::GlobalNamespace::BeatmapEventData*)>(
     &::GlobalNamespace::BeatmapEventData::set_previousSameTypeEventData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3259648;
+  constexpr static std::size_t addrs = 0x3256908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventData*>(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::BeatmapEventData::*)()>(
     &::GlobalNamespace::BeatmapEventData::get_nextSameTypeEventData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3259650;
+  constexpr static std::size_t addrs = 0x3256910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventData*>(), { "get_nextSameTypeEventData", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventData::*)(::GlobalNamespace::BeatmapEventData*)>(
     &::GlobalNamespace::BeatmapEventData::set_nextSameTypeEventData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3259658;
+  constexpr static std::size_t addrs = 0x3256918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventData::*)(float_t, int32_t, int32_t)>(&::GlobalNamespace::BeatmapEventData::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3259284;
+  constexpr static std::size_t addrs = 0x3256544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventData*>(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventData::*)(::GlobalNamespace::BeatmapEventData*)>(
     &::GlobalNamespace::BeatmapEventData::__ConnectWithPreviousSameTypeEventData)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3259660;
+  constexpr static std::size_t addrs = 0x3256920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventData::*)(::GlobalNamespace::BeatmapEventData*)>(
     &::GlobalNamespace::BeatmapEventData::__ConnectWithNextSameTypeEventData)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3259670;
+  constexpr static std::size_t addrs = 0x3256930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventData*>(),
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventData::*)()>(&::GlobalNamespace::BeatmapEventData::__ResetConnections)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3259680;
+  constexpr static std::size_t addrs = 0x3256940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventData*>(), { "__ResetConnections", {}, {} })));
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::BeatmapEventData::*)(::GlobalNamespace::BeatmapEventData*)>(
     &::GlobalNamespace::BeatmapEventData::GetDefault)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3259688;
+  constexpr static std::size_t addrs = 0x3256948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

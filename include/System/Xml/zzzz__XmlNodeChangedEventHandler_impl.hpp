@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlNodeChangedEventHandler::*)(::System::Object*, ::System::IntPtr)>(&::System::Xml::XmlNodeChangedEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x62c2e90;
+  constexpr static std::size_t addrs = 0x62c0c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlNodeChangedEventHandler::*)(::System::Object*, ::System::Xml::XmlNodeChangedEventArgs*)>(
     &::System::Xml::XmlNodeChangedEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x62c2fd8;
+  constexpr static std::size_t addrs = 0x62c0d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

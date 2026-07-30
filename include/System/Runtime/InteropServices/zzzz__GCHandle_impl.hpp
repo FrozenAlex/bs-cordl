@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::InteropServices::GCHandle::*)(::System::IntPtr)>(&::System::Runtime::InteropServices::GCHandle::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6aec8;
+  constexpr static std::size_t addrs = 0x5b68d0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::InteropServices::GCHandle::*)(::System::Object*)>(&::System::Runtime::InteropServices::GCHandle::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5b6aed0;
+  constexpr static std::size_t addrs = 0x5b68d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::InteropServices::GCHandle::*)(::System::Object*, ::System::Runtime::InteropServices::GCHandleType)>(
     &::System::Runtime::InteropServices::GCHandle::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5b6aef4;
+  constexpr static std::size_t addrs = 0x5b68d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::InteropServices::GCHandle::*)()>(&::System::Runtime::InteropServices::GCHandle::get_IsAllocated)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5b6af24;
+  constexpr static std::size_t addrs = 0x5b68d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::GCHandle>(), { "get_IsAllocated", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::IntPtr)>(&::System::Runtime::InteropServices::GCHandle::GetRef)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6af34;
+  constexpr static std::size_t addrs = 0x5b68d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::Object*)>(&::System::Runtime::InteropServices::GCHandle::SetRef)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6af3c;
+  constexpr static std::size_t addrs = 0x5b68d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::GCHandle>(),
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::System::Runtime::InteropServices::GCHandle::CanDereferenceHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b6af44;
+  constexpr static std::size_t addrs = 0x5b68d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::InteropServices::GCHandle::*)()>(&::System::Runtime::InteropServices::GCHandle::get_Target)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5b6af50;
+  constexpr static std::size_t addrs = 0x5b68d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::GCHandle>(), { "get_Target", {}, {} })));
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::InteropServices::GCHandle::*)(::System::Object*)>(&::System::Runtime::InteropServices::GCHandle::set_Target)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5b6afb8;
+  constexpr static std::size_t addrs = 0x5b68dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::System::Runtime::InteropServices::GCHandle::*)()>(&::System::Runtime::InteropServices::GCHandle::AddrOfPinnedObject)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5b6afec;
+  constexpr static std::size_t addrs = 0x5b68e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::GCHandle>(), { "AddrOfPinnedObject", {}, {} })));
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::InteropServices::GCHandle (*)(::System::Object*)>(&::System::Runtime::InteropServices::GCHandle::Alloc)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b6b090;
+  constexpr static std::size_t addrs = 0x5b68ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::InteropServices::GCHandle (*)(::System::Object*, ::System::Runtime::InteropServices::GCHandleType)>(
     &::System::Runtime::InteropServices::GCHandle::Alloc)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5b6b09c;
+  constexpr static std::size_t addrs = 0x5b68ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::InteropServices::GCHandle::*)()>(&::System::Runtime::InteropServices::GCHandle::Free)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5b6b0b0;
+  constexpr static std::size_t addrs = 0x5b68ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::GCHandle>(), { "Free", {}, {} })));
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::Runtime::InteropServices::GCHandle)>(
     &::System::Runtime::InteropServices::GCHandle::op_Explicit___System__IntPtr)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b6b130;
+  constexpr static std::size_t addrs = 0x5b68f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::InteropServices::GCHandle (*)(::System::IntPtr)>(
     &::System::Runtime::InteropServices::GCHandle::op_Explicit___System__Runtime__InteropServices__GCHandle)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5b6b134;
+  constexpr static std::size_t addrs = 0x5b68f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::System::Runtime::InteropServices::GCHandle::CheckCurrentDomain)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6b188;
+  constexpr static std::size_t addrs = 0x5b68fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::IntPtr)>(&::System::Runtime::InteropServices::GCHandle::GetTarget)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b6afb4;
+  constexpr static std::size_t addrs = 0x5b68df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::Object*, ::System::IntPtr, ::System::Runtime::InteropServices::GCHandleType)>(
     &::System::Runtime::InteropServices::GCHandle::GetTargetHandle)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b6af20;
+  constexpr static std::size_t addrs = 0x5b68d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::System::Runtime::InteropServices::GCHandle::FreeHandle)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b6b12c;
+  constexpr static std::size_t addrs = 0x5b68f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::System::Runtime::InteropServices::GCHandle::GetAddrOfPinnedObject)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b6b08c;
+  constexpr static std::size_t addrs = 0x5b68ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Runtime::InteropServices::GCHandle, ::System::Runtime::InteropServices::GCHandle)>(
     &::System::Runtime::InteropServices::GCHandle::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b6b190;
+  constexpr static std::size_t addrs = 0x5b68fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::InteropServices::GCHandle::*)(::System::Object*)>(&::System::Runtime::InteropServices::GCHandle::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5b6b19c;
+  constexpr static std::size_t addrs = 0x5b68fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::InteropServices::GCHandle::*)()>(&::System::Runtime::InteropServices::GCHandle::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b6b218;
+  constexpr static std::size_t addrs = 0x5b6905c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::InteropServices::GCHandle (*)(::System::IntPtr)>(&::System::Runtime::InteropServices::GCHandle::FromIntPtr)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b6b220;
+  constexpr static std::size_t addrs = 0x5b69064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::Runtime::InteropServices::GCHandle)>(&::System::Runtime::InteropServices::GCHandle::ToIntPtr)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b6b224;
+  constexpr static std::size_t addrs = 0x5b69068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

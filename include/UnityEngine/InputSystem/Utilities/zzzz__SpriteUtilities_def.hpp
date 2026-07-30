@@ -26,7 +26,7 @@ namespace UnityEngine::InputSystem::Utilities {
 class CORDL_TYPE SpriteUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateCircleSprite, addr 0x65033d0, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method CreateCircleSprite, addr 0x650116c, size 0x1c8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Sprite> CreateCircleSprite(int32_t radius, ::UnityEngine::Color32 colour);
 
 protected:

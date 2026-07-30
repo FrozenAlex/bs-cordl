@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::GenericIdentity::*)(::StringW, ::StringW)>(&::System::Security::Principal::GenericIdentity::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5b10c64;
+  constexpr static std::size_t addrs = 0x5b0eaa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::GenericIdentity::*)()>(&::System::Security::Principal::GenericIdentity::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5b10e10;
+  constexpr static std::size_t addrs = 0x5b0ec54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::GenericIdentity*>(), { ".ctor", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::GenericIdentity::*)(::System::Security::Principal::GenericIdentity*)>(
     &::System::Security::Principal::GenericIdentity::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5b10e2c;
+  constexpr static std::size_t addrs = 0x5b0ec70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Claims::ClaimsIdentity* (::System::Security::Principal::GenericIdentity::*)()>(
     &::System::Security::Principal::GenericIdentity::Clone)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5b11040;
+  constexpr static std::size_t addrs = 0x5b0ee84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>* (::System::Security::Principal::GenericIdentity::*)()>(
     &::System::Security::Principal::GenericIdentity::get_Claims)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b1109c;
+  constexpr static std::size_t addrs = 0x5b0eee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Principal::GenericIdentity::*)()>(&::System::Security::Principal::GenericIdentity::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b11110;
+  constexpr static std::size_t addrs = 0x5b0ef54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Principal::GenericIdentity::*)()>(&::System::Security::Principal::GenericIdentity::get_AuthenticationType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b11118;
+  constexpr static std::size_t addrs = 0x5b0ef5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::GenericIdentity::*)()>(&::System::Security::Principal::GenericIdentity::AddNameClaim)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5b10d34;
+  constexpr static std::size_t addrs = 0x5b0eb78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::GenericIdentity*>(), { "AddNameClaim", {}, {} })));

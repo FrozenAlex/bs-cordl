@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::AttributeUsageAttribute::*)(::System::AttributeTargets)>(&::System::AttributeUsageAttribute::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5bacecc;
+  constexpr static std::size_t addrs = 0x5baad10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::AttributeUsageAttribute::*)()>(&::System::AttributeUsageAttribute::get_AllowMultiple)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bacedc;
+  constexpr static std::size_t addrs = 0x5baad20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::AttributeUsageAttribute*>(), { "get_AllowMultiple", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::AttributeUsageAttribute::*)(bool)>(&::System::AttributeUsageAttribute::set_AllowMultiple)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bacee4;
+  constexpr static std::size_t addrs = 0x5baad28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::AttributeUsageAttribute::*)()>(&::System::AttributeUsageAttribute::get_Inherited)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5baceec;
+  constexpr static std::size_t addrs = 0x5baad30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::AttributeUsageAttribute*>(), { "get_Inherited", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::AttributeUsageAttribute::*)(bool)>(&::System::AttributeUsageAttribute::set_Inherited)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bacef4;
+  constexpr static std::size_t addrs = 0x5baad38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

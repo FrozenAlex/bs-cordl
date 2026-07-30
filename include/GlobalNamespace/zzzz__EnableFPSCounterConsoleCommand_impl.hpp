@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::EnableFPSCounterConsoleCommand::*)()>(&::GlobalNamespace::EnableFPSCounterConsoleCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32cf248;
+  constexpr static std::size_t addrs = 0x32ccbd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::EnableFPSCounterConsoleCommand::*)()>(&::GlobalNamespace::EnableFPSCounterConsoleCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32cf28c;
+  constexpr static std::size_t addrs = 0x32ccc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::EnableFPSCounterConsoleCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(
         &::GlobalNamespace::EnableFPSCounterConsoleCommand::ExecuteAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x32cf2d0;
+  constexpr static std::size_t addrs = 0x32ccc5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnableFPSCounterConsoleCommand::*)()>(&::GlobalNamespace::EnableFPSCounterConsoleCommand::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x32cf380;
+  constexpr static std::size_t addrs = 0x32ccd0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnableFPSCounterConsoleCommand*>(), { ".ctor", {}, {} })));

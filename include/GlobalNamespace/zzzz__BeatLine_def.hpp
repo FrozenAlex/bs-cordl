@@ -50,7 +50,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::BeatLine_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58c23c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c08a0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -117,16 +117,16 @@ public:
 
   __declspec(property(get = get_rotation)) float_t rotation;
 
-  /// @brief Method AddHighlight, addr 0x58c20c0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddHighlight, addr 0x58c0598, size 0xb4, virtual false, abstract: false, final false
   inline void AddHighlight(float_t noteTime);
 
-  /// @brief Method ColorWasSet, addr 0x58c20b4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x58c058c, size 0xc, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method Init, addr 0x58c1fe8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x58c04c0, size 0xcc, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 position, float_t rotation);
 
-  /// @brief Method ManualUpdate, addr 0x58c2174, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x58c064c, size 0x190, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t songTime);
 
   static inline ::GlobalNamespace::BeatLine* New_ctor();
@@ -185,13 +185,13 @@ public:
 
   constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::VariableMovementDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x58c2304, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c07dc, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isFinished, addr 0x58c1f88, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_isFinished, addr 0x58c0460, size 0x58, virtual false, abstract: false, final false
   inline bool get_isFinished();
 
-  /// @brief Method get_rotation, addr 0x58c1fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x58c04b8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
 protected:

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSerializable::*)(::UnityEngine::Color)>(&::GlobalNamespace::ColorSerializable::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x377f0ec;
+  constexpr static std::size_t addrs = 0x377dc88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(&::GlobalNamespace::ColorSerializable::Serialize)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x377f0f8;
+  constexpr static std::size_t addrs = 0x377dc94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::ColorSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x377f158;
+  constexpr static std::size_t addrs = 0x377dcf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (*)(::GlobalNamespace::ColorSerializable)>(&::GlobalNamespace::ColorSerializable::op_Implicit___UnityEngine__Color)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x377f1ec;
+  constexpr static std::size_t addrs = 0x377dd88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorSerializable (*)(::UnityEngine::Color)>(
     &::GlobalNamespace::ColorSerializable::op_Implicit___GlobalNamespace__ColorSerializable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x377f1f0;
+  constexpr static std::size_t addrs = 0x377dd8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ColorSerializable::*)(::GlobalNamespace::ColorSerializable)>(&::GlobalNamespace::ColorSerializable::Equals)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x377f1f4;
+  constexpr static std::size_t addrs = 0x377dd90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ColorSerializable::*)(::System::Object*)>(&::GlobalNamespace::ColorSerializable::Equals)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x377f334;
+  constexpr static std::size_t addrs = 0x377ded0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ColorSerializable::*)()>(&::GlobalNamespace::ColorSerializable::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x377f3b8;
+  constexpr static std::size_t addrs = 0x377df54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::ColorSerializable::*)()>(&::GlobalNamespace::ColorSerializable::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x377f424;
+  constexpr static std::size_t addrs = 0x377dfc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

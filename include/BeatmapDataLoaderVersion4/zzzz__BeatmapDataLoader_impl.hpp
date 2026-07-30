@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass0_0::*)()>(
     &::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x375c610;
+  constexpr static std::size_t addrs = 0x375b134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapData* (::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass0_0::*)()>(
     &::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass0_0::_GetBeatmapDataFromSaveDataJsonAsync_b__0)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x375fab4;
+  constexpr static std::size_t addrs = 0x375e5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass1_0::*)()>(
     &::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass1_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x375c73c;
+  constexpr static std::size_t addrs = 0x375b260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDataBasicInfo* (::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass1_0::*)()>(
     &::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass1_0::_GetBeatmapDataBasicInfoFromSaveDataJsonAsync_b__0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375fafc;
+  constexpr static std::size_t addrs = 0x375e620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0::*)()>(
     &::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x375e1b0;
+  constexpr static std::size_t addrs = 0x375ccd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0::*)(::BeatmapSaveDataVersion4::ChainBeatIndex*)>(
     &::BeatmapDataLoaderVersion4::BeatmapDataLoader___c__DisplayClass4_0::_GetBeatmapDataBasicInfoFromSaveDataJson_b__0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x375fb04;
+  constexpr static std::size_t addrs = 0x375e628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -331,7 +331,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
                                           ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::IBeatmapLightEventConverter*)>(
     &::BeatmapDataLoaderVersion4::BeatmapDataLoader::GetBeatmapDataFromSaveDataJsonAsync)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x375c478;
+  constexpr static std::size_t addrs = 0x375af9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapDataBasicInfo*>* (*)(::StringW)>(
     &::BeatmapDataLoaderVersion4::BeatmapDataLoader::GetBeatmapDataBasicInfoFromSaveDataJsonAsync)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x375c614;
+  constexpr static std::size_t addrs = 0x375b138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -370,7 +370,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                     ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::IBeatmapLightEventConverter*)>(
         &::BeatmapDataLoaderVersion4::BeatmapDataLoader::GetBeatmapDataFromSaveDataJson)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x375c740;
+  constexpr static std::size_t addrs = 0x375b264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -392,7 +392,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::GlobalNamespace::BeatmapData*, ::BeatmapSaveDataVersion4::LightshowSaveData*, ::GlobalNamespace::BpmTimeProcessor*, ::GlobalNamespace::EnvironmentKeywords*,
                          ::GlobalNamespace::IEnvironmentLightGroups*, ::GlobalNamespace::IBeatmapLightEventConverter*, bool, bool)>(&::BeatmapDataLoaderVersion4::BeatmapDataLoader::LoadLightshow)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x375ce4c;
+  constexpr static std::size_t addrs = 0x375b970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -412,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDataBasicInfo* (*)(::StringW)>(
     &::BeatmapDataLoaderVersion4::BeatmapDataLoader::GetBeatmapDataBasicInfoFromSaveDataJson)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x375e014;
+  constexpr static std::size_t addrs = 0x375cb38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -431,7 +431,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                     ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::IBeatmapLightEventConverter*)>(
         &::BeatmapDataLoaderVersion4::BeatmapDataLoader::GetBeatmapDataFromSaveData)> {
   constexpr static std::size_t size = 0x544;
-  constexpr static std::size_t addrs = 0x375c908;
+  constexpr static std::size_t addrs = 0x375b42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::BeatmapData*, ::BeatmapSaveDataVersion4::BeatmapSaveData*, ::BeatmapSaveDataVersion4::LightshowSaveData*,
                                                                 ::GlobalNamespace::BpmTimeProcessor*)>(&::BeatmapDataLoaderVersion4::BeatmapDataLoader::ConvertBeatmapObjects)> {
   constexpr static std::size_t size = 0x8dc;
-  constexpr static std::size_t addrs = 0x375e1b4;
+  constexpr static std::size_t addrs = 0x375ccd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -472,7 +472,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespac
                                                                 ::GlobalNamespace::EnvironmentKeywords*, ::GlobalNamespace::IBeatmapLightEventConverter*)>(
     &::BeatmapDataLoaderVersion4::BeatmapDataLoader::ConvertBasicEvents)> {
   constexpr static std::size_t size = 0x970;
-  constexpr static std::size_t addrs = 0x375ceb0;
+  constexpr static std::size_t addrs = 0x375b9d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -492,7 +492,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespac
                                                                 ::GlobalNamespace::IEnvironmentLightGroups*, ::GlobalNamespace::IBeatmapLightEventConverter*, bool, bool)>(
     &::BeatmapDataLoaderVersion4::BeatmapDataLoader::ConvertEventBoxGroups)> {
   constexpr static std::size_t size = 0x7f4;
-  constexpr static std::size_t addrs = 0x375d820;
+  constexpr static std::size_t addrs = 0x375c344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

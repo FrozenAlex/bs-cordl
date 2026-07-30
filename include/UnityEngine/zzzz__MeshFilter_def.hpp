@@ -29,36 +29,36 @@ public:
 
   __declspec(property(get = get_sharedMesh, put = set_sharedMesh)) ::UnityW<::UnityEngine::Mesh> sharedMesh;
 
-  /// @brief Method DontStripMeshFilter, addr 0x6aa1778, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DontStripMeshFilter, addr 0x6a9d0c4, size 0x4, virtual false, abstract: false, final false
   inline void DontStripMeshFilter();
 
   static inline ::UnityEngine::MeshFilter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6aa1c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a9d5e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mesh, addr 0x6aa1a0c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x6a9d358, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method get_mesh_Injected, addr 0x6aa1b5c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_mesh_Injected, addr 0x6a9d4a8, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_mesh_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_sharedMesh, addr 0x6aa177c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_sharedMesh, addr 0x6a9d0c8, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_sharedMesh();
 
-  /// @brief Method get_sharedMesh_Injected, addr 0x6aa18cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sharedMesh_Injected, addr 0x6a9d218, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_sharedMesh_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_mesh, addr 0x6aa1b98, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x6a9d4e4, size 0xc0, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_mesh_Injected, addr 0x6aa1c58, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_mesh_Injected, addr 0x6a9d5a4, size 0x44, virtual false, abstract: false, final false
   static inline void set_mesh_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
-  /// @brief Method set_sharedMesh, addr 0x6aa1908, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_sharedMesh, addr 0x6a9d254, size 0xc0, virtual false, abstract: false, final false
   inline void set_sharedMesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_sharedMesh_Injected, addr 0x6aa19c8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sharedMesh_Injected, addr 0x6a9d314, size 0x44, virtual false, abstract: false, final false
   static inline void set_sharedMesh_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
 protected:

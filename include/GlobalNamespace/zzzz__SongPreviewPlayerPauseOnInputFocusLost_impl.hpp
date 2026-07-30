@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)()>(&::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::Start)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x58bd884;
+  constexpr static std::size_t addrs = 0x58bbd5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*>(), { "Start", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)()>(&::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::OnDestroy)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x58bd9a4;
+  constexpr static std::size_t addrs = 0x58bbe7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*>(), { "OnDestroy", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)(::GlobalNamespace::XRSystemEventType)>(
     &::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::HandleSystemStateChange)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x58bdae0;
+  constexpr static std::size_t addrs = 0x58bbfb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*>(),
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)()>(&::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58bdb64;
+  constexpr static std::size_t addrs = 0x58bc03c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*>(), { ".ctor", {}, {} })));

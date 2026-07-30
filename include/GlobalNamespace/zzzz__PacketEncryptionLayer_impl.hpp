@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::*)()>(
     &::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::get_packetsReceivedPlaintext)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x333655c;
+  constexpr static std::size_t addrs = 0x3334b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::*)()>(
     &::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::get_packetsReceivedEncrypted)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3336540;
+  constexpr static std::size_t addrs = 0x3334b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::*)()>(
     &::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::get_packetsReceivedRejected)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3336578;
+  constexpr static std::size_t addrs = 0x3334b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::*)()>(
     &::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::get_packetsSentPlaintext)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3336508;
+  constexpr static std::size_t addrs = 0x3334ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::*)()>(
     &::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::get_packetsSentEncrypted)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x33364ec;
+  constexpr static std::size_t addrs = 0x3334ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::*)()>(
     &::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::get_packetsSentRejected)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3336524;
+  constexpr static std::size_t addrs = 0x3334aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::*)()>(
     &::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::get_encryptionProcessingTime)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3336594;
+  constexpr static std::size_t addrs = 0x3334b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::*)()>(
     &::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::get_decryptionProcessingTime)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3336618;
+  constexpr static std::size_t addrs = 0x3334be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::*)()>(
     &::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::IncrementPacketsReceivedPlaintext)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x333a388;
+  constexpr static std::size_t addrs = 0x3338950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::*)()>(
     &::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::IncrementPacketsReceivedEncrypted)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x333a34c;
+  constexpr static std::size_t addrs = 0x3338914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::*)()>(
     &::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::IncrementPacketsReceivedRejected)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x333a3a4;
+  constexpr static std::size_t addrs = 0x333896c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::*)()>(
     &::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::IncrementPacketsSentPlaintext)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x333a7d8;
+  constexpr static std::size_t addrs = 0x3338da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::*)()>(
     &::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::IncrementPacketsSentEncrypted)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x333a79c;
+  constexpr static std::size_t addrs = 0x3338d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::*)()>(
     &::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::IncrementPacketsSentRejected)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x333a7f4;
+  constexpr static std::size_t addrs = 0x3338dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::*)(int64_t)>(
     &::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::AddEncryptionProcessingTime)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x333a7b8;
+  constexpr static std::size_t addrs = 0x3338d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::*)(int64_t)>(
     &::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::AddDecryptionProcessingTime)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x333a368;
+  constexpr static std::size_t addrs = 0x3338930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::*)()>(
     &::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3339df4;
+  constexpr static std::size_t addrs = 0x33383bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PacketEncryptionLayer_EncryptionStatistics*>(), { ".ctor", {}, {} })));
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PendingEncryptionStateList_PacketEncryptionLayer___c::*)()>(
     &::GlobalNamespace::PendingEncryptionStateList_PacketEncryptionLayer___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x333bec8;
+  constexpr static std::size_t addrs = 0x333a490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -468,7 +468,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Encryp
     ::GlobalNamespace::PendingEncryptionStateList_PacketEncryptionLayer___c::*)(::System::Collections::Generic::KeyValuePair_2<int32_t, ::GlobalNamespace::EncryptionUtility_IEncryptionState*>)>(
     &::GlobalNamespace::PendingEncryptionStateList_PacketEncryptionLayer___c::_GetSortedEncryptionStates_b__4_1)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x333becc;
+  constexpr static std::size_t addrs = 0x333a494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -526,7 +526,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass4_0::*)()>(
     &::GlobalNamespace::PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x333bd58;
+  constexpr static std::size_t addrs = 0x333a320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -541,7 +541,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespac
     ::System::Collections::Generic::KeyValuePair_2<int32_t, ::GlobalNamespace::EncryptionUtility_IEncryptionState*>)>(
     &::GlobalNamespace::PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass4_0::_GetSortedEncryptionStates_b__0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x333bf10;
+  constexpr static std::size_t addrs = 0x333a4d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -589,7 +589,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass8_0::*)()>(
     &::GlobalNamespace::PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass8_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x333bdd8;
+  constexpr static std::size_t addrs = 0x333a3a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -604,7 +604,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
     ::System::Collections::Generic::KeyValuePair_2<int32_t, ::GlobalNamespace::EncryptionUtility_IEncryptionState*>)>(
     &::GlobalNamespace::PendingEncryptionStateList_PacketEncryptionLayer___c__DisplayClass8_0::_Remove_b__0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x333bf90;
+  constexpr static std::size_t addrs = 0x333a558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -652,7 +652,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PacketEncryptionLayer_PendingEncryptionStateList::*)()>(
     &::GlobalNamespace::PacketEncryptionLayer_PendingEncryptionStateList::get_isEmpty)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x333ab18;
+  constexpr static std::size_t addrs = 0x33390e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -666,7 +666,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer_PendingEncryptionStateList::*)()>(
     &::GlobalNamespace::PacketEncryptionLayer_PendingEncryptionStateList::Dispose)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x333bb90;
+  constexpr static std::size_t addrs = 0x333a158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -680,7 +680,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::EncryptionUtility_IEncryptionState*> (::GlobalNamespace::PacketEncryptionLayer_PendingEncryptionStateList::*)(
     int32_t)>(&::GlobalNamespace::PacketEncryptionLayer_PendingEncryptionStateList::GetSortedEncryptionStates)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x333b3d8;
+  constexpr static std::size_t addrs = 0x33399a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -695,7 +695,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PacketEncryptionLayer_PendingEncryptionStateList::*)(
     int32_t, ::by_ref<::GlobalNamespace::EncryptionUtility_IEncryptionState*>)>(&::GlobalNamespace::PacketEncryptionLayer_PendingEncryptionStateList::TryGetEncryptionState)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x333b0a8;
+  constexpr static std::size_t addrs = 0x3339670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -710,7 +710,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer_PendingEncryptionStateList::*)(int32_t, ::GlobalNamespace::EncryptionUtility_IEncryptionState*)>(
     &::GlobalNamespace::PacketEncryptionLayer_PendingEncryptionStateList::Add)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x333bd5c;
+  constexpr static std::size_t addrs = 0x333a324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -725,7 +725,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PacketEncryptionLayer_PendingEncryptionStateList::*)(int32_t)>(
     &::GlobalNamespace::PacketEncryptionLayer_PendingEncryptionStateList::Remove)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x333aab4;
+  constexpr static std::size_t addrs = 0x333907c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -739,7 +739,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PacketEncryptionLayer_PendingEncryptionStateList::*)(int32_t, ::GlobalNamespace::EncryptionUtility_IEncryptionState*)>(
     &::GlobalNamespace::PacketEncryptionLayer_PendingEncryptionStateList::Remove)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x333b8a0;
+  constexpr static std::size_t addrs = 0x3339e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -754,7 +754,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer_PendingEncryptionStateList::*)()>(
     &::GlobalNamespace::PacketEncryptionLayer_PendingEncryptionStateList::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x333bddc;
+  constexpr static std::size_t addrs = 0x333a3a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -840,7 +840,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer__AddEncryptedEndpointAsync_d__25::*)()>(
     &::GlobalNamespace::PacketEncryptionLayer__AddEncryptedEndpointAsync_d__25::MoveNext)> {
   constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x333bfe8;
+  constexpr static std::size_t addrs = 0x333a5b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -854,7 +854,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer__AddEncryptedEndpointAsync_d__25::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::PacketEncryptionLayer__AddEncryptedEndpointAsync_d__25::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x333c3ac;
+  constexpr static std::size_t addrs = 0x333a974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PacketEncryptionLayer__AddEncryptedEndpointAsync_d__25>(),
@@ -909,7 +909,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer__AddPendingEncryptedEndpointAsync_d__27::*)()>(
     &::GlobalNamespace::PacketEncryptionLayer__AddPendingEncryptedEndpointAsync_d__27::MoveNext)> {
   constexpr static std::size_t size = 0x4a4;
-  constexpr static std::size_t addrs = 0x333c42c;
+  constexpr static std::size_t addrs = 0x333a9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -923,7 +923,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer__AddPendingEncryptedEndpointAsync_d__27::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::PacketEncryptionLayer__AddPendingEncryptedEndpointAsync_d__27::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x333c8d0;
+  constexpr static std::size_t addrs = 0x333ae98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PacketEncryptionLayer__AddPendingEncryptedEndpointAsync_d__27>(),
@@ -977,7 +977,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PacketEncryptionLayer::*)()>(&::GlobalNamespace::PacketEncryptionLayer::get_filterUnencryptedTraffic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3339dd4;
+  constexpr static std::size_t addrs = 0x333839c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PacketEncryptionLayer*>(), { "get_filterUnencryptedTraffic", {}, {} })));
@@ -989,7 +989,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer::*)(bool)>(&::GlobalNamespace::PacketEncryptionLayer::set_filterUnencryptedTraffic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3339ddc;
+  constexpr static std::size_t addrs = 0x33383a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1002,7 +1002,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PacketEncryptionLayer::*)()>(&::GlobalNamespace::PacketEncryptionLayer::get_enableStatistics)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3339de4;
+  constexpr static std::size_t addrs = 0x33383ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PacketEncryptionLayer*>(), { "get_enableStatistics", {}, {} })));
@@ -1014,7 +1014,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer::*)(bool)>(&::GlobalNamespace::PacketEncryptionLayer::set_enableStatistics)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3339dec;
+  constexpr static std::size_t addrs = 0x33383b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1028,7 +1028,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer::*)(::BGNet::Core::ITimeProvider*, ::BGNet::Core::ITaskUtility*)>(
     &::GlobalNamespace::PacketEncryptionLayer::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3335330;
+  constexpr static std::size_t addrs = 0x33338f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1043,7 +1043,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer::*)(::System::Net::IPEndPoint*, ::by_ref<::ArrayW<uint8_t>>, ::by_ref<int32_t>,
                                                                                                           ::by_ref<int32_t>)>(&::GlobalNamespace::PacketEncryptionLayer::ProcessInboundPacket)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x3339df8;
+  constexpr static std::size_t addrs = 0x33383c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1057,7 +1057,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer::*)(::System::Net::IPEndPoint*, ::by_ref<::ArrayW<uint8_t>>, ::by_ref<int32_t>,
                                                                                                           ::by_ref<int32_t>)>(&::GlobalNamespace::PacketEncryptionLayer::ProcessOutBoundPacket)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x333a3c0;
+  constexpr static std::size_t addrs = 0x3338988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1070,7 +1070,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer::*)(::ArrayW<uint8_t>)>(&::GlobalNamespace::PacketEncryptionLayer::SetUnencryptedTrafficFilter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x333a810;
+  constexpr static std::size_t addrs = 0x3338dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1085,7 +1085,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Encryp
     ::GlobalNamespace::PacketEncryptionLayer::*)(::System::Net::IPEndPoint*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, bool)>(
     &::GlobalNamespace::PacketEncryptionLayer::AddEncryptedEndpoint)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x333a818;
+  constexpr static std::size_t addrs = 0x3338de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PacketEncryptionLayer*>(),
@@ -1103,7 +1103,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::PacketEncryptionLayer::*)(::System::Net::IPEndPoint*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, bool)>(
     &::GlobalNamespace::PacketEncryptionLayer::AddEncryptedEndpointAsync)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x333a990;
+  constexpr static std::size_t addrs = 0x3338f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PacketEncryptionLayer*>(),
@@ -1120,7 +1120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PacketEncryptionLayer::*)(::System::Net::IPEndPoint*, ::GlobalNamespace::EncryptionUtility_IEncryptionState*)>(
     &::GlobalNamespace::PacketEncryptionLayer::RemoveEncryptedEndpoint)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x3336ef8;
+  constexpr static std::size_t addrs = 0x33354c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1137,7 +1137,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PacketEncryptionLayer::*)(::System::Net::IPEndPoint*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, bool)>(
         &::GlobalNamespace::PacketEncryptionLayer::AddPendingEncryptedEndpointAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x333ab74;
+  constexpr static std::size_t addrs = 0x333913c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PacketEncryptionLayer*>(),
@@ -1153,7 +1153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer::*)()>(&::GlobalNamespace::PacketEncryptionLayer::PollUpdate)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x333ac6c;
+  constexpr static std::size_t addrs = 0x3339234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PacketEncryptionLayer*>(), { "PollUpdate", {}, {} })));
@@ -1165,7 +1165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer::*)()>(&::GlobalNamespace::PacketEncryptionLayer::RemoveAllEndpoints)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3335f14;
+  constexpr static std::size_t addrs = 0x33344dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PacketEncryptionLayer*>(), { "RemoveAllEndpoints", {}, {} })));
@@ -1178,7 +1178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PacketEncryptionLayer::*)(
     ::System::Net::IPEndPoint*, ::by_ref<::GlobalNamespace::EncryptionUtility_IEncryptionState*>)>(&::GlobalNamespace::PacketEncryptionLayer::TryGetEncryptionState)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x333ae2c;
+  constexpr static std::size_t addrs = 0x33393f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1194,7 +1194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PacketEncryptionLayer::*)(
     ::System::Net::IPEndPoint*, ::by_ref<::GlobalNamespace::EncryptionUtility_IEncryptionState*>)>(&::GlobalNamespace::PacketEncryptionLayer::TryGetPendingEncryptionState)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x333af50;
+  constexpr static std::size_t addrs = 0x3339518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1211,7 +1211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PacketEncryptionLayer::*)(
     ::System::Net::IPEndPoint*, ::by_ref<::ArrayW<::GlobalNamespace::EncryptionUtility_IEncryptionState*>>)>(&::GlobalNamespace::PacketEncryptionLayer::TryGetPotentialPendingEncryptionStates)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x333b27c;
+  constexpr static std::size_t addrs = 0x3339844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1228,7 +1228,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PacketEncryptionLayer::*)(::System::Net::IPEndPoint*, ::GlobalNamespace::EncryptionUtility_IEncryptionState*)>(
     &::GlobalNamespace::PacketEncryptionLayer::PromotePendingEncryptionState)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x333b5e8;
+  constexpr static std::size_t addrs = 0x3339bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1244,7 +1244,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PacketEncryptionLayer::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::GlobalNamespace::PacketEncryptionLayer::MatchesFilter)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x333ba78;
+  constexpr static std::size_t addrs = 0x333a040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1259,7 +1259,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PacketEncryptionLayer::*)(::System::Net::IPEndPoint*, ::by_ref<::ArrayW<uint8_t>>, ::by_ref<int32_t>, ::by_ref<int32_t>,
                                                                                                           ::by_ref<bool>)>(&::GlobalNamespace::PacketEncryptionLayer::ProcessInboundPacketInternal)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x333a010;
+  constexpr static std::size_t addrs = 0x33385d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1277,7 +1277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PacketEncryptionLayer::*)(::System::Net::IPEndPoint*, ::by_ref<::ArrayW<uint8_t>>, ::by_ref<int32_t>, ::by_ref<int32_t>,
                                                                                                           ::by_ref<bool>)>(&::GlobalNamespace::PacketEncryptionLayer::ProcessOutBoundPacketInternal)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x333a5b0;
+  constexpr static std::size_t addrs = 0x3338b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1294,7 +1294,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::PacketEncryptionLayer::Log)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x333bb04;
+  constexpr static std::size_t addrs = 0x333a0cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

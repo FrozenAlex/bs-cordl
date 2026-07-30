@@ -106,39 +106,39 @@ public:
   /// @brief Field _whiteSectionMaxDuration, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get__whiteSectionMaxDuration, put = __cordl_internal_set__whiteSectionMaxDuration)) float_t _whiteSectionMaxDuration;
 
-  /// @brief Method GetTrailWidth, addr 0x5f4dcc0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetTrailWidth, addr 0x5f4ba5c, size 0x8c, virtual false, abstract: false, final false
   inline float_t GetTrailWidth(::GlobalNamespace::BladeMovementDataElement lastAddedData);
 
-  /// @brief Method HandleDeterminismSet, addr 0x5f4dd4c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleDeterminismSet, addr 0x5f4bae8, size 0x14, virtual false, abstract: false, final false
   inline void HandleDeterminismSet(bool isDeterministic);
 
-  /// @brief Method Init, addr 0x5f4d890, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5f4b62c, size 0x29c, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LateUpdate, addr 0x5f4ded4, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5f4bc70, size 0x3fc, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberTrail* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5f4e83c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5f4c5d8, size 0xac, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x5f4e718, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5f4c4b4, size 0x124, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x5f4e8e8, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x5f4c684, size 0x214, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnEnable, addr 0x5f4e5cc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5f4c368, size 0x14c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResetTrailData, addr 0x5f4dd60, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ResetTrailData, addr 0x5f4bafc, size 0xe4, virtual false, abstract: false, final false
   inline void ResetTrailData();
 
-  /// @brief Method Setup, addr 0x5f4d870, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5f4b60c, size 0x20, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Color color, ::GlobalNamespace::IBladeMovementData* movementData);
 
-  /// @brief Method Start, addr 0x5f4d770, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5f4b4b4, size 0x158, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -261,7 +261,7 @@ public:
 
   constexpr void __cordl_internal_set__whiteSectionMaxDuration(float_t value);
 
-  /// @brief Method .ctor, addr 0x5f4eafc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f4c898, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -279,7 +279,7 @@ public:
   SaberTrail(SaberTrail const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23152 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23150 };
 
   /// @brief Field kIgnoredFramesCount offset 0xffffffff size 0x4
   static constexpr int32_t kIgnoredFramesCount{ static_cast<int32_t>(0x4) };

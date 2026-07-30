@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerSettingsViewController::*)(bool, bool, bool)>(&::GlobalNamespace::ServerSettingsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x5a1bca8;
+  constexpr static std::size_t addrs = 0x5a1a0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerSettingsViewController::*)(bool, bool)>(&::GlobalNamespace::ServerSettingsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5a1bf08;
+  constexpr static std::size_t addrs = 0x5a1a334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerSettingsViewController::*)(bool)>(&::GlobalNamespace::ServerSettingsViewController::HandleEnabledChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a1bf6c;
+  constexpr static std::size_t addrs = 0x5a1a398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerSettingsViewController::*)(::HMUI::InputFieldView*)>(
     &::GlobalNamespace::ServerSettingsViewController::HandleHostnameChanged)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5a1bf88;
+  constexpr static std::size_t addrs = 0x5a1a3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerSettingsViewController::*)(bool)>(&::GlobalNamespace::ServerSettingsViewController::HandleForceGameliftChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a1bfb0;
+  constexpr static std::size_t addrs = 0x5a1a3dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerSettingsViewController::*)()>(&::GlobalNamespace::ServerSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a1bfcc;
+  constexpr static std::size_t addrs = 0x5a1a3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ServerSettingsViewController*>(), { ".ctor", {}, {} })));

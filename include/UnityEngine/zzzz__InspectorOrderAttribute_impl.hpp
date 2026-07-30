@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InspectorSort (::UnityEngine::InspectorOrderAttribute::*)()>(&::UnityEngine::InspectorOrderAttribute::get_m_inspectorSort)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ae0970;
+  constexpr static std::size_t addrs = 0x6adc268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InspectorOrderAttribute*>(), { "get_m_inspectorSort", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InspectorSortDirection (::UnityEngine::InspectorOrderAttribute::*)()>(
     &::UnityEngine::InspectorOrderAttribute::get_m_sortDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ae0978;
+  constexpr static std::size_t addrs = 0x6adc270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InspectorOrderAttribute*>(), { "get_m_sortDirection", {}, {} })));

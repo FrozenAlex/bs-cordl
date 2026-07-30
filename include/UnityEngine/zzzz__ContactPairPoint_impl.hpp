@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ContactPairPoint::*)()>(&::UnityEngine::ContactPairPoint::get_position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b8fbc0;
+  constexpr static std::size_t addrs = 0x6b8b5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPairPoint>(), { "get_position", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ContactPairPoint::*)()>(&::UnityEngine::ContactPairPoint::get_separation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b8fbcc;
+  constexpr static std::size_t addrs = 0x6b8b5d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPairPoint>(), { "get_separation", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ContactPairPoint::*)()>(&::UnityEngine::ContactPairPoint::get_normal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b8fbd4;
+  constexpr static std::size_t addrs = 0x6b8b5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPairPoint>(), { "get_normal", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ContactPairPoint::*)()>(&::UnityEngine::ContactPairPoint::get_impulse)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b8fbe0;
+  constexpr static std::size_t addrs = 0x6b8b5e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPairPoint>(), { "get_impulse", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ContactPairPoint::*)()>(&::UnityEngine::ContactPairPoint::get_Position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b8fbec;
+  constexpr static std::size_t addrs = 0x6b8b5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPairPoint>(), { "get_Position", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ContactPairPoint::*)()>(&::UnityEngine::ContactPairPoint::get_Separation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b8fbf8;
+  constexpr static std::size_t addrs = 0x6b8b5fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPairPoint>(), { "get_Separation", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ContactPairPoint::*)()>(&::UnityEngine::ContactPairPoint::get_Normal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b8fc00;
+  constexpr static std::size_t addrs = 0x6b8b604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPairPoint>(), { "get_Normal", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ContactPairPoint::*)()>(&::UnityEngine::ContactPairPoint::get_Impulse)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b8fc0c;
+  constexpr static std::size_t addrs = 0x6b8b610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContactPairPoint>(), { "get_Impulse", {}, {} })));

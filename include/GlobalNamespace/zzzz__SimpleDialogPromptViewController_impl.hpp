@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::*)()>(
     &::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a1c79c;
+  constexpr static std::size_t addrs = 0x5a1abc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::*)()>(
     &::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::_DidActivate_b__0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5a1c97c;
+  constexpr static std::size_t addrs = 0x5a1ada8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::SimpleDialogPromptViewController::DidActivate)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x5a1c62c;
+  constexpr static std::size_t addrs = 0x5a1aa58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleDialogPromptViewController*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)(bool, bool)>(
     &::GlobalNamespace::SimpleDialogPromptViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a1c7a0;
+  constexpr static std::size_t addrs = 0x5a1abcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleDialogPromptViewController*>(),
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)(::StringW, ::StringW, ::StringW, ::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::SimpleDialogPromptViewController::Init)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5a118b4;
+  constexpr static std::size_t addrs = 0x5a0fce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)(::StringW, ::StringW, ::StringW, ::StringW, ::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::SimpleDialogPromptViewController::Init)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a1c970;
+  constexpr static std::size_t addrs = 0x5a1ad9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)(
     ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::System::Action_1<int32_t>*)>(&::GlobalNamespace::SimpleDialogPromptViewController::Init)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x5a1c7ac;
+  constexpr static std::size_t addrs = 0x5a1abd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)()>(&::GlobalNamespace::SimpleDialogPromptViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a118c8;
+  constexpr static std::size_t addrs = 0x5a0fcf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleDialogPromptViewController*>(), { ".ctor", {}, {} })));

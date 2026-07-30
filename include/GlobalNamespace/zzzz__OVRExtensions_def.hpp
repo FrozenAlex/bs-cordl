@@ -101,79 +101,79 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToHMDMatrix34, addr 0x5e1b1b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ConvertToHMDMatrix34, addr 0x5e18f20, size 0x50, virtual false, abstract: false, final false
   static inline ::OVR::OpenVR::HmdMatrix34_t ConvertToHMDMatrix34(::UnityEngine::Matrix4x4 m);
 
-  /// @brief Method CopyFrom, addr 0x5e1b4fc, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x5e19268, size 0x208, virtual false, abstract: false, final false
   static inline void CopyFrom(::UnityEngine::Gradient* gradient, ::UnityEngine::Gradient* otherGradient);
 
-  /// @brief Method Equals, addr 0x5e1b304, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x5e19070, size 0x1f8, virtual false, abstract: false, final false
   static inline bool Equals(::UnityEngine::Gradient* gradient, ::UnityEngine::Gradient* otherGradient);
 
-  /// @brief Method FindChildRecursive, addr 0x5e1b204, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method FindChildRecursive, addr 0x5e18f70, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> FindChildRecursive(::UnityEngine::Transform* parent, ::StringW name);
 
-  /// @brief Method FromColorf, addr 0x5e1b15c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromColorf, addr 0x5e18ec8, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color FromColorf(::GlobalNamespace::OVRPlugin_Colorf c);
 
-  /// @brief Method FromFlippedXQuatf, addr 0x5e1b18c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FromFlippedXQuatf, addr 0x5e18ef8, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion FromFlippedXQuatf(::GlobalNamespace::OVRPlugin_Quatf q);
 
-  /// @brief Method FromFlippedXVector2f, addr 0x5e10fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FromFlippedXVector2f, addr 0x5e0ed1c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 FromFlippedXVector2f(::GlobalNamespace::OVRPlugin_Vector2f v);
 
-  /// @brief Method FromFlippedXVector3f, addr 0x5e11980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FromFlippedXVector3f, addr 0x5e0f6ec, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 FromFlippedXVector3f(::GlobalNamespace::OVRPlugin_Vector3f v);
 
-  /// @brief Method FromFlippedZQuatf, addr 0x5e0cfd0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FromFlippedZQuatf, addr 0x5e0ad3c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion FromFlippedZQuatf(::GlobalNamespace::OVRPlugin_Quatf q);
 
-  /// @brief Method FromFlippedZVector3f, addr 0x5e0cd34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FromFlippedZVector3f, addr 0x5e0aaa0, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 FromFlippedZVector3f(::GlobalNamespace::OVRPlugin_Vector3f v);
 
-  /// @brief Method FromOVRPose, addr 0x5e187f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method FromOVRPose, addr 0x5e1655c, size 0x80, virtual false, abstract: false, final false
   static inline void FromOVRPose(::UnityEngine::Transform* t, ::GlobalNamespace::OVRPose pose, bool isLocal);
 
-  /// @brief Method FromQuatf, addr 0x5e1b188, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromQuatf, addr 0x5e18ef4, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion FromQuatf(::GlobalNamespace::OVRPlugin_Quatf q);
 
-  /// @brief Method FromSize3f, addr 0x5e1197c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromSize3f, addr 0x5e0f6e8, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 FromSize3f(::GlobalNamespace::OVRPlugin_Size3f v);
 
-  /// @brief Method FromSizef, addr 0x5e10fac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromSizef, addr 0x5e0ed18, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 FromSizef(::GlobalNamespace::OVRPlugin_Sizef v);
 
-  /// @brief Method FromVector2f, addr 0x5e1b168, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromVector2f, addr 0x5e18ed4, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 FromVector2f(::GlobalNamespace::OVRPlugin_Vector2f v);
 
-  /// @brief Method FromVector3f, addr 0x5e16ae8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromVector3f, addr 0x5e14854, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 FromVector3f(::GlobalNamespace::OVRPlugin_Vector3f v);
 
-  /// @brief Method FromVector4f, addr 0x5e1b180, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromVector4f, addr 0x5e18eec, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 FromVector4f(::GlobalNamespace::OVRPlugin_Vector4f v);
 
-  /// @brief Method ToColorf, addr 0x5e1b160, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToColorf, addr 0x5e18ecc, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Colorf ToColorf(::UnityEngine::Color c);
 
-  /// @brief Method ToFlippedXQuatf, addr 0x5e1b19c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToFlippedXQuatf, addr 0x5e18f08, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Quatf ToFlippedXQuatf(::UnityEngine::Quaternion q);
 
-  /// @brief Method ToFlippedXVector3f, addr 0x5e1b178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToFlippedXVector3f, addr 0x5e18ee4, size 0x8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Vector3f ToFlippedXVector3f(::UnityEngine::Vector3 v);
 
-  /// @brief Method ToFlippedZQuatf, addr 0x5e1b1a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToFlippedZQuatf, addr 0x5e18f14, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Quatf ToFlippedZQuatf(::UnityEngine::Quaternion q);
 
-  /// @brief Method ToFlippedZVector3f, addr 0x5e165f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToFlippedZVector3f, addr 0x5e14360, size 0x8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Vector3f ToFlippedZVector3f(::UnityEngine::Vector3 v);
 
-  /// @brief Method ToFrustum, addr 0x5e1b148, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ToFrustum, addr 0x5e18eb4, size 0x14, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTracker_Frustum ToFrustum(::GlobalNamespace::OVRPlugin_Frustumf f);
 
-  /// @brief Method ToHeadSpacePose, addr 0x5e1af68, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ToHeadSpacePose, addr 0x5e18cd4, size 0x118, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPose ToHeadSpacePose(::GlobalNamespace::OVRPose trackingSpacePose);
 
-  /// @brief Method ToHeadSpacePose, addr 0x5e1ab00, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ToHeadSpacePose, addr 0x5e1886c, size 0x198, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPose ToHeadSpacePose(::UnityEngine::Transform* transform, ::UnityEngine::Camera* camera);
 
   /// @brief Method ToNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -182,40 +182,40 @@ public:
   /// @brief Method ToNonAlloc, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::GlobalNamespace::OVREnumerable_1<T> ToNonAlloc(::System::Collections::Generic::IEnumerable_1<T>* enumerable);
 
-  /// @brief Method ToOVRPose, addr 0x5e1b120, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToOVRPose, addr 0x5e18e8c, size 0x28, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPose ToOVRPose(::GlobalNamespace::OVRPlugin_Posef p);
 
-  /// @brief Method ToOVRPose, addr 0x5e1b080, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ToOVRPose, addr 0x5e18dec, size 0xa0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPose ToOVRPose(::UnityEngine::Transform* t, bool isLocal);
 
-  /// @brief Method ToQuatf, addr 0x5e1b198, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToQuatf, addr 0x5e18f04, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Quatf ToQuatf(::UnityEngine::Quaternion q);
 
-  /// @brief Method ToSize3f, addr 0x5e1b170, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToSize3f, addr 0x5e18edc, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Size3f ToSize3f(::UnityEngine::Vector3 v);
 
-  /// @brief Method ToSizef, addr 0x5e1b164, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToSizef, addr 0x5e18ed0, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Sizef ToSizef(::UnityEngine::Vector2 v);
 
-  /// @brief Method ToSpaceStorageLocation, addr 0x5e0ac4c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ToSpaceStorageLocation, addr 0x5e089b8, size 0xac, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_SpaceStorageLocation ToSpaceStorageLocation(::GlobalNamespace::OVRSpace_StorageLocation storageLocation);
 
-  /// @brief Method ToTrackingSpacePose, addr 0x5e1a9f0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ToTrackingSpacePose, addr 0x5e1875c, size 0x110, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPose ToTrackingSpacePose(::UnityEngine::Transform* transform, ::UnityEngine::Camera* camera);
 
-  /// @brief Method ToVector2f, addr 0x5e1b16c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToVector2f, addr 0x5e18ed8, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Vector2f ToVector2f(::UnityEngine::Vector2 v);
 
-  /// @brief Method ToVector3f, addr 0x5e1b174, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToVector3f, addr 0x5e18ee0, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Vector3f ToVector3f(::UnityEngine::Vector3 v);
 
-  /// @brief Method ToVector4f, addr 0x5e1b184, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToVector4f, addr 0x5e18ef0, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_Vector4f ToVector4f(::UnityEngine::Vector4 v);
 
-  /// @brief Method ToWorldSpacePose, addr 0x5e1ad94, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ToWorldSpacePose, addr 0x5e18b00, size 0x50, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPose ToWorldSpacePose(::GlobalNamespace::OVRPose trackingSpacePose);
 
-  /// @brief Method ToWorldSpacePose, addr 0x5e1ade4, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ToWorldSpacePose, addr 0x5e18b50, size 0x184, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPose ToWorldSpacePose(::GlobalNamespace::OVRPose trackingSpacePose, ::UnityEngine::Camera* mainCamera);
 
 protected:

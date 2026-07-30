@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::EventSystemListener::*)(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*)>(
     &::HMUI::EventSystemListener::add_pointerDidEnterEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x587b72c;
+  constexpr static std::size_t addrs = 0x5879bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::EventSystemListener::*)(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*)>(
     &::HMUI::EventSystemListener::remove_pointerDidEnterEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x587b7ec;
+  constexpr static std::size_t addrs = 0x5879c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::EventSystemListener::*)(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*)>(
     &::HMUI::EventSystemListener::add_pointerDidExitEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x587b8ac;
+  constexpr static std::size_t addrs = 0x5879d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::EventSystemListener::*)(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*)>(
     &::HMUI::EventSystemListener::remove_pointerDidExitEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x587b96c;
+  constexpr static std::size_t addrs = 0x5879e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::EventSystemListener::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::EventSystemListener::OnPointerEnter)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x587ba2c;
+  constexpr static std::size_t addrs = 0x5879ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::EventSystemListener::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::EventSystemListener::OnPointerExit)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x587ba48;
+  constexpr static std::size_t addrs = 0x5879ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::EventSystemListener::*)()>(&::HMUI::EventSystemListener::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x587ba64;
+  constexpr static std::size_t addrs = 0x5879f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::EventSystemListener*>(), { ".ctor", {}, {} })));

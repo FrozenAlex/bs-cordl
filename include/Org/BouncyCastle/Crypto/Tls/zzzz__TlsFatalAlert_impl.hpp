@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x34815dc;
+  constexpr static std::size_t addrs = 0x347fba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::*)(uint8_t, ::System::Exception*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x34819a8;
+  constexpr static std::size_t addrs = 0x347ff70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::get_AlertDescription)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34853f0;
+  constexpr static std::size_t addrs = 0x34839b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

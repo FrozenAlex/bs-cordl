@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRHandTrackingWideMotionModeSample::*)()>(&::GlobalNamespace::OVRHandTrackingWideMotionModeSample::OnEnable)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5e54790;
+  constexpr static std::size_t addrs = 0x5e524fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRHandTrackingWideMotionModeSample*>(), { "OnEnable", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRHandTrackingWideMotionModeSample::*)()>(&::GlobalNamespace::OVRHandTrackingWideMotionModeSample::OnDisable)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5e54878;
+  constexpr static std::size_t addrs = 0x5e525e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRHandTrackingWideMotionModeSample*>(), { "OnDisable", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRHandTrackingWideMotionModeSample::*)()>(&::GlobalNamespace::OVRHandTrackingWideMotionModeSample::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e54960;
+  constexpr static std::size_t addrs = 0x5e526cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRHandTrackingWideMotionModeSample*>(), { "Update", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRHandTrackingWideMotionModeSample::*)()>(
     &::GlobalNamespace::OVRHandTrackingWideMotionModeSample::UpdateLineRenderer)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5e54964;
+  constexpr static std::size_t addrs = 0x5e526d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRHandTrackingWideMotionModeSample::*)(bool)>(
     &::GlobalNamespace::OVRHandTrackingWideMotionModeSample::UpdateLineRendererForHand)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x5e549b4;
+  constexpr static std::size_t addrs = 0x5e52720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRHandTrackingWideMotionModeSample::*)(bool)>(
     &::GlobalNamespace::OVRHandTrackingWideMotionModeSample::OnFusionToggleChanged)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5e54d5c;
+  constexpr static std::size_t addrs = 0x5e52ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRHandTrackingWideMotionModeSample::*)()>(&::GlobalNamespace::OVRHandTrackingWideMotionModeSample::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e54e0c;
+  constexpr static std::size_t addrs = 0x5e52b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRHandTrackingWideMotionModeSample*>(), { ".ctor", {}, {} })));

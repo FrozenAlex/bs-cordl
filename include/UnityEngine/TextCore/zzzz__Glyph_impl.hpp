@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::TextCore::Glyph::*)()>(&::UnityEngine::TextCore::Glyph::get_index)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8f54;
+  constexpr static std::size_t addrs = 0x6bb4958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Glyph*>(), { "get_index", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Glyph::*)(uint32_t)>(&::UnityEngine::TextCore::Glyph::set_index)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8f5c;
+  constexpr static std::size_t addrs = 0x6bb4960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Glyph*>(), { "set_index", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::GlyphMetrics (::UnityEngine::TextCore::Glyph::*)()>(&::UnityEngine::TextCore::Glyph::get_metrics)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6bb8f64;
+  constexpr static std::size_t addrs = 0x6bb4968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Glyph*>(), { "get_metrics", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Glyph::*)(::UnityEngine::TextCore::GlyphMetrics)>(&::UnityEngine::TextCore::Glyph::set_metrics)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6bb8f78;
+  constexpr static std::size_t addrs = 0x6bb497c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::GlyphRect (::UnityEngine::TextCore::Glyph::*)()>(&::UnityEngine::TextCore::Glyph::get_glyphRect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6bb8f8c;
+  constexpr static std::size_t addrs = 0x6bb4990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Glyph*>(), { "get_glyphRect", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Glyph::*)(::UnityEngine::TextCore::GlyphRect)>(&::UnityEngine::TextCore::Glyph::set_glyphRect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8f98;
+  constexpr static std::size_t addrs = 0x6bb499c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::Glyph::*)()>(&::UnityEngine::TextCore::Glyph::get_scale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8fa0;
+  constexpr static std::size_t addrs = 0x6bb49a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Glyph*>(), { "get_scale", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Glyph::*)(float_t)>(&::UnityEngine::TextCore::Glyph::set_scale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8fa8;
+  constexpr static std::size_t addrs = 0x6bb49ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Glyph*>(), { "set_scale", {}, { ::i2c::type_of<float_t>() } })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::Glyph::*)()>(&::UnityEngine::TextCore::Glyph::get_atlasIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8fb0;
+  constexpr static std::size_t addrs = 0x6bb49b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Glyph*>(), { "get_atlasIndex", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Glyph::*)(int32_t)>(&::UnityEngine::TextCore::Glyph::set_atlasIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8fb8;
+  constexpr static std::size_t addrs = 0x6bb49bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Glyph::*)()>(&::UnityEngine::TextCore::Glyph::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6bb8fc0;
+  constexpr static std::size_t addrs = 0x6bb49c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Glyph*>(), { ".ctor", {}, {} })));
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Glyph::*)(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct)>(&::UnityEngine::TextCore::Glyph::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6bb8fd4;
+  constexpr static std::size_t addrs = 0x6bb49d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Glyph::*)(uint32_t, ::UnityEngine::TextCore::GlyphMetrics, ::UnityEngine::TextCore::GlyphRect, float_t, int32_t)>(
     &::UnityEngine::TextCore::Glyph::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6bb9030;
+  constexpr static std::size_t addrs = 0x6bb4a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

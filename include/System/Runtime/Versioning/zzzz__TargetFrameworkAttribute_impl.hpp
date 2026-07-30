@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Versioning::TargetFrameworkAttribute::*)(::StringW)>(&::System::Runtime::Versioning::TargetFrameworkAttribute::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5b4985c;
+  constexpr static std::size_t addrs = 0x5b476a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Versioning::TargetFrameworkAttribute::*)(::StringW)>(
     &::System::Runtime::Versioning::TargetFrameworkAttribute::set_FrameworkDisplayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b498b4;
+  constexpr static std::size_t addrs = 0x5b476f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

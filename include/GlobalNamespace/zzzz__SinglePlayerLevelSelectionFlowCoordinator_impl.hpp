@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass41_0::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass41_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5936f68;
+  constexpr static std::size_t addrs = 0x5935750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass41_0::*)(int32_t)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass41_0::_StartLevelOrShow360Prompt_b__0)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5937104;
+  constexpr static std::size_t addrs = 0x59358ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass41_0*>(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass41_0::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass41_0::_StartLevelOrShow360Prompt_b__1)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x59371d4;
+  constexpr static std::size_t addrs = 0x59359bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_isInPracticeView)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5936650;
+  constexpr static std::size_t addrs = 0x5934e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerSpecificSettings* (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_playerSettings)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59366c8;
+  constexpr static std::size_t addrs = 0x5934eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_enableCustomLevels)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59366e8;
+  constexpr static std::size_t addrs = 0x5934ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>(),
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameplayModifiers* (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_gameplayModifiers)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5936700;
+  constexpr static std::size_t addrs = 0x5934ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_hideGameplaySetup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5936724;
+  constexpr static std::size_t addrs = 0x5934f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>(),
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::LeaderboardViewController> (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_leaderboardViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x593672c;
+  constexpr static std::size_t addrs = 0x5934f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>(),
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::ViewController> (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_initialTopScreenViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5936734;
+  constexpr static std::size_t addrs = 0x5934f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>(),
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::ViewController> (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_initialLeftScreenViewController)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x593673c;
+  constexpr static std::size_t addrs = 0x5934f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>(),
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(bool, bool)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x593676c;
+  constexpr static std::size_t addrs = 0x5934f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>(),
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(bool)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5936770;
+  constexpr static std::size_t addrs = 0x5934f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>(),
@@ -297,7 +297,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayModifiers*,
     bool)>(&::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5936774;
+  constexpr static std::size_t addrs = 0x5934f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>(),
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>*)>(&::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5924840;
+  constexpr static std::size_t addrs = 0x5923028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>*)>(&::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59250d8;
+  constexpr static std::size_t addrs = 0x59238c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(bool, bool)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidActivate)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5936778;
+  constexpr static std::size_t addrs = 0x5934f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>(),
@@ -355,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(bool)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidDeactivate)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5936838;
+  constexpr static std::size_t addrs = 0x5935020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>(),
@@ -370,7 +370,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(::HMUI::ViewController*, ::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(
         &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorTopViewControllerWillChange)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x59368f0;
+  constexpr static std::size_t addrs = 0x59350d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>(),
@@ -384,7 +384,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::ActionButtonWasPressed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5936b78;
+  constexpr static std::size_t addrs = 0x5935360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>(),
@@ -398,7 +398,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::PracticeButtonWasPressed)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5936e48;
+  constexpr static std::size_t addrs = 0x5935630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>(),
@@ -412,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(
     ::GlobalNamespace::BeatmapLevelPack*, ::by_ref<::GlobalNamespace::BeatmapKey>)>(&::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::SelectionDidChange)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5936ed0;
+  constexpr static std::size_t addrs = 0x59356b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>(),
@@ -426,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(::System::Action*, bool)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::StartLevelOrShow360Prompt)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x5936b84;
+  constexpr static std::size_t addrs = 0x593536c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>(),
@@ -440,7 +440,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(::System::Action*, bool)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::StartLevel)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x5927704;
+  constexpr static std::size_t addrs = 0x5925eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>(),
@@ -454,7 +454,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::HandlePracticeViewControllerDidPressPlayButton)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5936f6c;
+  constexpr static std::size_t addrs = 0x5935754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -469,7 +469,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*)>(
         &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::HandleStandardLevelDidFinish)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5936f78;
+  constexpr static std::size_t addrs = 0x5935760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -487,7 +487,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*)>(
         &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::HandleStandardLevelWasRestarted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5936fe4;
+  constexpr static std::size_t addrs = 0x59357cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>(),
@@ -501,7 +501,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(::HMUI::ViewController*)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::BackButtonWasPressed)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5936fe8;
+  constexpr static std::size_t addrs = 0x59357d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>(),
@@ -515,7 +515,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(bool, bool, bool)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::SetupGameplaySetupViewController)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5935db0;
+  constexpr static std::size_t addrs = 0x5934598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -530,7 +530,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(::GlobalNamespace::LevelCompletionResults*, bool)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::HandleBasicLevelCompletionResults)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59361f8;
+  constexpr static std::size_t addrs = 0x59349e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -545,7 +545,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(::System::Action*, bool)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::DismissPracticeViewController)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x593704c;
+  constexpr static std::size_t addrs = 0x5935834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>(),
@@ -559,7 +559,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5936514;
+  constexpr static std::size_t addrs = 0x5934cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>(), { ".ctor", {}, {} })));

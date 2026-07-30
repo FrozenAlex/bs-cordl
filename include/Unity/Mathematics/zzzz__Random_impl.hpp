@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::Random::*)(uint32_t)>(&::Unity::Mathematics::Random::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x667c8ec;
+  constexpr static std::size_t addrs = 0x667a688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { ".ctor", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::Random (*)(uint32_t)>(&::Unity::Mathematics::Random::CreateFromIndex)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x667c900;
+  constexpr static std::size_t addrs = 0x667a69c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::Unity::Mathematics::Random::WangHash)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x667c938;
+  constexpr static std::size_t addrs = 0x667a6d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "WangHash", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::Random::*)(uint32_t)>(&::Unity::Mathematics::Random::InitState)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x667c960;
+  constexpr static std::size_t addrs = 0x667a6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "InitState", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextBool)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x667c974;
+  constexpr static std::size_t addrs = 0x667a710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextBool", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextBool2)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x667c994;
+  constexpr static std::size_t addrs = 0x667a730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextBool2", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool3 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextBool3)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x667c9c4;
+  constexpr static std::size_t addrs = 0x667a760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextBool3", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool4 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextBool4)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x667ca0c;
+  constexpr static std::size_t addrs = 0x667a7a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextBool4", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextInt)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x667ca48;
+  constexpr static std::size_t addrs = 0x667a7e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextInt", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int2 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextInt2)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x667ca68;
+  constexpr static std::size_t addrs = 0x667a804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextInt2", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextInt3)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x667ca9c;
+  constexpr static std::size_t addrs = 0x667a838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextInt3", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextInt4)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x667cae0;
+  constexpr static std::size_t addrs = 0x667a87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextInt4", {}, {} })));
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Mathematics::Random::*)(int32_t)>(&::Unity::Mathematics::Random::NextInt)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x667cb38;
+  constexpr static std::size_t addrs = 0x667a8d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextInt", {}, { ::i2c::type_of<int32_t>() } })));
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int2 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::int2)>(&::Unity::Mathematics::Random::NextInt2)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x667cb60;
+  constexpr static std::size_t addrs = 0x667a8fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::int3)>(&::Unity::Mathematics::Random::NextInt3)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x667cb9c;
+  constexpr static std::size_t addrs = 0x667a938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::int4)>(&::Unity::Mathematics::Random::NextInt4)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x667cbf0;
+  constexpr static std::size_t addrs = 0x667a98c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Mathematics::Random::*)(int32_t, int32_t)>(&::Unity::Mathematics::Random::NextInt)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x667cc58;
+  constexpr static std::size_t addrs = 0x667a9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int2 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::int2, ::Unity::Mathematics::int2)>(
     &::Unity::Mathematics::Random::NextInt2)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x667cc84;
+  constexpr static std::size_t addrs = 0x667aa20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::int3, ::Unity::Mathematics::int3)>(
     &::Unity::Mathematics::Random::NextInt3)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x667ccdc;
+  constexpr static std::size_t addrs = 0x667aa78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::int4, ::Unity::Mathematics::int4)>(
     &::Unity::Mathematics::Random::NextInt4)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x667cd50;
+  constexpr static std::size_t addrs = 0x667aaec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextUInt)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x667cdf0;
+  constexpr static std::size_t addrs = 0x667ab8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextUInt", {}, {} })));
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint2 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextUInt2)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x667ce10;
+  constexpr static std::size_t addrs = 0x667abac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextUInt2", {}, {} })));
@@ -300,7 +300,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint3 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextUInt3)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x667ce44;
+  constexpr static std::size_t addrs = 0x667abe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextUInt3", {}, {} })));
@@ -312,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint4 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextUInt4)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x667ce88;
+  constexpr static std::size_t addrs = 0x667ac24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextUInt4", {}, {} })));
@@ -324,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Mathematics::Random::*)(uint32_t)>(&::Unity::Mathematics::Random::NextUInt)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x667cee0;
+  constexpr static std::size_t addrs = 0x667ac7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextUInt", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint2 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::uint2)>(&::Unity::Mathematics::Random::NextUInt2)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x667cf04;
+  constexpr static std::size_t addrs = 0x667aca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -349,7 +349,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint3 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::uint3)>(&::Unity::Mathematics::Random::NextUInt3)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x667cf40;
+  constexpr static std::size_t addrs = 0x667acdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -362,7 +362,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint4 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::uint4)>(&::Unity::Mathematics::Random::NextUInt4)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x667cf90;
+  constexpr static std::size_t addrs = 0x667ad2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -375,7 +375,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Mathematics::Random::*)(uint32_t, uint32_t)>(&::Unity::Mathematics::Random::NextUInt)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x667cff4;
+  constexpr static std::size_t addrs = 0x667ad90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -389,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint2 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::uint2, ::Unity::Mathematics::uint2)>(
     &::Unity::Mathematics::Random::NextUInt2)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x667d020;
+  constexpr static std::size_t addrs = 0x667adbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -404,7 +404,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint3 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::uint3, ::Unity::Mathematics::uint3)>(
     &::Unity::Mathematics::Random::NextUInt3)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x667d078;
+  constexpr static std::size_t addrs = 0x667ae14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -419,7 +419,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::uint4 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::uint4, ::Unity::Mathematics::uint4)>(
     &::Unity::Mathematics::Random::NextUInt4)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x667d0ec;
+  constexpr static std::size_t addrs = 0x667ae88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -433,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextFloat)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x667d18c;
+  constexpr static std::size_t addrs = 0x667af28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextFloat", {}, {} })));
@@ -445,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float2 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextFloat2)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x667d1b8;
+  constexpr static std::size_t addrs = 0x667af54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextFloat2", {}, {} })));
@@ -457,7 +457,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float3 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextFloat3)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x667d200;
+  constexpr static std::size_t addrs = 0x667af9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextFloat3", {}, {} })));
@@ -469,7 +469,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float4 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextFloat4)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x667d264;
+  constexpr static std::size_t addrs = 0x667b000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextFloat4", {}, {} })));
@@ -481,7 +481,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Mathematics::Random::*)(float_t)>(&::Unity::Mathematics::Random::NextFloat)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x667d2e4;
+  constexpr static std::size_t addrs = 0x667b080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextFloat", {}, { ::i2c::type_of<float_t>() } })));
@@ -493,7 +493,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float2 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::float2)>(&::Unity::Mathematics::Random::NextFloat2)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x667d314;
+  constexpr static std::size_t addrs = 0x667b0b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -506,7 +506,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float3 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::float3)>(&::Unity::Mathematics::Random::NextFloat3)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x667d364;
+  constexpr static std::size_t addrs = 0x667b100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -519,7 +519,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float4 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::float4)>(&::Unity::Mathematics::Random::NextFloat4)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x667d3d4;
+  constexpr static std::size_t addrs = 0x667b170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -532,7 +532,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Mathematics::Random::*)(float_t, float_t)>(&::Unity::Mathematics::Random::NextFloat)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x667d464;
+  constexpr static std::size_t addrs = 0x667b200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -546,7 +546,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float2 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::float2, ::Unity::Mathematics::float2)>(
     &::Unity::Mathematics::Random::NextFloat2)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x667d49c;
+  constexpr static std::size_t addrs = 0x667b238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -561,7 +561,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float3 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::float3, ::Unity::Mathematics::float3)>(
     &::Unity::Mathematics::Random::NextFloat3)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x667d4fc;
+  constexpr static std::size_t addrs = 0x667b298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -576,7 +576,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float4 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::float4, ::Unity::Mathematics::float4)>(
     &::Unity::Mathematics::Random::NextFloat4)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x667d584;
+  constexpr static std::size_t addrs = 0x667b320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -590,7 +590,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextDouble)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x667d634;
+  constexpr static std::size_t addrs = 0x667b3d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextDouble", {}, {} })));
@@ -602,7 +602,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::double2 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextDouble2)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x667d66c;
+  constexpr static std::size_t addrs = 0x667b408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextDouble2", {}, {} })));
@@ -614,7 +614,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::double3 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextDouble3)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x667d6cc;
+  constexpr static std::size_t addrs = 0x667b468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextDouble3", {}, {} })));
@@ -626,7 +626,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::double4 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextDouble4)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x667d754;
+  constexpr static std::size_t addrs = 0x667b4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextDouble4", {}, {} })));
@@ -638,7 +638,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Mathematics::Random::*)(double_t)>(&::Unity::Mathematics::Random::NextDouble)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x667d804;
+  constexpr static std::size_t addrs = 0x667b5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextDouble", {}, { ::i2c::type_of<double_t>() } })));
@@ -650,7 +650,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::double2 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::double2)>(&::Unity::Mathematics::Random::NextDouble2)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x667d840;
+  constexpr static std::size_t addrs = 0x667b5dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -663,7 +663,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::double3 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::double3)>(&::Unity::Mathematics::Random::NextDouble3)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x667d8a8;
+  constexpr static std::size_t addrs = 0x667b644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -676,7 +676,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::double4 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::double4)>(&::Unity::Mathematics::Random::NextDouble4)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x667d93c;
+  constexpr static std::size_t addrs = 0x667b6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -689,7 +689,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Mathematics::Random::*)(double_t, double_t)>(&::Unity::Mathematics::Random::NextDouble)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x667d9fc;
+  constexpr static std::size_t addrs = 0x667b798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -703,7 +703,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::double2 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::double2, ::Unity::Mathematics::double2)>(
     &::Unity::Mathematics::Random::NextDouble2)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x667da40;
+  constexpr static std::size_t addrs = 0x667b7dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -718,7 +718,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::double3 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::double3, ::Unity::Mathematics::double3)>(
     &::Unity::Mathematics::Random::NextDouble3)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x667dab8;
+  constexpr static std::size_t addrs = 0x667b854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -733,7 +733,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::double4 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::double4, ::Unity::Mathematics::double4)>(
     &::Unity::Mathematics::Random::NextDouble4)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x667db64;
+  constexpr static std::size_t addrs = 0x667b900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -747,7 +747,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float2 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextFloat2Direction)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x667dc44;
+  constexpr static std::size_t addrs = 0x667b9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextFloat2Direction", {}, {} })));
@@ -759,7 +759,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::double2 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextDouble2Direction)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x667dd34;
+  constexpr static std::size_t addrs = 0x667bad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextDouble2Direction", {}, {} })));
@@ -771,7 +771,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float3 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextFloat3Direction)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x667de20;
+  constexpr static std::size_t addrs = 0x667bbbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextFloat3Direction", {}, {} })));
@@ -783,7 +783,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::double3 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextDouble3Direction)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x667df90;
+  constexpr static std::size_t addrs = 0x667bd2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextDouble3Direction", {}, {} })));
@@ -795,7 +795,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::quaternion (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextQuaternionRotation)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x667e118;
+  constexpr static std::size_t addrs = 0x667beb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextQuaternionRotation", {}, {} })));
@@ -807,7 +807,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x667e28c;
+  constexpr static std::size_t addrs = 0x667c028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "NextState", {}, {} })));
@@ -819,7 +819,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::CheckInitState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667e2a8;
+  constexpr static std::size_t addrs = 0x667c044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "CheckInitState", {}, {} })));
@@ -831,7 +831,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint32_t)>(&::Unity::Mathematics::Random::CheckIndexForHash)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x667e2ac;
+  constexpr static std::size_t addrs = 0x667c048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -844,7 +844,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::CheckState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667e304;
+  constexpr static std::size_t addrs = 0x667c0a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "CheckState", {}, {} })));
@@ -856,7 +856,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::Random::*)(int32_t)>(&::Unity::Mathematics::Random::CheckNextIntMax)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667e308;
+  constexpr static std::size_t addrs = 0x667c0a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::Random>(), { "CheckNextIntMax", {}, { ::i2c::type_of<int32_t>() } })));
@@ -868,7 +868,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::Random::*)(int32_t, int32_t)>(&::Unity::Mathematics::Random::CheckNextIntMinMax)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667e30c;
+  constexpr static std::size_t addrs = 0x667c0a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -881,7 +881,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::Random::*)(uint32_t, uint32_t)>(&::Unity::Mathematics::Random::CheckNextUIntMinMax)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x667e310;
+  constexpr static std::size_t addrs = 0x667c0ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::Meta::XR::MultiplayerBlocks::Colocation::LogLevel)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::Log)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5a6fcdc;
+  constexpr static std::size_t addrs = 0x5a6db20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::LogVerbose)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a7fd68;
+  constexpr static std::size_t addrs = 0x5a7dbac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::LogInfo)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a7fe14;
+  constexpr static std::size_t addrs = 0x5a7dc58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::LogWarning)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a7fec0;
+  constexpr static std::size_t addrs = 0x5a7dd04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::LogError)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a7ff6c;
+  constexpr static std::size_t addrs = 0x5a7ddb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::LogSharedSpatialAnchorsError)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a80018;
+  constexpr static std::size_t addrs = 0x5a7de5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::Meta::XR::MultiplayerBlocks::Colocation::LogLevel)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::GetPrefixMessage)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5a800c4;
+  constexpr static std::size_t addrs = 0x5a7df08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::Logger*>(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Meta::XR::MultiplayerBlocks::Colocation::LogLevel, bool)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::Logger::SetLogLevelVisibility)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x5a6ef8c;
+  constexpr static std::size_t addrs = 0x5a6cdd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::Meta::XR::MultiplayerBlocks::Colocation::Logger::SetAllLogsVisibility)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5a6ef2c;
+  constexpr static std::size_t addrs = 0x5a6cd70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

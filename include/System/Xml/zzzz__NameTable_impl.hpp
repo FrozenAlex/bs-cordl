@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::NameTable_Entry::*)(::StringW, int32_t, ::System::Xml::NameTable_Entry*)>(&::System::Xml::NameTable_Entry::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x62c8f00;
+  constexpr static std::size_t addrs = 0x62c6c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::NameTable::*)()>(&::System::Xml::NameTable::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x62c87d8;
+  constexpr static std::size_t addrs = 0x62c6574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::NameTable*>(), { ".ctor", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::NameTable::*)(::StringW)>(&::System::Xml::NameTable::Add)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x62c883c;
+  constexpr static std::size_t addrs = 0x62c65d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::NameTable*>(), { ::i2c::class_of<::System::Xml::NameTable*>(), 7 }));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::NameTable::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::Xml::NameTable::Add)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x62c8aa0;
+  constexpr static std::size_t addrs = 0x62c683c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::NameTable*>(), { ::i2c::class_of<::System::Xml::NameTable*>(), 6 }));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::NameTable::*)(::StringW)>(&::System::Xml::NameTable::Get)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x62c8ca4;
+  constexpr static std::size_t addrs = 0x62c6a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::NameTable*>(), { ::i2c::class_of<::System::Xml::NameTable*>(), 5 }));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::NameTable::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::Xml::NameTable::Get)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x62c8de0;
+  constexpr static std::size_t addrs = 0x62c6b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::NameTable*>(), { ::i2c::class_of<::System::Xml::NameTable*>(), 4 }));
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::NameTable::*)(::StringW, int32_t)>(&::System::Xml::NameTable::AddEntry)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x62c899c;
+  constexpr static std::size_t addrs = 0x62c6738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::NameTable::*)()>(&::System::Xml::NameTable::Grow)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x62c8f10;
+  constexpr static std::size_t addrs = 0x62c6cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::NameTable*>(), { "Grow", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::ArrayW<char16_t>, int32_t, int32_t)>(&::System::Xml::NameTable::TextEquals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x62c8bf4;
+  constexpr static std::size_t addrs = 0x62c6990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

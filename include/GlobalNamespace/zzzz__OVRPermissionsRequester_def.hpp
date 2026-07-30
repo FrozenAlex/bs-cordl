@@ -125,13 +125,13 @@ public:
 
   static inline ::GlobalNamespace::OVRPermissionsRequester___c* New_ctor();
 
-  /// @brief Method <BuildPermissionCallbacks>b__15_0, addr 0x5e9fd58, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <BuildPermissionCallbacks>b__15_0, addr 0x5e9dac4, size 0xa8, virtual false, abstract: false, final false
   inline void _BuildPermissionCallbacks_b__15_0(::StringW permissionId);
 
-  /// @brief Method <BuildPermissionCallbacks>b__15_1, addr 0x5e9fe00, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <BuildPermissionCallbacks>b__15_1, addr 0x5e9db6c, size 0xf0, virtual false, abstract: false, final false
   inline void _BuildPermissionCallbacks_b__15_1(::StringW permissionId);
 
-  /// @brief Method .ctor, addr 0x5e9fd54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e9dac0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OVRPermissionsRequester___c* getStaticF___9();
@@ -183,33 +183,33 @@ public:
   /// @brief Field PermissionGranted, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_PermissionGranted, put = setStaticF_PermissionGranted)) ::System::Action_1<::StringW>* PermissionGranted;
 
-  /// @brief Method BuildPermissionCallbacks, addr 0x5e9fb54, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method BuildPermissionCallbacks, addr 0x5e9d8c0, size 0x1ac, virtual false, abstract: false, final false
   static inline ::UnityEngine::Android::PermissionCallbacks* BuildPermissionCallbacks();
 
-  /// @brief Method GetPermissionId, addr 0x5e9f3a8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetPermissionId, addr 0x5e9d114, size 0x11c, virtual false, abstract: false, final false
   static inline ::StringW GetPermissionId(::GlobalNamespace::OVRPermissionsRequester_Permission permission);
 
-  /// @brief Method IsPermissionGranted, addr 0x5e9f638, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsPermissionGranted, addr 0x5e9d3a4, size 0x14, virtual false, abstract: false, final false
   static inline bool IsPermissionGranted(::GlobalNamespace::OVRPermissionsRequester_Permission permission);
 
-  /// @brief Method IsPermissionSupportedByPlatform, addr 0x5e9f4c4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method IsPermissionSupportedByPlatform, addr 0x5e9d230, size 0x174, virtual false, abstract: false, final false
   static inline bool IsPermissionSupportedByPlatform(::GlobalNamespace::OVRPermissionsRequester_Permission permission);
 
-  /// @brief Method Request, addr 0x5e9f64c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Request, addr 0x5e9d3b8, size 0x4, virtual false, abstract: false, final false
   static inline void Request(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRPermissionsRequester_Permission>* permissions);
 
-  /// @brief Method RequestPermissions, addr 0x5e9f650, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method RequestPermissions, addr 0x5e9d3bc, size 0x3d8, virtual false, abstract: false, final false
   static inline void RequestPermissions(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRPermissionsRequester_Permission>* permissions);
 
-  /// @brief Method ShouldRequestPermission, addr 0x5e9fa28, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ShouldRequestPermission, addr 0x5e9d794, size 0x12c, virtual false, abstract: false, final false
   static inline bool ShouldRequestPermission(::GlobalNamespace::OVRPermissionsRequester_Permission permission);
 
-  /// @brief Method add_PermissionGranted, addr 0x5e9f1e8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method add_PermissionGranted, addr 0x5e9cf54, size 0xe0, virtual false, abstract: false, final false
   static inline void add_PermissionGranted(::System::Action_1<::StringW>* value);
 
   static inline ::System::Action_1<::StringW>* getStaticF_PermissionGranted();
 
-  /// @brief Method remove_PermissionGranted, addr 0x5e9f2c8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method remove_PermissionGranted, addr 0x5e9d034, size 0xe0, virtual false, abstract: false, final false
   static inline void remove_PermissionGranted(::System::Action_1<::StringW>* value);
 
   static inline void setStaticF_PermissionGranted(::System::Action_1<::StringW>* value);

@@ -53,18 +53,18 @@ public:
   __declspec(property(get = __cordl_internal_get__randomSoundPicker,
                       put = __cordl_internal_set__randomSoundPicker)) ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* _randomSoundPicker;
 
-  /// @brief Method HandleButtonClickEvent, addr 0x59f9ea0, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method HandleButtonClickEvent, addr 0x59f8594, size 0x1c8, virtual false, abstract: false, final false
   inline void HandleButtonClickEvent();
 
   static inline ::GlobalNamespace::BasicUIAudioManager* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x59f9d9c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x59f8490, size 0x104, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x59f9c80, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x59f8374, size 0x11c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x59f9bb0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59f82a4, size 0xd0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::AudioSource>> const& __cordl_internal_get__audioSources() const;
@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set__randomSoundPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* value);
 
-  /// @brief Method .ctor, addr 0x59fa068, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f875c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

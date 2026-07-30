@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomLevelsSettingsAsyncInstaller__LoadResourcesBeforeInstallAsync_d__1::*)()>(
     &::GlobalNamespace::CustomLevelsSettingsAsyncInstaller__LoadResourcesBeforeInstallAsync_d__1::MoveNext)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x376b8d8;
+  constexpr static std::size_t addrs = 0x376a3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomLevelsSettingsAsyncInstaller__LoadResourcesBeforeInstallAsync_d__1::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::CustomLevelsSettingsAsyncInstaller__LoadResourcesBeforeInstallAsync_d__1::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x376ba44;
+  constexpr static std::size_t addrs = 0x376a568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::*)(::BGLib::AppFlow::Initialization::IInstallerRegistry*, ::Zenject::DiContainer*)>(
         &::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::LoadResourcesBeforeInstallAsync)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x376b750;
+  constexpr static std::size_t addrs = 0x376a274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomLevelsSettingsAsyncInstaller*>(),
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::*)()>(&::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x376b808;
+  constexpr static std::size_t addrs = 0x376a32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomLevelsSettingsAsyncInstaller*>(),
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::*)()>(&::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x376b8d4;
+  constexpr static std::size_t addrs = 0x376a3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomLevelsSettingsAsyncInstaller*>(), { ".ctor", {}, {} })));

@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
                                                                                                                                ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*)>(
     &::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3412768;
+  constexpr static std::size_t addrs = 0x3410d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters*>(),
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*,
     ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*)>(&::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters::_ctor)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x3412770;
+  constexpr static std::size_t addrs = 0x3410d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters*>(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* (::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters::get_StaticPrivateKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3412938;
+  constexpr static std::size_t addrs = 0x3410f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters*>(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* (::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters::get_EphemeralPrivateKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3412940;
+  constexpr static std::size_t addrs = 0x3410f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters*>(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* (::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters::get_EphemeralPublicKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3412948;
+  constexpr static std::size_t addrs = 0x3410f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters*>(),

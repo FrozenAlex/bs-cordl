@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Shapes::Stairs::*)()>(&::UnityEngine::ProBuilder::Shapes::Stairs::get_sides)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67047c8;
+  constexpr static std::size_t addrs = 0x6702564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Stairs*>(), { "get_sides", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Stairs::*)(bool)>(&::UnityEngine::ProBuilder::Shapes::Stairs::set_sides)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67047d0;
+  constexpr static std::size_t addrs = 0x670256c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Stairs::*)(::UnityEngine::ProBuilder::Shapes::Shape*)>(
     &::UnityEngine::ProBuilder::Shapes::Stairs::CopyShape)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x67047d8;
+  constexpr static std::size_t addrs = 0x6702574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Stairs::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::ProBuilder::Shapes::Stairs::RebuildMesh)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6704890;
+  constexpr static std::size_t addrs = 0x670262c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Stairs::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Bounds)>(&::UnityEngine::ProBuilder::Shapes::Stairs::UpdateBounds)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x670682c;
+  constexpr static std::size_t addrs = 0x67045c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Stairs::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::ProBuilder::Shapes::Stairs::BuildStairs)> {
   constexpr static std::size_t size = 0xec0;
-  constexpr static std::size_t addrs = 0x670596c;
+  constexpr static std::size_t addrs = 0x6703708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Stairs::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::ProBuilder::Shapes::Stairs::BuildCurvedStairs)> {
   constexpr static std::size_t size = 0x1090;
-  constexpr static std::size_t addrs = 0x67048dc;
+  constexpr static std::size_t addrs = 0x6702678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Stairs::*)()>(&::UnityEngine::ProBuilder::Shapes::Stairs::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6706968;
+  constexpr static std::size_t addrs = 0x6704704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Shapes::Stairs*>(), { ".ctor", {}, {} })));

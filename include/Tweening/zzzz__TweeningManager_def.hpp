@@ -59,36 +59,36 @@ public:
       get = __cordl_internal_get__tweensByOwner,
       put = __cordl_internal_set__tweensByOwner)) ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>* _tweensByOwner;
 
-  /// @brief Method AddTween, addr 0x6444248, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method AddTween, addr 0x6441fe4, size 0x4c, virtual false, abstract: false, final false
   inline ::Tweening::Tween* AddTween(::Tweening::Tween* tween, ::System::Object* owner);
 
-  /// @brief Method AddTweenToDataStructures, addr 0x6444294, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AddTweenToDataStructures, addr 0x6442030, size 0x114, virtual false, abstract: false, final false
   inline bool AddTweenToDataStructures(::Tweening::Tween* tween, ::System::Object* owner);
 
-  /// @brief Method AddTweenToOwnerDictionary, addr 0x64445cc, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method AddTweenToOwnerDictionary, addr 0x6442368, size 0x1d0, virtual false, abstract: false, final false
   inline void AddTweenToOwnerDictionary(::Tweening::Tween* tween, ::System::Object* owner);
 
   /// @brief Method GetTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t GetTime();
 
-  /// @brief Method KillAllTweens, addr 0x6444484, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method KillAllTweens, addr 0x6442220, size 0x148, virtual false, abstract: false, final false
   inline void KillAllTweens(::System::Object* owner);
 
-  /// @brief Method LateUpdate, addr 0x6443e3c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x6441bd8, size 0x230, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::Tweening::TweeningManager* New_ctor();
 
-  /// @brief Method RemoveTweenFromOwnerDictionary, addr 0x644406c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method RemoveTweenFromOwnerDictionary, addr 0x6441e08, size 0x1dc, virtual false, abstract: false, final false
   inline void RemoveTweenFromOwnerDictionary(::Tweening::Tween* tween);
 
-  /// @brief Method RestartTween, addr 0x64443a8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method RestartTween, addr 0x6442144, size 0xb8, virtual false, abstract: false, final false
   inline ::Tweening::Tween* RestartTween(::Tweening::Tween* tween, ::System::Object* owner);
 
-  /// @brief Method ResumeTween, addr 0x6444460, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ResumeTween, addr 0x64421fc, size 0x24, virtual false, abstract: false, final false
   inline ::Tweening::Tween* ResumeTween(::Tweening::Tween* tween, ::System::Object* owner);
 
-  /// @brief Method Start, addr 0x6443cf0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x6441a8c, size 0x14c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::System::Collections::Generic::List_1<::Tweening::Tween*>* const& __cordl_internal_get__activeTweens() const;
@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set__tweensByOwner(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>* value);
 
-  /// @brief Method .ctor, addr 0x6443a18, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64417b4, size 0x1f4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -139,7 +139,7 @@ public:
   TweeningManager(TweeningManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22933 };
 
   /// @brief Field kTweenCapacity offset 0xffffffff size 0x4
   static constexpr int32_t kTweenCapacity{ static_cast<int32_t>(0x200) };

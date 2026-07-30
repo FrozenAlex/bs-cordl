@@ -35,25 +35,25 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6820688, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x681e424, size 0x5c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x6822170, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x681ff0c, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(int32_t length, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method get_Item, addr 0x682232c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x68200c8, size 0x90, virtual false, abstract: false, final false
   inline int32_t get_Item(int32_t index);
 
-  /// @brief Method get_Valid, addr 0x6822160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Valid, addr 0x681fefc, size 0x8, virtual false, abstract: false, final false
   inline bool get_Valid();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method set_Item, addr 0x68223bc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x6820158, size 0x98, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, int32_t value);
 
-  /// @brief Method set_Valid, addr 0x6822168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Valid, addr 0x681ff04, size 0x8, virtual false, abstract: false, final false
   inline void set_Valid(bool value);
 
   // Ctor Parameters []
@@ -67,7 +67,7 @@ public:
                               bool _Valid_k__BackingField, int32_t Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17667 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17665 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

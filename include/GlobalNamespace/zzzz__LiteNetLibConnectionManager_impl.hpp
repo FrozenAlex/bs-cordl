@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager_LiteNetLibConnectionParamsBase::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_LiteNetLibConnectionParamsBase::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3337af8;
+  constexpr static std::size_t addrs = 0x33360c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager_StartServerParams::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_StartServerParams::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3337b04;
+  constexpr static std::size_t addrs = 0x33360cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager_StartServerParams*>(), { ".ctor", {}, {} })));
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager_StartClientParams::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_StartClientParams::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3337b10;
+  constexpr static std::size_t addrs = 0x33360d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager_StartClientParams*>(), { ".ctor", {}, {} })));
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager_ConnectToServerParams::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_ConnectToServerParams::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3337b1c;
+  constexpr static std::size_t addrs = 0x33360e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -366,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::get_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3337b30;
+  constexpr static std::size_t addrs = 0x33360f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3337b38;
+  constexpr static std::size_t addrs = 0x3336100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -394,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::get_isConnectionOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3337b40;
+  constexpr static std::size_t addrs = 0x3336108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -408,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::IPEndPoint* (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::get_endPoint)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3337b48;
+  constexpr static std::size_t addrs = 0x3336110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::get_compatibilityVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3337b60;
+  constexpr static std::size_t addrs = 0x3336128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::*)(
     ::LiteNetLib::ConnectionRequest*, ::StringW, ::StringW, bool, ::StringW)>(&::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3337b68;
+  constexpr static std::size_t addrs = 0x3336130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::NetPeer* (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::Accept)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x33376e8;
+  constexpr static std::size_t addrs = 0x3335cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -574,7 +574,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::get_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3337b78;
+  constexpr static std::size_t addrs = 0x3336140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -588,7 +588,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3337b80;
+  constexpr static std::size_t addrs = 0x3336148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -602,7 +602,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::get_isConnectionOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3337b88;
+  constexpr static std::size_t addrs = 0x3336150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -616,7 +616,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::get_compatibilityVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3337b90;
+  constexpr static std::size_t addrs = 0x3336158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -630,7 +630,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::*)(::LiteNetLib::NetPeer*, ::StringW, ::StringW, bool, ::StringW)>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3337700;
+  constexpr static std::size_t addrs = 0x3335cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -647,7 +647,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::*)(::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod)>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::Send)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3337b98;
+  constexpr static std::size_t addrs = 0x3336160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -662,7 +662,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::*)(::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::Equals)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3337c28;
+  constexpr static std::size_t addrs = 0x33361f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection*>(),
@@ -676,7 +676,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::*)(::System::Object*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::Equals)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3337c70;
+  constexpr static std::size_t addrs = 0x3336238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection*>(),
@@ -690,7 +690,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::GetHashCode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3337d84;
+  constexpr static std::size_t addrs = 0x333634c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection*>(),
@@ -704,7 +704,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::Disconnect)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3336ba8;
+  constexpr static std::size_t addrs = 0x3335170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -855,7 +855,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager___c::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3337df4;
+  constexpr static std::size_t addrs = 0x33363bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager___c*>(), { ".ctor", {}, {} })));
@@ -868,7 +868,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager___c::*)(::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager___c::_get_hasConnectionOwner_b__71_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3337df8;
+  constexpr static std::size_t addrs = 0x33363c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -913,7 +913,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__129::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__129::MoveNext)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x3337e0c;
+  constexpr static std::size_t addrs = 0x33363d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -927,7 +927,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__129::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__129::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3338264;
+  constexpr static std::size_t addrs = 0x333682c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__129>(),
@@ -975,7 +975,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__130::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__130::MoveNext)> {
   constexpr static std::size_t size = 0x454;
-  constexpr static std::size_t addrs = 0x33382d0;
+  constexpr static std::size_t addrs = 0x3336898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -989,7 +989,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__130::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__130::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3338724;
+  constexpr static std::size_t addrs = 0x3336cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__130>(),
@@ -1037,7 +1037,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::add_onInitializedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x333404c;
+  constexpr static std::size_t addrs = 0x3332614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1051,7 +1051,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::remove_onInitializedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x33340f8;
+  constexpr static std::size_t addrs = 0x33326c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1065,7 +1065,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::add_onConnectedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x33341a4;
+  constexpr static std::size_t addrs = 0x333276c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1079,7 +1079,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::remove_onConnectedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3334250;
+  constexpr static std::size_t addrs = 0x3332818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1093,7 +1093,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::add_onDisconnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x33342fc;
+  constexpr static std::size_t addrs = 0x33328c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1108,7 +1108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::remove_onDisconnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x33343bc;
+  constexpr static std::size_t addrs = 0x3332984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1123,7 +1123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::add_onConnectionFailedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x333447c;
+  constexpr static std::size_t addrs = 0x3332a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1138,7 +1138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::remove_onConnectionFailedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x333453c;
+  constexpr static std::size_t addrs = 0x3332b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1153,7 +1153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action_1<::GlobalNamespace::IConnection*>*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::add_onConnectionConnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x33345fc;
+  constexpr static std::size_t addrs = 0x3332bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1168,7 +1168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action_1<::GlobalNamespace::IConnection*>*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::remove_onConnectionConnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x33346bc;
+  constexpr static std::size_t addrs = 0x3332c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1183,7 +1183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(
     ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*)>(&::GlobalNamespace::LiteNetLibConnectionManager::add_onConnectionDisconnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x333477c;
+  constexpr static std::size_t addrs = 0x3332d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1199,7 +1199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(
     ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*)>(&::GlobalNamespace::LiteNetLibConnectionManager::remove_onConnectionDisconnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x333483c;
+  constexpr static std::size_t addrs = 0x3332e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1216,7 +1216,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*)>(
         &::GlobalNamespace::LiteNetLibConnectionManager::add_onReceivedDataEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x33348fc;
+  constexpr static std::size_t addrs = 0x3332ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1234,7 +1234,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*)>(
         &::GlobalNamespace::LiteNetLibConnectionManager::remove_onReceivedDataEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x33349bc;
+  constexpr static std::size_t addrs = 0x3332f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1251,7 +1251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action_2<::System::Net::IPEndPoint*, ::LiteNetLib::Utils::NetDataReader*>*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::add_onReceiveUnconnectedDataEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3334a7c;
+  constexpr static std::size_t addrs = 0x3333044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1267,7 +1267,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action_2<::System::Net::IPEndPoint*, ::LiteNetLib::Utils::NetDataReader*>*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::remove_onReceiveUnconnectedDataEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3334b3c;
+  constexpr static std::size_t addrs = 0x3333104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1283,7 +1283,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::add_onStatisticsUpdatedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3334bfc;
+  constexpr static std::size_t addrs = 0x33331c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1298,7 +1298,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::remove_onStatisticsUpdatedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3334ca8;
+  constexpr static std::size_t addrs = 0x3333270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1312,7 +1312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::get_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3334d54;
+  constexpr static std::size_t addrs = 0x333331c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "get_userId", {}, {} })));
@@ -1324,7 +1324,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3334d5c;
+  constexpr static std::size_t addrs = 0x3333324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "get_userName", {}, {} })));
@@ -1336,7 +1336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::get_isConnected)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3334d64;
+  constexpr static std::size_t addrs = 0x333332c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "get_isConnected", {}, {} })));
@@ -1348,7 +1348,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::get_isConnecting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3334d74;
+  constexpr static std::size_t addrs = 0x333333c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "get_isConnecting", {}, {} })));
@@ -1360,7 +1360,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::get_isDisconnecting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3334d84;
+  constexpr static std::size_t addrs = 0x333334c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "get_isDisconnecting", {}, {} })));
@@ -1372,7 +1372,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::get_isConnectionOwner)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3334d94;
+  constexpr static std::size_t addrs = 0x333335c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "get_isConnectionOwner", {}, {} })));
@@ -1384,7 +1384,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::get_hasConnectionOwner)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3334da4;
+  constexpr static std::size_t addrs = 0x333336c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "get_hasConnectionOwner", {}, {} })));
@@ -1396,7 +1396,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::get_isServer)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3334ebc;
+  constexpr static std::size_t addrs = 0x3333484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "get_isServer", {}, {} })));
@@ -1408,7 +1408,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::get_isClient)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3334ecc;
+  constexpr static std::size_t addrs = 0x3333494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "get_isClient", {}, {} })));
@@ -1420,7 +1420,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::get_isDisposed)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3334edc;
+  constexpr static std::size_t addrs = 0x33334a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "get_isDisposed", {}, {} })));
@@ -1432,7 +1432,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::get_connectionCount)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3334eec;
+  constexpr static std::size_t addrs = 0x33334b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "get_connectionCount", {}, {} })));
@@ -1445,7 +1445,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IConnectionRequestHandler* (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::get_connectionRequestHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3334f3c;
+  constexpr static std::size_t addrs = 0x3333504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1458,7 +1458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::get_port)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3334f44;
+  constexpr static std::size_t addrs = 0x333350c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "get_port", {}, {} })));
@@ -1471,7 +1471,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::get_unconnectedPacketHeader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3334f68;
+  constexpr static std::size_t addrs = 0x3333530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1485,7 +1485,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PacketEncryptionLayer* (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::get_encryptionLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3334f70;
+  constexpr static std::size_t addrs = 0x3333538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "get_encryptionLayer", {}, {} })));
@@ -1497,7 +1497,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::get_compatibilityVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3334f78;
+  constexpr static std::size_t addrs = 0x3333540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1510,7 +1510,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::NoDomainReloadInit)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3334f80;
+  constexpr static std::size_t addrs = 0x3333548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "NoDomainReloadInit", {}, {} })));
@@ -1522,7 +1522,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x333508c;
+  constexpr static std::size_t addrs = 0x3333654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { ".ctor", {}, {} })));
@@ -1535,7 +1535,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::BGNet::Core::ITimeProvider*, ::BGNet::Core::ITaskUtility*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::_ctor)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x333512c;
+  constexpr static std::size_t addrs = 0x33336f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1550,7 +1550,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::SendToAll)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3335440;
+  constexpr static std::size_t addrs = 0x3333a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1565,7 +1565,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(
     ::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod, ::GlobalNamespace::IConnection*)>(&::GlobalNamespace::LiteNetLibConnectionManager::SendToAll)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x33354e8;
+  constexpr static std::size_t addrs = 0x3333ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1582,7 +1582,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Net::IPEndPoint*, ::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::SendUnconnectedMessage)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x33355d8;
+  constexpr static std::size_t addrs = 0x3333ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1596,7 +1596,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::PollUpdate)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x33355fc;
+  constexpr static std::size_t addrs = 0x3333bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "PollUpdate", {}, {} })));
@@ -1609,7 +1609,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::StringW, ::StringW, ::System::Net::IPEndPoint*, ::StringW, ::StringW, bool)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::ConnectToEndPoint)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x33359b8;
+  constexpr static std::size_t addrs = 0x3333f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(),
@@ -1625,7 +1625,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::Dispose)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3335cb8;
+  constexpr static std::size_t addrs = 0x3334280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "Dispose", {}, {} })));
@@ -1638,7 +1638,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::ValueTask (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::DisposeAsync)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x3335d2c;
+  constexpr static std::size_t addrs = 0x33342f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "DisposeAsync", {}, {} })));
@@ -1650,7 +1650,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::DisposeInternal)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3335cdc;
+  constexpr static std::size_t addrs = 0x33342a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "DisposeInternal", {}, {} })));
@@ -1663,7 +1663,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::Disconnect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3335f0c;
+  constexpr static std::size_t addrs = 0x33344d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1678,7 +1678,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::GlobalNamespace::DisconnectedReason, ::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::DisconnectInternal)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x33360bc;
+  constexpr static std::size_t addrs = 0x3334684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1693,7 +1693,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)(int32_t, bool)>(&::GlobalNamespace::LiteNetLibConnectionManager::TryStartNetManager)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3336188;
+  constexpr static std::size_t addrs = 0x3334750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1707,7 +1707,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::StartBackgroundSentry)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x3336228;
+  constexpr static std::size_t addrs = 0x33347f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "StartBackgroundSentry", {}, {} })));
@@ -1719,7 +1719,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::CheckSentryState)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3335698;
+  constexpr static std::size_t addrs = 0x3333c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "CheckSentryState", {}, {} })));
@@ -1731,7 +1731,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::UpdateStatistics)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x33356e4;
+  constexpr static std::size_t addrs = 0x3333cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "UpdateStatistics", {}, {} })));
@@ -1744,7 +1744,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IConnection* (::GlobalNamespace::LiteNetLibConnectionManager::*)(int32_t)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::GetConnection)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x33366cc;
+  constexpr static std::size_t addrs = 0x3334c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1757,7 +1757,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)(::StringW)>(&::GlobalNamespace::LiteNetLibConnectionManager::IsConnectedToUser)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3336730;
+  constexpr static std::size_t addrs = 0x3334cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1771,7 +1771,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Net::IPEndPoint*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::HasConnectionToEndPoint)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x33367e4;
+  constexpr static std::size_t addrs = 0x3334dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1786,7 +1786,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Net::IPEndPoint*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::HasPendingConnectionToEndPoint)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x33368b8;
+  constexpr static std::size_t addrs = 0x3334e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(),
@@ -1800,7 +1800,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::NetPeer*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnPeerConnected)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x333698c;
+  constexpr static std::size_t addrs = 0x3334f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(),
@@ -1814,7 +1814,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Net::IPEndPoint*, ::System::Net::Sockets::SocketError)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkError)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3336bc0;
+  constexpr static std::size_t addrs = 0x3335188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1830,7 +1830,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::NetPeer*, int32_t)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkLatencyUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3336bdc;
+  constexpr static std::size_t addrs = 0x33351a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1845,7 +1845,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::ConnectionRequest*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnConnectionRequest)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x3336be0;
+  constexpr static std::size_t addrs = 0x33351a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1860,7 +1860,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::NetPeer*, ::LiteNetLib::DisconnectInfo)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnPeerDisconnected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3336ea4;
+  constexpr static std::size_t addrs = 0x333546c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1876,7 +1876,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::NetPeer*, ::LiteNetLib::NetPacketReader*, ::LiteNetLib::DeliveryMethod)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkReceive)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x33373f4;
+  constexpr static std::size_t addrs = 0x33359bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1894,7 +1894,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Net::IPEndPoint*, ::LiteNetLib::NetPacketReader*, ::LiteNetLib::UnconnectedMessageType)>(
         &::GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x33375a4;
+  constexpr static std::size_t addrs = 0x3335b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1912,7 +1912,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection* (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::NetPeer*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::GetConnection)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x33374c8;
+  constexpr static std::size_t addrs = 0x3335a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1925,7 +1925,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::AcceptAllPendingRequests)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x33375e0;
+  constexpr static std::size_t addrs = 0x3335ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1939,7 +1939,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::ConnectionRequest*, ::StringW, ::StringW, bool, ::StringW)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::TryAccept)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3336d74;
+  constexpr static std::size_t addrs = 0x333533c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(),
@@ -1956,7 +1956,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::NetPeer*, ::StringW, ::StringW, bool, ::StringW)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::CreatePendingConnection)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3335b84;
+  constexpr static std::size_t addrs = 0x333414c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1974,7 +1974,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::NetPeer*, ::LiteNetLib::DisconnectReason)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::RemoveConnection)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x33371f0;
+  constexpr static std::size_t addrs = 0x33357b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1989,7 +1989,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::DisconnectReason)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::TryDisconnect)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3336dd0;
+  constexpr static std::size_t addrs = 0x3335398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2003,7 +2003,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DisconnectedReason (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::DisconnectReason)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::ToDisconnectedReason)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3337710;
+  constexpr static std::size_t addrs = 0x3335cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2018,7 +2018,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ConnectionFailedReason (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::DisconnectReason)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::ToConnectionFailedReason)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3337748;
+  constexpr static std::size_t addrs = 0x3335d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(),
@@ -2032,7 +2032,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::Utils::NetDataWriter* (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::GetConnectionMessage)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3335a74;
+  constexpr static std::size_t addrs = 0x333403c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "GetConnectionMessage", {}, {} })));
@@ -2045,7 +2045,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::BackgroundDisconnectSentry)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x333775c;
+  constexpr static std::size_t addrs = 0x3335d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2059,7 +2059,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::BackgroundShutdownSentry)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3337810;
+  constexpr static std::size_t addrs = 0x3335dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2072,7 +2072,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::DeliveryMethod (*)(::BGNet::Core::DeliveryMethod)>(&::GlobalNamespace::LiteNetLibConnectionManager::ToLiteNetDeliveryMethod)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x33354d0;
+  constexpr static std::size_t addrs = 0x3333a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2086,7 +2086,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGNet::Core::DeliveryMethod (*)(::LiteNetLib::DeliveryMethod)>(&::GlobalNamespace::LiteNetLibConnectionManager::FromLiteNetDeliveryMethod)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3337594;
+  constexpr static std::size_t addrs = 0x3335b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2100,7 +2100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::StringW)>(&::GlobalNamespace::LiteNetLibConnectionManager::Log)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x33378c4;
+  constexpr static std::size_t addrs = 0x3335e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2113,7 +2113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::StringW)>(&::GlobalNamespace::LiteNetLibConnectionManager::LogError)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3337950;
+  constexpr static std::size_t addrs = 0x3335f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2127,7 +2127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::GetLogFormatConnection)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x33379dc;
+  constexpr static std::size_t addrs = 0x3335fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2141,7 +2141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW, ::System::Net::IPEndPoint*)>(&::GlobalNamespace::LiteNetLibConnectionManager::GetLogFormatUserInfo)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3337a50;
+  constexpr static std::size_t addrs = 0x3336018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2155,7 +2155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::_DisposeAsync_b__101_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3337ae0;
+  constexpr static std::size_t addrs = 0x33360a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LiteNetLibConnectionManager*>(), { "<DisposeAsync>b__101_0", {}, {} })));

@@ -62,19 +62,19 @@ public:
   /// @brief Method CompositionMethod, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::OVRManager_CompositionMethod CompositionMethod();
 
-  /// @brief Method ComputeCameraTrackingSpacePose, addr 0x5df175c, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method ComputeCameraTrackingSpacePose, addr 0x5def4c8, size 0x2ac, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPose ComputeCameraTrackingSpacePose(::GlobalNamespace::OVRPlugin_CameraExtrinsics extrinsics);
 
-  /// @brief Method ComputeCameraWorldSpacePose, addr 0x5df16f0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ComputeCameraWorldSpacePose, addr 0x5def45c, size 0x6c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPose ComputeCameraWorldSpacePose(::GlobalNamespace::OVRPlugin_CameraExtrinsics extrinsics, ::UnityEngine::Camera* mainCamera);
 
   static inline ::GlobalNamespace::OVRComposition* New_ctor(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera,
                                                             ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);
 
-  /// @brief Method RecenterPose, addr 0x5df16ec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method RecenterPose, addr 0x5def458, size 0x4, virtual true, abstract: false, final false
   inline void RecenterPose();
 
-  /// @brief Method RefreshCameraRig, addr 0x5df1518, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method RefreshCameraRig, addr 0x5def284, size 0x1d4, virtual false, abstract: false, final false
   inline void RefreshCameraRig(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera);
 
   /// @brief Method Update, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set_usingLastAttachedNodePose(bool value);
 
-  /// @brief Method .ctor, addr 0x5df1514, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5def280, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);
 
 protected:

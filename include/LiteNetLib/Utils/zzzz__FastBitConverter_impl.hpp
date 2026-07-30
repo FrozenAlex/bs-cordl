@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>, int32_t, uint64_t)>(&::LiteNetLib::Utils::FastBitConverter::WriteLittleEndian)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x58abb28;
+  constexpr static std::size_t addrs = 0x58a9fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::LiteNetLib::Utils::FastBitConverter::WriteLittleEndian)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x58abc18;
+  constexpr static std::size_t addrs = 0x58aa0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>, int32_t, int16_t)>(&::LiteNetLib::Utils::FastBitConverter::WriteLittleEndian)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x58abc98;
+  constexpr static std::size_t addrs = 0x58aa144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>, int32_t, double_t)>(&::LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58abce0;
+  constexpr static std::size_t addrs = 0x58aa18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>, int32_t, float_t)>(&::LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58abce8;
+  constexpr static std::size_t addrs = 0x58aa194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>, int32_t, int16_t)>(&::LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58abcf0;
+  constexpr static std::size_t addrs = 0x58aa19c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>, int32_t, uint16_t)>(&::LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58a6348;
+  constexpr static std::size_t addrs = 0x58a47f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58a678c;
+  constexpr static std::size_t addrs = 0x58a4c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>, int32_t, uint32_t)>(&::LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58abcf4;
+  constexpr static std::size_t addrs = 0x58aa1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>, int32_t, int64_t)>(&::LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58a2a4c;
+  constexpr static std::size_t addrs = 0x58a0ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>, int32_t, uint64_t)>(&::LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58abcf8;
+  constexpr static std::size_t addrs = 0x58aa1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

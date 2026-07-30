@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_tintColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x59ea7bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e8eb0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -120,7 +120,7 @@ public:
 
   static inline ::GlobalNamespace::SetSaberBladeParams* New_ctor();
 
-  /// @brief Method Start, addr 0x59ea680, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59e8d74, size 0x138, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::ColorManager* const& __cordl_internal_get__colorManager() const;
@@ -147,7 +147,7 @@ public:
 
   constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::SaberTypeObject> value);
 
-  /// @brief Method .ctor, addr 0x59ea7b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e8eac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

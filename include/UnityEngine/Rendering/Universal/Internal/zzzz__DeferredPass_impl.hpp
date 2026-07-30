@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68f8848;
+  constexpr static std::size_t addrs = 0x68f65e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68f88a0;
+  constexpr static std::size_t addrs = 0x68f663c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredPass___c*>(), { ".ctor", {}, {} })));
@@ -147,7 +147,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                                  ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredPass___c::_Render_b__5_0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x68f88a4;
+  constexpr static std::size_t addrs = 0x68f6640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredPass___c*>(),
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredPass::*)(
     ::UnityEngine::Rendering::Universal::RenderPassEvent, ::UnityEngine::Rendering::Universal::Internal::DeferredLights*)>(&::UnityEngine::Rendering::Universal::Internal::DeferredPass::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x68f7e40;
+  constexpr static std::size_t addrs = 0x68f5bdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredPass::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::RenderTextureDescriptor)>(&::UnityEngine::Rendering::Universal::Internal::DeferredPass::Configure)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x68f7f10;
+  constexpr static std::size_t addrs = 0x68f5cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredPass*>(),
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredPass::*)(
     ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::DeferredPass::Execute)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x68f7f5c;
+  constexpr static std::size_t addrs = 0x68f5cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredPass*>(),
@@ -252,7 +252,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredPass::Render)> {
   constexpr static std::size_t size = 0x7b0;
-  constexpr static std::size_t addrs = 0x68f8080;
+  constexpr static std::size_t addrs = 0x68f5e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::DeferredPass::*)(::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::Rendering::Universal::Internal::DeferredPass::OnCameraCleanup)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68f8830;
+  constexpr static std::size_t addrs = 0x68f65cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::DeferredPass*>(),

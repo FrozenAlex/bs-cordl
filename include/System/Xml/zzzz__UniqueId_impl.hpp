@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::UniqueId::*)(::ArrayW<uint8_t>, int32_t)>(&::System::Xml::UniqueId::_ctor)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x60fddf4;
+  constexpr static std::size_t addrs = 0x60fbb90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::UniqueId::*)(::StringW)>(&::System::Xml::UniqueId::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x60fe020;
+  constexpr static std::size_t addrs = 0x60fbdbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::UniqueId*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::UniqueId::*)()>(&::System::Xml::UniqueId::get_CharArrayLength)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x60fe624;
+  constexpr static std::size_t addrs = 0x60fc3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::UniqueId*>(), { "get_CharArrayLength", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::UniqueId::*)(int16_t*, char16_t, char16_t)>(&::System::Xml::UniqueId::UnsafeDecode)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x60fe63c;
+  constexpr static std::size_t addrs = 0x60fc3d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::UniqueId::*)(char16_t*, uint8_t, char16_t*)>(&::System::Xml::UniqueId::UnsafeEncode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60fe670;
+  constexpr static std::size_t addrs = 0x60fc40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::UniqueId::*)()>(&::System::Xml::UniqueId::get_IsGuid)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x60fe690;
+  constexpr static std::size_t addrs = 0x60fc42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::UniqueId*>(), { "get_IsGuid", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::UniqueId::*)(char16_t*, int32_t)>(&::System::Xml::UniqueId::UnsafeParse)> {
   constexpr static std::size_t size = 0x558;
-  constexpr static std::size_t addrs = 0x60fe0cc;
+  constexpr static std::size_t addrs = 0x60fbe68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::UniqueId::*)(::ArrayW<char16_t>, int32_t)>(&::System::Xml::UniqueId::ToCharArray)> {
   constexpr static std::size_t size = 0x628;
-  constexpr static std::size_t addrs = 0x60fe6a4;
+  constexpr static std::size_t addrs = 0x60fc440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::UniqueId::*)()>(&::System::Xml::UniqueId::ToString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x60fecd4;
+  constexpr static std::size_t addrs = 0x60fca70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::UniqueId*>(), { ::i2c::class_of<::System::Xml::UniqueId*>(), 3 }));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Xml::UniqueId*, ::System::Xml::UniqueId*)>(&::System::Xml::UniqueId::op_Equality)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x60fed54;
+  constexpr static std::size_t addrs = 0x60fcaf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::UniqueId::*)(::System::Object*)>(&::System::Xml::UniqueId::Equals)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x60feddc;
+  constexpr static std::size_t addrs = 0x60fcb78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::UniqueId*>(), { ::i2c::class_of<::System::Xml::UniqueId*>(), 0 }));
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::UniqueId::*)()>(&::System::Xml::UniqueId::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x60fee80;
+  constexpr static std::size_t addrs = 0x60fcc1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::UniqueId*>(), { ::i2c::class_of<::System::Xml::UniqueId*>(), 2 }));
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Xml::UniqueId::*)(uint8_t*)>(&::System::Xml::UniqueId::UnsafeGetInt64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60fe018;
+  constexpr static std::size_t addrs = 0x60fbdb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::UniqueId*>(), { "UnsafeGetInt64", {}, { ::i2c::type_of<uint8_t*>() } })));
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::UniqueId::*)(uint8_t*)>(&::System::Xml::UniqueId::UnsafeGetInt32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60feec8;
+  constexpr static std::size_t addrs = 0x60fcc64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::UniqueId*>(), { "UnsafeGetInt32", {}, { ::i2c::type_of<uint8_t*>() } })));
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::UniqueId::*)(int64_t, uint8_t*)>(&::System::Xml::UniqueId::UnsafeSetInt64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60feccc;
+  constexpr static std::size_t addrs = 0x60fca68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::UniqueId::*)(int32_t, uint8_t*)>(&::System::Xml::UniqueId::UnsafeSetInt32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60feed0;
+  constexpr static std::size_t addrs = 0x60fcc6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

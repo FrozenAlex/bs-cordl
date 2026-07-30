@@ -38,10 +38,10 @@ public:
 
   static inline ::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget* New_ctor();
 
-  /// @brief Method SetValue, addr 0x598f7d8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x598de9c, size 0xa4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x598f87c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x598df40, size 0xa4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> const& __cordl_internal_get__parametric3SliceSpriteController() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__valueMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x598f920, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598dfe4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -75,21 +75,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x676795c, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x67656f8, size 0xd0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::Rendering::DebugUpdater__DoAfterInputModuleUpdated_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6767a2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x67657c8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6767a34, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x67657d0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6767a6c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6765808, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x6767958, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x67656f4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set_action(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x67674b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6765254, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -137,7 +137,7 @@ public:
   DebugUpdater__DoAfterInputModuleUpdated_d__9(DebugUpdater__DoAfterInputModuleUpdated_d__9 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12006 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12004 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -186,21 +186,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x6767a78, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6765814, size 0xac, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::Rendering::DebugUpdater__RefreshRuntimeUINextFrame_d__15* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6767b24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x67658c0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6767b2c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x67658c8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6767b64, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6765900, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x6767a74, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x6765810, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -215,7 +215,7 @@ public:
 
   constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x676794c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67656e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -242,7 +242,7 @@ public:
   DebugUpdater__RefreshRuntimeUINextFrame_d__15(DebugUpdater__RefreshRuntimeUINextFrame_d__15 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12007 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12005 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -280,45 +280,45 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityW<::UnityEngine::Rendering::DebugUpdater> s_Instance;
 
-  /// @brief Method AssignDefaultActions, addr 0x67675fc, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method AssignDefaultActions, addr 0x6765398, size 0x160, virtual false, abstract: false, final false
   inline void AssignDefaultActions();
 
-  /// @brief Method CheckInputModuleExists, addr 0x67674c0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method CheckInputModuleExists, addr 0x676525c, size 0x13c, virtual false, abstract: false, final false
   inline void CheckInputModuleExists();
 
-  /// @brief Method CreateDebugEventSystem, addr 0x6767374, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method CreateDebugEventSystem, addr 0x6765110, size 0xf0, virtual false, abstract: false, final false
   inline void CreateDebugEventSystem();
 
-  /// @brief Method DestroyDebugEventSystem, addr 0x6767204, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method DestroyDebugEventSystem, addr 0x6764fa0, size 0x170, virtual false, abstract: false, final false
   inline void DestroyDebugEventSystem();
 
-  /// @brief Method DisableRuntime, addr 0x6766ed8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method DisableRuntime, addr 0x6764c74, size 0x134, virtual false, abstract: false, final false
   static inline void DisableRuntime();
 
-  /// @brief Method DoAfterInputModuleUpdated, addr 0x6767464, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DoAfterInputModuleUpdated, addr 0x6765200, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DoAfterInputModuleUpdated(::System::Action* action);
 
-  /// @brief Method EnableRuntime, addr 0x6766d24, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method EnableRuntime, addr 0x6764ac0, size 0x1b4, virtual false, abstract: false, final false
   static inline void EnableRuntime();
 
-  /// @brief Method EnsureExactlyOneEventSystem, addr 0x676700c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method EnsureExactlyOneEventSystem, addr 0x6764da8, size 0x1f8, virtual false, abstract: false, final false
   inline void EnsureExactlyOneEventSystem();
 
-  /// @brief Method HandleInternalEventSystemComponents, addr 0x6761d5c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HandleInternalEventSystemComponents, addr 0x675faf8, size 0xc0, virtual false, abstract: false, final false
   static inline void HandleInternalEventSystemComponents(bool uiEnabled);
 
   static inline ::UnityEngine::Rendering::DebugUpdater* New_ctor();
 
-  /// @brief Method RefreshRuntimeUINextFrame, addr 0x6767900, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method RefreshRuntimeUINextFrame, addr 0x676569c, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* RefreshRuntimeUINextFrame();
 
-  /// @brief Method RuntimeInit, addr 0x6766d20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RuntimeInit, addr 0x6764abc, size 0x4, virtual false, abstract: false, final false
   static inline void RuntimeInit();
 
-  /// @brief Method SetEnabled, addr 0x6761ab0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetEnabled, addr 0x675f84c, size 0xc, virtual false, abstract: false, final false
   static inline void SetEnabled(bool enabled);
 
-  /// @brief Method Update, addr 0x676775c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x67654f8, size 0x1a4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::ScreenOrientation const& __cordl_internal_get_m_Orientation() const;
@@ -333,7 +333,7 @@ public:
 
   constexpr void __cordl_internal_set_m_RuntimeUiWasVisibleLastFrame(bool value);
 
-  /// @brief Method .ctor, addr 0x6767954, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67656f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::Rendering::DebugUpdater> getStaticF_s_Instance();
@@ -355,7 +355,7 @@ public:
   DebugUpdater(DebugUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12006 };
 
   /// @brief Field m_Orientation, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::ScreenOrientation ___m_Orientation;

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)(::StringW)>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::SetText)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x59d4300;
+  constexpr static std::size_t addrs = 0x59d2970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::SetDistances)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x59d38f0;
+  constexpr static std::size_t addrs = 0x59d1f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)(bool)>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::set_hide)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x59d33c0;
+  constexpr static std::size_t addrs = 0x59d1a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::set_fontSize)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x59d3764;
+  constexpr static std::size_t addrs = 0x59d1dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)()>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::get_fontSize)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59d33ec;
+  constexpr static std::size_t addrs = 0x59d1a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::set_alpha)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x59d37dc;
+  constexpr static std::size_t addrs = 0x59d1e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)()>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::get_alpha)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59d3424;
+  constexpr static std::size_t addrs = 0x59d1a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerIntroCountdownTextController*>(), { "get_alpha", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)()>(&::GlobalNamespace::MultiplayerIntroCountdownTextController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59d44bc;
+  constexpr static std::size_t addrs = 0x59d2b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerIntroCountdownTextController*>(), { ".ctor", {}, {} })));

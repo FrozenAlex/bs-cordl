@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Macs::VmpcMac::*)(::ArrayW<uint8_t>, int32_t)>(&::Org::BouncyCastle::Crypto::Macs::VmpcMac::DoFinal)> {
   constexpr static std::size_t size = 0x438;
-  constexpr static std::size_t addrs = 0x33ed5d8;
+  constexpr static std::size_t addrs = 0x33ebba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Macs::VmpcMac::*)()>(&::Org::BouncyCastle::Crypto::Macs::VmpcMac::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x33eda10;
+  constexpr static std::size_t addrs = 0x33ebfd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Macs::VmpcMac::*)()>(&::Org::BouncyCastle::Crypto::Macs::VmpcMac::GetMacSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33eda54;
+  constexpr static std::size_t addrs = 0x33ec01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::VmpcMac::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Macs::VmpcMac::Init)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x33eda5c;
+  constexpr static std::size_t addrs = 0x33ec024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::VmpcMac::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Macs::VmpcMac::initKey)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x33edc14;
+  constexpr static std::size_t addrs = 0x33ec1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>(),
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::VmpcMac::*)()>(&::Org::BouncyCastle::Crypto::Macs::VmpcMac::Reset)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x33ede08;
+  constexpr static std::size_t addrs = 0x33ec3d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::VmpcMac::*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Macs::VmpcMac::Update)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x33edea8;
+  constexpr static std::size_t addrs = 0x33ec470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::VmpcMac::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Macs::VmpcMac::BlockUpdate)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x33ee0e0;
+  constexpr static std::size_t addrs = 0x33ec6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::VmpcMac::*)()>(&::Org::BouncyCastle::Crypto::Macs::VmpcMac::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x33ee1c0;
+  constexpr static std::size_t addrs = 0x33ec788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>(), { ".ctor", {}, {} })));

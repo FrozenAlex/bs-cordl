@@ -39,42 +39,42 @@ namespace Unity::Profiling::LowLevel::Unsafe {
 class CORDL_TYPE ProfilerUnsafeUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BeginSample, addr 0x6a57cc4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BeginSample, addr 0x6a55a60, size 0x3c, virtual false, abstract: false, final false
   static inline void BeginSample(::System::IntPtr markerPtr);
 
-  /// @brief Method BeginSampleWithMetadata, addr 0x6a58e54, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method BeginSampleWithMetadata, addr 0x6a56bf0, size 0x54, virtual false, abstract: false, final false
   static inline void BeginSampleWithMetadata(::System::IntPtr markerPtr, int32_t metadataCount, void* metadata);
 
-  /// @brief Method CreateCategory__Unmanaged, addr 0x6a58c80, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateCategory__Unmanaged, addr 0x6a56a1c, size 0x54, virtual false, abstract: false, final false
   static inline uint16_t CreateCategory__Unmanaged(uint8_t* name, int32_t nameLen, ::Unity::Profiling::ProfilerCategoryColor colorIndex);
 
-  /// @brief Method CreateCounterValue__Unmanaged, addr 0x6a58ea8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CreateCounterValue__Unmanaged, addr 0x6a56c44, size 0x9c, virtual false, abstract: false, final false
   static inline void* CreateCounterValue__Unmanaged(::by_ref<::System::IntPtr> counterPtr, uint8_t* name, int32_t nameLen, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags,
                                                     uint8_t dataType, uint8_t dataUnit, int32_t dataSize, ::Unity::Profiling::ProfilerCounterOptions counterOptions);
 
-  /// @brief Method CreateMarker, addr 0x6a57abc, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method CreateMarker, addr 0x6a55858, size 0x154, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateMarker(::StringW name, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags, int32_t metadataCount);
 
-  /// @brief Method CreateMarker_Injected, addr 0x6a58d18, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateMarker_Injected, addr 0x6a56ab4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateMarker_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags,
                                                        int32_t metadataCount);
 
-  /// @brief Method CreateMarker__Unmanaged, addr 0x6a58d74, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateMarker__Unmanaged, addr 0x6a56b10, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateMarker__Unmanaged(uint8_t* name, int32_t nameLen, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags, int32_t metadataCount);
 
-  /// @brief Method EndSample, addr 0x6a57d4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EndSample, addr 0x6a55ae8, size 0x3c, virtual false, abstract: false, final false
   static inline void EndSample(::System::IntPtr markerPtr);
 
-  /// @brief Method GetCategoryDescription, addr 0x6a578e8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetCategoryDescription, addr 0x6a55684, size 0x90, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription GetCategoryDescription(uint16_t categoryId);
 
-  /// @brief Method GetCategoryDescription_Injected, addr 0x6a58cd4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetCategoryDescription_Injected, addr 0x6a56a70, size 0x44, virtual false, abstract: false, final false
   static inline void GetCategoryDescription_Injected(uint16_t categoryId, ::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription> ret);
 
-  /// @brief Method SetMarkerMetadata__Unmanaged, addr 0x6a58de0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetMarkerMetadata__Unmanaged, addr 0x6a56b7c, size 0x74, virtual false, abstract: false, final false
   static inline void SetMarkerMetadata__Unmanaged(::System::IntPtr markerPtr, int32_t index, uint8_t* name, int32_t nameLen, uint8_t type, uint8_t unit);
 
-  /// @brief Method Utf8ToString, addr 0x6a57978, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Utf8ToString, addr 0x6a55714, size 0xe4, virtual false, abstract: false, final false
   static inline ::StringW Utf8ToString(uint8_t* chars, int32_t charsLen);
 
 protected:

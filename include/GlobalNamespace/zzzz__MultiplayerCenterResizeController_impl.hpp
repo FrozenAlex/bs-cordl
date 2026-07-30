@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterResizeController::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::MultiplayerCenterResizeController::add_edgeDistanceFromCenterWasCalculatedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59bd550;
+  constexpr static std::size_t addrs = 0x59bbbb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterResizeController::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::MultiplayerCenterResizeController::remove_edgeDistanceFromCenterWasCalculatedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59bd7e8;
+  constexpr static std::size_t addrs = 0x59bbe48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerCenterResizeController::*)()>(
     &::GlobalNamespace::MultiplayerCenterResizeController::get_isEdgeDistanceFromCenterCalculated)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c9c58;
+  constexpr static std::size_t addrs = 0x59c82c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterResizeController::*)(bool)>(
     &::GlobalNamespace::MultiplayerCenterResizeController::set_isEdgeDistanceFromCenterCalculated)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c9c60;
+  constexpr static std::size_t addrs = 0x59c82d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MultiplayerCenterResizeController::*)()>(
     &::GlobalNamespace::MultiplayerCenterResizeController::get_edgeDistanceFromCenter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c9c68;
+  constexpr static std::size_t addrs = 0x59c82d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterResizeController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerCenterResizeController::set_edgeDistanceFromCenter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c9c70;
+  constexpr static std::size_t addrs = 0x59c82e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterResizeController::*)()>(&::GlobalNamespace::MultiplayerCenterResizeController::Start)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x59c9c78;
+  constexpr static std::size_t addrs = 0x59c82e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerCenterResizeController*>(), { "Start", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterResizeController::*)()>(&::GlobalNamespace::MultiplayerCenterResizeController::OnDestroy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x59c9dd4;
+  constexpr static std::size_t addrs = 0x59c8444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerCenterResizeController*>(), { "OnDestroy", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterResizeController::*)(::GlobalNamespace::MultiplayerPlayerLayout, int32_t)>(
     &::GlobalNamespace::MultiplayerCenterResizeController::HandlePlayersLayoutWasCalculated)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x59c9d5c;
+  constexpr static std::size_t addrs = 0x59c83cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerCenterResizeController::*)()>(&::GlobalNamespace::MultiplayerCenterResizeController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59c9ea4;
+  constexpr static std::size_t addrs = 0x59c8514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerCenterResizeController*>(), { ".ctor", {}, {} })));

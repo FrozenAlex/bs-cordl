@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PromoBannerInfoSO)
+namespace System {
+struct DateTime;
+}
 namespace UnityEngine {
 class Sprite;
 }
@@ -33,11 +36,17 @@ public:
   /// @brief Field _bannerPromoTextPosition, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__bannerPromoTextPosition, put = __cordl_internal_set__bannerPromoTextPosition)) float_t _bannerPromoTextPosition;
 
+  /// @brief Field _bannerPromoTextShowUntilDate, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__bannerPromoTextShowUntilDate, put = __cordl_internal_set__bannerPromoTextShowUntilDate)) ::StringW _bannerPromoTextShowUntilDate;
+
   __declspec(property(get = get_bannerImage, put = set_bannerImage)) ::UnityW<::UnityEngine::Sprite> bannerImage;
 
   __declspec(property(get = get_bannerPromoText)) ::StringW bannerPromoText;
 
   __declspec(property(get = get_bannerPromoTextPosition)) float_t bannerPromoTextPosition;
+
+  /// @brief Method IsPromoTextHiddenOn, addr 0x37299b8, size 0x18, virtual false, abstract: false, final false
+  inline bool IsPromoTextHiddenOn(::System::DateTime now);
 
   static inline ::GlobalNamespace::PromoBannerInfoSO* New_ctor();
 
@@ -53,25 +62,31 @@ public:
 
   constexpr float_t& __cordl_internal_get__bannerPromoTextPosition();
 
+  constexpr ::StringW const& __cordl_internal_get__bannerPromoTextShowUntilDate() const;
+
+  constexpr ::StringW& __cordl_internal_get__bannerPromoTextShowUntilDate();
+
   constexpr void __cordl_internal_set__bannerImage(::UnityW<::UnityEngine::Sprite> value);
 
   constexpr void __cordl_internal_set__bannerPromoText(::StringW value);
 
   constexpr void __cordl_internal_set__bannerPromoTextPosition(float_t value);
 
-  /// @brief Method .ctor, addr 0x372af90, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__bannerPromoTextShowUntilDate(::StringW value);
+
+  /// @brief Method .ctor, addr 0x37299d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bannerImage, addr 0x372af70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bannerImage, addr 0x3729998, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_bannerImage();
 
-  /// @brief Method get_bannerPromoText, addr 0x372af80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bannerPromoText, addr 0x37299a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_bannerPromoText();
 
-  /// @brief Method get_bannerPromoTextPosition, addr 0x372af88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bannerPromoTextPosition, addr 0x37299b0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bannerPromoTextPosition();
 
-  /// @brief Method set_bannerImage, addr 0x372af78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bannerImage, addr 0x37299a0, size 0x8, virtual false, abstract: false, final false
   inline void set_bannerImage(::UnityEngine::Sprite* value);
 
 protected:
@@ -89,7 +104,7 @@ public:
   PromoBannerInfoSO(PromoBannerInfoSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14992 };
 
   /// @brief Field _bannerImage, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____bannerImage;
@@ -100,6 +115,9 @@ public:
   /// @brief Field _bannerPromoTextPosition, offset: 0x28, size: 0x4, def value: None
   float_t ____bannerPromoTextPosition;
 
+  /// @brief Field _bannerPromoTextShowUntilDate, offset: 0x30, size: 0x8, def value: None
+  ::StringW ____bannerPromoTextShowUntilDate;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -109,6 +127,8 @@ static_assert(offsetof(::GlobalNamespace::PromoBannerInfoSO, ____bannerPromoText
 
 static_assert(offsetof(::GlobalNamespace::PromoBannerInfoSO, ____bannerPromoTextPosition) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::PromoBannerInfoSO) == 0x30, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PromoBannerInfoSO, ____bannerPromoTextShowUntilDate) == 0x30, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::PromoBannerInfoSO) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace

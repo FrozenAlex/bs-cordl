@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::RecPlay::PlayerPoseFrames (*)(::by_ref<::GlobalNamespace::AutoRecord_Beatmap>)>(
     &::GlobalNamespace::AutoRecord::CreatePlayerPoseFrames)> {
   constexpr static std::size_t size = 0x90c;
-  constexpr static std::size_t addrs = 0x58f7e78;
+  constexpr static std::size_t addrs = 0x58f63e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespac
                                                                 ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>, ::ArrayW<::GlobalNamespace::NoteCutDirection>)>(
     &::GlobalNamespace::AutoRecord::AddNoteHandFrames)> {
   constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x58f87cc;
+  constexpr static std::size_t addrs = 0x58f6d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::GlobalNamespace::SliderData*, int32_t, float_t, float_t, ::UnityEngine::Quaternion, ::ArrayW<::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*>)>(
         &::GlobalNamespace::AutoRecord::AddSliderHandFrames)> {
   constexpr static std::size_t size = 0x5dc;
-  constexpr static std::size_t addrs = 0x58f8ca8;
+  constexpr static std::size_t addrs = 0x58f7218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(int32_t, int32_t, ::GlobalNamespace::NoteLineLayer)>(&::GlobalNamespace::AutoRecord::LocateCutPosition)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x58f8784;
+  constexpr static std::size_t addrs = 0x58f6cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<::BeatSaber::RecPlay::PoseFrame>)>(&::GlobalNamespace::AutoRecord::_CreatePlayerPoseFrames_g__FixFrames_1_0)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x58f9284;
+  constexpr static std::size_t addrs = 0x58f77f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

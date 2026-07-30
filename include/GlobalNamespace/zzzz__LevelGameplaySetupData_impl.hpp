@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::LevelGameplaySetupData::*)()>(&::GlobalNamespace::LevelGameplaySetupData::get_beatmapKey)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x37326d8;
+  constexpr static std::size_t addrs = 0x3731118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelGameplaySetupData*>(), { "get_beatmapKey", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameplayModifiers* (::GlobalNamespace::LevelGameplaySetupData::*)()>(
     &::GlobalNamespace::LevelGameplaySetupData::get_gameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37326e4;
+  constexpr static std::size_t addrs = 0x3731124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelGameplaySetupData*>(), { "get_gameplayModifiers", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)()>(&::GlobalNamespace::LevelGameplaySetupData::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x37326ec;
+  constexpr static std::size_t addrs = 0x373112c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelGameplaySetupData*>(), { ".ctor", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)(::by_ref<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::LevelGameplaySetupData::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3732750;
+  constexpr static std::size_t addrs = 0x3731190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)()>(&::GlobalNamespace::LevelGameplaySetupData::ClearGameplaySetupData)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x37327ec;
+  constexpr static std::size_t addrs = 0x373122c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelGameplaySetupData*>(), { "ClearGameplaySetupData", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)(::by_ref<::GlobalNamespace::BeatmapKey>)>(
     &::GlobalNamespace::LevelGameplaySetupData::SetBeatmapKey)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3732854;
+  constexpr static std::size_t addrs = 0x3731294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::LevelGameplaySetupData::SetGameplayModifiers)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3732860;
+  constexpr static std::size_t addrs = 0x37312a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

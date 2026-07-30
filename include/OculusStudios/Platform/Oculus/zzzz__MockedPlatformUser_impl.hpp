@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::OculusStudios::Platform::Oculus::MockedPlatformUser::*)()>(&::OculusStudios::Platform::Oculus::MockedPlatformUser::get_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f30344;
+  constexpr static std::size_t addrs = 0x5f2e174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::MockedPlatformUser*>(), { "get_userId", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Oculus::MockedPlatformUser::*)(uint64_t)>(&::OculusStudios::Platform::Oculus::MockedPlatformUser::set_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f3034c;
+  constexpr static std::size_t addrs = 0x5f2e17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::Platform::Oculus::MockedPlatformUser::*)()>(
     &::OculusStudios::Platform::Oculus::MockedPlatformUser::get_displayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f30354;
+  constexpr static std::size_t addrs = 0x5f2e184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::MockedPlatformUser*>(), { "get_displayName", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Oculus::MockedPlatformUser::*)(::StringW)>(
     &::OculusStudios::Platform::Oculus::MockedPlatformUser::set_displayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f3035c;
+  constexpr static std::size_t addrs = 0x5f2e18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Oculus::MockedPlatformUser::*)(::OculusStudios::Platform::Core::PlatformInitParams*)>(
     &::OculusStudios::Platform::Oculus::MockedPlatformUser::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x5f3022c;
+  constexpr static std::size_t addrs = 0x5f2e05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::MockedPlatformUser*>(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (::OculusStudios::Platform::Oculus::MockedPlatformUser::*)()>(
     &::OculusStudios::Platform::Oculus::MockedPlatformUser::GetAccessTokenAsync)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5f30364;
+  constexpr static std::size_t addrs = 0x5f2e194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (::OculusStudios::Platform::Oculus::MockedPlatformUser::*)(bool)>(
     &::OculusStudios::Platform::Oculus::MockedPlatformUser::GetXPlatformAccessTokenAsync)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x5f30484;
+  constexpr static std::size_t addrs = 0x5f2e2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::Platform::Oculus::MockedPlatformUser::*)()>(&::OculusStudios::Platform::Oculus::MockedPlatformUser::GetLocale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f3061c;
+  constexpr static std::size_t addrs = 0x5f2e44c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::MockedPlatformUser*>(), { "GetLocale", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::OculusStudios::Platform::Core::UserAgeCategory>* (
     ::OculusStudios::Platform::Oculus::MockedPlatformUser::*)()>(&::OculusStudios::Platform::Oculus::MockedPlatformUser::GetAgeCategoryAsync)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f30624;
+  constexpr static std::size_t addrs = 0x5f2e454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyCollection_1<::StringW>* (::OculusStudios::Platform::Oculus::MockedPlatformUser::*)()>(
     &::OculusStudios::Platform::Oculus::MockedPlatformUser::GetAllAchievementIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f30694;
+  constexpr static std::size_t addrs = 0x5f2e4c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Oculus::MockedPlatformUser::*)(::StringW)>(
     &::OculusStudios::Platform::Oculus::MockedPlatformUser::UnlockAchievement)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f3069c;
+  constexpr static std::size_t addrs = 0x5f2e4cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::OculusStudios::Platform::Oculus::MockedPlatformUser::*)(::StringW)>(
     &::OculusStudios::Platform::Oculus::MockedPlatformUser::IsAchievementUnlockedAsync)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f306a0;
+  constexpr static std::size_t addrs = 0x5f2e4d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,11 +176,24 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyCollection_1<::StringW>*>* (
     ::OculusStudios::Platform::Oculus::MockedPlatformUser::*)()>(&::OculusStudios::Platform::Oculus::MockedPlatformUser::GetUnlockedAchievementIdsAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5f30710;
+  constexpr static std::size_t addrs = 0x5f2e540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::MockedPlatformUser*>(), { "GetUnlockedAchievementIdsAsync", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::OculusStudios::Platform::Oculus::MockedPlatformUser.FlushAchievements
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Oculus::MockedPlatformUser::*)()>(&::OculusStudios::Platform::Oculus::MockedPlatformUser::FlushAchievements)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5f2e624;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::MockedPlatformUser*>(), { "FlushAchievements", {}, {} })));
     return ___internal_method;
   }
 };
@@ -293,6 +306,10 @@ inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadO
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::MockedPlatformUser*>(), { "GetUnlockedAchievementIdsAsync", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyCollection_1<::StringW>*>*>(this, ___internal_method);
+}
+inline void OculusStudios::Platform::Oculus::MockedPlatformUser::FlushAchievements() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Oculus::MockedPlatformUser*>(), { "FlushAchievements", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::OculusStudios::Platform::Oculus::MockedPlatformUser* OculusStudios::Platform::Oculus::MockedPlatformUser::New_ctor(::OculusStudios::Platform::Core::PlatformInitParams* initParams) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::OculusStudios::Platform::Oculus::MockedPlatformUser*>(initParams));

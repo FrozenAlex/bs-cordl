@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelReturnToMenuController::*)()>(&::GlobalNamespace::StandardLevelReturnToMenuController::ReturnToMenu)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x59b0a20;
+  constexpr static std::size_t addrs = 0x59af080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelReturnToMenuController*>(), { "ReturnToMenu", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelReturnToMenuController::*)()>(&::GlobalNamespace::StandardLevelReturnToMenuController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59b0a74;
+  constexpr static std::size_t addrs = 0x59af0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelReturnToMenuController*>(), { ".ctor", {}, {} })));

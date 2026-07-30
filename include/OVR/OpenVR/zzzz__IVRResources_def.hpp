@@ -53,18 +53,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRResources__LoadSharedResource : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5e3e02c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5e3bd98, size 0x5c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchResourceName, ::StringW pchBuffer, uint32_t unBufferLen, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5e3e088, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x5e3bdf4, size 0x24, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5e3e018, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5e3bd84, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchResourceName, ::StringW pchBuffer, uint32_t unBufferLen);
 
   static inline ::OVR::OpenVR::IVRResources__LoadSharedResource* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5e3df98, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e3bd04, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -97,19 +97,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRResources__GetResourceFullPath : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5e3e140, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5e3beac, size 0x60, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, ::System::Text::StringBuilder* pchPathBuffer, uint32_t unBufferLen,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5e3e1a0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x5e3bf0c, size 0x24, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5e3e12c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5e3be98, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, ::System::Text::StringBuilder* pchPathBuffer, uint32_t unBufferLen);
 
   static inline ::OVR::OpenVR::IVRResources__GetResourceFullPath* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5e3e0ac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e3be18, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

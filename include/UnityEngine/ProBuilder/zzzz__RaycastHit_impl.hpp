@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::RaycastHit::*)(float_t, ::UnityEngine::Vector3, ::UnityEngine::Vector3, int32_t)>(
     &::UnityEngine::ProBuilder::RaycastHit::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66da300;
+  constexpr static std::size_t addrs = 0x66d809c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

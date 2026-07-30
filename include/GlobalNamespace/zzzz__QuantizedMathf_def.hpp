@@ -31,22 +31,22 @@ namespace GlobalNamespace {
 class CORDL_TYPE QuantizedMathf : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Approximately, addr 0x377d21c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x377bdb8, size 0x60, virtual false, abstract: false, final false
   static inline bool Approximately(::UnityEngine::Pose a, ::UnityEngine::Pose b);
 
-  /// @brief Method Approximately, addr 0x377d094, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x377bc30, size 0xcc, virtual false, abstract: false, final false
   static inline bool Approximately(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b);
 
-  /// @brief Method Approximately, addr 0x377d1e4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x377bd80, size 0x38, virtual false, abstract: false, final false
   static inline bool Approximately(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b);
 
-  /// @brief Method Approximately, addr 0x377d160, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x377bcfc, size 0x10, virtual false, abstract: false, final false
   static inline bool Approximately(float_t a, float_t b, float_t epsilon);
 
-  /// @brief Method Approximately, addr 0x377d170, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x377bd0c, size 0x74, virtual false, abstract: false, final false
   static inline bool Approximately(int32_t a, int32_t b, int32_t epsilon);
 
-  /// @brief Method QuantizedVectorComponentToString, addr 0x377d27c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method QuantizedVectorComponentToString, addr 0x377be18, size 0x118, virtual false, abstract: false, final false
   static inline ::StringW QuantizedVectorComponentToString(int32_t v);
 
 protected:
@@ -64,7 +64,7 @@ public:
   QuantizedMathf(QuantizedMathf const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21161 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21158 };
 
   /// @brief Field kQuaternionSerializableEpsilon offset 0xffffffff size 0x4
   static constexpr float_t kQuaternionSerializableEpsilon{ static_cast<float_t>(6.103888e-5f) };

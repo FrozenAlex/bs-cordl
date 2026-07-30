@@ -15,10 +15,23 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::get_leftHanded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3749a44;
+  constexpr static std::size_t addrs = 0x3748484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "get_leftHanded", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PlayerSpecificSettings.BucketHeight
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PlayerSpecificSettings::*)(float_t)>(&::GlobalNamespace::PlayerSpecificSettings::BucketHeight)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x374848c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "BucketHeight", {}, { ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
@@ -27,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::get_playerHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3749a4c;
+  constexpr static std::size_t addrs = 0x37484b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "get_playerHeight", {}, {} })));
@@ -39,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::get_automaticPlayerHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3749a54;
+  constexpr static std::size_t addrs = 0x37484bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "get_automaticPlayerHeight", {}, {} })));
@@ -51,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::get_sfxVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3749a5c;
+  constexpr static std::size_t addrs = 0x37484c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "get_sfxVolume", {}, {} })));
@@ -63,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::get_reduceDebris)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3749a64;
+  constexpr static std::size_t addrs = 0x37484cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "get_reduceDebris", {}, {} })));
@@ -75,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::get_noTextsAndHuds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3749a6c;
+  constexpr static std::size_t addrs = 0x37484d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "get_noTextsAndHuds", {}, {} })));
@@ -87,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::get_noFailEffects)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3749a74;
+  constexpr static std::size_t addrs = 0x37484dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "get_noFailEffects", {}, {} })));
@@ -99,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::get_advancedHud)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3749a7c;
+  constexpr static std::size_t addrs = 0x37484e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "get_advancedHud", {}, {} })));
@@ -111,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::get_autoRestart)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3749a84;
+  constexpr static std::size_t addrs = 0x37484ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "get_autoRestart", {}, {} })));
@@ -123,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::get_saberTrailIntensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3749a8c;
+  constexpr static std::size_t addrs = 0x37484f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "get_saberTrailIntensity", {}, {} })));
@@ -136,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteJumpDurationTypeSettings (::GlobalNamespace::PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSpecificSettings::get_noteJumpDurationTypeSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3749a94;
+  constexpr static std::size_t addrs = 0x37484fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::get_noteJumpFixedDuration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3749a9c;
+  constexpr static std::size_t addrs = 0x3748504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "get_noteJumpFixedDuration", {}, {} })));
@@ -161,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::get_noteJumpStartBeatOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3749aa4;
+  constexpr static std::size_t addrs = 0x374850c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "get_noteJumpStartBeatOffset", {}, {} })));
@@ -173,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::get_hideNoteSpawnEffect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3749aac;
+  constexpr static std::size_t addrs = 0x3748514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "get_hideNoteSpawnEffect", {}, {} })));
@@ -185,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::get_adaptiveSfx)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3749ab4;
+  constexpr static std::size_t addrs = 0x374851c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "get_adaptiveSfx", {}, {} })));
@@ -197,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::get_arcsHapticFeedback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3749abc;
+  constexpr static std::size_t addrs = 0x3748524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "get_arcsHapticFeedback", {}, {} })));
@@ -210,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ArcVisibilityType (::GlobalNamespace::PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSpecificSettings::get_arcVisibility)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3749ac4;
+  constexpr static std::size_t addrs = 0x374852c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "get_arcVisibility", {}, {} })));
@@ -223,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EnvironmentEffectsFilterPreset (::GlobalNamespace::PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSpecificSettings::get_environmentEffectsFilterDefaultPreset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3749acc;
+  constexpr static std::size_t addrs = 0x3748534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -237,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EnvironmentEffectsFilterPreset (::GlobalNamespace::PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSpecificSettings::get_environmentEffectsFilterExpertPlusPreset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3749ad4;
+  constexpr static std::size_t addrs = 0x374853c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -250,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::get_headsetHapticIntensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3749adc;
+  constexpr static std::size_t addrs = 0x3748544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "get_headsetHapticIntensity", {}, {} })));
@@ -262,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSpecificSettings::*)()>(&::GlobalNamespace::PlayerSpecificSettings::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3747b98;
+  constexpr static std::size_t addrs = 0x37465d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { ".ctor", {}, {} })));
@@ -276,7 +289,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     bool, float_t, bool, float_t, bool, bool, bool, bool, bool, float_t, ::GlobalNamespace::NoteJumpDurationTypeSettings, float_t, float_t, bool, bool, bool, ::GlobalNamespace::ArcVisibilityType,
     ::GlobalNamespace::EnvironmentEffectsFilterPreset, ::GlobalNamespace::EnvironmentEffectsFilterPreset, float_t)>(&::GlobalNamespace::PlayerSpecificSettings::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x37478d4;
+  constexpr static std::size_t addrs = 0x3746314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +329,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Player
                                                   ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset>, ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset>,
                                                   ::System::Nullable_1<float_t>)>(&::GlobalNamespace::PlayerSpecificSettings::CopyWith)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x3747bfc;
+  constexpr static std::size_t addrs = 0x374663c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -352,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EnvironmentEffectsFilterPreset (::GlobalNamespace::PlayerSpecificSettings::*)(::GlobalNamespace::BeatmapDifficulty)>(
     &::GlobalNamespace::PlayerSpecificSettings::GetEnvironmentEffectsFilterPreset)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3749ae4;
+  constexpr static std::size_t addrs = 0x374854c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(),
@@ -366,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerSpecificSettings::*)(::GlobalNamespace::PlayerSpecificSettings*)>(
     &::GlobalNamespace::PlayerSpecificSettings::AreValuesEqual)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x3749afc;
+  constexpr static std::size_t addrs = 0x3748564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -618,6 +631,11 @@ constexpr void GlobalNamespace::PlayerSpecificSettings::__cordl_internal_set__he
 inline bool GlobalNamespace::PlayerSpecificSettings::get_leftHanded() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "get_leftHanded", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline float_t GlobalNamespace::PlayerSpecificSettings::BucketHeight(float_t heightMeters) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "BucketHeight", {}, { ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<float_t>(this, ___internal_method, heightMeters);
 }
 inline float_t GlobalNamespace::PlayerSpecificSettings::get_playerHeight() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettings*>(), { "get_playerHeight", {}, {} })));

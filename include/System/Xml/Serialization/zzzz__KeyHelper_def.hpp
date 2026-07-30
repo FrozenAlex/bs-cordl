@@ -27,22 +27,22 @@ namespace System::Xml::Serialization {
 class CORDL_TYPE KeyHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddField, addr 0x62e6294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddField, addr 0x62e4030, size 0x8, virtual false, abstract: false, final false
   static inline void AddField(::System::Text::StringBuilder* sb, int32_t n, ::StringW val);
 
-  /// @brief Method AddField, addr 0x62e629c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method AddField, addr 0x62e4038, size 0xf4, virtual false, abstract: false, final false
   static inline void AddField(::System::Text::StringBuilder* sb, int32_t n, ::StringW val, ::StringW def);
 
-  /// @brief Method AddField, addr 0x62e64c4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method AddField, addr 0x62e4260, size 0xdc, virtual false, abstract: false, final false
   static inline void AddField(::System::Text::StringBuilder* sb, int32_t n, ::System::Type* val);
 
-  /// @brief Method AddField, addr 0x62e6390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddField, addr 0x62e412c, size 0x8, virtual false, abstract: false, final false
   static inline void AddField(::System::Text::StringBuilder* sb, int32_t n, bool val);
 
-  /// @brief Method AddField, addr 0x62e6398, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method AddField, addr 0x62e4134, size 0x58, virtual false, abstract: false, final false
   static inline void AddField(::System::Text::StringBuilder* sb, int32_t n, bool val, bool def);
 
-  /// @brief Method AddField, addr 0x62e63f0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddField, addr 0x62e418c, size 0xd4, virtual false, abstract: false, final false
   static inline void AddField(::System::Text::StringBuilder* sb, int32_t n, int32_t val, int32_t def);
 
 protected:

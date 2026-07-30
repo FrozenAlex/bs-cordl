@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3435da8;
+  constexpr static std::size_t addrs = 0x3434370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::*)(::StringW, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3435e2c;
+  constexpr static std::size_t addrs = 0x34343f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity*>(),
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::*)()>(&::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::SkipIdentityHint)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3435eb4;
+  constexpr static std::size_t addrs = 0x343447c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity*>(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::NotifyIdentityHint)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3435eb8;
+  constexpr static std::size_t addrs = 0x3434480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity*>(),
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::GetPskIdentity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3435ebc;
+  constexpr static std::size_t addrs = 0x3434484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity*>(),
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity::GetPsk)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3435ec4;
+  constexpr static std::size_t addrs = 0x343448c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity*>(),

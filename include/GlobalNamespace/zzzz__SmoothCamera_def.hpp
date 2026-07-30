@@ -58,19 +58,19 @@ public:
   /// @brief Field _xrOriginalMirrorViewBlitMode, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get__xrOriginalMirrorViewBlitMode, put = __cordl_internal_set__xrOriginalMirrorViewBlitMode)) int32_t _xrOriginalMirrorViewBlitMode;
 
-  /// @brief Method Init, addr 0x59f0034, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x59ee728, size 0x1e4, virtual false, abstract: false, final false
   inline void Init(float_t fieldOfView, float_t positionSmooth, float_t rotationSmooth, bool thirdPersonEnabled, ::UnityEngine::Vector3 thirdPersonPosition,
                    ::UnityEngine::Vector3 thirdPersonEulerAngles);
 
-  /// @brief Method LateUpdate, addr 0x59f02c0, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x59ee9b4, size 0x240, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SmoothCamera* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x59f0278, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x59ee96c, size 0x48, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x59f0218, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x59ee90c, size 0x60, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -127,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set__xrOriginalMirrorViewBlitMode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x59f0500, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59eebf4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

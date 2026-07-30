@@ -192,54 +192,54 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
 
-  /// @brief Method BeginInteraction, addr 0x6598480, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method BeginInteraction, addr 0x659621c, size 0x23c, virtual false, abstract: false, final false
   inline void BeginInteraction(::UnityEngine::Vector2 pointerPosition, ::UnityEngine::Camera* uiCamera);
 
-  /// @brief Method DrawGizmoCircle, addr 0x6599e3c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method DrawGizmoCircle, addr 0x6597bd8, size 0xcc, virtual false, abstract: false, final false
   inline void DrawGizmoCircle(::UnityEngine::Vector2 center, float_t radius);
 
-  /// @brief Method EndInteraction, addr 0x6598b0c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method EndInteraction, addr 0x65968a8, size 0xd4, virtual false, abstract: false, final false
   inline void EndInteraction();
 
-  /// @brief Method GetCameraFromCanvas, addr 0x6599830, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetCameraFromCanvas, addr 0x65975cc, size 0x124, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> GetCameraFromCanvas();
 
-  /// @brief Method MoveStick, addr 0x6598758, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method MoveStick, addr 0x65964f4, size 0x3a4, virtual false, abstract: false, final false
   inline void MoveStick(::UnityEngine::Vector2 pointerPosition, ::UnityEngine::Camera* uiCamera);
 
   static inline ::UnityEngine::InputSystem::OnScreen::OnScreenStick* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x6599330, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x65970cc, size 0xdc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDrag, addr 0x65986bc, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method OnDrag, addr 0x6596458, size 0x9c, virtual true, abstract: false, final true
   inline void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x6599c14, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x65979b0, size 0x228, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnPointerChanged, addr 0x6599954, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method OnPointerChanged, addr 0x65976f0, size 0x68, virtual false, abstract: false, final false
   inline void OnPointerChanged(::UnityEngine::InputSystem::InputAction_CallbackContext ctx);
 
-  /// @brief Method OnPointerDown, addr 0x659940c, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method OnPointerDown, addr 0x65971a8, size 0x424, virtual false, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::InputSystem::InputAction_CallbackContext ctx);
 
-  /// @brief Method OnPointerDown, addr 0x65983e4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerDown, addr 0x6596180, size 0x9c, virtual true, abstract: false, final true
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerMove, addr 0x6599ae4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method OnPointerMove, addr 0x6597880, size 0x130, virtual false, abstract: false, final false
   inline void OnPointerMove(::UnityEngine::InputSystem::InputAction_CallbackContext ctx);
 
-  /// @brief Method OnPointerUp, addr 0x65999bc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x6597758, size 0x128, virtual false, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::InputSystem::InputAction_CallbackContext ctx);
 
-  /// @brief Method OnPointerUp, addr 0x6598afc, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method OnPointerUp, addr 0x6596898, size 0x10, virtual true, abstract: false, final true
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method Start, addr 0x6598be0, size 0x750, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x659697c, size 0x750, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateDynamicOriginClickableArea, addr 0x6599f08, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method UpdateDynamicOriginClickableArea, addr 0x6597ca4, size 0xf8, virtual false, abstract: false, final false
   inline void UpdateDynamicOriginClickableArea();
 
   constexpr ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour const& __cordl_internal_get_m_Behaviour() const;
@@ -320,22 +320,22 @@ public:
 
   constexpr void __cordl_internal_set_m_UseIsolatedInputActions(bool value);
 
-  /// @brief Method .ctor, addr 0x659a060, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6597dfc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_behaviour, addr 0x659a050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_behaviour, addr 0x6597dec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour get_behaviour();
 
-  /// @brief Method get_controlPathInternal, addr 0x659a040, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_controlPathInternal, addr 0x6597ddc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_controlPathInternal();
 
-  /// @brief Method get_dynamicOriginRange, addr 0x659a010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dynamicOriginRange, addr 0x6597dac, size 0x8, virtual false, abstract: false, final false
   inline float_t get_dynamicOriginRange();
 
-  /// @brief Method get_movementRange, addr 0x659a000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_movementRange, addr 0x6597d9c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_movementRange();
 
-  /// @brief Method get_useIsolatedInputActions, addr 0x659a030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useIsolatedInputActions, addr 0x6597dcc, size 0x8, virtual false, abstract: false, final false
   inline bool get_useIsolatedInputActions();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
@@ -350,19 +350,19 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
 
-  /// @brief Method set_behaviour, addr 0x659a058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_behaviour, addr 0x6597df4, size 0x8, virtual false, abstract: false, final false
   inline void set_behaviour(::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour value);
 
-  /// @brief Method set_controlPathInternal, addr 0x659a048, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_controlPathInternal, addr 0x6597de4, size 0x8, virtual true, abstract: false, final false
   inline void set_controlPathInternal(::StringW value);
 
-  /// @brief Method set_dynamicOriginRange, addr 0x659a018, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_dynamicOriginRange, addr 0x6597db4, size 0x18, virtual false, abstract: false, final false
   inline void set_dynamicOriginRange(float_t value);
 
-  /// @brief Method set_movementRange, addr 0x659a008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_movementRange, addr 0x6597da4, size 0x8, virtual false, abstract: false, final false
   inline void set_movementRange(float_t value);
 
-  /// @brief Method set_useIsolatedInputActions, addr 0x659a038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useIsolatedInputActions, addr 0x6597dd4, size 0x8, virtual false, abstract: false, final false
   inline void set_useIsolatedInputActions(bool value);
 
 protected:

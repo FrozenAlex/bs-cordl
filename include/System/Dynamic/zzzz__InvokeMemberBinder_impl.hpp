@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Dynamic::InvokeMemberBinder::*)()>(&::System::Dynamic::InvokeMemberBinder::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc327c;
+  constexpr static std::size_t addrs = 0x5fc1018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::InvokeMemberBinder*>(), { "get_Name", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::InvokeMemberBinder::*)()>(&::System::Dynamic::InvokeMemberBinder::get_IgnoreCase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc3284;
+  constexpr static std::size_t addrs = 0x5fc1020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::InvokeMemberBinder*>(), { "get_IgnoreCase", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::DynamicMetaObject* (
     ::System::Dynamic::InvokeMemberBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*>)>(&::System::Dynamic::InvokeMemberBinder::Bind)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5fc328c;
+  constexpr static std::size_t addrs = 0x5fc1028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::DynamicMetaObject* (
     ::System::Dynamic::InvokeMemberBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*>)>(&::System::Dynamic::InvokeMemberBinder::FallbackInvokeMember)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5fc1eb8;
+  constexpr static std::size_t addrs = 0x5fbfc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

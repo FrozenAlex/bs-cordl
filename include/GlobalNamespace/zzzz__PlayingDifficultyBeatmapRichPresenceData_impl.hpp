@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::*)()>(
     &::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::get_apiName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58fe1ac;
+  constexpr static std::size_t addrs = 0x58fc71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::*)()>(
     &::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::get_localizedDescription)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x58fe1b4;
+  constexpr static std::size_t addrs = 0x58fc724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::*)(
     ::by_ref<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*)>(&::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x58fe36c;
+  constexpr static std::size_t addrs = 0x58fc8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::by_ref<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::GetDestinationLocalizedString)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x58fe1dc;
+  constexpr static std::size_t addrs = 0x58fc74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

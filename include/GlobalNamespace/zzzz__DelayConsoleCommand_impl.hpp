@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DelayConsoleCommand___c__DisplayClass8_0::*)()>(&::GlobalNamespace::DelayConsoleCommand___c__DisplayClass8_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32cccb4;
+  constexpr static std::size_t addrs = 0x32ca640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DelayConsoleCommand___c__DisplayClass8_0*>(), { ".ctor", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DelayConsoleCommand___c__DisplayClass8_0::*)()>(
     &::GlobalNamespace::DelayConsoleCommand___c__DisplayClass8_0::_ExecuteAsync_b__0)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x32cce0c;
+  constexpr static std::size_t addrs = 0x32ca798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9::*)(int32_t)>(
     &::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32ccd0c;
+  constexpr static std::size_t addrs = 0x32ca698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9::*)()>(
     &::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32ccf7c;
+  constexpr static std::size_t addrs = 0x32ca908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9::*)()>(
     &::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9::MoveNext)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x32ccf80;
+  constexpr static std::size_t addrs = 0x32ca90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9::*)()>(
     &::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32cd2b8;
+  constexpr static std::size_t addrs = 0x32cac44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9*>(),
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9::*)()>(
     &::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x32cd2c0;
+  constexpr static std::size_t addrs = 0x32cac4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9::*)()>(
     &::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32cd2f8;
+  constexpr static std::size_t addrs = 0x32cac84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DelayConsoleCommand__CoroutineControlsCommandLifecycle_d__9*>(),
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::DelayConsoleCommand::*)()>(&::GlobalNamespace::DelayConsoleCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32cca70;
+  constexpr static std::size_t addrs = 0x32ca3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::DelayConsoleCommand::*)()>(&::GlobalNamespace::DelayConsoleCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32ccab4;
+  constexpr static std::size_t addrs = 0x32ca440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::GlobalNamespace::DelayConsoleCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(&::GlobalNamespace::DelayConsoleCommand::ExecuteAsync)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x32ccaf8;
+  constexpr static std::size_t addrs = 0x32ca484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::DelayConsoleCommand::*)()>(
     &::GlobalNamespace::DelayConsoleCommand::CoroutineControlsCommandLifecycle)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32cccb8;
+  constexpr static std::size_t addrs = 0x32ca644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DelayConsoleCommand::*)()>(&::GlobalNamespace::DelayConsoleCommand::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x32ccd14;
+  constexpr static std::size_t addrs = 0x32ca6a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DelayConsoleCommand*>(), { ".ctor", {}, {} })));

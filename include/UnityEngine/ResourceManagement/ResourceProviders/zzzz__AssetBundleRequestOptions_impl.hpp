@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_Hash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x691393c;
+  constexpr static std::size_t addrs = 0x69116d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)(::StringW)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::set_Hash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6913944;
+  constexpr static std::size_t addrs = 0x69116e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_Crc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x691394c;
+  constexpr static std::size_t addrs = 0x69116e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)(uint32_t)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::set_Crc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6913954;
+  constexpr static std::size_t addrs = 0x69116f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_Timeout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x691395c;
+  constexpr static std::size_t addrs = 0x69116f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)(int32_t)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::set_Timeout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6913964;
+  constexpr static std::size_t addrs = 0x6911700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_ChunkedTransfer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x691396c;
+  constexpr static std::size_t addrs = 0x6911708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)(bool)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::set_ChunkedTransfer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6913974;
+  constexpr static std::size_t addrs = 0x6911710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*>(),
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_RedirectLimit)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x691397c;
+  constexpr static std::size_t addrs = 0x6911718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)(int32_t)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::set_RedirectLimit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6913990;
+  constexpr static std::size_t addrs = 0x691172c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*>(),
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_RetryCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6913998;
+  constexpr static std::size_t addrs = 0x6911734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)(int32_t)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::set_RetryCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69139a0;
+  constexpr static std::size_t addrs = 0x691173c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*>(),
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_BundleName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69139a8;
+  constexpr static std::size_t addrs = 0x6911744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)(::StringW)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::set_BundleName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69139b0;
+  constexpr static std::size_t addrs = 0x691174c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*>(),
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode (
     ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)()>(&::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_AssetLoadMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69139b8;
+  constexpr static std::size_t addrs = 0x6911754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)(
     ::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode)>(&::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::set_AssetLoadMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69139c0;
+  constexpr static std::size_t addrs = 0x691175c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_BundleSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69139c8;
+  constexpr static std::size_t addrs = 0x6911764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)(int64_t)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::set_BundleSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69139d0;
+  constexpr static std::size_t addrs = 0x691176c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*>(),
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_UseCrcForCachedBundle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69139d8;
+  constexpr static std::size_t addrs = 0x6911774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)(bool)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::set_UseCrcForCachedBundle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69139e0;
+  constexpr static std::size_t addrs = 0x691177c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*>(),
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_UseUnityWebRequestForLocalBundles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69139e8;
+  constexpr static std::size_t addrs = 0x6911784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)(bool)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::set_UseUnityWebRequestForLocalBundles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69139f0;
+  constexpr static std::size_t addrs = 0x691178c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*>(),
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_ClearOtherCachedVersionsWhenLoaded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69139f8;
+  constexpr static std::size_t addrs = 0x6911794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)(bool)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::set_ClearOtherCachedVersionsWhenLoaded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6913a00;
+  constexpr static std::size_t addrs = 0x691179c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*>(),
@@ -356,7 +356,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::R
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::UnityEngine::ResourceManagement::ResourceManager*)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::ComputeSize)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6913a08;
+  constexpr static std::size_t addrs = 0x69117a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*>(),
@@ -370,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6913b24;
+  constexpr static std::size_t addrs = 0x69118c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

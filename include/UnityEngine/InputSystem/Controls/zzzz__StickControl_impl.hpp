@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Controls::StickControl::*)()>(
     &::UnityEngine::InputSystem::Controls::StickControl::get_up)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f702c;
+  constexpr static std::size_t addrs = 0x64f4dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::StickControl*>(), { "get_up", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::StickControl::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Controls::StickControl::set_up)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f7034;
+  constexpr static std::size_t addrs = 0x64f4dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::StickControl*>(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Controls::StickControl::*)()>(
     &::UnityEngine::InputSystem::Controls::StickControl::get_down)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f703c;
+  constexpr static std::size_t addrs = 0x64f4dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::StickControl*>(), { "get_down", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::StickControl::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Controls::StickControl::set_down)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f7044;
+  constexpr static std::size_t addrs = 0x64f4de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::StickControl*>(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Controls::StickControl::*)()>(
     &::UnityEngine::InputSystem::Controls::StickControl::get_left)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f704c;
+  constexpr static std::size_t addrs = 0x64f4de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::StickControl*>(), { "get_left", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::StickControl::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Controls::StickControl::set_left)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f7054;
+  constexpr static std::size_t addrs = 0x64f4df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::StickControl*>(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Controls::StickControl::*)()>(
     &::UnityEngine::InputSystem::Controls::StickControl::get_right)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f705c;
+  constexpr static std::size_t addrs = 0x64f4df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::StickControl*>(), { "get_right", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::StickControl::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Controls::StickControl::set_right)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f7064;
+  constexpr static std::size_t addrs = 0x64f4e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::StickControl*>(),
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::StickControl::*)()>(&::UnityEngine::InputSystem::Controls::StickControl::FinishSetup)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x64f706c;
+  constexpr static std::size_t addrs = 0x64f4e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::StickControl::*)()>(&::UnityEngine::InputSystem::Controls::StickControl::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64f7168;
+  constexpr static std::size_t addrs = 0x64f4f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::StickControl*>(), { ".ctor", {}, {} })));

@@ -58,10 +58,10 @@ public:
 
   static inline ::UnityEngine::VFX::Utility::VFXInputTouchBinder___c* New_ctor();
 
-  /// @brief Method <GetTouchCount>b__20_0, addr 0x69dfb48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <GetTouchCount>b__20_0, addr 0x69dd8e4, size 0x10, virtual false, abstract: false, final false
   inline bool _GetTouchCount_b__20_0(::UnityEngine::InputSystem::Controls::TouchControl* t);
 
-  /// @brief Method .ctor, addr 0x69dfb44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69dd8e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::VFX::Utility::VFXInputTouchBinder___c* getStaticF___9();
@@ -87,7 +87,7 @@ public:
   VFXInputTouchBinder___c(VFXInputTouchBinder___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19960 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -137,21 +137,21 @@ public:
   /// @brief Field m_VelocityParameter, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_m_VelocityParameter, put = __cordl_internal_set_m_VelocityParameter)) ::UnityEngine::VFX::Utility::ExposedProperty* m_VelocityParameter;
 
-  /// @brief Method GetTouchCount, addr 0x69df464, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method GetTouchCount, addr 0x69dd200, size 0x218, virtual false, abstract: false, final false
   inline int32_t GetTouchCount();
 
-  /// @brief Method GetTouchPosition, addr 0x69df67c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method GetTouchPosition, addr 0x69dd418, size 0x22c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetTouchPosition(int32_t touchIndex);
 
-  /// @brief Method IsValid, addr 0x69df138, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x69dced4, size 0xf0, virtual true, abstract: false, final false
   inline bool IsValid(::UnityEngine::VFX::VisualEffect* component);
 
   static inline ::UnityEngine::VFX::Utility::VFXInputTouchBinder* New_ctor();
 
-  /// @brief Method ToString, addr 0x69df8a8, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69dd644, size 0x128, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateBinding, addr 0x69df228, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method UpdateBinding, addr 0x69dcfc4, size 0x23c, virtual true, abstract: false, final false
   inline void UpdateBinding(::UnityEngine::VFX::VisualEffect* component);
 
   constexpr float_t const& __cordl_internal_get_Distance() const;
@@ -208,25 +208,25 @@ public:
 
   constexpr void __cordl_internal_set_m_VelocityParameter(::UnityEngine::VFX::Utility::ExposedProperty* value);
 
-  /// @brief Method .ctor, addr 0x69df9d0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69dd76c, size 0x120, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Parameter, addr 0x69df0d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Parameter, addr 0x69dce6c, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Parameter();
 
-  /// @brief Method get_TouchEnabledProperty, addr 0x69df09c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_TouchEnabledProperty, addr 0x69dce38, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_TouchEnabledProperty();
 
-  /// @brief Method get_VelocityParameter, addr 0x69df104, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_VelocityParameter, addr 0x69dcea0, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_VelocityParameter();
 
-  /// @brief Method set_Parameter, addr 0x69df0e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_Parameter, addr 0x69dce84, size 0x1c, virtual false, abstract: false, final false
   inline void set_Parameter(::StringW value);
 
-  /// @brief Method set_TouchEnabledProperty, addr 0x69df0b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_TouchEnabledProperty, addr 0x69dce50, size 0x1c, virtual false, abstract: false, final false
   inline void set_TouchEnabledProperty(::StringW value);
 
-  /// @brief Method set_VelocityParameter, addr 0x69df11c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_VelocityParameter, addr 0x69dceb8, size 0x1c, virtual false, abstract: false, final false
   inline void set_VelocityParameter(::StringW value);
 
 protected:
@@ -244,7 +244,7 @@ public:
   VFXInputTouchBinder(VFXInputTouchBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19961 };
 
   /// @brief Field m_TouchEnabledProperty, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_TouchEnabledProperty;

@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68fe6ec;
+  constexpr static std::size_t addrs = 0x68fc488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69000b8;
+  constexpr static std::size_t addrs = 0x68fde54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c*>(), { ".ctor", {}, {} })));
@@ -187,7 +187,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c::_Render_b__17_0)> {
   constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x69000bc;
+  constexpr static std::size_t addrs = 0x68fde58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c*>(),
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::*)(
     ::UnityEngine::Rendering::Universal::RenderPassEvent, ::UnityEngine::Material*, ::UnityEngine::Material*)>(&::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::_ctor)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x68fe4e4;
+  constexpr static std::size_t addrs = 0x68fc280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68fe6f0;
+  constexpr static std::size_t addrs = 0x68fc48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(), { "Dispose", {}, {} })));
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::*)(
     ::UnityEngine::RenderTextureDescriptor, ::UnityEngine::Rendering::Universal::RenderTargetHandle)>(&::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::Setup)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x68fe6f4;
+  constexpr static std::size_t addrs = 0x68fc490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::*)(
     ::UnityEngine::RenderTextureDescriptor, ::UnityEngine::Rendering::RTHandle*)>(&::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fe740;
+  constexpr static std::size_t addrs = 0x68fc4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ColorGamut, ::UnityEngine::Material*, ::UnityEngine::Rendering::HDROutputUtils_Operation, ::UnityEngine::Vector4, bool)>(
     &::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::SetupHDROutput)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x68fe748;
+  constexpr static std::size_t addrs = 0x68fc4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::OnCameraSetup)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x68fe884;
+  constexpr static std::size_t addrs = 0x68fc620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(),
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::*)(
     ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::Execute)> {
   constexpr static std::size_t size = 0x9dc;
-  constexpr static std::size_t addrs = 0x68fe958;
+  constexpr static std::size_t addrs = 0x68fc6f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass*>(),
@@ -353,7 +353,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                                 ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
     &::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::ExecutePass)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x68ff3c4;
+  constexpr static std::size_t addrs = 0x68fd160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -373,7 +373,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::by_ref<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*>,
     ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType, bool)>(&::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::InitPassData)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68ff334;
+  constexpr static std::size_t addrs = 0x68fd0d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -394,7 +394,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(&::UnityEngine::Rendering::Universal::Internal::FinalBlitPass::Render)> {
   constexpr static std::size_t size = 0xa04;
-  constexpr static std::size_t addrs = 0x68ff5f0;
+  constexpr static std::size_t addrs = 0x68fd38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

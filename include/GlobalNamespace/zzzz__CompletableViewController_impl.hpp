@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::CompletableViewController::*)()>(
     &::GlobalNamespace::CompletableViewController::WaitForCompletionAsync)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5a1151c;
+  constexpr static std::size_t addrs = 0x5a0f948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompletableViewController*>(), { "WaitForCompletionAsync", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CompletableViewController::*)()>(&::GlobalNamespace::CompletableViewController::ResetCompletion)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5a1156c;
+  constexpr static std::size_t addrs = 0x5a0f998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompletableViewController*>(), { "ResetCompletion", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CompletableViewController::*)()>(&::GlobalNamespace::CompletableViewController::Complete)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5a115e0;
+  constexpr static std::size_t addrs = 0x5a0fa0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompletableViewController*>(), { "Complete", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CompletableViewController::*)(bool, bool)>(&::GlobalNamespace::CompletableViewController::__Activate)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5a11638;
+  constexpr static std::size_t addrs = 0x5a0fa64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CompletableViewController::*)()>(&::GlobalNamespace::CompletableViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a116d8;
+  constexpr static std::size_t addrs = 0x5a0fb04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompletableViewController*>(), { ".ctor", {}, {} })));

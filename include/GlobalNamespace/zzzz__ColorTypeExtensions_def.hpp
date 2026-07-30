@@ -23,10 +23,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE ColorTypeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetDefaultColorLabel, addr 0x325c15c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultColorLabel, addr 0x325941c, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW GetDefaultColorLabel(::GlobalNamespace::ColorType colorType);
 
-  /// @brief Method Opposite, addr 0x325c200, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Opposite, addr 0x32594c0, size 0x18, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ColorType Opposite(::GlobalNamespace::ColorType colorType);
 
 protected:
@@ -44,7 +44,7 @@ public:
   ColorTypeExtensions(ColorTypeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21215 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21212 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

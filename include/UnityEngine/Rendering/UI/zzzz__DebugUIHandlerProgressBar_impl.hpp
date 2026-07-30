@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar::OnEnable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6800260;
+  constexpr static std::size_t addrs = 0x67fdffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar::*)(::UnityEngine::Rendering::DebugUI_Widget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar::SetWidget)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6800268;
+  constexpr static std::size_t addrs = 0x67fe004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar::*)(bool, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar::OnSelection)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68003cc;
+  constexpr static std::size_t addrs = 0x67fe168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar*>(),
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar::OnDeselection)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6800404;
+  constexpr static std::size_t addrs = 0x67fe1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar*>(),
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar::Update)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6800430;
+  constexpr static std::size_t addrs = 0x67fe1cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar*>(), { "Update", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar::UpdateValue)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x68002f8;
+  constexpr static std::size_t addrs = 0x67fe094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar*>(), { "UpdateValue", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68004b4;
+  constexpr static std::size_t addrs = 0x67fe250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerProgressBar*>(), { ".ctor", {}, {} })));

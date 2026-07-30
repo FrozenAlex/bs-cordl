@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__startFromCenter(bool value);
 
-  /// @brief Method .ctor, addr 0x5992ac4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5991188, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IEditTimeValidated"

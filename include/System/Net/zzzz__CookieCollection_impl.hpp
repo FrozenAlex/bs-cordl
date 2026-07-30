@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CookieCollection_CookieCollectionEnumerator::*)(::System::Net::CookieCollection*)>(
     &::System::Net::CookieCollection_CookieCollectionEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x64178bc;
+  constexpr static std::size_t addrs = 0x6415658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Net::CookieCollection_CookieCollectionEnumerator::*)()>(
     &::System::Net::CookieCollection_CookieCollectionEnumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6417910;
+  constexpr static std::size_t addrs = 0x64156ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::CookieCollection_CookieCollectionEnumerator::*)()>(
     &::System::Net::CookieCollection_CookieCollectionEnumerator::System_Collections_IEnumerator_MoveNext)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x64179ac;
+  constexpr static std::size_t addrs = 0x6415748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CookieCollection_CookieCollectionEnumerator::*)()>(
     &::System::Net::CookieCollection_CookieCollectionEnumerator::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6417a40;
+  constexpr static std::size_t addrs = 0x64157dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CookieCollection::*)()>(&::System::Net::CookieCollection::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x64169c8;
+  constexpr static std::size_t addrs = 0x6414764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::CookieCollection*>(), { ".ctor", {}, {} })));
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Cookie* (::System::Net::CookieCollection::*)(int32_t)>(&::System::Net::CookieCollection::get_Item)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6416a64;
+  constexpr static std::size_t addrs = 0x6414800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::CookieCollection*>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CookieCollection::*)(::System::Net::Cookie*)>(&::System::Net::CookieCollection::Add)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6416b58;
+  constexpr static std::size_t addrs = 0x64148f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CookieCollection::*)(::System::Net::CookieCollection*)>(&::System::Net::CookieCollection::Add)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x6416fac;
+  constexpr static std::size_t addrs = 0x6414d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::CookieCollection::*)()>(&::System::Net::CookieCollection::get_Count)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64172d8;
+  constexpr static std::size_t addrs = 0x6415074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::CookieCollection*>(), { "get_Count", {}, {} })));
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::CookieCollection::*)()>(&::System::Net::CookieCollection::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64172f8;
+  constexpr static std::size_t addrs = 0x6415094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::CookieCollection*>(), { "get_IsSynchronized", {}, {} })));
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Net::CookieCollection::*)()>(&::System::Net::CookieCollection::get_SyncRoot)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6417300;
+  constexpr static std::size_t addrs = 0x641509c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::CookieCollection*>(), { "get_SyncRoot", {}, {} })));
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CookieCollection::*)(::System::Array*, int32_t)>(&::System::Net::CookieCollection::CopyTo)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6417304;
+  constexpr static std::size_t addrs = 0x64150a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Net::CookieCollection::*)(::System::Net::CookieCollection_Stamp)>(&::System::Net::CookieCollection::TimeStamp)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6417324;
+  constexpr static std::size_t addrs = 0x64150c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::CookieCollection::*)()>(&::System::Net::CookieCollection::get_IsOtherVersionSeen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64173f8;
+  constexpr static std::size_t addrs = 0x6415194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::CookieCollection*>(), { "get_IsOtherVersionSeen", {}, {} })));
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::CookieCollection::*)(::System::Net::Cookie*, bool)>(&::System::Net::CookieCollection::InternalAdd)> {
   constexpr static std::size_t size = 0x49c;
-  constexpr static std::size_t addrs = 0x6417400;
+  constexpr static std::size_t addrs = 0x641519c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::CookieCollection::*)(::System::Net::Cookie*)>(&::System::Net::CookieCollection::IndexOf)> {
   constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x6416c18;
+  constexpr static std::size_t addrs = 0x64149b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CookieCollection::*)(int32_t)>(&::System::Net::CookieCollection::RemoveAt)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x641789c;
+  constexpr static std::size_t addrs = 0x6415638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::CookieCollection*>(), { "RemoveAt", {}, { ::i2c::type_of<int32_t>() } })));
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Net::CookieCollection::*)()>(&::System::Net::CookieCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x641727c;
+  constexpr static std::size_t addrs = 0x6415018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::CookieCollection*>(), { "GetEnumerator", {}, {} })));

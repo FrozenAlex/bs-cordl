@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::GlobalNamespace::Mirror::*)()>(&::GlobalNamespace::Mirror::get_mirrorMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f43a18;
+  constexpr static std::size_t addrs = 0x5f41704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Mirror*>(), { "get_mirrorMaterial", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::GlobalNamespace::Mirror::*)()>(&::GlobalNamespace::Mirror::get_noMirrorMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f43a20;
+  constexpr static std::size_t addrs = 0x5f4170c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Mirror*>(), { "get_noMirrorMaterial", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::Mirror::*)()>(&::GlobalNamespace::Mirror::get_reflectionPlaneTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f43a28;
+  constexpr static std::size_t addrs = 0x5f41714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Mirror*>(), { "get_reflectionPlaneTransform", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Mirror::*)()>(&::GlobalNamespace::Mirror::get_isEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f43a30;
+  constexpr static std::size_t addrs = 0x5f4171c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Mirror*>(), { "get_isEnabled", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Mirror::*)(bool)>(&::GlobalNamespace::Mirror::set_isEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f43a38;
+  constexpr static std::size_t addrs = 0x5f41724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Mirror*>(), { "set_isEnabled", {}, { ::i2c::type_of<bool>() } })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Mirror::*)(::System::Action_1<bool>*)>(&::GlobalNamespace::Mirror::add_mirrorDidChangeEnabledStateEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5f43a40;
+  constexpr static std::size_t addrs = 0x5f4172c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Mirror::*)(::System::Action_1<bool>*)>(&::GlobalNamespace::Mirror::remove_mirrorDidChangeEnabledStateEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5f43b00;
+  constexpr static std::size_t addrs = 0x5f417ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Mirror::*)()>(&::GlobalNamespace::Mirror::OnEnable)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5f43bc0;
+  constexpr static std::size_t addrs = 0x5f418ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Mirror*>(), { "OnEnable", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Mirror::*)()>(&::GlobalNamespace::Mirror::OnDisable)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5f43c68;
+  constexpr static std::size_t addrs = 0x5f41954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Mirror*>(), { "OnDisable", {}, {} })));
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Mirror::*)()>(&::GlobalNamespace::Mirror::Update)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f43d10;
+  constexpr static std::size_t addrs = 0x5f419fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Mirror*>(), { "Update", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Mirror::*)(::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*)>(
     &::GlobalNamespace::Mirror::OnBeginCameraRendering)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5f43e70;
+  constexpr static std::size_t addrs = 0x5f41b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Mirror::*)(::UnityEngine::Camera*)>(&::GlobalNamespace::Mirror::RenderMirror)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x5f43f24;
+  constexpr static std::size_t addrs = 0x5f41c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Mirror::*)(bool)>(&::GlobalNamespace::Mirror::ChangeMirrorEnabledState)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f441d8;
+  constexpr static std::size_t addrs = 0x5f41ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Mirror::*)()>(&::GlobalNamespace::Mirror::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f448d0;
+  constexpr static std::size_t addrs = 0x5f425bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Mirror*>(), { ".ctor", {}, {} })));

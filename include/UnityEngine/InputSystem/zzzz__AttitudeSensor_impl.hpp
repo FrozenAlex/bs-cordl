@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::InputSystem::AttitudeSensor::*)()>(
     &::UnityEngine::InputSystem::AttitudeSensor::get_attitude)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6560840;
+  constexpr static std::size_t addrs = 0x655e5dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::AttitudeSensor*>(), { "get_attitude", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::AttitudeSensor::*)(::UnityEngine::InputSystem::Controls::QuaternionControl*)>(
     &::UnityEngine::InputSystem::AttitudeSensor::set_attitude)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6560848;
+  constexpr static std::size_t addrs = 0x655e5e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::AttitudeSensor*>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::AttitudeSensor* (*)()>(&::UnityEngine::InputSystem::AttitudeSensor::get_current)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6560850;
+  constexpr static std::size_t addrs = 0x655e5ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::AttitudeSensor*>(), { "get_current", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::AttitudeSensor*)>(&::UnityEngine::InputSystem::AttitudeSensor::set_current)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x656089c;
+  constexpr static std::size_t addrs = 0x655e638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::AttitudeSensor::*)()>(&::UnityEngine::InputSystem::AttitudeSensor::MakeCurrent)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x65608ec;
+  constexpr static std::size_t addrs = 0x655e688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::AttitudeSensor::*)()>(&::UnityEngine::InputSystem::AttitudeSensor::OnRemoved)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x656093c;
+  constexpr static std::size_t addrs = 0x655e6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::AttitudeSensor::*)()>(&::UnityEngine::InputSystem::AttitudeSensor::FinishSetup)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x65609cc;
+  constexpr static std::size_t addrs = 0x655e768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::AttitudeSensor::*)()>(&::UnityEngine::InputSystem::AttitudeSensor::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6560a3c;
+  constexpr static std::size_t addrs = 0x655e7d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::AttitudeSensor*>(), { ".ctor", {}, {} })));

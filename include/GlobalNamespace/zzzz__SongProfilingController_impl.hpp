@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11::*)(int32_t)>(
     &::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58be398;
+  constexpr static std::size_t addrs = 0x58bc870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11::*)()>(
     &::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58be680;
+  constexpr static std::size_t addrs = 0x58bcb58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11::*)()>(
     &::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11::MoveNext)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x58be684;
+  constexpr static std::size_t addrs = 0x58bcb5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11::*)()>(
     &::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58be98c;
+  constexpr static std::size_t addrs = 0x58bce64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11*>(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11::*)()>(
     &::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x58be994;
+  constexpr static std::size_t addrs = 0x58bce6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11::*)()>(
     &::GlobalNamespace::SongProfilingController__ProfileCoroutine_d__11::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58be9cc;
+  constexpr static std::size_t addrs = 0x58bcea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongProfilingController::*)()>(&::GlobalNamespace::SongProfilingController::FinishProfiling)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x58bdfec;
+  constexpr static std::size_t addrs = 0x58bc4c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongProfilingController*>(), { "FinishProfiling", {}, {} })));
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongProfilingController::*)()>(&::GlobalNamespace::SongProfilingController::Start)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x58be09c;
+  constexpr static std::size_t addrs = 0x58bc574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongProfilingController*>(), { "Start", {}, {} })));
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongProfilingController::*)()>(&::GlobalNamespace::SongProfilingController::OnDestroy)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x58be304;
+  constexpr static std::size_t addrs = 0x58bc7dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongProfilingController*>(), { "OnDestroy", {}, {} })));
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::SongProfilingController::*)(::StringW)>(
     &::GlobalNamespace::SongProfilingController::ProfileCoroutine)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x58be2a4;
+  constexpr static std::size_t addrs = 0x58bc77c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongProfilingController::*)(::StringW)>(&::GlobalNamespace::SongProfilingController::CreateCaptureFolder)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x58be1f8;
+  constexpr static std::size_t addrs = 0x58bc6d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongProfilingController::*)()>(&::GlobalNamespace::SongProfilingController::SetupProfiler)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x58be274;
+  constexpr static std::size_t addrs = 0x58bc74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongProfilingController*>(), { "SetupProfiler", {}, {} })));
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::SongProfilingController::*)(::StringW, float_t)>(&::GlobalNamespace::SongProfilingController::CreateLogPath)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x58be3a0;
+  constexpr static std::size_t addrs = 0x58bc878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -342,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongProfilingController::*)(::StringW)>(&::GlobalNamespace::SongProfilingController::StartProfilingToFile)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x58be518;
+  constexpr static std::size_t addrs = 0x58bc9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -355,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongProfilingController::*)()>(&::GlobalNamespace::SongProfilingController::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x58be624;
+  constexpr static std::size_t addrs = 0x58bcafc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongProfilingController*>(), { ".ctor", {}, {} })));

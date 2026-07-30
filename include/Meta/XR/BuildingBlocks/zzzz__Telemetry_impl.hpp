@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (*)(::GlobalNamespace::OVRTelemetryMarker, ::Meta::XR::BuildingBlocks::BuildingBlock*)>(
     &::Meta::XR::BuildingBlocks::Telemetry::AddBlockInfo)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x5a315ec;
+  constexpr static std::size_t addrs = 0x5a2f430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (*)(::GlobalNamespace::OVRTelemetryMarker, ::Meta::XR::BuildingBlocks::BuildingBlock*)>(
     &::Meta::XR::BuildingBlocks::Telemetry::AddBlockVariantInfo)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a39c44;
+  constexpr static std::size_t addrs = 0x5a37a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (*)(::GlobalNamespace::OVRTelemetryMarker, ::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint*)>(
     &::Meta::XR::BuildingBlocks::Telemetry::AddInstallationRoutineInfo)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x5a39d04;
+  constexpr static std::size_t addrs = 0x5a37b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (*)(::GlobalNamespace::OVRTelemetryMarker, ::UnityEngine::SceneManagement::Scene)>(
     &::Meta::XR::BuildingBlocks::Telemetry::AddSceneInfo)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5a3a030;
+  constexpr static std::size_t addrs = 0x5a37e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

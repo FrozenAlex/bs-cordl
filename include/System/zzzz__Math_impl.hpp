@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Math::Abs)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5c474c4;
+  constexpr static std::size_t addrs = 0x5c45230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Abs", {}, { ::i2c::type_of<int32_t>() } })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int64_t)>(&::System::Math::Abs)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5c47578;
+  constexpr static std::size_t addrs = 0x5c452e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Abs", {}, { ::i2c::type_of<int64_t>() } })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (*)(::System::Decimal)>(&::System::Math::Abs)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5c475e0;
+  constexpr static std::size_t addrs = 0x5c4534c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Abs", {}, { ::i2c::type_of<::System::Decimal>() } })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Math::ThrowAbsOverflow)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c4752c;
+  constexpr static std::size_t addrs = 0x5c45298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "ThrowAbsOverflow", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, ::by_ref<int32_t>)>(&::System::Math::DivRem)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c47648;
+  constexpr static std::size_t addrs = 0x5c453b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t)>(&::System::Math::Clamp)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5c4765c;
+  constexpr static std::size_t addrs = 0x5c453c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::System::Math::Clamp)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5c47700;
+  constexpr static std::size_t addrs = 0x5c4546c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t, double_t)>(&::System::Math::Log)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5c477b8;
+  constexpr static std::size_t addrs = 0x5c45524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(uint8_t, uint8_t)>(&::System::Math::Max)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c47898;
+  constexpr static std::size_t addrs = 0x5c45604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (*)(::System::Decimal, ::System::Decimal)>(&::System::Math::Max)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5c478ac;
+  constexpr static std::size_t addrs = 0x5c45618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t, double_t)>(&::System::Math::Max)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5c47948;
+  constexpr static std::size_t addrs = 0x5c456b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (*)(int16_t, int16_t)>(&::System::Math::Max)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c47964;
+  constexpr static std::size_t addrs = 0x5c456d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::System::Math::Max)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c47978;
+  constexpr static std::size_t addrs = 0x5c456e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int64_t, int64_t)>(&::System::Math::Max)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c47984;
+  constexpr static std::size_t addrs = 0x5c456f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (*)(int8_t, int8_t)>(&::System::Math::Max)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c47990;
+  constexpr static std::size_t addrs = 0x5c456fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Max", {}, { ::i2c::type_of<int8_t>(), ::i2c::type_of<int8_t>() } })));
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::System::Math::Max)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5c479a4;
+  constexpr static std::size_t addrs = 0x5c45710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(uint16_t, uint16_t)>(&::System::Math::Max)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c479c0;
+  constexpr static std::size_t addrs = 0x5c4572c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::System::Math::Max)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c479d4;
+  constexpr static std::size_t addrs = 0x5c45740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&::System::Math::Max)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c479e0;
+  constexpr static std::size_t addrs = 0x5c4574c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(uint8_t, uint8_t)>(&::System::Math::Min)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c479ec;
+  constexpr static std::size_t addrs = 0x5c45758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (*)(::System::Decimal, ::System::Decimal)>(&::System::Math::Min)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5c47a00;
+  constexpr static std::size_t addrs = 0x5c4576c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t, double_t)>(&::System::Math::Min)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5c47a9c;
+  constexpr static std::size_t addrs = 0x5c45808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (*)(int16_t, int16_t)>(&::System::Math::Min)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c47ab8;
+  constexpr static std::size_t addrs = 0x5c45824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::System::Math::Min)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c47acc;
+  constexpr static std::size_t addrs = 0x5c45838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int64_t, int64_t)>(&::System::Math::Min)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c47ad8;
+  constexpr static std::size_t addrs = 0x5c45844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (*)(int8_t, int8_t)>(&::System::Math::Min)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c47ae4;
+  constexpr static std::size_t addrs = 0x5c45850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Min", {}, { ::i2c::type_of<int8_t>(), ::i2c::type_of<int8_t>() } })));
@@ -341,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::System::Math::Min)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5c47af8;
+  constexpr static std::size_t addrs = 0x5c45864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(uint16_t, uint16_t)>(&::System::Math::Min)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c47b14;
+  constexpr static std::size_t addrs = 0x5c45880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::System::Math::Min)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c47b28;
+  constexpr static std::size_t addrs = 0x5c45894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -380,7 +380,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&::System::Math::Min)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c47b34;
+  constexpr static std::size_t addrs = 0x5c458a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -393,7 +393,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (*)(::System::Decimal)>(&::System::Math::Round)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5c47b40;
+  constexpr static std::size_t addrs = 0x5c458ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Round", {}, { ::i2c::type_of<::System::Decimal>() } })));
@@ -405,7 +405,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t)>(&::System::Math::Round)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5c47bb0;
+  constexpr static std::size_t addrs = 0x5c4591c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Round", {}, { ::i2c::type_of<double_t>() } })));
@@ -417,7 +417,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t, int32_t)>(&::System::Math::Round)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5c47c34;
+  constexpr static std::size_t addrs = 0x5c459a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -430,7 +430,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t, ::System::MidpointRounding)>(&::System::Math::Round)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5c47f54;
+  constexpr static std::size_t addrs = 0x5c45cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -443,7 +443,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t, int32_t, ::System::MidpointRounding)>(&::System::Math::Round)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x5c47ca0;
+  constexpr static std::size_t addrs = 0x5c45a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -457,7 +457,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(double_t)>(&::System::Math::Sign)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5c47fc4;
+  constexpr static std::size_t addrs = 0x5c45d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Sign", {}, { ::i2c::type_of<double_t>() } })));
@@ -469,7 +469,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int64_t)>(&::System::Math::Sign)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c4803c;
+  constexpr static std::size_t addrs = 0x5c45da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Sign", {}, { ::i2c::type_of<int64_t>() } })));
@@ -481,7 +481,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (*)(::System::Decimal)>(&::System::Math::Truncate)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5c48050;
+  constexpr static std::size_t addrs = 0x5c45dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Truncate", {}, { ::i2c::type_of<::System::Decimal>() } })));
@@ -493,7 +493,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t)>(&::System::Math::Truncate)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5c480bc;
+  constexpr static std::size_t addrs = 0x5c45e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Truncate", {}, { ::i2c::type_of<double_t>() } })));
@@ -505,7 +505,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t)>(&::System::Math::Abs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c4812c;
+  constexpr static std::size_t addrs = 0x5c45e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Abs", {}, { ::i2c::type_of<double_t>() } })));
@@ -517,7 +517,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t)>(&::System::Math::Abs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c48134;
+  constexpr static std::size_t addrs = 0x5c45ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Abs", {}, { ::i2c::type_of<float_t>() } })));
@@ -529,7 +529,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t)>(&::System::Math::Acos)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c4813c;
+  constexpr static std::size_t addrs = 0x5c45ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Acos", {}, { ::i2c::type_of<double_t>() } })));
@@ -541,7 +541,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t)>(&::System::Math::Asin)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c48140;
+  constexpr static std::size_t addrs = 0x5c45eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Asin", {}, { ::i2c::type_of<double_t>() } })));
@@ -553,7 +553,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t)>(&::System::Math::Atan)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c48144;
+  constexpr static std::size_t addrs = 0x5c45eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Atan", {}, { ::i2c::type_of<double_t>() } })));
@@ -565,7 +565,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t, double_t)>(&::System::Math::Atan2)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c48148;
+  constexpr static std::size_t addrs = 0x5c45eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -578,7 +578,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t)>(&::System::Math::Ceiling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c4814c;
+  constexpr static std::size_t addrs = 0x5c45eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Ceiling", {}, { ::i2c::type_of<double_t>() } })));
@@ -590,7 +590,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t)>(&::System::Math::Cos)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c48154;
+  constexpr static std::size_t addrs = 0x5c45ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Cos", {}, { ::i2c::type_of<double_t>() } })));
@@ -602,7 +602,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t)>(&::System::Math::Cosh)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c48158;
+  constexpr static std::size_t addrs = 0x5c45ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Cosh", {}, { ::i2c::type_of<double_t>() } })));
@@ -614,7 +614,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t)>(&::System::Math::Exp)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c4815c;
+  constexpr static std::size_t addrs = 0x5c45ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Exp", {}, { ::i2c::type_of<double_t>() } })));
@@ -626,7 +626,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t)>(&::System::Math::Floor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c48160;
+  constexpr static std::size_t addrs = 0x5c45ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Floor", {}, { ::i2c::type_of<double_t>() } })));
@@ -638,7 +638,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t)>(&::System::Math::Log)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c48168;
+  constexpr static std::size_t addrs = 0x5c45ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Log", {}, { ::i2c::type_of<double_t>() } })));
@@ -650,7 +650,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t)>(&::System::Math::Log10)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c4816c;
+  constexpr static std::size_t addrs = 0x5c45ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Log10", {}, { ::i2c::type_of<double_t>() } })));
@@ -662,7 +662,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t, double_t)>(&::System::Math::Pow)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c48170;
+  constexpr static std::size_t addrs = 0x5c45edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -675,7 +675,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t)>(&::System::Math::Sin)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c48174;
+  constexpr static std::size_t addrs = 0x5c45ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Sin", {}, { ::i2c::type_of<double_t>() } })));
@@ -687,7 +687,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t)>(&::System::Math::Sinh)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c48178;
+  constexpr static std::size_t addrs = 0x5c45ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Sinh", {}, { ::i2c::type_of<double_t>() } })));
@@ -699,7 +699,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t)>(&::System::Math::Sqrt)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c4817c;
+  constexpr static std::size_t addrs = 0x5c45ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Sqrt", {}, { ::i2c::type_of<double_t>() } })));
@@ -711,7 +711,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t)>(&::System::Math::Tan)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c48184;
+  constexpr static std::size_t addrs = 0x5c45ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Tan", {}, { ::i2c::type_of<double_t>() } })));
@@ -723,7 +723,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t)>(&::System::Math::Tanh)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c48188;
+  constexpr static std::size_t addrs = 0x5c45ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Math*>(), { "Tanh", {}, { ::i2c::type_of<double_t>() } })));
@@ -735,7 +735,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t, double_t*)>(&::System::Math::ModF)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c47fc0;
+  constexpr static std::size_t addrs = 0x5c45d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

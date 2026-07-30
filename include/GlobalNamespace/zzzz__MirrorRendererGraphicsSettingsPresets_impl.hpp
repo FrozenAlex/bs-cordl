@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset::*)()>(
     &::GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x372d048;
+  constexpr static std::size_t addrs = 0x372ba88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset*>(), { ".ctor", {}, {} })));
@@ -113,18 +113,6 @@ constexpr void GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxAntiAliasing = value;
 }
-constexpr bool& GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset::__cordl_internal_get_enableBloomPrePassFog() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___enableBloomPrePassFog;
-}
-constexpr bool const& GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset::__cordl_internal_get_enableBloomPrePassFog() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___enableBloomPrePassFog;
-}
-constexpr void GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset::__cordl_internal_set_enableBloomPrePassFog(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___enableBloomPrePassFog = value;
-}
 inline void GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
@@ -140,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset*> (::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::*)()>(
     &::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::get_presets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372d030;
+  constexpr static std::size_t addrs = 0x372ba70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*>(), { "get_presets", {}, {} })));
@@ -153,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::NamedPreset*> (::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::*)()>(
     &::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::get_namedPresets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372d038;
+  constexpr static std::size_t addrs = 0x372ba78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*>(),
@@ -166,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::*)()>(&::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x372d040;
+  constexpr static std::size_t addrs = 0x372ba80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*>(), { ".ctor", {}, {} })));

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelAnalytics::*)()>(&::GlobalNamespace::MissionLevelAnalytics::Start)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x58b3df4;
+  constexpr static std::size_t addrs = 0x58b22a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelAnalytics*>(), { "Start", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelAnalytics::*)()>(&::GlobalNamespace::MissionLevelAnalytics::OnDestroy)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x58b3e84;
+  constexpr static std::size_t addrs = 0x58b2330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelAnalytics*>(), { "OnDestroy", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelAnalytics::*)(
     ::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*)>(&::GlobalNamespace::MissionLevelAnalytics::HandleMissionLevelDidFinishEvent)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x58b3f14;
+  constexpr static std::size_t addrs = 0x58b23c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelAnalytics::*)()>(&::GlobalNamespace::MissionLevelAnalytics::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58b4354;
+  constexpr static std::size_t addrs = 0x58b2800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelAnalytics*>(), { ".ctor", {}, {} })));

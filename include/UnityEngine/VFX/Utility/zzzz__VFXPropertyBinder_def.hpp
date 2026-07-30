@@ -187,7 +187,7 @@ public:
   VFXPropertyBinder__GetPropertyBinders_d__17_1(VFXPropertyBinder__GetPropertyBinders_d__17_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19983 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19980 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -233,10 +233,10 @@ public:
   /// @brief Method AddPropertyBinder, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T AddPropertyBinder();
 
-  /// @brief Method ClearParameterBinders, addr 0x69e3f08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ClearParameterBinders, addr 0x69e1ca4, size 0x4, virtual false, abstract: false, final false
   inline void ClearParameterBinders();
 
-  /// @brief Method ClearPropertyBinders, addr 0x69e3c64, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ClearPropertyBinders, addr 0x69e1a00, size 0x98, virtual false, abstract: false, final false
   inline void ClearPropertyBinders();
 
   /// @brief Method GetParameterBinders, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -245,36 +245,36 @@ public:
   /// @brief Method GetPropertyBinders, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::System::Collections::Generic::IEnumerable_1<T>* GetPropertyBinders();
 
-  /// @brief Method LateUpdate, addr 0x69e3cfc, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x69e1a98, size 0x20c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::UnityEngine::VFX::Utility::VFXPropertyBinder* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x69e3adc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x69e1878, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x69e3bec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x69e1988, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Reload, addr 0x69e3ae0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Reload, addr 0x69e187c, size 0x10c, virtual false, abstract: false, final false
   inline void Reload();
 
-  /// @brief Method RemoveParameterBinder, addr 0x69e3fc0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RemoveParameterBinder, addr 0x69e1d5c, size 0x4, virtual false, abstract: false, final false
   inline void RemoveParameterBinder(::UnityEngine::VFX::Utility::VFXBinderBase* binder);
 
   /// @brief Method RemoveParameterBinders, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void RemoveParameterBinders();
 
-  /// @brief Method RemovePropertyBinder, addr 0x69e3f0c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method RemovePropertyBinder, addr 0x69e1ca8, size 0xb4, virtual false, abstract: false, final false
   inline void RemovePropertyBinder(::UnityEngine::VFX::Utility::VFXBinderBase* binder);
 
   /// @brief Method RemovePropertyBinders, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void RemovePropertyBinders();
 
-  /// @brief Method Reset, addr 0x69e3c4c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x69e19e8, size 0x18, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SafeDestroy, addr 0x69e3bf0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SafeDestroy, addr 0x69e198c, size 0x5c, virtual false, abstract: false, final false
   static inline void SafeDestroy(::UnityEngine::Object* toDelete);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::VFX::Utility::VFXBinderBase>>* const& __cordl_internal_get_m_Bindings() const;
@@ -295,7 +295,7 @@ public:
 
   constexpr void __cordl_internal_set_m_VisualEffect(::UnityW<::UnityEngine::VFX::VisualEffect> value);
 
-  /// @brief Method .ctor, addr 0x69e3fc4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e1d60, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -313,7 +313,7 @@ public:
   VFXPropertyBinder(VFXPropertyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19984 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19981 };
 
   /// @brief Field m_ExecuteInEditor, offset: 0x20, size: 0x1, def value: None
   bool ___m_ExecuteInEditor;

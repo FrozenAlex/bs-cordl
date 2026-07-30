@@ -181,19 +181,19 @@ public:
   /// @brief Field writeEndDocumentOnClose, offset 0x4d, size 0x1
   __declspec(property(get = __cordl_internal_get_writeEndDocumentOnClose, put = __cordl_internal_set_writeEndDocumentOnClose)) bool writeEndDocumentOnClose;
 
-  /// @brief Method CheckReadOnly, addr 0x62a5734, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CheckReadOnly, addr 0x62a34d0, size 0xac, virtual false, abstract: false, final false
   inline void CheckReadOnly(::StringW propertyName);
 
-  /// @brief Method Clone, addr 0x62a5a14, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x62a37b0, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlWriterSettings* Clone();
 
-  /// @brief Method CreateWriter, addr 0x62a4d28, size 0x4e8, virtual false, abstract: false, final false
+  /// @brief Method CreateWriter, addr 0x62a2ac4, size 0x4e8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlWriter* CreateWriter(::System::IO::Stream* output);
 
-  /// @brief Method CreateWriter, addr 0x62a5284, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method CreateWriter, addr 0x62a3020, size 0x348, virtual false, abstract: false, final false
   inline ::System::Xml::XmlWriter* CreateWriter(::System::IO::TextWriter* output);
 
-  /// @brief Method Initialize, addr 0x62a55cc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x62a3368, size 0xec, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::System::Xml::XmlWriterSettings* New_ctor();
@@ -336,97 +336,97 @@ public:
 
   constexpr void __cordl_internal_set_writeEndDocumentOnClose(bool value);
 
-  /// @brief Method .ctor, addr 0x62a4cb0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62a2a4c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Async, addr 0x62a56b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Async, addr 0x62a3454, size 0x8, virtual false, abstract: false, final false
   inline bool get_Async();
 
-  /// @brief Method get_AutoXmlDeclaration, addr 0x62a5b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AutoXmlDeclaration, addr 0x62a38b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_AutoXmlDeclaration();
 
-  /// @brief Method get_CDataSectionElements, addr 0x62a5adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CDataSectionElements, addr 0x62a3878, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>* get_CDataSectionElements();
 
-  /// @brief Method get_CheckCharacters, addr 0x62a593c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CheckCharacters, addr 0x62a36d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_CheckCharacters();
 
-  /// @brief Method get_CloseOutput, addr 0x62a587c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CloseOutput, addr 0x62a3618, size 0x8, virtual false, abstract: false, final false
   inline bool get_CloseOutput();
 
-  /// @brief Method get_ConformanceLevel, addr 0x62a5884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConformanceLevel, addr 0x62a3620, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::ConformanceLevel get_ConformanceLevel();
 
-  /// @brief Method get_DoNotEscapeUriAttributes, addr 0x62a5ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DoNotEscapeUriAttributes, addr 0x62a3880, size 0x8, virtual false, abstract: false, final false
   inline bool get_DoNotEscapeUriAttributes();
 
-  /// @brief Method get_DocTypePublic, addr 0x62a5b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DocTypePublic, addr 0x62a38a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DocTypePublic();
 
-  /// @brief Method get_DocTypeSystem, addr 0x62a5afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DocTypeSystem, addr 0x62a3898, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DocTypeSystem();
 
-  /// @brief Method get_Encoding, addr 0x62a56c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x62a345c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_Encoding();
 
-  /// @brief Method get_Indent, addr 0x62a57f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Indent, addr 0x62a358c, size 0x10, virtual false, abstract: false, final false
   inline bool get_Indent();
 
-  /// @brief Method get_IndentChars, addr 0x62a586c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IndentChars, addr 0x62a3608, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_IndentChars();
 
-  /// @brief Method get_IndentInternal, addr 0x62a5b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IndentInternal, addr 0x62a38b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::TriState get_IndentInternal();
 
-  /// @brief Method get_IsQuerySpecific, addr 0x62a5b24, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_IsQuerySpecific, addr 0x62a38c0, size 0x78, virtual false, abstract: false, final false
   inline bool get_IsQuerySpecific();
 
-  /// @brief Method get_MediaType, addr 0x62a5af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MediaType, addr 0x62a3890, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MediaType();
 
-  /// @brief Method get_MergeCDataSections, addr 0x62a5aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MergeCDataSections, addr 0x62a3888, size 0x8, virtual false, abstract: false, final false
   inline bool get_MergeCDataSections();
 
-  /// @brief Method get_NamespaceHandling, addr 0x62a5944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NamespaceHandling, addr 0x62a36e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::NamespaceHandling get_NamespaceHandling();
 
-  /// @brief Method get_NewLineChars, addr 0x62a57e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewLineChars, addr 0x62a3584, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_NewLineChars();
 
-  /// @brief Method get_NewLineHandling, addr 0x62a57e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewLineHandling, addr 0x62a357c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::NewLineHandling get_NewLineHandling();
 
-  /// @brief Method get_NewLineOnAttributes, addr 0x62a5874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewLineOnAttributes, addr 0x62a3610, size 0x8, virtual false, abstract: false, final false
   inline bool get_NewLineOnAttributes();
 
-  /// @brief Method get_OmitXmlDeclaration, addr 0x62a56c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OmitXmlDeclaration, addr 0x62a3464, size 0x8, virtual false, abstract: false, final false
   inline bool get_OmitXmlDeclaration();
 
-  /// @brief Method get_OutputMethod, addr 0x62a5a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OutputMethod, addr 0x62a37a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlOutputMethod get_OutputMethod();
 
-  /// @brief Method get_Standalone, addr 0x62a5b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Standalone, addr 0x62a38a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlStandalone get_Standalone();
 
-  /// @brief Method get_WriteEndDocumentOnClose, addr 0x62a59fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WriteEndDocumentOnClose, addr 0x62a3798, size 0x8, virtual false, abstract: false, final false
   inline bool get_WriteEndDocumentOnClose();
 
-  /// @brief Method set_ConformanceLevel, addr 0x62a588c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_ConformanceLevel, addr 0x62a3628, size 0xb0, virtual false, abstract: false, final false
   inline void set_ConformanceLevel(::System::Xml::ConformanceLevel value);
 
-  /// @brief Method set_Indent, addr 0x62a5800, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_Indent, addr 0x62a359c, size 0x6c, virtual false, abstract: false, final false
   inline void set_Indent(bool value);
 
-  /// @brief Method set_NamespaceHandling, addr 0x62a594c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_NamespaceHandling, addr 0x62a36e8, size 0xb0, virtual false, abstract: false, final false
   inline void set_NamespaceHandling(::System::Xml::NamespaceHandling value);
 
-  /// @brief Method set_OmitXmlDeclaration, addr 0x62a56d0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_OmitXmlDeclaration, addr 0x62a346c, size 0x64, virtual false, abstract: false, final false
   inline void set_OmitXmlDeclaration(bool value);
 
-  /// @brief Method set_OutputMethod, addr 0x62a5a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_OutputMethod, addr 0x62a37a8, size 0x8, virtual false, abstract: false, final false
   inline void set_OutputMethod(::System::Xml::XmlOutputMethod value);
 
-  /// @brief Method set_ReadOnly, addr 0x62a5b9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReadOnly, addr 0x62a3938, size 0x8, virtual false, abstract: false, final false
   inline void set_ReadOnly(bool value);
 
 protected:

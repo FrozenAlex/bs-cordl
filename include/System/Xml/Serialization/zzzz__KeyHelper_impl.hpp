@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, int32_t, ::StringW)>(&::System::Xml::Serialization::KeyHelper::AddField)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62e6294;
+  constexpr static std::size_t addrs = 0x62e4030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, int32_t, ::StringW, ::StringW)>(&::System::Xml::Serialization::KeyHelper::AddField)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x62e629c;
+  constexpr static std::size_t addrs = 0x62e4038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, int32_t, bool)>(&::System::Xml::Serialization::KeyHelper::AddField)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62e6390;
+  constexpr static std::size_t addrs = 0x62e412c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, int32_t, bool, bool)>(&::System::Xml::Serialization::KeyHelper::AddField)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x62e6398;
+  constexpr static std::size_t addrs = 0x62e4134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, int32_t, int32_t, int32_t)>(&::System::Xml::Serialization::KeyHelper::AddField)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x62e63f0;
+  constexpr static std::size_t addrs = 0x62e418c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, int32_t, ::System::Type*)>(&::System::Xml::Serialization::KeyHelper::AddField)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x62e64c4;
+  constexpr static std::size_t addrs = 0x62e4260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

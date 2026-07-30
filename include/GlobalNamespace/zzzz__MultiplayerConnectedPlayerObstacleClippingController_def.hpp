@@ -38,7 +38,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController* New_ctor();
 
-  /// @brief Method SetClippingParams, addr 0x59b773c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method SetClippingParams, addr 0x59b5d9c, size 0x150, virtual false, abstract: false, final false
   inline void SetClippingParams(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 normal);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>> const& __cordl_internal_get__materialPropertyBlockControllers() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__materialPropertyBlockControllers(::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>> value);
 
-  /// @brief Method .ctor, addr 0x59b788c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59b5eec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__clippingPlaneNormalID();

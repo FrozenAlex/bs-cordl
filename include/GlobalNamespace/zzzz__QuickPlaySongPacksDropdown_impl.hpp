@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySongPacksDropdown_SongPackMaskItem::*)()>(
     &::GlobalNamespace::QuickPlaySongPacksDropdown_SongPackMaskItem::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x594231c;
+  constexpr static std::size_t addrs = 0x5940b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuickPlaySongPacksDropdown_SongPackMaskItem*>(), { ".ctor", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySongPacksDropdown___c::*)()>(&::GlobalNamespace::QuickPlaySongPacksDropdown___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x594242c;
+  constexpr static std::size_t addrs = 0x5940c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuickPlaySongPacksDropdown___c*>(), { ".ctor", {}, {} })));
@@ -101,7 +101,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::QuickP
     ::GlobalNamespace::QuickPlaySongPacksDropdown___c::*)(::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack*)>(
     &::GlobalNamespace::QuickPlaySongPacksDropdown___c::_LazyInit_b__15_2)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x5942430;
+  constexpr static std::size_t addrs = 0x5940c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::QuickPlaySongPacksDropdown___c::*)(
     ::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName*)>(&::GlobalNamespace::QuickPlaySongPacksDropdown___c::_LazyInit_b__15_4)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x59425e8;
+  constexpr static std::size_t addrs = 0x5940dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::QuickPlaySongPacksDropdown___c::*)(::GlobalNamespace::QuickPlaySongPacksDropdown_SongPackMaskItem*)>(
     &::GlobalNamespace::QuickPlaySongPacksDropdown___c::_LazyInit_b__15_3)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x594262c;
+  constexpr static std::size_t addrs = 0x5940e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySongPacksDropdown___c__DisplayClass13_0::*)()>(
     &::GlobalNamespace::QuickPlaySongPacksDropdown___c__DisplayClass13_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5942244;
+  constexpr static std::size_t addrs = 0x5940a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::QuickPlaySongPacksDropdown___c__DisplayClass13_0::*)(::GlobalNamespace::QuickPlaySongPacksDropdown_SongPackMaskItem*)>(
     &::GlobalNamespace::QuickPlaySongPacksDropdown___c__DisplayClass13_0::_SelectCellWithSerializedName_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5942640;
+  constexpr static std::size_t addrs = 0x5940e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySongPacksDropdown::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::QuickPlaySongPacksDropdown::add_didSelectCellWithIdxEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x594192c;
+  constexpr static std::size_t addrs = 0x5940114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuickPlaySongPacksDropdown*>(),
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySongPacksDropdown::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::QuickPlaySongPacksDropdown::remove_didSelectCellWithIdxEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59419ec;
+  constexpr static std::size_t addrs = 0x59401d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuickPlaySongPacksDropdown*>(),
@@ -296,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySongPacksDropdown::*)()>(&::GlobalNamespace::QuickPlaySongPacksDropdown::Start)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5941aac;
+  constexpr static std::size_t addrs = 0x5940294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuickPlaySongPacksDropdown*>(), { "Start", {}, {} })));
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySongPacksDropdown::*)()>(&::GlobalNamespace::QuickPlaySongPacksDropdown::OnDestroy)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5941b3c;
+  constexpr static std::size_t addrs = 0x5940324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuickPlaySongPacksDropdown*>(), { "OnDestroy", {}, {} })));
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySongPacksDropdown::*)(::GlobalNamespace::QuickPlaySetupData_QuickPlaySongPacksOverride*)>(
     &::GlobalNamespace::QuickPlaySongPacksDropdown::SetOverrideSongPacks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5941c18;
+  constexpr static std::size_t addrs = 0x5940400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::QuickPlaySongPacksDropdown::*)()>(&::GlobalNamespace::QuickPlaySongPacksDropdown::GetSelectedSerializedName)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5941c20;
+  constexpr static std::size_t addrs = 0x5940408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySongPacksDropdown::*)(::StringW)>(
     &::GlobalNamespace::QuickPlaySongPacksDropdown::SelectCellWithSerializedName)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x59420d0;
+  constexpr static std::size_t addrs = 0x59408b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySongPacksDropdown::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::GlobalNamespace::QuickPlaySongPacksDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5942248;
+  constexpr static std::size_t addrs = 0x5940a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -377,7 +377,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySongPacksDropdown::*)()>(&::GlobalNamespace::QuickPlaySongPacksDropdown::LazyInit)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x5941c94;
+  constexpr static std::size_t addrs = 0x594047c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuickPlaySongPacksDropdown*>(), { "LazyInit", {}, {} })));
@@ -389,7 +389,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySongPacksDropdown::*)()>(&::GlobalNamespace::QuickPlaySongPacksDropdown::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x594226c;
+  constexpr static std::size_t addrs = 0x5940a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuickPlaySongPacksDropdown*>(), { ".ctor", {}, {} })));
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::QuickPlaySongPacksDropdown_SongPackMaskItem* (::GlobalNamespace::QuickPlaySongPacksDropdown::*)(::StringW)>(
     &::GlobalNamespace::QuickPlaySongPacksDropdown::_LazyInit_b__15_0)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5942270;
+  constexpr static std::size_t addrs = 0x5940a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -417,7 +417,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::QuickP
     ::GlobalNamespace::QuickPlaySongPacksDropdown::*)(::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack*)>(
     &::GlobalNamespace::QuickPlaySongPacksDropdown::_LazyInit_b__15_1)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5942320;
+  constexpr static std::size_t addrs = 0x5940b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

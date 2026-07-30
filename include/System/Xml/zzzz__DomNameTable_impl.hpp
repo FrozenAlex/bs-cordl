@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DomNameTable::*)(::System::Xml::XmlDocument*)>(&::System::Xml::DomNameTable::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x62aff54;
+  constexpr static std::size_t addrs = 0x62adcf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlName* (::System::Xml::DomNameTable::*)(::StringW, ::StringW, ::StringW, ::System::Xml::Schema::IXmlSchemaInfo*)>(
     &::System::Xml::DomNameTable::GetName)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x62affd8;
+  constexpr static std::size_t addrs = 0x62add74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlName* (::System::Xml::DomNameTable::*)(::StringW, ::StringW, ::StringW, ::System::Xml::Schema::IXmlSchemaInfo*)>(
     &::System::Xml::DomNameTable::AddName)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x62b017c;
+  constexpr static std::size_t addrs = 0x62adf18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::DomNameTable::*)()>(&::System::Xml::DomNameTable::Grow)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x62b04a0;
+  constexpr static std::size_t addrs = 0x62ae23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::DomNameTable*>(), { "Grow", {}, {} })));

@@ -21,15 +21,15 @@ namespace Meta::XR {
 class CORDL_TYPE MetaXRSubsampledLayout : public ::UnityEngine::XR::OpenXR::Features::OpenXRFeature {
 public:
   // Declarations
-  /// @brief Method MetaSetSubsampledLayout, addr 0x5e4e644, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method MetaSetSubsampledLayout, addr 0x5e4c3b0, size 0x7c, virtual false, abstract: false, final false
   static inline void MetaSetSubsampledLayout(bool enabled);
 
   static inline ::Meta::XR::MetaXRSubsampledLayout* New_ctor();
 
-  /// @brief Method OnInstanceCreate, addr 0x5e4e624, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceCreate, addr 0x5e4c390, size 0x20, virtual true, abstract: false, final false
   inline bool OnInstanceCreate(uint64_t xrInstance);
 
-  /// @brief Method .ctor, addr 0x5e4e6c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4c42c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BaseTransitionSO> (::GlobalNamespace::ScaleRectTransformViewStateTransition::*)()>(
     &::GlobalNamespace::ScaleRectTransformViewStateTransition::get_transition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x643fc2c;
+  constexpr static std::size_t addrs = 0x643d9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleRectTransformViewStateTransition*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleRectTransformViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ScaleRectTransformViewStateTransition::TransitionToNormalState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x643fc34;
+  constexpr static std::size_t addrs = 0x643d9d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleRectTransformViewStateTransition*>(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleRectTransformViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ScaleRectTransformViewStateTransition::TransitionToHighlightedState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x643fe9c;
+  constexpr static std::size_t addrs = 0x643dc38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleRectTransformViewStateTransition*>(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleRectTransformViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ScaleRectTransformViewStateTransition::TransitionToPressedState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x643feb8;
+  constexpr static std::size_t addrs = 0x643dc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleRectTransformViewStateTransition*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleRectTransformViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ScaleRectTransformViewStateTransition::TransitionToDisabledState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x643fed4;
+  constexpr static std::size_t addrs = 0x643dc70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleRectTransformViewStateTransition*>(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleRectTransformViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ScaleRectTransformViewStateTransition::TransitionToSelectedState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x643fef0;
+  constexpr static std::size_t addrs = 0x643dc8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleRectTransformViewStateTransition*>(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleRectTransformViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ScaleRectTransformViewStateTransition::TransitionToSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x643ff0c;
+  constexpr static std::size_t addrs = 0x643dca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleRectTransformViewStateTransition*>(),
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleRectTransformViewStateTransition::*)()>(
     &::GlobalNamespace::ScaleRectTransformViewStateTransition::StopCurrentTransitionAnimation)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x643ff28;
+  constexpr static std::size_t addrs = 0x643dcc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleRectTransformViewStateTransition*>(),
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleRectTransformViewStateTransition::*)()>(
     &::GlobalNamespace::ScaleRectTransformViewStateTransition::SetNormalState)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x643ffc0;
+  constexpr static std::size_t addrs = 0x643dd5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleRectTransformViewStateTransition*>(),
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleRectTransformViewStateTransition::*)()>(
     &::GlobalNamespace::ScaleRectTransformViewStateTransition::SetHighlightedState)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x643ffec;
+  constexpr static std::size_t addrs = 0x643dd88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleRectTransformViewStateTransition*>(),
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleRectTransformViewStateTransition::*)()>(
     &::GlobalNamespace::ScaleRectTransformViewStateTransition::SetPressedState)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6440018;
+  constexpr static std::size_t addrs = 0x643ddb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleRectTransformViewStateTransition*>(),
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleRectTransformViewStateTransition::*)()>(
     &::GlobalNamespace::ScaleRectTransformViewStateTransition::SetDisabledState)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6440044;
+  constexpr static std::size_t addrs = 0x643dde0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleRectTransformViewStateTransition*>(),
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleRectTransformViewStateTransition::*)()>(
     &::GlobalNamespace::ScaleRectTransformViewStateTransition::SetSelectedState)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6440070;
+  constexpr static std::size_t addrs = 0x643de0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleRectTransformViewStateTransition*>(),
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleRectTransformViewStateTransition::*)()>(
     &::GlobalNamespace::ScaleRectTransformViewStateTransition::SetSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x644009c;
+  constexpr static std::size_t addrs = 0x643de38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleRectTransformViewStateTransition*>(),
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleRectTransformViewStateTransition::*)(::UnityEngine::Vector3, ::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ScaleRectTransformViewStateTransition::StartTween)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x643fc50;
+  constexpr static std::size_t addrs = 0x643d9ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleRectTransformViewStateTransition::*)()>(&::GlobalNamespace::ScaleRectTransformViewStateTransition::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64400c8;
+  constexpr static std::size_t addrs = 0x643de64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScaleRectTransformViewStateTransition*>(), { ".ctor", {}, {} })));
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleRectTransformViewStateTransition::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::ScaleRectTransformViewStateTransition::_StartTween_b__17_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x644010c;
+  constexpr static std::size_t addrs = 0x643dea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScaleRectTransformViewStateTransition::*)()>(
     &::GlobalNamespace::ScaleRectTransformViewStateTransition::_StartTween_b__17_1)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6440124;
+  constexpr static std::size_t addrs = 0x643dec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

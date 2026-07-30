@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::Newtonsoft::Json::Utilities::StringUtils::IsNullOrEmpty)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d31840;
+  constexpr static std::size_t addrs = 0x5d2f5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::System::IFormatProvider*, ::System::Object*)>(&::Newtonsoft::Json::Utilities::StringUtils::FormatWith)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d3185c;
+  constexpr static std::size_t addrs = 0x5d2f5c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::System::IFormatProvider*, ::System::Object*, ::System::Object*)>(
     &::Newtonsoft::Json::Utilities::StringUtils::FormatWith)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5d31978;
+  constexpr static std::size_t addrs = 0x5d2f6e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::System::IFormatProvider*, ::System::Object*, ::System::Object*, ::System::Object*)>(
     &::Newtonsoft::Json::Utilities::StringUtils::FormatWith)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5d31a58;
+  constexpr static std::size_t addrs = 0x5d2f7c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::System::IFormatProvider*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*)>(
     &::Newtonsoft::Json::Utilities::StringUtils::FormatWith)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5d31b64;
+  constexpr static std::size_t addrs = 0x5d2f8d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::System::IFormatProvider*, ::ArrayW<::System::Object*>)>(&::Newtonsoft::Json::Utilities::StringUtils::FormatWith)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5d31908;
+  constexpr static std::size_t addrs = 0x5d2f674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::Newtonsoft::Json::Utilities::StringUtils::IsWhiteSpace)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5d31cf0;
+  constexpr static std::size_t addrs = 0x5d2fa5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::StringWriter* (*)(int32_t)>(&::Newtonsoft::Json::Utilities::StringUtils::CreateStringWriter)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5d31dd0;
+  constexpr static std::size_t addrs = 0x5d2fb3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(char16_t, ::ArrayW<char16_t>)>(&::Newtonsoft::Json::Utilities::StringUtils::ToCharAsUnicode)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5d31e9c;
+  constexpr static std::size_t addrs = 0x5d2fc08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::StringUtils*>(),
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::Newtonsoft::Json::Utilities::StringUtils::ToCamelCase)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x5d31f54;
+  constexpr static std::size_t addrs = 0x5d2fcc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(char16_t)>(&::Newtonsoft::Json::Utilities::StringUtils::ToLower)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5d32104;
+  constexpr static std::size_t addrs = 0x5d2fe70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::Newtonsoft::Json::Utilities::StringUtils::ToSnakeCase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d32188;
+  constexpr static std::size_t addrs = 0x5d2fef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::Newtonsoft::Json::Utilities::StringUtils::ToKebabCase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d3242c;
+  constexpr static std::size_t addrs = 0x5d30198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, char16_t)>(&::Newtonsoft::Json::Utilities::StringUtils::ToSeparatedCase)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x5d32190;
+  constexpr static std::size_t addrs = 0x5d2fefc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::Newtonsoft::Json::Utilities::StringUtils::IsHighSurrogate)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5d32434;
+  constexpr static std::size_t addrs = 0x5d301a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::Newtonsoft::Json::Utilities::StringUtils::IsLowSurrogate)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5d32468;
+  constexpr static std::size_t addrs = 0x5d301d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, char16_t)>(&::Newtonsoft::Json::Utilities::StringUtils::IndexOf)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d3249c;
+  constexpr static std::size_t addrs = 0x5d30208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW)>(&::Newtonsoft::Json::Utilities::StringUtils::Replace)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5d324b8;
+  constexpr static std::size_t addrs = 0x5d30224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -320,7 +320,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, char16_t)>(&::Newtonsoft::Json::Utilities::StringUtils::StartsWith)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5d324cc;
+  constexpr static std::size_t addrs = 0x5d30238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -333,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, char16_t)>(&::Newtonsoft::Json::Utilities::StringUtils::EndsWith)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5d324fc;
+  constexpr static std::size_t addrs = 0x5d30268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, int32_t, int32_t)>(&::Newtonsoft::Json::Utilities::StringUtils::Trim)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5d32530;
+  constexpr static std::size_t addrs = 0x5d3029c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::StringUtils*>(),

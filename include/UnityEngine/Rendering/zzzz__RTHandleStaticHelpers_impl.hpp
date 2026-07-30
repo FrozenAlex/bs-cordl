@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RenderTargetIdentifier)>(&::UnityEngine::Rendering::RTHandleStaticHelpers::SetRTHandleStaticWrapper)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x67a567c;
+  constexpr static std::size_t addrs = 0x67a3418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::RTHandle*>, ::UnityEngine::Rendering::RenderTargetIdentifier)>(
     &::UnityEngine::Rendering::RTHandleStaticHelpers::SetRTHandleUserManagedWrapper)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x67a57ec;
+  constexpr static std::size_t addrs = 0x67a3588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

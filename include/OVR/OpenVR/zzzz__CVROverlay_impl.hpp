@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVROverlay__PollNextOverlayEventPacked::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::CVROverlay__PollNextOverlayEventPacked::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e441d0;
+  constexpr static std::size_t addrs = 0x5e41f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVROverlay__PollNextOverlayEventPacked*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVROverlay__PollNextOverlayEventPacked::*)(uint64_t, ::by_ref<::OVR::OpenVR::VREvent_t_Packed>, uint32_t)>(
     &::OVR::OpenVR::CVROverlay__PollNextOverlayEventPacked::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e4423c;
+  constexpr static std::size_t addrs = 0x5e41fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVROverlay__PollNextOverlayEventPacked*>(),
@@ -67,7 +67,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                                                                           ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::CVROverlay__PollNextOverlayEventPacked::BeginInvoke)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5e44250;
+  constexpr static std::size_t addrs = 0x5e41fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVROverlay__PollNextOverlayEventPacked*>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVROverlay__PollNextOverlayEventPacked::*)(::by_ref<::OVR::OpenVR::VREvent_t_Packed>, ::System::IAsyncResult*)>(
     &::OVR::OpenVR::CVROverlay__PollNextOverlayEventPacked::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e44314;
+  constexpr static std::size_t addrs = 0x5e42080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVROverlay__PollNextOverlayEventPacked*>(),
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVROverlay::*)(::System::IntPtr)>(&::OVR::OpenVR::CVROverlay::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5e43428;
+  constexpr static std::size_t addrs = 0x5e41194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVROverlay*>(), { ".ctor", {}, { ::i2c::type_of<::System::IntPtr>() } })));
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(::StringW, ::by_ref<uint64_t>)>(&::OVR::OpenVR::CVROverlay::FindOverlay)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e43528;
+  constexpr static std::size_t addrs = 0x5e41294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(::StringW, ::StringW, ::by_ref<uint64_t>)>(
     &::OVR::OpenVR::CVROverlay::CreateOverlay)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e4354c;
+  constexpr static std::size_t addrs = 0x5e412b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t)>(&::OVR::OpenVR::CVROverlay::DestroyOverlay)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43570;
+  constexpr static std::size_t addrs = 0x5e412dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVROverlay*>(), { "DestroyOverlay", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t)>(&::OVR::OpenVR::CVROverlay::SetHighQualityOverlay)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43590;
+  constexpr static std::size_t addrs = 0x5e412fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::OVR::OpenVR::CVROverlay::*)()>(&::OVR::OpenVR::CVROverlay::GetHighQualityOverlay)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e435b0;
+  constexpr static std::size_t addrs = 0x5e4131c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVROverlay*>(), { "GetHighQualityOverlay", {}, {} })));
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::System::Text::StringBuilder*, uint32_t, ::by_ref<::OVR::OpenVR::EVROverlayError>)>(
     &::OVR::OpenVR::CVROverlay::GetOverlayKey)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e435d0;
+  constexpr static std::size_t addrs = 0x5e4133c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::System::Text::StringBuilder*, uint32_t, ::by_ref<::OVR::OpenVR::EVROverlayError>)>(
     &::OVR::OpenVR::CVROverlay::GetOverlayName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e435f0;
+  constexpr static std::size_t addrs = 0x5e4135c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::StringW)>(&::OVR::OpenVR::CVROverlay::SetOverlayName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43610;
+  constexpr static std::size_t addrs = 0x5e4137c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::System::IntPtr, uint32_t, ::by_ref<uint32_t>, ::by_ref<uint32_t>)>(
     &::OVR::OpenVR::CVROverlay::GetOverlayImageData)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5e43630;
+  constexpr static std::size_t addrs = 0x5e4139c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OVR::OpenVR::CVROverlay::*)(::OVR::OpenVR::EVROverlayError)>(&::OVR::OpenVR::CVROverlay::GetOverlayErrorNameFromEnum)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5e43658;
+  constexpr static std::size_t addrs = 0x5e413c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, uint32_t)>(&::OVR::OpenVR::CVROverlay::SetOverlayRenderingPid)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e436e4;
+  constexpr static std::size_t addrs = 0x5e41450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::CVROverlay::*)(uint64_t)>(&::OVR::OpenVR::CVROverlay::GetOverlayRenderingPid)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43704;
+  constexpr static std::size_t addrs = 0x5e41470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::OVR::OpenVR::VROverlayFlags, bool)>(
     &::OVR::OpenVR::CVROverlay::SetOverlayFlag)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e43724;
+  constexpr static std::size_t addrs = 0x5e41490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -343,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::OVR::OpenVR::VROverlayFlags, ::by_ref<bool>)>(
     &::OVR::OpenVR::CVROverlay::GetOverlayFlag)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e43748;
+  constexpr static std::size_t addrs = 0x5e414b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, float_t, float_t, float_t)>(
     &::OVR::OpenVR::CVROverlay::SetOverlayColor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e4376c;
+  constexpr static std::size_t addrs = 0x5e414d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<float_t>, ::by_ref<float_t>, ::by_ref<float_t>)>(
     &::OVR::OpenVR::CVROverlay::GetOverlayColor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5e4378c;
+  constexpr static std::size_t addrs = 0x5e414f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -388,7 +388,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, float_t)>(&::OVR::OpenVR::CVROverlay::SetOverlayAlpha)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e437b8;
+  constexpr static std::size_t addrs = 0x5e41524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -401,7 +401,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<float_t>)>(&::OVR::OpenVR::CVROverlay::GetOverlayAlpha)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e437d8;
+  constexpr static std::size_t addrs = 0x5e41544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -414,7 +414,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, float_t)>(&::OVR::OpenVR::CVROverlay::SetOverlayTexelAspect)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e437fc;
+  constexpr static std::size_t addrs = 0x5e41568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -427,7 +427,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<float_t>)>(&::OVR::OpenVR::CVROverlay::GetOverlayTexelAspect)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e4381c;
+  constexpr static std::size_t addrs = 0x5e41588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -440,7 +440,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, uint32_t)>(&::OVR::OpenVR::CVROverlay::SetOverlaySortOrder)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43840;
+  constexpr static std::size_t addrs = 0x5e415ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -453,7 +453,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<uint32_t>)>(&::OVR::OpenVR::CVROverlay::GetOverlaySortOrder)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e43860;
+  constexpr static std::size_t addrs = 0x5e415cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -466,7 +466,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, float_t)>(&::OVR::OpenVR::CVROverlay::SetOverlayWidthInMeters)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43884;
+  constexpr static std::size_t addrs = 0x5e415f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -480,7 +480,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<float_t>)>(
     &::OVR::OpenVR::CVROverlay::GetOverlayWidthInMeters)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e438a4;
+  constexpr static std::size_t addrs = 0x5e41610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, float_t, float_t)>(
     &::OVR::OpenVR::CVROverlay::SetOverlayAutoCurveDistanceRangeInMeters)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e438c8;
+  constexpr static std::size_t addrs = 0x5e41634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -510,7 +510,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<float_t>, ::by_ref<float_t>)>(
     &::OVR::OpenVR::CVROverlay::GetOverlayAutoCurveDistanceRangeInMeters)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5e438e8;
+  constexpr static std::size_t addrs = 0x5e41654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -526,7 +526,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::OVR::OpenVR::EColorSpace)>(
     &::OVR::OpenVR::CVROverlay::SetOverlayTextureColorSpace)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43910;
+  constexpr static std::size_t addrs = 0x5e4167c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -541,7 +541,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<::OVR::OpenVR::EColorSpace>)>(
     &::OVR::OpenVR::CVROverlay::GetOverlayTextureColorSpace)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43930;
+  constexpr static std::size_t addrs = 0x5e4169c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -556,7 +556,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<::OVR::OpenVR::VRTextureBounds_t>)>(
     &::OVR::OpenVR::CVROverlay::SetOverlayTextureBounds)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43950;
+  constexpr static std::size_t addrs = 0x5e416bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -571,7 +571,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<::OVR::OpenVR::VRTextureBounds_t>)>(
     &::OVR::OpenVR::CVROverlay::GetOverlayTextureBounds)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43970;
+  constexpr static std::size_t addrs = 0x5e416dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -586,7 +586,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::System::Text::StringBuilder*, uint32_t, ::by_ref<::OVR::OpenVR::HmdColor_t>,
                                                                                                ::by_ref<::OVR::OpenVR::EVROverlayError>)>(&::OVR::OpenVR::CVROverlay::GetOverlayRenderModel)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43990;
+  constexpr static std::size_t addrs = 0x5e416fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -604,7 +604,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::StringW, ::by_ref<::OVR::OpenVR::HmdColor_t>)>(
     &::OVR::OpenVR::CVROverlay::SetOverlayRenderModel)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e439b0;
+  constexpr static std::size_t addrs = 0x5e4171c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -619,7 +619,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<::OVR::OpenVR::VROverlayTransformType>)>(
     &::OVR::OpenVR::CVROverlay::GetOverlayTransformType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e439d0;
+  constexpr static std::size_t addrs = 0x5e4173c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -634,7 +634,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(
     uint64_t, ::OVR::OpenVR::ETrackingUniverseOrigin, ::by_ref<::OVR::OpenVR::HmdMatrix34_t>)>(&::OVR::OpenVR::CVROverlay::SetOverlayTransformAbsolute)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e439f0;
+  constexpr static std::size_t addrs = 0x5e4175c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -651,7 +651,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(
     uint64_t, ::by_ref<::OVR::OpenVR::ETrackingUniverseOrigin>, ::by_ref<::OVR::OpenVR::HmdMatrix34_t>)>(&::OVR::OpenVR::CVROverlay::GetOverlayTransformAbsolute)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43a10;
+  constexpr static std::size_t addrs = 0x5e4177c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -668,7 +668,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, uint32_t, ::by_ref<::OVR::OpenVR::HmdMatrix34_t>)>(
     &::OVR::OpenVR::CVROverlay::SetOverlayTransformTrackedDeviceRelative)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43a30;
+  constexpr static std::size_t addrs = 0x5e4179c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -684,7 +684,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<uint32_t>, ::by_ref<::OVR::OpenVR::HmdMatrix34_t>)>(
     &::OVR::OpenVR::CVROverlay::GetOverlayTransformTrackedDeviceRelative)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e43a50;
+  constexpr static std::size_t addrs = 0x5e417bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -701,7 +701,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, uint32_t, ::StringW)>(
     &::OVR::OpenVR::CVROverlay::SetOverlayTransformTrackedDeviceComponent)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43a74;
+  constexpr static std::size_t addrs = 0x5e417e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -716,7 +716,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<uint32_t>, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::CVROverlay::GetOverlayTransformTrackedDeviceComponent)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e43a94;
+  constexpr static std::size_t addrs = 0x5e41800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -733,7 +733,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<uint64_t>, ::by_ref<::OVR::OpenVR::HmdMatrix34_t>)>(
     &::OVR::OpenVR::CVROverlay::GetOverlayTransformOverlayRelative)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e43ab8;
+  constexpr static std::size_t addrs = 0x5e41824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -750,7 +750,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, uint64_t, ::by_ref<::OVR::OpenVR::HmdMatrix34_t>)>(
     &::OVR::OpenVR::CVROverlay::SetOverlayTransformOverlayRelative)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43adc;
+  constexpr static std::size_t addrs = 0x5e41848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -765,7 +765,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t)>(&::OVR::OpenVR::CVROverlay::ShowOverlay)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43afc;
+  constexpr static std::size_t addrs = 0x5e41868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVROverlay*>(), { "ShowOverlay", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -777,7 +777,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t)>(&::OVR::OpenVR::CVROverlay::HideOverlay)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43b1c;
+  constexpr static std::size_t addrs = 0x5e41888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVROverlay*>(), { "HideOverlay", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -789,7 +789,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVROverlay::*)(uint64_t)>(&::OVR::OpenVR::CVROverlay::IsOverlayVisible)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43b3c;
+  constexpr static std::size_t addrs = 0x5e418a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVROverlay*>(), { "IsOverlayVisible", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -802,7 +802,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(
     uint64_t, ::OVR::OpenVR::ETrackingUniverseOrigin, ::OVR::OpenVR::HmdVector2_t, ::by_ref<::OVR::OpenVR::HmdMatrix34_t>)>(&::OVR::OpenVR::CVROverlay::GetTransformForOverlayCoordinates)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43b5c;
+  constexpr static std::size_t addrs = 0x5e418c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -819,7 +819,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<::OVR::OpenVR::VREvent_t>, uint32_t)>(&::OVR::OpenVR::CVROverlay::PollNextOverlayEvent)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x5e43b7c;
+  constexpr static std::size_t addrs = 0x5e418e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -834,7 +834,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<::OVR::OpenVR::VROverlayInputMethod>)>(
     &::OVR::OpenVR::CVROverlay::GetOverlayInputMethod)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43cfc;
+  constexpr static std::size_t addrs = 0x5e41a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -849,7 +849,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::OVR::OpenVR::VROverlayInputMethod)>(
     &::OVR::OpenVR::CVROverlay::SetOverlayInputMethod)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43d1c;
+  constexpr static std::size_t addrs = 0x5e41a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -864,7 +864,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<::OVR::OpenVR::HmdVector2_t>)>(
     &::OVR::OpenVR::CVROverlay::GetOverlayMouseScale)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43d3c;
+  constexpr static std::size_t addrs = 0x5e41aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -879,7 +879,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<::OVR::OpenVR::HmdVector2_t>)>(
     &::OVR::OpenVR::CVROverlay::SetOverlayMouseScale)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43d5c;
+  constexpr static std::size_t addrs = 0x5e41ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -894,7 +894,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVROverlay::*)(
     uint64_t, ::by_ref<::OVR::OpenVR::VROverlayIntersectionParams_t>, ::by_ref<::OVR::OpenVR::VROverlayIntersectionResults_t>)>(&::OVR::OpenVR::CVROverlay::ComputeOverlayIntersection)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43d7c;
+  constexpr static std::size_t addrs = 0x5e41ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -910,7 +910,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVROverlay::*)(uint64_t)>(&::OVR::OpenVR::CVROverlay::IsHoverTargetOverlay)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43d9c;
+  constexpr static std::size_t addrs = 0x5e41b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -923,7 +923,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::OVR::OpenVR::CVROverlay::*)()>(&::OVR::OpenVR::CVROverlay::GetGamepadFocusOverlay)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43dbc;
+  constexpr static std::size_t addrs = 0x5e41b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVROverlay*>(), { "GetGamepadFocusOverlay", {}, {} })));
@@ -935,7 +935,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t)>(&::OVR::OpenVR::CVROverlay::SetGamepadFocusOverlay)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43ddc;
+  constexpr static std::size_t addrs = 0x5e41b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -949,7 +949,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(::OVR::OpenVR::EOverlayDirection, uint64_t, uint64_t)>(
     &::OVR::OpenVR::CVROverlay::SetOverlayNeighbor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43dfc;
+  constexpr static std::size_t addrs = 0x5e41b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -964,7 +964,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(::OVR::OpenVR::EOverlayDirection, uint64_t)>(
     &::OVR::OpenVR::CVROverlay::MoveGamepadFocusToNeighbor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43e1c;
+  constexpr static std::size_t addrs = 0x5e41b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -979,7 +979,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::OVR::OpenVR::EDualAnalogWhich, ::System::IntPtr, float_t)>(
     &::OVR::OpenVR::CVROverlay::SetOverlayDualAnalogTransform)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43e3c;
+  constexpr static std::size_t addrs = 0x5e41ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -996,7 +996,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::OVR::OpenVR::EDualAnalogWhich, ::by_ref<::OVR::OpenVR::HmdVector2_t>,
                                                                                                                      ::by_ref<float_t>)>(&::OVR::OpenVR::CVROverlay::GetOverlayDualAnalogTransform)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e43e5c;
+  constexpr static std::size_t addrs = 0x5e41bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1013,7 +1013,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<::OVR::OpenVR::Texture_t>)>(
     &::OVR::OpenVR::CVROverlay::SetOverlayTexture)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43e80;
+  constexpr static std::size_t addrs = 0x5e41bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1027,7 +1027,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t)>(&::OVR::OpenVR::CVROverlay::ClearOverlayTexture)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43ea0;
+  constexpr static std::size_t addrs = 0x5e41c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1041,7 +1041,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::System::IntPtr, uint32_t, uint32_t, uint32_t)>(
     &::OVR::OpenVR::CVROverlay::SetOverlayRaw)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43ec0;
+  constexpr static std::size_t addrs = 0x5e41c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1057,7 +1057,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::StringW)>(&::OVR::OpenVR::CVROverlay::SetOverlayFromFile)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43ee0;
+  constexpr static std::size_t addrs = 0x5e41c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1072,7 +1072,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlay
     uint64_t, ::by_ref<::System::IntPtr>, ::System::IntPtr, ::by_ref<uint32_t>, ::by_ref<uint32_t>, ::by_ref<uint32_t>, ::by_ref<::OVR::OpenVR::ETextureType>, ::by_ref<::OVR::OpenVR::EColorSpace>,
     ::by_ref<::OVR::OpenVR::VRTextureBounds_t>)>(&::OVR::OpenVR::CVROverlay::GetOverlayTexture)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5e43f00;
+  constexpr static std::size_t addrs = 0x5e41c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1091,7 +1091,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::System::IntPtr)>(
     &::OVR::OpenVR::CVROverlay::ReleaseNativeOverlayHandle)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43f3c;
+  constexpr static std::size_t addrs = 0x5e41ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1106,7 +1106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<uint32_t>, ::by_ref<uint32_t>)>(
     &::OVR::OpenVR::CVROverlay::GetOverlayTextureSize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5e43f5c;
+  constexpr static std::size_t addrs = 0x5e41cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1121,7 +1121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(::StringW, ::StringW, ::by_ref<uint64_t>, ::by_ref<uint64_t>)>(
     &::OVR::OpenVR::CVROverlay::CreateDashboardOverlay)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5e43f84;
+  constexpr static std::size_t addrs = 0x5e41cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1137,7 +1137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVROverlay::*)()>(&::OVR::OpenVR::CVROverlay::IsDashboardVisible)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43fac;
+  constexpr static std::size_t addrs = 0x5e41d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVROverlay*>(), { "IsDashboardVisible", {}, {} })));
@@ -1149,7 +1149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVROverlay::*)(uint64_t)>(&::OVR::OpenVR::CVROverlay::IsActiveDashboardOverlay)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43fcc;
+  constexpr static std::size_t addrs = 0x5e41d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1163,7 +1163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, uint32_t)>(
     &::OVR::OpenVR::CVROverlay::SetDashboardOverlaySceneProcess)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43fec;
+  constexpr static std::size_t addrs = 0x5e41d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1177,7 +1177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<uint32_t>)>(
     &::OVR::OpenVR::CVROverlay::GetDashboardOverlaySceneProcess)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e4400c;
+  constexpr static std::size_t addrs = 0x5e41d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1191,7 +1191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVROverlay::*)(::StringW)>(&::OVR::OpenVR::CVROverlay::ShowDashboard)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e44030;
+  constexpr static std::size_t addrs = 0x5e41d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVROverlay*>(), { "ShowDashboard", {}, { ::i2c::type_of<::StringW>() } })));
@@ -1203,7 +1203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::CVROverlay::*)()>(&::OVR::OpenVR::CVROverlay::GetPrimaryDashboardDevice)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e44050;
+  constexpr static std::size_t addrs = 0x5e41dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVROverlay*>(), { "GetPrimaryDashboardDevice", {}, {} })));
@@ -1216,7 +1216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(int32_t, int32_t, ::StringW, uint32_t, ::StringW, bool, uint64_t)>(
     &::OVR::OpenVR::CVROverlay::ShowKeyboard)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5e44070;
+  constexpr static std::size_t addrs = 0x5e41ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1234,7 +1234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, int32_t, int32_t, ::StringW, uint32_t, ::StringW, bool, uint64_t)>(
     &::OVR::OpenVR::CVROverlay::ShowKeyboardForOverlay)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5e4409c;
+  constexpr static std::size_t addrs = 0x5e41e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1251,7 +1251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::CVROverlay::*)(::System::Text::StringBuilder*, uint32_t)>(&::OVR::OpenVR::CVROverlay::GetKeyboardText)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e440cc;
+  constexpr static std::size_t addrs = 0x5e41e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1265,7 +1265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVROverlay::*)()>(&::OVR::OpenVR::CVROverlay::HideKeyboard)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e440ec;
+  constexpr static std::size_t addrs = 0x5e41e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVROverlay*>(), { "HideKeyboard", {}, {} })));
@@ -1278,7 +1278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVROverlay::*)(::OVR::OpenVR::ETrackingUniverseOrigin, ::by_ref<::OVR::OpenVR::HmdMatrix34_t>)>(
     &::OVR::OpenVR::CVROverlay::SetKeyboardTransformAbsolute)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e4410c;
+  constexpr static std::size_t addrs = 0x5e41e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1293,7 +1293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::OVR::OpenVR::HmdRect2_t)>(&::OVR::OpenVR::CVROverlay::SetKeyboardPositionForOverlay)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e4412c;
+  constexpr static std::size_t addrs = 0x5e41e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1308,7 +1308,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t>, uint32_t,
                                                                                                                      uint32_t)>(&::OVR::OpenVR::CVROverlay::SetOverlayIntersectionMask)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e4414c;
+  constexpr static std::size_t addrs = 0x5e41eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1325,7 +1325,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVROverlayError (::OVR::OpenVR::CVROverlay::*)(uint64_t, ::by_ref<uint32_t>)>(&::OVR::OpenVR::CVROverlay::GetOverlayFlags)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e4416c;
+  constexpr static std::size_t addrs = 0x5e41ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1339,7 +1339,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::VRMessageOverlayResponse (::OVR::OpenVR::CVROverlay::*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(
     &::OVR::OpenVR::CVROverlay::ShowMessageOverlay)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e44190;
+  constexpr static std::size_t addrs = 0x5e41efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1355,7 +1355,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVROverlay::*)()>(&::OVR::OpenVR::CVROverlay::CloseMessageOverlay)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e441b0;
+  constexpr static std::size_t addrs = 0x5e41f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVROverlay*>(), { "CloseMessageOverlay", {}, {} })));

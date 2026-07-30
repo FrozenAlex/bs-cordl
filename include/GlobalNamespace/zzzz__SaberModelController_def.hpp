@@ -7,6 +7,7 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SetSaberGlowColor_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(SaberModelController)
 namespace GlobalNamespace {
 class ColorManager;
@@ -59,10 +60,10 @@ public:
   /// @brief Field _setSaberGlowColors, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__setSaberGlowColors, put = __cordl_internal_set__setSaberGlowColors)) ::ArrayW<::UnityW<::GlobalNamespace::SetSaberGlowColor>> _setSaberGlowColors;
 
-  /// @brief Method Init, addr 0x59e9fe0, size 0x1f4, virtual false, abstract: false, final false
-  inline void Init(::UnityEngine::Transform* parent, ::GlobalNamespace::Saber* saber, ::UnityEngine::Color trailTintColor);
+  /// @brief Method Init, addr 0x59e8690, size 0x238, virtual false, abstract: false, final false
+  inline void Init(::UnityEngine::Transform* parent, ::GlobalNamespace::Saber* saber, ::UnityEngine::Color trailTintColor, ::StringW modelName);
 
-  /// @brief Method InitColor, addr 0x59ea1f0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method InitColor, addr 0x59e88e4, size 0x164, virtual false, abstract: false, final false
   inline void InitColor(::GlobalNamespace::SaberType saberType);
 
   static inline ::GlobalNamespace::SaberModelController* New_ctor();
@@ -97,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set__setSaberGlowColors(::ArrayW<::UnityW<::GlobalNamespace::SetSaberGlowColor>> value);
 
-  /// @brief Method .ctor, addr 0x59ea36c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e8a60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

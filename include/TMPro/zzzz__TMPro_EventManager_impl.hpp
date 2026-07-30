@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::UnityEngine::Material*)>(&::TMPro::TMPro_EventManager::ON_MATERIAL_PROPERTY_CHANGED)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6942a48;
+  constexpr static std::size_t addrs = 0x69407e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::UnityEngine::Object*)>(&::TMPro::TMPro_EventManager::ON_FONT_PROPERTY_CHANGED)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6942ae0;
+  constexpr static std::size_t addrs = 0x694087c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::UnityEngine::Object*)>(&::TMPro::TMPro_EventManager::ON_SPRITE_ASSET_PROPERTY_CHANGED)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6942b78;
+  constexpr static std::size_t addrs = 0x6940914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::UnityEngine::Object*)>(&::TMPro::TMPro_EventManager::ON_TEXTMESHPRO_PROPERTY_CHANGED)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6942c10;
+  constexpr static std::size_t addrs = 0x69409ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::Material*, ::UnityEngine::Material*)>(
     &::TMPro::TMPro_EventManager::ON_DRAG_AND_DROP_MATERIAL_CHANGED)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6942ca8;
+  constexpr static std::size_t addrs = 0x6940a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::TMPro::TMPro_EventManager::ON_TEXT_STYLE_PROPERTY_CHANGED)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6942d48;
+  constexpr static std::size_t addrs = 0x6940ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*)>(&::TMPro::TMPro_EventManager::ON_COLOR_GRADIENT_PROPERTY_CHANGED)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6942dd0;
+  constexpr static std::size_t addrs = 0x6940b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*)>(&::TMPro::TMPro_EventManager::ON_TEXT_CHANGED)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6942e58;
+  constexpr static std::size_t addrs = 0x6940bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::TMPro::TMPro_EventManager::ON_TMP_SETTINGS_CHANGED)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6942ee0;
+  constexpr static std::size_t addrs = 0x6940c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMPro_EventManager*>(), { "ON_TMP_SETTINGS_CHANGED", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::TMPro::TMPro_EventManager::ON_RESOURCES_LOADED)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6942f48;
+  constexpr static std::size_t addrs = 0x6940ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMPro_EventManager*>(), { "ON_RESOURCES_LOADED", {}, {} })));
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::UnityEngine::Object*)>(&::TMPro::TMPro_EventManager::ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6942fb0;
+  constexpr static std::size_t addrs = 0x6940d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::TMPro::Compute_DT_EventArgs*)>(&::TMPro::TMPro_EventManager::ON_COMPUTE_DT_EVENT)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6943048;
+  constexpr static std::size_t addrs = 0x6940de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

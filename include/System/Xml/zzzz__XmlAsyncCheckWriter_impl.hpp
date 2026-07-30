@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::System::Xml::XmlWriter*)>(&::System::Xml::XmlAsyncCheckWriter::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x61afcc8;
+  constexpr static std::size_t addrs = 0x61ada64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)()>(&::System::Xml::XmlAsyncCheckWriter::CheckAsync)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x61afd38;
+  constexpr static std::size_t addrs = 0x61adad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlAsyncCheckWriter*>(), { "CheckAsync", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)()>(&::System::Xml::XmlAsyncCheckWriter::WriteStartDocument)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x61afdac;
+  constexpr static std::size_t addrs = 0x61adb48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(bool)>(&::System::Xml::XmlAsyncCheckWriter::WriteStartDocument)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x61afdd4;
+  constexpr static std::size_t addrs = 0x61adb70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)()>(&::System::Xml::XmlAsyncCheckWriter::WriteEndDocument)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x61afe0c;
+  constexpr static std::size_t addrs = 0x61adba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW, ::StringW, ::StringW, ::StringW)>(&::System::Xml::XmlAsyncCheckWriter::WriteDocType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x61afe34;
+  constexpr static std::size_t addrs = 0x61adbd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW, ::StringW, ::StringW)>(&::System::Xml::XmlAsyncCheckWriter::WriteStartElement)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x61afe8c;
+  constexpr static std::size_t addrs = 0x61adc28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)()>(&::System::Xml::XmlAsyncCheckWriter::WriteEndElement)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x61afedc;
+  constexpr static std::size_t addrs = 0x61adc78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)()>(&::System::Xml::XmlAsyncCheckWriter::WriteFullEndElement)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x61aff04;
+  constexpr static std::size_t addrs = 0x61adca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW, ::StringW, ::StringW)>(&::System::Xml::XmlAsyncCheckWriter::WriteStartAttribute)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x61aff2c;
+  constexpr static std::size_t addrs = 0x61adcc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)()>(&::System::Xml::XmlAsyncCheckWriter::WriteEndAttribute)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x61aff7c;
+  constexpr static std::size_t addrs = 0x61add18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW)>(&::System::Xml::XmlAsyncCheckWriter::WriteCData)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61affa8;
+  constexpr static std::size_t addrs = 0x61add44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW)>(&::System::Xml::XmlAsyncCheckWriter::WriteComment)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61affe4;
+  constexpr static std::size_t addrs = 0x61add80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW, ::StringW)>(&::System::Xml::XmlAsyncCheckWriter::WriteProcessingInstruction)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x61b0020;
+  constexpr static std::size_t addrs = 0x61addbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW)>(&::System::Xml::XmlAsyncCheckWriter::WriteEntityRef)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61b0064;
+  constexpr static std::size_t addrs = 0x61ade00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(char16_t)>(&::System::Xml::XmlAsyncCheckWriter::WriteCharEntity)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61b00a0;
+  constexpr static std::size_t addrs = 0x61ade3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW)>(&::System::Xml::XmlAsyncCheckWriter::WriteWhitespace)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61b00dc;
+  constexpr static std::size_t addrs = 0x61ade78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW)>(&::System::Xml::XmlAsyncCheckWriter::WriteString)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61b0118;
+  constexpr static std::size_t addrs = 0x61adeb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(char16_t, char16_t)>(&::System::Xml::XmlAsyncCheckWriter::WriteSurrogateCharEntity)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x61b0154;
+  constexpr static std::size_t addrs = 0x61adef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::Xml::XmlAsyncCheckWriter::WriteChars)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x61b0198;
+  constexpr static std::size_t addrs = 0x61adf34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::Xml::XmlAsyncCheckWriter::WriteRaw)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x61b01ec;
+  constexpr static std::size_t addrs = 0x61adf88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW)>(&::System::Xml::XmlAsyncCheckWriter::WriteRaw)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61b0240;
+  constexpr static std::size_t addrs = 0x61adfdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::XmlAsyncCheckWriter::WriteBase64)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x61b027c;
+  constexpr static std::size_t addrs = 0x61ae018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::XmlAsyncCheckWriter::WriteBinHex)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x61b02d0;
+  constexpr static std::size_t addrs = 0x61ae06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -325,7 +325,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::WriteState (::System::Xml::XmlAsyncCheckWriter::*)()>(&::System::Xml::XmlAsyncCheckWriter::get_WriteState)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x61b0324;
+  constexpr static std::size_t addrs = 0x61ae0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -338,7 +338,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)()>(&::System::Xml::XmlAsyncCheckWriter::Close)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x61b0350;
+  constexpr static std::size_t addrs = 0x61ae0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -351,7 +351,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)()>(&::System::Xml::XmlAsyncCheckWriter::Flush)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x61b037c;
+  constexpr static std::size_t addrs = 0x61ae118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlAsyncCheckWriter::*)(::StringW)>(&::System::Xml::XmlAsyncCheckWriter::LookupPrefix)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61b03a8;
+  constexpr static std::size_t addrs = 0x61ae144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -377,7 +377,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlSpace (::System::Xml::XmlAsyncCheckWriter::*)()>(&::System::Xml::XmlAsyncCheckWriter::get_XmlSpace)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x61b03e4;
+  constexpr static std::size_t addrs = 0x61ae180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -390,7 +390,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlAsyncCheckWriter::*)()>(&::System::Xml::XmlAsyncCheckWriter::get_XmlLang)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x61b0410;
+  constexpr static std::size_t addrs = 0x61ae1ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW, ::StringW)>(&::System::Xml::XmlAsyncCheckWriter::WriteQualifiedName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x61b043c;
+  constexpr static std::size_t addrs = 0x61ae1d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -416,7 +416,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW)>(&::System::Xml::XmlAsyncCheckWriter::WriteValue)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61b0480;
+  constexpr static std::size_t addrs = 0x61ae21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -429,7 +429,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(bool)>(&::System::Xml::XmlAsyncCheckWriter::WriteValue)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61b04bc;
+  constexpr static std::size_t addrs = 0x61ae258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -442,7 +442,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::System::DateTime)>(&::System::Xml::XmlAsyncCheckWriter::WriteValue)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61b04f8;
+  constexpr static std::size_t addrs = 0x61ae294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -455,7 +455,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(double_t)>(&::System::Xml::XmlAsyncCheckWriter::WriteValue)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61b0534;
+  constexpr static std::size_t addrs = 0x61ae2d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -468,7 +468,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(float_t)>(&::System::Xml::XmlAsyncCheckWriter::WriteValue)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61b0570;
+  constexpr static std::size_t addrs = 0x61ae30c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -481,7 +481,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::System::Decimal)>(&::System::Xml::XmlAsyncCheckWriter::WriteValue)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x61b05ac;
+  constexpr static std::size_t addrs = 0x61ae348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -494,7 +494,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(int32_t)>(&::System::Xml::XmlAsyncCheckWriter::WriteValue)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61b05f0;
+  constexpr static std::size_t addrs = 0x61ae38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -507,7 +507,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(int64_t)>(&::System::Xml::XmlAsyncCheckWriter::WriteValue)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61b062c;
+  constexpr static std::size_t addrs = 0x61ae3c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -520,7 +520,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::System::Xml::XmlReader*, bool)>(&::System::Xml::XmlAsyncCheckWriter::WriteAttributes)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x61b0668;
+  constexpr static std::size_t addrs = 0x61ae404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -533,7 +533,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::System::Xml::XmlReader*, bool)>(&::System::Xml::XmlAsyncCheckWriter::WriteNode)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x61b06ac;
+  constexpr static std::size_t addrs = 0x61ae448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -546,7 +546,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(bool)>(&::System::Xml::XmlAsyncCheckWriter::Dispose)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x61b06f0;
+  constexpr static std::size_t addrs = 0x61ae48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

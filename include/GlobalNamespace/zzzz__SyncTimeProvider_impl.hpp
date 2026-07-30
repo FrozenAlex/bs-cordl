@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::SyncTimeProvider::*)()>(&::GlobalNamespace::SyncTimeProvider::get_time)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x585584c;
+  constexpr static std::size_t addrs = 0x5853d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SyncTimeProvider*>(), { "get_time", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SyncTimeProvider::*)()>(&::GlobalNamespace::SyncTimeProvider::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58558f4;
+  constexpr static std::size_t addrs = 0x5853df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SyncTimeProvider*>(), { ".ctor", {}, {} })));

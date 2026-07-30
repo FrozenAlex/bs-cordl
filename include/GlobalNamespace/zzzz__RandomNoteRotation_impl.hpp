@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RandomNoteRotation::*)()>(&::GlobalNamespace::RandomNoteRotation::Awake)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x58dad0c;
+  constexpr static std::size_t addrs = 0x58d91e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RandomNoteRotation*>(), { "Awake", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RandomNoteRotation::*)()>(&::GlobalNamespace::RandomNoteRotation::OnDestroy)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x58dadc8;
+  constexpr static std::size_t addrs = 0x58d92a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RandomNoteRotation*>(), { "OnDestroy", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RandomNoteRotation::*)(::GlobalNamespace::NoteControllerBase*)>(
     &::GlobalNamespace::RandomNoteRotation::HandleNoteControllerDidInit)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x58daed0;
+  constexpr static std::size_t addrs = 0x58d93a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RandomNoteRotation*>(),
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RandomNoteRotation::*)()>(&::GlobalNamespace::RandomNoteRotation::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58daef8;
+  constexpr static std::size_t addrs = 0x58d93d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RandomNoteRotation*>(), { ".ctor", {}, {} })));

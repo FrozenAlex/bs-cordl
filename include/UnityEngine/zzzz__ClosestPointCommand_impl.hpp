@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ClosestPointCommand::*)(::UnityEngine::Vector3, int32_t, ::UnityEngine::Vector3, ::UnityEngine::Quaternion,
                                                                                                     ::UnityEngine::Vector3)>(&::UnityEngine::ClosestPointCommand::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6b9451c;
+  constexpr static std::size_t addrs = 0x6b8ff20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ClosestPointCommand::*)(::UnityEngine::Vector3, ::UnityEngine::Collider*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion,
                                                                                                     ::UnityEngine::Vector3)>(&::UnityEngine::ClosestPointCommand::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6b9454c;
+  constexpr static std::size_t addrs = 0x6b8ff50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ClosestPointCommand::*)()>(&::UnityEngine::ClosestPointCommand::get_point)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b945d4;
+  constexpr static std::size_t addrs = 0x6b8ffd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ClosestPointCommand>(), { "get_point", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ClosestPointCommand::*)(::UnityEngine::Vector3)>(&::UnityEngine::ClosestPointCommand::set_point)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b945e0;
+  constexpr static std::size_t addrs = 0x6b8ffe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ClosestPointCommand::*)()>(&::UnityEngine::ClosestPointCommand::get_colliderInstanceID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b945ec;
+  constexpr static std::size_t addrs = 0x6b8fff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ClosestPointCommand>(), { "get_colliderInstanceID", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ClosestPointCommand::*)(int32_t)>(&::UnityEngine::ClosestPointCommand::set_colliderInstanceID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b945f4;
+  constexpr static std::size_t addrs = 0x6b8fff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ClosestPointCommand::*)()>(&::UnityEngine::ClosestPointCommand::get_position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b945fc;
+  constexpr static std::size_t addrs = 0x6b90000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ClosestPointCommand>(), { "get_position", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ClosestPointCommand::*)(::UnityEngine::Vector3)>(&::UnityEngine::ClosestPointCommand::set_position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b94608;
+  constexpr static std::size_t addrs = 0x6b9000c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::UnityEngine::ClosestPointCommand::*)()>(&::UnityEngine::ClosestPointCommand::get_rotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b94614;
+  constexpr static std::size_t addrs = 0x6b90018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ClosestPointCommand>(), { "get_rotation", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ClosestPointCommand::*)(::UnityEngine::Quaternion)>(&::UnityEngine::ClosestPointCommand::set_rotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b94620;
+  constexpr static std::size_t addrs = 0x6b90024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ClosestPointCommand::*)()>(&::UnityEngine::ClosestPointCommand::get_scale)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b9462c;
+  constexpr static std::size_t addrs = 0x6b90030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ClosestPointCommand>(), { "get_scale", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ClosestPointCommand::*)(::UnityEngine::Vector3)>(&::UnityEngine::ClosestPointCommand::set_scale)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b94638;
+  constexpr static std::size_t addrs = 0x6b9003c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle 
                                                                                     ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>, int32_t, ::Unity::Jobs::JobHandle)>(
     &::UnityEngine::ClosestPointCommand::ScheduleBatch)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6b94644;
+  constexpr static std::size_t addrs = 0x6b90048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>, void*, int32_t, void*, int32_t,
                                                                                     int32_t)>(&::UnityEngine::ClosestPointCommand::ScheduleClosestPointCommandBatch)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6b94740;
+  constexpr static std::size_t addrs = 0x6b90144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>, void*, int32_t, void*, int32_t, int32_t,
                                                                 ::by_ref<::Unity::Jobs::JobHandle>)>(&::UnityEngine::ClosestPointCommand::ScheduleClosestPointCommandBatch_Injected)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6b947cc;
+  constexpr static std::size_t addrs = 0x6b901d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

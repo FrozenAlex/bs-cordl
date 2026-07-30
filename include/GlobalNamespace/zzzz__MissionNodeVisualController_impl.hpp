@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*)>(
     &::GlobalNamespace::MissionNodeVisualController::add_nodeWasSelectEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x593a06c;
+  constexpr static std::size_t addrs = 0x5938854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*)>(
     &::GlobalNamespace::MissionNodeVisualController::remove_nodeWasSelectEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x593a364;
+  constexpr static std::size_t addrs = 0x5938b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*)>(
     &::GlobalNamespace::MissionNodeVisualController::add_nodeWasDisplayedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x593a12c;
+  constexpr static std::size_t addrs = 0x5938914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*)>(
     &::GlobalNamespace::MissionNodeVisualController::remove_nodeWasDisplayedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x593a424;
+  constexpr static std::size_t addrs = 0x5938c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MissionNode> (::GlobalNamespace::MissionNodeVisualController::*)()>(
     &::GlobalNamespace::MissionNodeVisualController::get_missionNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x593b2f0;
+  constexpr static std::size_t addrs = 0x5939ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeVisualController*>(), { "get_missionNode", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MissionNodeVisualController::*)()>(&::GlobalNamespace::MissionNodeVisualController::get_selected)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x593b2f8;
+  constexpr static std::size_t addrs = 0x5939ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeVisualController*>(), { "get_selected", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MissionNodeVisualController::*)()>(&::GlobalNamespace::MissionNodeVisualController::get_isInitialized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x593b300;
+  constexpr static std::size_t addrs = 0x5939ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeVisualController*>(), { "get_isInitialized", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MissionNodeVisualController::*)()>(&::GlobalNamespace::MissionNodeVisualController::get_cleared)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x593b308;
+  constexpr static std::size_t addrs = 0x5939af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeVisualController*>(), { "get_cleared", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MissionNodeVisualController::*)()>(&::GlobalNamespace::MissionNodeVisualController::get_interactable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x593b310;
+  constexpr static std::size_t addrs = 0x5939af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeVisualController*>(), { "get_interactable", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)(bool)>(&::GlobalNamespace::MissionNodeVisualController::SetSelected)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5939f0c;
+  constexpr static std::size_t addrs = 0x59386f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)()>(&::GlobalNamespace::MissionNodeVisualController::OnEnable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x593b324;
+  constexpr static std::size_t addrs = 0x5939b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeVisualController*>(), { "OnEnable", {}, {} })));
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)()>(&::GlobalNamespace::MissionNodeVisualController::Awake)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x593b344;
+  constexpr static std::size_t addrs = 0x5939b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeVisualController*>(), { "Awake", {}, {} })));
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)()>(&::GlobalNamespace::MissionNodeVisualController::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x593b4ac;
+  constexpr static std::size_t addrs = 0x5939c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeVisualController*>(), { "Start", {}, {} })));
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)()>(&::GlobalNamespace::MissionNodeVisualController::Reset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x593b2c0;
+  constexpr static std::size_t addrs = 0x5939aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeVisualController*>(), { "Reset", {}, {} })));
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)()>(&::GlobalNamespace::MissionNodeVisualController::OnDestroy)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x593b50c;
+  constexpr static std::size_t addrs = 0x5939cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeVisualController*>(), { "OnDestroy", {}, {} })));
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)()>(&::GlobalNamespace::MissionNodeVisualController::Init)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x593b4b0;
+  constexpr static std::size_t addrs = 0x5939c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeVisualController*>(), { "Init", {}, {} })));
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)(bool, bool)>(&::GlobalNamespace::MissionNodeVisualController::Setup)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x593b2d4;
+  constexpr static std::size_t addrs = 0x5939abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)()>(&::GlobalNamespace::MissionNodeVisualController::SetupToggle)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x593b6c0;
+  constexpr static std::size_t addrs = 0x5939ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeVisualController*>(), { "SetupToggle", {}, {} })));
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)()>(&::GlobalNamespace::MissionNodeVisualController::SetMissionCleared)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5938e08;
+  constexpr static std::size_t addrs = 0x59375f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeVisualController*>(), { "SetMissionCleared", {}, {} })));
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)()>(&::GlobalNamespace::MissionNodeVisualController::SetInteractable)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5939618;
+  constexpr static std::size_t addrs = 0x5937e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeVisualController*>(), { "SetInteractable", {}, {} })));
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)(bool)>(&::GlobalNamespace::MissionNodeVisualController::ChangeNodeSelection)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x593b6e8;
+  constexpr static std::size_t addrs = 0x5939ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)(::GlobalNamespace::MissionToggle*)>(
     &::GlobalNamespace::MissionNodeVisualController::HandleMissionToggleSelectionDidChange)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x593b778;
+  constexpr static std::size_t addrs = 0x5939f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeVisualController*>(),
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNodeVisualController::*)()>(&::GlobalNamespace::MissionNodeVisualController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x593b7b0;
+  constexpr static std::size_t addrs = 0x5939f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNodeVisualController*>(), { ".ctor", {}, {} })));

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ColorGraphicStateTransition::TransitionToNormalState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x643d7d8;
+  constexpr static std::size_t addrs = 0x643b574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ColorGraphicStateTransition::TransitionToHighlightedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x643da88;
+  constexpr static std::size_t addrs = 0x643b824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ColorGraphicStateTransition::TransitionToPressedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x643dac0;
+  constexpr static std::size_t addrs = 0x643b85c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ColorGraphicStateTransition::TransitionToDisabledState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x643daf8;
+  constexpr static std::size_t addrs = 0x643b894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ColorGraphicStateTransition::TransitionToSelectedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x643db30;
+  constexpr static std::size_t addrs = 0x643b8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ColorGraphicStateTransition::TransitionToSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x643db68;
+  constexpr static std::size_t addrs = 0x643b904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)()>(&::GlobalNamespace::ColorGraphicStateTransition::StopCurrentTransitionAnimation)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x643dba0;
+  constexpr static std::size_t addrs = 0x643b93c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)()>(&::GlobalNamespace::ColorGraphicStateTransition::SetNormalState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x643dc38;
+  constexpr static std::size_t addrs = 0x643b9d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)()>(&::GlobalNamespace::ColorGraphicStateTransition::SetHighlightedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x643dc70;
+  constexpr static std::size_t addrs = 0x643ba0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)()>(&::GlobalNamespace::ColorGraphicStateTransition::SetPressedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x643dca8;
+  constexpr static std::size_t addrs = 0x643ba44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)()>(&::GlobalNamespace::ColorGraphicStateTransition::SetDisabledState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x643dce0;
+  constexpr static std::size_t addrs = 0x643ba7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)()>(&::GlobalNamespace::ColorGraphicStateTransition::SetSelectedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x643dd18;
+  constexpr static std::size_t addrs = 0x643bab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)()>(&::GlobalNamespace::ColorGraphicStateTransition::SetSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x643dd50;
+  constexpr static std::size_t addrs = 0x643baec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)(::UnityEngine::Color, ::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::ColorGraphicStateTransition::StartTween)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x643d810;
+  constexpr static std::size_t addrs = 0x643b5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)()>(&::GlobalNamespace::ColorGraphicStateTransition::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x643dd88;
+  constexpr static std::size_t addrs = 0x643bb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { ".ctor", {}, {} })));
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::ColorGraphicStateTransition::_StartTween_b__14_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x643ddcc;
+  constexpr static std::size_t addrs = 0x643bb68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorGraphicStateTransition::*)()>(&::GlobalNamespace::ColorGraphicStateTransition::_StartTween_b__14_1)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x643ddec;
+  constexpr static std::size_t addrs = 0x643bb88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorGraphicStateTransition*>(), { "<StartTween>b__14_1", {}, {} })));

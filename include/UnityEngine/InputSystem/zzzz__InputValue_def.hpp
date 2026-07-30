@@ -29,7 +29,7 @@ public:
   /// @brief Field m_Context, offset 0x10, size 0x18
   __declspec(property(get = __cordl_internal_get_m_Context, put = __cordl_internal_set_m_Context)) ::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext> m_Context;
 
-  /// @brief Method Get, addr 0x657721c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x6574fb8, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Object* Get();
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Context(::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext> value);
 
-  /// @brief Method .ctor, addr 0x6577304, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65750a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isPressed, addr 0x6577288, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_isPressed, addr 0x6575024, size 0x7c, virtual false, abstract: false, final false
   inline bool get_isPressed();
 
 protected:

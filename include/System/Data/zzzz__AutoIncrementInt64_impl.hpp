@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::AutoIncrementInt64::*)()>(&::System::Data::AutoIncrementInt64::get_Current)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5fff00c;
+  constexpr static std::size_t addrs = 0x5ffcda8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::AutoIncrementInt64::*)(::System::Object*)>(&::System::Data::AutoIncrementInt64::set_Current)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5fff02c;
+  constexpr static std::size_t addrs = 0x5ffcdc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Data::AutoIncrementInt64::*)()>(&::System::Data::AutoIncrementInt64::get_DataType)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5fff070;
+  constexpr static std::size_t addrs = 0x5ffce0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Data::AutoIncrementInt64::*)()>(&::System::Data::AutoIncrementInt64::get_Seed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fff0a0;
+  constexpr static std::size_t addrs = 0x5ffce3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::AutoIncrementInt64::*)(int64_t)>(&::System::Data::AutoIncrementInt64::set_Seed)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5fff0a8;
+  constexpr static std::size_t addrs = 0x5ffce44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Data::AutoIncrementInt64::*)()>(&::System::Data::AutoIncrementInt64::get_Step)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fff21c;
+  constexpr static std::size_t addrs = 0x5ffcfb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::AutoIncrementInt64::*)(int64_t)>(&::System::Data::AutoIncrementInt64::set_Step)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5fff224;
+  constexpr static std::size_t addrs = 0x5ffcfc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::AutoIncrementInt64::*)()>(&::System::Data::AutoIncrementInt64::MoveAfter)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5fff2e8;
+  constexpr static std::size_t addrs = 0x5ffd084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::AutoIncrementInt64::*)(::System::Object*, ::System::IFormatProvider*)>(&::System::Data::AutoIncrementInt64::SetCurrent)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5fff2fc;
+  constexpr static std::size_t addrs = 0x5ffd098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::AutoIncrementInt64::*)(::System::Object*)>(&::System::Data::AutoIncrementInt64::SetCurrentAndIncrement)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5fff374;
+  constexpr static std::size_t addrs = 0x5ffd110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::AutoIncrementInt64::*)(::System::Numerics::BigInteger)>(&::System::Data::AutoIncrementInt64::BoundaryCheck)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5fff144;
+  constexpr static std::size_t addrs = 0x5ffcee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::AutoIncrementInt64::*)()>(&::System::Data::AutoIncrementInt64::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ffa374;
+  constexpr static std::size_t addrs = 0x5ff8110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::AutoIncrementInt64*>(), { ".ctor", {}, {} })));

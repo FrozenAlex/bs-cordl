@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Unity::Profiling::IgnoredByDeepProfilerAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a5785c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a555f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusHMD::*)()>(
     &::Unity::XR::Oculus::Input::OculusHMD::get_userPresence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbdfc;
+  constexpr static std::size_t addrs = 0x64c9b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusHMD*>(), { "get_userPresence", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusHMD::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusHMD::set_userPresence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbe04;
+  constexpr static std::size_t addrs = 0x64c9ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusHMD*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusHMD::*)()>(
     &::Unity::XR::Oculus::Input::OculusHMD::get_deviceAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbe0c;
+  constexpr static std::size_t addrs = 0x64c9ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusHMD*>(), { "get_deviceAngularVelocity", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusHMD::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::OculusHMD::set_deviceAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbe14;
+  constexpr static std::size_t addrs = 0x64c9bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusHMD::*)()>(
     &::Unity::XR::Oculus::Input::OculusHMD::get_deviceAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbe1c;
+  constexpr static std::size_t addrs = 0x64c9bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusHMD*>(), { "get_deviceAcceleration", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusHMD::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::OculusHMD::set_deviceAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbe24;
+  constexpr static std::size_t addrs = 0x64c9bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusHMD::*)()>(
     &::Unity::XR::Oculus::Input::OculusHMD::get_deviceAngularAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbe2c;
+  constexpr static std::size_t addrs = 0x64c9bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusHMD*>(), { "get_deviceAngularAcceleration", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusHMD::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::OculusHMD::set_deviceAngularAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbe34;
+  constexpr static std::size_t addrs = 0x64c9bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusHMD::*)()>(
     &::Unity::XR::Oculus::Input::OculusHMD::get_leftEyeAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbe3c;
+  constexpr static std::size_t addrs = 0x64c9bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusHMD*>(), { "get_leftEyeAngularVelocity", {}, {} })));
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusHMD::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::OculusHMD::set_leftEyeAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbe44;
+  constexpr static std::size_t addrs = 0x64c9be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusHMD::*)()>(
     &::Unity::XR::Oculus::Input::OculusHMD::get_leftEyeAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbe4c;
+  constexpr static std::size_t addrs = 0x64c9be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusHMD*>(), { "get_leftEyeAcceleration", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusHMD::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::OculusHMD::set_leftEyeAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbe54;
+  constexpr static std::size_t addrs = 0x64c9bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusHMD::*)()>(
     &::Unity::XR::Oculus::Input::OculusHMD::get_leftEyeAngularAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbe5c;
+  constexpr static std::size_t addrs = 0x64c9bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusHMD*>(), { "get_leftEyeAngularAcceleration", {}, {} })));
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusHMD::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::OculusHMD::set_leftEyeAngularAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbe64;
+  constexpr static std::size_t addrs = 0x64c9c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusHMD::*)()>(
     &::Unity::XR::Oculus::Input::OculusHMD::get_rightEyeAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbe6c;
+  constexpr static std::size_t addrs = 0x64c9c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusHMD*>(), { "get_rightEyeAngularVelocity", {}, {} })));
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusHMD::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::OculusHMD::set_rightEyeAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbe74;
+  constexpr static std::size_t addrs = 0x64c9c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusHMD::*)()>(
     &::Unity::XR::Oculus::Input::OculusHMD::get_rightEyeAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbe7c;
+  constexpr static std::size_t addrs = 0x64c9c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusHMD*>(), { "get_rightEyeAcceleration", {}, {} })));
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusHMD::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::OculusHMD::set_rightEyeAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbe84;
+  constexpr static std::size_t addrs = 0x64c9c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusHMD::*)()>(
     &::Unity::XR::Oculus::Input::OculusHMD::get_rightEyeAngularAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbe8c;
+  constexpr static std::size_t addrs = 0x64c9c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusHMD*>(), { "get_rightEyeAngularAcceleration", {}, {} })));
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusHMD::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::OculusHMD::set_rightEyeAngularAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbe94;
+  constexpr static std::size_t addrs = 0x64c9c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusHMD::*)()>(
     &::Unity::XR::Oculus::Input::OculusHMD::get_centerEyeAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbe9c;
+  constexpr static std::size_t addrs = 0x64c9c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusHMD*>(), { "get_centerEyeAngularVelocity", {}, {} })));
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusHMD::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::OculusHMD::set_centerEyeAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbea4;
+  constexpr static std::size_t addrs = 0x64c9c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusHMD::*)()>(
     &::Unity::XR::Oculus::Input::OculusHMD::get_centerEyeAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbeac;
+  constexpr static std::size_t addrs = 0x64c9c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusHMD*>(), { "get_centerEyeAcceleration", {}, {} })));
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusHMD::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::OculusHMD::set_centerEyeAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbeb4;
+  constexpr static std::size_t addrs = 0x64c9c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusHMD::*)()>(
     &::Unity::XR::Oculus::Input::OculusHMD::get_centerEyeAngularAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbebc;
+  constexpr static std::size_t addrs = 0x64c9c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusHMD*>(), { "get_centerEyeAngularAcceleration", {}, {} })));
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusHMD::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::OculusHMD::set_centerEyeAngularAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cbec4;
+  constexpr static std::size_t addrs = 0x64c9c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -372,7 +372,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusHMD::*)()>(&::Unity::XR::Oculus::Input::OculusHMD::FinishSetup)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x64cbecc;
+  constexpr static std::size_t addrs = 0x64c9c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusHMD::*)()>(&::Unity::XR::Oculus::Input::OculusHMD::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64cc170;
+  constexpr static std::size_t addrs = 0x64c9f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusHMD*>(), { ".ctor", {}, {} })));

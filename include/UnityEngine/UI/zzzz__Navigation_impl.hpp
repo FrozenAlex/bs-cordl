@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UI::Navigation_Mode (::UnityEngine::UI::Navigation::*)()>(&::UnityEngine::UI::Navigation::get_mode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfe9f4;
+  constexpr static std::size_t addrs = 0x6dfa3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Navigation>(), { "get_mode", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Navigation::*)(::UnityEngine::UI::Navigation_Mode)>(&::UnityEngine::UI::Navigation::set_mode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfe9fc;
+  constexpr static std::size_t addrs = 0x6dfa400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::Navigation::*)()>(&::UnityEngine::UI::Navigation::get_wrapAround)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfea04;
+  constexpr static std::size_t addrs = 0x6dfa408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Navigation>(), { "get_wrapAround", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Navigation::*)(bool)>(&::UnityEngine::UI::Navigation::set_wrapAround)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfea0c;
+  constexpr static std::size_t addrs = 0x6dfa410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Navigation>(), { "set_wrapAround", {}, { ::i2c::type_of<bool>() } })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Selectable> (::UnityEngine::UI::Navigation::*)()>(&::UnityEngine::UI::Navigation::get_selectOnUp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfea14;
+  constexpr static std::size_t addrs = 0x6dfa418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Navigation>(), { "get_selectOnUp", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Navigation::*)(::UnityEngine::UI::Selectable*)>(&::UnityEngine::UI::Navigation::set_selectOnUp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfea1c;
+  constexpr static std::size_t addrs = 0x6dfa420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Selectable> (::UnityEngine::UI::Navigation::*)()>(&::UnityEngine::UI::Navigation::get_selectOnDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfea24;
+  constexpr static std::size_t addrs = 0x6dfa428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Navigation>(), { "get_selectOnDown", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Navigation::*)(::UnityEngine::UI::Selectable*)>(&::UnityEngine::UI::Navigation::set_selectOnDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfea2c;
+  constexpr static std::size_t addrs = 0x6dfa430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Selectable> (::UnityEngine::UI::Navigation::*)()>(&::UnityEngine::UI::Navigation::get_selectOnLeft)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfea34;
+  constexpr static std::size_t addrs = 0x6dfa438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Navigation>(), { "get_selectOnLeft", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Navigation::*)(::UnityEngine::UI::Selectable*)>(&::UnityEngine::UI::Navigation::set_selectOnLeft)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfea3c;
+  constexpr static std::size_t addrs = 0x6dfa440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Selectable> (::UnityEngine::UI::Navigation::*)()>(&::UnityEngine::UI::Navigation::get_selectOnRight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfea44;
+  constexpr static std::size_t addrs = 0x6dfa448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Navigation>(), { "get_selectOnRight", {}, {} })));
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Navigation::*)(::UnityEngine::UI::Selectable*)>(&::UnityEngine::UI::Navigation::set_selectOnRight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfea4c;
+  constexpr static std::size_t addrs = 0x6dfa450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UI::Navigation (*)()>(&::UnityEngine::UI::Navigation::get_defaultNavigation)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6dfea54;
+  constexpr static std::size_t addrs = 0x6dfa458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Navigation>(), { "get_defaultNavigation", {}, {} })));
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::Navigation::*)(::UnityEngine::UI::Navigation)>(&::UnityEngine::UI::Navigation::Equals)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6dfea70;
+  constexpr static std::size_t addrs = 0x6dfa474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

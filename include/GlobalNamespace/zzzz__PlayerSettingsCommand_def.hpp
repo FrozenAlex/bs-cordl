@@ -53,10 +53,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x32e0d00, size 0x42c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x32de68c, size 0x42c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x32e117c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x32deb08, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -75,7 +75,7 @@ public:
                                                      ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19375 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19373 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -136,15 +136,15 @@ public:
 
   __declspec(property(get = get_description)) ::StringW description;
 
-  /// @brief Method ExecuteAsync, addr 0x32de97c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x32dc308, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
   static inline ::GlobalNamespace::PlayerSettingsCommand* New_ctor();
 
-  /// @brief Method PrintCurrentPlayerSettings, addr 0x32dfb4c, size 0xca0, virtual false, abstract: false, final false
+  /// @brief Method PrintCurrentPlayerSettings, addr 0x32dd4d8, size 0xca0, virtual false, abstract: false, final false
   inline void PrintCurrentPlayerSettings(::StringW setting, ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
-  /// @brief Method SetPlayerSetting, addr 0x32dea6c, size 0x10e0, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerSetting, addr 0x32dc3f8, size 0x10e0, virtual false, abstract: false, final false
   inline bool SetPlayerSetting(::StringW value, ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
   constexpr ::GlobalNamespace::OptionalArgument_1<bool>* const& __cordl_internal_get__apply() const;
@@ -171,13 +171,13 @@ public:
 
   constexpr void __cordl_internal_set__value(::GlobalNamespace::OptionalArgument_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x32e07ec, size 0x514, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32de178, size 0x514, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandName, addr 0x32de8f4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x32dc280, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0x32de938, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x32dc2c4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_description();
 
 protected:
@@ -195,7 +195,7 @@ public:
   PlayerSettingsCommand(PlayerSettingsCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19376 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19374 };
 
   /// @brief Field _playerDataModel, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;

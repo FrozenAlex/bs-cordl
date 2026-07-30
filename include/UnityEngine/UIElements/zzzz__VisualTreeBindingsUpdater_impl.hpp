@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::ProfilerMarker (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::get_profilerMarker)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6c41ec0;
+  constexpr static std::size_t addrs = 0x6c3d8c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>(),
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::get_disableBindingsThrottling)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6c41f1c;
+  constexpr static std::size_t addrs = 0x6c3d920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IBinding* (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::GetBindingObjectFromElement)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6c41f78;
+  constexpr static std::size_t addrs = 0x6c3d97c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::StartTracking)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c42148;
+  constexpr static std::size_t addrs = 0x6c3db4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::StopTracking)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c421e4;
+  constexpr static std::size_t addrs = 0x6c3dbe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::get_temporaryObjectCache)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c42280;
+  constexpr static std::size_t addrs = 0x6c3dc84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IBinding* (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::GetAdditionalBinding)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6c420b8;
+  constexpr static std::size_t addrs = 0x6c3dabc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>(),
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::StartTrackingRecursive)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6c42288;
+  constexpr static std::size_t addrs = 0x6c3dc8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>(),
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::StopTrackingRecursive)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6c423b0;
+  constexpr static std::size_t addrs = 0x6c3ddb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>(),
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VersionChangeType)>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::OnVersionChanged)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6c424c0;
+  constexpr static std::size_t addrs = 0x6c3dec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>(),
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::HierarchyChangeType)>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::OnHierarchyChange)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c425cc;
+  constexpr static std::size_t addrs = 0x6c3dfd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>(),
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)()>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::CurrentTime)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6c425e4;
+  constexpr static std::size_t addrs = 0x6c3dfe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>(), { "CurrentTime", {}, {} })));
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int64_t)>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::ShouldProcessBindings)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6c42638;
+  constexpr static std::size_t addrs = 0x6c3e03c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::PerformTrackingOperations)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x6c42700;
+  constexpr static std::size_t addrs = 0x6c3e104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)()>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::Update)> {
   constexpr static std::size_t size = 0x568;
-  constexpr static std::size_t addrs = 0x6c42904;
+  constexpr static std::size_t addrs = 0x6c3e308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>(),
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)()>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::UpdateBindings)> {
   constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x6c42e6c;
+  constexpr static std::size_t addrs = 0x6c3e870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>(), { "UpdateBindings", {}, {} })));
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(bool)>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c432c8;
+  constexpr static std::size_t addrs = 0x6c3eccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>(),
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)()>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::_ctor)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6c432cc;
+  constexpr static std::size_t addrs = 0x6c3ecd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>(), { ".ctor", {}, {} })));

@@ -47,58 +47,58 @@ public:
   /// @brief Method ApplyAllToObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParameterList> static inline void ApplyAllToObject(::System::Object* instance, TParameterList parameters);
 
-  /// @brief Method ApplyToObject, addr 0x6501004, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method ApplyToObject, addr 0x64feda0, size 0x214, virtual false, abstract: false, final false
   inline void ApplyToObject(::System::Object* instance);
 
-  /// @brief Method ConvertTo, addr 0x6500498, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x64fe234, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::NamedValue ConvertTo(::System::TypeCode type);
 
-  /// @brief Method Equals, addr 0x650079c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x64fe538, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x65006dc, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x64fe478, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::Utilities::NamedValue other);
 
   /// @brief Method From, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline ::UnityEngine::InputSystem::Utilities::NamedValue From(::StringW name, TValue value);
 
-  /// @brief Method GetHashCode, addr 0x6500830, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x64fe5cc, size 0x74, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Parse, addr 0x6500c88, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x64fea24, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::NamedValue Parse(::StringW str);
 
-  /// @brief Method ParseMultiple, addr 0x65001c8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ParseMultiple, addr 0x64fdf64, size 0x190, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::InputSystem::Utilities::NamedValue> ParseMultiple(::StringW parameterString);
 
-  /// @brief Method ParseParameter, addr 0x6500938, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method ParseParameter, addr 0x64fe6d4, size 0x350, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::NamedValue ParseParameter(::StringW parameterString, ::by_ref<int32_t> index);
 
-  /// @brief Method ToString, addr 0x65003b8, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x64fe154, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_name, addr 0x650046c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x64fe208, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_type, addr 0x6500490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x64fe22c, size 0x8, virtual false, abstract: false, final false
   inline ::System::TypeCode get_type();
 
-  /// @brief Method get_value, addr 0x650047c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x64fe218, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::NamedValue>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::NamedValue>* i___System__IEquatable_1___UnityEngine__InputSystem__Utilities__NamedValue_();
 
-  /// @brief Method op_Equality, addr 0x65008d4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x64fe670, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::Utilities::NamedValue left, ::UnityEngine::InputSystem::Utilities::NamedValue right);
 
-  /// @brief Method op_Inequality, addr 0x6500904, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x64fe6a0, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::Utilities::NamedValue left, ::UnityEngine::InputSystem::Utilities::NamedValue right);
 
-  /// @brief Method set_name, addr 0x6500474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x64fe210, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method set_value, addr 0x6500488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x64fe224, size 0x8, virtual false, abstract: false, final false
   inline void set_value(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
   // Ctor Parameters []

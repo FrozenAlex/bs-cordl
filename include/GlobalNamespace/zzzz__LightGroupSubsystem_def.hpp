@@ -32,7 +32,7 @@ public:
 
   static inline ::GlobalNamespace::LightGroupSubsystem* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x5992b5c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5991220, size 0x64, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::GlobalNamespace::LightGroup> const& __cordl_internal_get__lightGroup() const;
@@ -41,13 +41,13 @@ public:
 
   constexpr void __cordl_internal_set__lightGroup(::UnityW<::GlobalNamespace::LightGroup> value);
 
-  /// @brief Method .ctor, addr 0x598ccb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598b37c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_groupId, addr 0x598d40c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_groupId, addr 0x598bad0, size 0x18, virtual true, abstract: false, final true
   inline int32_t get_groupId();
 
-  /// @brief Method get_lightGroup, addr 0x5992b54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroup, addr 0x5991218, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroup> get_lightGroup();
 
 protected:

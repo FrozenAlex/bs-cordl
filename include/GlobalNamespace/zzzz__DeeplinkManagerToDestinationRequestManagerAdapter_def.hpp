@@ -72,13 +72,13 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IDestinationRequestManager"
   constexpr operator ::GlobalNamespace::IDestinationRequestManager*() noexcept;
 
-  /// @brief Method Clear, addr 0x597c434, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x597b1e0, size 0x8, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method HandleDeeplinkManagerDidReceiveDeeplink, addr 0x597bd98, size 0x69c, virtual false, abstract: false, final false
+  /// @brief Method HandleDeeplinkManagerDidReceiveDeeplink, addr 0x597ab44, size 0x69c, virtual false, abstract: false, final false
   inline void HandleDeeplinkManagerDidReceiveDeeplink(::GlobalNamespace::Deeplink* deeplink);
 
-  /// @brief Method Init, addr 0x597bbc4, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x597a970, size 0x1d4, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::IDeeplinkManager* deeplinkManager);
 
   static inline ::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter* New_ctor();
@@ -119,22 +119,22 @@ public:
 
   constexpr void __cordl_internal_set_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
 
-  /// @brief Method .ctor, addr 0x597c43c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x597b1e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSendMenuDestinationRequestEvent, addr 0x597ba1c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_didSendMenuDestinationRequestEvent, addr 0x597a7c8, size 0xc0, virtual true, abstract: false, final true
   inline void add_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
 
-  /// @brief Method get_currentMenuDestinationRequest, addr 0x597bb9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_currentMenuDestinationRequest, addr 0x597a948, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MenuDestination* get_currentMenuDestinationRequest();
 
   /// @brief Convert to "::GlobalNamespace::IDestinationRequestManager"
   constexpr ::GlobalNamespace::IDestinationRequestManager* i___GlobalNamespace__IDestinationRequestManager() noexcept;
 
-  /// @brief Method remove_didSendMenuDestinationRequestEvent, addr 0x597badc, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_didSendMenuDestinationRequestEvent, addr 0x597a888, size 0xc0, virtual true, abstract: false, final true
   inline void remove_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
 
-  /// @brief Method set_currentMenuDestinationRequest, addr 0x597bba4, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method set_currentMenuDestinationRequest, addr 0x597a950, size 0x20, virtual true, abstract: false, final true
   inline void set_currentMenuDestinationRequest(::GlobalNamespace::MenuDestination* value);
 
 protected:

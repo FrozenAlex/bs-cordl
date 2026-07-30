@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnmanagedMemoryStream::*)()>(&::System::IO::UnmanagedMemoryStream::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5bf84f4;
+  constexpr static std::size_t addrs = 0x5bf6338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::UnmanagedMemoryStream*>(), { ".ctor", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnmanagedMemoryStream::*)(uint8_t*, int64_t)>(&::System::IO::UnmanagedMemoryStream::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5c02a38;
+  constexpr static std::size_t addrs = 0x5c0087c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnmanagedMemoryStream::*)(uint8_t*, int64_t, int64_t, ::System::IO::FileAccess)>(
     &::System::IO::UnmanagedMemoryStream::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5c02ab0;
+  constexpr static std::size_t addrs = 0x5c008f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnmanagedMemoryStream::*)(uint8_t*, int64_t, int64_t, ::System::IO::FileAccess)>(
     &::System::IO::UnmanagedMemoryStream::Initialize)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x5bf8550;
+  constexpr static std::size_t addrs = 0x5bf6394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::IO::UnmanagedMemoryStream::*)()>(&::System::IO::UnmanagedMemoryStream::get_CanRead)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5c02b38;
+  constexpr static std::size_t addrs = 0x5c0097c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::IO::UnmanagedMemoryStream::*)()>(&::System::IO::UnmanagedMemoryStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c02b54;
+  constexpr static std::size_t addrs = 0x5c00998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::IO::UnmanagedMemoryStream::*)()>(&::System::IO::UnmanagedMemoryStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5c02b5c;
+  constexpr static std::size_t addrs = 0x5c009a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnmanagedMemoryStream::*)(bool)>(&::System::IO::UnmanagedMemoryStream::Dispose)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5bf8c9c;
+  constexpr static std::size_t addrs = 0x5bf6ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnmanagedMemoryStream::*)()>(&::System::IO::UnmanagedMemoryStream::EnsureNotClosed)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5c02b78;
+  constexpr static std::size_t addrs = 0x5c009bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::UnmanagedMemoryStream*>(), { "EnsureNotClosed", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnmanagedMemoryStream::*)()>(&::System::IO::UnmanagedMemoryStream::EnsureReadable)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5c02ba8;
+  constexpr static std::size_t addrs = 0x5c009ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::UnmanagedMemoryStream*>(), { "EnsureReadable", {}, {} })));
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnmanagedMemoryStream::*)()>(&::System::IO::UnmanagedMemoryStream::EnsureWriteable)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5c02be4;
+  constexpr static std::size_t addrs = 0x5c00a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::UnmanagedMemoryStream*>(), { "EnsureWriteable", {}, {} })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnmanagedMemoryStream::*)()>(&::System::IO::UnmanagedMemoryStream::Flush)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c02c20;
+  constexpr static std::size_t addrs = 0x5c00a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::IO::UnmanagedMemoryStream::*)(::System::Threading::CancellationToken)>(
     &::System::IO::UnmanagedMemoryStream::FlushAsync)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x5c02c24;
+  constexpr static std::size_t addrs = 0x5c00a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::IO::UnmanagedMemoryStream::*)()>(&::System::IO::UnmanagedMemoryStream::get_Length)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c02df8;
+  constexpr static std::size_t addrs = 0x5c00c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::IO::UnmanagedMemoryStream::*)()>(&::System::IO::UnmanagedMemoryStream::get_Position)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5c02e1c;
+  constexpr static std::size_t addrs = 0x5c00c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnmanagedMemoryStream::*)(int64_t)>(&::System::IO::UnmanagedMemoryStream::set_Position)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5c02e6c;
+  constexpr static std::size_t addrs = 0x5c00cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t* (::System::IO::UnmanagedMemoryStream::*)()>(&::System::IO::UnmanagedMemoryStream::get_PositionPointer)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5c02f14;
+  constexpr static std::size_t addrs = 0x5c00d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::UnmanagedMemoryStream*>(), { "get_PositionPointer", {}, {} })));
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::UnmanagedMemoryStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::IO::UnmanagedMemoryStream::Read)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5c02fd0;
+  constexpr static std::size_t addrs = 0x5c00e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::UnmanagedMemoryStream::*)(::System::Span_1<uint8_t>)>(&::System::IO::UnmanagedMemoryStream::Read)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5c03160;
+  constexpr static std::size_t addrs = 0x5c00fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::UnmanagedMemoryStream::*)(::System::Span_1<uint8_t>)>(&::System::IO::UnmanagedMemoryStream::ReadCore)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5bf8740;
+  constexpr static std::size_t addrs = 0x5bf6584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
     ::System::IO::UnmanagedMemoryStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::IO::UnmanagedMemoryStream::ReadAsync)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x5c03220;
+  constexpr static std::size_t addrs = 0x5c01064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::ValueTask_1<int32_t> (::System::IO::UnmanagedMemoryStream::*)(
     ::System::Memory_1<uint8_t>, ::System::Threading::CancellationToken)>(&::System::IO::UnmanagedMemoryStream::ReadAsync)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x5c035a4;
+  constexpr static std::size_t addrs = 0x5c013e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::UnmanagedMemoryStream::*)()>(&::System::IO::UnmanagedMemoryStream::ReadByte)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x5c038cc;
+  constexpr static std::size_t addrs = 0x5c01710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::IO::UnmanagedMemoryStream::*)(int64_t, ::System::IO::SeekOrigin)>(&::System::IO::UnmanagedMemoryStream::Seek)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5c03a18;
+  constexpr static std::size_t addrs = 0x5c0185c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnmanagedMemoryStream::*)(int64_t)>(&::System::IO::UnmanagedMemoryStream::SetLength)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x5c03b14;
+  constexpr static std::size_t addrs = 0x5c01958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -348,7 +348,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnmanagedMemoryStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::IO::UnmanagedMemoryStream::Write)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x5c03c94;
+  constexpr static std::size_t addrs = 0x5c01ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -361,7 +361,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnmanagedMemoryStream::*)(::System::ReadOnlySpan_1<uint8_t>)>(&::System::IO::UnmanagedMemoryStream::Write)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5c03e54;
+  constexpr static std::size_t addrs = 0x5c01c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -374,7 +374,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnmanagedMemoryStream::*)(::System::ReadOnlySpan_1<uint8_t>)>(&::System::IO::UnmanagedMemoryStream::WriteCore)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x5bf8944;
+  constexpr static std::size_t addrs = 0x5bf6788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -388,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::System::IO::UnmanagedMemoryStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::IO::UnmanagedMemoryStream::WriteAsync)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x5c03f14;
+  constexpr static std::size_t addrs = 0x5c01d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::ValueTask (::System::IO::UnmanagedMemoryStream::*)(
     ::System::ReadOnlyMemory_1<uint8_t>, ::System::Threading::CancellationToken)>(&::System::IO::UnmanagedMemoryStream::WriteAsync)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x5c04224;
+  constexpr static std::size_t addrs = 0x5c02068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -415,7 +415,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::UnmanagedMemoryStream::*)(uint8_t)>(&::System::IO::UnmanagedMemoryStream::WriteByte)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x5c044c0;
+  constexpr static std::size_t addrs = 0x5c02304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

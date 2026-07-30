@@ -150,25 +150,25 @@ public:
   /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Read(::by_ref<T> location);
 
-  /// @brief Method Read, addr 0x5cb8ee0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x5cb6c4c, size 0xc, virtual false, abstract: false, final false
   static inline bool Read(::by_ref<bool> location);
 
-  /// @brief Method Read, addr 0x5cb8ef8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x5cb6c64, size 0xc, virtual false, abstract: false, final false
   static inline int32_t Read(::by_ref<int32_t> location);
 
-  /// @brief Method Read, addr 0x5cb8f10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x5cb6c7c, size 0xc, virtual false, abstract: false, final false
   static inline int64_t Read(::by_ref<int64_t> location);
 
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Write(::by_ref<T> location, T value);
 
-  /// @brief Method Write, addr 0x5cb8eec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x5cb6c58, size 0xc, virtual false, abstract: false, final false
   static inline void Write(::by_ref<bool> location, bool value);
 
-  /// @brief Method Write, addr 0x5cb8f04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x5cb6c70, size 0xc, virtual false, abstract: false, final false
   static inline void Write(::by_ref<int32_t> location, int32_t value);
 
-  /// @brief Method Write, addr 0x5cb8f1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x5cb6c88, size 0xc, virtual false, abstract: false, final false
   static inline void Write(::by_ref<int64_t> location, int64_t value);
 
 protected:

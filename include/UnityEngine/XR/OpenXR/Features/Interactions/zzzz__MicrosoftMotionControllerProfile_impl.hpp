@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::Vector2Control* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::get_joystick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11400;
+  constexpr static std::size_t addrs = 0x6a0f19c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::Vector2Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::set_joystick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11408;
+  constexpr static std::size_t addrs = 0x6a0f1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::Vector2Control* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::get_touchpad)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11410;
+  constexpr static std::size_t addrs = 0x6a0f1ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::Vector2Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::set_touchpad)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11418;
+  constexpr static std::size_t addrs = 0x6a0f1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::get_grip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11420;
+  constexpr static std::size_t addrs = 0x6a0f1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::set_grip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11428;
+  constexpr static std::size_t addrs = 0x6a0f1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::get_gripPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11430;
+  constexpr static std::size_t addrs = 0x6a0f1cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::set_gripPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11438;
+  constexpr static std::size_t addrs = 0x6a0f1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::get_menu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11440;
+  constexpr static std::size_t addrs = 0x6a0f1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::set_menu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11448;
+  constexpr static std::size_t addrs = 0x6a0f1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::get_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11450;
+  constexpr static std::size_t addrs = 0x6a0f1ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::set_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11458;
+  constexpr static std::size_t addrs = 0x6a0f1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::get_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11460;
+  constexpr static std::size_t addrs = 0x6a0f1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::set_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11468;
+  constexpr static std::size_t addrs = 0x6a0f204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::get_joystickClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11470;
+  constexpr static std::size_t addrs = 0x6a0f20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::set_joystickClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11478;
+  constexpr static std::size_t addrs = 0x6a0f214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::get_touchpadClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11480;
+  constexpr static std::size_t addrs = 0x6a0f21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::set_touchpadClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11488;
+  constexpr static std::size_t addrs = 0x6a0f224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -296,7 +296,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::get_touchpadTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11490;
+  constexpr static std::size_t addrs = 0x6a0f22c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::set_touchpadTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11498;
+  constexpr static std::size_t addrs = 0x6a0f234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -327,7 +327,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::Input::PoseControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::get_devicePose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a114a0;
+  constexpr static std::size_t addrs = 0x6a0f23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -342,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)(
     ::UnityEngine::XR::OpenXR::Input::PoseControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::set_devicePose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a114a8;
+  constexpr static std::size_t addrs = 0x6a0f244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -358,7 +358,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::Input::PoseControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::get_pointer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a114b0;
+  constexpr static std::size_t addrs = 0x6a0f24c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)(
     ::UnityEngine::XR::OpenXR::Input::PoseControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::set_pointer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a114b8;
+  constexpr static std::size_t addrs = 0x6a0f254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -389,7 +389,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::get_isTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a114c0;
+  constexpr static std::size_t addrs = 0x6a0f25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -404,7 +404,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::set_isTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a114c8;
+  constexpr static std::size_t addrs = 0x6a0f264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -420,7 +420,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::IntegerControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::get_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a114d0;
+  constexpr static std::size_t addrs = 0x6a0f26c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -435,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::IntegerControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::set_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a114d8;
+  constexpr static std::size_t addrs = 0x6a0f274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -451,7 +451,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::get_devicePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a114e0;
+  constexpr static std::size_t addrs = 0x6a0f27c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -466,7 +466,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::Vector3Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::set_devicePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a114e8;
+  constexpr static std::size_t addrs = 0x6a0f284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -482,7 +482,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::get_deviceRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a114f0;
+  constexpr static std::size_t addrs = 0x6a0f28c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -497,7 +497,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::QuaternionControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::set_deviceRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a114f8;
+  constexpr static std::size_t addrs = 0x6a0f294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -513,7 +513,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::get_pointerPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11500;
+  constexpr static std::size_t addrs = 0x6a0f29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -528,7 +528,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::Vector3Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::set_pointerPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11508;
+  constexpr static std::size_t addrs = 0x6a0f2a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -544,7 +544,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::get_pointerRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11510;
+  constexpr static std::size_t addrs = 0x6a0f2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -559,7 +559,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::QuaternionControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::set_pointerRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11518;
+  constexpr static std::size_t addrs = 0x6a0f2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -575,7 +575,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::Input::HapticControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::get_haptic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11520;
+  constexpr static std::size_t addrs = 0x6a0f2bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -590,7 +590,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)(
     ::UnityEngine::XR::OpenXR::Input::HapticControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::set_haptic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a11528;
+  constexpr static std::size_t addrs = 0x6a0f2c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -605,7 +605,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::FinishSetup)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x6a11530;
+  constexpr static std::size_t addrs = 0x6a0f2cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -620,7 +620,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile_WMRSpatialController::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6a1196c;
+  constexpr static std::size_t addrs = 0x6a0f708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1162,7 +1162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile::RegisterDeviceLayout)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6a0f5e0;
+  constexpr static std::size_t addrs = 0x6a0d37c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1177,7 +1177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile::UnregisterDeviceLayout)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6a0f728;
+  constexpr static std::size_t addrs = 0x6a0d4c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1192,7 +1192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile::GetDeviceLayoutName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a0f798;
+  constexpr static std::size_t addrs = 0x6a0d534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1207,7 +1207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile::RegisterActionMapsWithRuntime)> {
   constexpr static std::size_t size = 0x1bc8;
-  constexpr static std::size_t addrs = 0x6a0f7dc;
+  constexpr static std::size_t addrs = 0x6a0d578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1222,7 +1222,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftMotionControllerProfile::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6a113a4;
+  constexpr static std::size_t addrs = 0x6a0f140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

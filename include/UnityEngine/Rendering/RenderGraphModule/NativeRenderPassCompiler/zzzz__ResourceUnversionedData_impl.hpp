@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::*)(
     Il2CppObject*, ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle)>(&::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::GetName)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x67f7670;
+  constexpr static std::size_t addrs = 0x67f540c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo>,
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>, bool)>(&::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x67f7694;
+  constexpr static std::size_t addrs = 0x67f5430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferDesc>, bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x67f76ec;
+  constexpr static std::size_t addrs = 0x67f5488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureDesc>, bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x67f7734;
+  constexpr static std::size_t addrs = 0x67f54d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::ResourceUnversionedData::InitializeNullResource)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67f777c;
+  constexpr static std::size_t addrs = 0x67f5518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

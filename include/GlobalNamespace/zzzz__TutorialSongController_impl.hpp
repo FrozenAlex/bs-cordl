@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController_InitData::*)(float_t, ::GlobalNamespace::BeatmapData*)>(
     &::GlobalNamespace::TutorialSongController_InitData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59f3e1c;
+  constexpr static std::size_t addrs = 0x59f2510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialSongController_InitData*>(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::TutorialSongController_SequenceCutInfo::*)()>(
     &::GlobalNamespace::TutorialSongController_SequenceCutInfo::get_isFinished)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59f38b0;
+  constexpr static std::size_t addrs = 0x59f1fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::TutorialSongController_SequenceCutInfo::*)()>(
     &::GlobalNamespace::TutorialSongController_SequenceCutInfo::get_allIsOK)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x59f38c8;
+  constexpr static std::size_t addrs = 0x59f1fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialSongController_SequenceCutInfo*>(), { "get_allIsOK", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::TutorialSongController_SequenceCutInfo::*)()>(
     &::GlobalNamespace::TutorialSongController_SequenceCutInfo::get_missedAny)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x59f3a74;
+  constexpr static std::size_t addrs = 0x59f2168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController_SequenceCutInfo::*)(
     int32_t, ::GlobalNamespace::SequenceCutInfo_TutorialSongController_NoteType)>(&::GlobalNamespace::TutorialSongController_SequenceCutInfo::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59f3b40;
+  constexpr static std::size_t addrs = 0x59f2234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController_SequenceCutInfo::*)(::by_ref<::GlobalNamespace::NoteCutInfo>)>(
     &::GlobalNamespace::TutorialSongController_SequenceCutInfo::MarkCut)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x59f37f8;
+  constexpr static std::size_t addrs = 0x59f1eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialSongController_SequenceCutInfo*>(),
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController_SequenceCutInfo::*)()>(&::GlobalNamespace::TutorialSongController_SequenceCutInfo::MarkMiss)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x59f3a4c;
+  constexpr static std::size_t addrs = 0x59f2140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialSongController_SequenceCutInfo*>(), { "MarkMiss", {}, {} })));
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController_TutorialObjectSpawnData::*)(::GlobalNamespace::Signal*, int32_t, int32_t, int32_t)>(
     &::GlobalNamespace::TutorialSongController_TutorialObjectSpawnData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x59f3e28;
+  constexpr static std::size_t addrs = 0x59f251c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -371,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController_TutorialJumpingNoteSpawnData::*)(
     ::GlobalNamespace::Signal*, int32_t, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer)>(&::GlobalNamespace::TutorialSongController_TutorialJumpingNoteSpawnData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x59f3e38;
+  constexpr static std::size_t addrs = 0x59f252c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialSongController_TutorialJumpingNoteSpawnData*>(),
@@ -417,7 +417,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::Signal*, int32_t, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer, ::GlobalNamespace::NoteCutDirection, ::GlobalNamespace::ColorType)>(
     &::GlobalNamespace::TutorialSongController_TutorialBasicNoteSpawnData::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x59f2d7c;
+  constexpr static std::size_t addrs = 0x59f1470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -481,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::TutorialSongController_TutorialChainSpawnData::*)()>(
     &::GlobalNamespace::TutorialSongController_TutorialChainSpawnData::get_headLineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59f3e48;
+  constexpr static std::size_t addrs = 0x59f253c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -496,7 +496,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::Signal*, int32_t, int32_t, int32_t, ::GlobalNamespace::ColorType, ::GlobalNamespace::NoteLineLayer, ::GlobalNamespace::NoteCutDirection, int32_t,
     ::GlobalNamespace::NoteLineLayer, int32_t, float_t, float_t)>(&::GlobalNamespace::TutorialSongController_TutorialChainSpawnData::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x59f3e50;
+  constexpr static std::size_t addrs = 0x59f2544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -642,7 +642,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::Signal*, ::GlobalNamespace::TutorialSongController_TutorialBasicNoteSpawnData*, ::GlobalNamespace::TutorialSongController_TutorialBasicNoteSpawnData*)>(
     &::GlobalNamespace::TutorialSongController_TutorialArcSpawnData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x59f3e80;
+  constexpr static std::size_t addrs = 0x59f2574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -701,7 +701,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController_TutorialBombNoteSpawnData::*)(
     ::GlobalNamespace::Signal*, int32_t, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer)>(&::GlobalNamespace::TutorialSongController_TutorialBombNoteSpawnData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x59f2d90;
+  constexpr static std::size_t addrs = 0x59f1484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialSongController_TutorialBombNoteSpawnData*>(),
@@ -734,7 +734,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController_TutorialObstacleSpawnData::*)(
     ::GlobalNamespace::Signal*, int32_t, int32_t, int32_t, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer)>(&::GlobalNamespace::TutorialSongController_TutorialObstacleSpawnData::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x59f2da0;
+  constexpr static std::size_t addrs = 0x59f1494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -805,7 +805,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController::*)()>(&::GlobalNamespace::TutorialSongController::Awake)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x59f2924;
+  constexpr static std::size_t addrs = 0x59f1018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialSongController*>(), { "Awake", {}, {} })));
@@ -817,7 +817,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController::*)()>(&::GlobalNamespace::TutorialSongController::Start)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x59f2db4;
+  constexpr static std::size_t addrs = 0x59f14a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialSongController*>(), { "Start", {}, {} })));
@@ -829,7 +829,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController::*)()>(&::GlobalNamespace::TutorialSongController::OnDestroy)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x59f2f24;
+  constexpr static std::size_t addrs = 0x59f1618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialSongController*>(), { "OnDestroy", {}, {} })));
@@ -841,7 +841,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController::*)(float_t)>(&::GlobalNamespace::TutorialSongController::StartSong)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x59f1d50;
+  constexpr static std::size_t addrs = 0x59f0444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -854,7 +854,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController::*)()>(&::GlobalNamespace::TutorialSongController::StopSong)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x59f365c;
+  constexpr static std::size_t addrs = 0x59f1d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -867,7 +867,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController::*)()>(&::GlobalNamespace::TutorialSongController::PauseSong)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x59f3684;
+  constexpr static std::size_t addrs = 0x59f1d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -880,7 +880,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController::*)()>(&::GlobalNamespace::TutorialSongController::ResumeSong)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59f36ac;
+  constexpr static std::size_t addrs = 0x59f1da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -894,7 +894,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController::*)(::GlobalNamespace::NoteController*, ::by_ref<::GlobalNamespace::NoteCutInfo>)>(
     &::GlobalNamespace::TutorialSongController::HandleNoteWasCut)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x59f36c4;
+  constexpr static std::size_t addrs = 0x59f1db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -909,7 +909,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::TutorialSongController::HandleNoteWasMissed)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x59f39ac;
+  constexpr static std::size_t addrs = 0x59f20a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -924,7 +924,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::TutorialSongController::HandleObstacleDidPassThreeQuartersOfMove2)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59f3a5c;
+  constexpr static std::size_t addrs = 0x59f2150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -939,7 +939,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController::*)(::GlobalNamespace::NoteCutInfo)>(
     &::GlobalNamespace::TutorialSongController::RaiseSignalsForIndividualCut)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x59f3848;
+  constexpr static std::size_t addrs = 0x59f1f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -953,7 +953,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController::*)()>(&::GlobalNamespace::TutorialSongController::RaiseSignalForIncorrectCutSequence)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x59f3904;
+  constexpr static std::size_t addrs = 0x59f1ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -966,7 +966,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController::*)(float_t, int32_t)>(&::GlobalNamespace::TutorialSongController::UpdateBeatmapData)> {
   constexpr static std::size_t size = 0x5e0;
-  constexpr static std::size_t addrs = 0x59f307c;
+  constexpr static std::size_t addrs = 0x59f1770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -979,7 +979,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::TutorialSongController::*)(int32_t)>(&::GlobalNamespace::TutorialSongController::GetNextBeatmapObjectBeat)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x59f3a84;
+  constexpr static std::size_t addrs = 0x59f2178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -992,7 +992,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TutorialSongController::*)(int32_t)>(&::GlobalNamespace::TutorialSongController::GetTimeFromBeat)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x59f3af0;
+  constexpr static std::size_t addrs = 0x59f21e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1007,7 +1007,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::GlobalNamespace::ObstacleData* (::GlobalNamespace::TutorialSongController::*)(float_t, int32_t, ::GlobalNamespace::TutorialSongController_TutorialObstacleSpawnData*)>(
         &::GlobalNamespace::TutorialSongController::CreateObstacleData)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x59f3b78;
+  constexpr static std::size_t addrs = 0x59f226c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1025,7 +1025,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::GlobalNamespace::NoteData* (::GlobalNamespace::TutorialSongController::*)(float_t, int32_t, ::GlobalNamespace::TutorialSongController_TutorialBasicNoteSpawnData*)>(
         &::GlobalNamespace::TutorialSongController::CreateBasicNoteData)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x59f3b18;
+  constexpr static std::size_t addrs = 0x59f220c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1043,7 +1043,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::GlobalNamespace::NoteData* (::GlobalNamespace::TutorialSongController::*)(float_t, int32_t, ::GlobalNamespace::TutorialSongController_TutorialBombNoteSpawnData*)>(
         &::GlobalNamespace::TutorialSongController::CreateBombNoteData)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59f3b58;
+  constexpr static std::size_t addrs = 0x59f224c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1060,7 +1060,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::SliderData*> (::GlobalNamespace::TutorialSongController::*)(
     float_t, float_t, int32_t, ::GlobalNamespace::TutorialSongController_TutorialChainSpawnData*)>(&::GlobalNamespace::TutorialSongController::CreateChainData)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x59f3c5c;
+  constexpr static std::size_t addrs = 0x59f2350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1078,7 +1078,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SliderData* (::GlobalNamespace::TutorialSongController::*)(::GlobalNamespace::NoteData*, ::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::TutorialSongController::CreateArcData)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x59f3d8c;
+  constexpr static std::size_t addrs = 0x59f2480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1092,7 +1092,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialSongController::*)()>(&::GlobalNamespace::TutorialSongController::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x59f3e00;
+  constexpr static std::size_t addrs = 0x59f24f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialSongController*>(), { ".ctor", {}, {} })));

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::Polyglot::LocalizationLanguage (::GlobalNamespace::LanguageSettingsController::*)()>(
     &::GlobalNamespace::LanguageSettingsController::get_language)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a0efa4;
+  constexpr static std::size_t addrs = 0x5a0d3d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LanguageSettingsController*>(), { "get_language", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LanguageSettingsController::*)(::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::GlobalNamespace::LanguageSettingsController::GetInitValues)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x5a0efac;
+  constexpr static std::size_t addrs = 0x5a0d3d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LanguageSettingsController::*)(int32_t)>(&::GlobalNamespace::LanguageSettingsController::ApplyValue)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5a0f174;
+  constexpr static std::size_t addrs = 0x5a0d5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LanguageSettingsController::*)(int32_t)>(&::GlobalNamespace::LanguageSettingsController::TextForValue)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5a0f258;
+  constexpr static std::size_t addrs = 0x5a0d684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LanguageSettingsController::*)()>(&::GlobalNamespace::LanguageSettingsController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a0f2c0;
+  constexpr static std::size_t addrs = 0x5a0d6ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LanguageSettingsController*>(), { ".ctor", {}, {} })));

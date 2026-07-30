@@ -104,16 +104,16 @@ public:
   /// @brief Field values, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values)) ::System::Collections::Generic::List_1<int64_t>* values;
 
-  /// @brief Method Add, addr 0x6149e98, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6147c34, size 0x11c, virtual false, abstract: false, final false
   static inline void Add(::System::Type* type, ::StringW localName);
 
-  /// @brief Method GetBaseContractName, addr 0x6149fb4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetBaseContractName, addr 0x6147d50, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlQualifiedName* GetBaseContractName(::System::Type* type);
 
-  /// @brief Method ImportBaseType, addr 0x614a054, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ImportBaseType, addr 0x6147df0, size 0x8c, virtual false, abstract: false, final false
   inline void ImportBaseType(::System::Type* baseType);
 
-  /// @brief Method ImportDataMembers, addr 0x614a1dc, size 0x7a4, virtual false, abstract: false, final false
+  /// @brief Method ImportDataMembers, addr 0x6147f78, size 0x7a4, virtual false, abstract: false, final false
   inline void ImportDataMembers();
 
   static inline ::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper* New_ctor(::System::Type* type);
@@ -160,33 +160,33 @@ public:
 
   constexpr void __cordl_internal_set_values(::System::Collections::Generic::List_1<int64_t>* value);
 
-  /// @brief Method .ctor, addr 0x6148b20, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61468bc, size 0x3fc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Type*>* getStaticF_nameToType();
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Xml::XmlQualifiedName*>* getStaticF_typeToName();
 
-  /// @brief Method get_ChildElementNames, addr 0x614a9a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChildElementNames, addr 0x6148744, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::XmlDictionaryString*> get_ChildElementNames();
 
-  /// @brief Method get_IsFlags, addr 0x614a990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsFlags, addr 0x614872c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsFlags();
 
-  /// @brief Method get_IsULong, addr 0x614a9a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsULong, addr 0x614873c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsULong();
 
-  /// @brief Method get_Members, addr 0x614a980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Members, addr 0x614871c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Runtime::Serialization::DataMember*>* get_Members();
 
-  /// @brief Method get_Values, addr 0x614a988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Values, addr 0x6148724, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<int64_t>* get_Values();
 
   static inline void setStaticF_nameToType(::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Type*>* value);
 
   static inline void setStaticF_typeToName(::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Xml::XmlQualifiedName*>* value);
 
-  /// @brief Method set_IsFlags, addr 0x614a998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsFlags, addr 0x6148734, size 0x8, virtual false, abstract: false, final false
   inline void set_IsFlags(bool value);
 
 protected:
@@ -204,7 +204,7 @@ public:
   EnumDataContract_EnumDataContractCriticalHelper(EnumDataContract_EnumDataContractCriticalHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16997 };
 
   /// @brief Field baseContractName, offset: 0x48, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ___baseContractName;
@@ -271,27 +271,27 @@ public:
   /// @brief Field helper, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_helper, put = __cordl_internal_set_helper)) ::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper* helper;
 
-  /// @brief Method Equals, addr 0x614989c, size 0x2e8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6147638, size 0x2e8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other, ::System::Collections::Generic::Dictionary_2<::System::Runtime::Serialization::DataContractPairKey*, ::System::Object*>* checkedContracts);
 
-  /// @brief Method GetHashCode, addr 0x6149b84, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6147920, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Runtime::Serialization::EnumDataContract* New_ctor(::System::Type* type);
 
-  /// @brief Method ReadEnumValue, addr 0x61493f4, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method ReadEnumValue, addr 0x6147190, size 0x2c8, virtual false, abstract: false, final false
   inline ::System::Object* ReadEnumValue(::System::Runtime::Serialization::XmlReaderDelegator* reader);
 
-  /// @brief Method ReadEnumValue, addr 0x61496bc, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method ReadEnumValue, addr 0x6147458, size 0x1e0, virtual false, abstract: false, final false
   inline int64_t ReadEnumValue(::StringW value, int32_t index, int32_t count);
 
-  /// @brief Method ReadXmlValue, addr 0x6149b9c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ReadXmlValue, addr 0x6147938, size 0x38, virtual true, abstract: false, final false
   inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context);
 
-  /// @brief Method WriteEnumValue, addr 0x6148f9c, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method WriteEnumValue, addr 0x6146d38, size 0x458, virtual false, abstract: false, final false
   inline void WriteEnumValue(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Object* value);
 
-  /// @brief Method WriteXmlValue, addr 0x6149b98, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlValue, addr 0x6147934, size 0x4, virtual true, abstract: false, final false
   inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* xmlWriter, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context);
 
   constexpr ::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper* const& __cordl_internal_get_helper() const;
@@ -300,25 +300,25 @@ public:
 
   constexpr void __cordl_internal_set_helper(::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper* value);
 
-  /// @brief Method .ctor, addr 0x6143180, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6140f1c, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_CanContainReferences, addr 0x6148f94, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanContainReferences, addr 0x6146d30, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanContainReferences();
 
-  /// @brief Method get_ChildElementNames, addr 0x6148f7c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ChildElementNames, addr 0x6146d18, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::XmlDictionaryString*> get_ChildElementNames();
 
-  /// @brief Method get_IsFlags, addr 0x6148f4c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsFlags, addr 0x6146ce8, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsFlags();
 
-  /// @brief Method get_IsULong, addr 0x6148f64, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsULong, addr 0x6146d00, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsULong();
 
-  /// @brief Method get_Members, addr 0x6148f1c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Members, addr 0x6146cb8, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Runtime::Serialization::DataMember*>* get_Members();
 
-  /// @brief Method get_Values, addr 0x6148f34, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Values, addr 0x6146cd0, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<int64_t>* get_Values();
 
 protected:
@@ -336,7 +336,7 @@ public:
   EnumDataContract(EnumDataContract const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17000 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16998 };
 
   /// @brief Field helper, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::Serialization::EnumDataContract_EnumDataContractCriticalHelper* ___helper;

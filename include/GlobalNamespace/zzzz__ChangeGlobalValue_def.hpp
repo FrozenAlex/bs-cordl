@@ -42,7 +42,7 @@ public:
   constexpr ChangeGlobalValue_ShaderValue_1(::StringW key, T value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6748 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6744 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -75,7 +75,7 @@ public:
 
   static inline ::GlobalNamespace::ChangeGlobalValue* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x5914cc0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x59131e0, size 0xe0, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::ArrayW<::GlobalNamespace::ChangeGlobalValue_ShaderValue_1<::UnityEngine::Color>> const& __cordl_internal_get__colorValues() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__floatValues(::ArrayW<::GlobalNamespace::ChangeGlobalValue_ShaderValue_1<float_t>> value);
 
-  /// @brief Method .ctor, addr 0x5914da0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59132c0, size 0x118, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +108,7 @@ public:
   ChangeGlobalValue(ChangeGlobalValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6749 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6745 };
 
   /// @brief Field _floatValues, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::ChangeGlobalValue_ShaderValue_1<float_t>> ____floatValues;

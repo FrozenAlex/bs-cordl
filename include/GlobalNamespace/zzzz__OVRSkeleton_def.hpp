@@ -131,46 +131,46 @@ public:
 
   __declspec(property(get = get_SkeletonChangedCount, put = set_SkeletonChangedCount)) int32_t SkeletonChangedCount;
 
-  /// @brief Method get_BoneRotations, addr 0x5f0faf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BoneRotations, addr 0x5f0d860, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::OVRPlugin_Quatf> get_BoneRotations();
 
-  /// @brief Method get_BoneTranslations, addr 0x5f0fb24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BoneTranslations, addr 0x5f0d890, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::OVRPlugin_Vector3f> get_BoneTranslations();
 
-  /// @brief Method get_IsDataHighConfidence, addr 0x5f0fb14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataHighConfidence, addr 0x5f0d880, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
-  /// @brief Method get_IsDataValid, addr 0x5f0fb04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataValid, addr 0x5f0d870, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
-  /// @brief Method get_RootPose, addr 0x5f0fab4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_RootPose, addr 0x5f0d820, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_Posef get_RootPose();
 
-  /// @brief Method get_RootScale, addr 0x5f0fae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RootScale, addr 0x5f0d850, size 0x8, virtual false, abstract: false, final false
   inline float_t get_RootScale();
 
-  /// @brief Method get_SkeletonChangedCount, addr 0x5f0fb34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SkeletonChangedCount, addr 0x5f0d8a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SkeletonChangedCount();
 
-  /// @brief Method set_BoneRotations, addr 0x5f0fafc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BoneRotations, addr 0x5f0d868, size 0x8, virtual false, abstract: false, final false
   inline void set_BoneRotations(::ArrayW<::GlobalNamespace::OVRPlugin_Quatf> value);
 
-  /// @brief Method set_BoneTranslations, addr 0x5f0fb2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BoneTranslations, addr 0x5f0d898, size 0x8, virtual false, abstract: false, final false
   inline void set_BoneTranslations(::ArrayW<::GlobalNamespace::OVRPlugin_Vector3f> value);
 
-  /// @brief Method set_IsDataHighConfidence, addr 0x5f0fb1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataHighConfidence, addr 0x5f0d888, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
-  /// @brief Method set_IsDataValid, addr 0x5f0fb0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataValid, addr 0x5f0d878, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
-  /// @brief Method set_RootPose, addr 0x5f0fac8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_RootPose, addr 0x5f0d834, size 0x1c, virtual false, abstract: false, final false
   inline void set_RootPose(::GlobalNamespace::OVRPlugin_Posef value);
 
-  /// @brief Method set_RootScale, addr 0x5f0faec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RootScale, addr 0x5f0d858, size 0x8, virtual false, abstract: false, final false
   inline void set_RootScale(float_t value);
 
-  /// @brief Method set_SkeletonChangedCount, addr 0x5f0fb3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SkeletonChangedCount, addr 0x5f0d8a8, size 0x8, virtual false, abstract: false, final false
   inline void set_SkeletonChangedCount(int32_t value);
 
   // Ctor Parameters []
@@ -1315,78 +1315,78 @@ public:
   /// @brief Field wristFixupRotation, offset 0x88, size 0x10
   __declspec(property(get = __cordl_internal_get_wristFixupRotation, put = __cordl_internal_set_wristFixupRotation)) ::UnityEngine::Quaternion wristFixupRotation;
 
-  /// @brief Method Awake, addr 0x5f0c18c, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x5f09ef8, size 0x23c, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method BoneLabelFromBoneId, addr 0x5f0d7a0, size 0x1144, virtual false, abstract: false, final false
+  /// @brief Method BoneLabelFromBoneId, addr 0x5f0b50c, size 0x1144, virtual false, abstract: false, final false
   static inline ::StringW BoneLabelFromBoneId(::GlobalNamespace::OVRSkeleton_SkeletonType skeletonType, ::GlobalNamespace::OVRSkeleton_BoneId boneId);
 
-  /// @brief Method FixedUpdate, addr 0x5f0f70c, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x5f0d478, size 0x2b0, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method GetBoneTransform, addr 0x5f0d004, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBoneTransform, addr 0x5f0ad70, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> GetBoneTransform(::GlobalNamespace::OVRSkeleton_BoneId boneId);
 
-  /// @brief Method GetCurrentEndBoneId, addr 0x5f0f9cc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentEndBoneId, addr 0x5f0d738, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSkeleton_BoneId GetCurrentEndBoneId();
 
-  /// @brief Method GetCurrentMaxSkinnableBoneId, addr 0x5f0f9f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentMaxSkinnableBoneId, addr 0x5f0d75c, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSkeleton_BoneId GetCurrentMaxSkinnableBoneId();
 
-  /// @brief Method GetCurrentNumBones, addr 0x5f0fa14, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentNumBones, addr 0x5f0d780, size 0x40, virtual false, abstract: false, final false
   inline int32_t GetCurrentNumBones();
 
-  /// @brief Method GetCurrentNumSkinnableBones, addr 0x5f0fa54, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentNumSkinnableBones, addr 0x5f0d7c0, size 0x40, virtual false, abstract: false, final false
   inline int32_t GetCurrentNumSkinnableBones();
 
-  /// @brief Method GetCurrentStartBoneId, addr 0x5f0f9bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentStartBoneId, addr 0x5f0d728, size 0x10, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSkeleton_BoneId GetCurrentStartBoneId();
 
-  /// @brief Method GetRequiredBodyJointSet, addr 0x5f0c0f0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetRequiredBodyJointSet, addr 0x5f09e5c, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_BodyJointSet GetRequiredBodyJointSet();
 
-  /// @brief Method GetSkeletonType, addr 0x5f0bf68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSkeletonType, addr 0x5f09cd4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSkeleton_SkeletonType GetSkeletonType();
 
-  /// @brief Method Initialize, addr 0x5f0c054, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5f09dc0, size 0x9c, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InitializeBindPose, addr 0x5f0e8f4, size 0x76c, virtual true, abstract: false, final false
+  /// @brief Method InitializeBindPose, addr 0x5f0c660, size 0x76c, virtual true, abstract: false, final false
   inline void InitializeBindPose();
 
-  /// @brief Method InitializeBones, addr 0x5f0d00c, size 0x6e8, virtual true, abstract: false, final false
+  /// @brief Method InitializeBones, addr 0x5f0ad78, size 0x6e8, virtual true, abstract: false, final false
   inline void InitializeBones();
 
-  /// @brief Method InitializeCapsules, addr 0x5f0c678, size 0x98c, virtual false, abstract: false, final false
+  /// @brief Method InitializeCapsules, addr 0x5f0a3e4, size 0x98c, virtual false, abstract: false, final false
   inline void InitializeCapsules();
 
-  /// @brief Method IsBodySkeleton, addr 0x5f0e8e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsBodySkeleton, addr 0x5f0c650, size 0x10, virtual false, abstract: false, final false
   static inline bool IsBodySkeleton(::GlobalNamespace::OVRSkeleton_SkeletonType type);
 
-  /// @brief Method IsHandSkeleton, addr 0x5f0c668, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsHandSkeleton, addr 0x5f0a3d4, size 0x10, virtual false, abstract: false, final false
   static inline bool IsHandSkeleton(::GlobalNamespace::OVRSkeleton_SkeletonType type);
 
-  /// @brief Method IsValidBone, addr 0x5f0c10c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsValidBone, addr 0x5f09e78, size 0x70, virtual false, abstract: false, final false
   inline bool IsValidBone(::GlobalNamespace::OVRSkeleton_BoneId bone);
 
   static inline ::GlobalNamespace::OVRSkeleton* New_ctor();
 
-  /// @brief Method SearchSkeletonDataProvider, addr 0x5f0c3c8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SearchSkeletonDataProvider, addr 0x5f0a134, size 0x130, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSkeleton_IOVRSkeletonDataProvider* SearchSkeletonDataProvider();
 
-  /// @brief Method SetSkeletonType, addr 0x5f0bf70, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method SetSkeletonType, addr 0x5f09cdc, size 0xe4, virtual true, abstract: false, final false
   inline void SetSkeletonType(::GlobalNamespace::OVRSkeleton_SkeletonType type);
 
-  /// @brief Method ShouldInitialize, addr 0x5f0c5a0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ShouldInitialize, addr 0x5f0a30c, size 0xc8, virtual false, abstract: false, final false
   inline bool ShouldInitialize();
 
-  /// @brief Method Start, addr 0x5f0c4f8, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x5f0a264, size 0xa8, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5f0f10c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x5f0ce78, size 0x4, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateSkeleton, addr 0x5f0f110, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method UpdateSkeleton, addr 0x5f0ce7c, size 0x5fc, virtual false, abstract: false, final false
   inline void UpdateSkeleton();
 
   constexpr ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* const& __cordl_internal_get__BindPoses_k__BackingField() const;
@@ -1515,49 +1515,49 @@ public:
 
   constexpr void __cordl_internal_set_wristFixupRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method .ctor, addr 0x5f0fa94, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f0d800, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BindPoses, addr 0x5f0bf48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BindPoses, addr 0x5f09cb4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* get_BindPoses();
 
-  /// @brief Method get_Bones, addr 0x5f0bf38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Bones, addr 0x5f09ca4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* get_Bones();
 
-  /// @brief Method get_Capsules, addr 0x5f0bf58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Capsules, addr 0x5f09cc4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBoneCapsule*>* get_Capsules();
 
-  /// @brief Method get_IsDataHighConfidence, addr 0x5f0bf28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataHighConfidence, addr 0x5f09c94, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
-  /// @brief Method get_IsDataValid, addr 0x5f0bf18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataValid, addr 0x5f09c84, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
-  /// @brief Method get_IsInitialized, addr 0x5f0bf08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInitialized, addr 0x5f09c74, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
 
-  /// @brief Method get_SkeletonChangedCount, addr 0x5f0c17c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SkeletonChangedCount, addr 0x5f09ee8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SkeletonChangedCount();
 
-  /// @brief Method set_BindPoses, addr 0x5f0bf50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BindPoses, addr 0x5f09cbc, size 0x8, virtual false, abstract: false, final false
   inline void set_BindPoses(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* value);
 
-  /// @brief Method set_Bones, addr 0x5f0bf40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Bones, addr 0x5f09cac, size 0x8, virtual false, abstract: false, final false
   inline void set_Bones(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* value);
 
-  /// @brief Method set_Capsules, addr 0x5f0bf60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Capsules, addr 0x5f09ccc, size 0x8, virtual false, abstract: false, final false
   inline void set_Capsules(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBoneCapsule*>* value);
 
-  /// @brief Method set_IsDataHighConfidence, addr 0x5f0bf30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataHighConfidence, addr 0x5f09c9c, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
-  /// @brief Method set_IsDataValid, addr 0x5f0bf20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataValid, addr 0x5f09c8c, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
-  /// @brief Method set_IsInitialized, addr 0x5f0bf10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsInitialized, addr 0x5f09c7c, size 0x8, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
-  /// @brief Method set_SkeletonChangedCount, addr 0x5f0c184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SkeletonChangedCount, addr 0x5f09ef0, size 0x8, virtual false, abstract: false, final false
   inline void set_SkeletonChangedCount(int32_t value);
 
 protected:

@@ -44,7 +44,7 @@ public:
 
   static inline ::BeatSaber::Haptics::HapticFeedbackManager* New_ctor();
 
-  /// @brief Method PlayHapticFeedback, addr 0x3296b68, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method PlayHapticFeedback, addr 0x3293e54, size 0x170, virtual false, abstract: false, final false
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::BeatSaber::Haptics::HapticPresetSO* hapticPreset);
 
   constexpr ::BeatSaber::Haptics::IHapticFeedbackPlayer* const& __cordl_internal_get__advancedHapticFeedbackPlayer() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_hapticFeedbackEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x3296db8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32940a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -83,7 +83,7 @@ public:
   HapticFeedbackManager(HapticFeedbackManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23112 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23110 };
 
   /// @brief Field _rumbleHapticFeedbackPlayer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::BeatSaber::Haptics::RumbleHapticFeedbackPlayer> ____rumbleHapticFeedbackPlayer;

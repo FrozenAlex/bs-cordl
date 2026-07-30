@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Graphic> (::UnityEngine::UI::BaseMeshEffect::*)()>(&::UnityEngine::UI::BaseMeshEffect::get_graphic)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6e10290;
+  constexpr static std::size_t addrs = 0x6e0bc94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::BaseMeshEffect*>(), { "get_graphic", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::BaseMeshEffect::*)()>(&::UnityEngine::UI::BaseMeshEffect::OnEnable)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6e1032c;
+  constexpr static std::size_t addrs = 0x6e0bd30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::BaseMeshEffect::*)()>(&::UnityEngine::UI::BaseMeshEffect::OnDisable)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6e103cc;
+  constexpr static std::size_t addrs = 0x6e0bdd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::BaseMeshEffect::*)()>(&::UnityEngine::UI::BaseMeshEffect::OnDidApplyAnimationProperties)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6e1046c;
+  constexpr static std::size_t addrs = 0x6e0be70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::BaseMeshEffect::*)(::UnityEngine::Mesh*)>(&::UnityEngine::UI::BaseMeshEffect::ModifyMesh)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6e1050c;
+  constexpr static std::size_t addrs = 0x6e0bf10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::BaseMeshEffect::*)()>(&::UnityEngine::UI::BaseMeshEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e10680;
+  constexpr static std::size_t addrs = 0x6e0c084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::BaseMeshEffect*>(), { ".ctor", {}, {} })));

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Hashtable* (*)()>(&::System::Net::DigestClient::get_Cache)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6425964;
+  constexpr static std::size_t addrs = 0x6423700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestClient*>(), { "get_Cache", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::System::Net::DigestClient::CheckExpired)> {
   constexpr static std::size_t size = 0x7f0;
-  constexpr static std::size_t addrs = 0x6425ac8;
+  constexpr static std::size_t addrs = 0x6423864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestClient*>(), { "CheckExpired", {}, { ::i2c::type_of<int32_t>() } })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Authorization* (::System::Net::DigestClient::*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::System::Net::DigestClient::Authenticate)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x64262b8;
+  constexpr static std::size_t addrs = 0x6424054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Authorization* (::System::Net::DigestClient::*)(::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::System::Net::DigestClient::PreAuthenticate)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x6426568;
+  constexpr static std::size_t addrs = 0x6424304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::DigestClient::*)()>(&::System::Net::DigestClient::get_AuthenticationType)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64266e8;
+  constexpr static std::size_t addrs = 0x6424484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestClient*>(), { "get_AuthenticationType", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::DigestClient::*)()>(&::System::Net::DigestClient::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6421ce0;
+  constexpr static std::size_t addrs = 0x641fa7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::DigestClient*>(), { ".ctor", {}, {} })));

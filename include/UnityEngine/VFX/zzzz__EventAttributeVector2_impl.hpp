@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::EventAttributeVector2___c::*)()>(&::UnityEngine::VFX::EventAttributeVector2___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69cd7ec;
+  constexpr static std::size_t addrs = 0x69cb588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::EventAttributeVector2___c*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::EventAttributeVector2___c::*)(::UnityEngine::VFX::VFXEventAttribute*, int32_t)>(
     &::UnityEngine::VFX::EventAttributeVector2___c::__ctor_b__0_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x69cd7f0;
+  constexpr static std::size_t addrs = 0x69cb58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::EventAttributeVector2___c::*)(::UnityEngine::VFX::VFXEventAttribute*, int32_t, ::UnityEngine::Vector2)>(
     &::UnityEngine::VFX::EventAttributeVector2___c::__ctor_b__0_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x69cd80c;
+  constexpr static std::size_t addrs = 0x69cb5a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::EventAttributeVector2::*)()>(&::UnityEngine::VFX::EventAttributeVector2::_ctor)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x69cd618;
+  constexpr static std::size_t addrs = 0x69cb3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::EventAttributeVector2*>(), { ".ctor", {}, {} })));

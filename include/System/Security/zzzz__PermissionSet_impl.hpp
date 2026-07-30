@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::PermissionSet::*)()>(&::System::Security::PermissionSet::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5aecf84;
+  constexpr static std::size_t addrs = 0x5aeadc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::PermissionSet*>(), { ".ctor", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::PermissionSet::*)(::System::Security::Permissions::PermissionState)>(&::System::Security::PermissionSet::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5aed064;
+  constexpr static std::size_t addrs = 0x5aeaea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::PermissionSet::*)(::System::Security::IPermission*)>(&::System::Security::PermissionSet::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5aecc74;
+  constexpr static std::size_t addrs = 0x5aeaab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::PermissionSet::*)(::System::Array*, int32_t)>(&::System::Security::PermissionSet::CopyTo)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x5aed8a8;
+  constexpr static std::size_t addrs = 0x5aeb6ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::PermissionSet::*)()>(&::System::Security::PermissionSet::Demand)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x5aeda04;
+  constexpr static std::size_t addrs = 0x5aeb848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::PermissionSet*>(), { "Demand", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::PermissionSet::*)(int32_t)>(&::System::Security::PermissionSet::CasOnlyDemand)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5aeccc0;
+  constexpr static std::size_t addrs = 0x5aeab04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Security::PermissionSet::*)()>(&::System::Security::PermissionSet::GetEnumerator)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5aedfb8;
+  constexpr static std::size_t addrs = 0x5aebdfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::PermissionSet*>(), { "GetEnumerator", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::PermissionSet::*)()>(&::System::Security::PermissionSet::IsEmpty)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x5aedc38;
+  constexpr static std::size_t addrs = 0x5aeba7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::PermissionSet*>(), { "IsEmpty", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::PermissionSet::*)()>(&::System::Security::PermissionSet::IsUnrestricted)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5aedfa8;
+  constexpr static std::size_t addrs = 0x5aebdec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::PermissionSet*>(), { "IsUnrestricted", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::PermissionSet::*)()>(&::System::Security::PermissionSet::ToString)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5aedfd8;
+  constexpr static std::size_t addrs = 0x5aebe1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::SecurityElement* (::System::Security::PermissionSet::*)()>(&::System::Security::PermissionSet::ToXml)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x5aed1c0;
+  constexpr static std::size_t addrs = 0x5aeb004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::PermissionSet::*)()>(&::System::Security::PermissionSet::get_Count)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5aee004;
+  constexpr static std::size_t addrs = 0x5aebe48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::PermissionSet::*)()>(&::System::Security::PermissionSet::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5aee024;
+  constexpr static std::size_t addrs = 0x5aebe68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Security::PermissionSet::*)()>(&::System::Security::PermissionSet::get_SyncRoot)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5aee044;
+  constexpr static std::size_t addrs = 0x5aebe88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::PermissionSet::*)(::System::Object*)>(
     &::System::Security::PermissionSet::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5aee048;
+  constexpr static std::size_t addrs = 0x5aebe8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::PermissionSet::*)(::System::Object*)>(&::System::Security::PermissionSet::Equals)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x5aed690;
+  constexpr static std::size_t addrs = 0x5aeb4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::PermissionSet::*)()>(&::System::Security::PermissionSet::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5aed860;
+  constexpr static std::size_t addrs = 0x5aeb6a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

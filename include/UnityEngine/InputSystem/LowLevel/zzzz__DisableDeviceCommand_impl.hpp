@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(&::UnityEngine::InputSystem::LowLevel::DisableDeviceCommand::get_Type)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a7ed4;
+  constexpr static std::size_t addrs = 0x65a5c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::DisableDeviceCommand>(), { "get_Type", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::DisableDeviceCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::DisableDeviceCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a7ee0;
+  constexpr static std::size_t addrs = 0x65a5c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::LowLevel::DisableDeviceCommand (*)()>(&::UnityEngine::InputSystem::LowLevel::DisableDeviceCommand::Create)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x65a7eec;
+  constexpr static std::size_t addrs = 0x65a5c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::DisableDeviceCommand>(), { "Create", {}, {} })));

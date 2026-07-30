@@ -53,45 +53,45 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IXRSystemState"
   constexpr operator ::GlobalNamespace::IXRSystemState*() noexcept;
 
-  /// @brief Method AddListener, addr 0x59f4070, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method AddListener, addr 0x59f2764, size 0x9c, virtual true, abstract: false, final true
   inline void AddListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener, ::ArrayW<::GlobalNamespace::XRSystemEventType> initialStateChecks);
 
-  /// @brief Method Awake, addr 0x59f41c8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x59f28bc, size 0x80, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleRemovedXRNode, addr 0x59f43d0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleRemovedXRNode, addr 0x59f2ac4, size 0x30, virtual false, abstract: false, final false
   inline void HandleRemovedXRNode(::UnityEngine::XR::XRNodeState state);
 
-  /// @brief Method InvokeStateChangeEventIfFocusEventsAreEnabled, addr 0x59f4188, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeStateChangeEventIfFocusEventsAreEnabled, addr 0x59f287c, size 0x1c, virtual false, abstract: false, final false
   static inline void InvokeStateChangeEventIfFocusEventsAreEnabled(::System::Action_1<::GlobalNamespace::XRSystemEventType>* action, ::GlobalNamespace::XRSystemEventType eventType);
 
-  /// @brief Method IsCurrentStateMatchingEvent, addr 0x59f410c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsCurrentStateMatchingEvent, addr 0x59f2800, size 0x7c, virtual false, abstract: false, final false
   inline bool IsCurrentStateMatchingEvent(::GlobalNamespace::XRSystemEventType eventType);
 
   static inline ::GlobalNamespace::UnityXRSystemState* New_ctor();
 
-  /// @brief Method OnApplicationPause, addr 0x59f4330, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x59f2a24, size 0x30, virtual false, abstract: false, final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method RefreshControllersReference, addr 0x59f41a8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method RefreshControllersReference, addr 0x59f289c, size 0x20, virtual true, abstract: false, final true
   inline void RefreshControllersReference();
 
-  /// @brief Method RemoveListener, addr 0x59f41a4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method RemoveListener, addr 0x59f2898, size 0x4, virtual true, abstract: false, final true
   inline void RemoveListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener);
 
-  /// @brief Method SetInputFocus, addr 0x59f4360, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetInputFocus, addr 0x59f2a54, size 0x34, virtual false, abstract: false, final false
   inline void SetInputFocus(bool newInputFocus);
 
-  /// @brief Method SetUserPresence, addr 0x59f4394, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetUserPresence, addr 0x59f2a88, size 0x3c, virtual false, abstract: false, final false
   inline void SetUserPresence(bool newUserPresence);
 
-  /// @brief Method Start, addr 0x59f4248, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59f293c, size 0xc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x59f432c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59f2a20, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateUserPresence, addr 0x59f4254, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method UpdateUserPresence, addr 0x59f2948, size 0xd8, virtual false, abstract: false, final false
   inline void UpdateUserPresence();
 
   constexpr bool const& __cordl_internal_get__hasInputFocus() const;
@@ -118,28 +118,28 @@ public:
 
   constexpr void __cordl_internal_set__userPresence(bool value);
 
-  /// @brief Method .ctor, addr 0x59f4400, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f2af4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add__onChangeStateEvent, addr 0x59f3ed0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add__onChangeStateEvent, addr 0x59f25c4, size 0xc0, virtual false, abstract: false, final false
   inline void add__onChangeStateEvent(::System::Action_1<::GlobalNamespace::XRSystemEventType>* value);
 
-  /// @brief Method get_hasHmdMounted, addr 0x59f4068, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hasHmdMounted, addr 0x59f275c, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasHmdMounted();
 
-  /// @brief Method get_hasInputFocus, addr 0x59f4050, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hasInputFocus, addr 0x59f2744, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasInputFocus();
 
-  /// @brief Method get_hasVrFocus, addr 0x59f4058, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hasVrFocus, addr 0x59f274c, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasVrFocus();
 
   /// @brief Convert to "::GlobalNamespace::IXRSystemState"
   constexpr ::GlobalNamespace::IXRSystemState* i___GlobalNamespace__IXRSystemState() noexcept;
 
-  /// @brief Method remove__onChangeStateEvent, addr 0x59f3f90, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove__onChangeStateEvent, addr 0x59f2684, size 0xc0, virtual false, abstract: false, final false
   inline void remove__onChangeStateEvent(::System::Action_1<::GlobalNamespace::XRSystemEventType>* value);
 
-  /// @brief Method set_hasVrFocus, addr 0x59f4060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hasVrFocus, addr 0x59f2754, size 0x8, virtual false, abstract: false, final false
   inline void set_hasVrFocus(bool value);
 
 protected:

@@ -19,12 +19,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRVirtualKeyboardControllerInputHandler : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Awake, addr 0x5eeb0a8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5ee8e14, size 0x5c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::OVRVirtualKeyboardControllerInputHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5eeb104, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ee8e70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

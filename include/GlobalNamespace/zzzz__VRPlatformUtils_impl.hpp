@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::GlobalNamespace::VRPlatformUtils::GetMenuButtonDefaultImplementation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x585d408;
+  constexpr static std::size_t addrs = 0x585b904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRPlatformUtils*>(), { "GetMenuButtonDefaultImplementation", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::GlobalNamespace::VRPlatformUtils::GetMenuButtonDownDefaultImplementation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x585d484;
+  constexpr static std::size_t addrs = 0x585b980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::GlobalNamespace::IVRPlatformHelper*)>(
     &::GlobalNamespace::VRPlatformUtils::GetAnyJoystickMaxAxisDefaultImplementation)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x585fb2c;
+  constexpr static std::size_t addrs = 0x585e028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

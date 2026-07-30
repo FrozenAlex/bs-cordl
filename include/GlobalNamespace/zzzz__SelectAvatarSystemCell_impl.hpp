@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell__Load_d__14::*)()>(&::GlobalNamespace::SelectAvatarSystemCell__Load_d__14::MoveNext)> {
   constexpr static std::size_t size = 0x66c;
-  constexpr static std::size_t addrs = 0x5a1f628;
+  constexpr static std::size_t addrs = 0x5a1d46c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectAvatarSystemCell__Load_d__14>(), { "MoveNext", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell__Load_d__14::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::SelectAvatarSystemCell__Load_d__14::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a1fc94;
+  constexpr static std::size_t addrs = 0x5a1dad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectAvatarSystemCell__Load_d__14>(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell__ReloadIsCreated_d__17::*)()>(
     &::GlobalNamespace::SelectAvatarSystemCell__ReloadIsCreated_d__17::MoveNext)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x5a1fc9c;
+  constexpr static std::size_t addrs = 0x5a1dae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell__ReloadIsCreated_d__17::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::SelectAvatarSystemCell__ReloadIsCreated_d__17::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a1ff60;
+  constexpr static std::size_t addrs = 0x5a1dda4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectAvatarSystemCell__ReloadIsCreated_d__17>(),
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell::*)(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*)>(
     &::GlobalNamespace::SelectAvatarSystemCell::add_didSetAvatarSystemPreferredEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a18f9c;
+  constexpr static std::size_t addrs = 0x5a173c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell::*)(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*)>(
     &::GlobalNamespace::SelectAvatarSystemCell::remove_didSetAvatarSystemPreferredEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a1f2e4;
+  constexpr static std::size_t addrs = 0x5a1d128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell::*)(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*)>(
     &::GlobalNamespace::SelectAvatarSystemCell::add_didRequestEditOfAvatarEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a18edc;
+  constexpr static std::size_t addrs = 0x5a17308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell::*)(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*)>(
     &::GlobalNamespace::SelectAvatarSystemCell::remove_didRequestEditOfAvatarEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a1f3a4;
+  constexpr static std::size_t addrs = 0x5a1d1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell::*)(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*)>(
     &::GlobalNamespace::SelectAvatarSystemCell::add_didRequestCreationOfAvatarEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a18e1c;
+  constexpr static std::size_t addrs = 0x5a17248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell::*)(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*)>(
     &::GlobalNamespace::SelectAvatarSystemCell::remove_didRequestCreationOfAvatarEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a1f464;
+  constexpr static std::size_t addrs = 0x5a1d2a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell::*)(::BeatSaber::AvatarCore::IAvatarSystemMetadata*)>(
     &::GlobalNamespace::SelectAvatarSystemCell::Load)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a1905c;
+  constexpr static std::size_t addrs = 0x5a17488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell::*)()>(&::GlobalNamespace::SelectAvatarSystemCell::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a1f524;
+  constexpr static std::size_t addrs = 0x5a1d368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell::*)(::BeatSaber::AvatarCore::IAvatarSystemMetadata*)>(
     &::GlobalNamespace::SelectAvatarSystemCell::SetSelectedAvatarSystem)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a1882c;
+  constexpr static std::size_t addrs = 0x5a16c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectAvatarSystemCell*>(),
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell::*)()>(&::GlobalNamespace::SelectAvatarSystemCell::ReloadIsCreated)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5a188d8;
+  constexpr static std::size_t addrs = 0x5a16d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectAvatarSystemCell*>(), { "ReloadIsCreated", {}, {} })));
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell::*)()>(&::GlobalNamespace::SelectAvatarSystemCell::Activate)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5a18978;
+  constexpr static std::size_t addrs = 0x5a16da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectAvatarSystemCell*>(), { "Activate", {}, {} })));
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell::*)()>(&::GlobalNamespace::SelectAvatarSystemCell::Deactivate)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5a18a28;
+  constexpr static std::size_t addrs = 0x5a16e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectAvatarSystemCell*>(), { "Deactivate", {}, {} })));
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell::*)()>(&::GlobalNamespace::SelectAvatarSystemCell::TryActivateOnEnable)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5a1f528;
+  constexpr static std::size_t addrs = 0x5a1d36c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectAvatarSystemCell*>(), { "TryActivateOnEnable", {}, {} })));
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell::*)()>(
     &::GlobalNamespace::SelectAvatarSystemCell::HandleLoadedSelectionViewDidPressPreferredButton)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a1f5c0;
+  constexpr static std::size_t addrs = 0x5a1d404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell::*)()>(
     &::GlobalNamespace::SelectAvatarSystemCell::HandleLoadedSelectionViewDidPressEditButton)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a1f5e0;
+  constexpr static std::size_t addrs = 0x5a1d424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -343,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell::*)()>(
     &::GlobalNamespace::SelectAvatarSystemCell::HandleLoadedSelectionViewDidPressCreateButton)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a1f600;
+  constexpr static std::size_t addrs = 0x5a1d444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -356,7 +356,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectAvatarSystemCell::*)()>(&::GlobalNamespace::SelectAvatarSystemCell::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a1f620;
+  constexpr static std::size_t addrs = 0x5a1d464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectAvatarSystemCell*>(), { ".ctor", {}, {} })));

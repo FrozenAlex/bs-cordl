@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AndroidJavaObject* (*)()>(&::UnityEngine::Android::Permission::GetUnityPermissions)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6a2f020;
+  constexpr static std::size_t addrs = 0x6a2cdbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::Permission>(), { "GetUnityPermissions", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::Android::Permission::HasUserAuthorizedPermission)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6a2f0cc;
+  constexpr static std::size_t addrs = 0x6a2ce68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::UnityEngine::Android::PermissionCallbacks*)>(&::UnityEngine::Android::Permission::RequestUserPermission)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6a2f1f8;
+  constexpr static std::size_t addrs = 0x6a2cf94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<::StringW>, ::UnityEngine::Android::PermissionCallbacks*)>(&::UnityEngine::Android::Permission::RequestUserPermissions)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6a2f284;
+  constexpr static std::size_t addrs = 0x6a2d020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

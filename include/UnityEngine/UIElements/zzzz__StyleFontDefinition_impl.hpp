@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::FontDefinition (::UnityEngine::UIElements::StyleFontDefinition::*)()>(
     &::UnityEngine::UIElements::StyleFontDefinition::get_value)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c8fff8;
+  constexpr static std::size_t addrs = 0x6c8b9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleFontDefinition>(), { "get_value", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleFontDefinition::*)(::UnityEngine::UIElements::FontDefinition)>(
     &::UnityEngine::UIElements::StyleFontDefinition::set_value)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c90014;
+  constexpr static std::size_t addrs = 0x6c8ba18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleKeyword (::UnityEngine::UIElements::StyleFontDefinition::*)()>(
     &::UnityEngine::UIElements::StyleFontDefinition::get_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c90020;
+  constexpr static std::size_t addrs = 0x6c8ba24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleFontDefinition>(), { "get_keyword", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleFontDefinition::*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleFontDefinition::set_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c90028;
+  constexpr static std::size_t addrs = 0x6c8ba2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleFontDefinition::*)(::UnityEngine::UIElements::FontDefinition)>(
     &::UnityEngine::UIElements::StyleFontDefinition::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c90030;
+  constexpr static std::size_t addrs = 0x6c8ba34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleFontDefinition::*)(::UnityEngine::TextCore::Text::FontAsset*)>(
     &::UnityEngine::UIElements::StyleFontDefinition::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c90048;
+  constexpr static std::size_t addrs = 0x6c8ba4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleFontDefinition::*)(::UnityEngine::Font*)>(&::UnityEngine::UIElements::StyleFontDefinition::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c90060;
+  constexpr static std::size_t addrs = 0x6c8ba64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleFontDefinition::*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleFontDefinition::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c90078;
+  constexpr static std::size_t addrs = 0x6c8ba7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleFontDefinition::*)(::System::Object*, ::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleFontDefinition::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6c8d9cc;
+  constexpr static std::size_t addrs = 0x6c893d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleFontDefinition::*)(::UnityEngine::TextCore::Text::FontAsset*, ::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleFontDefinition::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c90054;
+  constexpr static std::size_t addrs = 0x6c8ba58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleFontDefinition::*)(::UnityEngine::Font*, ::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleFontDefinition::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c9006c;
+  constexpr static std::size_t addrs = 0x6c8ba70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleFontDefinition::*)(::UnityEngine::UIElements::FontDefinition, ::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleFontDefinition::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c9003c;
+  constexpr static std::size_t addrs = 0x6c8ba40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleFontDefinition (*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleFontDefinition::op_Implicit___UnityEngine__UIElements__StyleFontDefinition)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c8d9fc;
+  constexpr static std::size_t addrs = 0x6c89400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleFontDefinition (*)(::UnityEngine::UIElements::FontDefinition)>(
     &::UnityEngine::UIElements::StyleFontDefinition::op_Implicit___UnityEngine__UIElements__StyleFontDefinition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c90084;
+  constexpr static std::size_t addrs = 0x6c8ba88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleFontDefinition::*)(::UnityEngine::UIElements::StyleFontDefinition)>(
     &::UnityEngine::UIElements::StyleFontDefinition::Equals)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6c90090;
+  constexpr static std::size_t addrs = 0x6c8ba94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleFontDefinition::*)(::System::Object*)>(&::UnityEngine::UIElements::StyleFontDefinition::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6c900bc;
+  constexpr static std::size_t addrs = 0x6c8bac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::StyleFontDefinition::*)()>(&::UnityEngine::UIElements::StyleFontDefinition::GetHashCode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6c90150;
+  constexpr static std::size_t addrs = 0x6c8bb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

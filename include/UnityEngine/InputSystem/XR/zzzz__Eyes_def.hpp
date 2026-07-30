@@ -42,46 +42,46 @@ public:
 
   __declspec(property(get = get_rightEyeRotation, put = set_rightEyeRotation)) ::UnityEngine::Quaternion rightEyeRotation;
 
-  /// @brief Method get_fixationPoint, addr 0x65853c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_fixationPoint, addr 0x658315c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_fixationPoint();
 
-  /// @brief Method get_leftEyeOpenAmount, addr 0x65853d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeOpenAmount, addr 0x6583174, size 0x8, virtual false, abstract: false, final false
   inline float_t get_leftEyeOpenAmount();
 
-  /// @brief Method get_leftEyePosition, addr 0x6585360, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyePosition, addr 0x65830fc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_leftEyePosition();
 
-  /// @brief Method get_leftEyeRotation, addr 0x6585378, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeRotation, addr 0x6583114, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_leftEyeRotation();
 
-  /// @brief Method get_rightEyeOpenAmount, addr 0x65853e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeOpenAmount, addr 0x6583184, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rightEyeOpenAmount();
 
-  /// @brief Method get_rightEyePosition, addr 0x6585390, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyePosition, addr 0x658312c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_rightEyePosition();
 
-  /// @brief Method get_rightEyeRotation, addr 0x65853a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeRotation, addr 0x6583144, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rightEyeRotation();
 
-  /// @brief Method set_fixationPoint, addr 0x65853cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_fixationPoint, addr 0x6583168, size 0xc, virtual false, abstract: false, final false
   inline void set_fixationPoint(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_leftEyeOpenAmount, addr 0x65853e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeOpenAmount, addr 0x658317c, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeOpenAmount(float_t value);
 
-  /// @brief Method set_leftEyePosition, addr 0x658536c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyePosition, addr 0x6583108, size 0xc, virtual false, abstract: false, final false
   inline void set_leftEyePosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_leftEyeRotation, addr 0x6585384, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeRotation, addr 0x6583120, size 0xc, virtual false, abstract: false, final false
   inline void set_leftEyeRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method set_rightEyeOpenAmount, addr 0x65853f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeOpenAmount, addr 0x658318c, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeOpenAmount(float_t value);
 
-  /// @brief Method set_rightEyePosition, addr 0x658539c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyePosition, addr 0x6583138, size 0xc, virtual false, abstract: false, final false
   inline void set_rightEyePosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_rightEyeRotation, addr 0x65853b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeRotation, addr 0x6583150, size 0xc, virtual false, abstract: false, final false
   inline void set_rightEyeRotation(::UnityEngine::Quaternion value);
 
   // Ctor Parameters []

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexBoyerMoore::*)(::StringW, bool, bool, ::System::Globalization::CultureInfo*)>(
     &::System::Text::RegularExpressions::RegexBoyerMoore::_ctor)> {
   constexpr static std::size_t size = 0x450;
-  constexpr static std::size_t addrs = 0x637cd94;
+  constexpr static std::size_t addrs = 0x637ab30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Text::RegularExpressions::RegexBoyerMoore::*)(::StringW, int32_t)>(
     &::System::Text::RegularExpressions::RegexBoyerMoore::MatchPattern)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x637d1e4;
+  constexpr static std::size_t addrs = 0x637af80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Text::RegularExpressions::RegexBoyerMoore::*)(::StringW, int32_t, int32_t, int32_t)>(
     &::System::Text::RegularExpressions::RegexBoyerMoore::IsMatch)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x637d320;
+  constexpr static std::size_t addrs = 0x637b0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::RegularExpressions::RegexBoyerMoore::*)(::StringW, int32_t, int32_t, int32_t)>(
     &::System::Text::RegularExpressions::RegexBoyerMoore::Scan)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x637d38c;
+  constexpr static std::size_t addrs = 0x637b128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

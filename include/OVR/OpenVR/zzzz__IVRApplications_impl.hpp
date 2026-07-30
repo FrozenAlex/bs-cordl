@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__AddApplicationManifest::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__AddApplicationManifest::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e2e4ac;
+  constexpr static std::size_t addrs = 0x5e2c218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__AddApplicationManifest*>(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__AddApplicationManifest::*)(::StringW, bool)>(
     &::OVR::OpenVR::IVRApplications__AddApplicationManifest::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2e52c;
+  constexpr static std::size_t addrs = 0x5e2c298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__AddApplicationManifest*>(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::IVRApplications__AddApplicationManifest::*)(::StringW, bool, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRApplications__AddApplicationManifest::BeginInvoke)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5e2e540;
+  constexpr static std::size_t addrs = 0x5e2c2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__AddApplicationManifest*>(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__AddApplicationManifest::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__AddApplicationManifest::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2e59c;
+  constexpr static std::size_t addrs = 0x5e2c308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__AddApplicationManifest*>(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__RemoveApplicationManifest::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__RemoveApplicationManifest::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5e2e5c0;
+  constexpr static std::size_t addrs = 0x5e2c32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__RemoveApplicationManifest*>(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__RemoveApplicationManifest::*)(::StringW)>(
     &::OVR::OpenVR::IVRApplications__RemoveApplicationManifest::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2e63c;
+  constexpr static std::size_t addrs = 0x5e2c3a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__RemoveApplicationManifest*>(),
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRApplications__RemoveApplicationManifest::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRApplications__RemoveApplicationManifest::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e2e650;
+  constexpr static std::size_t addrs = 0x5e2c3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__RemoveApplicationManifest*>(),
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__RemoveApplicationManifest::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__RemoveApplicationManifest::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2e670;
+  constexpr static std::size_t addrs = 0x5e2c3dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__RemoveApplicationManifest*>(),
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__IsApplicationInstalled::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__IsApplicationInstalled::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5e2e694;
+  constexpr static std::size_t addrs = 0x5e2c400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__IsApplicationInstalled*>(),
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRApplications__IsApplicationInstalled::*)(::StringW)>(&::OVR::OpenVR::IVRApplications__IsApplicationInstalled::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2e710;
+  constexpr static std::size_t addrs = 0x5e2c47c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__IsApplicationInstalled*>(),
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRApplications__IsApplicationInstalled::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRApplications__IsApplicationInstalled::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e2e724;
+  constexpr static std::size_t addrs = 0x5e2c490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__IsApplicationInstalled*>(),
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRApplications__IsApplicationInstalled::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__IsApplicationInstalled::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2e744;
+  constexpr static std::size_t addrs = 0x5e2c4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__IsApplicationInstalled*>(),
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__GetApplicationCount::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationCount::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5e2e768;
+  constexpr static std::size_t addrs = 0x5e2c4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationCount*>(),
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::IVRApplications__GetApplicationCount::*)()>(&::OVR::OpenVR::IVRApplications__GetApplicationCount::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2e7d0;
+  constexpr static std::size_t addrs = 0x5e2c53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationCount*>(),
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRApplications__GetApplicationCount::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationCount::BeginInvoke)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e2e7e4;
+  constexpr static std::size_t addrs = 0x5e2c550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationCount*>(),
@@ -303,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::IVRApplications__GetApplicationCount::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationCount::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2e800;
+  constexpr static std::size_t addrs = 0x5e2c56c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationCount*>(),
@@ -342,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__GetApplicationKeyByIndex::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationKeyByIndex::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e2e824;
+  constexpr static std::size_t addrs = 0x5e2c590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationKeyByIndex*>(),
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__GetApplicationKeyByIndex::*)(
     uint32_t, ::System::Text::StringBuilder*, uint32_t)>(&::OVR::OpenVR::IVRApplications__GetApplicationKeyByIndex::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2e890;
+  constexpr static std::size_t addrs = 0x5e2c5fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationKeyByIndex*>(),
@@ -371,7 +371,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRApplications__GetApplicationKeyByIndex::*)(uint32_t, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::IVRApplications__GetApplicationKeyByIndex::BeginInvoke)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5e2e8a4;
+  constexpr static std::size_t addrs = 0x5e2c610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationKeyByIndex*>(),
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__GetApplicationKeyByIndex::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationKeyByIndex::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2e91c;
+  constexpr static std::size_t addrs = 0x5e2c688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationKeyByIndex*>(),
@@ -426,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__GetApplicationKeyByProcessId::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationKeyByProcessId::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e2e940;
+  constexpr static std::size_t addrs = 0x5e2c6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationKeyByProcessId*>(),
@@ -440,7 +440,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__GetApplicationKeyByProcessId::*)(
     uint32_t, ::System::Text::StringBuilder*, uint32_t)>(&::OVR::OpenVR::IVRApplications__GetApplicationKeyByProcessId::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2e9ac;
+  constexpr static std::size_t addrs = 0x5e2c718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationKeyByProcessId*>(),
@@ -455,7 +455,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                                                                                  ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationKeyByProcessId::BeginInvoke)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5e2e9c0;
+  constexpr static std::size_t addrs = 0x5e2c72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationKeyByProcessId*>(),
@@ -469,7 +469,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__GetApplicationKeyByProcessId::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationKeyByProcessId::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2ea38;
+  constexpr static std::size_t addrs = 0x5e2c7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationKeyByProcessId*>(),
@@ -510,7 +510,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__LaunchApplication::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__LaunchApplication::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5e2ea5c;
+  constexpr static std::size_t addrs = 0x5e2c7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__LaunchApplication*>(),
@@ -524,7 +524,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__LaunchApplication::*)(::StringW)>(
     &::OVR::OpenVR::IVRApplications__LaunchApplication::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2ead8;
+  constexpr static std::size_t addrs = 0x5e2c844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -538,7 +538,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRApplications__LaunchApplication::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRApplications__LaunchApplication::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e2eaec;
+  constexpr static std::size_t addrs = 0x5e2c858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -552,7 +552,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__LaunchApplication::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__LaunchApplication::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2eb0c;
+  constexpr static std::size_t addrs = 0x5e2c878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -591,7 +591,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__LaunchTemplateApplication::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__LaunchTemplateApplication::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e2eb30;
+  constexpr static std::size_t addrs = 0x5e2c89c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__LaunchTemplateApplication*>(),
@@ -605,7 +605,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__LaunchTemplateApplication::*)(
     ::StringW, ::StringW, ::by_ref<::ArrayW<::OVR::OpenVR::AppOverrideKeys_t>>, uint32_t)>(&::OVR::OpenVR::IVRApplications__LaunchTemplateApplication::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2ebb0;
+  constexpr static std::size_t addrs = 0x5e2c91c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__LaunchTemplateApplication*>(),
@@ -620,7 +620,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::IVRApplications__LaunchTemplateApplication::*)(::StringW, ::StringW, ::by_ref<::ArrayW<::OVR::OpenVR::AppOverrideKeys_t>>, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRApplications__LaunchTemplateApplication::BeginInvoke)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5e2ebc4;
+  constexpr static std::size_t addrs = 0x5e2c930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__LaunchTemplateApplication*>(),
@@ -634,7 +634,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__LaunchTemplateApplication::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__LaunchTemplateApplication::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2ec24;
+  constexpr static std::size_t addrs = 0x5e2c990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__LaunchTemplateApplication*>(),
@@ -676,7 +676,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__LaunchApplicationFromMimeType::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__LaunchApplicationFromMimeType::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e2ec48;
+  constexpr static std::size_t addrs = 0x5e2c9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__LaunchApplicationFromMimeType*>(),
@@ -690,7 +690,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__LaunchApplicationFromMimeType::*)(::StringW, ::StringW)>(
     &::OVR::OpenVR::IVRApplications__LaunchApplicationFromMimeType::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2ecc8;
+  constexpr static std::size_t addrs = 0x5e2ca34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__LaunchApplicationFromMimeType*>(),
@@ -705,7 +705,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRApplications__LaunchApplicationFromMimeType::*)(::StringW, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::IVRApplications__LaunchApplicationFromMimeType::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5e2ecdc;
+  constexpr static std::size_t addrs = 0x5e2ca48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__LaunchApplicationFromMimeType*>(),
@@ -719,7 +719,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__LaunchApplicationFromMimeType::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__LaunchApplicationFromMimeType::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2ed04;
+  constexpr static std::size_t addrs = 0x5e2ca70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__LaunchApplicationFromMimeType*>(),
@@ -759,7 +759,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__LaunchDashboardOverlay::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__LaunchDashboardOverlay::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5e2ed28;
+  constexpr static std::size_t addrs = 0x5e2ca94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__LaunchDashboardOverlay*>(),
@@ -773,7 +773,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__LaunchDashboardOverlay::*)(::StringW)>(
     &::OVR::OpenVR::IVRApplications__LaunchDashboardOverlay::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2eda4;
+  constexpr static std::size_t addrs = 0x5e2cb10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__LaunchDashboardOverlay*>(),
@@ -787,7 +787,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRApplications__LaunchDashboardOverlay::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRApplications__LaunchDashboardOverlay::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e2edb8;
+  constexpr static std::size_t addrs = 0x5e2cb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__LaunchDashboardOverlay*>(),
@@ -801,7 +801,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__LaunchDashboardOverlay::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__LaunchDashboardOverlay::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2edd8;
+  constexpr static std::size_t addrs = 0x5e2cb44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__LaunchDashboardOverlay*>(),
@@ -840,7 +840,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__CancelApplicationLaunch::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__CancelApplicationLaunch::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5e2edfc;
+  constexpr static std::size_t addrs = 0x5e2cb68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__CancelApplicationLaunch*>(),
@@ -854,7 +854,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRApplications__CancelApplicationLaunch::*)(::StringW)>(
     &::OVR::OpenVR::IVRApplications__CancelApplicationLaunch::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2ee78;
+  constexpr static std::size_t addrs = 0x5e2cbe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__CancelApplicationLaunch*>(),
@@ -868,7 +868,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRApplications__CancelApplicationLaunch::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRApplications__CancelApplicationLaunch::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e2ee8c;
+  constexpr static std::size_t addrs = 0x5e2cbf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__CancelApplicationLaunch*>(),
@@ -882,7 +882,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRApplications__CancelApplicationLaunch::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__CancelApplicationLaunch::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2eeac;
+  constexpr static std::size_t addrs = 0x5e2cc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__CancelApplicationLaunch*>(),
@@ -921,7 +921,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__IdentifyApplication::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__IdentifyApplication::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e2eed0;
+  constexpr static std::size_t addrs = 0x5e2cc3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__IdentifyApplication*>(),
@@ -935,7 +935,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__IdentifyApplication::*)(uint32_t, ::StringW)>(
     &::OVR::OpenVR::IVRApplications__IdentifyApplication::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2ef3c;
+  constexpr static std::size_t addrs = 0x5e2cca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__IdentifyApplication*>(),
@@ -949,7 +949,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::IVRApplications__IdentifyApplication::*)(uint32_t, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRApplications__IdentifyApplication::BeginInvoke)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5e2ef50;
+  constexpr static std::size_t addrs = 0x5e2ccbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__IdentifyApplication*>(),
@@ -963,7 +963,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__IdentifyApplication::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__IdentifyApplication::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2efb0;
+  constexpr static std::size_t addrs = 0x5e2cd1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__IdentifyApplication*>(),
@@ -1002,7 +1002,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__GetApplicationProcessId::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationProcessId::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5e2efd4;
+  constexpr static std::size_t addrs = 0x5e2cd40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationProcessId*>(),
@@ -1016,7 +1016,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::IVRApplications__GetApplicationProcessId::*)(::StringW)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationProcessId::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2f050;
+  constexpr static std::size_t addrs = 0x5e2cdbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationProcessId*>(),
@@ -1030,7 +1030,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRApplications__GetApplicationProcessId::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationProcessId::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e2f064;
+  constexpr static std::size_t addrs = 0x5e2cdd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationProcessId*>(),
@@ -1044,7 +1044,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::IVRApplications__GetApplicationProcessId::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationProcessId::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2f084;
+  constexpr static std::size_t addrs = 0x5e2cdf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationProcessId*>(),
@@ -1083,7 +1083,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__GetApplicationsErrorNameFromEnum::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationsErrorNameFromEnum::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e2f0a8;
+  constexpr static std::size_t addrs = 0x5e2ce14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationsErrorNameFromEnum*>(),
@@ -1097,7 +1097,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::OVR::OpenVR::IVRApplications__GetApplicationsErrorNameFromEnum::*)(::OVR::OpenVR::EVRApplicationError)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationsErrorNameFromEnum::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2f114;
+  constexpr static std::size_t addrs = 0x5e2ce80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationsErrorNameFromEnum*>(),
@@ -1112,7 +1112,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRApplications__GetApplicationsErrorNameFromEnum::*)(::OVR::OpenVR::EVRApplicationError, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::IVRApplications__GetApplicationsErrorNameFromEnum::BeginInvoke)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5e2f128;
+  constexpr static std::size_t addrs = 0x5e2ce94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationsErrorNameFromEnum*>(),
@@ -1126,7 +1126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::OVR::OpenVR::IVRApplications__GetApplicationsErrorNameFromEnum::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationsErrorNameFromEnum::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2f1b0;
+  constexpr static std::size_t addrs = 0x5e2cf1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationsErrorNameFromEnum*>(),
@@ -1166,7 +1166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__GetApplicationPropertyString::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationPropertyString::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e2f1d4;
+  constexpr static std::size_t addrs = 0x5e2cf40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationPropertyString*>(),
@@ -1181,7 +1181,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::
     ::StringW, ::OVR::OpenVR::EVRApplicationProperty, ::System::Text::StringBuilder*, uint32_t, ::by_ref<::OVR::OpenVR::EVRApplicationError>)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationPropertyString::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2f254;
+  constexpr static std::size_t addrs = 0x5e2cfc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationPropertyString*>(),
@@ -1197,7 +1197,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                                                                           ::by_ref<::OVR::OpenVR::EVRApplicationError>, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::IVRApplications__GetApplicationPropertyString::BeginInvoke)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5e2f268;
+  constexpr static std::size_t addrs = 0x5e2cfd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationPropertyString*>(),
@@ -1211,7 +1211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::IVRApplications__GetApplicationPropertyString::*)(
     ::by_ref<::OVR::OpenVR::EVRApplicationError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRApplications__GetApplicationPropertyString::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2f354;
+  constexpr static std::size_t addrs = 0x5e2d0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationPropertyString*>(),
@@ -1255,7 +1255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__GetApplicationPropertyBool::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationPropertyBool::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e2f378;
+  constexpr static std::size_t addrs = 0x5e2d0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationPropertyBool*>(),
@@ -1269,7 +1269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRApplications__GetApplicationPropertyBool::*)(
     ::StringW, ::OVR::OpenVR::EVRApplicationProperty, ::by_ref<::OVR::OpenVR::EVRApplicationError>)>(&::OVR::OpenVR::IVRApplications__GetApplicationPropertyBool::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2f3f8;
+  constexpr static std::size_t addrs = 0x5e2d164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationPropertyBool*>(),
@@ -1284,7 +1284,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::IVRApplications__GetApplicationPropertyBool::*)(::StringW, ::OVR::OpenVR::EVRApplicationProperty, ::by_ref<::OVR::OpenVR::EVRApplicationError>, ::System::AsyncCallback*,
                                                                    ::System::Object*)>(&::OVR::OpenVR::IVRApplications__GetApplicationPropertyBool::BeginInvoke)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5e2f40c;
+  constexpr static std::size_t addrs = 0x5e2d178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationPropertyBool*>(),
@@ -1298,7 +1298,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRApplications__GetApplicationPropertyBool::*)(::by_ref<::OVR::OpenVR::EVRApplicationError>, ::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationPropertyBool::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2f4d4;
+  constexpr static std::size_t addrs = 0x5e2d240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationPropertyBool*>(),
@@ -1340,7 +1340,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__GetApplicationPropertyUint64::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationPropertyUint64::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e2f4f8;
+  constexpr static std::size_t addrs = 0x5e2d264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationPropertyUint64*>(),
@@ -1354,7 +1354,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::OVR::OpenVR::IVRApplications__GetApplicationPropertyUint64::*)(
     ::StringW, ::OVR::OpenVR::EVRApplicationProperty, ::by_ref<::OVR::OpenVR::EVRApplicationError>)>(&::OVR::OpenVR::IVRApplications__GetApplicationPropertyUint64::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2f578;
+  constexpr static std::size_t addrs = 0x5e2d2e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationPropertyUint64*>(),
@@ -1369,7 +1369,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::IVRApplications__GetApplicationPropertyUint64::*)(::StringW, ::OVR::OpenVR::EVRApplicationProperty, ::by_ref<::OVR::OpenVR::EVRApplicationError>, ::System::AsyncCallback*,
                                                                      ::System::Object*)>(&::OVR::OpenVR::IVRApplications__GetApplicationPropertyUint64::BeginInvoke)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5e2f58c;
+  constexpr static std::size_t addrs = 0x5e2d2f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationPropertyUint64*>(),
@@ -1383,7 +1383,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::OVR::OpenVR::IVRApplications__GetApplicationPropertyUint64::*)(
     ::by_ref<::OVR::OpenVR::EVRApplicationError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRApplications__GetApplicationPropertyUint64::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2f654;
+  constexpr static std::size_t addrs = 0x5e2d3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationPropertyUint64*>(),
@@ -1425,7 +1425,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__SetApplicationAutoLaunch::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__SetApplicationAutoLaunch::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e2f678;
+  constexpr static std::size_t addrs = 0x5e2d3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__SetApplicationAutoLaunch*>(),
@@ -1439,7 +1439,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__SetApplicationAutoLaunch::*)(::StringW, bool)>(
     &::OVR::OpenVR::IVRApplications__SetApplicationAutoLaunch::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2f6f8;
+  constexpr static std::size_t addrs = 0x5e2d464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__SetApplicationAutoLaunch*>(),
@@ -1454,7 +1454,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRApplications__SetApplicationAutoLaunch::*)(::StringW, bool, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::IVRApplications__SetApplicationAutoLaunch::BeginInvoke)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5e2f70c;
+  constexpr static std::size_t addrs = 0x5e2d478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__SetApplicationAutoLaunch*>(),
@@ -1468,7 +1468,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__SetApplicationAutoLaunch::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__SetApplicationAutoLaunch::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2f768;
+  constexpr static std::size_t addrs = 0x5e2d4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__SetApplicationAutoLaunch*>(),
@@ -1507,7 +1507,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__GetApplicationAutoLaunch::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationAutoLaunch::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5e2f78c;
+  constexpr static std::size_t addrs = 0x5e2d4f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationAutoLaunch*>(),
@@ -1521,7 +1521,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRApplications__GetApplicationAutoLaunch::*)(::StringW)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationAutoLaunch::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2f808;
+  constexpr static std::size_t addrs = 0x5e2d574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationAutoLaunch*>(),
@@ -1535,7 +1535,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRApplications__GetApplicationAutoLaunch::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationAutoLaunch::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e2f81c;
+  constexpr static std::size_t addrs = 0x5e2d588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationAutoLaunch*>(),
@@ -1549,7 +1549,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRApplications__GetApplicationAutoLaunch::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationAutoLaunch::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2f83c;
+  constexpr static std::size_t addrs = 0x5e2d5a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationAutoLaunch*>(),
@@ -1588,7 +1588,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__SetDefaultApplicationForMimeType::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__SetDefaultApplicationForMimeType::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e2f860;
+  constexpr static std::size_t addrs = 0x5e2d5cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__SetDefaultApplicationForMimeType*>(),
@@ -1602,7 +1602,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__SetDefaultApplicationForMimeType::*)(::StringW, ::StringW)>(
     &::OVR::OpenVR::IVRApplications__SetDefaultApplicationForMimeType::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2f8e0;
+  constexpr static std::size_t addrs = 0x5e2d64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__SetDefaultApplicationForMimeType*>(),
@@ -1617,7 +1617,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRApplications__SetDefaultApplicationForMimeType::*)(::StringW, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::IVRApplications__SetDefaultApplicationForMimeType::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5e2f8f4;
+  constexpr static std::size_t addrs = 0x5e2d660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__SetDefaultApplicationForMimeType*>(),
@@ -1631,7 +1631,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__SetDefaultApplicationForMimeType::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__SetDefaultApplicationForMimeType::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2f91c;
+  constexpr static std::size_t addrs = 0x5e2d688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__SetDefaultApplicationForMimeType*>(),
@@ -1671,7 +1671,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__GetDefaultApplicationForMimeType::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__GetDefaultApplicationForMimeType::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e2f940;
+  constexpr static std::size_t addrs = 0x5e2d6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetDefaultApplicationForMimeType*>(),
@@ -1685,7 +1685,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRApplications__GetDefaultApplicationForMimeType::*)(::StringW, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::IVRApplications__GetDefaultApplicationForMimeType::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2f9c0;
+  constexpr static std::size_t addrs = 0x5e2d72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetDefaultApplicationForMimeType*>(),
@@ -1700,7 +1700,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::IVRApplications__GetDefaultApplicationForMimeType::*)(::StringW, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRApplications__GetDefaultApplicationForMimeType::BeginInvoke)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5e2f9d4;
+  constexpr static std::size_t addrs = 0x5e2d740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetDefaultApplicationForMimeType*>(),
@@ -1714,7 +1714,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRApplications__GetDefaultApplicationForMimeType::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__GetDefaultApplicationForMimeType::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2fa30;
+  constexpr static std::size_t addrs = 0x5e2d79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetDefaultApplicationForMimeType*>(),
@@ -1754,7 +1754,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__GetApplicationSupportedMimeTypes::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationSupportedMimeTypes::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e2fa54;
+  constexpr static std::size_t addrs = 0x5e2d7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationSupportedMimeTypes*>(),
@@ -1768,7 +1768,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRApplications__GetApplicationSupportedMimeTypes::*)(::StringW, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationSupportedMimeTypes::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2fad4;
+  constexpr static std::size_t addrs = 0x5e2d840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationSupportedMimeTypes*>(),
@@ -1783,7 +1783,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::IVRApplications__GetApplicationSupportedMimeTypes::*)(::StringW, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationSupportedMimeTypes::BeginInvoke)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5e2fae8;
+  constexpr static std::size_t addrs = 0x5e2d854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationSupportedMimeTypes*>(),
@@ -1797,7 +1797,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRApplications__GetApplicationSupportedMimeTypes::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationSupportedMimeTypes::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2fb44;
+  constexpr static std::size_t addrs = 0x5e2d8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationSupportedMimeTypes*>(),
@@ -1837,7 +1837,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__GetApplicationsThatSupportMimeType::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationsThatSupportMimeType::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e2fb68;
+  constexpr static std::size_t addrs = 0x5e2d8d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationsThatSupportMimeType*>(),
@@ -1851,7 +1851,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::IVRApplications__GetApplicationsThatSupportMimeType::*)(::StringW, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationsThatSupportMimeType::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2fbe8;
+  constexpr static std::size_t addrs = 0x5e2d954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationsThatSupportMimeType*>(),
@@ -1866,7 +1866,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::IVRApplications__GetApplicationsThatSupportMimeType::*)(::StringW, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationsThatSupportMimeType::BeginInvoke)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5e2fbfc;
+  constexpr static std::size_t addrs = 0x5e2d968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationsThatSupportMimeType*>(),
@@ -1880,7 +1880,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::IVRApplications__GetApplicationsThatSupportMimeType::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationsThatSupportMimeType::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2fc58;
+  constexpr static std::size_t addrs = 0x5e2d9c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationsThatSupportMimeType*>(),
@@ -1923,7 +1923,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__GetApplicationLaunchArguments::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationLaunchArguments::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e2fc7c;
+  constexpr static std::size_t addrs = 0x5e2d9e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationLaunchArguments*>(),
@@ -1937,7 +1937,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::IVRApplications__GetApplicationLaunchArguments::*)(uint32_t, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationLaunchArguments::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2fce8;
+  constexpr static std::size_t addrs = 0x5e2da54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationLaunchArguments*>(),
@@ -1952,7 +1952,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                                                                                   ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationLaunchArguments::BeginInvoke)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5e2fcfc;
+  constexpr static std::size_t addrs = 0x5e2da68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationLaunchArguments*>(),
@@ -1966,7 +1966,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::IVRApplications__GetApplicationLaunchArguments::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationLaunchArguments::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2fd74;
+  constexpr static std::size_t addrs = 0x5e2dae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationLaunchArguments*>(),
@@ -2006,7 +2006,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__GetStartingApplication::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__GetStartingApplication::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e2fd98;
+  constexpr static std::size_t addrs = 0x5e2db04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetStartingApplication*>(),
@@ -2020,7 +2020,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__GetStartingApplication::*)(::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::IVRApplications__GetStartingApplication::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2fe18;
+  constexpr static std::size_t addrs = 0x5e2db84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetStartingApplication*>(),
@@ -2035,7 +2035,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRApplications__GetStartingApplication::*)(::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::IVRApplications__GetStartingApplication::BeginInvoke)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5e2fe2c;
+  constexpr static std::size_t addrs = 0x5e2db98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetStartingApplication*>(),
@@ -2049,7 +2049,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__GetStartingApplication::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__GetStartingApplication::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2fe88;
+  constexpr static std::size_t addrs = 0x5e2dbf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetStartingApplication*>(),
@@ -2089,7 +2089,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__GetTransitionState::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__GetTransitionState::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5e2feac;
+  constexpr static std::size_t addrs = 0x5e2dc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetTransitionState*>(),
@@ -2103,7 +2103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationTransitionState (::OVR::OpenVR::IVRApplications__GetTransitionState::*)()>(
     &::OVR::OpenVR::IVRApplications__GetTransitionState::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2ff14;
+  constexpr static std::size_t addrs = 0x5e2dc80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2117,7 +2117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRApplications__GetTransitionState::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRApplications__GetTransitionState::BeginInvoke)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e2ff28;
+  constexpr static std::size_t addrs = 0x5e2dc94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2131,7 +2131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationTransitionState (::OVR::OpenVR::IVRApplications__GetTransitionState::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__GetTransitionState::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e2ff44;
+  constexpr static std::size_t addrs = 0x5e2dcb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2170,7 +2170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__PerformApplicationPrelaunchCheck::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__PerformApplicationPrelaunchCheck::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5e2ff68;
+  constexpr static std::size_t addrs = 0x5e2dcd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__PerformApplicationPrelaunchCheck*>(),
@@ -2184,7 +2184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__PerformApplicationPrelaunchCheck::*)(::StringW)>(
     &::OVR::OpenVR::IVRApplications__PerformApplicationPrelaunchCheck::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e2ffe4;
+  constexpr static std::size_t addrs = 0x5e2dd50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__PerformApplicationPrelaunchCheck*>(),
@@ -2199,7 +2199,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRApplications__PerformApplicationPrelaunchCheck::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::IVRApplications__PerformApplicationPrelaunchCheck::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e2fff8;
+  constexpr static std::size_t addrs = 0x5e2dd64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__PerformApplicationPrelaunchCheck*>(),
@@ -2213,7 +2213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__PerformApplicationPrelaunchCheck::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__PerformApplicationPrelaunchCheck::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e30018;
+  constexpr static std::size_t addrs = 0x5e2dd84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__PerformApplicationPrelaunchCheck*>(),
@@ -2252,7 +2252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__GetApplicationsTransitionStateNameFromEnum::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationsTransitionStateNameFromEnum::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e3003c;
+  constexpr static std::size_t addrs = 0x5e2dda8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationsTransitionStateNameFromEnum*>(),
@@ -2266,7 +2266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::OVR::OpenVR::IVRApplications__GetApplicationsTransitionStateNameFromEnum::*)(::OVR::OpenVR::EVRApplicationTransitionState)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationsTransitionStateNameFromEnum::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e300a8;
+  constexpr static std::size_t addrs = 0x5e2de14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationsTransitionStateNameFromEnum*>(),
@@ -2281,7 +2281,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::IVRApplications__GetApplicationsTransitionStateNameFromEnum::*)(::OVR::OpenVR::EVRApplicationTransitionState, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationsTransitionStateNameFromEnum::BeginInvoke)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5e300bc;
+  constexpr static std::size_t addrs = 0x5e2de28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationsTransitionStateNameFromEnum*>(),
@@ -2295,7 +2295,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::OVR::OpenVR::IVRApplications__GetApplicationsTransitionStateNameFromEnum::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__GetApplicationsTransitionStateNameFromEnum::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e30144;
+  constexpr static std::size_t addrs = 0x5e2deb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetApplicationsTransitionStateNameFromEnum*>(),
@@ -2336,7 +2336,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__IsQuitUserPromptRequested::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__IsQuitUserPromptRequested::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5e30168;
+  constexpr static std::size_t addrs = 0x5e2ded4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__IsQuitUserPromptRequested*>(),
@@ -2349,7 +2349,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRApplications__IsQuitUserPromptRequested::*)()>(&::OVR::OpenVR::IVRApplications__IsQuitUserPromptRequested::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e301d0;
+  constexpr static std::size_t addrs = 0x5e2df3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__IsQuitUserPromptRequested*>(),
@@ -2363,7 +2363,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRApplications__IsQuitUserPromptRequested::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRApplications__IsQuitUserPromptRequested::BeginInvoke)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e301e4;
+  constexpr static std::size_t addrs = 0x5e2df50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__IsQuitUserPromptRequested*>(),
@@ -2377,7 +2377,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::IVRApplications__IsQuitUserPromptRequested::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__IsQuitUserPromptRequested::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e30200;
+  constexpr static std::size_t addrs = 0x5e2df6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__IsQuitUserPromptRequested*>(),
@@ -2416,7 +2416,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__LaunchInternalProcess::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__LaunchInternalProcess::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e30224;
+  constexpr static std::size_t addrs = 0x5e2df90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__LaunchInternalProcess*>(),
@@ -2430,7 +2430,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__LaunchInternalProcess::*)(::StringW, ::StringW, ::StringW)>(
     &::OVR::OpenVR::IVRApplications__LaunchInternalProcess::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e302a4;
+  constexpr static std::size_t addrs = 0x5e2e010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__LaunchInternalProcess*>(),
@@ -2445,7 +2445,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRApplications__LaunchInternalProcess::*)(::StringW, ::StringW, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::IVRApplications__LaunchInternalProcess::BeginInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5e302b8;
+  constexpr static std::size_t addrs = 0x5e2e024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__LaunchInternalProcess*>(),
@@ -2459,7 +2459,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::IVRApplications__LaunchInternalProcess::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__LaunchInternalProcess::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e302e4;
+  constexpr static std::size_t addrs = 0x5e2e050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__LaunchInternalProcess*>(),
@@ -2499,7 +2499,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRApplications__GetCurrentSceneProcessId::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRApplications__GetCurrentSceneProcessId::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5e30308;
+  constexpr static std::size_t addrs = 0x5e2e074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetCurrentSceneProcessId*>(),
@@ -2512,7 +2512,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::IVRApplications__GetCurrentSceneProcessId::*)()>(&::OVR::OpenVR::IVRApplications__GetCurrentSceneProcessId::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e30370;
+  constexpr static std::size_t addrs = 0x5e2e0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetCurrentSceneProcessId*>(),
@@ -2526,7 +2526,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRApplications__GetCurrentSceneProcessId::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRApplications__GetCurrentSceneProcessId::BeginInvoke)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e30384;
+  constexpr static std::size_t addrs = 0x5e2e0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetCurrentSceneProcessId*>(),
@@ -2540,7 +2540,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::IVRApplications__GetCurrentSceneProcessId::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRApplications__GetCurrentSceneProcessId::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e303a0;
+  constexpr static std::size_t addrs = 0x5e2e10c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRApplications__GetCurrentSceneProcessId*>(),

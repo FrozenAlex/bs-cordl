@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Environments::Definitions::ColorSchemesAsyncInstaller___c::*)()>(&::Environments::Definitions::ColorSchemesAsyncInstaller___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x376846c;
+  constexpr static std::size_t addrs = 0x3766f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Environments::Definitions::ColorSchemesAsyncInstaller___c*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Environments::Definitions::ColorSchemesAsyncInstaller___c::*)(::GlobalNamespace::ColorSchemeSO*)>(
     &::Environments::Definitions::ColorSchemesAsyncInstaller___c::_LoadResourcesBeforeInstall_b__3_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3768470;
+  constexpr static std::size_t addrs = 0x3766f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Environments::Definitions::ColorSchemesAsyncInstaller___c*>(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Environments::Definitions::ColorSchemesAsyncInstaller::*)()>(
     &::Environments::Definitions::ColorSchemesAsyncInstaller::get_assetLabelRuntimeKey)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3768134;
+  constexpr static std::size_t addrs = 0x3766c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Environments::Definitions::ColorSchemesAsyncInstaller*>(),
@@ -84,7 +84,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Environments::Def
     ::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*, ::BGLib::AppFlow::Initialization::IInstallerRegistry*)>(
     &::Environments::Definitions::ColorSchemesAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x3768178;
+  constexpr static std::size_t addrs = 0x3766c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Environments::Definitions::ColorSchemesAsyncInstaller*>(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Environments::Definitions::ColorSchemesAsyncInstaller::*)()>(
     &::Environments::Definitions::ColorSchemesAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x37682c0;
+  constexpr static std::size_t addrs = 0x3766de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Environments::Definitions::ColorSchemesAsyncInstaller*>(),
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Environments::Definitions::ColorSchemesAsyncInstaller::*)()>(&::Environments::Definitions::ColorSchemesAsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x376838c;
+  constexpr static std::size_t addrs = 0x3766eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Environments::Definitions::ColorSchemesAsyncInstaller*>(), { ".ctor", {}, {} })));

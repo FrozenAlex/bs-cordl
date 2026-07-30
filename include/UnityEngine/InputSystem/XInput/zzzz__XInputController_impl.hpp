@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::XInput::XInputController::*)()>(
     &::UnityEngine::InputSystem::XInput::XInputController::get_menu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6586bc8;
+  constexpr static std::size_t addrs = 0x6584964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XInput::XInputController*>(), { "get_menu", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XInput::XInputController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::XInput::XInputController::set_menu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6586bd0;
+  constexpr static std::size_t addrs = 0x658496c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XInput::XInputController*>(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::XInput::XInputController::*)()>(
     &::UnityEngine::InputSystem::XInput::XInputController::get_view)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6586bd8;
+  constexpr static std::size_t addrs = 0x6584974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XInput::XInputController*>(), { "get_view", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XInput::XInputController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::XInput::XInputController::set_view)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6586be0;
+  constexpr static std::size_t addrs = 0x658497c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XInput::XInputController*>(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::XInput::XInputController_DeviceSubType (::UnityEngine::InputSystem::XInput::XInputController::*)()>(
     &::UnityEngine::InputSystem::XInput::XInputController::get_subType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6586be8;
+  constexpr static std::size_t addrs = 0x6584984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XInput::XInputController*>(), { "get_subType", {}, {} })));
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::XInput::XInputController_DeviceFlags (::UnityEngine::InputSystem::XInput::XInputController::*)()>(
     &::UnityEngine::InputSystem::XInput::XInputController::get_flags)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6586c7c;
+  constexpr static std::size_t addrs = 0x6584a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XInput::XInputController*>(), { "get_flags", {}, {} })));
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XInput::XInputController::*)()>(&::UnityEngine::InputSystem::XInput::XInputController::FinishSetup)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6586ca0;
+  constexpr static std::size_t addrs = 0x6584a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XInput::XInputController*>(),
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XInput::XInputController::*)()>(&::UnityEngine::InputSystem::XInput::XInputController::ParseCapabilities)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6586c0c;
+  constexpr static std::size_t addrs = 0x65849a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XInput::XInputController*>(), { "ParseCapabilities", {}, {} })));
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XInput::XInputController::*)()>(&::UnityEngine::InputSystem::XInput::XInputController::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6586cc4;
+  constexpr static std::size_t addrs = 0x6584a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XInput::XInputController*>(), { ".ctor", {}, {} })));

@@ -19,12 +19,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE LobbyAvatarItemsInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x59b8044, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x59b66a4, size 0x4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::LobbyAvatarItemsInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x59b8048, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59b66a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

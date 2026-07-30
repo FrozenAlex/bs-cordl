@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(
     &::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Awake)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x59d8fbc;
+  constexpr static std::size_t addrs = 0x59d762c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(
     &::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59d900c;
+  constexpr static std::size_t addrs = 0x59d767c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)(bool)>(
     &::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::SetEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59d3c94;
+  constexpr static std::size_t addrs = 0x59d2304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(
     &::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::UpdatePositionAndRotationIfNeeded)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x59d9010;
+  constexpr static std::size_t addrs = 0x59d7680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(
     &::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59d929c;
+  constexpr static std::size_t addrs = 0x59d790c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

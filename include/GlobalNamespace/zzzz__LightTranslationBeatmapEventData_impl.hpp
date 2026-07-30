@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LightTranslationBeatmapEventData* (::GlobalNamespace::LightTranslationBeatmapEventData::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventData::get_previousSameTypeEventData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x325aa70;
+  constexpr static std::size_t addrs = 0x3257d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LightTranslationBeatmapEventData* (::GlobalNamespace::LightTranslationBeatmapEventData::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventData::get_nextSameTypeEventData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x325aaec;
+  constexpr static std::size_t addrs = 0x3257dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::LightTranslationBeatmapEventData::*)()>(&::GlobalNamespace::LightTranslationBeatmapEventData::get_translation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325ab68;
+  constexpr static std::size_t addrs = 0x3257e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationBeatmapEventData*>(), { "get_translation", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationBeatmapEventData::*)(float_t)>(&::GlobalNamespace::LightTranslationBeatmapEventData::set_translation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325ab70;
+  constexpr static std::size_t addrs = 0x3257e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::LightTranslationBeatmapEventData::*)()>(&::GlobalNamespace::LightTranslationBeatmapEventData::get_distribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325ab78;
+  constexpr static std::size_t addrs = 0x3257e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationBeatmapEventData*>(), { "get_distribution", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationBeatmapEventData::*)(float_t)>(
     &::GlobalNamespace::LightTranslationBeatmapEventData::set_distribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325ab80;
+  constexpr static std::size_t addrs = 0x3257e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationBeatmapEventData::*)(
     float_t, int32_t, int32_t, bool, ::GlobalNamespace::EaseType, ::GlobalNamespace::LightAxis, float_t, float_t)>(&::GlobalNamespace::LightTranslationBeatmapEventData::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x325ab88;
+  constexpr static std::size_t addrs = 0x3257e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationBeatmapEventData::*)(float_t, float_t)>(
     &::GlobalNamespace::LightTranslationBeatmapEventData::ChangeTranslation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325ac74;
+  constexpr static std::size_t addrs = 0x3257f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationBeatmapEventData*>(),
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::LightTranslationBeatmapEventData::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventData::GetCopy)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x325ac7c;
+  constexpr static std::size_t addrs = 0x3257f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationBeatmapEventData*>(),
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, ::GlobalNamespace::LightAxis)>(&::GlobalNamespace::LightTranslationBeatmapEventData::SubtypeIdentifier)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x325ac5c;
+  constexpr static std::size_t addrs = 0x3257f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::LightTranslationBeatmapEventData::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventData::GetDefault)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x325ad28;
+  constexpr static std::size_t addrs = 0x3257fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationBeatmapEventData*>(),

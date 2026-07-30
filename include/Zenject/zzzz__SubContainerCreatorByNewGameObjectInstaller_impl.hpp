@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SubContainerCreatorByNewGameObjectInstaller___c__DisplayClass3_0::*)()>(
     &::Zenject::SubContainerCreatorByNewGameObjectInstaller___c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e87968;
+  constexpr static std::size_t addrs = 0x6e8336c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SubContainerCreatorByNewGameObjectInstaller___c__DisplayClass3_0::*)(::Zenject::DiContainer*)>(
     &::Zenject::SubContainerCreatorByNewGameObjectInstaller___c__DisplayClass3_0::_AddInstallers_b__0)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6e879bc;
+  constexpr static std::size_t addrs = 0x6e833c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SubContainerCreatorByNewGameObjectInstaller___c__DisplayClass3_0*>(),
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::SubContainerCreatorByNewGameObjectInstaller___c__DisplayClass3_0::__zenCreate)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e87b20;
+  constexpr static std::size_t addrs = 0x6e83524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SubContainerCreatorByNewGameObjectInstaller___c__DisplayClass3_0*>(),
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::SubContainerCreatorByNewGameObjectInstaller___c__DisplayClass3_0::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6e87b64;
+  constexpr static std::size_t addrs = 0x6e83568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SubConta
     ::Zenject::DiContainer*, ::Zenject::GameObjectCreationParameters*, ::System::Type*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*)>(
     &::Zenject::SubContainerCreatorByNewGameObjectInstaller::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6e87788;
+  constexpr static std::size_t addrs = 0x6e8318c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SubContainerCreatorByNewGameObjectInstaller::*)(
     ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::Zenject::GameObjectContext*)>(&::Zenject::SubContainerCreatorByNewGameObjectInstaller::AddInstallers)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6e87850;
+  constexpr static std::size_t addrs = 0x6e83254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Zenject::SubContainerCreatorByNewGameObjectInstaller*>(),

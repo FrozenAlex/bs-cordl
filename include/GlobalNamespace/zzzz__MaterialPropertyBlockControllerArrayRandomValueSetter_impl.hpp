@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockControllerArrayRandomValueSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockControllerArrayRandomValueSetter::Start)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x58741f0;
+  constexpr static std::size_t addrs = 0x587269c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockControllerArrayRandomValueSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockControllerArrayRandomValueSetter::OnValidate)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x58743c8;
+  constexpr static std::size_t addrs = 0x5872874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockControllerArrayRandomValueSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockControllerArrayRandomValueSetter::RefreshPropertyId)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5874218;
+  constexpr static std::size_t addrs = 0x58726c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockControllerArrayRandomValueSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockControllerArrayRandomValueSetter::ApplyParams)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5874238;
+  constexpr static std::size_t addrs = 0x58726e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockControllerArrayRandomValueSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockControllerArrayRandomValueSetter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58743f0;
+  constexpr static std::size_t addrs = 0x587289c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

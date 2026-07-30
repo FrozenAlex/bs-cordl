@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::by_ref<float_t>, ::by_ref<float_t>)>(&::Unity::Mathematics::svd::condSwap)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6680368;
+  constexpr static std::size_t addrs = 0x667e104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::by_ref<::Unity::Mathematics::float3>, ::by_ref<::Unity::Mathematics::float3>)>(&::Unity::Mathematics::svd::condNegSwap)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x668038c;
+  constexpr static std::size_t addrs = 0x667e128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::quaternion (*)(bool, ::Unity::Mathematics::quaternion, ::Unity::Mathematics::float4)>(
     &::Unity::Mathematics::svd::condNegSwapQuat)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x66803e0;
+  constexpr static std::size_t addrs = 0x667e17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Mathematics::float3x3>, ::by_ref<::Unity::Mathematics::quaternion>)>(
     &::Unity::Mathematics::svd::sortSingularValues)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x6680510;
+  constexpr static std::size_t addrs = 0x667e2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::quaternion (*)(::Unity::Mathematics::float3, ::Unity::Mathematics::float4)>(
     &::Unity::Mathematics::svd::approxGivensQuat)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x66808a8;
+  constexpr static std::size_t addrs = 0x667e644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::quaternion (*)(::Unity::Mathematics::float2, ::Unity::Mathematics::float4)>(&::Unity::Mathematics::svd::qrGivensQuat)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x66809b4;
+  constexpr static std::size_t addrs = 0x667e750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::quaternion (*)(::Unity::Mathematics::float3x3, ::by_ref<::Unity::Mathematics::float3x3>)>(
     &::Unity::Mathematics::svd::givensQRFactorization)> {
   constexpr static std::size_t size = 0x4f8;
-  constexpr static std::size_t addrs = 0x6680aec;
+  constexpr static std::size_t addrs = 0x667e888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::quaternion (*)(::by_ref<::Unity::Mathematics::float3x3>, int32_t)>(&::Unity::Mathematics::svd::jacobiIteration)> {
   constexpr static std::size_t size = 0x91c;
-  constexpr static std::size_t addrs = 0x6680fe4;
+  constexpr static std::size_t addrs = 0x667ed80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float3 (*)(::Unity::Mathematics::float3x3, ::by_ref<::Unity::Mathematics::quaternion>,
                                                                                         ::by_ref<::Unity::Mathematics::quaternion>)>(&::Unity::Mathematics::svd::singularValuesDecomposition)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x6681900;
+  constexpr static std::size_t addrs = 0x667f69c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float3 (*)(::Unity::Mathematics::float3, float_t)>(&::Unity::Mathematics::svd::rcpsafe)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6681bb8;
+  constexpr static std::size_t addrs = 0x667f954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float3x3 (*)(::Unity::Mathematics::float3x3)>(&::Unity::Mathematics::svd::svdInverse)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x6681c5c;
+  constexpr static std::size_t addrs = 0x667f9f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::quaternion (*)(::Unity::Mathematics::float3x3)>(&::Unity::Mathematics::svd::svdRotation)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6681edc;
+  constexpr static std::size_t addrs = 0x667fc78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

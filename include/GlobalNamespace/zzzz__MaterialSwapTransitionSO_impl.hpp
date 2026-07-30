@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::GlobalNamespace::MaterialSwapTransitionSO::*)()>(
     &::GlobalNamespace::MaterialSwapTransitionSO::get_normalMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6441284;
+  constexpr static std::size_t addrs = 0x643f020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialSwapTransitionSO*>(), { "get_normalMaterial", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::GlobalNamespace::MaterialSwapTransitionSO::*)()>(
     &::GlobalNamespace::MaterialSwapTransitionSO::get_highlightedMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x644128c;
+  constexpr static std::size_t addrs = 0x643f028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialSwapTransitionSO*>(), { "get_highlightedMaterial", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::GlobalNamespace::MaterialSwapTransitionSO::*)()>(
     &::GlobalNamespace::MaterialSwapTransitionSO::get_pressedMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6441294;
+  constexpr static std::size_t addrs = 0x643f030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialSwapTransitionSO*>(), { "get_pressedMaterial", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::GlobalNamespace::MaterialSwapTransitionSO::*)()>(
     &::GlobalNamespace::MaterialSwapTransitionSO::get_disabledMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x644129c;
+  constexpr static std::size_t addrs = 0x643f038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialSwapTransitionSO*>(), { "get_disabledMaterial", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::GlobalNamespace::MaterialSwapTransitionSO::*)()>(
     &::GlobalNamespace::MaterialSwapTransitionSO::get_selectedMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64412a4;
+  constexpr static std::size_t addrs = 0x643f040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialSwapTransitionSO*>(), { "get_selectedMaterial", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::GlobalNamespace::MaterialSwapTransitionSO::*)()>(
     &::GlobalNamespace::MaterialSwapTransitionSO::get_selectedAndHighlightedMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64412ac;
+  constexpr static std::size_t addrs = 0x643f048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialSwapTransitionSO::*)()>(&::GlobalNamespace::MaterialSwapTransitionSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64412b4;
+  constexpr static std::size_t addrs = 0x643f050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialSwapTransitionSO*>(), { ".ctor", {}, {} })));

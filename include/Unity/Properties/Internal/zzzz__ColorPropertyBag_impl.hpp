@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::Internal::ColorPropertyBag_RProperty::*)()>(
     &::Unity::Properties::Internal::ColorPropertyBag_RProperty::get_Name)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6baff08;
+  constexpr static std::size_t addrs = 0x6bab90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag_RProperty*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::Internal::ColorPropertyBag_RProperty::*)()>(
     &::Unity::Properties::Internal::ColorPropertyBag_RProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6baff4c;
+  constexpr static std::size_t addrs = 0x6bab950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag_RProperty*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::Internal::ColorPropertyBag_RProperty::*)(::by_ref<::UnityEngine::Color>)>(
     &::Unity::Properties::Internal::ColorPropertyBag_RProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6baff54;
+  constexpr static std::size_t addrs = 0x6bab958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag_RProperty*>(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::ColorPropertyBag_RProperty::*)(::by_ref<::UnityEngine::Color>, float_t)>(
     &::Unity::Properties::Internal::ColorPropertyBag_RProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6baff5c;
+  constexpr static std::size_t addrs = 0x6bab960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag_RProperty*>(),
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::ColorPropertyBag_RProperty::*)()>(&::Unity::Properties::Internal::ColorPropertyBag_RProperty::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6bafe18;
+  constexpr static std::size_t addrs = 0x6bab81c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag_RProperty*>(), { ".ctor", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::Internal::ColorPropertyBag_GProperty::*)()>(
     &::Unity::Properties::Internal::ColorPropertyBag_GProperty::get_Name)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6baff64;
+  constexpr static std::size_t addrs = 0x6bab968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag_GProperty*>(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::Internal::ColorPropertyBag_GProperty::*)()>(
     &::Unity::Properties::Internal::ColorPropertyBag_GProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6baffa8;
+  constexpr static std::size_t addrs = 0x6bab9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag_GProperty*>(),
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::Internal::ColorPropertyBag_GProperty::*)(::by_ref<::UnityEngine::Color>)>(
     &::Unity::Properties::Internal::ColorPropertyBag_GProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6baffb0;
+  constexpr static std::size_t addrs = 0x6bab9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag_GProperty*>(),
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::ColorPropertyBag_GProperty::*)(::by_ref<::UnityEngine::Color>, float_t)>(
     &::Unity::Properties::Internal::ColorPropertyBag_GProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6baffb8;
+  constexpr static std::size_t addrs = 0x6bab9bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag_GProperty*>(),
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::ColorPropertyBag_GProperty::*)()>(&::Unity::Properties::Internal::ColorPropertyBag_GProperty::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6bafe54;
+  constexpr static std::size_t addrs = 0x6bab858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag_GProperty*>(), { ".ctor", {}, {} })));
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::Internal::ColorPropertyBag_BProperty::*)()>(
     &::Unity::Properties::Internal::ColorPropertyBag_BProperty::get_Name)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6baffc0;
+  constexpr static std::size_t addrs = 0x6bab9c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag_BProperty*>(),
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::Internal::ColorPropertyBag_BProperty::*)()>(
     &::Unity::Properties::Internal::ColorPropertyBag_BProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb0004;
+  constexpr static std::size_t addrs = 0x6baba08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag_BProperty*>(),
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::Internal::ColorPropertyBag_BProperty::*)(::by_ref<::UnityEngine::Color>)>(
     &::Unity::Properties::Internal::ColorPropertyBag_BProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb000c;
+  constexpr static std::size_t addrs = 0x6baba10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag_BProperty*>(),
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::ColorPropertyBag_BProperty::*)(::by_ref<::UnityEngine::Color>, float_t)>(
     &::Unity::Properties::Internal::ColorPropertyBag_BProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb0014;
+  constexpr static std::size_t addrs = 0x6baba18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag_BProperty*>(),
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::ColorPropertyBag_BProperty::*)()>(&::Unity::Properties::Internal::ColorPropertyBag_BProperty::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6bafe90;
+  constexpr static std::size_t addrs = 0x6bab894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag_BProperty*>(), { ".ctor", {}, {} })));
@@ -303,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::Internal::ColorPropertyBag_AProperty::*)()>(
     &::Unity::Properties::Internal::ColorPropertyBag_AProperty::get_Name)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6bb001c;
+  constexpr static std::size_t addrs = 0x6baba20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag_AProperty*>(),
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::Internal::ColorPropertyBag_AProperty::*)()>(
     &::Unity::Properties::Internal::ColorPropertyBag_AProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb0060;
+  constexpr static std::size_t addrs = 0x6baba64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag_AProperty*>(),
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Properties::Internal::ColorPropertyBag_AProperty::*)(::by_ref<::UnityEngine::Color>)>(
     &::Unity::Properties::Internal::ColorPropertyBag_AProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb0068;
+  constexpr static std::size_t addrs = 0x6baba6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag_AProperty*>(),
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::ColorPropertyBag_AProperty::*)(::by_ref<::UnityEngine::Color>, float_t)>(
     &::Unity::Properties::Internal::ColorPropertyBag_AProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb0070;
+  constexpr static std::size_t addrs = 0x6baba74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag_AProperty*>(),
@@ -358,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::ColorPropertyBag_AProperty::*)()>(&::Unity::Properties::Internal::ColorPropertyBag_AProperty::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6bafecc;
+  constexpr static std::size_t addrs = 0x6bab8d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag_AProperty*>(), { ".ctor", {}, {} })));
@@ -399,7 +399,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::Internal::ColorPropertyBag::*)()>(&::Unity::Properties::Internal::ColorPropertyBag::_ctor)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x6baec1c;
+  constexpr static std::size_t addrs = 0x6baa620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::Internal::ColorPropertyBag*>(), { ".ctor", {}, {} })));

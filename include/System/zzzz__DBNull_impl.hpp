@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DBNull::*)()>(&::System::DBNull::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c23e34;
+  constexpr static std::size_t addrs = 0x5c21c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DBNull*>(), { ".ctor", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DBNull::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::DBNull::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c23e38;
+  constexpr static std::size_t addrs = 0x5c21c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DBNull::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::DBNull::GetObjectData)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5c23e84;
+  constexpr static std::size_t addrs = 0x5c21cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::DBNull::*)()>(&::System::DBNull::ToString)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c23e94;
+  constexpr static std::size_t addrs = 0x5c21cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::DBNull*>(), { ::i2c::class_of<::System::DBNull*>(), 3 }));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::DBNull::*)(::System::IFormatProvider*)>(&::System::DBNull::ToString)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c23ea8;
+  constexpr static std::size_t addrs = 0x5c21cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TypeCode (::System::DBNull::*)()>(&::System::DBNull::GetTypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c23ebc;
+  constexpr static std::size_t addrs = 0x5c21d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DBNull*>(), { "GetTypeCode", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::DBNull::*)(::System::IFormatProvider*)>(&::System::DBNull::System_IConvertible_ToBoolean)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c23ec4;
+  constexpr static std::size_t addrs = 0x5c21d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::System::DBNull::*)(::System::IFormatProvider*)>(&::System::DBNull::System_IConvertible_ToChar)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c23f10;
+  constexpr static std::size_t addrs = 0x5c21d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (::System::DBNull::*)(::System::IFormatProvider*)>(&::System::DBNull::System_IConvertible_ToSByte)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c23f5c;
+  constexpr static std::size_t addrs = 0x5c21da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::System::DBNull::*)(::System::IFormatProvider*)>(&::System::DBNull::System_IConvertible_ToByte)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c23fa8;
+  constexpr static std::size_t addrs = 0x5c21dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::System::DBNull::*)(::System::IFormatProvider*)>(&::System::DBNull::System_IConvertible_ToInt16)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c23ff4;
+  constexpr static std::size_t addrs = 0x5c21e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::System::DBNull::*)(::System::IFormatProvider*)>(&::System::DBNull::System_IConvertible_ToUInt16)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c24040;
+  constexpr static std::size_t addrs = 0x5c21e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::DBNull::*)(::System::IFormatProvider*)>(&::System::DBNull::System_IConvertible_ToInt32)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c2408c;
+  constexpr static std::size_t addrs = 0x5c21ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::System::DBNull::*)(::System::IFormatProvider*)>(&::System::DBNull::System_IConvertible_ToUInt32)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c240d8;
+  constexpr static std::size_t addrs = 0x5c21f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::DBNull::*)(::System::IFormatProvider*)>(&::System::DBNull::System_IConvertible_ToInt64)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c24124;
+  constexpr static std::size_t addrs = 0x5c21f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::System::DBNull::*)(::System::IFormatProvider*)>(&::System::DBNull::System_IConvertible_ToUInt64)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c24170;
+  constexpr static std::size_t addrs = 0x5c21fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::System::DBNull::*)(::System::IFormatProvider*)>(&::System::DBNull::System_IConvertible_ToSingle)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c241bc;
+  constexpr static std::size_t addrs = 0x5c22000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::System::DBNull::*)(::System::IFormatProvider*)>(&::System::DBNull::System_IConvertible_ToDouble)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c24208;
+  constexpr static std::size_t addrs = 0x5c2204c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::DBNull::*)(::System::IFormatProvider*)>(&::System::DBNull::System_IConvertible_ToDecimal)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c24254;
+  constexpr static std::size_t addrs = 0x5c22098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::DBNull::*)(::System::IFormatProvider*)>(&::System::DBNull::System_IConvertible_ToDateTime)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c242a0;
+  constexpr static std::size_t addrs = 0x5c220e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -281,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::DBNull::*)(::System::Type*, ::System::IFormatProvider*)>(&::System::DBNull::System_IConvertible_ToType)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5c242ec;
+  constexpr static std::size_t addrs = 0x5c22130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

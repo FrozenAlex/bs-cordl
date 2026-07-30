@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothStepPositionEventEffect::*)()>(&::GlobalNamespace::SmoothStepPositionEventEffect::Awake)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x599b5d0;
+  constexpr static std::size_t addrs = 0x5999c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothStepPositionEventEffect*>(), { "Awake", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothStepPositionEventEffect::*)()>(&::GlobalNamespace::SmoothStepPositionEventEffect::Start)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x599b720;
+  constexpr static std::size_t addrs = 0x5999dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothStepPositionEventEffect*>(), { "Start", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothStepPositionEventEffect::*)()>(&::GlobalNamespace::SmoothStepPositionEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x599b848;
+  constexpr static std::size_t addrs = 0x5999f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothStepPositionEventEffect*>(), { "OnDestroy", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothStepPositionEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::SmoothStepPositionEventEffect::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x599b8e8;
+  constexpr static std::size_t addrs = 0x5999fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothStepPositionEventEffect*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::SmoothStepPositionEventEffect::*)(int32_t)>(
     &::GlobalNamespace::SmoothStepPositionEventEffect::GetPositionForValue)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x599b9b4;
+  constexpr static std::size_t addrs = 0x599a06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothStepPositionEventEffect::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::SmoothStepPositionEventEffect::SetPosition)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x599ba04;
+  constexpr static std::size_t addrs = 0x599a0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothStepPositionEventEffect::*)()>(&::GlobalNamespace::SmoothStepPositionEventEffect::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x599ba4c;
+  constexpr static std::size_t addrs = 0x599a104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothStepPositionEventEffect*>(), { ".ctor", {}, {} })));

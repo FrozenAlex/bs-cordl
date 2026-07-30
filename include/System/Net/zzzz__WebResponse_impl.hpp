@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebResponse::*)()>(&::System::Net::WebResponse::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6405754;
+  constexpr static std::size_t addrs = 0x64034f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebResponse*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebResponse::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::Net::WebResponse::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x640eff8;
+  constexpr static std::size_t addrs = 0x640cd94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebResponse::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::Net::WebResponse::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x640effc;
+  constexpr static std::size_t addrs = 0x640cd98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebResponse::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::Net::WebResponse::GetObjectData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x640f008;
+  constexpr static std::size_t addrs = 0x640cda4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebResponse*>(), { ::i2c::class_of<::System::Net::WebResponse*>(), 8 }));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebResponse::*)()>(&::System::Net::WebResponse::Close)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x640f00c;
+  constexpr static std::size_t addrs = 0x640cda8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebResponse*>(), { ::i2c::class_of<::System::Net::WebResponse*>(), 9 }));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebResponse::*)()>(&::System::Net::WebResponse::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x640f010;
+  constexpr static std::size_t addrs = 0x640cdac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::WebResponse*>(), { "Dispose", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::WebResponse::*)(bool)>(&::System::Net::WebResponse::Dispose)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x640f080;
+  constexpr static std::size_t addrs = 0x640ce1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebResponse*>(), { ::i2c::class_of<::System::Net::WebResponse*>(), 10 }));
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::WebResponse::*)()>(&::System::Net::WebResponse::get_IsFromCache)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x640f108;
+  constexpr static std::size_t addrs = 0x640cea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebResponse*>(), { ::i2c::class_of<::System::Net::WebResponse*>(), 11 }));
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::System::Net::WebResponse::*)()>(&::System::Net::WebResponse::GetResponseStream)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640f110;
+  constexpr static std::size_t addrs = 0x640ceac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebResponse*>(), { ::i2c::class_of<::System::Net::WebResponse*>(), 12 }));
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Uri* (::System::Net::WebResponse::*)()>(&::System::Net::WebResponse::get_ResponseUri)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640f134;
+  constexpr static std::size_t addrs = 0x640ced0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebResponse*>(), { ::i2c::class_of<::System::Net::WebResponse*>(), 13 }));
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::WebHeaderCollection* (::System::Net::WebResponse::*)()>(&::System::Net::WebResponse::get_Headers)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x640f158;
+  constexpr static std::size_t addrs = 0x640cef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::WebResponse*>(), { ::i2c::class_of<::System::Net::WebResponse*>(), 14 }));

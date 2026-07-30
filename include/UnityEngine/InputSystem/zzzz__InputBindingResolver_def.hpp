@@ -80,21 +80,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method AddActionMap, addr 0x6507f74, size 0x17f8, virtual false, abstract: false, final false
+  /// @brief Method AddActionMap, addr 0x6505d10, size 0x17f8, virtual false, abstract: false, final false
   inline void AddActionMap(::UnityEngine::InputSystem::InputActionMap* actionMap);
 
-  /// @brief Method ApplyParameters, addr 0x6509b94, size 0x498, virtual false, abstract: false, final false
+  /// @brief Method ApplyParameters, addr 0x6507930, size 0x498, virtual false, abstract: false, final false
   static inline void ApplyParameters(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> parameters, ::System::Object* instance,
                                      ::UnityEngine::InputSystem::InputActionMap* actionMap, ::by_ref<::UnityEngine::InputSystem::InputBinding> binding, ::StringW objectRegistrationName,
                                      ::StringW namesAndParameters);
 
-  /// @brief Method AssignCompositePartIndex, addr 0x65099d0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method AssignCompositePartIndex, addr 0x650776c, size 0x1c4, virtual false, abstract: false, final false
   static inline int32_t AssignCompositePartIndex(::System::Object* composite, ::StringW name, ::by_ref<int32_t> currentCompositePartCount);
 
-  /// @brief Method Dispose, addr 0x6507e84, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6505c20, size 0xc, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method InstantiateBindingComposite, addr 0x6509780, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method InstantiateBindingComposite, addr 0x650751c, size 0x250, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputBindingComposite* InstantiateBindingComposite(::by_ref<::UnityEngine::InputSystem::InputBinding> binding,
                                                                                                ::UnityEngine::InputSystem::InputActionMap* actionMap);
 
@@ -103,19 +103,19 @@ public:
   inline int32_t InstantiateWithParameters(::UnityEngine::InputSystem::Utilities::TypeTable registrations, ::StringW namesAndParameters, ::by_ref<::ArrayW<TType>> array, ::by_ref<int32_t> count,
                                            ::UnityEngine::InputSystem::InputActionMap* actionMap, ::by_ref<::UnityEngine::InputSystem::InputBinding> binding);
 
-  /// @brief Method StartWithPreviousResolve, addr 0x6507e90, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method StartWithPreviousResolve, addr 0x6505c2c, size 0xe4, virtual false, abstract: false, final false
   inline void StartWithPreviousResolve(::UnityEngine::InputSystem::InputActionState* state, bool isFullResolve);
 
-  /// @brief Method get_totalActionCount, addr 0x6507e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalActionCount, addr 0x6505c08, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalActionCount();
 
-  /// @brief Method get_totalBindingCount, addr 0x6507e74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalBindingCount, addr 0x6505c10, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalBindingCount();
 
-  /// @brief Method get_totalControlCount, addr 0x6507e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalControlCount, addr 0x6505c18, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalControlCount();
 
-  /// @brief Method get_totalMapCount, addr 0x6507e64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalMapCount, addr 0x6505c00, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalMapCount();
 
   /// @brief Convert to "::System::IDisposable"

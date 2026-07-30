@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::System::Net::Http::HttpUtilities::IsSupportedSecureScheme)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x60d0af0;
+  constexpr static std::size_t addrs = 0x60ce88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::System::Net::Http::HttpUtilities::IsSecureWebSocketScheme)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x60d0b60;
+  constexpr static std::size_t addrs = 0x60ce8fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

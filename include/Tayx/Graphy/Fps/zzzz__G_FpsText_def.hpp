@@ -73,24 +73,24 @@ public:
   /// @brief Field m_zero1PercentFpsText, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_m_zero1PercentFpsText, put = __cordl_internal_set_m_zero1PercentFpsText)) ::UnityW<::UnityEngine::UI::Text> m_zero1PercentFpsText;
 
-  /// @brief Method Awake, addr 0x643b0e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x6438e80, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x643aa3c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x64387d8, size 0x154, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Fps::G_FpsText* New_ctor();
 
-  /// @brief Method SetFpsRelatedTextColor, addr 0x643b46c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetFpsRelatedTextColor, addr 0x6439208, size 0xa0, virtual false, abstract: false, final false
   inline void SetFpsRelatedTextColor(::UnityEngine::UI::Text* text, float_t fps);
 
-  /// @brief Method SetFrameTimeRelatedTextColor, addr 0x643b50c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetFrameTimeRelatedTextColor, addr 0x64392a8, size 0xb4, virtual false, abstract: false, final false
   inline void SetFrameTimeRelatedTextColor(::UnityEngine::UI::Text* text, float_t frameTime);
 
-  /// @brief Method Update, addr 0x643b0e8, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6438e84, size 0x384, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x643aa20, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x64387bc, size 0x1c, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_avgFpsText() const;
@@ -177,7 +177,7 @@ public:
 
   constexpr void __cordl_internal_set_m_zero1PercentFpsText(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x643b5c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x643935c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -195,7 +195,7 @@ public:
   G_FpsText(G_FpsText const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21453 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21450 };
 
   /// @brief Field m_msStringFormat offset 0xffffffff size 0x8
   static constexpr ::ConstString m_msStringFormat{ u"0.0" };

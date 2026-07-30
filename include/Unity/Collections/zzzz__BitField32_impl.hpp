@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::BitField32::*)(uint32_t)>(&::Unity::Collections::BitField32::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64a60c0;
+  constexpr static std::size_t addrs = 0x64a3e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::BitField32>(), { ".ctor", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::BitField32::*)()>(&::Unity::Collections::BitField32::Clear)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64a60c8;
+  constexpr static std::size_t addrs = 0x64a3e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::BitField32>(), { "Clear", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::BitField32::*)(int32_t, bool)>(&::Unity::Collections::BitField32::SetBits)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x64a60d0;
+  constexpr static std::size_t addrs = 0x64a3e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::BitField32::*)(int32_t, bool, int32_t)>(&::Unity::Collections::BitField32::SetBits)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x64a60f4;
+  constexpr static std::size_t addrs = 0x64a3e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Collections::BitField32::*)(int32_t, int32_t)>(&::Unity::Collections::BitField32::GetBits)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64a6124;
+  constexpr static std::size_t addrs = 0x64a3ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::BitField32::*)(int32_t)>(&::Unity::Collections::BitField32::IsSet)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64a6140;
+  constexpr static std::size_t addrs = 0x64a3edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::BitField32>(), { "IsSet", {}, { ::i2c::type_of<int32_t>() } })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::BitField32::*)(int32_t, int32_t)>(&::Unity::Collections::BitField32::TestNone)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64a6150;
+  constexpr static std::size_t addrs = 0x64a3eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::BitField32::*)(int32_t, int32_t)>(&::Unity::Collections::BitField32::TestAny)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64a616c;
+  constexpr static std::size_t addrs = 0x64a3f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::BitField32::*)(int32_t, int32_t)>(&::Unity::Collections::BitField32::TestAll)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64a6188;
+  constexpr static std::size_t addrs = 0x64a3f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::BitField32::*)()>(&::Unity::Collections::BitField32::CountBits)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64a61a8;
+  constexpr static std::size_t addrs = 0x64a3f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::BitField32>(), { "CountBits", {}, {} })));
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::BitField32::*)()>(&::Unity::Collections::BitField32::CountLeadingZeros)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x64a61c0;
+  constexpr static std::size_t addrs = 0x64a3f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::BitField32>(), { "CountLeadingZeros", {}, {} })));
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::BitField32::*)()>(&::Unity::Collections::BitField32::CountTrailingZeros)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x64a61fc;
+  constexpr static std::size_t addrs = 0x64a3f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::BitField32>(), { "CountTrailingZeros", {}, {} })));
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t)>(&::Unity::Collections::BitField32::CheckArgs)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x64a623c;
+  constexpr static std::size_t addrs = 0x64a3fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

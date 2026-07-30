@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)()>(&::Org::BouncyCastle::Crypto::Tls::CombinedHash::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x343a8f0;
+  constexpr static std::size_t addrs = 0x3438eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::CombinedHash*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)(::Org::BouncyCastle::Crypto::Tls::CombinedHash*)>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x343a964;
+  constexpr static std::size_t addrs = 0x3438f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*)>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x343a9fc;
+  constexpr static std::size_t addrs = 0x3438fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::NotifyPrfDetermined)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x343aa04;
+  constexpr static std::size_t addrs = 0x3438fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Tls::CombinedHash::TrackHashAlgorithm)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x343aa08;
+  constexpr static std::size_t addrs = 0x3438fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)()>(&::Org::BouncyCastle::Crypto::Tls::CombinedHash::SealHashAlgorithms)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x343aa54;
+  constexpr static std::size_t addrs = 0x343901c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::StopTracking)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x343aa58;
+  constexpr static std::size_t addrs = 0x3439020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::ForkPrfHash)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x343aab4;
+  constexpr static std::size_t addrs = 0x343907c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Tls::CombinedHash::GetFinalHash)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x343ab10;
+  constexpr static std::size_t addrs = 0x34390d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)()>(&::Org::BouncyCastle::Crypto::Tls::CombinedHash::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x343ab5c;
+  constexpr static std::size_t addrs = 0x3439124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)()>(&::Org::BouncyCastle::Crypto::Tls::CombinedHash::GetByteLength)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x343ac90;
+  constexpr static std::size_t addrs = 0x3439258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)()>(&::Org::BouncyCastle::Crypto::Tls::CombinedHash::GetDigestSize)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x343addc;
+  constexpr static std::size_t addrs = 0x34393a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Tls::CombinedHash::Update)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x343aef4;
+  constexpr static std::size_t addrs = 0x34394bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::BlockUpdate)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x343b014;
+  constexpr static std::size_t addrs = 0x34395dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)(::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::DoFinal)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x343b154;
+  constexpr static std::size_t addrs = 0x343971c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)()>(&::Org::BouncyCastle::Crypto::Tls::CombinedHash::Reset)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x343b348;
+  constexpr static std::size_t addrs = 0x3439910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)(::Org::BouncyCastle::Crypto::IDigest*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::Ssl3Complete)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x343b454;
+  constexpr static std::size_t addrs = 0x3439a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

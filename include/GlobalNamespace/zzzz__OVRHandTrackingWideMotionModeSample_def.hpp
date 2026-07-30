@@ -51,22 +51,22 @@ public:
 
   static inline ::GlobalNamespace::OVRHandTrackingWideMotionModeSample* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5e54878, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5e525e4, size 0xe8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5e54790, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5e524fc, size 0xe8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnFusionToggleChanged, addr 0x5e54d5c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OnFusionToggleChanged, addr 0x5e52ac8, size 0xb0, virtual false, abstract: false, final false
   inline void OnFusionToggleChanged(bool newValue);
 
-  /// @brief Method Update, addr 0x5e54960, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e526cc, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateLineRenderer, addr 0x5e54964, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method UpdateLineRenderer, addr 0x5e526d0, size 0x50, virtual false, abstract: false, final false
   inline void UpdateLineRenderer();
 
-  /// @brief Method UpdateLineRendererForHand, addr 0x5e549b4, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method UpdateLineRendererForHand, addr 0x5e52720, size 0x3a8, virtual false, abstract: false, final false
   inline void UpdateLineRendererForHand(bool isLeft);
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get_fusionToggle() const;
@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set_rightLinePointer(::UnityW<::UnityEngine::LineRenderer> value);
 
-  /// @brief Method .ctor, addr 0x5e54e0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e52b78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -55,10 +55,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x58b371c, size 0x66c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58b1bc8, size 0x66c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x58b3d88, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x58b2234, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -128,19 +128,19 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x58b3440, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x58b18ec, size 0x1b0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleApplicationQuitting, addr 0x58b35f0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method HandleApplicationQuitting, addr 0x58b1a9c, size 0x12c, virtual false, abstract: false, final false
   inline bool HandleApplicationQuitting();
 
-  /// @brief Method HandleHmdStateChanged, addr 0x58b3234, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method HandleHmdStateChanged, addr 0x58b16e0, size 0x20c, virtual false, abstract: false, final false
   inline void HandleHmdStateChanged(::GlobalNamespace::XRSystemEventType xrSystemEventType);
 
-  /// @brief Method Initialize, addr 0x58b3104, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x58b15b0, size 0x80, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method InitializeAsync, addr 0x58b3184, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x58b1630, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeAsync();
 
   static inline ::GlobalNamespace::HMDSessionTracker* New_ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* gameplayEventsDispatcher, ::GlobalNamespace::IXRSystemState* xrSystemState);
@@ -157,7 +157,7 @@ public:
 
   constexpr void __cordl_internal_set__xrSystemState(::GlobalNamespace::IXRSystemState* value);
 
-  /// @brief Method .ctor, addr 0x58b30fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b15a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* gameplayEventsDispatcher, ::GlobalNamespace::IXRSystemState* xrSystemState);
 
   /// @brief Convert to "::System::IDisposable"

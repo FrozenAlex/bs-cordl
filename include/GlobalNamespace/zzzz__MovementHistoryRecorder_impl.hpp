@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::AveragingValueRecorder* (::GlobalNamespace::MovementHistoryRecorder::*)()>(
     &::GlobalNamespace::MovementHistoryRecorder::get_averagingValueRecorer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59e8848;
+  constexpr static std::size_t addrs = 0x59e6eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MovementHistoryRecorder*>(), { "get_averagingValueRecorer", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MovementHistoryRecorder::*)(float_t, float_t, float_t, float_t)>(&::GlobalNamespace::MovementHistoryRecorder::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x59e8850;
+  constexpr static std::size_t addrs = 0x59e6ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MovementHistoryRecorder::*)(float_t)>(&::GlobalNamespace::MovementHistoryRecorder::AddMovement)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x59e88dc;
+  constexpr static std::size_t addrs = 0x59e6f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MovementHistoryRecorder::*)(float_t)>(&::GlobalNamespace::MovementHistoryRecorder::ManualUpdate)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x59e8904;
+  constexpr static std::size_t addrs = 0x59e6f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

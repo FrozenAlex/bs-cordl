@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(&::UnityEngine::InputSystem::LowLevel::QueryDimensionsCommand::get_Type)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a836c;
+  constexpr static std::size_t addrs = 0x65a6108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::QueryDimensionsCommand>(), { "get_Type", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::QueryDimensionsCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryDimensionsCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a8378;
+  constexpr static std::size_t addrs = 0x65a6114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::LowLevel::QueryDimensionsCommand (*)()>(&::UnityEngine::InputSystem::LowLevel::QueryDimensionsCommand::Create)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x65a8384;
+  constexpr static std::size_t addrs = 0x65a6120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::QueryDimensionsCommand>(), { "Create", {}, {} })));

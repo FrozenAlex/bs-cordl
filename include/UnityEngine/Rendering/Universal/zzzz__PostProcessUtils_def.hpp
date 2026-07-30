@@ -106,7 +106,7 @@ public:
   PostProcessUtils_ShaderConstants(PostProcessUtils_ShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12870 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12868 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -123,25 +123,25 @@ public:
   // Declarations
   using ShaderConstants = ::UnityEngine::Rendering::Universal::PostProcessUtils_ShaderConstants;
 
-  /// @brief Method ConfigureDithering, addr 0x68a5bf0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ConfigureDithering, addr 0x68a398c, size 0x64, virtual false, abstract: false, final false
   static inline int32_t ConfigureDithering(::UnityEngine::Rendering::Universal::PostProcessData* data, int32_t index, ::UnityEngine::Camera* camera, ::UnityEngine::Material* material);
 
-  /// @brief Method ConfigureDithering, addr 0x68a5c54, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ConfigureDithering, addr 0x68a39f0, size 0x224, virtual false, abstract: false, final false
   static inline int32_t ConfigureDithering(::UnityEngine::Rendering::Universal::PostProcessData* data, int32_t index, int32_t cameraPixelWidth, int32_t cameraPixelHeight,
                                            ::UnityEngine::Material* material);
 
-  /// @brief Method ConfigureFilmGrain, addr 0x68a5e78, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ConfigureFilmGrain, addr 0x68a3c14, size 0x64, virtual false, abstract: false, final false
   static inline void ConfigureFilmGrain(::UnityEngine::Rendering::Universal::PostProcessData* data, ::UnityEngine::Rendering::Universal::FilmGrain* settings, ::UnityEngine::Camera* camera,
                                         ::UnityEngine::Material* material);
 
-  /// @brief Method ConfigureFilmGrain, addr 0x68a5edc, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method ConfigureFilmGrain, addr 0x68a3c78, size 0x354, virtual false, abstract: false, final false
   static inline void ConfigureFilmGrain(::UnityEngine::Rendering::Universal::PostProcessData* data, ::UnityEngine::Rendering::Universal::FilmGrain* settings, int32_t cameraPixelWidth,
                                         int32_t cameraPixelHeight, ::UnityEngine::Material* material);
 
-  /// @brief Method SetSourceSize, addr 0x68993e4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetSourceSize, addr 0x6897180, size 0x70, virtual false, abstract: false, final false
   static inline void SetSourceSize(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source);
 
-  /// @brief Method SetSourceSize, addr 0x6899f34, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SetSourceSize, addr 0x6897cd0, size 0x144, virtual false, abstract: false, final false
   static inline void SetSourceSize(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source);
 
 protected:
@@ -159,7 +159,7 @@ public:
   PostProcessUtils(PostProcessUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12871 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12869 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

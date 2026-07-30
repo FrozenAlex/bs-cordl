@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController::*)()>(
     &::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController::get_bodyWorldPosition)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x327c098;
+  constexpr static std::size_t addrs = 0x3279358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAv
                                                                                                                       ::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(
     &::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController::UpdateTransforms)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x327c0b0;
+  constexpr static std::size_t addrs = 0x3279370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController::*)()>(&::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController::UpdateBodyPosition)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x327c17c;
+  constexpr static std::size_t addrs = 0x327943c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController::*)()>(&::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x327c334;
+  constexpr static std::size_t addrs = 0x32795f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController*>(), { ".ctor", {}, {} })));

@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::IEnvironmentInfo*, ::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::PlayerSpecificSettings*)>(
     &::GlobalNamespace::LastUsedBeatmapDataCache::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x370e260;
+  constexpr static std::size_t addrs = 0x370cc88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
                                                                                                              ::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::PlayerSpecificSettings*)>(
     &::GlobalNamespace::LastUsedBeatmapDataCache::AreSameBeatmapDataCached)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x370e270;
+  constexpr static std::size_t addrs = 0x370cc98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::LastUsedBeatmapDataCache::AreRequiredGameplayModifiersSame)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x370e340;
+  constexpr static std::size_t addrs = 0x370cd68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::PlayerSpecificSettings*)>(
     &::GlobalNamespace::LastUsedBeatmapDataCache::AreRequiredPlayerSettingsSame)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x370e35c;
+  constexpr static std::size_t addrs = 0x370cd84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

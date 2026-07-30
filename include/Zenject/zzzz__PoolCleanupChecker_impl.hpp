@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::PoolCleanupChecker___c::*)()>(&::Zenject::PoolCleanupChecker___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e66e4c;
+  constexpr static std::size_t addrs = 0x6e62850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PoolCleanupChecker___c*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::PoolCleanupChecker___c::*)(::System::Type*)>(&::Zenject::PoolCleanupChecker___c::__ctor_b__2_0)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6e66e50;
+  constexpr static std::size_t addrs = 0x6e62854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::PoolCleanupChecker___c::__zenCreate)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e66ec4;
+  constexpr static std::size_t addrs = 0x6e628c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::PoolCleanupChecker___c::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6e66f08;
+  constexpr static std::size_t addrs = 0x6e6290c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PoolCleanupChecker___c*>(), { "__zenCreateInjectTypeInfo", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::PoolCleanupChecker::*)(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>*,
                                                                                                ::System::Collections::Generic::List_1<::System::Type*>*)>(&::Zenject::PoolCleanupChecker::_ctor)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6e66528;
+  constexpr static std::size_t addrs = 0x6e61f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::PoolCleanupChecker::*)()>(&::Zenject::PoolCleanupChecker::LateDispose)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x6e66640;
+  constexpr static std::size_t addrs = 0x6e62044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PoolCleanupChecker*>(), { "LateDispose", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::PoolCleanupChecker::__zenCreate)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6e669f4;
+  constexpr static std::size_t addrs = 0x6e623f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::PoolCleanupChecker::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x6e66b18;
+  constexpr static std::size_t addrs = 0x6e6251c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PoolCleanupChecker*>(), { "__zenCreateInjectTypeInfo", {}, {} })));

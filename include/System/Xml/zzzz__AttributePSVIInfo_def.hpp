@@ -40,7 +40,7 @@ public:
 
   static inline ::System::Xml::AttributePSVIInfo* New_ctor();
 
-  /// @brief Method Reset, addr 0x62a7400, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x62a519c, size 0x44, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Xml::Schema::XmlSchemaInfo* const& __cordl_internal_get_attributeSchemaInfo() const;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_typedAttributeValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x62a7398, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62a5134, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

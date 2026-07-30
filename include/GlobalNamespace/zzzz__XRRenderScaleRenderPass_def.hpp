@@ -27,10 +27,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::XRRenderScaleRenderPass* New_ctor();
 
-  /// @brief Method RecordRenderGraph, addr 0x5f4d624, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x5f4b368, size 0x88, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method .ctor, addr 0x5f4d560, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f4b2a4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,7 +48,7 @@ public:
   XRRenderScaleRenderPass(XRRenderScaleRenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20941 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20938 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

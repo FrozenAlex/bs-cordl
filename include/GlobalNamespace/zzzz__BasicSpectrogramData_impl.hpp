@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<float_t> (::GlobalNamespace::BasicSpectrogramData::*)()>(&::GlobalNamespace::BasicSpectrogramData::get_Samples)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x59a0ba8;
+  constexpr static std::size_t addrs = 0x599f260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BasicSpectrogramData*>(), { "get_Samples", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<float_t>* (::GlobalNamespace::BasicSpectrogramData::*)()>(
     &::GlobalNamespace::BasicSpectrogramData::get_ProcessedSamples)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x59a0da4;
+  constexpr static std::size_t addrs = 0x599f45c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BasicSpectrogramData*>(), { "get_ProcessedSamples", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BasicSpectrogramData::*)()>(&::GlobalNamespace::BasicSpectrogramData::Awake)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x59a0f98;
+  constexpr static std::size_t addrs = 0x599f650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BasicSpectrogramData*>(), { "Awake", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BasicSpectrogramData::*)()>(&::GlobalNamespace::BasicSpectrogramData::LateUpdate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59a1048;
+  constexpr static std::size_t addrs = 0x599f700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BasicSpectrogramData*>(), { "LateUpdate", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BasicSpectrogramData::*)(::ArrayW<float_t>, ::System::Collections::Generic::List_1<float_t>*)>(
     &::GlobalNamespace::BasicSpectrogramData::ProcessSamples)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x59a0de0;
+  constexpr static std::size_t addrs = 0x599f498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BasicSpectrogramData::*)(::ArrayW<float_t>)>(&::GlobalNamespace::BasicSpectrogramData::GetFakeSamples)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x59a0c60;
+  constexpr static std::size_t addrs = 0x599f318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BasicSpectrogramData::*)()>(&::GlobalNamespace::BasicSpectrogramData::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x59a1050;
+  constexpr static std::size_t addrs = 0x599f708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BasicSpectrogramData*>(), { ".ctor", {}, {} })));

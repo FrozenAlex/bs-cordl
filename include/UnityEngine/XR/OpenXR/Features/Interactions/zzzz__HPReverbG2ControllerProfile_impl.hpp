@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::get_primaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff6dc;
+  constexpr static std::size_t addrs = 0x69fd478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::set_primaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff6e4;
+  constexpr static std::size_t addrs = 0x69fd480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::get_secondaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff6ec;
+  constexpr static std::size_t addrs = 0x69fd488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::set_secondaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff6f4;
+  constexpr static std::size_t addrs = 0x69fd490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::get_menu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff6fc;
+  constexpr static std::size_t addrs = 0x69fd498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::set_menu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff704;
+  constexpr static std::size_t addrs = 0x69fd4a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::get_grip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff70c;
+  constexpr static std::size_t addrs = 0x69fd4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::set_grip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff714;
+  constexpr static std::size_t addrs = 0x69fd4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::get_gripPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff71c;
+  constexpr static std::size_t addrs = 0x69fd4b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::set_gripPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff724;
+  constexpr static std::size_t addrs = 0x69fd4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::get_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff72c;
+  constexpr static std::size_t addrs = 0x69fd4c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::set_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff734;
+  constexpr static std::size_t addrs = 0x69fd4d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::get_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff73c;
+  constexpr static std::size_t addrs = 0x69fd4d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::set_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff744;
+  constexpr static std::size_t addrs = 0x69fd4e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -232,7 +232,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::Vector2Control* (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::get_thumbstick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff74c;
+  constexpr static std::size_t addrs = 0x69fd4e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)(
     ::UnityEngine::InputSystem::Controls::Vector2Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::set_thumbstick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff754;
+  constexpr static std::size_t addrs = 0x69fd4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::get_thumbstickClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff75c;
+  constexpr static std::size_t addrs = 0x69fd4f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::set_thumbstickClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff764;
+  constexpr static std::size_t addrs = 0x69fd500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::Input::PoseControl* (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::get_devicePose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff76c;
+  constexpr static std::size_t addrs = 0x69fd508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)(
     ::UnityEngine::XR::OpenXR::Input::PoseControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::set_devicePose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff774;
+  constexpr static std::size_t addrs = 0x69fd510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -323,7 +323,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::Input::PoseControl* (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::get_pointer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff77c;
+  constexpr static std::size_t addrs = 0x69fd518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -337,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)(
     ::UnityEngine::XR::OpenXR::Input::PoseControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::set_pointer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff784;
+  constexpr static std::size_t addrs = 0x69fd520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -353,7 +353,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::get_isTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff78c;
+  constexpr static std::size_t addrs = 0x69fd528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::set_isTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff794;
+  constexpr static std::size_t addrs = 0x69fd530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -383,7 +383,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::IntegerControl* (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::get_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff79c;
+  constexpr static std::size_t addrs = 0x69fd538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -398,7 +398,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)(
     ::UnityEngine::InputSystem::Controls::IntegerControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::set_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff7a4;
+  constexpr static std::size_t addrs = 0x69fd540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -414,7 +414,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::get_devicePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff7ac;
+  constexpr static std::size_t addrs = 0x69fd548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -429,7 +429,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)(
     ::UnityEngine::InputSystem::Controls::Vector3Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::set_devicePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff7b4;
+  constexpr static std::size_t addrs = 0x69fd550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -445,7 +445,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::get_deviceRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff7bc;
+  constexpr static std::size_t addrs = 0x69fd558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -460,7 +460,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)(
     ::UnityEngine::InputSystem::Controls::QuaternionControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::set_deviceRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff7c4;
+  constexpr static std::size_t addrs = 0x69fd560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -476,7 +476,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::get_pointerPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff7cc;
+  constexpr static std::size_t addrs = 0x69fd568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -491,7 +491,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)(
     ::UnityEngine::InputSystem::Controls::Vector3Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::set_pointerPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff7d4;
+  constexpr static std::size_t addrs = 0x69fd570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -507,7 +507,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::get_pointerRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff7dc;
+  constexpr static std::size_t addrs = 0x69fd578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -522,7 +522,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)(
     ::UnityEngine::InputSystem::Controls::QuaternionControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::set_pointerRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff7e4;
+  constexpr static std::size_t addrs = 0x69fd580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -538,7 +538,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::Input::HapticControl* (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::get_haptic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff7ec;
+  constexpr static std::size_t addrs = 0x69fd588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -552,7 +552,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)(
     ::UnityEngine::XR::OpenXR::Input::HapticControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::set_haptic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ff7f4;
+  constexpr static std::size_t addrs = 0x69fd590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -567,7 +567,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::FinishSetup)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x69ff7fc;
+  constexpr static std::size_t addrs = 0x69fd598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -582,7 +582,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile_ReverbG2Controller::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69ffc0c;
+  constexpr static std::size_t addrs = 0x69fd9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1088,7 +1088,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile::OnInstanceCreate)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69fd740;
+  constexpr static std::size_t addrs = 0x69fb4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile*>(),
@@ -1102,7 +1102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile::RegisterDeviceLayout)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x69fd7ac;
+  constexpr static std::size_t addrs = 0x69fb548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile*>(),
@@ -1116,7 +1116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile::UnregisterDeviceLayout)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69fd8f4;
+  constexpr static std::size_t addrs = 0x69fb690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile*>(),
@@ -1130,7 +1130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile::GetDeviceLayoutName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x69fd964;
+  constexpr static std::size_t addrs = 0x69fb700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile*>(),
@@ -1144,7 +1144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile::RegisterActionMapsWithRuntime)> {
   constexpr static std::size_t size = 0x1cd8;
-  constexpr static std::size_t addrs = 0x69fd9a8;
+  constexpr static std::size_t addrs = 0x69fb744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile*>(),
@@ -1158,7 +1158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::HPReverbG2ControllerProfile::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69ff680;
+  constexpr static std::size_t addrs = 0x69fd41c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

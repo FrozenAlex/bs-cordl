@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer_EventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Video::VideoPlayer_EventHandler::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e32ac4;
+  constexpr static std::size_t addrs = 0x6e2e4c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer_EventHandler*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer_EventHandler::*)(::UnityEngine::Video::VideoPlayer*)>(
     &::UnityEngine::Video::VideoPlayer_EventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e32b40;
+  constexpr static std::size_t addrs = 0x6e2e544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer_ErrorEventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Video::VideoPlayer_ErrorEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e32b54;
+  constexpr static std::size_t addrs = 0x6e2e558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer_ErrorEventHandler*>(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer_ErrorEventHandler::*)(::UnityEngine::Video::VideoPlayer*, ::StringW)>(
     &::UnityEngine::Video::VideoPlayer_ErrorEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e32bd4;
+  constexpr static std::size_t addrs = 0x6e2e5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer_ErrorEventHandler*>(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer_FrameReadyEventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Video::VideoPlayer_FrameReadyEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e32be8;
+  constexpr static std::size_t addrs = 0x6e2e5ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer_FrameReadyEventHandler*>(),
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer_FrameReadyEventHandler::*)(::UnityEngine::Video::VideoPlayer*, int64_t)>(
     &::UnityEngine::Video::VideoPlayer_FrameReadyEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e32c68;
+  constexpr static std::size_t addrs = 0x6e2e66c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer_FrameReadyEventHandler*>(),
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer_TimeEventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Video::VideoPlayer_TimeEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e32c7c;
+  constexpr static std::size_t addrs = 0x6e2e680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer_TimeEventHandler*>(),
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer_TimeEventHandler::*)(::UnityEngine::Video::VideoPlayer*, double_t)>(
     &::UnityEngine::Video::VideoPlayer_TimeEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e32cfc;
+  constexpr static std::size_t addrs = 0x6e2e700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Video::VideoSource (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_source)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2d0c8;
+  constexpr static std::size_t addrs = 0x6e28acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_source", {}, {} })));
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoSource)>(&::UnityEngine::Video::VideoPlayer::set_source)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e2d184;
+  constexpr static std::size_t addrs = 0x6e28b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Video::VideoTimeUpdateMode (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_timeUpdateMode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2d258;
+  constexpr static std::size_t addrs = 0x6e28c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_timeUpdateMode", {}, {} })));
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoTimeUpdateMode)>(
     &::UnityEngine::Video::VideoPlayer::set_timeUpdateMode)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e2d314;
+  constexpr static std::size_t addrs = 0x6e28d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_url)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6e2d3e8;
+  constexpr static std::size_t addrs = 0x6e28dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_url", {}, {} })));
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::StringW)>(&::UnityEngine::Video::VideoPlayer::set_url)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6e2d560;
+  constexpr static std::size_t addrs = 0x6e28f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "set_url", {}, { ::i2c::type_of<::StringW>() } })));
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Video::VideoClip> (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_clip)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6e2d70c;
+  constexpr static std::size_t addrs = 0x6e29110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_clip", {}, {} })));
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoClip*)>(&::UnityEngine::Video::VideoPlayer::set_clip)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6e2d898;
+  constexpr static std::size_t addrs = 0x6e2929c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Video::VideoRenderMode (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_renderMode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2d99c;
+  constexpr static std::size_t addrs = 0x6e293a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_renderMode", {}, {} })));
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoRenderMode)>(&::UnityEngine::Video::VideoPlayer::set_renderMode)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e2da58;
+  constexpr static std::size_t addrs = 0x6e2945c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -323,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_canSetTimeUpdateMode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2db2c;
+  constexpr static std::size_t addrs = 0x6e29530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_canSetTimeUpdateMode", {}, {} })));
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Camera> (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_targetCamera)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6e2dbe8;
+  constexpr static std::size_t addrs = 0x6e295ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_targetCamera", {}, {} })));
@@ -347,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Camera*)>(&::UnityEngine::Video::VideoPlayer::set_targetCamera)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6e2dd74;
+  constexpr static std::size_t addrs = 0x6e29778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -360,7 +360,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_targetTexture)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6e2de78;
+  constexpr static std::size_t addrs = 0x6e2987c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_targetTexture", {}, {} })));
@@ -372,7 +372,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::RenderTexture*)>(&::UnityEngine::Video::VideoPlayer::set_targetTexture)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6e2e004;
+  constexpr static std::size_t addrs = 0x6e29a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Renderer> (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_targetMaterialRenderer)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6e2e108;
+  constexpr static std::size_t addrs = 0x6e29b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_targetMaterialRenderer", {}, {} })));
@@ -397,7 +397,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Renderer*)>(&::UnityEngine::Video::VideoPlayer::set_targetMaterialRenderer)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6e2e294;
+  constexpr static std::size_t addrs = 0x6e29c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -410,7 +410,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_targetMaterialProperty)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6e2e398;
+  constexpr static std::size_t addrs = 0x6e29d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_targetMaterialProperty", {}, {} })));
@@ -422,7 +422,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::StringW)>(&::UnityEngine::Video::VideoPlayer::set_targetMaterialProperty)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6e2e510;
+  constexpr static std::size_t addrs = 0x6e29f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -435,7 +435,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Video::VideoAspectRatio (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_aspectRatio)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2e6bc;
+  constexpr static std::size_t addrs = 0x6e2a0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_aspectRatio", {}, {} })));
@@ -447,7 +447,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoAspectRatio)>(&::UnityEngine::Video::VideoPlayer::set_aspectRatio)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e2e778;
+  constexpr static std::size_t addrs = 0x6e2a17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -460,7 +460,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_targetCameraAlpha)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2e84c;
+  constexpr static std::size_t addrs = 0x6e2a250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_targetCameraAlpha", {}, {} })));
@@ -472,7 +472,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(float_t)>(&::UnityEngine::Video::VideoPlayer::set_targetCameraAlpha)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e2e908;
+  constexpr static std::size_t addrs = 0x6e2a30c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -485,7 +485,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Video::Video3DLayout (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_targetCamera3DLayout)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2e9e4;
+  constexpr static std::size_t addrs = 0x6e2a3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_targetCamera3DLayout", {}, {} })));
@@ -498,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::Video3DLayout)>(
     &::UnityEngine::Video::VideoPlayer::set_targetCamera3DLayout)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e2eaa0;
+  constexpr static std::size_t addrs = 0x6e2a4a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -511,7 +511,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture> (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_texture)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6e2eb74;
+  constexpr static std::size_t addrs = 0x6e2a578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_texture", {}, {} })));
@@ -523,7 +523,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::Prepare)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2ed00;
+  constexpr static std::size_t addrs = 0x6e2a704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "Prepare", {}, {} })));
@@ -535,7 +535,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_isPrepared)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2edbc;
+  constexpr static std::size_t addrs = 0x6e2a7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_isPrepared", {}, {} })));
@@ -547,7 +547,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_waitForFirstFrame)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2ee78;
+  constexpr static std::size_t addrs = 0x6e2a87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_waitForFirstFrame", {}, {} })));
@@ -559,7 +559,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(bool)>(&::UnityEngine::Video::VideoPlayer::set_waitForFirstFrame)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e2ef34;
+  constexpr static std::size_t addrs = 0x6e2a938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -572,7 +572,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_playOnAwake)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2f008;
+  constexpr static std::size_t addrs = 0x6e2aa0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_playOnAwake", {}, {} })));
@@ -584,7 +584,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(bool)>(&::UnityEngine::Video::VideoPlayer::set_playOnAwake)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e2f0c4;
+  constexpr static std::size_t addrs = 0x6e2aac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -597,7 +597,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::Play)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2f198;
+  constexpr static std::size_t addrs = 0x6e2ab9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "Play", {}, {} })));
@@ -609,7 +609,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::Pause)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2f254;
+  constexpr static std::size_t addrs = 0x6e2ac58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "Pause", {}, {} })));
@@ -621,7 +621,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::Stop)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2f310;
+  constexpr static std::size_t addrs = 0x6e2ad14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "Stop", {}, {} })));
@@ -633,7 +633,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_isPlaying)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2f3cc;
+  constexpr static std::size_t addrs = 0x6e2add0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_isPlaying", {}, {} })));
@@ -645,7 +645,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_isPaused)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2f488;
+  constexpr static std::size_t addrs = 0x6e2ae8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_isPaused", {}, {} })));
@@ -657,7 +657,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_canSetTime)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2f544;
+  constexpr static std::size_t addrs = 0x6e2af48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_canSetTime", {}, {} })));
@@ -669,7 +669,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_time)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2f600;
+  constexpr static std::size_t addrs = 0x6e2b004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_time", {}, {} })));
@@ -681,7 +681,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(double_t)>(&::UnityEngine::Video::VideoPlayer::set_time)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e2f6bc;
+  constexpr static std::size_t addrs = 0x6e2b0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "set_time", {}, { ::i2c::type_of<double_t>() } })));
@@ -693,7 +693,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_frame)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2f798;
+  constexpr static std::size_t addrs = 0x6e2b19c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_frame", {}, {} })));
@@ -705,7 +705,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(int64_t)>(&::UnityEngine::Video::VideoPlayer::set_frame)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e2f854;
+  constexpr static std::size_t addrs = 0x6e2b258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "set_frame", {}, { ::i2c::type_of<int64_t>() } })));
@@ -717,7 +717,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_clockTime)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2f928;
+  constexpr static std::size_t addrs = 0x6e2b32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_clockTime", {}, {} })));
@@ -729,7 +729,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_canStep)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2f9e4;
+  constexpr static std::size_t addrs = 0x6e2b3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_canStep", {}, {} })));
@@ -741,7 +741,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::StepForward)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2faa0;
+  constexpr static std::size_t addrs = 0x6e2b4a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "StepForward", {}, {} })));
@@ -753,7 +753,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_canSetPlaybackSpeed)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2fb5c;
+  constexpr static std::size_t addrs = 0x6e2b560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_canSetPlaybackSpeed", {}, {} })));
@@ -765,7 +765,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_playbackSpeed)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2fc18;
+  constexpr static std::size_t addrs = 0x6e2b61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_playbackSpeed", {}, {} })));
@@ -777,7 +777,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(float_t)>(&::UnityEngine::Video::VideoPlayer::set_playbackSpeed)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e2fcd4;
+  constexpr static std::size_t addrs = 0x6e2b6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -790,7 +790,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_isLooping)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2fdb0;
+  constexpr static std::size_t addrs = 0x6e2b7b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_isLooping", {}, {} })));
@@ -802,7 +802,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(bool)>(&::UnityEngine::Video::VideoPlayer::set_isLooping)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e2fe6c;
+  constexpr static std::size_t addrs = 0x6e2b870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -815,7 +815,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_canSetTimeSource)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2ff40;
+  constexpr static std::size_t addrs = 0x6e2b944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_canSetTimeSource", {}, {} })));
@@ -827,7 +827,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Video::VideoTimeSource (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_timeSource)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e2fffc;
+  constexpr static std::size_t addrs = 0x6e2ba00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_timeSource", {}, {} })));
@@ -839,7 +839,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoTimeSource)>(&::UnityEngine::Video::VideoPlayer::set_timeSource)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e300b8;
+  constexpr static std::size_t addrs = 0x6e2babc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -852,7 +852,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Video::VideoTimeReference (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_timeReference)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e3018c;
+  constexpr static std::size_t addrs = 0x6e2bb90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_timeReference", {}, {} })));
@@ -864,7 +864,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoTimeReference)>(&::UnityEngine::Video::VideoPlayer::set_timeReference)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e30248;
+  constexpr static std::size_t addrs = 0x6e2bc4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -877,7 +877,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_externalReferenceTime)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e3031c;
+  constexpr static std::size_t addrs = 0x6e2bd20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_externalReferenceTime", {}, {} })));
@@ -889,7 +889,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(double_t)>(&::UnityEngine::Video::VideoPlayer::set_externalReferenceTime)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e303d8;
+  constexpr static std::size_t addrs = 0x6e2bddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -902,7 +902,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_canSetSkipOnDrop)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e304b4;
+  constexpr static std::size_t addrs = 0x6e2beb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_canSetSkipOnDrop", {}, {} })));
@@ -914,7 +914,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_skipOnDrop)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e30570;
+  constexpr static std::size_t addrs = 0x6e2bf74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_skipOnDrop", {}, {} })));
@@ -926,7 +926,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(bool)>(&::UnityEngine::Video::VideoPlayer::set_skipOnDrop)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e3062c;
+  constexpr static std::size_t addrs = 0x6e2c030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -939,7 +939,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_frameCount)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e30700;
+  constexpr static std::size_t addrs = 0x6e2c104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_frameCount", {}, {} })));
@@ -951,7 +951,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_frameRate)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e307bc;
+  constexpr static std::size_t addrs = 0x6e2c1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_frameRate", {}, {} })));
@@ -963,7 +963,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_length)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e30878;
+  constexpr static std::size_t addrs = 0x6e2c27c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_length", {}, {} })));
@@ -975,7 +975,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_width)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e30934;
+  constexpr static std::size_t addrs = 0x6e2c338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_width", {}, {} })));
@@ -987,7 +987,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_height)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e309f0;
+  constexpr static std::size_t addrs = 0x6e2c3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_height", {}, {} })));
@@ -999,7 +999,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_pixelAspectRatioNumerator)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e30aac;
+  constexpr static std::size_t addrs = 0x6e2c4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_pixelAspectRatioNumerator", {}, {} })));
@@ -1011,7 +1011,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_pixelAspectRatioDenominator)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e30b68;
+  constexpr static std::size_t addrs = 0x6e2c56c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_pixelAspectRatioDenominator", {}, {} })));
@@ -1023,7 +1023,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_audioTrackCount)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e30c24;
+  constexpr static std::size_t addrs = 0x6e2c628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_audioTrackCount", {}, {} })));
@@ -1035,7 +1035,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Video::VideoPlayer::*)(uint16_t)>(&::UnityEngine::Video::VideoPlayer::GetAudioLanguageCode)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6e30ce0;
+  constexpr static std::size_t addrs = 0x6e2c6e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1048,7 +1048,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::Video::VideoPlayer::*)(uint16_t)>(&::UnityEngine::Video::VideoPlayer::GetAudioChannelCount)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e30e74;
+  constexpr static std::size_t addrs = 0x6e2c878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1061,7 +1061,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Video::VideoPlayer::*)(uint16_t)>(&::UnityEngine::Video::VideoPlayer::GetAudioSampleRate)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e30f48;
+  constexpr static std::size_t addrs = 0x6e2c94c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1074,7 +1074,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)()>(&::UnityEngine::Video::VideoPlayer::get_controlledAudioTrackMaxCount)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6e3101c;
+  constexpr static std::size_t addrs = 0x6e2ca20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_controlledAudioTrackMaxCount", {}, {} })));
@@ -1086,7 +1086,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_controlledAudioTrackCount)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e31044;
+  constexpr static std::size_t addrs = 0x6e2ca48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_controlledAudioTrackCount", {}, {} })));
@@ -1098,7 +1098,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(uint16_t)>(&::UnityEngine::Video::VideoPlayer::set_controlledAudioTrackCount)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6e310c8;
+  constexpr static std::size_t addrs = 0x6e2cacc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1111,7 +1111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::GetControlledAudioTrackCount)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e31048;
+  constexpr static std::size_t addrs = 0x6e2ca4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "GetControlledAudioTrackCount", {}, {} })));
@@ -1123,7 +1123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(uint16_t)>(&::UnityEngine::Video::VideoPlayer::SetControlledAudioTrackCount)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e311a4;
+  constexpr static std::size_t addrs = 0x6e2cba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1136,7 +1136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(uint16_t, bool)>(&::UnityEngine::Video::VideoPlayer::EnableAudioTrack)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6e312b4;
+  constexpr static std::size_t addrs = 0x6e2ccb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1149,7 +1149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Video::VideoPlayer::*)(uint16_t)>(&::UnityEngine::Video::VideoPlayer::IsAudioTrackEnabled)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e313a0;
+  constexpr static std::size_t addrs = 0x6e2cda4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1162,7 +1162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Video::VideoAudioOutputMode (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_audioOutputMode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e31474;
+  constexpr static std::size_t addrs = 0x6e2ce78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_audioOutputMode", {}, {} })));
@@ -1175,7 +1175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoAudioOutputMode)>(
     &::UnityEngine::Video::VideoPlayer::set_audioOutputMode)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e31530;
+  constexpr static std::size_t addrs = 0x6e2cf34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1189,7 +1189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_canSetDirectAudioVolume)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e31604;
+  constexpr static std::size_t addrs = 0x6e2d008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_canSetDirectAudioVolume", {}, {} })));
@@ -1201,7 +1201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Video::VideoPlayer::*)(uint16_t)>(&::UnityEngine::Video::VideoPlayer::GetDirectAudioVolume)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e316c0;
+  constexpr static std::size_t addrs = 0x6e2d0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1214,7 +1214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(uint16_t, float_t)>(&::UnityEngine::Video::VideoPlayer::SetDirectAudioVolume)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6e31794;
+  constexpr static std::size_t addrs = 0x6e2d198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1227,7 +1227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Video::VideoPlayer::*)(uint16_t)>(&::UnityEngine::Video::VideoPlayer::GetDirectAudioMute)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e31888;
+  constexpr static std::size_t addrs = 0x6e2d28c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1240,7 +1240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(uint16_t, bool)>(&::UnityEngine::Video::VideoPlayer::SetDirectAudioMute)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6e3195c;
+  constexpr static std::size_t addrs = 0x6e2d360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1254,7 +1254,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::AudioSource> (::UnityEngine::Video::VideoPlayer::*)(uint16_t)>(
     &::UnityEngine::Video::VideoPlayer::GetTargetAudioSource)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6e31a48;
+  constexpr static std::size_t addrs = 0x6e2d44c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1267,7 +1267,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(uint16_t, ::UnityEngine::AudioSource*)>(&::UnityEngine::Video::VideoPlayer::SetTargetAudioSource)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6e31be4;
+  constexpr static std::size_t addrs = 0x6e2d5e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1282,7 +1282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoPlayer_EventHandler*)>(
     &::UnityEngine::Video::VideoPlayer::add_prepareCompleted)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e31d00;
+  constexpr static std::size_t addrs = 0x6e2d704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(),
@@ -1296,7 +1296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoPlayer_EventHandler*)>(
     &::UnityEngine::Video::VideoPlayer::remove_prepareCompleted)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e31dac;
+  constexpr static std::size_t addrs = 0x6e2d7b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(),
@@ -1310,7 +1310,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoPlayer_EventHandler*)>(
     &::UnityEngine::Video::VideoPlayer::add_loopPointReached)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e31e58;
+  constexpr static std::size_t addrs = 0x6e2d85c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(),
@@ -1324,7 +1324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoPlayer_EventHandler*)>(
     &::UnityEngine::Video::VideoPlayer::remove_loopPointReached)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e31f04;
+  constexpr static std::size_t addrs = 0x6e2d908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(),
@@ -1337,7 +1337,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoPlayer_EventHandler*)>(&::UnityEngine::Video::VideoPlayer::add_started)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e31fb0;
+  constexpr static std::size_t addrs = 0x6e2d9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1351,7 +1351,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoPlayer_EventHandler*)>(
     &::UnityEngine::Video::VideoPlayer::remove_started)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e3205c;
+  constexpr static std::size_t addrs = 0x6e2da60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1366,7 +1366,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoPlayer_EventHandler*)>(
     &::UnityEngine::Video::VideoPlayer::add_frameDropped)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e32108;
+  constexpr static std::size_t addrs = 0x6e2db0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1381,7 +1381,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoPlayer_EventHandler*)>(
     &::UnityEngine::Video::VideoPlayer::remove_frameDropped)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e321b4;
+  constexpr static std::size_t addrs = 0x6e2dbb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1396,7 +1396,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoPlayer_ErrorEventHandler*)>(
     &::UnityEngine::Video::VideoPlayer::add_errorReceived)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e32260;
+  constexpr static std::size_t addrs = 0x6e2dc64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(),
@@ -1410,7 +1410,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoPlayer_ErrorEventHandler*)>(
     &::UnityEngine::Video::VideoPlayer::remove_errorReceived)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e3230c;
+  constexpr static std::size_t addrs = 0x6e2dd10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1425,7 +1425,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoPlayer_EventHandler*)>(
     &::UnityEngine::Video::VideoPlayer::add_seekCompleted)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e323b8;
+  constexpr static std::size_t addrs = 0x6e2ddbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1440,7 +1440,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoPlayer_EventHandler*)>(
     &::UnityEngine::Video::VideoPlayer::remove_seekCompleted)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e32464;
+  constexpr static std::size_t addrs = 0x6e2de68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(),
@@ -1454,7 +1454,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoPlayer_TimeEventHandler*)>(
     &::UnityEngine::Video::VideoPlayer::add_clockResyncOccurred)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e32510;
+  constexpr static std::size_t addrs = 0x6e2df14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1469,7 +1469,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoPlayer_TimeEventHandler*)>(
     &::UnityEngine::Video::VideoPlayer::remove_clockResyncOccurred)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e325bc;
+  constexpr static std::size_t addrs = 0x6e2dfc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1483,7 +1483,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::get_sendFrameReadyEvents)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e32668;
+  constexpr static std::size_t addrs = 0x6e2e06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { "get_sendFrameReadyEvents", {}, {} })));
@@ -1495,7 +1495,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(bool)>(&::UnityEngine::Video::VideoPlayer::set_sendFrameReadyEvents)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e32724;
+  constexpr static std::size_t addrs = 0x6e2e128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1509,7 +1509,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoPlayer_FrameReadyEventHandler*)>(
     &::UnityEngine::Video::VideoPlayer::add_frameReady)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e327f8;
+  constexpr static std::size_t addrs = 0x6e2e1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(),
@@ -1523,7 +1523,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)(::UnityEngine::Video::VideoPlayer_FrameReadyEventHandler*)>(
     &::UnityEngine::Video::VideoPlayer::remove_frameReady)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e328a4;
+  constexpr static std::size_t addrs = 0x6e2e2a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1537,7 +1537,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Video::VideoPlayer*)>(&::UnityEngine::Video::VideoPlayer::InvokePrepareCompletedCallback_Internal)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6e32950;
+  constexpr static std::size_t addrs = 0x6e2e354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1551,7 +1551,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Video::VideoPlayer*, int64_t)>(&::UnityEngine::Video::VideoPlayer::InvokeFrameReadyCallback_Internal)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6e3297c;
+  constexpr static std::size_t addrs = 0x6e2e380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1565,7 +1565,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Video::VideoPlayer*)>(&::UnityEngine::Video::VideoPlayer::InvokeLoopPointReachedCallback_Internal)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6e329b0;
+  constexpr static std::size_t addrs = 0x6e2e3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1579,7 +1579,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Video::VideoPlayer*)>(&::UnityEngine::Video::VideoPlayer::InvokeStartedCallback_Internal)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6e329dc;
+  constexpr static std::size_t addrs = 0x6e2e3e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1593,7 +1593,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Video::VideoPlayer*)>(&::UnityEngine::Video::VideoPlayer::InvokeFrameDroppedCallback_Internal)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6e32a08;
+  constexpr static std::size_t addrs = 0x6e2e40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(),
@@ -1606,7 +1606,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Video::VideoPlayer*, ::StringW)>(&::UnityEngine::Video::VideoPlayer::InvokeErrorReceivedCallback_Internal)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6e32a34;
+  constexpr static std::size_t addrs = 0x6e2e438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1620,7 +1620,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Video::VideoPlayer*)>(&::UnityEngine::Video::VideoPlayer::InvokeSeekCompletedCallback_Internal)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6e32a68;
+  constexpr static std::size_t addrs = 0x6e2e46c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(),
@@ -1633,7 +1633,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Video::VideoPlayer*, double_t)>(&::UnityEngine::Video::VideoPlayer::InvokeClockResyncOccurredCallback_Internal)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6e32a94;
+  constexpr static std::size_t addrs = 0x6e2e498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1647,7 +1647,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Video::VideoPlayer::*)()>(&::UnityEngine::Video::VideoPlayer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e32ac0;
+  constexpr static std::size_t addrs = 0x6e2e4c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(), { ".ctor", {}, {} })));
@@ -1659,7 +1659,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Video::VideoSource (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_source_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2d148;
+  constexpr static std::size_t addrs = 0x6e28b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1672,7 +1672,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::Video::VideoSource)>(&::UnityEngine::Video::VideoPlayer::set_source_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e2d214;
+  constexpr static std::size_t addrs = 0x6e28c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1686,7 +1686,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Video::VideoTimeUpdateMode (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_timeUpdateMode_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2d2d8;
+  constexpr static std::size_t addrs = 0x6e28cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1699,7 +1699,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::Video::VideoTimeUpdateMode)>(&::UnityEngine::Video::VideoPlayer::set_timeUpdateMode_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e2d3a4;
+  constexpr static std::size_t addrs = 0x6e28da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1713,7 +1713,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::Video::VideoPlayer::get_url_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e2d51c;
+  constexpr static std::size_t addrs = 0x6e28f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1727,7 +1727,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::Video::VideoPlayer::set_url_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e2d6c8;
+  constexpr static std::size_t addrs = 0x6e290cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1741,7 +1741,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_clip_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2d85c;
+  constexpr static std::size_t addrs = 0x6e29260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1754,7 +1754,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::set_clip_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e2d958;
+  constexpr static std::size_t addrs = 0x6e2935c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(),
@@ -1767,7 +1767,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Video::VideoRenderMode (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_renderMode_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2da1c;
+  constexpr static std::size_t addrs = 0x6e29420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1780,7 +1780,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::Video::VideoRenderMode)>(&::UnityEngine::Video::VideoPlayer::set_renderMode_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e2dae8;
+  constexpr static std::size_t addrs = 0x6e294ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1794,7 +1794,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_canSetTimeUpdateMode_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2dbac;
+  constexpr static std::size_t addrs = 0x6e295b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1807,7 +1807,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_targetCamera_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2dd38;
+  constexpr static std::size_t addrs = 0x6e2973c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1820,7 +1820,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::set_targetCamera_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e2de34;
+  constexpr static std::size_t addrs = 0x6e29838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1834,7 +1834,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_targetTexture_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2dfc8;
+  constexpr static std::size_t addrs = 0x6e299cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1847,7 +1847,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::set_targetTexture_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e2e0c4;
+  constexpr static std::size_t addrs = 0x6e29ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1861,7 +1861,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_targetMaterialRenderer_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2e258;
+  constexpr static std::size_t addrs = 0x6e29c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1874,7 +1874,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::set_targetMaterialRenderer_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e2e354;
+  constexpr static std::size_t addrs = 0x6e29d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1889,7 +1889,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::Video::VideoPlayer::get_targetMaterialProperty_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e2e4cc;
+  constexpr static std::size_t addrs = 0x6e29ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1905,7 +1905,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::Video::VideoPlayer::set_targetMaterialProperty_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e2e678;
+  constexpr static std::size_t addrs = 0x6e2a07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1920,7 +1920,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Video::VideoAspectRatio (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_aspectRatio_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2e73c;
+  constexpr static std::size_t addrs = 0x6e2a140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1933,7 +1933,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::Video::VideoAspectRatio)>(&::UnityEngine::Video::VideoPlayer::set_aspectRatio_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e2e808;
+  constexpr static std::size_t addrs = 0x6e2a20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1947,7 +1947,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_targetCameraAlpha_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2e8cc;
+  constexpr static std::size_t addrs = 0x6e2a2d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1960,7 +1960,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::Video::VideoPlayer::set_targetCameraAlpha_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e2e998;
+  constexpr static std::size_t addrs = 0x6e2a39c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1974,7 +1974,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Video::Video3DLayout (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_targetCamera3DLayout_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2ea64;
+  constexpr static std::size_t addrs = 0x6e2a468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1987,7 +1987,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::Video::Video3DLayout)>(&::UnityEngine::Video::VideoPlayer::set_targetCamera3DLayout_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e2eb30;
+  constexpr static std::size_t addrs = 0x6e2a534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2001,7 +2001,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_texture_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2ecc4;
+  constexpr static std::size_t addrs = 0x6e2a6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2014,7 +2014,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::Prepare_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2ed80;
+  constexpr static std::size_t addrs = 0x6e2a784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2027,7 +2027,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_isPrepared_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2ee3c;
+  constexpr static std::size_t addrs = 0x6e2a840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2040,7 +2040,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_waitForFirstFrame_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2eef8;
+  constexpr static std::size_t addrs = 0x6e2a8fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2053,7 +2053,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::Video::VideoPlayer::set_waitForFirstFrame_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e2efc4;
+  constexpr static std::size_t addrs = 0x6e2a9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(),
@@ -2066,7 +2066,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_playOnAwake_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2f088;
+  constexpr static std::size_t addrs = 0x6e2aa8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2079,7 +2079,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::Video::VideoPlayer::set_playOnAwake_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e2f154;
+  constexpr static std::size_t addrs = 0x6e2ab58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2093,7 +2093,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::Play_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2f218;
+  constexpr static std::size_t addrs = 0x6e2ac1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2106,7 +2106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::Pause_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2f2d4;
+  constexpr static std::size_t addrs = 0x6e2acd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2119,7 +2119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::Stop_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2f390;
+  constexpr static std::size_t addrs = 0x6e2ad94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2132,7 +2132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_isPlaying_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2f44c;
+  constexpr static std::size_t addrs = 0x6e2ae50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2145,7 +2145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_isPaused_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2f508;
+  constexpr static std::size_t addrs = 0x6e2af0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2158,7 +2158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_canSetTime_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2f5c4;
+  constexpr static std::size_t addrs = 0x6e2afc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2171,7 +2171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_time_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2f680;
+  constexpr static std::size_t addrs = 0x6e2b084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2184,7 +2184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, double_t)>(&::UnityEngine::Video::VideoPlayer::set_time_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e2f74c;
+  constexpr static std::size_t addrs = 0x6e2b150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2198,7 +2198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_frame_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2f818;
+  constexpr static std::size_t addrs = 0x6e2b21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2211,7 +2211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int64_t)>(&::UnityEngine::Video::VideoPlayer::set_frame_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e2f8e4;
+  constexpr static std::size_t addrs = 0x6e2b2e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2225,7 +2225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_clockTime_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2f9a8;
+  constexpr static std::size_t addrs = 0x6e2b3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2238,7 +2238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_canStep_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2fa64;
+  constexpr static std::size_t addrs = 0x6e2b468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2251,7 +2251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::StepForward_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2fb20;
+  constexpr static std::size_t addrs = 0x6e2b524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2264,7 +2264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_canSetPlaybackSpeed_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2fbdc;
+  constexpr static std::size_t addrs = 0x6e2b5e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2277,7 +2277,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_playbackSpeed_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2fc98;
+  constexpr static std::size_t addrs = 0x6e2b69c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2290,7 +2290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::Video::VideoPlayer::set_playbackSpeed_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e2fd64;
+  constexpr static std::size_t addrs = 0x6e2b768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(),
@@ -2303,7 +2303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_isLooping_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2fe30;
+  constexpr static std::size_t addrs = 0x6e2b834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2316,7 +2316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::Video::VideoPlayer::set_isLooping_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e2fefc;
+  constexpr static std::size_t addrs = 0x6e2b900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2330,7 +2330,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_canSetTimeSource_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e2ffc0;
+  constexpr static std::size_t addrs = 0x6e2b9c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2343,7 +2343,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Video::VideoTimeSource (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_timeSource_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e3007c;
+  constexpr static std::size_t addrs = 0x6e2ba80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2356,7 +2356,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::Video::VideoTimeSource)>(&::UnityEngine::Video::VideoPlayer::set_timeSource_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e30148;
+  constexpr static std::size_t addrs = 0x6e2bb4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2370,7 +2370,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Video::VideoTimeReference (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_timeReference_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e3020c;
+  constexpr static std::size_t addrs = 0x6e2bc10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2383,7 +2383,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::Video::VideoTimeReference)>(&::UnityEngine::Video::VideoPlayer::set_timeReference_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e302d8;
+  constexpr static std::size_t addrs = 0x6e2bcdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2397,7 +2397,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_externalReferenceTime_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e3039c;
+  constexpr static std::size_t addrs = 0x6e2bda0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2410,7 +2410,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, double_t)>(&::UnityEngine::Video::VideoPlayer::set_externalReferenceTime_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e30468;
+  constexpr static std::size_t addrs = 0x6e2be6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2424,7 +2424,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_canSetSkipOnDrop_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e30534;
+  constexpr static std::size_t addrs = 0x6e2bf38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2437,7 +2437,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_skipOnDrop_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e305f0;
+  constexpr static std::size_t addrs = 0x6e2bff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2450,7 +2450,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::Video::VideoPlayer::set_skipOnDrop_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e306bc;
+  constexpr static std::size_t addrs = 0x6e2c0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2464,7 +2464,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_frameCount_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e30780;
+  constexpr static std::size_t addrs = 0x6e2c184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2477,7 +2477,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_frameRate_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e3083c;
+  constexpr static std::size_t addrs = 0x6e2c240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2490,7 +2490,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_length_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e308f8;
+  constexpr static std::size_t addrs = 0x6e2c2fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2503,7 +2503,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_width_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e309b4;
+  constexpr static std::size_t addrs = 0x6e2c3b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2516,7 +2516,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_height_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e30a70;
+  constexpr static std::size_t addrs = 0x6e2c474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2529,7 +2529,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_pixelAspectRatioNumerator_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e30b2c;
+  constexpr static std::size_t addrs = 0x6e2c530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2542,7 +2542,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_pixelAspectRatioDenominator_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e30be8;
+  constexpr static std::size_t addrs = 0x6e2c5ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2555,7 +2555,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_audioTrackCount_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e30ca4;
+  constexpr static std::size_t addrs = 0x6e2c6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2569,7 +2569,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, uint16_t, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::Video::VideoPlayer::GetAudioLanguageCode_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e30e20;
+  constexpr static std::size_t addrs = 0x6e2c824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2585,7 +2585,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(::System::IntPtr, uint16_t)>(&::UnityEngine::Video::VideoPlayer::GetAudioChannelCount_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e30f04;
+  constexpr static std::size_t addrs = 0x6e2c908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2599,7 +2599,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::System::IntPtr, uint16_t)>(&::UnityEngine::Video::VideoPlayer::GetAudioSampleRate_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e30fd8;
+  constexpr static std::size_t addrs = 0x6e2c9dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(),
@@ -2612,7 +2612,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::GetControlledAudioTrackCount_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e31234;
+  constexpr static std::size_t addrs = 0x6e2cc38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2625,7 +2625,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, uint16_t)>(&::UnityEngine::Video::VideoPlayer::SetControlledAudioTrackCount_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e31270;
+  constexpr static std::size_t addrs = 0x6e2cc74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2639,7 +2639,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, uint16_t, bool)>(&::UnityEngine::Video::VideoPlayer::EnableAudioTrack_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e3134c;
+  constexpr static std::size_t addrs = 0x6e2cd50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2653,7 +2653,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, uint16_t)>(&::UnityEngine::Video::VideoPlayer::IsAudioTrackEnabled_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e31430;
+  constexpr static std::size_t addrs = 0x6e2ce34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2667,7 +2667,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Video::VideoAudioOutputMode (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_audioOutputMode_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e314f4;
+  constexpr static std::size_t addrs = 0x6e2cef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2680,7 +2680,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::Video::VideoAudioOutputMode)>(&::UnityEngine::Video::VideoPlayer::set_audioOutputMode_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e315c0;
+  constexpr static std::size_t addrs = 0x6e2cfc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2694,7 +2694,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_canSetDirectAudioVolume_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e31684;
+  constexpr static std::size_t addrs = 0x6e2d088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2707,7 +2707,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr, uint16_t)>(&::UnityEngine::Video::VideoPlayer::GetDirectAudioVolume_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e31750;
+  constexpr static std::size_t addrs = 0x6e2d154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2721,7 +2721,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, uint16_t, float_t)>(&::UnityEngine::Video::VideoPlayer::SetDirectAudioVolume_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e31834;
+  constexpr static std::size_t addrs = 0x6e2d238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2735,7 +2735,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, uint16_t)>(&::UnityEngine::Video::VideoPlayer::GetDirectAudioMute_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e31918;
+  constexpr static std::size_t addrs = 0x6e2d31c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Video::VideoPlayer*>(),
@@ -2748,7 +2748,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, uint16_t, bool)>(&::UnityEngine::Video::VideoPlayer::SetDirectAudioMute_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e319f4;
+  constexpr static std::size_t addrs = 0x6e2d3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2762,7 +2762,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, uint16_t)>(&::UnityEngine::Video::VideoPlayer::GetTargetAudioSource_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e31ba0;
+  constexpr static std::size_t addrs = 0x6e2d5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2776,7 +2776,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, uint16_t, ::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::SetTargetAudioSource_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e31cac;
+  constexpr static std::size_t addrs = 0x6e2d6b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2790,7 +2790,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Video::VideoPlayer::get_sendFrameReadyEvents_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e326e8;
+  constexpr static std::size_t addrs = 0x6e2e0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2803,7 +2803,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::Video::VideoPlayer::set_sendFrameReadyEvents_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e327b4;
+  constexpr static std::size_t addrs = 0x6e2e1b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

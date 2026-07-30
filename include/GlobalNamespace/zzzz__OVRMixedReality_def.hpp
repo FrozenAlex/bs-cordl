@@ -58,13 +58,13 @@ public:
   /// @brief Field useFakeExternalCamera, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_useFakeExternalCamera, put = setStaticF_useFakeExternalCamera)) bool useFakeExternalCamera;
 
-  /// @brief Method Cleanup, addr 0x5e6fda8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x5e6db14, size 0xf0, virtual false, abstract: false, final false
   static inline void Cleanup();
 
-  /// @brief Method RecenterPose, addr 0x5e714dc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method RecenterPose, addr 0x5e6f248, size 0x98, virtual false, abstract: false, final false
   static inline void RecenterPose();
 
-  /// @brief Method Update, addr 0x5e6f8ac, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e6d618, size 0x4fc, virtual false, abstract: false, final false
   static inline void Update(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration,
                             ::GlobalNamespace::OVRManager_TrackingOrigin trackingOrigin);
 

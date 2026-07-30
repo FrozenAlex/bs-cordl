@@ -55,7 +55,7 @@ public:
 
   static inline ::GlobalNamespace::DelayedMenuButtonTrigger* New_ctor();
 
-  /// @brief Method Tick, addr 0x327d96c, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x327ac2c, size 0x12c, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr float_t const& __cordl_internal_get__pressDuration() const;
@@ -88,10 +88,10 @@ public:
 
   constexpr void __cordl_internal_set_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x327da98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x327ad58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_menuButtonTriggeredEvent, addr 0x327d814, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_menuButtonTriggeredEvent, addr 0x327aad4, size 0xac, virtual true, abstract: false, final true
   inline void add_menuButtonTriggeredEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::IMenuButtonTrigger"
@@ -100,7 +100,7 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x327d8c0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x327ab80, size 0xac, virtual true, abstract: false, final true
   inline void remove_menuButtonTriggeredEvent(::System::Action* value);
 
 protected:
@@ -118,7 +118,7 @@ public:
   DelayedMenuButtonTrigger(DelayedMenuButtonTrigger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23495 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23494 };
 
   /// @brief Field kDefaultPauseButtonPressDuration offset 0xffffffff size 0x4
   static constexpr float_t kDefaultPauseButtonPressDuration{ static_cast<float_t>(0.75f) };

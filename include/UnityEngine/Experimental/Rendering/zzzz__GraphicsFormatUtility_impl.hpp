@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)(::UnityEngine::Texture*)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetFormat)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6b2d880;
+  constexpr static std::size_t addrs = 0x6b29284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)(::UnityEngine::TextureFormat, bool)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetGraphicsFormat)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6b2d988;
+  constexpr static std::size_t addrs = 0x6b2938c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)(::UnityEngine::TextureFormat, bool)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetGraphicsFormat_Native_TextureFormat)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b2da10;
+  constexpr static std::size_t addrs = 0x6b29414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)(::UnityEngine::RenderTextureFormat, bool)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetGraphicsFormat)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6b2da54;
+  constexpr static std::size_t addrs = 0x6b29458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)(::UnityEngine::RenderTextureFormat, bool)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetGraphicsFormat_Native_RenderTextureFormat)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b2dadc;
+  constexpr static std::size_t addrs = 0x6b294e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)(::UnityEngine::RenderTextureFormat, ::UnityEngine::RenderTextureReadWrite)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetGraphicsFormat)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6b2db20;
+  constexpr static std::size_t addrs = 0x6b29524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)(int32_t)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetDepthStencilFormatFromBitsLegacy_Native)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2dbc4;
+  constexpr static std::size_t addrs = 0x6b295c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)(int32_t)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetDepthStencilFormat)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6b2dc00;
+  constexpr static std::size_t addrs = 0x6b29604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetDepthBits)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2dc78;
+  constexpr static std::size_t addrs = 0x6b2967c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)(int32_t, int32_t)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetDepthStencilFormat)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x6b2dcb4;
+  constexpr static std::size_t addrs = 0x6b296b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::IsSRGBFormat)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2deec;
+  constexpr static std::size_t addrs = 0x6b298f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetSRGBFormat)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2df28;
+  constexpr static std::size_t addrs = 0x6b2992c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetLinearFormat)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2df64;
+  constexpr static std::size_t addrs = 0x6b29968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::RenderTextureFormat (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetRenderTextureFormat)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2dfa0;
+  constexpr static std::size_t addrs = 0x6b299a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetAlphaComponentCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2dfdc;
+  constexpr static std::size_t addrs = 0x6b299e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetComponentCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2e018;
+  constexpr static std::size_t addrs = 0x6b29a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetFormatString)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6b2e054;
+  constexpr static std::size_t addrs = 0x6b29a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::TextureFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::IsCompressedFormat_Native_TextureFormat)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2e1a0;
+  constexpr static std::size_t addrs = 0x6b29ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::TextureFormat)>(&::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::IsCompressedFormat)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6b2e1dc;
+  constexpr static std::size_t addrs = 0x6b29be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat, bool)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::CanDecompressFormat)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b2e254;
+  constexpr static std::size_t addrs = 0x6b29c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::CanDecompressFormat)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6b2e298;
+  constexpr static std::size_t addrs = 0x6b29c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::IsAlphaOnlyFormat)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2e314;
+  constexpr static std::size_t addrs = 0x6b29d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::HasAlphaChannel)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2e350;
+  constexpr static std::size_t addrs = 0x6b29d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::IsDepthFormat)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2e38c;
+  constexpr static std::size_t addrs = 0x6b29d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -361,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::IsStencilFormat)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2e3c8;
+  constexpr static std::size_t addrs = 0x6b29dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -375,7 +375,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::IsDepthStencilFormat)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2e404;
+  constexpr static std::size_t addrs = 0x6b29e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -390,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::IsFloatFormat)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2e440;
+  constexpr static std::size_t addrs = 0x6b29e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -404,7 +404,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::IsHalfFormat)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2e47c;
+  constexpr static std::size_t addrs = 0x6b29e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -418,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::IsPVRTCFormat)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2e4b8;
+  constexpr static std::size_t addrs = 0x6b29ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -431,7 +431,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::TextureFormat)>(&::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::IsCrunchFormat)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2e4f4;
+  constexpr static std::size_t addrs = 0x6b29ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -445,7 +445,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::FormatSwizzle (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetSwizzleR)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2e530;
+  constexpr static std::size_t addrs = 0x6b29f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -459,7 +459,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::FormatSwizzle (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetSwizzleG)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2e56c;
+  constexpr static std::size_t addrs = 0x6b29f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -473,7 +473,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::FormatSwizzle (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetSwizzleB)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2e5a8;
+  constexpr static std::size_t addrs = 0x6b29fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -487,7 +487,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::FormatSwizzle (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetSwizzleA)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2e5e4;
+  constexpr static std::size_t addrs = 0x6b29fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -501,7 +501,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetBlockSize)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2e620;
+  constexpr static std::size_t addrs = 0x6b2a024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*>(),
@@ -515,7 +515,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (*)(::System::IntPtr)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetFormat_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2d94c;
+  constexpr static std::size_t addrs = 0x6b29350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -530,7 +530,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Experimental::Rendering::GraphicsFormat, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetFormatString_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b2e15c;
+  constexpr static std::size_t addrs = 0x6b29b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

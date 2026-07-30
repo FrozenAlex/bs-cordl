@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ValueTuple::*)(::System::Object*)>(&::System::ValueTuple::Equals)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5c6481c;
+  constexpr static std::size_t addrs = 0x5c62588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ValueTuple>(), { ::i2c::class_of<::System::ValueTuple>(), 0 }));
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ValueTuple::*)(::System::ValueTuple)>(&::System::ValueTuple::Equals)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c6487c;
+  constexpr static std::size_t addrs = 0x5c625e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ValueTuple>(), { "Equals", {}, { ::i2c::type_of<::System::ValueTuple>() } })));
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ValueTuple::*)(::System::Object*, ::System::Collections::IEqualityComparer*)>(
     &::System::ValueTuple::System_Collections_IStructuralEquatable_Equals)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5c64884;
+  constexpr static std::size_t addrs = 0x5c625f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ValueTuple::*)(::System::Object*)>(&::System::ValueTuple::System_IComparable_CompareTo)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5c648e4;
+  constexpr static std::size_t addrs = 0x5c62650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ValueTuple::*)(::System::ValueTuple)>(&::System::ValueTuple::CompareTo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c649fc;
+  constexpr static std::size_t addrs = 0x5c62768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ValueTuple>(), { "CompareTo", {}, { ::i2c::type_of<::System::ValueTuple>() } })));
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ValueTuple::*)(::System::Object*, ::System::Collections::IComparer*)>(
     &::System::ValueTuple::System_Collections_IStructuralComparable_CompareTo)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5c64a04;
+  constexpr static std::size_t addrs = 0x5c62770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ValueTuple::*)()>(&::System::ValueTuple::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c64b1c;
+  constexpr static std::size_t addrs = 0x5c62888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ValueTuple>(), { ::i2c::class_of<::System::ValueTuple>(), 2 }));
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ValueTuple::*)(::System::Collections::IEqualityComparer*)>(
     &::System::ValueTuple::System_Collections_IStructuralEquatable_GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c64b24;
+  constexpr static std::size_t addrs = 0x5c62890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ValueTuple::*)(::System::Collections::IEqualityComparer*)>(&::System::ValueTuple::System_IValueTupleInternal_GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c64b2c;
+  constexpr static std::size_t addrs = 0x5c62898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ValueTuple::*)()>(&::System::ValueTuple::ToString)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5c64b34;
+  constexpr static std::size_t addrs = 0x5c628a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ValueTuple>(), { ::i2c::class_of<::System::ValueTuple>(), 3 }));
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ValueTuple::*)()>(&::System::ValueTuple::System_IValueTupleInternal_ToStringEnd)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5c64b78;
+  constexpr static std::size_t addrs = 0x5c628e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ValueTuple>(), { "System.IValueTupleInternal.ToStringEnd", {}, {} })));
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ValueTuple::*)()>(&::System::ValueTuple::System_Runtime_CompilerServices_ITuple_get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c64bbc;
+  constexpr static std::size_t addrs = 0x5c62928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ValueTuple>(), { "System.Runtime.CompilerServices.ITuple.get_Length", {}, {} })));
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5c64bc4;
+  constexpr static std::size_t addrs = 0x5c62930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5c64c48;
+  constexpr static std::size_t addrs = 0x5c629b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5c64ccc;
+  constexpr static std::size_t addrs = 0x5c62a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5c64d60;
+  constexpr static std::size_t addrs = 0x5c62acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5c64dfc;
+  constexpr static std::size_t addrs = 0x5c62b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5c64ea8;
+  constexpr static std::size_t addrs = 0x5c62c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5c64f5c;
+  constexpr static std::size_t addrs = 0x5c62cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

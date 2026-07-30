@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VariableMovementDataProvider_InterpolationData::*)(float_t, float_t, float_t, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::VariableMovementDataProvider_InterpolationData::SetValues)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x58cf830;
+  constexpr static std::size_t addrs = 0x58cdd08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::VariableMovementDataProvider_InterpolationData::*)(float_t)>(
     &::GlobalNamespace::VariableMovementDataProvider_InterpolationData::GetValue)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x58cfa90;
+  constexpr static std::size_t addrs = 0x58cdf68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::VariableMovementDataProvider::*)()>(&::GlobalNamespace::VariableMovementDataProvider::get_wasUpdatedThisFrame)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58cf3bc;
+  constexpr static std::size_t addrs = 0x58cd894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VariableMovementDataProvider::*)(bool)>(&::GlobalNamespace::VariableMovementDataProvider::set_wasUpdatedThisFrame)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58cf3c4;
+  constexpr static std::size_t addrs = 0x58cd89c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::VariableMovementDataProvider::*)()>(&::GlobalNamespace::VariableMovementDataProvider::get_jumpDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58cf3cc;
+  constexpr static std::size_t addrs = 0x58cd8a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VariableMovementDataProvider*>(), { "get_jumpDistance", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::VariableMovementDataProvider::*)()>(&::GlobalNamespace::VariableMovementDataProvider::get_jumpDuration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58cf3d4;
+  constexpr static std::size_t addrs = 0x58cd8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VariableMovementDataProvider*>(), { "get_jumpDuration", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::VariableMovementDataProvider::*)()>(&::GlobalNamespace::VariableMovementDataProvider::get_halfJumpDuration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58cf3dc;
+  constexpr static std::size_t addrs = 0x58cd8b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VariableMovementDataProvider*>(), { "get_halfJumpDuration", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::VariableMovementDataProvider::*)()>(&::GlobalNamespace::VariableMovementDataProvider::get_moveDuration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58cf3e4;
+  constexpr static std::size_t addrs = 0x58cd8bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VariableMovementDataProvider*>(), { "get_moveDuration", {}, {} })));
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::VariableMovementDataProvider::*)()>(&::GlobalNamespace::VariableMovementDataProvider::get_spawnAheadTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58cf3ec;
+  constexpr static std::size_t addrs = 0x58cd8c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VariableMovementDataProvider*>(), { "get_spawnAheadTime", {}, {} })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::VariableMovementDataProvider::*)()>(&::GlobalNamespace::VariableMovementDataProvider::get_waitingDuration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58cf3f4;
+  constexpr static std::size_t addrs = 0x58cd8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VariableMovementDataProvider*>(), { "get_waitingDuration", {}, {} })));
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::VariableMovementDataProvider::*)()>(&::GlobalNamespace::VariableMovementDataProvider::get_noteJumpSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58cf3fc;
+  constexpr static std::size_t addrs = 0x58cd8d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VariableMovementDataProvider*>(), { "get_noteJumpSpeed", {}, {} })));
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::VariableMovementDataProvider::*)()>(&::GlobalNamespace::VariableMovementDataProvider::get_targetNoteJumpSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58cf404;
+  constexpr static std::size_t addrs = 0x58cd8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VariableMovementDataProvider::*)()>(
     &::GlobalNamespace::VariableMovementDataProvider::get_moveStartPosition)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x58cf40c;
+  constexpr static std::size_t addrs = 0x58cd8e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VariableMovementDataProvider*>(), { "get_moveStartPosition", {}, {} })));
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VariableMovementDataProvider::*)()>(
     &::GlobalNamespace::VariableMovementDataProvider::get_moveEndPosition)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x58cf43c;
+  constexpr static std::size_t addrs = 0x58cd914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VariableMovementDataProvider*>(), { "get_moveEndPosition", {}, {} })));
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VariableMovementDataProvider::*)()>(
     &::GlobalNamespace::VariableMovementDataProvider::get_jumpEndPosition)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x58cf46c;
+  constexpr static std::size_t addrs = 0x58cd944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VariableMovementDataProvider*>(), { "get_jumpEndPosition", {}, {} })));
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VariableMovementDataProvider::*)(::GlobalNamespace::PlayerTransforms*, ::GlobalNamespace::BeatmapCallbacksController*)>(
     &::GlobalNamespace::VariableMovementDataProvider::_ctor)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x58cf49c;
+  constexpr static std::size_t addrs = 0x58cd974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VariableMovementDataProvider::*)()>(&::GlobalNamespace::VariableMovementDataProvider::Dispose)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x58cf5fc;
+  constexpr static std::size_t addrs = 0x58cdad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VariableMovementDataProvider*>(), { "Dispose", {}, {} })));
@@ -269,7 +269,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     float_t, float_t, float_t, float_t, float_t, ::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType, float_t, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::VariableMovementDataProvider::Init)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x58cf6e4;
+  constexpr static std::size_t addrs = 0x58cdbbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -288,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::VariableMovementDataProvider::*)(float_t)>(
     &::GlobalNamespace::VariableMovementDataProvider::CalculateCurrentNoteJumpGravity)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x58cd4c8;
+  constexpr static std::size_t addrs = 0x58cb9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::VariableMovementDataProvider::*)(float_t, float_t)>(
     &::GlobalNamespace::VariableMovementDataProvider::JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x58cf9f0;
+  constexpr static std::size_t addrs = 0x58cdec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VariableMovementDataProvider::*)(float_t)>(&::GlobalNamespace::VariableMovementDataProvider::ManualUpdate)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x58cf844;
+  constexpr static std::size_t addrs = 0x58cdd1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::VariableMovementDataProvider::*)(float_t, ::GlobalNamespace::NoteLineLayer)>(
     &::GlobalNamespace::VariableMovementDataProvider::NoteJumpGravityForLineLayerWithoutJumpOffset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x58cfa50;
+  constexpr static std::size_t addrs = 0x58cdf28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VariableMovementDataProvider::*)(::GlobalNamespace::NoteJumpSpeedEventData*)>(
     &::GlobalNamespace::VariableMovementDataProvider::HandleNoteJumpMovementSpeedEvent)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x58cfb20;
+  constexpr static std::size_t addrs = 0x58cdff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

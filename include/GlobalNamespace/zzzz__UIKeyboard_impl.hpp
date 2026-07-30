@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboard___c__DisplayClass23_0::*)()>(&::GlobalNamespace::UIKeyboard___c__DisplayClass23_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59fe9a8;
+  constexpr static std::size_t addrs = 0x59fcdd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UIKeyboard___c__DisplayClass23_0*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboard___c__DisplayClass23_0::*)()>(&::GlobalNamespace::UIKeyboard___c__DisplayClass23_0::_Awake_b__4)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x59fea2c;
+  constexpr static std::size_t addrs = 0x59fce58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UIKeyboard___c__DisplayClass23_0*>(), { "<Awake>b__4", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboard::*)(::System::Action_1<char16_t>*)>(&::GlobalNamespace::UIKeyboard::add_textKeyWasPressedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59fd808;
+  constexpr static std::size_t addrs = 0x59fbc34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboard::*)(::System::Action_1<char16_t>*)>(&::GlobalNamespace::UIKeyboard::remove_textKeyWasPressedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59fd8c8;
+  constexpr static std::size_t addrs = 0x59fbcf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboard::*)(::System::Action*)>(&::GlobalNamespace::UIKeyboard::add_deleteButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59fd988;
+  constexpr static std::size_t addrs = 0x59fbdb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboard::*)(::System::Action*)>(&::GlobalNamespace::UIKeyboard::remove_deleteButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59fda34;
+  constexpr static std::size_t addrs = 0x59fbe60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboard::*)(::System::Action*)>(&::GlobalNamespace::UIKeyboard::add_okButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59fdae0;
+  constexpr static std::size_t addrs = 0x59fbf0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboard::*)(::System::Action*)>(&::GlobalNamespace::UIKeyboard::remove_okButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59fdb8c;
+  constexpr static std::size_t addrs = 0x59fbfb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboard::*)(::System::Action*)>(&::GlobalNamespace::UIKeyboard::add_cancelButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59fdc38;
+  constexpr static std::size_t addrs = 0x59fc064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboard::*)(::System::Action*)>(&::GlobalNamespace::UIKeyboard::remove_cancelButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59fdce4;
+  constexpr static std::size_t addrs = 0x59fc110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboard::*)(bool)>(&::GlobalNamespace::UIKeyboard::set_enableOkButtonInteractivity)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x59fdd90;
+  constexpr static std::size_t addrs = 0x59fc1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboard::*)(bool)>(&::GlobalNamespace::UIKeyboard::set_hideCancelButton)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x59fde34;
+  constexpr static std::size_t addrs = 0x59fc260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboard::*)()>(&::GlobalNamespace::UIKeyboard::Awake)> {
   constexpr static std::size_t size = 0xac0;
-  constexpr static std::size_t addrs = 0x59fdee8;
+  constexpr static std::size_t addrs = 0x59fc314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UIKeyboard*>(), { "Awake", {}, {} })));
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboard::*)()>(&::GlobalNamespace::UIKeyboard::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59fe9ac;
+  constexpr static std::size_t addrs = 0x59fcdd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UIKeyboard*>(), { ".ctor", {}, {} })));
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboard::*)()>(&::GlobalNamespace::UIKeyboard::_Awake_b__23_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x59fe9b0;
+  constexpr static std::size_t addrs = 0x59fcddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UIKeyboard*>(), { "<Awake>b__23_0", {}, {} })));
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboard::*)()>(&::GlobalNamespace::UIKeyboard::_Awake_b__23_1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59fe9cc;
+  constexpr static std::size_t addrs = 0x59fcdf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UIKeyboard*>(), { "<Awake>b__23_1", {}, {} })));
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboard::*)()>(&::GlobalNamespace::UIKeyboard::_Awake_b__23_2)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59fe9ec;
+  constexpr static std::size_t addrs = 0x59fce18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UIKeyboard*>(), { "<Awake>b__23_2", {}, {} })));
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UIKeyboard::*)()>(&::GlobalNamespace::UIKeyboard::_Awake_b__23_3)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59fea0c;
+  constexpr static std::size_t addrs = 0x59fce38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UIKeyboard*>(), { "<Awake>b__23_3", {}, {} })));

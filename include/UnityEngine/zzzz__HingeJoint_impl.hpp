@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::JointMotor (::UnityEngine::HingeJoint::*)()>(&::UnityEngine::HingeJoint::get_motor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6b8cca0;
+  constexpr static std::size_t addrs = 0x6b886a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HingeJoint*>(), { "get_motor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::HingeJoint::*)(::UnityEngine::JointMotor)>(&::UnityEngine::HingeJoint::set_motor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6b8cd84;
+  constexpr static std::size_t addrs = 0x6b88788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::JointLimits (::UnityEngine::HingeJoint::*)()>(&::UnityEngine::HingeJoint::get_limits)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6b8ce60;
+  constexpr static std::size_t addrs = 0x6b88864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HingeJoint*>(), { "get_limits", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::HingeJoint::*)(::UnityEngine::JointLimits)>(&::UnityEngine::HingeJoint::set_limits)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b8cf5c;
+  constexpr static std::size_t addrs = 0x6b88960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::JointSpring (::UnityEngine::HingeJoint::*)()>(&::UnityEngine::HingeJoint::get_spring)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6b8d030;
+  constexpr static std::size_t addrs = 0x6b88a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HingeJoint*>(), { "get_spring", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::HingeJoint::*)(::UnityEngine::JointSpring)>(&::UnityEngine::HingeJoint::set_spring)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6b8d114;
+  constexpr static std::size_t addrs = 0x6b88b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::HingeJoint::*)()>(&::UnityEngine::HingeJoint::get_useMotor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b8d1f0;
+  constexpr static std::size_t addrs = 0x6b88bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HingeJoint*>(), { "get_useMotor", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::HingeJoint::*)(bool)>(&::UnityEngine::HingeJoint::set_useMotor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b8d2ac;
+  constexpr static std::size_t addrs = 0x6b88cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HingeJoint*>(), { "set_useMotor", {}, { ::i2c::type_of<bool>() } })));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::HingeJoint::*)()>(&::UnityEngine::HingeJoint::get_useLimits)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b8d380;
+  constexpr static std::size_t addrs = 0x6b88d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HingeJoint*>(), { "get_useLimits", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::HingeJoint::*)(bool)>(&::UnityEngine::HingeJoint::set_useLimits)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b8d43c;
+  constexpr static std::size_t addrs = 0x6b88e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HingeJoint*>(), { "set_useLimits", {}, { ::i2c::type_of<bool>() } })));
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::HingeJoint::*)()>(&::UnityEngine::HingeJoint::get_extendedLimits)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b8d510;
+  constexpr static std::size_t addrs = 0x6b88f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HingeJoint*>(), { "get_extendedLimits", {}, {} })));
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::HingeJoint::*)(bool)>(&::UnityEngine::HingeJoint::set_extendedLimits)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b8d5cc;
+  constexpr static std::size_t addrs = 0x6b88fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HingeJoint*>(), { "set_extendedLimits", {}, { ::i2c::type_of<bool>() } })));
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::HingeJoint::*)()>(&::UnityEngine::HingeJoint::get_useSpring)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b8d6a0;
+  constexpr static std::size_t addrs = 0x6b890a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HingeJoint*>(), { "get_useSpring", {}, {} })));
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::HingeJoint::*)(bool)>(&::UnityEngine::HingeJoint::set_useSpring)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b8d75c;
+  constexpr static std::size_t addrs = 0x6b89160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HingeJoint*>(), { "set_useSpring", {}, { ::i2c::type_of<bool>() } })));
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::HingeJoint::*)()>(&::UnityEngine::HingeJoint::get_velocity)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b8d830;
+  constexpr static std::size_t addrs = 0x6b89234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HingeJoint*>(), { "get_velocity", {}, {} })));
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::HingeJoint::*)()>(&::UnityEngine::HingeJoint::get_angle)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b8d8ec;
+  constexpr static std::size_t addrs = 0x6b892f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HingeJoint*>(), { "get_angle", {}, {} })));
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::HingeJoint::*)()>(&::UnityEngine::HingeJoint::get_useAcceleration)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b8d9a8;
+  constexpr static std::size_t addrs = 0x6b893ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HingeJoint*>(), { "get_useAcceleration", {}, {} })));
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::HingeJoint::*)(bool)>(&::UnityEngine::HingeJoint::set_useAcceleration)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b8da64;
+  constexpr static std::size_t addrs = 0x6b89468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HingeJoint*>(), { "set_useAcceleration", {}, { ::i2c::type_of<bool>() } })));
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::HingeJoint::*)()>(&::UnityEngine::HingeJoint::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b8db38;
+  constexpr static std::size_t addrs = 0x6b8953c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::HingeJoint*>(), { ".ctor", {}, {} })));
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::JointMotor>)>(&::UnityEngine::HingeJoint::get_motor_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b8cd40;
+  constexpr static std::size_t addrs = 0x6b88744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::JointMotor>)>(&::UnityEngine::HingeJoint::set_motor_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b8ce1c;
+  constexpr static std::size_t addrs = 0x6b88820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -270,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::JointLimits>)>(&::UnityEngine::HingeJoint::get_limits_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b8cf18;
+  constexpr static std::size_t addrs = 0x6b8891c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::JointLimits>)>(&::UnityEngine::HingeJoint::set_limits_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b8cfec;
+  constexpr static std::size_t addrs = 0x6b889f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::JointSpring>)>(&::UnityEngine::HingeJoint::get_spring_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b8d0d0;
+  constexpr static std::size_t addrs = 0x6b88ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::JointSpring>)>(&::UnityEngine::HingeJoint::set_spring_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b8d1ac;
+  constexpr static std::size_t addrs = 0x6b88bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -326,7 +326,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::HingeJoint::get_useMotor_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b8d270;
+  constexpr static std::size_t addrs = 0x6b88c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -339,7 +339,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::HingeJoint::set_useMotor_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b8d33c;
+  constexpr static std::size_t addrs = 0x6b88d40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -352,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::HingeJoint::get_useLimits_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b8d400;
+  constexpr static std::size_t addrs = 0x6b88e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -365,7 +365,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::HingeJoint::set_useLimits_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b8d4cc;
+  constexpr static std::size_t addrs = 0x6b88ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -378,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::HingeJoint::get_extendedLimits_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b8d590;
+  constexpr static std::size_t addrs = 0x6b88f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::HingeJoint::set_extendedLimits_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b8d65c;
+  constexpr static std::size_t addrs = 0x6b89060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -404,7 +404,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::HingeJoint::get_useSpring_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b8d720;
+  constexpr static std::size_t addrs = 0x6b89124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -417,7 +417,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::HingeJoint::set_useSpring_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b8d7ec;
+  constexpr static std::size_t addrs = 0x6b891f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -430,7 +430,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::HingeJoint::get_velocity_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b8d8b0;
+  constexpr static std::size_t addrs = 0x6b892b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -443,7 +443,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::HingeJoint::get_angle_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b8d96c;
+  constexpr static std::size_t addrs = 0x6b89370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -456,7 +456,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::HingeJoint::get_useAcceleration_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b8da28;
+  constexpr static std::size_t addrs = 0x6b8942c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -469,7 +469,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::HingeJoint::set_useAcceleration_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b8daf4;
+  constexpr static std::size_t addrs = 0x6b894f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

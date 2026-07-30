@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator::*)(::Org::BouncyCastle::Crypto::KeyGenerationParameters*)>(
     &::Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator::Init)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x33d4414;
+  constexpr static std::size_t addrs = 0x33d29dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (::Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator::GenerateKeyPair)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x33d450c;
+  constexpr static std::size_t addrs = 0x33d2ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator::GeneratePrivateKey)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x33d4658;
+  constexpr static std::size_t addrs = 0x33d2c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(
         &::Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator::CalculatePublicKey)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x33d4750;
+  constexpr static std::size_t addrs = 0x33d2d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x33d47f4;
+  constexpr static std::size_t addrs = 0x33d2dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator*>(), { ".ctor", {}, {} })));

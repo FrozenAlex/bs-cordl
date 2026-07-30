@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(::System::Net::Sockets::Socket*)>(&::System::Net::Sockets::NetworkStream::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6352474;
+  constexpr static std::size_t addrs = 0x6350210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(::System::Net::Sockets::Socket*, bool)>(&::System::Net::Sockets::NetworkStream::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6352618;
+  constexpr static std::size_t addrs = 0x63503b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(::System::Net::Sockets::Socket*, ::System::IO::FileAccess, bool)>(
     &::System::Net::Sockets::NetworkStream::_ctor)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x6352480;
+  constexpr static std::size_t addrs = 0x635021c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::get_CanRead)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6352624;
+  constexpr static std::size_t addrs = 0x63503c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635262c;
+  constexpr static std::size_t addrs = 0x63503c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6352634;
+  constexpr static std::size_t addrs = 0x63503d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::get_CanTimeout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635263c;
+  constexpr static std::size_t addrs = 0x63503d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::get_ReadTimeout)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6352644;
+  constexpr static std::size_t addrs = 0x63503e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(int32_t)>(&::System::Net::Sockets::NetworkStream::set_ReadTimeout)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6352830;
+  constexpr static std::size_t addrs = 0x63505cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::get_WriteTimeout)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6352a64;
+  constexpr static std::size_t addrs = 0x6350800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(int32_t)>(&::System::Net::Sockets::NetworkStream::set_WriteTimeout)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6352ab8;
+  constexpr static std::size_t addrs = 0x6350854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::get_DataAvailable)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6352b3c;
+  constexpr static std::size_t addrs = 0x63508d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::get_Length)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6352c8c;
+  constexpr static std::size_t addrs = 0x6350a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::get_Position)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6352cd8;
+  constexpr static std::size_t addrs = 0x6350a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(int64_t)>(&::System::Net::Sockets::NetworkStream::set_Position)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6352d24;
+  constexpr static std::size_t addrs = 0x6350ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Net::Sockets::NetworkStream::*)(int64_t, ::System::IO::SeekOrigin)>(&::System::Net::Sockets::NetworkStream::Seek)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6352d70;
+  constexpr static std::size_t addrs = 0x6350b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Sockets::NetworkStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Net::Sockets::NetworkStream::Read)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x6352dbc;
+  constexpr static std::size_t addrs = 0x6350b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Sockets::NetworkStream::*)(::System::Span_1<uint8_t>)>(&::System::Net::Sockets::NetworkStream::Read)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x63530f8;
+  constexpr static std::size_t addrs = 0x6350e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::ReadByte)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6353454;
+  constexpr static std::size_t addrs = 0x63511f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Net::Sockets::NetworkStream::Write)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x63534c8;
+  constexpr static std::size_t addrs = 0x6351264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(::System::ReadOnlySpan_1<uint8_t>)>(&::System::Net::Sockets::NetworkStream::Write)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x6353804;
+  constexpr static std::size_t addrs = 0x63515a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(uint8_t)>(&::System::Net::Sockets::NetworkStream::WriteByte)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6353adc;
+  constexpr static std::size_t addrs = 0x6351878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(int32_t)>(&::System::Net::Sockets::NetworkStream::Close)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6353b44;
+  constexpr static std::size_t addrs = 0x63518e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::NetworkStream*>(), { "Close", {}, { ::i2c::type_of<int32_t>() } })));
@@ -324,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(bool)>(&::System::Net::Sockets::NetworkStream::Dispose)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6353bb0;
+  constexpr static std::size_t addrs = 0x635194c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -337,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::Finalize)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6353ca0;
+  constexpr static std::size_t addrs = 0x6351a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::System::Net::Sockets::NetworkStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::AsyncCallback*,
                                                                                                                           ::System::Object*)>(&::System::Net::Sockets::NetworkStream::BeginRead)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x6353cf4;
+  constexpr static std::size_t addrs = 0x6351a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Sockets::NetworkStream::*)(::System::IAsyncResult*)>(&::System::Net::Sockets::NetworkStream::EndRead)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x6354060;
+  constexpr static std::size_t addrs = 0x6351dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::System::Net::Sockets::NetworkStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::AsyncCallback*,
                                                                                                                           ::System::Object*)>(&::System::Net::Sockets::NetworkStream::BeginWrite)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x63542b4;
+  constexpr static std::size_t addrs = 0x6352050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(::System::IAsyncResult*)>(&::System::Net::Sockets::NetworkStream::EndWrite)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x6354620;
+  constexpr static std::size_t addrs = 0x63523bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
     ::System::Net::Sockets::NetworkStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::Net::Sockets::NetworkStream::ReadAsync)> {
   constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x6354874;
+  constexpr static std::size_t addrs = 0x6352610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -419,7 +419,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::ValueTask_1<int32_t> (::System::Net::Sockets::NetworkStream::*)(
     ::System::Memory_1<uint8_t>, ::System::Threading::CancellationToken)>(&::System::Net::Sockets::NetworkStream::ReadAsync)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x6354f0c;
+  constexpr static std::size_t addrs = 0x6352ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -433,7 +433,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::System::Net::Sockets::NetworkStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::Net::Sockets::NetworkStream::WriteAsync)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x6355140;
+  constexpr static std::size_t addrs = 0x6352edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -447,7 +447,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::ValueTask (::System::Net::Sockets::NetworkStream::*)(
     ::System::ReadOnlyMemory_1<uint8_t>, ::System::Threading::CancellationToken)>(&::System::Net::Sockets::NetworkStream::WriteAsync)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x63557a4;
+  constexpr static std::size_t addrs = 0x6353540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -460,7 +460,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::Flush)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63559d4;
+  constexpr static std::size_t addrs = 0x6353770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::Sockets::NetworkStream::*)(::System::Threading::CancellationToken)>(
     &::System::Net::Sockets::NetworkStream::FlushAsync)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x63559d8;
+  constexpr static std::size_t addrs = 0x6353774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -487,7 +487,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(int64_t)>(&::System::Net::Sockets::NetworkStream::SetLength)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6355a6c;
+  constexpr static std::size_t addrs = 0x6353808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -501,7 +501,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(::System::Net::Sockets::SocketShutdown, int32_t, bool)>(
     &::System::Net::Sockets::NetworkStream::SetSocketTimeoutOption)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x63528b4;
+  constexpr static std::size_t addrs = 0x6350650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -515,7 +515,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Sockets::Socket* (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::get_InternalSocket)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6355c04;
+  constexpr static std::size_t addrs = 0x63539a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::NetworkStream*>(), { "get_InternalSocket", {}, {} })));

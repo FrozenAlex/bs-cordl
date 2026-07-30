@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::NamedIntListController_TextValuePair::*)()>(
     &::GlobalNamespace::NamedIntListController_TextValuePair::get_localizedText)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5a2e1f0;
+  constexpr static std::size_t addrs = 0x5a2c034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NamedIntListController_TextValuePair::*)()>(&::GlobalNamespace::NamedIntListController_TextValuePair::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a2e21c;
+  constexpr static std::size_t addrs = 0x5a2c060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NamedIntListController_TextValuePair*>(), { ".ctor", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NamedIntListController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::NamedIntListController::add_valueChangedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a2df38;
+  constexpr static std::size_t addrs = 0x5a2bd7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NamedIntListController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::NamedIntListController::remove_valueChangedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a2dff8;
+  constexpr static std::size_t addrs = 0x5a2be3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NamedIntListController::*)(::ArrayW<::GlobalNamespace::NamedIntListController_TextValuePair*>)>(
     &::GlobalNamespace::NamedIntListController::InitValues)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5a2e0b8;
+  constexpr static std::size_t addrs = 0x5a2befc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NamedIntListController::*)(int32_t)>(&::GlobalNamespace::NamedIntListController::SetValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5a2e0f0;
+  constexpr static std::size_t addrs = 0x5a2bf34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::NamedIntListController::*)(::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::GlobalNamespace::NamedIntListController::GetInitValues)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5a2e128;
+  constexpr static std::size_t addrs = 0x5a2bf6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NamedIntListController::*)(int32_t)>(&::GlobalNamespace::NamedIntListController::ApplyValue)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a2e19c;
+  constexpr static std::size_t addrs = 0x5a2bfe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::NamedIntListController::*)(int32_t)>(&::GlobalNamespace::NamedIntListController::TextForValue)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5a2e1bc;
+  constexpr static std::size_t addrs = 0x5a2c000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NamedIntListController::*)()>(&::GlobalNamespace::NamedIntListController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a2e218;
+  constexpr static std::size_t addrs = 0x5a2c05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NamedIntListController*>(), { ".ctor", {}, {} })));

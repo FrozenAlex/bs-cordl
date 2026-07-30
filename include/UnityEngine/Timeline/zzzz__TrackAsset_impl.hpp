@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::TrackAsset_TransientBuildData (*)()>(&::UnityEngine::Timeline::TrackAsset_TransientBuildData::Create)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x69b9680;
+  constexpr static std::size_t addrs = 0x69b741c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset_TransientBuildData>(), { "Create", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset_TransientBuildData::*)()>(&::UnityEngine::Timeline::TrackAsset_TransientBuildData::Clear)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x69b7168;
+  constexpr static std::size_t addrs = 0x69b4f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset_TransientBuildData>(), { "Clear", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset___c::*)()>(&::UnityEngine::Timeline::TrackAsset___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69b97e8;
+  constexpr static std::size_t addrs = 0x69b7584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset___c*>(), { ".ctor", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Timeline::TrackAsset___c::*)(::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::Timeline::TimelineClip*)>(
     &::UnityEngine::Timeline::TrackAsset___c::_SortClips_b__121_0)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x69b97ec;
+  constexpr static std::size_t addrs = 0x69b7588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset__get_outputs_d__65::*)(int32_t)>(&::UnityEngine::Timeline::TrackAsset__get_outputs_d__65::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69b4224;
+  constexpr static std::size_t addrs = 0x69b1fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset__get_outputs_d__65::*)()>(
     &::UnityEngine::Timeline::TrackAsset__get_outputs_d__65::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69b9860;
+  constexpr static std::size_t addrs = 0x69b75fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset__get_outputs_d__65::*)()>(&::UnityEngine::Timeline::TrackAsset__get_outputs_d__65::MoveNext)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x69b9864;
+  constexpr static std::size_t addrs = 0x69b7600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset__get_outputs_d__65*>(), { "MoveNext", {}, {} })));
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableBinding (::UnityEngine::Timeline::TrackAsset__get_outputs_d__65::*)()>(
     &::UnityEngine::Timeline::TrackAsset__get_outputs_d__65::System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x69b9ab4;
+  constexpr static std::size_t addrs = 0x69b7850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset__get_outputs_d__65*>(),
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset__get_outputs_d__65::*)()>(
     &::UnityEngine::Timeline::TrackAsset__get_outputs_d__65::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x69b9ac4;
+  constexpr static std::size_t addrs = 0x69b7860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Timeline::TrackAsset__get_outputs_d__65::*)()>(
     &::UnityEngine::Timeline::TrackAsset__get_outputs_d__65::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69b9afc;
+  constexpr static std::size_t addrs = 0x69b7898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>* (::UnityEngine::Timeline::TrackAsset__get_outputs_d__65::*)()>(
         &::UnityEngine::Timeline::TrackAsset__get_outputs_d__65::System_Collections_Generic_IEnumerable_UnityEngine_Playables_PlayableBinding__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x69b9b60;
+  constexpr static std::size_t addrs = 0x69b78fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset__get_outputs_d__65*>(),
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::Timeline::TrackAsset__get_outputs_d__65::*)()>(
     &::UnityEngine::Timeline::TrackAsset__get_outputs_d__65::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69b9bf8;
+  constexpr static std::size_t addrs = 0x69b7994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::OnBeforeTrackSerialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69b34d4;
+  constexpr static std::size_t addrs = 0x69b1270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -416,7 +416,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::OnAfterTrackDeserialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69b34d8;
+  constexpr static std::size_t addrs = 0x69b1274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -429,7 +429,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)(int32_t)>(&::UnityEngine::Timeline::TrackAsset::OnUpgradeFromVersion)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69b34dc;
+  constexpr static std::size_t addrs = 0x69b1278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -443,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)()>(
     &::UnityEngine::Timeline::TrackAsset::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x69b34e0;
+  constexpr static std::size_t addrs = 0x69b127c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -457,7 +457,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)()>(
     &::UnityEngine::Timeline::TrackAsset::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x69b3654;
+  constexpr static std::size_t addrs = 0x69b13f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -470,7 +470,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::UpgradeToLatestVersion)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69b3a64;
+  constexpr static std::size_t addrs = 0x69b1800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "UpgradeToLatestVersion", {}, {} })));
@@ -483,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*)>(
     &::UnityEngine::Timeline::TrackAsset::add_OnClipPlayableCreate)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x69b3a84;
+  constexpr static std::size_t addrs = 0x69b1820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -501,7 +501,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*)>(
     &::UnityEngine::Timeline::TrackAsset::remove_OnClipPlayableCreate)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x69b3b8c;
+  constexpr static std::size_t addrs = 0x69b1928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -520,7 +520,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*)>(
         &::UnityEngine::Timeline::TrackAsset::add_OnTrackAnimationPlayableCreate)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x69b3c94;
+  constexpr static std::size_t addrs = 0x69b1a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -539,7 +539,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>*)>(
         &::UnityEngine::Timeline::TrackAsset::remove_OnTrackAnimationPlayableCreate)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x69b3d9c;
+  constexpr static std::size_t addrs = 0x69b1b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -556,7 +556,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::get_start)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69b3ea4;
+  constexpr static std::size_t addrs = 0x69b1c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "get_start", {}, {} })));
@@ -568,7 +568,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::get_end)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69b15a0;
+  constexpr static std::size_t addrs = 0x69af33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "get_end", {}, {} })));
@@ -580,7 +580,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::get_duration)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69b401c;
+  constexpr static std::size_t addrs = 0x69b1db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "get_duration", {}, {} })));
@@ -592,7 +592,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::get_muted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b4088;
+  constexpr static std::size_t addrs = 0x69b1e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "get_muted", {}, {} })));
@@ -604,7 +604,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)(bool)>(&::UnityEngine::Timeline::TrackAsset::set_muted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b4090;
+  constexpr static std::size_t addrs = 0x69b1e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "set_muted", {}, { ::i2c::type_of<bool>() } })));
@@ -616,7 +616,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::get_mutedInHierarchy)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x69b11a8;
+  constexpr static std::size_t addrs = 0x69aef44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "get_mutedInHierarchy", {}, {} })));
@@ -629,7 +629,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Timeline::TimelineAsset> (::UnityEngine::Timeline::TrackAsset::*)()>(
     &::UnityEngine::Timeline::TrackAsset::get_timelineAsset)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x69b1958;
+  constexpr static std::size_t addrs = 0x69af6f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "get_timelineAsset", {}, {} })));
@@ -642,7 +642,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Playables::PlayableAsset> (::UnityEngine::Timeline::TrackAsset::*)()>(
     &::UnityEngine::Timeline::TrackAsset::get_parent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b4098;
+  constexpr static std::size_t addrs = 0x69b1e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "get_parent", {}, {} })));
@@ -654,7 +654,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)(::UnityEngine::Playables::PlayableAsset*)>(&::UnityEngine::Timeline::TrackAsset::set_parent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b40a0;
+  constexpr static std::size_t addrs = 0x69b1e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -668,7 +668,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TimelineClip*>* (::UnityEngine::Timeline::TrackAsset::*)()>(
     &::UnityEngine::Timeline::TrackAsset::GetClips)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69ace78;
+  constexpr static std::size_t addrs = 0x69aac14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "GetClips", {}, {} })));
@@ -680,7 +680,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Timeline::TimelineClip*> (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::get_clips)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x69a91ec;
+  constexpr static std::size_t addrs = 0x69a6f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "get_clips", {}, {} })));
@@ -692,7 +692,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::get_isEmpty)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x69b40a8;
+  constexpr static std::size_t addrs = 0x69b1e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -705,7 +705,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::get_hasClips)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69a6d50;
+  constexpr static std::size_t addrs = 0x69a4aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "get_hasClips", {}, {} })));
@@ -717,7 +717,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::get_hasCurves)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x69b411c;
+  constexpr static std::size_t addrs = 0x69b1eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "get_hasCurves", {}, {} })));
@@ -729,7 +729,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::get_isSubTrack)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x69a9b54;
+  constexpr static std::size_t addrs = 0x69a78f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "get_isSubTrack", {}, {} })));
@@ -742,7 +742,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* (::UnityEngine::Timeline::TrackAsset::*)()>(
     &::UnityEngine::Timeline::TrackAsset::get_outputs)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69b41b4;
+  constexpr static std::size_t addrs = 0x69b1f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -756,7 +756,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* (::UnityEngine::Timeline::TrackAsset::*)()>(
     &::UnityEngine::Timeline::TrackAsset::GetChildTracks)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69ab6ec;
+  constexpr static std::size_t addrs = 0x69a9488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "GetChildTracks", {}, {} })));
@@ -768,7 +768,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::get_customPlayableTypename)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b4468;
+  constexpr static std::size_t addrs = 0x69b2204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "get_customPlayableTypename", {}, {} })));
@@ -780,7 +780,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)(::StringW)>(&::UnityEngine::Timeline::TrackAsset::set_customPlayableTypename)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b4470;
+  constexpr static std::size_t addrs = 0x69b220c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -793,7 +793,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::AnimationClip> (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::get_curves)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b4478;
+  constexpr static std::size_t addrs = 0x69b2214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "get_curves", {}, {} })));
@@ -805,7 +805,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)(::UnityEngine::AnimationClip*)>(&::UnityEngine::Timeline::TrackAsset::set_curves)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b4480;
+  constexpr static std::size_t addrs = 0x69b221c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -819,7 +819,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Timeline::TrackAsset::*)()>(
     &::UnityEngine::Timeline::TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x69b4488;
+  constexpr static std::size_t addrs = 0x69b2224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -833,7 +833,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (::UnityEngine::Timeline::TrackAsset::*)()>(
     &::UnityEngine::Timeline::TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_asset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69b44cc;
+  constexpr static std::size_t addrs = 0x69b2268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -847,7 +847,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (::UnityEngine::Timeline::TrackAsset::*)()>(
     &::UnityEngine::Timeline::TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_assetOwner)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69b44d0;
+  constexpr static std::size_t addrs = 0x69b226c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -861,7 +861,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Timeline::TrackAsset> (::UnityEngine::Timeline::TrackAsset::*)()>(
     &::UnityEngine::Timeline::TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_targetTrack)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69b44d4;
+  constexpr static std::size_t addrs = 0x69b2270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -875,7 +875,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* (::UnityEngine::Timeline::TrackAsset::*)()>(
     &::UnityEngine::Timeline::TrackAsset::get_subTracksObjects)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b44d8;
+  constexpr static std::size_t addrs = 0x69b2274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "get_subTracksObjects", {}, {} })));
@@ -887,7 +887,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::get_locked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b44e0;
+  constexpr static std::size_t addrs = 0x69b227c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "get_locked", {}, {} })));
@@ -899,7 +899,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)(bool)>(&::UnityEngine::Timeline::TrackAsset::set_locked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b44e8;
+  constexpr static std::size_t addrs = 0x69b2284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "set_locked", {}, { ::i2c::type_of<bool>() } })));
@@ -911,7 +911,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::get_lockedInHierarchy)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x69b44f0;
+  constexpr static std::size_t addrs = 0x69b228c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "get_lockedInHierarchy", {}, {} })));
@@ -923,7 +923,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::get_supportsNotifications)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x69b46b0;
+  constexpr static std::size_t addrs = 0x69b244c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "get_supportsNotifications", {}, {} })));
@@ -935,7 +935,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::__internalAwake)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x69b4758;
+  constexpr static std::size_t addrs = 0x69b24f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "__internalAwake", {}, {} })));
@@ -947,7 +947,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)(::StringW)>(&::UnityEngine::Timeline::TrackAsset::CreateCurves)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x69b4828;
+  constexpr static std::size_t addrs = 0x69b25c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -961,7 +961,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::Playable (::UnityEngine::Timeline::TrackAsset::*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*,
                                                                                                                                    int32_t)>(&::UnityEngine::Timeline::TrackAsset::CreateTrackMixer)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x69b48e0;
+  constexpr static std::size_t addrs = 0x69b267c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -975,7 +975,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::Playable (::UnityEngine::Timeline::TrackAsset::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*)>(&::UnityEngine::Timeline::TrackAsset::CreatePlayable)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x69b4954;
+  constexpr static std::size_t addrs = 0x69b26f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -989,7 +989,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::TimelineClip* (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::CreateDefaultClip)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x69b49a8;
+  constexpr static std::size_t addrs = 0x69b2744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "CreateDefaultClip", {}, {} })));
@@ -1001,7 +1001,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset::*)(::UnityEngine::Timeline::TimelineClip*)>(&::UnityEngine::Timeline::TrackAsset::DeleteClip)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x69b4ca0;
+  constexpr static std::size_t addrs = 0x69b2a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1015,7 +1015,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::IMarker* (::UnityEngine::Timeline::TrackAsset::*)(::System::Type*, double_t)>(
     &::UnityEngine::Timeline::TrackAsset::CreateMarker)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69b4dc4;
+  constexpr static std::size_t addrs = 0x69b2b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1028,7 +1028,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset::*)(::UnityEngine::Timeline::IMarker*)>(&::UnityEngine::Timeline::TrackAsset::DeleteMarker)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b50c8;
+  constexpr static std::size_t addrs = 0x69b2e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1042,7 +1042,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker*>* (::UnityEngine::Timeline::TrackAsset::*)()>(
     &::UnityEngine::Timeline::TrackAsset::GetMarkers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x69b3a68;
+  constexpr static std::size_t addrs = 0x69b1804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "GetMarkers", {}, {} })));
@@ -1054,7 +1054,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::GetMarkerCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b41ac;
+  constexpr static std::size_t addrs = 0x69b1f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "GetMarkerCount", {}, {} })));
@@ -1066,7 +1066,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::IMarker* (::UnityEngine::Timeline::TrackAsset::*)(int32_t)>(&::UnityEngine::Timeline::TrackAsset::GetMarker)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b5328;
+  constexpr static std::size_t addrs = 0x69b30c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1080,7 +1080,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::TimelineClip* (::UnityEngine::Timeline::TrackAsset::*)(::System::Type*)>(
     &::UnityEngine::Timeline::TrackAsset::CreateClip)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x69b539c;
+  constexpr static std::size_t addrs = 0x69b3138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1094,7 +1094,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::TimelineClip* (::UnityEngine::Timeline::TrackAsset::*)(::System::Type*)>(
     &::UnityEngine::Timeline::TrackAsset::CreateAndAddNewClipOfType)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x69b4c70;
+  constexpr static std::size_t addrs = 0x69b2a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1108,7 +1108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::TimelineClip* (::UnityEngine::Timeline::TrackAsset::*)(::System::Type*)>(
     &::UnityEngine::Timeline::TrackAsset::CreateClipOfType)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x69b5724;
+  constexpr static std::size_t addrs = 0x69b34c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1122,7 +1122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::TimelineClip* (::UnityEngine::Timeline::TrackAsset::*)(::UnityEngine::Playables::IPlayableAsset*)>(
     &::UnityEngine::Timeline::TrackAsset::CreateClipFromPlayableAsset)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x69b5b74;
+  constexpr static std::size_t addrs = 0x69b3910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(),
@@ -1136,7 +1136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::TimelineClip* (::UnityEngine::Timeline::TrackAsset::*)(::UnityEngine::ScriptableObject*)>(
     &::UnityEngine::Timeline::TrackAsset::CreateClipFromAsset)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x69b58f4;
+  constexpr static std::size_t addrs = 0x69b3690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1150,7 +1150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ScriptableObject>>* (::UnityEngine::Timeline::TrackAsset::*)()>(
     &::UnityEngine::Timeline::TrackAsset::GetMarkersRaw)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b5ff4;
+  constexpr static std::size_t addrs = 0x69b3d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "GetMarkersRaw", {}, {} })));
@@ -1162,7 +1162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::ClearMarkers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b5ffc;
+  constexpr static std::size_t addrs = 0x69b3d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "ClearMarkers", {}, {} })));
@@ -1174,7 +1174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)(::UnityEngine::ScriptableObject*)>(&::UnityEngine::Timeline::TrackAsset::AddMarker)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b607c;
+  constexpr static std::size_t addrs = 0x69b3e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1187,7 +1187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset::*)(::UnityEngine::ScriptableObject*)>(&::UnityEngine::Timeline::TrackAsset::DeleteMarkerRaw)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x69b6174;
+  constexpr static std::size_t addrs = 0x69b3f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1200,7 +1200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::GetTimeRangeHash)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x69b6270;
+  constexpr static std::size_t addrs = 0x69b400c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "GetTimeRangeHash", {}, {} })));
@@ -1212,7 +1212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)(::UnityEngine::Timeline::TimelineClip*)>(&::UnityEngine::Timeline::TrackAsset::AddClip)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x69ade00;
+  constexpr static std::size_t addrs = 0x69abb9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1227,7 +1227,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables:
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Playables::Playable, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::TrackAsset::CreateNotificationsPlayable)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x69b6514;
+  constexpr static std::size_t addrs = 0x69b42b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1246,7 +1246,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables:
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>*, ::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::TrackAsset::CreatePlayableGraph)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x69b6ba0;
+  constexpr static std::size_t addrs = 0x69b493c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(),
@@ -1265,7 +1265,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables:
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Collections::Generic::IList_1<::UnityEngine::Timeline::TimelineClip*>*,
     ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>*)>(&::UnityEngine::Timeline::TrackAsset::CompileClips)> {
   constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x69b7260;
+  constexpr static std::size_t addrs = 0x69b4ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1279,7 +1279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)(::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>*)>(
     &::UnityEngine::Timeline::TrackAsset::GatherCompilableTracks)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x69b77f0;
+  constexpr static std::size_t addrs = 0x69b558c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1294,7 +1294,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)(::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>*)>(
     &::UnityEngine::Timeline::TrackAsset::GatherNotifications)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x69b6834;
+  constexpr static std::size_t addrs = 0x69b45d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1310,7 +1310,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables:
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>*)>(
     &::UnityEngine::Timeline::TrackAsset::CreateMixerPlayableGraph)> {
   constexpr static std::size_t size = 0x5fc;
-  constexpr static std::size_t addrs = 0x69b7bd4;
+  constexpr static std::size_t addrs = 0x69b5970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1325,7 +1325,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Time
                                                                                                      ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::TrackAsset::ConfigureTrackAnimation)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x69b7694;
+  constexpr static std::size_t addrs = 0x69b5430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1342,7 +1342,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::SortClips)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x69b81d0;
+  constexpr static std::size_t addrs = 0x69b5f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "SortClips", {}, {} })));
@@ -1354,7 +1354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::ClearClipsInternal)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x69b8300;
+  constexpr static std::size_t addrs = 0x69b609c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "ClearClipsInternal", {}, {} })));
@@ -1366,7 +1366,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::ClearSubTracksInternal)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x69b8378;
+  constexpr static std::size_t addrs = 0x69b6114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "ClearSubTracksInternal", {}, {} })));
@@ -1378,7 +1378,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::OnClipMove)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ada50;
+  constexpr static std::size_t addrs = 0x69ab7ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "OnClipMove", {}, {} })));
@@ -1391,7 +1391,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::TimelineClip* (::UnityEngine::Timeline::TrackAsset::*)()>(
     &::UnityEngine::Timeline::TrackAsset::CreateNewClipContainerInternal)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x69b5dd4;
+  constexpr static std::size_t addrs = 0x69b3b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "CreateNewClipContainerInternal", {}, {} })));
@@ -1403,7 +1403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)(::UnityEngine::Timeline::TrackAsset*)>(&::UnityEngine::Timeline::TrackAsset::AddChild)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x69b28b0;
+  constexpr static std::size_t addrs = 0x69b064c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1417,7 +1417,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)(::UnityEngine::Timeline::TrackAsset*)>(
     &::UnityEngine::Timeline::TrackAsset::MoveLastTrackBefore)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x69b83f0;
+  constexpr static std::size_t addrs = 0x69b618c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1430,7 +1430,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset::*)(::UnityEngine::Timeline::TrackAsset*)>(&::UnityEngine::Timeline::TrackAsset::RemoveSubTrack)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x69b0aa8;
+  constexpr static std::size_t addrs = 0x69ae844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1443,7 +1443,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)(::UnityEngine::Timeline::TimelineClip*)>(&::UnityEngine::Timeline::TrackAsset::RemoveClip)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69add94;
+  constexpr static std::size_t addrs = 0x69abb30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1457,7 +1457,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)(::by_ref<double_t>, ::by_ref<double_t>)>(
     &::UnityEngine::Timeline::TrackAsset::GetEvaluationTime)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x69ac280;
+  constexpr static std::size_t addrs = 0x69aa01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1470,7 +1470,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)(::by_ref<double_t>, ::by_ref<double_t>)>(&::UnityEngine::Timeline::TrackAsset::GetSequenceTime)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x69ac5b4;
+  constexpr static std::size_t addrs = 0x69aa350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1484,7 +1484,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)(::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::IPropertyCollector*)>(
     &::UnityEngine::Timeline::TrackAsset::GatherProperties)> {
   constexpr static std::size_t size = 0x6ac;
-  constexpr static std::size_t addrs = 0x69b8618;
+  constexpr static std::size_t addrs = 0x69b63b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1498,7 +1498,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::Timeline::TrackAsset::*)(::UnityEngine::Playables::PlayableDirector*)>(
     &::UnityEngine::Timeline::TrackAsset::GetGameObjectBinding)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x69a7060;
+  constexpr static std::size_t addrs = 0x69a4dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1512,7 +1512,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset::*)(::System::Type*)>(&::UnityEngine::Timeline::TrackAsset::ValidateClipType)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x69b54ac;
+  constexpr static std::size_t addrs = 0x69b3248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1525,7 +1525,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)(::UnityEngine::Timeline::TimelineClip*)>(&::UnityEngine::Timeline::TrackAsset::OnCreateClip)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69a7238;
+  constexpr static std::size_t addrs = 0x69a4fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1538,7 +1538,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::UpdateDuration)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x69b3f08;
+  constexpr static std::size_t addrs = 0x69b1ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "UpdateDuration", {}, {} })));
@@ -1550,7 +1550,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::CalculateItemsHash)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x69a9e4c;
+  constexpr static std::size_t addrs = 0x69a7be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1564,7 +1564,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::Playable (::UnityEngine::Timeline::TrackAsset::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*)>(&::UnityEngine::Timeline::TrackAsset::CreatePlayable)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x69b8de8;
+  constexpr static std::size_t addrs = 0x69b6b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1577,7 +1577,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::Invalidate)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x69b39d8;
+  constexpr static std::size_t addrs = 0x69b1774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "Invalidate", {}, {} })));
@@ -1589,7 +1589,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::GetNotificationDuration)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x69ac5c4;
+  constexpr static std::size_t addrs = 0x69aa360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "GetNotificationDuration", {}, {} })));
@@ -1601,7 +1601,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::CanCompileClips)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69a6dac;
+  constexpr static std::size_t addrs = 0x69a4b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1614,7 +1614,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::CanCreateTrackMixer)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x69b90b8;
+  constexpr static std::size_t addrs = 0x69b6e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1627,7 +1627,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::IsCompilable)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x69b90c8;
+  constexpr static std::size_t addrs = 0x69b6e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "IsCompilable", {}, {} })));
@@ -1639,7 +1639,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::UpdateChildTrackCache)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x69b4244;
+  constexpr static std::size_t addrs = 0x69b1fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "UpdateChildTrackCache", {}, {} })));
@@ -1651,7 +1651,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::Hash)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x69b9448;
+  constexpr static std::size_t addrs = 0x69b71e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1664,7 +1664,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::GetClipsHash)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x69b8cc4;
+  constexpr static std::size_t addrs = 0x69b6a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "GetClipsHash", {}, {} })));
@@ -1676,7 +1676,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::AnimationClip*)>(&::UnityEngine::Timeline::TrackAsset::GetAnimationClipHash)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x69a9d4c;
+  constexpr static std::size_t addrs = 0x69a7ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1689,7 +1689,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::HasNotifications)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x69b85fc;
+  constexpr static std::size_t addrs = 0x69b6398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "HasNotifications", {}, {} })));
@@ -1701,7 +1701,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::CanCompileNotifications)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x69b7ba0;
+  constexpr static std::size_t addrs = 0x69b593c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "CanCompileNotifications", {}, {} })));
@@ -1713,7 +1713,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::CanCreateMixerRecursive)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x69b6e74;
+  constexpr static std::size_t addrs = 0x69b4c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { "CanCreateMixerRecursive", {}, {} })));
@@ -1725,7 +1725,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TrackAsset::*)()>(&::UnityEngine::Timeline::TrackAsset::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x69a729c;
+  constexpr static std::size_t addrs = 0x69a5038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TrackAsset*>(), { ".ctor", {}, {} })));

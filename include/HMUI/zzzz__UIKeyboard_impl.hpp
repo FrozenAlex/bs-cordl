@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard___c__DisplayClass24_0::*)()>(&::HMUI::UIKeyboard___c__DisplayClass24_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x587d770;
+  constexpr static std::size_t addrs = 0x587bc1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboard___c__DisplayClass24_0*>(), { ".ctor", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard___c__DisplayClass24_0::*)()>(&::HMUI::UIKeyboard___c__DisplayClass24_0::_Awake_b__3)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x587ddd4;
+  constexpr static std::size_t addrs = 0x587c280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboard___c__DisplayClass24_0*>(), { "<Awake>b__3", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard::*)(::System::Action*)>(&::HMUI::UIKeyboard::add_okButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x587cd9c;
+  constexpr static std::size_t addrs = 0x587b248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard::*)(::System::Action*)>(&::HMUI::UIKeyboard::remove_okButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x587ce48;
+  constexpr static std::size_t addrs = 0x587b2f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard::*)(::System::Action_1<char16_t>*)>(&::HMUI::UIKeyboard::add_keyWasPressedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x587cef4;
+  constexpr static std::size_t addrs = 0x587b3a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard::*)(::System::Action_1<char16_t>*)>(&::HMUI::UIKeyboard::remove_keyWasPressedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x587cfb4;
+  constexpr static std::size_t addrs = 0x587b460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard::*)(::System::Action*)>(&::HMUI::UIKeyboard::add_deleteButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x587d074;
+  constexpr static std::size_t addrs = 0x587b520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard::*)(::System::Action*)>(&::HMUI::UIKeyboard::remove_deleteButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x587d120;
+  constexpr static std::size_t addrs = 0x587b5cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard::*)(::System::Action_1<::HMUI::CapsLockState>*)>(&::HMUI::UIKeyboard::add_capsLockStateChangedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x587d1cc;
+  constexpr static std::size_t addrs = 0x587b678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard::*)(::System::Action_1<::HMUI::CapsLockState>*)>(&::HMUI::UIKeyboard::remove_capsLockStateChangedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x587d28c;
+  constexpr static std::size_t addrs = 0x587b738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::UIKeyboard::*)()>(&::HMUI::UIKeyboard::get_shouldCapitalize)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x587d34c;
+  constexpr static std::size_t addrs = 0x587b7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboard*>(), { "get_shouldCapitalize", {}, {} })));
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::HMUI::CapsLockState (::HMUI::UIKeyboard::*)()>(&::HMUI::UIKeyboard::get_capsLockState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x587d35c;
+  constexpr static std::size_t addrs = 0x587b808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboard*>(), { "get_capsLockState", {}, {} })));
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard::*)()>(&::HMUI::UIKeyboard::Awake)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x587d364;
+  constexpr static std::size_t addrs = 0x587b810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboard*>(), { "Awake", {}, {} })));
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard::*)()>(&::HMUI::UIKeyboard::Update)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x587d774;
+  constexpr static std::size_t addrs = 0x587bc20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboard*>(), { "Update", {}, {} })));
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard::*)(::UnityEngine::KeyCode)>(&::HMUI::UIKeyboard::HandleKeyPress)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x587d8b8;
+  constexpr static std::size_t addrs = 0x587bd64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -246,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard::*)()>(&::HMUI::UIKeyboard::HandleCapsLockPressed)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x587db24;
+  constexpr static std::size_t addrs = 0x587bfd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboard*>(), { "HandleCapsLockPressed", {}, {} })));
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard::*)(::HMUI::CapsLockState)>(&::HMUI::UIKeyboard::SetCapsLockState)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x587d9d8;
+  constexpr static std::size_t addrs = 0x587be84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard::*)(bool)>(&::HMUI::UIKeyboard::SetKeyboardCapitalization)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x587d9f8;
+  constexpr static std::size_t addrs = 0x587bea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboard*>(), { "SetKeyboardCapitalization", {}, { ::i2c::type_of<bool>() } })));
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::UIKeyboard::*)(::TMPro::TextMeshProUGUI*, ::TMPro::FontStyles)>(&::HMUI::UIKeyboard::HasFontStyle)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x587dcc8;
+  constexpr static std::size_t addrs = 0x587c174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard::*)()>(&::HMUI::UIKeyboard::OnEnable)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x587dce4;
+  constexpr static std::size_t addrs = 0x587c190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboard*>(), { "OnEnable", {}, {} })));
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard::*)()>(&::HMUI::UIKeyboard::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x587dd24;
+  constexpr static std::size_t addrs = 0x587c1d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboard*>(), { ".ctor", {}, {} })));
@@ -321,7 +321,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard::*)()>(&::HMUI::UIKeyboard::_Awake_b__24_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x587dd80;
+  constexpr static std::size_t addrs = 0x587c22c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboard*>(), { "<Awake>b__24_0", {}, {} })));
@@ -333,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard::*)()>(&::HMUI::UIKeyboard::_Awake_b__24_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x587dd9c;
+  constexpr static std::size_t addrs = 0x587c248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboard*>(), { "<Awake>b__24_1", {}, {} })));
@@ -345,7 +345,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::UIKeyboard::*)()>(&::HMUI::UIKeyboard::_Awake_b__24_2)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x587ddb8;
+  constexpr static std::size_t addrs = 0x587c264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::UIKeyboard*>(), { "<Awake>b__24_2", {}, {} })));

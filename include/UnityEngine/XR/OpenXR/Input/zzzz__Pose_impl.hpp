@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Input::Pose::*)()>(&::UnityEngine::XR::OpenXR::Input::Pose::get_isTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f5630;
+  constexpr static std::size_t addrs = 0x69f33cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::Pose>(), { "get_isTracked", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Input::Pose::*)(bool)>(&::UnityEngine::XR::OpenXR::Input::Pose::set_isTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f5638;
+  constexpr static std::size_t addrs = 0x69f33d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::InputTrackingState (::UnityEngine::XR::OpenXR::Input::Pose::*)()>(
     &::UnityEngine::XR::OpenXR::Input::Pose::get_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f5640;
+  constexpr static std::size_t addrs = 0x69f33dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::Pose>(), { "get_trackingState", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Input::Pose::*)(::UnityEngine::XR::InputTrackingState)>(
     &::UnityEngine::XR::OpenXR::Input::Pose::set_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f5648;
+  constexpr static std::size_t addrs = 0x69f33e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::XR::OpenXR::Input::Pose::*)()>(&::UnityEngine::XR::OpenXR::Input::Pose::get_position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69f5650;
+  constexpr static std::size_t addrs = 0x69f33ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::Pose>(), { "get_position", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Input::Pose::*)(::UnityEngine::Vector3)>(&::UnityEngine::XR::OpenXR::Input::Pose::set_position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69f565c;
+  constexpr static std::size_t addrs = 0x69f33f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::UnityEngine::XR::OpenXR::Input::Pose::*)()>(&::UnityEngine::XR::OpenXR::Input::Pose::get_rotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69f5668;
+  constexpr static std::size_t addrs = 0x69f3404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::Pose>(), { "get_rotation", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Input::Pose::*)(::UnityEngine::Quaternion)>(&::UnityEngine::XR::OpenXR::Input::Pose::set_rotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69f5674;
+  constexpr static std::size_t addrs = 0x69f3410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::XR::OpenXR::Input::Pose::*)()>(&::UnityEngine::XR::OpenXR::Input::Pose::get_velocity)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69f5680;
+  constexpr static std::size_t addrs = 0x69f341c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::Pose>(), { "get_velocity", {}, {} })));
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Input::Pose::*)(::UnityEngine::Vector3)>(&::UnityEngine::XR::OpenXR::Input::Pose::set_velocity)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69f568c;
+  constexpr static std::size_t addrs = 0x69f3428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::XR::OpenXR::Input::Pose::*)()>(&::UnityEngine::XR::OpenXR::Input::Pose::get_angularVelocity)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69f5698;
+  constexpr static std::size_t addrs = 0x69f3434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::Pose>(), { "get_angularVelocity", {}, {} })));
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Input::Pose::*)(::UnityEngine::Vector3)>(&::UnityEngine::XR::OpenXR::Input::Pose::set_angularVelocity)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69f56a4;
+  constexpr static std::size_t addrs = 0x69f3440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

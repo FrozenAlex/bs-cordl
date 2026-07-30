@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::BTSCharacterSpawnEventValueParser::GetPrefabId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3285c94;
+  constexpr static std::size_t addrs = 0x3282f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::BTSCharacterSpawnEventValueParser::GetAnimationId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3285c9c;
+  constexpr static std::size_t addrs = 0x3282f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::GlobalNamespace::BTSCharacterSpawnEventValueParser::GetIsAlternativeMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3286130;
+  constexpr static std::size_t addrs = 0x328341c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, bool)>(&::GlobalNamespace::BTSCharacterSpawnEventValueParser::MergeValuesIntoOneInt)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x32862d4;
+  constexpr static std::size_t addrs = 0x32835c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

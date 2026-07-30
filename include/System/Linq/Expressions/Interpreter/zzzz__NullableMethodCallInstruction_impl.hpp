@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fb9574;
+  constexpr static std::size_t addrs = 0x5fb7310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction*>(),
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fb957c;
+  constexpr static std::size_t addrs = 0x5fb7318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction*>(),
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5fb9584;
+  constexpr static std::size_t addrs = 0x5fb7320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction*>(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fb95c8;
+  constexpr static std::size_t addrs = 0x5fb7364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Interpreter::Instruction* (*)(::StringW, int32_t, ::System::Reflection::MethodInfo*)>(
     &::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction::Create)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x5fb95cc;
+  constexpr static std::size_t addrs = 0x5fb7368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Interpreter::Instruction* (*)()>(
     &::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction::CreateGetValue)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5fb9978;
+  constexpr static std::size_t addrs = 0x5fb7714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

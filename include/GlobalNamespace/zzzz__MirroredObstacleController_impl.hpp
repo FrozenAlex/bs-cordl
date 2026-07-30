@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirroredObstacleController_Pool::*)()>(&::GlobalNamespace::MirroredObstacleController_Pool::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x58dbd94;
+  constexpr static std::size_t addrs = 0x58da26c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirroredObstacleController_Pool*>(), { ".ctor", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirroredObstacleController::*)(bool)>(&::GlobalNamespace::MirroredObstacleController::set_hide)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x58ced80;
+  constexpr static std::size_t addrs = 0x58cd258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirroredObstacleController::*)()>(&::GlobalNamespace::MirroredObstacleController::Awake)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58db808;
+  constexpr static std::size_t addrs = 0x58d9ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirroredObstacleController*>(), { "Awake", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirroredObstacleController::*)()>(&::GlobalNamespace::MirroredObstacleController::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58db824;
+  constexpr static std::size_t addrs = 0x58d9cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirroredObstacleController*>(), { "OnDestroy", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirroredObstacleController::*)()>(&::GlobalNamespace::MirroredObstacleController::Update)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x58db8fc;
+  constexpr static std::size_t addrs = 0x58d9dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirroredObstacleController*>(), { "Update", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirroredObstacleController::*)()>(&::GlobalNamespace::MirroredObstacleController::RemoveListeners)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x58db828;
+  constexpr static std::size_t addrs = 0x58d9d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirroredObstacleController*>(), { "RemoveListeners", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirroredObstacleController::*)()>(&::GlobalNamespace::MirroredObstacleController::UpdatePositionAndRotation)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x58dba10;
+  constexpr static std::size_t addrs = 0x58d9ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirroredObstacleController::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::MirroredObstacleController::Mirror)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x58ce2e8;
+  constexpr static std::size_t addrs = 0x58cc7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirroredObstacleController::*)(::GlobalNamespace::ObstacleControllerBase*, float_t)>(
     &::GlobalNamespace::MirroredObstacleController::HandleDidStartDissolving)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58dbd50;
+  constexpr static std::size_t addrs = 0x58da228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MirroredObstacleController::*)()>(&::GlobalNamespace::MirroredObstacleController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58dbd8c;
+  constexpr static std::size_t addrs = 0x58da264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirroredObstacleController*>(), { ".ctor", {}, {} })));

@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Numerics::BigInteger::*)(int32_t)>(&::System::Numerics::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x60ec058;
+  constexpr static std::size_t addrs = 0x60e9df4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Numerics::BigInteger::*)(uint32_t)>(&::System::Numerics::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x60ec0e0;
+  constexpr static std::size_t addrs = 0x60e9e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { ".ctor", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Numerics::BigInteger::*)(int64_t)>(&::System::Numerics::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x60ec170;
+  constexpr static std::size_t addrs = 0x60e9f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { ".ctor", {}, { ::i2c::type_of<int64_t>() } })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Numerics::BigInteger::*)(uint64_t)>(&::System::Numerics::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x60ec294;
+  constexpr static std::size_t addrs = 0x60ea030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { ".ctor", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Numerics::BigInteger::*)(float_t)>(&::System::Numerics::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x60ec35c;
+  constexpr static std::size_t addrs = 0x60ea0f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { ".ctor", {}, { ::i2c::type_of<float_t>() } })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Numerics::BigInteger::*)(double_t)>(&::System::Numerics::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x60ec3c4;
+  constexpr static std::size_t addrs = 0x60ea160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { ".ctor", {}, { ::i2c::type_of<double_t>() } })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Numerics::BigInteger::*)(::System::Decimal)>(&::System::Numerics::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x60ec6ec;
+  constexpr static std::size_t addrs = 0x60ea488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Numerics::BigInteger::*)(::ArrayW<uint8_t>)>(&::System::Numerics::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x60ec8bc;
+  constexpr static std::size_t addrs = 0x60ea658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Numerics::BigInteger::*)(::System::ReadOnlySpan_1<uint8_t>, bool, bool)>(&::System::Numerics::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0x53c;
-  constexpr static std::size_t addrs = 0x60ec994;
+  constexpr static std::size_t addrs = 0x60ea730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Numerics::BigInteger::*)(int32_t, ::ArrayW<uint32_t>)>(&::System::Numerics::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x60ecf70;
+  constexpr static std::size_t addrs = 0x60ead0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Numerics::BigInteger::*)(::ArrayW<uint32_t>, bool)>(&::System::Numerics::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x60ecf7c;
+  constexpr static std::size_t addrs = 0x60ead18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)()>(&::System::Numerics::BigInteger::get_Zero)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x60ed110;
+  constexpr static std::size_t addrs = 0x60eaeac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { "get_Zero", {}, {} })));
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)()>(&::System::Numerics::BigInteger::get_MinusOne)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x60ed16c;
+  constexpr static std::size_t addrs = 0x60eaf08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { "get_MinusOne", {}, {} })));
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Numerics::BigInteger::*)()>(&::System::Numerics::BigInteger::get_IsZero)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x60ed1c8;
+  constexpr static std::size_t addrs = 0x60eaf64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { "get_IsZero", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(::StringW, ::System::IFormatProvider*)>(&::System::Numerics::BigInteger::Parse)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x60ed1d8;
+  constexpr static std::size_t addrs = 0x60eaf74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(::StringW, ::System::Globalization::NumberStyles, ::System::IFormatProvider*)>(
     &::System::Numerics::BigInteger::Parse)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x60ed264;
+  constexpr static std::size_t addrs = 0x60eb000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Numerics::BigInteger::*)()>(&::System::Numerics::BigInteger::GetHashCode)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x60ed344;
+  constexpr static std::size_t addrs = 0x60eb0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { ::i2c::class_of<::System::Numerics::BigInteger>(), 2 }));
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Numerics::BigInteger::*)(::System::Object*)>(&::System::Numerics::BigInteger::Equals)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x60ed39c;
+  constexpr static std::size_t addrs = 0x60eb138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { ::i2c::class_of<::System::Numerics::BigInteger>(), 0 }));
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Numerics::BigInteger::*)(int64_t)>(&::System::Numerics::BigInteger::Equals)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x60ed510;
+  constexpr static std::size_t addrs = 0x60eb2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { "Equals", {}, { ::i2c::type_of<int64_t>() } })));
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Numerics::BigInteger::*)(::System::Numerics::BigInteger)>(&::System::Numerics::BigInteger::Equals)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x60ed450;
+  constexpr static std::size_t addrs = 0x60eb1ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Numerics::BigInteger::*)(int64_t)>(&::System::Numerics::BigInteger::CompareTo)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x60ed5fc;
+  constexpr static std::size_t addrs = 0x60eb398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { "CompareTo", {}, { ::i2c::type_of<int64_t>() } })));
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Numerics::BigInteger::*)(::System::Numerics::BigInteger)>(&::System::Numerics::BigInteger::CompareTo)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x60ed670;
+  constexpr static std::size_t addrs = 0x60eb40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Numerics::BigInteger::*)(::System::Object*)>(&::System::Numerics::BigInteger::CompareTo)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x60ed798;
+  constexpr static std::size_t addrs = 0x60eb534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Numerics::BigInteger::*)()>(&::System::Numerics::BigInteger::ToByteArray)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x60ed8a8;
+  constexpr static std::size_t addrs = 0x60eb644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { "ToByteArray", {}, {} })));
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Numerics::BigInteger::*)(bool, bool)>(&::System::Numerics::BigInteger::ToByteArray)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x60ed908;
+  constexpr static std::size_t addrs = 0x60eb6a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -342,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Numerics::BigInteger::*)(::System::Span_1<uint8_t>, ::by_ref<int32_t>, bool, bool)>(
     &::System::Numerics::BigInteger::TryWriteBytes)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x60edeac;
+  constexpr static std::size_t addrs = 0x60ebc48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Numerics::BigInteger::*)(::System::Span_1<uint8_t>, ::by_ref<int32_t>, bool, bool)>(
     &::System::Numerics::BigInteger::TryWriteOrCountBytes)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x60edf60;
+  constexpr static std::size_t addrs = 0x60ebcfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Numerics::BigInteger::*)(::System::Numerics::BigInteger_GetBytesMode, ::System::Span_1<uint8_t>, bool, bool,
                                                                                                              ::by_ref<int32_t>)>(&::System::Numerics::BigInteger::TryGetBytes)> {
   constexpr static std::size_t size = 0x518;
-  constexpr static std::size_t addrs = 0x60ed994;
+  constexpr static std::size_t addrs = 0x60eb730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Numerics::BigInteger::*)()>(&::System::Numerics::BigInteger::ToString)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x60ee00c;
+  constexpr static std::size_t addrs = 0x60ebda8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { ::i2c::class_of<::System::Numerics::BigInteger>(), 3 }));
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Numerics::BigInteger::*)(::System::IFormatProvider*)>(&::System::Numerics::BigInteger::ToString)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x60ee0ec;
+  constexpr static std::size_t addrs = 0x60ebe88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -416,7 +416,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Numerics::BigInteger::*)(::StringW, ::System::IFormatProvider*)>(&::System::Numerics::BigInteger::ToString)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x60ee120;
+  constexpr static std::size_t addrs = 0x60ebebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -429,7 +429,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(::ArrayW<uint32_t>, int32_t, ::ArrayW<uint32_t>, int32_t)>(&::System::Numerics::BigInteger::Add)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x60ee158;
+  constexpr static std::size_t addrs = 0x60ebef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -444,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(::System::Numerics::BigInteger, ::System::Numerics::BigInteger)>(
     &::System::Numerics::BigInteger::op_Subtraction)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x60ee4d8;
+  constexpr static std::size_t addrs = 0x60ec274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -458,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(::ArrayW<uint32_t>, int32_t, ::ArrayW<uint32_t>, int32_t)>(&::System::Numerics::BigInteger::Subtract)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x60ee58c;
+  constexpr static std::size_t addrs = 0x60ec328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -473,7 +473,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(uint8_t)>(&::System::Numerics::BigInteger::op_Implicit___System__Numerics__BigInteger)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x60ee964;
+  constexpr static std::size_t addrs = 0x60ec700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { "op_Implicit", {}, { ::i2c::type_of<uint8_t>() } })));
@@ -485,7 +485,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(int8_t)>(&::System::Numerics::BigInteger::op_Implicit___System__Numerics__BigInteger)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x60ee990;
+  constexpr static std::size_t addrs = 0x60ec72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { "op_Implicit", {}, { ::i2c::type_of<int8_t>() } })));
@@ -497,7 +497,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(int16_t)>(&::System::Numerics::BigInteger::op_Implicit___System__Numerics__BigInteger)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x60ee9b8;
+  constexpr static std::size_t addrs = 0x60ec754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { "op_Implicit", {}, { ::i2c::type_of<int16_t>() } })));
@@ -509,7 +509,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(uint16_t)>(&::System::Numerics::BigInteger::op_Implicit___System__Numerics__BigInteger)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x60ee9e0;
+  constexpr static std::size_t addrs = 0x60ec77c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { "op_Implicit", {}, { ::i2c::type_of<uint16_t>() } })));
@@ -521,7 +521,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(int32_t)>(&::System::Numerics::BigInteger::op_Implicit___System__Numerics__BigInteger)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x60eea0c;
+  constexpr static std::size_t addrs = 0x60ec7a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { "op_Implicit", {}, { ::i2c::type_of<int32_t>() } })));
@@ -533,7 +533,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(uint32_t)>(&::System::Numerics::BigInteger::op_Implicit___System__Numerics__BigInteger)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x60eea34;
+  constexpr static std::size_t addrs = 0x60ec7d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { "op_Implicit", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -545,7 +545,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(int64_t)>(&::System::Numerics::BigInteger::op_Implicit___System__Numerics__BigInteger)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x60ee2cc;
+  constexpr static std::size_t addrs = 0x60ec068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { "op_Implicit", {}, { ::i2c::type_of<int64_t>() } })));
@@ -557,7 +557,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(uint64_t)>(&::System::Numerics::BigInteger::op_Implicit___System__Numerics__BigInteger)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x60ec6c4;
+  constexpr static std::size_t addrs = 0x60ea460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::BigInteger>(), { "op_Implicit", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -569,7 +569,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(::System::Numerics::BigInteger)>(&::System::Numerics::BigInteger::op_Explicit_uint8_t)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x60eea5c;
+  constexpr static std::size_t addrs = 0x60ec7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -582,7 +582,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (*)(::System::Numerics::BigInteger)>(&::System::Numerics::BigInteger::op_Explicit_int8_t)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x60eebdc;
+  constexpr static std::size_t addrs = 0x60ec978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -595,7 +595,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (*)(::System::Numerics::BigInteger)>(&::System::Numerics::BigInteger::op_Explicit_int16_t)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x60eec74;
+  constexpr static std::size_t addrs = 0x60eca10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -608,7 +608,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(::System::Numerics::BigInteger)>(&::System::Numerics::BigInteger::op_Explicit_uint16_t)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x60eed0c;
+  constexpr static std::size_t addrs = 0x60ecaa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -621,7 +621,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Numerics::BigInteger)>(&::System::Numerics::BigInteger::op_Explicit_int32_t)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x60eeaf4;
+  constexpr static std::size_t addrs = 0x60ec890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -634,7 +634,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::System::Numerics::BigInteger)>(&::System::Numerics::BigInteger::op_Explicit_uint32_t)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x60eeda4;
+  constexpr static std::size_t addrs = 0x60ecb40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -647,7 +647,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::System::Numerics::BigInteger)>(&::System::Numerics::BigInteger::op_Explicit_int64_t)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x60eee5c;
+  constexpr static std::size_t addrs = 0x60ecbf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -660,7 +660,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::System::Numerics::BigInteger)>(&::System::Numerics::BigInteger::op_Explicit_uint64_t)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x60eef04;
+  constexpr static std::size_t addrs = 0x60ecca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -673,7 +673,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::Numerics::BigInteger)>(&::System::Numerics::BigInteger::op_Explicit_float_t)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x60eefd0;
+  constexpr static std::size_t addrs = 0x60ecd6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -686,7 +686,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::System::Numerics::BigInteger)>(&::System::Numerics::BigInteger::op_Explicit_double_t)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x60ef040;
+  constexpr static std::size_t addrs = 0x60ecddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -699,7 +699,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (*)(::System::Numerics::BigInteger)>(&::System::Numerics::BigInteger::op_Explicit___System__Decimal)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x60ef248;
+  constexpr static std::size_t addrs = 0x60ecfe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -712,7 +712,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(::System::Numerics::BigInteger, int32_t)>(&::System::Numerics::BigInteger::op_LeftShift)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x60ef368;
+  constexpr static std::size_t addrs = 0x60ed104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -726,7 +726,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(::System::Numerics::BigInteger, int32_t)>(&::System::Numerics::BigInteger::op_RightShift)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x60ef5b0;
+  constexpr static std::size_t addrs = 0x60ed34c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -740,7 +740,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(::System::Numerics::BigInteger)>(&::System::Numerics::BigInteger::op_UnaryNegation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60ef9a0;
+  constexpr static std::size_t addrs = 0x60ed73c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -754,7 +754,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(::System::Numerics::BigInteger, ::System::Numerics::BigInteger)>(
     &::System::Numerics::BigInteger::op_Addition)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x60ef9a8;
+  constexpr static std::size_t addrs = 0x60ed744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -769,7 +769,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(::System::Numerics::BigInteger, ::System::Numerics::BigInteger)>(
     &::System::Numerics::BigInteger::op_Multiply)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x60efa5c;
+  constexpr static std::size_t addrs = 0x60ed7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -784,7 +784,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(::System::Numerics::BigInteger, ::System::Numerics::BigInteger)>(
     &::System::Numerics::BigInteger::op_Division)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x60efe84;
+  constexpr static std::size_t addrs = 0x60edc20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -799,7 +799,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Numerics::BigInteger (*)(::System::Numerics::BigInteger, ::System::Numerics::BigInteger)>(
     &::System::Numerics::BigInteger::op_Modulus)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x60f017c;
+  constexpr static std::size_t addrs = 0x60edf18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -813,7 +813,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Numerics::BigInteger, ::System::Numerics::BigInteger)>(&::System::Numerics::BigInteger::op_LessThanOrEqual)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x60f03ec;
+  constexpr static std::size_t addrs = 0x60ee188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -827,7 +827,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Numerics::BigInteger, ::System::Numerics::BigInteger)>(&::System::Numerics::BigInteger::op_Inequality)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x60f0470;
+  constexpr static std::size_t addrs = 0x60ee20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -841,7 +841,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Numerics::BigInteger, int64_t)>(&::System::Numerics::BigInteger::op_LessThan)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x60f04f4;
+  constexpr static std::size_t addrs = 0x60ee290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -855,7 +855,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Numerics::BigInteger, int64_t)>(&::System::Numerics::BigInteger::op_LessThanOrEqual)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x60f0564;
+  constexpr static std::size_t addrs = 0x60ee300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -869,7 +869,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Numerics::BigInteger, int64_t)>(&::System::Numerics::BigInteger::op_Equality)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x60f05d8;
+  constexpr static std::size_t addrs = 0x60ee374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -883,7 +883,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Numerics::BigInteger, int64_t)>(&::System::Numerics::BigInteger::op_Inequality)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x60f0648;
+  constexpr static std::size_t addrs = 0x60ee3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -897,7 +897,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int64_t, ::System::Numerics::BigInteger)>(&::System::Numerics::BigInteger::op_LessThan)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x60f06bc;
+  constexpr static std::size_t addrs = 0x60ee458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -911,7 +911,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int64_t, ::System::Numerics::BigInteger)>(&::System::Numerics::BigInteger::op_LessThanOrEqual)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x60f0730;
+  constexpr static std::size_t addrs = 0x60ee4cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -926,7 +926,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::System::Numerics::BigInteger>, ::by_ref<::ArrayW<uint32_t>>, ::by_ref<int32_t>)>(
     &::System::Numerics::BigInteger::GetPartsForBitManipulation)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x60ef8d8;
+  constexpr static std::size_t addrs = 0x60ed674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -943,7 +943,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint32_t>, ::ArrayW<uint32_t>, int32_t)>(&::System::Numerics::BigInteger::GetDiffLength)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x60ed584;
+  constexpr static std::size_t addrs = 0x60eb320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

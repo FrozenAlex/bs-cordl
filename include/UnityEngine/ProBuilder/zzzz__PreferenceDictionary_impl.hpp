@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&::UnityEngine::ProBuilder::PreferenceDictionary::OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x66cbfdc;
+  constexpr static std::size_t addrs = 0x66c9d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::PreferenceDictionary*>(), { "OnBeforeSerialize", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&::UnityEngine::ProBuilder::PreferenceDictionary::OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x450;
-  constexpr static std::size_t addrs = 0x66cc338;
+  constexpr static std::size_t addrs = 0x66ca0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::PreferenceDictionary*>(), { "OnAfterDeserialize", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&::UnityEngine::ProBuilder::PreferenceDictionary::SetDefaultValues)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x66cc788;
+  constexpr static std::size_t addrs = 0x66ca524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::PreferenceDictionary*>(), { "SetDefaultValues", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW)>(&::UnityEngine::ProBuilder::PreferenceDictionary::HasKey)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x66cc8a4;
+  constexpr static std::size_t addrs = 0x66ca640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW)>(&::UnityEngine::ProBuilder::PreferenceDictionary::DeleteKey)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x66cca54;
+  constexpr static std::size_t addrs = 0x66ca7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, bool)>(&::UnityEngine::ProBuilder::PreferenceDictionary::GetBool)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x66ccd0c;
+  constexpr static std::size_t addrs = 0x66caaa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, int32_t)>(&::UnityEngine::ProBuilder::PreferenceDictionary::GetInt)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x66ccda0;
+  constexpr static std::size_t addrs = 0x66cab3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, float_t)>(&::UnityEngine::ProBuilder::PreferenceDictionary::GetFloat)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x66cce28;
+  constexpr static std::size_t addrs = 0x66cabc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, ::StringW)>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::GetString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x66cceb8;
+  constexpr static std::size_t addrs = 0x66cac54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, ::UnityEngine::Color)>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::GetColor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x66ccf40;
+  constexpr static std::size_t addrs = 0x66cacdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::PreferenceDictionary*>(),
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, ::UnityEngine::Material*)>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::GetMaterial)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x66ccff4;
+  constexpr static std::size_t addrs = 0x66cad90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::PreferenceDictionary*>(),
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, bool)>(&::UnityEngine::ProBuilder::PreferenceDictionary::SetBool)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x66cd07c;
+  constexpr static std::size_t addrs = 0x66cae18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, int32_t)>(&::UnityEngine::ProBuilder::PreferenceDictionary::SetInt)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x66cd0f8;
+  constexpr static std::size_t addrs = 0x66cae94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, float_t)>(&::UnityEngine::ProBuilder::PreferenceDictionary::SetFloat)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x66cd174;
+  constexpr static std::size_t addrs = 0x66caf10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, ::StringW)>(&::UnityEngine::ProBuilder::PreferenceDictionary::SetString)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x66cd1f8;
+  constexpr static std::size_t addrs = 0x66caf94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, ::UnityEngine::Color)>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::SetColor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x66cd274;
+  constexpr static std::size_t addrs = 0x66cb010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::PreferenceDictionary*>(),
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)(::StringW, ::UnityEngine::Material*)>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::SetMaterial)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x66cd318;
+  constexpr static std::size_t addrs = 0x66cb0b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::PreferenceDictionary*>(),
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, bool>* (::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::GetBoolDictionary)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66cd394;
+  constexpr static std::size_t addrs = 0x66cb130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::PreferenceDictionary*>(), { "GetBoolDictionary", {}, {} })));
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* (::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::GetIntDictionary)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66cd39c;
+  constexpr static std::size_t addrs = 0x66cb138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::PreferenceDictionary*>(), { "GetIntDictionary", {}, {} })));
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, float_t>* (::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::GetFloatDictionary)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66cd3a4;
+  constexpr static std::size_t addrs = 0x66cb140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::PreferenceDictionary*>(), { "GetFloatDictionary", {}, {} })));
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::GetStringDictionary)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66cd3ac;
+  constexpr static std::size_t addrs = 0x66cb148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::PreferenceDictionary*>(), { "GetStringDictionary", {}, {} })));
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color>* (::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(
     &::UnityEngine::ProBuilder::PreferenceDictionary::GetColorDictionary)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66cd3b4;
+  constexpr static std::size_t addrs = 0x66cb150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::PreferenceDictionary*>(), { "GetColorDictionary", {}, {} })));
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::UnityEngine::Material>>* (
     ::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&::UnityEngine::ProBuilder::PreferenceDictionary::GetMaterialDictionary)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66cd3bc;
+  constexpr static std::size_t addrs = 0x66cb158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::PreferenceDictionary*>(), { "GetMaterialDictionary", {}, {} })));
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&::UnityEngine::ProBuilder::PreferenceDictionary::Clear)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x66cd3c4;
+  constexpr static std::size_t addrs = 0x66cb160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::PreferenceDictionary*>(), { "Clear", {}, {} })));
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::PreferenceDictionary::*)()>(&::UnityEngine::ProBuilder::PreferenceDictionary::_ctor)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x66cd4b8;
+  constexpr static std::size_t addrs = 0x66cb254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::PreferenceDictionary*>(), { ".ctor", {}, {} })));

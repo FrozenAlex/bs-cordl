@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentName::*)(::StringW)>(&::GlobalNamespace::EnvironmentName::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3705f28;
+  constexpr static std::size_t addrs = 0x3704950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentName>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EnvironmentName::*)(::GlobalNamespace::EnvironmentName)>(&::GlobalNamespace::EnvironmentName::Equals)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3705f30;
+  constexpr static std::size_t addrs = 0x3704958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EnvironmentName::*)(::System::Object*)>(&::GlobalNamespace::EnvironmentName::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3705f38;
+  constexpr static std::size_t addrs = 0x3704960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::EnvironmentName::*)()>(&::GlobalNamespace::EnvironmentName::GetHashCode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3705fc8;
+  constexpr static std::size_t addrs = 0x37049f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::EnvironmentName)>(&::GlobalNamespace::EnvironmentName::op_Implicit___StringW)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3705fe0;
+  constexpr static std::size_t addrs = 0x3704a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EnvironmentName (*)(::StringW)>(&::GlobalNamespace::EnvironmentName::op_Implicit___GlobalNamespace__EnvironmentName)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3705fe4;
+  constexpr static std::size_t addrs = 0x3704a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::EnvironmentName, ::GlobalNamespace::EnvironmentName)>(&::GlobalNamespace::EnvironmentName::op_Equality)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3705fe8;
+  constexpr static std::size_t addrs = 0x3704a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::EnvironmentName, ::GlobalNamespace::EnvironmentName)>(&::GlobalNamespace::EnvironmentName::op_Inequality)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3705fec;
+  constexpr static std::size_t addrs = 0x3704a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::EnvironmentName::*)()>(&::GlobalNamespace::EnvironmentName::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3706060;
+  constexpr static std::size_t addrs = 0x3704a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

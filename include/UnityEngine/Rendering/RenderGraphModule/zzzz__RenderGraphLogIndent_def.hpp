@@ -29,13 +29,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x67dacac, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x67d8a48, size 0x34, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x67dace0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x67d8a7c, size 0x38, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method .ctor, addr 0x67dac14, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67d89b0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* logger, int32_t indentation);
 
   /// @brief Convert to "::System::IDisposable"
@@ -50,7 +50,7 @@ public:
   constexpr RenderGraphLogIndent(int32_t m_Indentation, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* m_Logger, bool m_Disposed) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12394 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12392 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::XRNode (::GlobalNamespace::VRController::*)()>(&::GlobalNamespace::VRController::get_node)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585e4e4;
+  constexpr static std::size_t addrs = 0x585c9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "get_node", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRController::*)(::UnityEngine::XR::XRNode)>(&::GlobalNamespace::VRController::set_node)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585e4ec;
+  constexpr static std::size_t addrs = 0x585c9e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::VRController::*)()>(&::GlobalNamespace::VRController::get_nodeIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585e4f4;
+  constexpr static std::size_t addrs = 0x585c9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "get_nodeIndex", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRController::*)(int32_t)>(&::GlobalNamespace::VRController::set_nodeIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585e4fc;
+  constexpr static std::size_t addrs = 0x585c9f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRController::*)()>(&::GlobalNamespace::VRController::get_position)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x585e504;
+  constexpr static std::size_t addrs = 0x585ca00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "get_position", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::VRController::*)()>(&::GlobalNamespace::VRController::get_rotation)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x585e524;
+  constexpr static std::size_t addrs = 0x585ca20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "get_rotation", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRController::*)()>(&::GlobalNamespace::VRController::get_forward)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x585e544;
+  constexpr static std::size_t addrs = 0x585ca40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "get_forward", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::VRController::*)()>(&::GlobalNamespace::VRController::get_triggerValue)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x585e564;
+  constexpr static std::size_t addrs = 0x585ca60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "get_triggerValue", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::VRController::*)()>(&::GlobalNamespace::VRController::get_thumbstick)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x585e660;
+  constexpr static std::size_t addrs = 0x585cb5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "get_thumbstick", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::VRController::*)()>(&::GlobalNamespace::VRController::get_active)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x585e710;
+  constexpr static std::size_t addrs = 0x585cc0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "get_active", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::VRController::*)()>(&::GlobalNamespace::VRController::get_viewAnchorTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585e730;
+  constexpr static std::size_t addrs = 0x585cc2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "get_viewAnchorTransform", {}, {} })));
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRController::*)(::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>*)>(
     &::GlobalNamespace::VRController::add_anchorUpdateEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x585e738;
+  constexpr static std::size_t addrs = 0x585cc34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRController::*)(::System::Action_2<::UnityW<::GlobalNamespace::VRController>, ::UnityEngine::Pose>*)>(
     &::GlobalNamespace::VRController::remove_anchorUpdateEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x585e7f8;
+  constexpr static std::size_t addrs = 0x585ccf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::VRController::*)()>(&::GlobalNamespace::VRController::get_poseFrame)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585e8b8;
+  constexpr static std::size_t addrs = 0x585cdb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "get_poseFrame", {}, {} })));
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::VRController::*)()>(&::GlobalNamespace::VRController::get_poseValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585e8c0;
+  constexpr static std::size_t addrs = 0x585cdbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "get_poseValid", {}, {} })));
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::VRController::*)()>(&::GlobalNamespace::VRController::get_mouseMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585e8c8;
+  constexpr static std::size_t addrs = 0x585cdc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "get_mouseMode", {}, {} })));
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRController::*)(bool)>(&::GlobalNamespace::VRController::set_mouseMode)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x585e8d0;
+  constexpr static std::size_t addrs = 0x585cdcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "set_mouseMode", {}, { ::i2c::type_of<bool>() } })));
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRController::*)(::GlobalNamespace::IVRPlatformHelper*, ::GlobalNamespace::IXRSystemState*)>(
     &::GlobalNamespace::VRController::Init)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x585ea18;
+  constexpr static std::size_t addrs = 0x585cf14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRController::*)()>(&::GlobalNamespace::VRController::OnEnable)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x585ec90;
+  constexpr static std::size_t addrs = 0x585d18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "OnEnable", {}, {} })));
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRController::*)()>(&::GlobalNamespace::VRController::OnDisable)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x585efac;
+  constexpr static std::size_t addrs = 0x585d4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "OnDisable", {}, {} })));
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRController::*)()>(&::GlobalNamespace::VRController::Update)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x585ecb8;
+  constexpr static std::size_t addrs = 0x585d1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "Update", {}, {} })));
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::VRController::*)(::by_ref<::UnityEngine::Pose>)>(&::GlobalNamespace::VRController::TryGetControllerOffset)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x585f0f4;
+  constexpr static std::size_t addrs = 0x585d5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::IVRPlatformHelper*, ::GlobalNamespace::VRControllerTransformOffset*, ::UnityEngine::XR::XRNode,
                                                                 ::by_ref<::UnityEngine::Pose>)>(&::GlobalNamespace::VRController::TryGetControllerOffset)> {
   constexpr static std::size_t size = 0x564;
-  constexpr static std::size_t addrs = 0x585f16c;
+  constexpr static std::size_t addrs = 0x585d668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRController::*)(::UnityEngine::Pose)>(&::GlobalNamespace::VRController::UpdateAnchorOffsetPose)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x585f908;
+  constexpr static std::size_t addrs = 0x585de04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Pose, ::UnityEngine::Pose)>(&::GlobalNamespace::VRController::AdjustPose)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x585f704;
+  constexpr static std::size_t addrs = 0x585dc00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -342,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Pose)>(&::GlobalNamespace::VRController::InvertControllerPose)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x585f6d0;
+  constexpr static std::size_t addrs = 0x585dbcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -355,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRController::*)()>(&::GlobalNamespace::VRController::SetupVRPlatformHelper)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x585ea24;
+  constexpr static std::size_t addrs = 0x585cf20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "SetupVRPlatformHelper", {}, {} })));
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::XR::XRNode>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>,
                                                                 ::by_ref<::UnityEngine::Pose>)>(&::GlobalNamespace::VRController::UpdatePoseOffset)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x585f7a4;
+  constexpr static std::size_t addrs = 0x585dca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRController::*)()>(&::GlobalNamespace::VRController::UpdateAnchorOffsetPose)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x585e9cc;
+  constexpr static std::size_t addrs = 0x585cec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { "UpdateAnchorOffsetPose", {}, {} })));
@@ -397,7 +397,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRController::*)(::GlobalNamespace::XRSystemEventType)>(&::GlobalNamespace::VRController::HandleSystemStateChange)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x585fa0c;
+  constexpr static std::size_t addrs = 0x585df08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -410,7 +410,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRController::*)()>(&::GlobalNamespace::VRController::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x585fa1c;
+  constexpr static std::size_t addrs = 0x585df18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRController*>(), { ".ctor", {}, {} })));

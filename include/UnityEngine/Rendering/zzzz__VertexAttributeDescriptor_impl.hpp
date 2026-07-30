@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::VertexAttribute (::UnityEngine::Rendering::VertexAttributeDescriptor::*)()>(
     &::UnityEngine::Rendering::VertexAttributeDescriptor::get_attribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b05d80;
+  constexpr static std::size_t addrs = 0x6b01784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VertexAttributeDescriptor>(), { "get_attribute", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VertexAttributeDescriptor::*)(::UnityEngine::Rendering::VertexAttribute)>(
     &::UnityEngine::Rendering::VertexAttributeDescriptor::set_attribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b05d88;
+  constexpr static std::size_t addrs = 0x6b0178c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VertexAttributeDescriptor>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::VertexAttributeFormat (::UnityEngine::Rendering::VertexAttributeDescriptor::*)()>(
     &::UnityEngine::Rendering::VertexAttributeDescriptor::get_format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b05d90;
+  constexpr static std::size_t addrs = 0x6b01794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VertexAttributeDescriptor>(), { "get_format", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VertexAttributeDescriptor::*)(::UnityEngine::Rendering::VertexAttributeFormat)>(
     &::UnityEngine::Rendering::VertexAttributeDescriptor::set_format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b05d98;
+  constexpr static std::size_t addrs = 0x6b0179c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VertexAttributeDescriptor>(),
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::VertexAttributeDescriptor::*)()>(&::UnityEngine::Rendering::VertexAttributeDescriptor::get_dimension)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b05da0;
+  constexpr static std::size_t addrs = 0x6b017a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VertexAttributeDescriptor>(), { "get_dimension", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VertexAttributeDescriptor::*)(int32_t)>(&::UnityEngine::Rendering::VertexAttributeDescriptor::set_dimension)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b05da8;
+  constexpr static std::size_t addrs = 0x6b017ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::VertexAttributeDescriptor::*)()>(&::UnityEngine::Rendering::VertexAttributeDescriptor::get_stream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b05db0;
+  constexpr static std::size_t addrs = 0x6b017b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VertexAttributeDescriptor>(), { "get_stream", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VertexAttributeDescriptor::*)(int32_t)>(&::UnityEngine::Rendering::VertexAttributeDescriptor::set_stream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b05db8;
+  constexpr static std::size_t addrs = 0x6b017bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VertexAttributeDescriptor::*)(
     ::UnityEngine::Rendering::VertexAttribute, ::UnityEngine::Rendering::VertexAttributeFormat, int32_t, int32_t)>(&::UnityEngine::Rendering::VertexAttributeDescriptor::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b05dc0;
+  constexpr static std::size_t addrs = 0x6b017c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::VertexAttributeDescriptor::*)()>(&::UnityEngine::Rendering::VertexAttributeDescriptor::ToString)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x6b05dcc;
+  constexpr static std::size_t addrs = 0x6b017d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::VertexAttributeDescriptor::*)()>(&::UnityEngine::Rendering::VertexAttributeDescriptor::GetHashCode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6b05f9c;
+  constexpr static std::size_t addrs = 0x6b019a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::VertexAttributeDescriptor::*)(::System::Object*)>(
     &::UnityEngine::Rendering::VertexAttributeDescriptor::Equals)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6b05fc0;
+  constexpr static std::size_t addrs = 0x6b019c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::VertexAttributeDescriptor::*)(::UnityEngine::Rendering::VertexAttributeDescriptor)>(
     &::UnityEngine::Rendering::VertexAttributeDescriptor::Equals)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b0606c;
+  constexpr static std::size_t addrs = 0x6b01a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VertexAttributeDescriptor>(),

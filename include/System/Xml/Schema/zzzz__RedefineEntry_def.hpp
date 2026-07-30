@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_schemaToUpdate(::System::Xml::Schema::XmlSchema* value);
 
-  /// @brief Method .ctor, addr 0x61db630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61d93cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaRedefine* external, ::System::Xml::Schema::XmlSchema* schema);
 
 protected:

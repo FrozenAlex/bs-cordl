@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters::*)(::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340d314;
+  constexpr static std::size_t addrs = 0x340b8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x340d31c;
+  constexpr static std::size_t addrs = 0x340b8e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters::GetSeed)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x340d414;
+  constexpr static std::size_t addrs = 0x340b9dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters::get_Counter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340d48c;
+  constexpr static std::size_t addrs = 0x340ba54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters::get_UsageIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340d494;
+  constexpr static std::size_t addrs = 0x340ba5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters*>(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters::*)(::System::Object*)>(
     &::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters::Equals)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x340d49c;
+  constexpr static std::size_t addrs = 0x340ba64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters*>(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters::*)(::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters*)>(
     &::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters::Equals)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x340d550;
+  constexpr static std::size_t addrs = 0x340bb18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters*>(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x340d5f0;
+  constexpr static std::size_t addrs = 0x340bbb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters*>(),

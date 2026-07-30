@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::IntegerControl* (::UnityEngine::InputSystem::TrackedDevice::*)()>(
     &::UnityEngine::InputSystem::TrackedDevice::get_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65638a4;
+  constexpr static std::size_t addrs = 0x6561640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::TrackedDevice*>(), { "get_trackingState", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::TrackedDevice::*)(::UnityEngine::InputSystem::Controls::IntegerControl*)>(
     &::UnityEngine::InputSystem::TrackedDevice::set_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65638ac;
+  constexpr static std::size_t addrs = 0x6561648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::TrackedDevice*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::TrackedDevice::*)()>(
     &::UnityEngine::InputSystem::TrackedDevice::get_isTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65638b4;
+  constexpr static std::size_t addrs = 0x6561650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::TrackedDevice*>(), { "get_isTracked", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::TrackedDevice::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::TrackedDevice::set_isTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65638bc;
+  constexpr static std::size_t addrs = 0x6561658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::TrackedDevice*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::InputSystem::TrackedDevice::*)()>(
     &::UnityEngine::InputSystem::TrackedDevice::get_devicePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65638c4;
+  constexpr static std::size_t addrs = 0x6561660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::TrackedDevice*>(), { "get_devicePosition", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::TrackedDevice::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::UnityEngine::InputSystem::TrackedDevice::set_devicePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65638cc;
+  constexpr static std::size_t addrs = 0x6561668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::TrackedDevice*>(),
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::InputSystem::TrackedDevice::*)()>(
     &::UnityEngine::InputSystem::TrackedDevice::get_deviceRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65638d4;
+  constexpr static std::size_t addrs = 0x6561670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::TrackedDevice*>(), { "get_deviceRotation", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::TrackedDevice::*)(::UnityEngine::InputSystem::Controls::QuaternionControl*)>(
     &::UnityEngine::InputSystem::TrackedDevice::set_deviceRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65638dc;
+  constexpr static std::size_t addrs = 0x6561678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::TrackedDevice::*)()>(&::UnityEngine::InputSystem::TrackedDevice::FinishSetup)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x65638e4;
+  constexpr static std::size_t addrs = 0x6561680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::TrackedDevice::*)()>(&::UnityEngine::InputSystem::TrackedDevice::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6563a20;
+  constexpr static std::size_t addrs = 0x65617bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::TrackedDevice*>(), { ".ctor", {}, {} })));

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::*)(::System::Type*, int32_t)>(
     &::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f87d3c;
+  constexpr static std::size_t addrs = 0x5f85ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f87d48;
+  constexpr static std::size_t addrs = 0x5f85ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f87d50;
+  constexpr static std::size_t addrs = 0x5f85aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5f87d58;
+  constexpr static std::size_t addrs = 0x5f85af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(
     &::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction::Run)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5f87d9c;
+  constexpr static std::size_t addrs = 0x5f85b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction*>(),

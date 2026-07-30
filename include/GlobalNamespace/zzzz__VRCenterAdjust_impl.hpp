@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRCenterAdjust::*)()>(&::GlobalNamespace::VRCenterAdjust::Start)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5905058;
+  constexpr static std::size_t addrs = 0x59035c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRCenterAdjust*>(), { "Start", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRCenterAdjust::*)()>(&::GlobalNamespace::VRCenterAdjust::Update)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x590527c;
+  constexpr static std::size_t addrs = 0x590379c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRCenterAdjust*>(), { "Update", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRCenterAdjust::*)()>(&::GlobalNamespace::VRCenterAdjust::OnEnable)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x59052d0;
+  constexpr static std::size_t addrs = 0x59037f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRCenterAdjust*>(), { "OnEnable", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRCenterAdjust::*)()>(&::GlobalNamespace::VRCenterAdjust::OnDisable)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x59053dc;
+  constexpr static std::size_t addrs = 0x59038fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRCenterAdjust*>(), { "OnDisable", {}, {} })));
@@ -56,8 +56,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRCenterAdjust::*)()>(&::GlobalNamespace::VRCenterAdjust::SetRoomTransformOffset)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5905188;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x59036f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRCenterAdjust*>(), { "SetRoomTransformOffset", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRCenterAdjust::*)()>(&::GlobalNamespace::VRCenterAdjust::ResetRoom)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x59050bc;
+  constexpr static std::size_t addrs = 0x5903624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRCenterAdjust*>(), { "ResetRoom", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRCenterAdjust::*)()>(&::GlobalNamespace::VRCenterAdjust::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59054e8;
+  constexpr static std::size_t addrs = 0x5903a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRCenterAdjust*>(), { ".ctor", {}, {} })));
@@ -111,12 +111,6 @@ constexpr ::UnityW<::GlobalNamespace::SettingsApplicatorSO> const& GlobalNamespa
 constexpr void GlobalNamespace::VRCenterAdjust::__cordl_internal_set__settingsApplicator(::UnityW<::GlobalNamespace::SettingsApplicatorSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____settingsApplicator = value;
-}
-inline void GlobalNamespace::VRCenterAdjust::setStaticF__headYawCorrection(float_t value) {
-  ::cordl_internals::setStaticField<float_t, "_headYawCorrection", ::GlobalNamespace::VRCenterAdjust*>(std::forward<float_t>(value));
-}
-inline float_t GlobalNamespace::VRCenterAdjust::getStaticF__headYawCorrection() {
-  return ::cordl_internals::getStaticField<float_t, "_headYawCorrection", ::GlobalNamespace::VRCenterAdjust*>();
 }
 inline void GlobalNamespace::VRCenterAdjust::Start() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRCenterAdjust*>(), { "Start", {}, {} })));

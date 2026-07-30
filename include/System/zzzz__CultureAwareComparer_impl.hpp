@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::CultureAwareComparer::*)(::System::Globalization::CultureInfo*, ::System::Globalization::CompareOptions)>(
     &::System::CultureAwareComparer::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5c5b860;
+  constexpr static std::size_t addrs = 0x5c595cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::CultureAwareComparer::*)(::System::Globalization::CompareInfo*, ::System::Globalization::CompareOptions)>(
     &::System::CultureAwareComparer::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5c5bc78;
+  constexpr static std::size_t addrs = 0x5c599e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::CultureAwareComparer::*)(::System::Runtime::Serialization::SerializationInfo*,
                                                                                                 ::System::Runtime::Serialization::StreamingContext)>(&::System::CultureAwareComparer::_ctor)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x5c5bd50;
+  constexpr static std::size_t addrs = 0x5c59abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::CultureAwareComparer::*)(::StringW, ::StringW)>(&::System::CultureAwareComparer::Compare)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c5bf64;
+  constexpr static std::size_t addrs = 0x5c59cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::CultureAwareComparer::*)(::StringW, ::StringW)>(&::System::CultureAwareComparer::Equals)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5c5bfb0;
+  constexpr static std::size_t addrs = 0x5c59d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::CultureAwareComparer::*)(::StringW)>(&::System::CultureAwareComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5c5c004;
+  constexpr static std::size_t addrs = 0x5c59d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::CultureAwareComparer::*)(::System::Object*)>(&::System::CultureAwareComparer::Equals)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5c5c074;
+  constexpr static std::size_t addrs = 0x5c59de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::CultureAwareComparer::*)()>(&::System::CultureAwareComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5c5c114;
+  constexpr static std::size_t addrs = 0x5c59e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::CultureAwareComparer::*)(::System::Runtime::Serialization::SerializationInfo*,
                                                                                                 ::System::Runtime::Serialization::StreamingContext)>(&::System::CultureAwareComparer::GetObjectData)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5c5c148;
+  constexpr static std::size_t addrs = 0x5c59eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

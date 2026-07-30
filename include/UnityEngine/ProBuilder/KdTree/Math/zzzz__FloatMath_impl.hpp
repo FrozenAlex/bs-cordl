@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(float_t, float_t)>(
     &::UnityEngine::ProBuilder::KdTree::Math::FloatMath::Compare)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x66a4928;
+  constexpr static std::size_t addrs = 0x66a26c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(float_t, float_t)>(&::UnityEngine::ProBuilder::KdTree::Math::FloatMath::AreEqual)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66a4980;
+  constexpr static std::size_t addrs = 0x66a271c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)()>(&::UnityEngine::ProBuilder::KdTree::Math::FloatMath::get_MinValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66a498c;
+  constexpr static std::size_t addrs = 0x66a2728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)()>(&::UnityEngine::ProBuilder::KdTree::Math::FloatMath::get_MaxValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66a4998;
+  constexpr static std::size_t addrs = 0x66a2734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)()>(&::UnityEngine::ProBuilder::KdTree::Math::FloatMath::get_Zero)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a49a4;
+  constexpr static std::size_t addrs = 0x66a2740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)()>(&::UnityEngine::ProBuilder::KdTree::Math::FloatMath::get_NegativeInfinity)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66a49ac;
+  constexpr static std::size_t addrs = 0x66a2748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)()>(&::UnityEngine::ProBuilder::KdTree::Math::FloatMath::get_PositiveInfinity)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66a49b8;
+  constexpr static std::size_t addrs = 0x66a2754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(float_t, float_t)>(&::UnityEngine::ProBuilder::KdTree::Math::FloatMath::Add)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a49c4;
+  constexpr static std::size_t addrs = 0x66a2760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(float_t, float_t)>(
     &::UnityEngine::ProBuilder::KdTree::Math::FloatMath::Subtract)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a49cc;
+  constexpr static std::size_t addrs = 0x66a2768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(float_t, float_t)>(
     &::UnityEngine::ProBuilder::KdTree::Math::FloatMath::Multiply)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a49d4;
+  constexpr static std::size_t addrs = 0x66a2770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(::ArrayW<float_t>, ::ArrayW<float_t>)>(
     &::UnityEngine::ProBuilder::KdTree::Math::FloatMath::DistanceSquaredBetweenPoints)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x66a49dc;
+  constexpr static std::size_t addrs = 0x66a2778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)()>(&::UnityEngine::ProBuilder::KdTree::Math::FloatMath::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x66a4ad4;
+  constexpr static std::size_t addrs = 0x66a2870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::KdTree::Math::FloatMath*>(), { ".ctor", {}, {} })));

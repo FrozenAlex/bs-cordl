@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalCameraHistory_Item::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalCameraHistory_Item::Reset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x68c4498;
+  constexpr static std::size_t addrs = 0x68c2234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalCameraHistory_Item>(), { "Reset", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalCameraHistory::*)(
     ::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate*)>(&::UnityEngine::Rendering::Universal::UniversalCameraHistory::add_OnGatherHistoryRequests)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x68c424c;
+  constexpr static std::size_t addrs = 0x68c1fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalCameraHistory::*)(
     ::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate*)>(&::UnityEngine::Rendering::Universal::UniversalCameraHistory::remove_OnGatherHistoryRequests)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x68c42f8;
+  constexpr static std::size_t addrs = 0x68c2094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalCameraHistory::*)()>(&::UnityEngine::Rendering::Universal::UniversalCameraHistory::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x68c43a4;
+  constexpr static std::size_t addrs = 0x68c2140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalCameraHistory*>(), { ".ctor", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalCameraHistory::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalCameraHistory::Dispose)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68c44c4;
+  constexpr static std::size_t addrs = 0x68c2260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalCameraHistory*>(), { "Dispose", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalCameraHistory::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalCameraHistory::GatherHistoryRequests)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68c4554;
+  constexpr static std::size_t addrs = 0x68c22f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalCameraHistory::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::UniversalCameraHistory::IsValidRequest)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x68c4574;
+  constexpr static std::size_t addrs = 0x68c2310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalCameraHistory::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::UniversalCameraHistory::IsValid)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x68c45b4;
+  constexpr static std::size_t addrs = 0x68c2350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalCameraHistory::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalCameraHistory::ReleaseUnusedHistory)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x68c45f4;
+  constexpr static std::size_t addrs = 0x68c2390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalCameraHistory::*)(int32_t, int32_t)>(
     &::UnityEngine::Rendering::Universal::UniversalCameraHistory::SwapAndSetReferenceSize)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68c46b0;
+  constexpr static std::size_t addrs = 0x68c244c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalCameraHistory*>(),

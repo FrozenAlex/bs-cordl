@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MetaXRFoveationFeature::*)(uint64_t)>(&::Meta::XR::MetaXRFoveationFeature::OnSessionCreate)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5e4e170;
+  constexpr static std::size_t addrs = 0x5e4bedc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRManager_FoveatedRenderingLevel (*)()>(&::Meta::XR::MetaXRFoveationFeature::get_foveatedRenderingLevel)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e4e1c0;
+  constexpr static std::size_t addrs = 0x5e4bf2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXRFoveationFeature*>(), { "get_foveatedRenderingLevel", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OVRManager_FoveatedRenderingLevel)>(&::Meta::XR::MetaXRFoveationFeature::set_foveatedRenderingLevel)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5e4e258;
+  constexpr static std::size_t addrs = 0x5e4bfc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Meta::XR::MetaXRFoveationFeature::get_useDynamicFoveatedRendering)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e4e364;
+  constexpr static std::size_t addrs = 0x5e4c0d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXRFoveationFeature*>(), { "get_useDynamicFoveatedRendering", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::Meta::XR::MetaXRFoveationFeature::set_useDynamicFoveatedRendering)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5e4e388;
+  constexpr static std::size_t addrs = 0x5e4c0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, uint32_t, float_t, uint32_t)>(&::Meta::XR::MetaXRFoveationFeature::FBSetFoveationLevel)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5e4e2c0;
+  constexpr static std::size_t addrs = 0x5e4c02c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint32_t>)>(&::Meta::XR::MetaXRFoveationFeature::FBGetFoveationLevel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5e4e1dc;
+  constexpr static std::size_t addrs = 0x5e4bf48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint32_t>)>(&::Meta::XR::MetaXRFoveationFeature::FBGetFoveationDynamic)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5e4e3e8;
+  constexpr static std::size_t addrs = 0x5e4c154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MetaXRFoveationFeature::*)()>(&::Meta::XR::MetaXRFoveationFeature::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4e464;
+  constexpr static std::size_t addrs = 0x5e4c1d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MetaXRFoveationFeature*>(), { ".ctor", {}, {} })));

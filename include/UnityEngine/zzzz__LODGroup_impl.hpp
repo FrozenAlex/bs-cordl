@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::LODGroup::*)()>(&::UnityEngine::LODGroup::get_localReferencePoint)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6aa3704;
+  constexpr static std::size_t addrs = 0x6a9f050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LODGroup*>(), { "get_localReferencePoint", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::LODGroup::*)()>(&::UnityEngine::LODGroup::get_size)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6aa37e8;
+  constexpr static std::size_t addrs = 0x6a9f134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LODGroup*>(), { "get_size", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::LODGroup::get_localReferencePoint_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6aa37a4;
+  constexpr static std::size_t addrs = 0x6a9f0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::LODGroup::get_size_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6aa3868;
+  constexpr static std::size_t addrs = 0x6a9f1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

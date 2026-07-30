@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Hashtable* (::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)()>(
     &::System::Runtime::Remoting::Messaging::IllogicalCallContext::get_Datastore)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5b3c5c8;
+  constexpr static std::size_t addrs = 0x5b3a40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)()>(
     &::System::Runtime::Remoting::Messaging::IllogicalCallContext::get_HostContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b3c634;
+  constexpr static std::size_t addrs = 0x5b3a478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::IllogicalCallContext::set_HostContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b3c63c;
+  constexpr static std::size_t addrs = 0x5b3a480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)()>(
     &::System::Runtime::Remoting::Messaging::IllogicalCallContext::get_HasUserData)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5b3c644;
+  constexpr static std::size_t addrs = 0x5b3a488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)(::StringW)>(
     &::System::Runtime::Remoting::Messaging::IllogicalCallContext::FreeNamedDataSlot)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5b3c500;
+  constexpr static std::size_t addrs = 0x5b3a344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Messaging::IllogicalCallContext* (::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)()>(
     &::System::Runtime::Remoting::Messaging::IllogicalCallContext::CreateCopy)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x5b3c670;
+  constexpr static std::size_t addrs = 0x5b3a4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)()>(
     &::System::Runtime::Remoting::Messaging::IllogicalCallContext::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b3c8b4;
+  constexpr static std::size_t addrs = 0x5b3a6f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::IllogicalCallContext*>(), { ".ctor", {}, {} })));

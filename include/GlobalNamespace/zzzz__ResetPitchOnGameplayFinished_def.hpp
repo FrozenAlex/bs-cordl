@@ -38,10 +38,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x58bc220, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x58ba6f8, size 0x90, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x58bc2b0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x58ba788, size 0x1c, virtual false, abstract: false, final false
   inline void HandleAnyGameplayLevelDidFinish();
 
   static inline ::GlobalNamespace::ResetPitchOnGameplayFinished* New_ctor(::GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents,
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__gameplayLevelSceneTransitionEvents(::GlobalNamespace::GameplayLevelSceneTransitionEvents* value);
 
-  /// @brief Method .ctor, addr 0x58bc180, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ba658, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents, ::GlobalNamespace::AudioManager* audioManager);
 
   /// @brief Convert to "::System::IDisposable"

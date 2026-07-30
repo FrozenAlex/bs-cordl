@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlNodeList::*)(int32_t)>(&::System::Xml::XmlNodeList::get_ItemOf)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x62c2fec;
+  constexpr static std::size_t addrs = 0x62c0d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlNodeList*>(), { ::i2c::class_of<::System::Xml::XmlNodeList*>(), 9 }));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlNodeList::*)()>(&::System::Xml::XmlNodeList::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x62c2ff8;
+  constexpr static std::size_t addrs = 0x62c0d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlNodeList*>(), { "System.IDisposable.Dispose", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlNodeList::*)()>(&::System::Xml::XmlNodeList::PrivateDisposeNodeList)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62c3004;
+  constexpr static std::size_t addrs = 0x62c0da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlNodeList*>(), { ::i2c::class_of<::System::Xml::XmlNodeList*>(), 10 }));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlNodeList::*)()>(&::System::Xml::XmlNodeList::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62b522c;
+  constexpr static std::size_t addrs = 0x62b2fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlNodeList*>(), { ".ctor", {}, {} })));

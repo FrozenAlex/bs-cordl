@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::get_debugUpdateOffsetsContinuously)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591b5b4;
+  constexpr static std::size_t addrs = 0x5919ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityXRHelper*>(), { "get_debugUpdateOffsetsContinuously", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::get_hasInputFocus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591b5bc;
+  constexpr static std::size_t addrs = 0x5919adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityXRHelper*>(), { "get_hasInputFocus", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::get_hasVrFocus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591b5c4;
+  constexpr static std::size_t addrs = 0x5919ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityXRHelper*>(), { "get_hasVrFocus", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(bool)>(&::GlobalNamespace::UnityXRHelper::set_hasVrFocus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591b5cc;
+  constexpr static std::size_t addrs = 0x5919aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::get_isAlwaysWireless)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591b5d4;
+  constexpr static std::size_t addrs = 0x5919af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityXRHelper*>(), { "get_isAlwaysWireless", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::get_loggerPrefix)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x591b5dc;
+  constexpr static std::size_t addrs = 0x5919afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityXRHelper*>(), { "get_loggerPrefix", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::UnityXRController* (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::get_leftController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591b620;
+  constexpr static std::size_t addrs = 0x5919b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityXRHelper*>(), { "get_leftController", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::UnityXRController* (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::get_rightController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591b628;
+  constexpr static std::size_t addrs = 0x5919b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityXRHelper*>(), { "get_rightController", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::Start)> {
   constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x591b630;
+  constexpr static std::size_t addrs = 0x5919b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityXRHelper*>(), { "Start", {}, {} })));
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::LateUpdate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591bbc8;
+  constexpr static std::size_t addrs = 0x591a0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityXRHelper*>(), { "LateUpdate", {}, {} })));
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::OnDestroy)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x591bbd0;
+  constexpr static std::size_t addrs = 0x591a0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityXRHelper*>(), { "OnDestroy", {}, {} })));
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::GetAnyJoystickMaxAxis)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591be24;
+  constexpr static std::size_t addrs = 0x591a344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityXRHelper*>(), { "GetAnyJoystickMaxAxis", {}, {} })));
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNode)>(&::GlobalNamespace::UnityXRHelper::GetTriggerValue)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x591be2c;
+  constexpr static std::size_t addrs = 0x591a34c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::UnityXRHelper::GetThumbstickValue)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x591bef0;
+  constexpr static std::size_t addrs = 0x591a410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNode)>(&::GlobalNamespace::UnityXRHelper::IsAdvancedHapticsSupported)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x591bfb4;
+  constexpr static std::size_t addrs = 0x591a4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::GetMenuButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591bfc4;
+  constexpr static std::size_t addrs = 0x591a4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityXRHelper*>(), { "GetMenuButton", {}, {} })));
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::GetMenuButtonDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591bfcc;
+  constexpr static std::size_t addrs = 0x591a4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityXRHelper*>(), { "GetMenuButtonDown", {}, {} })));
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNode, float_t, float_t, float_t)>(
     &::GlobalNamespace::UnityXRHelper::TriggerHapticPulse)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x591bfd4;
+  constexpr static std::size_t addrs = 0x591a4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNode)>(&::GlobalNamespace::UnityXRHelper::StopHaptics)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x591c190;
+  constexpr static std::size_t addrs = 0x591a6b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNode, ::by_ref<::UnityEngine::Pose>)>(
     &::GlobalNamespace::UnityXRHelper::TryGetPoseOffsetForNode)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x591c334;
+  constexpr static std::size_t addrs = 0x591a854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNode, int32_t, ::by_ref<::UnityEngine::Vector3>,
                                                                                                   ::by_ref<::UnityEngine::Quaternion>)>(&::GlobalNamespace::UnityXRHelper::GetNodePose)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x591c59c;
+  constexpr static std::size_t addrs = 0x591aabc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::UnityXRHelper::GetRootPositionOffsetForLegacyNodePose)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x591c878;
+  constexpr static std::size_t addrs = 0x591ad98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNode, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>)>(
     &::GlobalNamespace::UnityXRHelper::TryGetLegacyPoseOffsetForNode)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x591cad0;
+  constexpr static std::size_t addrs = 0x591aff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>)>(
     &::GlobalNamespace::UnityXRHelper::ReadHeadPose)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x591c7d8;
+  constexpr static std::size_t addrs = 0x591acf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -342,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNode)>(&::GlobalNamespace::UnityXRHelper::UpdateManufacturerOnNode)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x591ba94;
+  constexpr static std::size_t addrs = 0x5919fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::UnityXRController* (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::UnityXRHelper::GetControllerFromNode)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x591bec4;
+  constexpr static std::size_t addrs = 0x591a3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -369,7 +369,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNodeState)>(&::GlobalNamespace::UnityXRHelper::HandleRemovedXRNode)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x591cd5c;
+  constexpr static std::size_t addrs = 0x591b27c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRInputSubsystem*)>(
     &::GlobalNamespace::UnityXRHelper::HandleTrackingOriginUpdated)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x591cd94;
+  constexpr static std::size_t addrs = 0x591b2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -397,7 +397,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRInputSubsystem*)>(&::GlobalNamespace::UnityXRHelper::HandleBoundaryChanged)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x591ce3c;
+  constexpr static std::size_t addrs = 0x591b35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::GlobalNamespace::UnityXRHelper::HandlePauseGamePerformed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x591cee4;
+  constexpr static std::size_t addrs = 0x591b404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -426,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::GlobalNamespace::UnityXRHelper::HandlePauseGameCancelled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591cef0;
+  constexpr static std::size_t addrs = 0x591b410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -440,7 +440,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNodeState)>(&::GlobalNamespace::UnityXRHelper::HandleNewXRNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591cef8;
+  constexpr static std::size_t addrs = 0x591b418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -453,7 +453,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x591cf00;
+  constexpr static std::size_t addrs = 0x591b420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityXRHelper*>(), { ".ctor", {}, {} })));

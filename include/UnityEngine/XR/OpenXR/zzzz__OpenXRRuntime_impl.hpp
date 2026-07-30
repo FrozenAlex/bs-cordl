@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::get_name)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x69e89ac;
+  constexpr static std::size_t addrs = 0x69e6748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRuntime*>(), { "get_name", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::get_version)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x69e8a38;
+  constexpr static std::size_t addrs = 0x69e67d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRuntime*>(), { "get_version", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::get_apiVersion)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x69e8bd4;
+  constexpr static std::size_t addrs = 0x69e6970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRuntime*>(), { "get_apiVersion", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::get_pluginVersion)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x69e8b48;
+  constexpr static std::size_t addrs = 0x69e68e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRuntime*>(), { "get_pluginVersion", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::isRuntimeAPIVersionGreaterThan1_1)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x69f04a0;
+  constexpr static std::size_t addrs = 0x69ee23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::IsExtensionEnabled)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69f04ec;
+  constexpr static std::size_t addrs = 0x69ee288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::StringW)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::GetExtensionVersion)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69e8f90;
+  constexpr static std::size_t addrs = 0x69e6d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)()>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::GetEnabledExtensions)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x69e8ce4;
+  constexpr static std::size_t addrs = 0x69e6a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRuntime*>(), { "GetEnabledExtensions", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)()>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::GetAvailableExtensions)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x69e8dbc;
+  constexpr static std::size_t addrs = 0x69e6b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRuntime*>(), { "GetAvailableExtensions", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Func_1<bool>*)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::add_wantsToQuit)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x69f084c;
+  constexpr static std::size_t addrs = 0x69ee5e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Func_1<bool>*)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::remove_wantsToQuit)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x69f092c;
+  constexpr static std::size_t addrs = 0x69ee6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Func_1<bool>*)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::add_wantsToRestart)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x69f0a0c;
+  constexpr static std::size_t addrs = 0x69ee7a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Func_1<bool>*)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::remove_wantsToRestart)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x69f0af0;
+  constexpr static std::size_t addrs = 0x69ee88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::get_retryInitializationOnFormFactorErrors)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69f0bd4;
+  constexpr static std::size_t addrs = 0x69ee970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::set_retryInitializationOnFormFactorErrors)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69f0c44;
+  constexpr static std::size_t addrs = 0x69ee9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Func_1<bool>*)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::InvokeEvent)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x69f0cc4;
+  constexpr static std::size_t addrs = 0x69eea60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::ShouldQuit)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x69f0194;
+  constexpr static std::size_t addrs = 0x69edf30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRuntime*>(), { "ShouldQuit", {}, {} })));
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::ShouldRestart)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x69f0148;
+  constexpr static std::size_t addrs = 0x69edee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRuntime*>(), { "ShouldRestart", {}, {} })));
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::System::IntPtr>)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::Internal_GetRuntimeName)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x69f0260;
+  constexpr static std::size_t addrs = 0x69edffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<uint16_t>, ::by_ref<uint16_t>, ::by_ref<uint32_t>)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::Internal_GetRuntimeVersion)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x69f02e4;
+  constexpr static std::size_t addrs = 0x69ee080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<uint16_t>, ::by_ref<uint16_t>, ::by_ref<uint32_t>)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::Internal_GetAPIVersion)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x69f0380;
+  constexpr static std::size_t addrs = 0x69ee11c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::System::IntPtr>)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::Internal_GetPluginVersion)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x69f041c;
+  constexpr static std::size_t addrs = 0x69ee1b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::Internal_IsExtensionEnabled)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x69f04f0;
+  constexpr static std::size_t addrs = 0x69ee28c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::StringW)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::Internal_GetExtensionVersion)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x69f058c;
+  constexpr static std::size_t addrs = 0x69ee328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)()>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::Internal_GetEnabledExtensionCount)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69f0624;
+  constexpr static std::size_t addrs = 0x69ee3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t, ::by_ref<::System::IntPtr>)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::Internal_GetEnabledExtensionNamePtr)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x69f0e7c;
+  constexpr static std::size_t addrs = 0x69eec18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::Internal_SetSoftRestartLoopAtInitialization)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x69f0c48;
+  constexpr static std::size_t addrs = 0x69ee9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -357,7 +357,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::Internal_GetSoftRestartLoopAtInitialization)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69f0bd8;
+  constexpr static std::size_t addrs = 0x69ee974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -370,7 +370,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t, ::by_ref<::StringW>)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::Internal_GetEnabledExtensionName)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x69f0688;
+  constexpr static std::size_t addrs = 0x69ee424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -384,7 +384,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)()>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::Internal_GetAvailableExtensionCount)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69f0738;
+  constexpr static std::size_t addrs = 0x69ee4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -397,7 +397,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t, ::by_ref<::System::IntPtr>)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::Internal_GetAvailableExtensionNamePtr)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x69f0f00;
+  constexpr static std::size_t addrs = 0x69eec9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -411,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t, ::by_ref<::StringW>)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::Internal_GetAvailableExtensionName)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x69f079c;
+  constexpr static std::size_t addrs = 0x69ee538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -425,7 +425,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::System::IntPtr>)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::Internal_GetLastError)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x69f0f84;
+  constexpr static std::size_t addrs = 0x69eed20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -438,7 +438,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::StringW>)>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::GetLastError)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x69f1000;
+  constexpr static std::size_t addrs = 0x69eed9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -451,7 +451,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::OpenXRRuntime::LogLastError)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x69f10a8;
+  constexpr static std::size_t addrs = 0x69eee44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRuntime*>(), { "LogLastError", {}, {} })));

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::XmlSchemaTotalDigitsFacet* New_ctor();
 
-  /// @brief Method .ctor, addr 0x622bef4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6229c90, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -213,37 +213,37 @@ public:
 
   __declspec(property(get = get_String3)) ::StringW String3;
 
-  /// @brief Method InitEvent, addr 0x62896d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitEvent, addr 0x6287470, size 0x8, virtual false, abstract: false, final false
   inline void InitEvent(::System::Xml::XmlEventCache_XmlEventType eventType);
 
-  /// @brief Method InitEvent, addr 0x6289714, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InitEvent, addr 0x62874b0, size 0xc, virtual false, abstract: false, final false
   inline void InitEvent(::System::Xml::XmlEventCache_XmlEventType eventType, ::System::Object* o);
 
-  /// @brief Method InitEvent, addr 0x62896dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InitEvent, addr 0x6287478, size 0xc, virtual false, abstract: false, final false
   inline void InitEvent(::System::Xml::XmlEventCache_XmlEventType eventType, ::StringW s1);
 
-  /// @brief Method InitEvent, addr 0x62896e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InitEvent, addr 0x6287484, size 0xc, virtual false, abstract: false, final false
   inline void InitEvent(::System::Xml::XmlEventCache_XmlEventType eventType, ::StringW s1, ::StringW s2);
 
-  /// @brief Method InitEvent, addr 0x62896f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method InitEvent, addr 0x6287490, size 0x10, virtual false, abstract: false, final false
   inline void InitEvent(::System::Xml::XmlEventCache_XmlEventType eventType, ::StringW s1, ::StringW s2, ::StringW s3);
 
-  /// @brief Method InitEvent, addr 0x6289704, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method InitEvent, addr 0x62874a0, size 0x10, virtual false, abstract: false, final false
   inline void InitEvent(::System::Xml::XmlEventCache_XmlEventType eventType, ::StringW s1, ::StringW s2, ::StringW s3, ::System::Object* o);
 
-  /// @brief Method get_EventType, addr 0x6289720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EventType, addr 0x62874bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlEventCache_XmlEventType get_EventType();
 
-  /// @brief Method get_Object, addr 0x6289740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Object, addr 0x62874dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Object();
 
-  /// @brief Method get_String1, addr 0x6289728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_String1, addr 0x62874c4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_String1();
 
-  /// @brief Method get_String2, addr 0x6289730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_String2, addr 0x62874cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_String2();
 
-  /// @brief Method get_String3, addr 0x6289738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_String3, addr 0x62874d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_String3();
 
   // Ctor Parameters []
@@ -321,120 +321,120 @@ public:
   /// @brief Field singleText, offset 0x40, size 0x38
   __declspec(property(get = __cordl_internal_get_singleText, put = __cordl_internal_set_singleText)) ::System::Xml::Xsl::Runtime::StringConcat singleText;
 
-  /// @brief Method AddEvent, addr 0x61b4078, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AddEvent, addr 0x61b1e14, size 0x48, virtual false, abstract: false, final false
   inline void AddEvent(::System::Xml::XmlEventCache_XmlEventType eventType);
 
-  /// @brief Method AddEvent, addr 0x61b4398, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AddEvent, addr 0x61b2134, size 0x50, virtual false, abstract: false, final false
   inline void AddEvent(::System::Xml::XmlEventCache_XmlEventType eventType, ::System::Object* o);
 
-  /// @brief Method AddEvent, addr 0x61b41e8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AddEvent, addr 0x61b1f84, size 0x50, virtual false, abstract: false, final false
   inline void AddEvent(::System::Xml::XmlEventCache_XmlEventType eventType, ::StringW s1);
 
-  /// @brief Method AddEvent, addr 0x61b4254, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AddEvent, addr 0x61b1ff0, size 0x5c, virtual false, abstract: false, final false
   inline void AddEvent(::System::Xml::XmlEventCache_XmlEventType eventType, ::StringW s1, ::StringW s2);
 
-  /// @brief Method AddEvent, addr 0x61b415c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method AddEvent, addr 0x61b1ef8, size 0x64, virtual false, abstract: false, final false
   inline void AddEvent(::System::Xml::XmlEventCache_XmlEventType eventType, ::StringW s1, ::StringW s2, ::StringW s3);
 
-  /// @brief Method AddEvent, addr 0x61b40d8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method AddEvent, addr 0x61b1e74, size 0x70, virtual false, abstract: false, final false
   inline void AddEvent(::System::Xml::XmlEventCache_XmlEventType eventType, ::StringW s1, ::StringW s2, ::StringW s3, ::System::Object* o);
 
-  /// @brief Method Close, addr 0x61b4588, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x61b2324, size 0x8, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x61b45a8, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x61b2344, size 0xd8, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndEvents, addr 0x61b1404, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method EndEvents, addr 0x61af1a0, size 0x14, virtual false, abstract: false, final false
   inline void EndEvents();
 
-  /// @brief Method EventsToWriter, addr 0x61b1418, size 0x734, virtual false, abstract: false, final false
+  /// @brief Method EventsToWriter, addr 0x61af1b4, size 0x734, virtual false, abstract: false, final false
   inline void EventsToWriter(::System::Xml::XmlWriter* writer);
 
-  /// @brief Method Flush, addr 0x61b4590, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x61b232c, size 0x8, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method NewEvent, addr 0x61b4740, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method NewEvent, addr 0x61b24dc, size 0x20c, virtual false, abstract: false, final false
   inline int32_t NewEvent();
 
   static inline ::System::Xml::XmlEventCache* New_ctor(::StringW baseUri, bool hasRootNode);
 
-  /// @brief Method StartElementContent, addr 0x61b46f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method StartElementContent, addr 0x61b2494, size 0x8, virtual true, abstract: false, final false
   inline void StartElementContent();
 
-  /// @brief Method ToBytes, addr 0x61b44a4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ToBytes, addr 0x61b2240, size 0xb8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> ToBytes(::ArrayW<uint8_t> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteBase64, addr 0x61b4478, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method WriteBase64, addr 0x61b2214, size 0x2c, virtual true, abstract: false, final false
   inline void WriteBase64(::ArrayW<uint8_t> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteBinHex, addr 0x61b455c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method WriteBinHex, addr 0x61b22f8, size 0x2c, virtual true, abstract: false, final false
   inline void WriteBinHex(::ArrayW<uint8_t> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteCData, addr 0x61b41dc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method WriteCData, addr 0x61b1f78, size 0xc, virtual true, abstract: false, final false
   inline void WriteCData(::StringW text);
 
-  /// @brief Method WriteCharEntity, addr 0x61b4360, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method WriteCharEntity, addr 0x61b20fc, size 0x38, virtual true, abstract: false, final false
   inline void WriteCharEntity(char16_t ch);
 
-  /// @brief Method WriteChars, addr 0x61b42e0, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method WriteChars, addr 0x61b207c, size 0x34, virtual true, abstract: false, final false
   inline void WriteChars(::ArrayW<char16_t> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteComment, addr 0x61b4238, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method WriteComment, addr 0x61b1fd4, size 0xc, virtual true, abstract: false, final false
   inline void WriteComment(::StringW text);
 
-  /// @brief Method WriteDocType, addr 0x61b40c0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method WriteDocType, addr 0x61b1e5c, size 0x18, virtual true, abstract: false, final false
   inline void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset);
 
-  /// @brief Method WriteEndAttribute, addr 0x61b41d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method WriteEndAttribute, addr 0x61b1f70, size 0x8, virtual true, abstract: false, final false
   inline void WriteEndAttribute();
 
-  /// @brief Method WriteEndBase64, addr 0x61b4738, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method WriteEndBase64, addr 0x61b24d4, size 0x8, virtual true, abstract: false, final false
   inline void WriteEndBase64();
 
-  /// @brief Method WriteEndElement, addr 0x61b4700, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteEndElement, addr 0x61b249c, size 0x14, virtual true, abstract: false, final false
   inline void WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteEntityRef, addr 0x61b4354, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method WriteEntityRef, addr 0x61b20f0, size 0xc, virtual true, abstract: false, final false
   inline void WriteEntityRef(::StringW name);
 
-  /// @brief Method WriteFullEndElement, addr 0x61b4714, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteFullEndElement, addr 0x61b24b0, size 0x14, virtual true, abstract: false, final false
   inline void WriteFullEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteNamespaceDeclaration, addr 0x61b4728, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method WriteNamespaceDeclaration, addr 0x61b24c4, size 0x10, virtual true, abstract: false, final false
   inline void WriteNamespaceDeclaration(::StringW prefix, ::StringW ns);
 
-  /// @brief Method WriteProcessingInstruction, addr 0x61b4244, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method WriteProcessingInstruction, addr 0x61b1fe0, size 0x10, virtual true, abstract: false, final false
   inline void WriteProcessingInstruction(::StringW name, ::StringW text);
 
-  /// @brief Method WriteRaw, addr 0x61b4314, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method WriteRaw, addr 0x61b20b0, size 0x34, virtual true, abstract: false, final false
   inline void WriteRaw(::ArrayW<char16_t> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteRaw, addr 0x61b4348, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method WriteRaw, addr 0x61b20e4, size 0xc, virtual true, abstract: false, final false
   inline void WriteRaw(::StringW data);
 
-  /// @brief Method WriteStartAttribute, addr 0x61b41c0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteStartAttribute, addr 0x61b1f5c, size 0x14, virtual true, abstract: false, final false
   inline void WriteStartAttribute(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteStartElement, addr 0x61b4148, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteStartElement, addr 0x61b1ee4, size 0x14, virtual true, abstract: false, final false
   inline void WriteStartElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteString, addr 0x61b42bc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteString, addr 0x61b2058, size 0x24, virtual true, abstract: false, final false
   inline void WriteString(::StringW text);
 
-  /// @brief Method WriteSurrogateCharEntity, addr 0x61b43e8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method WriteSurrogateCharEntity, addr 0x61b2184, size 0x90, virtual true, abstract: false, final false
   inline void WriteSurrogateCharEntity(char16_t lowChar, char16_t highChar);
 
-  /// @brief Method WriteValue, addr 0x61b4598, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x61b2334, size 0x10, virtual true, abstract: false, final false
   inline void WriteValue(::StringW value);
 
-  /// @brief Method WriteWhitespace, addr 0x61b42b0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method WriteWhitespace, addr 0x61b204c, size 0xc, virtual true, abstract: false, final false
   inline void WriteWhitespace(::StringW ws);
 
-  /// @brief Method WriteXmlDeclaration, addr 0x61b4680, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlDeclaration, addr 0x61b241c, size 0x6c, virtual true, abstract: false, final false
   inline void WriteXmlDeclaration(::System::Xml::XmlStandalone standalone);
 
-  /// @brief Method WriteXmlDeclaration, addr 0x61b46ec, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlDeclaration, addr 0x61b2488, size 0xc, virtual true, abstract: false, final false
   inline void WriteXmlDeclaration(::StringW xmldecl);
 
   constexpr ::StringW const& __cordl_internal_get_baseUri() const;
@@ -473,7 +473,7 @@ public:
 
   constexpr void __cordl_internal_set_singleText(::System::Xml::Xsl::Runtime::StringConcat value);
 
-  /// @brief Method .ctor, addr 0x61b07bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61ae558, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseUri, bool hasRootNode);
 
 protected:

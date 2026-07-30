@@ -63,10 +63,10 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentShaderWarmupDebugger___c* New_ctor();
 
-  /// @brief Method <Initialize>b__4_0, addr 0x58b155c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__4_0, addr 0x58afa08, size 0x14, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> _Initialize_b__4_0(::UnityEngine::Renderer* renderer);
 
-  /// @brief Method .ctor, addr 0x58b1558, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58afa04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::EnvironmentShaderWarmupDebugger___c* getStaticF___9();
@@ -130,19 +130,19 @@ public:
   /// @brief Convert operator to "::Zenject::ILateTickable"
   constexpr operator ::Zenject::ILateTickable*() noexcept;
 
-  /// @brief Method FullMaterialLookup, addr 0x58b0ec0, size 0x5a0, virtual false, abstract: false, final false
+  /// @brief Method FullMaterialLookup, addr 0x58af36c, size 0x5a0, virtual false, abstract: false, final false
   inline void FullMaterialLookup();
 
-  /// @brief Method GetGameObjectPath, addr 0x58b0d6c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetGameObjectPath, addr 0x58af218, size 0x154, virtual false, abstract: false, final false
   inline ::StringW GetGameObjectPath(::UnityEngine::GameObject* obj);
 
-  /// @brief Method Initialize, addr 0x58b0930, size 0x1a8, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x58aeddc, size 0x1a8, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method JustRenderersAndInitialMaterials, addr 0x58b0adc, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method JustRenderersAndInitialMaterials, addr 0x58aef88, size 0x290, virtual false, abstract: false, final false
   inline void JustRenderersAndInitialMaterials();
 
-  /// @brief Method LateTick, addr 0x58b0ad8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LateTick, addr 0x58aef84, size 0x4, virtual true, abstract: false, final true
   inline void LateTick();
 
   static inline ::GlobalNamespace::EnvironmentShaderWarmupDebugger* New_ctor();
@@ -171,7 +171,7 @@ public:
 
   constexpr void __cordl_internal_set__reusableStringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x58b1460, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58af90c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Zenject::IInitializable"

@@ -52,7 +52,7 @@ namespace System::Xml {
 struct CORDL_TYPE XmlNamespaceManager_NamespaceDeclaration {
 public:
   // Declarations
-  /// @brief Method Set, addr 0x62e0378, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x62de114, size 0xc, virtual false, abstract: false, final false
   inline void Set(::StringW prefix, ::StringW uri, int32_t scopeId, int32_t previousNsIndex);
 
   // Ctor Parameters []
@@ -138,35 +138,35 @@ public:
   /// @brief Convert operator to "::System::Xml::IXmlNamespaceResolver"
   constexpr operator ::System::Xml::IXmlNamespaceResolver*() noexcept;
 
-  /// @brief Method AddNamespace, addr 0x62e04c8, size 0x3d8, virtual true, abstract: false, final false
+  /// @brief Method AddNamespace, addr 0x62de264, size 0x3d8, virtual true, abstract: false, final false
   inline void AddNamespace(::StringW prefix, ::StringW uri);
 
-  /// @brief Method GetEnumerator, addr 0x62e0b68, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x62de904, size 0x1a8, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method GetNamespacesInScope, addr 0x62e0d10, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method GetNamespacesInScope, addr 0x62deaac, size 0x1ec, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* GetNamespacesInScope(::System::Xml::XmlNamespaceScope scope);
 
-  /// @brief Method LookupNamespace, addr 0x62e0efc, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method LookupNamespace, addr 0x62dec98, size 0x4c, virtual true, abstract: false, final false
   inline ::StringW LookupNamespace(::StringW prefix);
 
-  /// @brief Method LookupNamespaceDecl, addr 0x62e08a0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method LookupNamespaceDecl, addr 0x62de63c, size 0x190, virtual false, abstract: false, final false
   inline int32_t LookupNamespaceDecl(::StringW prefix);
 
-  /// @brief Method LookupPrefix, addr 0x62e0f48, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method LookupPrefix, addr 0x62dece4, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW LookupPrefix(::StringW uri);
 
   static inline ::System::Xml::XmlNamespaceManager* New_ctor();
 
   static inline ::System::Xml::XmlNamespaceManager* New_ctor(::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method PopScope, addr 0x62e03d8, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method PopScope, addr 0x62de174, size 0xf0, virtual true, abstract: false, final false
   inline bool PopScope();
 
-  /// @brief Method PushScope, addr 0x62e03c8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method PushScope, addr 0x62de164, size 0x10, virtual true, abstract: false, final false
   inline void PushScope();
 
-  /// @brief Method RemoveNamespace, addr 0x62e0a30, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method RemoveNamespace, addr 0x62de7cc, size 0x138, virtual true, abstract: false, final false
   inline void RemoveNamespace(::StringW prefix, ::StringW uri);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* const& __cordl_internal_get_hashTable() const;
@@ -217,16 +217,16 @@ public:
 
   constexpr void __cordl_internal_set_xmlNs(::StringW value);
 
-  /// @brief Method .ctor, addr 0x62e01bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62ddf58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x62e01c0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62ddf5c, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method get_DefaultNamespace, addr 0x62e038c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_DefaultNamespace, addr 0x62de128, size 0x3c, virtual true, abstract: false, final false
   inline ::StringW get_DefaultNamespace();
 
-  /// @brief Method get_NameTable, addr 0x62e0384, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x62de120, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
   /// @brief Convert to "::System::Collections::IEnumerable"

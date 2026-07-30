@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::InteropServices::OSPlatform (*)()>(&::System::Runtime::InteropServices::OSPlatform::get_Linux)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5b697b0;
+  constexpr static std::size_t addrs = 0x5b675f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::OSPlatform>(), { "get_Linux", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::InteropServices::OSPlatform (*)()>(&::System::Runtime::InteropServices::OSPlatform::get_OSX)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5b6980c;
+  constexpr static std::size_t addrs = 0x5b67650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::OSPlatform>(), { "get_OSX", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::InteropServices::OSPlatform (*)()>(&::System::Runtime::InteropServices::OSPlatform::get_Windows)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5b69868;
+  constexpr static std::size_t addrs = 0x5b676ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::InteropServices::OSPlatform>(), { "get_Windows", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::InteropServices::OSPlatform::*)(::StringW)>(&::System::Runtime::InteropServices::OSPlatform::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5b698c4;
+  constexpr static std::size_t addrs = 0x5b67708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::InteropServices::OSPlatform (*)(::StringW)>(&::System::Runtime::InteropServices::OSPlatform::Create)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5b69978;
+  constexpr static std::size_t addrs = 0x5b677bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::InteropServices::OSPlatform::*)(::System::Runtime::InteropServices::OSPlatform)>(
     &::System::Runtime::InteropServices::OSPlatform::Equals)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5b69994;
+  constexpr static std::size_t addrs = 0x5b677d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::InteropServices::OSPlatform::*)(::StringW)>(&::System::Runtime::InteropServices::OSPlatform::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5b69a04;
+  constexpr static std::size_t addrs = 0x5b67848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::InteropServices::OSPlatform::*)(::System::Object*)>(&::System::Runtime::InteropServices::OSPlatform::Equals)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5b69a14;
+  constexpr static std::size_t addrs = 0x5b67858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::InteropServices::OSPlatform::*)()>(&::System::Runtime::InteropServices::OSPlatform::GetHashCode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5b69ac8;
+  constexpr static std::size_t addrs = 0x5b6790c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::InteropServices::OSPlatform::*)()>(&::System::Runtime::InteropServices::OSPlatform::ToString)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5b69ae0;
+  constexpr static std::size_t addrs = 0x5b67924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Runtime::InteropServices::OSPlatform, ::System::Runtime::InteropServices::OSPlatform)>(
     &::System::Runtime::InteropServices::OSPlatform::op_Equality)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5b69b00;
+  constexpr static std::size_t addrs = 0x5b67944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

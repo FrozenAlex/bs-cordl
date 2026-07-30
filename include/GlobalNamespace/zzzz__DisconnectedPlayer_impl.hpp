@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::DisconnectedPlayer::*)()>(&::GlobalNamespace::DisconnectedPlayer::get_offsetSyncTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x332d610;
+  constexpr static std::size_t addrs = 0x332bbd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectedPlayer*>(), { "get_offsetSyncTime", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DisconnectedPlayer::*)()>(&::GlobalNamespace::DisconnectedPlayer::get_isFailed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x332d618;
+  constexpr static std::size_t addrs = 0x332bbe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectedPlayer*>(), { "get_isFailed", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DisconnectedPlayer::*)()>(&::GlobalNamespace::DisconnectedPlayer::get_isMe)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x332d620;
+  constexpr static std::size_t addrs = 0x332bbe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectedPlayer*>(), { "get_isMe", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::DisconnectedPlayer::*)()>(&::GlobalNamespace::DisconnectedPlayer::get_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x332d628;
+  constexpr static std::size_t addrs = 0x332bbf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectedPlayer*>(), { "get_userId", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectedPlayer::*)(::StringW)>(&::GlobalNamespace::DisconnectedPlayer::set_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x332d630;
+  constexpr static std::size_t addrs = 0x332bbf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::DisconnectedPlayer::*)()>(&::GlobalNamespace::DisconnectedPlayer::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x332d638;
+  constexpr static std::size_t addrs = 0x332bc00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectedPlayer*>(), { "get_userName", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectedPlayer::*)(::StringW)>(&::GlobalNamespace::DisconnectedPlayer::set_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x332d640;
+  constexpr static std::size_t addrs = 0x332bc08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DisconnectedPlayer::*)()>(&::GlobalNamespace::DisconnectedPlayer::get_hasValidLatency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x332d648;
+  constexpr static std::size_t addrs = 0x332bc10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectedPlayer*>(), { "get_hasValidLatency", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::DisconnectedPlayer::*)()>(&::GlobalNamespace::DisconnectedPlayer::get_currentLatency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x332d650;
+  constexpr static std::size_t addrs = 0x332bc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectedPlayer*>(), { "get_currentLatency", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DisconnectedPlayer::*)()>(&::GlobalNamespace::DisconnectedPlayer::get_isConnected)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x332d658;
+  constexpr static std::size_t addrs = 0x332bc20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectedPlayer*>(), { "get_isConnected", {}, {} })));
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DisconnectedReason (::GlobalNamespace::DisconnectedPlayer::*)()>(
     &::GlobalNamespace::DisconnectedPlayer::get_disconnectedReason)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x332d660;
+  constexpr static std::size_t addrs = 0x332bc28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectedPlayer*>(), { "get_disconnectedReason", {}, {} })));
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::DisconnectedPlayer::*)()>(&::GlobalNamespace::DisconnectedPlayer::get_compatibilityVersion)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x332d668;
+  constexpr static std::size_t addrs = 0x332bc30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectedPlayer*>(), { "get_compatibilityVersion", {}, {} })));
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DisconnectedPlayer::*)()>(&::GlobalNamespace::DisconnectedPlayer::get_isConnectionOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x332d6ac;
+  constexpr static std::size_t addrs = 0x332bc74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectedPlayer*>(), { "get_isConnectionOwner", {}, {} })));
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::DisconnectedPlayer::*)()>(&::GlobalNamespace::DisconnectedPlayer::get_sortIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x332d6b4;
+  constexpr static std::size_t addrs = 0x332bc7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectedPlayer*>(), { "get_sortIndex", {}, {} })));
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DisconnectedPlayer::*)()>(&::GlobalNamespace::DisconnectedPlayer::get_isKicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x332d6bc;
+  constexpr static std::size_t addrs = 0x332bc84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectedPlayer*>(), { "get_isKicked", {}, {} })));
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DisconnectedPlayer::*)(::StringW)>(&::GlobalNamespace::DisconnectedPlayer::HasState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x332d6c4;
+  constexpr static std::size_t addrs = 0x332bc8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectedPlayer::*)(::StringW, ::StringW, int32_t)>(&::GlobalNamespace::DisconnectedPlayer::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x332d6cc;
+  constexpr static std::size_t addrs = 0x332bc94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectedPlayer*>(),

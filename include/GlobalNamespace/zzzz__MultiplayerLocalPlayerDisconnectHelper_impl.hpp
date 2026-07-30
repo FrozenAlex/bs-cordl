@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState, ::GlobalNamespace::LevelCompletionResults*)>(
     &::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::Disconnect)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x59c10ac;
+  constexpr static std::size_t addrs = 0x59bf71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*>(),
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::*)()>(
     &::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::ResolveDisconnectButtonString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x59c32e4;
+  constexpr static std::size_t addrs = 0x59c1954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::*)()>(&::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59c3364;
+  constexpr static std::size_t addrs = 0x59c19d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*>(), { ".ctor", {}, {} })));

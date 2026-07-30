@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CommandBufferGOCore::*)()>(&::GlobalNamespace::CommandBufferGOCore::OnEnable)> {
   constexpr static std::size_t size = 0x408;
-  constexpr static std::size_t addrs = 0x5f3f234;
+  constexpr static std::size_t addrs = 0x5f3d12c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CommandBufferGOCore*>(), { "OnEnable", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CommandBufferGOCore::*)()>(&::GlobalNamespace::CommandBufferGOCore::OnDisable)> {
   constexpr static std::size_t size = 0x448;
-  constexpr static std::size_t addrs = 0x5f3f63c;
+  constexpr static std::size_t addrs = 0x5f3d534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CommandBufferGOCore*>(), { "OnDisable", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CommandBufferGOCore::*)()>(&::GlobalNamespace::CommandBufferGOCore::OnWillRenderObject)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x5f3fb44;
+  constexpr static std::size_t addrs = 0x5f3da3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CommandBufferGOCore::*)()>(&::GlobalNamespace::CommandBufferGOCore::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f3edd4;
+  constexpr static std::size_t addrs = 0x5f3cccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CommandBufferGOCore*>(), { ".ctor", {}, {} })));

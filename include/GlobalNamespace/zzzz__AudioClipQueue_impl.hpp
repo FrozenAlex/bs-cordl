@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioClipQueue_AudioClipWithDelay::*)(::UnityEngine::AudioClip*, float_t)>(
     &::GlobalNamespace::AudioClipQueue_AudioClipWithDelay::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58b691c;
+  constexpr static std::size_t addrs = 0x58b4dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioClipQueue_AudioClipWithDelay*>(),
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioClipQueue::*)()>(&::GlobalNamespace::AudioClipQueue::Awake)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58b65d8;
+  constexpr static std::size_t addrs = 0x58b4a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioClipQueue*>(), { "Awake", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioClipQueue::*)()>(&::GlobalNamespace::AudioClipQueue::Update)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x58b65f4;
+  constexpr static std::size_t addrs = 0x58b4aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioClipQueue*>(), { "Update", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioClipQueue::*)(::UnityEngine::AudioClip*, float_t)>(&::GlobalNamespace::AudioClipQueue::PlayAudioClipWithDelay)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x58b682c;
+  constexpr static std::size_t addrs = 0x58b4cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioClipQueue::*)()>(&::GlobalNamespace::AudioClipQueue::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x58b6928;
+  constexpr static std::size_t addrs = 0x58b4dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioClipQueue*>(), { ".ctor", {}, {} })));

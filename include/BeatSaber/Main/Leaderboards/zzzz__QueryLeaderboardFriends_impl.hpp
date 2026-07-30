@@ -10,18 +10,19 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends::*)(
-    ::StringW, ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::GameplayModifierMask, int64_t, ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder*)>(
+    ::StringW, ::StringW, ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::GameplayModifierMask, int64_t, ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder*)>(
     &::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends::_ctor)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x32a1b9c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x329f428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends*>(),
-                                                { ".ctor",
-                                                  {},
-                                                  { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::BeatmapKey>(), ::i2c::type_of<::GlobalNamespace::GameplayModifierMask>(),
-                                                    ::i2c::type_of<int64_t>(), ::i2c::type_of<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder*>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends*>(),
+                            { ".ctor",
+                              {},
+                              { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::BeatmapKey>(), ::i2c::type_of<::GlobalNamespace::GameplayModifierMask>(),
+                                ::i2c::type_of<int64_t>(), ::i2c::type_of<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder*>() } })));
     return ___internal_method;
   }
 };
@@ -29,19 +30,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardFriends* (*)(::StringW, ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::GameplayModifierMask, int64_t,
+    static_cast<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardFriends* (*)(::StringW, ::StringW, ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::GameplayModifierMask, int64_t,
                                                                                ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder*)>(
         &::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends::CreateQuery)> {
-  constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x32a48d0;
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x32a2234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends*>(),
-                                                { "CreateQuery",
-                                                  {},
-                                                  { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::BeatmapKey>(), ::i2c::type_of<::GlobalNamespace::GameplayModifierMask>(),
-                                                    ::i2c::type_of<int64_t>(), ::i2c::type_of<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder*>() } })));
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends*>(),
+                            { "CreateQuery",
+                              {},
+                              { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::BeatmapKey>(), ::i2c::type_of<::GlobalNamespace::GameplayModifierMask>(),
+                                ::i2c::type_of<int64_t>(), ::i2c::type_of<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder*>() } })));
     return ___internal_method;
   }
 };
@@ -53,31 +55,35 @@ inline ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEnt
   return ::cordl_internals::getStaticField<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder*, "kDefaultOrder",
                                            ::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends*>();
 }
-inline void BeatSaber::Main::Leaderboards::QueryLeaderboardFriends::_ctor(::StringW userId, ::GlobalNamespace::BeatmapKey key, ::GlobalNamespace::GameplayModifierMask modifiers, int64_t amountEntries,
+inline void BeatSaber::Main::Leaderboards::QueryLeaderboardFriends::_ctor(::StringW userId, ::StringW environmentPlayerRootId, ::GlobalNamespace::BeatmapKey key,
+                                                                          ::GlobalNamespace::GameplayModifierMask modifiers, int64_t amountEntries,
                                                                           ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* order) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends*>(),
-                                                           { ".ctor",
-                                                             {},
-                                                             { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::BeatmapKey>(), ::i2c::type_of<::GlobalNamespace::GameplayModifierMask>(),
-                                                               ::i2c::type_of<int64_t>(), ::i2c::type_of<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, userId, key, modifiers, amountEntries, order);
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends*>(),
+                                                                                         { ".ctor",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::BeatmapKey>(),
+                                                                                             ::i2c::type_of<::GlobalNamespace::GameplayModifierMask>(), ::i2c::type_of<int64_t>(),
+                                                                                             ::i2c::type_of<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, userId, environmentPlayerRootId, key, modifiers, amountEntries, order);
 }
 inline ::BeatSaber::Main::GraphQL::Queries::BSLeaderboardFriends*
-BeatSaber::Main::Leaderboards::QueryLeaderboardFriends::CreateQuery(::StringW userId, ::GlobalNamespace::BeatmapKey key, ::GlobalNamespace::GameplayModifierMask modifiers, int64_t amountEntries,
+BeatSaber::Main::Leaderboards::QueryLeaderboardFriends::CreateQuery(::StringW userId, ::StringW environmentPlayerRootId, ::GlobalNamespace::BeatmapKey key,
+                                                                    ::GlobalNamespace::GameplayModifierMask modifiers, int64_t amountEntries,
                                                                     ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* order) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends*>(),
-                                                           { "CreateQuery",
-                                                             {},
-                                                             { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::BeatmapKey>(), ::i2c::type_of<::GlobalNamespace::GameplayModifierMask>(),
-                                                               ::i2c::type_of<int64_t>(), ::i2c::type_of<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder*>() } })));
-  return ::cordl_internals::RunMethodRethrow<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardFriends*>(nullptr, ___internal_method, userId, key, modifiers, amountEntries, order);
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends*>(),
+                                                                                         { "CreateQuery",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::StringW>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::BeatmapKey>(),
+                                                                                             ::i2c::type_of<::GlobalNamespace::GameplayModifierMask>(), ::i2c::type_of<int64_t>(),
+                                                                                             ::i2c::type_of<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardFriends*>(nullptr, ___internal_method, userId, environmentPlayerRootId, key, modifiers, amountEntries,
+                                                                                                         order);
 }
 inline ::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends*
-BeatSaber::Main::Leaderboards::QueryLeaderboardFriends::New_ctor(::StringW userId, ::GlobalNamespace::BeatmapKey key, ::GlobalNamespace::GameplayModifierMask modifiers, int64_t amountEntries,
+BeatSaber::Main::Leaderboards::QueryLeaderboardFriends::New_ctor(::StringW userId, ::StringW environmentPlayerRootId, ::GlobalNamespace::BeatmapKey key,
+                                                                 ::GlobalNamespace::GameplayModifierMask modifiers, int64_t amountEntries,
                                                                  ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* order) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends*>(userId, key, modifiers, amountEntries, order));
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends*>(userId, environmentPlayerRootId, key, modifiers, amountEntries, order));
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::Main::Leaderboards::QueryLeaderboardFriends::QueryLeaderboardFriends() {}

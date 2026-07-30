@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::LightData::*)(::UnityEngine::Rendering::ContextContainer*)>(
     &::UnityEngine::Rendering::Universal::LightData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68de130;
+  constexpr static std::size_t addrs = 0x68dbecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::UniversalLightData* (::UnityEngine::Rendering::Universal::LightData::*)()>(
     &::UnityEngine::Rendering::Universal::LightData::get_universalLightData)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x68de138;
+  constexpr static std::size_t addrs = 0x68dbed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LightData>(), { "get_universalLightData", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<int32_t> (::UnityEngine::Rendering::Universal::LightData::*)()>(&::UnityEngine::Rendering::Universal::LightData::get_mainLightIndex)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68de18c;
+  constexpr static std::size_t addrs = 0x68dbf28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LightData>(), { "get_mainLightIndex", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<int32_t> (::UnityEngine::Rendering::Universal::LightData::*)()>(
     &::UnityEngine::Rendering::Universal::LightData::get_additionalLightsCount)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68de1ec;
+  constexpr static std::size_t addrs = 0x68dbf88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<int32_t> (::UnityEngine::Rendering::Universal::LightData::*)()>(
     &::UnityEngine::Rendering::Universal::LightData::get_maxPerObjectAdditionalLightsCount)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68de24c;
+  constexpr static std::size_t addrs = 0x68dbfe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>> (::UnityEngine::Rendering::Universal::LightData::*)()>(
     &::UnityEngine::Rendering::Universal::LightData::get_visibleLights)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68de2ac;
+  constexpr static std::size_t addrs = 0x68dc048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LightData>(), { "get_visibleLights", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<bool> (::UnityEngine::Rendering::Universal::LightData::*)()>(
     &::UnityEngine::Rendering::Universal::LightData::get_shadeAdditionalLightsPerVertex)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68de30c;
+  constexpr static std::size_t addrs = 0x68dc0a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<bool> (::UnityEngine::Rendering::Universal::LightData::*)()>(
     &::UnityEngine::Rendering::Universal::LightData::get_supportsMixedLighting)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68de36c;
+  constexpr static std::size_t addrs = 0x68dc108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<bool> (::UnityEngine::Rendering::Universal::LightData::*)()>(
     &::UnityEngine::Rendering::Universal::LightData::get_reflectionProbeBoxProjection)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68de3cc;
+  constexpr static std::size_t addrs = 0x68dc168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<bool> (::UnityEngine::Rendering::Universal::LightData::*)()>(
     &::UnityEngine::Rendering::Universal::LightData::get_reflectionProbeBlending)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68de42c;
+  constexpr static std::size_t addrs = 0x68dc1c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<bool> (::UnityEngine::Rendering::Universal::LightData::*)()>(
     &::UnityEngine::Rendering::Universal::LightData::get_supportsLightLayers)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68de48c;
+  constexpr static std::size_t addrs = 0x68dc228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LightData>(), { "get_supportsLightLayers", {}, {} })));
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<bool> (::UnityEngine::Rendering::Universal::LightData::*)()>(
     &::UnityEngine::Rendering::Universal::LightData::get_supportsAdditionalLights)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68de4ec;
+  constexpr static std::size_t addrs = 0x68dc288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

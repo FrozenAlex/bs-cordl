@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3_DebuggerProxy::*)(::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3_DebuggerProxy::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b854;
+  constexpr static std::size_t addrs = 0x66595f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(int32_t, int32_t, int32_t)>(&::Unity::Mathematics::int3::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665a49c;
+  constexpr static std::size_t addrs = 0x6658238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(int32_t, ::Unity::Mathematics::int2)>(&::Unity::Mathematics::int3::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665a4a8;
+  constexpr static std::size_t addrs = 0x6658244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(::Unity::Mathematics::int2, int32_t)>(&::Unity::Mathematics::int3::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665a4b8;
+  constexpr static std::size_t addrs = 0x6658254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665a4c8;
+  constexpr static std::size_t addrs = 0x6658264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(int32_t)>(&::Unity::Mathematics::int3::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665a4d8;
+  constexpr static std::size_t addrs = 0x6658274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(bool)>(&::Unity::Mathematics::int3::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665a4e4;
+  constexpr static std::size_t addrs = 0x6658280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { ".ctor", {}, { ::i2c::type_of<bool>() } })));
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(::Unity::Mathematics::bool3)>(&::Unity::Mathematics::int3::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x665a4f4;
+  constexpr static std::size_t addrs = 0x6658290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(uint32_t)>(&::Unity::Mathematics::int3::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665a51c;
+  constexpr static std::size_t addrs = 0x66582b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { ".ctor", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(::Unity::Mathematics::uint3)>(&::Unity::Mathematics::int3::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665a528;
+  constexpr static std::size_t addrs = 0x66582c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(float_t)>(&::Unity::Mathematics::int3::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x665a538;
+  constexpr static std::size_t addrs = 0x66582d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { ".ctor", {}, { ::i2c::type_of<float_t>() } })));
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(::Unity::Mathematics::float3)>(&::Unity::Mathematics::int3::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x665a55c;
+  constexpr static std::size_t addrs = 0x66582f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(double_t)>(&::Unity::Mathematics::int3::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x665a598;
+  constexpr static std::size_t addrs = 0x6658334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { ".ctor", {}, { ::i2c::type_of<double_t>() } })));
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(::Unity::Mathematics::double3)>(&::Unity::Mathematics::int3::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x665a5bc;
+  constexpr static std::size_t addrs = 0x6658358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(int32_t)>(&::Unity::Mathematics::int3::op_Implicit___Unity__Mathematics__int3)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665a600;
+  constexpr static std::size_t addrs = 0x665839c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "op_Implicit", {}, { ::i2c::type_of<int32_t>() } })));
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(bool)>(&::Unity::Mathematics::int3::op_Explicit___Unity__Mathematics__int3)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x665a60c;
+  constexpr static std::size_t addrs = 0x66583a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "op_Explicit", {}, { ::i2c::type_of<bool>() } })));
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::bool3)>(&::Unity::Mathematics::int3::op_Explicit___Unity__Mathematics__int3)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x665a628;
+  constexpr static std::size_t addrs = 0x66583c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(uint32_t)>(&::Unity::Mathematics::int3::op_Explicit___Unity__Mathematics__int3)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665a640;
+  constexpr static std::size_t addrs = 0x66583dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "op_Explicit", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::uint3)>(&::Unity::Mathematics::int3::op_Explicit___Unity__Mathematics__int3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x665a64c;
+  constexpr static std::size_t addrs = 0x66583e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(float_t)>(&::Unity::Mathematics::int3::op_Explicit___Unity__Mathematics__int3)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x665a654;
+  constexpr static std::size_t addrs = 0x66583f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "op_Explicit", {}, { ::i2c::type_of<float_t>() } })));
@@ -315,7 +315,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::float3)>(&::Unity::Mathematics::int3::op_Explicit___Unity__Mathematics__int3)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x665a674;
+  constexpr static std::size_t addrs = 0x6658410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(double_t)>(&::Unity::Mathematics::int3::op_Explicit___Unity__Mathematics__int3)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x665a6b4;
+  constexpr static std::size_t addrs = 0x6658450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "op_Explicit", {}, { ::i2c::type_of<double_t>() } })));
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::double3)>(&::Unity::Mathematics::int3::op_Explicit___Unity__Mathematics__int3)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x665a6d4;
+  constexpr static std::size_t addrs = 0x6658470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -353,7 +353,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_Multiply)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x665a714;
+  constexpr static std::size_t addrs = 0x66584b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3, int32_t)>(&::Unity::Mathematics::int3::op_Multiply)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x665a730;
+  constexpr static std::size_t addrs = 0x66584cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -380,7 +380,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(int32_t, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_Multiply)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x665a748;
+  constexpr static std::size_t addrs = 0x66584e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -393,7 +393,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_Addition)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x665a760;
+  constexpr static std::size_t addrs = 0x66584fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -407,7 +407,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3, int32_t)>(&::Unity::Mathematics::int3::op_Addition)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x665a77c;
+  constexpr static std::size_t addrs = 0x6658518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -420,7 +420,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(int32_t, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_Addition)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x665a794;
+  constexpr static std::size_t addrs = 0x6658530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -433,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_Subtraction)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x665a7b0;
+  constexpr static std::size_t addrs = 0x665854c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -447,7 +447,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3, int32_t)>(&::Unity::Mathematics::int3::op_Subtraction)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x665a7cc;
+  constexpr static std::size_t addrs = 0x6658568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -460,7 +460,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(int32_t, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_Subtraction)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x665a7e4;
+  constexpr static std::size_t addrs = 0x6658580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -473,7 +473,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_Division)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x665a800;
+  constexpr static std::size_t addrs = 0x665859c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -487,7 +487,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3, int32_t)>(&::Unity::Mathematics::int3::op_Division)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x665a81c;
+  constexpr static std::size_t addrs = 0x66585b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -500,7 +500,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(int32_t, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_Division)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x665a834;
+  constexpr static std::size_t addrs = 0x66585d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -513,7 +513,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_Modulus)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x665a84c;
+  constexpr static std::size_t addrs = 0x66585e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -527,7 +527,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3, int32_t)>(&::Unity::Mathematics::int3::op_Modulus)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x665a874;
+  constexpr static std::size_t addrs = 0x6658610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -540,7 +540,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(int32_t, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_Modulus)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x665a898;
+  constexpr static std::size_t addrs = 0x6658634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -553,7 +553,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_Increment)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x665a8bc;
+  constexpr static std::size_t addrs = 0x6658658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -566,7 +566,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_Decrement)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x665a8d8;
+  constexpr static std::size_t addrs = 0x6658674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -579,7 +579,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool3 (*)(::Unity::Mathematics::int3, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_LessThan)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x665a8f4;
+  constexpr static std::size_t addrs = 0x6658690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -593,7 +593,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool3 (*)(::Unity::Mathematics::int3, int32_t)>(&::Unity::Mathematics::int3::op_LessThan)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x665a920;
+  constexpr static std::size_t addrs = 0x66586bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -606,7 +606,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool3 (*)(int32_t, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_LessThan)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x665a948;
+  constexpr static std::size_t addrs = 0x66586e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -619,7 +619,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool3 (*)(::Unity::Mathematics::int3, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_LessThanOrEqual)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x665a970;
+  constexpr static std::size_t addrs = 0x665870c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -633,7 +633,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool3 (*)(::Unity::Mathematics::int3, int32_t)>(&::Unity::Mathematics::int3::op_LessThanOrEqual)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x665a99c;
+  constexpr static std::size_t addrs = 0x6658738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -647,7 +647,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool3 (*)(int32_t, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_LessThanOrEqual)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x665a9c4;
+  constexpr static std::size_t addrs = 0x6658760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -661,7 +661,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool3 (*)(::Unity::Mathematics::int3, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_GreaterThan)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x665a9ec;
+  constexpr static std::size_t addrs = 0x6658788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -675,7 +675,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool3 (*)(::Unity::Mathematics::int3, int32_t)>(&::Unity::Mathematics::int3::op_GreaterThan)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x665aa18;
+  constexpr static std::size_t addrs = 0x66587b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -688,7 +688,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool3 (*)(int32_t, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_GreaterThan)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x665aa40;
+  constexpr static std::size_t addrs = 0x66587dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -701,7 +701,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool3 (*)(::Unity::Mathematics::int3, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_GreaterThanOrEqual)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x665aa68;
+  constexpr static std::size_t addrs = 0x6658804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -715,7 +715,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool3 (*)(::Unity::Mathematics::int3, int32_t)>(&::Unity::Mathematics::int3::op_GreaterThanOrEqual)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x665aa94;
+  constexpr static std::size_t addrs = 0x6658830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -729,7 +729,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool3 (*)(int32_t, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_GreaterThanOrEqual)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x665aabc;
+  constexpr static std::size_t addrs = 0x6658858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -743,7 +743,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_UnaryNegation)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665aae4;
+  constexpr static std::size_t addrs = 0x6658880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -756,7 +756,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_UnaryPlus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x665aaf8;
+  constexpr static std::size_t addrs = 0x6658894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -769,7 +769,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3, int32_t)>(&::Unity::Mathematics::int3::op_LeftShift)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x665ab00;
+  constexpr static std::size_t addrs = 0x665889c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -782,7 +782,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3, int32_t)>(&::Unity::Mathematics::int3::op_RightShift)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x665ab18;
+  constexpr static std::size_t addrs = 0x66588b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -795,7 +795,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool3 (*)(::Unity::Mathematics::int3, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_Equality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x665ab30;
+  constexpr static std::size_t addrs = 0x66588cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -809,7 +809,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool3 (*)(::Unity::Mathematics::int3, int32_t)>(&::Unity::Mathematics::int3::op_Equality)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x665ab60;
+  constexpr static std::size_t addrs = 0x66588fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -822,7 +822,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool3 (*)(int32_t, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_Equality)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x665ab88;
+  constexpr static std::size_t addrs = 0x6658924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -835,7 +835,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool3 (*)(::Unity::Mathematics::int3, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_Inequality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x665abb0;
+  constexpr static std::size_t addrs = 0x665894c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -849,7 +849,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool3 (*)(::Unity::Mathematics::int3, int32_t)>(&::Unity::Mathematics::int3::op_Inequality)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x665abe0;
+  constexpr static std::size_t addrs = 0x665897c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -862,7 +862,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool3 (*)(int32_t, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_Inequality)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x665ac08;
+  constexpr static std::size_t addrs = 0x66589a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -875,7 +875,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_OnesComplement)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665ac30;
+  constexpr static std::size_t addrs = 0x66589cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -888,7 +888,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_BitwiseAnd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665ac3c;
+  constexpr static std::size_t addrs = 0x66589d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -902,7 +902,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3, int32_t)>(&::Unity::Mathematics::int3::op_BitwiseAnd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x665ac48;
+  constexpr static std::size_t addrs = 0x66589e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -915,7 +915,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(int32_t, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_BitwiseAnd)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x665ac60;
+  constexpr static std::size_t addrs = 0x66589fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -928,7 +928,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_BitwiseOr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665ac7c;
+  constexpr static std::size_t addrs = 0x6658a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -942,7 +942,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3, int32_t)>(&::Unity::Mathematics::int3::op_BitwiseOr)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x665ac88;
+  constexpr static std::size_t addrs = 0x6658a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -955,7 +955,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(int32_t, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_BitwiseOr)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x665aca0;
+  constexpr static std::size_t addrs = 0x6658a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -968,7 +968,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_ExclusiveOr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665acbc;
+  constexpr static std::size_t addrs = 0x6658a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -982,7 +982,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(::Unity::Mathematics::int3, int32_t)>(&::Unity::Mathematics::int3::op_ExclusiveOr)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x665acc8;
+  constexpr static std::size_t addrs = 0x6658a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -995,7 +995,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (*)(int32_t, ::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::op_ExclusiveOr)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x665ace0;
+  constexpr static std::size_t addrs = 0x6658a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1008,7 +1008,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xxxx)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665acfc;
+  constexpr static std::size_t addrs = 0x6658a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xxxx", {}, {} })));
@@ -1020,7 +1020,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xxxy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665ad0c;
+  constexpr static std::size_t addrs = 0x6658aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xxxy", {}, {} })));
@@ -1032,7 +1032,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xxxz)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665ad1c;
+  constexpr static std::size_t addrs = 0x6658ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xxxz", {}, {} })));
@@ -1044,7 +1044,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xxyx)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665ad30;
+  constexpr static std::size_t addrs = 0x6658acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xxyx", {}, {} })));
@@ -1056,7 +1056,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xxyy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x665ad40;
+  constexpr static std::size_t addrs = 0x6658adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xxyy", {}, {} })));
@@ -1068,7 +1068,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xxyz)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665ad5c;
+  constexpr static std::size_t addrs = 0x6658af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xxyz", {}, {} })));
@@ -1080,7 +1080,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xxzx)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665ad6c;
+  constexpr static std::size_t addrs = 0x6658b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xxzx", {}, {} })));
@@ -1092,7 +1092,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xxzy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665ad80;
+  constexpr static std::size_t addrs = 0x6658b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xxzy", {}, {} })));
@@ -1104,7 +1104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xxzz)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665ad94;
+  constexpr static std::size_t addrs = 0x6658b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xxzz", {}, {} })));
@@ -1116,7 +1116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xyxx)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665ada8;
+  constexpr static std::size_t addrs = 0x6658b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xyxx", {}, {} })));
@@ -1128,7 +1128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xyxy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665adb8;
+  constexpr static std::size_t addrs = 0x6658b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xyxy", {}, {} })));
@@ -1140,7 +1140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xyxz)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665adc4;
+  constexpr static std::size_t addrs = 0x6658b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xyxz", {}, {} })));
@@ -1152,7 +1152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xyyx)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665add8;
+  constexpr static std::size_t addrs = 0x6658b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xyyx", {}, {} })));
@@ -1164,7 +1164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xyyy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665ade8;
+  constexpr static std::size_t addrs = 0x6658b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xyyy", {}, {} })));
@@ -1176,7 +1176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xyyz)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665adf8;
+  constexpr static std::size_t addrs = 0x6658b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xyyz", {}, {} })));
@@ -1188,7 +1188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xyzx)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665ae0c;
+  constexpr static std::size_t addrs = 0x6658ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xyzx", {}, {} })));
@@ -1200,7 +1200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xyzy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665ae20;
+  constexpr static std::size_t addrs = 0x6658bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xyzy", {}, {} })));
@@ -1212,7 +1212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xyzz)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665ae34;
+  constexpr static std::size_t addrs = 0x6658bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xyzz", {}, {} })));
@@ -1224,7 +1224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xzxx)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665ae44;
+  constexpr static std::size_t addrs = 0x6658be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xzxx", {}, {} })));
@@ -1236,7 +1236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xzxy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665ae58;
+  constexpr static std::size_t addrs = 0x6658bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xzxy", {}, {} })));
@@ -1248,7 +1248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xzxz)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665ae6c;
+  constexpr static std::size_t addrs = 0x6658c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xzxz", {}, {} })));
@@ -1260,7 +1260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xzyx)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665ae80;
+  constexpr static std::size_t addrs = 0x6658c1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xzyx", {}, {} })));
@@ -1272,7 +1272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xzyy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665ae94;
+  constexpr static std::size_t addrs = 0x6658c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xzyy", {}, {} })));
@@ -1284,7 +1284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xzyz)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665aea8;
+  constexpr static std::size_t addrs = 0x6658c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xzyz", {}, {} })));
@@ -1296,7 +1296,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xzzx)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665aebc;
+  constexpr static std::size_t addrs = 0x6658c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xzzx", {}, {} })));
@@ -1308,7 +1308,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xzzy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665aed0;
+  constexpr static std::size_t addrs = 0x6658c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xzzy", {}, {} })));
@@ -1320,7 +1320,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xzzz)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665aee4;
+  constexpr static std::size_t addrs = 0x6658c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xzzz", {}, {} })));
@@ -1332,7 +1332,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yxxx)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665aef8;
+  constexpr static std::size_t addrs = 0x6658c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yxxx", {}, {} })));
@@ -1344,7 +1344,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yxxy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665af0c;
+  constexpr static std::size_t addrs = 0x6658ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yxxy", {}, {} })));
@@ -1356,7 +1356,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yxxz)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665af18;
+  constexpr static std::size_t addrs = 0x6658cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yxxz", {}, {} })));
@@ -1368,7 +1368,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yxyx)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665af2c;
+  constexpr static std::size_t addrs = 0x6658cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yxyx", {}, {} })));
@@ -1380,7 +1380,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yxyy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665af3c;
+  constexpr static std::size_t addrs = 0x6658cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yxyy", {}, {} })));
@@ -1392,7 +1392,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yxyz)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665af4c;
+  constexpr static std::size_t addrs = 0x6658ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yxyz", {}, {} })));
@@ -1404,7 +1404,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yxzx)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x665af60;
+  constexpr static std::size_t addrs = 0x6658cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yxzx", {}, {} })));
@@ -1416,7 +1416,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yxzy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665af78;
+  constexpr static std::size_t addrs = 0x6658d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yxzy", {}, {} })));
@@ -1428,7 +1428,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yxzz)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665af8c;
+  constexpr static std::size_t addrs = 0x6658d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yxzz", {}, {} })));
@@ -1440,7 +1440,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yyxx)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x665afa0;
+  constexpr static std::size_t addrs = 0x6658d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yyxx", {}, {} })));
@@ -1452,7 +1452,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yyxy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665afbc;
+  constexpr static std::size_t addrs = 0x6658d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yyxy", {}, {} })));
@@ -1464,7 +1464,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yyxz)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665afcc;
+  constexpr static std::size_t addrs = 0x6658d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yyxz", {}, {} })));
@@ -1476,7 +1476,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yyyx)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665afe0;
+  constexpr static std::size_t addrs = 0x6658d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yyyx", {}, {} })));
@@ -1488,7 +1488,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yyyy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665aff0;
+  constexpr static std::size_t addrs = 0x6658d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yyyy", {}, {} })));
@@ -1500,7 +1500,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yyyz)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b000;
+  constexpr static std::size_t addrs = 0x6658d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yyyz", {}, {} })));
@@ -1512,7 +1512,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yyzx)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b010;
+  constexpr static std::size_t addrs = 0x6658dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yyzx", {}, {} })));
@@ -1524,7 +1524,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yyzy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b024;
+  constexpr static std::size_t addrs = 0x6658dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yyzy", {}, {} })));
@@ -1536,7 +1536,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yyzz)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x665b034;
+  constexpr static std::size_t addrs = 0x6658dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yyzz", {}, {} })));
@@ -1548,7 +1548,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yzxx)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b050;
+  constexpr static std::size_t addrs = 0x6658dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yzxx", {}, {} })));
@@ -1560,7 +1560,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yzxy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b060;
+  constexpr static std::size_t addrs = 0x6658dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yzxy", {}, {} })));
@@ -1572,7 +1572,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yzxz)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b074;
+  constexpr static std::size_t addrs = 0x6658e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yzxz", {}, {} })));
@@ -1584,7 +1584,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yzyx)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b088;
+  constexpr static std::size_t addrs = 0x6658e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yzyx", {}, {} })));
@@ -1596,7 +1596,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yzyy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b09c;
+  constexpr static std::size_t addrs = 0x6658e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yzyy", {}, {} })));
@@ -1608,7 +1608,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yzyz)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b0ac;
+  constexpr static std::size_t addrs = 0x6658e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yzyz", {}, {} })));
@@ -1620,7 +1620,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yzzx)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b0b8;
+  constexpr static std::size_t addrs = 0x6658e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yzzx", {}, {} })));
@@ -1632,7 +1632,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yzzy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b0cc;
+  constexpr static std::size_t addrs = 0x6658e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yzzy", {}, {} })));
@@ -1644,7 +1644,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yzzz)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b0dc;
+  constexpr static std::size_t addrs = 0x6658e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yzzz", {}, {} })));
@@ -1656,7 +1656,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zxxx)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x665b0ec;
+  constexpr static std::size_t addrs = 0x6658e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zxxx", {}, {} })));
@@ -1668,7 +1668,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zxxy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b104;
+  constexpr static std::size_t addrs = 0x6658ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zxxy", {}, {} })));
@@ -1680,7 +1680,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zxxz)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b118;
+  constexpr static std::size_t addrs = 0x6658eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zxxz", {}, {} })));
@@ -1692,7 +1692,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zxyx)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x665b12c;
+  constexpr static std::size_t addrs = 0x6658ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zxyx", {}, {} })));
@@ -1704,7 +1704,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zxyy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b144;
+  constexpr static std::size_t addrs = 0x6658ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zxyy", {}, {} })));
@@ -1716,7 +1716,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zxyz)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b158;
+  constexpr static std::size_t addrs = 0x6658ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zxyz", {}, {} })));
@@ -1728,7 +1728,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zxzx)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b16c;
+  constexpr static std::size_t addrs = 0x6658f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zxzx", {}, {} })));
@@ -1740,7 +1740,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zxzy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b180;
+  constexpr static std::size_t addrs = 0x6658f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zxzy", {}, {} })));
@@ -1752,7 +1752,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zxzz)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b194;
+  constexpr static std::size_t addrs = 0x6658f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zxzz", {}, {} })));
@@ -1764,7 +1764,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zyxx)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b1a8;
+  constexpr static std::size_t addrs = 0x6658f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zyxx", {}, {} })));
@@ -1776,7 +1776,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zyxy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b1bc;
+  constexpr static std::size_t addrs = 0x6658f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zyxy", {}, {} })));
@@ -1788,7 +1788,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zyxz)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b1d0;
+  constexpr static std::size_t addrs = 0x6658f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zyxz", {}, {} })));
@@ -1800,7 +1800,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zyyx)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b1e4;
+  constexpr static std::size_t addrs = 0x6658f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zyyx", {}, {} })));
@@ -1812,7 +1812,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zyyy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b1f8;
+  constexpr static std::size_t addrs = 0x6658f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zyyy", {}, {} })));
@@ -1824,7 +1824,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zyyz)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b208;
+  constexpr static std::size_t addrs = 0x6658fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zyyz", {}, {} })));
@@ -1836,7 +1836,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zyzx)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b214;
+  constexpr static std::size_t addrs = 0x6658fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zyzx", {}, {} })));
@@ -1848,7 +1848,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zyzy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b228;
+  constexpr static std::size_t addrs = 0x6658fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zyzy", {}, {} })));
@@ -1860,7 +1860,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zyzz)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b238;
+  constexpr static std::size_t addrs = 0x6658fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zyzz", {}, {} })));
@@ -1872,7 +1872,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zzxx)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b248;
+  constexpr static std::size_t addrs = 0x6658fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zzxx", {}, {} })));
@@ -1884,7 +1884,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zzxy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b25c;
+  constexpr static std::size_t addrs = 0x6658ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zzxy", {}, {} })));
@@ -1896,7 +1896,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zzxz)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b26c;
+  constexpr static std::size_t addrs = 0x6659008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zzxz", {}, {} })));
@@ -1908,7 +1908,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zzyx)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b280;
+  constexpr static std::size_t addrs = 0x665901c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zzyx", {}, {} })));
@@ -1920,7 +1920,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zzyy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x665b294;
+  constexpr static std::size_t addrs = 0x6659030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zzyy", {}, {} })));
@@ -1932,7 +1932,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zzyz)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b2b0;
+  constexpr static std::size_t addrs = 0x665904c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zzyz", {}, {} })));
@@ -1944,7 +1944,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zzzx)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665b2c0;
+  constexpr static std::size_t addrs = 0x665905c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zzzx", {}, {} })));
@@ -1956,7 +1956,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zzzy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b2d4;
+  constexpr static std::size_t addrs = 0x6659070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zzzy", {}, {} })));
@@ -1968,7 +1968,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zzzz)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b2e4;
+  constexpr static std::size_t addrs = 0x6659080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zzzz", {}, {} })));
@@ -1980,7 +1980,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xxx)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b2f4;
+  constexpr static std::size_t addrs = 0x6659090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xxx", {}, {} })));
@@ -1992,7 +1992,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xxy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b300;
+  constexpr static std::size_t addrs = 0x665909c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xxy", {}, {} })));
@@ -2004,7 +2004,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xxz)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b30c;
+  constexpr static std::size_t addrs = 0x66590a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xxz", {}, {} })));
@@ -2016,7 +2016,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xyx)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b31c;
+  constexpr static std::size_t addrs = 0x66590b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xyx", {}, {} })));
@@ -2028,7 +2028,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xyy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b328;
+  constexpr static std::size_t addrs = 0x66590c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xyy", {}, {} })));
@@ -2040,7 +2040,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xyz)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b334;
+  constexpr static std::size_t addrs = 0x66590d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xyz", {}, {} })));
@@ -2052,7 +2052,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::set_xyz)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b344;
+  constexpr static std::size_t addrs = 0x66590e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2065,7 +2065,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xzx)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b354;
+  constexpr static std::size_t addrs = 0x66590f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xzx", {}, {} })));
@@ -2077,7 +2077,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xzy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b364;
+  constexpr static std::size_t addrs = 0x6659100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xzy", {}, {} })));
@@ -2089,7 +2089,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::set_xzy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b374;
+  constexpr static std::size_t addrs = 0x6659110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2102,7 +2102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xzz)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b384;
+  constexpr static std::size_t addrs = 0x6659120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xzz", {}, {} })));
@@ -2114,7 +2114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yxx)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b394;
+  constexpr static std::size_t addrs = 0x6659130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yxx", {}, {} })));
@@ -2126,7 +2126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yxy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b3a0;
+  constexpr static std::size_t addrs = 0x665913c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yxy", {}, {} })));
@@ -2138,7 +2138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yxz)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b3ac;
+  constexpr static std::size_t addrs = 0x6659148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yxz", {}, {} })));
@@ -2150,7 +2150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::set_yxz)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b3bc;
+  constexpr static std::size_t addrs = 0x6659158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2163,7 +2163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yyx)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b3cc;
+  constexpr static std::size_t addrs = 0x6659168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yyx", {}, {} })));
@@ -2175,7 +2175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yyy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b3d8;
+  constexpr static std::size_t addrs = 0x6659174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yyy", {}, {} })));
@@ -2187,7 +2187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yyz)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b3e4;
+  constexpr static std::size_t addrs = 0x6659180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yyz", {}, {} })));
@@ -2199,7 +2199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yzx)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b3f0;
+  constexpr static std::size_t addrs = 0x665918c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yzx", {}, {} })));
@@ -2211,7 +2211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::set_yzx)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b400;
+  constexpr static std::size_t addrs = 0x665919c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2224,7 +2224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yzy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b40c;
+  constexpr static std::size_t addrs = 0x66591a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yzy", {}, {} })));
@@ -2236,7 +2236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yzz)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b418;
+  constexpr static std::size_t addrs = 0x66591b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yzz", {}, {} })));
@@ -2248,7 +2248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zxx)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b424;
+  constexpr static std::size_t addrs = 0x66591c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zxx", {}, {} })));
@@ -2260,7 +2260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zxy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b434;
+  constexpr static std::size_t addrs = 0x66591d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zxy", {}, {} })));
@@ -2272,7 +2272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::set_zxy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b444;
+  constexpr static std::size_t addrs = 0x66591e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2285,7 +2285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zxz)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b454;
+  constexpr static std::size_t addrs = 0x66591f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zxz", {}, {} })));
@@ -2297,7 +2297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zyx)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b464;
+  constexpr static std::size_t addrs = 0x6659200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zyx", {}, {} })));
@@ -2309,7 +2309,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::set_zyx)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b474;
+  constexpr static std::size_t addrs = 0x6659210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2322,7 +2322,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zyy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b484;
+  constexpr static std::size_t addrs = 0x6659220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zyy", {}, {} })));
@@ -2334,7 +2334,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zyz)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b490;
+  constexpr static std::size_t addrs = 0x665922c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zyz", {}, {} })));
@@ -2346,7 +2346,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zzx)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b49c;
+  constexpr static std::size_t addrs = 0x6659238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zzx", {}, {} })));
@@ -2358,7 +2358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zzy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b4ac;
+  constexpr static std::size_t addrs = 0x6659248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zzy", {}, {} })));
@@ -2370,7 +2370,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zzz)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b4b8;
+  constexpr static std::size_t addrs = 0x6659254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zzz", {}, {} })));
@@ -2382,7 +2382,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int2 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xx)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b4c4;
+  constexpr static std::size_t addrs = 0x6659260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xx", {}, {} })));
@@ -2394,7 +2394,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int2 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x665b4d0;
+  constexpr static std::size_t addrs = 0x665926c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xy", {}, {} })));
@@ -2406,7 +2406,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(::Unity::Mathematics::int2)>(&::Unity::Mathematics::int3::set_xy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x665b4d8;
+  constexpr static std::size_t addrs = 0x6659274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2419,7 +2419,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int2 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_xz)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b4e0;
+  constexpr static std::size_t addrs = 0x665927c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_xz", {}, {} })));
@@ -2431,7 +2431,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(::Unity::Mathematics::int2)>(&::Unity::Mathematics::int3::set_xz)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b4f0;
+  constexpr static std::size_t addrs = 0x665928c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2444,7 +2444,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int2 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yx)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b500;
+  constexpr static std::size_t addrs = 0x665929c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yx", {}, {} })));
@@ -2456,7 +2456,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(::Unity::Mathematics::int2)>(&::Unity::Mathematics::int3::set_yx)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b50c;
+  constexpr static std::size_t addrs = 0x66592a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2469,7 +2469,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int2 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b518;
+  constexpr static std::size_t addrs = 0x66592b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yy", {}, {} })));
@@ -2481,7 +2481,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int2 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_yz)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x665b524;
+  constexpr static std::size_t addrs = 0x66592c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_yz", {}, {} })));
@@ -2493,7 +2493,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(::Unity::Mathematics::int2)>(&::Unity::Mathematics::int3::set_yz)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x665b52c;
+  constexpr static std::size_t addrs = 0x66592c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2506,7 +2506,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int2 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zx)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b534;
+  constexpr static std::size_t addrs = 0x66592d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zx", {}, {} })));
@@ -2518,7 +2518,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(::Unity::Mathematics::int2)>(&::Unity::Mathematics::int3::set_zx)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x665b544;
+  constexpr static std::size_t addrs = 0x66592e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2531,7 +2531,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int2 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b554;
+  constexpr static std::size_t addrs = 0x66592f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zy", {}, {} })));
@@ -2543,7 +2543,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(::Unity::Mathematics::int2)>(&::Unity::Mathematics::int3::set_zy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b560;
+  constexpr static std::size_t addrs = 0x66592fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2556,7 +2556,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::int2 (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::get_zz)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b56c;
+  constexpr static std::size_t addrs = 0x6659308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_zz", {}, {} })));
@@ -2568,7 +2568,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Mathematics::int3::*)(int32_t)>(&::Unity::Mathematics::int3::get_Item)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x665b578;
+  constexpr static std::size_t addrs = 0x6659314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
@@ -2580,7 +2580,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::int3::*)(int32_t, int32_t)>(&::Unity::Mathematics::int3::set_Item)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x665b580;
+  constexpr static std::size_t addrs = 0x665931c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2593,7 +2593,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Mathematics::int3::*)(::Unity::Mathematics::int3)>(&::Unity::Mathematics::int3::Equals)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x665b588;
+  constexpr static std::size_t addrs = 0x6659324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2606,7 +2606,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Mathematics::int3::*)(::System::Object*)>(&::Unity::Mathematics::int3::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x665b5bc;
+  constexpr static std::size_t addrs = 0x6659358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { ::i2c::class_of<::Unity::Mathematics::int3>(), 0 }));
@@ -2618,7 +2618,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x665b658;
+  constexpr static std::size_t addrs = 0x66593f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { ::i2c::class_of<::Unity::Mathematics::int3>(), 2 }));
@@ -2630,7 +2630,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Mathematics::int3::*)()>(&::Unity::Mathematics::int3::ToString)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x665b6a0;
+  constexpr static std::size_t addrs = 0x665943c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Mathematics::int3>(), { ::i2c::class_of<::Unity::Mathematics::int3>(), 3 }));
@@ -2642,7 +2642,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Mathematics::int3::*)(::StringW, ::System::IFormatProvider*)>(&::Unity::Mathematics::int3::ToString)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x665b778;
+  constexpr static std::size_t addrs = 0x6659514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

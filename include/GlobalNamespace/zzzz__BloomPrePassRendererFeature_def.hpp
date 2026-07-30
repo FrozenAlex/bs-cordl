@@ -21,10 +21,13 @@ namespace GlobalNamespace {
 class BloomPrePassRendererFeature_IterationHandle;
 }
 namespace GlobalNamespace {
-template <typename T> class BloomPrePassRendererFeature___c__DisplayClass10_0_1;
+template <typename T> class BloomPrePassRendererFeature___c__DisplayClass11_0_1;
 }
 namespace GlobalNamespace {
 class BloomPrePassRendererFeature___c__DisplayClass7_0;
+}
+namespace GlobalNamespace {
+class BloomPrePass;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -41,6 +44,9 @@ class ScriptableRenderer;
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
 }
+namespace UnityEngine {
+class Camera;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class BloomPrePassRendererFeature;
@@ -49,7 +55,7 @@ namespace GlobalNamespace {
 class BloomPrePassRendererFeature_IterationHandle;
 }
 namespace GlobalNamespace {
-template <typename T> class BloomPrePassRendererFeature___c__DisplayClass10_0_1;
+template <typename T> class BloomPrePassRendererFeature___c__DisplayClass11_0_1;
 }
 namespace GlobalNamespace {
 class BloomPrePassRendererFeature___c__DisplayClass7_0;
@@ -57,11 +63,11 @@ class BloomPrePassRendererFeature___c__DisplayClass7_0;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::BloomPrePassRendererFeature*);
 MARK_REF_T(::GlobalNamespace::BloomPrePassRendererFeature_IterationHandle*);
-MARK_GEN_REF_T_PTR(::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1);
+MARK_GEN_REF_T_PTR(::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1);
 MARK_REF_T(::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BloomPrePassRendererFeature*, "", "BloomPrePassRendererFeature");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BloomPrePassRendererFeature_IterationHandle*, "", "BloomPrePassRendererFeature/IterationHandle");
-DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1, "", "BloomPrePassRendererFeature/<>c__DisplayClass10_0`1");
+DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1, "", "BloomPrePassRendererFeature/<>c__DisplayClass11_0`1");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0*, "", "BloomPrePassRendererFeature/<>c__DisplayClass7_0");
 // Dependencies System.Guid, System.Object
 namespace GlobalNamespace {
@@ -81,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_guid(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x58658ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5863dfc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,7 +105,7 @@ public:
   BloomPrePassRendererFeature_IterationHandle(BloomPrePassRendererFeature_IterationHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19438 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19602 };
 
   /// @brief Field guid, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ___guid;
@@ -117,14 +123,14 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: BloomPrePassRendererFeature/<>c__DisplayClass10_0`1<T>
-class CORDL_TYPE BloomPrePassRendererFeature___c__DisplayClass10_0_1 : public ::System::Object {
+// CS Name: BloomPrePassRendererFeature/<>c__DisplayClass11_0`1<T>
+class CORDL_TYPE BloomPrePassRendererFeature___c__DisplayClass11_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field onLoadFinished, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_onLoadFinished, put = __cordl_internal_set_onLoadFinished)) ::System::Action_1<T>* onLoadFinished;
 
-  static inline ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>* New_ctor();
+  static inline ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>* New_ctor();
 
   /// @brief Method <LoadAssetAsync>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _LoadAssetAsync_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> handle);
@@ -141,19 +147,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr BloomPrePassRendererFeature___c__DisplayClass10_0_1();
+  constexpr BloomPrePassRendererFeature___c__DisplayClass11_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature___c__DisplayClass10_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature___c__DisplayClass11_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  BloomPrePassRendererFeature___c__DisplayClass10_0_1(BloomPrePassRendererFeature___c__DisplayClass10_0_1&&) = delete;
+  BloomPrePassRendererFeature___c__DisplayClass11_0_1(BloomPrePassRendererFeature___c__DisplayClass11_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature___c__DisplayClass10_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererFeature___c__DisplayClass11_0_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassRendererFeature___c__DisplayClass10_0_1(BloomPrePassRendererFeature___c__DisplayClass10_0_1 const&) = delete;
+  BloomPrePassRendererFeature___c__DisplayClass11_0_1(BloomPrePassRendererFeature___c__DisplayClass11_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19439 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19603 };
 
   /// @brief Field onLoadFinished, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<T>* ___onLoadFinished;
@@ -177,10 +183,10 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <Create>b__0, addr 0x58658b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <Create>b__0, addr 0x5863e00, size 0x7c, virtual false, abstract: false, final false
   inline void _Create_b__0(::GlobalNamespace::BloomFogSO* bloomFog);
 
-  /// @brief Method <Create>b__1, addr 0x586592c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <Create>b__1, addr 0x5863e7c, size 0xc0, virtual false, abstract: false, final false
   inline void _Create_b__1(::GlobalNamespace::BloomPrePassEffectSO* effectOverride);
 
   constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererFeature> const& __cordl_internal_get___4__this() const;
@@ -195,7 +201,7 @@ public:
 
   constexpr void __cordl_internal_set_currentGuid(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x586564c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5863b48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -213,7 +219,7 @@ public:
   BloomPrePassRendererFeature___c__DisplayClass7_0(BloomPrePassRendererFeature___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19604 };
 
   /// @brief Field currentGuid, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ___currentGuid;
@@ -240,7 +246,7 @@ public:
   // Declarations
   using IterationHandle = ::GlobalNamespace::BloomPrePassRendererFeature_IterationHandle;
 
-  template <typename T> using __c__DisplayClass10_0_1 = ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>;
+  template <typename T> using __c__DisplayClass11_0_1 = ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>;
 
   using __c__DisplayClass7_0 = ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0;
 
@@ -269,13 +275,13 @@ public:
   /// @brief Field _pass, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__pass, put = __cordl_internal_set__pass)) ::GlobalNamespace::BloomPrePassRenderPass* _pass;
 
-  /// @brief Method AddRenderPasses, addr 0x586581c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x5863d18, size 0x28, virtual true, abstract: false, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Create, addr 0x5865444, size 0x208, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x5863940, size 0x208, virtual true, abstract: false, final false
   inline void Create();
 
-  /// @brief Method Dispose, addr 0x5865844, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5863d94, size 0x8, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   /// @brief Method LoadAssetAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -285,8 +291,11 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassRendererFeature* New_ctor();
 
-  /// @brief Method ReleaseHandles, addr 0x5865650, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ReleaseHandles, addr 0x5863b4c, size 0x154, virtual false, abstract: false, final false
   inline void ReleaseHandles();
+
+  /// @brief Method ResolveBloomPrePass, addr 0x5863d40, size 0x54, virtual false, abstract: false, final false
+  static inline ::UnityW<::GlobalNamespace::BloomPrePass> ResolveBloomPrePass(::UnityEngine::Camera* camera);
 
   constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BloomFogSO>> const& __cordl_internal_get__bloomFogLoadHandle() const;
 
@@ -324,7 +333,7 @@ public:
 
   constexpr void __cordl_internal_set__pass(::GlobalNamespace::BloomPrePassRenderPass* value);
 
-  /// @brief Method .ctor, addr 0x586584c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5863d9c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -342,7 +351,7 @@ public:
   BloomPrePassRendererFeature(BloomPrePassRendererFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19441 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19605 };
 
   /// @brief Field _bloomFogRef, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BloomFogSO>>* ____bloomFogRef;

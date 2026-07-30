@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::MathfExtra::Mod)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x33236e8;
+  constexpr static std::size_t addrs = 0x3321cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::GlobalNamespace::MathfExtra::Mod)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x33236fc;
+  constexpr static std::size_t addrs = 0x3321cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, int32_t)>(&::GlobalNamespace::MathfExtra::Round)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x332372c;
+  constexpr static std::size_t addrs = 0x3321cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::MathfExtra::MaxAbs)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3323850;
+  constexpr static std::size_t addrs = 0x3321e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(float_t, float_t, float_t)>(&::GlobalNamespace::MathfExtra::Approximately)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3323864;
+  constexpr static std::size_t addrs = 0x3321e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::MathfExtra::ShortestAngleDifference)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3323874;
+  constexpr static std::size_t addrs = 0x3321e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Vector4, int32_t)>(&::GlobalNamespace::MathfExtra::Round)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x33238a8;
+  constexpr static std::size_t addrs = 0x3321e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::GlobalNamespace::MathfExtra::Repeat)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3323aec;
+  constexpr static std::size_t addrs = 0x33220b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

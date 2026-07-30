@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UI::AnimationTriggers::*)()>(&::UnityEngine::UI::AnimationTriggers::get_normalTrigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c15644;
+  constexpr static std::size_t addrs = 0x6c11048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::AnimationTriggers*>(), { "get_normalTrigger", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::AnimationTriggers::*)(::StringW)>(&::UnityEngine::UI::AnimationTriggers::set_normalTrigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c1564c;
+  constexpr static std::size_t addrs = 0x6c11050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UI::AnimationTriggers::*)()>(&::UnityEngine::UI::AnimationTriggers::get_highlightedTrigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c15654;
+  constexpr static std::size_t addrs = 0x6c11058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::AnimationTriggers*>(), { "get_highlightedTrigger", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::AnimationTriggers::*)(::StringW)>(&::UnityEngine::UI::AnimationTriggers::set_highlightedTrigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c1565c;
+  constexpr static std::size_t addrs = 0x6c11060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UI::AnimationTriggers::*)()>(&::UnityEngine::UI::AnimationTriggers::get_pressedTrigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c15664;
+  constexpr static std::size_t addrs = 0x6c11068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::AnimationTriggers*>(), { "get_pressedTrigger", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::AnimationTriggers::*)(::StringW)>(&::UnityEngine::UI::AnimationTriggers::set_pressedTrigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c1566c;
+  constexpr static std::size_t addrs = 0x6c11070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UI::AnimationTriggers::*)()>(&::UnityEngine::UI::AnimationTriggers::get_selectedTrigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c15674;
+  constexpr static std::size_t addrs = 0x6c11078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::AnimationTriggers*>(), { "get_selectedTrigger", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::AnimationTriggers::*)(::StringW)>(&::UnityEngine::UI::AnimationTriggers::set_selectedTrigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c1567c;
+  constexpr static std::size_t addrs = 0x6c11080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UI::AnimationTriggers::*)()>(&::UnityEngine::UI::AnimationTriggers::get_disabledTrigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c15684;
+  constexpr static std::size_t addrs = 0x6c11088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::AnimationTriggers*>(), { "get_disabledTrigger", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::AnimationTriggers::*)(::StringW)>(&::UnityEngine::UI::AnimationTriggers::set_disabledTrigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c1568c;
+  constexpr static std::size_t addrs = 0x6c11090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::AnimationTriggers::*)()>(&::UnityEngine::UI::AnimationTriggers::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6c15694;
+  constexpr static std::size_t addrs = 0x6c11098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::AnimationTriggers*>(), { ".ctor", {}, {} })));

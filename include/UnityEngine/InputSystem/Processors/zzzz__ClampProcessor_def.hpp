@@ -32,10 +32,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Processors::ClampProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x65b8a84, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x65b6820, size 0x18, virtual true, abstract: false, final false
   inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x65b8a9c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x65b6838, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_max() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_min(float_t value);
 
-  /// @brief Method .ctor, addr 0x65b8b50, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65b68ec, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

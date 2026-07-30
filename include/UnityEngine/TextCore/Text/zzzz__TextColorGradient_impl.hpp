@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextColorGradient::*)()>(&::UnityEngine::TextCore::Text::TextColorGradient::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6bfdeac;
+  constexpr static std::size_t addrs = 0x6bf98b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextColorGradient*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextColorGradient::*)(::UnityEngine::Color)>(&::UnityEngine::TextCore::Text::TextColorGradient::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6bfdf4c;
+  constexpr static std::size_t addrs = 0x6bf9950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextColorGradient::*)(::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color,
                                                                                                                   ::UnityEngine::Color)>(&::UnityEngine::TextCore::Text::TextColorGradient::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6bfdfb8;
+  constexpr static std::size_t addrs = 0x6bf99bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

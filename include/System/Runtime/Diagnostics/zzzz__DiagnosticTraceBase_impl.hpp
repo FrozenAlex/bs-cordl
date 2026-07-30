@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)(::StringW)>(&::System::Runtime::Diagnostics::DiagnosticTraceBase::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6185ba8;
+  constexpr static std::size_t addrs = 0x6183944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)()>(
     &::System::Runtime::Diagnostics::DiagnosticTraceBase::get_LastFailure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6185c4c;
+  constexpr static std::size_t addrs = 0x61839e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DiagnosticTraceBase*>(), { "get_LastFailure", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)(::System::DateTime)>(
     &::System::Runtime::Diagnostics::DiagnosticTraceBase::set_LastFailure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6185c54;
+  constexpr static std::size_t addrs = 0x61839f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Diagnostics::TraceSource*)>(&::System::Runtime::Diagnostics::DiagnosticTraceBase::UnsafeRemoveDefaultTraceListener)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6185c5c;
+  constexpr static std::size_t addrs = 0x61839f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DiagnosticTraceBase*>(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Diagnostics::TraceSource* (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)()>(
     &::System::Runtime::Diagnostics::DiagnosticTraceBase::get_TraceSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6185cc4;
+  constexpr static std::size_t addrs = 0x6183a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DiagnosticTraceBase*>(), { "get_TraceSource", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)(::System::Diagnostics::TraceSource*)>(
     &::System::Runtime::Diagnostics::DiagnosticTraceBase::SetTraceSource)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6185ccc;
+  constexpr static std::size_t addrs = 0x6183a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DiagnosticTraceBase*>(),
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)()>(&::System::Runtime::Diagnostics::DiagnosticTraceBase::get_HaveListeners)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6185d78;
+  constexpr static std::size_t addrs = 0x6183b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DiagnosticTraceBase*>(), { "get_HaveListeners", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Diagnostics::SourceLevels (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)(::System::Diagnostics::SourceLevels)>(
     &::System::Runtime::Diagnostics::DiagnosticTraceBase::FixLevel)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6185d80;
+  constexpr static std::size_t addrs = 0x6183b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)(::System::Diagnostics::SourceLevels)>(
     &::System::Runtime::Diagnostics::DiagnosticTraceBase::OnSetLevel)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6185dc0;
+  constexpr static std::size_t addrs = 0x6183b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DiagnosticTraceBase*>(),
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)(::System::Diagnostics::SourceLevels)>(
     &::System::Runtime::Diagnostics::DiagnosticTraceBase::SetLevel)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6185dc4;
+  constexpr static std::size_t addrs = 0x6183b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Diagnostics::SourceLevels (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)()>(
     &::System::Runtime::Diagnostics::DiagnosticTraceBase::get_Level)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6185eb8;
+  constexpr static std::size_t addrs = 0x6183c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DiagnosticTraceBase*>(), { "get_Level", {}, {} })));
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)()>(
     &::System::Runtime::Diagnostics::DiagnosticTraceBase::get_EventSourceName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6185f2c;
+  constexpr static std::size_t addrs = 0x6183cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)(::StringW)>(
     &::System::Runtime::Diagnostics::DiagnosticTraceBase::set_EventSourceName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6185f34;
+  constexpr static std::size_t addrs = 0x6183cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)()>(&::System::Runtime::Diagnostics::DiagnosticTraceBase::get_TracingEnabled)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6185f3c;
+  constexpr static std::size_t addrs = 0x6183cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DiagnosticTraceBase*>(), { "get_TracingEnabled", {}, {} })));
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Runtime::Diagnostics::DiagnosticTraceBase::get_ProcessName)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6185f5c;
+  constexpr static std::size_t addrs = 0x6183cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DiagnosticTraceBase*>(), { "get_ProcessName", {}, {} })));
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::Runtime::Diagnostics::DiagnosticTraceBase::get_ProcessId)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x618608c;
+  constexpr static std::size_t addrs = 0x6183e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DiagnosticTraceBase*>(), { "get_ProcessId", {}, {} })));
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)(::System::Runtime::TraceEventLevel)>(
     &::System::Runtime::Diagnostics::DiagnosticTraceBase::ShouldTrace)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61861c0;
+  constexpr static std::size_t addrs = 0x6183f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DiagnosticTraceBase*>(),
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)(::System::Diagnostics::TraceEventType)>(
     &::System::Runtime::Diagnostics::DiagnosticTraceBase::ShouldTrace)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61861c4;
+  constexpr static std::size_t addrs = 0x6183f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)(::System::Runtime::TraceEventLevel)>(
     &::System::Runtime::Diagnostics::DiagnosticTraceBase::ShouldTraceToTraceSource)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6182b14;
+  constexpr static std::size_t addrs = 0x61808b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DiagnosticTraceBase*>(),
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Runtime::Diagnostics::DiagnosticTraceBase::XmlEncode)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x6186200;
+  constexpr static std::size_t addrs = 0x6183f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)()>(
     &::System::Runtime::Diagnostics::DiagnosticTraceBase::AddDomainEventHandlersForCleanup)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x6186388;
+  constexpr static std::size_t addrs = 0x6184124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -303,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)(::System::Object*, ::System::EventArgs*)>(
     &::System::Runtime::Diagnostics::DiagnosticTraceBase::ExitOrUnloadEventHandler)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6186540;
+  constexpr static std::size_t addrs = 0x61842dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)(::System::Object*, ::System::UnhandledExceptionEventArgs*)>(
     &::System::Runtime::Diagnostics::DiagnosticTraceBase::UnhandledExceptionHandler)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6186618;
+  constexpr static std::size_t addrs = 0x61843b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Object*)>(&::System::Runtime::Diagnostics::DiagnosticTraceBase::CreateSourceString)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x61866c4;
+  constexpr static std::size_t addrs = 0x6184460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -359,7 +359,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Object*)>(&::System::Runtime::Diagnostics::DiagnosticTraceBase::CreateDefaultSourceString)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x61867a8;
+  constexpr static std::size_t addrs = 0x6184544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -373,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Exception*)>(&::System::Runtime::Diagnostics::DiagnosticTraceBase::StackTraceString)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x61868f8;
+  constexpr static std::size_t addrs = 0x6184694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)(::StringW, ::System::Exception*)>(
     &::System::Runtime::Diagnostics::DiagnosticTraceBase::LogTraceFailure)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x6186b7c;
+  constexpr static std::size_t addrs = 0x6184918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DiagnosticTraceBase*>(),
@@ -413,7 +413,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)()>(&::System::Runtime::Diagnostics::DiagnosticTraceBase::ShutdownTracing)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6186544;
+  constexpr static std::size_t addrs = 0x61842e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DiagnosticTraceBase*>(), { "ShutdownTracing", {}, {} })));
@@ -425,7 +425,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Diagnostics::DiagnosticTraceBase::*)()>(&::System::Runtime::Diagnostics::DiagnosticTraceBase::get_CalledShutdown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6187488;
+  constexpr static std::size_t addrs = 0x6185224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Diagnostics::DiagnosticTraceBase*>(), { "get_CalledShutdown", {}, {} })));

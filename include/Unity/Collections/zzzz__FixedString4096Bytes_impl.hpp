@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::Unity::Collections::FixedString4096Bytes::get_UTF8MaxLengthInBytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64aea48;
+  constexpr static std::size_t addrs = 0x64ac7e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { "get_UTF8MaxLengthInBytes", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Collections::FixedString4096Bytes::*)()>(&::Unity::Collections::FixedString4096Bytes::get_Value)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64aea50;
+  constexpr static std::size_t addrs = 0x64ac7ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { "get_Value", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t* (::Unity::Collections::FixedString4096Bytes::*)()>(&::Unity::Collections::FixedString4096Bytes::GetUnsafePtr)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64aeaa0;
+  constexpr static std::size_t addrs = 0x64ac83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { "GetUnsafePtr", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::FixedString4096Bytes::*)()>(&::Unity::Collections::FixedString4096Bytes::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64aeaa8;
+  constexpr static std::size_t addrs = 0x64ac844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { "get_Length", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString4096Bytes::*)(int32_t)>(&::Unity::Collections::FixedString4096Bytes::set_Length)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64aeab0;
+  constexpr static std::size_t addrs = 0x64ac84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::FixedString4096Bytes::*)()>(&::Unity::Collections::FixedString4096Bytes::get_Capacity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64aeac0;
+  constexpr static std::size_t addrs = 0x64ac85c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { "get_Capacity", {}, {} })));
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString4096Bytes::*)(int32_t)>(&::Unity::Collections::FixedString4096Bytes::set_Capacity)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64aeac8;
+  constexpr static std::size_t addrs = 0x64ac864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::FixedString4096Bytes::*)(int32_t, ::Unity::Collections::NativeArrayOptions)>(
     &::Unity::Collections::FixedString4096Bytes::TryResize)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x64aeacc;
+  constexpr static std::size_t addrs = 0x64ac868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::FixedString4096Bytes::*)()>(&::Unity::Collections::FixedString4096Bytes::get_IsEmpty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64aeb7c;
+  constexpr static std::size_t addrs = 0x64ac918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { "get_IsEmpty", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Unity::Collections::FixedString4096Bytes::*)(int32_t)>(&::Unity::Collections::FixedString4096Bytes::get_Item)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64aeb8c;
+  constexpr static std::size_t addrs = 0x64ac928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString4096Bytes::*)(int32_t, uint8_t)>(&::Unity::Collections::FixedString4096Bytes::set_Item)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64aeb98;
+  constexpr static std::size_t addrs = 0x64ac934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<uint8_t> (::Unity::Collections::FixedString4096Bytes::*)(int32_t)>(&::Unity::Collections::FixedString4096Bytes::ElementAt)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64aeba4;
+  constexpr static std::size_t addrs = 0x64ac940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString4096Bytes::*)()>(&::Unity::Collections::FixedString4096Bytes::Clear)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64aebb0;
+  constexpr static std::size_t addrs = 0x64ac94c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { "Clear", {}, {} })));
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString4096Bytes::*)(::by_ref<uint8_t>)>(&::Unity::Collections::FixedString4096Bytes::Add)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64aebbc;
+  constexpr static std::size_t addrs = 0x64ac958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString4096Bytes_Enumerator (::Unity::Collections::FixedString4096Bytes::*)()>(
     &::Unity::Collections::FixedString4096Bytes::GetEnumerator)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64aebdc;
+  constexpr static std::size_t addrs = 0x64ac978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { "GetEnumerator", {}, {} })));
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::FixedString4096Bytes::*)(::StringW)>(&::Unity::Collections::FixedString4096Bytes::CompareTo)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x64aec10;
+  constexpr static std::size_t addrs = 0x64ac9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::FixedString4096Bytes::*)(::StringW)>(&::Unity::Collections::FixedString4096Bytes::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x64aec34;
+  constexpr static std::size_t addrs = 0x64ac9d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::Unity::Collections::FixedList4096Bytes_1<uint8_t>> (::Unity::Collections::FixedString4096Bytes::*)()>(
     &::Unity::Collections::FixedString4096Bytes::AsFixedList)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64aecc4;
+  constexpr static std::size_t addrs = 0x64aca60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(), { "AsFixedList", {}, {} })));
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString4096Bytes::*)(::StringW)>(&::Unity::Collections::FixedString4096Bytes::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x64aed08;
+  constexpr static std::size_t addrs = 0x64acaa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::CopyError (::Unity::Collections::FixedString4096Bytes::*)(::StringW)>(
     &::Unity::Collections::FixedString4096Bytes::Initialize)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64aed38;
+  constexpr static std::size_t addrs = 0x64acad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString4096Bytes::*)(::Unity::Collections::Unicode_Rune, int32_t)>(
     &::Unity::Collections::FixedString4096Bytes::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x64aed94;
+  constexpr static std::size_t addrs = 0x64acb30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FormatError (::Unity::Collections::FixedString4096Bytes::*)(::Unity::Collections::Unicode_Rune, int32_t)>(
     &::Unity::Collections::FixedString4096Bytes::Initialize)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x64aedcc;
+  constexpr static std::size_t addrs = 0x64acb68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FormatError (::Unity::Collections::FixedString4096Bytes::*)(uint8_t*, int32_t)>(
     &::Unity::Collections::FixedString4096Bytes::Initialize)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x64aee40;
+  constexpr static std::size_t addrs = 0x64acbdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString4096Bytes::*)(::Unity::Collections::NativeText_ReadOnly)>(
     &::Unity::Collections::FixedString4096Bytes::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x64aeed8;
+  constexpr static std::size_t addrs = 0x64acc74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString4096Bytes::*)(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeText>)>(
     &::Unity::Collections::FixedString4096Bytes::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x64aef6c;
+  constexpr static std::size_t addrs = 0x64acd08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::FixedString4096Bytes::*)(::Unity::Collections::FixedString32Bytes)>(
     &::Unity::Collections::FixedString4096Bytes::CompareTo)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64af000;
+  constexpr static std::size_t addrs = 0x64acd9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString4096Bytes::*)(::by_ref<::Unity::Collections::FixedString32Bytes>)>(
     &::Unity::Collections::FixedString4096Bytes::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x64aa378;
+  constexpr static std::size_t addrs = 0x64a8114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FormatError (::Unity::Collections::FixedString4096Bytes::*)(::by_ref<::Unity::Collections::FixedString32Bytes>)>(
     &::Unity::Collections::FixedString4096Bytes::Initialize)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x64af05c;
+  constexpr static std::size_t addrs = 0x64acdf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString4096Bytes>, ::by_ref<::Unity::Collections::FixedString32Bytes>)>(
     &::Unity::Collections::FixedString4096Bytes::op_Equality)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x64af0c8;
+  constexpr static std::size_t addrs = 0x64ace64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -413,7 +413,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString4096Bytes>, ::by_ref<::Unity::Collections::FixedString32Bytes>)>(
     &::Unity::Collections::FixedString4096Bytes::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64af184;
+  constexpr static std::size_t addrs = 0x64acf20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -430,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::FixedString4096Bytes::*)(::Unity::Collections::FixedString32Bytes)>(
     &::Unity::Collections::FixedString4096Bytes::Equals)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64af19c;
+  constexpr static std::size_t addrs = 0x64acf38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -444,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::FixedString4096Bytes::*)(::Unity::Collections::FixedString64Bytes)>(
     &::Unity::Collections::FixedString4096Bytes::CompareTo)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64af1a0;
+  constexpr static std::size_t addrs = 0x64acf3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -458,7 +458,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString4096Bytes::*)(::by_ref<::Unity::Collections::FixedString64Bytes>)>(
     &::Unity::Collections::FixedString4096Bytes::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x64ab8cc;
+  constexpr static std::size_t addrs = 0x64a9668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -473,7 +473,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FormatError (::Unity::Collections::FixedString4096Bytes::*)(::by_ref<::Unity::Collections::FixedString64Bytes>)>(
     &::Unity::Collections::FixedString4096Bytes::Initialize)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x64af1fc;
+  constexpr static std::size_t addrs = 0x64acf98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
@@ -487,7 +487,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString4096Bytes>, ::by_ref<::Unity::Collections::FixedString64Bytes>)>(
     &::Unity::Collections::FixedString4096Bytes::op_Equality)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x64af268;
+  constexpr static std::size_t addrs = 0x64ad004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -503,7 +503,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString4096Bytes>, ::by_ref<::Unity::Collections::FixedString64Bytes>)>(
     &::Unity::Collections::FixedString4096Bytes::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64af324;
+  constexpr static std::size_t addrs = 0x64ad0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -520,7 +520,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::FixedString4096Bytes::*)(::Unity::Collections::FixedString64Bytes)>(
     &::Unity::Collections::FixedString4096Bytes::Equals)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64af33c;
+  constexpr static std::size_t addrs = 0x64ad0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -534,7 +534,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::FixedString4096Bytes::*)(::Unity::Collections::FixedString128Bytes)>(
     &::Unity::Collections::FixedString4096Bytes::CompareTo)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64af340;
+  constexpr static std::size_t addrs = 0x64ad0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -548,7 +548,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString4096Bytes::*)(::by_ref<::Unity::Collections::FixedString128Bytes>)>(
     &::Unity::Collections::FixedString4096Bytes::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x64ace24;
+  constexpr static std::size_t addrs = 0x64aabc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -563,7 +563,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FormatError (::Unity::Collections::FixedString4096Bytes::*)(::by_ref<::Unity::Collections::FixedString128Bytes>)>(
     &::Unity::Collections::FixedString4096Bytes::Initialize)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x64af39c;
+  constexpr static std::size_t addrs = 0x64ad138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
@@ -577,7 +577,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString4096Bytes>, ::by_ref<::Unity::Collections::FixedString128Bytes>)>(
     &::Unity::Collections::FixedString4096Bytes::op_Equality)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x64af408;
+  constexpr static std::size_t addrs = 0x64ad1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -593,7 +593,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString4096Bytes>, ::by_ref<::Unity::Collections::FixedString128Bytes>)>(
     &::Unity::Collections::FixedString4096Bytes::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64af4c4;
+  constexpr static std::size_t addrs = 0x64ad260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -610,7 +610,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::FixedString4096Bytes::*)(::Unity::Collections::FixedString128Bytes)>(
     &::Unity::Collections::FixedString4096Bytes::Equals)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64af4dc;
+  constexpr static std::size_t addrs = 0x64ad278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -624,7 +624,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::FixedString4096Bytes::*)(::Unity::Collections::FixedString512Bytes)>(
     &::Unity::Collections::FixedString4096Bytes::CompareTo)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64af4e0;
+  constexpr static std::size_t addrs = 0x64ad27c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -638,7 +638,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString4096Bytes::*)(::by_ref<::Unity::Collections::FixedString512Bytes>)>(
     &::Unity::Collections::FixedString4096Bytes::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x64ae354;
+  constexpr static std::size_t addrs = 0x64ac0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -653,7 +653,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FormatError (::Unity::Collections::FixedString4096Bytes::*)(::by_ref<::Unity::Collections::FixedString512Bytes>)>(
     &::Unity::Collections::FixedString4096Bytes::Initialize)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x64af53c;
+  constexpr static std::size_t addrs = 0x64ad2d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
@@ -667,7 +667,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString4096Bytes>, ::by_ref<::Unity::Collections::FixedString512Bytes>)>(
     &::Unity::Collections::FixedString4096Bytes::op_Equality)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x64af5a8;
+  constexpr static std::size_t addrs = 0x64ad344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -683,7 +683,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString4096Bytes>, ::by_ref<::Unity::Collections::FixedString512Bytes>)>(
     &::Unity::Collections::FixedString4096Bytes::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64af664;
+  constexpr static std::size_t addrs = 0x64ad400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -700,7 +700,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::FixedString4096Bytes::*)(::Unity::Collections::FixedString512Bytes)>(
     &::Unity::Collections::FixedString4096Bytes::Equals)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64af67c;
+  constexpr static std::size_t addrs = 0x64ad418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -714,7 +714,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::FixedString4096Bytes::*)(::Unity::Collections::FixedString4096Bytes)>(
     &::Unity::Collections::FixedString4096Bytes::CompareTo)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64af680;
+  constexpr static std::size_t addrs = 0x64ad41c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -728,7 +728,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString4096Bytes::*)(::by_ref<::Unity::Collections::FixedString4096Bytes>)>(
     &::Unity::Collections::FixedString4096Bytes::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x64af6dc;
+  constexpr static std::size_t addrs = 0x64ad478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -743,7 +743,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FormatError (::Unity::Collections::FixedString4096Bytes::*)(::by_ref<::Unity::Collections::FixedString4096Bytes>)>(
     &::Unity::Collections::FixedString4096Bytes::Initialize)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x64af70c;
+  constexpr static std::size_t addrs = 0x64ad4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes>(),
@@ -757,7 +757,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString4096Bytes>, ::by_ref<::Unity::Collections::FixedString4096Bytes>)>(
     &::Unity::Collections::FixedString4096Bytes::op_Equality)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x64af778;
+  constexpr static std::size_t addrs = 0x64ad514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -774,7 +774,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Collections::FixedString4096Bytes>, ::by_ref<::Unity::Collections::FixedString4096Bytes>)>(
     &::Unity::Collections::FixedString4096Bytes::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64af81c;
+  constexpr static std::size_t addrs = 0x64ad5b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -791,7 +791,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::FixedString4096Bytes::*)(::Unity::Collections::FixedString4096Bytes)>(
     &::Unity::Collections::FixedString4096Bytes::Equals)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64af834;
+  constexpr static std::size_t addrs = 0x64ad5d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -805,7 +805,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString4096Bytes (*)(::StringW)>(
     &::Unity::Collections::FixedString4096Bytes::op_Implicit___Unity__Collections__FixedString4096Bytes)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x64af838;
+  constexpr static std::size_t addrs = 0x64ad5d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -818,7 +818,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Collections::FixedString4096Bytes::*)()>(&::Unity::Collections::FixedString4096Bytes::ToString)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x64aea54;
+  constexpr static std::size_t addrs = 0x64ac7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -831,7 +831,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::FixedString4096Bytes::*)()>(&::Unity::Collections::FixedString4096Bytes::GetHashCode)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x64af86c;
+  constexpr static std::size_t addrs = 0x64ad608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -844,7 +844,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::FixedString4096Bytes::*)(::System::Object*)>(&::Unity::Collections::FixedString4096Bytes::Equals)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x64af8b8;
+  constexpr static std::size_t addrs = 0x64ad654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -857,7 +857,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString4096Bytes::*)(int32_t)>(&::Unity::Collections::FixedString4096Bytes::CheckIndexInRange)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x64afae4;
+  constexpr static std::size_t addrs = 0x64ad880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -870,7 +870,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString4096Bytes::*)(int32_t)>(&::Unity::Collections::FixedString4096Bytes::CheckLengthInRange)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x64afbd8;
+  constexpr static std::size_t addrs = 0x64ad974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -883,7 +883,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString4096Bytes::*)(int32_t)>(&::Unity::Collections::FixedString4096Bytes::CheckCapacityInRange)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x64afcc0;
+  constexpr static std::size_t addrs = 0x64ada5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -896,7 +896,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Collections::CopyError, ::StringW)>(&::Unity::Collections::FixedString4096Bytes::CheckCopyError)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x64afd60;
+  constexpr static std::size_t addrs = 0x64adafc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -910,7 +910,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Collections::FormatError)>(&::Unity::Collections::FixedString4096Bytes::CheckFormatError)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x64afde8;
+  constexpr static std::size_t addrs = 0x64adb84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1390,7 +1390,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString4096Bytes_Enumerator::*)(::Unity::Collections::FixedString4096Bytes)>(
     &::Unity::Collections::FixedString4096Bytes_Enumerator::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64aebf0;
+  constexpr static std::size_t addrs = 0x64ac98c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1404,7 +1404,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString4096Bytes_Enumerator::*)()>(&::Unity::Collections::FixedString4096Bytes_Enumerator::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64afe3c;
+  constexpr static std::size_t addrs = 0x64adbd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes_Enumerator>(), { "Dispose", {}, {} })));
@@ -1416,7 +1416,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::FixedString4096Bytes_Enumerator::*)()>(&::Unity::Collections::FixedString4096Bytes_Enumerator::MoveNext)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x64afe40;
+  constexpr static std::size_t addrs = 0x64adbdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes_Enumerator>(), { "MoveNext", {}, {} })));
@@ -1428,7 +1428,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::FixedString4096Bytes_Enumerator::*)()>(&::Unity::Collections::FixedString4096Bytes_Enumerator::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64afe8c;
+  constexpr static std::size_t addrs = 0x64adc28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes_Enumerator>(), { "Reset", {}, {} })));
@@ -1441,7 +1441,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Unicode_Rune (::Unity::Collections::FixedString4096Bytes_Enumerator::*)()>(
     &::Unity::Collections::FixedString4096Bytes_Enumerator::get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64afe98;
+  constexpr static std::size_t addrs = 0x64adc34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::FixedString4096Bytes_Enumerator>(), { "get_Current", {}, {} })));
@@ -1454,7 +1454,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Unity::Collections::FixedString4096Bytes_Enumerator::*)()>(
     &::Unity::Collections::FixedString4096Bytes_Enumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64afea0;
+  constexpr static std::size_t addrs = 0x64adc3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::DiContainer* (::GlobalNamespace::GameScenesManager_ScenesStackData::*)()>(
     &::GlobalNamespace::GameScenesManager_ScenesStackData::get_container)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x330397c;
+  constexpr static std::size_t addrs = 0x330164c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager_ScenesStackData*>(), { "get_container", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager_ScenesStackData::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::GameScenesManager_ScenesStackData::set_container)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3303984;
+  constexpr static std::size_t addrs = 0x3301654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager_ScenesStackData::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::GlobalNamespace::GameScenesManager_ScenesStackData::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x33000b0;
+  constexpr static std::size_t addrs = 0x32fdd80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager_ScenesStackData*>(),
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager_ScenesStackData::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::GameScenesManager_ScenesStackData::SetDiContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x330398c;
+  constexpr static std::size_t addrs = 0x330165c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass43_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass43_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x330059c;
+  constexpr static std::size_t addrs = 0x32fe26c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass43_0*>(), { ".ctor", {}, {} })));
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass43_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::GameScenesManager___c__DisplayClass43_0::_PushScenesAsync_b__0)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3303994;
+  constexpr static std::size_t addrs = 0x3301664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass43_0*>(),
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass44_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass44_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x33008ec;
+  constexpr static std::size_t addrs = 0x32fe5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass44_0*>(), { ".ctor", {}, {} })));
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass44_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::GameScenesManager___c__DisplayClass44_0::_PushScenes_b__0)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x33039f8;
+  constexpr static std::size_t addrs = 0x33016c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass44_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::GameScenesManager___c__DisplayClass44_0::_PushScenes_b__1)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3303bac;
+  constexpr static std::size_t addrs = 0x330187c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -334,7 +334,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass45_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass45_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3300bb0;
+  constexpr static std::size_t addrs = 0x32fe880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass45_0*>(), { ".ctor", {}, {} })));
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass45_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::GameScenesManager___c__DisplayClass45_0::_PopScenes_b__0)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3303c28;
+  constexpr static std::size_t addrs = 0x33018f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -400,7 +400,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass46_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass46_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3300cf8;
+  constexpr static std::size_t addrs = 0x32fe9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass46_0*>(), { ".ctor", {}, {} })));
@@ -413,7 +413,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass46_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::GameScenesManager___c__DisplayClass46_0::_ReplaceScenesAsync_b__0)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3303ce4;
+  constexpr static std::size_t addrs = 0x33019b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass46_0*>(),
@@ -452,7 +452,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass47_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass47_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3301074;
+  constexpr static std::size_t addrs = 0x32fed44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass47_0*>(), { ".ctor", {}, {} })));
@@ -465,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass47_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::GameScenesManager___c__DisplayClass47_0::_ReplaceScenes_b__0)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3303d48;
+  constexpr static std::size_t addrs = 0x3301a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass47_0*>(),
@@ -479,7 +479,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass47_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::GameScenesManager___c__DisplayClass47_0::_ReplaceScenes_b__1)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3303e70;
+  constexpr static std::size_t addrs = 0x3301b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass47_0*>(),
@@ -493,7 +493,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass47_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::GameScenesManager___c__DisplayClass47_0::_ReplaceScenes_b__2)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3303edc;
+  constexpr static std::size_t addrs = 0x3301bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass47_0*>(),
@@ -629,7 +629,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass48_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass48_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x330165c;
+  constexpr static std::size_t addrs = 0x32ff32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass48_0*>(), { ".ctor", {}, {} })));
@@ -642,7 +642,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass48_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::GameScenesManager___c__DisplayClass48_0::_ClearAndOpenScenes_b__0)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3303f58;
+  constexpr static std::size_t addrs = 0x3301c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass48_0*>(),
@@ -656,7 +656,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass48_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::GameScenesManager___c__DisplayClass48_0::_ClearAndOpenScenes_b__1)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3304080;
+  constexpr static std::size_t addrs = 0x3301d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass48_0*>(),
@@ -670,7 +670,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass48_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::GameScenesManager___c__DisplayClass48_0::_ClearAndOpenScenes_b__2)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x33040ec;
+  constexpr static std::size_t addrs = 0x3301dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass48_0*>(),
@@ -803,7 +803,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass49_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass49_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3301a3c;
+  constexpr static std::size_t addrs = 0x32ff70c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass49_0*>(), { ".ctor", {}, {} })));
@@ -816,7 +816,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass49_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::GameScenesManager___c__DisplayClass49_0::_AppendScenes_b__0)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3304168;
+  constexpr static std::size_t addrs = 0x3301e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -831,7 +831,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass49_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::GameScenesManager___c__DisplayClass49_0::_AppendScenes_b__1)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x33041d4;
+  constexpr static std::size_t addrs = 0x3301ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -914,7 +914,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass50_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass50_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3301e00;
+  constexpr static std::size_t addrs = 0x32ffad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass50_0*>(), { ".ctor", {}, {} })));
@@ -927,7 +927,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass50_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::GameScenesManager___c__DisplayClass50_0::_RemoveScenes_b__0)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3304250;
+  constexpr static std::size_t addrs = 0x3301f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -942,7 +942,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager___c__DisplayClass50_0::*)(::StringW)>(
     &::GlobalNamespace::GameScenesManager___c__DisplayClass50_0::_RemoveScenes_b__1)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x330430c;
+  constexpr static std::size_t addrs = 0x3301fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1011,7 +1011,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass51_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass51_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3301fb0;
+  constexpr static std::size_t addrs = 0x32ffc80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass51_0*>(), { ".ctor", {}, {} })));
@@ -1024,7 +1024,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass51_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::GameScenesManager___c__DisplayClass51_0::_ActivateScenes_b__0)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3304374;
+  constexpr static std::size_t addrs = 0x3302044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass51_0*>(),
@@ -1088,7 +1088,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass52_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass52_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3302160;
+  constexpr static std::size_t addrs = 0x32ffe30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass52_0*>(), { ".ctor", {}, {} })));
@@ -1101,7 +1101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass52_0::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::GameScenesManager___c__DisplayClass52_0::_DeactivateScenes_b__0)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x33043e8;
+  constexpr static std::size_t addrs = 0x33020b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass52_0*>(),
@@ -1164,7 +1164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager___c__DisplayClass60_0::*)()>(&::GlobalNamespace::GameScenesManager___c__DisplayClass60_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x330445c;
+  constexpr static std::size_t addrs = 0x330212c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager___c__DisplayClass60_0*>(), { ".ctor", {}, {} })));
@@ -1177,7 +1177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager___c__DisplayClass60_0::*)()>(
     &::GlobalNamespace::GameScenesManager___c__DisplayClass60_0::_WaitUntilTaskCompleted_b__0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3304460;
+  constexpr static std::size_t addrs = 0x3302130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1216,7 +1216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__LoadOneScene_d__55::*)(int32_t)>(&::GlobalNamespace::GameScenesManager__LoadOneScene_d__55::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3302164;
+  constexpr static std::size_t addrs = 0x32ffe34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1230,7 +1230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__LoadOneScene_d__55::*)()>(
     &::GlobalNamespace::GameScenesManager__LoadOneScene_d__55::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3304478;
+  constexpr static std::size_t addrs = 0x3302148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1243,7 +1243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager__LoadOneScene_d__55::*)()>(&::GlobalNamespace::GameScenesManager__LoadOneScene_d__55::MoveNext)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x330447c;
+  constexpr static std::size_t addrs = 0x330214c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__55*>(), { "MoveNext", {}, {} })));
@@ -1256,7 +1256,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__LoadOneScene_d__55::*)()>(
     &::GlobalNamespace::GameScenesManager__LoadOneScene_d__55::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33045b0;
+  constexpr static std::size_t addrs = 0x3302280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__LoadOneScene_d__55*>(),
@@ -1270,7 +1270,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__LoadOneScene_d__55::*)()>(
     &::GlobalNamespace::GameScenesManager__LoadOneScene_d__55::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x33045b8;
+  constexpr static std::size_t addrs = 0x3302288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1284,7 +1284,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__LoadOneScene_d__55::*)()>(
     &::GlobalNamespace::GameScenesManager__LoadOneScene_d__55::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33045f0;
+  constexpr static std::size_t addrs = 0x33022c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1406,7 +1406,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57::*)(int32_t)>(
     &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3302174;
+  constexpr static std::size_t addrs = 0x32ffe44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1420,7 +1420,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57::*)()>(
     &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x33045f8;
+  constexpr static std::size_t addrs = 0x33022c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1434,7 +1434,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57::*)()>(
     &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57::MoveNext)> {
   constexpr static std::size_t size = 0x195c;
-  constexpr static std::size_t addrs = 0x3304638;
+  constexpr static std::size_t addrs = 0x3302308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1448,7 +1448,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57::*)()>(
     &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3305f94;
+  constexpr static std::size_t addrs = 0x3303c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1462,7 +1462,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57::*)()>(
     &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57::__m__Finally2)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3306048;
+  constexpr static std::size_t addrs = 0x3303d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1476,7 +1476,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57::*)()>(
     &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33060fc;
+  constexpr static std::size_t addrs = 0x3303dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57*>(),
@@ -1490,7 +1490,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57::*)()>(
     &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3306104;
+  constexpr static std::size_t addrs = 0x3303dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1504,7 +1504,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57::*)()>(
     &::GlobalNamespace::GameScenesManager__ScenesTransitionCoroutine_d__57::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x330613c;
+  constexpr static std::size_t addrs = 0x3303e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1822,7 +1822,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__UnloadOneScene_d__56::*)(int32_t)>(
     &::GlobalNamespace::GameScenesManager__UnloadOneScene_d__56::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x330216c;
+  constexpr static std::size_t addrs = 0x32ffe3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1836,7 +1836,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__UnloadOneScene_d__56::*)()>(
     &::GlobalNamespace::GameScenesManager__UnloadOneScene_d__56::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3306144;
+  constexpr static std::size_t addrs = 0x3303e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1849,7 +1849,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager__UnloadOneScene_d__56::*)()>(&::GlobalNamespace::GameScenesManager__UnloadOneScene_d__56::MoveNext)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3306148;
+  constexpr static std::size_t addrs = 0x3303e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__56*>(), { "MoveNext", {}, {} })));
@@ -1862,7 +1862,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__UnloadOneScene_d__56::*)()>(
     &::GlobalNamespace::GameScenesManager__UnloadOneScene_d__56::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3306274;
+  constexpr static std::size_t addrs = 0x3303f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__UnloadOneScene_d__56*>(),
@@ -1876,7 +1876,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__UnloadOneScene_d__56::*)()>(
     &::GlobalNamespace::GameScenesManager__UnloadOneScene_d__56::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x330627c;
+  constexpr static std::size_t addrs = 0x3303f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1890,7 +1890,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__UnloadOneScene_d__56::*)()>(
     &::GlobalNamespace::GameScenesManager__UnloadOneScene_d__56::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33062b4;
+  constexpr static std::size_t addrs = 0x3303f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2011,7 +2011,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__60::*)(int32_t)>(
     &::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__60::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33024e0;
+  constexpr static std::size_t addrs = 0x33001b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2025,7 +2025,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__60::*)()>(
     &::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__60::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x33062bc;
+  constexpr static std::size_t addrs = 0x3303f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2039,7 +2039,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__60::*)()>(
     &::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__60::MoveNext)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x33062c0;
+  constexpr static std::size_t addrs = 0x3303f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2053,7 +2053,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__60::*)()>(
     &::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__60::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3306538;
+  constexpr static std::size_t addrs = 0x3304208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__60*>(),
@@ -2067,7 +2067,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__60::*)()>(
     &::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__60::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3306540;
+  constexpr static std::size_t addrs = 0x3304210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2081,7 +2081,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__60::*)()>(
     &::GlobalNamespace::GameScenesManager__WaitUntilTaskCompleted_d__60::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3306578;
+  constexpr static std::size_t addrs = 0x3304248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2203,7 +2203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::System::Action_2<::GlobalNamespace::GameScenesManager_SceneTransitionType, float_t>*)>(
     &::GlobalNamespace::GameScenesManager::add_transitionDidStartEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32ff2c0;
+  constexpr static std::size_t addrs = 0x32fcf90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2218,7 +2218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::System::Action_2<::GlobalNamespace::GameScenesManager_SceneTransitionType, float_t>*)>(
     &::GlobalNamespace::GameScenesManager::remove_transitionDidStartEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32ff380;
+  constexpr static std::size_t addrs = 0x32fd050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2234,7 +2234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*)>(
     &::GlobalNamespace::GameScenesManager::add_scenesWillBeDismissedAfterLoadEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32ff440;
+  constexpr static std::size_t addrs = 0x32fd110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2250,7 +2250,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*)>(
     &::GlobalNamespace::GameScenesManager::remove_scenesWillBeDismissedAfterLoadEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32ff500;
+  constexpr static std::size_t addrs = 0x32fd1d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2266,7 +2266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*)>(
     &::GlobalNamespace::GameScenesManager::add_beforeDismissingScenesEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32fe9f8;
+  constexpr static std::size_t addrs = 0x32fc6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2281,7 +2281,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*)>(
     &::GlobalNamespace::GameScenesManager::remove_beforeDismissingScenesEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32fdf54;
+  constexpr static std::size_t addrs = 0x32fbc24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2297,7 +2297,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_3<::GlobalNamespace::GameScenesManager_SceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*>*)>(
     &::GlobalNamespace::GameScenesManager::add_transitionDidFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32ff5c0;
+  constexpr static std::size_t addrs = 0x32fd290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2317,7 +2317,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_3<::GlobalNamespace::GameScenesManager_SceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*>*)>(
     &::GlobalNamespace::GameScenesManager::remove_transitionDidFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32ff680;
+  constexpr static std::size_t addrs = 0x32fd350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2336,7 +2336,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::System::Action_2<::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*>*)>(
     &::GlobalNamespace::GameScenesManager::add_installEarlyBindingsEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32ff740;
+  constexpr static std::size_t addrs = 0x32fd410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2352,7 +2352,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::System::Action_2<::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*>*)>(
     &::GlobalNamespace::GameScenesManager::remove_installEarlyBindingsEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32ff800;
+  constexpr static std::size_t addrs = 0x32fd4d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2367,7 +2367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::DiContainer* (::GlobalNamespace::GameScenesManager::*)()>(&::GlobalNamespace::GameScenesManager::get_currentScenesContainer)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x32ff8c0;
+  constexpr static std::size_t addrs = 0x32fd590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(), { "get_currentScenesContainer", {}, {} })));
@@ -2379,7 +2379,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager::*)()>(&::GlobalNamespace::GameScenesManager::get_isInTransition)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x32fe0d8;
+  constexpr static std::size_t addrs = 0x32fbda8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(), { "get_isInTransition", {}, {} })));
@@ -2392,7 +2392,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameScenesManager_SceneTransitionType (::GlobalNamespace::GameScenesManager::*)()>(
     &::GlobalNamespace::GameScenesManager::get_currentSceneTransitionType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32ff91c;
+  constexpr static std::size_t addrs = 0x32fd5ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(), { "get_currentSceneTransitionType", {}, {} })));
@@ -2405,7 +2405,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::WaitUntil* (::GlobalNamespace::GameScenesManager::*)()>(
     &::GlobalNamespace::GameScenesManager::get_waitUntilSceneTransitionFinish)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x32ff924;
+  constexpr static std::size_t addrs = 0x32fd5f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2420,7 +2420,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::StringW, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>* (
     ::GlobalNamespace::GameScenesManager::*)()>(&::GlobalNamespace::GameScenesManager::get_sceneNameToSceneOperationHandlesDictionary)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32ff9c8;
+  constexpr static std::size_t addrs = 0x32fd698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2433,7 +2433,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::StringW)>(&::GlobalNamespace::GameScenesManager::MarkSceneAsPersistent)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x32fe988;
+  constexpr static std::size_t addrs = 0x32fc658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2447,7 +2447,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::GlobalNamespace::GameScenesManager::*)()>(
     &::GlobalNamespace::GameScenesManager::GetCurrentlyLoadedSceneNames)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x32ff9d0;
+  constexpr static std::size_t addrs = 0x32fd6a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(), { "GetCurrentlyLoadedSceneNames", {}, {} })));
@@ -2461,7 +2461,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::StringW, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>)>(
     &::GlobalNamespace::GameScenesManager::RegisterExternallyLoadedScene)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x32ffbc4;
+  constexpr static std::size_t addrs = 0x32fd894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2480,7 +2480,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::StringW)>(&::GlobalNamespace::GameScenesManager::LoadSingleScene)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x32ffc5c;
+  constexpr static std::size_t addrs = 0x32fd92c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2493,7 +2493,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::StringW)>(&::GlobalNamespace::GameScenesManager::UnloadSingleScene)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3300170;
+  constexpr static std::size_t addrs = 0x32fde40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2506,7 +2506,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager::*)(::StringW)>(&::GlobalNamespace::GameScenesManager::IsSceneActiveOrLoading)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3300454;
+  constexpr static std::size_t addrs = 0x32fe124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2520,7 +2520,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::Zenject::DiContainer*>* (
     ::GlobalNamespace::GameScenesManager::*)(::GlobalNamespace::ScenesTransitionSetupData*, float_t, ::System::Action*)>(&::GlobalNamespace::GameScenesManager::PushScenesAsync)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3300458;
+  constexpr static std::size_t addrs = 0x32fe128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2536,7 +2536,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(
     ::GlobalNamespace::ScenesTransitionSetupData*, float_t, ::System::Action*, ::System::Action_1<::Zenject::DiContainer*>*)>(&::GlobalNamespace::GameScenesManager::PushScenes)> {
   constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x33005a0;
+  constexpr static std::size_t addrs = 0x32fe270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2554,7 +2554,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(float_t, ::System::Action*, ::System::Action_1<::Zenject::DiContainer*>*)>(
     &::GlobalNamespace::GameScenesManager::PopScenes)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x33009b4;
+  constexpr static std::size_t addrs = 0x32fe684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2571,7 +2571,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::GameScenesManager::*)(::GlobalNamespace::ScenesTransitionSetupData*, ::ArrayW<::System::Collections::IEnumerator*>, float_t, ::System::Action*)>(
     &::GlobalNamespace::GameScenesManager::ReplaceScenesAsync)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3300bb4;
+  constexpr static std::size_t addrs = 0x32fe884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2590,7 +2590,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                       float_t, ::System::Action*, ::System::Action_1<::Zenject::DiContainer*>*)>(
     &::GlobalNamespace::GameScenesManager::ReplaceScenes)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x3300cfc;
+  constexpr static std::size_t addrs = 0x32fe9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2608,7 +2608,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(
     ::GlobalNamespace::ScenesTransitionSetupData*, float_t, ::System::Action*, ::System::Action_1<::Zenject::DiContainer*>*, bool)>(&::GlobalNamespace::GameScenesManager::ClearAndOpenScenes)> {
   constexpr static std::size_t size = 0x5e4;
-  constexpr static std::size_t addrs = 0x3301078;
+  constexpr static std::size_t addrs = 0x32fed48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2626,7 +2626,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(
     ::GlobalNamespace::ScenesTransitionSetupData*, bool, float_t, ::System::Action*, ::System::Action_1<::Zenject::DiContainer*>*)>(&::GlobalNamespace::GameScenesManager::AppendScenes)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x3301660;
+  constexpr static std::size_t addrs = 0x32ff330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2644,7 +2644,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(
     ::GlobalNamespace::ScenesTransitionSetupData*, float_t, ::System::Action*, ::System::Action_1<::Zenject::DiContainer*>*)>(&::GlobalNamespace::GameScenesManager::RemoveScenes)> {
   constexpr static std::size_t size = 0x3c0;
-  constexpr static std::size_t addrs = 0x3301a40;
+  constexpr static std::size_t addrs = 0x32ff710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2662,7 +2662,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(
     ::GlobalNamespace::ScenesTransitionSetupData*, float_t, ::System::Action*, ::System::Action_1<::Zenject::DiContainer*>*)>(&::GlobalNamespace::GameScenesManager::ActivateScenes)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x3301e04;
+  constexpr static std::size_t addrs = 0x32ffad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2680,7 +2680,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(
     ::GlobalNamespace::ScenesTransitionSetupData*, float_t, ::System::Action*, ::System::Action_1<::Zenject::DiContainer*>*)>(&::GlobalNamespace::GameScenesManager::DeactivateScenes)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x3301fb4;
+  constexpr static std::size_t addrs = 0x32ffc84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2697,7 +2697,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::GameScenesManager::*)(::StringW)>(&::GlobalNamespace::GameScenesManager::LoadOneScene)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3300110;
+  constexpr static std::size_t addrs = 0x32fdde0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2711,7 +2711,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::GameScenesManager::*)(::StringW)>(
     &::GlobalNamespace::GameScenesManager::UnloadOneScene)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x33003f4;
+  constexpr static std::size_t addrs = 0x32fe0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2728,7 +2728,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IE
                                              ::GlobalNamespace::GameScenesManager_SceneDismissType, float_t, bool, ::System::Action*, ::System::Action_1<::Zenject::DiContainer*>*,
                                              ::System::Action_1<::Zenject::DiContainer*>*)>(&::GlobalNamespace::GameScenesManager::ScenesTransitionCoroutine)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x33008f0;
+  constexpr static std::size_t addrs = 0x32fe5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2748,7 +2748,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Collections::Generic::IReadOnlyList_1<::StringW>*)>(&::GlobalNamespace::GameScenesManager::ShouldUnloadUnusedAssets)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x330217c;
+  constexpr static std::size_t addrs = 0x32ffe4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2763,7 +2763,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(
     ::by_ref<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>*>)>(&::GlobalNamespace::GameScenesManager::BackupToListAndDisableCurrentEventSystem)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x330232c;
+  constexpr static std::size_t addrs = 0x32ffffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2779,7 +2779,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (*)(::System::Threading::Tasks::Task*)>(&::GlobalNamespace::GameScenesManager::WaitUntilTaskCompleted)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x330248c;
+  constexpr static std::size_t addrs = 0x330015c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2792,7 +2792,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(&::GlobalNamespace::GameScenesManager::ActivatePresentedSceneRootObjects)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x33024e8;
+  constexpr static std::size_t addrs = 0x33001b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2807,7 +2807,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::GlobalNamespace::GameScenesManager::IsAnySceneInStack)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x3302974;
+  constexpr static std::size_t addrs = 0x3300644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2822,7 +2822,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::GlobalNamespace::GameScenesManager::AreAllScenesInStack)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x3302c38;
+  constexpr static std::size_t addrs = 0x3300908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2836,7 +2836,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager::*)(::StringW)>(&::GlobalNamespace::GameScenesManager::IsSceneInStack)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x32ffed8;
+  constexpr static std::size_t addrs = 0x32fdba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2849,7 +2849,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::StringW)>(&::GlobalNamespace::GameScenesManager::RemoveSceneFromStack)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x33002b4;
+  constexpr static std::size_t addrs = 0x32fdf84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2863,7 +2863,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*, bool)>(
     &::GlobalNamespace::GameScenesManager::SetActiveRootObjectsInScenes)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x3302ef4;
+  constexpr static std::size_t addrs = 0x3300bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2877,7 +2877,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::StringW)>(&::GlobalNamespace::GameScenesManager::ReparentRootGameObjectsToDisabledGameObject)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x33031e4;
+  constexpr static std::size_t addrs = 0x3300eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2890,7 +2890,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)(::StringW)>(&::GlobalNamespace::GameScenesManager::MoveGameObjectsFromContainerToSceneRoot)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x3303458;
+  constexpr static std::size_t addrs = 0x3301128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2903,7 +2903,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::GameScenesManager::Log)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x33037e4;
+  constexpr static std::size_t addrs = 0x33014b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(), { "Log", {}, { ::i2c::type_of<::StringW>() } })));
@@ -2915,7 +2915,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameScenesManager::*)()>(&::GlobalNamespace::GameScenesManager::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3303840;
+  constexpr static std::size_t addrs = 0x3301510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameScenesManager*>(), { ".ctor", {}, {} })));
@@ -2927,7 +2927,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameScenesManager::*)()>(&::GlobalNamespace::GameScenesManager::_get_waitUntilSceneTransitionFinish_b__27_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x330396c;
+  constexpr static std::size_t addrs = 0x330163c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleSaberSparkleEffectManager::*)(::System::Action_1<::GlobalNamespace::SaberType>*)>(
     &::GlobalNamespace::ObstacleSaberSparkleEffectManager::add_sparkleEffectDidStartEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x598a498;
+  constexpr static std::size_t addrs = 0x5988b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleSaberSparkleEffectManager::*)(::System::Action_1<::GlobalNamespace::SaberType>*)>(
     &::GlobalNamespace::ObstacleSaberSparkleEffectManager::remove_sparkleEffectDidStartEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x598a558;
+  constexpr static std::size_t addrs = 0x5988c1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleSaberSparkleEffectManager::*)(::System::Action_1<::GlobalNamespace::SaberType>*)>(
     &::GlobalNamespace::ObstacleSaberSparkleEffectManager::add_sparkleEffectDidEndEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x598a618;
+  constexpr static std::size_t addrs = 0x5988cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleSaberSparkleEffectManager::*)(::System::Action_1<::GlobalNamespace::SaberType>*)>(
     &::GlobalNamespace::ObstacleSaberSparkleEffectManager::remove_sparkleEffectDidEndEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x598a6d8;
+  constexpr static std::size_t addrs = 0x5988d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleSaberSparkleEffectManager::*)()>(&::GlobalNamespace::ObstacleSaberSparkleEffectManager::Start)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x598a798;
+  constexpr static std::size_t addrs = 0x5988e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleSaberSparkleEffectManager*>(), { "Start", {}, {} })));
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleSaberSparkleEffectManager::*)()>(&::GlobalNamespace::ObstacleSaberSparkleEffectManager::Update)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x598aa9c;
+  constexpr static std::size_t addrs = 0x5989160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleSaberSparkleEffectManager*>(), { "Update", {}, {} })));
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::Saber*, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>*, ::by_ref<bool>,
                                                                 ::by_ref<::UnityEngine::Pose>)>(&::GlobalNamespace::ObstacleSaberSparkleEffectManager::IntersectSaberWithObstacles)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x598ad50;
+  constexpr static std::size_t addrs = 0x5989414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Bounds, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::ObstacleSaberSparkleEffectManager::IntersectBounds)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x598b28c;
+  constexpr static std::size_t addrs = 0x5989950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Bounds>, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::by_ref<::UnityEngine::Pose>)>(
     &::GlobalNamespace::ObstacleSaberSparkleEffectManager::IntersectBoxSurfacePose)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x598b248;
+  constexpr static std::size_t addrs = 0x598990c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleSaberSparkleEffectManager*>(),
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Bounds>, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::by_ref<::UnityEngine::Vector3>)>(
     &::GlobalNamespace::ObstacleSaberSparkleEffectManager::IntersectBoxSurfacePosition)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x598b46c;
+  constexpr static std::size_t addrs = 0x5989b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleSaberSparkleEffectManager*>(),
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::by_ref<::UnityEngine::Bounds>, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::ObstacleSaberSparkleEffectManager::FindBoxSurfaceRotation)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x598b818;
+  constexpr static std::size_t addrs = 0x5989edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleSaberSparkleEffectManager::*)()>(&::GlobalNamespace::ObstacleSaberSparkleEffectManager::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x598b9c4;
+  constexpr static std::size_t addrs = 0x598a088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleSaberSparkleEffectManager*>(), { ".ctor", {}, {} })));

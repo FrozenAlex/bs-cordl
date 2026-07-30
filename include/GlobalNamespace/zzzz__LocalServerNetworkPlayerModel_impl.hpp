@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfig::*)()>(
     &::GlobalNamespace::LocalServerNetworkPlayerModel_LocalServerJoinMatchmakingPartyConfig::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5ccbd84;
+  constexpr static std::size_t addrs = 0x5cc9af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LocalServerNetworkPlayerModel::*)()>(&::GlobalNamespace::LocalServerNetworkPlayerModel::get_secret)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5ccb93c;
+  constexpr static std::size_t addrs = 0x5cc96a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LocalServerNetworkPlayerModel::*)()>(&::GlobalNamespace::LocalServerNetworkPlayerModel::get_code)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5ccb994;
+  constexpr static std::size_t addrs = 0x5cc9700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LocalServerNetworkPlayerModel::*)()>(&::GlobalNamespace::LocalServerNetworkPlayerModel::get_partyOwnerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ccb9ec;
+  constexpr static std::size_t addrs = 0x5cc9758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameplayServerConfiguration (::GlobalNamespace::LocalServerNetworkPlayerModel::*)()>(
     &::GlobalNamespace::LocalServerNetworkPlayerModel::get_configuration)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5ccb9f4;
+  constexpr static std::size_t addrs = 0x5cc9760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapLevelSelectionMask (::GlobalNamespace::LocalServerNetworkPlayerModel::*)()>(
     &::GlobalNamespace::LocalServerNetworkPlayerModel::get_selectionMask)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5ccba70;
+  constexpr static std::size_t addrs = 0x5cc97dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>*, ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)>(
     &::GlobalNamespace::LocalServerNetworkPlayerModel::RefreshPublicServers)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5ccbaec;
+  constexpr static std::size_t addrs = 0x5cc9858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IConne
     ::GlobalNamespace::LocalServerNetworkPlayerModel::*)(::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration, ::StringW, ::StringW)>(
     &::GlobalNamespace::LocalServerNetworkPlayerModel::GetConnectToServerParams)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5ccbb78;
+  constexpr static std::size_t addrs = 0x5cc98e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IConne
     ::GlobalNamespace::LocalServerNetworkPlayerModel::*)(::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration)>(
     &::GlobalNamespace::LocalServerNetworkPlayerModel::GetStartClientParams)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5ccbc40;
+  constexpr static std::size_t addrs = 0x5cc99ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalServerNetworkPlayerModel::*)()>(&::GlobalNamespace::LocalServerNetworkPlayerModel::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5ccbce8;
+  constexpr static std::size_t addrs = 0x5cc9a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalServerNetworkPlayerModel*>(), { ".ctor", {}, {} })));

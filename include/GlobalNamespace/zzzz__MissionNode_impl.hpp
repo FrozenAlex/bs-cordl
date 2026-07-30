@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MissionDataSO> (::GlobalNamespace::MissionNode::*)()>(&::GlobalNamespace::MissionNode::get_missionData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5939940;
+  constexpr static std::size_t addrs = 0x5938128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNode*>(), { "get_missionData", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::GlobalNamespace::MissionNode>> (::GlobalNamespace::MissionNode::*)()>(&::GlobalNamespace::MissionNode::get_childNodes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5939948;
+  constexpr static std::size_t addrs = 0x5938130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNode*>(), { "get_childNodes", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MissionNodeVisualController> (::GlobalNamespace::MissionNode::*)()>(
     &::GlobalNamespace::MissionNode::get_missionNodeVisualController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5939950;
+  constexpr static std::size_t addrs = 0x5938138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNode*>(), { "get_missionNodeVisualController", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MissionNode::*)()>(&::GlobalNamespace::MissionNode::get_letterPartName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5939958;
+  constexpr static std::size_t addrs = 0x5938140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNode*>(), { "get_letterPartName", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MissionNode::*)()>(&::GlobalNamespace::MissionNode::get_numberPartName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5939960;
+  constexpr static std::size_t addrs = 0x5938148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNode*>(), { "get_numberPartName", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MissionNode::*)()>(&::GlobalNamespace::MissionNode::get_missionId)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x59385f4;
+  constexpr static std::size_t addrs = 0x5936ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNode*>(), { "get_missionId", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MissionNode::*)()>(&::GlobalNamespace::MissionNode::get_formattedMissionNodeName)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5939968;
+  constexpr static std::size_t addrs = 0x5938150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNode*>(), { "get_formattedMissionNodeName", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::MissionNode::*)()>(&::GlobalNamespace::MissionNode::get_position)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5938ccc;
+  constexpr static std::size_t addrs = 0x59374b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNode*>(), { "get_position", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MissionNode::*)()>(&::GlobalNamespace::MissionNode::get_radius)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5939a04;
+  constexpr static std::size_t addrs = 0x59381ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNode*>(), { "get_radius", {}, {} })));
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionNode::*)()>(&::GlobalNamespace::MissionNode::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5939a28;
+  constexpr static std::size_t addrs = 0x5938210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionNode*>(), { ".ctor", {}, {} })));

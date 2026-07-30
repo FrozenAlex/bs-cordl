@@ -22,7 +22,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapEditor3D::
     ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>*)>(
     &::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5973408;
+  constexpr static std::size_t addrs = 0x59721b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapEditor3D::
     ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>*)>(
     &::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59734c8;
+  constexpr static std::size_t addrs = 0x5972274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData::*)(::GlobalNamespace::LevelCompletionResults*)>(
     &::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData::Finish)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5973588;
+  constexpr static std::size_t addrs = 0x5972334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*>(),
@@ -75,7 +75,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapEditor3D::
     ::GlobalNamespace::PracticeSettings*, ::GlobalNamespace::ColorScheme*, ::GlobalNamespace::EnvironmentsListModel*, ::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::SettingsManager*,
     ::by_ref<::GlobalNamespace::BeatmapEditorStartTestLevelData>)>(&::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData::Init)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x59735b0;
+  constexpr static std::size_t addrs = 0x597235c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData::*)()>(
     &::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59735fc;
+  constexpr static std::size_t addrs = 0x59723a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass2_0::*)()>(
     &::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass2_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a118b0;
+  constexpr static std::size_t addrs = 0x5a0fcdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass2_0::*)(int32_t)>(
     &::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass2_0::_Init_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a118cc;
+  constexpr static std::size_t addrs = 0x5a0fcf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ConnectionErrorDialogViewController::*)(::GlobalNamespace::DisconnectedReason, ::System::Action*)>(
     &::GlobalNamespace::ConnectionErrorDialogViewController::Init)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x5a116dc;
+  constexpr static std::size_t addrs = 0x5a0fb08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ConnectionErrorDialogViewController::*)()>(&::GlobalNamespace::ConnectionErrorDialogViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a118c4;
+  constexpr static std::size_t addrs = 0x5a0fcf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ConnectionErrorDialogViewController*>(), { ".ctor", {}, {} })));

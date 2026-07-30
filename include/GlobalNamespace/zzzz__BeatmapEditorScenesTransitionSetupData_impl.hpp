@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEditorScenesTransitionSetupData::*)(
     ::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupData*>*)>(&::GlobalNamespace::BeatmapEditorScenesTransitionSetupData::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x590c3b8;
+  constexpr static std::size_t addrs = 0x590a8d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEditorScenesTransitionSetupData::*)(
     ::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupData*>*)>(&::GlobalNamespace::BeatmapEditorScenesTransitionSetupData::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x590c478;
+  constexpr static std::size_t addrs = 0x590a998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     bool, ::StringW, bool, ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>>)>(
     &::GlobalNamespace::BeatmapEditorScenesTransitionSetupData::Init)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x590c538;
+  constexpr static std::size_t addrs = 0x590aa58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEditorScenesTransitionSetupData::*)()>(&::GlobalNamespace::BeatmapEditorScenesTransitionSetupData::Finish)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x590c584;
+  constexpr static std::size_t addrs = 0x590aaa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEditorScenesTransitionSetupData*>(), { "Finish", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEditorScenesTransitionSetupData::*)()>(&::GlobalNamespace::BeatmapEditorScenesTransitionSetupData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x590c5a4;
+  constexpr static std::size_t addrs = 0x590aac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEditorScenesTransitionSetupData*>(), { ".ctor", {}, {} })));

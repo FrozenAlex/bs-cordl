@@ -105,28 +105,28 @@ public:
 
   constexpr void __cordl_internal_set__specialScoreColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x59fb91c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x591f3dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_playerName, addr 0x59fb6f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_playerName, addr 0x591f1b0, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_playerName();
 
-  /// @brief Method set_playerName, addr 0x59fb710, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_playerName, addr 0x591f1d0, size 0x20, virtual false, abstract: false, final false
   inline void set_playerName(::StringW value);
 
-  /// @brief Method set_rank, addr 0x59fb65c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_rank, addr 0x591f11c, size 0x94, virtual false, abstract: false, final false
   inline void set_rank(int32_t value);
 
-  /// @brief Method set_score, addr 0x59fb730, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_score, addr 0x591f1f0, size 0xb0, virtual false, abstract: false, final false
   inline void set_score(int32_t value);
 
-  /// @brief Method set_showFullCombo, addr 0x59fb7fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_showFullCombo, addr 0x591f2bc, size 0x1c, virtual false, abstract: false, final false
   inline void set_showFullCombo(bool value);
 
-  /// @brief Method set_showSeparator, addr 0x59fb7e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_showSeparator, addr 0x591f2a0, size 0x1c, virtual false, abstract: false, final false
   inline void set_showSeparator(bool value);
 
-  /// @brief Method set_specialScore, addr 0x59fb818, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method set_specialScore, addr 0x591f2d8, size 0x104, virtual false, abstract: false, final false
   inline void set_specialScore(bool value);
 
 protected:
@@ -144,7 +144,7 @@ public:
   LeaderboardTableCell(LeaderboardTableCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6297 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6790 };
 
   /// @brief Field _rankText, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____rankText;

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPause::*)()>(&::GlobalNamespace::MockPause::get_isPaused)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59a99fc;
+  constexpr static std::size_t addrs = 0x59a805c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPause*>(), { "get_isPaused", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPause::*)(::System::Action*)>(&::GlobalNamespace::MockPause::add_didPauseEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59a9a04;
+  constexpr static std::size_t addrs = 0x59a8064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPause::*)(::System::Action*)>(&::GlobalNamespace::MockPause::remove_didPauseEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59a9ab0;
+  constexpr static std::size_t addrs = 0x59a8110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPause::*)(::System::Action*)>(&::GlobalNamespace::MockPause::add_willResumeEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59a9b5c;
+  constexpr static std::size_t addrs = 0x59a81bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPause::*)(::System::Action*)>(&::GlobalNamespace::MockPause::remove_willResumeEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59a9c08;
+  constexpr static std::size_t addrs = 0x59a8268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPause::*)(::System::Action*)>(&::GlobalNamespace::MockPause::add_didResumeEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59a9cb4;
+  constexpr static std::size_t addrs = 0x59a8314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPause::*)(::System::Action*)>(&::GlobalNamespace::MockPause::remove_didResumeEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59a9d60;
+  constexpr static std::size_t addrs = 0x59a83c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPause::*)()>(&::GlobalNamespace::MockPause::Pause)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59a9e0c;
+  constexpr static std::size_t addrs = 0x59a846c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPause*>(), { "Pause", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPause::*)()>(&::GlobalNamespace::MockPause::WillResume)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59a9e44;
+  constexpr static std::size_t addrs = 0x59a84a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPause*>(), { "WillResume", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPause::*)()>(&::GlobalNamespace::MockPause::Resume)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59a9e7c;
+  constexpr static std::size_t addrs = 0x59a84dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPause*>(), { "Resume", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPause::*)()>(&::GlobalNamespace::MockPause::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59a9eb4;
+  constexpr static std::size_t addrs = 0x59a8514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPause*>(), { ".ctor", {}, {} })));

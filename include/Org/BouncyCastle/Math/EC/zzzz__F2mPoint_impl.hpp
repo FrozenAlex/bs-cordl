@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::F2mPoint::*)(
     ::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Org::BouncyCastle::Math::EC::ECFieldElement*)>(&::Org::BouncyCastle::Math::EC::F2mPoint::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x352b018;
+  constexpr static std::size_t addrs = 0x35295e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::F2mPoint::*)(
     ::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Org::BouncyCastle::Math::EC::ECFieldElement*, bool)>(&::Org::BouncyCastle::Math::EC::F2mPoint::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3522d90;
+  constexpr static std::size_t addrs = 0x3521358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Org::BouncyCastle::Math::EC::ECFieldElement*, ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*>,
     bool)>(&::Org::BouncyCastle::Math::EC::F2mPoint::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x352340c;
+  constexpr static std::size_t addrs = 0x35219d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::F2mPoint::*)()>(&::Org::BouncyCastle::Math::EC::F2mPoint::Detach)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x352b020;
+  constexpr static std::size_t addrs = 0x35295e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (::Org::BouncyCastle::Math::EC::F2mPoint::*)()>(
     &::Org::BouncyCastle::Math::EC::F2mPoint::get_YCoord)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x352b0b4;
+  constexpr static std::size_t addrs = 0x352967c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::EC::F2mPoint::*)()>(&::Org::BouncyCastle::Math::EC::F2mPoint::get_CompressionYTilde)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x352b1b4;
+  constexpr static std::size_t addrs = 0x352977c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::F2mPoint::*)(::Org::BouncyCastle::Math::EC::ECPoint*)>(
     &::Org::BouncyCastle::Math::EC::F2mPoint::Add)> {
   constexpr static std::size_t size = 0xbc4;
-  constexpr static std::size_t addrs = 0x352b284;
+  constexpr static std::size_t addrs = 0x352984c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::F2mPoint::*)()>(&::Org::BouncyCastle::Math::EC::F2mPoint::Twice)> {
   constexpr static std::size_t size = 0x8e8;
-  constexpr static std::size_t addrs = 0x352be48;
+  constexpr static std::size_t addrs = 0x352a410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::F2mPoint::*)(::Org::BouncyCastle::Math::EC::ECPoint*)>(
     &::Org::BouncyCastle::Math::EC::F2mPoint::TwicePlus)> {
   constexpr static std::size_t size = 0x544;
-  constexpr static std::size_t addrs = 0x352c730;
+  constexpr static std::size_t addrs = 0x352acf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::F2mPoint::*)()>(&::Org::BouncyCastle::Math::EC::F2mPoint::Negate)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x352cc74;
+  constexpr static std::size_t addrs = 0x352b23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::TlsDssSigner::*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDssSigner::IsValidPublicKey)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x347e584;
+  constexpr static std::size_t addrs = 0x347cb4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IDsa* (::Org::BouncyCastle::Crypto::Tls::TlsDssSigner::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDssSigner::CreateDsaImpl)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x347e600;
+  constexpr static std::size_t addrs = 0x347cbc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Org::BouncyCastle::Crypto::Tls::TlsDssSigner::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsDssSigner::get_SignatureAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x347e6c0;
+  constexpr static std::size_t addrs = 0x347cc88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsDssSigner::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsDssSigner::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x347b2d0;
+  constexpr static std::size_t addrs = 0x3479898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::TlsDssSigner*>(), { ".ctor", {}, {} })));

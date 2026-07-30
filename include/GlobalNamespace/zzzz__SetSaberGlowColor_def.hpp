@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_tintColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x59eaa94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e9188, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -135,10 +135,10 @@ public:
 
   static inline ::GlobalNamespace::SetSaberGlowColor* New_ctor();
 
-  /// @brief Method SetColors, addr 0x59ea8b4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x59e8fa8, size 0x158, virtual false, abstract: false, final false
   inline void SetColors();
 
-  /// @brief Method Start, addr 0x59eaa0c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59e9100, size 0x84, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::ColorManager* const& __cordl_internal_get__colorManager() const;
@@ -177,10 +177,10 @@ public:
 
   constexpr void __cordl_internal_set__saberTypeObject(::UnityW<::GlobalNamespace::SaberTypeObject> value);
 
-  /// @brief Method .ctor, addr 0x59eaa90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e9184, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_saberType, addr 0x59ea354, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_saberType, addr 0x59e8a48, size 0xc, virtual false, abstract: false, final false
   inline void set_saberType(::GlobalNamespace::SaberType value);
 
 protected:

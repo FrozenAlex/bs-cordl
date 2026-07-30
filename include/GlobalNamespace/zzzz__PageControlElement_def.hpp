@@ -42,7 +42,7 @@ public:
 
   static inline ::GlobalNamespace::PageControlElement* New_ctor();
 
-  /// @brief Method SetSelected, addr 0x596c708, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetSelected, addr 0x596b4b4, size 0x68, virtual false, abstract: false, final false
   inline void SetSelected(bool isSelected);
 
   constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__imageView() const;
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set__unselectedColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x596c878, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x596b624, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rectTransform, addr 0x596c870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x596b61c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
 protected:

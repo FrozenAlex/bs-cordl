@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BaseTransitionSO> (::GlobalNamespace::CanvasGroupStateTransition::*)()>(
     &::GlobalNamespace::CanvasGroupStateTransition::get_transition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x643d2b0;
+  constexpr static std::size_t addrs = 0x643b04c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::CanvasGroupStateTransition::TransitionToNormalState)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x643d2b8;
+  constexpr static std::size_t addrs = 0x643b054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::CanvasGroupStateTransition::TransitionToHighlightedState)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x643d4ec;
+  constexpr static std::size_t addrs = 0x643b288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::CanvasGroupStateTransition::TransitionToPressedState)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x643d504;
+  constexpr static std::size_t addrs = 0x643b2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::CanvasGroupStateTransition::TransitionToDisabledState)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x643d51c;
+  constexpr static std::size_t addrs = 0x643b2b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::CanvasGroupStateTransition::TransitionToSelectedState)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x643d534;
+  constexpr static std::size_t addrs = 0x643b2d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::CanvasGroupStateTransition::TransitionToSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x643d54c;
+  constexpr static std::size_t addrs = 0x643b2e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)()>(&::GlobalNamespace::CanvasGroupStateTransition::StopCurrentTransitionAnimation)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x643d564;
+  constexpr static std::size_t addrs = 0x643b300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)()>(&::GlobalNamespace::CanvasGroupStateTransition::SetNormalState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x643d5fc;
+  constexpr static std::size_t addrs = 0x643b398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)()>(&::GlobalNamespace::CanvasGroupStateTransition::SetHighlightedState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x643d624;
+  constexpr static std::size_t addrs = 0x643b3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)()>(&::GlobalNamespace::CanvasGroupStateTransition::SetPressedState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x643d64c;
+  constexpr static std::size_t addrs = 0x643b3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)()>(&::GlobalNamespace::CanvasGroupStateTransition::SetDisabledState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x643d674;
+  constexpr static std::size_t addrs = 0x643b410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)()>(&::GlobalNamespace::CanvasGroupStateTransition::SetSelectedState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x643d69c;
+  constexpr static std::size_t addrs = 0x643b438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)()>(&::GlobalNamespace::CanvasGroupStateTransition::SetSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x643d6c4;
+  constexpr static std::size_t addrs = 0x643b460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)(float_t, ::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::CanvasGroupStateTransition::StartTween)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x643d2d0;
+  constexpr static std::size_t addrs = 0x643b06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)()>(&::GlobalNamespace::CanvasGroupStateTransition::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x643d6ec;
+  constexpr static std::size_t addrs = 0x643b488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CanvasGroupStateTransition*>(), { ".ctor", {}, {} })));
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)(float_t)>(&::GlobalNamespace::CanvasGroupStateTransition::_StartTween_b__17_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x643d730;
+  constexpr static std::size_t addrs = 0x643b4cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)()>(&::GlobalNamespace::CanvasGroupStateTransition::_StartTween_b__17_1)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x643d748;
+  constexpr static std::size_t addrs = 0x643b4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CanvasGroupStateTransition*>(), { "<StartTween>b__17_1", {}, {} })));

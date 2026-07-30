@@ -19,24 +19,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::Gradient*)>(&::UnityEngine::Gradient_BindingsMarshaller::ConvertToNative)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6ac9aa0;
+  constexpr static std::size_t addrs = 0x6ac53ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gradient_BindingsMarshaller*>(), { "ConvertToNative", {}, { ::i2c::type_of<::UnityEngine::Gradient*>() } })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Gradient_BindingsMarshaller.ConvertToManaged
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Gradient* (*)(::System::IntPtr)>(&::UnityEngine::Gradient_BindingsMarshaller::ConvertToManaged)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6ac9ab4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gradient_BindingsMarshaller*>(), { "ConvertToManaged", {}, { ::i2c::type_of<::System::IntPtr>() } })));
     return ___internal_method;
   }
 };
@@ -45,11 +32,6 @@ inline ::System::IntPtr UnityEngine::Gradient_BindingsMarshaller::ConvertToNativ
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gradient_BindingsMarshaller*>(), { "ConvertToNative", {}, { ::i2c::type_of<::UnityEngine::Gradient*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr>(nullptr, ___internal_method, graident);
 }
-inline ::UnityEngine::Gradient* UnityEngine::Gradient_BindingsMarshaller::ConvertToManaged(::System::IntPtr ptr) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gradient_BindingsMarshaller*>(), { "ConvertToManaged", {}, { ::i2c::type_of<::System::IntPtr>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Gradient*>(nullptr, ___internal_method, ptr);
-}
 // Ctor Parameters []
 constexpr ::UnityEngine::Gradient_BindingsMarshaller::Gradient_BindingsMarshaller() {}
 //  Writing Method size for method: ::UnityEngine::Gradient.Init
@@ -57,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::Gradient::Init)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6ac8cc8;
+  constexpr static std::size_t addrs = 0x6ac4614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gradient*>(), { "Init", {}, {} })));
@@ -69,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Gradient::*)()>(&::UnityEngine::Gradient::Cleanup)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6ac8cf0;
+  constexpr static std::size_t addrs = 0x6ac463c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gradient*>(), { "Cleanup", {}, {} })));
@@ -81,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Gradient::*)(::System::IntPtr)>(&::UnityEngine::Gradient::Internal_Equals)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6ac8d7c;
+  constexpr static std::size_t addrs = 0x6ac46c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Gradient::*)()>(&::UnityEngine::Gradient::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6ac8e18;
+  constexpr static std::size_t addrs = 0x6ac4764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gradient*>(), { ".ctor", {}, {} })));
@@ -106,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Gradient::*)(::System::IntPtr)>(&::UnityEngine::Gradient::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ac8e60;
+  constexpr static std::size_t addrs = 0x6ac47ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gradient*>(), { ".ctor", {}, { ::i2c::type_of<::System::IntPtr>() } })));
@@ -118,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Gradient::*)()>(&::UnityEngine::Gradient::Finalize)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6ac8e6c;
+  constexpr static std::size_t addrs = 0x6ac47b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Gradient*>(), { ::i2c::class_of<::UnityEngine::Gradient*>(), 1 }));
@@ -130,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::Gradient::*)(float_t)>(&::UnityEngine::Gradient::Evaluate)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6ac8eb8;
+  constexpr static std::size_t addrs = 0x6ac4804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gradient*>(), { "Evaluate", {}, { ::i2c::type_of<float_t>() } })));
@@ -142,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::GradientColorKey> (::UnityEngine::Gradient::*)()>(&::UnityEngine::Gradient::get_colorKeys)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6ac8f88;
+  constexpr static std::size_t addrs = 0x6ac48d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gradient*>(), { "get_colorKeys", {}, {} })));
@@ -154,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Gradient::*)(::ArrayW<::UnityEngine::GradientColorKey>)>(&::UnityEngine::Gradient::set_colorKeys)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6ac9118;
+  constexpr static std::size_t addrs = 0x6ac4a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::GradientAlphaKey> (::UnityEngine::Gradient::*)()>(&::UnityEngine::Gradient::get_alphaKeys)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6ac924c;
+  constexpr static std::size_t addrs = 0x6ac4b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gradient*>(), { "get_alphaKeys", {}, {} })));
@@ -179,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Gradient::*)(::ArrayW<::UnityEngine::GradientAlphaKey>)>(&::UnityEngine::Gradient::set_alphaKeys)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6ac93dc;
+  constexpr static std::size_t addrs = 0x6ac4d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GradientMode (::UnityEngine::Gradient::*)()>(&::UnityEngine::Gradient::get_mode)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6ac9510;
+  constexpr static std::size_t addrs = 0x6ac4e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gradient*>(), { "get_mode", {}, {} })));
@@ -204,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Gradient::*)(::UnityEngine::GradientMode)>(&::UnityEngine::Gradient::set_mode)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6ac959c;
+  constexpr static std::size_t addrs = 0x6ac4ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ColorSpace (::UnityEngine::Gradient::*)()>(&::UnityEngine::Gradient::get_colorSpace)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6ac9638;
+  constexpr static std::size_t addrs = 0x6ac4f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Gradient*>(), { "get_colorSpace", {}, {} })));
@@ -229,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Gradient::*)(::UnityEngine::ColorSpace)>(&::UnityEngine::Gradient::set_colorSpace)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6ac96c4;
+  constexpr static std::size_t addrs = 0x6ac5010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Gradient::*)(::ArrayW<::UnityEngine::GradientColorKey>, ::ArrayW<::UnityEngine::GradientAlphaKey>)>(
     &::UnityEngine::Gradient::SetKeys)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6ac9760;
+  constexpr static std::size_t addrs = 0x6ac50ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -257,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Gradient::*)(::System::Object*)>(&::UnityEngine::Gradient::Equals)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6ac9914;
+  constexpr static std::size_t addrs = 0x6ac5260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Gradient*>(), { ::i2c::class_of<::UnityEngine::Gradient*>(), 0 }));
@@ -269,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Gradient::*)(::UnityEngine::Gradient*)>(&::UnityEngine::Gradient::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6ac9a08;
+  constexpr static std::size_t addrs = 0x6ac5354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -282,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Gradient::*)()>(&::UnityEngine::Gradient::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ac9a98;
+  constexpr static std::size_t addrs = 0x6ac53e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Gradient*>(), { ::i2c::class_of<::UnityEngine::Gradient*>(), 2 }));
@@ -294,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Gradient::Cleanup_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ac8d40;
+  constexpr static std::size_t addrs = 0x6ac468c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -307,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::Gradient::Internal_Equals_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ac8dd4;
+  constexpr static std::size_t addrs = 0x6ac4720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -321,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t, ::by_ref<::UnityEngine::Color>)>(&::UnityEngine::Gradient::Evaluate_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6ac8f34;
+  constexpr static std::size_t addrs = 0x6ac4880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -335,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(&::UnityEngine::Gradient::get_colorKeys_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ac90d4;
+  constexpr static std::size_t addrs = 0x6ac4a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -349,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::Gradient::set_colorKeys_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ac9208;
+  constexpr static std::size_t addrs = 0x6ac4b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -363,7 +345,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(&::UnityEngine::Gradient::get_alphaKeys_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ac9398;
+  constexpr static std::size_t addrs = 0x6ac4ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -377,7 +359,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::Gradient::set_alphaKeys_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ac94cc;
+  constexpr static std::size_t addrs = 0x6ac4e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -391,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GradientMode (*)(::System::IntPtr)>(&::UnityEngine::Gradient::get_mode_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ac9560;
+  constexpr static std::size_t addrs = 0x6ac4eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -404,7 +386,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::GradientMode)>(&::UnityEngine::Gradient::set_mode_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ac95f4;
+  constexpr static std::size_t addrs = 0x6ac4f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -418,7 +400,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ColorSpace (*)(::System::IntPtr)>(&::UnityEngine::Gradient::get_colorSpace_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ac9688;
+  constexpr static std::size_t addrs = 0x6ac4fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -431,7 +413,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::ColorSpace)>(&::UnityEngine::Gradient::set_colorSpace_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ac971c;
+  constexpr static std::size_t addrs = 0x6ac5068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -446,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::Gradient::SetKeys_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6ac98c0;
+  constexpr static std::size_t addrs = 0x6ac520c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

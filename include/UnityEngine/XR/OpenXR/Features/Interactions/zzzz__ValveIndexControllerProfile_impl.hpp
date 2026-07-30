@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_system)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a189f0;
+  constexpr static std::size_t addrs = 0x6a1678c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_system)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a189f8;
+  constexpr static std::size_t addrs = 0x6a16794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_systemTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18a00;
+  constexpr static std::size_t addrs = 0x6a1679c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_systemTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18a08;
+  constexpr static std::size_t addrs = 0x6a167a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_primaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18a10;
+  constexpr static std::size_t addrs = 0x6a167ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_primaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18a18;
+  constexpr static std::size_t addrs = 0x6a167b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_primaryTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18a20;
+  constexpr static std::size_t addrs = 0x6a167bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_primaryTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18a28;
+  constexpr static std::size_t addrs = 0x6a167c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_secondaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18a30;
+  constexpr static std::size_t addrs = 0x6a167cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_secondaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18a38;
+  constexpr static std::size_t addrs = 0x6a167d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_secondaryTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18a40;
+  constexpr static std::size_t addrs = 0x6a167dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_secondaryTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18a48;
+  constexpr static std::size_t addrs = 0x6a167e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_grip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18a50;
+  constexpr static std::size_t addrs = 0x6a167ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_grip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18a58;
+  constexpr static std::size_t addrs = 0x6a167f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_gripPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18a60;
+  constexpr static std::size_t addrs = 0x6a167fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_gripPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18a68;
+  constexpr static std::size_t addrs = 0x6a16804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_gripForce)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18a70;
+  constexpr static std::size_t addrs = 0x6a1680c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_gripForce)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18a78;
+  constexpr static std::size_t addrs = 0x6a16814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -295,7 +295,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18a80;
+  constexpr static std::size_t addrs = 0x6a1681c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18a88;
+  constexpr static std::size_t addrs = 0x6a16824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -325,7 +325,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18a90;
+  constexpr static std::size_t addrs = 0x6a1682c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18a98;
+  constexpr static std::size_t addrs = 0x6a16834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -356,7 +356,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_triggerTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18aa0;
+  constexpr static std::size_t addrs = 0x6a1683c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -371,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_triggerTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18aa8;
+  constexpr static std::size_t addrs = 0x6a16844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -387,7 +387,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::Vector2Control* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_thumbstick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18ab0;
+  constexpr static std::size_t addrs = 0x6a1684c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::Vector2Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_thumbstick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18ab8;
+  constexpr static std::size_t addrs = 0x6a16854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -418,7 +418,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_thumbstickClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18ac0;
+  constexpr static std::size_t addrs = 0x6a1685c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -433,7 +433,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_thumbstickClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18ac8;
+  constexpr static std::size_t addrs = 0x6a16864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -449,7 +449,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_thumbstickTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18ad0;
+  constexpr static std::size_t addrs = 0x6a1686c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -464,7 +464,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_thumbstickTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18ad8;
+  constexpr static std::size_t addrs = 0x6a16874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -480,7 +480,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::Vector2Control* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_trackpad)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18ae0;
+  constexpr static std::size_t addrs = 0x6a1687c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -494,7 +494,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::Vector2Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_trackpad)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18ae8;
+  constexpr static std::size_t addrs = 0x6a16884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -510,7 +510,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_trackpadTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18af0;
+  constexpr static std::size_t addrs = 0x6a1688c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -525,7 +525,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_trackpadTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18af8;
+  constexpr static std::size_t addrs = 0x6a16894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -541,7 +541,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_trackpadForce)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18b00;
+  constexpr static std::size_t addrs = 0x6a1689c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -556,7 +556,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_trackpadForce)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18b08;
+  constexpr static std::size_t addrs = 0x6a168a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -572,7 +572,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::Input::PoseControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_devicePose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18b10;
+  constexpr static std::size_t addrs = 0x6a168ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -587,7 +587,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::XR::OpenXR::Input::PoseControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_devicePose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18b18;
+  constexpr static std::size_t addrs = 0x6a168b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -603,7 +603,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::Input::PoseControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_pointer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18b20;
+  constexpr static std::size_t addrs = 0x6a168bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -617,7 +617,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::XR::OpenXR::Input::PoseControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_pointer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18b28;
+  constexpr static std::size_t addrs = 0x6a168c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -633,7 +633,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_isTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18b30;
+  constexpr static std::size_t addrs = 0x6a168cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -647,7 +647,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_isTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18b38;
+  constexpr static std::size_t addrs = 0x6a168d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -663,7 +663,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::IntegerControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18b40;
+  constexpr static std::size_t addrs = 0x6a168dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -678,7 +678,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::IntegerControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18b48;
+  constexpr static std::size_t addrs = 0x6a168e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -694,7 +694,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_devicePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18b50;
+  constexpr static std::size_t addrs = 0x6a168ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -709,7 +709,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::Vector3Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_devicePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18b58;
+  constexpr static std::size_t addrs = 0x6a168f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -725,7 +725,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_deviceRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18b60;
+  constexpr static std::size_t addrs = 0x6a168fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -740,7 +740,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::QuaternionControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_deviceRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18b68;
+  constexpr static std::size_t addrs = 0x6a16904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -756,7 +756,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_pointerPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18b70;
+  constexpr static std::size_t addrs = 0x6a1690c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -771,7 +771,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::Vector3Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_pointerPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18b78;
+  constexpr static std::size_t addrs = 0x6a16914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -787,7 +787,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_pointerRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18b80;
+  constexpr static std::size_t addrs = 0x6a1691c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -802,7 +802,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::InputSystem::Controls::QuaternionControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_pointerRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18b88;
+  constexpr static std::size_t addrs = 0x6a16924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -818,7 +818,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::Input::HapticControl* (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::get_haptic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18b90;
+  constexpr static std::size_t addrs = 0x6a1692c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -832,7 +832,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)(
     ::UnityEngine::XR::OpenXR::Input::HapticControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::set_haptic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a18b98;
+  constexpr static std::size_t addrs = 0x6a16934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -847,7 +847,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::FinishSetup)> {
   constexpr static std::size_t size = 0x5a4;
-  constexpr static std::size_t addrs = 0x6a18ba0;
+  constexpr static std::size_t addrs = 0x6a1693c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -862,7 +862,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile_ValveIndexController::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6a19144;
+  constexpr static std::size_t addrs = 0x6a16ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1611,7 +1611,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile::RegisterDeviceLayout)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6a15d1c;
+  constexpr static std::size_t addrs = 0x6a13ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile*>(),
@@ -1625,7 +1625,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile::UnregisterDeviceLayout)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6a15e64;
+  constexpr static std::size_t addrs = 0x6a13c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile*>(),
@@ -1639,7 +1639,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile::GetDeviceLayoutName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a15ed4;
+  constexpr static std::size_t addrs = 0x6a13c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile*>(),
@@ -1653,7 +1653,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile::RegisterActionMapsWithRuntime)> {
   constexpr static std::size_t size = 0x2a7c;
-  constexpr static std::size_t addrs = 0x6a15f18;
+  constexpr static std::size_t addrs = 0x6a13cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile*>(),
@@ -1667,7 +1667,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::ValveIndexControllerProfile::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6a18994;
+  constexpr static std::size_t addrs = 0x6a16730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

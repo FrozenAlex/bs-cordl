@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::IntTween::*)()>(&::Tweening::IntTween::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x644250c;
+  constexpr static std::size_t addrs = 0x64402a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::IntTween*>(), { ".ctor", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::IntTween::*)(int32_t, int32_t, ::System::Action_1<int32_t>*, float_t, ::GlobalNamespace::EaseType,
                                                                                       ::Tweening::IntTween_RoundingType, float_t)>(&::Tweening::IntTween::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6442564;
+  constexpr static std::size_t addrs = 0x6440300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::IntTween::*)(int32_t, int32_t, ::System::Action_1<int32_t>*, float_t, ::UnityEngine::AnimationCurve*,
                                                                                       ::Tweening::IntTween_RoundingType, float_t)>(&::Tweening::IntTween::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6442600;
+  constexpr static std::size_t addrs = 0x644039c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Tweening::IntTween::*)(float_t)>(&::Tweening::IntTween::GetValue)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x64426a0;
+  constexpr static std::size_t addrs = 0x644043c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Tweening::IntTween*>(), { ::i2c::class_of<::Tweening::IntTween*>(), 6 }));

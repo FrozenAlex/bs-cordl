@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockComboController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::MockComboController::add_comboDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59ed7dc;
+  constexpr static std::size_t addrs = 0x59ebed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockComboController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::MockComboController::remove_comboDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59ed89c;
+  constexpr static std::size_t addrs = 0x59ebf90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockComboController::*)(::System::Action*)>(
     &::GlobalNamespace::MockComboController::add_comboBreakingEventHappenedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59ed95c;
+  constexpr static std::size_t addrs = 0x59ec050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockComboController::*)(::System::Action*)>(
     &::GlobalNamespace::MockComboController::remove_comboBreakingEventHappenedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59eda08;
+  constexpr static std::size_t addrs = 0x59ec0fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockComboController::*)()>(&::GlobalNamespace::MockComboController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59edab4;
+  constexpr static std::size_t addrs = 0x59ec1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockComboController*>(), { ".ctor", {}, {} })));

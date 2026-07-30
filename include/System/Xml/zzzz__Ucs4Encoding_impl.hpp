@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Ucs4Encoding::*)()>(&::System::Xml::Ucs4Encoding::get_WebName)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x62ddc60;
+  constexpr static std::size_t addrs = 0x62db9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Ucs4Encoding*>(), { ::i2c::class_of<::System::Xml::Ucs4Encoding*>(), 9 }));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Decoder* (::System::Xml::Ucs4Encoding::*)()>(&::System::Xml::Ucs4Encoding::GetDecoder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62ddc6c;
+  constexpr static std::size_t addrs = 0x62dba08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Ucs4Encoding*>(), { ::i2c::class_of<::System::Xml::Ucs4Encoding*>(), 31 }));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Ucs4Encoding::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::Xml::Ucs4Encoding::GetByteCount)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x62ddc74;
+  constexpr static std::size_t addrs = 0x62dba10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Ucs4Encoding*>(), { ::i2c::class_of<::System::Xml::Ucs4Encoding*>(), 12 }));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Xml::Ucs4Encoding::*)(::StringW)>(&::System::Xml::Ucs4Encoding::GetBytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62ddcdc;
+  constexpr static std::size_t addrs = 0x62dba78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Ucs4Encoding*>(), { ::i2c::class_of<::System::Xml::Ucs4Encoding*>(), 18 }));
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Ucs4Encoding::*)(::ArrayW<char16_t>, int32_t, int32_t, ::ArrayW<uint8_t>, int32_t)>(
     &::System::Xml::Ucs4Encoding::GetBytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62ddce4;
+  constexpr static std::size_t addrs = 0x62dba80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Ucs4Encoding*>(), { ::i2c::class_of<::System::Xml::Ucs4Encoding*>(), 17 }));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Ucs4Encoding::*)(int32_t)>(&::System::Xml::Ucs4Encoding::GetMaxByteCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62ddcec;
+  constexpr static std::size_t addrs = 0x62dba88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Ucs4Encoding*>(), { ::i2c::class_of<::System::Xml::Ucs4Encoding*>(), 33 }));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Ucs4Encoding::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Xml::Ucs4Encoding::GetCharCount)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x62ddcf4;
+  constexpr static std::size_t addrs = 0x62dba90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Ucs4Encoding*>(), { ::i2c::class_of<::System::Xml::Ucs4Encoding*>(), 22 }));
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Ucs4Encoding::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<char16_t>, int32_t)>(
     &::System::Xml::Ucs4Encoding::GetChars)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x62ddd10;
+  constexpr static std::size_t addrs = 0x62dbaac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Ucs4Encoding*>(), { ::i2c::class_of<::System::Xml::Ucs4Encoding*>(), 26 }));
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Ucs4Encoding::*)(int32_t)>(&::System::Xml::Ucs4Encoding::GetMaxCharCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x62ddd2c;
+  constexpr static std::size_t addrs = 0x62dbac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Ucs4Encoding*>(), { ::i2c::class_of<::System::Xml::Ucs4Encoding*>(), 34 }));
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Ucs4Encoding::*)()>(&::System::Xml::Ucs4Encoding::get_CodePage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62ddd44;
+  constexpr static std::size_t addrs = 0x62dbae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Ucs4Encoding*>(), { ::i2c::class_of<::System::Xml::Ucs4Encoding*>(), 30 }));
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoder* (::System::Xml::Ucs4Encoding::*)()>(&::System::Xml::Ucs4Encoding::GetEncoder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62ddd4c;
+  constexpr static std::size_t addrs = 0x62dbae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Ucs4Encoding*>(), { ::i2c::class_of<::System::Xml::Ucs4Encoding*>(), 32 }));
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (*)()>(&::System::Xml::Ucs4Encoding::get_UCS4_Littleendian)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x62ddd54;
+  constexpr static std::size_t addrs = 0x62dbaf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Ucs4Encoding*>(), { "get_UCS4_Littleendian", {}, {} })));
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (*)()>(&::System::Xml::Ucs4Encoding::get_UCS4_Bigendian)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x62dde1c;
+  constexpr static std::size_t addrs = 0x62dbbb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Ucs4Encoding*>(), { "get_UCS4_Bigendian", {}, {} })));
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (*)()>(&::System::Xml::Ucs4Encoding::get_UCS4_2143)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x62ddee4;
+  constexpr static std::size_t addrs = 0x62dbc80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Ucs4Encoding*>(), { "get_UCS4_2143", {}, {} })));
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (*)()>(&::System::Xml::Ucs4Encoding::get_UCS4_3412)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x62ddfac;
+  constexpr static std::size_t addrs = 0x62dbd48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Ucs4Encoding*>(), { "get_UCS4_3412", {}, {} })));
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Ucs4Encoding::*)()>(&::System::Xml::Ucs4Encoding::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x62de074;
+  constexpr static std::size_t addrs = 0x62dbe10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Ucs4Encoding*>(), { ".ctor", {}, {} })));

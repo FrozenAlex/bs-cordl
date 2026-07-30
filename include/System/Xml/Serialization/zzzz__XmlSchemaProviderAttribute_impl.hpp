@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSchemaProviderAttribute::*)(::StringW)>(
     &::System::Xml::Serialization::XmlSchemaProviderAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62f77a4;
+  constexpr static std::size_t addrs = 0x62f5540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Serialization::XmlSchemaProviderAttribute::*)()>(
     &::System::Xml::Serialization::XmlSchemaProviderAttribute::get_MethodName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62f77ac;
+  constexpr static std::size_t addrs = 0x62f5548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Serialization::XmlSchemaProviderAttribute::*)()>(&::System::Xml::Serialization::XmlSchemaProviderAttribute::get_IsAny)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62f77b4;
+  constexpr static std::size_t addrs = 0x62f5550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlSchemaProviderAttribute*>(), { "get_IsAny", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlSchemaProviderAttribute::*)(bool)>(
     &::System::Xml::Serialization::XmlSchemaProviderAttribute::set_IsAny)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62f77bc;
+  constexpr static std::size_t addrs = 0x62f5558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

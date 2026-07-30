@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::Net::Sockets::SocketException::WSAGetLastError_icall)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x63646a4;
+  constexpr static std::size_t addrs = 0x6362440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::SocketException*>(), { "WSAGetLastError_icall", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketException::*)()>(&::System::Net::Sockets::SocketException::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x63646c0;
+  constexpr static std::size_t addrs = 0x636245c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::SocketException*>(), { ".ctor", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketException::*)(int32_t, ::StringW)>(&::System::Net::Sockets::SocketException::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6364714;
+  constexpr static std::size_t addrs = 0x63624b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketException::*)(int32_t)>(&::System::Net::Sockets::SocketException::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6360924;
+  constexpr static std::size_t addrs = 0x635e6c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketException::*)(::System::Net::Sockets::SocketError)>(&::System::Net::Sockets::SocketException::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6363cbc;
+  constexpr static std::size_t addrs = 0x6361a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Net::Sockets::SocketException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636474c;
+  constexpr static std::size_t addrs = 0x63624e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Sockets::SocketException::*)()>(&::System::Net::Sockets::SocketException::get_ErrorCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6364754;
+  constexpr static std::size_t addrs = 0x63624f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::Sockets::SocketException::*)()>(&::System::Net::Sockets::SocketException::get_Message)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x636475c;
+  constexpr static std::size_t addrs = 0x63624f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Sockets::SocketError (::System::Net::Sockets::SocketException::*)()>(
     &::System::Net::Sockets::SocketException::get_SocketErrorCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63622c0;
+  constexpr static std::size_t addrs = 0x636005c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::SocketException*>(), { "get_SocketErrorCode", {}, {} })));

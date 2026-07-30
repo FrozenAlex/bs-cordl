@@ -22,7 +22,7 @@ namespace UnityEngine::InputSystem::Utilities {
 class CORDL_TYPE ExceptionHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsExceptionIndicatingBugInCode, addr 0x64fbcb4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method IsExceptionIndicatingBugInCode, addr 0x64f9a50, size 0xf0, virtual false, abstract: false, final false
   static inline bool IsExceptionIndicatingBugInCode(::System::Exception* exception);
 
 protected:

@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UI::ContentSizeFitter_FitMode (::UnityEngine::UI::ContentSizeFitter::*)()>(
     &::UnityEngine::UI::ContentSizeFitter::get_horizontalFit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6df5cf0;
+  constexpr static std::size_t addrs = 0x6df16f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ContentSizeFitter*>(), { "get_horizontalFit", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)(::UnityEngine::UI::ContentSizeFitter_FitMode)>(
     &::UnityEngine::UI::ContentSizeFitter::set_horizontalFit)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6df5cf8;
+  constexpr static std::size_t addrs = 0x6df16fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UI::ContentSizeFitter_FitMode (::UnityEngine::UI::ContentSizeFitter::*)()>(
     &::UnityEngine::UI::ContentSizeFitter::get_verticalFit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6df5df8;
+  constexpr static std::size_t addrs = 0x6df17fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ContentSizeFitter*>(), { "get_verticalFit", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)(::UnityEngine::UI::ContentSizeFitter_FitMode)>(
     &::UnityEngine::UI::ContentSizeFitter::set_verticalFit)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6df5e00;
+  constexpr static std::size_t addrs = 0x6df1804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RectTransform> (::UnityEngine::UI::ContentSizeFitter::*)()>(&::UnityEngine::UI::ContentSizeFitter::get_rectTransform)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6df5e78;
+  constexpr static std::size_t addrs = 0x6df187c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ContentSizeFitter*>(), { "get_rectTransform", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(&::UnityEngine::UI::ContentSizeFitter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6df5f14;
+  constexpr static std::size_t addrs = 0x6df1918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ContentSizeFitter*>(), { ".ctor", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(&::UnityEngine::UI::ContentSizeFitter::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6df5f18;
+  constexpr static std::size_t addrs = 0x6df191c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(&::UnityEngine::UI::ContentSizeFitter::OnDisable)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6df5f1c;
+  constexpr static std::size_t addrs = 0x6df1920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(&::UnityEngine::UI::ContentSizeFitter::OnRectTransformDimensionsChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6df5f84;
+  constexpr static std::size_t addrs = 0x6df1988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)(int32_t)>(&::UnityEngine::UI::ContentSizeFitter::HandleSelfFittingAlongAxis)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6df5f88;
+  constexpr static std::size_t addrs = 0x6df198c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(&::UnityEngine::UI::ContentSizeFitter::SetLayoutHorizontal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6df6040;
+  constexpr static std::size_t addrs = 0x6df1a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(&::UnityEngine::UI::ContentSizeFitter::SetLayoutVertical)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6df6048;
+  constexpr static std::size_t addrs = 0x6df1a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(&::UnityEngine::UI::ContentSizeFitter::SetDirty)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6df5d70;
+  constexpr static std::size_t addrs = 0x6df1774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::ContentSizeFitter*>(), { "SetDirty", {}, {} })));

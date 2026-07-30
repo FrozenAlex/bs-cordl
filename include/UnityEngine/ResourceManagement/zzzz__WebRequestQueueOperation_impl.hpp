@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ResourceManagement::WebRequestQueueOperation::*)()>(
     &::UnityEngine::ResourceManagement::WebRequestQueueOperation::get_IsDone)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x690b278;
+  constexpr static std::size_t addrs = 0x6909014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::WebRequestQueueOperation*>(), { "get_IsDone", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Networking::UnityWebRequest* (::UnityEngine::ResourceManagement::WebRequestQueueOperation::*)()>(
     &::UnityEngine::ResourceManagement::WebRequestQueueOperation::get_WebRequest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x690b298;
+  constexpr static std::size_t addrs = 0x6909034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::WebRequestQueueOperation::*)(::UnityEngine::Networking::UnityWebRequest*)>(
     &::UnityEngine::ResourceManagement::WebRequestQueueOperation::set_WebRequest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x690b2a0;
+  constexpr static std::size_t addrs = 0x690903c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::WebRequestQueueOperation*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::WebRequestQueueOperation::*)(::UnityEngine::Networking::UnityWebRequest*)>(
     &::UnityEngine::ResourceManagement::WebRequestQueueOperation::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x690b2a8;
+  constexpr static std::size_t addrs = 0x6909044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::WebRequestQueueOperation*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::WebRequestQueueOperation::*)(::UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(
     &::UnityEngine::ResourceManagement::WebRequestQueueOperation::Complete)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x690b2b0;
+  constexpr static std::size_t addrs = 0x690904c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::WebRequestQueueOperation*>(),

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::InputSystem::UI::MultiplayerEventSystem::*)()>(
     &::UnityEngine::InputSystem::UI::MultiplayerEventSystem::get_playerRoot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6594998;
+  constexpr static std::size_t addrs = 0x6592734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::MultiplayerEventSystem*>(), { "get_playerRoot", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::MultiplayerEventSystem::*)(::UnityEngine::GameObject*)>(
     &::UnityEngine::InputSystem::UI::MultiplayerEventSystem::set_playerRoot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65949a0;
+  constexpr static std::size_t addrs = 0x659273c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::MultiplayerEventSystem::*)()>(&::UnityEngine::InputSystem::UI::MultiplayerEventSystem::OnEnable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6594a74;
+  constexpr static std::size_t addrs = 0x6592810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::MultiplayerEventSystem*>(),
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::MultiplayerEventSystem::*)()>(&::UnityEngine::InputSystem::UI::MultiplayerEventSystem::OnDisable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6594a90;
+  constexpr static std::size_t addrs = 0x659282c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::MultiplayerEventSystem*>(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::MultiplayerEventSystem::*)()>(
     &::UnityEngine::InputSystem::UI::MultiplayerEventSystem::InitializePlayerRoot)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x65949a8;
+  constexpr static std::size_t addrs = 0x6592744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::MultiplayerEventSystem::*)()>(&::UnityEngine::InputSystem::UI::MultiplayerEventSystem::Update)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6594a98;
+  constexpr static std::size_t addrs = 0x6592834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::MultiplayerEventSystem*>(),
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::MultiplayerEventSystem::*)()>(&::UnityEngine::InputSystem::UI::MultiplayerEventSystem::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6594b90;
+  constexpr static std::size_t addrs = 0x659292c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::MultiplayerEventSystem*>(), { ".ctor", {}, {} })));

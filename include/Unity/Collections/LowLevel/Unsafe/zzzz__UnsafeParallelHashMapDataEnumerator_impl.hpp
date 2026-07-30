@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::*)(
     ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64c975c;
+  constexpr static std::size_t addrs = 0x64c74f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x64c9774;
+  constexpr static std::size_t addrs = 0x64c7510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapDataEnumerator::Reset)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64c97bc;
+  constexpr static std::size_t addrs = 0x64c7558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

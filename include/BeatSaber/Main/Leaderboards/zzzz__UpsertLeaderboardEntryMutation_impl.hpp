@@ -9,18 +9,19 @@
 //  Writing Method size for method: ::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation::*)(
-    ::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::GameplayModifiers*)>(&::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation::_ctor)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x32a4068;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation::*)(::StringW, ::GlobalNamespace::LevelCompletionResults*,
+                                                                                                                                 ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::GameplayModifiers*)>(
+    &::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation::_ctor)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x32a199c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation*>(),
                                                              { ".ctor",
                                                                {},
-                                                               { ::i2c::type_of<::GlobalNamespace::LevelCompletionResults*>(), ::i2c::type_of<::GlobalNamespace::BeatmapKey>(),
-                                                                 ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>() } })));
+                                                               { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::LevelCompletionResults*>(),
+                                                                 ::i2c::type_of<::GlobalNamespace::BeatmapKey>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>() } })));
     return ___internal_method;
   }
 };
@@ -28,48 +29,49 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryUpsertData* (*)(::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapKey,
+    static_cast<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryUpsertData* (*)(::StringW, ::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapKey,
                                                                                                            ::GlobalNamespace::GameplayModifiers*)>(
         &::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation::ConvertInputData)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x32a454c;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x32a1e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation*>(),
                                                              { "ConvertInputData",
                                                                {},
-                                                               { ::i2c::type_of<::GlobalNamespace::LevelCompletionResults*>(), ::i2c::type_of<::GlobalNamespace::BeatmapKey>(),
-                                                                 ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>() } })));
+                                                               { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::LevelCompletionResults*>(),
+                                                                 ::i2c::type_of<::GlobalNamespace::BeatmapKey>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>() } })));
     return ___internal_method;
   }
 };
-inline void BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation::_ctor(::GlobalNamespace::LevelCompletionResults* results, ::GlobalNamespace::BeatmapKey beatmapKey,
-                                                                                 ::GlobalNamespace::GameplayModifiers* modifiers) {
+inline void BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation::_ctor(::StringW environmentPlayerRootId, ::GlobalNamespace::LevelCompletionResults* results,
+                                                                                 ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::GameplayModifiers* modifiers) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation*>(),
                                                            { ".ctor",
                                                              {},
-                                                             { ::i2c::type_of<::GlobalNamespace::LevelCompletionResults*>(), ::i2c::type_of<::GlobalNamespace::BeatmapKey>(),
-                                                               ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, results, beatmapKey, modifiers);
+                                                             { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::LevelCompletionResults*>(),
+                                                               ::i2c::type_of<::GlobalNamespace::BeatmapKey>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, environmentPlayerRootId, results, beatmapKey, modifiers);
 }
 inline ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryUpsertData*
-BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation::ConvertInputData(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::BeatmapKey beatmapKey,
-                                                                                ::GlobalNamespace::GameplayModifiers* modifiers) {
+BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation::ConvertInputData(::StringW environmentPlayerRootId, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
+                                                                                ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::GameplayModifiers* modifiers) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation*>(),
                                                            { "ConvertInputData",
                                                              {},
-                                                             { ::i2c::type_of<::GlobalNamespace::LevelCompletionResults*>(), ::i2c::type_of<::GlobalNamespace::BeatmapKey>(),
-                                                               ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>() } })));
-  return ::cordl_internals::RunMethodRethrow<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryUpsertData*>(nullptr, ___internal_method, levelCompletionResults, beatmapKey,
-                                                                                                                                     modifiers);
+                                                             { ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::LevelCompletionResults*>(),
+                                                               ::i2c::type_of<::GlobalNamespace::BeatmapKey>(), ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryUpsertData*>(nullptr, ___internal_method, environmentPlayerRootId,
+                                                                                                                                     levelCompletionResults, beatmapKey, modifiers);
 }
-inline ::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation* BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation::New_ctor(::GlobalNamespace::LevelCompletionResults* results,
+inline ::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation* BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation::New_ctor(::StringW environmentPlayerRootId,
+                                                                                                                                                ::GlobalNamespace::LevelCompletionResults* results,
                                                                                                                                                 ::GlobalNamespace::BeatmapKey beatmapKey,
                                                                                                                                                 ::GlobalNamespace::GameplayModifiers* modifiers) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation*>(results, beatmapKey, modifiers));
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation*>(environmentPlayerRootId, results, beatmapKey, modifiers));
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation::UpsertLeaderboardEntryMutation() {}

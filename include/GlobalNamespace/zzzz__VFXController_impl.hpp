@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VFXController__MainCoroutine_d__9::*)(int32_t)>(&::GlobalNamespace::VFXController__MainCoroutine_d__9::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585b3a4;
+  constexpr static std::size_t addrs = 0x58598a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VFXController__MainCoroutine_d__9::*)()>(
     &::GlobalNamespace::VFXController__MainCoroutine_d__9::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x585b3b0;
+  constexpr static std::size_t addrs = 0x58598ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::VFXController__MainCoroutine_d__9::*)()>(&::GlobalNamespace::VFXController__MainCoroutine_d__9::MoveNext)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x585b3b4;
+  constexpr static std::size_t addrs = 0x58598b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VFXController__MainCoroutine_d__9*>(), { "MoveNext", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::VFXController__MainCoroutine_d__9::*)()>(
     &::GlobalNamespace::VFXController__MainCoroutine_d__9::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585b534;
+  constexpr static std::size_t addrs = 0x5859a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VFXController__MainCoroutine_d__9::*)()>(
     &::GlobalNamespace::VFXController__MainCoroutine_d__9::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x585b53c;
+  constexpr static std::size_t addrs = 0x5859a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::VFXController__MainCoroutine_d__9::*)()>(
     &::GlobalNamespace::VFXController__MainCoroutine_d__9::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585b574;
+  constexpr static std::size_t addrs = 0x5859a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Animation> (::GlobalNamespace::VFXController::*)()>(&::GlobalNamespace::VFXController::get_animation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585b1e4;
+  constexpr static std::size_t addrs = 0x58596e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VFXController*>(), { "get_animation", {}, {} })));
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::ParticleSystem>> (::GlobalNamespace::VFXController::*)()>(
     &::GlobalNamespace::VFXController::get_particleSystems)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585b1ec;
+  constexpr static std::size_t addrs = 0x58596e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VFXController*>(), { "get_particleSystems", {}, {} })));
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VFXController::*)()>(&::GlobalNamespace::VFXController::Awake)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x585b1f4;
+  constexpr static std::size_t addrs = 0x58596f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VFXController*>(), { "Awake", {}, {} })));
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VFXController::*)()>(&::GlobalNamespace::VFXController::Play)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x585b218;
+  constexpr static std::size_t addrs = 0x5859714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VFXController*>(), { "Play", {}, {} })));
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::VFXController::*)(bool, float_t)>(&::GlobalNamespace::VFXController::MainCoroutine)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x585b32c;
+  constexpr static std::size_t addrs = 0x5859828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VFXController::*)()>(&::GlobalNamespace::VFXController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x585b3ac;
+  constexpr static std::size_t addrs = 0x58598a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VFXController*>(), { ".ctor", {}, {} })));

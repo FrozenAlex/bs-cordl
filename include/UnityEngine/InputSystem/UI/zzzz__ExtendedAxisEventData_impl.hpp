@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputDevice* (::UnityEngine::InputSystem::UI::ExtendedAxisEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedAxisEventData::get_device)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658c93c;
+  constexpr static std::size_t addrs = 0x658a6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedAxisEventData*>(), { "get_device", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedAxisEventData::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::UI::ExtendedAxisEventData::set_device)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658c944;
+  constexpr static std::size_t addrs = 0x658a6e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedAxisEventData*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedAxisEventData::*)(::UnityEngine::EventSystems::EventSystem*)>(
     &::UnityEngine::InputSystem::UI::ExtendedAxisEventData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658c94c;
+  constexpr static std::size_t addrs = 0x658a6e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::UI::ExtendedAxisEventData::*)()>(&::UnityEngine::InputSystem::UI::ExtendedAxisEventData::ToString)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x658c954;
+  constexpr static std::size_t addrs = 0x658a6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedAxisEventData*>(),

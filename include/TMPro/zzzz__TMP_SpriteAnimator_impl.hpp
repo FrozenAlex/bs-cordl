@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::*)(int32_t)>(
     &::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699a2e0;
+  constexpr static std::size_t addrs = 0x699807c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::*)()>(
     &::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x699a374;
+  constexpr static std::size_t addrs = 0x6998110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::*)()>(
     &::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x72c;
-  constexpr static std::size_t addrs = 0x699a378;
+  constexpr static std::size_t addrs = 0x6998114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7*>(), { "MoveNext", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::*)()>(
     &::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699aac8;
+  constexpr static std::size_t addrs = 0x6998864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7*>(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::*)()>(
     &::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x699aad0;
+  constexpr static std::size_t addrs = 0x699886c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::*)()>(
     &::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699ab08;
+  constexpr static std::size_t addrs = 0x69988a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -352,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteAnimator::*)()>(&::TMPro::TMP_SpriteAnimator::Awake)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x699a088;
+  constexpr static std::size_t addrs = 0x6997e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteAnimator*>(), { "Awake", {}, {} })));
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteAnimator::*)()>(&::TMPro::TMP_SpriteAnimator::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x699a0dc;
+  constexpr static std::size_t addrs = 0x6997e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteAnimator*>(), { "OnEnable", {}, {} })));
@@ -376,7 +376,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteAnimator::*)()>(&::TMPro::TMP_SpriteAnimator::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x699a0e0;
+  constexpr static std::size_t addrs = 0x6997e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteAnimator*>(), { "OnDisable", {}, {} })));
@@ -388,7 +388,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteAnimator::*)()>(&::TMPro::TMP_SpriteAnimator::StopAllAnimations)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x699a0e4;
+  constexpr static std::size_t addrs = 0x6997e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteAnimator*>(), { "StopAllAnimations", {}, {} })));
@@ -401,7 +401,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteAnimator::*)(int32_t, ::TMPro::TMP_SpriteAsset*, int32_t, int32_t, int32_t)>(
     &::TMPro::TMP_SpriteAnimator::DoSpriteAnimation)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x699a144;
+  constexpr static std::size_t addrs = 0x6997ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -418,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::TMPro::TMP_SpriteAnimator::*)(int32_t, ::TMPro::TMP_SpriteAsset*, int32_t, int32_t, int32_t)>(
     &::TMPro::TMP_SpriteAnimator::DoSpriteAnimationInternal)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x699a254;
+  constexpr static std::size_t addrs = 0x6997ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -434,7 +434,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteAnimator::*)()>(&::TMPro::TMP_SpriteAnimator::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x699a2e8;
+  constexpr static std::size_t addrs = 0x6998084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteAnimator*>(), { ".ctor", {}, {} })));

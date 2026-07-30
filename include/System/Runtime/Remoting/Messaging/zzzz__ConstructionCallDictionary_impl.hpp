@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionCallDictionary::*)(
     ::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&::System::Runtime::Remoting::Messaging::ConstructionCallDictionary::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5b411d4;
+  constexpr static std::size_t addrs = 0x5b3f018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::ConstructionCallDictionary*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::ConstructionCallDictionary::*)(::StringW)>(
     &::System::Runtime::Remoting::Messaging::ConstructionCallDictionary::GetMethodProperty)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x5b42138;
+  constexpr static std::size_t addrs = 0x5b3ff7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::ConstructionCallDictionary*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionCallDictionary::*)(::StringW, ::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::ConstructionCallDictionary::SetMethodProperty)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x5b42abc;
+  constexpr static std::size_t addrs = 0x5b40900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Messaging::ConstructionCallDictionary*>(),

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::SymmetricTransform::*)(::System::Security::Cryptography::SymmetricAlgorithm*, bool, ::ArrayW<uint8_t>)>(
     &::Mono::Security::Cryptography::SymmetricTransform::_ctor)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x5abe220;
+  constexpr static std::size_t addrs = 0x5abc064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::SymmetricTransform::*)()>(&::Mono::Security::Cryptography::SymmetricTransform::Finalize)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5abe4b4;
+  constexpr static std::size_t addrs = 0x5abc2f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::SymmetricTransform::*)()>(
     &::Mono::Security::Cryptography::SymmetricTransform::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5abe504;
+  constexpr static std::size_t addrs = 0x5abc348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::SymmetricTransform::*)(bool)>(&::Mono::Security::Cryptography::SymmetricTransform::Dispose)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5abe574;
+  constexpr static std::size_t addrs = 0x5abc3b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Cryptography::SymmetricTransform::*)()>(
     &::Mono::Security::Cryptography::SymmetricTransform::get_CanTransformMultipleBlocks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5abe5cc;
+  constexpr static std::size_t addrs = 0x5abc410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Security::Cryptography::SymmetricTransform::*)()>(&::Mono::Security::Cryptography::SymmetricTransform::get_InputBlockSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5abe5d4;
+  constexpr static std::size_t addrs = 0x5abc418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Security::Cryptography::SymmetricTransform::*)()>(&::Mono::Security::Cryptography::SymmetricTransform::get_OutputBlockSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5abe5dc;
+  constexpr static std::size_t addrs = 0x5abc420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Mono::Security::Cryptography::SymmetricTransform::Transform)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x5abe5e4;
+  constexpr static std::size_t addrs = 0x5abc428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Mono::Security::Cryptography::SymmetricTransform::CBC)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x5abe7e8;
+  constexpr static std::size_t addrs = 0x5abc62c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Mono::Security::Cryptography::SymmetricTransform::CFB)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x5abe94c;
+  constexpr static std::size_t addrs = 0x5abc790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Mono::Security::Cryptography::SymmetricTransform::OFB)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5abeb14;
+  constexpr static std::size_t addrs = 0x5abc958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Mono::Security::Cryptography::SymmetricTransform::CTS)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5abeb60;
+  constexpr static std::size_t addrs = 0x5abc9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Mono::Security::Cryptography::SymmetricTransform::CheckInput)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5abebac;
+  constexpr static std::size_t addrs = 0x5abc9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<uint8_t>, int32_t)>(
     &::Mono::Security::Cryptography::SymmetricTransform::TransformBlock)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5abece8;
+  constexpr static std::size_t addrs = 0x5abcb2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Cryptography::SymmetricTransform::*)()>(&::Mono::Security::Cryptography::SymmetricTransform::get_KeepLastBlock)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5abeee8;
+  constexpr static std::size_t addrs = 0x5abcd2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Cryptography::SymmetricTransform*>(), { "get_KeepLastBlock", {}, {} })));
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<uint8_t>, int32_t)>(
     &::Mono::Security::Cryptography::SymmetricTransform::InternalTransformBlock)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x5abef0c;
+  constexpr static std::size_t addrs = 0x5abcd50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Mono::Security::Cryptography::SymmetricTransform::Random)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5abf0c4;
+  constexpr static std::size_t addrs = 0x5abcf08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Cryptography::SymmetricTransform::*)(::System::Security::Cryptography::PaddingMode, int32_t, int32_t)>(
     &::Mono::Security::Cryptography::SymmetricTransform::ThrowBadPaddingException)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x5abf180;
+  constexpr static std::size_t addrs = 0x5abcfc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Mono::Security::Cryptography::SymmetricTransform::FinalEncrypt)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x5abf330;
+  constexpr static std::size_t addrs = 0x5abd174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Mono::Security::Cryptography::SymmetricTransform::FinalDecrypt)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x5abf5c8;
+  constexpr static std::size_t addrs = 0x5abd40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::Cryptography::SymmetricTransform::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Mono::Security::Cryptography::SymmetricTransform::TransformFinalBlock)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5abf864;
+  constexpr static std::size_t addrs = 0x5abd6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

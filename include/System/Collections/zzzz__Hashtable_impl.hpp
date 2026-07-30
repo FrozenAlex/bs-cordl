@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable_KeyCollection::*)(::System::Collections::Hashtable*)>(
     &::System::Collections::Hashtable_KeyCollection::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bef02c;
+  constexpr static std::size_t addrs = 0x5bece70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable_KeyCollection::*)(::System::Array*, int32_t)>(&::System::Collections::Hashtable_KeyCollection::CopyTo)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5bf0130;
+  constexpr static std::size_t addrs = 0x5bedf74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Collections::Hashtable_KeyCollection::*)()>(
     &::System::Collections::Hashtable_KeyCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5bf02a8;
+  constexpr static std::size_t addrs = 0x5bee0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Hashtable_KeyCollection::*)()>(&::System::Collections::Hashtable_KeyCollection::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5bf030c;
+  constexpr static std::size_t addrs = 0x5bee150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Hashtable_KeyCollection::*)()>(&::System::Collections::Hashtable_KeyCollection::get_SyncRoot)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5bf032c;
+  constexpr static std::size_t addrs = 0x5bee170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Collections::Hashtable_KeyCollection::*)()>(&::System::Collections::Hashtable_KeyCollection::get_Count)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5bf034c;
+  constexpr static std::size_t addrs = 0x5bee190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable_ValueCollection::*)(::System::Collections::Hashtable*)>(
     &::System::Collections::Hashtable_ValueCollection::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bef090;
+  constexpr static std::size_t addrs = 0x5beced4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable_ValueCollection::*)(::System::Array*, int32_t)>(
     &::System::Collections::Hashtable_ValueCollection::CopyTo)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5bf0364;
+  constexpr static std::size_t addrs = 0x5bee1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Collections::Hashtable_ValueCollection::*)()>(
     &::System::Collections::Hashtable_ValueCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5bf04dc;
+  constexpr static std::size_t addrs = 0x5bee320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Hashtable_ValueCollection::*)()>(&::System::Collections::Hashtable_ValueCollection::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5bf0540;
+  constexpr static std::size_t addrs = 0x5bee384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Hashtable_ValueCollection::*)()>(&::System::Collections::Hashtable_ValueCollection::get_SyncRoot)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5bf0560;
+  constexpr static std::size_t addrs = 0x5bee3a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Collections::Hashtable_ValueCollection::*)()>(&::System::Collections::Hashtable_ValueCollection::get_Count)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5bf0580;
+  constexpr static std::size_t addrs = 0x5bee3c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable_HashtableEnumerator::*)(::System::Collections::Hashtable*, int32_t)>(
     &::System::Collections::Hashtable_HashtableEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5beed38;
+  constexpr static std::size_t addrs = 0x5becb7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Hashtable_HashtableEnumerator*>(),
@@ -334,7 +334,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Hashtable_HashtableEnumerator::*)()>(&::System::Collections::Hashtable_HashtableEnumerator::Clone)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5bf0fac;
+  constexpr static std::size_t addrs = 0x5beedf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Hashtable_HashtableEnumerator*>(), { "Clone", {}, {} })));
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Hashtable_HashtableEnumerator::*)()>(&::System::Collections::Hashtable_HashtableEnumerator::get_Key)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5bf0fb0;
+  constexpr static std::size_t addrs = 0x5beedf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Hashtable_HashtableEnumerator*>(),
@@ -359,7 +359,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Hashtable_HashtableEnumerator::*)()>(&::System::Collections::Hashtable_HashtableEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5bf100c;
+  constexpr static std::size_t addrs = 0x5beee50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Hashtable_HashtableEnumerator*>(),
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::DictionaryEntry (::System::Collections::Hashtable_HashtableEnumerator::*)()>(
     &::System::Collections::Hashtable_HashtableEnumerator::get_Entry)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5bf1104;
+  constexpr static std::size_t addrs = 0x5beef48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Hashtable_HashtableEnumerator*>(),
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Hashtable_HashtableEnumerator::*)()>(
     &::System::Collections::Hashtable_HashtableEnumerator::get_Current)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5bf1164;
+  constexpr static std::size_t addrs = 0x5beefa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Hashtable_HashtableEnumerator*>(),
@@ -401,7 +401,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Hashtable_HashtableEnumerator::*)()>(
     &::System::Collections::Hashtable_HashtableEnumerator::get_Value)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5bf1238;
+  constexpr static std::size_t addrs = 0x5bef07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Hashtable_HashtableEnumerator*>(),
@@ -414,7 +414,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable_HashtableEnumerator::*)()>(&::System::Collections::Hashtable_HashtableEnumerator::Reset)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5bf1294;
+  constexpr static std::size_t addrs = 0x5bef0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Hashtable_HashtableEnumerator*>(),
@@ -582,7 +582,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>* (*)()>(
     &::System::Collections::Hashtable::get_SerializationInfoTable)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5bed5e0;
+  constexpr static std::size_t addrs = 0x5beb424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Hashtable*>(), { "get_SerializationInfoTable", {}, {} })));
@@ -594,7 +594,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(bool)>(&::System::Collections::Hashtable::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5bed644;
+  constexpr static std::size_t addrs = 0x5beb488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Hashtable*>(), { ".ctor", {}, { ::i2c::type_of<bool>() } })));
@@ -606,7 +606,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)()>(&::System::Collections::Hashtable::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5bed648;
+  constexpr static std::size_t addrs = 0x5beb48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Hashtable*>(), { ".ctor", {}, {} })));
@@ -618,7 +618,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(int32_t)>(&::System::Collections::Hashtable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bed8ec;
+  constexpr static std::size_t addrs = 0x5beb730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Hashtable*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -630,7 +630,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(int32_t, float_t)>(&::System::Collections::Hashtable::_ctor)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x5bed654;
+  constexpr static std::size_t addrs = 0x5beb498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -644,7 +644,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(int32_t, float_t, ::System::Collections::IEqualityComparer*)>(
     &::System::Collections::Hashtable::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5bed8f4;
+  constexpr static std::size_t addrs = 0x5beb738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -658,7 +658,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(::System::Collections::IEqualityComparer*)>(&::System::Collections::Hashtable::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5bed918;
+  constexpr static std::size_t addrs = 0x5beb75c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -671,7 +671,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(int32_t, ::System::Collections::IEqualityComparer*)>(&::System::Collections::Hashtable::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5bed944;
+  constexpr static std::size_t addrs = 0x5beb788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -685,7 +685,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(::System::Collections::IDictionary*)>(&::System::Collections::Hashtable::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5bed96c;
+  constexpr static std::size_t addrs = 0x5beb7b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -698,7 +698,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(::System::Collections::IDictionary*, float_t)>(&::System::Collections::Hashtable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bed978;
+  constexpr static std::size_t addrs = 0x5beb7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -713,7 +713,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(::System::Collections::IDictionary*, float_t, ::System::Collections::IEqualityComparer*)>(
     &::System::Collections::Hashtable::_ctor)> {
   constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x5bed980;
+  constexpr static std::size_t addrs = 0x5beb7c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -729,7 +729,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(::System::Runtime::Serialization::SerializationInfo*,
                                                                                                   ::System::Runtime::Serialization::StreamingContext)>(&::System::Collections::Hashtable::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5bedcb0;
+  constexpr static std::size_t addrs = 0x5bebaf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -745,7 +745,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::System::Collections::Hashtable::*)(::System::Object*, int32_t, ::by_ref<uint32_t>, ::by_ref<uint32_t>)>(
     &::System::Collections::Hashtable::InitHash)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5bedd18;
+  constexpr static std::size_t addrs = 0x5bebb5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -760,7 +760,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(::System::Object*, ::System::Object*)>(&::System::Collections::Hashtable::Add)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bedd6c;
+  constexpr static std::size_t addrs = 0x5bebbb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -773,7 +773,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)()>(&::System::Collections::Hashtable::Clear)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5bee140;
+  constexpr static std::size_t addrs = 0x5bebf84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -786,7 +786,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Hashtable::*)()>(&::System::Collections::Hashtable::Clone)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5bee1dc;
+  constexpr static std::size_t addrs = 0x5bec020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -799,7 +799,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Hashtable::*)(::System::Object*)>(&::System::Collections::Hashtable::Contains)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5bee2e0;
+  constexpr static std::size_t addrs = 0x5bec124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -812,7 +812,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Hashtable::*)(::System::Object*)>(&::System::Collections::Hashtable::ContainsKey)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5bee2f0;
+  constexpr static std::size_t addrs = 0x5bec134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -825,7 +825,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(::System::Array*, int32_t)>(&::System::Collections::Hashtable::CopyKeys)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5bee468;
+  constexpr static std::size_t addrs = 0x5bec2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -838,7 +838,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(::System::Array*, int32_t)>(&::System::Collections::Hashtable::CopyEntries)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5bee514;
+  constexpr static std::size_t addrs = 0x5bec358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -851,7 +851,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(::System::Array*, int32_t)>(&::System::Collections::Hashtable::CopyTo)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x5bee61c;
+  constexpr static std::size_t addrs = 0x5bec460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -864,7 +864,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(::System::Array*, int32_t)>(&::System::Collections::Hashtable::CopyValues)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5bee7b8;
+  constexpr static std::size_t addrs = 0x5bec5fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -877,7 +877,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Hashtable::*)(::System::Object*)>(&::System::Collections::Hashtable::get_Item)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x5bee868;
+  constexpr static std::size_t addrs = 0x5bec6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -890,7 +890,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(::System::Object*, ::System::Object*)>(&::System::Collections::Hashtable::set_Item)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5beea70;
+  constexpr static std::size_t addrs = 0x5bec8b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -903,7 +903,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)()>(&::System::Collections::Hashtable::expand)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5beea78;
+  constexpr static std::size_t addrs = 0x5bec8bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Hashtable*>(), { "expand", {}, {} })));
@@ -915,7 +915,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)()>(&::System::Collections::Hashtable::rehash)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5beec08;
+  constexpr static std::size_t addrs = 0x5beca4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Hashtable*>(), { "rehash", {}, {} })));
@@ -927,7 +927,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)()>(&::System::Collections::Hashtable::UpdateVersion)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5bee1c8;
+  constexpr static std::size_t addrs = 0x5bec00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Hashtable*>(), { "UpdateVersion", {}, {} })));
@@ -939,7 +939,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(int32_t)>(&::System::Collections::Hashtable::rehash)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5beeae8;
+  constexpr static std::size_t addrs = 0x5bec92c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Hashtable*>(), { "rehash", {}, { ::i2c::type_of<int32_t>() } })));
@@ -952,7 +952,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Collections::Hashtable::*)()>(
     &::System::Collections::Hashtable::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5beecd8;
+  constexpr static std::size_t addrs = 0x5becb1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -965,7 +965,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionaryEnumerator* (::System::Collections::Hashtable::*)()>(&::System::Collections::Hashtable::GetEnumerator)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5beed74;
+  constexpr static std::size_t addrs = 0x5becbb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -978,7 +978,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Collections::Hashtable::*)(::System::Object*)>(&::System::Collections::Hashtable::GetHash)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5beedd4;
+  constexpr static std::size_t addrs = 0x5becc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -991,7 +991,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Hashtable::*)()>(&::System::Collections::Hashtable::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5beeeac;
+  constexpr static std::size_t addrs = 0x5beccf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1004,7 +1004,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Hashtable::*)()>(&::System::Collections::Hashtable::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5beeeb4;
+  constexpr static std::size_t addrs = 0x5beccf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1017,7 +1017,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Hashtable::*)()>(&::System::Collections::Hashtable::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5beeebc;
+  constexpr static std::size_t addrs = 0x5becd00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1030,7 +1030,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Hashtable::*)(::System::Object*, ::System::Object*)>(&::System::Collections::Hashtable::KeyEquals)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5beeec4;
+  constexpr static std::size_t addrs = 0x5becd08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1043,7 +1043,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (::System::Collections::Hashtable::*)()>(&::System::Collections::Hashtable::get_Keys)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5beefd0;
+  constexpr static std::size_t addrs = 0x5bece14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1056,7 +1056,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (::System::Collections::Hashtable::*)()>(&::System::Collections::Hashtable::get_Values)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5bef034;
+  constexpr static std::size_t addrs = 0x5bece78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1069,7 +1069,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(::System::Object*, ::System::Object*, bool)>(&::System::Collections::Hashtable::Insert)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x5bedd74;
+  constexpr static std::size_t addrs = 0x5bebbb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1084,7 +1084,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(::ArrayW<::System::Collections::Hashtable_bucket>, ::System::Object*, ::System::Object*, int32_t)>(
     &::System::Collections::Hashtable::putEntry)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5beec20;
+  constexpr static std::size_t addrs = 0x5beca64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Hashtable*>(),
@@ -1100,7 +1100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(::System::Object*)>(&::System::Collections::Hashtable::Remove)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x5bef098;
+  constexpr static std::size_t addrs = 0x5becedc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1113,7 +1113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Hashtable::*)()>(&::System::Collections::Hashtable::get_SyncRoot)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5bef25c;
+  constexpr static std::size_t addrs = 0x5bed0a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1126,7 +1126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Collections::Hashtable::*)()>(&::System::Collections::Hashtable::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bef2c8;
+  constexpr static std::size_t addrs = 0x5bed10c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1139,7 +1139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Hashtable* (*)(::System::Collections::Hashtable*)>(&::System::Collections::Hashtable::Synchronized)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5bef2d0;
+  constexpr static std::size_t addrs = 0x5bed114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1153,7 +1153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Collections::Hashtable::GetObjectData)> {
   constexpr static std::size_t size = 0x560;
-  constexpr static std::size_t addrs = 0x5bef374;
+  constexpr static std::size_t addrs = 0x5bed1b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1166,7 +1166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Hashtable::*)(::System::Object*)>(&::System::Collections::Hashtable::OnDeserialization)> {
   constexpr static std::size_t size = 0x85c;
-  constexpr static std::size_t addrs = 0x5bef8d4;
+  constexpr static std::size_t addrs = 0x5bed718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::get_payloadSizeInBytes)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a8288;
+  constexpr static std::size_t addrs = 0x65a6024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::get_payloadPtr)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a8294;
+  constexpr static std::size_t addrs = 0x65a6030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand>(), { "get_payloadPtr", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::*)(::UnityEngine::InputSystem::Utilities::FourCC, int32_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a7efc;
+  constexpr static std::size_t addrs = 0x65a5c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<uint8_t> (*)(::UnityEngine::InputSystem::Utilities::FourCC, int32_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::AllocateNative)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x65a829c;
+  constexpr static std::size_t addrs = 0x65a6038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a8338;
+  constexpr static std::size_t addrs = 0x65a60d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand>(), { "get_typeStatic", {}, {} })));

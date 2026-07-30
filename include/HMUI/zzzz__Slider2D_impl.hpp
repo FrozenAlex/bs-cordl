@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RectTransform> (::HMUI::Slider2D::*)()>(&::HMUI::Slider2D::get_handleRect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5880bf4;
+  constexpr static std::size_t addrs = 0x587f0a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::Slider2D*>(), { "get_handleRect", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)(::UnityEngine::RectTransform*)>(&::HMUI::Slider2D::set_handleRect)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5880bfc;
+  constexpr static std::size_t addrs = 0x587f0a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)(::UnityEngine::Color)>(&::HMUI::Slider2D::set_handleColor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5880de0;
+  constexpr static std::size_t addrs = 0x587f28c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::HMUI::Slider2D::*)()>(&::HMUI::Slider2D::get_normalizedValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5880ea8;
+  constexpr static std::size_t addrs = 0x587f354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::Slider2D*>(), { "get_normalizedValue", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)(::UnityEngine::Vector2)>(&::HMUI::Slider2D::set_normalizedValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5880eb4;
+  constexpr static std::size_t addrs = 0x587f360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)(::System::Action_2<::UnityW<::HMUI::Slider2D>, ::UnityEngine::Vector2>*)>(
     &::HMUI::Slider2D::add_normalizedValueDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5880f54;
+  constexpr static std::size_t addrs = 0x587f400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)(::System::Action_2<::UnityW<::HMUI::Slider2D>, ::UnityEngine::Vector2>*)>(
     &::HMUI::Slider2D::remove_normalizedValueDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5881014;
+  constexpr static std::size_t addrs = 0x587f4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)(::UnityEngine::UI::CanvasUpdate)>(&::HMUI::Slider2D::Rebuild)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58810d4;
+  constexpr static std::size_t addrs = 0x587f580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::Slider2D*>(), { ::i2c::class_of<::HMUI::Slider2D*>(), 47 }));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)()>(&::HMUI::Slider2D::LayoutComplete)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58810d8;
+  constexpr static std::size_t addrs = 0x587f584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::Slider2D*>(), { ::i2c::class_of<::HMUI::Slider2D*>(), 48 }));
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)()>(&::HMUI::Slider2D::GraphicUpdateComplete)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58810dc;
+  constexpr static std::size_t addrs = 0x587f588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::Slider2D*>(), { ::i2c::class_of<::HMUI::Slider2D*>(), 49 }));
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)()>(&::HMUI::Slider2D::OnEnable)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x58810e0;
+  constexpr static std::size_t addrs = 0x587f58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::Slider2D*>(), { ::i2c::class_of<::HMUI::Slider2D*>(), 5 }));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)()>(&::HMUI::Slider2D::OnDisable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5881124;
+  constexpr static std::size_t addrs = 0x587f5d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::Slider2D*>(), { ::i2c::class_of<::HMUI::Slider2D*>(), 7 }));
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)()>(&::HMUI::Slider2D::UpdateCachedReferences)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5880c98;
+  constexpr static std::size_t addrs = 0x587f144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::Slider2D*>(), { "UpdateCachedReferences", {}, {} })));
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)(::UnityEngine::Vector2)>(&::HMUI::Slider2D::SetNormalizedValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x588112c;
+  constexpr static std::size_t addrs = 0x587f5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)(::UnityEngine::Vector2, bool)>(&::HMUI::Slider2D::SetNormalizedValue)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5880ebc;
+  constexpr static std::size_t addrs = 0x587f368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)()>(&::HMUI::Slider2D::OnRectTransformDimensionsChange)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5881134;
+  constexpr static std::size_t addrs = 0x587f5e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::Slider2D*>(), { ::i2c::class_of<::HMUI::Slider2D*>(), 10 }));
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)()>(&::HMUI::Slider2D::UpdateVisuals)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x588116c;
+  constexpr static std::size_t addrs = 0x587f618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::Slider2D*>(), { ::i2c::class_of<::HMUI::Slider2D*>(), 50 }));
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::Slider2D::UpdateDrag)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x5881298;
+  constexpr static std::size_t addrs = 0x587f744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::Slider2D::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::Slider2D::MayDrag)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5881460;
+  constexpr static std::size_t addrs = 0x587f90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::Slider2D::OnBeginDrag)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x58814c4;
+  constexpr static std::size_t addrs = 0x587f970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::Slider2D*>(), { ::i2c::class_of<::HMUI::Slider2D*>(), 51 }));
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::Slider2D::OnDrag)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5881554;
+  constexpr static std::size_t addrs = 0x587fa00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::Slider2D*>(), { ::i2c::class_of<::HMUI::Slider2D*>(), 52 }));
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::Slider2D::OnPointerDown)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x58815f4;
+  constexpr static std::size_t addrs = 0x587faa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::Slider2D*>(), { ::i2c::class_of<::HMUI::Slider2D*>(), 32 }));
@@ -300,7 +300,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::Slider2D::OnPointerEnter)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58816a4;
+  constexpr static std::size_t addrs = 0x587fb50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::Slider2D*>(), { ::i2c::class_of<::HMUI::Slider2D*>(), 34 }));
@@ -312,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)(::UnityEngine::UI::Selectable_SelectionState, bool)>(&::HMUI::Slider2D::DoStateTransition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58816b0;
+  constexpr static std::size_t addrs = 0x587fb5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::Slider2D*>(), { ::i2c::class_of<::HMUI::Slider2D*>(), 26 }));
@@ -324,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::Slider2D::OnInitializePotentialDrag)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x58816b8;
+  constexpr static std::size_t addrs = 0x587fb64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::Slider2D*>(), { ::i2c::class_of<::HMUI::Slider2D*>(), 53 }));
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Slider2D::*)()>(&::HMUI::Slider2D::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x58816cc;
+  constexpr static std::size_t addrs = 0x587fb78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::Slider2D*>(), { ".ctor", {}, {} })));
@@ -348,7 +348,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::HMUI::Slider2D::*)()>(&::HMUI::Slider2D::UnityEngine_UI_ICanvasElement_get_transform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5881728;
+  constexpr static std::size_t addrs = 0x587fbd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::Slider2D*>(), { "UnityEngine.UI.ICanvasElement.get_transform", {}, {} })));

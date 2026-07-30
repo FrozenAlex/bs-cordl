@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EnumConverter::*)(::System::Type*)>(&::System::ComponentModel::EnumConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63c70d0;
+  constexpr static std::size_t addrs = 0x63c4e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::ComponentModel::EnumConverter::*)()>(&::System::ComponentModel::EnumConverter::get_EnumType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63c70d8;
+  constexpr static std::size_t addrs = 0x63c4e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::EnumConverter*>(), { "get_EnumType", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::TypeConverter_StandardValuesCollection* (::System::ComponentModel::EnumConverter::*)()>(
     &::System::ComponentModel::EnumConverter::get_Values)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63c70e0;
+  constexpr static std::size_t addrs = 0x63c4e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::EnumConverter*>(), { "get_Values", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EnumConverter::*)(::System::ComponentModel::TypeConverter_StandardValuesCollection*)>(
     &::System::ComponentModel::EnumConverter::set_Values)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63c70e8;
+  constexpr static std::size_t addrs = 0x63c4e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::EnumConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::ComponentModel::EnumConverter::CanConvertFrom)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x63c70f0;
+  constexpr static std::size_t addrs = 0x63c4e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::EnumConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::ComponentModel::EnumConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x63c71a4;
+  constexpr static std::size_t addrs = 0x63c4f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IComparer* (::System::ComponentModel::EnumConverter::*)()>(&::System::ComponentModel::EnumConverter::get_Comparer)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x63c7268;
+  constexpr static std::size_t addrs = 0x63c5004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::System::ComponentModel::EnumConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(
         &::System::ComponentModel::EnumConverter::ConvertFrom)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x63c72c4;
+  constexpr static std::size_t addrs = 0x63c5060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Syst
                                                                                                                       ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::ComponentModel::EnumConverter::ConvertTo)> {
   constexpr static std::size_t size = 0xd30;
-  constexpr static std::size_t addrs = 0x63c7794;
+  constexpr static std::size_t addrs = 0x63c5530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::TypeConverter_StandardValuesCollection* (
     ::System::ComponentModel::EnumConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(&::System::ComponentModel::EnumConverter::GetStandardValues)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x63c8540;
+  constexpr static std::size_t addrs = 0x63c62dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::EnumConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::EnumConverter::GetStandardValuesExclusive)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x63c8a84;
+  constexpr static std::size_t addrs = 0x63c6820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::EnumConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::EnumConverter::GetStandardValuesSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63c8b18;
+  constexpr static std::size_t addrs = 0x63c68b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::EnumConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*)>(
     &::System::ComponentModel::EnumConverter::IsValid)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x63c8b20;
+  constexpr static std::size_t addrs = 0x63c68bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

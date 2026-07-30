@@ -91,7 +91,7 @@ public:
   static ::GlobalNamespace::QuestBoostController_BoostModeReason const StartupWindow;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6603 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6599 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -175,24 +175,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPerformanceBoostController"
   constexpr operator ::GlobalNamespace::IPerformanceBoostController*() noexcept;
 
-  /// @brief Method AskForBoost, addr 0x58f72b4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method AskForBoost, addr 0x58f5824, size 0xc, virtual true, abstract: false, final true
   inline void AskForBoost();
 
-  /// @brief Method Awake, addr 0x58f72c0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58f5830, size 0xd0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method EnableBoost, addr 0x58f77c0, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method EnableBoost, addr 0x58f5d30, size 0x3a4, virtual false, abstract: false, final false
   inline void EnableBoost(::GlobalNamespace::QuestBoostController_BoostModeReason boostModeReason);
 
-  /// @brief Method GetMaxFrameTimeInHistory, addr 0x58f777c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetMaxFrameTimeInHistory, addr 0x58f5cec, size 0x44, virtual false, abstract: false, final false
   inline double_t GetMaxFrameTimeInHistory();
 
   static inline ::GlobalNamespace::QuestBoostController* New_ctor();
 
-  /// @brief Method Update, addr 0x58f7390, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58f5900, size 0x234, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateFrameTimeHistory, addr 0x58f75c4, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method UpdateFrameTimeHistory, addr 0x58f5b34, size 0x1b8, virtual false, abstract: false, final false
   inline void UpdateFrameTimeHistory();
 
   constexpr bool const& __cordl_internal_get__boostEnabled() const;
@@ -243,7 +243,7 @@ public:
 
   constexpr void __cordl_internal_set_currentGPUPerformanceLevel(::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel value);
 
-  /// @brief Method .ctor, addr 0x58f7b64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58f60d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::BoolCvar* getStaticF__allowBoost();
@@ -304,7 +304,7 @@ public:
   QuestBoostController(QuestBoostController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6600 };
 
   /// @brief Field _gameScenesManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;

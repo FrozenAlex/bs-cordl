@@ -122,7 +122,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6d5f7a0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d5b1a4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -281,7 +281,7 @@ public:
 
   static inline ::UnityEngine::UIElements::SortColumnDescription* New_ctor(::StringW columnName, ::UnityEngine::UIElements::SortDirection direction);
 
-  /// @brief Method NotifyPropertyChanged, addr 0x6d5f19c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method NotifyPropertyChanged, addr 0x6d5aba0, size 0x4c, virtual false, abstract: false, final false
   inline void NotifyPropertyChanged(::by_ref<::UnityEngine::UIElements::BindingId> property);
 
   constexpr ::UnityEngine::UIElements::Column* const& __cordl_internal_get__column_k__BackingField() const;
@@ -320,19 +320,19 @@ public:
 
   constexpr void __cordl_internal_set_propertyChanged(::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>* value);
 
-  /// @brief Method .ctor, addr 0x6d5f520, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d5af24, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6d5f52c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d5af30, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t columnIndex, ::UnityEngine::UIElements::SortDirection direction);
 
-  /// @brief Method .ctor, addr 0x6d5f55c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d5af60, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW columnName, ::UnityEngine::UIElements::SortDirection direction);
 
-  /// @brief Method add_changed, addr 0x6d5f3a0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_changed, addr 0x6d5ada4, size 0xc0, virtual false, abstract: false, final false
   inline void add_changed(::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>* value);
 
-  /// @brief Method add_propertyChanged, addr 0x6d5ef48, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_propertyChanged, addr 0x6d5a94c, size 0xc0, virtual true, abstract: false, final true
   inline void add_propertyChanged(::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>* value);
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_columnIndexProperty();
@@ -341,25 +341,25 @@ public:
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_directionProperty();
 
-  /// @brief Method get_column, addr 0x6d5f2bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_column, addr 0x6d5acc0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Column* get_column();
 
-  /// @brief Method get_columnIndex, addr 0x6d5f1e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnIndex, addr 0x6d5abec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_columnIndex();
 
-  /// @brief Method get_columnName, addr 0x6d5f0c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnName, addr 0x6d5aacc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_columnName();
 
-  /// @brief Method get_direction, addr 0x6d5f2cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_direction, addr 0x6d5acd0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::SortDirection get_direction();
 
   /// @brief Convert to "::UnityEngine::UIElements::INotifyBindablePropertyChanged"
   constexpr ::UnityEngine::UIElements::INotifyBindablePropertyChanged* i___UnityEngine__UIElements__INotifyBindablePropertyChanged() noexcept;
 
-  /// @brief Method remove_changed, addr 0x6d5f460, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_changed, addr 0x6d5ae64, size 0xc0, virtual false, abstract: false, final false
   inline void remove_changed(::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>* value);
 
-  /// @brief Method remove_propertyChanged, addr 0x6d5f008, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_propertyChanged, addr 0x6d5aa0c, size 0xc0, virtual true, abstract: false, final true
   inline void remove_propertyChanged(::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>* value);
 
   static inline void setStaticF_columnIndexProperty(::UnityEngine::UIElements::BindingId value);
@@ -368,16 +368,16 @@ public:
 
   static inline void setStaticF_directionProperty(::UnityEngine::UIElements::BindingId value);
 
-  /// @brief Method set_column, addr 0x6d5f2c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_column, addr 0x6d5acc8, size 0x8, virtual false, abstract: false, final false
   inline void set_column(::UnityEngine::UIElements::Column* value);
 
-  /// @brief Method set_columnIndex, addr 0x6d5f1f0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_columnIndex, addr 0x6d5abf4, size 0xcc, virtual false, abstract: false, final false
   inline void set_columnIndex(int32_t value);
 
-  /// @brief Method set_columnName, addr 0x6d5f0d0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_columnName, addr 0x6d5aad4, size 0xcc, virtual false, abstract: false, final false
   inline void set_columnName(::StringW value);
 
-  /// @brief Method set_direction, addr 0x6d5f2d4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_direction, addr 0x6d5acd8, size 0xcc, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UIElements::SortDirection value);
 
 protected:

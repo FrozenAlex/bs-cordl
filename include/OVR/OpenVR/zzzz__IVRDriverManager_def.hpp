@@ -61,18 +61,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRDriverManager__GetDriverCount : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5e3e240, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5e3bfac, size 0x1c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5e3e25c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x5e3bfc8, size 0x24, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5e3e22c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5e3bf98, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke();
 
   static inline ::OVR::OpenVR::IVRDriverManager__GetDriverCount* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5e3e1c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e3bf30, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -105,18 +105,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRDriverManager__GetDriverName : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5e3e300, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5e3c06c, size 0x78, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t nDriver, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5e3e378, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x5e3c0e4, size 0x24, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5e3e2ec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5e3c058, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(uint32_t nDriver, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize);
 
   static inline ::OVR::OpenVR::IVRDriverManager__GetDriverName* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5e3e280, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e3bfec, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -149,18 +149,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRDriverManager__GetDriverHandle : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x5e3e42c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5e3c198, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchDriverName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x5e3e44c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x5e3c1b8, size 0x24, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x5e3e418, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5e3c184, size 0x14, virtual true, abstract: false, final false
   inline uint64_t Invoke(::StringW pchDriverName);
 
   static inline ::OVR::OpenVR::IVRDriverManager__GetDriverHandle* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5e3e39c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e3c108, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

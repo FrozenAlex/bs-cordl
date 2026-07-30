@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::FtpControlStream___c__DisplayClass31_0::*)()>(&::System::Net::FtpControlStream___c__DisplayClass31_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63fcdbc;
+  constexpr static std::size_t addrs = 0x63fab58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::FtpControlStream___c__DisplayClass31_0*>(), { ".ctor", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::FtpControlStream___c__DisplayClass31_0::*)(::System::IAsyncResult*)>(
     &::System::Net::FtpControlStream___c__DisplayClass31_0::_PipelineCallback_b__0)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x63fcdc0;
+  constexpr static std::size_t addrs = 0x63fab5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::NetworkCredential* (::System::Net::FtpControlStream::*)()>(&::System::Net::FtpControlStream::get_Credentials)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x63f8794;
+  constexpr static std::size_t addrs = 0x63f6530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::FtpControlStream*>(), { "get_Credentials", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::FtpControlStream::*)(::System::Net::NetworkCredential*)>(&::System::Net::FtpControlStream::set_Credentials)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x63f8840;
+  constexpr static std::size_t addrs = 0x63f65dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::FtpControlStream::*)(::System::Net::Sockets::TcpClient*)>(&::System::Net::FtpControlStream::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x63f88d0;
+  constexpr static std::size_t addrs = 0x63f666c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::FtpControlStream::*)()>(&::System::Net::FtpControlStream::AbortConnect)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x63f8950;
+  constexpr static std::size_t addrs = 0x63f66ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::FtpControlStream*>(), { "AbortConnect", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IAsyncResult*)>(&::System::Net::FtpControlStream::AcceptCallback)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x63f89e0;
+  constexpr static std::size_t addrs = 0x63f677c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IAsyncResult*)>(&::System::Net::FtpControlStream::ConnectCallback)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x63f8d5c;
+  constexpr static std::size_t addrs = 0x63f6af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IAsyncResult*)>(&::System::Net::FtpControlStream::SSLHandshakeCallback)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x63f8f1c;
+  constexpr static std::size_t addrs = 0x63f6cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::CommandStream_PipelineInstruction (::System::Net::FtpControlStream::*)(::by_ref<::System::IO::Stream*>)>(
     &::System::Net::FtpControlStream::QueueOrCreateFtpDataStream)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x63f90ec;
+  constexpr static std::size_t addrs = 0x63f6e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::FtpControlStream::*)()>(&::System::Net::FtpControlStream::ClearState)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x63f942c;
+  constexpr static std::size_t addrs = 0x63f71c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::CommandStream_PipelineInstruction (::System::Net::FtpControlStream::*)(
     ::System::Net::CommandStream_PipelineEntry*, ::System::Net::ResponseDescription*, bool, ::by_ref<::System::IO::Stream*>)>(&::System::Net::FtpControlStream::PipelineCallback)> {
   constexpr static std::size_t size = 0x8c0;
-  constexpr static std::size_t addrs = 0x63f94e0;
+  constexpr static std::size_t addrs = 0x63f727c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Net::CommandStream_PipelineEntry*> (::System::Net::FtpControlStream::*)(::System::Net::WebRequest*)>(
     &::System::Net::FtpControlStream::BuildCommandsList)> {
   constexpr static std::size_t size = 0xda0;
-  constexpr static std::size_t addrs = 0x63fae7c;
+  constexpr static std::size_t addrs = 0x63f8c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::CommandStr
     ::System::Net::CommandStream_PipelineEntry*, ::System::Net::ResponseDescription*, bool, ::by_ref<::System::IO::Stream*>, ::by_ref<bool>)>(
     &::System::Net::FtpControlStream::QueueOrCreateDataConection)> {
   constexpr static std::size_t size = 0x694;
-  constexpr static std::size_t addrs = 0x63f9da0;
+  constexpr static std::size_t addrs = 0x63f7b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Net::FtpControlStream_GetPathOption, ::System::Uri*, ::by_ref<::StringW>, ::by_ref<::StringW>, ::by_ref<::StringW>)>(
     &::System::Net::FtpControlStream::GetPathInfo)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x63fbd10;
+  constexpr static std::size_t addrs = 0x63f9aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::FtpControlStream::*)(::System::Net::IPAddress*, int32_t)>(&::System::Net::FtpControlStream::FormatAddress)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x63fc648;
+  constexpr static std::size_t addrs = 0x63fa3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -300,7 +300,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::FtpControlStream::*)(::System::Net::IPAddress*, int32_t)>(&::System::Net::FtpControlStream::FormatAddressV6)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x63fc774;
+  constexpr static std::size_t addrs = 0x63fa510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Net::FtpControlStream::*)()>(&::System::Net::FtpControlStream::get_ContentLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63fc878;
+  constexpr static std::size_t addrs = 0x63fa614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::FtpControlStream*>(), { "get_ContentLength", {}, {} })));
@@ -326,7 +326,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Net::FtpControlStream::*)()>(&::System::Net::FtpControlStream::get_LastModified)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63fc880;
+  constexpr static std::size_t addrs = 0x63fa61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::FtpControlStream*>(), { "get_LastModified", {}, {} })));
@@ -338,7 +338,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Uri* (::System::Net::FtpControlStream::*)()>(&::System::Net::FtpControlStream::get_ResponseUri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63fc888;
+  constexpr static std::size_t addrs = 0x63fa624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::FtpControlStream*>(), { "get_ResponseUri", {}, {} })));
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::FtpControlStream::*)()>(&::System::Net::FtpControlStream::get_BannerMessage)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x63fc890;
+  constexpr static std::size_t addrs = 0x63fa62c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::FtpControlStream*>(), { "get_BannerMessage", {}, {} })));
@@ -362,7 +362,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::FtpControlStream::*)()>(&::System::Net::FtpControlStream::get_WelcomeMessage)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x63fc8a8;
+  constexpr static std::size_t addrs = 0x63fa644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::FtpControlStream*>(), { "get_WelcomeMessage", {}, {} })));
@@ -374,7 +374,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::FtpControlStream::*)()>(&::System::Net::FtpControlStream::get_ExitMessage)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x63fc8c0;
+  constexpr static std::size_t addrs = 0x63fa65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::FtpControlStream*>(), { "get_ExitMessage", {}, {} })));
@@ -386,7 +386,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Net::FtpControlStream::*)(::StringW)>(&::System::Net::FtpControlStream::GetContentLengthFrom213Response)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x63fa8ac;
+  constexpr static std::size_t addrs = 0x63f8648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -399,7 +399,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Net::FtpControlStream::*)(::StringW)>(&::System::Net::FtpControlStream::GetLastModifiedFrom213Response)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x63fa9fc;
+  constexpr static std::size_t addrs = 0x63f8798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -412,7 +412,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::FtpControlStream::*)(::StringW, ::System::Net::FtpWebRequest*)>(&::System::Net::FtpControlStream::TryUpdateResponseUri)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x63fa538;
+  constexpr static std::size_t addrs = 0x63f82d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -426,7 +426,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::FtpControlStream::*)(::StringW)>(&::System::Net::FtpControlStream::TryUpdateContentLength)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x63fa434;
+  constexpr static std::size_t addrs = 0x63f81d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -439,7 +439,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::FtpControlStream::*)(::StringW)>(&::System::Net::FtpControlStream::GetLoginDirectory)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x63fade8;
+  constexpr static std::size_t addrs = 0x63f8b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -452,7 +452,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::FtpControlStream::*)(::StringW)>(&::System::Net::FtpControlStream::GetPortV4)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x63fc1f4;
+  constexpr static std::size_t addrs = 0x63f9f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::FtpControlStream*>(), { "GetPortV4", {}, { ::i2c::type_of<::StringW>() } })));
@@ -464,7 +464,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::FtpControlStream::*)(::StringW)>(&::System::Net::FtpControlStream::GetPortV6)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x63fc3e0;
+  constexpr static std::size_t addrs = 0x63fa17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::FtpControlStream*>(), { "GetPortV6", {}, { ::i2c::type_of<::StringW>() } })));
@@ -476,7 +476,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::FtpControlStream::*)(::System::Net::FtpWebRequest*)>(&::System::Net::FtpControlStream::CreateFtpListenerSocket)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x63fbe74;
+  constexpr static std::size_t addrs = 0x63f9c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -489,7 +489,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::FtpControlStream::*)(::System::Net::FtpWebRequest*)>(&::System::Net::FtpControlStream::GetPortCommandLine)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x63fbff4;
+  constexpr static std::size_t addrs = 0x63f9d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -502,7 +502,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::FtpControlStream::*)(::StringW, ::StringW)>(&::System::Net::FtpControlStream::FormatFtpCommand)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x63fbc1c;
+  constexpr static std::size_t addrs = 0x63f99b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -516,7 +516,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Sockets::Socket* (::System::Net::FtpControlStream::*)(::System::Net::FtpWebRequest*, ::System::Net::Sockets::Socket*)>(
     &::System::Net::FtpControlStream::CreateFtpDataSocket)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x63fc5c8;
+  constexpr static std::size_t addrs = 0x63fa364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -531,7 +531,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::FtpControlStream::*)(::System::Net::ResponseDescription*, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::System::Net::FtpControlStream::CheckValid)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x63fc8d8;
+  constexpr static std::size_t addrs = 0x63fa674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -544,7 +544,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::TriState (::System::Net::FtpControlStream::*)()>(&::System::Net::FtpControlStream::IsFtpDataStreamWriteable)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x63f93a4;
+  constexpr static std::size_t addrs = 0x63f7140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::FtpControlStream*>(), { "IsFtpDataStreamWriteable", {}, {} })));

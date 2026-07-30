@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer_IncomingFragments::*)()>(&::LiteNetLib::NetPeer_IncomingFragments::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58a7b64;
+  constexpr static std::size_t addrs = 0x58a6010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPeer_IncomingFragments*>(), { ".ctor", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::LiteNetLib::NetPeer::*)()>(&::LiteNetLib::NetPeer::get_ConnectionNum)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58a6860;
+  constexpr static std::size_t addrs = 0x58a4d0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPeer*>(), { "get_ConnectionNum", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(uint8_t)>(&::LiteNetLib::NetPeer::set_ConnectionNum)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x58a6868;
+  constexpr static std::size_t addrs = 0x58a4d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPeer*>(), { "set_ConnectionNum", {}, { ::i2c::type_of<uint8_t>() } })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::ConnectionState (::LiteNetLib::NetPeer::*)()>(&::LiteNetLib::NetPeer::get_ConnectionState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58a68b4;
+  constexpr static std::size_t addrs = 0x58a4d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPeer*>(), { "get_ConnectionState", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::LiteNetLib::NetPeer::*)()>(&::LiteNetLib::NetPeer::get_ConnectTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58a68bc;
+  constexpr static std::size_t addrs = 0x58a4d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPeer*>(), { "get_ConnectTime", {}, {} })));
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::LiteNetLib::NetPeer::*)()>(&::LiteNetLib::NetPeer::get_Ping)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x58a68c4;
+  constexpr static std::size_t addrs = 0x58a4d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPeer*>(), { "get_Ping", {}, {} })));
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::LiteNetLib::NetPeer::*)()>(&::LiteNetLib::NetPeer::get_Mtu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58a68d8;
+  constexpr static std::size_t addrs = 0x58a4d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPeer*>(), { "get_Mtu", {}, {} })));
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::LiteNetLib::NetPeer::*)()>(&::LiteNetLib::NetPeer::get_RemoteTimeDelta)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58a68e0;
+  constexpr static std::size_t addrs = 0x58a4d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPeer*>(), { "get_RemoteTimeDelta", {}, {} })));
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::LiteNetLib::NetPeer::*)()>(&::LiteNetLib::NetPeer::get_RemoteUtcTime)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x58a68e8;
+  constexpr static std::size_t addrs = 0x58a4d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPeer*>(), { "get_RemoteUtcTime", {}, {} })));
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::LiteNetLib::NetPeer::*)()>(&::LiteNetLib::NetPeer::get_TimeSinceLastPacket)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58a697c;
+  constexpr static std::size_t addrs = 0x58a4e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPeer*>(), { "get_TimeSinceLastPacket", {}, {} })));
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::LiteNetLib::NetPeer::*)()>(&::LiteNetLib::NetPeer::get_ResendDelay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58a6984;
+  constexpr static std::size_t addrs = 0x58a4e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPeer*>(), { "get_ResendDelay", {}, {} })));
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::LiteNetLib::NetManager*, ::System::Net::IPEndPoint*, int32_t)>(&::LiteNetLib::NetPeer::_ctor)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x58a2b84;
+  constexpr static std::size_t addrs = 0x58a1030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(int32_t)>(&::LiteNetLib::NetPeer::SetMtu)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x58a698c;
+  constexpr static std::size_t addrs = 0x58a4e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPeer*>(), { "SetMtu", {}, { ::i2c::type_of<int32_t>() } })));
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::LiteNetLib::NetPeer::*)(uint8_t, bool)>(&::LiteNetLib::NetPeer::GetPacketsCountInReliableQueue)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x58a6a3c;
+  constexpr static std::size_t addrs = 0x58a4ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::BaseChannel* (::LiteNetLib::NetPeer::*)(uint8_t)>(&::LiteNetLib::NetPeer::CreateChannel)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x58a6aec;
+  constexpr static std::size_t addrs = 0x58a4f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPeer*>(), { "CreateChannel", {}, { ::i2c::type_of<uint8_t>() } })));
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::LiteNetLib::NetManager*, ::System::Net::IPEndPoint*, int32_t, uint8_t, ::LiteNetLib::Utils::NetDataWriter*)>(
     &::LiteNetLib::NetPeer::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x58a5a70;
+  constexpr static std::size_t addrs = 0x58a3f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::LiteNetLib::NetManager*, ::System::Net::IPEndPoint*, int32_t, int64_t, uint8_t)>(
     &::LiteNetLib::NetPeer::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x58a2ed0;
+  constexpr static std::size_t addrs = 0x58a137c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(int64_t, uint8_t, ::ArrayW<uint8_t>, int32_t, int32_t)>(&::LiteNetLib::NetPeer::Reject)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x58a2eac;
+  constexpr static std::size_t addrs = 0x58a1358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -320,7 +320,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::LiteNetLib::NetPeer::*)(::LiteNetLib::NetConnectAcceptPacket*)>(&::LiteNetLib::NetPeer::ProcessConnectAccept)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x58a3820;
+  constexpr static std::size_t addrs = 0x58a1ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -333,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::LiteNetLib::NetPeer::*)(::LiteNetLib::DeliveryMethod)>(&::LiteNetLib::NetPeer::GetMaxSinglePacketSize)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x58a6eb8;
+  constexpr static std::size_t addrs = 0x58a5364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, uint8_t, ::LiteNetLib::DeliveryMethod, ::System::Object*)>(
     &::LiteNetLib::NetPeer::SendWithDeliveryEvent)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x58a6f30;
+  constexpr static std::size_t addrs = 0x58a53dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, int32_t, int32_t, uint8_t, ::LiteNetLib::DeliveryMethod, ::System::Object*)>(
     &::LiteNetLib::NetPeer::SendWithDeliveryEvent)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x58a7480;
+  constexpr static std::size_t addrs = 0x58a592c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::LiteNetLib::Utils::NetDataWriter*, uint8_t, ::LiteNetLib::DeliveryMethod, ::System::Object*)>(
     &::LiteNetLib::NetPeer::SendWithDeliveryEvent)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x58a74e0;
+  constexpr static std::size_t addrs = 0x58a598c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, ::LiteNetLib::DeliveryMethod)>(&::LiteNetLib::NetPeer::Send)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x58a7568;
+  constexpr static std::size_t addrs = 0x58a5a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -411,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::LiteNetLib::Utils::NetDataWriter*, ::LiteNetLib::DeliveryMethod)>(&::LiteNetLib::NetPeer::Send)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x58a758c;
+  constexpr static std::size_t addrs = 0x58a5a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -425,7 +425,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::LiteNetLib::DeliveryMethod)>(&::LiteNetLib::NetPeer::Send)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x58a75b8;
+  constexpr static std::size_t addrs = 0x58a5a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -440,7 +440,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, uint8_t, ::LiteNetLib::DeliveryMethod)>(&::LiteNetLib::NetPeer::Send)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x58a75c8;
+  constexpr static std::size_t addrs = 0x58a5a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -454,7 +454,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::LiteNetLib::Utils::NetDataWriter*, uint8_t, ::LiteNetLib::DeliveryMethod)>(&::LiteNetLib::NetPeer::Send)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x58a75ec;
+  constexpr static std::size_t addrs = 0x58a5a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -468,7 +468,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, int32_t, int32_t, uint8_t, ::LiteNetLib::DeliveryMethod)>(&::LiteNetLib::NetPeer::Send)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58a4248;
+  constexpr static std::size_t addrs = 0x58a26f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -485,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, int32_t, int32_t, uint8_t, ::LiteNetLib::DeliveryMethod, ::System::Object*)>(
     &::LiteNetLib::NetPeer::SendInternal)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x58a6fb0;
+  constexpr static std::size_t addrs = 0x58a545c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -502,7 +502,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>)>(&::LiteNetLib::NetPeer::Disconnect)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58a7618;
+  constexpr static std::size_t addrs = 0x58a5ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPeer*>(), { "Disconnect", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
@@ -514,7 +514,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::LiteNetLib::Utils::NetDataWriter*)>(&::LiteNetLib::NetPeer::Disconnect)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58a7638;
+  constexpr static std::size_t addrs = 0x58a5ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -527,7 +527,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::LiteNetLib::NetPeer::Disconnect)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x58a7658;
+  constexpr static std::size_t addrs = 0x58a5b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -541,7 +541,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)()>(&::LiteNetLib::NetPeer::Disconnect)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x58a76a0;
+  constexpr static std::size_t addrs = 0x58a5b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPeer*>(), { "Disconnect", {}, {} })));
@@ -553,7 +553,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::DisconnectResult (::LiteNetLib::NetPeer::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::NetPeer::ProcessDisconnect)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x58a36cc;
+  constexpr static std::size_t addrs = 0x58a1b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -566,7 +566,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::ShutdownResult (::LiteNetLib::NetPeer::*)(::ArrayW<uint8_t>, int32_t, int32_t, bool)>(&::LiteNetLib::NetPeer::Shutdown)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x58a13f8;
+  constexpr static std::size_t addrs = 0x589f8a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -580,7 +580,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(int32_t)>(&::LiteNetLib::NetPeer::UpdateRoundTripTime)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x58a76e4;
+  constexpr static std::size_t addrs = 0x58a5b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPeer*>(), { "UpdateRoundTripTime", {}, { ::i2c::type_of<int32_t>() } })));
@@ -592,7 +592,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::LiteNetLib::DeliveryMethod, ::LiteNetLib::NetPacket*)>(&::LiteNetLib::NetPeer::AddReliablePacket)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x58a7720;
+  constexpr static std::size_t addrs = 0x58a5bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -606,7 +606,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::NetPeer::ProcessMtuPacket)> {
   constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x58a7b68;
+  constexpr static std::size_t addrs = 0x58a6014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -619,7 +619,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(int32_t)>(&::LiteNetLib::NetPeer::UpdateMtuLogic)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x58a7f08;
+  constexpr static std::size_t addrs = 0x58a63b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPeer*>(), { "UpdateMtuLogic", {}, { ::i2c::type_of<int32_t>() } })));
@@ -632,7 +632,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::ConnectRequestResult (::LiteNetLib::NetPeer::*)(::LiteNetLib::NetConnectRequestPacket*)>(
     &::LiteNetLib::NetPeer::ProcessConnectRequest)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x58a3218;
+  constexpr static std::size_t addrs = 0x58a16c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -645,7 +645,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::NetPeer::ProcessPacket)> {
   constexpr static std::size_t size = 0x5a0;
-  constexpr static std::size_t addrs = 0x58a3884;
+  constexpr static std::size_t addrs = 0x58a1d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -658,7 +658,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)()>(&::LiteNetLib::NetPeer::SendMerged)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x58a8170;
+  constexpr static std::size_t addrs = 0x58a661c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPeer*>(), { "SendMerged", {}, {} })));
@@ -670,7 +670,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::NetPeer::SendUserData)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x58a8224;
+  constexpr static std::size_t addrs = 0x58a66d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -683,7 +683,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)()>(&::LiteNetLib::NetPeer::Flush)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x58a52bc;
+  constexpr static std::size_t addrs = 0x58a3768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPeer*>(), { "Flush", {}, {} })));
@@ -695,7 +695,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(int32_t)>(&::LiteNetLib::NetPeer::Update)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x58a1ec0;
+  constexpr static std::size_t addrs = 0x58a036c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetPeer*>(), { "Update", {}, { ::i2c::type_of<int32_t>() } })));
@@ -707,7 +707,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetPeer::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::NetPeer::RecycleAndDeliver)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x58a8340;
+  constexpr static std::size_t addrs = 0x58a67ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

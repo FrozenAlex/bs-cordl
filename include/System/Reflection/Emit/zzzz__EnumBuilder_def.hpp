@@ -90,115 +90,115 @@ public:
 
   __declspec(property(get = get_UnderlyingSystemType)) ::System::Type* UnderlyingSystemType;
 
-  /// @brief Method GetAttributeFlagsImpl, addr 0x5b901ac, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetAttributeFlagsImpl, addr 0x5b8dff0, size 0x38, virtual true, abstract: false, final false
   inline ::System::Reflection::TypeAttributes GetAttributeFlagsImpl();
 
-  /// @brief Method GetConstructorImpl, addr 0x5b901e4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetConstructorImpl, addr 0x5b8e028, size 0x38, virtual true, abstract: false, final false
   inline ::System::Reflection::ConstructorInfo* GetConstructorImpl(::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder,
                                                                    ::System::Reflection::CallingConventions callConvention, ::ArrayW<::System::Type*> types,
                                                                    ::ArrayW<::System::Reflection::ParameterModifier> modifiers);
 
-  /// @brief Method GetConstructors, addr 0x5b9021c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetConstructors, addr 0x5b8e060, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::ConstructorInfo*> GetConstructors(::System::Reflection::BindingFlags bindingAttr);
 
-  /// @brief Method GetCustomAttributes, addr 0x5b9028c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x5b8e0d0, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x5b90254, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x5b8e098, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetElementType, addr 0x5b902c4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetElementType, addr 0x5b8e108, size 0x38, virtual true, abstract: false, final false
   inline ::System::Type* GetElementType();
 
-  /// @brief Method GetEvent, addr 0x5b902fc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetEvent, addr 0x5b8e140, size 0x38, virtual true, abstract: false, final false
   inline ::System::Reflection::EventInfo* GetEvent(::StringW name, ::System::Reflection::BindingFlags bindingAttr);
 
-  /// @brief Method GetEvents, addr 0x5b90334, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetEvents, addr 0x5b8e178, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::EventInfo*> GetEvents(::System::Reflection::BindingFlags bindingAttr);
 
-  /// @brief Method GetField, addr 0x5b9036c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetField, addr 0x5b8e1b0, size 0x38, virtual true, abstract: false, final false
   inline ::System::Reflection::FieldInfo* GetField(::StringW name, ::System::Reflection::BindingFlags bindingAttr);
 
-  /// @brief Method GetFields, addr 0x5b903a4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetFields, addr 0x5b8e1e8, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::FieldInfo*> GetFields(::System::Reflection::BindingFlags bindingAttr);
 
-  /// @brief Method GetInterface, addr 0x5b903dc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetInterface, addr 0x5b8e220, size 0x38, virtual true, abstract: false, final false
   inline ::System::Type* GetInterface(::StringW name, bool ignoreCase);
 
-  /// @brief Method GetInterfaces, addr 0x5b90414, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetInterfaces, addr 0x5b8e258, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Type*> GetInterfaces();
 
-  /// @brief Method GetMembers, addr 0x5b9044c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetMembers, addr 0x5b8e290, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::MemberInfo*> GetMembers(::System::Reflection::BindingFlags bindingAttr);
 
-  /// @brief Method GetMethodImpl, addr 0x5b90484, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetMethodImpl, addr 0x5b8e2c8, size 0x38, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetMethodImpl(::StringW name, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder,
                                                          ::System::Reflection::CallingConventions callConvention, ::ArrayW<::System::Type*> types,
                                                          ::ArrayW<::System::Reflection::ParameterModifier> modifiers);
 
-  /// @brief Method GetMethods, addr 0x5b904bc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetMethods, addr 0x5b8e300, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::MethodInfo*> GetMethods(::System::Reflection::BindingFlags bindingAttr);
 
-  /// @brief Method GetNestedType, addr 0x5b904f4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetNestedType, addr 0x5b8e338, size 0x38, virtual true, abstract: false, final false
   inline ::System::Type* GetNestedType(::StringW name, ::System::Reflection::BindingFlags bindingAttr);
 
-  /// @brief Method GetProperties, addr 0x5b9052c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x5b8e370, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::PropertyInfo*> GetProperties(::System::Reflection::BindingFlags bindingAttr);
 
-  /// @brief Method GetPropertyImpl, addr 0x5b90564, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetPropertyImpl, addr 0x5b8e3a8, size 0x38, virtual true, abstract: false, final false
   inline ::System::Reflection::PropertyInfo* GetPropertyImpl(::StringW name, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder, ::System::Type* returnType,
                                                              ::ArrayW<::System::Type*> types, ::ArrayW<::System::Reflection::ParameterModifier> modifiers);
 
-  /// @brief Method HasElementTypeImpl, addr 0x5b9059c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method HasElementTypeImpl, addr 0x5b8e3e0, size 0x38, virtual true, abstract: false, final false
   inline bool HasElementTypeImpl();
 
-  /// @brief Method InvokeMember, addr 0x5b905d4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method InvokeMember, addr 0x5b8e418, size 0x38, virtual true, abstract: false, final false
   inline ::System::Object* InvokeMember(::StringW name, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::System::Object* target, ::ArrayW<::System::Object*> args,
                                         ::ArrayW<::System::Reflection::ParameterModifier> modifiers, ::System::Globalization::CultureInfo* culture, ::ArrayW<::StringW> namedParameters);
 
-  /// @brief Method IsArrayImpl, addr 0x5b9060c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsArrayImpl, addr 0x5b8e450, size 0x38, virtual true, abstract: false, final false
   inline bool IsArrayImpl();
 
-  /// @brief Method IsByRefImpl, addr 0x5b90644, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsByRefImpl, addr 0x5b8e488, size 0x38, virtual true, abstract: false, final false
   inline bool IsByRefImpl();
 
-  /// @brief Method IsCOMObjectImpl, addr 0x5b9067c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsCOMObjectImpl, addr 0x5b8e4c0, size 0x38, virtual true, abstract: false, final false
   inline bool IsCOMObjectImpl();
 
-  /// @brief Method IsDefined, addr 0x5b906b4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x5b8e4f8, size 0x38, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method IsPointerImpl, addr 0x5b906ec, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsPointerImpl, addr 0x5b8e530, size 0x38, virtual true, abstract: false, final false
   inline bool IsPointerImpl();
 
-  /// @brief Method IsPrimitiveImpl, addr 0x5b90724, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsPrimitiveImpl, addr 0x5b8e568, size 0x38, virtual true, abstract: false, final false
   inline bool IsPrimitiveImpl();
 
-  /// @brief Method get_Assembly, addr 0x5b8ffb4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Assembly, addr 0x5b8ddf8, size 0x38, virtual true, abstract: false, final false
   inline ::System::Reflection::Assembly* get_Assembly();
 
-  /// @brief Method get_AssemblyQualifiedName, addr 0x5b8ffec, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_AssemblyQualifiedName, addr 0x5b8de30, size 0x38, virtual true, abstract: false, final false
   inline ::StringW get_AssemblyQualifiedName();
 
-  /// @brief Method get_BaseType, addr 0x5b90024, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x5b8de68, size 0x38, virtual true, abstract: false, final false
   inline ::System::Type* get_BaseType();
 
-  /// @brief Method get_FullName, addr 0x5b9005c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_FullName, addr 0x5b8dea0, size 0x38, virtual true, abstract: false, final false
   inline ::StringW get_FullName();
 
-  /// @brief Method get_GUID, addr 0x5b90094, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_GUID, addr 0x5b8ded8, size 0x38, virtual true, abstract: false, final false
   inline ::System::Guid get_GUID();
 
-  /// @brief Method get_Module, addr 0x5b900cc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Module, addr 0x5b8df10, size 0x38, virtual true, abstract: false, final false
   inline ::System::Reflection::Module* get_Module();
 
-  /// @brief Method get_Name, addr 0x5b90104, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5b8df48, size 0x38, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Namespace, addr 0x5b9013c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x5b8df80, size 0x38, virtual true, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_UnderlyingSystemType, addr 0x5b90174, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_UnderlyingSystemType, addr 0x5b8dfb8, size 0x38, virtual true, abstract: false, final false
   inline ::System::Type* get_UnderlyingSystemType();
 
 protected:

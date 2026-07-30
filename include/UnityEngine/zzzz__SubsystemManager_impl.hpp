@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::SubsystemManager::ReloadSubsystemsStarted)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6bb50f8;
+  constexpr static std::size_t addrs = 0x6bb0afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SubsystemManager*>(), { "ReloadSubsystemsStarted", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::SubsystemManager::ReloadSubsystemsCompleted)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6bb51dc;
+  constexpr static std::size_t addrs = 0x6bb0be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SubsystemManager*>(), { "ReloadSubsystemsCompleted", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::IntegratedSubsystem*)>(&::UnityEngine::SubsystemManager::InitializeIntegratedSubsystem)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6bb52c0;
+  constexpr static std::size_t addrs = 0x6bb0cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::SubsystemManager::ClearSubsystems)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x6bb53b8;
+  constexpr static std::size_t addrs = 0x6bb0dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SubsystemManager*>(), { "ClearSubsystems", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::SubsystemManager::StaticConstructScriptingClassMap)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6bb55d8;
+  constexpr static std::size_t addrs = 0x6bb0fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SubsystemManager*>(), { "StaticConstructScriptingClassMap", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::IntegratedSubsystem* (*)(::System::IntPtr)>(&::UnityEngine::SubsystemManager::GetIntegratedSubsystemByPtr)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6bb574c;
+  constexpr static std::size_t addrs = 0x6bb1150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::SubsystemManager::RemoveIntegratedSubsystemByPtr)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6bb4b34;
+  constexpr static std::size_t addrs = 0x6bb0538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::SubsystemsImplementation::SubsystemWithProvider*)>(&::UnityEngine::SubsystemManager::RemoveStandaloneSubsystem)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6bb5888;
+  constexpr static std::size_t addrs = 0x6bb128c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Subsystem*)>(&::UnityEngine::SubsystemManager::RemoveDeprecatedSubsystem)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6bb4f7c;
+  constexpr static std::size_t addrs = 0x6bb0980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

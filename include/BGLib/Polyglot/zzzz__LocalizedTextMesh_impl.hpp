@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BGLib::Polyglot::LocalizedTextMesh::*)()>(&::BGLib::Polyglot::LocalizedTextMesh::get_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3319c04;
+  constexpr static std::size_t addrs = 0x33181cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizedTextMesh*>(), { "get_Key", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::Polyglot::LocalizedTextMesh::*)()>(&::BGLib::Polyglot::LocalizedTextMesh::Reset)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3319c0c;
+  constexpr static std::size_t addrs = 0x33181d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizedTextMesh*>(), { "Reset", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::Polyglot::LocalizedTextMesh::*)()>(&::BGLib::Polyglot::LocalizedTextMesh::Start)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3319c60;
+  constexpr static std::size_t addrs = 0x3318228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizedTextMesh*>(), { "Start", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::Polyglot::LocalizedTextMesh::*)(::BGLib::Polyglot::LocalizationModel*)>(&::BGLib::Polyglot::LocalizedTextMesh::OnLocalize)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x3319c78;
+  constexpr static std::size_t addrs = 0x3318240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BGLib::Polyglot::LocalizedTextMesh::*)(::UnityEngine::TextAlignment, ::BGLib::Polyglot::LanguageDirection)>(
     &::BGLib::Polyglot::LocalizedTextMesh::IsOppositeDirection)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x331a144;
+  constexpr static std::size_t addrs = 0x331870c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BGLib::Polyglot::LocalizedTextMesh::*)(::UnityEngine::TextAlignment)>(&::BGLib::Polyglot::LocalizedTextMesh::IsAlignmentRight)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x331a16c;
+  constexpr static std::size_t addrs = 0x3318734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BGLib::Polyglot::LocalizedTextMesh::*)(::UnityEngine::TextAlignment)>(&::BGLib::Polyglot::LocalizedTextMesh::IsAlignmentLeft)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x331a178;
+  constexpr static std::size_t addrs = 0x3318740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::Polyglot::LocalizedTextMesh::*)()>(&::BGLib::Polyglot::LocalizedTextMesh::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x331a184;
+  constexpr static std::size_t addrs = 0x331874c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::Polyglot::LocalizedTextMesh*>(), { ".ctor", {}, {} })));

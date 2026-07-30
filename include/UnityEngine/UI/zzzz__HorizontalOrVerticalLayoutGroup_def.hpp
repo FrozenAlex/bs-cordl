@@ -64,15 +64,15 @@ public:
 
   __declspec(property(get = get_spacing, put = set_spacing)) float_t spacing;
 
-  /// @brief Method CalcAlongAxis, addr 0x6df7758, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method CalcAlongAxis, addr 0x6df315c, size 0x2b0, virtual false, abstract: false, final false
   inline void CalcAlongAxis(int32_t axis, bool isVertical);
 
-  /// @brief Method GetChildSizes, addr 0x6df83b0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetChildSizes, addr 0x6df3db4, size 0x11c, virtual false, abstract: false, final false
   inline void GetChildSizes(::UnityEngine::RectTransform* child, int32_t axis, bool controlSize, bool childForceExpand, ::by_ref<float_t> min, ::by_ref<float_t> preferred, ::by_ref<float_t> flexible);
 
   static inline ::UnityEngine::UI::HorizontalOrVerticalLayoutGroup* New_ctor();
 
-  /// @brief Method SetChildrenAlongAxis, addr 0x6df7a20, size 0x644, virtual false, abstract: false, final false
+  /// @brief Method SetChildrenAlongAxis, addr 0x6df3424, size 0x644, virtual false, abstract: false, final false
   inline void SetChildrenAlongAxis(int32_t axis, bool isVertical);
 
   constexpr bool const& __cordl_internal_get_m_ChildControlHeight() const;
@@ -123,55 +123,55 @@ public:
 
   constexpr void __cordl_internal_set_m_Spacing(float_t value);
 
-  /// @brief Method .ctor, addr 0x6df772c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6df3130, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_childControlHeight, addr 0x6df8210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childControlHeight, addr 0x6df3c14, size 0x8, virtual false, abstract: false, final false
   inline bool get_childControlHeight();
 
-  /// @brief Method get_childControlWidth, addr 0x6df81a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childControlWidth, addr 0x6df3bac, size 0x8, virtual false, abstract: false, final false
   inline bool get_childControlWidth();
 
-  /// @brief Method get_childForceExpandHeight, addr 0x6df8140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childForceExpandHeight, addr 0x6df3b44, size 0x8, virtual false, abstract: false, final false
   inline bool get_childForceExpandHeight();
 
-  /// @brief Method get_childForceExpandWidth, addr 0x6df80d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childForceExpandWidth, addr 0x6df3adc, size 0x8, virtual false, abstract: false, final false
   inline bool get_childForceExpandWidth();
 
-  /// @brief Method get_childScaleHeight, addr 0x6df82e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childScaleHeight, addr 0x6df3ce4, size 0x8, virtual false, abstract: false, final false
   inline bool get_childScaleHeight();
 
-  /// @brief Method get_childScaleWidth, addr 0x6df8278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childScaleWidth, addr 0x6df3c7c, size 0x8, virtual false, abstract: false, final false
   inline bool get_childScaleWidth();
 
-  /// @brief Method get_reverseArrangement, addr 0x6df8348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reverseArrangement, addr 0x6df3d4c, size 0x8, virtual false, abstract: false, final false
   inline bool get_reverseArrangement();
 
-  /// @brief Method get_spacing, addr 0x6df8070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spacing, addr 0x6df3a74, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spacing();
 
-  /// @brief Method set_childControlHeight, addr 0x6df8218, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_childControlHeight, addr 0x6df3c1c, size 0x60, virtual false, abstract: false, final false
   inline void set_childControlHeight(bool value);
 
-  /// @brief Method set_childControlWidth, addr 0x6df81b0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_childControlWidth, addr 0x6df3bb4, size 0x60, virtual false, abstract: false, final false
   inline void set_childControlWidth(bool value);
 
-  /// @brief Method set_childForceExpandHeight, addr 0x6df8148, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_childForceExpandHeight, addr 0x6df3b4c, size 0x60, virtual false, abstract: false, final false
   inline void set_childForceExpandHeight(bool value);
 
-  /// @brief Method set_childForceExpandWidth, addr 0x6df80e0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_childForceExpandWidth, addr 0x6df3ae4, size 0x60, virtual false, abstract: false, final false
   inline void set_childForceExpandWidth(bool value);
 
-  /// @brief Method set_childScaleHeight, addr 0x6df82e8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_childScaleHeight, addr 0x6df3cec, size 0x60, virtual false, abstract: false, final false
   inline void set_childScaleHeight(bool value);
 
-  /// @brief Method set_childScaleWidth, addr 0x6df8280, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_childScaleWidth, addr 0x6df3c84, size 0x60, virtual false, abstract: false, final false
   inline void set_childScaleWidth(bool value);
 
-  /// @brief Method set_reverseArrangement, addr 0x6df8350, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_reverseArrangement, addr 0x6df3d54, size 0x60, virtual false, abstract: false, final false
   inline void set_reverseArrangement(bool value);
 
-  /// @brief Method set_spacing, addr 0x6df8078, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_spacing, addr 0x6df3a7c, size 0x60, virtual false, abstract: false, final false
   inline void set_spacing(float_t value);
 
 protected:
@@ -189,7 +189,7 @@ public:
   HorizontalOrVerticalLayoutGroup(HorizontalOrVerticalLayoutGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17422 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17420 };
 
   /// @brief Field m_Spacing, offset: 0x60, size: 0x4, def value: None
   float_t ___m_Spacing;

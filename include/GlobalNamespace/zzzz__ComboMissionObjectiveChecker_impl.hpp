@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ComboMissionObjectiveChecker::*)()>(&::GlobalNamespace::ComboMissionObjectiveChecker::Init)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5917db8;
+  constexpr static std::size_t addrs = 0x59162d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ComboMissionObjectiveChecker::*)()>(&::GlobalNamespace::ComboMissionObjectiveChecker::OnDestroy)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x5917f40;
+  constexpr static std::size_t addrs = 0x5916460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ComboMissionObjectiveChecker*>(), { "OnDestroy", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ComboMissionObjectiveChecker::*)(int32_t)>(&::GlobalNamespace::ComboMissionObjectiveChecker::HandleComboDidChange)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5918054;
+  constexpr static std::size_t addrs = 0x5916574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ComboMissionObjectiveChecker::*)()>(&::GlobalNamespace::ComboMissionObjectiveChecker::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59180a0;
+  constexpr static std::size_t addrs = 0x59165c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ComboMissionObjectiveChecker*>(), { ".ctor", {}, {} })));

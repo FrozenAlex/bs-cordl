@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner__SpawnCoroutine_d__4::*)(int32_t)>(
     &::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner__SpawnCoroutine_d__4::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a77b6c;
+  constexpr static std::size_t addrs = 0x5a759b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner__SpawnCoroutine_d__4::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner__SpawnCoroutine_d__4::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a78004;
+  constexpr static std::size_t addrs = 0x5a75e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner__SpawnCoroutine_d__4::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner__SpawnCoroutine_d__4::MoveNext)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x5a78008;
+  constexpr static std::size_t addrs = 0x5a75e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner__SpawnCoroutine_d__4::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner__SpawnCoroutine_d__4::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a78174;
+  constexpr static std::size_t addrs = 0x5a75fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner__SpawnCoroutine_d__4*>(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner__SpawnCoroutine_d__4::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner__SpawnCoroutine_d__4::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5a7817c;
+  constexpr static std::size_t addrs = 0x5a75fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner__SpawnCoroutine_d__4::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner__SpawnCoroutine_d__4::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a781b4;
+  constexpr static std::size_t addrs = 0x5a75ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner__SpawnCoroutine_d__4*>(),
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner::*)()>(&::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner::Start)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5a77a64;
+  constexpr static std::size_t addrs = 0x5a758a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner*>(), { "Start", {}, {} })));
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner::*)(::StringW)>(
     &::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner::SpawnCoroutine)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5a77b0c;
+  constexpr static std::size_t addrs = 0x5a75950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner::*)(::Meta::XR::MultiplayerBlocks::Shared::PlatformInfo)>(
     &::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner::OnEntitlementFinished)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x5a77b74;
+  constexpr static std::size_t addrs = 0x5a759b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner::GetRandomName)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5a77d20;
+  constexpr static std::size_t addrs = 0x5a75b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner::*)()>(&::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner::_ctor)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x5a77e44;
+  constexpr static std::size_t addrs = 0x5a75c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::PlayerNameTagSpawner*>(), { ".ctor", {}, {} })));

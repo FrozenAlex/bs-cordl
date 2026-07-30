@@ -38,7 +38,7 @@ public:
   /// @brief Field typeName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName)) ::StringW typeName;
 
-  /// @brief Method AddKeyHash, addr 0x630c8f8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x630a694, size 0xac, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   constexpr bool const& __cordl_internal_get_includeInSchema() const;
@@ -59,13 +59,13 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method get_IncludeInSchema, addr 0x630c8c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IncludeInSchema, addr 0x630a664, size 0x8, virtual false, abstract: false, final false
   inline bool get_IncludeInSchema();
 
-  /// @brief Method get_Namespace, addr 0x630c8d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x630a66c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_TypeName, addr 0x630c8d8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x630a674, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
 protected:

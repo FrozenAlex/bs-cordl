@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Collections::SortedList*)>(
     &::GlobalNamespace::SortedList_SyncSortedList::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5be5bb4;
+  constexpr static std::size_t addrs = 0x5be39f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::get_Count)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5be5bf8;
+  constexpr static std::size_t addrs = 0x5be3a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::get_SyncRoot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5be5cd4;
+  constexpr static std::size_t addrs = 0x5be3b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5be5cdc;
+  constexpr static std::size_t addrs = 0x5be3b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5be5cfc;
+  constexpr static std::size_t addrs = 0x5be3b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5be5d1c;
+  constexpr static std::size_t addrs = 0x5be3b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(
     &::GlobalNamespace::SortedList_SyncSortedList::get_Item)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5be5d24;
+  constexpr static std::size_t addrs = 0x5be3b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*, ::System::Object*)>(
     &::GlobalNamespace::SortedList_SyncSortedList::set_Item)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5be5e08;
+  constexpr static std::size_t addrs = 0x5be3c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*, ::System::Object*)>(
     &::GlobalNamespace::SortedList_SyncSortedList::Add)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5be5ee8;
+  constexpr static std::size_t addrs = 0x5be3d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::Clear)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5be5fc8;
+  constexpr static std::size_t addrs = 0x5be3e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::Clone)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5be6090;
+  constexpr static std::size_t addrs = 0x5be3ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::Contains)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5be616c;
+  constexpr static std::size_t addrs = 0x5be3fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::ContainsKey)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5be6250;
+  constexpr static std::size_t addrs = 0x5be4094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::ContainsValue)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5be6334;
+  constexpr static std::size_t addrs = 0x5be4178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Array*, int32_t)>(&::GlobalNamespace::SortedList_SyncSortedList::CopyTo)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5be6418;
+  constexpr static std::size_t addrs = 0x5be425c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SortedList_SyncSortedList::*)(int32_t)>(&::GlobalNamespace::SortedList_SyncSortedList::GetByIndex)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5be64f8;
+  constexpr static std::size_t addrs = 0x5be433c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IDictionaryEnumerator* (::GlobalNamespace::SortedList_SyncSortedList::*)()>(
     &::GlobalNamespace::SortedList_SyncSortedList::GetEnumerator)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5be65dc;
+  constexpr static std::size_t addrs = 0x5be4420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SortedList_SyncSortedList::*)(int32_t)>(&::GlobalNamespace::SortedList_SyncSortedList::GetKey)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5be66b8;
+  constexpr static std::size_t addrs = 0x5be44fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (::GlobalNamespace::SortedList_SyncSortedList::*)()>(&::GlobalNamespace::SortedList_SyncSortedList::GetKeyList)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5be679c;
+  constexpr static std::size_t addrs = 0x5be45e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (::GlobalNamespace::SortedList_SyncSortedList::*)()>(
     &::GlobalNamespace::SortedList_SyncSortedList::GetValueList)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5be6878;
+  constexpr static std::size_t addrs = 0x5be46bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::IndexOfKey)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5be6954;
+  constexpr static std::size_t addrs = 0x5be4798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::IndexOfValue)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5be6a9c;
+  constexpr static std::size_t addrs = 0x5be48e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(int32_t)>(&::GlobalNamespace::SortedList_SyncSortedList::RemoveAt)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5be6b80;
+  constexpr static std::size_t addrs = 0x5be49c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -317,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SortedList_SyncSortedList::*)(::System::Object*)>(&::GlobalNamespace::SortedList_SyncSortedList::Remove)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5be6c54;
+  constexpr static std::size_t addrs = 0x5be4a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Unity::Collections::LowLevel::Unsafe::NativeContainerIsAtomicWriteOnlyAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a5a640, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a583dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

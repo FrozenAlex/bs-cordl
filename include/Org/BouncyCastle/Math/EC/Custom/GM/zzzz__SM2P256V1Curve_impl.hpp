@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve_SM2P256V1LookupTable::*)(
     ::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve*, ::ArrayW<uint32_t>, int32_t)>(&::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve_SM2P256V1LookupTable::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x34a9cec;
+  constexpr static std::size_t addrs = 0x34a82b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve_SM2P256V1LookupTable::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve_SM2P256V1LookupTable::get_Size)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34aa0c4;
+  constexpr static std::size_t addrs = 0x34a868c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve_SM2P256V1LookupTable*>(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve_SM2P256V1LookupTable::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve_SM2P256V1LookupTable::Lookup)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x34aa0cc;
+  constexpr static std::size_t addrs = 0x34a8694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve_SM2P256V1LookupTable*>(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve_SM2P256V1LookupTable::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve_SM2P256V1LookupTable::LookupVar)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x34aa2b8;
+  constexpr static std::size_t addrs = 0x34a8880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve_SM2P256V1LookupTable*>(),
@@ -77,7 +77,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve_SM2P256V1LookupTable::*)(::ArrayW<uint32_t>, ::ArrayW<uint32_t>)>(
         &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve_SM2P256V1LookupTable::CreatePoint)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x34aa1e4;
+  constexpr static std::size_t addrs = 0x34a87ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve_SM2P256V1LookupTable*>(),
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::*)()>(&::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::_ctor)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x34a94d8;
+  constexpr static std::size_t addrs = 0x34a7aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve*>(), { ".ctor", {}, {} })));
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECCurve* (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::CloneCurve)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x34a9708;
+  constexpr static std::size_t addrs = 0x34a7cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve*>(),
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::SupportsCoordinateSystem)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x34a975c;
+  constexpr static std::size_t addrs = 0x34a7d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve*>(),
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::get_Q)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x34a9768;
+  constexpr static std::size_t addrs = 0x34a7d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve*>(),
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::get_Infinity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34a97c4;
+  constexpr static std::size_t addrs = 0x34a7d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve*>(),
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::get_FieldSize)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x34a97cc;
+  constexpr static std::size_t addrs = 0x34a7d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve*>(),
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (
     ::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::FromBigInteger)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x34a9834;
+  constexpr static std::size_t addrs = 0x34a7dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve*>(),
@@ -261,7 +261,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math
     ::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::*)(::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Org::BouncyCastle::Math::EC::ECFieldElement*, bool)>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::CreateRawPoint)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x34a99a8;
+  constexpr static std::size_t addrs = 0x34a7f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve*>(),
@@ -277,7 +277,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math
                                                                   ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*>, bool)>(
     &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::CreateRawPoint)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x34a9aac;
+  constexpr static std::size_t addrs = 0x34a8074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve*>(),
@@ -292,7 +292,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Math::EC::ECLookupTable* (::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::*)(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*>, int32_t, int32_t)>(
         &::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::CreateCacheSafeLookupTable)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x34a9b3c;
+  constexpr static std::size_t addrs = 0x34a8104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve*>(),
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (
     ::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::*)(::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::RandomFieldElement)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x34a9cf8;
+  constexpr static std::size_t addrs = 0x34a82c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve*>(),
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (
     ::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::*)(::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve::RandomFieldElementMult)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x34a9e74;
+  constexpr static std::size_t addrs = 0x34a843c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Custom::GM::SM2P256V1Curve*>(),

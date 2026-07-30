@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRCompositor::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5e42d74;
+  constexpr static std::size_t addrs = 0x5e40ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { ".ctor", {}, { ::i2c::type_of<::System::IntPtr>() } })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)(::OVR::OpenVR::ETrackingUniverseOrigin)>(&::OVR::OpenVR::CVRCompositor::SetTrackingSpace)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e42e74;
+  constexpr static std::size_t addrs = 0x5e40be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::ETrackingUniverseOrigin (::OVR::OpenVR::CVRCompositor::*)()>(&::OVR::OpenVR::CVRCompositor::GetTrackingSpace)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e42e94;
+  constexpr static std::size_t addrs = 0x5e40c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "GetTrackingSpace", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRCompositorError (::OVR::OpenVR::CVRCompositor::*)(
     ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>, ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>)>(&::OVR::OpenVR::CVRCompositor::WaitGetPoses)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e42eb4;
+  constexpr static std::size_t addrs = 0x5e40c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRCompositorError (::OVR::OpenVR::CVRCompositor::*)(
     ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>, ::ArrayW<::OVR::OpenVR::TrackedDevicePose_t>)>(&::OVR::OpenVR::CVRCompositor::GetLastPoses)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e42eec;
+  constexpr static std::size_t addrs = 0x5e40c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRCompositorError (::OVR::OpenVR::CVRCompositor::*)(
     uint32_t, ::by_ref<::OVR::OpenVR::TrackedDevicePose_t>, ::by_ref<::OVR::OpenVR::TrackedDevicePose_t>)>(&::OVR::OpenVR::CVRCompositor::GetLastPoseForTrackedDeviceIndex)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e42f24;
+  constexpr static std::size_t addrs = 0x5e40c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRCompositorError (::OVR::OpenVR::CVRCompositor::*)(
     ::OVR::OpenVR::EVREye, ::by_ref<::OVR::OpenVR::Texture_t>, ::by_ref<::OVR::OpenVR::VRTextureBounds_t>, ::OVR::OpenVR::EVRSubmitFlags)>(&::OVR::OpenVR::CVRCompositor::Submit)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e42f44;
+  constexpr static std::size_t addrs = 0x5e40cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)()>(&::OVR::OpenVR::CVRCompositor::ClearLastSubmittedFrame)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e42f64;
+  constexpr static std::size_t addrs = 0x5e40cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "ClearLastSubmittedFrame", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)()>(&::OVR::OpenVR::CVRCompositor::PostPresentHandoff)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e42f84;
+  constexpr static std::size_t addrs = 0x5e40cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "PostPresentHandoff", {}, {} })));
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRCompositor::*)(::by_ref<::OVR::OpenVR::Compositor_FrameTiming>, uint32_t)>(
     &::OVR::OpenVR::CVRCompositor::GetFrameTiming)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e42fa4;
+  constexpr static std::size_t addrs = 0x5e40d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::CVRCompositor::*)(::by_ref<::OVR::OpenVR::Compositor_FrameTiming>, uint32_t)>(
     &::OVR::OpenVR::CVRCompositor::GetFrameTimings)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e42fc4;
+  constexpr static std::size_t addrs = 0x5e40d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::OVR::OpenVR::CVRCompositor::*)()>(&::OVR::OpenVR::CVRCompositor::GetFrameTimeRemaining)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e42fe4;
+  constexpr static std::size_t addrs = 0x5e40d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "GetFrameTimeRemaining", {}, {} })));
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)(::by_ref<::OVR::OpenVR::Compositor_CumulativeStats>, uint32_t)>(
     &::OVR::OpenVR::CVRCompositor::GetCumulativeStats)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43004;
+  constexpr static std::size_t addrs = 0x5e40d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)(float_t, float_t, float_t, float_t, float_t, bool)>(&::OVR::OpenVR::CVRCompositor::FadeToColor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e43024;
+  constexpr static std::size_t addrs = 0x5e40d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::HmdColor_t (::OVR::OpenVR::CVRCompositor::*)(bool)>(&::OVR::OpenVR::CVRCompositor::GetCurrentFadeColor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e43048;
+  constexpr static std::size_t addrs = 0x5e40db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)(float_t, bool)>(&::OVR::OpenVR::CVRCompositor::FadeGrid)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e4306c;
+  constexpr static std::size_t addrs = 0x5e40dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::OVR::OpenVR::CVRCompositor::*)()>(&::OVR::OpenVR::CVRCompositor::GetCurrentGridAlpha)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43090;
+  constexpr static std::size_t addrs = 0x5e40dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "GetCurrentGridAlpha", {}, {} })));
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRCompositorError (::OVR::OpenVR::CVRCompositor::*)(::ArrayW<::OVR::OpenVR::Texture_t>)>(
     &::OVR::OpenVR::CVRCompositor::SetSkyboxOverride)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5e430b0;
+  constexpr static std::size_t addrs = 0x5e40e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -274,7 +274,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)()>(&::OVR::OpenVR::CVRCompositor::ClearSkyboxOverride)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e430dc;
+  constexpr static std::size_t addrs = 0x5e40e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "ClearSkyboxOverride", {}, {} })));
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)()>(&::OVR::OpenVR::CVRCompositor::CompositorBringToFront)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e430fc;
+  constexpr static std::size_t addrs = 0x5e40e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "CompositorBringToFront", {}, {} })));
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)()>(&::OVR::OpenVR::CVRCompositor::CompositorGoToBack)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e4311c;
+  constexpr static std::size_t addrs = 0x5e40e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "CompositorGoToBack", {}, {} })));
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)()>(&::OVR::OpenVR::CVRCompositor::CompositorQuit)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e4313c;
+  constexpr static std::size_t addrs = 0x5e40ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "CompositorQuit", {}, {} })));
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRCompositor::*)()>(&::OVR::OpenVR::CVRCompositor::IsFullscreen)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e4315c;
+  constexpr static std::size_t addrs = 0x5e40ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "IsFullscreen", {}, {} })));
@@ -334,7 +334,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::CVRCompositor::*)()>(&::OVR::OpenVR::CVRCompositor::GetCurrentSceneFocusProcess)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e4317c;
+  constexpr static std::size_t addrs = 0x5e40ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "GetCurrentSceneFocusProcess", {}, {} })));
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::CVRCompositor::*)()>(&::OVR::OpenVR::CVRCompositor::GetLastFrameRenderer)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e4319c;
+  constexpr static std::size_t addrs = 0x5e40f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "GetLastFrameRenderer", {}, {} })));
@@ -358,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRCompositor::*)()>(&::OVR::OpenVR::CVRCompositor::CanRenderScene)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e431bc;
+  constexpr static std::size_t addrs = 0x5e40f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "CanRenderScene", {}, {} })));
@@ -370,7 +370,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)()>(&::OVR::OpenVR::CVRCompositor::ShowMirrorWindow)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e431dc;
+  constexpr static std::size_t addrs = 0x5e40f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "ShowMirrorWindow", {}, {} })));
@@ -382,7 +382,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)()>(&::OVR::OpenVR::CVRCompositor::HideMirrorWindow)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e431fc;
+  constexpr static std::size_t addrs = 0x5e40f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "HideMirrorWindow", {}, {} })));
@@ -394,7 +394,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRCompositor::*)()>(&::OVR::OpenVR::CVRCompositor::IsMirrorWindowVisible)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e4321c;
+  constexpr static std::size_t addrs = 0x5e40f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "IsMirrorWindowVisible", {}, {} })));
@@ -406,7 +406,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)()>(&::OVR::OpenVR::CVRCompositor::CompositorDumpImages)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e4323c;
+  constexpr static std::size_t addrs = 0x5e40fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "CompositorDumpImages", {}, {} })));
@@ -418,7 +418,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRCompositor::*)()>(&::OVR::OpenVR::CVRCompositor::ShouldAppRenderWithLowResources)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e4325c;
+  constexpr static std::size_t addrs = 0x5e40fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "ShouldAppRenderWithLowResources", {}, {} })));
@@ -430,7 +430,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)(bool)>(&::OVR::OpenVR::CVRCompositor::ForceInterleavedReprojectionOn)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e4327c;
+  constexpr static std::size_t addrs = 0x5e40fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -443,7 +443,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)()>(&::OVR::OpenVR::CVRCompositor::ForceReconnectProcess)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e432a0;
+  constexpr static std::size_t addrs = 0x5e4100c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "ForceReconnectProcess", {}, {} })));
@@ -455,7 +455,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)(bool)>(&::OVR::OpenVR::CVRCompositor::SuspendRendering)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e432c0;
+  constexpr static std::size_t addrs = 0x5e4102c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "SuspendRendering", {}, { ::i2c::type_of<bool>() } })));
@@ -468,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRCompositorError (::OVR::OpenVR::CVRCompositor::*)(::OVR::OpenVR::EVREye, ::System::IntPtr, ::by_ref<::System::IntPtr>)>(
     &::OVR::OpenVR::CVRCompositor::GetMirrorTextureD3D11)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e432e4;
+  constexpr static std::size_t addrs = 0x5e41050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -483,7 +483,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRCompositor::ReleaseMirrorTextureD3D11)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43304;
+  constexpr static std::size_t addrs = 0x5e41070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -497,7 +497,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRCompositorError (::OVR::OpenVR::CVRCompositor::*)(::OVR::OpenVR::EVREye, ::by_ref<uint32_t>, ::System::IntPtr)>(
     &::OVR::OpenVR::CVRCompositor::GetMirrorTextureGL)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e43324;
+  constexpr static std::size_t addrs = 0x5e41090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -511,7 +511,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRCompositor::*)(uint32_t, ::System::IntPtr)>(&::OVR::OpenVR::CVRCompositor::ReleaseSharedGLTexture)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43348;
+  constexpr static std::size_t addrs = 0x5e410b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -525,7 +525,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRCompositor::LockGLSharedTextureForAccess)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43368;
+  constexpr static std::size_t addrs = 0x5e410d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -538,7 +538,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRCompositor::UnlockGLSharedTextureForAccess)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43388;
+  constexpr static std::size_t addrs = 0x5e410f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -552,7 +552,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::CVRCompositor::*)(::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::CVRCompositor::GetVulkanInstanceExtensionsRequired)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e433a8;
+  constexpr static std::size_t addrs = 0x5e41114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -567,7 +567,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::CVRCompositor::*)(::System::IntPtr, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::CVRCompositor::GetVulkanDeviceExtensionsRequired)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e433c8;
+  constexpr static std::size_t addrs = 0x5e41134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -582,7 +582,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRCompositor::*)(::OVR::OpenVR::EVRCompositorTimingMode)>(&::OVR::OpenVR::CVRCompositor::SetExplicitTimingMode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e433e8;
+  constexpr static std::size_t addrs = 0x5e41154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -595,7 +595,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRCompositorError (::OVR::OpenVR::CVRCompositor::*)()>(&::OVR::OpenVR::CVRCompositor::SubmitExplicitTimingData)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e43408;
+  constexpr static std::size_t addrs = 0x5e41174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRCompositor*>(), { "SubmitExplicitTimingData", {}, {} })));

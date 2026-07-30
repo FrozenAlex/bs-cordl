@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set_choice(::System::Xml::Schema::XmlSchemaChoice* value);
 
-  /// @brief Method .ctor, addr 0x6236b20, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62348bc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Choice, addr 0x6236b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Choice, addr 0x62348b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaChoice* get_Choice();
 
 protected:

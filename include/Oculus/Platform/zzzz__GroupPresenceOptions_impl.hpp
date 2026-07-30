@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::GroupPresenceOptions::*)()>(&::Oculus::Platform::GroupPresenceOptions::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd2948;
+  constexpr static std::size_t addrs = 0x5dd06b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::GroupPresenceOptions*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::GroupPresenceOptions::*)(::StringW)>(&::Oculus::Platform::GroupPresenceOptions::SetDeeplinkMessageOverride)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5dd29a4;
+  constexpr static std::size_t addrs = 0x5dd0710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::GroupPresenceOptions::*)(::StringW)>(&::Oculus::Platform::GroupPresenceOptions::SetDestinationApiName)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5dd2a10;
+  constexpr static std::size_t addrs = 0x5dd077c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::GroupPresenceOptions::*)(bool)>(&::Oculus::Platform::GroupPresenceOptions::SetIsJoinable)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5dd2a7c;
+  constexpr static std::size_t addrs = 0x5dd07e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::GroupPresenceOptions::*)(::StringW)>(&::Oculus::Platform::GroupPresenceOptions::SetLobbySessionId)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5dd2ae8;
+  constexpr static std::size_t addrs = 0x5dd0854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::GroupPresenceOptions::*)(::StringW)>(&::Oculus::Platform::GroupPresenceOptions::SetMatchSessionId)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5dd2b54;
+  constexpr static std::size_t addrs = 0x5dd08c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::Oculus::Platform::GroupPresenceOptions*)>(&::Oculus::Platform::GroupPresenceOptions::op_Explicit___System__IntPtr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5dd2bc0;
+  constexpr static std::size_t addrs = 0x5dd092c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::GroupPresenceOptions::*)()>(&::Oculus::Platform::GroupPresenceOptions::Finalize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5dd2bcc;
+  constexpr static std::size_t addrs = 0x5dd0938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

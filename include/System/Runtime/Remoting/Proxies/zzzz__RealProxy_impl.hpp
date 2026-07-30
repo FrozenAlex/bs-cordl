@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Proxies::RealProxy::*)()>(&::System::Runtime::Remoting::Proxies::RealProxy::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b2ffec;
+  constexpr static std::size_t addrs = 0x5b2de30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Proxies::RealProxy*>(), { ".ctor", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Proxies::RealProxy::*)(::System::Type*)>(&::System::Runtime::Remoting::Proxies::RealProxy::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b2fff8;
+  constexpr static std::size_t addrs = 0x5b2de3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Proxies::RealProxy::*)(::System::Type*, ::System::Runtime::Remoting::ClientIdentity*)>(
     &::System::Runtime::Remoting::Proxies::RealProxy::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5b300dc;
+  constexpr static std::size_t addrs = 0x5b2df20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Proxies::RealProxy::*)(::System::Type*, ::System::IntPtr, ::System::Object*)>(
     &::System::Runtime::Remoting::Proxies::RealProxy::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5b30000;
+  constexpr static std::size_t addrs = 0x5b2de44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Object*)>(&::System::Runtime::Remoting::Proxies::RealProxy::InternalGetProxyType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b30104;
+  constexpr static std::size_t addrs = 0x5b2df48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Runtime::Remoting::Proxies::RealProxy::*)()>(&::System::Runtime::Remoting::Proxies::RealProxy::GetProxiedType)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5b286f4;
+  constexpr static std::size_t addrs = 0x5b26538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Proxies::RealProxy*>(), { "GetProxiedType", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Proxies::RealProxy::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Remoting::Proxies::RealProxy::GetObjectData)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5b3010c;
+  constexpr static std::size_t addrs = 0x5b2df50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Identity* (::System::Runtime::Remoting::Proxies::RealProxy::*)()>(
     &::System::Runtime::Remoting::Proxies::RealProxy::get_ObjectIdentity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b30174;
+  constexpr static std::size_t addrs = 0x5b2dfb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Proxies::RealProxy*>(), { "get_ObjectIdentity", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Proxies::RealProxy::*)(::System::Runtime::Remoting::Identity*)>(
     &::System::Runtime::Remoting::Proxies::RealProxy::set_ObjectIdentity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b3017c;
+  constexpr static std::size_t addrs = 0x5b2dfc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Proxies::RealProxy*>(),
@@ -157,7 +157,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::S
                                                                              ::by_ref<::System::Exception*>, ::by_ref<::ArrayW<::System::Object*>>)>(
     &::System::Runtime::Remoting::Proxies::RealProxy::PrivateInvoke)> {
   constexpr static std::size_t size = 0x8f4;
-  constexpr static std::size_t addrs = 0x5b2f44c;
+  constexpr static std::size_t addrs = 0x5b2d290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Remoting::Proxies::RealProxy::*)(::StringW)>(
     &::System::Runtime::Remoting::Proxies::RealProxy::InternalGetTransparentProxy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b30ad8;
+  constexpr static std::size_t addrs = 0x5b2e91c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Remoting::Proxies::RealProxy::*)()>(
     &::System::Runtime::Remoting::Proxies::RealProxy::GetTransparentProxy)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5b30ae0;
+  constexpr static std::size_t addrs = 0x5b2e924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Proxies::RealProxy::*)(::System::MarshalByRefObject*)>(
     &::System::Runtime::Remoting::Proxies::RealProxy::AttachServer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b30c38;
+  constexpr static std::size_t addrs = 0x5b2ea7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Proxies::RealProxy::*)(int32_t)>(&::System::Runtime::Remoting::Proxies::RealProxy::SetTargetDomain)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b30c40;
+  constexpr static std::size_t addrs = 0x5b2ea84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Remoting::Proxies::RealProxy::*)()>(
     &::System::Runtime::Remoting::Proxies::RealProxy::GetAppDomainTarget)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5b30c48;
+  constexpr static std::size_t addrs = 0x5b2ea8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Proxies::RealProxy*>(), { "GetAppDomainTarget", {}, {} })));
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (*)(
     ::System::Runtime::Remoting::Messaging::IMethodReturnMessage*, ::System::Runtime::Remoting::Messaging::MonoMethodMessage*)>(&::System::Runtime::Remoting::Proxies::RealProxy::ProcessResponse)> {
   constexpr static std::size_t size = 0x71c;
-  constexpr static std::size_t addrs = 0x5b303bc;
+  constexpr static std::size_t addrs = 0x5b2e200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

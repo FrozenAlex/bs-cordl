@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionObjectiveChecker::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*)>(
     &::GlobalNamespace::MissionObjectiveChecker::add_statusDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59165f8;
+  constexpr static std::size_t addrs = 0x5914b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionObjectiveChecker::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*)>(
     &::GlobalNamespace::MissionObjectiveChecker::remove_statusDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5918c18;
+  constexpr static std::size_t addrs = 0x5917138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionObjectiveChecker::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*)>(
     &::GlobalNamespace::MissionObjectiveChecker::add_checkedValueDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59166b8;
+  constexpr static std::size_t addrs = 0x5914bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionObjectiveChecker::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*)>(
     &::GlobalNamespace::MissionObjectiveChecker::remove_checkedValueDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5918cd8;
+  constexpr static std::size_t addrs = 0x59171f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> (::GlobalNamespace::MissionObjectiveChecker::*)()>(
     &::GlobalNamespace::MissionObjectiveChecker::get_missionObjectiveType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5918d98;
+  constexpr static std::size_t addrs = 0x59172b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjectiveChecker*>(), { "get_missionObjectiveType", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MissionObjective* (::GlobalNamespace::MissionObjectiveChecker::*)()>(
     &::GlobalNamespace::MissionObjectiveChecker::get_missionObjective)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5918da0;
+  constexpr static std::size_t addrs = 0x59172c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjectiveChecker*>(), { "get_missionObjective", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MissionObjectiveChecker::*)()>(&::GlobalNamespace::MissionObjectiveChecker::get_disableChecking)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5918da8;
+  constexpr static std::size_t addrs = 0x59172c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjectiveChecker*>(), { "get_disableChecking", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionObjectiveChecker::*)(bool)>(&::GlobalNamespace::MissionObjectiveChecker::set_disableChecking)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5918db0;
+  constexpr static std::size_t addrs = 0x59172d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MissionObjectiveChecker_Status (::GlobalNamespace::MissionObjectiveChecker::*)()>(
     &::GlobalNamespace::MissionObjectiveChecker::get_status)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5918db8;
+  constexpr static std::size_t addrs = 0x59172d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjectiveChecker*>(), { "get_status", {}, {} })));
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionObjectiveChecker::*)(::GlobalNamespace::MissionObjectiveChecker_Status)>(
     &::GlobalNamespace::MissionObjectiveChecker::set_status)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5917b08;
+  constexpr static std::size_t addrs = 0x5916028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjectiveChecker*>(),
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MissionObjectiveChecker::*)()>(&::GlobalNamespace::MissionObjectiveChecker::get_checkedValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5918dc0;
+  constexpr static std::size_t addrs = 0x59172e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjectiveChecker*>(), { "get_checkedValue", {}, {} })));
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionObjectiveChecker::*)(int32_t)>(&::GlobalNamespace::MissionObjectiveChecker::set_checkedValue)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5917c78;
+  constexpr static std::size_t addrs = 0x5916198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionObjectiveChecker::*)(::GlobalNamespace::MissionObjective*)>(
     &::GlobalNamespace::MissionObjectiveChecker::SetCheckedMissionObjective)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5918dc8;
+  constexpr static std::size_t addrs = 0x59172e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjectiveChecker*>(),
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionObjectiveChecker::*)()>(&::GlobalNamespace::MissionObjectiveChecker::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5918454;
+  constexpr static std::size_t addrs = 0x5916974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjectiveChecker*>(), { ".ctor", {}, {} })));

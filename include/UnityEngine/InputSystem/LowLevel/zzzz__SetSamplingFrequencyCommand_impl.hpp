@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(&::UnityEngine::InputSystem::LowLevel::SetSamplingFrequencyCommand::get_Type)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a8854;
+  constexpr static std::size_t addrs = 0x65a65f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::SetSamplingFrequencyCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::SetSamplingFrequencyCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a8860;
+  constexpr static std::size_t addrs = 0x65a65fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::LowLevel::SetSamplingFrequencyCommand (*)(float_t)>(
     &::UnityEngine::InputSystem::LowLevel::SetSamplingFrequencyCommand::Create)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x65a886c;
+  constexpr static std::size_t addrs = 0x65a6608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

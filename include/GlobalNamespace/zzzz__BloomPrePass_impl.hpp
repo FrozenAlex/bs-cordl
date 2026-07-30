@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePass::*)()>(&::GlobalNamespace::BloomPrePass::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5861ea4;
+  constexpr static std::size_t addrs = 0x58603a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePass*>(), { "Awake", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePass::*)()>(&::GlobalNamespace::BloomPrePass::LazyInit)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5861ea8;
+  constexpr static std::size_t addrs = 0x58603a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePass*>(), { "LazyInit", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePass::*)()>(&::GlobalNamespace::BloomPrePass::OnDestroy)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5862104;
+  constexpr static std::size_t addrs = 0x5860600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePass*>(), { "OnDestroy", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePass::*)(::GlobalNamespace::BloomPrePass_Mode)>(&::GlobalNamespace::BloomPrePass::SetMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58621b4;
+  constexpr static std::size_t addrs = 0x58606b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BloomPrePassRendererSO> (::GlobalNamespace::BloomPrePass::*)()>(&::GlobalNamespace::BloomPrePass::get_renderer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58621bc;
+  constexpr static std::size_t addrs = 0x58606b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePass*>(), { "get_renderer", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> (::GlobalNamespace::BloomPrePass::*)()>(
     &::GlobalNamespace::BloomPrePass::get_container)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58621c4;
+  constexpr static std::size_t addrs = 0x58606c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePass*>(), { "get_container", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BloomPrePassRenderDataSO_Data* (::GlobalNamespace::BloomPrePass::*)()>(&::GlobalNamespace::BloomPrePass::get_renderData)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x58621cc;
+  constexpr static std::size_t addrs = 0x58606c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePass*>(), { "get_renderData", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePass::*)(::GlobalNamespace::BloomPrePass*)>(&::GlobalNamespace::BloomPrePass::CopyComponent)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x58621f0;
+  constexpr static std::size_t addrs = 0x58606ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePass::*)()>(&::GlobalNamespace::BloomPrePass::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5862218;
+  constexpr static std::size_t addrs = 0x5860714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePass*>(), { ".ctor", {}, {} })));

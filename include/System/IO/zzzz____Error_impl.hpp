@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::IO::__Error::EndOfFile)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5c1346c;
+  constexpr static std::size_t addrs = 0x5c112b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::__Error*>(), { "EndOfFile", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::IO::__Error::FileNotOpen)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5c134bc;
+  constexpr static std::size_t addrs = 0x5c11300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::__Error*>(), { "FileNotOpen", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::IO::__Error::ReaderClosed)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5c13510;
+  constexpr static std::size_t addrs = 0x5c11354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::__Error*>(), { "ReaderClosed", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, bool)>(&::System::IO::__Error::GetDisplayablePath)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5c13564;
+  constexpr static std::size_t addrs = 0x5c113a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::StringW)>(&::System::IO::__Error::WinIOError)> {
   constexpr static std::size_t size = 0x550;
-  constexpr static std::size_t addrs = 0x5c13840;
+  constexpr static std::size_t addrs = 0x5c11684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::IO::__Error::WriterClosed)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5c13d90;
+  constexpr static std::size_t addrs = 0x5c11bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::__Error*>(), { "WriterClosed", {}, {} })));

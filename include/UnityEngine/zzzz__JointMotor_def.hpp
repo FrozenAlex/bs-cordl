@@ -27,22 +27,22 @@ public:
 
   __declspec(property(get = get_targetVelocity, put = set_targetVelocity)) float_t targetVelocity;
 
-  /// @brief Method get_force, addr 0x6b6ee30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_force, addr 0x6b6a834, size 0x8, virtual false, abstract: false, final false
   inline float_t get_force();
 
-  /// @brief Method get_freeSpin, addr 0x6b6ee40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_freeSpin, addr 0x6b6a844, size 0x10, virtual false, abstract: false, final false
   inline bool get_freeSpin();
 
-  /// @brief Method get_targetVelocity, addr 0x6b6ee20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetVelocity, addr 0x6b6a824, size 0x8, virtual false, abstract: false, final false
   inline float_t get_targetVelocity();
 
-  /// @brief Method set_force, addr 0x6b6ee38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_force, addr 0x6b6a83c, size 0x8, virtual false, abstract: false, final false
   inline void set_force(float_t value);
 
-  /// @brief Method set_freeSpin, addr 0x6b6ee50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_freeSpin, addr 0x6b6a854, size 0xc, virtual false, abstract: false, final false
   inline void set_freeSpin(bool value);
 
-  /// @brief Method set_targetVelocity, addr 0x6b6ee28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_targetVelocity, addr 0x6b6a82c, size 0x8, virtual false, abstract: false, final false
   inline void set_targetVelocity(float_t value);
 
   // Ctor Parameters []
@@ -54,7 +54,7 @@ public:
   constexpr JointMotor(float_t m_TargetVelocity, float_t m_Force, int32_t m_FreeSpin) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18586 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18584 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

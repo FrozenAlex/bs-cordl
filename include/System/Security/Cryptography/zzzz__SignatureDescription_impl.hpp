@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::SignatureDescription::*)()>(&::System::Security::Cryptography::SignatureDescription::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b049dc;
+  constexpr static std::size_t addrs = 0x5b02820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::SignatureDescription*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::SignatureDescription::*)(::StringW)>(
     &::System::Security::Cryptography::SignatureDescription::set_KeyAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b049e0;
+  constexpr static std::size_t addrs = 0x5b02824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::SignatureDescription::*)(::StringW)>(
     &::System::Security::Cryptography::SignatureDescription::set_DigestAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b049e8;
+  constexpr static std::size_t addrs = 0x5b0282c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::SignatureDescription::*)(::StringW)>(
     &::System::Security::Cryptography::SignatureDescription::set_FormatterAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b049f0;
+  constexpr static std::size_t addrs = 0x5b02834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::SignatureDescription::*)(::StringW)>(
     &::System::Security::Cryptography::SignatureDescription::set_DeformatterAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b049f8;
+  constexpr static std::size_t addrs = 0x5b0283c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

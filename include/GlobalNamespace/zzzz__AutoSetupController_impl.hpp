@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AutoSetupController::*)(::System::Action_1<::GlobalNamespace::AutoSetupData*>*)>(
     &::GlobalNamespace::AutoSetupController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x593c00c;
+  constexpr static std::size_t addrs = 0x593a7f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AutoSetupController::*)(::System::Action_1<::GlobalNamespace::AutoSetupData*>*)>(
     &::GlobalNamespace::AutoSetupController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x593c0cc;
+  constexpr static std::size_t addrs = 0x593a8b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AutoSetupController::*)(::GlobalNamespace::AutoSetupData*)>(&::GlobalNamespace::AutoSetupController::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x593c18c;
+  constexpr static std::size_t addrs = 0x593a974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AutoSetupController::*)()>(&::GlobalNamespace::AutoSetupController::OnEnable)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x593c194;
+  constexpr static std::size_t addrs = 0x593a97c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AutoSetupController*>(), { "OnEnable", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AutoSetupController::*)()>(&::GlobalNamespace::AutoSetupController::OnDisable)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x593c464;
+  constexpr static std::size_t addrs = 0x593ac4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AutoSetupController*>(), { "OnDisable", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AutoSetupController::*)()>(&::GlobalNamespace::AutoSetupController::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x593c47c;
+  constexpr static std::size_t addrs = 0x593ac64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AutoSetupController*>(), { ".ctor", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AutoSetupController::*)()>(&::GlobalNamespace::AutoSetupController::_OnEnable_b__12_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x593c538;
+  constexpr static std::size_t addrs = 0x593ad20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AutoSetupController*>(), { "<OnEnable>b__12_0", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AutoSetupController::*)(bool)>(&::GlobalNamespace::AutoSetupController::_OnEnable_b__12_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x593c558;
+  constexpr static std::size_t addrs = 0x593ad40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AutoSetupController::*)(bool)>(&::GlobalNamespace::AutoSetupController::_OnEnable_b__12_2)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x593c574;
+  constexpr static std::size_t addrs = 0x593ad5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AutoSetupController::*)(bool)>(&::GlobalNamespace::AutoSetupController::_OnEnable_b__12_3)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x593c590;
+  constexpr static std::size_t addrs = 0x593ad78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AutoSetupController::*)(bool)>(&::GlobalNamespace::AutoSetupController::_OnEnable_b__12_4)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x593c5ac;
+  constexpr static std::size_t addrs = 0x593ad94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

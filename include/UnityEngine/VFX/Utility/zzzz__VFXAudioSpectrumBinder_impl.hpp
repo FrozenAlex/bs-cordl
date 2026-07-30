@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder::*)()>(&::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder::get_CountProperty)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69dcad0;
+  constexpr static std::size_t addrs = 0x69da86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder*>(), { "get_CountProperty", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder::*)(::StringW)>(
     &::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder::set_CountProperty)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x69dcae8;
+  constexpr static std::size_t addrs = 0x69da884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder::*)()>(
     &::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder::get_TextureProperty)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69dcb04;
+  constexpr static std::size_t addrs = 0x69da8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder::*)(::StringW)>(
     &::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder::set_TextureProperty)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x69dcb1c;
+  constexpr static std::size_t addrs = 0x69da8b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder::IsValid)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x69dcb38;
+  constexpr static std::size_t addrs = 0x69da8d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder*>(),
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder::*)()>(&::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder::UpdateTexture)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x69dcc18;
+  constexpr static std::size_t addrs = 0x69da9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder*>(), { "UpdateTexture", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder::UpdateBinding)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x69dce98;
+  constexpr static std::size_t addrs = 0x69dac34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder*>(),
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder::*)()>(&::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder::ToString)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x69dcf0c;
+  constexpr static std::size_t addrs = 0x69daca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder*>(),
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder::*)()>(&::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x69dcfdc;
+  constexpr static std::size_t addrs = 0x69dad78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXAudioSpectrumBinder*>(), { ".ctor", {}, {} })));

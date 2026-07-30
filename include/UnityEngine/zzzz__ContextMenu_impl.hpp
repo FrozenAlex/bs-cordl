@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ContextMenu::*)(::StringW)>(&::UnityEngine::ContextMenu::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ad77d4;
+  constexpr static std::size_t addrs = 0x6ad30cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ContextMenu*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ContextMenu::*)(::StringW, bool)>(&::UnityEngine::ContextMenu::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ad77ec;
+  constexpr static std::size_t addrs = 0x6ad30e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ContextMenu::*)(::StringW, bool, int32_t)>(&::UnityEngine::ContextMenu::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6ad7804;
+  constexpr static std::size_t addrs = 0x6ad30fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

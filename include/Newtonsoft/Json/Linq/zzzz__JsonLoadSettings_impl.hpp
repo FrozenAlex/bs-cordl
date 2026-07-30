@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonLoadSettings::*)()>(&::Newtonsoft::Json::Linq::JsonLoadSettings::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5d78b60;
+  constexpr static std::size_t addrs = 0x5d768cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonLoadSettings*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::CommentHandling (::Newtonsoft::Json::Linq::JsonLoadSettings::*)()>(
     &::Newtonsoft::Json::Linq::JsonLoadSettings::get_CommentHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d78b74;
+  constexpr static std::size_t addrs = 0x5d768e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonLoadSettings*>(), { "get_CommentHandling", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonLoadSettings::*)(::Newtonsoft::Json::Linq::CommentHandling)>(
     &::Newtonsoft::Json::Linq::JsonLoadSettings::set_CommentHandling)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5d78b7c;
+  constexpr static std::size_t addrs = 0x5d768e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonLoadSettings*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::LineInfoHandling (::Newtonsoft::Json::Linq::JsonLoadSettings::*)()>(
     &::Newtonsoft::Json::Linq::JsonLoadSettings::get_LineInfoHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d78bd8;
+  constexpr static std::size_t addrs = 0x5d76944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonLoadSettings*>(), { "get_LineInfoHandling", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonLoadSettings::*)(::Newtonsoft::Json::Linq::LineInfoHandling)>(
     &::Newtonsoft::Json::Linq::JsonLoadSettings::set_LineInfoHandling)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5d78be0;
+  constexpr static std::size_t addrs = 0x5d7694c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonLoadSettings*>(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling (::Newtonsoft::Json::Linq::JsonLoadSettings::*)()>(
     &::Newtonsoft::Json::Linq::JsonLoadSettings::get_DuplicatePropertyNameHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d78c3c;
+  constexpr static std::size_t addrs = 0x5d769a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonLoadSettings::*)(::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling)>(
     &::Newtonsoft::Json::Linq::JsonLoadSettings::set_DuplicatePropertyNameHandling)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5d78c44;
+  constexpr static std::size_t addrs = 0x5d769b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

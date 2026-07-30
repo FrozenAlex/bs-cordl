@@ -371,7 +371,7 @@ public:
   Expression_BinaryExpressionProxy(Expression_BinaryExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16081 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16079 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -401,7 +401,7 @@ public:
   Expression_BlockExpressionProxy(Expression_BlockExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16080 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -431,7 +431,7 @@ public:
   Expression_CatchBlockProxy(Expression_CatchBlockProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16083 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16081 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -461,7 +461,7 @@ public:
   Expression_ConditionalExpressionProxy(Expression_ConditionalExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16082 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -491,7 +491,7 @@ public:
   Expression_ConstantExpressionProxy(Expression_ConstantExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16083 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -521,7 +521,7 @@ public:
   Expression_DebugInfoExpressionProxy(Expression_DebugInfoExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16084 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -551,7 +551,7 @@ public:
   Expression_DefaultExpressionProxy(Expression_DefaultExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16087 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16085 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -581,7 +581,7 @@ public:
   Expression_GotoExpressionProxy(Expression_GotoExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16088 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16086 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -611,7 +611,7 @@ public:
   Expression_IndexExpressionProxy(Expression_IndexExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16089 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16087 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -641,7 +641,7 @@ public:
   Expression_InvocationExpressionProxy(Expression_InvocationExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16088 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -671,7 +671,7 @@ public:
   Expression_LabelExpressionProxy(Expression_LabelExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16091 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16089 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -701,7 +701,7 @@ public:
   Expression_LambdaExpressionProxy(Expression_LambdaExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16092 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16090 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -731,7 +731,7 @@ public:
   Expression_ListInitExpressionProxy(Expression_ListInitExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16093 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16091 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -761,7 +761,7 @@ public:
   Expression_LoopExpressionProxy(Expression_LoopExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16094 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16092 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -791,7 +791,7 @@ public:
   Expression_MemberExpressionProxy(Expression_MemberExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16095 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16093 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -821,7 +821,7 @@ public:
   Expression_MemberInitExpressionProxy(Expression_MemberInitExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16094 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -851,7 +851,7 @@ public:
   Expression_MethodCallExpressionProxy(Expression_MethodCallExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16097 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16095 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -881,7 +881,7 @@ public:
   Expression_NewArrayExpressionProxy(Expression_NewArrayExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16098 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16096 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -911,7 +911,7 @@ public:
   Expression_NewExpressionProxy(Expression_NewExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16097 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -941,7 +941,7 @@ public:
   Expression_ParameterExpressionProxy(Expression_ParameterExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16100 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16098 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -971,7 +971,7 @@ public:
   Expression_RuntimeVariablesExpressionProxy(Expression_RuntimeVariablesExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16101 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16099 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1001,7 +1001,7 @@ public:
   Expression_SwitchCaseProxy(Expression_SwitchCaseProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16100 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1031,7 +1031,7 @@ public:
   Expression_SwitchExpressionProxy(Expression_SwitchExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16101 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1061,7 +1061,7 @@ public:
   Expression_TryExpressionProxy(Expression_TryExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16104 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16102 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1091,7 +1091,7 @@ public:
   Expression_TypeBinaryExpressionProxy(Expression_TypeBinaryExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16105 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16103 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1121,7 +1121,7 @@ public:
   Expression_UnaryExpressionProxy(Expression_UnaryExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16106 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16104 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1169,7 +1169,7 @@ public:
   Expression_ExtensionInfo(Expression_ExtensionInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16107 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16105 };
 
   /// @brief Field NodeType, offset: 0x10, size: 0x4, def value: None
   ::System::Linq::Expressions::ExpressionType ___NodeType;
@@ -1268,401 +1268,401 @@ public:
   __declspec(property(get = getStaticF_s_legacyCtorSupportTable, put = setStaticF_s_legacyCtorSupportTable)) ::System::Runtime::CompilerServices::ConditionalWeakTable_2<
       ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression_ExtensionInfo*>* s_legacyCtorSupportTable;
 
-  /// @brief Method Accept, addr 0x5f6849c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x5f66238, size 0x24, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
-  /// @brief Method Add, addr 0x5f5fe00, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x5f5db9c, size 0x224, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Add(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                    ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method AddAssign, addr 0x5f634f4, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method AddAssign, addr 0x5f61290, size 0x284, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* AddAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                          ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method AddAssignChecked, addr 0x5f64f7c, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method AddAssignChecked, addr 0x5f62d18, size 0x284, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* AddAssignChecked(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                 ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method AddChecked, addr 0x5f60024, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method AddChecked, addr 0x5f5ddc0, size 0x228, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* AddChecked(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                           ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method And, addr 0x5f612f0, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method And, addr 0x5f5f08c, size 0x228, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* And(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                    ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method AndAlso, addr 0x5f65e24, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AndAlso, addr 0x5f63bc0, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* AndAlso(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method AndAlso, addr 0x5f61518, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method AndAlso, addr 0x5f5f2b4, size 0x4b4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* AndAlso(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                        ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method AndAssign, addr 0x5f63778, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method AndAssign, addr 0x5f61514, size 0x284, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* AndAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                          ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method ApplyTypeArgs, addr 0x5f6e7ec, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ApplyTypeArgs, addr 0x5f6c588, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* ApplyTypeArgs(::System::Reflection::MethodInfo* m, ::ArrayW<::System::Type*> typeArgs);
 
-  /// @brief Method ArrayAccess, addr 0x5f690c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ArrayAccess, addr 0x5f66e60, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::IndexExpression* ArrayAccess(::System::Linq::Expressions::Expression* array, ::ArrayW<::System::Linq::Expressions::Expression*> indexes);
 
-  /// @brief Method ArrayAccess, addr 0x5f68c50, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method ArrayAccess, addr 0x5f669ec, size 0x474, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::IndexExpression* ArrayAccess(::System::Linq::Expressions::Expression* array,
                                                                           ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* indexes);
 
-  /// @brief Method ArrayIndex, addr 0x5f62ef8, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method ArrayIndex, addr 0x5f60c94, size 0x1d4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* ArrayIndex(::System::Linq::Expressions::Expression* array, ::System::Linq::Expressions::Expression* index);
 
-  /// @brief Method ArrayLength, addr 0x5f71088, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method ArrayLength, addr 0x5f6ee24, size 0x1c0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* ArrayLength(::System::Linq::Expressions::Expression* array);
 
-  /// @brief Method Assign, addr 0x5f5bcb4, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Assign, addr 0x5f59a50, size 0x1f0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Assign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method Block, addr 0x5f6623c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x5f63fd8, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1);
 
-  /// @brief Method Block, addr 0x5f662f4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x5f64090, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1,
                                                                     ::System::Linq::Expressions::Expression* arg2);
 
-  /// @brief Method Block, addr 0x5f663dc, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x5f64178, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1,
                                                                     ::System::Linq::Expressions::Expression* arg2, ::System::Linq::Expressions::Expression* arg3);
 
-  /// @brief Method Block, addr 0x5f664f8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x5f64294, size 0x14c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1,
                                                                     ::System::Linq::Expressions::Expression* arg2, ::System::Linq::Expressions::Expression* arg3,
                                                                     ::System::Linq::Expressions::Expression* arg4);
 
-  /// @brief Method Block, addr 0x5f66644, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x5f643e0, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method Block, addr 0x5f666d8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x5f64474, size 0x90, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Type* type, ::ArrayW<::System::Linq::Expressions::Expression*> expressions);
 
-  /// @brief Method Block, addr 0x5f66768, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x5f64504, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Type* type, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method Block, addr 0x5f66a8c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x5f64828, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Type* type, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                     ::ArrayW<::System::Linq::Expressions::Expression*> expressions);
 
-  /// @brief Method Block, addr 0x5f6680c, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x5f645a8, size 0x218, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Type* type, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                     ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method Block, addr 0x5f66a24, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x5f647c0, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                     ::ArrayW<::System::Linq::Expressions::Expression*> expressions);
 
-  /// @brief Method Block, addr 0x5f5c098, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x5f59e34, size 0x194, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                     ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method BlockCore, addr 0x5f674f0, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method BlockCore, addr 0x5f6528c, size 0x334, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* BlockCore(::System::Type* type,
                                                                         ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                         ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method Break, addr 0x5f684c8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Break, addr 0x5f66264, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::GotoExpression* Break(::System::Linq::Expressions::LabelTarget* target);
 
-  /// @brief Method Call, addr 0x5f6dd78, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x5f6bb14, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Linq::Expressions::Expression* instance, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Call, addr 0x5f6de8c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x5f6bc28, size 0x194, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Linq::Expressions::Expression* instance, ::System::Reflection::MethodInfo* method,
                                                                         ::System::Linq::Expressions::Expression* arg0);
 
-  /// @brief Method Call, addr 0x5f6e020, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x5f6bdbc, size 0x200, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Linq::Expressions::Expression* instance, ::System::Reflection::MethodInfo* method,
                                                                         ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1);
 
-  /// @brief Method Call, addr 0x5f6e220, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x5f6bfbc, size 0x26c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Linq::Expressions::Expression* instance, ::System::Reflection::MethodInfo* method,
                                                                         ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1,
                                                                         ::System::Linq::Expressions::Expression* arg2);
 
-  /// @brief Method Call, addr 0x5f6d340, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x5f6b0dc, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Linq::Expressions::Expression* instance, ::System::Reflection::MethodInfo* method,
                                                                         ::ArrayW<::System::Linq::Expressions::Expression*> arguments);
 
-  /// @brief Method Call, addr 0x5f6d41c, size 0x95c, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x5f6b1b8, size 0x95c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Linq::Expressions::Expression* instance, ::System::Reflection::MethodInfo* method,
                                                                         ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* arguments);
 
-  /// @brief Method Call, addr 0x5f5ce78, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x5f5ac14, size 0x178, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Linq::Expressions::Expression* instance, ::StringW methodName, ::ArrayW<::System::Type*> typeArguments,
                                                                         ::ArrayW<::System::Linq::Expressions::Expression*> arguments);
 
-  /// @brief Method Call, addr 0x5f6c9cc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x5f6a768, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Call, addr 0x5f5cff0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x5f5ad8c, size 0x14c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* arg0);
 
-  /// @brief Method Call, addr 0x5f5d13c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x5f5aed8, size 0x1b4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* arg0,
                                                                         ::System::Linq::Expressions::Expression* arg1);
 
-  /// @brief Method Call, addr 0x5f6cb38, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x5f6a8d4, size 0x220, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* arg0,
                                                                         ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2);
 
-  /// @brief Method Call, addr 0x5f6cd58, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x5f6aaf4, size 0x288, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* arg0,
                                                                         ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2,
                                                                         ::System::Linq::Expressions::Expression* arg3);
 
-  /// @brief Method Call, addr 0x5f6cfe0, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x5f6ad7c, size 0x2f4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* arg0,
                                                                         ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2,
                                                                         ::System::Linq::Expressions::Expression* arg3, ::System::Linq::Expressions::Expression* arg4);
 
-  /// @brief Method Call, addr 0x5f6d2d4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x5f6b070, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Reflection::MethodInfo* method, ::ArrayW<::System::Linq::Expressions::Expression*> arguments);
 
-  /// @brief Method Call, addr 0x5f6d3b0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x5f6b14c, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Reflection::MethodInfo* method,
                                                                         ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* arguments);
 
-  /// @brief Method Coalesce, addr 0x5f62a54, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method Coalesce, addr 0x5f607f0, size 0x4a4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Coalesce(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                         ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method Condition, addr 0x5f5d574, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Condition, addr 0x5f5b310, size 0x1d4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ConditionalExpression* Condition(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue,
                                                                               ::System::Linq::Expressions::Expression* ifFalse);
 
-  /// @brief Method Condition, addr 0x5f67c38, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method Condition, addr 0x5f659d4, size 0x250, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ConditionalExpression* Condition(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue,
                                                                               ::System::Linq::Expressions::Expression* ifFalse, ::System::Type* type);
 
-  /// @brief Method Constant, addr 0x5f67fb8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Constant, addr 0x5f65d54, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ConstantExpression* Constant(::System::Object* value);
 
-  /// @brief Method Constant, addr 0x5f5d35c, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Constant, addr 0x5f5b0f8, size 0x218, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ConstantExpression* Constant(::System::Object* value, ::System::Type* type);
 
-  /// @brief Method Convert, addr 0x5f5d2f0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x5f5b08c, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* Convert(::System::Linq::Expressions::Expression* expression, ::System::Type* type);
 
-  /// @brief Method Convert, addr 0x5f71248, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x5f6efe4, size 0x200, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* Convert(::System::Linq::Expressions::Expression* expression, ::System::Type* type, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ConvertChecked, addr 0x5f71448, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method ConvertChecked, addr 0x5f6f1e4, size 0x218, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* ConvertChecked(::System::Linq::Expressions::Expression* expression, ::System::Type* type, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method CreateLambda, addr 0x5f6b64c, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method CreateLambda, addr 0x5f693e8, size 0x4bc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LambdaExpression* CreateLambda(::System::Type* delegateType, ::System::Linq::Expressions::Expression* body, ::StringW name, bool tailCall,
                                                                             ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* parameters);
 
-  /// @brief Method Decrement, addr 0x5f71f64, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Decrement, addr 0x5f6fd00, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* Decrement(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Default, addr 0x5f68018, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Default, addr 0x5f65db4, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::DefaultExpression* Default(::System::Type* type);
 
-  /// @brief Method Divide, addr 0x5f60aec, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Divide, addr 0x5f5e888, size 0x228, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Divide(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                       ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method DivideAssign, addr 0x5f639fc, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method DivideAssign, addr 0x5f61798, size 0x284, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* DivideAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                             ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method Empty, addr 0x5f67f2c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Empty, addr 0x5f65cc8, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::DefaultExpression* Empty();
 
-  /// @brief Method Equal, addr 0x5f65708, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Equal, addr 0x5f634a4, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Equal(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method Equal, addr 0x5f625ec, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Equal, addr 0x5f60388, size 0x120, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Equal(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, bool liftToNull,
                                                                      ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ExclusiveOr, addr 0x5f6282c, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method ExclusiveOr, addr 0x5f605c8, size 0x228, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* ExclusiveOr(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                            ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ExclusiveOrAssign, addr 0x5f63c80, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method ExclusiveOrAssign, addr 0x5f61a1c, size 0x284, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* ExclusiveOrAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                  ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method Field, addr 0x5f6c410, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Field, addr 0x5f6a1ac, size 0x1b0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MemberExpression* Field(::System::Linq::Expressions::Expression* expression, ::System::Reflection::FieldInfo* field);
 
-  /// @brief Method Field, addr 0x5f6c5c0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Field, addr 0x5f6a35c, size 0x164, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MemberExpression* Field(::System::Linq::Expressions::Expression* expression, ::StringW fieldName);
 
-  /// @brief Method FindMethod, addr 0x5f6e48c, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method FindMethod, addr 0x5f6c228, size 0x25c, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* FindMethod(::System::Type* type, ::StringW methodName, ::ArrayW<::System::Type*> typeArgs, ::ArrayW<::System::Linq::Expressions::Expression*> args,
                                                              ::System::Reflection::BindingFlags flags);
 
-  /// @brief Method GetComparisonOperator, addr 0x5f65be8, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method GetComparisonOperator, addr 0x5f63984, size 0x23c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* GetComparisonOperator(::System::Linq::Expressions::ExpressionType binaryType, ::StringW opName,
                                                                                      ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, bool liftToNull);
 
-  /// @brief Method GetEqualityComparisonOperator, addr 0x5f65778, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method GetEqualityComparisonOperator, addr 0x5f63514, size 0x400, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* GetEqualityComparisonOperator(::System::Linq::Expressions::ExpressionType binaryType, ::StringW opName,
                                                                                              ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                              bool liftToNull);
 
-  /// @brief Method GetInvokeMethod, addr 0x5f69ec0, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetInvokeMethod, addr 0x5f67c5c, size 0x1dc, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* GetInvokeMethod(::System::Linq::Expressions::Expression* expression);
 
-  /// @brief Method GetMethodBasedAssignOperator, addr 0x5f5e908, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method GetMethodBasedAssignOperator, addr 0x5f5c6a4, size 0x26c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* GetMethodBasedAssignOperator(::System::Linq::Expressions::ExpressionType binaryType, ::System::Linq::Expressions::Expression* left,
                                                                                             ::System::Linq::Expressions::Expression* right, ::System::Reflection::MethodInfo* method,
                                                                                             ::System::Linq::Expressions::LambdaExpression* conversion, bool liftToNull);
 
-  /// @brief Method GetMethodBasedBinaryOperator, addr 0x5f5e0ac, size 0x588, virtual false, abstract: false, final false
+  /// @brief Method GetMethodBasedBinaryOperator, addr 0x5f5be48, size 0x588, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* GetMethodBasedBinaryOperator(::System::Linq::Expressions::ExpressionType binaryType, ::System::Linq::Expressions::Expression* left,
                                                                                             ::System::Linq::Expressions::Expression* right, ::System::Reflection::MethodInfo* method, bool liftToNull);
 
-  /// @brief Method GetMethodBasedCoercionOperator, addr 0x5f72c84, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method GetMethodBasedCoercionOperator, addr 0x5f70a20, size 0x3a4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* GetMethodBasedCoercionOperator(::System::Linq::Expressions::ExpressionType unaryType, ::System::Linq::Expressions::Expression* operand,
                                                                                              ::System::Type* convertToType, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method GetMethodBasedUnaryOperator, addr 0x5f7272c, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method GetMethodBasedUnaryOperator, addr 0x5f704c8, size 0x3bc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* GetMethodBasedUnaryOperator(::System::Linq::Expressions::ExpressionType unaryType, ::System::Linq::Expressions::Expression* operand,
                                                                                           ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method GetOptimizedBlockExpression, addr 0x5f66c4c, size 0x8a4, virtual false, abstract: false, final false
+  /// @brief Method GetOptimizedBlockExpression, addr 0x5f649e8, size 0x8a4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* GetOptimizedBlockExpression(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method GetParametersForValidation, addr 0x5f6a09c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetParametersForValidation, addr 0x5f67e38, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::ParameterInfo*> GetParametersForValidation(::System::Reflection::MethodBase* method, ::System::Linq::Expressions::ExpressionType nodeKind);
 
-  /// @brief Method GetResultTypeOfShift, addr 0x5f660d8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetResultTypeOfShift, addr 0x5f63e74, size 0x164, virtual false, abstract: false, final false
   static inline ::System::Type* GetResultTypeOfShift(::System::Type* left, ::System::Type* right);
 
-  /// @brief Method GetUserDefinedAssignOperatorOrThrow, addr 0x5f5f008, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method GetUserDefinedAssignOperatorOrThrow, addr 0x5f5cda4, size 0x264, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* GetUserDefinedAssignOperatorOrThrow(::System::Linq::Expressions::ExpressionType binaryType, ::StringW name,
                                                                                                    ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                                    ::System::Linq::Expressions::LambdaExpression* conversion, bool liftToNull);
 
-  /// @brief Method GetUserDefinedBinaryOperator, addr 0x5f5db28, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method GetUserDefinedBinaryOperator, addr 0x5f5b8c4, size 0x354, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* GetUserDefinedBinaryOperator(::System::Linq::Expressions::ExpressionType binaryType, ::StringW name,
                                                                                             ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                             bool liftToNull);
 
-  /// @brief Method GetUserDefinedBinaryOperator, addr 0x5f5de7c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method GetUserDefinedBinaryOperator, addr 0x5f5bc18, size 0x230, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* GetUserDefinedBinaryOperator(::System::Linq::Expressions::ExpressionType binaryType, ::System::Type* leftType, ::System::Type* rightType,
                                                                                ::StringW name);
 
-  /// @brief Method GetUserDefinedBinaryOperatorOrThrow, addr 0x5f5ede4, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method GetUserDefinedBinaryOperatorOrThrow, addr 0x5f5cb80, size 0x224, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* GetUserDefinedBinaryOperatorOrThrow(::System::Linq::Expressions::ExpressionType binaryType, ::StringW name,
                                                                                                    ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                                    bool liftToNull);
 
-  /// @brief Method GetUserDefinedCoercion, addr 0x5f72ba0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetUserDefinedCoercion, addr 0x5f7093c, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* GetUserDefinedCoercion(::System::Linq::Expressions::ExpressionType coercionType, ::System::Linq::Expressions::Expression* expression,
                                                                                      ::System::Type* convertToType);
 
-  /// @brief Method GetUserDefinedCoercionOrThrow, addr 0x5f72ae8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetUserDefinedCoercionOrThrow, addr 0x5f70884, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* GetUserDefinedCoercionOrThrow(::System::Linq::Expressions::ExpressionType coercionType,
                                                                                             ::System::Linq::Expressions::Expression* expression, ::System::Type* convertToType);
 
-  /// @brief Method GetUserDefinedUnaryOperator, addr 0x5f72440, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method GetUserDefinedUnaryOperator, addr 0x5f701dc, size 0x2ec, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* GetUserDefinedUnaryOperator(::System::Linq::Expressions::ExpressionType unaryType, ::StringW name,
                                                                                           ::System::Linq::Expressions::Expression* operand);
 
-  /// @brief Method GetUserDefinedUnaryOperatorOrThrow, addr 0x5f722b4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetUserDefinedUnaryOperatorOrThrow, addr 0x5f70050, size 0x18c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* GetUserDefinedUnaryOperatorOrThrow(::System::Linq::Expressions::ExpressionType unaryType, ::StringW name,
                                                                                                  ::System::Linq::Expressions::Expression* operand);
 
-  /// @brief Method Goto, addr 0x5f6878c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Goto, addr 0x5f66528, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::GotoExpression* Goto(::System::Linq::Expressions::LabelTarget* target, ::System::Type* type);
 
-  /// @brief Method Goto, addr 0x5f687fc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Goto, addr 0x5f66598, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::GotoExpression* Goto(::System::Linq::Expressions::LabelTarget* target, ::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method GreaterThan, addr 0x5f623ac, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GreaterThan, addr 0x5f60148, size 0x120, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* GreaterThan(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, bool liftToNull,
                                                                            ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method GreaterThanOrEqual, addr 0x5f624cc, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GreaterThanOrEqual, addr 0x5f60268, size 0x120, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* GreaterThanOrEqual(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, bool liftToNull,
                                                                                   ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method IfThen, addr 0x5f67e88, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IfThen, addr 0x5f65c24, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ConditionalExpression* IfThen(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue);
 
-  /// @brief Method Increment, addr 0x5f71dc4, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Increment, addr 0x5f6fb60, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* Increment(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Invoke, addr 0x5f69dbc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5f67b58, size 0x104, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::InvocationExpression* Invoke(::System::Linq::Expressions::Expression* expression);
 
-  /// @brief Method Invoke, addr 0x5f5bb4c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5f598e8, size 0x168, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::InvocationExpression* Invoke(::System::Linq::Expressions::Expression* expression, ::System::Linq::Expressions::Expression* arg0);
 
-  /// @brief Method Invoke, addr 0x5f6a0b8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5f67e54, size 0x1c0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::InvocationExpression* Invoke(::System::Linq::Expressions::Expression* expression, ::System::Linq::Expressions::Expression* arg0,
                                                                           ::System::Linq::Expressions::Expression* arg1);
 
-  /// @brief Method Invoke, addr 0x5f6a278, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5f68014, size 0x214, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::InvocationExpression* Invoke(::System::Linq::Expressions::Expression* expression, ::System::Linq::Expressions::Expression* arg0,
                                                                           ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2);
 
-  /// @brief Method Invoke, addr 0x5f6a48c, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5f68228, size 0x26c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::InvocationExpression* Invoke(::System::Linq::Expressions::Expression* expression, ::System::Linq::Expressions::Expression* arg0,
                                                                           ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2,
                                                                           ::System::Linq::Expressions::Expression* arg3);
 
-  /// @brief Method Invoke, addr 0x5f6a6f8, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5f68494, size 0x2c0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::InvocationExpression* Invoke(::System::Linq::Expressions::Expression* expression, ::System::Linq::Expressions::Expression* arg0,
                                                                           ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2,
                                                                           ::System::Linq::Expressions::Expression* arg3, ::System::Linq::Expressions::Expression* arg4);
 
-  /// @brief Method Invoke, addr 0x5f6a9b8, size 0x920, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5f68754, size 0x920, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::InvocationExpression* Invoke(::System::Linq::Expressions::Expression* expression,
                                                                           ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* arguments);
 
-  /// @brief Method IsCompatible, addr 0x5f6e8a0, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method IsCompatible, addr 0x5f6c63c, size 0x24c, virtual false, abstract: false, final false
   static inline bool IsCompatible(::System::Reflection::MethodBase* m, ::ArrayW<::System::Linq::Expressions::Expression*> arguments);
 
-  /// @brief Method IsFalse, addr 0x5f70ba8, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method IsFalse, addr 0x5f6e944, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* IsFalse(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method IsLiftingConditionalLogicalOperator, addr 0x5f5f26c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method IsLiftingConditionalLogicalOperator, addr 0x5f5d008, size 0xc4, virtual false, abstract: false, final false
   static inline bool IsLiftingConditionalLogicalOperator(::System::Type* left, ::System::Type* right, ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::ExpressionType binaryType);
 
-  /// @brief Method IsNullComparison, addr 0x5f5f3c0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method IsNullComparison, addr 0x5f5d15c, size 0x114, virtual false, abstract: false, final false
   static inline bool IsNullComparison(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method IsNullConstant, addr 0x5f5f4d4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsNullConstant, addr 0x5f5d270, size 0x88, virtual false, abstract: false, final false
   static inline bool IsNullConstant(::System::Linq::Expressions::Expression* e);
 
-  /// @brief Method IsSimpleShift, addr 0x5f6600c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsSimpleShift, addr 0x5f63da8, size 0xcc, virtual false, abstract: false, final false
   static inline bool IsSimpleShift(::System::Type* left, ::System::Type* right);
 
-  /// @brief Method IsTrue, addr 0x5f70d48, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method IsTrue, addr 0x5f6eae4, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* IsTrue(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method IsValidLiftedConditionalLogicalOperator, addr 0x5f5fb28, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method IsValidLiftedConditionalLogicalOperator, addr 0x5f5d8c4, size 0x108, virtual false, abstract: false, final false
   static inline bool IsValidLiftedConditionalLogicalOperator(::System::Type* left, ::System::Type* right, ::ArrayW<::System::Reflection::ParameterInfo*> pms);
 
-  /// @brief Method Label, addr 0x5f6b2e0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Label, addr 0x5f6907c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LabelExpression* Label(::System::Linq::Expressions::LabelTarget* target);
 
-  /// @brief Method Label, addr 0x5f6b33c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Label, addr 0x5f690d8, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LabelExpression* Label(::System::Linq::Expressions::LabelTarget* target, ::System::Linq::Expressions::Expression* defaultValue);
 
-  /// @brief Method Label, addr 0x5f6b420, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Label, addr 0x5f691bc, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LabelTarget* Label();
 
-  /// @brief Method Label, addr 0x5f6b564, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Label, addr 0x5f69300, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LabelTarget* Label(::StringW name);
 
-  /// @brief Method Label, addr 0x5f6b5f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Label, addr 0x5f6938c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LabelTarget* Label(::System::Type* type);
 
-  /// @brief Method Label, addr 0x5f6b4a8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Label, addr 0x5f69244, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LabelTarget* Label(::System::Type* type, ::StringW name);
 
   /// @brief Method Lambda, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1684,350 +1684,350 @@ public:
   static inline ::System::Linq::Expressions::Expression_1<TDelegate>* Lambda(::System::Linq::Expressions::Expression* body, bool tailCall,
                                                                              ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>* parameters);
 
-  /// @brief Method Lambda, addr 0x5f6bb80, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Lambda, addr 0x5f6991c, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LambdaExpression* Lambda(::System::Type* delegateType, ::System::Linq::Expressions::Expression* body, ::StringW name, bool tailCall,
                                                                       ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>* parameters);
 
-  /// @brief Method Lambda, addr 0x5f6bb08, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Lambda, addr 0x5f698a4, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LambdaExpression* Lambda(::System::Type* delegateType, ::System::Linq::Expressions::Expression* body,
                                                                       ::ArrayW<::System::Linq::Expressions::ParameterExpression*> parameters);
 
-  /// @brief Method LeftShift, addr 0x5f632e0, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method LeftShift, addr 0x5f6107c, size 0x214, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* LeftShift(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                          ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method LeftShiftAssign, addr 0x5f63f04, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method LeftShiftAssign, addr 0x5f61ca0, size 0x270, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* LeftShiftAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method LessThan, addr 0x5f6216c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method LessThan, addr 0x5f5ff08, size 0x120, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* LessThan(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, bool liftToNull,
                                                                         ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method LessThanOrEqual, addr 0x5f6228c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method LessThanOrEqual, addr 0x5f60028, size 0x120, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* LessThanOrEqual(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, bool liftToNull,
                                                                                ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Loop, addr 0x5f6c308, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Loop, addr 0x5f6a0a4, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LoopExpression* Loop(::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::LabelTarget* _cordl_break,
                                                                   ::System::Linq::Expressions::LabelTarget* _cordl_continue);
 
-  /// @brief Method MakeBinary, addr 0x5f5bac0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method MakeBinary, addr 0x5f5985c, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* MakeBinary(::System::Linq::Expressions::ExpressionType binaryType, ::System::Linq::Expressions::Expression* left,
                                                                           ::System::Linq::Expressions::Expression* right, bool liftToNull, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method MakeBinary, addr 0x5f5a6ac, size 0x99c, virtual false, abstract: false, final false
+  /// @brief Method MakeBinary, addr 0x5f58448, size 0x99c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* MakeBinary(::System::Linq::Expressions::ExpressionType binaryType, ::System::Linq::Expressions::Expression* left,
                                                                           ::System::Linq::Expressions::Expression* right, bool liftToNull, ::System::Reflection::MethodInfo* method,
                                                                           ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method MakeCatchBlock, addr 0x5f679e8, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method MakeCatchBlock, addr 0x5f65784, size 0x250, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::CatchBlock* MakeCatchBlock(::System::Type* type, ::System::Linq::Expressions::ParameterExpression* variable, ::System::Linq::Expressions::Expression* body,
                                                                         ::System::Linq::Expressions::Expression* filter);
 
-  /// @brief Method MakeGoto, addr 0x5f6855c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method MakeGoto, addr 0x5f662f8, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::GotoExpression* MakeGoto(::System::Linq::Expressions::GotoExpressionKind kind, ::System::Linq::Expressions::LabelTarget* target,
                                                                       ::System::Linq::Expressions::Expression* value, ::System::Type* type);
 
-  /// @brief Method MakeIndex, addr 0x5f5c22c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method MakeIndex, addr 0x5f59fc8, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::IndexExpression* MakeIndex(::System::Linq::Expressions::Expression* instance, ::System::Reflection::PropertyInfo* indexer,
                                                                         ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* arguments);
 
-  /// @brief Method MakeIndexProperty, addr 0x5f6912c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method MakeIndexProperty, addr 0x5f66ec8, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::IndexExpression* MakeIndexProperty(::System::Linq::Expressions::Expression* instance, ::System::Reflection::PropertyInfo* indexer, ::StringW paramName,
                                                                                 ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* argList);
 
-  /// @brief Method MakeMemberAccess, addr 0x5f5bf20, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method MakeMemberAccess, addr 0x5f59cbc, size 0x178, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MemberExpression* MakeMemberAccess(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MemberInfo* member);
 
-  /// @brief Method MakeOpAssignUnary, addr 0x5f730e4, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method MakeOpAssignUnary, addr 0x5f70e80, size 0x2a0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* MakeOpAssignUnary(::System::Linq::Expressions::ExpressionType kind, ::System::Linq::Expressions::Expression* expression,
                                                                                 ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method MakeTry, addr 0x5f6f3d8, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method MakeTry, addr 0x5f6d174, size 0x254, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::TryExpression* MakeTry(::System::Type* type, ::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::Expression* finally,
                                                                     ::System::Linq::Expressions::Expression* fault,
                                                                     ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::CatchBlock*>* handlers);
 
-  /// @brief Method MakeUnary, addr 0x5f700e0, size 0x534, virtual false, abstract: false, final false
+  /// @brief Method MakeUnary, addr 0x5f6de7c, size 0x534, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* MakeUnary(::System::Linq::Expressions::ExpressionType unaryType, ::System::Linq::Expressions::Expression* operand, ::System::Type* type,
                                                                         ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Modulo, addr 0x5f60d14, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Modulo, addr 0x5f5eab0, size 0x228, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Modulo(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                       ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ModuloAssign, addr 0x5f64174, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method ModuloAssign, addr 0x5f61f10, size 0x284, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* ModuloAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                             ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method Multiply, addr 0x5f6069c, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Multiply, addr 0x5f5e438, size 0x228, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Multiply(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                         ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method MultiplyAssign, addr 0x5f643f8, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method MultiplyAssign, addr 0x5f62194, size 0x284, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* MultiplyAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                               ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method MultiplyAssignChecked, addr 0x5f65484, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method MultiplyAssignChecked, addr 0x5f63220, size 0x284, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* MultiplyAssignChecked(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                      ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method MultiplyChecked, addr 0x5f608c4, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method MultiplyChecked, addr 0x5f5e660, size 0x228, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* MultiplyChecked(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Negate, addr 0x5f70614, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Negate, addr 0x5f6e3b0, size 0x1d8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* Negate(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method NegateChecked, addr 0x5f707ec, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method NegateChecked, addr 0x5f6e588, size 0x1d8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* NegateChecked(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method NewArrayBounds, addr 0x5f6ef70, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method NewArrayBounds, addr 0x5f6cd0c, size 0x298, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::NewArrayExpression* NewArrayBounds(::System::Type* type, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* bounds);
 
-  /// @brief Method NewArrayInit, addr 0x5f6eaec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method NewArrayInit, addr 0x5f6c888, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::NewArrayExpression* NewArrayInit(::System::Type* type, ::ArrayW<::System::Linq::Expressions::Expression*> initializers);
 
-  /// @brief Method NewArrayInit, addr 0x5f6eb54, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method NewArrayInit, addr 0x5f6c8f0, size 0x41c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::NewArrayExpression* NewArrayInit(::System::Type* type,
                                                                               ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* initializers);
 
   static inline ::System::Linq::Expressions::Expression* New_ctor();
 
-  /// @brief Method Not, addr 0x5f73028, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Not, addr 0x5f70dc4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* Not(::System::Linq::Expressions::Expression* expression);
 
-  /// @brief Method Not, addr 0x5f709c4, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method Not, addr 0x5f6e760, size 0x1e4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* Not(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method NotEqual, addr 0x5f65b78, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method NotEqual, addr 0x5f63914, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* NotEqual(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method NotEqual, addr 0x5f6270c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method NotEqual, addr 0x5f604a8, size 0x120, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* NotEqual(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, bool liftToNull,
                                                                         ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method OnesComplement, addr 0x5f70ee8, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method OnesComplement, addr 0x5f6ec84, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* OnesComplement(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Or, addr 0x5f619cc, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Or, addr 0x5f5f768, size 0x228, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Or(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                   ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method OrAssign, addr 0x5f6467c, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method OrAssign, addr 0x5f62418, size 0x284, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* OrAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                         ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method OrElse, addr 0x5f61bf4, size 0x578, virtual false, abstract: false, final false
+  /// @brief Method OrElse, addr 0x5f5f990, size 0x578, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* OrElse(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                       ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Parameter, addr 0x5f6f208, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Parameter, addr 0x5f6cfa4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ParameterExpression* Parameter(::System::Type* type);
 
-  /// @brief Method Parameter, addr 0x5f5cc58, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Parameter, addr 0x5f5a9f4, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ParameterExpression* Parameter(::System::Type* type, ::StringW name);
 
-  /// @brief Method ParameterIsAssignable, addr 0x5f5e770, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ParameterIsAssignable, addr 0x5f5c50c, size 0xb8, virtual false, abstract: false, final false
   static inline bool ParameterIsAssignable(::System::Reflection::ParameterInfo* pi, ::System::Type* argType);
 
-  /// @brief Method PostDecrementAssign, addr 0x5f72248, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method PostDecrementAssign, addr 0x5f6ffe4, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* PostDecrementAssign(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method PostIncrementAssign, addr 0x5f72170, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method PostIncrementAssign, addr 0x5f6ff0c, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* PostIncrementAssign(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Power, addr 0x5f60f3c, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method Power, addr 0x5f5ecd8, size 0x3b4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Power(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                      ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method PowerAssign, addr 0x5f64900, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method PowerAssign, addr 0x5f6269c, size 0x188, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* PowerAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                            ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method PreDecrementAssign, addr 0x5f721dc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method PreDecrementAssign, addr 0x5f6ff78, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* PreDecrementAssign(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method PreIncrementAssign, addr 0x5f73084, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method PreIncrementAssign, addr 0x5f70e20, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* PreIncrementAssign(::System::Linq::Expressions::Expression* expression);
 
-  /// @brief Method PreIncrementAssign, addr 0x5f72104, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method PreIncrementAssign, addr 0x5f6fea0, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* PreIncrementAssign(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Property, addr 0x5f68b98, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Property, addr 0x5f66934, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::IndexExpression* Property(::System::Linq::Expressions::Expression* instance, ::System::Reflection::PropertyInfo* indexer,
                                                                        ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* arguments);
 
-  /// @brief Method Property, addr 0x5f6c724, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method Property, addr 0x5f6a4c0, size 0x2a8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MemberExpression* Property(::System::Linq::Expressions::Expression* expression, ::System::Reflection::PropertyInfo* property);
 
-  /// @brief Method Property, addr 0x5f5cd10, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Property, addr 0x5f5aaac, size 0x168, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MemberExpression* Property(::System::Linq::Expressions::Expression* expression, ::StringW propertyName);
 
-  /// @brief Method Quote, addr 0x5f71938, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Quote, addr 0x5f6f6d4, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* Quote(::System::Linq::Expressions::Expression* expression);
 
-  /// @brief Method Reduce, addr 0x5f682d8, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Reduce, addr 0x5f66074, size 0x48, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Reduce();
 
-  /// @brief Method ReduceAndCheck, addr 0x5f68394, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ReduceAndCheck, addr 0x5f66130, size 0x108, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* ReduceAndCheck();
 
-  /// @brief Method ReferenceEqual, addr 0x5f5a30c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method ReferenceEqual, addr 0x5f580a8, size 0x188, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* ReferenceEqual(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method ReferenceNotEqual, addr 0x5f5a494, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method ReferenceNotEqual, addr 0x5f58230, size 0x188, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* ReferenceNotEqual(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method RequiresCanRead, addr 0x5f66afc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method RequiresCanRead, addr 0x5f64898, size 0x150, virtual false, abstract: false, final false
   static inline void RequiresCanRead(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* items, ::StringW paramName);
 
-  /// @brief Method RequiresCanWrite, addr 0x5f5d900, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method RequiresCanWrite, addr 0x5f5b69c, size 0x228, virtual false, abstract: false, final false
   static inline void RequiresCanWrite(::System::Linq::Expressions::Expression* expression, ::StringW paramName);
 
-  /// @brief Method Return, addr 0x5f68658, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Return, addr 0x5f663f4, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::GotoExpression* Return(::System::Linq::Expressions::LabelTarget* target);
 
-  /// @brief Method Return, addr 0x5f686ec, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Return, addr 0x5f66488, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::GotoExpression* Return(::System::Linq::Expressions::LabelTarget* target, ::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method RightShift, addr 0x5f630cc, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method RightShift, addr 0x5f60e68, size 0x214, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* RightShift(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                           ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method RightShiftAssign, addr 0x5f64a88, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method RightShiftAssign, addr 0x5f62824, size 0x270, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* RightShiftAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                 ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method Subtract, addr 0x5f6024c, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x5f5dfe8, size 0x228, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Subtract(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                         ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method SubtractAssign, addr 0x5f64cf8, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method SubtractAssign, addr 0x5f62a94, size 0x284, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* SubtractAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                               ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method SubtractAssignChecked, addr 0x5f65200, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method SubtractAssignChecked, addr 0x5f62f9c, size 0x284, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* SubtractAssignChecked(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                      ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method SubtractChecked, addr 0x5f60474, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method SubtractChecked, addr 0x5f5e210, size 0x228, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* SubtractChecked(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Throw, addr 0x5f71660, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x5f6f3fc, size 0x160, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* Throw(::System::Linq::Expressions::Expression* value, ::System::Type* type);
 
-  /// @brief Method ToString, addr 0x5f684c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5f6625c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryFinally, addr 0x5f6f364, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method TryFinally, addr 0x5f6d100, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::TryExpression* TryFinally(::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::Expression* finally);
 
-  /// @brief Method TryQuote, addr 0x5f68b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method TryQuote, addr 0x5f6692c, size 0x8, virtual false, abstract: false, final false
   static inline bool TryQuote(::System::Type* parameterType, ::by_ref<::System::Linq::Expressions::Expression*> argument);
 
-  /// @brief Method TypeAs, addr 0x5f717c0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method TypeAs, addr 0x5f6f55c, size 0x178, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* TypeAs(::System::Linq::Expressions::Expression* expression, ::System::Type* type);
 
-  /// @brief Method TypeEqual, addr 0x5f6ffcc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method TypeEqual, addr 0x5f6dd68, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::TypeBinaryExpression* TypeEqual(::System::Linq::Expressions::Expression* expression, ::System::Type* type);
 
-  /// @brief Method TypeIs, addr 0x5f6feb8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method TypeIs, addr 0x5f6dc54, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::TypeBinaryExpression* TypeIs(::System::Linq::Expressions::Expression* expression, ::System::Type* type);
 
-  /// @brief Method UnaryPlus, addr 0x5f71a5c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method UnaryPlus, addr 0x5f6f7f8, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* UnaryPlus(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Unbox, addr 0x5f71bfc, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Unbox, addr 0x5f6f998, size 0x1c8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* Unbox(::System::Linq::Expressions::Expression* expression, ::System::Type* type);
 
-  /// @brief Method Validate, addr 0x5f6f264, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x5f6d000, size 0x100, virtual false, abstract: false, final false
   static inline void Validate(::System::Type* type, bool allowByRef);
 
-  /// @brief Method ValidateAccessor, addr 0x5f696fc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method ValidateAccessor, addr 0x5f67498, size 0x1c0, virtual false, abstract: false, final false
   static inline void ValidateAccessor(::System::Linq::Expressions::Expression* instance, ::System::Reflection::MethodInfo* method, ::ArrayW<::System::Reflection::ParameterInfo*> indexes,
                                       ::by_ref<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*> arguments, ::StringW paramName);
 
-  /// @brief Method ValidateAccessorArgumentTypes, addr 0x5f69978, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method ValidateAccessorArgumentTypes, addr 0x5f67714, size 0x444, virtual false, abstract: false, final false
   static inline void ValidateAccessorArgumentTypes(::System::Reflection::MethodInfo* method, ::ArrayW<::System::Reflection::ParameterInfo*> indexes,
                                                    ::by_ref<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*> arguments, ::StringW paramName);
 
-  /// @brief Method ValidateArgumentCount, addr 0x5f6a0a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ValidateArgumentCount, addr 0x5f67e40, size 0x8, virtual false, abstract: false, final false
   static inline void ValidateArgumentCount(::System::Reflection::MethodBase* method, ::System::Linq::Expressions::ExpressionType nodeKind, int32_t count,
                                            ::ArrayW<::System::Reflection::ParameterInfo*> pis);
 
-  /// @brief Method ValidateArgumentTypes, addr 0x5f6b2d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ValidateArgumentTypes, addr 0x5f69074, size 0x8, virtual false, abstract: false, final false
   static inline void ValidateArgumentTypes(::System::Reflection::MethodBase* method, ::System::Linq::Expressions::ExpressionType nodeKind,
                                            ::by_ref<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*> arguments, ::StringW methodParamName);
 
-  /// @brief Method ValidateCallInstanceType, addr 0x5f698bc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ValidateCallInstanceType, addr 0x5f67658, size 0xbc, virtual false, abstract: false, final false
   static inline void ValidateCallInstanceType(::System::Type* instanceType, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ValidateCoalesceArgTypes, addr 0x5f65e90, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ValidateCoalesceArgTypes, addr 0x5f63c2c, size 0x17c, virtual false, abstract: false, final false
   static inline ::System::Type* ValidateCoalesceArgTypes(::System::Type* left, ::System::Type* right);
 
-  /// @brief Method ValidateGoto, addr 0x5f6889c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method ValidateGoto, addr 0x5f66638, size 0x19c, virtual false, abstract: false, final false
   static inline void ValidateGoto(::System::Linq::Expressions::LabelTarget* target, ::by_ref<::System::Linq::Expressions::Expression*> value, ::StringW targetParameter, ::StringW valueParameter,
                                   ::System::Type* type);
 
-  /// @brief Method ValidateGotoType, addr 0x5f68a38, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ValidateGotoType, addr 0x5f667d4, size 0x158, virtual false, abstract: false, final false
   static inline void ValidateGotoType(::System::Type* expectedType, ::by_ref<::System::Linq::Expressions::Expression*> value, ::StringW paramName);
 
-  /// @brief Method ValidateIndexedProperty, addr 0x5f691f0, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method ValidateIndexedProperty, addr 0x5f66f8c, size 0x50c, virtual false, abstract: false, final false
   static inline void ValidateIndexedProperty(::System::Linq::Expressions::Expression* instance, ::System::Reflection::PropertyInfo* indexer, ::StringW paramName,
                                              ::by_ref<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*> argList);
 
-  /// @brief Method ValidateLambdaArgs, addr 0x5f6bc60, size 0x6a8, virtual false, abstract: false, final false
+  /// @brief Method ValidateLambdaArgs, addr 0x5f699fc, size 0x6a8, virtual false, abstract: false, final false
   static inline void ValidateLambdaArgs(::System::Type* delegateType, ::by_ref<::System::Linq::Expressions::Expression*> body,
                                         ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* parameters, ::StringW paramName);
 
-  /// @brief Method ValidateMethodAndGetParameters, addr 0x5f6ca9c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ValidateMethodAndGetParameters, addr 0x5f6a838, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::ParameterInfo*> ValidateMethodAndGetParameters(::System::Linq::Expressions::Expression* instance, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ValidateMethodInfo, addr 0x5f5f330, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ValidateMethodInfo, addr 0x5f5d0cc, size 0x90, virtual false, abstract: false, final false
   static inline void ValidateMethodInfo(::System::Reflection::MethodInfo* method, ::StringW paramName);
 
-  /// @brief Method ValidateOneArgument, addr 0x5f6a0ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ValidateOneArgument, addr 0x5f67e48, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Expression* ValidateOneArgument(::System::Reflection::MethodBase* method, ::System::Linq::Expressions::ExpressionType nodeKind,
                                                                              ::System::Linq::Expressions::Expression* arg, ::System::Reflection::ParameterInfo* pi, ::StringW methodParamName,
                                                                              ::StringW argumentParamName);
 
-  /// @brief Method ValidateOpAssignConversionLambda, addr 0x5f5eb74, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method ValidateOpAssignConversionLambda, addr 0x5f5c910, size 0x270, virtual false, abstract: false, final false
   static inline void ValidateOpAssignConversionLambda(::System::Linq::Expressions::LambdaExpression* conversion, ::System::Linq::Expressions::Expression* left,
                                                       ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::ExpressionType nodeType);
 
-  /// @brief Method ValidateOperator, addr 0x5f5e634, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ValidateOperator, addr 0x5f5c3d0, size 0x13c, virtual false, abstract: false, final false
   static inline void ValidateOperator(::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ValidateParamswithOperandsOrThrow, addr 0x5f5e828, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ValidateParamswithOperandsOrThrow, addr 0x5f5c5c4, size 0xe0, virtual false, abstract: false, final false
   static inline void ValidateParamswithOperandsOrThrow(::System::Type* paramType, ::System::Type* operandType, ::System::Linq::Expressions::ExpressionType exprType, ::StringW name);
 
-  /// @brief Method ValidateStaticOrInstanceMethod, addr 0x5f6e6e8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ValidateStaticOrInstanceMethod, addr 0x5f6c484, size 0x104, virtual false, abstract: false, final false
   static inline void ValidateStaticOrInstanceMethod(::System::Linq::Expressions::Expression* instance, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ValidateTryAndCatchHaveSameType, addr 0x5f6f62c, size 0x88c, virtual false, abstract: false, final false
+  /// @brief Method ValidateTryAndCatchHaveSameType, addr 0x5f6d3c8, size 0x88c, virtual false, abstract: false, final false
   static inline void ValidateTryAndCatchHaveSameType(::System::Type* type, ::System::Linq::Expressions::Expression* tryBody,
                                                      ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>* handlers);
 
-  /// @brief Method ValidateUserDefinedConditionalLogicOperator, addr 0x5f5f55c, size 0x5cc, virtual false, abstract: false, final false
+  /// @brief Method ValidateUserDefinedConditionalLogicOperator, addr 0x5f5d2f8, size 0x5cc, virtual false, abstract: false, final false
   static inline void ValidateUserDefinedConditionalLogicOperator(::System::Linq::Expressions::ExpressionType nodeType, ::System::Type* left, ::System::Type* right,
                                                                  ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ValidateVariables, addr 0x5f67824, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method ValidateVariables, addr 0x5f655c0, size 0x1c4, virtual false, abstract: false, final false
   static inline void ValidateVariables(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* varList, ::StringW collectionName);
 
-  /// @brief Method Variable, addr 0x5f5bea4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Variable, addr 0x5f59c40, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ParameterExpression* Variable(::System::Type* type, ::StringW name);
 
-  /// @brief Method VerifyOpTrueFalse, addr 0x5f5fc30, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method VerifyOpTrueFalse, addr 0x5f5d9cc, size 0x1d0, virtual false, abstract: false, final false
   static inline void VerifyOpTrueFalse(::System::Linq::Expressions::ExpressionType nodeType, ::System::Type* left, ::System::Reflection::MethodInfo* opTrue, ::StringW paramName);
 
-  /// @brief Method VisitChildren, addr 0x5f68320, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method VisitChildren, addr 0x5f660bc, size 0x74, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitChildren(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
-  /// @brief Method .ctor, addr 0x5f5a05c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f57df8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Dynamic::Utils::CacheDict_2<::System::Type*, ::System::Reflection::MethodInfo*>* getStaticF_s_lambdaDelegateCache();
@@ -2040,13 +2040,13 @@ public:
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression_ExtensionInfo*>*
   getStaticF_s_legacyCtorSupportTable();
 
-  /// @brief Method get_CanReduce, addr 0x5f682d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanReduce, addr 0x5f6606c, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanReduce();
 
-  /// @brief Method get_NodeType, addr 0x5f680d8, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x5f65e74, size 0xfc, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x5f681d4, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x5f65f70, size 0xfc, virtual true, abstract: false, final false
   inline ::System::Type* get_Type();
 
   static inline void setStaticF_s_lambdaDelegateCache(::System::Dynamic::Utils::CacheDict_2<::System::Type*, ::System::Reflection::MethodInfo*>* value);
@@ -2074,7 +2074,7 @@ public:
   Expression(Expression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16106 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

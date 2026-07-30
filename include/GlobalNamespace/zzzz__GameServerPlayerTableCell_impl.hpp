@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell___c__DisplayClass30_0::*)()>(
     &::GlobalNamespace::GameServerPlayerTableCell___c__DisplayClass30_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5940d10;
+  constexpr static std::size_t addrs = 0x593f4f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell___c__DisplayClass30_0::*)(int32_t, ::GlobalNamespace::GameplayModifierInfoListItem*)>(
     &::GlobalNamespace::GameServerPlayerTableCell___c__DisplayClass30_0::_SetData_b__0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x594102c;
+  constexpr static std::size_t addrs = 0x593f814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell__SetBeatmapUseButtonEnabledAsync_d__36::*)()>(
     &::GlobalNamespace::GameServerPlayerTableCell__SetBeatmapUseButtonEnabledAsync_d__36::MoveNext)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x59410ac;
+  constexpr static std::size_t addrs = 0x593f894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell__SetBeatmapUseButtonEnabledAsync_d__36::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::GameServerPlayerTableCell__SetBeatmapUseButtonEnabledAsync_d__36::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59415d8;
+  constexpr static std::size_t addrs = 0x593fdc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameServerPlayerTableCell__SetBeatmapUseButtonEnabledAsync_d__36>(),
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::add_kickPlayerEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5940218;
+  constexpr static std::size_t addrs = 0x593ea00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::remove_kickPlayerEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5940158;
+  constexpr static std::size_t addrs = 0x593e940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::add_useBeatmapEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5940398;
+  constexpr static std::size_t addrs = 0x593eb80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::remove_useBeatmapEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59402d8;
+  constexpr static std::size_t addrs = 0x593eac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::add_useModifiersEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5940518;
+  constexpr static std::size_t addrs = 0x593ed00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::remove_useModifiersEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5940458;
+  constexpr static std::size_t addrs = 0x593ec40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                               ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::SetData)> {
   constexpr static std::size_t size = 0xb20;
-  constexpr static std::size_t addrs = 0x593f638;
+  constexpr static std::size_t addrs = 0x593de20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)()>(&::GlobalNamespace::GameServerPlayerTableCell::Awake)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x5940dc4;
+  constexpr static std::size_t addrs = 0x593f5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)()>(&::GlobalNamespace::GameServerPlayerTableCell::HandleKickPlayerButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5940f6c;
+  constexpr static std::size_t addrs = 0x593f754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)()>(&::GlobalNamespace::GameServerPlayerTableCell::HandleUseBeatmapButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5940f8c;
+  constexpr static std::size_t addrs = 0x593f774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)()>(&::GlobalNamespace::GameServerPlayerTableCell::HandleUseModifiersButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5940fac;
+  constexpr static std::size_t addrs = 0x593f794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::SetBeatmapUseButtonEnabledAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5940d14;
+  constexpr static std::size_t addrs = 0x593f4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -333,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)()>(&::GlobalNamespace::GameServerPlayerTableCell::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5940fcc;
+  constexpr static std::size_t addrs = 0x593f7b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameServerPlayerTableCell*>(), { ".ctor", {}, {} })));

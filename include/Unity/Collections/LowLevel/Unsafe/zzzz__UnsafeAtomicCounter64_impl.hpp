@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::*)(void*)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64c85a8;
+  constexpr static std::size_t addrs = 0x64c6344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::*)(int64_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64c85b0;
+  constexpr static std::size_t addrs = 0x64c634c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::*)(int64_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::Add)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64c85bc;
+  constexpr static std::size_t addrs = 0x64c6358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::*)(int64_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::Sub)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64c8618;
+  constexpr static std::size_t addrs = 0x64c63b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::*)(int64_t, int64_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::AddSat)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x64c8674;
+  constexpr static std::size_t addrs = 0x64c6410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>(),
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::*)(int64_t, int64_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::SubSat)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x64c8704;
+  constexpr static std::size_t addrs = 0x64c64a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>(),

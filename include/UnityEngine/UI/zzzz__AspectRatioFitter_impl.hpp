@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UI::AspectRatioFitter_AspectMode (::UnityEngine::UI::AspectRatioFitter::*)()>(
     &::UnityEngine::UI::AspectRatioFitter::get_aspectMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6df4810;
+  constexpr static std::size_t addrs = 0x6df0214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::AspectRatioFitter*>(), { "get_aspectMode", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)(::UnityEngine::UI::AspectRatioFitter_AspectMode)>(
     &::UnityEngine::UI::AspectRatioFitter::set_aspectMode)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6df4818;
+  constexpr static std::size_t addrs = 0x6df021c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::get_aspectRatio)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6df4894;
+  constexpr static std::size_t addrs = 0x6df0298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::AspectRatioFitter*>(), { "get_aspectRatio", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)(float_t)>(&::UnityEngine::UI::AspectRatioFitter::set_aspectRatio)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6df489c;
+  constexpr static std::size_t addrs = 0x6df02a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RectTransform> (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::get_rectTransform)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6df4914;
+  constexpr static std::size_t addrs = 0x6df0318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::AspectRatioFitter*>(), { "get_rectTransform", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6df49b0;
+  constexpr static std::size_t addrs = 0x6df03b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::AspectRatioFitter*>(), { ".ctor", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::OnEnable)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6df49bc;
+  constexpr static std::size_t addrs = 0x6df03c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::Start)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6df4a48;
+  constexpr static std::size_t addrs = 0x6df044c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::OnDisable)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6df4b88;
+  constexpr static std::size_t addrs = 0x6df058c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::OnTransformParentChanged)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6df4fe8;
+  constexpr static std::size_t addrs = 0x6df09ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::Update)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6df5074;
+  constexpr static std::size_t addrs = 0x6df0a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::OnRectTransformDimensionsChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6df5088;
+  constexpr static std::size_t addrs = 0x6df0a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::UpdateRect)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x6df508c;
+  constexpr static std::size_t addrs = 0x6df0a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::AspectRatioFitter*>(), { "UpdateRect", {}, {} })));
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::AspectRatioFitter::*)(float_t, int32_t)>(&::UnityEngine::UI::AspectRatioFitter::GetSizeDeltaToProduceSize)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6df544c;
+  constexpr static std::size_t addrs = 0x6df0e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::GetParentSize)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6df534c;
+  constexpr static std::size_t addrs = 0x6df0d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::AspectRatioFitter*>(), { "GetParentSize", {}, {} })));
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::SetLayoutHorizontal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6df5540;
+  constexpr static std::size_t addrs = 0x6df0f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::SetLayoutVertical)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6df5544;
+  constexpr static std::size_t addrs = 0x6df0f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::SetDirty)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6df4890;
+  constexpr static std::size_t addrs = 0x6df0294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::AspectRatioFitter*>(), { "SetDirty", {}, {} })));
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::IsComponentValidOnObject)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6df4a8c;
+  constexpr static std::size_t addrs = 0x6df0490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::AspectRatioFitter*>(), { "IsComponentValidOnObject", {}, {} })));
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::IsAspectModeValid)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6df4b60;
+  constexpr static std::size_t addrs = 0x6df0564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::AspectRatioFitter*>(), { "IsAspectModeValid", {}, {} })));
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::DoesParentExists)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6df5548;
+  constexpr static std::size_t addrs = 0x6df0f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::AspectRatioFitter*>(), { "DoesParentExists", {}, {} })));

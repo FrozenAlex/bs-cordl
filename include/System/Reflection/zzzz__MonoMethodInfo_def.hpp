@@ -51,40 +51,40 @@ namespace System::Reflection {
 struct CORDL_TYPE MonoMethodInfo {
 public:
   // Declarations
-  /// @brief Method GetAttributes, addr 0x5b8ab10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x5b88954, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodAttributes GetAttributes(::System::IntPtr handle);
 
-  /// @brief Method GetCallingConvention, addr 0x5b8ab18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetCallingConvention, addr 0x5b8895c, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Reflection::CallingConventions GetCallingConvention(::System::IntPtr handle);
 
-  /// @brief Method GetDeclaringType, addr 0x5b8aac0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDeclaringType, addr 0x5b88904, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Type* GetDeclaringType(::System::IntPtr handle);
 
-  /// @brief Method GetMethodImplementationFlags, addr 0x5b8ab40, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMethodImplementationFlags, addr 0x5b88984, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodImplAttributes GetMethodImplementationFlags(::System::IntPtr handle);
 
-  /// @brief Method GetMethodInfo, addr 0x5b8aa90, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetMethodInfo, addr 0x5b888d4, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Reflection::MonoMethodInfo GetMethodInfo(::System::IntPtr handle);
 
-  /// @brief Method GetParametersInfo, addr 0x5b8ab6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetParametersInfo, addr 0x5b889b0, size 0x4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::ParameterInfo*> GetParametersInfo(::System::IntPtr handle, ::System::Reflection::MemberInfo* member);
 
-  /// @brief Method GetReturnParameterInfo, addr 0x5b8ab78, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetReturnParameterInfo, addr 0x5b889bc, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Reflection::ParameterInfo* GetReturnParameterInfo(::System::Reflection::RuntimeMethodInfo* method);
 
-  /// @brief Method GetReturnType, addr 0x5b8aae8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetReturnType, addr 0x5b8892c, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Type* GetReturnType(::System::IntPtr handle);
 
-  /// @brief Method get_method_attributes, addr 0x5b8aa88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_method_attributes, addr 0x5b888cc, size 0x8, virtual false, abstract: false, final false
   static inline int32_t get_method_attributes(::System::IntPtr handle);
 
-  /// @brief Method get_method_info, addr 0x5b8aa84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_method_info, addr 0x5b888c8, size 0x4, virtual false, abstract: false, final false
   static inline void get_method_info(::System::IntPtr handle, ::by_ref<::System::Reflection::MonoMethodInfo> info);
 
-  /// @brief Method get_parameter_info, addr 0x5b8ab68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_parameter_info, addr 0x5b889ac, size 0x4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::ParameterInfo*> get_parameter_info(::System::IntPtr handle, ::System::Reflection::MemberInfo* member);
 
-  /// @brief Method get_retval_marshal, addr 0x5b8ab70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_retval_marshal, addr 0x5b889b4, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::MarshalAsAttribute* get_retval_marshal(::System::IntPtr handle);
 
   // Ctor Parameters []

@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PromoInfo_DlcPromoPanelModel_BannerData::*)(::UnityEngine::Sprite*, ::StringW, float_t)>(
     &::GlobalNamespace::PromoInfo_DlcPromoPanelModel_BannerData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x374c00c;
+  constexpr static std::size_t addrs = 0x3749bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PromoInfo_DlcPromoPanelModel_BannerData::*)(::GlobalNamespace::PromoBannerInfoSO*)>(
     &::GlobalNamespace::PromoInfo_DlcPromoPanelModel_BannerData::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x374c018;
+  constexpr static std::size_t addrs = 0x3749bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::PromoInfo_DlcPromoPanelModel_PromoType, ::StringW, ::StringW, ::GlobalNamespace::PromoInfo_DlcPromoPanelModel_BannerData, ::GlobalNamespace::PlayerSensitivityFlag, int32_t,
     int32_t)>(&::GlobalNamespace::DlcPromoPanelModel_PromoInfo::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x374bfe8;
+  constexpr static std::size_t addrs = 0x374ab2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel___c::*)()>(&::GlobalNamespace::DlcPromoPanelModel___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x374c08c;
+  constexpr static std::size_t addrs = 0x374aba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c*>(), { ".ctor", {}, {} })));
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DlcPromoPanelModel___c::*)(::GlobalNamespace::PackDefinitionSO*)>(
     &::GlobalNamespace::DlcPromoPanelModel___c::_UpdatePromoInfosAsync_b__30_0)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x374c090;
+  constexpr static std::size_t addrs = 0x374aba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c*>(),
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::DlcPromoPanelModel___c::*)(
     ::GlobalNamespace::DlcPromoPanelModel_PromoInfo*, ::GlobalNamespace::DlcPromoPanelModel_PromoInfo*)>(&::GlobalNamespace::DlcPromoPanelModel___c::_UpdatePromoInfosAsync_b__30_1)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x374c0b8;
+  constexpr static std::size_t addrs = 0x374abd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -319,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass30_0::*)()>(&::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass30_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x374c0e4;
+  constexpr static std::size_t addrs = 0x374abfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass30_0*>(), { ".ctor", {}, {} })));
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass30_0::*)(::GlobalNamespace::DlcPromoPanelModel_PromoInfo*)>(
     &::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass30_0::_UpdatePromoInfosAsync_b__2)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x374c0e8;
+  constexpr static std::size_t addrs = 0x374ac00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -368,142 +368,142 @@ inline ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass30_0* GlobalNamesp
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass30_0::DlcPromoPanelModel___c__DisplayClass30_0() {}
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0::*)()>(&::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0::*)()>(&::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x374b0ac;
+  constexpr static std::size_t addrs = 0x3749bf0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0._GetPackDataForMainMenuPromoBannerInternal_b__0
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0._GetPackDataForMainMenuPromoBannerInternal_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0::*)(::GlobalNamespace::DlcPromoPanelModel_PromoInfo*)>(
-    &::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0::_GetPackDataForMainMenuPromoBannerInternal_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0::*)(::GlobalNamespace::DlcPromoPanelModel_PromoInfo*)>(
+    &::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0::_GetPackDataForMainMenuPromoBannerInternal_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x374c10c;
+  constexpr static std::size_t addrs = 0x374ac24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0*>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0*>(),
                                                              { "<GetPackDataForMainMenuPromoBannerInternal>b__0", {}, { ::i2c::type_of<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0._GetPackDataForMainMenuPromoBannerInternal_b__1
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0._GetPackDataForMainMenuPromoBannerInternal_b__1
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0::*)(::GlobalNamespace::DlcPromoPanelModel_PromoInfo*)>(
-    &::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0::_GetPackDataForMainMenuPromoBannerInternal_b__1)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0::*)(::GlobalNamespace::DlcPromoPanelModel_PromoInfo*)>(
+    &::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0::_GetPackDataForMainMenuPromoBannerInternal_b__1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x374c12c;
+  constexpr static std::size_t addrs = 0x374ac44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0*>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0*>(),
                                                              { "<GetPackDataForMainMenuPromoBannerInternal>b__1", {}, { ::i2c::type_of<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::PlayerSensitivityFlag& GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0::__cordl_internal_get_sensitivityFlag() {
+constexpr ::GlobalNamespace::PlayerSensitivityFlag& GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0::__cordl_internal_get_sensitivityFlag() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sensitivityFlag;
 }
-constexpr ::GlobalNamespace::PlayerSensitivityFlag const& GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0::__cordl_internal_get_sensitivityFlag() const {
+constexpr ::GlobalNamespace::PlayerSensitivityFlag const& GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0::__cordl_internal_get_sensitivityFlag() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sensitivityFlag;
 }
-constexpr void GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0::__cordl_internal_set_sensitivityFlag(::GlobalNamespace::PlayerSensitivityFlag value) {
+constexpr void GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0::__cordl_internal_set_sensitivityFlag(::GlobalNamespace::PlayerSensitivityFlag value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sensitivityFlag = value;
 }
-inline void GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0*>(), { ".ctor", {}, {} })));
+inline void GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0::_GetPackDataForMainMenuPromoBannerInternal_b__0(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* x) {
+inline bool GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0::_GetPackDataForMainMenuPromoBannerInternal_b__0(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* x) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0*>(),
                                                            { "<GetPackDataForMainMenuPromoBannerInternal>b__0", {}, { ::i2c::type_of<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, x);
 }
-inline bool GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0::_GetPackDataForMainMenuPromoBannerInternal_b__1(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* x) {
+inline bool GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0::_GetPackDataForMainMenuPromoBannerInternal_b__1(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* x) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0*>(),
                                                            { "<GetPackDataForMainMenuPromoBannerInternal>b__1", {}, { ::i2c::type_of<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, x);
 }
-inline ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0* GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0*>());
+inline ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0* GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0::DlcPromoPanelModel___c__DisplayClass32_0() {}
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1._ctor
+constexpr ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0::DlcPromoPanelModel___c__DisplayClass33_0() {}
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1::*)()>(&::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1::*)()>(&::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x374b0b0;
+  constexpr static std::size_t addrs = 0x3749bf4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1*>(), { ".ctor", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1._GetPackDataForMainMenuPromoBannerInternal_b__2
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1._GetPackDataForMainMenuPromoBannerInternal_b__2
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1::*)(::GlobalNamespace::DlcPromoPanelModel_PromoInfo*)>(
-    &::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1::_GetPackDataForMainMenuPromoBannerInternal_b__2)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1::*)(::GlobalNamespace::DlcPromoPanelModel_PromoInfo*)>(
+    &::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1::_GetPackDataForMainMenuPromoBannerInternal_b__2)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x374c14c;
+  constexpr static std::size_t addrs = 0x374ac64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1*>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1*>(),
                                                              { "<GetPackDataForMainMenuPromoBannerInternal>b__2", {}, { ::i2c::type_of<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>() } })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::DlcPromoPanelModel_PromoInfo*& GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1::__cordl_internal_get_priorityPromoInfo() {
+constexpr ::GlobalNamespace::DlcPromoPanelModel_PromoInfo*& GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1::__cordl_internal_get_priorityPromoInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___priorityPromoInfo;
 }
-constexpr ::GlobalNamespace::DlcPromoPanelModel_PromoInfo* const& GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1::__cordl_internal_get_priorityPromoInfo() const {
+constexpr ::GlobalNamespace::DlcPromoPanelModel_PromoInfo* const& GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1::__cordl_internal_get_priorityPromoInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___priorityPromoInfo;
 }
-constexpr void GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1::__cordl_internal_set_priorityPromoInfo(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* value) {
+constexpr void GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1::__cordl_internal_set_priorityPromoInfo(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___priorityPromoInfo = value;
 }
-inline void GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1*>(), { ".ctor", {}, {} })));
+inline void GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1::_GetPackDataForMainMenuPromoBannerInternal_b__2(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* pi) {
+inline bool GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1::_GetPackDataForMainMenuPromoBannerInternal_b__2(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* pi) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1*>(),
                                                            { "<GetPackDataForMainMenuPromoBannerInternal>b__2", {}, { ::i2c::type_of<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, pi);
 }
-inline ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1* GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1*>());
+inline ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1* GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1::DlcPromoPanelModel___c__DisplayClass32_1() {}
+constexpr ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1::DlcPromoPanelModel___c__DisplayClass33_1() {}
 //  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__27.MoveNext
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__27::*)()>(
     &::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__27::MoveNext)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x374c170;
+  constexpr static std::size_t addrs = 0x374ac88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -517,7 +517,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__27::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__27::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x374c3e8;
+  constexpr static std::size_t addrs = 0x374af00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -564,7 +564,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__31::*)()>(
     &::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__31::MoveNext)> {
   constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x374c3f0;
+  constexpr static std::size_t addrs = 0x374af08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -578,7 +578,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__31::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__31::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x374c83c;
+  constexpr static std::size_t addrs = 0x374b354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__31>(),
@@ -625,7 +625,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__29::*)()>(
     &::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__29::MoveNext)> {
   constexpr static std::size_t size = 0x684;
-  constexpr static std::size_t addrs = 0x374c8bc;
+  constexpr static std::size_t addrs = 0x374b3d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -639,7 +639,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__29::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__29::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x374cf40;
+  constexpr static std::size_t addrs = 0x374ba58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__29>(),
@@ -688,7 +688,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__26::*)()>(
     &::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__26::MoveNext)> {
   constexpr static std::size_t size = 0x668;
-  constexpr static std::size_t addrs = 0x374cfac;
+  constexpr static std::size_t addrs = 0x374bac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -702,7 +702,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__26::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__26::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x374d614;
+  constexpr static std::size_t addrs = 0x374c12c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__26>(),
@@ -745,50 +745,50 @@ constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__26::Dlc
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__26::DlcPromoPanelModel__UpdateModelDataAsync_d__26() {}
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45::*)()>(
-    &::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46::*)()>(
+    &::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46::MoveNext)> {
   constexpr static std::size_t size = 0x7bc;
-  constexpr static std::size_t addrs = 0x374d680;
+  constexpr static std::size_t addrs = 0x374c198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x374de3c;
+  constexpr static std::size_t addrs = 0x374c954;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45::MoveNext() {
+inline void GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45>(),
+inline void GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
@@ -797,7 +797,7 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespa
 // "_newNotOwnedMusicPackPromoInfos_5__2", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "_allPromoInfos_5__3", ty: "::ArrayW<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::GlobalNamespace::EntitlementStatus>>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45(
+constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::DlcPromoPanelModel* __4__this,
     ::System::Threading::CancellationToken cancellationToken, ::System::Collections::Generic::List_1<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>* _newNotOwnedMusicPackPromoInfos_5__2,
     ::ArrayW<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*> _allPromoInfos_5__3,
@@ -811,14 +811,14 @@ constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45::Dl
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45() {}
+constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46() {}
 //  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__30.MoveNext
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__30::*)()>(
     &::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__30::MoveNext)> {
-  constexpr static std::size_t size = 0xfdc;
-  constexpr static std::size_t addrs = 0x374dea8;
+  constexpr static std::size_t size = 0xfe8;
+  constexpr static std::size_t addrs = 0x374c9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -832,7 +832,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__30::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__30::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x374ee84;
+  constexpr static std::size_t addrs = 0x374d9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__30>(),
@@ -884,7 +884,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::DlcPromoPanelDataSO>>*, ::GlobalNamespace::PlayerDataModel*, ::Analytics::Model::TelemetryModel*,
     ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*)>(&::GlobalNamespace::DlcPromoPanelModel::_ctor)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x374a30c;
+  constexpr static std::size_t addrs = 0x3748d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -904,7 +904,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)()>(&::GlobalNamespace::DlcPromoPanelModel::Zenject_IInitializable_Initialize)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x374a5d8;
+  constexpr static std::size_t addrs = 0x3749040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -917,7 +917,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)()>(&::GlobalNamespace::DlcPromoPanelModel::Tick)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x374a6d8;
+  constexpr static std::size_t addrs = 0x3749140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel*>(), { "Tick", {}, {} })));
@@ -929,7 +929,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)()>(&::GlobalNamespace::DlcPromoPanelModel::RequestNextPromo)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x374ac60;
+  constexpr static std::size_t addrs = 0x37496c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel*>(), { "RequestNextPromo", {}, {} })));
@@ -941,7 +941,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)()>(&::GlobalNamespace::DlcPromoPanelModel::RunModelDataUpdate)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x374a5e8;
+  constexpr static std::size_t addrs = 0x3749050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel*>(), { "RunModelDataUpdate", {}, {} })));
@@ -954,7 +954,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::GlobalNamespace::DlcPromoPanelModel::*)(::System::Threading::Tasks::Task*, ::System::Threading::CancellationToken)>(&::GlobalNamespace::DlcPromoPanelModel::UpdateModelDataAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x374accc;
+  constexpr static std::size_t addrs = 0x3749734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -968,7 +968,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)()>(&::GlobalNamespace::DlcPromoPanelModel::HandleAdditionalContentModelDidInvalidateData)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x374ad90;
+  constexpr static std::size_t addrs = 0x37497f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -981,7 +981,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)()>(&::GlobalNamespace::DlcPromoPanelModel::HandleDidCatalogLoadOrUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x374ae34;
+  constexpr static std::size_t addrs = 0x374989c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel*>(), { "HandleDidCatalogLoadOrUpdate", {}, {} })));
@@ -994,7 +994,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::DlcPromoPanelModel::*)(::System::Threading::CancellationToken)>(
     &::GlobalNamespace::DlcPromoPanelModel::UpdateDlcPromoPanelDataAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x374ae38;
+  constexpr static std::size_t addrs = 0x37498a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel*>(),
@@ -1008,7 +1008,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::DlcPromoPanelModel::*)(::System::Threading::CancellationToken)>(
     &::GlobalNamespace::DlcPromoPanelModel::UpdatePromoInfosAsync)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x374aefc;
+  constexpr static std::size_t addrs = 0x3749964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1023,12 +1023,26 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::GlobalNamespace::PackPromoInfoSO>>* (
     ::GlobalNamespace::DlcPromoPanelModel::*)(::GlobalNamespace::PackDefinitionSO*)>(&::GlobalNamespace::DlcPromoPanelModel::LoadPackPromoInfoAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x374afbc;
+  constexpr static std::size_t addrs = 0x3749a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
                      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel*>(), { "LoadPackPromoInfoAsync", {}, { ::i2c::type_of<::GlobalNamespace::PackDefinitionSO*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel.CreateBannerData
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PromoInfo_DlcPromoPanelModel_BannerData (*)(::GlobalNamespace::PromoBannerInfoSO*)>(
+    &::GlobalNamespace::DlcPromoPanelModel::CreateBannerData)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x3749b14;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel*>(), { "CreateBannerData", {}, { ::i2c::type_of<::GlobalNamespace::PromoBannerInfoSO*>() } })));
     return ___internal_method;
   }
 };
@@ -1038,7 +1052,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*, bool>> (
     ::GlobalNamespace::DlcPromoPanelModel::*)()>(&::GlobalNamespace::DlcPromoPanelModel::GetPackDataForMainMenuPromoBannerInternal)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x374a790;
+  constexpr static std::size_t addrs = 0x37491f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1051,7 +1065,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::StringW>)>(&::GlobalNamespace::DlcPromoPanelModel::TryGetPromoGroupId)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x374b0b4;
+  constexpr static std::size_t addrs = 0x3749bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel*>(),
@@ -1065,7 +1079,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(::GlobalNamespace::DlcPromoPanelModel_PromoInfo*, ::StringW)>(
     &::GlobalNamespace::DlcPromoPanelModel::MainMenuDlcPromoBannerWasShown)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x374b12c;
+  constexpr static std::size_t addrs = 0x3749c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1080,7 +1094,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(::GlobalNamespace::DlcPromoPanelModel_PromoInfo*, ::StringW)>(
     &::GlobalNamespace::DlcPromoPanelModel::MainMenuDlcPromoBannerWasPressed)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x374b494;
+  constexpr static std::size_t addrs = 0x3749fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1095,7 +1109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::BeatmapLevel*, ::StringW, ::StringW)>(
     &::GlobalNamespace::DlcPromoPanelModel::BuyLevelButtonWasPressed)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x374b67c;
+  constexpr static std::size_t addrs = 0x374a1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1113,7 +1127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(::GlobalNamespace::BeatmapLevel*, ::StringW, ::StringW)>(
     &::GlobalNamespace::DlcPromoPanelModel::BuyLevelButtonWasShown)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x374b950;
+  constexpr static std::size_t addrs = 0x374a494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1128,7 +1142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(::GlobalNamespace::BeatmapLevelPack*, ::StringW, ::StringW)>(
     &::GlobalNamespace::DlcPromoPanelModel::BuyPackButtonWasPressed)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x374ba50;
+  constexpr static std::size_t addrs = 0x374a594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1144,7 +1158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(::GlobalNamespace::BeatmapLevelPack*, ::StringW, ::StringW)>(
     &::GlobalNamespace::DlcPromoPanelModel::BuyPackButtonWasShown)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x374bb98;
+  constexpr static std::size_t addrs = 0x374a6dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1160,7 +1174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(::GlobalNamespace::BeatmapLevelPack*)>(
     &::GlobalNamespace::DlcPromoPanelModel::LevelPackWasPurchased)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x374bc98;
+  constexpr static std::size_t addrs = 0x374a7dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1175,7 +1189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::DlcPromoPanelModel::LevelWasPurchased)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x374be70;
+  constexpr static std::size_t addrs = 0x374a9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1189,7 +1203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(::StringW)>(&::GlobalNamespace::DlcPromoPanelModel::HandleColdplayBuyClicked)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x374b7f8;
+  constexpr static std::size_t addrs = 0x374a33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1202,7 +1216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(::StringW)>(&::GlobalNamespace::DlcPromoPanelModel::HandleColdplayPurchased)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x374bd18;
+  constexpr static std::size_t addrs = 0x374a85c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1216,7 +1230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (*)(::StringW, ::StringW, ::StringW)>(
     &::GlobalNamespace::DlcPromoPanelModel::GetExperimentEventData)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x374b314;
+  constexpr static std::size_t addrs = 0x3749e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1231,7 +1245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::DlcPromoPanelModel::*)(::System::Threading::CancellationToken)>(
     &::GlobalNamespace::DlcPromoPanelModel::UpdateOwnedPacksAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x374bf24;
+  constexpr static std::size_t addrs = 0x374aa68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1530,6 +1544,11 @@ inline ::System::Threading::Tasks::Task_1<::UnityW<::GlobalNamespace::PackPromoI
       THROW_UNLESS(::i2c::no_logger{},
                    (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel*>(), { "LoadPackPromoInfoAsync", {}, { ::i2c::type_of<::GlobalNamespace::PackDefinitionSO*>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::UnityW<::GlobalNamespace::PackPromoInfoSO>>*>(this, ___internal_method, pack);
+}
+inline ::GlobalNamespace::PromoInfo_DlcPromoPanelModel_BannerData GlobalNamespace::DlcPromoPanelModel::CreateBannerData(::GlobalNamespace::PromoBannerInfoSO* promoBannerInfo) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DlcPromoPanelModel*>(), { "CreateBannerData", {}, { ::i2c::type_of<::GlobalNamespace::PromoBannerInfoSO*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PromoInfo_DlcPromoPanelModel_BannerData>(nullptr, ___internal_method, promoBannerInfo);
 }
 inline ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*, bool>> GlobalNamespace::DlcPromoPanelModel::GetPackDataForMainMenuPromoBannerInternal() {
   static auto* ___internal_method =

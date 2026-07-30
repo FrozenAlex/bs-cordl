@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_CompressionEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6467c64;
+  constexpr static std::size_t addrs = 0x6465a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(bool)>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_CompressionEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6467c6c;
+  constexpr static std::size_t addrs = 0x6465a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_CacheDirectoryOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6467c74;
+  constexpr static std::size_t addrs = 0x6465a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_CacheDirectoryOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6467c7c;
+  constexpr static std::size_t addrs = 0x6465a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::CacheInitializationData*>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_LimitCacheSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6467c84;
+  constexpr static std::size_t addrs = 0x6465a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(bool)>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_LimitCacheSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6467c8c;
+  constexpr static std::size_t addrs = 0x6465a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_MaximumCacheSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6467c94;
+  constexpr static std::size_t addrs = 0x6465a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(int64_t)>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_MaximumCacheSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6467c9c;
+  constexpr static std::size_t addrs = 0x6465a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::CacheInitializationData*>(),
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6467ca4;
+  constexpr static std::size_t addrs = 0x6465a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

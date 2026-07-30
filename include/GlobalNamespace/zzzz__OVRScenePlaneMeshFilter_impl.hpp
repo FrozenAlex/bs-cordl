@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList::*)()>(
     &::GlobalNamespace::TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ecbc48;
+  constexpr static std::size_t addrs = 0x5ec99b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList::*)(int32_t)>(
     &::GlobalNamespace::TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList::set_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ecbc50;
+  constexpr static std::size_t addrs = 0x5ec99bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList::*)(int32_t, ::Unity::Collections::Allocator)>(
     &::GlobalNamespace::TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5ecba5c;
+  constexpr static std::size_t addrs = 0x5ec97c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList>(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList::*)(int32_t)>(
     &::GlobalNamespace::TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList::RemoveAt)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5ecbc0c;
+  constexpr static std::size_t addrs = 0x5ec9978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList::*)(int32_t)>(
     &::GlobalNamespace::TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList::GetAt)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5ecbb10;
+  constexpr static std::size_t addrs = 0x5ec987c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList::*)(int32_t)>(
     &::GlobalNamespace::TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList::get_Item)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ecbb04;
+  constexpr static std::size_t addrs = 0x5ec9870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList::*)()>(
     &::GlobalNamespace::TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList::Dispose)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5ecbc58;
+  constexpr static std::size_t addrs = 0x5ec99c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRScenePlaneMeshFilter_TriangulateBoundaryJob::*)()>(
     &::GlobalNamespace::OVRScenePlaneMeshFilter_TriangulateBoundaryJob::Execute)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x5ecb718;
+  constexpr static std::size_t addrs = 0x5ec9484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&::GlobalNamespace::OVRScenePlaneMeshFilter_TriangulateBoundaryJob::Cross)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5ecbb54;
+  constexpr static std::size_t addrs = 0x5ec98c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRScenePlaneMeshFilter_TriangulateBoundaryJob>(),
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::GlobalNamespace::OVRScenePlaneMeshFilter_TriangulateBoundaryJob::PointInTriangle)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5ecbb64;
+  constexpr static std::size_t addrs = 0x5ec98d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRScenePlaneMeshFilter_TriangulateBoundaryJob>(),
@@ -246,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRScenePlaneMeshFilter::*)()>(&::GlobalNamespace::OVRScenePlaneMeshFilter::Start)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x5eca9d8;
+  constexpr static std::size_t addrs = 0x5ec8744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRScenePlaneMeshFilter*>(), { "Start", {}, {} })));
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRScenePlaneMeshFilter::*)()>(&::GlobalNamespace::OVRScenePlaneMeshFilter::ScheduleMeshGeneration)> {
   constexpr static std::size_t size = 0x480;
-  constexpr static std::size_t addrs = 0x5ecabb0;
+  constexpr static std::size_t addrs = 0x5ec891c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRScenePlaneMeshFilter*>(), { "ScheduleMeshGeneration", {}, {} })));
@@ -270,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRScenePlaneMeshFilter::*)()>(&::GlobalNamespace::OVRScenePlaneMeshFilter::Update)> {
   constexpr static std::size_t size = 0x650;
-  constexpr static std::size_t addrs = 0x5ecb030;
+  constexpr static std::size_t addrs = 0x5ec8d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRScenePlaneMeshFilter*>(), { "Update", {}, {} })));
@@ -282,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRScenePlaneMeshFilter::*)()>(&::GlobalNamespace::OVRScenePlaneMeshFilter::RequestMeshGeneration)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5eca63c;
+  constexpr static std::size_t addrs = 0x5ec83a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRScenePlaneMeshFilter*>(), { "RequestMeshGeneration", {}, {} })));
@@ -294,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRScenePlaneMeshFilter::*)()>(&::GlobalNamespace::OVRScenePlaneMeshFilter::OnDisable)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5ecb680;
+  constexpr static std::size_t addrs = 0x5ec93ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRScenePlaneMeshFilter*>(), { "OnDisable", {}, {} })));
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRScenePlaneMeshFilter::*)()>(&::GlobalNamespace::OVRScenePlaneMeshFilter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ecb714;
+  constexpr static std::size_t addrs = 0x5ec9480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRScenePlaneMeshFilter*>(), { ".ctor", {}, {} })));

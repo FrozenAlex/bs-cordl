@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FPSCounterUIController__Start_d__9::*)(int32_t)>(&::GlobalNamespace::FPSCounterUIController__Start_d__9::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5854b10;
+  constexpr static std::size_t addrs = 0x585300c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FPSCounterUIController__Start_d__9::*)()>(
     &::GlobalNamespace::FPSCounterUIController__Start_d__9::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5854c8c;
+  constexpr static std::size_t addrs = 0x5853188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::FPSCounterUIController__Start_d__9::*)()>(&::GlobalNamespace::FPSCounterUIController__Start_d__9::MoveNext)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5854c90;
+  constexpr static std::size_t addrs = 0x585318c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FPSCounterUIController__Start_d__9*>(), { "MoveNext", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::FPSCounterUIController__Start_d__9::*)()>(
     &::GlobalNamespace::FPSCounterUIController__Start_d__9::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5854d28;
+  constexpr static std::size_t addrs = 0x5853224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FPSCounterUIController__Start_d__9::*)()>(
     &::GlobalNamespace::FPSCounterUIController__Start_d__9::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5854d30;
+  constexpr static std::size_t addrs = 0x585322c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::FPSCounterUIController__Start_d__9::*)()>(
     &::GlobalNamespace::FPSCounterUIController__Start_d__9::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5854d68;
+  constexpr static std::size_t addrs = 0x5853264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FPSCounterUIController::*)()>(&::GlobalNamespace::FPSCounterUIController::Awake)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5854a58;
+  constexpr static std::size_t addrs = 0x5852f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FPSCounterUIController*>(), { "Awake", {}, {} })));
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::FPSCounterUIController::*)()>(&::GlobalNamespace::FPSCounterUIController::Start)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5854abc;
+  constexpr static std::size_t addrs = 0x5852fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FPSCounterUIController*>(), { "Start", {}, {} })));
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FPSCounterUIController::*)()>(&::GlobalNamespace::FPSCounterUIController::LateUpdate)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5854b18;
+  constexpr static std::size_t addrs = 0x5853014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FPSCounterUIController*>(), { "LateUpdate", {}, {} })));
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FPSCounterUIController::*)()>(&::GlobalNamespace::FPSCounterUIController::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5854c80;
+  constexpr static std::size_t addrs = 0x585317c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FPSCounterUIController*>(), { ".ctor", {}, {} })));

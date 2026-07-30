@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::JsonWriterException::*)()>(&::Newtonsoft::Json::JsonWriterException::get_Path)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d17d9c;
+  constexpr static std::size_t addrs = 0x5d15b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonWriterException*>(), { "get_Path", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonWriterException::*)()>(&::Newtonsoft::Json::JsonWriterException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d17da4;
+  constexpr static std::size_t addrs = 0x5d15b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonWriterException*>(), { ".ctor", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonWriterException::*)(::StringW)>(&::Newtonsoft::Json::JsonWriterException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d17dac;
+  constexpr static std::size_t addrs = 0x5d15b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonWriterException::*)(::StringW, ::System::Exception*)>(&::Newtonsoft::Json::JsonWriterException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d17db4;
+  constexpr static std::size_t addrs = 0x5d15b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonWriterException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::Newtonsoft::Json::JsonWriterException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d17dbc;
+  constexpr static std::size_t addrs = 0x5d15b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonWriterException::*)(::StringW, ::StringW, ::System::Exception*)>(
     &::Newtonsoft::Json::JsonWriterException::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5d17dc4;
+  constexpr static std::size_t addrs = 0x5d15b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::JsonWriterException* (*)(::Newtonsoft::Json::JsonWriter*, ::StringW, ::System::Exception*)>(
     &::Newtonsoft::Json::JsonWriterException::Create)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5d17098;
+  constexpr static std::size_t addrs = 0x5d14e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::JsonWriterException* (*)(::StringW, ::StringW, ::System::Exception*)>(&::Newtonsoft::Json::JsonWriterException::Create)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5d17df0;
+  constexpr static std::size_t addrs = 0x5d15b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

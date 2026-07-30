@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::TextInfo* (*)()>(&::System::Globalization::TextInfo::get_Invariant)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5bcbe1c;
+  constexpr static std::size_t addrs = 0x5bc9c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TextInfo*>(), { "get_Invariant", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TextInfo::*)(::System::Globalization::CultureData*)>(&::System::Globalization::TextInfo::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5bcbec0;
+  constexpr static std::size_t addrs = 0x5bc9d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TextInfo::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Globalization::TextInfo::OnDeserializing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bcbee0;
+  constexpr static std::size_t addrs = 0x5bc9d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TextInfo::*)()>(&::System::Globalization::TextInfo::OnDeserialized)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5bcbee8;
+  constexpr static std::size_t addrs = 0x5bc9d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TextInfo*>(), { "OnDeserialized", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TextInfo::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Globalization::TextInfo::OnDeserialized)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5bcbfd8;
+  constexpr static std::size_t addrs = 0x5bc9e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TextInfo::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Globalization::TextInfo::OnSerializing)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5bcbfdc;
+  constexpr static std::size_t addrs = 0x5bc9e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::TextInfo::*)()>(&::System::Globalization::TextInfo::get_CultureName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bcc060;
+  constexpr static std::size_t addrs = 0x5bc9ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TextInfo*>(), { "get_CultureName", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Globalization::TextInfo::*)()>(&::System::Globalization::TextInfo::Clone)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5bcc068;
+  constexpr static std::size_t addrs = 0x5bc9eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TextInfo::*)(bool)>(&::System::Globalization::TextInfo::SetReadOnlyState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bcc0f0;
+  constexpr static std::size_t addrs = 0x5bc9f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::System::Globalization::TextInfo::*)(char16_t)>(&::System::Globalization::TextInfo::ToLower)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5bcc0f8;
+  constexpr static std::size_t addrs = 0x5bc9f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::TextInfo::*)(::StringW)>(&::System::Globalization::TextInfo::ToLower)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5bcc6d4;
+  constexpr static std::size_t addrs = 0x5bca518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(char16_t)>(&::System::Globalization::TextInfo::ToLowerAsciiInvariant)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5bcc260;
+  constexpr static std::size_t addrs = 0x5bca0a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::System::Globalization::TextInfo::*)(char16_t)>(&::System::Globalization::TextInfo::ToUpper)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5bcc7cc;
+  constexpr static std::size_t addrs = 0x5bca610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::TextInfo::*)(::StringW)>(&::System::Globalization::TextInfo::ToUpper)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5bccce0;
+  constexpr static std::size_t addrs = 0x5bcab24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(char16_t)>(&::System::Globalization::TextInfo::ToUpperAsciiInvariant)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5bcc82c;
+  constexpr static std::size_t addrs = 0x5bca670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Globalization::TextInfo::IsAscii)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5bcc154;
+  constexpr static std::size_t addrs = 0x5bc9f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TextInfo*>(), { "IsAscii", {}, { ::i2c::type_of<char16_t>() } })));
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::TextInfo::*)()>(&::System::Globalization::TextInfo::get_IsAsciiCasingSameAsInvariant)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5bcc164;
+  constexpr static std::size_t addrs = 0x5bc9fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TextInfo*>(), { "get_IsAsciiCasingSameAsInvariant", {}, {} })));
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::TextInfo::*)(::System::Object*)>(&::System::Globalization::TextInfo::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5bccdd8;
+  constexpr static std::size_t addrs = 0x5bcac1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::TextInfo::*)()>(&::System::Globalization::TextInfo::GetHashCode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5bcce80;
+  constexpr static std::size_t addrs = 0x5bcacc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::TextInfo::*)()>(&::System::Globalization::TextInfo::ToString)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5bcce9c;
+  constexpr static std::size_t addrs = 0x5bcace0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::TextInfo::*)(::StringW)>(&::System::Globalization::TextInfo::ToTitleCase)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x5bccef8;
+  constexpr static std::size_t addrs = 0x5bcad3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::System::Text::StringBuilder*>, ::by_ref<::StringW>, int32_t, int32_t)>(
     &::System::Globalization::TextInfo::AddNonLetter)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5bcd3b0;
+  constexpr static std::size_t addrs = 0x5bcb1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::TextInfo::*)(::by_ref<::System::Text::StringBuilder*>, ::by_ref<::StringW>, int32_t, int32_t)>(
     &::System::Globalization::TextInfo::AddTitlecaseLetter)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5bcd24c;
+  constexpr static std::size_t addrs = 0x5bcb090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -326,7 +326,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Globalization::UnicodeCategory)>(&::System::Globalization::TextInfo::IsWordSeparator)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5bcd394;
+  constexpr static std::size_t addrs = 0x5bcb1d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -339,7 +339,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Globalization::UnicodeCategory)>(&::System::Globalization::TextInfo::IsLetterCategory)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5bcd388;
+  constexpr static std::size_t addrs = 0x5bcb1cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -353,7 +353,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TextInfo::*)(::System::Object*)>(
     &::System::Globalization::TextInfo::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5bcd464;
+  constexpr static std::size_t addrs = 0x5bcb2a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::TextInfo::*)(::StringW)>(&::System::Globalization::TextInfo::ToUpperInternal)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5bccd34;
+  constexpr static std::size_t addrs = 0x5bcab78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -380,7 +380,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::TextInfo::*)(::StringW)>(&::System::Globalization::TextInfo::ToLowerInternal)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5bcc728;
+  constexpr static std::size_t addrs = 0x5bca56c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -393,7 +393,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::System::Globalization::TextInfo::*)(char16_t)>(&::System::Globalization::TextInfo::ToUpperInternal)> {
   constexpr static std::size_t size = 0x498;
-  constexpr static std::size_t addrs = 0x5bcc848;
+  constexpr static std::size_t addrs = 0x5bca68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -406,7 +406,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::System::Globalization::TextInfo::*)(char16_t)>(&::System::Globalization::TextInfo::ToLowerInternal)> {
   constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x5bcc278;
+  constexpr static std::size_t addrs = 0x5bca0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -420,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TextInfo::*)(::System::ReadOnlySpan_1<char16_t>, ::System::Span_1<char16_t>)>(
     &::System::Globalization::TextInfo::ToUpperAsciiInvariant)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5bcd468;
+  constexpr static std::size_t addrs = 0x5bcb2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -435,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TextInfo::*)(::System::ReadOnlySpan_1<char16_t>, ::System::Span_1<char16_t>, bool)>(
     &::System::Globalization::TextInfo::ChangeCase)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5bcd500;
+  constexpr static std::size_t addrs = 0x5bcb344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -449,7 +449,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TextInfo::*)()>(&::System::Globalization::TextInfo::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5bcd5f4;
+  constexpr static std::size_t addrs = 0x5bcb438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TextInfo*>(), { ".ctor", {}, {} })));

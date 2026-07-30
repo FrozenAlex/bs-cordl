@@ -31,7 +31,7 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaSequence* New_ctor();
 
-  /// @brief Method SetItems, addr 0x622eb6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetItems, addr 0x622c908, size 0x8, virtual true, abstract: false, final false
   inline void SetItems(::System::Xml::Schema::XmlSchemaObjectCollection* newItems);
 
   constexpr ::System::Xml::Schema::XmlSchemaObjectCollection* const& __cordl_internal_get_items() const;
@@ -40,13 +40,13 @@ public:
 
   constexpr void __cordl_internal_set_items(::System::Xml::Schema::XmlSchemaObjectCollection* value);
 
-  /// @brief Method .ctor, addr 0x622eb74, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x622c910, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsEmpty, addr 0x622eb20, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x622c8bc, size 0x4c, virtual true, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_Items, addr 0x622eb18, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Items, addr 0x622c8b4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();
 
 protected:

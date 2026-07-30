@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned::*)()>(
     &::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x35ae2b8;
+  constexpr static std::size_t addrs = 0x35ac880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x35ae310;
+  constexpr static std::size_t addrs = 0x35ac8d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35ae378;
+  constexpr static std::size_t addrs = 0x35ac940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned*>(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x35ae3e4;
+  constexpr static std::size_t addrs = 0x35ac9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::StringW, ::Org::BouncyCastle::Asn1::X509::X509Name*, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::Asn1::Asn1Set*,
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(&::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x35ae44c;
+  constexpr static std::size_t addrs = 0x35aca14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::StringW, ::Org::BouncyCastle::Asn1::X509::X509Name*, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::Asn1::Asn1Set*)>(
     &::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned::_ctor)> {
   constexpr static std::size_t size = 0x624;
-  constexpr static std::size_t addrs = 0x35ae4e4;
+  constexpr static std::size_t addrs = 0x35acaac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned::*)()>(
     &::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned::GetDataToSign)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x35aeb08;
+  constexpr static std::size_t addrs = 0x35ad0d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned::SignRequest)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35aeb20;
+  constexpr static std::size_t addrs = 0x35ad0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned::*)(::Org::BouncyCastle::Asn1::DerBitString*)>(
     &::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned::SignRequest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35aeb8c;
+  constexpr static std::size_t addrs = 0x35ad154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequestDelaySigned*>(),

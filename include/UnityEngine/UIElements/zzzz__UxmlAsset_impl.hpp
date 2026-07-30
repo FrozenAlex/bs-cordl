@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlAsset::*)(::StringW, ::UnityEngine::UIElements::UxmlNamespaceDefinition)>(
     &::UnityEngine::UIElements::UxmlAsset::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6cbceb8;
+  constexpr static std::size_t addrs = 0x6cb88bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::UxmlAsset::*)()>(&::UnityEngine::UIElements::UxmlAsset::get_fullTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cbcec4;
+  constexpr static std::size_t addrs = 0x6cb88c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlAsset*>(), { "get_fullTypeName", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UxmlAsset::*)()>(&::UnityEngine::UIElements::UxmlAsset::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cbcecc;
+  constexpr static std::size_t addrs = 0x6cb88d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlAsset*>(), { "get_id", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlAsset::*)(int32_t)>(&::UnityEngine::UIElements::UxmlAsset::set_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cbced4;
+  constexpr static std::size_t addrs = 0x6cb88d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlAsset*>(), { "set_id", {}, { ::i2c::type_of<int32_t>() } })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UxmlAsset::*)()>(&::UnityEngine::UIElements::UxmlAsset::get_orderInDocument)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cbcedc;
+  constexpr static std::size_t addrs = 0x6cb88e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlAsset*>(), { "get_orderInDocument", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UxmlAsset::*)()>(&::UnityEngine::UIElements::UxmlAsset::get_parentId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cbcee4;
+  constexpr static std::size_t addrs = 0x6cb88e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlAsset*>(), { "get_parentId", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlAsset::*)(int32_t)>(&::UnityEngine::UIElements::UxmlAsset::set_parentId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cbceec;
+  constexpr static std::size_t addrs = 0x6cb88f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UxmlAsset::*)(::StringW, ::by_ref<::StringW>)>(&::UnityEngine::UIElements::UxmlAsset::TryGetAttributeValue)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6cbcef4;
+  constexpr static std::size_t addrs = 0x6cb88f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlAsset*>(),
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlAsset::*)(::StringW, ::StringW)>(&::UnityEngine::UIElements::UxmlAsset::SetAttribute)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cbaacc;
+  constexpr static std::size_t addrs = 0x6cb64d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlAsset::*)(::StringW)>(&::UnityEngine::UIElements::UxmlAsset::RemoveAttribute)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6cba9d0;
+  constexpr static std::size_t addrs = 0x6cb63d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlAsset::*)(::StringW, ::StringW)>(&::UnityEngine::UIElements::UxmlAsset::SetOrAddProperty)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x6cbcfd4;
+  constexpr static std::size_t addrs = 0x6cb89d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::UxmlAsset::*)()>(&::UnityEngine::UIElements::UxmlAsset::ToString)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6cbd1e4;
+  constexpr static std::size_t addrs = 0x6cb8be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

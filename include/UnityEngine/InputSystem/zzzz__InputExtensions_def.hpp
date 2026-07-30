@@ -28,19 +28,19 @@ namespace UnityEngine::InputSystem {
 class CORDL_TYPE InputExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsActive, addr 0x6563228, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsActive, addr 0x6560fc4, size 0x14, virtual false, abstract: false, final false
   static inline bool IsActive(::UnityEngine::InputSystem::TouchPhase phase);
 
-  /// @brief Method IsEndedOrCanceled, addr 0x6563a50, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsEndedOrCanceled, addr 0x65617ec, size 0x10, virtual false, abstract: false, final false
   static inline bool IsEndedOrCanceled(::UnityEngine::InputSystem::TouchPhase phase);
 
-  /// @brief Method IsInProgress, addr 0x6563a40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsInProgress, addr 0x65617dc, size 0x10, virtual false, abstract: false, final false
   static inline bool IsInProgress(::UnityEngine::InputSystem::InputActionPhase phase);
 
-  /// @brief Method IsModifierKey, addr 0x6563a60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsModifierKey, addr 0x65617fc, size 0x10, virtual false, abstract: false, final false
   static inline bool IsModifierKey(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method IsTextInputKey, addr 0x6563a70, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsTextInputKey, addr 0x656180c, size 0x24, virtual false, abstract: false, final false
   static inline bool IsTextInputKey(::UnityEngine::InputSystem::Key key);
 
 protected:

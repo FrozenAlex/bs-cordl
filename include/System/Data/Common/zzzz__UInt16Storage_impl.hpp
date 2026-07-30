@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::UInt16Storage::*)(::System::Data::DataColumn*)>(&::System::Data::Common::UInt16Storage::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x60c964c;
+  constexpr static std::size_t addrs = 0x60c73e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::UInt16Storage::*)(::ArrayW<int32_t>, ::System::Data::AggregateType)>(
     &::System::Data::Common::UInt16Storage::Aggregate)> {
   constexpr static std::size_t size = 0x83c;
-  constexpr static std::size_t addrs = 0x60c9730;
+  constexpr static std::size_t addrs = 0x60c74cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Common::UInt16Storage::*)(int32_t, int32_t)>(&::System::Data::Common::UInt16Storage::Compare)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x60c9f6c;
+  constexpr static std::size_t addrs = 0x60c7d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Common::UInt16Storage::*)(int32_t, ::System::Object*)>(&::System::Data::Common::UInt16Storage::CompareValueTo)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x60ca028;
+  constexpr static std::size_t addrs = 0x60c7dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::UInt16Storage::*)(::System::Object*)>(&::System::Data::Common::UInt16Storage::ConvertValue)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x60ca124;
+  constexpr static std::size_t addrs = 0x60c7ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::UInt16Storage::*)(int32_t, int32_t)>(&::System::Data::Common::UInt16Storage::Copy)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x60ca268;
+  constexpr static std::size_t addrs = 0x60c8004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::UInt16Storage::*)(int32_t)>(&::System::Data::Common::UInt16Storage::Get)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x60ca2c0;
+  constexpr static std::size_t addrs = 0x60c805c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::UInt16Storage::*)(int32_t, ::System::Object*)>(&::System::Data::Common::UInt16Storage::Set)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x60ca378;
+  constexpr static std::size_t addrs = 0x60c8114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::UInt16Storage::*)(int32_t)>(&::System::Data::Common::UInt16Storage::SetCapacity)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x60ca528;
+  constexpr static std::size_t addrs = 0x60c82c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::UInt16Storage::*)(::StringW)>(&::System::Data::Common::UInt16Storage::ConvertXmlToObject)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x60ca5ec;
+  constexpr static std::size_t addrs = 0x60c8388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::Common::UInt16Storage::*)(::System::Object*)>(&::System::Data::Common::UInt16Storage::ConvertObjectToXml)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x60ca67c;
+  constexpr static std::size_t addrs = 0x60c8418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::UInt16Storage::*)(int32_t)>(&::System::Data::Common::UInt16Storage::GetEmptyStorage)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x60ca728;
+  constexpr static std::size_t addrs = 0x60c84c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::UInt16Storage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(
     &::System::Data::Common::UInt16Storage::CopyValue)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x60ca774;
+  constexpr static std::size_t addrs = 0x60c8510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::UInt16Storage::*)(::System::Object*, ::System::Collections::BitArray*)>(
     &::System::Data::Common::UInt16Storage::SetStorage)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x60ca878;
+  constexpr static std::size_t addrs = 0x60c8614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

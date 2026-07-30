@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXInputButtonBinder::*)()>(&::UnityEngine::VFX::Utility::VFXInputButtonBinder::get_ButtonProperty)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69de2c8;
+  constexpr static std::size_t addrs = 0x69dc064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXInputButtonBinder*>(), { "get_ButtonProperty", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXInputButtonBinder::*)(::StringW)>(
     &::UnityEngine::VFX::Utility::VFXInputButtonBinder::set_ButtonProperty)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x69de2e0;
+  constexpr static std::size_t addrs = 0x69dc07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXInputButtonBinder::*)()>(
     &::UnityEngine::VFX::Utility::VFXInputButtonBinder::get_ButtonSmoothProperty)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69de2fc;
+  constexpr static std::size_t addrs = 0x69dc098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXInputButtonBinder::*)(::StringW)>(
     &::UnityEngine::VFX::Utility::VFXInputButtonBinder::set_ButtonSmoothProperty)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x69de314;
+  constexpr static std::size_t addrs = 0x69dc0b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::Utility::VFXInputButtonBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXInputButtonBinder::IsValid)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x69de330;
+  constexpr static std::size_t addrs = 0x69dc0cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXInputButtonBinder::*)()>(&::UnityEngine::VFX::Utility::VFXInputButtonBinder::Start)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x69de3a4;
+  constexpr static std::size_t addrs = 0x69dc140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXInputButtonBinder*>(), { "Start", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXInputButtonBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXInputButtonBinder::UpdateBinding)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x69de3d8;
+  constexpr static std::size_t addrs = 0x69dc174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXInputButtonBinder::*)()>(&::UnityEngine::VFX::Utility::VFXInputButtonBinder::ToString)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x69de4c4;
+  constexpr static std::size_t addrs = 0x69dc260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXInputButtonBinder::*)()>(&::UnityEngine::VFX::Utility::VFXInputButtonBinder::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x69de564;
+  constexpr static std::size_t addrs = 0x69dc300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXInputButtonBinder*>(), { ".ctor", {}, {} })));

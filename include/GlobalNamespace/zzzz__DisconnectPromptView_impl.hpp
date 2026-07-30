@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0::*)()>(
     &::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a1d35c;
+  constexpr static std::size_t addrs = 0x5a1b788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0*>(), { ".ctor", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0::*)()>(
     &::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0::_Hide_b__0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5a1d3fc;
+  constexpr static std::size_t addrs = 0x5a1b828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::DisconnectPromptView::add_didViewFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a1cf58;
+  constexpr static std::size_t addrs = 0x5a1b384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::DisconnectPromptView::remove_didViewFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a1d018;
+  constexpr static std::size_t addrs = 0x5a1b444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView::*)()>(&::GlobalNamespace::DisconnectPromptView::OnEnable)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5a1d0d8;
+  constexpr static std::size_t addrs = 0x5a1b504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectPromptView*>(), { "OnEnable", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView::*)()>(&::GlobalNamespace::DisconnectPromptView::OnDisable)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a1d200;
+  constexpr static std::size_t addrs = 0x5a1b62c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectPromptView*>(), { "OnDisable", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView::*)()>(&::GlobalNamespace::DisconnectPromptView::Show)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5a1d218;
+  constexpr static std::size_t addrs = 0x5a1b644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectPromptView*>(), { "Show", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView::*)(::System::Action*)>(&::GlobalNamespace::DisconnectPromptView::Hide)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5a1d258;
+  constexpr static std::size_t addrs = 0x5a1b684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView::*)()>(&::GlobalNamespace::DisconnectPromptView::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5a1d360;
+  constexpr static std::size_t addrs = 0x5a1b78c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectPromptView*>(), { ".ctor", {}, {} })));
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView::*)()>(&::GlobalNamespace::DisconnectPromptView::_OnEnable_b__9_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a1d3bc;
+  constexpr static std::size_t addrs = 0x5a1b7e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectPromptView*>(), { "<OnEnable>b__9_0", {}, {} })));
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DisconnectPromptView::*)()>(&::GlobalNamespace::DisconnectPromptView::_OnEnable_b__9_1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a1d3dc;
+  constexpr static std::size_t addrs = 0x5a1b808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DisconnectPromptView*>(), { "<OnEnable>b__9_1", {}, {} })));

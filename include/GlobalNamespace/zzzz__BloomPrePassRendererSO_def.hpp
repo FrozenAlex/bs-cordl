@@ -108,7 +108,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BloomPrePassRendererSO_InputData {
 public:
   // Declarations
-  /// @brief Method GetSize, addr 0x5868acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSize, addr 0x5866f80, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetSize();
 
   // Ctor Parameters []
@@ -130,7 +130,7 @@ public:
                                              ::UnityEngine::Matrix4x4 localToWorldMatrix) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19609 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
@@ -258,7 +258,7 @@ public:
 
   constexpr void __cordl_internal_set_preallocateCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5868ad4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5866f88, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -276,7 +276,7 @@ public:
   BloomPrePassRendererSO_PreallocationData(BloomPrePassRendererSO_PreallocationData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19610 };
 
   /// @brief Field lightType, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> ___lightType;
@@ -328,12 +328,12 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x586747c, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x58659ac, size 0xc8, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData* New_ctor();
 
-  /// @brief Method Prepare, addr 0x5868410, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method Prepare, addr 0x58668c4, size 0x3d8, virtual false, abstract: false, final false
   inline void Prepare(int32_t numberOfLights);
 
   constexpr ::UnityW<::UnityEngine::ComputeShader> const& __cordl_internal_get_computeShader() const;
@@ -384,7 +384,7 @@ public:
 
   constexpr void __cordl_internal_set_vertexDataBuffer(::UnityEngine::GraphicsBuffer* value);
 
-  /// @brief Method .ctor, addr 0x58670fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x586562c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -405,7 +405,7 @@ public:
   BloomPrePassRendererSO_LightsRenderingData(BloomPrePassRendererSO_LightsRenderingData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19447 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19611 };
 
   /// @brief Field mesh, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ___mesh;
@@ -466,14 +466,11 @@ public:
 
   using PreallocationData = ::GlobalNamespace::BloomPrePassRendererSO_PreallocationData;
 
-  /// @brief Field _blackTexture, offset 0x48, size 0x8
+  /// @brief Field _blackTexture, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__blackTexture, put = __cordl_internal_set__blackTexture)) ::UnityW<::UnityEngine::Texture2D> _blackTexture;
 
   /// @brief Field _bloomFog, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__bloomFog, put = __cordl_internal_set__bloomFog)) ::UnityW<::GlobalNamespace::BloomFogSO> _bloomFog;
-
-  /// @brief Field _commandBuffer, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__commandBuffer, put = __cordl_internal_set__commandBuffer)) ::UnityEngine::Rendering::CommandBuffer* _commandBuffer;
 
   /// @brief Field _computeShader, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__computeShader, put = __cordl_internal_set__computeShader)) ::UnityW<::UnityEngine::ComputeShader> _computeShader;
@@ -481,7 +478,7 @@ public:
   /// @brief Field _customFogTextureToScreenRatioID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__customFogTextureToScreenRatioID, put = setStaticF__customFogTextureToScreenRatioID)) int32_t _customFogTextureToScreenRatioID;
 
-  /// @brief Field _initialized, offset 0x40, size 0x1
+  /// @brief Field _initialized, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
   /// @brief Field _lightData, offset 0xffffffff, size 0x4
@@ -522,65 +519,62 @@ public:
   /// @brief Field useAsymmetricStereoBloomOffsets, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_useAsymmetricStereoBloomOffsets, put = setStaticF_useAsymmetricStereoBloomOffsets)) bool useAsymmetricStereoBloomOffsets;
 
-  /// @brief Method Cleanup, addr 0x5866fa0, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x58654d0, size 0x15c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method ComputeStereoCameraEyeOffsets, addr 0x58681c8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ComputeStereoCameraEyeOffsets, addr 0x586667c, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 ComputeStereoCameraEyeOffsets(::UnityEngine::Matrix4x4 leftEyeProjectionMatrix, ::UnityEngine::Matrix4x4 rightEyeProjectionMatrix,
                                                                      ::UnityEngine::Matrix4x4 prepassProjection);
 
-  /// @brief Method CreateBloomPrePassRenderTextureIfNeeded, addr 0x5867dd4, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method CreateBloomPrePassRenderTextureIfNeeded, addr 0x5866288, size 0x30c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> CreateBloomPrePassRenderTextureIfNeeded(::UnityEngine::RenderTexture* renderTexture, ::GlobalNamespace::IBloomPrePassParams* bloomPrePassParams);
 
-  /// @brief Method DisableBloomFog, addr 0x58680e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method DisableBloomFog, addr 0x5866594, size 0x18, virtual false, abstract: false, final false
   inline void DisableBloomFog();
 
-  /// @brief Method EnableBloomFog, addr 0x5867544, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method EnableBloomFog, addr 0x5865a74, size 0x30, virtual false, abstract: false, final false
   inline void EnableBloomFog();
 
-  /// @brief Method GetCameraParams, addr 0x5868274, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetCameraParams, addr 0x5866728, size 0x19c, virtual false, abstract: false, final false
   static inline void GetCameraParams(::UnityEngine::Camera* camera, ::by_ref<::UnityEngine::Matrix4x4> projectionMatrix, ::by_ref<::UnityEngine::Matrix4x4> viewMatrix,
                                      ::by_ref<::UnityEngine::Vector2> stereoCameraEyeOffsets);
 
-  /// @brief Method GetCameraParams, addr 0x58663ac, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetCameraParams, addr 0x58648dc, size 0x1c0, virtual false, abstract: false, final false
   static inline void GetCameraParams(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Matrix4x4> projectionMatrix,
                                      ::by_ref<::UnityEngine::Matrix4x4> viewMatrix, ::by_ref<::UnityEngine::Vector2> stereoCameraEyeOffsets);
 
-  /// @brief Method Init, addr 0x5861f98, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5860494, size 0x16c, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method MatrixLerp, addr 0x586810c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method MatrixLerp, addr 0x58665c0, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 MatrixLerp(::UnityEngine::Matrix4x4 from, ::UnityEngine::Matrix4x4 to, float_t t);
 
   static inline ::GlobalNamespace::BloomPrePassRendererSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5866f9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x58654cc, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5866f70, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x58654a0, size 0x2c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method PrepareLightsMeshRendering, addr 0x5867100, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method PrepareLightsMeshRendering, addr 0x5865630, size 0x37c, virtual false, abstract: false, final false
   inline void PrepareLightsMeshRendering(::GlobalNamespace::BloomPrePassLightTypeSO* lightType, ::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData* data, int32_t numberOfLights);
 
-  /// @brief Method RenderAllLights, addr 0x5867574, size 0x738, virtual false, abstract: false, final false
+  /// @brief Method RenderAllLights, addr 0x5865aa4, size 0x738, virtual false, abstract: false, final false
   inline void RenderAllLights(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix, float_t linesWidth);
 
-  /// @brief Method RenderAndSetData, addr 0x586656c, size 0x894, virtual false, abstract: false, final false
+  /// @brief Method RenderAndSetData, addr 0x5864a9c, size 0x894, virtual false, abstract: false, final false
   inline void RenderAndSetData(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Vector3 cameraPos, ::UnityEngine::Matrix4x4 projectionMatrix, ::UnityEngine::Matrix4x4 viewMatrix,
                                ::UnityEngine::Vector2 stereoCameraEyeOffsets, ::GlobalNamespace::IBloomPrePassParams* bloomPrePassParams,
                                ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> tempTextures, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle lightsTexture,
                                ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destTexture, ::by_ref<::UnityEngine::Vector2> textureToScreenRatio,
                                ::by_ref<::GlobalNamespace::ToneMapping> toneMapping);
 
-  /// @brief Method SetCustomStereoCameraEyeOffsets, addr 0x5867d58, size 0x7c, virtual false, abstract: false, final false
-  inline void SetCustomStereoCameraEyeOffsets(::UnityEngine::Vector2 stereoCameraEyeOffsets);
-
-  /// @brief Method SetDataToShaders, addr 0x5866e00, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetDataToShaders, addr 0x5865330, size 0x108, virtual false, abstract: false, final false
   static inline void SetDataToShaders(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Vector2 stereoCameraEyeOffsets, ::UnityEngine::Vector2 textureToScreenRatio,
                                       ::GlobalNamespace::ToneMapping toneMapping);
 
-  /// @brief Method UpdateBloomFogParams, addr 0x58680f8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method UpdateBloomFogParams, addr 0x58665ac, size 0x14, virtual false, abstract: false, final false
   inline void UpdateBloomFogParams();
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__blackTexture() const;
@@ -590,10 +584,6 @@ public:
   constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
 
   constexpr ::UnityW<::GlobalNamespace::BloomFogSO>& __cordl_internal_get__bloomFog();
-
-  constexpr ::UnityEngine::Rendering::CommandBuffer* const& __cordl_internal_get__commandBuffer() const;
-
-  constexpr ::UnityEngine::Rendering::CommandBuffer*& __cordl_internal_get__commandBuffer();
 
   constexpr ::UnityW<::UnityEngine::ComputeShader> const& __cordl_internal_get__computeShader() const;
 
@@ -617,8 +607,6 @@ public:
 
   constexpr void __cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO> value);
 
-  constexpr void __cordl_internal_set__commandBuffer(::UnityEngine::Rendering::CommandBuffer* value);
-
   constexpr void __cordl_internal_set__computeShader(::UnityW<::UnityEngine::ComputeShader> value);
 
   constexpr void __cordl_internal_set__initialized(bool value);
@@ -628,7 +616,7 @@ public:
 
   constexpr void __cordl_internal_set__preallocationData(::ArrayW<::GlobalNamespace::BloomPrePassRendererSO_PreallocationData*> value);
 
-  /// @brief Method .ctor, addr 0x58687e8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5866c9c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__customFogTextureToScreenRatioID();
@@ -690,7 +678,7 @@ public:
   BloomPrePassRendererSO(BloomPrePassRendererSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19612 };
 
   /// @brief Field _bloomFog, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomFogSO> ____bloomFog;
@@ -704,13 +692,10 @@ public:
   /// @brief Field _lightsRenderingData, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>, ::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData*>* ____lightsRenderingData;
 
-  /// @brief Field _commandBuffer, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Rendering::CommandBuffer* ____commandBuffer;
-
-  /// @brief Field _initialized, offset: 0x40, size: 0x1, def value: None
+  /// @brief Field _initialized, offset: 0x38, size: 0x1, def value: None
   bool ____initialized;
 
-  /// @brief Field _blackTexture, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _blackTexture, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ____blackTexture;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -724,12 +709,10 @@ static_assert(offsetof(::GlobalNamespace::BloomPrePassRendererSO, ____computeSha
 
 static_assert(offsetof(::GlobalNamespace::BloomPrePassRendererSO, ____lightsRenderingData) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassRendererSO, ____commandBuffer) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassRendererSO, ____initialized) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassRendererSO, ____initialized) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassRendererSO, ____blackTexture) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassRendererSO, ____blackTexture) == 0x48, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::BloomPrePassRendererSO) == 0x50, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::BloomPrePassRendererSO) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace

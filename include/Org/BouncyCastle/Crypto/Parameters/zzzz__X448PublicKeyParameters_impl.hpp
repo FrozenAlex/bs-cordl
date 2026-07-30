@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters::*)(::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x34160f0;
+  constexpr static std::size_t addrs = 0x34146b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3416374;
+  constexpr static std::size_t addrs = 0x341493c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters::*)(::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters::Encode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x341629c;
+  constexpr static std::size_t addrs = 0x3414864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters*>(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::X448PublicKeyParameters::GetEncoded)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3416474;
+  constexpr static std::size_t addrs = 0x3414a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

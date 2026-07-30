@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>*)>(&::UnityEngine::Timeline::SignalAsset::add_OnEnableCallback)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x69c100c;
+  constexpr static std::size_t addrs = 0x69beda8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>*)>(&::UnityEngine::Timeline::SignalAsset::remove_OnEnableCallback)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x69c10ec;
+  constexpr static std::size_t addrs = 0x69bee88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::SignalAsset::*)()>(&::UnityEngine::Timeline::SignalAsset::OnEnable)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69c11cc;
+  constexpr static std::size_t addrs = 0x69bef68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::SignalAsset*>(), { "OnEnable", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::SignalAsset::*)()>(&::UnityEngine::Timeline::SignalAsset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c123c;
+  constexpr static std::size_t addrs = 0x69befd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::SignalAsset*>(), { ".ctor", {}, {} })));

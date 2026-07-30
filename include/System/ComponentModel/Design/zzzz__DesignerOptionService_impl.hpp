@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor::*)(
     ::System::ComponentModel::PropertyDescriptor*, ::System::Object*)>(&::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x63e6280;
+  constexpr static std::size_t addrs = 0x63e401c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::ComponentModel::AttributeCollection* (::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor::*)()>(
         &::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor::get_Attributes)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x63e634c;
+  constexpr static std::size_t addrs = 0x63e40e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor::*)()>(
     &::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor::get_ComponentType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x63e6368;
+  constexpr static std::size_t addrs = 0x63e4104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor::*)()>(
     &::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x63e6388;
+  constexpr static std::size_t addrs = 0x63e4124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor::*)()>(
     &::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor::get_PropertyType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x63e63a8;
+  constexpr static std::size_t addrs = 0x63e4144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor::*)(::System::Object*)>(
     &::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor::CanResetValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x63e63c8;
+  constexpr static std::size_t addrs = 0x63e4164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor::*)(::System::Object*)>(
         &::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor::GetValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x63e63f0;
+  constexpr static std::size_t addrs = 0x63e418c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor::*)(::System::Object*)>(
     &::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor::ResetValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x63e6418;
+  constexpr static std::size_t addrs = 0x63e41b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor::*)(
     ::System::Object*, ::System::Object*)>(&::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor::SetValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x63e6440;
+  constexpr static std::size_t addrs = 0x63e41dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor::*)(::System::Object*)>(
     &::System::ComponentModel::Design::DesignerOptionCollection_DesignerOptionService_WrappedPropertyDescriptor::ShouldSerializeValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x63e6468;
+  constexpr static std::size_t addrs = 0x63e4204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection::*)()>(
     &::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection::get_Count)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x63e5adc;
+  constexpr static std::size_t addrs = 0x63e3878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection::*)()>(
     &::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63e5b94;
+  constexpr static std::size_t addrs = 0x63e3930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection::*)()>(
     &::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection::get_Properties)> {
   constexpr static std::size_t size = 0x6e4;
-  constexpr static std::size_t addrs = 0x63e5b9c;
+  constexpr static std::size_t addrs = 0x63e3938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection::*)(::System::Array*, int32_t)>(
     &::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection::CopyTo)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x63e62d0;
+  constexpr static std::size_t addrs = 0x63e406c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection*>(),
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection::*)()>(
     &::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection::EnsurePopulated)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x63e5b08;
+  constexpr static std::size_t addrs = 0x63e38a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection::*)()>(
     &::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x63e6314;
+  constexpr static std::size_t addrs = 0x63e40b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection::*)()>(
     &::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection::System_Collections_ICollection_get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63e6340;
+  constexpr static std::size_t addrs = 0x63e40dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection*>(),
@@ -366,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection::*)()>(
     &::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection::System_Collections_ICollection_get_SyncRoot)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63e6348;
+  constexpr static std::size_t addrs = 0x63e40e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection*>(),
@@ -491,7 +491,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Component
     ::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection*)>(
     &::System::ComponentModel::Design::DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x63e6a10;
+  constexpr static std::size_t addrs = 0x63e47ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -506,7 +506,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::ComponentModel::Design::DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor::*)()>(
     &::System::ComponentModel::Design::DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor::get_ComponentType)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x63e6b10;
+  constexpr static std::size_t addrs = 0x63e48ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -521,7 +521,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::Design::DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor::*)()>(
     &::System::ComponentModel::Design::DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63e6b2c;
+  constexpr static std::size_t addrs = 0x63e48c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -536,7 +536,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::ComponentModel::Design::DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor::*)()>(
     &::System::ComponentModel::Design::DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor::get_PropertyType)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x63e6b34;
+  constexpr static std::size_t addrs = 0x63e48d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -551,7 +551,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::Design::DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor::*)(::System::Object*)>(
     &::System::ComponentModel::Design::DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor::CanResetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63e6b50;
+  constexpr static std::size_t addrs = 0x63e48ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -567,7 +567,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::System::ComponentModel::Design::DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor::*)(::System::Object*)>(
         &::System::ComponentModel::Design::DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63e6b58;
+  constexpr static std::size_t addrs = 0x63e48f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -582,7 +582,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::Design::DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor::*)(::System::Object*)>(
     &::System::ComponentModel::Design::DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor::ResetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63e6b60;
+  constexpr static std::size_t addrs = 0x63e48fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -597,7 +597,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::Design::DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor::*)(
     ::System::Object*, ::System::Object*)>(&::System::ComponentModel::Design::DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63e6b64;
+  constexpr static std::size_t addrs = 0x63e4900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -612,7 +612,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::Design::DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor::*)(::System::Object*)>(
     &::System::ComponentModel::Design::DesignerOptionConverter_DesignerOptionService_OptionPropertyDescriptor::ShouldSerializeValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63e6b68;
+  constexpr static std::size_t addrs = 0x63e4904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -704,7 +704,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::Design::DesignerOptionService_DesignerOptionConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::Design::DesignerOptionService_DesignerOptionConverter::GetPropertiesSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63e6490;
+  constexpr static std::size_t addrs = 0x63e422c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::Design::DesignerOptionService_DesignerOptionConverter*>(),
@@ -719,7 +719,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel:
     ::System::ComponentModel::Design::DesignerOptionService_DesignerOptionConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*, ::ArrayW<::System::Attribute*>)>(
     &::System::ComponentModel::Design::DesignerOptionService_DesignerOptionConverter::GetProperties)> {
   constexpr static std::size_t size = 0x578;
-  constexpr static std::size_t addrs = 0x63e6498;
+  constexpr static std::size_t addrs = 0x63e4234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::Design::DesignerOptionService_DesignerOptionConverter*>(),
@@ -735,7 +735,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                                                                                        ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
         &::System::ComponentModel::Design::DesignerOptionService_DesignerOptionConverter::ConvertTo)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x63e6a48;
+  constexpr static std::size_t addrs = 0x63e47e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::Design::DesignerOptionService_DesignerOptionConverter*>(),
@@ -749,7 +749,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::Design::DesignerOptionService_DesignerOptionConverter::*)()>(
     &::System::ComponentModel::Design::DesignerOptionService_DesignerOptionConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63e6b0c;
+  constexpr static std::size_t addrs = 0x63e48a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -795,7 +795,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::Design::DesignerOptionService::*)(
     ::System::ComponentModel::Design::DesignerOptionService_DesignerOptionCollection*)>(&::System::ComponentModel::Design::DesignerOptionService::PopulateOptionCollection)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63e5ad8;
+  constexpr static std::size_t addrs = 0x63e3874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::Design::DesignerOptionService*>(),

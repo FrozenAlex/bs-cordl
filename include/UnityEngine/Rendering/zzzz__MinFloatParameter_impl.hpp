@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::MinFloatParameter::*)()>(&::UnityEngine::Rendering::MinFloatParameter::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67c74dc;
+  constexpr static std::size_t addrs = 0x67c5278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::MinFloatParameter::*)(float_t)>(&::UnityEngine::Rendering::MinFloatParameter::set_value)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67c74e4;
+  constexpr static std::size_t addrs = 0x67c5280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::MinFloatParameter::*)(float_t, float_t, bool)>(&::UnityEngine::Rendering::MinFloatParameter::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x67c74f8;
+  constexpr static std::size_t addrs = 0x67c5294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::MinFloatParameter*>(),

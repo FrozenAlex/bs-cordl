@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Merger::*)(::System::Data::DataSet*, bool, ::System::Data::MissingSchemaAction)>(&::System::Data::Merger::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x60429e0;
+  constexpr static std::size_t addrs = 0x604077c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Merger::*)(::System::Data::DataTable*, bool, ::System::Data::MissingSchemaAction)>(&::System::Data::Merger::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60429f8;
+  constexpr static std::size_t addrs = 0x6040794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Merger::*)(::System::Data::DataSet*)>(&::System::Data::Merger::MergeDataSet)> {
   constexpr static std::size_t size = 0xf70;
-  constexpr static std::size_t addrs = 0x6042a18;
+  constexpr static std::size_t addrs = 0x60407b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Merger::*)(::System::Data::DataTable*)>(&::System::Data::Merger::MergeTable)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x60444e8;
+  constexpr static std::size_t addrs = 0x6042284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Merger::*)(::System::Data::DataTable*, ::System::Data::DataTable*)>(&::System::Data::Merger::MergeTable)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x6044718;
+  constexpr static std::size_t addrs = 0x60424b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataTable* (::System::Data::Merger::*)(::System::Data::DataTable*)>(&::System::Data::Merger::MergeSchema)> {
   constexpr static std::size_t size = 0x6f4;
-  constexpr static std::size_t addrs = 0x6044d08;
+  constexpr static std::size_t addrs = 0x6042aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Merger::*)(::System::Data::DataTable*)>(&::System::Data::Merger::MergeTableData)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6043988;
+  constexpr static std::size_t addrs = 0x6041724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Merger::*)(::System::Data::DataSet*)>(&::System::Data::Merger::MergeConstraints)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6043a3c;
+  constexpr static std::size_t addrs = 0x60417d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Merger::*)(::System::Data::DataTable*)>(&::System::Data::Merger::MergeConstraints)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x60453fc;
+  constexpr static std::size_t addrs = 0x6043198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Merger::*)(::System::Data::DataRelation*)>(&::System::Data::Merger::MergeRelation)> {
   constexpr static std::size_t size = 0x7e0;
-  constexpr static std::size_t addrs = 0x6043aac;
+  constexpr static std::size_t addrs = 0x6041848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Merger::*)(::System::Data::PropertyCollection*, ::System::Data::PropertyCollection*)>(
     &::System::Data::Merger::MergeExtendedProperties)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x604428c;
+  constexpr static std::size_t addrs = 0x6042028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataKey (::System::Data::Merger::*)(::System::Data::DataTable*, ::System::Data::DataTable*)>(
     &::System::Data::Merger::GetSrcKey)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6044bb8;
+  constexpr static std::size_t addrs = 0x6042954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileSDF)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6c102fc;
+  constexpr static std::size_t addrs = 0x6c0bd00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileSDF_IMGUI)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6c10478;
+  constexpr static std::size_t addrs = 0x6c0be7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileBitmap)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x6c105e4;
+  constexpr static std::size_t addrs = 0x6c0bfe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_Sprite)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x6c107c0;
+  constexpr static std::size_t addrs = 0x6c0c1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::GetShaderPropertyIDs)> {
   constexpr static std::size_t size = 0xca8;
-  constexpr static std::size_t addrs = 0x6c10b3c;
+  constexpr static std::size_t addrs = 0x6c0c540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

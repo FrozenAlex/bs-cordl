@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Crypto::Signers::PssSigner* (*)(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, ::Org::BouncyCastle::Crypto::IDigest*)>(
         &::Org::BouncyCastle::Crypto::Signers::PssSigner::CreateRawSigner)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x342cf8c;
+  constexpr static std::size_t addrs = 0x342b554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cryp
                                                                                                             ::Org::BouncyCastle::Crypto::IDigest*, int32_t, uint8_t)>(
     &::Org::BouncyCastle::Crypto::Signers::PssSigner::CreateRawSigner)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x342d270;
+  constexpr static std::size_t addrs = 0x342b838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::PssSigner::*)(
     ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, ::Org::BouncyCastle::Crypto::IDigest*)>(&::Org::BouncyCastle::Crypto::Signers::PssSigner::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x342d338;
+  constexpr static std::size_t addrs = 0x342b900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::PssSigner::*)(
     ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, ::Org::BouncyCastle::Crypto::IDigest*, int32_t)>(&::Org::BouncyCastle::Crypto::Signers::PssSigner::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x342d41c;
+  constexpr static std::size_t addrs = 0x342b9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::PssSigner::*)(
     ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, ::Org::BouncyCastle::Crypto::IDigest*, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Crypto::Signers::PssSigner::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x342d474;
+  constexpr static std::size_t addrs = 0x342ba3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::PssSigner*>(),
@@ -99,7 +99,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, ::Org::BouncyCastle::Crypto::IDigest*, ::Org::BouncyCastle::Crypto::IDigest*, int32_t)>(
     &::Org::BouncyCastle::Crypto::Signers::PssSigner::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x342d4a8;
+  constexpr static std::size_t addrs = 0x342ba70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, ::Org::BouncyCastle::Crypto::IDigest*, ::Org::BouncyCastle::Crypto::IDigest*, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Signers::PssSigner::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x342d500;
+  constexpr static std::size_t addrs = 0x342bac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::PssSigner::*)(
     ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, ::Org::BouncyCastle::Crypto::IDigest*, int32_t, uint8_t)>(&::Org::BouncyCastle::Crypto::Signers::PssSigner::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x342d448;
+  constexpr static std::size_t addrs = 0x342ba10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, ::Org::BouncyCastle::Crypto::IDigest*, ::Org::BouncyCastle::Crypto::IDigest*, int32_t, uint8_t)>(
     &::Org::BouncyCastle::Crypto::Signers::PssSigner::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x342d4d4;
+  constexpr static std::size_t addrs = 0x342ba9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, ::Org::BouncyCastle::Crypto::IDigest*, ::Org::BouncyCastle::Crypto::IDigest*, ::Org::BouncyCastle::Crypto::IDigest*, int32_t,
     ::ArrayW<uint8_t>, uint8_t)>(&::Org::BouncyCastle::Crypto::Signers::PssSigner::_ctor)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x342d0c4;
+  constexpr static std::size_t addrs = 0x342b68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Signers::PssSigner::*)()>(&::Org::BouncyCastle::Crypto::Signers::PssSigner::get_AlgorithmName)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x342d534;
+  constexpr static std::size_t addrs = 0x342bafc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::PssSigner::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Signers::PssSigner::Init)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x342d5fc;
+  constexpr static std::size_t addrs = 0x342bbc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::PssSigner::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Crypto::Signers::PssSigner::ClearBlock)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x342d88c;
+  constexpr static std::size_t addrs = 0x342be54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::PssSigner::*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Signers::PssSigner::Update)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x342d8ac;
+  constexpr static std::size_t addrs = 0x342be74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::PssSigner::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Signers::PssSigner::BlockUpdate)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x342d964;
+  constexpr static std::size_t addrs = 0x342bf2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::PssSigner::*)()>(&::Org::BouncyCastle::Crypto::Signers::PssSigner::Reset)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x342da34;
+  constexpr static std::size_t addrs = 0x342bffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Signers::PssSigner::*)()>(&::Org::BouncyCastle::Crypto::Signers::PssSigner::GenerateSignature)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x342dadc;
+  constexpr static std::size_t addrs = 0x342c0a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Signers::PssSigner::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Signers::PssSigner::VerifySignature)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x342e398;
+  constexpr static std::size_t addrs = 0x342c960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::PssSigner::*)(int32_t, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Signers::PssSigner::ItoOSP)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x342e8c4;
+  constexpr static std::size_t addrs = 0x342ce8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Signers::PssSigner::*)(::ArrayW<uint8_t>, int32_t, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Signers::PssSigner::MaskGeneratorFunction1)> {
   constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x342df20;
+  constexpr static std::size_t addrs = 0x342c4e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

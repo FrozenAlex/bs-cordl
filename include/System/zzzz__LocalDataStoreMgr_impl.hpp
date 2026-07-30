@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::LocalDataStoreHolder* (::System::LocalDataStoreMgr::*)()>(&::System::LocalDataStoreMgr::CreateLocalDataStore)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x5c6f1cc;
+  constexpr static std::size_t addrs = 0x5c6cf38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::LocalDataStoreMgr*>(), { "CreateLocalDataStore", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::LocalDataStoreMgr::*)(::System::LocalDataStore*)>(&::System::LocalDataStoreMgr::DeleteLocalDataStore)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5c6e9c8;
+  constexpr static std::size_t addrs = 0x5c6c734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::LocalDataStoreSlot* (::System::LocalDataStoreMgr::*)()>(&::System::LocalDataStoreMgr::AllocateDataSlot)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x5c6f378;
+  constexpr static std::size_t addrs = 0x5c6d0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::LocalDataStoreMgr*>(), { "AllocateDataSlot", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::LocalDataStoreSlot* (::System::LocalDataStoreMgr::*)(::StringW)>(&::System::LocalDataStoreMgr::AllocateNamedDataSlot)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5c6f5d0;
+  constexpr static std::size_t addrs = 0x5c6d33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::LocalDataStoreSlot* (::System::LocalDataStoreMgr::*)(::StringW)>(&::System::LocalDataStoreMgr::GetNamedDataSlot)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5c6f700;
+  constexpr static std::size_t addrs = 0x5c6d46c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::LocalDataStoreMgr::*)(::StringW)>(&::System::LocalDataStoreMgr::FreeNamedDataSlot)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5c6f820;
+  constexpr static std::size_t addrs = 0x5c6d58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::LocalDataStoreMgr::*)(int32_t, int64_t)>(&::System::LocalDataStoreMgr::FreeDataSlot)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x5c6f028;
+  constexpr static std::size_t addrs = 0x5c6cd94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::LocalDataStoreMgr::*)(::System::LocalDataStoreSlot*)>(&::System::LocalDataStoreMgr::ValidateSlot)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5c6eb8c;
+  constexpr static std::size_t addrs = 0x5c6c8f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::LocalDataStoreMgr::*)()>(&::System::LocalDataStoreMgr::GetSlotTableLength)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5c6ef88;
+  constexpr static std::size_t addrs = 0x5c6ccf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::LocalDataStoreMgr*>(), { "GetSlotTableLength", {}, {} })));
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::LocalDataStoreMgr::*)()>(&::System::LocalDataStoreMgr::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5c6f928;
+  constexpr static std::size_t addrs = 0x5c6d694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::LocalDataStoreMgr*>(), { ".ctor", {}, {} })));

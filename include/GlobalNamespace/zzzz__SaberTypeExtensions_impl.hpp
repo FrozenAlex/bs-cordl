@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::SaberType, ::GlobalNamespace::ColorType)>(&::GlobalNamespace::SaberTypeExtensions::MatchesColorType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x377a3d4;
+  constexpr static std::size_t addrs = 0x3778ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::XRNode (*)(::GlobalNamespace::SaberType)>(&::GlobalNamespace::SaberTypeExtensions::Node)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x377cf78;
+  constexpr static std::size_t addrs = 0x377ba9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,11 +37,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SaberType (*)(bool)>(&::GlobalNamespace::SaberTypeExtensions::MainSaber)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x377cf88;
+  constexpr static std::size_t addrs = 0x377baac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberTypeExtensions*>(), { "MainSaber", {}, { ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::SaberTypeExtensions.ToHandString
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::SaberType)>(&::GlobalNamespace::SaberTypeExtensions::ToHandString)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x377bab8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberTypeExtensions*>(), { "ToHandString", {}, { ::i2c::type_of<::GlobalNamespace::SaberType>() } })));
     return ___internal_method;
   }
 };
@@ -50,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SaberType (*)(::GlobalNamespace::ColorType)>(&::GlobalNamespace::SaberTypeExtensions::ToSaberType)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x377cf94;
+  constexpr static std::size_t addrs = 0x377bb30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorType (*)(::GlobalNamespace::SaberType)>(&::GlobalNamespace::SaberTypeExtensions::ToColorType)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x377d014;
+  constexpr static std::size_t addrs = 0x377bbb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,6 +98,11 @@ inline ::UnityEngine::XR::XRNode GlobalNamespace::SaberTypeExtensions::Node(::Gl
 inline ::GlobalNamespace::SaberType GlobalNamespace::SaberTypeExtensions::MainSaber(bool leftHanded) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberTypeExtensions*>(), { "MainSaber", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::SaberType>(nullptr, ___internal_method, leftHanded);
+}
+inline ::StringW GlobalNamespace::SaberTypeExtensions::ToHandString(::GlobalNamespace::SaberType saberType) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberTypeExtensions*>(), { "ToHandString", {}, { ::i2c::type_of<::GlobalNamespace::SaberType>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, saberType);
 }
 inline ::GlobalNamespace::SaberType GlobalNamespace::SaberTypeExtensions::ToSaberType(::GlobalNamespace::ColorType colorType) {
   static auto* ___internal_method =

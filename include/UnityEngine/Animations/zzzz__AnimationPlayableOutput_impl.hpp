@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Animations::AnimationPlayableOutput (*)(::UnityEngine::Playables::PlayableGraph, ::StringW, ::UnityEngine::Animator*)>(
     &::UnityEngine::Animations::AnimationPlayableOutput::Create)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6a41ac8;
+  constexpr static std::size_t addrs = 0x6a3f864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Animations::AnimationPlayableOutput::*)(::UnityEngine::Playables::PlayableOutputHandle)>(
     &::UnityEngine::Animations::AnimationPlayableOutput::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6a43e98;
+  constexpr static std::size_t addrs = 0x6a41c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animations::AnimationPlayableOutput>(),
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Animations::AnimationPlayableOutput (*)()>(&::UnityEngine::Animations::AnimationPlayableOutput::get_Null)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6a43e18;
+  constexpr static std::size_t addrs = 0x6a41bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animations::AnimationPlayableOutput>(), { "get_Null", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableOutputHandle (::UnityEngine::Animations::AnimationPlayableOutput::*)()>(
     &::UnityEngine::Animations::AnimationPlayableOutput::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a43fb0;
+  constexpr static std::size_t addrs = 0x6a41d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animations::AnimationPlayableOutput>(), { "GetHandle", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableOutput (*)(::UnityEngine::Animations::AnimationPlayableOutput)>(
     &::UnityEngine::Animations::AnimationPlayableOutput::op_Implicit___UnityEngine__Playables__PlayableOutput)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a41b28;
+  constexpr static std::size_t addrs = 0x6a3f8c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animations::AnimationPlayableOutput>(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Animations::AnimationPlayableOutput (*)(::UnityEngine::Playables::PlayableOutput)>(
     &::UnityEngine::Animations::AnimationPlayableOutput::op_Explicit___UnityEngine__Animations__AnimationPlayableOutput)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6a43fbc;
+  constexpr static std::size_t addrs = 0x6a41d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animations::AnimationPlayableOutput>(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Animator> (::UnityEngine::Animations::AnimationPlayableOutput::*)()>(
     &::UnityEngine::Animations::AnimationPlayableOutput::GetTarget)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a4403c;
+  constexpr static std::size_t addrs = 0x6a41dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Animations::AnimationPlayableOutput>(), { "GetTarget", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Animations::AnimationPlayableOutput::*)(::UnityEngine::Animator*)>(
     &::UnityEngine::Animations::AnimationPlayableOutput::SetTarget)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a43fac;
+  constexpr static std::size_t addrs = 0x6a41d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Animator> (*)(::by_ref<::UnityEngine::Playables::PlayableOutputHandle>)>(
     &::UnityEngine::Animations::AnimationPlayableOutput::InternalGetTarget)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6a44040;
+  constexpr static std::size_t addrs = 0x6a41ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableOutputHandle>, ::UnityEngine::Animator*)>(
     &::UnityEngine::Animations::AnimationPlayableOutput::InternalSetTarget)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6a44160;
+  constexpr static std::size_t addrs = 0x6a41efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Playables::PlayableOutputHandle>)>(
     &::UnityEngine::Animations::AnimationPlayableOutput::InternalGetTarget_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a441f0;
+  constexpr static std::size_t addrs = 0x6a41f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableOutputHandle>, ::System::IntPtr)>(
     &::UnityEngine::Animations::AnimationPlayableOutput::InternalSetTarget_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a4422c;
+  constexpr static std::size_t addrs = 0x6a41fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

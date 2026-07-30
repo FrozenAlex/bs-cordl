@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySetupModel_QuickPlaySetupDataFB::*)()>(&::GlobalNamespace::QuickPlaySetupModel_QuickPlaySetupDataFB::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x372e150;
+  constexpr static std::size_t addrs = 0x372cb90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuickPlaySetupModel_QuickPlaySetupDataFB*>(), { ".ctor", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySetupModel__GetQuickPlaySetupInternal_d__10::*)()>(
     &::GlobalNamespace::QuickPlaySetupModel__GetQuickPlaySetupInternal_d__10::MoveNext)> {
   constexpr static std::size_t size = 0x8bc;
-  constexpr static std::size_t addrs = 0x372e154;
+  constexpr static std::size_t addrs = 0x372cb94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySetupModel__GetQuickPlaySetupInternal_d__10::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::QuickPlaySetupModel__GetQuickPlaySetupInternal_d__10::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x372ea10;
+  constexpr static std::size_t addrs = 0x372d450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuickPlaySetupModel__GetQuickPlaySetupInternal_d__10>(),
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* (
     ::GlobalNamespace::QuickPlaySetupModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::QuickPlaySetupModel::GetQuickPlaySetupAsync)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x372ddc8;
+  constexpr static std::size_t addrs = 0x372c808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySetupModel::*)()>(&::GlobalNamespace::QuickPlaySetupModel::Init)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x372dfb0;
+  constexpr static std::size_t addrs = 0x372c9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuickPlaySetupModel*>(), { "Init", {}, {} })));
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySetupModel::*)()>(&::GlobalNamespace::QuickPlaySetupModel::StartRequest)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x372df40;
+  constexpr static std::size_t addrs = 0x372c980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuickPlaySetupModel*>(), { "StartRequest", {}, {} })));
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* (::GlobalNamespace::QuickPlaySetupModel::*)()>(
     &::GlobalNamespace::QuickPlaySetupModel::GetQuickPlaySetupInternal)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x372dfb4;
+  constexpr static std::size_t addrs = 0x372c9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuickPlaySetupModel*>(), { "GetQuickPlaySetupInternal", {}, {} })));
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::QuickPlaySetupModel::*)()>(&::GlobalNamespace::QuickPlaySetupModel::IsQuickPlaySetupTaskValid)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x372de38;
+  constexpr static std::size_t addrs = 0x372c878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuickPlaySetupModel*>(), { "IsQuickPlaySetupTaskValid", {}, {} })));
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::QuickPlaySetupModel::*)(::StringW)>(&::GlobalNamespace::QuickPlaySetupModel::IsUrlValid)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x372e094;
+  constexpr static std::size_t addrs = 0x372cad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::QuickPlaySetupModel::*)()>(&::GlobalNamespace::QuickPlaySetupModel::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x372e0f4;
+  constexpr static std::size_t addrs = 0x372cb34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::QuickPlaySetupModel*>(), { ".ctor", {}, {} })));

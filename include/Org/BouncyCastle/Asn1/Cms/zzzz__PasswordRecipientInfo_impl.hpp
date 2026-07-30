@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo::*)(
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::Asn1OctetString*)>(&::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x335c070;
+  constexpr static std::size_t addrs = 0x335a638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::Asn1OctetString*)>(
     &::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x335c0e4;
+  constexpr static std::size_t addrs = 0x335a6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo::_ctor)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x335c164;
+  constexpr static std::size_t addrs = 0x335a72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo::GetInstance)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x335c3bc;
+  constexpr static std::size_t addrs = 0x335a984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo::GetInstance)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x335c3d0;
+  constexpr static std::size_t addrs = 0x335a998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x335c540;
+  constexpr static std::size_t addrs = 0x335ab08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo*>(), { "get_Version", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo::get_KeyDerivationAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x335c548;
+  constexpr static std::size_t addrs = 0x335ab10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo::get_KeyEncryptionAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x335c550;
+  constexpr static std::size_t addrs = 0x335ab18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo::get_EncryptedKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x335c558;
+  constexpr static std::size_t addrs = 0x335ab20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo*>(), { "get_EncryptedKey", {}, {} })));
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo::ToAsn1Object)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x335c560;
+  constexpr static std::size_t addrs = 0x335ab28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo*>(),

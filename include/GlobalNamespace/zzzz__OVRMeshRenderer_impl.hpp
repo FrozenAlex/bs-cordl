@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRMeshRenderer_MeshRendererData::*)()>(&::GlobalNamespace::OVRMeshRenderer_MeshRendererData::get_IsDataValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f00470;
+  constexpr static std::size_t addrs = 0x5efe1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMeshRenderer_MeshRendererData>(), { "get_IsDataValid", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMeshRenderer_MeshRendererData::*)(bool)>(&::GlobalNamespace::OVRMeshRenderer_MeshRendererData::set_IsDataValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f00478;
+  constexpr static std::size_t addrs = 0x5efe1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRMeshRenderer_MeshRendererData::*)()>(
     &::GlobalNamespace::OVRMeshRenderer_MeshRendererData::get_IsDataHighConfidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f00480;
+  constexpr static std::size_t addrs = 0x5efe1ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMeshRenderer_MeshRendererData::*)(bool)>(
     &::GlobalNamespace::OVRMeshRenderer_MeshRendererData::set_IsDataHighConfidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f00488;
+  constexpr static std::size_t addrs = 0x5efe1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRMeshRenderer_MeshRendererData::*)()>(
     &::GlobalNamespace::OVRMeshRenderer_MeshRendererData::get_ShouldUseSystemGestureMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f00490;
+  constexpr static std::size_t addrs = 0x5efe1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMeshRenderer_MeshRendererData::*)(bool)>(
     &::GlobalNamespace::OVRMeshRenderer_MeshRendererData::set_ShouldUseSystemGestureMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f00498;
+  constexpr static std::size_t addrs = 0x5efe204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRMeshRenderer::*)()>(&::GlobalNamespace::OVRMeshRenderer::get_IsInitialized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5eff92c;
+  constexpr static std::size_t addrs = 0x5efd698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMeshRenderer*>(), { "get_IsInitialized", {}, {} })));
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMeshRenderer::*)(bool)>(&::GlobalNamespace::OVRMeshRenderer::set_IsInitialized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5eff934;
+  constexpr static std::size_t addrs = 0x5efd6a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRMeshRenderer::*)()>(&::GlobalNamespace::OVRMeshRenderer::get_IsDataValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5eff93c;
+  constexpr static std::size_t addrs = 0x5efd6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMeshRenderer*>(), { "get_IsDataValid", {}, {} })));
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMeshRenderer::*)(bool)>(&::GlobalNamespace::OVRMeshRenderer::set_IsDataValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5eff944;
+  constexpr static std::size_t addrs = 0x5efd6b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRMeshRenderer::*)()>(&::GlobalNamespace::OVRMeshRenderer::get_IsDataHighConfidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5eff94c;
+  constexpr static std::size_t addrs = 0x5efd6b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMeshRenderer*>(), { "get_IsDataHighConfidence", {}, {} })));
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMeshRenderer::*)(bool)>(&::GlobalNamespace::OVRMeshRenderer::set_IsDataHighConfidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5eff954;
+  constexpr static std::size_t addrs = 0x5efd6c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRMeshRenderer::*)()>(&::GlobalNamespace::OVRMeshRenderer::get_ShouldUseSystemGestureMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5eff95c;
+  constexpr static std::size_t addrs = 0x5efd6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMeshRenderer*>(), { "get_ShouldUseSystemGestureMaterial", {}, {} })));
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMeshRenderer::*)(bool)>(&::GlobalNamespace::OVRMeshRenderer::set_ShouldUseSystemGestureMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5eff964;
+  constexpr static std::size_t addrs = 0x5efd6d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMeshRenderer::*)()>(&::GlobalNamespace::OVRMeshRenderer::Awake)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x5eff96c;
+  constexpr static std::size_t addrs = 0x5efd6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMeshRenderer*>(), { "Awake", {}, {} })));
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMeshRenderer::*)()>(&::GlobalNamespace::OVRMeshRenderer::Start)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5effa80;
+  constexpr static std::size_t addrs = 0x5efd7ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMeshRenderer*>(), { "Start", {}, {} })));
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRMeshRenderer::*)()>(&::GlobalNamespace::OVRMeshRenderer::ShouldInitialize)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5effb20;
+  constexpr static std::size_t addrs = 0x5efd88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMeshRenderer*>(), { "ShouldInitialize", {}, {} })));
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMeshRenderer::*)()>(&::GlobalNamespace::OVRMeshRenderer::ForceRebind)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f00150;
+  constexpr static std::size_t addrs = 0x5efdebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMeshRenderer*>(), { "ForceRebind", {}, {} })));
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMeshRenderer::*)()>(&::GlobalNamespace::OVRMeshRenderer::Initialize)> {
   constexpr static std::size_t size = 0x53c;
-  constexpr static std::size_t addrs = 0x5effc14;
+  constexpr static std::size_t addrs = 0x5efd980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMeshRenderer*>(), { "Initialize", {}, {} })));
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMeshRenderer::*)()>(&::GlobalNamespace::OVRMeshRenderer::Update)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x5f00158;
+  constexpr static std::size_t addrs = 0x5efdec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMeshRenderer*>(), { "Update", {}, {} })));
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMeshRenderer::*)()>(&::GlobalNamespace::OVRMeshRenderer::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f003f0;
+  constexpr static std::size_t addrs = 0x5efe15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMeshRenderer*>(), { ".ctor", {}, {} })));

@@ -70,7 +70,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::RecordStream_HandshakeHashUpdateStream* New_ctor(::Org::BouncyCastle::Crypto::Tls::RecordStream* mOuter);
 
-  /// @brief Method Write, addr 0x346c6f4, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x346acbc, size 0xd8, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t> buf, int32_t off, int32_t len);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::RecordStream* const& __cordl_internal_get_mOuter() const;
@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_mOuter(::Org::BouncyCastle::Crypto::Tls::RecordStream* value);
 
-  /// @brief Method .ctor, addr 0x346b37c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3469944, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::RecordStream* mOuter);
 
 protected:
@@ -125,7 +125,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::RecordStream_SequenceNumber* New_ctor();
 
-  /// @brief Method NextValue, addr 0x346bf2c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method NextValue, addr 0x346a4f4, size 0x6c, virtual false, abstract: false, final false
   inline int64_t NextValue(uint8_t alertDescription);
 
   constexpr bool const& __cordl_internal_get_exhausted() const;
@@ -140,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set_value(int64_t value);
 
-  /// @brief Method .ctor, addr 0x346b370, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3469938, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -253,66 +253,66 @@ public:
   /// @brief Field mWriteVersion, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_mWriteVersion, put = __cordl_internal_set_mWriteVersion)) ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* mWriteVersion;
 
-  /// @brief Method CheckLength, addr 0x346b87c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CheckLength, addr 0x3469e44, size 0x50, virtual false, abstract: false, final false
   static inline void CheckLength(int32_t length, int32_t limit, uint8_t alertDescription);
 
-  /// @brief Method CheckRecordHeader, addr 0x346b6e0, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method CheckRecordHeader, addr 0x3469ca8, size 0x148, virtual true, abstract: false, final false
   inline void CheckRecordHeader(::ArrayW<uint8_t> recordHeader);
 
-  /// @brief Method CheckType, addr 0x346b828, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CheckType, addr 0x3469df0, size 0x54, virtual false, abstract: false, final false
   static inline void CheckType(uint8_t type, uint8_t alertDescription);
 
-  /// @brief Method DecodeAndVerify, addr 0x346bc9c, size 0x290, virtual true, abstract: false, final false
+  /// @brief Method DecodeAndVerify, addr 0x346a264, size 0x290, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> DecodeAndVerify(uint8_t type, ::System::IO::Stream* input, int32_t len);
 
-  /// @brief Method FinaliseHandshake, addr 0x346b668, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method FinaliseHandshake, addr 0x3469c30, size 0x78, virtual true, abstract: false, final false
   inline void FinaliseHandshake();
 
-  /// @brief Method Flush, addr 0x346c6d4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x346ac9c, size 0x20, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method GetBufferContents, addr 0x346bf98, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetBufferContents, addr 0x346a560, size 0x54, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> GetBufferContents();
 
-  /// @brief Method GetPlaintextLimit, addr 0x346b4c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPlaintextLimit, addr 0x3469a90, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetPlaintextLimit();
 
-  /// @brief Method Init, addr 0x346b3a4, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x346996c, size 0x124, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::RecordStream* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsProtocol* handler, ::System::IO::Stream* input, ::System::IO::Stream* output);
 
-  /// @brief Method NotifyHelloComplete, addr 0x346c3d0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method NotifyHelloComplete, addr 0x346a998, size 0xb0, virtual true, abstract: false, final false
   inline void NotifyHelloComplete();
 
-  /// @brief Method PrepareToFinish, addr 0x346c490, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method PrepareToFinish, addr 0x346aa58, size 0xb8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* PrepareToFinish();
 
-  /// @brief Method ReadRecord, addr 0x346b8cc, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method ReadRecord, addr 0x3469e94, size 0x1c8, virtual true, abstract: false, final false
   inline bool ReadRecord();
 
-  /// @brief Method ReceivedReadCipherSpec, addr 0x346b5c0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ReceivedReadCipherSpec, addr 0x3469b88, size 0xa8, virtual true, abstract: false, final false
   inline void ReceivedReadCipherSpec();
 
-  /// @brief Method SafeClose, addr 0x346c548, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method SafeClose, addr 0x346ab10, size 0x18c, virtual true, abstract: false, final false
   inline void SafeClose();
 
-  /// @brief Method SentWriteCipherSpec, addr 0x346b518, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method SentWriteCipherSpec, addr 0x3469ae0, size 0xa8, virtual true, abstract: false, final false
   inline void SentWriteCipherSpec();
 
-  /// @brief Method SetPendingConnectionState, addr 0x346b50c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetPendingConnectionState, addr 0x3469ad4, size 0xc, virtual true, abstract: false, final false
   inline void SetPendingConnectionState(::Org::BouncyCastle::Crypto::Tls::TlsCompression* tlsCompression, ::Org::BouncyCastle::Crypto::Tls::TlsCipher* tlsCipher);
 
-  /// @brief Method SetPlaintextLimit, addr 0x346b4d0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method SetPlaintextLimit, addr 0x3469a98, size 0x1c, virtual true, abstract: false, final false
   inline void SetPlaintextLimit(int32_t plaintextLimit);
 
-  /// @brief Method SetRestrictReadVersion, addr 0x346b504, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetRestrictReadVersion, addr 0x3469acc, size 0x8, virtual true, abstract: false, final false
   inline void SetRestrictReadVersion(bool enabled);
 
-  /// @brief Method SetWriteVersion, addr 0x346b4fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetWriteVersion, addr 0x3469ac4, size 0x8, virtual true, abstract: false, final false
   inline void SetWriteVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* writeVersion);
 
-  /// @brief Method WriteRecord, addr 0x346bfec, size 0x3e4, virtual true, abstract: false, final false
+  /// @brief Method WriteRecord, addr 0x346a5b4, size 0x3e4, virtual true, abstract: false, final false
   inline void WriteRecord(uint8_t type, ::ArrayW<uint8_t> plaintext, int32_t plaintextOffset, int32_t plaintextLength);
 
   constexpr ::System::IO::MemoryStream* const& __cordl_internal_get_mBuffer() const;
@@ -435,19 +435,19 @@ public:
 
   constexpr void __cordl_internal_set_mWriteVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* value);
 
-  /// @brief Method .ctor, addr 0x346b230, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34697f8, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsProtocol* handler, ::System::IO::Stream* input, ::System::IO::Stream* output);
 
-  /// @brief Method get_HandshakeHash, addr 0x346c480, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HandshakeHash, addr 0x346aa48, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* get_HandshakeHash();
 
-  /// @brief Method get_HandshakeHashUpdater, addr 0x346c488, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HandshakeHashUpdater, addr 0x346aa50, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* get_HandshakeHashUpdater();
 
-  /// @brief Method get_ReadVersion, addr 0x346b4ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReadVersion, addr 0x3469ab4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* get_ReadVersion();
 
-  /// @brief Method set_ReadVersion, addr 0x346b4f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_ReadVersion, addr 0x3469abc, size 0x8, virtual true, abstract: false, final false
   inline void set_ReadVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* value);
 
 protected:

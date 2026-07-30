@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticSource::*)()>(&::Oculus::Haptics::HapticSource::Awake)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5db09c4;
+  constexpr static std::size_t addrs = 0x5dae730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticSource*>(), { "Awake", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticSource::*)()>(&::Oculus::Haptics::HapticSource::Play)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5db0a8c;
+  constexpr static std::size_t addrs = 0x5dae7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticSource*>(), { "Play", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticSource::*)(::Oculus::Haptics::Controller)>(&::Oculus::Haptics::HapticSource::Play)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5db0aa8;
+  constexpr static std::size_t addrs = 0x5dae814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticSource::*)()>(&::Oculus::Haptics::HapticSource::Pause)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5db0ac4;
+  constexpr static std::size_t addrs = 0x5dae830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticSource*>(), { "Pause", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticSource::*)()>(&::Oculus::Haptics::HapticSource::Resume)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5db0ad8;
+  constexpr static std::size_t addrs = 0x5dae844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticSource*>(), { "Resume", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticSource::*)()>(&::Oculus::Haptics::HapticSource::Stop)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5db0aec;
+  constexpr static std::size_t addrs = 0x5dae858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticSource*>(), { "Stop", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticSource::*)(float_t)>(&::Oculus::Haptics::HapticSource::Seek)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5db0b00;
+  constexpr static std::size_t addrs = 0x5dae86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticSource*>(), { "Seek", {}, { ::i2c::type_of<float_t>() } })));
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticSource::*)(::Oculus::Haptics::HapticClip*)>(&::Oculus::Haptics::HapticSource::set_clip)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5db0b14;
+  constexpr static std::size_t addrs = 0x5dae880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Oculus::Haptics::HapticSource::*)()>(&::Oculus::Haptics::HapticSource::get_clipDuration)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5db0b2c;
+  constexpr static std::size_t addrs = 0x5dae898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticSource*>(), { "get_clipDuration", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticSource::*)(::Oculus::Haptics::Controller)>(&::Oculus::Haptics::HapticSource::set_controller)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5db0b40;
+  constexpr static std::size_t addrs = 0x5dae8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Oculus::Haptics::HapticSource::*)()>(&::Oculus::Haptics::HapticSource::get_loop)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5db0b48;
+  constexpr static std::size_t addrs = 0x5dae8b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticSource*>(), { "get_loop", {}, {} })));
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticSource::*)(bool)>(&::Oculus::Haptics::HapticSource::set_loop)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5db0b50;
+  constexpr static std::size_t addrs = 0x5dae8bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticSource*>(), { "set_loop", {}, { ::i2c::type_of<bool>() } })));
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Oculus::Haptics::HapticSource::*)()>(&::Oculus::Haptics::HapticSource::get_amplitude)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5db0b70;
+  constexpr static std::size_t addrs = 0x5dae8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticSource*>(), { "get_amplitude", {}, {} })));
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticSource::*)(float_t)>(&::Oculus::Haptics::HapticSource::set_amplitude)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5db0b78;
+  constexpr static std::size_t addrs = 0x5dae8e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Oculus::Haptics::HapticSource::*)()>(&::Oculus::Haptics::HapticSource::get_frequencyShift)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5db0b94;
+  constexpr static std::size_t addrs = 0x5dae900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticSource*>(), { "get_frequencyShift", {}, {} })));
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticSource::*)(float_t)>(&::Oculus::Haptics::HapticSource::set_frequencyShift)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5db0b9c;
+  constexpr static std::size_t addrs = 0x5dae908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Oculus::Haptics::HapticSource::*)()>(&::Oculus::Haptics::HapticSource::get_priority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5db0bb8;
+  constexpr static std::size_t addrs = 0x5dae924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticSource*>(), { "get_priority", {}, {} })));
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticSource::*)(uint32_t)>(&::Oculus::Haptics::HapticSource::set_priority)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5db0bc0;
+  constexpr static std::size_t addrs = 0x5dae92c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticSource::*)()>(&::Oculus::Haptics::HapticSource::SyncSerializedFieldsToPlayer)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5db0a34;
+  constexpr static std::size_t addrs = 0x5dae7a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticSource*>(), { "SyncSerializedFieldsToPlayer", {}, {} })));
@@ -246,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticSource::*)()>(&::Oculus::Haptics::HapticSource::OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5db0bdc;
+  constexpr static std::size_t addrs = 0x5dae948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticSource*>(), { "OnBeforeSerialize", {}, {} })));
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticSource::*)()>(&::Oculus::Haptics::HapticSource::OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5db0be0;
+  constexpr static std::size_t addrs = 0x5dae94c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticSource*>(), { "OnAfterDeserialize", {}, {} })));
@@ -270,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticSource::*)()>(&::Oculus::Haptics::HapticSource::OnDestroy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5db0bf0;
+  constexpr static std::size_t addrs = 0x5dae95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Haptics::HapticSource::*)()>(&::Oculus::Haptics::HapticSource::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5db0c04;
+  constexpr static std::size_t addrs = 0x5dae970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Haptics::HapticSource*>(), { ".ctor", {}, {} })));

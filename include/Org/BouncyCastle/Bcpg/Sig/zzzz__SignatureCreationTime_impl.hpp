@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::System::DateTime)>(&::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime::TimeToBytes)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3693668;
+  constexpr static std::size_t addrs = 0x3691c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime::*)(bool, bool, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3693758;
+  constexpr static std::size_t addrs = 0x3691d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime*>(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime::*)(bool, ::System::DateTime)>(
     &::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3693770;
+  constexpr static std::size_t addrs = 0x3691d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime*>(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime::*)()>(
     &::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime::GetTime)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x36937a8;
+  constexpr static std::size_t addrs = 0x3691d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime*>(), { "GetTime", {}, {} })));

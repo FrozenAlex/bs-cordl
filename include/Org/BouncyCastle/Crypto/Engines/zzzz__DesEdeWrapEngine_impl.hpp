@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::Init)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x33a9558;
+  constexpr static std::size_t addrs = 0x33a7b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x33a9908;
+  constexpr static std::size_t addrs = 0x33a7ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine*>(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::Wrap)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x33a994c;
+  constexpr static std::size_t addrs = 0x33a7f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine*>(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::Unwrap)> {
   constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x33a9eb4;
+  constexpr static std::size_t addrs = 0x33a847c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::CalculateCmsKeyChecksum)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x33a9c84;
+  constexpr static std::size_t addrs = 0x33a824c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::CheckCmsKeyChecksum)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x33aa2d0;
+  constexpr static std::size_t addrs = 0x33a8898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::reverse)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x33a9e0c;
+  constexpr static std::size_t addrs = 0x33a83d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)()>(&::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x33aa3ec;
+  constexpr static std::size_t addrs = 0x33a89b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine*>(), { ".ctor", {}, {} })));

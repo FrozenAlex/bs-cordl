@@ -57,16 +57,16 @@ public:
 
   constexpr void __cordl_internal_set__val(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x62715ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x626f388, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW val);
 
-  /// @brief Method .ctor, addr 0x62715fc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x626f398, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(double_t val);
 
-  /// @brief Method get_ReturnType, addr 0x6271638, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x626f3d4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x6271630, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x626f3cc, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
 
 protected:

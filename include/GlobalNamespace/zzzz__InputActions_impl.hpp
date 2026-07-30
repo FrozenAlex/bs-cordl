@@ -2,15 +2,31 @@
 // IWYU pragma private; include "GlobalNamespace/InputActions.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__InputActions_def.hpp"
+#include "BGLib/DotnetExtension/CommandLine/zzzz__CommandLineParserResult_def.hpp"
 #include "GlobalNamespace/zzzz__UIKeyboardManager_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
 #include "Zenject/zzzz__SceneContext_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::InputActions.InstallDependencies
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InputActions::*)(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult)>(
+    &::GlobalNamespace::InputActions::InstallDependencies)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x58ddcfc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{},
+        (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InputActions*>(), { "InstallDependencies", {}, { ::i2c::type_of<::BGLib::DotnetExtension::CommandLine::CommandLineParserResult>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::InputActions.Update
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InputActions::*)()>(&::GlobalNamespace::InputActions::Update)> {
-  constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x58df824;
+  constexpr static std::size_t size = 0x2e0;
+  constexpr static std::size_t addrs = 0x58ddd8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InputActions*>(), { "Update", {}, {} })));
@@ -22,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::InputActions::ToggleLevelFreeze)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58dfdb4;
+  constexpr static std::size_t addrs = 0x58de324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InputActions*>(), { "ToggleLevelFreeze", {}, {} })));
@@ -34,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::InputActions::ToggleAutoplay)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x58dfc00;
+  constexpr static std::size_t addrs = 0x58de170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InputActions*>(), { "ToggleAutoplay", {}, {} })));
@@ -46,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::Zenject::SceneContext> (*)()>(&::GlobalNamespace::InputActions::ResolveGameplayCoreSceneContext)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x58dfdb8;
+  constexpr static std::size_t addrs = 0x58de328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InputActions*>(), { "ResolveGameplayCoreSceneContext", {}, {} })));
@@ -58,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::EventSystems::EventSystem*, ::GlobalNamespace::UIKeyboardManager*)>(&::GlobalNamespace::InputActions::HasInputFocus)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x58dfafc;
+  constexpr static std::size_t addrs = 0x58de06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InputActions::*)()>(&::GlobalNamespace::InputActions::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58e015c;
+  constexpr static std::size_t addrs = 0x58de6cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InputActions*>(), { ".ctor", {}, {} })));
@@ -90,6 +106,36 @@ constexpr ::UnityW<::GlobalNamespace::UIKeyboardManager> const& GlobalNamespace:
 constexpr void GlobalNamespace::InputActions::__cordl_internal_set__keyboardManager(::UnityW<::GlobalNamespace::UIKeyboardManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____keyboardManager = value;
+}
+constexpr bool& GlobalNamespace::InputActions::__cordl_internal_get__autoplayKeyEnabled() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____autoplayKeyEnabled;
+}
+constexpr bool const& GlobalNamespace::InputActions::__cordl_internal_get__autoplayKeyEnabled() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____autoplayKeyEnabled;
+}
+constexpr void GlobalNamespace::InputActions::__cordl_internal_set__autoplayKeyEnabled(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____autoplayKeyEnabled = value;
+}
+constexpr bool& GlobalNamespace::InputActions::__cordl_internal_get__isBeatmapEditorGameplayLoaded() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isBeatmapEditorGameplayLoaded;
+}
+constexpr bool const& GlobalNamespace::InputActions::__cordl_internal_get__isBeatmapEditorGameplayLoaded() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isBeatmapEditorGameplayLoaded;
+}
+constexpr void GlobalNamespace::InputActions::__cordl_internal_set__isBeatmapEditorGameplayLoaded(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____isBeatmapEditorGameplayLoaded = value;
+}
+inline void GlobalNamespace::InputActions::InstallDependencies(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineParserResult) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InputActions*>(), { "InstallDependencies", {}, { ::i2c::type_of<::BGLib::DotnetExtension::CommandLine::CommandLineParserResult>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, commandLineParserResult);
 }
 inline void GlobalNamespace::InputActions::Update() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InputActions*>(), { "Update", {}, {} })));

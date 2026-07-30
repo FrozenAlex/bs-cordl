@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::ThreadPoolTaskScheduler___c::*)()>(&::System::Threading::Tasks::ThreadPoolTaskScheduler___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cc68d0;
+  constexpr static std::size_t addrs = 0x5cc463c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::ThreadPoolTaskScheduler___c*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::ThreadPoolTaskScheduler___c::*)(::System::Object*)>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler___c::__cctor_b__10_0)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5cc68d4;
+  constexpr static std::size_t addrs = 0x5cc4640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::ThreadPoolTaskScheduler::*)()>(&::System::Threading::Tasks::ThreadPoolTaskScheduler::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5cc6454;
+  constexpr static std::size_t addrs = 0x5cc41c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::ThreadPoolTaskScheduler*>(), { ".ctor", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::ThreadPoolTaskScheduler::*)(::System::Threading::Tasks::Task*)>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler::QueueTask)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x5cc64ac;
+  constexpr static std::size_t addrs = 0x5cc4218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::ThreadPoolTaskScheduler*>(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::Tasks::ThreadPoolTaskScheduler::*)(::System::Threading::Tasks::Task*, bool)>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler::TryExecuteTaskInline)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5cc66b4;
+  constexpr static std::size_t addrs = 0x5cc4420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::ThreadPoolTaskScheduler*>(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::Tasks::ThreadPoolTaskScheduler::*)(::System::Threading::Tasks::Task*)>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler::TryDequeue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc6790;
+  constexpr static std::size_t addrs = 0x5cc44fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::ThreadPoolTaskScheduler*>(),
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Tasks::ThreadPoolTaskScheduler::*)()>(&::System::Threading::Tasks::ThreadPoolTaskScheduler::NotifyWorkItemProgress)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5cc6798;
+  constexpr static std::size_t addrs = 0x5cc4504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::ThreadPoolTaskScheduler*>(),
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::Tasks::ThreadPoolTaskScheduler::*)()>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler::get_RequiresAtomicStartTransition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc67a8;
+  constexpr static std::size_t addrs = 0x5cc4514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::ThreadPoolTaskScheduler*>(),

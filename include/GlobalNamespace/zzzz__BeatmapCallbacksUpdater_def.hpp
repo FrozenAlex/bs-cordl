@@ -36,15 +36,15 @@ public:
   /// @brief Field _prevSongTime, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__prevSongTime, put = __cordl_internal_set__prevSongTime)) float_t _prevSongTime;
 
-  /// @brief Method LateUpdate, addr 0x58c6054, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x58c452c, size 0x1fc, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::BeatmapCallbacksUpdater* New_ctor();
 
-  /// @brief Method Pause, addr 0x58c6250, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x58c4728, size 0xc, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x58c625c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x58c4734, size 0xc, virtual false, abstract: false, final false
   inline void Resume();
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set__prevSongTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x58c6268, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c4740, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

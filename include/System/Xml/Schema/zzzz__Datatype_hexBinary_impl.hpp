@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlValueConverter* (::System::Xml::Schema::Datatype_hexBinary::*)(::System::Xml::Schema::XmlSchemaType*)>(
     &::System::Xml::Schema::Datatype_hexBinary::CreateValueConverter)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61c0f9c;
+  constexpr static std::size_t addrs = 0x61bed38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::FacetsChecker* (::System::Xml::Schema::Datatype_hexBinary::*)()>(
     &::System::Xml::Schema::Datatype_hexBinary::get_FacetsChecker)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x61c0fa8;
+  constexpr static std::size_t addrs = 0x61bed44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_hexBinary::*)()>(&::System::Xml::Schema::Datatype_hexBinary::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61c1004;
+  constexpr static std::size_t addrs = 0x61beda0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_hexBinary::*)()>(&::System::Xml::Schema::Datatype_hexBinary::get_ValueType)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x61c100c;
+  constexpr static std::size_t addrs = 0x61beda8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_hexBinary::*)()>(&::System::Xml::Schema::Datatype_hexBinary::get_ListValueType)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x61c1068;
+  constexpr static std::size_t addrs = 0x61bee04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaWhiteSpace (::System::Xml::Schema::Datatype_hexBinary::*)()>(
     &::System::Xml::Schema::Datatype_hexBinary::get_BuiltInWhitespaceFacet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61c10c4;
+  constexpr static std::size_t addrs = 0x61bee60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::RestrictionFlags (::System::Xml::Schema::Datatype_hexBinary::*)()>(
     &::System::Xml::Schema::Datatype_hexBinary::get_ValidRestrictionFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61c10cc;
+  constexpr static std::size_t addrs = 0x61bee68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::Datatype_hexBinary::*)(::System::Object*, ::System::Object*)>(
     &::System::Xml::Schema::Datatype_hexBinary::Compare)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x61c10d4;
+  constexpr static std::size_t addrs = 0x61bee70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Exception* (::System::Xml::Schema::Datatype_hexBinary::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::by_ref<::System::Object*>)>(
         &::System::Xml::Schema::Datatype_hexBinary::TryParseValue)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x61c1180;
+  constexpr static std::size_t addrs = 0x61bef1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Datatype_hexBinary::*)()>(&::System::Xml::Schema::Datatype_hexBinary::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x61ba74c;
+  constexpr static std::size_t addrs = 0x61b84e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_hexBinary*>(), { ".ctor", {}, {} })));

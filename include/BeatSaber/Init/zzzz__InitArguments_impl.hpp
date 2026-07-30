@@ -40,6 +40,13 @@ inline void BeatSaber::Init::InitArguments::setStaticF_kRunCommandOption(::BGLib
 inline ::BGLib::DotnetExtension::CommandLine::ArgumentOption BeatSaber::Init::InitArguments::getStaticF_kRunCommandOption() {
   return ::cordl_internals::getStaticField<::BGLib::DotnetExtension::CommandLine::ArgumentOption, "kRunCommandOption", ::BeatSaber::Init::InitArguments*>();
 }
+inline void BeatSaber::Init::InitArguments::setStaticF_kAutoplayF8(::BGLib::DotnetExtension::CommandLine::ArgumentOption value) {
+  ::cordl_internals::setStaticField<::BGLib::DotnetExtension::CommandLine::ArgumentOption, "kAutoplayF8", ::BeatSaber::Init::InitArguments*>(
+      std::forward<::BGLib::DotnetExtension::CommandLine::ArgumentOption>(value));
+}
+inline ::BGLib::DotnetExtension::CommandLine::ArgumentOption BeatSaber::Init::InitArguments::getStaticF_kAutoplayF8() {
+  return ::cordl_internals::getStaticField<::BGLib::DotnetExtension::CommandLine::ArgumentOption, "kAutoplayF8", ::BeatSaber::Init::InitArguments*>();
+}
 inline void BeatSaber::Init::InitArguments::setStaticF_kAsymmetricStereoBloomOffsetsOption(::BGLib::DotnetExtension::CommandLine::ArgumentOption value) {
   ::cordl_internals::setStaticField<::BGLib::DotnetExtension::CommandLine::ArgumentOption, "kAsymmetricStereoBloomOffsetsOption", ::BeatSaber::Init::InitArguments*>(
       std::forward<::BGLib::DotnetExtension::CommandLine::ArgumentOption>(value));

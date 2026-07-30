@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreItem::*)()>(&::GlobalNamespace::MultiplayerScoreItem::Awake)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x59de6b4;
+  constexpr static std::size_t addrs = 0x59dcd24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreItem*>(), { "Awake", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreItem::*)()>(&::GlobalNamespace::MultiplayerScoreItem::OnDestroy)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x59de868;
+  constexpr static std::size_t addrs = 0x59dced8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreItem*>(), { "OnDestroy", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreItem::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::GlobalNamespace::MultiplayerScoreItem::SetPositionAndRotation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x59de8f4;
+  constexpr static std::size_t addrs = 0x59dcf64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreItem::*)(::UnityEngine::Color, ::UnityEngine::Color, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::MultiplayerScoreItem::AnimateColors)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x59cff70;
+  constexpr static std::size_t addrs = 0x59ce5e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreItem::*)(::StringW)>(&::GlobalNamespace::MultiplayerScoreItem::SetName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59d07c8;
+  constexpr static std::size_t addrs = 0x59cee38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreItem::*)(::StringW)>(&::GlobalNamespace::MultiplayerScoreItem::SetScore)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59d0884;
+  constexpr static std::size_t addrs = 0x59ceef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreItem::*)()>(&::GlobalNamespace::MultiplayerScoreItem::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59de96c;
+  constexpr static std::size_t addrs = 0x59dcfdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreItem*>(), { ".ctor", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreItem::*)(::UnityEngine::Color)>(&::GlobalNamespace::MultiplayerScoreItem::_Awake_b__5_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59de970;
+  constexpr static std::size_t addrs = 0x59dcfe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreItem::*)(::UnityEngine::Color)>(&::GlobalNamespace::MultiplayerScoreItem::_Awake_b__5_1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59de990;
+  constexpr static std::size_t addrs = 0x59dd000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

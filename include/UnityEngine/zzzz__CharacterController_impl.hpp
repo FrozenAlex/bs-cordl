@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::CharacterController::*)(::UnityEngine::Vector3)>(&::UnityEngine::CharacterController::SimpleMove)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6b78b58;
+  constexpr static std::size_t addrs = 0x6b7455c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::CollisionFlags (::UnityEngine::CharacterController::*)(::UnityEngine::Vector3)>(&::UnityEngine::CharacterController::Move)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6b78c38;
+  constexpr static std::size_t addrs = 0x6b7463c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_velocity)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6b78d14;
+  constexpr static std::size_t addrs = 0x6b74718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CharacterController*>(), { "get_velocity", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_isGrounded)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b78df8;
+  constexpr static std::size_t addrs = 0x6b747fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CharacterController*>(), { "get_isGrounded", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::CollisionFlags (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_collisionFlags)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b78eb4;
+  constexpr static std::size_t addrs = 0x6b748b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CharacterController*>(), { "get_collisionFlags", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_radius)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b78f70;
+  constexpr static std::size_t addrs = 0x6b74974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CharacterController*>(), { "get_radius", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CharacterController::*)(float_t)>(&::UnityEngine::CharacterController::set_radius)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b7902c;
+  constexpr static std::size_t addrs = 0x6b74a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_height)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b79108;
+  constexpr static std::size_t addrs = 0x6b74b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CharacterController*>(), { "get_height", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CharacterController::*)(float_t)>(&::UnityEngine::CharacterController::set_height)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b791c4;
+  constexpr static std::size_t addrs = 0x6b74bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_center)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6b792a0;
+  constexpr static std::size_t addrs = 0x6b74ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CharacterController*>(), { "get_center", {}, {} })));
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CharacterController::*)(::UnityEngine::Vector3)>(&::UnityEngine::CharacterController::set_center)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6b79384;
+  constexpr static std::size_t addrs = 0x6b74d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_slopeLimit)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b79460;
+  constexpr static std::size_t addrs = 0x6b74e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CharacterController*>(), { "get_slopeLimit", {}, {} })));
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CharacterController::*)(float_t)>(&::UnityEngine::CharacterController::set_slopeLimit)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b7951c;
+  constexpr static std::size_t addrs = 0x6b74f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_stepOffset)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b795f8;
+  constexpr static std::size_t addrs = 0x6b74ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CharacterController*>(), { "get_stepOffset", {}, {} })));
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CharacterController::*)(float_t)>(&::UnityEngine::CharacterController::set_stepOffset)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b796b4;
+  constexpr static std::size_t addrs = 0x6b750b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_skinWidth)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b79790;
+  constexpr static std::size_t addrs = 0x6b75194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CharacterController*>(), { "get_skinWidth", {}, {} })));
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CharacterController::*)(float_t)>(&::UnityEngine::CharacterController::set_skinWidth)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b7984c;
+  constexpr static std::size_t addrs = 0x6b75250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_minMoveDistance)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b79928;
+  constexpr static std::size_t addrs = 0x6b7532c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CharacterController*>(), { "get_minMoveDistance", {}, {} })));
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CharacterController::*)(float_t)>(&::UnityEngine::CharacterController::set_minMoveDistance)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b799e4;
+  constexpr static std::size_t addrs = 0x6b753e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_detectCollisions)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b79ac0;
+  constexpr static std::size_t addrs = 0x6b754c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CharacterController*>(), { "get_detectCollisions", {}, {} })));
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CharacterController::*)(bool)>(&::UnityEngine::CharacterController::set_detectCollisions)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b79b7c;
+  constexpr static std::size_t addrs = 0x6b75580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_enableOverlapRecovery)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b79c50;
+  constexpr static std::size_t addrs = 0x6b75654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CharacterController*>(), { "get_enableOverlapRecovery", {}, {} })));
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CharacterController::*)(bool)>(&::UnityEngine::CharacterController::set_enableOverlapRecovery)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b79d0c;
+  constexpr static std::size_t addrs = 0x6b75710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_isSupported)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b79de0;
+  constexpr static std::size_t addrs = 0x6b757e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CharacterController*>(), { "get_isSupported", {}, {} })));
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b79e9c;
+  constexpr static std::size_t addrs = 0x6b758a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CharacterController*>(), { ".ctor", {}, {} })));
@@ -321,7 +321,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::CharacterController::SimpleMove_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b78bf4;
+  constexpr static std::size_t addrs = 0x6b745f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::CollisionFlags (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::CharacterController::Move_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b78cd0;
+  constexpr static std::size_t addrs = 0x6b746d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -349,7 +349,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::CharacterController::get_velocity_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b78db4;
+  constexpr static std::size_t addrs = 0x6b747b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -363,7 +363,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::CharacterController::get_isGrounded_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b78e78;
+  constexpr static std::size_t addrs = 0x6b7487c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -376,7 +376,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::CollisionFlags (*)(::System::IntPtr)>(&::UnityEngine::CharacterController::get_collisionFlags_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b78f34;
+  constexpr static std::size_t addrs = 0x6b74938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -389,7 +389,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::CharacterController::get_radius_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b78ff0;
+  constexpr static std::size_t addrs = 0x6b749f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -402,7 +402,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::CharacterController::set_radius_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6b790bc;
+  constexpr static std::size_t addrs = 0x6b74ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -416,7 +416,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::CharacterController::get_height_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b79188;
+  constexpr static std::size_t addrs = 0x6b74b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -429,7 +429,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::CharacterController::set_height_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6b79254;
+  constexpr static std::size_t addrs = 0x6b74c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -443,7 +443,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::CharacterController::get_center_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b79340;
+  constexpr static std::size_t addrs = 0x6b74d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -457,7 +457,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::CharacterController::set_center_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b7941c;
+  constexpr static std::size_t addrs = 0x6b74e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -471,7 +471,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::CharacterController::get_slopeLimit_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b794e0;
+  constexpr static std::size_t addrs = 0x6b74ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -484,7 +484,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::CharacterController::set_slopeLimit_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6b795ac;
+  constexpr static std::size_t addrs = 0x6b74fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CharacterController*>(),
@@ -497,7 +497,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::CharacterController::get_stepOffset_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b79678;
+  constexpr static std::size_t addrs = 0x6b7507c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -510,7 +510,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::CharacterController::set_stepOffset_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6b79744;
+  constexpr static std::size_t addrs = 0x6b75148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CharacterController*>(),
@@ -523,7 +523,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::CharacterController::get_skinWidth_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b79810;
+  constexpr static std::size_t addrs = 0x6b75214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -536,7 +536,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::CharacterController::set_skinWidth_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6b798dc;
+  constexpr static std::size_t addrs = 0x6b752e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -550,7 +550,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::CharacterController::get_minMoveDistance_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b799a8;
+  constexpr static std::size_t addrs = 0x6b753ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -563,7 +563,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::CharacterController::set_minMoveDistance_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6b79a74;
+  constexpr static std::size_t addrs = 0x6b75478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CharacterController*>(),
@@ -576,7 +576,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::CharacterController::get_detectCollisions_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b79b40;
+  constexpr static std::size_t addrs = 0x6b75544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -589,7 +589,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::CharacterController::set_detectCollisions_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b79c0c;
+  constexpr static std::size_t addrs = 0x6b75610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CharacterController*>(),
@@ -602,7 +602,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::CharacterController::get_enableOverlapRecovery_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b79cd0;
+  constexpr static std::size_t addrs = 0x6b756d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -615,7 +615,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::CharacterController::set_enableOverlapRecovery_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b79d9c;
+  constexpr static std::size_t addrs = 0x6b757a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -629,7 +629,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::CharacterController::get_isSupported_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b79e60;
+  constexpr static std::size_t addrs = 0x6b75864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

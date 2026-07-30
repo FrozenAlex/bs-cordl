@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::Capture::*)(::StringW, int32_t, int32_t)>(&::System::Text::RegularExpressions::Capture::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x637694c;
+  constexpr static std::size_t addrs = 0x63746e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::RegularExpressions::Capture*>(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::RegularExpressions::Capture::*)()>(&::System::Text::RegularExpressions::Capture::get_Index)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6376958;
+  constexpr static std::size_t addrs = 0x63746f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::RegularExpressions::Capture*>(), { "get_Index", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::Capture::*)(int32_t)>(&::System::Text::RegularExpressions::Capture::set_Index)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6376960;
+  constexpr static std::size_t addrs = 0x63746fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::RegularExpressions::Capture::*)()>(&::System::Text::RegularExpressions::Capture::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6376968;
+  constexpr static std::size_t addrs = 0x6374704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::RegularExpressions::Capture*>(), { "get_Length", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::Capture::*)(int32_t)>(&::System::Text::RegularExpressions::Capture::set_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6376970;
+  constexpr static std::size_t addrs = 0x637470c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Text::RegularExpressions::Capture::*)()>(&::System::Text::RegularExpressions::Capture::get_Text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6376978;
+  constexpr static std::size_t addrs = 0x6374714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::RegularExpressions::Capture*>(), { "get_Text", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::Capture::*)(::StringW)>(&::System::Text::RegularExpressions::Capture::set_Text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6376980;
+  constexpr static std::size_t addrs = 0x637471c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Text::RegularExpressions::Capture::*)()>(&::System::Text::RegularExpressions::Capture::get_Value)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6376988;
+  constexpr static std::size_t addrs = 0x6374724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::RegularExpressions::Capture*>(), { "get_Value", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Text::RegularExpressions::Capture::*)()>(&::System::Text::RegularExpressions::Capture::ToString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63769a8;
+  constexpr static std::size_t addrs = 0x6374744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<char16_t> (::System::Text::RegularExpressions::Capture::*)()>(
     &::System::Text::RegularExpressions::Capture::GetLeftSubstring)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x63769ac;
+  constexpr static std::size_t addrs = 0x6374748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::RegularExpressions::Capture*>(), { "GetLeftSubstring", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<char16_t> (::System::Text::RegularExpressions::Capture::*)()>(
     &::System::Text::RegularExpressions::Capture::GetRightSubstring)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6376a30;
+  constexpr static std::size_t addrs = 0x63747cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::RegularExpressions::Capture*>(), { "GetRightSubstring", {}, {} })));
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::Capture::*)()>(&::System::Text::RegularExpressions::Capture::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6376ac8;
+  constexpr static std::size_t addrs = 0x6374864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::RegularExpressions::Capture*>(), { ".ctor", {}, {} })));

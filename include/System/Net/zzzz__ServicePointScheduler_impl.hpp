@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::ServicePointScheduler* (::System::Net::ServicePointScheduler_ConnectionGroup::*)()>(
     &::System::Net::ServicePointScheduler_ConnectionGroup::get_Scheduler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x633accc;
+  constexpr static std::size_t addrs = 0x6338a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler_ConnectionGroup*>(), { "get_Scheduler", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler_ConnectionGroup::*)(::System::Net::ServicePointScheduler*, ::StringW)>(
     &::System::Net::ServicePointScheduler_ConnectionGroup::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6339110;
+  constexpr static std::size_t addrs = 0x6336eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler_ConnectionGroup*>(),
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::ServicePointScheduler_ConnectionGroup::*)()>(&::System::Net::ServicePointScheduler_ConnectionGroup::IsEmpty)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x63397b8;
+  constexpr static std::size_t addrs = 0x6337554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler_ConnectionGroup*>(), { "IsEmpty", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler_ConnectionGroup::*)(::System::Net::WebConnection*)>(
     &::System::Net::ServicePointScheduler_ConnectionGroup::RemoveConnection)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6339ef4;
+  constexpr static std::size_t addrs = 0x6337c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler_ConnectionGroup::*)()>(&::System::Net::ServicePointScheduler_ConnectionGroup::Cleanup)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x633a0bc;
+  constexpr static std::size_t addrs = 0x6337e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler_ConnectionGroup*>(), { "Cleanup", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler_ConnectionGroup::*)()>(&::System::Net::ServicePointScheduler_ConnectionGroup::Close)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x633a8f8;
+  constexpr static std::size_t addrs = 0x6338694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler_ConnectionGroup*>(), { "Close", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler_ConnectionGroup::*)(::System::Net::WebOperation*)>(
     &::System::Net::ServicePointScheduler_ConnectionGroup::EnqueueOperation)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x633a894;
+  constexpr static std::size_t addrs = 0x6338630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::WebOperation* (::System::Net::ServicePointScheduler_ConnectionGroup::*)()>(
     &::System::Net::ServicePointScheduler_ConnectionGroup::GetNextOperation)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x633a39c;
+  constexpr static std::size_t addrs = 0x6338138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler_ConnectionGroup*>(), { "GetNextOperation", {}, {} })));
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::WebConnection* (::System::Net::ServicePointScheduler_ConnectionGroup::*)(::System::Net::WebOperation*)>(
     &::System::Net::ServicePointScheduler_ConnectionGroup::FindIdleConnection)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x633ad20;
+  constexpr static std::size_t addrs = 0x6338abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::System::Net::WebConnection*, bool> (::System::Net::ServicePointScheduler_ConnectionGroup::*)(
     ::System::Net::WebOperation*, bool)>(&::System::Net::ServicePointScheduler_ConnectionGroup::CreateOrReuseConnection)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x633a1f4;
+  constexpr static std::size_t addrs = 0x6337f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::AsyncManualResetEvent_ServicePointScheduler___c::*)()>(
     &::System::Net::AsyncManualResetEvent_ServicePointScheduler___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x633b668;
+  constexpr static std::size_t addrs = 0x6339404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::AsyncManualResetEvent_ServicePointScheduler___c*>(), { ".ctor", {}, {} })));
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::AsyncManualResetEvent_ServicePointScheduler___c::*)(::System::Object*)>(
     &::System::Net::AsyncManualResetEvent_ServicePointScheduler___c::_Set_b__4_0)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x633b66c;
+  constexpr static std::size_t addrs = 0x6339408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::System::Net::ServicePointScheduler_AsyncManualResetEvent::*)(int32_t)>(
     &::System::Net::ServicePointScheduler_AsyncManualResetEvent::WaitAsync)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x633b5b0;
+  constexpr static std::size_t addrs = 0x633934c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler_AsyncManualResetEvent::*)()>(&::System::Net::ServicePointScheduler_AsyncManualResetEvent::Set)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x63392c8;
+  constexpr static std::size_t addrs = 0x6337064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler_AsyncManualResetEvent*>(), { "Set", {}, {} })));
@@ -366,7 +366,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler_AsyncManualResetEvent::*)()>(&::System::Net::ServicePointScheduler_AsyncManualResetEvent::Reset)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6339a00;
+  constexpr static std::size_t addrs = 0x633779c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler_AsyncManualResetEvent*>(), { "Reset", {}, {} })));
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler_AsyncManualResetEvent::*)(bool)>(
     &::System::Net::ServicePointScheduler_AsyncManualResetEvent::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6339074;
+  constexpr static std::size_t addrs = 0x6336e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -427,7 +427,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler__RunScheduler_d__32::*)()>(&::System::Net::ServicePointScheduler__RunScheduler_d__32::MoveNext)> {
   constexpr static std::size_t size = 0xbc8;
-  constexpr static std::size_t addrs = 0x633b710;
+  constexpr static std::size_t addrs = 0x63394ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler__RunScheduler_d__32>(), { "MoveNext", {}, {} })));
@@ -440,7 +440,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler__RunScheduler_d__32::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::System::Net::ServicePointScheduler__RunScheduler_d__32::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x633c2d8;
+  constexpr static std::size_t addrs = 0x633a074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler__RunScheduler_d__32>(),
@@ -496,7 +496,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler__WaitAsync_d__46::*)()>(&::System::Net::ServicePointScheduler__WaitAsync_d__46::MoveNext)> {
   constexpr static std::size_t size = 0x554;
-  constexpr static std::size_t addrs = 0x633c344;
+  constexpr static std::size_t addrs = 0x633a0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler__WaitAsync_d__46>(), { "MoveNext", {}, {} })));
@@ -509,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler__WaitAsync_d__46::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::System::Net::ServicePointScheduler__WaitAsync_d__46::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x633c898;
+  constexpr static std::size_t addrs = 0x633a634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler__WaitAsync_d__46>(),
@@ -559,7 +559,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::ServicePoint* (::System::Net::ServicePointScheduler::*)()>(&::System::Net::ServicePointScheduler::get_ServicePoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x633905c;
+  constexpr static std::size_t addrs = 0x6336df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler*>(), { "get_ServicePoint", {}, {} })));
@@ -571,7 +571,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler::*)(::System::Net::ServicePoint*)>(&::System::Net::ServicePointScheduler::set_ServicePoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6339064;
+  constexpr static std::size_t addrs = 0x6336e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -584,7 +584,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::ServicePointScheduler::*)()>(&::System::Net::ServicePointScheduler::get_MaxIdleTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x633906c;
+  constexpr static std::size_t addrs = 0x6336e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler*>(), { "get_MaxIdleTime", {}, {} })));
@@ -596,7 +596,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler::*)(::System::Net::ServicePoint*, int32_t, int32_t)>(&::System::Net::ServicePointScheduler::_ctor)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x633768c;
+  constexpr static std::size_t addrs = 0x6335428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -610,7 +610,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler::*)()>(&::System::Net::ServicePointScheduler::Run)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x63391f4;
+  constexpr static std::size_t addrs = 0x6336f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler*>(), { "Run", {}, {} })));
@@ -622,7 +622,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::ServicePointScheduler::*)()>(&::System::Net::ServicePointScheduler::RunScheduler)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x633951c;
+  constexpr static std::size_t addrs = 0x63372b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler*>(), { "RunScheduler", {}, {} })));
@@ -634,7 +634,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler::*)()>(&::System::Net::ServicePointScheduler::Cleanup)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x63395d4;
+  constexpr static std::size_t addrs = 0x6337370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler*>(), { "Cleanup", {}, {} })));
@@ -646,7 +646,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler::*)()>(&::System::Net::ServicePointScheduler::RunSchedulerIteration)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x633983c;
+  constexpr static std::size_t addrs = 0x63375d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler*>(), { "RunSchedulerIteration", {}, {} })));
@@ -659,7 +659,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::ServicePointScheduler::*)(::System::Net::ServicePointScheduler_ConnectionGroup*, ::System::Net::WebOperation*)>(
     &::System::Net::ServicePointScheduler::OperationCompleted)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x6339b9c;
+  constexpr static std::size_t addrs = 0x6337938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -675,7 +675,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler::*)(::System::Net::ServicePointScheduler_ConnectionGroup*, ::System::Net::WebConnection*)>(
     &::System::Net::ServicePointScheduler::CloseIdleConnection)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x633a364;
+  constexpr static std::size_t addrs = 0x6338100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -691,7 +691,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::ServicePointScheduler::*)(::System::Net::ServicePointScheduler_ConnectionGroup*)>(
     &::System::Net::ServicePointScheduler::SchedulerIteration)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6339ad8;
+  constexpr static std::size_t addrs = 0x6337874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler*>(),
@@ -704,7 +704,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler::*)(::System::Net::WebOperation*)>(&::System::Net::ServicePointScheduler::RemoveOperation)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x633a4d0;
+  constexpr static std::size_t addrs = 0x633826c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -717,7 +717,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler::*)(::System::Net::WebConnection*)>(&::System::Net::ServicePointScheduler::RemoveIdleConnection)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6339fac;
+  constexpr static std::size_t addrs = 0x6337d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -730,7 +730,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler::*)()>(&::System::Net::ServicePointScheduler::FinalCleanup)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x633a5e0;
+  constexpr static std::size_t addrs = 0x633837c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler*>(), { "FinalCleanup", {}, {} })));
@@ -742,7 +742,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler::*)(::System::Net::WebOperation*, ::StringW)>(&::System::Net::ServicePointScheduler::SendRequest)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6337f98;
+  constexpr static std::size_t addrs = 0x6335d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler*>(),
@@ -755,7 +755,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::ServicePointScheduler::*)(::StringW)>(&::System::Net::ServicePointScheduler::CloseConnectionGroup)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6338164;
+  constexpr static std::size_t addrs = 0x6335f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -769,7 +769,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::ServicePointScheduler_ConnectionGroup* (::System::Net::ServicePointScheduler::*)(::StringW)>(
     &::System::Net::ServicePointScheduler::GetConnectionGroup)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x633a664;
+  constexpr static std::size_t addrs = 0x6338400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -782,7 +782,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler::*)(::System::Net::WebConnection*)>(&::System::Net::ServicePointScheduler::OnConnectionCreated)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x633ab94;
+  constexpr static std::size_t addrs = 0x6338930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -795,7 +795,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointScheduler::*)(::System::Net::WebConnection*)>(&::System::Net::ServicePointScheduler::OnConnectionClosed)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x633abb0;
+  constexpr static std::size_t addrs = 0x633894c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -808,7 +808,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (*)(::System::Threading::Tasks::Task*, int32_t)>(&::System::Net::ServicePointScheduler::WaitAsync)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x633abd4;
+  constexpr static std::size_t addrs = 0x6338970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler*>(),
@@ -821,7 +821,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::ServicePointScheduler::*)()>(&::System::Net::ServicePointScheduler::_Run_b__31_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x633acc8;
+  constexpr static std::size_t addrs = 0x6338a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointScheduler*>(), { "<Run>b__31_0", {}, {} })));

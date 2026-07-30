@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(&::UnityEngine::InputSystem::LowLevel::GamepadState::get_Format)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a88b4;
+  constexpr static std::size_t addrs = 0x65a6650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::GamepadState>(), { "get_Format", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::GamepadState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::GamepadState::get_format)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a88c0;
+  constexpr static std::size_t addrs = 0x65a665c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::GamepadState>(), { "get_format", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::GamepadState::*)(::ArrayW<::UnityEngine::InputSystem::LowLevel::GamepadButton>)>(
     &::UnityEngine::InputSystem::LowLevel::GamepadState::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x65a88cc;
+  constexpr static std::size_t addrs = 0x65a6668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::GamepadState>(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::LowLevel::GamepadState (::UnityEngine::InputSystem::LowLevel::GamepadState::*)(
     ::UnityEngine::InputSystem::LowLevel::GamepadButton, bool)>(&::UnityEngine::InputSystem::LowLevel::GamepadState::WithButton)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x65a897c;
+  constexpr static std::size_t addrs = 0x65a6718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

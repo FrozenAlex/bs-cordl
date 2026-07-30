@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x36a4a8c;
+  constexpr static std::size_t addrs = 0x36a3054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser::_ctor)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x36a4b00;
+  constexpr static std::size_t addrs = 0x36a30c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser::*)()>(
     &::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser::get_MacAlgorithmID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36a4e08;
+  constexpr static std::size_t addrs = 0x36a33d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser::*)()>(&::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser::get_MacAlgOid)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x36a4e10;
+  constexpr static std::size_t addrs = 0x36a33d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser*>(), { "get_MacAlgOid", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser::*)()>(
     &::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser::get_MacAlgParams)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x36a4e3c;
+  constexpr static std::size_t addrs = 0x36a3404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser*>(), { "get_MacAlgParams", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cms::RecipientInformationStore* (::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser::*)()>(
     &::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser::GetRecipientInfos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36a4e74;
+  constexpr static std::size_t addrs = 0x36a343c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser*>(), { "GetRecipientInfos", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser::*)()>(&::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser::GetMac)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x36a4e7c;
+  constexpr static std::size_t addrs = 0x36a3444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser*>(), { "GetMac", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::AttributeTable* (::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser::*)()>(
     &::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser::GetAuthAttrs)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x36a4f14;
+  constexpr static std::size_t addrs = 0x36a34dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser*>(), { "GetAuthAttrs", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::AttributeTable* (::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser::*)()>(
     &::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser::GetUnauthAttrs)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x36a516c;
+  constexpr static std::size_t addrs = 0x36a3734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser*>(), { "GetUnauthAttrs", {}, {} })));

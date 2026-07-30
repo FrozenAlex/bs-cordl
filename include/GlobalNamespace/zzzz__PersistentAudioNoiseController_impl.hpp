@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PersistentAudioNoiseController::*)()>(&::GlobalNamespace::PersistentAudioNoiseController::Start)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x58bbb80;
+  constexpr static std::size_t addrs = 0x58ba058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PersistentAudioNoiseController*>(), { "Start", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PersistentAudioNoiseController::*)()>(&::GlobalNamespace::PersistentAudioNoiseController::OnDestroy)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x58bbc10;
+  constexpr static std::size_t addrs = 0x58ba0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PersistentAudioNoiseController*>(), { "OnDestroy", {}, {} })));
@@ -38,7 +38,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                                    ::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*)>(
     &::GlobalNamespace::PersistentAudioNoiseController::HandleTransitionDidFinish)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x58bbd24;
+  constexpr static std::size_t addrs = 0x58ba1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PersistentAudioNoiseController::*)()>(&::GlobalNamespace::PersistentAudioNoiseController::OnValidate)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x58bbd88;
+  constexpr static std::size_t addrs = 0x58ba260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PersistentAudioNoiseController*>(), { "OnValidate", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PersistentAudioNoiseController::*)()>(&::GlobalNamespace::PersistentAudioNoiseController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58bbe70;
+  constexpr static std::size_t addrs = 0x58ba348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PersistentAudioNoiseController*>(), { ".ctor", {}, {} })));

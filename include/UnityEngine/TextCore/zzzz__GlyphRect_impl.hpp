@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::GlyphRect::*)()>(&::UnityEngine::TextCore::GlyphRect::get_x)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8b68;
+  constexpr static std::size_t addrs = 0x6bb456c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::GlyphRect>(), { "get_x", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::GlyphRect::*)()>(&::UnityEngine::TextCore::GlyphRect::get_y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8b70;
+  constexpr static std::size_t addrs = 0x6bb4574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::GlyphRect>(), { "get_y", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::GlyphRect::*)()>(&::UnityEngine::TextCore::GlyphRect::get_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8b78;
+  constexpr static std::size_t addrs = 0x6bb457c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::GlyphRect>(), { "get_width", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::GlyphRect::*)()>(&::UnityEngine::TextCore::GlyphRect::get_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8b80;
+  constexpr static std::size_t addrs = 0x6bb4584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::GlyphRect>(), { "get_height", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::GlyphRect (*)()>(&::UnityEngine::TextCore::GlyphRect::get_zero)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6bb8b88;
+  constexpr static std::size_t addrs = 0x6bb458c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::GlyphRect>(), { "get_zero", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::GlyphRect::*)(int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::TextCore::GlyphRect::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6bb8be4;
+  constexpr static std::size_t addrs = 0x6bb45e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::GlyphRect::*)()>(&::UnityEngine::TextCore::GlyphRect::GetHashCode)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6bb8bf0;
+  constexpr static std::size_t addrs = 0x6bb45f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::GlyphRect::*)(::System::Object*)>(&::UnityEngine::TextCore::GlyphRect::Equals)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6bb8c54;
+  constexpr static std::size_t addrs = 0x6bb4658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::GlyphRect::*)(::UnityEngine::TextCore::GlyphRect)>(&::UnityEngine::TextCore::GlyphRect::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6bb8cc4;
+  constexpr static std::size_t addrs = 0x6bb46c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

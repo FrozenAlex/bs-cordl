@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::System::Action*)>(
     &::UnityEngine::UIElements::BaseListViewController::add_itemsSourceSizeChanged)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6c48108;
+  constexpr static std::size_t addrs = 0x6c43b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::System::Action*)>(
     &::UnityEngine::UIElements::BaseListViewController::remove_itemsSourceSizeChanged)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6c481b4;
+  constexpr static std::size_t addrs = 0x6c43bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*)>(
     &::UnityEngine::UIElements::BaseListViewController::add_itemsAdded)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c48260;
+  constexpr static std::size_t addrs = 0x6c43c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*)>(
     &::UnityEngine::UIElements::BaseListViewController::remove_itemsAdded)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c48320;
+  constexpr static std::size_t addrs = 0x6c43d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*)>(
     &::UnityEngine::UIElements::BaseListViewController::add_itemsRemoved)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c483e0;
+  constexpr static std::size_t addrs = 0x6c43de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*)>(
     &::UnityEngine::UIElements::BaseListViewController::remove_itemsRemoved)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c484a0;
+  constexpr static std::size_t addrs = 0x6c43ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BaseListView* (::UnityEngine::UIElements::BaseListViewController::*)()>(
     &::UnityEngine::UIElements::BaseListViewController::get_baseListView)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6c48560;
+  constexpr static std::size_t addrs = 0x6c43f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseListViewController*>(), { "get_baseListView", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::UnityEngine::UIElements::ReusableCollectionItem*)>(
     &::UnityEngine::UIElements::BaseListViewController::InvokeMakeItem)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6c485e0;
+  constexpr static std::size_t addrs = 0x6c43fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::UnityEngine::UIElements::ReusableListViewItem*)>(
     &::UnityEngine::UIElements::BaseListViewController::PostInitRegistration)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x6c48798;
+  constexpr static std::size_t addrs = 0x6c4419c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseListViewController*>(),
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::UnityEngine::UIElements::ReusableCollectionItem*, int32_t)>(
     &::UnityEngine::UIElements::BaseListViewController::SetBindingContext)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6c48b68;
+  constexpr static std::size_t addrs = 0x6c4456c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::UnityEngine::UIElements::ReusableCollectionItem*, int32_t)>(
     &::UnityEngine::UIElements::BaseListViewController::InvokeBindItem)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6c48c6c;
+  constexpr static std::size_t addrs = 0x6c44670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BaseListViewController::*)(int32_t)>(&::UnityEngine::UIElements::BaseListViewController::NeedsDragHandle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c48f90;
+  constexpr static std::size_t addrs = 0x6c44994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(int32_t)>(&::UnityEngine::UIElements::BaseListViewController::AddItems)> {
   constexpr static std::size_t size = 0x6cc;
-  constexpr static std::size_t addrs = 0x6c48f98;
+  constexpr static std::size_t addrs = 0x6c4499c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(int32_t, int32_t)>(&::UnityEngine::UIElements::BaseListViewController::Move)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6c49900;
+  constexpr static std::size_t addrs = 0x6c45304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(int32_t)>(&::UnityEngine::UIElements::BaseListViewController::RemoveItem)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x6c49cd8;
+  constexpr static std::size_t addrs = 0x6c456dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::System::Collections::Generic::List_1<int32_t>*)>(
     &::UnityEngine::UIElements::BaseListViewController::RemoveItems)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x6c49e84;
+  constexpr static std::size_t addrs = 0x6c45888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(int32_t)>(&::UnityEngine::UIElements::BaseListViewController::RemoveItems)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x6c4a2fc;
+  constexpr static std::size_t addrs = 0x6c45d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)()>(&::UnityEngine::UIElements::BaseListViewController::ClearItems)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x6c4a4ec;
+  constexpr static std::size_t addrs = 0x6c45ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)()>(&::UnityEngine::UIElements::BaseListViewController::RaiseOnSizeChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c498e4;
+  constexpr static std::size_t addrs = 0x6c452e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseListViewController*>(), { "RaiseOnSizeChanged", {}, {} })));
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(
     &::UnityEngine::UIElements::BaseListViewController::RaiseItemsAdded)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c498c8;
+  constexpr static std::size_t addrs = 0x6c452cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseListViewController*>(),
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(
     &::UnityEngine::UIElements::BaseListViewController::RaiseItemsRemoved)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c4a11c;
+  constexpr static std::size_t addrs = 0x6c45b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -307,7 +307,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Array* (*)(::System::Array*, int32_t)>(&::UnityEngine::UIElements::BaseListViewController::AddToArray)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6c497d8;
+  constexpr static std::size_t addrs = 0x6c451dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseListViewController*>(),
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Array* (*)(::System::Array*, ::System::Collections::Generic::List_1<int32_t>*)>(
     &::UnityEngine::UIElements::BaseListViewController::RemoveFromArray)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x6c4a138;
+  constexpr static std::size_t addrs = 0x6c45b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(int32_t, int32_t)>(&::UnityEngine::UIElements::BaseListViewController::Swap)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x6c49a78;
+  constexpr static std::size_t addrs = 0x6c4547c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)()>(
     &::UnityEngine::UIElements::BaseListViewController::EnsureItemSourceCanBeResized)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6c49664;
+  constexpr static std::size_t addrs = 0x6c45068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -362,7 +362,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)()>(&::UnityEngine::UIElements::BaseListViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c4a6a0;
+  constexpr static std::size_t addrs = 0x6c460a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseListViewController*>(), { ".ctor", {}, {} })));
@@ -374,7 +374,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::UnityEngine::UIElements::BaseListViewController::_AddItems_g__IsGenericList_19_0)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6c4a6a8;
+  constexpr static std::size_t addrs = 0x6c460ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

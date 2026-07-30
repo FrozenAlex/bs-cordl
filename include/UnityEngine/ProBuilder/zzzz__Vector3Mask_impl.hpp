@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::Vector3Mask::*)()>(&::UnityEngine::ProBuilder::Vector3Mask::get_x)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66f5edc;
+  constexpr static std::size_t addrs = 0x66f3c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Vector3Mask>(), { "get_x", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::Vector3Mask::*)()>(&::UnityEngine::ProBuilder::Vector3Mask::get_y)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66f5ef4;
+  constexpr static std::size_t addrs = 0x66f3c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Vector3Mask>(), { "get_y", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::Vector3Mask::*)()>(&::UnityEngine::ProBuilder::Vector3Mask::get_z)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66f5f0c;
+  constexpr static std::size_t addrs = 0x66f3ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Vector3Mask>(), { "get_z", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Vector3Mask::*)(::UnityEngine::Vector3, float_t)>(&::UnityEngine::ProBuilder::Vector3Mask::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x66f5f24;
+  constexpr static std::size_t addrs = 0x66f3cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Vector3Mask::*)(uint8_t)>(&::UnityEngine::ProBuilder::Vector3Mask::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66f5f58;
+  constexpr static std::size_t addrs = 0x66f3cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Vector3Mask>(), { ".ctor", {}, { ::i2c::type_of<uint8_t>() } })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::Vector3Mask::*)()>(&::UnityEngine::ProBuilder::Vector3Mask::ToString)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x66f5f60;
+  constexpr static std::size_t addrs = 0x66f3cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::Vector3Mask::*)()>(&::UnityEngine::ProBuilder::Vector3Mask::get_active)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x66f6088;
+  constexpr static std::size_t addrs = 0x66f3e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Vector3Mask>(), { "get_active", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::ProBuilder::Vector3Mask)>(
     &::UnityEngine::ProBuilder::Vector3Mask::op_Implicit___UnityEngine__Vector3)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x66f60a4;
+  constexpr static std::size_t addrs = 0x66f3e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Vector3Mask (*)(::UnityEngine::Vector3)>(
     &::UnityEngine::ProBuilder::Vector3Mask::op_Explicit___UnityEngine__ProBuilder__Vector3Mask)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x66f6118;
+  constexpr static std::size_t addrs = 0x66f3eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Vector3Mask (*)(::UnityEngine::ProBuilder::Vector3Mask, ::UnityEngine::ProBuilder::Vector3Mask)>(
     &::UnityEngine::ProBuilder::Vector3Mask::op_BitwiseOr)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66f6150;
+  constexpr static std::size_t addrs = 0x66f3eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Vector3Mask (*)(::UnityEngine::ProBuilder::Vector3Mask, ::UnityEngine::ProBuilder::Vector3Mask)>(
     &::UnityEngine::ProBuilder::Vector3Mask::op_BitwiseAnd)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66f6158;
+  constexpr static std::size_t addrs = 0x66f3ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Vector3Mask (*)(::UnityEngine::ProBuilder::Vector3Mask, ::UnityEngine::ProBuilder::Vector3Mask)>(
     &::UnityEngine::ProBuilder::Vector3Mask::op_ExclusiveOr)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66f6160;
+  constexpr static std::size_t addrs = 0x66f3efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::ProBuilder::Vector3Mask, float_t)>(&::UnityEngine::ProBuilder::Vector3Mask::op_Multiply)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x66f6168;
+  constexpr static std::size_t addrs = 0x66f3f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::ProBuilder::Vector3Mask, ::UnityEngine::Vector3)>(
     &::UnityEngine::ProBuilder::Vector3Mask::op_Multiply)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x66f6210;
+  constexpr static std::size_t addrs = 0x66f3fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Quaternion, ::UnityEngine::ProBuilder::Vector3Mask)>(
     &::UnityEngine::ProBuilder::Vector3Mask::op_Multiply)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x66f62ac;
+  constexpr static std::size_t addrs = 0x66f4048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ProBuilder::Vector3Mask, ::UnityEngine::ProBuilder::Vector3Mask)>(
     &::UnityEngine::ProBuilder::Vector3Mask::op_Equality)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x66f6428;
+  constexpr static std::size_t addrs = 0x66f41c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ProBuilder::Vector3Mask, ::UnityEngine::ProBuilder::Vector3Mask)>(
     &::UnityEngine::ProBuilder::Vector3Mask::op_Inequality)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x66f6438;
+  constexpr static std::size_t addrs = 0x66f41d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::Vector3Mask::*)(int32_t)>(&::UnityEngine::ProBuilder::Vector3Mask::get_Item)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x66f64a4;
+  constexpr static std::size_t addrs = 0x66f4240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Vector3Mask::*)(int32_t, float_t)>(&::UnityEngine::ProBuilder::Vector3Mask::set_Item)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x66f64f8;
+  constexpr static std::size_t addrs = 0x66f4294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Vector3Mask::*)(::UnityEngine::ProBuilder::Vector3Mask)>(&::UnityEngine::ProBuilder::Vector3Mask::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x66f6560;
+  constexpr static std::size_t addrs = 0x66f42fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -282,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Vector3Mask::*)(::System::Object*)>(&::UnityEngine::ProBuilder::Vector3Mask::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x66f6570;
+  constexpr static std::size_t addrs = 0x66f430c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::Vector3Mask::*)()>(&::UnityEngine::ProBuilder::Vector3Mask::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66f6620;
+  constexpr static std::size_t addrs = 0x66f43bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

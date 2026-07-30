@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RNGCryptoServiceProvider::*)()>(&::System::Security::Cryptography::RNGCryptoServiceProvider::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5b0d0a4;
+  constexpr static std::size_t addrs = 0x5b0aee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RNGCryptoServiceProvider*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RNGCryptoServiceProvider::*)()>(&::System::Security::Cryptography::RNGCryptoServiceProvider::Check)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5b0d110;
+  constexpr static std::size_t addrs = 0x5b0af54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RNGCryptoServiceProvider*>(), { "Check", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Security::Cryptography::RNGCryptoServiceProvider::RngOpen)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5b0d078;
+  constexpr static std::size_t addrs = 0x5b0aebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RNGCryptoServiceProvider*>(), { "RngOpen", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(uint8_t*, ::System::IntPtr)>(&::System::Security::Cryptography::RNGCryptoServiceProvider::RngInitialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b0d10c;
+  constexpr static std::size_t addrs = 0x5b0af50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RNGCryptoServiceProvider*>(),
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, uint8_t*, ::System::IntPtr)>(&::System::Security::Cryptography::RNGCryptoServiceProvider::RngGetBytes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b0d16c;
+  constexpr static std::size_t addrs = 0x5b0afb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::System::Security::Cryptography::RNGCryptoServiceProvider::RngClose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b0d170;
+  constexpr static std::size_t addrs = 0x5b0afb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RNGCryptoServiceProvider::*)(::ArrayW<uint8_t>)>(
     &::System::Security::Cryptography::RNGCryptoServiceProvider::GetBytes)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5b0d174;
+  constexpr static std::size_t addrs = 0x5b0afb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RNGCryptoServiceProvider*>(),
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RNGCryptoServiceProvider::*)()>(&::System::Security::Cryptography::RNGCryptoServiceProvider::Finalize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5b0d374;
+  constexpr static std::size_t addrs = 0x5b0b1b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RNGCryptoServiceProvider*>(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RNGCryptoServiceProvider::*)(bool)>(
     &::System::Security::Cryptography::RNGCryptoServiceProvider::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b0d408;
+  constexpr static std::size_t addrs = 0x5b0b24c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RNGCryptoServiceProvider*>(),

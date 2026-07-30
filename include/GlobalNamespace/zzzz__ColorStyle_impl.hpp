@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ColorStyle::*)()>(&::GlobalNamespace::ColorStyle::get_useScriptableObjectColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36f576c;
+  constexpr static std::size_t addrs = 0x36f3d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorStyle*>(), { "get_useScriptableObjectColor", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStyle::*)(bool)>(&::GlobalNamespace::ColorStyle::set_useScriptableObjectColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36f5774;
+  constexpr static std::size_t addrs = 0x36f3d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorStyle::*)()>(&::GlobalNamespace::ColorStyle::get_color)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x36f577c;
+  constexpr static std::size_t addrs = 0x36f3d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorStyle*>(), { "get_color", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStyle::*)(::UnityEngine::Color)>(&::GlobalNamespace::ColorStyle::set_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x36f5804;
+  constexpr static std::size_t addrs = 0x36f3dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::ColorStyle::*)()>(&::GlobalNamespace::ColorStyle::get_globalLightTintIntensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36f5810;
+  constexpr static std::size_t addrs = 0x36f3dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorStyle*>(), { "get_globalLightTintIntensity", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStyle::*)(float_t)>(&::GlobalNamespace::ColorStyle::set_globalLightTintIntensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36f5818;
+  constexpr static std::size_t addrs = 0x36f3de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ColorStyle::*)()>(&::GlobalNamespace::ColorStyle::get_gradient)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36f5820;
+  constexpr static std::size_t addrs = 0x36f3de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorStyle*>(), { "get_gradient", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStyle::*)(bool)>(&::GlobalNamespace::ColorStyle::set_gradient)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36f5828;
+  constexpr static std::size_t addrs = 0x36f3df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorStyle*>(), { "set_gradient", {}, { ::i2c::type_of<bool>() } })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorStyle::*)()>(&::GlobalNamespace::ColorStyle::get_color0)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x36f5830;
+  constexpr static std::size_t addrs = 0x36f3df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorStyle*>(), { "get_color0", {}, {} })));
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStyle::*)(::UnityEngine::Color)>(&::GlobalNamespace::ColorStyle::set_color0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x36f58b8;
+  constexpr static std::size_t addrs = 0x36f3e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorStyle::*)()>(&::GlobalNamespace::ColorStyle::get_color1)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x36f58c4;
+  constexpr static std::size_t addrs = 0x36f3e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorStyle*>(), { "get_color1", {}, {} })));
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStyle::*)(::UnityEngine::Color)>(&::GlobalNamespace::ColorStyle::set_color1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x36f594c;
+  constexpr static std::size_t addrs = 0x36f3f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GradientDirection (::GlobalNamespace::ColorStyle::*)()>(&::GlobalNamespace::ColorStyle::get_gradientDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36f5958;
+  constexpr static std::size_t addrs = 0x36f3f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorStyle*>(), { "get_gradientDirection", {}, {} })));
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStyle::*)(::GlobalNamespace::GradientDirection)>(&::GlobalNamespace::ColorStyle::set_gradientDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36f5960;
+  constexpr static std::size_t addrs = 0x36f3f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ColorStyle::*)()>(&::GlobalNamespace::ColorStyle::get_flipGradientColors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36f5968;
+  constexpr static std::size_t addrs = 0x36f3f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorStyle*>(), { "get_flipGradientColors", {}, {} })));
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStyle::*)(::GlobalNamespace::IReadOnlyColorStyle*, ::GlobalNamespace::IReadOnlyColorStyle*, float_t,
                                                                                                ::GlobalNamespace::LerpMask)>(&::GlobalNamespace::ColorStyle::Lerp)> {
   constexpr static std::size_t size = 0x4c8;
-  constexpr static std::size_t addrs = 0x36f5970;
+  constexpr static std::size_t addrs = 0x36f3f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ColorStyle::*)()>(&::GlobalNamespace::ColorStyle::Clone)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x36f5e38;
+  constexpr static std::size_t addrs = 0x36f4400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorStyle*>(), { "Clone", {}, {} })));
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorStyle* (::GlobalNamespace::ColorStyle::*)()>(&::GlobalNamespace::ColorStyle::Copy)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x36f5ef8;
+  constexpr static std::size_t addrs = 0x36f44c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorStyle*>(), { "Copy", {}, {} })));
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorStyle::*)()>(&::GlobalNamespace::ColorStyle::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x36f5ee4;
+  constexpr static std::size_t addrs = 0x36f44ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorStyle*>(), { ".ctor", {}, {} })));

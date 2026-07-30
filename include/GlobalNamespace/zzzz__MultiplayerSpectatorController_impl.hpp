@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::*)(int32_t)>(
     &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59e3d98;
+  constexpr static std::size_t addrs = 0x59e2408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59e3dd0;
+  constexpr static std::size_t addrs = 0x59e2440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x59e3dd4;
+  constexpr static std::size_t addrs = 0x59e2444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59e3e3c;
+  constexpr static std::size_t addrs = 0x59e24ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18*>(),
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59e3e44;
+  constexpr static std::size_t addrs = 0x59e24b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18*>(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59e3e7c;
+  constexpr static std::size_t addrs = 0x59e24ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18*>(),
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::*)(int32_t)>(
     &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59e3d90;
+  constexpr static std::size_t addrs = 0x59e2400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59e3e84;
+  constexpr static std::size_t addrs = 0x59e24f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::MoveNext)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x59e3e88;
+  constexpr static std::size_t addrs = 0x59e24f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59e3f74;
+  constexpr static std::size_t addrs = 0x59e25e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59e3f7c;
+  constexpr static std::size_t addrs = 0x59e25ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59e3fb4;
+  constexpr static std::size_t addrs = 0x59e2624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -413,7 +413,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(
     &::GlobalNamespace::MultiplayerSpectatorController::add_spectatingSpotDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59e36e8;
+  constexpr static std::size_t addrs = 0x59e1d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -428,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(
     &::GlobalNamespace::MultiplayerSpectatorController::remove_spectatingSpotDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59e37a8;
+  constexpr static std::size_t addrs = 0x59e1e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -443,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IMultiplayerSpectatingSpot* (::GlobalNamespace::MultiplayerSpectatorController::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController::get_currentSpot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59e3868;
+  constexpr static std::size_t addrs = 0x59e1ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerSpectatorController*>(), { "get_currentSpot", {}, {} })));
@@ -455,7 +455,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)()>(&::GlobalNamespace::MultiplayerSpectatorController::Awake)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x59e3870;
+  constexpr static std::size_t addrs = 0x59e1ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerSpectatorController*>(), { "Awake", {}, {} })));
@@ -467,7 +467,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)()>(&::GlobalNamespace::MultiplayerSpectatorController::Start)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x59e388c;
+  constexpr static std::size_t addrs = 0x59e1efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerSpectatorController*>(), { "Start", {}, {} })));
@@ -479,7 +479,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)()>(&::GlobalNamespace::MultiplayerSpectatorController::OnDestroy)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x59e3918;
+  constexpr static std::size_t addrs = 0x59e1f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerSpectatorController*>(), { "OnDestroy", {}, {} })));
@@ -491,7 +491,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)()>(&::GlobalNamespace::MultiplayerSpectatorController::SwitchToDefaultSpot)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x59dcac8;
+  constexpr static std::size_t addrs = 0x59db138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerSpectatorController*>(), { "SwitchToDefaultSpot", {}, {} })));
@@ -503,7 +503,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)()>(&::GlobalNamespace::MultiplayerSpectatorController::SwitchToPrev)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x59e3a7c;
+  constexpr static std::size_t addrs = 0x59e20ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerSpectatorController*>(), { "SwitchToPrev", {}, {} })));
@@ -515,7 +515,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)()>(&::GlobalNamespace::MultiplayerSpectatorController::SwitchToNext)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x59e3d00;
+  constexpr static std::size_t addrs = 0x59e2370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerSpectatorController*>(), { "SwitchToNext", {}, {} })));
@@ -528,7 +528,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MultiplayerSpectatorController::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController::SwitchToDefaultSpotWithFadeCoroutine)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x59e3d3c;
+  constexpr static std::size_t addrs = 0x59e23ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -542,7 +542,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MultiplayerSpectatorController::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController::SwitchToDefaultSpotCoroutine)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x59e3a28;
+  constexpr static std::size_t addrs = 0x59e2098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -556,7 +556,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)(::GlobalNamespace::IMultiplayerSpectatingSpot*)>(
     &::GlobalNamespace::MultiplayerSpectatorController::SwitchToSpectatingSpot)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x59e3ab8;
+  constexpr static std::size_t addrs = 0x59e2128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerSpectatorController*>(),
@@ -570,7 +570,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)(::GlobalNamespace::MultiplayerController_State)>(
     &::GlobalNamespace::MultiplayerSpectatorController::HandleStateChanged)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x59e3da0;
+  constexpr static std::size_t addrs = 0x59e2410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerSpectatorController*>(),
@@ -583,7 +583,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)()>(&::GlobalNamespace::MultiplayerSpectatorController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59e3dcc;
+  constexpr static std::size_t addrs = 0x59e243c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerSpectatorController*>(), { ".ctor", {}, {} })));

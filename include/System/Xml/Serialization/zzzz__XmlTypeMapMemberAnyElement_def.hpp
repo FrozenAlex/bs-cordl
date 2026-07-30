@@ -22,15 +22,15 @@ public:
   // Declarations
   __declspec(property(get = get_IsDefaultAny)) bool IsDefaultAny;
 
-  /// @brief Method IsElementDefined, addr 0x630abd8, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method IsElementDefined, addr 0x6308974, size 0x320, virtual false, abstract: false, final false
   inline bool IsElementDefined(::StringW name, ::StringW ns);
 
   static inline ::System::Xml::Serialization::XmlTypeMapMemberAnyElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x630dbf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x630b994, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsDefaultAny, addr 0x630d924, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method get_IsDefaultAny, addr 0x630b6c0, size 0x2d4, virtual false, abstract: false, final false
   inline bool get_IsDefaultAny();
 
 protected:

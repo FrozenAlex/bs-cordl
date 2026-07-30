@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Configuration::IgnoreSection::*)()>(&::System::Configuration::IgnoreSection::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f521d4;
+  constexpr static std::size_t addrs = 0x5f4ff70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Configuration::IgnoreSection*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Configuration::ConfigurationPropertyCollection* (::System::Configuration::IgnoreSection::*)()>(
     &::System::Configuration::IgnoreSection::get_Properties)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f52210;
+  constexpr static std::size_t addrs = 0x5f4ffac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Configuration::IgnoreSection::*)(::System::Xml::XmlReader*)>(&::System::Configuration::IgnoreSection::DeserializeSection)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f5224c;
+  constexpr static std::size_t addrs = 0x5f4ffe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Configuration::IgnoreSection::*)()>(&::System::Configuration::IgnoreSection::IsModified)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f52288;
+  constexpr static std::size_t addrs = 0x5f50024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Configuration::IgnoreSection::*)(::System::Configuration::ConfigurationElement*)>(
     &::System::Configuration::IgnoreSection::Reset)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f522c4;
+  constexpr static std::size_t addrs = 0x5f50060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Configuration::IgnoreSection::*)()>(&::System::Configuration::IgnoreSection::ResetModified)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f52300;
+  constexpr static std::size_t addrs = 0x5f5009c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Configuration::IgnoreSection::*)(
     ::System::Configuration::ConfigurationElement*, ::StringW, ::System::Configuration::ConfigurationSaveMode)>(&::System::Configuration::IgnoreSection::SerializeSection)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f5233c;
+  constexpr static std::size_t addrs = 0x5f500d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

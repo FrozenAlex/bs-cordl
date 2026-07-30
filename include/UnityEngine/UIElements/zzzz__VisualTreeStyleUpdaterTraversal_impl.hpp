@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c::*)()>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ccd610;
+  constexpr static std::size_t addrs = 0x6cc9014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c*>(), { ".ctor", {}, {} })));
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::U
                                                                                                                                    ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c::_ProcessMatchedRules_b__28_0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ccd614;
+  constexpr static std::size_t addrs = 0x6cc9018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)()>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::get_currentPixelsPerPoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ccc438;
+  constexpr static std::size_t addrs = 0x6cc7e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(float_t)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::set_currentPixelsPerPoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ccc440;
+  constexpr static std::size_t addrs = 0x6cc7e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BaseVisualElementPanel* (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)()>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::get_currentPanel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ccc448;
+  constexpr static std::size_t addrs = 0x6cc7e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::set_currentPanel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ccc450;
+  constexpr static std::size_t addrs = 0x6cc7e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*>(),
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(::UnityEngine::UIElements::BaseVisualElementPanel*, float_t)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::PrepareTraversal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ccbdcc;
+  constexpr static std::size_t addrs = 0x6cc77d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VersionChangeType)>(&::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::AddChangedElement)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6ccb694;
+  constexpr static std::size_t addrs = 0x6cc7098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)()>(&::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::Clear)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6ccba60;
+  constexpr static std::size_t addrs = 0x6cc7464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*>(), { "Clear", {}, {} })));
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::PropagateToChildren)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6ccc458;
+  constexpr static std::size_t addrs = 0x6cc7e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*>(),
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::PropagateToParents)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6ccc538;
+  constexpr static std::size_t addrs = 0x6cc7f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*>(),
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::OnProcessMatchResult)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6ccc5d4;
+  constexpr static std::size_t addrs = 0x6cc7fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(::UnityEngine::UIElements::VisualElement*, int32_t)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::TraverseRecursive)> {
   constexpr static std::size_t size = 0x5a0;
-  constexpr static std::size_t addrs = 0x6ccc600;
+  constexpr static std::size_t addrs = 0x6cc8004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*>(),
@@ -250,7 +250,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::ProcessTransitions)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6ccd220;
+  constexpr static std::size_t addrs = 0x6cc8c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::ForceUpdateTransitions)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x6ccd2f4;
+  constexpr static std::size_t addrs = 0x6cc8cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*>(),
@@ -283,7 +283,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::ComputedStyle>)>(
         &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::CancelAnimationsWithNoTransitionProperty)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x6ccbb10;
+  constexpr static std::size_t addrs = 0x6cc7514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::ShouldSkipElement)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6cccba0;
+  constexpr static std::size_t addrs = 0x6cc85a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*>(),
@@ -315,7 +315,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::UnityEngine::UIElements::VisualElement*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::ProcessMatchedRules)> {
   constexpr static std::size_t size = 0x5f0;
-  constexpr static std::size_t addrs = 0x6cccc30;
+  constexpr static std::size_t addrs = 0x6cc8634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(
     ::UnityEngine::UIElements::StyleSheet*, ::UnityEngine::UIElements::StyleRule*)>(&::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::ProcessMatchedVariables)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6ccd51c;
+  constexpr static std::size_t addrs = 0x6cc8f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -348,7 +348,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)()>(&::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::_ctor)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x6ccbea0;
+  constexpr static std::size_t addrs = 0x6cc78a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*>(), { ".ctor", {}, {} })));

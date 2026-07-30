@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeDropdown::*)()>(&::GlobalNamespace::ColorSchemeDropdown::LazyInit)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x591e09c;
+  constexpr static std::size_t addrs = 0x591c5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemeDropdown*>(), { "LazyInit", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeDropdown::*)()>(&::GlobalNamespace::ColorSchemeDropdown::OnDestroy)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x591e160;
+  constexpr static std::size_t addrs = 0x591c680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeDropdown::*)(::HMUI::TableView_IDataSource*)>(&::GlobalNamespace::ColorSchemeDropdown::Init)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x591e1f0;
+  constexpr static std::size_t addrs = 0x591c710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeDropdown::*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>*)>(
     &::GlobalNamespace::ColorSchemeDropdown::SetData)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x591e228;
+  constexpr static std::size_t addrs = 0x591c748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::ColorSchemeDropdown::*)(int32_t)>(&::GlobalNamespace::ColorSchemeDropdown::CellSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591e484;
+  constexpr static std::size_t addrs = 0x591c9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ColorSchemeDropdown::*)()>(&::GlobalNamespace::ColorSchemeDropdown::NumberOfCells)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x591e48c;
+  constexpr static std::size_t addrs = 0x591c9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemeDropdown*>(), { "NumberOfCells", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::TableCell> (::GlobalNamespace::ColorSchemeDropdown::*)(::HMUI::TableView*, int32_t)>(
     &::GlobalNamespace::ColorSchemeDropdown::CellForIdx)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x591e53c;
+  constexpr static std::size_t addrs = 0x591ca5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeDropdown::*)(int32_t)>(&::GlobalNamespace::ColorSchemeDropdown::SelectCellWithIdx)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x591e7c0;
+  constexpr static std::size_t addrs = 0x591cce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeDropdown::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::GlobalNamespace::ColorSchemeDropdown::HandleDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x591e890;
+  constexpr static std::size_t addrs = 0x591cdb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeDropdown::*)(::GlobalNamespace::ColorScheme*)>(&::GlobalNamespace::ColorSchemeDropdown::RefreshUI)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x591e390;
+  constexpr static std::size_t addrs = 0x591c8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeDropdown::*)()>(&::GlobalNamespace::ColorSchemeDropdown::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x591e9dc;
+  constexpr static std::size_t addrs = 0x591cefc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemeDropdown*>(), { ".ctor", {}, {} })));

@@ -87,43 +87,43 @@ public:
 
   static inline ::System::Reflection::MethodInfo* getStaticF_s_String_op_Equality_String_String();
 
-  /// @brief Method get_CallSiteOps_AddRule, addr 0x5f59a84, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_AddRule, addr 0x5f57820, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_AddRule();
 
-  /// @brief Method get_CallSiteOps_Bind, addr 0x5f59c0c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_Bind, addr 0x5f579a8, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_Bind();
 
-  /// @brief Method get_CallSiteOps_ClearMatch, addr 0x5f596b0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_ClearMatch, addr 0x5f5744c, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_ClearMatch();
 
-  /// @brief Method get_CallSiteOps_CreateMatchmaker, addr 0x5f59528, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_CreateMatchmaker, addr 0x5f572c4, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_CreateMatchmaker();
 
-  /// @brief Method get_CallSiteOps_GetCachedRules, addr 0x5f599c0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_GetCachedRules, addr 0x5f5775c, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_GetCachedRules();
 
-  /// @brief Method get_CallSiteOps_GetMatch, addr 0x5f595ec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_GetMatch, addr 0x5f57388, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_GetMatch();
 
-  /// @brief Method get_CallSiteOps_GetRuleCache, addr 0x5f598fc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_GetRuleCache, addr 0x5f57698, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_GetRuleCache();
 
-  /// @brief Method get_CallSiteOps_GetRules, addr 0x5f59838, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_GetRules, addr 0x5f575d4, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_GetRules();
 
-  /// @brief Method get_CallSiteOps_MoveRule, addr 0x5f59b48, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_MoveRule, addr 0x5f578e4, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_MoveRule();
 
-  /// @brief Method get_CallSiteOps_SetNotMatched, addr 0x5f59464, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_SetNotMatched, addr 0x5f57200, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_SetNotMatched();
 
-  /// @brief Method get_CallSiteOps_UpdateRules, addr 0x5f59774, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_UpdateRules, addr 0x5f57510, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_UpdateRules();
 
-  /// @brief Method get_Math_Pow_Double_Double, addr 0x5f59e58, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method get_Math_Pow_Double_Double, addr 0x5f57bf4, size 0x19c, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_Math_Pow_Double_Double();
 
-  /// @brief Method get_String_op_Equality_String_String, addr 0x5f59cd0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method get_String_op_Equality_String_String, addr 0x5f57a6c, size 0x188, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_String_op_Equality_String_String();
 
   static inline void setStaticF_s_CallSiteOps_AddRule(::System::Reflection::MethodInfo* value);
@@ -167,7 +167,7 @@ public:
   CachedReflectionInfo(CachedReflectionInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16073 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16071 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

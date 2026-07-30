@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AbTestExperimentDefinitionSO::*)()>(&::GlobalNamespace::AbTestExperimentDefinitionSO::get_test1GroupSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a20540;
+  constexpr static std::size_t addrs = 0x5a1e384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AbTestExperimentDefinitionSO*>(), { "get_test1GroupSize", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AbTestExperimentDefinitionSO::*)()>(&::GlobalNamespace::AbTestExperimentDefinitionSO::get_test2GroupSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a20548;
+  constexpr static std::size_t addrs = 0x5a1e38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AbTestExperimentDefinitionSO*>(), { "get_test2GroupSize", {}, {} })));
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::AbTestExperimentDefinitionSO::*)()>(&::GlobalNamespace::AbTestExperimentDefinitionSO::get_experimentName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a20550;
+  constexpr static std::size_t addrs = 0x5a1e394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AbTestExperimentDefinitionSO*>(), { "get_experimentName", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::AbTestExperimentDefinitionSO_Group (::GlobalNamespace::AbTestExperimentDefinitionSO::*)()>(
     &::GlobalNamespace::AbTestExperimentDefinitionSO::get_currentUserTreatmentGroup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a20558;
+  constexpr static std::size_t addrs = 0x5a1e39c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AbTestExperimentDefinitionSO::*)()>(&::GlobalNamespace::AbTestExperimentDefinitionSO::OnValidate)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5a20560;
+  constexpr static std::size_t addrs = 0x5a1e3a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AbTestExperimentDefinitionSO*>(), { "OnValidate", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AbTestExperimentDefinitionSO::*)(::StringW)>(
     &::GlobalNamespace::AbTestExperimentDefinitionSO::ComputeCurrentUserTreatment)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a20594;
+  constexpr static std::size_t addrs = 0x5a1e3d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AbTestExperimentDefinitionSO::*)(::GlobalNamespace::AbTestExperimentDefinitionSO_Group)>(
     &::GlobalNamespace::AbTestExperimentDefinitionSO::ForceSetTreatmentGroup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a207b8;
+  constexpr static std::size_t addrs = 0x5a1e5fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::AbTestExperimentDefinitionSO_Group (::GlobalNamespace::AbTestExperimentDefinitionSO::*)(::StringW)>(
     &::GlobalNamespace::AbTestExperimentDefinitionSO::AbSplit)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x5a205ac;
+  constexpr static std::size_t addrs = 0x5a1e3f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AbTestExperimentDefinitionSO::*)()>(&::GlobalNamespace::AbTestExperimentDefinitionSO::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a207c0;
+  constexpr static std::size_t addrs = 0x5a1e604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AbTestExperimentDefinitionSO*>(), { ".ctor", {}, {} })));

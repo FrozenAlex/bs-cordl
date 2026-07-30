@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapDataBasicInfo::*)()>(&::GlobalNamespace::BeatmapDataBasicInfo::get_numberOfLines)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x370e228;
+  constexpr static std::size_t addrs = 0x370cc50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataBasicInfo*>(), { "get_numberOfLines", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapDataBasicInfo::*)()>(&::GlobalNamespace::BeatmapDataBasicInfo::get_cuttableNotesCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x370e230;
+  constexpr static std::size_t addrs = 0x370cc58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataBasicInfo*>(), { "get_cuttableNotesCount", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapDataBasicInfo::*)()>(&::GlobalNamespace::BeatmapDataBasicInfo::get_cuttableScoringObjectsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x370e238;
+  constexpr static std::size_t addrs = 0x370cc60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapDataBasicInfo::*)()>(&::GlobalNamespace::BeatmapDataBasicInfo::get_obstaclesCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x370e240;
+  constexpr static std::size_t addrs = 0x370cc68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataBasicInfo*>(), { "get_obstaclesCount", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapDataBasicInfo::*)()>(&::GlobalNamespace::BeatmapDataBasicInfo::get_bombsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x370e248;
+  constexpr static std::size_t addrs = 0x370cc70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataBasicInfo*>(), { "get_bombsCount", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataBasicInfo::*)(int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::GlobalNamespace::BeatmapDataBasicInfo::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x370e250;
+  constexpr static std::size_t addrs = 0x370cc78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::BaseElementBuilder::*)(Il2CppObject*)>(&::UnityEngine::UIElements::UIR::BaseElementBuilder::Build)> {
   constexpr static std::size_t size = 0x6bc;
-  constexpr static std::size_t addrs = 0x6cd281c;
+  constexpr static std::size_t addrs = 0x6cce220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::BaseElementBuilder::*)(Il2CppObject*)>(
     &::UnityEngine::UIElements::UIR::BaseElementBuilder::PushVisualElementClipping)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x6cd2ed8;
+  constexpr static std::size_t addrs = 0x6cce8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(Il2CppObject*)>(&::UnityEngine::UIElements::UIR::BaseElementBuilder::PopVisualElementClipping)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6cd322c;
+  constexpr static std::size_t addrs = 0x6ccec30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(Il2CppObject*)>(&::UnityEngine::UIElements::UIR::BaseElementBuilder::InvokeGenerateVisualContent)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6cd3128;
+  constexpr static std::size_t addrs = 0x6cceb2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::BaseElementBuilder::*)()>(&::UnityEngine::UIElements::UIR::BaseElementBuilder::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cd33d0;
+  constexpr static std::size_t addrs = 0x6ccedd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BaseElementBuilder*>(), { ".ctor", {}, {} })));

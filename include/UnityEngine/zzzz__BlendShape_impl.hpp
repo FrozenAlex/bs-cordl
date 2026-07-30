@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::BlendShape::*)()>(&::UnityEngine::BlendShape::get_firstVertex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6aae640;
+  constexpr static std::size_t addrs = 0x6aa9f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BlendShape>(), { "get_firstVertex", {}, {} })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::BlendShape::*)()>(&::UnityEngine::BlendShape::get_vertexCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6aae650;
+  constexpr static std::size_t addrs = 0x6aa9f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BlendShape>(), { "get_vertexCount", {}, {} })));

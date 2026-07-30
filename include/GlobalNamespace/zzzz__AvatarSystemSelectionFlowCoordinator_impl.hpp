@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarSystemSelectionFlowCoordinator__Initialize_d__11::*)()>(
     &::GlobalNamespace::AvatarSystemSelectionFlowCoordinator__Initialize_d__11::MoveNext)> {
   constexpr static std::size_t size = 0x71c;
-  constexpr static std::size_t addrs = 0x5a01200;
+  constexpr static std::size_t addrs = 0x59ff62c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarSystemSelectionFlowCoordinator__Initialize_d__11::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::AvatarSystemSelectionFlowCoordinator__Initialize_d__11::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a0191c;
+  constexpr static std::size_t addrs = 0x59ffd48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator__Initialize_d__11>(),
@@ -103,7 +103,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>*)>(
     &::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a004a4;
+  constexpr static std::size_t addrs = 0x59fe8d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>*)>(
     &::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a00564;
+  constexpr static std::size_t addrs = 0x59fe990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::*)(
     ::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*)>(&::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::Initialize)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5a00624;
+  constexpr static std::size_t addrs = 0x59fea50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::*)(bool)>(&::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a006d4;
+  constexpr static std::size_t addrs = 0x59feb00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::*)(bool, bool, bool)>(
     &::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::DidActivate)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5a006dc;
+  constexpr static std::size_t addrs = 0x59feb08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator*>(),
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::*)(bool, bool)>(
     &::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::DidDeactivate)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5a008dc;
+  constexpr static std::size_t addrs = 0x59fed08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator*>(),
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::*)(
     ::HMUI::ViewController*, ::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(&::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::TopViewControllerWillChange)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5a00a70;
+  constexpr static std::size_t addrs = 0x59fee9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator*>(),
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::*)(::BeatSaber::AvatarCore::IAvatarSystemMetadata*)>(
     &::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::SetAvatarSystemPreferred)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x5a00afc;
+  constexpr static std::size_t addrs = 0x59fef28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator*>(),
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::*)(::BeatSaber::AvatarCore::IAvatarSystemMetadata*)>(
     &::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::HandleSelectAvatarSystemViewControllerDidSetAvatarSystemPreferred)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a00c30;
+  constexpr static std::size_t addrs = 0x59ff05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::*)(::BeatSaber::AvatarCore::IAvatarSystemMetadata*)>(
     &::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::HandleSelectAvatarSystemViewControllerDidRequestEditOfAvatar)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x5a00c34;
+  constexpr static std::size_t addrs = 0x59ff060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::*)(::BeatSaber::AvatarCore::IAvatarSystemMetadata*)>(
     &::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::HandleSelectAvatarSystemViewControllerDidRequestCreationOfAvatar)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x5a00db4;
+  constexpr static std::size_t addrs = 0x59ff1e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -272,7 +272,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*, ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction)>(
     &::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::HandleAvatarEditorFlowCoordinatorDidFinish)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5a00f34;
+  constexpr static std::size_t addrs = 0x59ff360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::HandleSelectAvatarSystemViewControllerDidPressContinueButton)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5a01054;
+  constexpr static std::size_t addrs = 0x59ff480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::*)(::HMUI::ViewController*)>(
     &::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::BackButtonWasPressed)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5a01078;
+  constexpr static std::size_t addrs = 0x59ff4a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator*>(),
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::*)()>(&::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5a0109c;
+  constexpr static std::size_t addrs = 0x59ff4c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator*>(), { ".ctor", {}, {} })));
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::*)(::BeatSaber::AvatarCore::IAvatarSystemMetadata*)>(
     &::GlobalNamespace::AvatarSystemSelectionFlowCoordinator::_Initialize_b__11_0)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5a0113c;
+  constexpr static std::size_t addrs = 0x59ff568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator*>(),

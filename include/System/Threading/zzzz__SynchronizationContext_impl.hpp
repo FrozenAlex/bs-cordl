@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SynchronizationContext::*)()>(&::System::Threading::SynchronizationContext::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cafcfc;
+  constexpr static std::size_t addrs = 0x5cada68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SynchronizationContext*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::SynchronizationContext::*)()>(&::System::Threading::SynchronizationContext::IsWaitNotificationRequired)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cafd00;
+  constexpr static std::size_t addrs = 0x5cada6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SynchronizationContext*>(), { "IsWaitNotificationRequired", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SynchronizationContext::*)(::System::Threading::SendOrPostCallback*, ::System::Object*)>(
     &::System::Threading::SynchronizationContext::Send)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5cafd0c;
+  constexpr static std::size_t addrs = 0x5cada78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SynchronizationContext::*)(::System::Threading::SendOrPostCallback*, ::System::Object*)>(
     &::System::Threading::SynchronizationContext::Post)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5cafd30;
+  constexpr static std::size_t addrs = 0x5cada9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SynchronizationContext::*)()>(&::System::Threading::SynchronizationContext::OperationStarted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cafdc0;
+  constexpr static std::size_t addrs = 0x5cadb2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SynchronizationContext::*)()>(&::System::Threading::SynchronizationContext::OperationCompleted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cafdc4;
+  constexpr static std::size_t addrs = 0x5cadb30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::SynchronizationContext::*)(::ArrayW<::System::IntPtr>, bool, int32_t)>(
     &::System::Threading::SynchronizationContext::Wait)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5cafdc8;
+  constexpr static std::size_t addrs = 0x5cadb34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<::System::IntPtr>, bool, int32_t)>(&::System::Threading::SynchronizationContext::WaitHelper)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5cafe28;
+  constexpr static std::size_t addrs = 0x5cadb94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::SynchronizationContext*)>(&::System::Threading::SynchronizationContext::SetSynchronizationContext)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5cafeb4;
+  constexpr static std::size_t addrs = 0x5cadc20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SynchronizationContext*>(),
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::SynchronizationContext* (*)()>(&::System::Threading::SynchronizationContext::get_Current)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5ca757c;
+  constexpr static std::size_t addrs = 0x5ca52e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SynchronizationContext*>(), { "get_Current", {}, {} })));
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::SynchronizationContext* (*)()>(&::System::Threading::SynchronizationContext::get_CurrentNoFlow)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5caff34;
+  constexpr static std::size_t addrs = 0x5cadca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SynchronizationContext*>(), { "get_CurrentNoFlow", {}, {} })));
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::SynchronizationContext* (*)()>(&::System::Threading::SynchronizationContext::GetThreadLocalContext)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5cafee4;
+  constexpr static std::size_t addrs = 0x5cadc50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SynchronizationContext*>(), { "GetThreadLocalContext", {}, {} })));
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::SynchronizationContext* (::System::Threading::SynchronizationContext::*)()>(
     &::System::Threading::SynchronizationContext::CreateCopy)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cb000c;
+  constexpr static std::size_t addrs = 0x5cadd78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::SynchronizationContext* (*)()>(&::System::Threading::SynchronizationContext::get_CurrentExplicit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cb0050;
+  constexpr static std::size_t addrs = 0x5caddbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SynchronizationContext*>(), { "get_CurrentExplicit", {}, {} })));

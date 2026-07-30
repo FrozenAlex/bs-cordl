@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown__UpdateScrollPosition_d__24::*)(int32_t)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown__UpdateScrollPosition_d__24::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a59044;
+  constexpr static std::size_t addrs = 0x5a56e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown__UpdateScrollPosition_d__24::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown__UpdateScrollPosition_d__24::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a591b0;
+  constexpr static std::size_t addrs = 0x5a56ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown__UpdateScrollPosition_d__24::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown__UpdateScrollPosition_d__24::MoveNext)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5a591b4;
+  constexpr static std::size_t addrs = 0x5a56ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown__UpdateScrollPosition_d__24::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown__UpdateScrollPosition_d__24::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a593f0;
+  constexpr static std::size_t addrs = 0x5a57234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown__UpdateScrollPosition_d__24::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown__UpdateScrollPosition_d__24::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5a593f8;
+  constexpr static std::size_t addrs = 0x5a5723c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown__UpdateScrollPosition_d__24::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown__UpdateScrollPosition_d__24::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a59430;
+  constexpr static std::size_t addrs = 0x5a57274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::get_IsMenuVisible)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a58348;
+  constexpr static std::size_t addrs = 0x5a5618c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::get_DefaultHeight)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5a58360;
+  constexpr static std::size_t addrs = 0x5a561a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::get_Label)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a5838c;
+  constexpr static std::size_t addrs = 0x5a561d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::*)(::StringW)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::set_Label)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5a583a0;
+  constexpr static std::size_t addrs = 0x5a561e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::*)(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::set_BackgroundStyle)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5a5842c;
+  constexpr static std::size_t addrs = 0x5a56270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::*)(::Meta::XR::ImmersiveDebugger::Manager::TweakEnum*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::SetupMenu)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5a584cc;
+  constexpr static std::size_t addrs = 0x5a56310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown*>(),
@@ -339,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::*)(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::Setup)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x5a58a78;
+  constexpr static std::size_t addrs = 0x5a568bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown*>(),
@@ -353,7 +353,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::OnDropdownClick)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a58e14;
+  constexpr static std::size_t addrs = 0x5a56c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::*)(
     ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::DropdownMenuItem*)>(&::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::OnMenuItemClick)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5a58e84;
+  constexpr static std::size_t addrs = 0x5a56cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::*)(bool)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::SetDropdownMenuVisibility)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5a58e34;
+  constexpr static std::size_t addrs = 0x5a56c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -396,7 +396,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::Update)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5a58ed0;
+  constexpr static std::size_t addrs = 0x5a56d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown*>(), { "Update", {}, {} })));
@@ -409,7 +409,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::*)(bool)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::UpdateScrollPosition)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5a58fdc;
+  constexpr static std::size_t addrs = 0x5a56e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -423,7 +423,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::HideDropdownItems)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5a5904c;
+  constexpr static std::size_t addrs = 0x5a56e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -437,7 +437,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::SetupDropdownList)> {
   constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x5a5852c;
+  constexpr static std::size_t addrs = 0x5a56370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -451,7 +451,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::*)(::StringW)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::AppendValue)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5a59070;
+  constexpr static std::size_t addrs = 0x5a56eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -465,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::OnTransparencyChanged)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5a59118;
+  constexpr static std::size_t addrs = 0x5a56f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown*>(),
@@ -479,7 +479,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a591a4;
+  constexpr static std::size_t addrs = 0x5a56fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Dropdown*>(), { ".ctor", {}, {} })));

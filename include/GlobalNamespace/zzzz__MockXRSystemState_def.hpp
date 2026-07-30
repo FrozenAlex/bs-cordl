@@ -38,27 +38,27 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IXRSystemState"
   constexpr operator ::GlobalNamespace::IXRSystemState*() noexcept;
 
-  /// @brief Method AddListener, addr 0x59f3ec0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method AddListener, addr 0x59f25b4, size 0x4, virtual true, abstract: false, final true
   inline void AddListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener, ::ArrayW<::GlobalNamespace::XRSystemEventType> initialStateChecks);
 
   static inline ::GlobalNamespace::MockXRSystemState* New_ctor();
 
-  /// @brief Method RefreshControllersReference, addr 0x59f3ec8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method RefreshControllersReference, addr 0x59f25bc, size 0x4, virtual true, abstract: false, final true
   inline void RefreshControllersReference();
 
-  /// @brief Method RemoveListener, addr 0x59f3ec4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method RemoveListener, addr 0x59f25b8, size 0x4, virtual true, abstract: false, final true
   inline void RemoveListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener);
 
-  /// @brief Method .ctor, addr 0x59f3ecc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f25c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasHmdMounted, addr 0x59f3eb8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hasHmdMounted, addr 0x59f25ac, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasHmdMounted();
 
-  /// @brief Method get_hasInputFocus, addr 0x59f3ea8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hasInputFocus, addr 0x59f259c, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasInputFocus();
 
-  /// @brief Method get_hasVrFocus, addr 0x59f3eb0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hasVrFocus, addr 0x59f25a4, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasVrFocus();
 
   /// @brief Convert to "::GlobalNamespace::IXRSystemState"

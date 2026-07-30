@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RectTransform> (::UnityEngine::UI::Mask::*)()>(&::UnityEngine::UI::Mask::get_rectTransform)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6dfbc68;
+  constexpr static std::size_t addrs = 0x6df766c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Mask*>(), { "get_rectTransform", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::Mask::*)()>(&::UnityEngine::UI::Mask::get_showMaskGraphic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfbcc4;
+  constexpr static std::size_t addrs = 0x6df76c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Mask*>(), { "get_showMaskGraphic", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Mask::*)(bool)>(&::UnityEngine::UI::Mask::set_showMaskGraphic)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6dfbccc;
+  constexpr static std::size_t addrs = 0x6df76d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Mask*>(), { "set_showMaskGraphic", {}, { ::i2c::type_of<bool>() } })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Graphic> (::UnityEngine::UI::Mask::*)()>(&::UnityEngine::UI::Mask::get_graphic)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6dfbd8c;
+  constexpr static std::size_t addrs = 0x6df7790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Mask*>(), { "get_graphic", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Mask::*)()>(&::UnityEngine::UI::Mask::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6dfbde8;
+  constexpr static std::size_t addrs = 0x6df77ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Mask*>(), { ".ctor", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::Mask::*)()>(&::UnityEngine::UI::Mask::MaskEnabled)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6dfbdf4;
+  constexpr static std::size_t addrs = 0x6df77f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Mask*>(), { ::i2c::class_of<::UnityEngine::UI::Mask*>(), 19 }));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Mask::*)()>(&::UnityEngine::UI::Mask::OnSiblingGraphicEnabledDisabled)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6dfbe88;
+  constexpr static std::size_t addrs = 0x6df788c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Mask*>(), { ::i2c::class_of<::UnityEngine::UI::Mask*>(), 20 }));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Mask::*)()>(&::UnityEngine::UI::Mask::OnEnable)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6dfbe8c;
+  constexpr static std::size_t addrs = 0x6df7890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Mask*>(), { ::i2c::class_of<::UnityEngine::UI::Mask*>(), 5 }));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::Mask::*)()>(&::UnityEngine::UI::Mask::OnDisable)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x6dfc278;
+  constexpr static std::size_t addrs = 0x6df7c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Mask*>(), { ::i2c::class_of<::UnityEngine::UI::Mask*>(), 7 }));
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::Mask::*)(::UnityEngine::Vector2, ::UnityEngine::Camera*)>(&::UnityEngine::UI::Mask::IsRaycastLocationValid)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6dfc43c;
+  constexpr static std::size_t addrs = 0x6df7e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Mask*>(), { ::i2c::class_of<::UnityEngine::UI::Mask*>(), 21 }));
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::UI::Mask::*)(::UnityEngine::Material*)>(&::UnityEngine::UI::Mask::GetModifiedMaterial)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x6dfc4f8;
+  constexpr static std::size_t addrs = 0x6df7efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UI::Mask*>(), { ::i2c::class_of<::UnityEngine::UI::Mask*>(), 22 }));

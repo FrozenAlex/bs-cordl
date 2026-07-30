@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__CloseBufferAndWriterAsync_d__9::*)()>(
     &::Newtonsoft::Json::JsonTextWriter__CloseBufferAndWriterAsync_d__9::MoveNext)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x5cfec3c;
+  constexpr static std::size_t addrs = 0x5cfc9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__CloseBufferAndWriterAsync_d__9::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::JsonTextWriter__CloseBufferAndWriterAsync_d__9::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5cfee7c;
+  constexpr static std::size_t addrs = 0x5cfcbe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__CloseBufferAndWriterAsync_d__9>(),
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoCloseAsync_d__8::*)()>(&::Newtonsoft::Json::JsonTextWriter__DoCloseAsync_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x5cfeee8;
+  constexpr static std::size_t addrs = 0x5cfcc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoCloseAsync_d__8>(), { "MoveNext", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoCloseAsync_d__8::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::JsonTextWriter__DoCloseAsync_d__8::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5cff23c;
+  constexpr static std::size_t addrs = 0x5cfcfa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoCloseAsync_d__8>(),
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteCommentAsync_d__115::*)()>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteCommentAsync_d__115::MoveNext)> {
   constexpr static std::size_t size = 0x4b0;
-  constexpr static std::size_t addrs = 0x5cff2a8;
+  constexpr static std::size_t addrs = 0x5cfd014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoWriteCommentAsync_d__115>(), { "MoveNext", {}, {} })));
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteCommentAsync_d__115::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteCommentAsync_d__115::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5cff764;
+  constexpr static std::size_t addrs = 0x5cfd4d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoWriteCommentAsync_d__115>(),
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWritePropertyNameAsync_d__30::*)()>(
     &::Newtonsoft::Json::JsonTextWriter__DoWritePropertyNameAsync_d__30::MoveNext)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x5cff7d0;
+  constexpr static std::size_t addrs = 0x5cfd53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWritePropertyNameAsync_d__30::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::JsonTextWriter__DoWritePropertyNameAsync_d__30::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5cffb04;
+  constexpr static std::size_t addrs = 0x5cfd870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoWritePropertyNameAsync_d__30>(),
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWritePropertyNameAsync_d__32::*)()>(
     &::Newtonsoft::Json::JsonTextWriter__DoWritePropertyNameAsync_d__32::MoveNext)> {
   constexpr static std::size_t size = 0x5a4;
-  constexpr static std::size_t addrs = 0x5cffb70;
+  constexpr static std::size_t addrs = 0x5cfd8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -288,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWritePropertyNameAsync_d__32::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::JsonTextWriter__DoWritePropertyNameAsync_d__32::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d001e4;
+  constexpr static std::size_t addrs = 0x5cfdf50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoWritePropertyNameAsync_d__32>(),
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteRawValueAsync_d__121::*)()>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteRawValueAsync_d__121::MoveNext)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x5d00250;
+  constexpr static std::size_t addrs = 0x5cfdfbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteRawValueAsync_d__121::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteRawValueAsync_d__121::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d004c8;
+  constexpr static std::size_t addrs = 0x5cfe234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoWriteRawValueAsync_d__121>(),
@@ -401,7 +401,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteStartArrayAsync_d__35::*)()>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteStartArrayAsync_d__35::MoveNext)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x5d00534;
+  constexpr static std::size_t addrs = 0x5cfe2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -415,7 +415,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteStartArrayAsync_d__35::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteStartArrayAsync_d__35::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d007e0;
+  constexpr static std::size_t addrs = 0x5cfe54c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoWriteStartArrayAsync_d__35>(),
@@ -463,7 +463,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteStartConstructorAsync_d__40::*)()>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteStartConstructorAsync_d__40::MoveNext)> {
   constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x5d0084c;
+  constexpr static std::size_t addrs = 0x5cfe5b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -477,7 +477,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteStartConstructorAsync_d__40::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteStartConstructorAsync_d__40::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d00d9c;
+  constexpr static std::size_t addrs = 0x5cfeb08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoWriteStartConstructorAsync_d__40>(),
@@ -525,7 +525,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteStartObjectAsync_d__38::*)()>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteStartObjectAsync_d__38::MoveNext)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x5d00e08;
+  constexpr static std::size_t addrs = 0x5cfeb74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -539,7 +539,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteStartObjectAsync_d__38::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteStartObjectAsync_d__38::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d010b4;
+  constexpr static std::size_t addrs = 0x5cfee20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoWriteStartObjectAsync_d__38>(),
@@ -588,7 +588,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteUndefinedAsync_d__43::*)()>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteUndefinedAsync_d__43::MoveNext)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x5d01120;
+  constexpr static std::size_t addrs = 0x5cfee8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -602,7 +602,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteUndefinedAsync_d__43::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteUndefinedAsync_d__43::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d01414;
+  constexpr static std::size_t addrs = 0x5cff180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoWriteUndefinedAsync_d__43>(),
@@ -650,7 +650,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__60::*)()>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__60::MoveNext)> {
   constexpr static std::size_t size = 0x5c4;
-  constexpr static std::size_t addrs = 0x5d01480;
+  constexpr static std::size_t addrs = 0x5cff1ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__60>(), { "MoveNext", {}, {} })));
@@ -663,7 +663,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__60::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__60::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d01b90;
+  constexpr static std::size_t addrs = 0x5cff8fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__60>(),
@@ -711,7 +711,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__64::*)()>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__64::MoveNext)> {
   constexpr static std::size_t size = 0x578;
-  constexpr static std::size_t addrs = 0x5d01bfc;
+  constexpr static std::size_t addrs = 0x5cff968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__64>(), { "MoveNext", {}, {} })));
@@ -724,7 +724,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__64::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__64::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d02174;
+  constexpr static std::size_t addrs = 0x5cffee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__64>(),
@@ -772,7 +772,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__78::*)()>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__78::MoveNext)> {
   constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x5d021e0;
+  constexpr static std::size_t addrs = 0x5cfff4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__78>(), { "MoveNext", {}, {} })));
@@ -785,7 +785,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__78::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__78::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d02694;
+  constexpr static std::size_t addrs = 0x5d00400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__78>(),
@@ -832,7 +832,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__97::*)()>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__97::MoveNext)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x5d02700;
+  constexpr static std::size_t addrs = 0x5d0046c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__97>(), { "MoveNext", {}, {} })));
@@ -845,7 +845,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__97::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__97::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d02a24;
+  constexpr static std::size_t addrs = 0x5d00790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__97>(),
@@ -895,7 +895,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__99::*)()>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__99::MoveNext)> {
   constexpr static std::size_t size = 0x4f0;
-  constexpr static std::size_t addrs = 0x5d02a90;
+  constexpr static std::size_t addrs = 0x5d007fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__99>(), { "MoveNext", {}, {} })));
@@ -908,7 +908,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__99::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__99::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d02f80;
+  constexpr static std::size_t addrs = 0x5d00cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__DoWriteValueAsync_d__99>(),
@@ -955,7 +955,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__WriteIndentAsync_d__13::*)()>(&::Newtonsoft::Json::JsonTextWriter__WriteIndentAsync_d__13::MoveNext)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x5d02fec;
+  constexpr static std::size_t addrs = 0x5d00d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__WriteIndentAsync_d__13>(), { "MoveNext", {}, {} })));
@@ -968,7 +968,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__WriteIndentAsync_d__13::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::JsonTextWriter__WriteIndentAsync_d__13::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d0336c;
+  constexpr static std::size_t addrs = 0x5d010d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__WriteIndentAsync_d__13>(),
@@ -1017,7 +1017,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__WriteIntegerValueAsync_d__24::*)()>(
     &::Newtonsoft::Json::JsonTextWriter__WriteIntegerValueAsync_d__24::MoveNext)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x5d033d8;
+  constexpr static std::size_t addrs = 0x5d01144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1031,7 +1031,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__WriteIntegerValueAsync_d__24::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::JsonTextWriter__WriteIntegerValueAsync_d__24::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d03654;
+  constexpr static std::size_t addrs = 0x5d013c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__WriteIntegerValueAsync_d__24>(),
@@ -1081,7 +1081,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__WriteValueInternalAsync_d__15::*)()>(
     &::Newtonsoft::Json::JsonTextWriter__WriteValueInternalAsync_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x5d036c0;
+  constexpr static std::size_t addrs = 0x5d0142c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1095,7 +1095,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__WriteValueInternalAsync_d__15::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::JsonTextWriter__WriteValueInternalAsync_d__15::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d03978;
+  constexpr static std::size_t addrs = 0x5d016e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__WriteValueInternalAsync_d__15>(),
@@ -1145,7 +1145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__WriteValueNonNullAsync_d__54::*)()>(
     &::Newtonsoft::Json::JsonTextWriter__WriteValueNonNullAsync_d__54::MoveNext)> {
   constexpr static std::size_t size = 0x4fc;
-  constexpr static std::size_t addrs = 0x5d039e4;
+  constexpr static std::size_t addrs = 0x5d01750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1159,7 +1159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__WriteValueNonNullAsync_d__54::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::JsonTextWriter__WriteValueNonNullAsync_d__54::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d03ee0;
+  constexpr static std::size_t addrs = 0x5d01c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__WriteValueNonNullAsync_d__54>(),
@@ -1207,7 +1207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__WriteValueNotNullAsync_d__110::*)()>(
     &::Newtonsoft::Json::JsonTextWriter__WriteValueNotNullAsync_d__110::MoveNext)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x5d03f4c;
+  constexpr static std::size_t addrs = 0x5d01cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1221,7 +1221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter__WriteValueNotNullAsync_d__110::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::JsonTextWriter__WriteValueNotNullAsync_d__110::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d041f4;
+  constexpr static std::size_t addrs = 0x5d01f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter__WriteValueNotNullAsync_d__110>(),
@@ -1271,7 +1271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::FlushAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cf9120;
+  constexpr static std::size_t addrs = 0x5cf6e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1285,7 +1285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoFlushAsync)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5cf9134;
+  constexpr static std::size_t addrs = 0x5cf6ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1299,7 +1299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueDelimiterAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cf91cc;
+  constexpr static std::size_t addrs = 0x5cf6f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1313,7 +1313,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteValueDelimiterAsync)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5cf91e0;
+  constexpr static std::size_t addrs = 0x5cf6f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1328,7 +1328,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::Newtonsoft::Json::JsonToken, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteEndAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cf9254;
+  constexpr static std::size_t addrs = 0x5cf6fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1342,7 +1342,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::Newtonsoft::Json::JsonToken, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::DoWriteEndAsync)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x5cf9268;
+  constexpr static std::size_t addrs = 0x5cf6fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1357,7 +1357,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::CloseAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cf93b8;
+  constexpr static std::size_t addrs = 0x5cf7124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1371,7 +1371,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoCloseAsync)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5cf93cc;
+  constexpr static std::size_t addrs = 0x5cf7138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1384,7 +1384,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)()>(&::Newtonsoft::Json::JsonTextWriter::CloseBufferAndWriterAsync)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5cf948c;
+  constexpr static std::size_t addrs = 0x5cf71f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter*>(), { "CloseBufferAndWriterAsync", {}, {} })));
@@ -1397,7 +1397,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteEndAsync)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5cf9540;
+  constexpr static std::size_t addrs = 0x5cf72ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1411,7 +1411,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteIndentAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cf9558;
+  constexpr static std::size_t addrs = 0x5cf72c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1425,7 +1425,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteIndentAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5cf956c;
+  constexpr static std::size_t addrs = 0x5cf72d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1439,7 +1439,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(int32_t, int32_t, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteIndentAsync)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5cf970c;
+  constexpr static std::size_t addrs = 0x5cf7478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1454,7 +1454,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::Newtonsoft::Json::JsonToken, ::StringW, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueInternalAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5cf97e4;
+  constexpr static std::size_t addrs = 0x5cf7550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1471,7 +1471,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::Tasks::Task*, ::StringW, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueInternalAsync)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5cf98d4;
+  constexpr static std::size_t addrs = 0x5cf7640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1488,7 +1488,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteIndentSpaceAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cf99ac;
+  constexpr static std::size_t addrs = 0x5cf7718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1502,7 +1502,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteIndentSpaceAsync)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5cf99c0;
+  constexpr static std::size_t addrs = 0x5cf772c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1517,7 +1517,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteRawAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cf9a34;
+  constexpr static std::size_t addrs = 0x5cf77a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1531,7 +1531,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteRawAsync)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5cf9a48;
+  constexpr static std::size_t addrs = 0x5cf77b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1546,7 +1546,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteNullAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cf9ac0;
+  constexpr static std::size_t addrs = 0x5cf782c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1560,7 +1560,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteNullAsync)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5cf9ad4;
+  constexpr static std::size_t addrs = 0x5cf7840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1574,7 +1574,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(uint64_t, bool, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteDigitsAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5cf9b4c;
+  constexpr static std::size_t addrs = 0x5cf78b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1589,7 +1589,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(uint64_t, bool, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteIntegerValueAsync)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5cf9d24;
+  constexpr static std::size_t addrs = 0x5cf7a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1604,7 +1604,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::Tasks::Task*, uint64_t, bool, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteIntegerValueAsync)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5cf9e04;
+  constexpr static std::size_t addrs = 0x5cf7b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1621,7 +1621,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(int64_t, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteIntegerValueAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cf9eec;
+  constexpr static std::size_t addrs = 0x5cf7c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1636,7 +1636,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(uint64_t, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteIntegerValueAsync)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cf9f00;
+  constexpr static std::size_t addrs = 0x5cf7c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1651,7 +1651,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::StringW, bool, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteEscapedStringAsync)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5cf9f0c;
+  constexpr static std::size_t addrs = 0x5cf7c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1666,7 +1666,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WritePropertyNameAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cf9fc4;
+  constexpr static std::size_t addrs = 0x5cf7d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1680,7 +1680,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWritePropertyNameAsync)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x5cf9fd8;
+  constexpr static std::size_t addrs = 0x5cf7d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1695,7 +1695,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::Tasks::Task*, ::StringW, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::DoWritePropertyNameAsync)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5cfa148;
+  constexpr static std::size_t addrs = 0x5cf7eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1712,7 +1712,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::StringW, bool, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WritePropertyNameAsync)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cfa220;
+  constexpr static std::size_t addrs = 0x5cf7f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1726,7 +1726,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::StringW, bool, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWritePropertyNameAsync)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5cfa23c;
+  constexpr static std::size_t addrs = 0x5cf7fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1742,7 +1742,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteStartArrayAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cfa318;
+  constexpr static std::size_t addrs = 0x5cf8084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1756,7 +1756,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteStartArrayAsync)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5cfa32c;
+  constexpr static std::size_t addrs = 0x5cf8098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1771,7 +1771,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::Tasks::Task*, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::DoWriteStartArrayAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5cfa408;
+  constexpr static std::size_t addrs = 0x5cf8174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1786,7 +1786,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteStartObjectAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cfa4d0;
+  constexpr static std::size_t addrs = 0x5cf823c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1800,7 +1800,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteStartObjectAsync)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5cfa4e4;
+  constexpr static std::size_t addrs = 0x5cf8250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1815,7 +1815,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::Tasks::Task*, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::DoWriteStartObjectAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5cfa5c0;
+  constexpr static std::size_t addrs = 0x5cf832c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1830,7 +1830,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteStartConstructorAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cfa688;
+  constexpr static std::size_t addrs = 0x5cf83f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1844,7 +1844,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteStartConstructorAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5cfa69c;
+  constexpr static std::size_t addrs = 0x5cf8408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1859,7 +1859,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteUndefinedAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cfa764;
+  constexpr static std::size_t addrs = 0x5cf84d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1873,7 +1873,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteUndefinedAsync)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5cfa778;
+  constexpr static std::size_t addrs = 0x5cf84e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1888,7 +1888,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::Tasks::Task*, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::DoWriteUndefinedAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5cfa888;
+  constexpr static std::size_t addrs = 0x5cf85f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1903,7 +1903,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteWhitespaceAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cfa950;
+  constexpr static std::size_t addrs = 0x5cf86bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1917,7 +1917,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteWhitespaceAsync)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5cfa964;
+  constexpr static std::size_t addrs = 0x5cf86d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1932,7 +1932,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(bool, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cfa9ec;
+  constexpr static std::size_t addrs = 0x5cf8758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1946,7 +1946,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(bool, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5cfaa08;
+  constexpr static std::size_t addrs = 0x5cf8774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1961,7 +1961,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<bool>, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cfaa88;
+  constexpr static std::size_t addrs = 0x5cf87f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1975,7 +1975,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<bool>, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5cfaaa4;
+  constexpr static std::size_t addrs = 0x5cf8810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1990,7 +1990,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(uint8_t, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5cfab38;
+  constexpr static std::size_t addrs = 0x5cf88a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2004,7 +2004,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<uint8_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cfab5c;
+  constexpr static std::size_t addrs = 0x5cf88c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2018,7 +2018,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<uint8_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5cfab78;
+  constexpr static std::size_t addrs = 0x5cf88e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2033,7 +2033,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::ArrayW<uint8_t>, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5cfac0c;
+  constexpr static std::size_t addrs = 0x5cf8978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2047,7 +2047,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::ArrayW<uint8_t>, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueNonNullAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5cfac3c;
+  constexpr static std::size_t addrs = 0x5cf89a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2062,7 +2062,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(char16_t, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cfad04;
+  constexpr static std::size_t addrs = 0x5cf8a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2076,7 +2076,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(char16_t, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5cfad18;
+  constexpr static std::size_t addrs = 0x5cf8a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2091,7 +2091,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<char16_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cfad98;
+  constexpr static std::size_t addrs = 0x5cf8b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2105,7 +2105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<char16_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5cfadb4;
+  constexpr static std::size_t addrs = 0x5cf8b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2120,7 +2120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::DateTime, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cfae44;
+  constexpr static std::size_t addrs = 0x5cf8bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2134,7 +2134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::DateTime, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5cfae58;
+  constexpr static std::size_t addrs = 0x5cf8bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2149,7 +2149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<::System::DateTime>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cfaf20;
+  constexpr static std::size_t addrs = 0x5cf8c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2163,7 +2163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<::System::DateTime>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5cfaf34;
+  constexpr static std::size_t addrs = 0x5cf8ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2179,7 +2179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::DateTimeOffset, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cfafd0;
+  constexpr static std::size_t addrs = 0x5cf8d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2193,7 +2193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::DateTimeOffset, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5cfafe4;
+  constexpr static std::size_t addrs = 0x5cf8d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2208,7 +2208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<::System::DateTimeOffset>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5cfb0bc;
+  constexpr static std::size_t addrs = 0x5cf8e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2222,7 +2222,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<::System::DateTimeOffset>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5cfb110;
+  constexpr static std::size_t addrs = 0x5cf8e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2238,7 +2238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Decimal, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cfb1a0;
+  constexpr static std::size_t addrs = 0x5cf8f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2252,7 +2252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Decimal, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5cfb1b4;
+  constexpr static std::size_t addrs = 0x5cf8f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2267,7 +2267,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<::System::Decimal>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5cfb244;
+  constexpr static std::size_t addrs = 0x5cf8fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2281,7 +2281,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<::System::Decimal>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5cfb2b8;
+  constexpr static std::size_t addrs = 0x5cf9024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2296,7 +2296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(double_t, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cfb348;
+  constexpr static std::size_t addrs = 0x5cf90b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2310,7 +2310,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(double_t, bool, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5cfb368;
+  constexpr static std::size_t addrs = 0x5cf90d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2325,7 +2325,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<double_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5cfb408;
+  constexpr static std::size_t addrs = 0x5cf9174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2339,7 +2339,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(float_t, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cfb4e8;
+  constexpr static std::size_t addrs = 0x5cf9254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2353,7 +2353,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(float_t, bool, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5cfb508;
+  constexpr static std::size_t addrs = 0x5cf9274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2368,7 +2368,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<float_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5cfb5a8;
+  constexpr static std::size_t addrs = 0x5cf9314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2382,7 +2382,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Guid, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cfb674;
+  constexpr static std::size_t addrs = 0x5cf93e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2396,7 +2396,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Guid, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5cfb688;
+  constexpr static std::size_t addrs = 0x5cf93f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2411,7 +2411,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<::System::Guid>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5cfb760;
+  constexpr static std::size_t addrs = 0x5cf94cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2425,7 +2425,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<::System::Guid>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5cfb7b4;
+  constexpr static std::size_t addrs = 0x5cf9520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2440,7 +2440,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(int32_t, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5cfb848;
+  constexpr static std::size_t addrs = 0x5cf95b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2454,7 +2454,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<int32_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cfb870;
+  constexpr static std::size_t addrs = 0x5cf95dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2468,7 +2468,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<int32_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5cfb884;
+  constexpr static std::size_t addrs = 0x5cf95f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2483,7 +2483,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(int64_t, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5cfb920;
+  constexpr static std::size_t addrs = 0x5cf968c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2497,7 +2497,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<int64_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cfb948;
+  constexpr static std::size_t addrs = 0x5cf96b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2511,7 +2511,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<int64_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5cfb95c;
+  constexpr static std::size_t addrs = 0x5cf96c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2526,7 +2526,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Numerics::BigInteger, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5cfba04;
+  constexpr static std::size_t addrs = 0x5cf9770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2541,7 +2541,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Object*, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5cfbadc;
+  constexpr static std::size_t addrs = 0x5cf9848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2555,7 +2555,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(int8_t, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5cfbc34;
+  constexpr static std::size_t addrs = 0x5cf99a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2569,7 +2569,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<int8_t>, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cfbc60;
+  constexpr static std::size_t addrs = 0x5cf99cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2583,7 +2583,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<int8_t>, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5cfbc7c;
+  constexpr static std::size_t addrs = 0x5cf99e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2598,7 +2598,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(int16_t, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5cfbd18;
+  constexpr static std::size_t addrs = 0x5cf9a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2612,7 +2612,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<int16_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cfbd44;
+  constexpr static std::size_t addrs = 0x5cf9ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2626,7 +2626,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<int16_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5cfbd60;
+  constexpr static std::size_t addrs = 0x5cf9acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2641,7 +2641,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cfbdfc;
+  constexpr static std::size_t addrs = 0x5cf9b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2655,7 +2655,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5cfbe10;
+  constexpr static std::size_t addrs = 0x5cf9b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2670,7 +2670,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::Tasks::Task*, ::StringW, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5cfbf4c;
+  constexpr static std::size_t addrs = 0x5cf9cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2687,7 +2687,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::TimeSpan, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cfc024;
+  constexpr static std::size_t addrs = 0x5cf9d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2701,7 +2701,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::TimeSpan, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5cfc038;
+  constexpr static std::size_t addrs = 0x5cf9da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2716,7 +2716,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<::System::TimeSpan>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cfc100;
+  constexpr static std::size_t addrs = 0x5cf9e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2730,7 +2730,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<::System::TimeSpan>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5cfc114;
+  constexpr static std::size_t addrs = 0x5cf9e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2746,7 +2746,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(uint32_t, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5cfc1b0;
+  constexpr static std::size_t addrs = 0x5cf9f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2760,7 +2760,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<uint32_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cfc1d4;
+  constexpr static std::size_t addrs = 0x5cf9f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2774,7 +2774,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<uint32_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5cfc1e8;
+  constexpr static std::size_t addrs = 0x5cf9f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2789,7 +2789,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(uint64_t, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cfc27c;
+  constexpr static std::size_t addrs = 0x5cf9fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2803,7 +2803,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<uint64_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cfc29c;
+  constexpr static std::size_t addrs = 0x5cfa008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2817,7 +2817,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<uint64_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5cfc2b0;
+  constexpr static std::size_t addrs = 0x5cfa01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2832,7 +2832,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Uri*, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5cfc350;
+  constexpr static std::size_t addrs = 0x5cfa0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2846,7 +2846,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Uri*, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueNotNullAsync)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5cfc414;
+  constexpr static std::size_t addrs = 0x5cfa180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2861,7 +2861,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::Tasks::Task*, ::System::Uri*, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueNotNullAsync)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5cfc4fc;
+  constexpr static std::size_t addrs = 0x5cfa268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2878,7 +2878,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(uint16_t, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5cfc5d4;
+  constexpr static std::size_t addrs = 0x5cfa340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2892,7 +2892,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<uint16_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueAsync)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cfc5f8;
+  constexpr static std::size_t addrs = 0x5cfa364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2906,7 +2906,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<uint16_t>, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::DoWriteValueAsync)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5cfc614;
+  constexpr static std::size_t addrs = 0x5cfa380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2921,7 +2921,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteCommentAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cfc6a8;
+  constexpr static std::size_t addrs = 0x5cfa414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2935,7 +2935,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteCommentAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5cfc6bc;
+  constexpr static std::size_t addrs = 0x5cfa428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2950,7 +2950,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteEndArrayAsync)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5cfc784;
+  constexpr static std::size_t addrs = 0x5cfa4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2964,7 +2964,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteEndConstructorAsync)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5cfc7a8;
+  constexpr static std::size_t addrs = 0x5cfa514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2978,7 +2978,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteEndObjectAsync)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5cfc7cc;
+  constexpr static std::size_t addrs = 0x5cfa538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2992,7 +2992,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteRawValueAsync)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cfc7f0;
+  constexpr static std::size_t addrs = 0x5cfa55c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3006,7 +3006,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextWriter::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::JsonTextWriter::DoWriteRawValueAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5cfc804;
+  constexpr static std::size_t addrs = 0x5cfa570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3021,7 +3021,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::JsonTextWriter::*)(::System::Threading::Tasks::Task*, ::StringW, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextWriter::DoWriteRawValueAsync)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5cfc8e8;
+  constexpr static std::size_t addrs = 0x5cfa654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3037,7 +3037,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<char16_t> (::Newtonsoft::Json::JsonTextWriter::*)(int32_t, int32_t)>(&::Newtonsoft::Json::JsonTextWriter::EnsureWriteBuffer)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5cfc9c0;
+  constexpr static std::size_t addrs = 0x5cfa72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3051,7 +3051,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Utilities::Base64Encoder* (::Newtonsoft::Json::JsonTextWriter::*)()>(
     &::Newtonsoft::Json::JsonTextWriter::get_Base64Encoder)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5cfca5c;
+  constexpr static std::size_t addrs = 0x5cfa7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter*>(), { "get_Base64Encoder", {}, {} })));
@@ -3063,7 +3063,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::IArrayPool_1<char16_t>* (::Newtonsoft::Json::JsonTextWriter::*)()>(&::Newtonsoft::Json::JsonTextWriter::get_ArrayPool)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cfcacc;
+  constexpr static std::size_t addrs = 0x5cfa838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter*>(), { "get_ArrayPool", {}, {} })));
@@ -3075,7 +3075,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::Newtonsoft::Json::IArrayPool_1<char16_t>*)>(&::Newtonsoft::Json::JsonTextWriter::set_ArrayPool)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5cfcad4;
+  constexpr static std::size_t addrs = 0x5cfa840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3088,7 +3088,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Newtonsoft::Json::JsonTextWriter::*)()>(&::Newtonsoft::Json::JsonTextWriter::get_Indentation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cfcb2c;
+  constexpr static std::size_t addrs = 0x5cfa898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter*>(), { "get_Indentation", {}, {} })));
@@ -3100,7 +3100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(int32_t)>(&::Newtonsoft::Json::JsonTextWriter::set_Indentation)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5cfcb34;
+  constexpr static std::size_t addrs = 0x5cfa8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3113,7 +3113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::Newtonsoft::Json::JsonTextWriter::*)()>(&::Newtonsoft::Json::JsonTextWriter::get_QuoteChar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cfcb8c;
+  constexpr static std::size_t addrs = 0x5cfa8f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter*>(), { "get_QuoteChar", {}, {} })));
@@ -3125,7 +3125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(char16_t)>(&::Newtonsoft::Json::JsonTextWriter::set_QuoteChar)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5cfcb94;
+  constexpr static std::size_t addrs = 0x5cfa900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3138,7 +3138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::Newtonsoft::Json::JsonTextWriter::*)()>(&::Newtonsoft::Json::JsonTextWriter::get_IndentChar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cfcc6c;
+  constexpr static std::size_t addrs = 0x5cfa9d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter*>(), { "get_IndentChar", {}, {} })));
@@ -3150,7 +3150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(char16_t)>(&::Newtonsoft::Json::JsonTextWriter::set_IndentChar)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5cfcc74;
+  constexpr static std::size_t addrs = 0x5cfa9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3163,7 +3163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::JsonTextWriter::*)()>(&::Newtonsoft::Json::JsonTextWriter::get_QuoteName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cfcc8c;
+  constexpr static std::size_t addrs = 0x5cfa9f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter*>(), { "get_QuoteName", {}, {} })));
@@ -3175,7 +3175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(bool)>(&::Newtonsoft::Json::JsonTextWriter::set_QuoteName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cfcc94;
+  constexpr static std::size_t addrs = 0x5cfaa00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3188,7 +3188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::System::IO::TextWriter*)>(&::Newtonsoft::Json::JsonTextWriter::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5cfcc9c;
+  constexpr static std::size_t addrs = 0x5cfaa08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3201,7 +3201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)()>(&::Newtonsoft::Json::JsonTextWriter::Flush)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cfcde4;
+  constexpr static std::size_t addrs = 0x5cfab50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3214,7 +3214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)()>(&::Newtonsoft::Json::JsonTextWriter::Close)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cfce00;
+  constexpr static std::size_t addrs = 0x5cfab6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3227,7 +3227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)()>(&::Newtonsoft::Json::JsonTextWriter::CloseBufferAndWriter)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5cfce1c;
+  constexpr static std::size_t addrs = 0x5cfab88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter*>(), { "CloseBufferAndWriter", {}, {} })));
@@ -3239,7 +3239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)()>(&::Newtonsoft::Json::JsonTextWriter::WriteStartObject)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5cfce64;
+  constexpr static std::size_t addrs = 0x5cfabd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3252,7 +3252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)()>(&::Newtonsoft::Json::JsonTextWriter::WriteStartArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5cfcea0;
+  constexpr static std::size_t addrs = 0x5cfac0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3265,7 +3265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::StringW)>(&::Newtonsoft::Json::JsonTextWriter::WriteStartConstructor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5cfcedc;
+  constexpr static std::size_t addrs = 0x5cfac48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3278,7 +3278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::Newtonsoft::Json::JsonToken)>(&::Newtonsoft::Json::JsonTextWriter::WriteEnd)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5cfcf94;
+  constexpr static std::size_t addrs = 0x5cfad00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3291,7 +3291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::StringW)>(&::Newtonsoft::Json::JsonTextWriter::WritePropertyName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5cfd088;
+  constexpr static std::size_t addrs = 0x5cfadf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3304,7 +3304,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::StringW, bool)>(&::Newtonsoft::Json::JsonTextWriter::WritePropertyName)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5cfd1b4;
+  constexpr static std::size_t addrs = 0x5cfaf20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3317,7 +3317,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)()>(&::Newtonsoft::Json::JsonTextWriter::OnStringEscapeHandlingChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cfd27c;
+  constexpr static std::size_t addrs = 0x5cfafe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3330,7 +3330,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)()>(&::Newtonsoft::Json::JsonTextWriter::UpdateCharEscapeFlags)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5cfcbfc;
+  constexpr static std::size_t addrs = 0x5cfa968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter*>(), { "UpdateCharEscapeFlags", {}, {} })));
@@ -3342,7 +3342,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)()>(&::Newtonsoft::Json::JsonTextWriter::WriteIndent)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5cfd280;
+  constexpr static std::size_t addrs = 0x5cfafec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3355,7 +3355,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Newtonsoft::Json::JsonTextWriter::*)()>(&::Newtonsoft::Json::JsonTextWriter::SetIndentChars)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5cf9634;
+  constexpr static std::size_t addrs = 0x5cf73a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter*>(), { "SetIndentChars", {}, {} })));
@@ -3367,7 +3367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)()>(&::Newtonsoft::Json::JsonTextWriter::WriteValueDelimiter)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5cfd3a4;
+  constexpr static std::size_t addrs = 0x5cfb110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3380,7 +3380,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)()>(&::Newtonsoft::Json::JsonTextWriter::WriteIndentSpace)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5cfd3c8;
+  constexpr static std::size_t addrs = 0x5cfb134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3394,7 +3394,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::StringW, ::Newtonsoft::Json::JsonToken)>(
     &::Newtonsoft::Json::JsonTextWriter::WriteValueInternal)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cfd3ec;
+  constexpr static std::size_t addrs = 0x5cfb158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3408,7 +3408,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::System::Object*)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5cfd40c;
+  constexpr static std::size_t addrs = 0x5cfb178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3421,7 +3421,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)()>(&::Newtonsoft::Json::JsonTextWriter::WriteNull)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5cfd538;
+  constexpr static std::size_t addrs = 0x5cfb2a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3434,7 +3434,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)()>(&::Newtonsoft::Json::JsonTextWriter::WriteUndefined)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5cfd5d0;
+  constexpr static std::size_t addrs = 0x5cfb33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3447,7 +3447,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::StringW)>(&::Newtonsoft::Json::JsonTextWriter::WriteRaw)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cfd668;
+  constexpr static std::size_t addrs = 0x5cfb3d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3460,7 +3460,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::StringW)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5cfd688;
+  constexpr static std::size_t addrs = 0x5cfb3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3473,7 +3473,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::StringW, bool)>(&::Newtonsoft::Json::JsonTextWriter::WriteEscapedString)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5cfd0dc;
+  constexpr static std::size_t addrs = 0x5cfae48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3486,7 +3486,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(int32_t)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cfd77c;
+  constexpr static std::size_t addrs = 0x5cfb4e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3499,7 +3499,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(uint32_t)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cfd808;
+  constexpr static std::size_t addrs = 0x5cfb574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3512,7 +3512,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(int64_t)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cfd894;
+  constexpr static std::size_t addrs = 0x5cfb600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3525,7 +3525,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(uint64_t)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5cfd8d8;
+  constexpr static std::size_t addrs = 0x5cfb644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3538,7 +3538,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(float_t)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5cfd990;
+  constexpr static std::size_t addrs = 0x5cfb6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3551,7 +3551,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<float_t>)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5cfda50;
+  constexpr static std::size_t addrs = 0x5cfb7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3564,7 +3564,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(double_t)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5cfdb74;
+  constexpr static std::size_t addrs = 0x5cfb8e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3577,7 +3577,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::System::Nullable_1<double_t>)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5cfdc34;
+  constexpr static std::size_t addrs = 0x5cfb9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3590,7 +3590,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(bool)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cfdd58;
+  constexpr static std::size_t addrs = 0x5cfbac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3603,7 +3603,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(int16_t)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cfde04;
+  constexpr static std::size_t addrs = 0x5cfbb70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3616,7 +3616,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(uint16_t)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cfde48;
+  constexpr static std::size_t addrs = 0x5cfbbb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3629,7 +3629,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(char16_t)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5cfde8c;
+  constexpr static std::size_t addrs = 0x5cfbbf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3642,7 +3642,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(uint8_t)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cfdf38;
+  constexpr static std::size_t addrs = 0x5cfbca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3655,7 +3655,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(int8_t)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cfdf7c;
+  constexpr static std::size_t addrs = 0x5cfbce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3668,7 +3668,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::System::Decimal)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5cfdfc0;
+  constexpr static std::size_t addrs = 0x5cfbd2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3681,7 +3681,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::System::DateTime)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x5cfe074;
+  constexpr static std::size_t addrs = 0x5cfbde0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3694,7 +3694,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Newtonsoft::Json::JsonTextWriter::*)(::System::DateTime)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueToBuffer)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5cfe20c;
+  constexpr static std::size_t addrs = 0x5cfbf78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3707,7 +3707,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::ArrayW<uint8_t>)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5cfe33c;
+  constexpr static std::size_t addrs = 0x5cfc0a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3720,7 +3720,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::System::DateTimeOffset)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x5cfe404;
+  constexpr static std::size_t addrs = 0x5cfc170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3733,7 +3733,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Newtonsoft::Json::JsonTextWriter::*)(::System::DateTimeOffset)>(&::Newtonsoft::Json::JsonTextWriter::WriteValueToBuffer)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x5cfe570;
+  constexpr static std::size_t addrs = 0x5cfc2dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3746,7 +3746,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::System::Guid)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5cfe6fc;
+  constexpr static std::size_t addrs = 0x5cfc468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3759,7 +3759,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::System::TimeSpan)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5cfe80c;
+  constexpr static std::size_t addrs = 0x5cfc578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3772,7 +3772,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::System::Uri*)>(&::Newtonsoft::Json::JsonTextWriter::WriteValue)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5cfe934;
+  constexpr static std::size_t addrs = 0x5cfc6a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3785,7 +3785,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::StringW)>(&::Newtonsoft::Json::JsonTextWriter::WriteComment)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5cfea00;
+  constexpr static std::size_t addrs = 0x5cfc76c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3798,7 +3798,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(::StringW)>(&::Newtonsoft::Json::JsonTextWriter::WriteWhitespace)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5cfeac8;
+  constexpr static std::size_t addrs = 0x5cfc834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3811,7 +3811,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)()>(&::Newtonsoft::Json::JsonTextWriter::EnsureWriteBuffer)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5cfd74c;
+  constexpr static std::size_t addrs = 0x5cfb4b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonTextWriter*>(), { "EnsureWriteBuffer", {}, {} })));
@@ -3823,7 +3823,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(int64_t)>(&::Newtonsoft::Json::JsonTextWriter::WriteIntegerValue)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5cfd84c;
+  constexpr static std::size_t addrs = 0x5cfb5b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3836,7 +3836,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(uint64_t, bool)>(&::Newtonsoft::Json::JsonTextWriter::WriteIntegerValue)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5cfd920;
+  constexpr static std::size_t addrs = 0x5cfb68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3849,7 +3849,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Newtonsoft::Json::JsonTextWriter::*)(uint64_t, bool)>(&::Newtonsoft::Json::JsonTextWriter::WriteNumberToBuffer)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5cf9c3c;
+  constexpr static std::size_t addrs = 0x5cf79a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3862,7 +3862,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(int32_t)>(&::Newtonsoft::Json::JsonTextWriter::WriteIntegerValue)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5cfd7c0;
+  constexpr static std::size_t addrs = 0x5cfb52c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3875,7 +3875,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonTextWriter::*)(uint32_t, bool)>(&::Newtonsoft::Json::JsonTextWriter::WriteIntegerValue)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5cfebcc;
+  constexpr static std::size_t addrs = 0x5cfc938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3888,7 +3888,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Newtonsoft::Json::JsonTextWriter::*)(uint32_t, bool)>(&::Newtonsoft::Json::JsonTextWriter::WriteNumberToBuffer)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5cfeb08;
+  constexpr static std::size_t addrs = 0x5cfc874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

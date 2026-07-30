@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlNamespaceManager_NamespaceDeclaration::*)(::StringW, ::StringW, int32_t, int32_t)>(
     &::System::Xml::XmlNamespaceManager_NamespaceDeclaration::Set)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x62e0378;
+  constexpr static std::size_t addrs = 0x62de114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlNamespaceManager::*)()>(&::System::Xml::XmlNamespaceManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62e01bc;
+  constexpr static std::size_t addrs = 0x62ddf58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlNamespaceManager*>(), { ".ctor", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlNamespaceManager::*)(::System::Xml::XmlNameTable*)>(&::System::Xml::XmlNamespaceManager::_ctor)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x62e01c0;
+  constexpr static std::size_t addrs = 0x62ddf5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNameTable* (::System::Xml::XmlNamespaceManager::*)()>(&::System::Xml::XmlNamespaceManager::get_NameTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62e0384;
+  constexpr static std::size_t addrs = 0x62de120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlNamespaceManager::*)()>(&::System::Xml::XmlNamespaceManager::get_DefaultNamespace)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x62e038c;
+  constexpr static std::size_t addrs = 0x62de128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlNamespaceManager::*)()>(&::System::Xml::XmlNamespaceManager::PushScope)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x62e03c8;
+  constexpr static std::size_t addrs = 0x62de164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlNamespaceManager::*)()>(&::System::Xml::XmlNamespaceManager::PopScope)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x62e03d8;
+  constexpr static std::size_t addrs = 0x62de174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlNamespaceManager::*)(::StringW, ::StringW)>(&::System::Xml::XmlNamespaceManager::AddNamespace)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x62e04c8;
+  constexpr static std::size_t addrs = 0x62de264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlNamespaceManager::*)(::StringW, ::StringW)>(&::System::Xml::XmlNamespaceManager::RemoveNamespace)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x62e0a30;
+  constexpr static std::size_t addrs = 0x62de7cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Xml::XmlNamespaceManager::*)()>(&::System::Xml::XmlNamespaceManager::GetEnumerator)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x62e0b68;
+  constexpr static std::size_t addrs = 0x62de904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (::System::Xml::XmlNamespaceManager::*)(::System::Xml::XmlNamespaceScope)>(
     &::System::Xml::XmlNamespaceManager::GetNamespacesInScope)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x62e0d10;
+  constexpr static std::size_t addrs = 0x62deaac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlNamespaceManager::*)(::StringW)>(&::System::Xml::XmlNamespaceManager::LookupNamespace)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x62e0efc;
+  constexpr static std::size_t addrs = 0x62dec98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlNamespaceManager::*)(::StringW)>(&::System::Xml::XmlNamespaceManager::LookupNamespaceDecl)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x62e08a0;
+  constexpr static std::size_t addrs = 0x62de63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlNamespaceManager::*)(::StringW)>(&::System::Xml::XmlNamespaceManager::LookupPrefix)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x62e0f48;
+  constexpr static std::size_t addrs = 0x62dece4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

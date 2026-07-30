@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)(::UnityEngine::EventSystems::EventSystem*)>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658ca34;
+  constexpr static std::size_t addrs = 0x658a7d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>(),
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputControl* (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::get_control)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658ca3c;
+  constexpr static std::size_t addrs = 0x658a7d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>(), { "get_control", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)(::UnityEngine::InputSystem::InputControl*)>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::set_control)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658ca44;
+  constexpr static std::size_t addrs = 0x658a7e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputDevice* (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::get_device)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658ca4c;
+  constexpr static std::size_t addrs = 0x658a7e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>(), { "get_device", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::set_device)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658ca54;
+  constexpr static std::size_t addrs = 0x658a7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::get_touchId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658ca5c;
+  constexpr static std::size_t addrs = 0x658a7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>(), { "get_touchId", {}, {} })));
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)(int32_t)>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::set_touchId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658ca64;
+  constexpr static std::size_t addrs = 0x658a800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::UI::UIPointerType (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::get_pointerType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658ca6c;
+  constexpr static std::size_t addrs = 0x658a808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)(::UnityEngine::InputSystem::UI::UIPointerType)>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::set_pointerType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658ca74;
+  constexpr static std::size_t addrs = 0x658a810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>(),
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::get_uiToolkitPointerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658ca7c;
+  constexpr static std::size_t addrs = 0x658a818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)(int32_t)>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::set_uiToolkitPointerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658ca84;
+  constexpr static std::size_t addrs = 0x658a820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::get_trackedDevicePosition)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x658ca8c;
+  constexpr static std::size_t addrs = 0x658a828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::set_trackedDevicePosition)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x658ca9c;
+  constexpr static std::size_t addrs = 0x658a838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>(),
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::get_trackedDeviceOrientation)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x658caac;
+  constexpr static std::size_t addrs = 0x658a848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)(::UnityEngine::Quaternion)>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::set_trackedDeviceOrientation)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x658cac0;
+  constexpr static std::size_t addrs = 0x658a85c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>(),
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::ToString)> {
   constexpr static std::size_t size = 0x5d0;
-  constexpr static std::size_t addrs = 0x658cad4;
+  constexpr static std::size_t addrs = 0x658a870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>(),
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::UnityEngine::InputSystem::UI::ExtendedPointerEventData::MakePointerIdForTouch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658d0a4;
+  constexpr static std::size_t addrs = 0x658ae40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>(),
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::InputSystem::UI::ExtendedPointerEventData::TouchIdFromPointerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658d0ac;
+  constexpr static std::size_t addrs = 0x658ae48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::ReadDeviceState)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x658d0b4;
+  constexpr static std::size_t addrs = 0x658ae50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::InputSystem::Pen*)>(&::UnityEngine::InputSystem::UI::ExtendedPointerEventData::GetPenPointerId)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x658d398;
+  constexpr static std::size_t addrs = 0x658b134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>(),
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::InputSystem::Controls::TouchControl*)>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::GetTouchPointerId)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x658d5bc;
+  constexpr static std::size_t addrs = 0x658b358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>(),

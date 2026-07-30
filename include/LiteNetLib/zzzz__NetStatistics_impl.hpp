@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::get_PacketsSent)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58a90dc;
+  constexpr static std::size_t addrs = 0x58a7588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetStatistics*>(), { "get_PacketsSent", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::get_PacketsReceived)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58a90f8;
+  constexpr static std::size_t addrs = 0x58a75a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetStatistics*>(), { "get_PacketsReceived", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::get_BytesSent)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58a9114;
+  constexpr static std::size_t addrs = 0x58a75c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetStatistics*>(), { "get_BytesSent", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::get_BytesReceived)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58a9130;
+  constexpr static std::size_t addrs = 0x58a75dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetStatistics*>(), { "get_BytesReceived", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::get_PacketLoss)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58a914c;
+  constexpr static std::size_t addrs = 0x58a75f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetStatistics*>(), { "get_PacketLoss", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::get_PacketLossPercent)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x58a9168;
+  constexpr static std::size_t addrs = 0x58a7614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetStatistics*>(), { "get_PacketLossPercent", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::Reset)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x58a91bc;
+  constexpr static std::size_t addrs = 0x58a7668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetStatistics*>(), { "Reset", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::IncrementPacketsSent)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58a1318;
+  constexpr static std::size_t addrs = 0x589f7c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetStatistics*>(), { "IncrementPacketsSent", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::IncrementPacketsReceived)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58a3340;
+  constexpr static std::size_t addrs = 0x58a17ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetStatistics*>(), { "IncrementPacketsReceived", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetStatistics::*)(int64_t)>(&::LiteNetLib::NetStatistics::AddBytesSent)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58a1334;
+  constexpr static std::size_t addrs = 0x589f7e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetStatistics*>(), { "AddBytesSent", {}, { ::i2c::type_of<int64_t>() } })));
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetStatistics::*)(int64_t)>(&::LiteNetLib::NetStatistics::AddBytesReceived)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58a335c;
+  constexpr static std::size_t addrs = 0x58a1808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::IncrementPacketLoss)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58a921c;
+  constexpr static std::size_t addrs = 0x58a76c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetStatistics*>(), { "IncrementPacketLoss", {}, {} })));
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetStatistics::*)(int64_t)>(&::LiteNetLib::NetStatistics::AddPacketLoss)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58a9238;
+  constexpr static std::size_t addrs = 0x58a76e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetStatistics*>(), { "AddPacketLoss", {}, { ::i2c::type_of<int64_t>() } })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::ToString)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x58a9258;
+  constexpr static std::size_t addrs = 0x58a7704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::NetStatistics*>(), { ::i2c::class_of<::LiteNetLib::NetStatistics*>(), 3 }));
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58a0aac;
+  constexpr static std::size_t addrs = 0x589ef58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetStatistics*>(), { ".ctor", {}, {} })));

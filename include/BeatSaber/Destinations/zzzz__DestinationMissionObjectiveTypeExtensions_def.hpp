@@ -23,7 +23,7 @@ namespace BeatSaber::Destinations {
 class CORDL_TYPE DestinationMissionObjectiveTypeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToObjectiveName, addr 0x327feb8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ToObjectiveName, addr 0x327d178, size 0x130, virtual false, abstract: false, final false
   static inline ::StringW ToObjectiveName(::BeatSaber::Destinations::MissionObjectiveType missionObjectiveType);
 
 protected:
@@ -41,7 +41,7 @@ public:
   DestinationMissionObjectiveTypeExtensions(DestinationMissionObjectiveTypeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23058 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23009 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

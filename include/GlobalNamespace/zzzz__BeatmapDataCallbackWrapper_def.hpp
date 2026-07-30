@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_subtypeIdentifiers(::ArrayW<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x58c6274, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58c474c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(float_t aheadTime, ::System::Type* BasicBeatmapEventType, ::ArrayW<int32_t> subtypeIdentifiers);
 
 protected:

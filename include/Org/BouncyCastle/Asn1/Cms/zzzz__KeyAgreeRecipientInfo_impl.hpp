@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey*, ::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*,
     ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3359ab4;
+  constexpr static std::size_t addrs = 0x335807c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::_ctor)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x3359b3c;
+  constexpr static std::size_t addrs = 0x3358104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::GetInstance)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3359e38;
+  constexpr static std::size_t addrs = 0x3358400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::GetInstance)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3359e4c;
+  constexpr static std::size_t addrs = 0x3358414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3359fbc;
+  constexpr static std::size_t addrs = 0x3358584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*>(), { "get_Version", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* (::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::get_Originator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3359fc4;
+  constexpr static std::size_t addrs = 0x335858c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*>(), { "get_Originator", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::get_UserKeyingMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3359fcc;
+  constexpr static std::size_t addrs = 0x3358594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::get_KeyEncryptionAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3359fd4;
+  constexpr static std::size_t addrs = 0x335859c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Sequence* (::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::get_RecipientEncryptedKeys)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3359fdc;
+  constexpr static std::size_t addrs = 0x33585a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::ToAsn1Object)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x3359fe4;
+  constexpr static std::size_t addrs = 0x33585ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*>(),

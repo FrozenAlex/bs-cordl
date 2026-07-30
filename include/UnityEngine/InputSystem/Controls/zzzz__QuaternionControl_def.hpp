@@ -49,18 +49,18 @@ public:
 
   __declspec(property(get = get_z, put = set_z)) ::UnityEngine::InputSystem::Controls::AxisControl* z;
 
-  /// @brief Method CalculateOptimizedControlDataType, addr 0x64f6df8, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method CalculateOptimizedControlDataType, addr 0x64f4b94, size 0x234, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC CalculateOptimizedControlDataType();
 
-  /// @brief Method FinishSetup, addr 0x64f6a6c, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x64f4808, size 0x118, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::QuaternionControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x64f6b84, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x64f4920, size 0x138, virtual true, abstract: false, final false
   inline ::UnityEngine::Quaternion ReadUnprocessedValueFromState(void* statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x64f6cbc, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x64f4a58, size 0x13c, virtual true, abstract: false, final false
   inline void WriteValueIntoState(::UnityEngine::Quaternion value, void* statePtr);
 
   constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& __cordl_internal_get__w_k__BackingField() const;
@@ -87,31 +87,31 @@ public:
 
   constexpr void __cordl_internal_set__z_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method .ctor, addr 0x64f69e0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64f477c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_w, addr 0x64f69d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_w, addr 0x64f476c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_w();
 
-  /// @brief Method get_x, addr 0x64f69a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x64f473c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_x();
 
-  /// @brief Method get_y, addr 0x64f69b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x64f474c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_y();
 
-  /// @brief Method get_z, addr 0x64f69c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_z, addr 0x64f475c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_z();
 
-  /// @brief Method set_w, addr 0x64f69d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_w, addr 0x64f4774, size 0x8, virtual false, abstract: false, final false
   inline void set_w(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method set_x, addr 0x64f69a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x, addr 0x64f4744, size 0x8, virtual false, abstract: false, final false
   inline void set_x(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method set_y, addr 0x64f69b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_y, addr 0x64f4754, size 0x8, virtual false, abstract: false, final false
   inline void set_y(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method set_z, addr 0x64f69c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_z, addr 0x64f4764, size 0x8, virtual false, abstract: false, final false
   inline void set_z(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
 protected:

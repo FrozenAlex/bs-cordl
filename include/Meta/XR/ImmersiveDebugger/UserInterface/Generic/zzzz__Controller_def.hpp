@@ -110,16 +110,16 @@ public:
   /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T Append(::StringW childName);
 
-  /// @brief Method Append, addr 0x5a56090, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x5a53ed4, size 0xf0, virtual false, abstract: false, final false
   inline void Append(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* controller);
 
-  /// @brief Method Clear, addr 0x5a56180, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x5a53fc4, size 0xa0, virtual false, abstract: false, final false
   inline void Clear(bool destroy);
 
-  /// @brief Method GetVec2FromLayout, addr 0x5a5628c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetVec2FromLayout, addr 0x5a540d0, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetVec2FromLayout(::UnityEngine::TextAnchor anchor);
 
-  /// @brief Method Hide, addr 0x5a4a2f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x5a48134, size 0x14, virtual false, abstract: false, final false
   inline void Hide();
 
   /// @brief Method InsertAfter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -130,49 +130,49 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5a5676c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5a545b0, size 0x8c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnTransparencyChanged, addr 0x5a4b03c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnTransparencyChanged, addr 0x5a48e80, size 0x4, virtual true, abstract: false, final false
   inline void OnTransparencyChanged();
 
-  /// @brief Method OnVisibilityChanged, addr 0x5a56244, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnVisibilityChanged, addr 0x5a54088, size 0x48, virtual false, abstract: false, final false
   inline void OnVisibilityChanged();
 
   /// @brief Method Prepend, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T Prepend(::StringW childName);
 
-  /// @brief Method RefreshLayout, addr 0x5a4a2c4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method RefreshLayout, addr 0x5a48108, size 0x14, virtual false, abstract: false, final false
   inline void RefreshLayout();
 
-  /// @brief Method RefreshLayoutPostChildren, addr 0x5a565c4, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method RefreshLayoutPostChildren, addr 0x5a54408, size 0x1a8, virtual true, abstract: false, final false
   inline void RefreshLayoutPostChildren();
 
-  /// @brief Method RefreshLayoutPreChildren, addr 0x5a562c0, size 0x304, virtual true, abstract: false, final false
+  /// @brief Method RefreshLayoutPreChildren, addr 0x5a54104, size 0x304, virtual true, abstract: false, final false
   inline void RefreshLayoutPreChildren();
 
-  /// @brief Method Remove, addr 0x5a50e08, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x5a4ec4c, size 0x154, virtual false, abstract: false, final false
   inline void Remove(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* controller, bool destroy);
 
-  /// @brief Method SetHeight, addr 0x5a4a284, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetHeight, addr 0x5a480c8, size 0x40, virtual false, abstract: false, final false
   inline void SetHeight(float_t height);
 
-  /// @brief Method SetWidth, addr 0x5a567f8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetWidth, addr 0x5a5463c, size 0x40, virtual false, abstract: false, final false
   inline void SetWidth(float_t width);
 
-  /// @brief Method Setup, addr 0x5a4d768, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x5a4b5ac, size 0x21c, virtual true, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* owner);
 
   /// @brief Method SetupChildController, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T SetupChildController(::StringW childName);
 
-  /// @brief Method Show, addr 0x5a4a2d8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x5a4811c, size 0x18, virtual false, abstract: false, final false
   inline void Show();
 
-  /// @brief Method ToggleVisibility, addr 0x5a4cf0c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ToggleVisibility, addr 0x5a4ad50, size 0x48, virtual false, abstract: false, final false
   inline void ToggleVisibility();
 
-  /// @brief Method UpdateRefreshLayout, addr 0x5a55e50, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method UpdateRefreshLayout, addr 0x5a53c94, size 0x178, virtual false, abstract: false, final false
   inline void UpdateRefreshLayout(bool force);
 
   constexpr ::System::Action_1<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller>>* const& __cordl_internal_get_OnVisibilityChangedEvent() const;
@@ -253,58 +253,58 @@ public:
 
   constexpr void __cordl_internal_set__visibility(bool value);
 
-  /// @brief Method .ctor, addr 0x5a4edec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a4cc30, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_OnVisibilityChangedEvent, addr 0x5a4b8d8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_OnVisibilityChangedEvent, addr 0x5a4971c, size 0xc0, virtual false, abstract: false, final false
   inline void add_OnVisibilityChangedEvent(::System::Action_1<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller>>* value);
 
-  /// @brief Method get_Children, addr 0x5a55e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Children, addr 0x5a53c84, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller>>* get_Children();
 
-  /// @brief Method get_GameObject, addr 0x5a55e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GameObject, addr 0x5a53c74, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_GameObject();
 
-  /// @brief Method get_LayoutStyle, addr 0x5a55e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutStyle, addr 0x5a53c8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle> get_LayoutStyle();
 
-  /// @brief Method get_Owner, addr 0x5a55e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Owner, addr 0x5a53c44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller> get_Owner();
 
-  /// @brief Method get_RectTransform, addr 0x5a55e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RectTransform, addr 0x5a53c64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_RectTransform();
 
-  /// @brief Method get_Transform, addr 0x5a55e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Transform, addr 0x5a53c54, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_Transform();
 
-  /// @brief Method get_Transparent, addr 0x5a56088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Transparent, addr 0x5a53ecc, size 0x8, virtual false, abstract: false, final false
   inline bool get_Transparent();
 
-  /// @brief Method get_Visibility, addr 0x5a56220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Visibility, addr 0x5a54064, size 0x8, virtual false, abstract: false, final false
   inline bool get_Visibility();
 
-  /// @brief Method remove_OnVisibilityChangedEvent, addr 0x5a55fc8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_OnVisibilityChangedEvent, addr 0x5a53e0c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_OnVisibilityChangedEvent(::System::Action_1<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller>>* value);
 
-  /// @brief Method set_GameObject, addr 0x5a55e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GameObject, addr 0x5a53c7c, size 0x8, virtual false, abstract: false, final false
   inline void set_GameObject(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_LayoutStyle, addr 0x5a470e4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method set_LayoutStyle, addr 0x5a44f28, size 0xdc, virtual false, abstract: false, final false
   inline void set_LayoutStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::LayoutStyle* value);
 
-  /// @brief Method set_Owner, addr 0x5a55e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Owner, addr 0x5a53c4c, size 0x8, virtual false, abstract: false, final false
   inline void set_Owner(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* value);
 
-  /// @brief Method set_RectTransform, addr 0x5a55e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RectTransform, addr 0x5a53c6c, size 0x8, virtual false, abstract: false, final false
   inline void set_RectTransform(::UnityEngine::RectTransform* value);
 
-  /// @brief Method set_Transform, addr 0x5a55e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Transform, addr 0x5a53c5c, size 0x8, virtual false, abstract: false, final false
   inline void set_Transform(::UnityEngine::Transform* value);
 
-  /// @brief Method set_Transparent, addr 0x5a4c230, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_Transparent, addr 0x5a4a074, size 0x24, virtual false, abstract: false, final false
   inline void set_Transparent(bool value);
 
-  /// @brief Method set_Visibility, addr 0x5a56228, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_Visibility, addr 0x5a5406c, size 0x1c, virtual false, abstract: false, final false
   inline void set_Visibility(bool value);
 
 protected:
@@ -322,7 +322,7 @@ public:
   Controller(Controller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18359 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18357 };
 
   /// @brief Field _visibility, offset: 0x20, size: 0x1, def value: None
   bool ____visibility;

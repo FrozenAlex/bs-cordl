@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MoveAndRotateWithMainCamera::*)()>(&::GlobalNamespace::MoveAndRotateWithMainCamera::Awake)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x58e5318;
+  constexpr static std::size_t addrs = 0x58e3888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MoveAndRotateWithMainCamera*>(), { "Awake", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MoveAndRotateWithMainCamera::*)()>(&::GlobalNamespace::MoveAndRotateWithMainCamera::OnDestroy)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x58e543c;
+  constexpr static std::size_t addrs = 0x58e39ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MoveAndRotateWithMainCamera*>(), { "OnDestroy", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MoveAndRotateWithMainCamera::*)(::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*)>(
     &::GlobalNamespace::MoveAndRotateWithMainCamera::OnPreCullCallback)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x58e54e4;
+  constexpr static std::size_t addrs = 0x58e3a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MoveAndRotateWithMainCamera::*)()>(&::GlobalNamespace::MoveAndRotateWithMainCamera::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58e5670;
+  constexpr static std::size_t addrs = 0x58e3be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MoveAndRotateWithMainCamera*>(), { ".ctor", {}, {} })));

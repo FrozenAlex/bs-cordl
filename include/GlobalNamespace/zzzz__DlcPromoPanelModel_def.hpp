@@ -53,7 +53,7 @@ namespace GlobalNamespace {
 struct DlcPromoPanelModel__UpdateModelDataAsync_d__26;
 }
 namespace GlobalNamespace {
-struct DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45;
+struct DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46;
 }
 namespace GlobalNamespace {
 struct DlcPromoPanelModel__UpdatePromoInfosAsync_d__30;
@@ -65,10 +65,10 @@ namespace GlobalNamespace {
 class DlcPromoPanelModel___c__DisplayClass30_0;
 }
 namespace GlobalNamespace {
-class DlcPromoPanelModel___c__DisplayClass32_0;
+class DlcPromoPanelModel___c__DisplayClass33_0;
 }
 namespace GlobalNamespace {
-class DlcPromoPanelModel___c__DisplayClass32_1;
+class DlcPromoPanelModel___c__DisplayClass33_1;
 }
 namespace GlobalNamespace {
 struct EntitlementStatus;
@@ -171,10 +171,10 @@ namespace GlobalNamespace {
 class DlcPromoPanelModel___c__DisplayClass30_0;
 }
 namespace GlobalNamespace {
-class DlcPromoPanelModel___c__DisplayClass32_0;
+class DlcPromoPanelModel___c__DisplayClass33_0;
 }
 namespace GlobalNamespace {
-class DlcPromoPanelModel___c__DisplayClass32_1;
+class DlcPromoPanelModel___c__DisplayClass33_1;
 }
 namespace GlobalNamespace {
 struct DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__27;
@@ -189,7 +189,7 @@ namespace GlobalNamespace {
 struct DlcPromoPanelModel__UpdateModelDataAsync_d__26;
 }
 namespace GlobalNamespace {
-struct DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45;
+struct DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46;
 }
 namespace GlobalNamespace {
 struct DlcPromoPanelModel__UpdatePromoInfosAsync_d__30;
@@ -203,13 +203,13 @@ MARK_REF_T(::GlobalNamespace::DlcPromoPanelModel*);
 MARK_REF_T(::GlobalNamespace::DlcPromoPanelModel_PromoInfo*);
 MARK_REF_T(::GlobalNamespace::DlcPromoPanelModel___c*);
 MARK_REF_T(::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass30_0*);
-MARK_REF_T(::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0*);
-MARK_REF_T(::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1*);
+MARK_REF_T(::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0*);
+MARK_REF_T(::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1*);
 MARK_VAL_T(::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__27);
 MARK_VAL_T(::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__31);
 MARK_VAL_T(::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__29);
 MARK_VAL_T(::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__26);
-MARK_VAL_T(::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45);
+MARK_VAL_T(::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46);
 MARK_VAL_T(::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__30);
 MARK_VAL_T(::GlobalNamespace::PromoInfo_DlcPromoPanelModel_BannerData);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PromoInfo_DlcPromoPanelModel_PromoType, "", "DlcPromoPanelModel/PromoInfo/PromoType");
@@ -217,13 +217,13 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::DlcPromoPanelModel*, "", "DlcPromoPanelMo
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DlcPromoPanelModel_PromoInfo*, "", "DlcPromoPanelModel/PromoInfo");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DlcPromoPanelModel___c*, "", "DlcPromoPanelModel/<>c");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass30_0*, "", "DlcPromoPanelModel/<>c__DisplayClass30_0");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0*, "", "DlcPromoPanelModel/<>c__DisplayClass32_0");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1*, "", "DlcPromoPanelModel/<>c__DisplayClass32_1");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0*, "", "DlcPromoPanelModel/<>c__DisplayClass33_0");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1*, "", "DlcPromoPanelModel/<>c__DisplayClass33_1");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__27, "", "DlcPromoPanelModel/<HandleAdditionalContentModelDidInvalidateData>d__27");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__31, "", "DlcPromoPanelModel/<LoadPackPromoInfoAsync>d__31");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__29, "", "DlcPromoPanelModel/<UpdateDlcPromoPanelDataAsync>d__29");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__26, "", "DlcPromoPanelModel/<UpdateModelDataAsync>d__26");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45, "", "DlcPromoPanelModel/<UpdateOwnedPacksAsync>d__45");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46, "", "DlcPromoPanelModel/<UpdateOwnedPacksAsync>d__46");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__30, "", "DlcPromoPanelModel/<UpdatePromoInfosAsync>d__30");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PromoInfo_DlcPromoPanelModel_BannerData, "", "DlcPromoPanelModel/PromoInfo/BannerData");
 // Dependencies
@@ -233,10 +233,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE PromoInfo_DlcPromoPanelModel_BannerData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x374c00c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3749bc4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Sprite* image, ::StringW promoText, float_t promoTextPosition);
 
-  /// @brief Method .ctor, addr 0x374c018, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3749bd0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::PromoBannerInfoSO* promoBannerInfo);
 
   // Ctor Parameters []
@@ -248,7 +248,7 @@ public:
   constexpr PromoInfo_DlcPromoPanelModel_BannerData(::UnityW<::UnityEngine::Sprite> image, ::StringW promoText, float_t promoTextPosition) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15152 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15150 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -317,7 +317,7 @@ public:
   static ::GlobalNamespace::PromoInfo_DlcPromoPanelModel_PromoType const Store;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15153 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15151 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -411,7 +411,7 @@ public:
 
   constexpr void __cordl_internal_set_target(::StringW value);
 
-  /// @brief Method .ctor, addr 0x374bfe8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x374ab2c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::PromoInfo_DlcPromoPanelModel_PromoType promoType, ::StringW promoId, ::StringW target, ::GlobalNamespace::PromoInfo_DlcPromoPanelModel_BannerData banner,
                     ::GlobalNamespace::PlayerSensitivityFlag contentRating, int32_t maxDisplayCount, int32_t priority);
 
@@ -430,7 +430,7 @@ public:
   DlcPromoPanelModel_PromoInfo(DlcPromoPanelModel_PromoInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15154 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15152 };
 
   /// @brief Field promoType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::PromoInfo_DlcPromoPanelModel_PromoType ___promoType;
@@ -491,13 +491,13 @@ public:
 
   static inline ::GlobalNamespace::DlcPromoPanelModel___c* New_ctor();
 
-  /// @brief Method <UpdatePromoInfosAsync>b__30_0, addr 0x374c090, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <UpdatePromoInfosAsync>b__30_0, addr 0x374aba8, size 0x28, virtual false, abstract: false, final false
   inline bool _UpdatePromoInfosAsync_b__30_0(::GlobalNamespace::PackDefinitionSO* packDefinition);
 
-  /// @brief Method <UpdatePromoInfosAsync>b__30_1, addr 0x374c0b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <UpdatePromoInfosAsync>b__30_1, addr 0x374abd0, size 0x2c, virtual false, abstract: false, final false
   inline int32_t _UpdatePromoInfosAsync_b__30_1(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* a, ::GlobalNamespace::DlcPromoPanelModel_PromoInfo* b);
 
-  /// @brief Method .ctor, addr 0x374c08c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x374aba4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::DlcPromoPanelModel___c* getStaticF___9();
@@ -527,7 +527,7 @@ public:
   DlcPromoPanelModel___c(DlcPromoPanelModel___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15155 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15153 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -547,7 +547,7 @@ public:
 
   static inline ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass30_0* New_ctor();
 
-  /// @brief Method <UpdatePromoInfosAsync>b__2, addr 0x374c0e8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <UpdatePromoInfosAsync>b__2, addr 0x374ac00, size 0x24, virtual false, abstract: false, final false
   inline bool _UpdatePromoInfosAsync_b__2(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* promoInfo);
 
   constexpr ::UnityW<::GlobalNamespace::DlcPromoPanelDataSO> const& __cordl_internal_get_dlcPromoPanel() const;
@@ -556,7 +556,7 @@ public:
 
   constexpr void __cordl_internal_set_dlcPromoPanel(::UnityW<::GlobalNamespace::DlcPromoPanelDataSO> value);
 
-  /// @brief Method .ctor, addr 0x374c0e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x374abfc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -574,7 +574,7 @@ public:
   DlcPromoPanelModel___c__DisplayClass30_0(DlcPromoPanelModel___c__DisplayClass30_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15156 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15154 };
 
   /// @brief Field dlcPromoPanel, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DlcPromoPanelDataSO> ___dlcPromoPanel;
@@ -590,19 +590,19 @@ static_assert(sizeof(::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass30_0
 // Dependencies PlayerSensitivityFlag, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: DlcPromoPanelModel/<>c__DisplayClass32_0
-class CORDL_TYPE DlcPromoPanelModel___c__DisplayClass32_0 : public ::System::Object {
+// CS Name: DlcPromoPanelModel/<>c__DisplayClass33_0
+class CORDL_TYPE DlcPromoPanelModel___c__DisplayClass33_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field sensitivityFlag, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_sensitivityFlag, put = __cordl_internal_set_sensitivityFlag)) ::GlobalNamespace::PlayerSensitivityFlag sensitivityFlag;
 
-  static inline ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0* New_ctor();
+  static inline ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0* New_ctor();
 
-  /// @brief Method <GetPackDataForMainMenuPromoBannerInternal>b__0, addr 0x374c10c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <GetPackDataForMainMenuPromoBannerInternal>b__0, addr 0x374ac24, size 0x20, virtual false, abstract: false, final false
   inline bool _GetPackDataForMainMenuPromoBannerInternal_b__0(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* x);
 
-  /// @brief Method <GetPackDataForMainMenuPromoBannerInternal>b__1, addr 0x374c12c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <GetPackDataForMainMenuPromoBannerInternal>b__1, addr 0x374ac44, size 0x20, virtual false, abstract: false, final false
   inline bool _GetPackDataForMainMenuPromoBannerInternal_b__1(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* x);
 
   constexpr ::GlobalNamespace::PlayerSensitivityFlag const& __cordl_internal_get_sensitivityFlag() const;
@@ -611,25 +611,25 @@ public:
 
   constexpr void __cordl_internal_set_sensitivityFlag(::GlobalNamespace::PlayerSensitivityFlag value);
 
-  /// @brief Method .ctor, addr 0x374b0ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3749bf0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr DlcPromoPanelModel___c__DisplayClass32_0();
+  constexpr DlcPromoPanelModel___c__DisplayClass33_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DlcPromoPanelModel___c__DisplayClass32_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DlcPromoPanelModel___c__DisplayClass33_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  DlcPromoPanelModel___c__DisplayClass32_0(DlcPromoPanelModel___c__DisplayClass32_0&&) = delete;
+  DlcPromoPanelModel___c__DisplayClass33_0(DlcPromoPanelModel___c__DisplayClass33_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DlcPromoPanelModel___c__DisplayClass32_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DlcPromoPanelModel___c__DisplayClass33_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DlcPromoPanelModel___c__DisplayClass32_0(DlcPromoPanelModel___c__DisplayClass32_0 const&) = delete;
+  DlcPromoPanelModel___c__DisplayClass33_0(DlcPromoPanelModel___c__DisplayClass33_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15155 };
 
   /// @brief Field sensitivityFlag, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::PlayerSensitivityFlag ___sensitivityFlag;
@@ -637,24 +637,24 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0, ___sensitivityFlag) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0, ___sensitivityFlag) == 0x10, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0) == 0x18, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: DlcPromoPanelModel/<>c__DisplayClass32_1
-class CORDL_TYPE DlcPromoPanelModel___c__DisplayClass32_1 : public ::System::Object {
+// CS Name: DlcPromoPanelModel/<>c__DisplayClass33_1
+class CORDL_TYPE DlcPromoPanelModel___c__DisplayClass33_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field priorityPromoInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_priorityPromoInfo, put = __cordl_internal_set_priorityPromoInfo)) ::GlobalNamespace::DlcPromoPanelModel_PromoInfo* priorityPromoInfo;
 
-  static inline ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1* New_ctor();
+  static inline ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1* New_ctor();
 
-  /// @brief Method <GetPackDataForMainMenuPromoBannerInternal>b__2, addr 0x374c14c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <GetPackDataForMainMenuPromoBannerInternal>b__2, addr 0x374ac64, size 0x24, virtual false, abstract: false, final false
   inline bool _GetPackDataForMainMenuPromoBannerInternal_b__2(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* pi);
 
   constexpr ::GlobalNamespace::DlcPromoPanelModel_PromoInfo* const& __cordl_internal_get_priorityPromoInfo() const;
@@ -663,25 +663,25 @@ public:
 
   constexpr void __cordl_internal_set_priorityPromoInfo(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* value);
 
-  /// @brief Method .ctor, addr 0x374b0b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3749bf4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr DlcPromoPanelModel___c__DisplayClass32_1();
+  constexpr DlcPromoPanelModel___c__DisplayClass33_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DlcPromoPanelModel___c__DisplayClass32_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DlcPromoPanelModel___c__DisplayClass33_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  DlcPromoPanelModel___c__DisplayClass32_1(DlcPromoPanelModel___c__DisplayClass32_1&&) = delete;
+  DlcPromoPanelModel___c__DisplayClass33_1(DlcPromoPanelModel___c__DisplayClass33_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DlcPromoPanelModel___c__DisplayClass32_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DlcPromoPanelModel___c__DisplayClass33_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  DlcPromoPanelModel___c__DisplayClass32_1(DlcPromoPanelModel___c__DisplayClass32_1 const&) = delete;
+  DlcPromoPanelModel___c__DisplayClass33_1(DlcPromoPanelModel___c__DisplayClass33_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15158 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15156 };
 
   /// @brief Field priorityPromoInfo, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::DlcPromoPanelModel_PromoInfo* ___priorityPromoInfo;
@@ -689,9 +689,9 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1, ___priorityPromoInfo) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1, ___priorityPromoInfo) == 0x10, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1) == 0x18, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
@@ -704,10 +704,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x374c170, size 0x278, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x374ac88, size 0x278, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x374c3e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x374af00, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -724,7 +724,7 @@ public:
                                                                                     ::GlobalNamespace::DlcPromoPanelModel* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15159 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15157 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -765,10 +765,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x374c3f0, size 0x44c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x374af08, size 0x44c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x374c83c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x374b354, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -788,7 +788,7 @@ public:
                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::PackPromoInfoSO>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15160 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15158 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -834,10 +834,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x374c8bc, size 0x684, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x374b3d4, size 0x684, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x374cf40, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x374ba58, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -857,7 +857,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::DlcPromoPanelDataSO>>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15161 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15159 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -903,10 +903,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x374cfac, size 0x668, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x374bac4, size 0x668, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x374d614, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x374c12c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -925,7 +925,7 @@ public:
                                                            ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15162 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15160 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -969,17 +969,17 @@ static_assert(sizeof(::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync
 // Dependencies DlcPromoPanelModel::PromoInfo, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: DlcPromoPanelModel/<UpdateOwnedPacksAsync>d__45
-struct CORDL_TYPE DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45 {
+// CS Name: DlcPromoPanelModel/<UpdateOwnedPacksAsync>d__46
+struct CORDL_TYPE DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x374d680, size 0x7bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x374c198, size 0x7bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x374de3c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x374c954, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -987,7 +987,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45();
+  constexpr DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::DlcPromoPanelModel*", modifiers: "",
@@ -995,14 +995,14 @@ public:
   // ty: "::System::Collections::Generic::List_1<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>*", modifiers: "", def_value: None }, CppParam { name: "_allPromoInfos_5__3", ty:
   // "::ArrayW<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::GlobalNamespace::EntitlementStatus>>", modifiers: "", def_value: None }]
-  constexpr DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                             ::GlobalNamespace::DlcPromoPanelModel* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                             ::System::Collections::Generic::List_1<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>* _newNotOwnedMusicPackPromoInfos_5__2,
                                                             ::ArrayW<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*> _allPromoInfos_5__3,
                                                             ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::GlobalNamespace::EntitlementStatus>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15163 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15161 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -1031,21 +1031,21 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45, _newNotOwnedMusicPackPromoInfos_5__2) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46, _newNotOwnedMusicPackPromoInfos_5__2) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45, _allPromoInfos_5__3) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46, _allPromoInfos_5__3) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45, __u__1) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46, __u__1) == 0x40, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45) == 0x48, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
@@ -1058,10 +1058,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x374dea8, size 0xfdc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x374c9c0, size 0xfe8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x374ee84, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x374d9a8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1082,7 +1082,7 @@ public:
                                                             ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::GlobalNamespace::PackPromoInfoSO>>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15164 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15162 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1140,7 +1140,7 @@ public:
 
   using _UpdateModelDataAsync_d__26 = ::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__26;
 
-  using _UpdateOwnedPacksAsync_d__45 = ::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__45;
+  using _UpdateOwnedPacksAsync_d__46 = ::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__46;
 
   using _UpdatePromoInfosAsync_d__30 = ::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__30;
 
@@ -1148,9 +1148,9 @@ public:
 
   using __c__DisplayClass30_0 = ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass30_0;
 
-  using __c__DisplayClass32_0 = ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_0;
+  using __c__DisplayClass33_0 = ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_0;
 
-  using __c__DisplayClass32_1 = ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass32_1;
+  using __c__DisplayClass33_1 = ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass33_1;
 
   /// @brief Field _additionalContentModel, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__additionalContentModel, put = __cordl_internal_set__additionalContentModel)) ::GlobalNamespace::IAdditionalContentModel* _additionalContentModel;
@@ -1219,49 +1219,52 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method BuyLevelButtonWasPressed, addr 0x374b67c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method BuyLevelButtonWasPressed, addr 0x374a1c0, size 0x17c, virtual false, abstract: false, final false
   inline void BuyLevelButtonWasPressed(::GlobalNamespace::BeatmapLevelPack* pack, ::GlobalNamespace::BeatmapLevel* level, ::StringW page, ::StringW customText);
 
-  /// @brief Method BuyLevelButtonWasShown, addr 0x374b950, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method BuyLevelButtonWasShown, addr 0x374a494, size 0x100, virtual false, abstract: false, final false
   inline void BuyLevelButtonWasShown(::GlobalNamespace::BeatmapLevel* level, ::StringW page, ::StringW customText);
 
-  /// @brief Method BuyPackButtonWasPressed, addr 0x374ba50, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method BuyPackButtonWasPressed, addr 0x374a594, size 0x148, virtual false, abstract: false, final false
   inline void BuyPackButtonWasPressed(::GlobalNamespace::BeatmapLevelPack* pack, ::StringW page, ::StringW customText);
 
-  /// @brief Method BuyPackButtonWasShown, addr 0x374bb98, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method BuyPackButtonWasShown, addr 0x374a6dc, size 0x100, virtual false, abstract: false, final false
   inline void BuyPackButtonWasShown(::GlobalNamespace::BeatmapLevelPack* pack, ::StringW page, ::StringW customText);
 
-  /// @brief Method GetExperimentEventData, addr 0x374b314, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method CreateBannerData, addr 0x3749b14, size 0xb0, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::PromoInfo_DlcPromoPanelModel_BannerData CreateBannerData(::GlobalNamespace::PromoBannerInfoSO* promoBannerInfo);
+
+  /// @brief Method GetExperimentEventData, addr 0x3749e58, size 0x180, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetExperimentEventData(::StringW itemId, ::StringW page, ::StringW customText);
 
-  /// @brief Method GetPackDataForMainMenuPromoBannerInternal, addr 0x374a790, size 0x4d0, virtual false, abstract: false, final false
+  /// @brief Method GetPackDataForMainMenuPromoBannerInternal, addr 0x37491f8, size 0x4d0, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*, bool>> GetPackDataForMainMenuPromoBannerInternal();
 
-  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x374ad90, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x37497f8, size 0xa4, virtual false, abstract: false, final false
   inline void HandleAdditionalContentModelDidInvalidateData();
 
-  /// @brief Method HandleColdplayBuyClicked, addr 0x374b7f8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method HandleColdplayBuyClicked, addr 0x374a33c, size 0x158, virtual false, abstract: false, final false
   inline void HandleColdplayBuyClicked(::StringW itemId);
 
-  /// @brief Method HandleColdplayPurchased, addr 0x374bd18, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method HandleColdplayPurchased, addr 0x374a85c, size 0x158, virtual false, abstract: false, final false
   inline void HandleColdplayPurchased(::StringW itemId);
 
-  /// @brief Method HandleDidCatalogLoadOrUpdate, addr 0x374ae34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleDidCatalogLoadOrUpdate, addr 0x374989c, size 0x4, virtual false, abstract: false, final false
   inline void HandleDidCatalogLoadOrUpdate();
 
-  /// @brief Method LevelPackWasPurchased, addr 0x374bc98, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method LevelPackWasPurchased, addr 0x374a7dc, size 0x80, virtual false, abstract: false, final false
   inline void LevelPackWasPurchased(::GlobalNamespace::BeatmapLevelPack* pack);
 
-  /// @brief Method LevelWasPurchased, addr 0x374be70, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method LevelWasPurchased, addr 0x374a9b4, size 0xb4, virtual false, abstract: false, final false
   inline void LevelWasPurchased(::GlobalNamespace::BeatmapLevelPack* pack, ::GlobalNamespace::BeatmapLevel* level);
 
-  /// @brief Method LoadPackPromoInfoAsync, addr 0x374afbc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method LoadPackPromoInfoAsync, addr 0x3749a24, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::GlobalNamespace::PackPromoInfoSO>>* LoadPackPromoInfoAsync(::GlobalNamespace::PackDefinitionSO* pack);
 
-  /// @brief Method MainMenuDlcPromoBannerWasPressed, addr 0x374b494, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method MainMenuDlcPromoBannerWasPressed, addr 0x3749fd8, size 0x1e8, virtual false, abstract: false, final false
   inline void MainMenuDlcPromoBannerWasPressed(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* promoInfo, ::StringW customText);
 
-  /// @brief Method MainMenuDlcPromoBannerWasShown, addr 0x374b12c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method MainMenuDlcPromoBannerWasShown, addr 0x3749c70, size 0x1e8, virtual false, abstract: false, final false
   inline void MainMenuDlcPromoBannerWasShown(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* promoInfo, ::StringW customText);
 
   static inline ::GlobalNamespace::DlcPromoPanelModel* New_ctor(::GlobalNamespace::IAdditionalContentModel* additionalContentModel, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
@@ -1270,31 +1273,31 @@ public:
                                                                 ::GlobalNamespace::PlayerDataModel* playerDataModel, ::Analytics::Model::TelemetryModel* telemetryModel,
                                                                 ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* metaRemoteAssetsManager);
 
-  /// @brief Method RequestNextPromo, addr 0x374ac60, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method RequestNextPromo, addr 0x37496c8, size 0x6c, virtual false, abstract: false, final false
   inline void RequestNextPromo();
 
-  /// @brief Method RunModelDataUpdate, addr 0x374a5e8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method RunModelDataUpdate, addr 0x3749050, size 0xf0, virtual false, abstract: false, final false
   inline void RunModelDataUpdate();
 
-  /// @brief Method Tick, addr 0x374a6d8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Tick, addr 0x3749140, size 0xb8, virtual false, abstract: false, final false
   inline void Tick();
 
-  /// @brief Method TryGetPromoGroupId, addr 0x374b0b4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TryGetPromoGroupId, addr 0x3749bf8, size 0x78, virtual false, abstract: false, final false
   static inline bool TryGetPromoGroupId(::StringW promoId, ::by_ref<::StringW> promoGroupId);
 
-  /// @brief Method UpdateDlcPromoPanelDataAsync, addr 0x374ae38, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method UpdateDlcPromoPanelDataAsync, addr 0x37498a0, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UpdateDlcPromoPanelDataAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method UpdateModelDataAsync, addr 0x374accc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method UpdateModelDataAsync, addr 0x3749734, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UpdateModelDataAsync(::System::Threading::Tasks::Task* previousTask, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method UpdateOwnedPacksAsync, addr 0x374bf24, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method UpdateOwnedPacksAsync, addr 0x374aa68, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UpdateOwnedPacksAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method UpdatePromoInfosAsync, addr 0x374aefc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method UpdatePromoInfosAsync, addr 0x3749964, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UpdatePromoInfosAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Zenject.IInitializable.Initialize, addr 0x374a5d8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Zenject.IInitializable.Initialize, addr 0x3749040, size 0x10, virtual true, abstract: false, final true
   inline void Zenject_IInitializable_Initialize();
 
   constexpr ::GlobalNamespace::IAdditionalContentModel* const& __cordl_internal_get__additionalContentModel() const;
@@ -1413,7 +1416,7 @@ public:
   constexpr void
   __cordl_internal_set_mainMenuPromo(::GlobalNamespace::ObservableVariable_1<::System::Nullable_1<::System::ValueTuple_2<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*, bool>>>* value);
 
-  /// @brief Method .ctor, addr 0x374a30c, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3748d74, size 0x2cc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAdditionalContentModel* additionalContentModel, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, ::GlobalNamespace::IAnalyticsModel* analyticsModel,
                     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::DlcPromoPanelDataSO>>* defaultDlcPromoPanels, ::GlobalNamespace::PlayerDataModel* playerDataModel,
                     ::Analytics::Model::TelemetryModel* telemetryModel, ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* metaRemoteAssetsManager);
@@ -1436,7 +1439,7 @@ public:
   DlcPromoPanelModel(DlcPromoPanelModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15165 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15163 };
 
   /// @brief Field kDefaultMaxDisplayCount offset 0xffffffff size 0x4
   static constexpr int32_t kDefaultMaxDisplayCount{ static_cast<int32_t>(0x3) };

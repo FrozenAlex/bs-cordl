@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeViewController__LoadSong_d__33::*)()>(&::GlobalNamespace::PracticeViewController__LoadSong_d__33::MoveNext)> {
   constexpr static std::size_t size = 0x534;
-  constexpr static std::size_t addrs = 0x5a16734;
+  constexpr static std::size_t addrs = 0x5a14b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PracticeViewController__LoadSong_d__33>(), { "MoveNext", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeViewController__LoadSong_d__33::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::PracticeViewController__LoadSong_d__33::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5a16c68;
+  constexpr static std::size_t addrs = 0x5a15094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PracticeViewController__LoadSong_d__33>(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeViewController::*)(::System::Action*)>(
     &::GlobalNamespace::PracticeViewController::add_didPressPlayButtonEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a15d84;
+  constexpr static std::size_t addrs = 0x5a141b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeViewController::*)(::System::Action*)>(
     &::GlobalNamespace::PracticeViewController::remove_didPressPlayButtonEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a15e30;
+  constexpr static std::size_t addrs = 0x5a1425c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PracticeSettings* (::GlobalNamespace::PracticeViewController::*)()>(
     &::GlobalNamespace::PracticeViewController::get_practiceSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a15edc;
+  constexpr static std::size_t addrs = 0x5a14308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PracticeViewController*>(), { "get_practiceSettings", {}, {} })));
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeViewController::*)(::by_ref<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::PracticeViewController::Init)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5a15ee4;
+  constexpr static std::size_t addrs = 0x5a14310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeViewController::*)(bool, bool, bool)>(&::GlobalNamespace::PracticeViewController::DidActivate)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5a160fc;
+  constexpr static std::size_t addrs = 0x5a14528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeViewController::*)(bool, bool)>(&::GlobalNamespace::PracticeViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5a163d0;
+  constexpr static std::size_t addrs = 0x5a147fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PracticeViewController::*)(::System::Threading::CancellationToken)>(
     &::GlobalNamespace::PracticeViewController::LoadSong)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5a16254;
+  constexpr static std::size_t addrs = 0x5a14680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeViewController::*)()>(&::GlobalNamespace::PracticeViewController::PlayPreview)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5a164a0;
+  constexpr static std::size_t addrs = 0x5a148cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PracticeViewController*>(), { "PlayPreview", {}, {} })));
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeViewController::*)()>(&::GlobalNamespace::PracticeViewController::CancelSongLoading)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5a1604c;
+  constexpr static std::size_t addrs = 0x5a14478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PracticeViewController*>(), { "CancelSongLoading", {}, {} })));
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeViewController::*)(float_t)>(&::GlobalNamespace::PracticeViewController::SetSongLength)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5a1608c;
+  constexpr static std::size_t addrs = 0x5a144b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeViewController::*)(bool)>(&::GlobalNamespace::PracticeViewController::SetLoader)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5a165f4;
+  constexpr static std::size_t addrs = 0x5a14a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PracticeViewController::*)()>(&::GlobalNamespace::PracticeViewController::GetSongTime)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5a16594;
+  constexpr static std::size_t addrs = 0x5a149c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PracticeViewController*>(), { "GetSongTime", {}, {} })));
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeViewController::*)(::HMUI::RangeValuesTextSlider*, float_t)>(
     &::GlobalNamespace::PracticeViewController::HandleSongStartSliderValueDidChange)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5a16674;
+  constexpr static std::size_t addrs = 0x5a14aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeViewController::*)()>(&::GlobalNamespace::PracticeViewController::HandlePlayButtonPressed)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5a166a8;
+  constexpr static std::size_t addrs = 0x5a14ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PracticeViewController*>(), { "HandlePlayButtonPressed", {}, {} })));
@@ -287,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeViewController::*)()>(&::GlobalNamespace::PracticeViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a16730;
+  constexpr static std::size_t addrs = 0x5a14b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PracticeViewController*>(), { ".ctor", {}, {} })));

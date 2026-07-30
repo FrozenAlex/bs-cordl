@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflection::ManifestResourceInfo::*)(::System::Reflection::Assembly*, ::StringW, ::System::Reflection::ResourceLocation)>(
     &::System::Reflection::ManifestResourceInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5b7cb84;
+  constexpr static std::size_t addrs = 0x5b7a9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Assembly* (::System::Reflection::ManifestResourceInfo::*)()>(
     &::System::Reflection::ManifestResourceInfo::get_ReferencedAssembly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b7cb90;
+  constexpr static std::size_t addrs = 0x5b7a9d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::ManifestResourceInfo::*)()>(&::System::Reflection::ManifestResourceInfo::get_FileName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b7cb98;
+  constexpr static std::size_t addrs = 0x5b7a9dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::ResourceLocation (::System::Reflection::ManifestResourceInfo::*)()>(
     &::System::Reflection::ManifestResourceInfo::get_ResourceLocation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b7cba0;
+  constexpr static std::size_t addrs = 0x5b7a9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

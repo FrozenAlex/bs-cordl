@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector2Control* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_thumbstick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc190;
+  constexpr static std::size_t addrs = 0x64c9f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(), { "get_thumbstick", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::Vector2Control*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_thumbstick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc198;
+  constexpr static std::size_t addrs = 0x64c9f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc1a0;
+  constexpr static std::size_t addrs = 0x64c9f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(), { "get_trigger", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc1a8;
+  constexpr static std::size_t addrs = 0x64c9f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_grip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc1b0;
+  constexpr static std::size_t addrs = 0x64c9f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(), { "get_grip", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_grip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc1b8;
+  constexpr static std::size_t addrs = 0x64c9f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(),
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_primaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc1c0;
+  constexpr static std::size_t addrs = 0x64c9f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(), { "get_primaryButton", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_primaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc1c8;
+  constexpr static std::size_t addrs = 0x64c9f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(),
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_secondaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc1d0;
+  constexpr static std::size_t addrs = 0x64c9f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(), { "get_secondaryButton", {}, {} })));
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_secondaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc1d8;
+  constexpr static std::size_t addrs = 0x64c9f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(),
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_gripPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc1e0;
+  constexpr static std::size_t addrs = 0x64c9f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(), { "get_gripPressed", {}, {} })));
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_gripPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc1e8;
+  constexpr static std::size_t addrs = 0x64c9f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(),
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc1f0;
+  constexpr static std::size_t addrs = 0x64c9f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(), { "get_start", {}, {} })));
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc1f8;
+  constexpr static std::size_t addrs = 0x64c9f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(),
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_thumbstickClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc200;
+  constexpr static std::size_t addrs = 0x64c9f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_thumbstickClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc208;
+  constexpr static std::size_t addrs = 0x64c9fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_primaryTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc210;
+  constexpr static std::size_t addrs = 0x64c9fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(), { "get_primaryTouched", {}, {} })));
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_primaryTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc218;
+  constexpr static std::size_t addrs = 0x64c9fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(),
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_secondaryTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc220;
+  constexpr static std::size_t addrs = 0x64c9fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(), { "get_secondaryTouched", {}, {} })));
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_secondaryTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc228;
+  constexpr static std::size_t addrs = 0x64c9fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_triggerTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc230;
+  constexpr static std::size_t addrs = 0x64c9fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(), { "get_triggerTouched", {}, {} })));
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_triggerTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc238;
+  constexpr static std::size_t addrs = 0x64c9fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(),
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc240;
+  constexpr static std::size_t addrs = 0x64c9fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(), { "get_triggerPressed", {}, {} })));
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc248;
+  constexpr static std::size_t addrs = 0x64c9fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(),
@@ -339,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_thumbstickTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc250;
+  constexpr static std::size_t addrs = 0x64c9fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -353,7 +353,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_thumbstickTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc258;
+  constexpr static std::size_t addrs = 0x64c9ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc260;
+  constexpr static std::size_t addrs = 0x64c9ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(), { "get_deviceVelocity", {}, {} })));
@@ -381,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc268;
+  constexpr static std::size_t addrs = 0x64ca004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(),
@@ -395,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_deviceAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc270;
+  constexpr static std::size_t addrs = 0x64ca00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -409,7 +409,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_deviceAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc278;
+  constexpr static std::size_t addrs = 0x64ca014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -424,7 +424,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_deviceAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc280;
+  constexpr static std::size_t addrs = 0x64ca01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -438,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_deviceAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc288;
+  constexpr static std::size_t addrs = 0x64ca024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_deviceAngularAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc290;
+  constexpr static std::size_t addrs = 0x64ca02c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -467,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_deviceAngularAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cc298;
+  constexpr static std::size_t addrs = 0x64ca034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -481,7 +481,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(&::Unity::XR::Oculus::Input::OculusTouchController::FinishSetup)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x64cc2a0;
+  constexpr static std::size_t addrs = 0x64ca03c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -494,7 +494,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(&::Unity::XR::Oculus::Input::OculusTouchController::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64cc624;
+  constexpr static std::size_t addrs = 0x64ca3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::Oculus::Input::OculusTouchController*>(), { ".ctor", {}, {} })));

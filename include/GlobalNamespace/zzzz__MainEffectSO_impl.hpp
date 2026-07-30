@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::UnityEngine::Rendering::RenderGraphModule::IUnsafeRenderGraphBuilder*, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::RenderTextureDescriptor,
     ::by_ref<::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>>)>(&::GlobalNamespace::MainEffectSO::BindAndFetchTempTextureHandles)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5f42c30;
+  constexpr static std::size_t addrs = 0x5f40914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectSO::*)(::UnityEngine::Rendering::IBaseCommandBuffer*)>(&::GlobalNamespace::MainEffectSO::PreRender)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f42cd0;
+  constexpr static std::size_t addrs = 0x5f409b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle,
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, float_t)>(&::GlobalNamespace::MainEffectSO::Render)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5f42cd4;
+  constexpr static std::size_t addrs = 0x5f409b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectSO::*)(::UnityEngine::Rendering::RasterCommandBuffer*, float_t)>(
     &::GlobalNamespace::MainEffectSO::PostRender)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f42d0c;
+  constexpr static std::size_t addrs = 0x5f409f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MainEffectSO::*)()>(&::GlobalNamespace::MainEffectSO::get_hasPostProcessEffect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f42d10;
+  constexpr static std::size_t addrs = 0x5f409f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectSO::*)()>(&::GlobalNamespace::MainEffectSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f40964;
+  constexpr static std::size_t addrs = 0x5f409fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectSO*>(), { ".ctor", {}, {} })));

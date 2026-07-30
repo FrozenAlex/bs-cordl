@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::AmbientTemperatureSensor::*)()>(
     &::UnityEngine::InputSystem::AmbientTemperatureSensor::get_ambientTemperature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6561704;
+  constexpr static std::size_t addrs = 0x655f4a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::AmbientTemperatureSensor::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::AmbientTemperatureSensor::set_ambientTemperature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x656170c;
+  constexpr static std::size_t addrs = 0x655f4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::AmbientTemperatureSensor* (*)()>(&::UnityEngine::InputSystem::AmbientTemperatureSensor::get_current)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6561714;
+  constexpr static std::size_t addrs = 0x655f4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::AmbientTemperatureSensor*>(), { "get_current", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::AmbientTemperatureSensor*)>(&::UnityEngine::InputSystem::AmbientTemperatureSensor::set_current)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6561760;
+  constexpr static std::size_t addrs = 0x655f4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::AmbientTemperatureSensor*>(),
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::AmbientTemperatureSensor::*)()>(&::UnityEngine::InputSystem::AmbientTemperatureSensor::MakeCurrent)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x65617b0;
+  constexpr static std::size_t addrs = 0x655f54c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::AmbientTemperatureSensor*>(),
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::AmbientTemperatureSensor::*)()>(&::UnityEngine::InputSystem::AmbientTemperatureSensor::OnRemoved)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6561800;
+  constexpr static std::size_t addrs = 0x655f59c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::AmbientTemperatureSensor*>(),
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::AmbientTemperatureSensor::*)()>(&::UnityEngine::InputSystem::AmbientTemperatureSensor::FinishSetup)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6561890;
+  constexpr static std::size_t addrs = 0x655f62c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::AmbientTemperatureSensor*>(),
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::AmbientTemperatureSensor::*)()>(&::UnityEngine::InputSystem::AmbientTemperatureSensor::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6561900;
+  constexpr static std::size_t addrs = 0x655f69c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::AmbientTemperatureSensor*>(), { ".ctor", {}, {} })));

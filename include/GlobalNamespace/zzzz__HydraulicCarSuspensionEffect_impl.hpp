@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)()>(&::GlobalNamespace::HydraulicCarSuspensionEffect::Awake)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3287c2c;
+  constexpr static std::size_t addrs = 0x3284f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HydraulicCarSuspensionEffect*>(), { "Awake", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)()>(&::GlobalNamespace::HydraulicCarSuspensionEffect::OnInject)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3287d28;
+  constexpr static std::size_t addrs = 0x3285014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HydraulicCarSuspensionEffect*>(), { "OnInject", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)()>(&::GlobalNamespace::HydraulicCarSuspensionEffect::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3287f18;
+  constexpr static std::size_t addrs = 0x3285204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HydraulicCarSuspensionEffect*>(), { "OnEnable", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)()>(&::GlobalNamespace::HydraulicCarSuspensionEffect::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3287f1c;
+  constexpr static std::size_t addrs = 0x3285208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HydraulicCarSuspensionEffect*>(), { "OnDisable", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)()>(&::GlobalNamespace::HydraulicCarSuspensionEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3287f6c;
+  constexpr static std::size_t addrs = 0x3285258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HydraulicCarSuspensionEffect*>(), { "OnDestroy", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)()>(&::GlobalNamespace::HydraulicCarSuspensionEffect::TrySubscribe)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x3287d2c;
+  constexpr static std::size_t addrs = 0x3285018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HydraulicCarSuspensionEffect*>(), { "TrySubscribe", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)()>(&::GlobalNamespace::HydraulicCarSuspensionEffect::TryUnsubscribe)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3287f20;
+  constexpr static std::size_t addrs = 0x328520c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HydraulicCarSuspensionEffect*>(), { "TryUnsubscribe", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::HydraulicCarSuspensionEffect::HandleContractBeatmapEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3287f70;
+  constexpr static std::size_t addrs = 0x328525c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HydraulicCarSuspensionEffect*>(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::HydraulicCarSuspensionEffect::HandleExpandBeatmapEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3288024;
+  constexpr static std::size_t addrs = 0x3285310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HydraulicCarSuspensionEffect*>(),
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)()>(&::GlobalNamespace::HydraulicCarSuspensionEffect::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x32880d8;
+  constexpr static std::size_t addrs = 0x32853c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HydraulicCarSuspensionEffect*>(), { ".ctor", {}, {} })));

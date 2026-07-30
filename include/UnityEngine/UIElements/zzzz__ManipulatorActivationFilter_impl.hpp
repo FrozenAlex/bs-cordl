@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MouseButton (::UnityEngine::UIElements::ManipulatorActivationFilter::*)()>(
     &::UnityEngine::UIElements::ManipulatorActivationFilter::get_button)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db2c70;
+  constexpr static std::size_t addrs = 0x6dae674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ManipulatorActivationFilter>(), { "get_button", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ManipulatorActivationFilter::*)(::UnityEngine::UIElements::MouseButton)>(
     &::UnityEngine::UIElements::ManipulatorActivationFilter::set_button)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db2c78;
+  constexpr static std::size_t addrs = 0x6dae67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ManipulatorActivationFilter>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EventModifiers (::UnityEngine::UIElements::ManipulatorActivationFilter::*)()>(
     &::UnityEngine::UIElements::ManipulatorActivationFilter::get_modifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db2c80;
+  constexpr static std::size_t addrs = 0x6dae684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ManipulatorActivationFilter>(), { "get_modifiers", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ManipulatorActivationFilter::*)(::UnityEngine::EventModifiers)>(
     &::UnityEngine::UIElements::ManipulatorActivationFilter::set_modifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db2c88;
+  constexpr static std::size_t addrs = 0x6dae68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::ManipulatorActivationFilter::*)()>(
     &::UnityEngine::UIElements::ManipulatorActivationFilter::get_clickCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db2c90;
+  constexpr static std::size_t addrs = 0x6dae694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ManipulatorActivationFilter>(), { "get_clickCount", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ManipulatorActivationFilter::*)(::System::Object*)>(
     &::UnityEngine::UIElements::ManipulatorActivationFilter::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6db2c98;
+  constexpr static std::size_t addrs = 0x6dae69c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ManipulatorActivationFilter>(),
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ManipulatorActivationFilter::*)(::UnityEngine::UIElements::ManipulatorActivationFilter)>(
     &::UnityEngine::UIElements::ManipulatorActivationFilter::Equals)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6db2d34;
+  constexpr static std::size_t addrs = 0x6dae738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ManipulatorActivationFilter>(),
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::ManipulatorActivationFilter::*)()>(&::UnityEngine::UIElements::ManipulatorActivationFilter::GetHashCode)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6db2d68;
+  constexpr static std::size_t addrs = 0x6dae76c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ManipulatorActivationFilter>(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ManipulatorActivationFilter::*)(::UnityEngine::UIElements::IPointerEvent*)>(
     &::UnityEngine::UIElements::ManipulatorActivationFilter::Matches)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x6db2d94;
+  constexpr static std::size_t addrs = 0x6dae798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ManipulatorActivationFilter>(),
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ManipulatorActivationFilter::*)(::UnityEngine::UIElements::IPointerEvent*)>(
     &::UnityEngine::UIElements::ManipulatorActivationFilter::HasModifiers)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x6db2ee8;
+  constexpr static std::size_t addrs = 0x6dae8ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ManipulatorActivationFilter>(),
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ManipulatorActivationFilter::*)(bool, bool, bool, bool)>(
     &::UnityEngine::UIElements::ManipulatorActivationFilter::MatchModifiers)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6db30e0;
+  constexpr static std::size_t addrs = 0x6daeae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

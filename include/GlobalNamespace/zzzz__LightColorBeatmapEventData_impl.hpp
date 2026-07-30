@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LightColorBeatmapEventData* (::GlobalNamespace::LightColorBeatmapEventData::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventData::get_previousSameTypeEventData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3259f34;
+  constexpr static std::size_t addrs = 0x32571f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LightColorBeatmapEventData* (::GlobalNamespace::LightColorBeatmapEventData::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventData::get_nextSameTypeEventData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3259fb0;
+  constexpr static std::size_t addrs = 0x3257270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LightColorBeatmapEventData::*)()>(&::GlobalNamespace::LightColorBeatmapEventData::get_groupId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325a02c;
+  constexpr static std::size_t addrs = 0x32572ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorBeatmapEventData*>(), { "get_groupId", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(int32_t)>(&::GlobalNamespace::LightColorBeatmapEventData::set_groupId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325a034;
+  constexpr static std::size_t addrs = 0x32572f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LightColorBeatmapEventData::*)()>(&::GlobalNamespace::LightColorBeatmapEventData::get_elementId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325a03c;
+  constexpr static std::size_t addrs = 0x32572fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorBeatmapEventData*>(), { "get_elementId", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(int32_t)>(&::GlobalNamespace::LightColorBeatmapEventData::set_elementId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325a044;
+  constexpr static std::size_t addrs = 0x3257304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LightColorBeatmapEventData::*)()>(&::GlobalNamespace::LightColorBeatmapEventData::get_usePreviousValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325a04c;
+  constexpr static std::size_t addrs = 0x325730c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorBeatmapEventData*>(), { "get_usePreviousValue", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(bool)>(&::GlobalNamespace::LightColorBeatmapEventData::set_usePreviousValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325a054;
+  constexpr static std::size_t addrs = 0x3257314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EaseType (::GlobalNamespace::LightColorBeatmapEventData::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventData::get_easeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325a05c;
+  constexpr static std::size_t addrs = 0x325731c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorBeatmapEventData*>(), { "get_easeType", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::LightColorBeatmapEventData::set_easeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325a064;
+  constexpr static std::size_t addrs = 0x3257324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EnvironmentColorType (::GlobalNamespace::LightColorBeatmapEventData::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventData::get_colorType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325a06c;
+  constexpr static std::size_t addrs = 0x325732c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorBeatmapEventData*>(), { "get_colorType", {}, {} })));
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(::GlobalNamespace::EnvironmentColorType)>(
     &::GlobalNamespace::LightColorBeatmapEventData::set_colorType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325a074;
+  constexpr static std::size_t addrs = 0x3257334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::LightColorBeatmapEventData::*)()>(&::GlobalNamespace::LightColorBeatmapEventData::get_brightness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325a07c;
+  constexpr static std::size_t addrs = 0x325733c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorBeatmapEventData*>(), { "get_brightness", {}, {} })));
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(float_t)>(&::GlobalNamespace::LightColorBeatmapEventData::set_brightness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325a084;
+  constexpr static std::size_t addrs = 0x3257344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LightColorBeatmapEventData::*)()>(&::GlobalNamespace::LightColorBeatmapEventData::get_strobeBeatFrequency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325a08c;
+  constexpr static std::size_t addrs = 0x325734c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorBeatmapEventData*>(), { "get_strobeBeatFrequency", {}, {} })));
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(int32_t)>(&::GlobalNamespace::LightColorBeatmapEventData::set_strobeBeatFrequency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325a094;
+  constexpr static std::size_t addrs = 0x3257354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::LightColorBeatmapEventData::*)()>(&::GlobalNamespace::LightColorBeatmapEventData::get_strobeBrightness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325a09c;
+  constexpr static std::size_t addrs = 0x325735c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorBeatmapEventData*>(), { "get_strobeBrightness", {}, {} })));
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(float_t)>(&::GlobalNamespace::LightColorBeatmapEventData::set_strobeBrightness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325a0a4;
+  constexpr static std::size_t addrs = 0x3257364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LightColorBeatmapEventData::*)()>(&::GlobalNamespace::LightColorBeatmapEventData::get_strobeFade)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325a0ac;
+  constexpr static std::size_t addrs = 0x325736c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorBeatmapEventData*>(), { "get_strobeFade", {}, {} })));
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(bool)>(&::GlobalNamespace::LightColorBeatmapEventData::set_strobeFade)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325a0b4;
+  constexpr static std::size_t addrs = 0x3257374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(
     float_t, int32_t, int32_t, bool, ::GlobalNamespace::EaseType, ::GlobalNamespace::EnvironmentColorType, float_t, int32_t, float_t, bool)>(&::GlobalNamespace::LightColorBeatmapEventData::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x325a0bc;
+  constexpr static std::size_t addrs = 0x325737c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(::GlobalNamespace::LightColorBeatmapEventData*)>(
     &::GlobalNamespace::LightColorBeatmapEventData::CopyColorDataFrom)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x325a1c0;
+  constexpr static std::size_t addrs = 0x3257480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorBeatmapEventData*>(),
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)()>(&::GlobalNamespace::LightColorBeatmapEventData::DisableStrobe)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x325a1f8;
+  constexpr static std::size_t addrs = 0x32574b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorBeatmapEventData*>(), { "DisableStrobe", {}, {} })));
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::LightColorBeatmapEventData::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventData::GetCopy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x325a200;
+  constexpr static std::size_t addrs = 0x32574c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::GlobalNamespace::LightColorBeatmapEventData::SubtypeIdentifier)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x325a1ac;
+  constexpr static std::size_t addrs = 0x325746c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::LightColorBeatmapEventData::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventData::GetDefault)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x325a2d0;
+  constexpr static std::size_t addrs = 0x3257590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -299,7 +299,7 @@ public:
   GraphQLClient___c__DisplayClass24_0_1(GraphQLClient___c__DisplayClass24_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20330 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20327 };
 
   /// @brief Field request, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::QueryRequest* ___request;
@@ -355,7 +355,7 @@ public:
   GraphQLClient___c__DisplayClass26_0_1(GraphQLClient___c__DisplayClass26_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20331 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20328 };
 
   /// @brief Field request, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::QueryRequest* ___request;
@@ -418,7 +418,7 @@ public:
   GraphQLClient___c__DisplayClass26_1_1(GraphQLClient___c__DisplayClass26_1_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20332 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20329 };
 
   /// @brief Field resultObject, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___resultObject;
@@ -481,7 +481,7 @@ public:
   GraphQLClient___c__DisplayClass26_2_1(GraphQLClient___c__DisplayClass26_2_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20333 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20330 };
 
   /// @brief Field e, offset: 0x10, size: 0x8, def value: None
   ::System::Exception* ___e;
@@ -534,7 +534,7 @@ public:
   GraphQLClient___c__DisplayClass27_0_1(GraphQLClient___c__DisplayClass27_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20334 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20331 };
 
   /// @brief Field request, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::MutationRequest* ___request;
@@ -602,7 +602,7 @@ public:
   GraphQLClient___c__DisplayClass29_0_1(GraphQLClient___c__DisplayClass29_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20335 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20332 };
 
   /// @brief Field request, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::MutationRequest* ___request;
@@ -676,7 +676,7 @@ public:
   GraphQLClient___c__DisplayClass31_0_1(GraphQLClient___c__DisplayClass31_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20336 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20333 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::GraphQLClient* _____4__this;
@@ -706,7 +706,7 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::GraphQLClient___c__DisplayClass32_0* New_ctor();
 
-  /// @brief Method <ExecuteAsync>b__0, addr 0x5f1e2c0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <ExecuteAsync>b__0, addr 0x5f1c02c, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>* _ExecuteAsync_b__0();
 
   constexpr ::OculusStudios::GraphQL::Client::GraphQLClient* const& __cordl_internal_get___4__this() const;
@@ -721,7 +721,7 @@ public:
 
   constexpr void __cordl_internal_set_request(::OculusStudios::GraphQL::Client::GraphQLRequest* value);
 
-  /// @brief Method .ctor, addr 0x5f1e2bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f1c028, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -739,7 +739,7 @@ public:
   GraphQLClient___c__DisplayClass32_0(GraphQLClient___c__DisplayClass32_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20337 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20334 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::GraphQLClient* _____4__this;
@@ -767,10 +767,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f1e37c, size 0x3b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f1c0e8, size 0x3b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5f1e72c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5f1c498, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -789,7 +789,7 @@ public:
                                                      ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20338 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20335 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -840,10 +840,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f1e798, size 0x480, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f1c504, size 0x480, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5f1ec18, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5f1c984, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -862,7 +862,7 @@ public:
                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20339 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20336 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -939,7 +939,7 @@ public:
                                                       ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20340 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20337 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
@@ -1024,7 +1024,7 @@ public:
                                                      ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20338 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
@@ -1106,7 +1106,7 @@ public:
                                           ::System::Runtime::CompilerServices::TaskAwaiter __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Object*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20339 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -1178,7 +1178,7 @@ public:
                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<TFrontend> __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20340 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -1224,10 +1224,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f1ec98, size 0x380, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f1ca04, size 0x380, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5f1f018, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5f1cd84, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1245,7 +1245,7 @@ public:
                                                 ::OculusStudios::GraphQL::Client::GraphQLClient* __4__this, int64_t requestId, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20341 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -1318,7 +1318,7 @@ public:
                                          ::System::Runtime::CompilerServices::TaskAwaiter __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Object*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20345 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20342 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -1390,7 +1390,7 @@ public:
                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<TFrontend> __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20343 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -1436,10 +1436,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f1f084, size 0x330, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f1cdf0, size 0x330, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5f1f3b4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5f1d120, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1458,7 +1458,7 @@ public:
                                                                         uint32_t _tries_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20347 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20344 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1533,7 +1533,7 @@ public:
                                                                 ::System::Exception* e, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20345 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1570,10 +1570,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5f1f420, size 0x27c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5f1d18c, size 0x27c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x5f1f69c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5f1d408, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1592,7 +1592,7 @@ public:
                                                                 int64_t _pauseTickCounter_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20349 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20346 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1728,16 +1728,16 @@ public:
   /// @brief Convert operator to "::OculusStudios::GraphQL::ClientInterface::IGraphQLClient"
   constexpr operator ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient*() noexcept;
 
-  /// @brief Method CleanupRequest, addr 0x5f1d790, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CleanupRequest, addr 0x5f1b4fc, size 0x78, virtual false, abstract: false, final false
   inline void CleanupRequest(int64_t requestId, ::OculusStudios::GraphQL::ClientInterface::Request* request);
 
-  /// @brief Method CleanupRequestAsync, addr 0x5f1d808, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CleanupRequestAsync, addr 0x5f1b574, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CleanupRequestAsync(int64_t requestId, ::OculusStudios::GraphQL::ClientInterface::Request* request);
 
   /// @brief Method ErrorOutMutation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void ErrorOutMutation(::OculusStudios::GraphQL::Client::MutationRequest* request, ::System::Exception* e);
 
-  /// @brief Method ExecuteAsync, addr 0x5f1d6a0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x5f1b40c, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>* ExecuteAsync(::OculusStudios::GraphQL::Client::GraphQLRequest* request);
 
   /// @brief Method InternalMutateData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1746,7 +1746,7 @@ public:
   /// @brief Method InternalQueryData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TBackend> inline void InternalQueryData(::OculusStudios::GraphQL::Client::QueryRequest* request);
 
-  /// @brief Method LogRequestState, addr 0x5f1dedc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method LogRequestState, addr 0x5f1bc48, size 0x1c0, virtual false, abstract: false, final false
   inline void LogRequestState(int64_t requestId, ::OculusStudios::GraphQL::ClientInterface::RequestState requestState);
 
   /// @brief Method Mutate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -1757,21 +1757,21 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::GraphQLClient* New_ctor();
 
-  /// @brief Method OculusStudios.GraphQL.ClientInterface.IGraphQLClient.Initialize, addr 0x5f1cc50, size 0x164, virtual true, abstract: false, final true
+  /// @brief Method OculusStudios.GraphQL.ClientInterface.IGraphQLClient.Initialize, addr 0x5f1a9bc, size 0x164, virtual true, abstract: false, final true
   inline void OculusStudios_GraphQL_ClientInterface_IGraphQLClient_Initialize(::StringW endpoint, ::StringW accessToken,
                                                                               ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* customAppHeaders,
                                                                               ::OculusStudios::GraphQL::ClientInterface::IGraphQLClientEvents* logger);
 
-  /// @brief Method OnApplicationResumed, addr 0x5f1dd8c, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method OnApplicationResumed, addr 0x5f1baf8, size 0x150, virtual true, abstract: false, final true
   inline void OnApplicationResumed();
 
-  /// @brief Method OnApplicationSuspended, addr 0x5f1dc58, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method OnApplicationSuspended, addr 0x5f1b9c4, size 0x134, virtual true, abstract: false, final true
   inline void OnApplicationSuspended();
 
-  /// @brief Method PauseRequestQueue, addr 0x5f1da4c, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method PauseRequestQueue, addr 0x5f1b7b8, size 0x108, virtual true, abstract: false, final true
   inline void PauseRequestQueue();
 
-  /// @brief Method ProcessRequest, addr 0x5f1d5dc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ProcessRequest, addr 0x5f1b348, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ProcessRequest(int64_t requestId);
 
   /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -1780,25 +1780,25 @@ public:
   /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename TBackend, typename TFrontend> inline ::System::Threading::Tasks::Task_1<TFrontend>* Query(::OculusStudios::GraphQL::ClientInterface::IQueryRequest* requestBase);
 
-  /// @brief Method ResetRequestForUserInitiatedRetryAsync, addr 0x5f1d98c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method ResetRequestForUserInitiatedRetryAsync, addr 0x5f1b6f8, size 0xc0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* ResetRequestForUserInitiatedRetryAsync(::OculusStudios::GraphQL::ClientInterface::Request* request);
 
-  /// @brief Method ResumeRequestQueue, addr 0x5f1db54, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method ResumeRequestQueue, addr 0x5f1b8c0, size 0x104, virtual true, abstract: false, final true
   inline void ResumeRequestQueue();
 
   /// @brief Method RetryOrErrorOutMutationAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::System::Threading::Tasks::Task* RetryOrErrorOutMutationAsync(::OculusStudios::GraphQL::Client::MutationRequest* request, ::System::Exception* e);
 
-  /// @brief Method SetApplicationOffline, addr 0x5f1e0a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetApplicationOffline, addr 0x5f1be14, size 0x8, virtual true, abstract: false, final true
   inline void SetApplicationOffline();
 
-  /// @brief Method SetApplicationOnline, addr 0x5f1e09c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetApplicationOnline, addr 0x5f1be08, size 0xc, virtual true, abstract: false, final true
   inline void SetApplicationOnline();
 
-  /// @brief Method Update, addr 0x5f1ce78, size 0x3ec, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x5f1abe4, size 0x3ec, virtual true, abstract: false, final true
   inline void Update(float_t deltaTime);
 
-  /// @brief Method WaitUntilRequestQueueIsResumed, addr 0x5f1d8cc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method WaitUntilRequestQueueIsResumed, addr 0x5f1b638, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WaitUntilRequestQueueIsResumed(::System::Threading::CancellationToken cancellationToken, ::StringW operationType);
 
   constexpr bool const& __cordl_internal_get_applicationOnline() const;
@@ -1879,10 +1879,10 @@ public:
 
   constexpr void __cordl_internal_set_requestResponseTransport(::OculusStudios::GraphQL::Client::IGraphQLClientTransport* value);
 
-  /// @brief Method .ctor, addr 0x5f1e0b0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f1be1c, size 0x178, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_onRequestCreated, addr 0x5f1ca90, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method add_onRequestCreated, addr 0x5f1a7fc, size 0xe0, virtual false, abstract: false, final false
   static inline void add_onRequestCreated(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   static inline ::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* getStaticF_onRequestCreated();
@@ -1890,7 +1890,7 @@ public:
   /// @brief Convert to "::OculusStudios::GraphQL::ClientInterface::IGraphQLClient"
   constexpr ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* i___OculusStudios__GraphQL__ClientInterface__IGraphQLClient() noexcept;
 
-  /// @brief Method remove_onRequestCreated, addr 0x5f1cb70, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method remove_onRequestCreated, addr 0x5f1a8dc, size 0xe0, virtual false, abstract: false, final false
   static inline void remove_onRequestCreated(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   static inline void setStaticF_onRequestCreated(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
@@ -1925,7 +1925,7 @@ public:
   static constexpr int32_t TimeToWaitBeforeRetryProcessMs{ static_cast<int32_t>(0x3e8) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20350 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20347 };
 
   /// @brief Field requestResponseTransport, offset: 0x10, size: 0x8, def value: None
   ::OculusStudios::GraphQL::Client::IGraphQLClientTransport* ___requestResponseTransport;

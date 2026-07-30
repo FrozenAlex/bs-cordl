@@ -46,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set__Description_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6a58f5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a56cf8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Data, addr 0x6a58f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x6a56cf0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Data();
 
-  /// @brief Method get_Description, addr 0x6a58f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Description, addr 0x6a56ce0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Description();
 
-  /// @brief Method set_Description, addr 0x6a58f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Description, addr 0x6a56ce8, size 0x8, virtual false, abstract: false, final false
   inline void set_Description(::StringW value);
 
 protected:

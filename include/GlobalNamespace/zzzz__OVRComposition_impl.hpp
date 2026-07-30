@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRComposition::*)(
     ::UnityEngine::GameObject*, ::UnityEngine::Camera*, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*)>(&::GlobalNamespace::OVRComposition::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5df1514;
+  constexpr static std::size_t addrs = 0x5def280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRComposition::*)()>(&::GlobalNamespace::OVRComposition::RecenterPose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5df16ec;
+  constexpr static std::size_t addrs = 0x5def458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRComposition::*)(::UnityEngine::GameObject*, ::UnityEngine::Camera*)>(
     &::GlobalNamespace::OVRComposition::RefreshCameraRig)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x5df1518;
+  constexpr static std::size_t addrs = 0x5def284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPose (::GlobalNamespace::OVRComposition::*)(::GlobalNamespace::OVRPlugin_CameraExtrinsics, ::UnityEngine::Camera*)>(
     &::GlobalNamespace::OVRComposition::ComputeCameraWorldSpacePose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5df16f0;
+  constexpr static std::size_t addrs = 0x5def45c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPose (::GlobalNamespace::OVRComposition::*)(::GlobalNamespace::OVRPlugin_CameraExtrinsics)>(
     &::GlobalNamespace::OVRComposition::ComputeCameraTrackingSpacePose)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x5df175c;
+  constexpr static std::size_t addrs = 0x5def4c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

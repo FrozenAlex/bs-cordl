@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Sockets::Socket* (::System::Net::Sockets::SocketAsyncEventArgs::*)()>(
     &::System::Net::Sockets::SocketAsyncEventArgs::get_AcceptSocket)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63675e4;
+  constexpr static std::size_t addrs = 0x6365380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::SocketAsyncEventArgs*>(), { "get_AcceptSocket", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)(::System::Net::Sockets::Socket*)>(
     &::System::Net::Sockets::SocketAsyncEventArgs::set_AcceptSocket)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63675ec;
+  constexpr static std::size_t addrs = 0x6365388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Sockets::SocketAsyncEventArgs::*)()>(&::System::Net::Sockets::SocketAsyncEventArgs::get_BytesTransferred)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63675f4;
+  constexpr static std::size_t addrs = 0x6365390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::SocketAsyncEventArgs*>(), { "get_BytesTransferred", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)(int32_t)>(&::System::Net::Sockets::SocketAsyncEventArgs::set_BytesTransferred)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63675fc;
+  constexpr static std::size_t addrs = 0x6365398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)(::System::Net::Sockets::SocketAsyncOperation)>(
     &::System::Net::Sockets::SocketAsyncEventArgs::set_LastOperation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6367604;
+  constexpr static std::size_t addrs = 0x63653a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::SocketAsyncEventArgs*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)(::System::Net::EndPoint*)>(
     &::System::Net::Sockets::SocketAsyncEventArgs::set_RemoteEndPoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636760c;
+  constexpr static std::size_t addrs = 0x63653a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)(int32_t)>(&::System::Net::Sockets::SocketAsyncEventArgs::set_SendPacketsSendSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6367614;
+  constexpr static std::size_t addrs = 0x63653b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Sockets::SocketError (::System::Net::Sockets::SocketAsyncEventArgs::*)()>(
     &::System::Net::Sockets::SocketAsyncEventArgs::get_SocketError)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636761c;
+  constexpr static std::size_t addrs = 0x63653b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::SocketAsyncEventArgs*>(), { "get_SocketError", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)(::System::Net::Sockets::SocketError)>(
     &::System::Net::Sockets::SocketAsyncEventArgs::set_SocketError)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6367624;
+  constexpr static std::size_t addrs = 0x63653c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)(::System::Net::Sockets::SocketFlags)>(
     &::System::Net::Sockets::SocketAsyncEventArgs::set_SocketFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636762c;
+  constexpr static std::size_t addrs = 0x63653c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Net::Sockets::SocketAsyncEventArgs::*)()>(&::System::Net::Sockets::SocketAsyncEventArgs::get_UserToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6367634;
+  constexpr static std::size_t addrs = 0x63653d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::SocketAsyncEventArgs*>(), { "get_UserToken", {}, {} })));
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)(::System::Object*)>(&::System::Net::Sockets::SocketAsyncEventArgs::set_UserToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636763c;
+  constexpr static std::size_t addrs = 0x63653d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>*)>(
     &::System::Net::Sockets::SocketAsyncEventArgs::add_Completed)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6367644;
+  constexpr static std::size_t addrs = 0x63653e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>*)>(
     &::System::Net::Sockets::SocketAsyncEventArgs::remove_Completed)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6367704;
+  constexpr static std::size_t addrs = 0x63654a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)()>(&::System::Net::Sockets::SocketAsyncEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x63677c4;
+  constexpr static std::size_t addrs = 0x6365560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::SocketAsyncEventArgs*>(), { ".ctor", {}, {} })));
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)(bool)>(&::System::Net::Sockets::SocketAsyncEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x635fb48;
+  constexpr static std::size_t addrs = 0x635d8e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)()>(&::System::Net::Sockets::SocketAsyncEventArgs::Finalize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x636784c;
+  constexpr static std::size_t addrs = 0x63655e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)(bool)>(&::System::Net::Sockets::SocketAsyncEventArgs::Dispose)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6367858;
+  constexpr static std::size_t addrs = 0x63655f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -270,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)()>(&::System::Net::Sockets::SocketAsyncEventArgs::Dispose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x636786c;
+  constexpr static std::size_t addrs = 0x6365608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::SocketAsyncEventArgs*>(), { "Dispose", {}, {} })));
@@ -282,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)(int32_t)>(&::System::Net::Sockets::SocketAsyncEventArgs::SetBytesTransferred)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636347c;
+  constexpr static std::size_t addrs = 0x6361218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Sockets::Socket* (::System::Net::Sockets::SocketAsyncEventArgs::*)()>(
     &::System::Net::Sockets::SocketAsyncEventArgs::get_CurrentSocket)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63678d4;
+  constexpr static std::size_t addrs = 0x6365670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::SocketAsyncEventArgs*>(), { "get_CurrentSocket", {}, {} })));
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)(::System::Net::Sockets::Socket*)>(
     &::System::Net::Sockets::SocketAsyncEventArgs::SetCurrentSocket)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63678dc;
+  constexpr static std::size_t addrs = 0x6365678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -323,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)(::System::Net::Sockets::SocketAsyncOperation)>(
     &::System::Net::Sockets::SocketAsyncEventArgs::SetLastOperation)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x63678e4;
+  constexpr static std::size_t addrs = 0x6365680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::SocketAsyncEventArgs*>(),
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)()>(&::System::Net::Sockets::SocketAsyncEventArgs::Complete_internal)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x63679a0;
+  constexpr static std::size_t addrs = 0x636573c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::SocketAsyncEventArgs*>(), { "Complete_internal", {}, {} })));
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)(::System::Net::Sockets::SocketAsyncEventArgs*)>(
     &::System::Net::Sockets::SocketAsyncEventArgs::OnCompleted)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x63679b8;
+  constexpr static std::size_t addrs = 0x6365754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Memory_1<uint8_t> (::System::Net::Sockets::SocketAsyncEventArgs::*)()>(
     &::System::Net::Sockets::SocketAsyncEventArgs::get_MemoryBuffer)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63679e0;
+  constexpr static std::size_t addrs = 0x636577c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::SocketAsyncEventArgs*>(), { "get_MemoryBuffer", {}, {} })));
@@ -375,7 +375,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Sockets::SocketAsyncEventArgs::*)()>(&::System::Net::Sockets::SocketAsyncEventArgs::get_Offset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63679ec;
+  constexpr static std::size_t addrs = 0x6365788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::SocketAsyncEventArgs*>(), { "get_Offset", {}, {} })));
@@ -387,7 +387,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Sockets::SocketAsyncEventArgs::*)()>(&::System::Net::Sockets::SocketAsyncEventArgs::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63679f4;
+  constexpr static std::size_t addrs = 0x6365790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::SocketAsyncEventArgs*>(), { "get_Count", {}, {} })));
@@ -400,7 +400,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* (::System::Net::Sockets::SocketAsyncEventArgs::*)()>(
     &::System::Net::Sockets::SocketAsyncEventArgs::get_BufferList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63679fc;
+  constexpr static std::size_t addrs = 0x6365798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Sockets::SocketAsyncEventArgs*>(), { "get_BufferList", {}, {} })));
@@ -412,7 +412,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Sockets::SocketAsyncEventArgs::*)(::System::Memory_1<uint8_t>)>(&::System::Net::Sockets::SocketAsyncEventArgs::SetBuffer)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6367a04;
+  constexpr static std::size_t addrs = 0x63657a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

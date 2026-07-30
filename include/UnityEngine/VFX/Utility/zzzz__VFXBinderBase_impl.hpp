@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXBinderBase::*)()>(&::UnityEngine::VFX::Utility::VFXBinderBase::Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69e39b8;
+  constexpr static std::size_t addrs = 0x69e1754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXBinderBase::*)()>(&::UnityEngine::VFX::Utility::VFXBinderBase::Awake)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x69e39bc;
+  constexpr static std::size_t addrs = 0x69e1758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXBinderBase::*)()>(&::UnityEngine::VFX::Utility::VFXBinderBase::OnEnable)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x69e0024;
+  constexpr static std::size_t addrs = 0x69dddc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXBinderBase::*)()>(&::UnityEngine::VFX::Utility::VFXBinderBase::OnDisable)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x69e3a10;
+  constexpr static std::size_t addrs = 0x69e17ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXBinderBase::*)()>(&::UnityEngine::VFX::Utility::VFXBinderBase::ToString)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x69e3ab4;
+  constexpr static std::size_t addrs = 0x69e1850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXBinderBase::*)()>(&::UnityEngine::VFX::Utility::VFXBinderBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69e0008;
+  constexpr static std::size_t addrs = 0x69ddda4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXBinderBase*>(), { ".ctor", {}, {} })));

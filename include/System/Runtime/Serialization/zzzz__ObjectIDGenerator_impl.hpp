@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectIDGenerator::*)()>(&::System::Runtime::Serialization::ObjectIDGenerator::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5b4d6c4;
+  constexpr static std::size_t addrs = 0x5b4b508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::ObjectIDGenerator*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Serialization::ObjectIDGenerator::*)(::System::Object*, ::by_ref<bool>)>(
     &::System::Runtime::Serialization::ObjectIDGenerator::FindElement)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5b4d7a0;
+  constexpr static std::size_t addrs = 0x5b4b5e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::ObjectIDGenerator*>(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Runtime::Serialization::ObjectIDGenerator::*)(::System::Object*, ::by_ref<bool>)>(
     &::System::Runtime::Serialization::ObjectIDGenerator::GetId)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5b4d85c;
+  constexpr static std::size_t addrs = 0x5b4b6a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::ObjectIDGenerator*>(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Runtime::Serialization::ObjectIDGenerator::*)(::System::Object*, ::by_ref<bool>)>(
     &::System::Runtime::Serialization::ObjectIDGenerator::HasId)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5b4dc74;
+  constexpr static std::size_t addrs = 0x5b4bab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::ObjectIDGenerator*>(),
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::ObjectIDGenerator::*)()>(&::System::Runtime::Serialization::ObjectIDGenerator::Rehash)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x5b4d9c4;
+  constexpr static std::size_t addrs = 0x5b4b808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::ObjectIDGenerator*>(), { "Rehash", {}, {} })));

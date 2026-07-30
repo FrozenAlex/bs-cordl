@@ -5,6 +5,9 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(InputActions)
+namespace BGLib::DotnetExtension::CommandLine {
+struct CommandLineParserResult;
+}
 namespace GlobalNamespace {
 class UIKeyboardManager;
 }
@@ -28,33 +31,54 @@ namespace GlobalNamespace {
 class CORDL_TYPE InputActions : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _autoplayKeyEnabled, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get__autoplayKeyEnabled, put = __cordl_internal_set__autoplayKeyEnabled)) bool _autoplayKeyEnabled;
+
+  /// @brief Field _isBeatmapEditorGameplayLoaded, offset 0x29, size 0x1
+  __declspec(property(get = __cordl_internal_get__isBeatmapEditorGameplayLoaded, put = __cordl_internal_set__isBeatmapEditorGameplayLoaded)) bool _isBeatmapEditorGameplayLoaded;
+
   /// @brief Field _keyboardManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__keyboardManager, put = __cordl_internal_set__keyboardManager)) ::UnityW<::GlobalNamespace::UIKeyboardManager> _keyboardManager;
 
-  /// @brief Method HasInputFocus, addr 0x58dfafc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method HasInputFocus, addr 0x58de06c, size 0x104, virtual false, abstract: false, final false
   static inline bool HasInputFocus(::UnityEngine::EventSystems::EventSystem* eventSystem, ::GlobalNamespace::UIKeyboardManager* keyboardManager);
+
+  /// @brief Method InstallDependencies, addr 0x58ddcfc, size 0x90, virtual false, abstract: false, final false
+  inline void InstallDependencies(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineParserResult);
 
   static inline ::GlobalNamespace::InputActions* New_ctor();
 
-  /// @brief Method ResolveGameplayCoreSceneContext, addr 0x58dfdb8, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method ResolveGameplayCoreSceneContext, addr 0x58de328, size 0x3a4, virtual false, abstract: false, final false
   static inline ::UnityW<::Zenject::SceneContext> ResolveGameplayCoreSceneContext();
 
-  /// @brief Method ToggleAutoplay, addr 0x58dfc00, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method ToggleAutoplay, addr 0x58de170, size 0x1b4, virtual false, abstract: false, final false
   static inline void ToggleAutoplay();
 
-  /// @brief Method ToggleLevelFreeze, addr 0x58dfdb4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToggleLevelFreeze, addr 0x58de324, size 0x4, virtual false, abstract: false, final false
   static inline void ToggleLevelFreeze();
 
-  /// @brief Method Update, addr 0x58df824, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58ddd8c, size 0x2e0, virtual false, abstract: false, final false
   inline void Update();
+
+  constexpr bool const& __cordl_internal_get__autoplayKeyEnabled() const;
+
+  constexpr bool& __cordl_internal_get__autoplayKeyEnabled();
+
+  constexpr bool const& __cordl_internal_get__isBeatmapEditorGameplayLoaded() const;
+
+  constexpr bool& __cordl_internal_get__isBeatmapEditorGameplayLoaded();
 
   constexpr ::UnityW<::GlobalNamespace::UIKeyboardManager> const& __cordl_internal_get__keyboardManager() const;
 
   constexpr ::UnityW<::GlobalNamespace::UIKeyboardManager>& __cordl_internal_get__keyboardManager();
 
+  constexpr void __cordl_internal_set__autoplayKeyEnabled(bool value);
+
+  constexpr void __cordl_internal_set__isBeatmapEditorGameplayLoaded(bool value);
+
   constexpr void __cordl_internal_set__keyboardManager(::UnityW<::GlobalNamespace::UIKeyboardManager> value);
 
-  /// @brief Method .ctor, addr 0x58e015c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58de6cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,16 +96,26 @@ public:
   InputActions(InputActions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6500 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6496 };
 
   /// @brief Field _keyboardManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::UIKeyboardManager> ____keyboardManager;
+
+  /// @brief Field _autoplayKeyEnabled, offset: 0x28, size: 0x1, def value: None
+  bool ____autoplayKeyEnabled;
+
+  /// @brief Field _isBeatmapEditorGameplayLoaded, offset: 0x29, size: 0x1, def value: None
+  bool ____isBeatmapEditorGameplayLoaded;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::InputActions, ____keyboardManager) == 0x20, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::InputActions) == 0x28, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::InputActions, ____autoplayKeyEnabled) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::InputActions, ____isBeatmapEditorGameplayLoaded) == 0x29, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::InputActions) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace

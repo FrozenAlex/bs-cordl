@@ -29,27 +29,27 @@ public:
 
   __declspec(property(get = get_IsFull)) bool IsFull;
 
-  /// @brief Method Decode, addr 0x61ac2e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x61aa080, size 0x8, virtual true, abstract: false, final false
   inline int32_t Decode(::ArrayW<char16_t> chars, int32_t startPos, int32_t len);
 
-  /// @brief Method Decode, addr 0x61ac2ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x61aa088, size 0x8, virtual true, abstract: false, final false
   inline int32_t Decode(::StringW str, int32_t startPos, int32_t len);
 
   static inline ::System::Xml::IncrementalReadDummyDecoder* New_ctor();
 
-  /// @brief Method Reset, addr 0x61ac2f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x61aa090, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetNextOutputBuffer, addr 0x61ac2e0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetNextOutputBuffer, addr 0x61aa07c, size 0x4, virtual true, abstract: false, final false
   inline void SetNextOutputBuffer(::System::Array* array, int32_t offset, int32_t len);
 
-  /// @brief Method .ctor, addr 0x61ac2f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61aa094, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DecodedCount, addr 0x61ac2d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DecodedCount, addr 0x61aa06c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_DecodedCount();
 
-  /// @brief Method get_IsFull, addr 0x61ac2d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsFull, addr 0x61aa074, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsFull();
 
 protected:

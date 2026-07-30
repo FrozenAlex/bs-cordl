@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::*)()>(&::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::Awake)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x327b2bc;
+  constexpr static std::size_t addrs = 0x327857c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter*>(), { "Awake", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::OnValidate)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x327b2cc;
+  constexpr static std::size_t addrs = 0x327858c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter*>(), { "OnValidate", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::*)(::UnityEngine::Color)>(
     &::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::SetColor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x327b3b0;
+  constexpr static std::size_t addrs = 0x3278670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::*)(::UnityEngine::Color, ::UnityEngine::Color)>(
     &::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::SetColors)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x327b3d8;
+  constexpr static std::size_t addrs = 0x3278698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter*>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::*)(bool, int32_t)>(
     &::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::SetHighlight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x327b5b0;
+  constexpr static std::size_t addrs = 0x3278870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter*>(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::UpdateRenderer)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x327b3ec;
+  constexpr static std::size_t addrs = 0x32786ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::*)()>(&::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x327b5b8;
+  constexpr static std::size_t addrs = 0x3278878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter*>(), { ".ctor", {}, {} })));

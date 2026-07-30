@@ -248,27 +248,27 @@ public:
   // Declarations
   __declspec(property(get = get_objectType)) ::System::Type* objectType;
 
-  /// @brief Method Find, addr 0x64d7940, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x64d56dc, size 0x184, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride>
   Find(::UnityEngine::InputSystem::InputActionMap* actionMap, ::by_ref<::UnityEngine::InputSystem::InputBinding> binding, ::StringW parameterName, ::StringW objectRegistrationName);
 
-  /// @brief Method Find, addr 0x64dc310, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x64da0ac, size 0x23c, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride>
   Find(::ArrayW<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride> overrides, int32_t overrideCount, ::by_ref<::UnityEngine::InputSystem::InputBinding> binding,
        ::StringW parameterName, ::StringW objectRegistrationName);
 
-  /// @brief Method PickMoreSpecificOne, addr 0x64dc54c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method PickMoreSpecificOne, addr 0x64da2e8, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride>
   PickMoreSpecificOne(::System::Nullable_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride> first,
                       ::System::Nullable_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride> second);
 
-  /// @brief Method .ctor, addr 0x64dc2dc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64da078, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectRegistrationName, ::StringW parameterName, ::UnityEngine::InputSystem::InputBinding bindingMask, ::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
-  /// @brief Method .ctor, addr 0x64d6a14, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64d47b0, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::StringW parameterName, ::UnityEngine::InputSystem::InputBinding bindingMask, ::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
-  /// @brief Method get_objectType, addr 0x64dbe34, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_objectType, addr 0x64d9bd0, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Type* get_objectType();
 
   // Ctor Parameters []
@@ -326,18 +326,18 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
-  /// @brief Method GetEnumerator, addr 0x64d6c60, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x64d49fc, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterEnumerator GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputActionRebindingExtensions.Parameter>.GetEnumerator, addr 0x64dbcfc, size 0x9c, virtual true, abstract: false,
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputActionRebindingExtensions.Parameter>.GetEnumerator, addr 0x64d9a98, size 0x9c, virtual true, abstract: false,
   /// final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter>*
   System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_InputActionRebindingExtensions_Parameter__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x64dbd98, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x64d9b34, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method .ctor, addr 0x64d6c30, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64d49cc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputActionState* state, ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride parameter, int32_t mapIndex);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter>"
@@ -403,34 +403,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x64dc2d8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x64da074, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method FindParameter, addr 0x64dc15c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method FindParameter, addr 0x64d9ef8, size 0xa4, virtual false, abstract: false, final false
   inline bool FindParameter(::System::Object* instance);
 
-  /// @brief Method MoveNext, addr 0x64d6cd4, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x64d4a70, size 0xbc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method MoveToNextBinding, addr 0x64dbf64, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method MoveToNextBinding, addr 0x64d9d00, size 0x188, virtual false, abstract: false, final false
   inline bool MoveToNextBinding();
 
-  /// @brief Method MoveToNextInteraction, addr 0x64dc0ec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method MoveToNextInteraction, addr 0x64d9e88, size 0x70, virtual false, abstract: false, final false
   inline bool MoveToNextInteraction();
 
-  /// @brief Method MoveToNextProcessor, addr 0x64dc200, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method MoveToNextProcessor, addr 0x64d9f9c, size 0x70, virtual false, abstract: false, final false
   inline bool MoveToNextProcessor();
 
-  /// @brief Method Reset, addr 0x64dbef4, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x64d9c90, size 0x70, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x64dc270, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x64da00c, size 0x68, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method .ctor, addr 0x64dbac8, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64d9864, size 0x234, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputActionState* state, ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride parameter, int32_t mapIndex);
 
-  /// @brief Method get_Current, addr 0x64d6cc0, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x64d4a5c, size 0x14, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_Parameter>"
@@ -654,7 +654,7 @@ public:
 
   static inline ::UnityEngine::InputSystem::RebindingOperation_InputActionRebindingExtensions___c__DisplayClass32_0* New_ctor();
 
-  /// @brief Method <WithTargetBinding>b__0, addr 0x64e27d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <WithTargetBinding>b__0, addr 0x64e0570, size 0x20, virtual false, abstract: false, final false
   inline bool _WithTargetBinding_b__0(::UnityEngine::InputSystem::InputControlScheme x);
 
   constexpr ::StringW const& __cordl_internal_get_group() const;
@@ -663,7 +663,7 @@ public:
 
   constexpr void __cordl_internal_set_group(::StringW value);
 
-  /// @brief Method .ctor, addr 0x64e27d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64e056c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -837,146 +837,146 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddCandidate, addr 0x64dd41c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method AddCandidate, addr 0x64db1b8, size 0x17c, virtual false, abstract: false, final false
   inline void AddCandidate(::UnityEngine::InputSystem::InputControl* control, float_t score, float_t magnitude);
 
-  /// @brief Method Cancel, addr 0x64dd0c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Cancel, addr 0x64dae64, size 0x10, virtual false, abstract: false, final false
   inline void Cancel();
 
-  /// @brief Method Complete, addr 0x64dd114, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x64daeb0, size 0x10, virtual false, abstract: false, final false
   inline void Complete();
 
-  /// @brief Method Dispose, addr 0x64dd800, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x64db59c, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x64dd954, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x64db6f0, size 0x44, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GeneratePathForControl, addr 0x64de240, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GeneratePathForControl, addr 0x64dbfdc, size 0x110, virtual false, abstract: false, final false
   inline ::StringW GeneratePathForControl(::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method HavePathMatch, addr 0x64de108, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HavePathMatch, addr 0x64dbea4, size 0x90, virtual false, abstract: false, final false
   static inline bool HavePathMatch(::UnityEngine::InputSystem::InputControl* control, ::ArrayW<::StringW> paths, int32_t pathCount);
 
-  /// @brief Method HookOnAfterUpdate, addr 0x64dceb8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method HookOnAfterUpdate, addr 0x64dac54, size 0x104, virtual false, abstract: false, final false
   inline void HookOnAfterUpdate();
 
-  /// @brief Method HookOnEvent, addr 0x64dcfbc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method HookOnEvent, addr 0x64dad58, size 0x10c, virtual false, abstract: false, final false
   inline void HookOnEvent();
 
   static inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* New_ctor();
 
-  /// @brief Method OnAfterUpdate, addr 0x64de198, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnAfterUpdate, addr 0x64dbf34, size 0xa8, virtual false, abstract: false, final false
   inline void OnAfterUpdate();
 
-  /// @brief Method OnApplyBinding, addr 0x64dcd4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnApplyBinding, addr 0x64daae8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*
   OnApplyBinding(::System::Action_2<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*, ::StringW>* callback);
 
-  /// @brief Method OnCancel, addr 0x64dcd2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnCancel, addr 0x64daac8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*
   OnCancel(::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>* callback);
 
-  /// @brief Method OnCancel, addr 0x64dd0d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OnCancel, addr 0x64dae74, size 0x3c, virtual false, abstract: false, final false
   inline void OnCancel();
 
-  /// @brief Method OnComplete, addr 0x64dcd24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnComplete, addr 0x64daac0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*
   OnComplete(::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>* callback);
 
-  /// @brief Method OnComplete, addr 0x64dd124, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method OnComplete, addr 0x64daec0, size 0x2f8, virtual false, abstract: false, final false
   inline void OnComplete();
 
-  /// @brief Method OnComputeScore, addr 0x64dcd44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnComputeScore, addr 0x64daae0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*
   OnComputeScore(::System::Func_3<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, float_t>* callback);
 
-  /// @brief Method OnEvent, addr 0x64dda34, size 0x6d4, virtual false, abstract: false, final false
+  /// @brief Method OnEvent, addr 0x64db7d0, size 0x6d4, virtual false, abstract: false, final false
   inline void OnEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method OnGeneratePath, addr 0x64dcd3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnGeneratePath, addr 0x64daad8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* OnGeneratePath(::System::Func_2<::UnityEngine::InputSystem::InputControl*, ::StringW>* callback);
 
-  /// @brief Method OnMatchWaitForAnother, addr 0x64db420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnMatchWaitForAnother, addr 0x64d91bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* OnMatchWaitForAnother(float_t seconds);
 
-  /// @brief Method OnPotentialMatch, addr 0x64dcd34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnPotentialMatch, addr 0x64daad0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*
   OnPotentialMatch(::System::Action_1<::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation*>* callback);
 
-  /// @brief Method RemoveCandidate, addr 0x64dd6d8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method RemoveCandidate, addr 0x64db474, size 0x128, virtual false, abstract: false, final false
   inline void RemoveCandidate(::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method Reset, addr 0x64dd998, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x64db734, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* Reset();
 
-  /// @brief Method ResetAfterMatchCompleted, addr 0x64de350, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ResetAfterMatchCompleted, addr 0x64dc0ec, size 0xbc, virtual false, abstract: false, final false
   inline void ResetAfterMatchCompleted();
 
-  /// @brief Method SortCandidatesByScore, addr 0x64dd598, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method SortCandidatesByScore, addr 0x64db334, size 0x140, virtual false, abstract: false, final false
   inline void SortCandidatesByScore();
 
-  /// @brief Method Start, addr 0x64dcd54, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x64daaf0, size 0x164, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* Start();
 
-  /// @brief Method ThrowIfRebindInProgress, addr 0x64dc7d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfRebindInProgress, addr 0x64da570, size 0x58, virtual false, abstract: false, final false
   inline void ThrowIfRebindInProgress();
 
-  /// @brief Method UnhookOnAfterUpdate, addr 0x64dd8dc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method UnhookOnAfterUpdate, addr 0x64db678, size 0x78, virtual false, abstract: false, final false
   inline void UnhookOnAfterUpdate();
 
-  /// @brief Method UnhookOnEvent, addr 0x64dd864, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method UnhookOnEvent, addr 0x64db600, size 0x78, virtual false, abstract: false, final false
   inline void UnhookOnEvent();
 
-  /// @brief Method WithAction, addr 0x64db28c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method WithAction, addr 0x64d9028, size 0x194, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithAction(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method WithBindingGroup, addr 0x64dcba0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method WithBindingGroup, addr 0x64da93c, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithBindingGroup(::StringW group);
 
-  /// @brief Method WithBindingMask, addr 0x64dcb80, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WithBindingMask, addr 0x64da91c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithBindingMask(::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> bindingMask);
 
-  /// @brief Method WithCancelingThrough, addr 0x64db5ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method WithCancelingThrough, addr 0x64d9348, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithCancelingThrough(::StringW binding);
 
-  /// @brief Method WithCancelingThrough, addr 0x64dc874, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method WithCancelingThrough, addr 0x64da610, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithCancelingThrough(::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method WithControlsExcluding, addr 0x64db428, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method WithControlsExcluding, addr 0x64d91c4, size 0x124, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithControlsExcluding(::StringW path);
 
-  /// @brief Method WithControlsHavingToMatchPath, addr 0x64dca5c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method WithControlsHavingToMatchPath, addr 0x64da7f8, size 0x124, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithControlsHavingToMatchPath(::StringW path);
 
   /// @brief Method WithExpectedControlType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TControl> inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithExpectedControlType();
 
-  /// @brief Method WithExpectedControlType, addr 0x64dc82c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WithExpectedControlType, addr 0x64da5c8, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithExpectedControlType(::StringW layoutName);
 
-  /// @brief Method WithExpectedControlType, addr 0x64dc900, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method WithExpectedControlType, addr 0x64da69c, size 0x15c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithExpectedControlType(::System::Type* type);
 
-  /// @brief Method WithMagnitudeHavingToBeGreaterThan, addr 0x64dcc38, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method WithMagnitudeHavingToBeGreaterThan, addr 0x64da9d4, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithMagnitudeHavingToBeGreaterThan(float_t magnitude);
 
-  /// @brief Method WithMatchingEventsBeingSuppressed, addr 0x64db54c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method WithMatchingEventsBeingSuppressed, addr 0x64d92e8, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithMatchingEventsBeingSuppressed(bool value);
 
-  /// @brief Method WithRebindAddingNewBinding, addr 0x64dcc24, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method WithRebindAddingNewBinding, addr 0x64da9c0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithRebindAddingNewBinding(::StringW group);
 
-  /// @brief Method WithTargetBinding, addr 0x64db5d4, size 0x4f4, virtual false, abstract: false, final false
+  /// @brief Method WithTargetBinding, addr 0x64d9370, size 0x4f4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithTargetBinding(int32_t bindingIndex);
 
-  /// @brief Method WithTimeout, addr 0x64dcd1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method WithTimeout, addr 0x64daab8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithTimeout(float_t timeInSeconds);
 
-  /// @brief Method WithoutGeneralizingPathOfSelectedControl, addr 0x64dcc14, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method WithoutGeneralizingPathOfSelectedControl, addr 0x64da9b0, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithoutGeneralizingPathOfSelectedControl();
 
-  /// @brief Method WithoutIgnoringNoisyControls, addr 0x64dccf8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WithoutIgnoringNoisyControls, addr 0x64daa94, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* WithoutIgnoringNoisyControls();
 
   constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_m_ActionToRebind() const;
@@ -1165,43 +1165,43 @@ public:
 
   constexpr void __cordl_internal_set_m_WaitSecondsAfterMatch(float_t value);
 
-  /// @brief Method .ctor, addr 0x64db1e0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64d8f7c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_action, addr 0x64dc638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_action, addr 0x64da3d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_action();
 
-  /// @brief Method get_bindingMask, addr 0x64dc640, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_bindingMask, addr 0x64da3dc, size 0x10, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> get_bindingMask();
 
-  /// @brief Method get_canceled, addr 0x64dc7b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_canceled, addr 0x64da554, size 0xc, virtual false, abstract: false, final false
   inline bool get_canceled();
 
-  /// @brief Method get_candidates, addr 0x64dc650, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_candidates, addr 0x64da3ec, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*> get_candidates();
 
-  /// @brief Method get_completed, addr 0x64dc7ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_completed, addr 0x64da548, size 0xc, virtual false, abstract: false, final false
   inline bool get_completed();
 
-  /// @brief Method get_expectedControlType, addr 0x64db58c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_expectedControlType, addr 0x64d9328, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_expectedControlType();
 
-  /// @brief Method get_magnitudes, addr 0x64dc6c4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_magnitudes, addr 0x64da460, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<float_t> get_magnitudes();
 
-  /// @brief Method get_scores, addr 0x64dc664, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_scores, addr 0x64da400, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<float_t> get_scores();
 
-  /// @brief Method get_selectedControl, addr 0x64dc724, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_selectedControl, addr 0x64da4c0, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* get_selectedControl();
 
-  /// @brief Method get_startTime, addr 0x64dc7c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startTime, addr 0x64da560, size 0x8, virtual false, abstract: false, final false
   inline double_t get_startTime();
 
-  /// @brief Method get_started, addr 0x64dc7a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_started, addr 0x64da53c, size 0xc, virtual false, abstract: false, final false
   inline bool get_started();
 
-  /// @brief Method get_timeout, addr 0x64dc7cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_timeout, addr 0x64da568, size 0x8, virtual false, abstract: false, final false
   inline float_t get_timeout();
 
   /// @brief Convert to "::System::IDisposable"
@@ -1398,15 +1398,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Acquire, addr 0x64e27f4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x64e0590, size 0x64, virtual false, abstract: false, final false
   inline void Acquire();
 
-  /// @brief Method Dispose, addr 0x64e2858, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x64e05f4, size 0xd4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_DeferBindingResolutionWrapper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x64e2c50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64e09ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -1457,7 +1457,7 @@ public:
 
   static inline ::UnityEngine::InputSystem::InputActionRebindingExtensions___c__DisplayClass25_0* New_ctor();
 
-  /// @brief Method <GetBindingDisplayString>b__0, addr 0x64e2c58, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method <GetBindingDisplayString>b__0, addr 0x64e09f4, size 0x16c, virtual false, abstract: false, final false
   inline ::StringW _GetBindingDisplayString_b__0(::StringW fragment);
 
   constexpr ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputBinding> const& __cordl_internal_get_bindings() const;
@@ -1484,7 +1484,7 @@ public:
 
   constexpr void __cordl_internal_set_partStrings(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x64e2c54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64e09f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1555,36 +1555,36 @@ public:
   __declspec(property(get = getStaticF_s_DeferBindingResolutionWrapper,
                       put = setStaticF_s_DeferBindingResolutionWrapper)) ::UnityEngine::InputSystem::InputActionRebindingExtensions_DeferBindingResolutionWrapper* s_DeferBindingResolutionWrapper;
 
-  /// @brief Method AddBindingOverrideJsonTo, addr 0x64da35c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method AddBindingOverrideJsonTo, addr 0x64d80f8, size 0x224, virtual false, abstract: false, final false
   static inline void AddBindingOverrideJsonTo(::UnityEngine::InputSystem::IInputActionCollection2* actions, ::UnityEngine::InputSystem::InputBinding binding,
                                               ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::InputActionMap_BindingOverrideJson>* list,
                                               ::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method ApplyBindingOverride, addr 0x64d8a98, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindingOverride, addr 0x64d6834, size 0x128, virtual false, abstract: false, final false
   static inline int32_t ApplyBindingOverride(::UnityEngine::InputSystem::InputActionMap* actionMap, ::UnityEngine::InputSystem::InputBinding bindingOverride);
 
-  /// @brief Method ApplyBindingOverride, addr 0x64d8bc0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindingOverride, addr 0x64d695c, size 0xbc, virtual false, abstract: false, final false
   static inline void ApplyBindingOverride(::UnityEngine::InputSystem::InputAction* action, int32_t bindingIndex, ::UnityEngine::InputSystem::InputBinding bindingOverride);
 
-  /// @brief Method ApplyBindingOverride, addr 0x64d8dd4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindingOverride, addr 0x64d6b70, size 0x98, virtual false, abstract: false, final false
   static inline void ApplyBindingOverride(::UnityEngine::InputSystem::InputAction* action, int32_t bindingIndex, ::StringW path);
 
-  /// @brief Method ApplyBindingOverride, addr 0x64d896c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindingOverride, addr 0x64d6708, size 0x12c, virtual false, abstract: false, final false
   static inline void ApplyBindingOverride(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputBinding bindingOverride);
 
-  /// @brief Method ApplyBindingOverride, addr 0x64d88ec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindingOverride, addr 0x64d6688, size 0x80, virtual false, abstract: false, final false
   static inline void ApplyBindingOverride(::UnityEngine::InputSystem::InputAction* action, ::StringW newPath, ::StringW group, ::StringW path);
 
-  /// @brief Method ApplyBindingOverride, addr 0x64d8c7c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindingOverride, addr 0x64d6a18, size 0x158, virtual false, abstract: false, final false
   static inline void ApplyBindingOverride(::UnityEngine::InputSystem::InputActionMap* actionMap, int32_t bindingIndex, ::UnityEngine::InputSystem::InputBinding bindingOverride);
 
-  /// @brief Method ApplyBindingOverrides, addr 0x64d95a4, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindingOverrides, addr 0x64d7340, size 0x350, virtual false, abstract: false, final false
   static inline void ApplyBindingOverrides(::UnityEngine::InputSystem::InputActionMap* actionMap, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>* overrides);
 
-  /// @brief Method ApplyBindingOverridesOnMatchingControls, addr 0x64d9c68, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindingOverridesOnMatchingControls, addr 0x64d7a04, size 0x15c, virtual false, abstract: false, final false
   static inline int32_t ApplyBindingOverridesOnMatchingControls(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ApplyBindingOverridesOnMatchingControls, addr 0x64d9dc4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindingOverridesOnMatchingControls, addr 0x64d7b60, size 0x124, virtual false, abstract: false, final false
   static inline int32_t ApplyBindingOverridesOnMatchingControls(::UnityEngine::InputSystem::InputActionMap* actionMap, ::UnityEngine::InputSystem::InputControl* control);
 
   /// @brief Method ApplyParameterOverride, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1592,10 +1592,10 @@ public:
   static inline void ApplyParameterOverride(::UnityEngine::InputSystem::InputAction* action, ::System::Linq::Expressions::Expression_1<::System::Func_2<TObject, TValue>*>* expr, TValue value,
                                             ::UnityEngine::InputSystem::InputBinding bindingMask);
 
-  /// @brief Method ApplyParameterOverride, addr 0x64d7768, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method ApplyParameterOverride, addr 0x64d5504, size 0x1d8, virtual false, abstract: false, final false
   static inline void ApplyParameterOverride(::UnityEngine::InputSystem::InputAction* action, ::StringW name, ::UnityEngine::InputSystem::Utilities::PrimitiveValue value, int32_t bindingIndex);
 
-  /// @brief Method ApplyParameterOverride, addr 0x64d7620, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ApplyParameterOverride, addr 0x64d53bc, size 0x148, virtual false, abstract: false, final false
   static inline void ApplyParameterOverride(::UnityEngine::InputSystem::InputAction* action, ::StringW name, ::UnityEngine::InputSystem::Utilities::PrimitiveValue value,
                                             ::UnityEngine::InputSystem::InputBinding bindingMask);
 
@@ -1604,7 +1604,7 @@ public:
   static inline void ApplyParameterOverride(::UnityEngine::InputSystem::InputActionMap* actionMap, ::System::Linq::Expressions::Expression_1<::System::Func_2<TObject, TValue>*>* expr, TValue value,
                                             ::UnityEngine::InputSystem::InputBinding bindingMask);
 
-  /// @brief Method ApplyParameterOverride, addr 0x64d6f5c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ApplyParameterOverride, addr 0x64d4cf8, size 0x128, virtual false, abstract: false, final false
   static inline void ApplyParameterOverride(::UnityEngine::InputSystem::InputActionMap* actionMap, ::StringW name, ::UnityEngine::InputSystem::Utilities::PrimitiveValue value,
                                             ::UnityEngine::InputSystem::InputBinding bindingMask);
 
@@ -1613,16 +1613,16 @@ public:
   static inline void ApplyParameterOverride(::UnityEngine::InputSystem::InputActionAsset* asset, ::System::Linq::Expressions::Expression_1<::System::Func_2<TObject, TValue>*>* expr, TValue value,
                                             ::UnityEngine::InputSystem::InputBinding bindingMask);
 
-  /// @brief Method ApplyParameterOverride, addr 0x64d74a4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ApplyParameterOverride, addr 0x64d5240, size 0x17c, virtual false, abstract: false, final false
   static inline void ApplyParameterOverride(::UnityEngine::InputSystem::InputActionAsset* asset, ::StringW name, ::UnityEngine::InputSystem::Utilities::PrimitiveValue value,
                                             ::UnityEngine::InputSystem::InputBinding bindingMask);
 
-  /// @brief Method ApplyParameterOverride, addr 0x64d7084, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method ApplyParameterOverride, addr 0x64d4e20, size 0x420, virtual false, abstract: false, final false
   static inline void ApplyParameterOverride(::UnityEngine::InputSystem::InputActionState* state, int32_t mapIndex,
                                             ::by_ref<::ArrayW<::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride>> parameterOverrides,
                                             ::by_ref<int32_t> parameterOverridesCount, ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride parameterOverride);
 
-  /// @brief Method DeferBindingResolution, addr 0x64d5ba4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method DeferBindingResolution, addr 0x64d3940, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_DeferBindingResolutionWrapper* DeferBindingResolution();
 
   /// @brief Method ExtractParameterOverride, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1631,43 +1631,43 @@ public:
   ExtractParameterOverride(::System::Linq::Expressions::Expression_1<::System::Func_2<TObject, TValue>*>* expr, ::UnityEngine::InputSystem::InputBinding bindingMask,
                            ::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
-  /// @brief Method GetBindingDisplayString, addr 0x64d83c4, size 0x528, virtual false, abstract: false, final false
+  /// @brief Method GetBindingDisplayString, addr 0x64d6160, size 0x528, virtual false, abstract: false, final false
   static inline ::StringW GetBindingDisplayString(::UnityEngine::InputSystem::InputAction* action, int32_t bindingIndex, ::by_ref<::StringW> deviceLayoutName, ::by_ref<::StringW> controlPath,
                                                   ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions options);
 
-  /// @brief Method GetBindingDisplayString, addr 0x64d8350, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetBindingDisplayString, addr 0x64d60ec, size 0x74, virtual false, abstract: false, final false
   static inline ::StringW GetBindingDisplayString(::UnityEngine::InputSystem::InputAction* action, int32_t bindingIndex, ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions options);
 
-  /// @brief Method GetBindingDisplayString, addr 0x64d8174, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetBindingDisplayString, addr 0x64d5f10, size 0x1dc, virtual false, abstract: false, final false
   static inline ::StringW GetBindingDisplayString(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputBinding bindingMask,
                                                   ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions options);
 
-  /// @brief Method GetBindingDisplayString, addr 0x64d800c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetBindingDisplayString, addr 0x64d5da8, size 0x168, virtual false, abstract: false, final false
   static inline ::StringW GetBindingDisplayString(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputBinding_DisplayStringOptions options, ::StringW group);
 
-  /// @brief Method GetBindingForControl, addr 0x64d7d68, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetBindingForControl, addr 0x64d5b04, size 0x148, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> GetBindingForControl(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method GetBindingIndex, addr 0x64d7ac4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetBindingIndex, addr 0x64d5860, size 0x110, virtual false, abstract: false, final false
   static inline int32_t GetBindingIndex(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputBinding bindingMask);
 
-  /// @brief Method GetBindingIndex, addr 0x64d7ce4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetBindingIndex, addr 0x64d5a80, size 0x84, virtual false, abstract: false, final false
   static inline int32_t GetBindingIndex(::UnityEngine::InputSystem::InputAction* action, ::StringW group, ::StringW path);
 
-  /// @brief Method GetBindingIndex, addr 0x64d7bd4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetBindingIndex, addr 0x64d5970, size 0x110, virtual false, abstract: false, final false
   static inline int32_t GetBindingIndex(::UnityEngine::InputSystem::InputActionMap* actionMap, ::UnityEngine::InputSystem::InputBinding bindingMask);
 
-  /// @brief Method GetBindingIndexForControl, addr 0x64d7eb0, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetBindingIndexForControl, addr 0x64d5c4c, size 0x15c, virtual false, abstract: false, final false
   static inline int32_t GetBindingIndexForControl(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method GetParameterValue, addr 0x64d6d90, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetParameterValue, addr 0x64d4b2c, size 0x1cc, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue> GetParameterValue(::UnityEngine::InputSystem::InputAction* action, ::StringW name, int32_t bindingIndex);
 
-  /// @brief Method GetParameterValue, addr 0x64d690c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetParameterValue, addr 0x64d46a8, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue> GetParameterValue(::UnityEngine::InputSystem::InputAction* action, ::StringW name,
                                                                                                               ::UnityEngine::InputSystem::InputBinding bindingMask);
 
-  /// @brief Method GetParameterValue, addr 0x64d6ac0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetParameterValue, addr 0x64d485c, size 0x170, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue>
   GetParameterValue(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputActionRebindingExtensions_ParameterOverride parameterOverride);
 
@@ -1676,40 +1676,40 @@ public:
   static inline ::System::Nullable_1<TValue> GetParameterValue(::UnityEngine::InputSystem::InputAction* action, ::System::Linq::Expressions::Expression_1<::System::Func_2<TObject, TValue>*>* expr,
                                                                ::UnityEngine::InputSystem::InputBinding bindingMask);
 
-  /// @brief Method LoadBindingOverridesFromJson, addr 0x64dacc4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method LoadBindingOverridesFromJson, addr 0x64d8a60, size 0x19c, virtual false, abstract: false, final false
   static inline void LoadBindingOverridesFromJson(::UnityEngine::InputSystem::InputAction* action, ::StringW json, bool removeExisting);
 
-  /// @brief Method LoadBindingOverridesFromJson, addr 0x64da86c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method LoadBindingOverridesFromJson, addr 0x64d8608, size 0x188, virtual false, abstract: false, final false
   static inline void LoadBindingOverridesFromJson(::UnityEngine::InputSystem::IInputActionCollection2* actions, ::StringW json, bool removeExisting);
 
-  /// @brief Method LoadBindingOverridesFromJsonInternal, addr 0x64da9f4, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method LoadBindingOverridesFromJsonInternal, addr 0x64d8790, size 0x2d0, virtual false, abstract: false, final false
   static inline void LoadBindingOverridesFromJsonInternal(::UnityEngine::InputSystem::IInputActionCollection2* actions, ::StringW json);
 
-  /// @brief Method PerformInteractiveRebinding, addr 0x64dae60, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method PerformInteractiveRebinding, addr 0x64d8bfc, size 0x380, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_RebindingOperation* PerformInteractiveRebinding(::UnityEngine::InputSystem::InputAction* action, int32_t bindingIndex);
 
-  /// @brief Method RemoveAllBindingOverrides, addr 0x64d9474, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method RemoveAllBindingOverrides, addr 0x64d7210, size 0x130, virtual false, abstract: false, final false
   static inline void RemoveAllBindingOverrides(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method RemoveAllBindingOverrides, addr 0x64d8ff0, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method RemoveAllBindingOverrides, addr 0x64d6d8c, size 0x484, virtual false, abstract: false, final false
   static inline void RemoveAllBindingOverrides(::UnityEngine::InputSystem::IInputActionCollection2* actions);
 
-  /// @brief Method RemoveBindingOverride, addr 0x64d8e6c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RemoveBindingOverride, addr 0x64d6c08, size 0x7c, virtual false, abstract: false, final false
   static inline void RemoveBindingOverride(::UnityEngine::InputSystem::InputAction* action, int32_t bindingIndex);
 
-  /// @brief Method RemoveBindingOverride, addr 0x64d8ee8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RemoveBindingOverride, addr 0x64d6c84, size 0x84, virtual false, abstract: false, final false
   static inline void RemoveBindingOverride(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputBinding bindingMask);
 
-  /// @brief Method RemoveBindingOverride, addr 0x64d8f6c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RemoveBindingOverride, addr 0x64d6d08, size 0x84, virtual false, abstract: false, final false
   static inline void RemoveBindingOverride(::UnityEngine::InputSystem::InputActionMap* actionMap, ::UnityEngine::InputSystem::InputBinding bindingMask);
 
-  /// @brief Method RemoveBindingOverrides, addr 0x64d98f4, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method RemoveBindingOverrides, addr 0x64d7690, size 0x374, virtual false, abstract: false, final false
   static inline void RemoveBindingOverrides(::UnityEngine::InputSystem::InputActionMap* actionMap, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>* overrides);
 
-  /// @brief Method SaveBindingOverridesAsJson, addr 0x64da580, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method SaveBindingOverridesAsJson, addr 0x64d831c, size 0x2ec, virtual false, abstract: false, final false
   static inline ::StringW SaveBindingOverridesAsJson(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method SaveBindingOverridesAsJson, addr 0x64d9ee8, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method SaveBindingOverridesAsJson, addr 0x64d7c84, size 0x474, virtual false, abstract: false, final false
   static inline ::StringW SaveBindingOverridesAsJson(::UnityEngine::InputSystem::IInputActionCollection2* actions);
 
   static inline ::UnityEngine::InputSystem::InputActionRebindingExtensions_DeferBindingResolutionWrapper* getStaticF_s_DeferBindingResolutionWrapper();

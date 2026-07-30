@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::TypeTable___c::*)()>(&::UnityEngine::InputSystem::Utilities::TypeTable___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65062d4;
+  constexpr static std::size_t addrs = 0x6504070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::TypeTable___c*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::TypeTable___c::*)(::UnityEngine::InputSystem::Utilities::InternedString)>(
     &::UnityEngine::InputSystem::Utilities::TypeTable___c::_get_names_b__2_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65062d8;
+  constexpr static std::size_t addrs = 0x6504074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::TypeTable___c*>(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (::UnityEngine::InputSystem::Utilities::TypeTable::*)()>(
     &::UnityEngine::InputSystem::Utilities::TypeTable::get_names)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6505c3c;
+  constexpr static std::size_t addrs = 0x65039d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::TypeTable>(), { "get_names", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>* (
     ::UnityEngine::InputSystem::Utilities::TypeTable::*)()>(&::UnityEngine::InputSystem::Utilities::TypeTable::get_internedNames)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6505d74;
+  constexpr static std::size_t addrs = 0x6503b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::TypeTable>(), { "get_internedNames", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::TypeTable::*)()>(&::UnityEngine::InputSystem::Utilities::TypeTable::Initialize)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6505dc8;
+  constexpr static std::size_t addrs = 0x6503b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::TypeTable>(), { "Initialize", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::InternedString (::UnityEngine::InputSystem::Utilities::TypeTable::*)(::System::Type*)>(
     &::UnityEngine::InputSystem::Utilities::TypeTable::FindNameForType)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x6505e60;
+  constexpr static std::size_t addrs = 0x6503bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::TypeTable::*)(::StringW, ::System::Type*)>(
     &::UnityEngine::InputSystem::Utilities::TypeTable::AddTypeRegistration)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6506038;
+  constexpr static std::size_t addrs = 0x6503dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::TypeTable>(),
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::UnityEngine::InputSystem::Utilities::TypeTable::*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::TypeTable::LookupTypeRegistration)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6506184;
+  constexpr static std::size_t addrs = 0x6503f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

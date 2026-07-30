@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_faceIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8aa0;
+  constexpr static std::size_t addrs = 0x6bb44a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_faceIndex", {}, {} })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_familyName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8aa8;
+  constexpr static std::size_t addrs = 0x6bb44ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_familyName", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_styleName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8ab0;
+  constexpr static std::size_t addrs = 0x6bb44b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_styleName", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_pointSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8ab8;
+  constexpr static std::size_t addrs = 0x6bb44bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_pointSize", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_scale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8ac0;
+  constexpr static std::size_t addrs = 0x6bb44c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_scale", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_scale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8ac8;
+  constexpr static std::size_t addrs = 0x6bb44cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "set_scale", {}, { ::i2c::type_of<float_t>() } })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_unitsPerEM)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8ad0;
+  constexpr static std::size_t addrs = 0x6bb44d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_unitsPerEM", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(int32_t)>(&::UnityEngine::TextCore::FaceInfo::set_unitsPerEM)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8ad8;
+  constexpr static std::size_t addrs = 0x6bb44dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_lineHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8ae0;
+  constexpr static std::size_t addrs = 0x6bb44e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_lineHeight", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_ascentLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8ae8;
+  constexpr static std::size_t addrs = 0x6bb44ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_ascentLine", {}, {} })));
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_capLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8af0;
+  constexpr static std::size_t addrs = 0x6bb44f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_capLine", {}, {} })));
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_capLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8af8;
+  constexpr static std::size_t addrs = 0x6bb44fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_meanLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8b00;
+  constexpr static std::size_t addrs = 0x6bb4504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_meanLine", {}, {} })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_meanLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8b08;
+  constexpr static std::size_t addrs = 0x6bb450c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_baseline)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8b10;
+  constexpr static std::size_t addrs = 0x6bb4514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_baseline", {}, {} })));
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_descentLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8b18;
+  constexpr static std::size_t addrs = 0x6bb451c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_descentLine", {}, {} })));
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_superscriptOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8b20;
+  constexpr static std::size_t addrs = 0x6bb4524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_superscriptOffset", {}, {} })));
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_superscriptSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8b28;
+  constexpr static std::size_t addrs = 0x6bb452c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_superscriptSize", {}, {} })));
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_subscriptOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8b30;
+  constexpr static std::size_t addrs = 0x6bb4534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_subscriptOffset", {}, {} })));
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_subscriptSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8b38;
+  constexpr static std::size_t addrs = 0x6bb453c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_subscriptSize", {}, {} })));
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_underlineOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8b40;
+  constexpr static std::size_t addrs = 0x6bb4544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_underlineOffset", {}, {} })));
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_underlineThickness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8b48;
+  constexpr static std::size_t addrs = 0x6bb454c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_underlineThickness", {}, {} })));
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_strikethroughOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8b50;
+  constexpr static std::size_t addrs = 0x6bb4554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_strikethroughOffset", {}, {} })));
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::FaceInfo::*)(float_t)>(&::UnityEngine::TextCore::FaceInfo::set_strikethroughOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8b58;
+  constexpr static std::size_t addrs = 0x6bb455c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::FaceInfo::*)()>(&::UnityEngine::TextCore::FaceInfo::get_tabWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bb8b60;
+  constexpr static std::size_t addrs = 0x6bb4564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::FaceInfo>(), { "get_tabWidth", {}, {} })));

@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GetEntitlementStatusConsoleCommand__ExecuteAsync_d__9::*)()>(
     &::GlobalNamespace::GetEntitlementStatusConsoleCommand__ExecuteAsync_d__9::MoveNext)> {
   constexpr static std::size_t size = 0x7d4;
-  constexpr static std::size_t addrs = 0x32da300;
+  constexpr static std::size_t addrs = 0x32d7c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GetEntitlementStatusConsoleCommand__ExecuteAsync_d__9::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::GetEntitlementStatusConsoleCommand__ExecuteAsync_d__9::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x32daad4;
+  constexpr static std::size_t addrs = 0x32d8460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GetEntitlementStatusConsoleCommand__ExecuteAsync_d__9>(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GetEntitlementStatusConsoleCommand::*)()>(
     &::GlobalNamespace::GetEntitlementStatusConsoleCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32d98dc;
+  constexpr static std::size_t addrs = 0x32d7268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::GetEntitlementStatusConsoleCommand*>(),
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GetEntitlementStatusConsoleCommand::*)()>(
     &::GlobalNamespace::GetEntitlementStatusConsoleCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32d9920;
+  constexpr static std::size_t addrs = 0x32d72ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::GetEntitlementStatusConsoleCommand*>(),
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GetEntitlementStatusConsoleCommand::*)()>(&::GlobalNamespace::GetEntitlementStatusConsoleCommand::Initialize)> {
   constexpr static std::size_t size = 0x770;
-  constexpr static std::size_t addrs = 0x32d9964;
+  constexpr static std::size_t addrs = 0x32d72f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::GetEntitlementStatusConsoleCommand*>(),
@@ -121,7 +121,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::GetEntitlementStatusConsoleCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(
         &::GlobalNamespace::GetEntitlementStatusConsoleCommand::ExecuteAsync)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x32da0d4;
+  constexpr static std::size_t addrs = 0x32d7a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::GetEntitlementStatusConsoleCommand*>(),
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GetEntitlementStatusConsoleCommand::*)()>(&::GlobalNamespace::GetEntitlementStatusConsoleCommand::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x32da1b0;
+  constexpr static std::size_t addrs = 0x32d7b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GetEntitlementStatusConsoleCommand*>(), { ".ctor", {}, {} })));

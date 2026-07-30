@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BoundsField_UxmlFactory::*)()>(&::UnityEngine::UIElements::BoundsField_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6d339dc;
+  constexpr static std::size_t addrs = 0x6d2f3e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BoundsField_UxmlFactory*>(), { ".ctor", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BoundsField_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::BoundsField_UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x6d33a44;
+  constexpr static std::size_t addrs = 0x6d2f448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BoundsField_UxmlTraits::*)()>(&::UnityEngine::UIElements::BoundsField_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x6d33ce8;
+  constexpr static std::size_t addrs = 0x6d2f6ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BoundsField_UxmlTraits*>(), { ".ctor", {}, {} })));
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BoundsField::*)()>(&::UnityEngine::UIElements::BoundsField::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d330d0;
+  constexpr static std::size_t addrs = 0x6d2ead4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BoundsField*>(), { ".ctor", {}, {} })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BoundsField::*)(::StringW)>(&::UnityEngine::UIElements::BoundsField::_ctor)> {
   constexpr static std::size_t size = 0x3c0;
-  constexpr static std::size_t addrs = 0x6d330d8;
+  constexpr static std::size_t addrs = 0x6d2eadc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BoundsField::*)(::UnityEngine::Bounds)>(&::UnityEngine::UIElements::BoundsField::SetValueWithoutNotify)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6d335c4;
+  constexpr static std::size_t addrs = 0x6d2efc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BoundsField::*)()>(&::UnityEngine::UIElements::BoundsField::UpdateMixedValueContent)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6d33698;
+  constexpr static std::size_t addrs = 0x6d2f09c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BoundsField::*)(::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3>*)>(
     &::UnityEngine::UIElements::BoundsField::__ctor_b__11_0)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6d33864;
+  constexpr static std::size_t addrs = 0x6d2f268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BoundsField::*)(::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3>*)>(
     &::UnityEngine::UIElements::BoundsField::__ctor_b__11_1)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6d33920;
+  constexpr static std::size_t addrs = 0x6d2f324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

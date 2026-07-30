@@ -81,21 +81,21 @@ public:
 
   constexpr void __cordl_internal_set_tmu(float_t value);
 
-  /// @brief Method .ctor, addr 0x375afe4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3759b08, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataCommon::NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer, float_t headControlPointLengthMultiplier,
                     ::BeatmapSaveDataCommon::NoteCutDirection headCutDirection, float_t tailBeat, int32_t tailLine, int32_t tailLayer, float_t tailControlPointLengthMultiplier,
                     ::BeatmapSaveDataCommon::NoteCutDirection tailCutDirection, ::BeatmapSaveDataCommon::SliderMidAnchorMode sliderMidAnchorMode);
 
-  /// @brief Method get_headControlPointLengthMultiplier, addr 0x375afc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headControlPointLengthMultiplier, addr 0x3759ae8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_headControlPointLengthMultiplier();
 
-  /// @brief Method get_sliderMidAnchorMode, addr 0x375afdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sliderMidAnchorMode, addr 0x3759b00, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::SliderMidAnchorMode get_sliderMidAnchorMode();
 
-  /// @brief Method get_tailControlPointLengthMultiplier, addr 0x375afcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tailControlPointLengthMultiplier, addr 0x3759af0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_tailControlPointLengthMultiplier();
 
-  /// @brief Method get_tailCutDirection, addr 0x375afd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tailCutDirection, addr 0x3759af8, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteCutDirection get_tailCutDirection();
 
 protected:
@@ -113,7 +113,7 @@ public:
   SliderData(SliderData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15344 };
 
   /// @brief Field mu, offset: 0x30, size: 0x4, def value: None
   float_t ___mu;

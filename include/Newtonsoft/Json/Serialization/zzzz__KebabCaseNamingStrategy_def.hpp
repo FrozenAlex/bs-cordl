@@ -26,16 +26,16 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::KebabCaseNamingStrategy* New_ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
-  /// @brief Method ResolvePropertyName, addr 0x5d57514, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ResolvePropertyName, addr 0x5d55280, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ResolvePropertyName(::StringW name);
 
-  /// @brief Method .ctor, addr 0x5d57510, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d5527c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5d574f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d5525c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool processDictionaryKeys, bool overrideSpecifiedNames);
 
-  /// @brief Method .ctor, addr 0x5d57500, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d5526c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
 protected:
@@ -53,7 +53,7 @@ public:
   KebabCaseNamingStrategy(KebabCaseNamingStrategy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13501 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13499 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

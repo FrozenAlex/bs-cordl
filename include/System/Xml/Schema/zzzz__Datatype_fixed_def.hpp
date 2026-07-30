@@ -34,13 +34,13 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::Datatype_fixed* New_ctor();
 
-  /// @brief Method ParseValue, addr 0x61c5a0c, size 0x2f8, virtual true, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x61c37a8, size 0x2f8, virtual true, abstract: false, final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  /// @brief Method TryParseValue, addr 0x61c5f4c, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x61c3ce8, size 0x174, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::by_ref<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x61ba65c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b83f8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent (*)(::UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor)>(
     &::UnityEngine::VFX::VisualEffectPlayableSerializedEventNoColor::op_Implicit___UnityEngine__VFX__VisualEffectPlayableSerializedEvent)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69cd074;
+  constexpr static std::size_t addrs = 0x69cae10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

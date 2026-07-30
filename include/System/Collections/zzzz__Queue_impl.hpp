@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Queue_QueueEnumerator::*)(::System::Collections::Queue*)>(&::System::Collections::Queue_QueueEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5be42c4;
+  constexpr static std::size_t addrs = 0x5be2108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Queue_QueueEnumerator::*)()>(&::System::Collections::Queue_QueueEnumerator::Clone)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5be4494;
+  constexpr static std::size_t addrs = 0x5be22d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Queue_QueueEnumerator*>(), { "Clone", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Queue_QueueEnumerator::*)()>(&::System::Collections::Queue_QueueEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5be4498;
+  constexpr static std::size_t addrs = 0x5be22dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Queue_QueueEnumerator::*)()>(&::System::Collections::Queue_QueueEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5be4564;
+  constexpr static std::size_t addrs = 0x5be23a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Queue_QueueEnumerator::*)()>(&::System::Collections::Queue_QueueEnumerator::Reset)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5be45f8;
+  constexpr static std::size_t addrs = 0x5be243c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Queue::*)()>(&::System::Collections::Queue::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5be38d8;
+  constexpr static std::size_t addrs = 0x5be171c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Queue*>(), { ".ctor", {}, {} })));
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Queue::*)(int32_t)>(&::System::Collections::Queue::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5be3a98;
+  constexpr static std::size_t addrs = 0x5be18dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Queue*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Queue::*)(int32_t, float_t)>(&::System::Collections::Queue::_ctor)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x5be38e4;
+  constexpr static std::size_t addrs = 0x5be1728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Queue::*)(::System::Collections::ICollection*)>(&::System::Collections::Queue::_ctor)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x5be3aa0;
+  constexpr static std::size_t addrs = 0x5be18e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Collections::Queue::*)()>(&::System::Collections::Queue::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5be3d24;
+  constexpr static std::size_t addrs = 0x5be1b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Queue*>(), { ::i2c::class_of<::System::Collections::Queue*>(), 10 }));
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Queue::*)()>(&::System::Collections::Queue::Clone)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5be3d2c;
+  constexpr static std::size_t addrs = 0x5be1b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Queue*>(), { ::i2c::class_of<::System::Collections::Queue*>(), 11 }));
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Queue::*)()>(&::System::Collections::Queue::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5be3e10;
+  constexpr static std::size_t addrs = 0x5be1c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Queue*>(), { ::i2c::class_of<::System::Collections::Queue*>(), 12 }));
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Queue::*)()>(&::System::Collections::Queue::get_SyncRoot)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5be3e18;
+  constexpr static std::size_t addrs = 0x5be1c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Queue*>(), { ::i2c::class_of<::System::Collections::Queue*>(), 13 }));
@@ -271,7 +271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Queue::*)(::System::Array*, int32_t)>(&::System::Collections::Queue::CopyTo)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5be3e84;
+  constexpr static std::size_t addrs = 0x5be1cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Queue*>(), { ::i2c::class_of<::System::Collections::Queue*>(), 14 }));
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Queue::*)(::System::Object*)>(&::System::Collections::Queue::Enqueue)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5be4064;
+  constexpr static std::size_t addrs = 0x5be1ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Queue*>(), { ::i2c::class_of<::System::Collections::Queue*>(), 15 }));
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Collections::Queue::*)()>(&::System::Collections::Queue::GetEnumerator)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5be424c;
+  constexpr static std::size_t addrs = 0x5be2090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Queue*>(), { ::i2c::class_of<::System::Collections::Queue*>(), 16 }));
@@ -307,7 +307,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Queue::*)()>(&::System::Collections::Queue::Dequeue)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5be42fc;
+  constexpr static std::size_t addrs = 0x5be2140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Queue*>(), { ::i2c::class_of<::System::Collections::Queue*>(), 17 }));
@@ -319,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Queue::*)()>(&::System::Collections::Queue::Peek)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5be43c4;
+  constexpr static std::size_t addrs = 0x5be2208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Collections::Queue*>(), { ::i2c::class_of<::System::Collections::Queue*>(), 18 }));
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Collections::Queue::*)(int32_t)>(&::System::Collections::Queue::GetElement)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5be4454;
+  constexpr static std::size_t addrs = 0x5be2298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Queue*>(), { "GetElement", {}, { ::i2c::type_of<int32_t>() } })));
@@ -343,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Queue::*)(int32_t)>(&::System::Collections::Queue::SetCapacity)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5be4160;
+  constexpr static std::size_t addrs = 0x5be1fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Collections::Queue*>(), { "SetCapacity", {}, { ::i2c::type_of<int32_t>() } })));

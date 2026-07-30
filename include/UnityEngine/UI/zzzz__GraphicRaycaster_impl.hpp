@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::GraphicRaycaster___c::*)()>(&::UnityEngine::UI::GraphicRaycaster___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c25500;
+  constexpr static std::size_t addrs = 0x6c20f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::GraphicRaycaster___c*>(), { ".ctor", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UI::GraphicRaycaster___c::*)(::UnityEngine::UI::Graphic*, ::UnityEngine::UI::Graphic*)>(
     &::UnityEngine::UI::GraphicRaycaster___c::_Raycast_b__27_0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c25504;
+  constexpr static std::size_t addrs = 0x6c20f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UI::GraphicRaycaster::*)()>(&::UnityEngine::UI::GraphicRaycaster::get_sortOrderPriority)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c23f30;
+  constexpr static std::size_t addrs = 0x6c1f934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UI::GraphicRaycaster::*)()>(&::UnityEngine::UI::GraphicRaycaster::get_renderOrderPriority)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6c24010;
+  constexpr static std::size_t addrs = 0x6c1fa14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::GraphicRaycaster::*)()>(&::UnityEngine::UI::GraphicRaycaster::get_ignoreReversedGraphics)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c24060;
+  constexpr static std::size_t addrs = 0x6c1fa64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::GraphicRaycaster*>(), { "get_ignoreReversedGraphics", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::GraphicRaycaster::*)(bool)>(&::UnityEngine::UI::GraphicRaycaster::set_ignoreReversedGraphics)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c24068;
+  constexpr static std::size_t addrs = 0x6c1fa6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UI::GraphicRaycaster_BlockingObjects (::UnityEngine::UI::GraphicRaycaster::*)()>(
     &::UnityEngine::UI::GraphicRaycaster::get_blockingObjects)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c24070;
+  constexpr static std::size_t addrs = 0x6c1fa74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::GraphicRaycaster*>(), { "get_blockingObjects", {}, {} })));
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::GraphicRaycaster::*)(::UnityEngine::UI::GraphicRaycaster_BlockingObjects)>(
     &::UnityEngine::UI::GraphicRaycaster::set_blockingObjects)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c24078;
+  constexpr static std::size_t addrs = 0x6c1fa7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::GraphicRaycaster*>(),
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LayerMask (::UnityEngine::UI::GraphicRaycaster::*)()>(&::UnityEngine::UI::GraphicRaycaster::get_blockingMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c24080;
+  constexpr static std::size_t addrs = 0x6c1fa84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::GraphicRaycaster*>(), { "get_blockingMask", {}, {} })));
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::GraphicRaycaster::*)(::UnityEngine::LayerMask)>(&::UnityEngine::UI::GraphicRaycaster::set_blockingMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c24088;
+  constexpr static std::size_t addrs = 0x6c1fa8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::GraphicRaycaster::*)()>(&::UnityEngine::UI::GraphicRaycaster::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6c24090;
+  constexpr static std::size_t addrs = 0x6c1fa94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::GraphicRaycaster*>(), { ".ctor", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Canvas> (::UnityEngine::UI::GraphicRaycaster::*)()>(&::UnityEngine::UI::GraphicRaycaster::get_canvas)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c23f74;
+  constexpr static std::size_t addrs = 0x6c1f978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::GraphicRaycaster*>(), { "get_canvas", {}, {} })));
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::GraphicRaycaster::*)(
     ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*)>(&::UnityEngine::UI::GraphicRaycaster::Raycast)> {
   constexpr static std::size_t size = 0xbb0;
-  constexpr static std::size_t addrs = 0x6c24118;
+  constexpr static std::size_t addrs = 0x6c1fb1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Camera> (::UnityEngine::UI::GraphicRaycaster::*)()>(&::UnityEngine::UI::GraphicRaycaster::get_eventCamera)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6c25350;
+  constexpr static std::size_t addrs = 0x6c20d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::Canvas*, ::UnityEngine::Camera*, ::UnityEngine::Vector2, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::UI::Graphic>>*,
                          ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>*)>(&::UnityEngine::UI::GraphicRaycaster::Raycast)> {
   constexpr static std::size_t size = 0x5c4;
-  constexpr static std::size_t addrs = 0x6c24d8c;
+  constexpr static std::size_t addrs = 0x6c20790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

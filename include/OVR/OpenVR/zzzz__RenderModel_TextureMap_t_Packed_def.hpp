@@ -25,10 +25,10 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE RenderModel_TextureMap_t_Packed {
 public:
   // Declarations
-  /// @brief Method Unpack, addr 0x5e45f2c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Unpack, addr 0x5e43c98, size 0x14, virtual false, abstract: false, final false
   inline void Unpack(::by_ref<::OVR::OpenVR::RenderModel_TextureMap_t> unpacked);
 
-  /// @brief Method .ctor, addr 0x5e45f18, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e43c84, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::RenderModel_TextureMap_t unpacked);
 
   // Ctor Parameters []

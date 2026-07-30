@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelParamsPanel::*)(float_t)>(&::GlobalNamespace::LevelParamsPanel::set_notesPerSecond)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5a1ea18;
+  constexpr static std::size_t addrs = 0x5a1cb34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelParamsPanel::*)(int32_t)>(&::GlobalNamespace::LevelParamsPanel::set_notesCount)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5a1ea98;
+  constexpr static std::size_t addrs = 0x5a1cbb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelParamsPanel::*)(int32_t)>(&::GlobalNamespace::LevelParamsPanel::set_obstaclesCount)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5a1eadc;
+  constexpr static std::size_t addrs = 0x5a1cbf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelParamsPanel::*)(int32_t)>(&::GlobalNamespace::LevelParamsPanel::set_bombsCount)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5a1eb20;
+  constexpr static std::size_t addrs = 0x5a1cc3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelParamsPanel::*)()>(&::GlobalNamespace::LevelParamsPanel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a1eb64;
+  constexpr static std::size_t addrs = 0x5a1cc80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelParamsPanel*>(), { ".ctor", {}, {} })));

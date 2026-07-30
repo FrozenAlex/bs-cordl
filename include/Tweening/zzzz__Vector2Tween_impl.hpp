@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::Vector2Tween::*)()>(&::Tweening::Vector2Tween::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6442c44;
+  constexpr static std::size_t addrs = 0x64409e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Vector2Tween*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::Vector2Tween::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Action_1<::UnityEngine::Vector2>*, float_t,
                                                                                           ::GlobalNamespace::EaseType, float_t)>(&::Tweening::Vector2Tween::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6442ca0;
+  constexpr static std::size_t addrs = 0x6440a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::Vector2Tween::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Action_1<::UnityEngine::Vector2>*, float_t,
                                                                                           ::UnityEngine::AnimationCurve*, float_t)>(&::Tweening::Vector2Tween::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6442d40;
+  constexpr static std::size_t addrs = 0x6440adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::Tweening::Vector2Tween::*)(float_t)>(&::Tweening::Vector2Tween::GetValue)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6442de4;
+  constexpr static std::size_t addrs = 0x6440b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Tweening::Vector2Tween*>(), { ::i2c::class_of<::Tweening::Vector2Tween*>(), 6 }));

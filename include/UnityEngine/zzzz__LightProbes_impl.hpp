@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightProbes::*)()>(&::UnityEngine::LightProbes::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6a843a0;
+  constexpr static std::size_t addrs = 0x6a8213c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightProbes*>(), { ".ctor", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::LightProbes::add_lightProbesUpdated)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6a843f8;
+  constexpr static std::size_t addrs = 0x6a82194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::LightProbes::remove_lightProbesUpdated)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6a844c4;
+  constexpr static std::size_t addrs = 0x6a82260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::LightProbes::Internal_CallLightProbesUpdatedFunction)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6a84590;
+  constexpr static std::size_t addrs = 0x6a8232c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightProbes*>(), { "Internal_CallLightProbesUpdatedFunction", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::LightProbes::add_tetrahedralizationCompleted)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6a845f8;
+  constexpr static std::size_t addrs = 0x6a82394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::LightProbes::remove_tetrahedralizationCompleted)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6a846c8;
+  constexpr static std::size_t addrs = 0x6a82464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::LightProbes::Internal_CallTetrahedralizationCompletedFunction)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6a84798;
+  constexpr static std::size_t addrs = 0x6a82534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::LightProbes::add_needsRetetrahedralization)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6a84800;
+  constexpr static std::size_t addrs = 0x6a8259c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::LightProbes::remove_needsRetetrahedralization)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6a848d0;
+  constexpr static std::size_t addrs = 0x6a8266c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::LightProbes::Internal_CallNeedsRetetrahedralizationFunction)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6a849a0;
+  constexpr static std::size_t addrs = 0x6a8273c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::LightProbes::Tetrahedralize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6a84a08;
+  constexpr static std::size_t addrs = 0x6a827a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightProbes*>(), { "Tetrahedralize", {}, {} })));
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::LightProbes::TetrahedralizeAsync)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6a84a30;
+  constexpr static std::size_t addrs = 0x6a827cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightProbes*>(), { "TetrahedralizeAsync", {}, {} })));
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Vector3, ::UnityEngine::Renderer*, ::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>)>(
     &::UnityEngine::LightProbes::GetInterpolatedProbe)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6a84a58;
+  constexpr static std::size_t addrs = 0x6a827f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Renderer*)>(&::UnityEngine::LightProbes::AreLightProbesAllowed)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6a84b54;
+  constexpr static std::size_t addrs = 0x6a828f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<::UnityEngine::Vector3>, ::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2>, ::ArrayW<::UnityEngine::Vector4>)>(
     &::UnityEngine::LightProbes::CalculateInterpolatedLightAndOcclusionProbes)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6a84c10;
+  constexpr static std::size_t addrs = 0x6a829ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::SphericalHarmonicsL2>*,
                          ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*)>(&::UnityEngine::LightProbes::CalculateInterpolatedLightAndOcclusionProbes)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x6a84f14;
+  constexpr static std::size_t addrs = 0x6a82cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<::UnityEngine::Vector3>, int32_t, ::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2>, ::ArrayW<::UnityEngine::Vector4>)>(
     &::UnityEngine::LightProbes::CalculateInterpolatedLightAndOcclusionProbes_Internal)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x6a84d58;
+  constexpr static std::size_t addrs = 0x6a82af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::LightProbes> (*)(::UnityEngine::SceneManagement::Scene)>(&::UnityEngine::LightProbes::GetSharedLightProbesForScene)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6a85148;
+  constexpr static std::size_t addrs = 0x6a82ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::LightProbes> (*)(::UnityEngine::SceneManagement::Scene)>(
     &::UnityEngine::LightProbes::GetInstantiatedLightProbesForScene)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6a852a4;
+  constexpr static std::size_t addrs = 0x6a83040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector3> (::UnityEngine::LightProbes::*)()>(&::UnityEngine::LightProbes::get_positions)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6a85400;
+  constexpr static std::size_t addrs = 0x6a8319c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightProbes*>(), { "get_positions", {}, {} })));
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector3> (::UnityEngine::LightProbes::*)()>(&::UnityEngine::LightProbes::GetPositionsSelf)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6a855a4;
+  constexpr static std::size_t addrs = 0x6a83340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightProbes*>(), { "GetPositionsSelf", {}, {} })));
@@ -307,7 +307,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::LightProbes::*)(::ArrayW<::UnityEngine::Vector3>, bool)>(&::UnityEngine::LightProbes::SetPositionsSelf)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6a85748;
+  constexpr static std::size_t addrs = 0x6a834e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -321,7 +321,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2> (::UnityEngine::LightProbes::*)()>(&::UnityEngine::LightProbes::get_bakedProbes)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6a858ac;
+  constexpr static std::size_t addrs = 0x6a83648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightProbes*>(), { "get_bakedProbes", {}, {} })));
@@ -333,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightProbes::*)(::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2>)>(&::UnityEngine::LightProbes::set_bakedProbes)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6a85a50;
+  constexpr static std::size_t addrs = 0x6a837ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -347,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::LightProbes::*)()>(&::UnityEngine::LightProbes::get_count)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6a85b98;
+  constexpr static std::size_t addrs = 0x6a83934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightProbes*>(), { "get_count", {}, {} })));
@@ -359,7 +359,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::LightProbes::*)()>(&::UnityEngine::LightProbes::get_countSelf)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6a85c54;
+  constexpr static std::size_t addrs = 0x6a839f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightProbes*>(), { "get_countSelf", {}, {} })));
@@ -371,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::LightProbes::*)()>(&::UnityEngine::LightProbes::get_cellCount)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6a85d10;
+  constexpr static std::size_t addrs = 0x6a83aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightProbes*>(), { "get_cellCount", {}, {} })));
@@ -383,7 +383,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::LightProbes::*)()>(&::UnityEngine::LightProbes::get_cellCountSelf)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6a85dcc;
+  constexpr static std::size_t addrs = 0x6a83b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightProbes*>(), { "get_cellCountSelf", {}, {} })));
@@ -395,7 +395,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::LightProbes::GetCount)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6a85e88;
+  constexpr static std::size_t addrs = 0x6a83c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightProbes*>(), { "GetCount", {}, {} })));
@@ -408,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightProbes::*)(::UnityEngine::Vector3, ::UnityEngine::Renderer*, ::ArrayW<float_t>)>(
     &::UnityEngine::LightProbes::GetInterpolatedLightProbe)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a85eb0;
+  constexpr static std::size_t addrs = 0x6a83c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -423,7 +423,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<float_t> (::UnityEngine::LightProbes::*)()>(&::UnityEngine::LightProbes::get_coefficients)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6a85eb4;
+  constexpr static std::size_t addrs = 0x6a83c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightProbes*>(), { "get_coefficients", {}, {} })));
@@ -435,7 +435,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightProbes::*)(::ArrayW<float_t>)>(&::UnityEngine::LightProbes::set_coefficients)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a85efc;
+  constexpr static std::size_t addrs = 0x6a83c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -449,7 +449,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3>, ::System::IntPtr, ::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>)>(
     &::UnityEngine::LightProbes::GetInterpolatedProbe_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a84b00;
+  constexpr static std::size_t addrs = 0x6a8289c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -465,7 +465,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::LightProbes::AreLightProbesAllowed_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a84bd4;
+  constexpr static std::size_t addrs = 0x6a82970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -480,7 +480,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, int32_t, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
         &::UnityEngine::LightProbes::CalculateInterpolatedLightAndOcclusionProbes_Internal_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6a850ec;
+  constexpr static std::size_t addrs = 0x6a82e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -498,7 +498,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::SceneManagement::Scene>)>(&::UnityEngine::LightProbes::GetSharedLightProbesForScene_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a85268;
+  constexpr static std::size_t addrs = 0x6a83004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -513,7 +513,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::SceneManagement::Scene>)>(
     &::UnityEngine::LightProbes::GetInstantiatedLightProbesForScene_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a853c4;
+  constexpr static std::size_t addrs = 0x6a83160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -527,7 +527,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(&::UnityEngine::LightProbes::get_positions_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a85560;
+  constexpr static std::size_t addrs = 0x6a832fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -541,7 +541,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(&::UnityEngine::LightProbes::GetPositionsSelf_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a85704;
+  constexpr static std::size_t addrs = 0x6a834a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -557,7 +557,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, bool)>(
     &::UnityEngine::LightProbes::SetPositionsSelf_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a85858;
+  constexpr static std::size_t addrs = 0x6a835f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -573,7 +573,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(&::UnityEngine::LightProbes::get_bakedProbes_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a85a0c;
+  constexpr static std::size_t addrs = 0x6a837a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -588,7 +588,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::LightProbes::set_bakedProbes_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a85b54;
+  constexpr static std::size_t addrs = 0x6a838f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -602,7 +602,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::LightProbes::get_count_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a85c18;
+  constexpr static std::size_t addrs = 0x6a839b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -615,7 +615,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::LightProbes::get_countSelf_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a85cd4;
+  constexpr static std::size_t addrs = 0x6a83a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -628,7 +628,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::LightProbes::get_cellCount_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a85d90;
+  constexpr static std::size_t addrs = 0x6a83b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -641,7 +641,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::LightProbes::get_cellCountSelf_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a85e4c;
+  constexpr static std::size_t addrs = 0x6a83be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

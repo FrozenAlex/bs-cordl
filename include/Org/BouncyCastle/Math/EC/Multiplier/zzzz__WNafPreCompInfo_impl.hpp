@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::DecrementPromotionCountdown)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x350d1f0;
+  constexpr static std::size_t addrs = 0x350b7b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_PromotionCountdown)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x350d214;
+  constexpr static std::size_t addrs = 0x350b7dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::set_PromotionCountdown)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x350d220;
+  constexpr static std::size_t addrs = 0x350b7e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_IsPromoted)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x350d22c;
+  constexpr static std::size_t addrs = 0x350b7f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_ConfWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d240;
+  constexpr static std::size_t addrs = 0x350b808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::set_ConfWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d248;
+  constexpr static std::size_t addrs = 0x350b810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_PreComp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d250;
+  constexpr static std::size_t addrs = 0x350b818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*>(),
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*>)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::set_PreComp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d258;
+  constexpr static std::size_t addrs = 0x350b820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*>(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*> (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_PreCompNeg)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d260;
+  constexpr static std::size_t addrs = 0x350b828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*>(),
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*>)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::set_PreCompNeg)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d268;
+  constexpr static std::size_t addrs = 0x350b830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*>(),
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_Twice)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d270;
+  constexpr static std::size_t addrs = 0x350b838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*>(),
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)(::Org::BouncyCastle::Math::EC::ECPoint*)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::set_Twice)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d278;
+  constexpr static std::size_t addrs = 0x350b840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*>(),
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_Width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d280;
+  constexpr static std::size_t addrs = 0x350b848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*>(),
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::set_Width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350d288;
+  constexpr static std::size_t addrs = 0x350b850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*>(),
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(&::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x350d290;
+  constexpr static std::size_t addrs = 0x350b858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*>(), { ".ctor", {}, {} })));

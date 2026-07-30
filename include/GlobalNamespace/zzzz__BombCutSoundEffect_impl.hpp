@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BombCutSoundEffect_Pool::*)()>(&::GlobalNamespace::BombCutSoundEffect_Pool::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x58b86dc;
+  constexpr static std::size_t addrs = 0x58b6bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BombCutSoundEffect_Pool*>(), { ".ctor", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BombCutSoundEffect::*)(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>*)>(
     &::GlobalNamespace::BombCutSoundEffect::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58b8408;
+  constexpr static std::size_t addrs = 0x58b68e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BombCutSoundEffect::*)(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>*)>(
     &::GlobalNamespace::BombCutSoundEffect::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58b84c8;
+  constexpr static std::size_t addrs = 0x58b69a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BombCutSoundEffect::*)(::UnityEngine::AudioClip*, ::GlobalNamespace::Saber*, float_t)>(
     &::GlobalNamespace::BombCutSoundEffect::Init)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x58b8588;
+  constexpr static std::size_t addrs = 0x58b6a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BombCutSoundEffect::*)()>(&::GlobalNamespace::BombCutSoundEffect::LateUpdate)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x58b85f8;
+  constexpr static std::size_t addrs = 0x58b6ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BombCutSoundEffect*>(), { "LateUpdate", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BombCutSoundEffect::*)()>(&::GlobalNamespace::BombCutSoundEffect::StopPlayingAndFinish)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x58b8688;
+  constexpr static std::size_t addrs = 0x58b6b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BombCutSoundEffect*>(), { "StopPlayingAndFinish", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BombCutSoundEffect::*)()>(&::GlobalNamespace::BombCutSoundEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58b86d8;
+  constexpr static std::size_t addrs = 0x58b6bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BombCutSoundEffect*>(), { ".ctor", {}, {} })));

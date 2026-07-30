@@ -104,25 +104,25 @@ public:
 
   constexpr void __cordl_internal_set__startLightId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x586e784, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x586cc30, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_groupId, addr 0x586e75c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_groupId, addr 0x586cc08, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_groupId();
 
-  /// @brief Method get_groupName, addr 0x586e754, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_groupName, addr 0x586cc00, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_groupName();
 
-  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x586e77c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x586cc28, size 0x8, virtual false, abstract: false, final false
   inline bool get_ignoreLightGroupEffectManager();
 
-  /// @brief Method get_numberOfElements, addr 0x586e76c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_numberOfElements, addr 0x586cc18, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_numberOfElements();
 
-  /// @brief Method get_sameIdElements, addr 0x586e774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sameIdElements, addr 0x586cc20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sameIdElements();
 
-  /// @brief Method get_startLightId, addr 0x586e764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startLightId, addr 0x586cc10, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_startLightId();
 
   /// @brief Convert to "::GlobalNamespace::ILightGroup"
@@ -143,7 +143,7 @@ public:
   LightGroupSO(LightGroupSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19638 };
 
   /// @brief Field _groupName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____groupName;

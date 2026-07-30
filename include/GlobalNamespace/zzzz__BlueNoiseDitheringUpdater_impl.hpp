@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BlueNoiseDitheringUpdater::*)(::GlobalNamespace::IRandom*)>(&::GlobalNamespace::BlueNoiseDitheringUpdater::Init)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x586af30;
+  constexpr static std::size_t addrs = 0x58693e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BlueNoiseDitheringUpdater::*)()>(&::GlobalNamespace::BlueNoiseDitheringUpdater::OnEnable)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x586af48;
+  constexpr static std::size_t addrs = 0x58693f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BlueNoiseDitheringUpdater*>(), { "OnEnable", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BlueNoiseDitheringUpdater::*)()>(&::GlobalNamespace::BlueNoiseDitheringUpdater::OnDisable)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x586b020;
+  constexpr static std::size_t addrs = 0x58694d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BlueNoiseDitheringUpdater*>(), { "OnDisable", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BlueNoiseDitheringUpdater::*)(::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*)>(
     &::GlobalNamespace::BlueNoiseDitheringUpdater::HandleCameraPreRender)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x586b0c8;
+  constexpr static std::size_t addrs = 0x5869578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BlueNoiseDitheringUpdater::*)()>(&::GlobalNamespace::BlueNoiseDitheringUpdater::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x586b2b4;
+  constexpr static std::size_t addrs = 0x5869764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BlueNoiseDitheringUpdater*>(), { ".ctor", {}, {} })));

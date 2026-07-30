@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::*)(::Zenject::SubContainerCreatorBindInfo*, ::Zenject::BindInfo*)>(
     &::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e5c84c;
+  constexpr static std::size_t addrs = 0x6e58250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(
     &::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder::WithKernel)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e5c858;
+  constexpr static std::size_t addrs = 0x6e5825c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

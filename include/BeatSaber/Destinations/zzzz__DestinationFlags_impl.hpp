@@ -10,3 +10,4 @@ constexpr ::BeatSaber::Destinations::DestinationFlags::DestinationFlags() {}
 constexpr ::BeatSaber::Destinations::DestinationFlags BeatSaber::Destinations::DestinationFlags::None{ static_cast<int32_t>(0x0) };
 constexpr ::BeatSaber::Destinations::DestinationFlags BeatSaber::Destinations::DestinationFlags::LoadMenu{ static_cast<int32_t>(0x1) };
 constexpr ::BeatSaber::Destinations::DestinationFlags BeatSaber::Destinations::DestinationFlags::RequiresHealthWarning{ static_cast<int32_t>(0x2) };
+constexpr ::BeatSaber::Destinations::DestinationFlags BeatSaber::Destinations::DestinationFlags::MockOnlineServices{ static_cast<int32_t>(0x40) };

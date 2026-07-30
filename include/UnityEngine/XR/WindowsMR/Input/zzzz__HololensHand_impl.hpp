@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::XR::WindowsMR::Input::HololensHand::*)()>(
     &::UnityEngine::XR::WindowsMR::Input::HololensHand::get_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cd044;
+  constexpr static std::size_t addrs = 0x64cade0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::WindowsMR::Input::HololensHand*>(), { "get_deviceVelocity", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::HololensHand::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::UnityEngine::XR::WindowsMR::Input::HololensHand::set_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cd04c;
+  constexpr static std::size_t addrs = 0x64cade8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::WindowsMR::Input::HololensHand*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::WindowsMR::Input::HololensHand::*)()>(
     &::UnityEngine::XR::WindowsMR::Input::HololensHand::get_airTap)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cd054;
+  constexpr static std::size_t addrs = 0x64cadf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::WindowsMR::Input::HololensHand*>(), { "get_airTap", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::HololensHand::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::XR::WindowsMR::Input::HololensHand::set_airTap)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cd05c;
+  constexpr static std::size_t addrs = 0x64cadf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::WindowsMR::Input::HololensHand*>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::WindowsMR::Input::HololensHand::*)()>(
     &::UnityEngine::XR::WindowsMR::Input::HololensHand::get_sourceLossRisk)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cd064;
+  constexpr static std::size_t addrs = 0x64cae00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::WindowsMR::Input::HololensHand*>(), { "get_sourceLossRisk", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::HololensHand::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::XR::WindowsMR::Input::HololensHand::set_sourceLossRisk)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cd06c;
+  constexpr static std::size_t addrs = 0x64cae08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::WindowsMR::Input::HololensHand*>(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::XR::WindowsMR::Input::HololensHand::*)()>(
     &::UnityEngine::XR::WindowsMR::Input::HololensHand::get_sourceLossMitigationDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cd074;
+  constexpr static std::size_t addrs = 0x64cae10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::HololensHand::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::UnityEngine::XR::WindowsMR::Input::HololensHand::set_sourceLossMitigationDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cd07c;
+  constexpr static std::size_t addrs = 0x64cae18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::HololensHand::*)()>(&::UnityEngine::XR::WindowsMR::Input::HololensHand::FinishSetup)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x64cd084;
+  constexpr static std::size_t addrs = 0x64cae20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::HololensHand::*)()>(&::UnityEngine::XR::WindowsMR::Input::HololensHand::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64cd1b4;
+  constexpr static std::size_t addrs = 0x64caf50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::WindowsMR::Input::HololensHand*>(), { ".ctor", {}, {} })));

@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Logger::*)(::UnityEngine::ILogHandler*)>(&::UnityEngine::Logger::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ac654c;
+  constexpr static std::size_t addrs = 0x6ac1e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ILogHandler* (::UnityEngine::Logger::*)()>(&::UnityEngine::Logger::get_logHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ac6564;
+  constexpr static std::size_t addrs = 0x6ac1eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Logger*>(), { "get_logHandler", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Logger::*)(::UnityEngine::ILogHandler*)>(&::UnityEngine::Logger::set_logHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ac656c;
+  constexpr static std::size_t addrs = 0x6ac1eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Logger::*)()>(&::UnityEngine::Logger::get_logEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ac6574;
+  constexpr static std::size_t addrs = 0x6ac1ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Logger*>(), { "get_logEnabled", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Logger::*)(bool)>(&::UnityEngine::Logger::set_logEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ac657c;
+  constexpr static std::size_t addrs = 0x6ac1ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Logger*>(), { "set_logEnabled", {}, { ::i2c::type_of<bool>() } })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LogType (::UnityEngine::Logger::*)()>(&::UnityEngine::Logger::get_filterLogType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ac6584;
+  constexpr static std::size_t addrs = 0x6ac1ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Logger*>(), { "get_filterLogType", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Logger::*)(::UnityEngine::LogType)>(&::UnityEngine::Logger::set_filterLogType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ac658c;
+  constexpr static std::size_t addrs = 0x6ac1ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Logger::*)(::UnityEngine::LogType)>(&::UnityEngine::Logger::IsLogTypeAllowed)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6ac6594;
+  constexpr static std::size_t addrs = 0x6ac1ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Object*)>(&::UnityEngine::Logger::GetString)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6ac65c8;
+  constexpr static std::size_t addrs = 0x6ac1f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Logger*>(), { "GetString", {}, { ::i2c::type_of<::System::Object*>() } })));
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Logger::*)(::UnityEngine::LogType, ::System::Object*)>(&::UnityEngine::Logger::Log)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x6ac66f4;
+  constexpr static std::size_t addrs = 0x6ac2040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Logger::*)(::UnityEngine::LogType, ::System::Object*, ::UnityEngine::Object*)>(&::UnityEngine::Logger::Log)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6ac6874;
+  constexpr static std::size_t addrs = 0x6ac21c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Logger::*)(::StringW, ::System::Object*)>(&::UnityEngine::Logger::LogError)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x6ac6a04;
+  constexpr static std::size_t addrs = 0x6ac2350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Logger::*)(::System::Exception*, ::UnityEngine::Object*)>(&::UnityEngine::Logger::LogException)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6ac6ba0;
+  constexpr static std::size_t addrs = 0x6ac24ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Logger::*)(::UnityEngine::LogType, ::StringW, ::ArrayW<::System::Object*>)>(&::UnityEngine::Logger::LogFormat)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6ac6c78;
+  constexpr static std::size_t addrs = 0x6ac25c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Logger::*)(::UnityEngine::LogType, ::UnityEngine::Object*, ::StringW, ::ArrayW<::System::Object*>)>(
     &::UnityEngine::Logger::LogFormat)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6ac6d80;
+  constexpr static std::size_t addrs = 0x6ac26cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

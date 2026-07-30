@@ -123,7 +123,7 @@ public:
 
   static inline ::MS::Internal::Xml::XPath::AstNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x62711b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x626ef4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_ReturnType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

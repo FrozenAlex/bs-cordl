@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Reso
     ::UnityEngine::ResourceManagement::ResourceManager*, ::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x691a580;
+  constexpr static std::size_t addrs = 0x691831c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>(),
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::get_IsValid)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x69142e4;
+  constexpr static std::size_t addrs = 0x6912080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* (
     ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::*)()>(&::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::get_InternalOp)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x691a640;
+  constexpr static std::size_t addrs = 0x69183dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceManagement::ResourceManager* (::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::get_ResourceManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x691a744;
+  constexpr static std::size_t addrs = 0x69184e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::get_Type)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x69180b8;
+  constexpr static std::size_t addrs = 0x6915e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (
     ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::*)()>(&::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::get_Location)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6913c0c;
+  constexpr static std::size_t addrs = 0x69119a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::get_DependencyCount)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x691a74c;
+  constexpr static std::size_t addrs = 0x69184e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::*)(::System::Collections::Generic::IList_1<::System::Object*>*)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::GetDependencies)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6918efc;
+  constexpr static std::size_t addrs = 0x6916c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::*)(::System::Func_1<float_t>*)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::SetProgressCallback)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6915020;
+  constexpr static std::size_t addrs = 0x6912dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>(),
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::*)(
     ::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>*)>(&::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::SetDownloadProgressCallbacks)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x69150e0;
+  constexpr static std::size_t addrs = 0x6912e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::*)(::System::Func_1<bool>*)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::SetWaitForCompletionCallback)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x69151a0;
+  constexpr static std::size_t addrs = 0x6912f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>(),

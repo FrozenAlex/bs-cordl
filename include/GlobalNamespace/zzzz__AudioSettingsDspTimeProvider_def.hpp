@@ -30,10 +30,10 @@ public:
 
   static inline ::GlobalNamespace::AudioSettingsDspTimeProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x58b9f4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b8424, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_dspTime, addr 0x58b9f24, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_dspTime, addr 0x58b83fc, size 0x28, virtual true, abstract: false, final true
   inline double_t get_dspTime();
 
   /// @brief Convert to "::GlobalNamespace::IDspTimeProvider"

@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)(::System::Net::HttpStatusCode)>(&::System::Net::Http::HttpResponseMessage::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60d2ac0;
+  constexpr static std::size_t addrs = 0x60d085c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::HttpContent* (::System::Net::Http::HttpResponseMessage::*)()>(&::System::Net::Http::HttpResponseMessage::get_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60da084;
+  constexpr static std::size_t addrs = 0x60d7e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpResponseMessage*>(), { "get_Content", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)(::System::Net::Http::HttpContent*)>(&::System::Net::Http::HttpResponseMessage::set_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60da08c;
+  constexpr static std::size_t addrs = 0x60d7e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::Headers::HttpResponseHeaders* (::System::Net::Http::HttpResponseMessage::*)()>(
     &::System::Net::Http::HttpResponseMessage::get_Headers)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x60d2c00;
+  constexpr static std::size_t addrs = 0x60d099c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpResponseMessage*>(), { "get_Headers", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::HttpResponseMessage::*)()>(&::System::Net::Http::HttpResponseMessage::get_IsSuccessStatusCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x60da0f8;
+  constexpr static std::size_t addrs = 0x60d7e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpResponseMessage*>(), { "get_IsSuccessStatusCode", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::Http::HttpResponseMessage::*)()>(&::System::Net::Http::HttpResponseMessage::get_ReasonPhrase)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x60da10c;
+  constexpr static std::size_t addrs = 0x60d7ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpResponseMessage*>(), { "get_ReasonPhrase", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)(::StringW)>(&::System::Net::Http::HttpResponseMessage::set_ReasonPhrase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60da124;
+  constexpr static std::size_t addrs = 0x60d7ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)(::System::Net::Http::HttpRequestMessage*)>(
     &::System::Net::Http::HttpResponseMessage::set_RequestMessage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60da12c;
+  constexpr static std::size_t addrs = 0x60d7ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::HttpStatusCode (::System::Net::Http::HttpResponseMessage::*)()>(&::System::Net::Http::HttpResponseMessage::get_StatusCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60da134;
+  constexpr static std::size_t addrs = 0x60d7ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpResponseMessage*>(), { "get_StatusCode", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)(::System::Net::HttpStatusCode)>(&::System::Net::Http::HttpResponseMessage::set_StatusCode)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x60da040;
+  constexpr static std::size_t addrs = 0x60d7ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Version* (::System::Net::Http::HttpResponseMessage::*)()>(&::System::Net::Http::HttpResponseMessage::get_Version)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x60da13c;
+  constexpr static std::size_t addrs = 0x60d7ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpResponseMessage*>(), { "get_Version", {}, {} })));
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)()>(&::System::Net::Http::HttpResponseMessage::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x60da1a4;
+  constexpr static std::size_t addrs = 0x60d7f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpResponseMessage*>(), { "Dispose", {}, {} })));
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)(bool)>(&::System::Net::Http::HttpResponseMessage::Dispose)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x60da1b4;
+  constexpr static std::size_t addrs = 0x60d7f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::HttpResponseMessage* (::System::Net::Http::HttpResponseMessage::*)()>(
     &::System::Net::Http::HttpResponseMessage::EnsureSuccessStatusCode)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x60d77b4;
+  constexpr static std::size_t addrs = 0x60d5550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpResponseMessage*>(), { "EnsureSuccessStatusCode", {}, {} })));
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::Http::HttpResponseMessage::*)()>(&::System::Net::Http::HttpResponseMessage::ToString)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x60da1e8;
+  constexpr static std::size_t addrs = 0x60d7f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

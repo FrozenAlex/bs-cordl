@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem::*)()>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem::get_Label)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a67c5c;
+  constexpr static std::size_t addrs = 0x5a65aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem*>(),
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem::*)()>(&::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem::get_Valid)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5a67c70;
+  constexpr static std::size_t addrs = 0x5a65ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle (::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem::*)()>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem::BuildHandle)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5a67cd4;
+  constexpr static std::size_t addrs = 0x5a65b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem::*)(::UnityEngine::GameObject*, ::UnityEngine::GameObject*)>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem::CompareChildren)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5a67d60;
+  constexpr static std::size_t addrs = 0x5a65ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::GameObject>> (::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem::*)()>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem::FetchExpectedChildren)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5a67dcc;
+  constexpr static std::size_t addrs = 0x5a65c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem*>(),
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem::*)()>(&::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem::BuildContent)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5a67ea8;
+  constexpr static std::size_t addrs = 0x5a65cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem*>(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem::*)()>(
     &::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem::BuildContentInternal)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x5a67f08;
+  constexpr static std::size_t addrs = 0x5a65d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem::*)()>(&::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem::ClearContent)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x5a6811c;
+  constexpr static std::size_t addrs = 0x5a65f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem*>(),
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem::*)()>(&::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5a682a0;
+  constexpr static std::size_t addrs = 0x5a660e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Hierarchy::GameObjectItem*>(), { ".ctor", {}, {} })));

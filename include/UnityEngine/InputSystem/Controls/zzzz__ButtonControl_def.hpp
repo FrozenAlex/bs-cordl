@@ -56,15 +56,15 @@ public:
 
   __declspec(property(get = get_wasReleasedThisFrame)) bool wasReleasedThisFrame;
 
-  /// @brief Method BeginTestingForFramePresses, addr 0x64f5020, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method BeginTestingForFramePresses, addr 0x64f2dbc, size 0xfc, virtual false, abstract: false, final false
   inline void BeginTestingForFramePresses(bool currentlyPressed, bool pressedLastFrame);
 
-  /// @brief Method IsValueConsideredPressed, addr 0x64f4ef0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsValueConsideredPressed, addr 0x64f2c8c, size 0x70, virtual false, abstract: false, final false
   inline bool IsValueConsideredPressed(float_t value);
 
   static inline ::UnityEngine::InputSystem::Controls::ButtonControl* New_ctor();
 
-  /// @brief Method UpdateWasPressed, addr 0x64f54a4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method UpdateWasPressed, addr 0x64f3240, size 0xe4, virtual false, abstract: false, final false
   inline void UpdateWasPressed();
 
   constexpr bool const& __cordl_internal_get__needsToCheckFramePress_k__BackingField() const;
@@ -103,33 +103,33 @@ public:
 
   constexpr void __cordl_internal_set_pressPoint(float_t value);
 
-  /// @brief Method .ctor, addr 0x64f453c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64f22d8, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline float_t getStaticF_s_GlobalDefaultButtonPressPoint();
 
   static inline float_t getStaticF_s_GlobalDefaultButtonReleaseThreshold();
 
-  /// @brief Method get_isPressed, addr 0x64f4f60, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_isPressed, addr 0x64f2cfc, size 0xc0, virtual false, abstract: false, final false
   inline bool get_isPressed();
 
-  /// @brief Method get_needsToCheckFramePress, addr 0x64f4e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_needsToCheckFramePress, addr 0x64f2c0c, size 0x8, virtual false, abstract: false, final false
   inline bool get_needsToCheckFramePress();
 
-  /// @brief Method get_pressPointOrDefault, addr 0x64f4e80, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_pressPointOrDefault, addr 0x64f2c1c, size 0x5c, virtual false, abstract: false, final false
   inline float_t get_pressPointOrDefault();
 
-  /// @brief Method get_wasPressedThisFrame, addr 0x64f511c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method get_wasPressedThisFrame, addr 0x64f2eb8, size 0x1c4, virtual false, abstract: false, final false
   inline bool get_wasPressedThisFrame();
 
-  /// @brief Method get_wasReleasedThisFrame, addr 0x64f52e0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method get_wasReleasedThisFrame, addr 0x64f307c, size 0x1c4, virtual false, abstract: false, final false
   inline bool get_wasReleasedThisFrame();
 
   static inline void setStaticF_s_GlobalDefaultButtonPressPoint(float_t value);
 
   static inline void setStaticF_s_GlobalDefaultButtonReleaseThreshold(float_t value);
 
-  /// @brief Method set_needsToCheckFramePress, addr 0x64f4e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_needsToCheckFramePress, addr 0x64f2c14, size 0x8, virtual false, abstract: false, final false
   inline void set_needsToCheckFramePress(bool value);
 
 protected:

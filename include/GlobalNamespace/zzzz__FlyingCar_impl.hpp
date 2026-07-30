@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingCar::*)()>(&::GlobalNamespace::FlyingCar::Start)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x599ed2c;
+  constexpr static std::size_t addrs = 0x599d3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingCar*>(), { "Start", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingCar::*)()>(&::GlobalNamespace::FlyingCar::Update)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x599edb4;
+  constexpr static std::size_t addrs = 0x599d46c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingCar*>(), { "Update", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingCar::*)()>(&::GlobalNamespace::FlyingCar::UpdatePos)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x599ed70;
+  constexpr static std::size_t addrs = 0x599d428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingCar*>(), { "UpdatePos", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingCar::*)()>(&::GlobalNamespace::FlyingCar::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x599ee4c;
+  constexpr static std::size_t addrs = 0x599d504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingCar*>(), { ".ctor", {}, {} })));

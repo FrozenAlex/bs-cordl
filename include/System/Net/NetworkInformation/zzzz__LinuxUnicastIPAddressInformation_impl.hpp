@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::*)(::System::Net::IPAddress*)>(
     &::System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6350608;
+  constexpr static std::size_t addrs = 0x634e3a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::IPAddress* (::System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::*)()>(
     &::System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::get_Address)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6350610;
+  constexpr static std::size_t addrs = 0x634e3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::LinuxUnicastIPAddressInformation*>(),

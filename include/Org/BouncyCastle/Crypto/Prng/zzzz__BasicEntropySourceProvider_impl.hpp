@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider_BasicEntropySource::*)(
     ::Org::BouncyCastle::Security::SecureRandom*, bool, int32_t)>(&::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider_BasicEntropySource::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x341b5ac;
+  constexpr static std::size_t addrs = 0x3419b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider_BasicEntropySource::*)()>(
     &::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider_BasicEntropySource::Org_BouncyCastle_Crypto_IEntropySource_get_IsPredictionResistant)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x341b5bc;
+  constexpr static std::size_t addrs = 0x3419b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider_BasicEntropySource*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider_BasicEntropySource::*)()>(
     &::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider_BasicEntropySource::Org_BouncyCastle_Crypto_IEntropySource_GetEntropy)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x341b5c4;
+  constexpr static std::size_t addrs = 0x3419b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider_BasicEntropySource*>(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider_BasicEntropySource::*)()>(
     &::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider_BasicEntropySource::Org_BouncyCastle_Crypto_IEntropySource_get_EntropySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x341b6b8;
+  constexpr static std::size_t addrs = 0x3419c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider_BasicEntropySource*>(),
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider::*)(::Org::BouncyCastle::Security::SecureRandom*, bool)>(
     &::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x341b534;
+  constexpr static std::size_t addrs = 0x3419afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IEntropySource* (::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider::Get)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x341b540;
+  constexpr static std::size_t addrs = 0x3419b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

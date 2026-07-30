@@ -38,7 +38,7 @@ public:
   /// @brief Field _saberManagerInitData, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__saberManagerInitData, put = __cordl_internal_set__saberManagerInitData)) ::GlobalNamespace::SaberManager_InitData* _saberManagerInitData;
 
-  /// @brief Method InstallBindings, addr 0x59c973c, size 0x518, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x59c7dac, size 0x518, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerBigAvatarInstaller* New_ctor();
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__saberManagerInitData(::GlobalNamespace::SaberManager_InitData* value);
 
-  /// @brief Method .ctor, addr 0x59c9c54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c82c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

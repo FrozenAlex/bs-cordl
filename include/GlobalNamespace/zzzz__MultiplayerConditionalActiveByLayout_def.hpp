@@ -102,12 +102,12 @@ public:
   /// @brief Field _layoutProvider, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__layoutProvider, put = __cordl_internal_set__layoutProvider)) ::GlobalNamespace::MultiplayerLayoutProvider* _layoutProvider;
 
-  /// @brief Method HandlePlayersLayoutWasCalculated, addr 0x59caa50, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayersLayoutWasCalculated, addr 0x59c90c0, size 0x58, virtual false, abstract: false, final false
   inline void HandlePlayersLayoutWasCalculated(::GlobalNamespace::MultiplayerPlayerLayout layout, int32_t playersCount);
 
   static inline ::GlobalNamespace::MultiplayerConditionalActiveByLayout* New_ctor();
 
-  /// @brief Method Start, addr 0x59ca974, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59c8fe4, size 0xdc, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::MultiplayerConditionalActiveByLayout_Condition const& __cordl_internal_get__condition() const;
@@ -128,7 +128,7 @@ public:
 
   constexpr void __cordl_internal_set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value);
 
-  /// @brief Method .ctor, addr 0x59cab68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c91d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

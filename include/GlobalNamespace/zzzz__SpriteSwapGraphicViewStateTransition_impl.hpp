@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BaseTransitionSO> (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::get_transition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6441364;
+  constexpr static std::size_t addrs = 0x643f100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteSwapGraphicViewStateTransition*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::TransitionToNormalState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x644136c;
+  constexpr static std::size_t addrs = 0x643f108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteSwapGraphicViewStateTransition*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::TransitionToHighlightedState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6441378;
+  constexpr static std::size_t addrs = 0x643f114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteSwapGraphicViewStateTransition*>(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::TransitionToPressedState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6441388;
+  constexpr static std::size_t addrs = 0x643f124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteSwapGraphicViewStateTransition*>(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::TransitionToDisabledState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6441398;
+  constexpr static std::size_t addrs = 0x643f134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteSwapGraphicViewStateTransition*>(),
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::TransitionToSelectedState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64413a8;
+  constexpr static std::size_t addrs = 0x643f144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteSwapGraphicViewStateTransition*>(),
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::TransitionToSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64413b8;
+  constexpr static std::size_t addrs = 0x643f154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteSwapGraphicViewStateTransition*>(),
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)()>(&::GlobalNamespace::SpriteSwapGraphicViewStateTransition::SetNormalState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x64413c8;
+  constexpr static std::size_t addrs = 0x643f164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteSwapGraphicViewStateTransition*>(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::SetHighlightedState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x64413f0;
+  constexpr static std::size_t addrs = 0x643f18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteSwapGraphicViewStateTransition*>(),
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::SetPressedState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6441418;
+  constexpr static std::size_t addrs = 0x643f1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteSwapGraphicViewStateTransition*>(),
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::SetDisabledState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6441440;
+  constexpr static std::size_t addrs = 0x643f1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteSwapGraphicViewStateTransition*>(),
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::SetSelectedState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6441468;
+  constexpr static std::size_t addrs = 0x643f204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteSwapGraphicViewStateTransition*>(),
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::SpriteSwapGraphicViewStateTransition::SetSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6441490;
+  constexpr static std::size_t addrs = 0x643f22c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteSwapGraphicViewStateTransition*>(),
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteSwapGraphicViewStateTransition::*)()>(&::GlobalNamespace::SpriteSwapGraphicViewStateTransition::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64414b8;
+  constexpr static std::size_t addrs = 0x643f254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteSwapGraphicViewStateTransition*>(), { ".ctor", {}, {} })));

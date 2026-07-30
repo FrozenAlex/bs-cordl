@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Samples::SampleMetadata::*)()>(&::Meta::XR::Samples::SampleMetadata::Awake)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5e4e6e0;
+  constexpr static std::size_t addrs = 0x5e4c44c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::Samples::SampleMetadata*>(), { "Awake", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Samples::SampleMetadata::*)()>(&::Meta::XR::Samples::SampleMetadata::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4e720;
+  constexpr static std::size_t addrs = 0x5e4c48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::Samples::SampleMetadata*>(), { "OnDestroy", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Samples::SampleMetadata::*)()>(&::Meta::XR::Samples::SampleMetadata::Start)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5e4e724;
+  constexpr static std::size_t addrs = 0x5e4c490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::Samples::SampleMetadata*>(), { "Start", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Samples::SampleMetadata::*)()>(&::Meta::XR::Samples::SampleMetadata::OnEditorShutdown)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e4eb00;
+  constexpr static std::size_t addrs = 0x5e4c86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::Samples::SampleMetadata*>(), { "OnEditorShutdown", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Samples::SampleMetadata::*)(int32_t)>(&::Meta::XR::Samples::SampleMetadata::SendEvent)> {
   constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x5e4e7b4;
+  constexpr static std::size_t addrs = 0x5e4c520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Samples::SampleMetadata::*)()>(&::Meta::XR::Samples::SampleMetadata::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4eb0c;
+  constexpr static std::size_t addrs = 0x5e4c878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::Samples::SampleMetadata*>(), { ".ctor", {}, {} })));

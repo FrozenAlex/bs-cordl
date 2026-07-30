@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::ImageWithHintItemsList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x59fb610, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f9d04, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

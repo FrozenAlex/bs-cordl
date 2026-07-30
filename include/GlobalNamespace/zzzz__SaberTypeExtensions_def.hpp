@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(SaberTypeExtensions)
 namespace GlobalNamespace {
 struct ColorType;
@@ -28,19 +29,22 @@ namespace GlobalNamespace {
 class CORDL_TYPE SaberTypeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MainSaber, addr 0x377cf88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MainSaber, addr 0x377baac, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SaberType MainSaber(bool leftHanded);
 
-  /// @brief Method MatchesColorType, addr 0x377a3d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method MatchesColorType, addr 0x3778ef8, size 0x20, virtual false, abstract: false, final false
   static inline bool MatchesColorType(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::ColorType colorType);
 
-  /// @brief Method Node, addr 0x377cf78, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Node, addr 0x377ba9c, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::XRNode Node(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method ToColorType, addr 0x377d014, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToColorType, addr 0x377bbb0, size 0x80, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ColorType ToColorType(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method ToSaberType, addr 0x377cf94, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToHandString, addr 0x377bab8, size 0x78, virtual false, abstract: false, final false
+  static inline ::StringW ToHandString(::GlobalNamespace::SaberType saberType);
+
+  /// @brief Method ToSaberType, addr 0x377bb30, size 0x80, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SaberType ToSaberType(::GlobalNamespace::ColorType colorType);
 
 protected:
@@ -58,7 +62,7 @@ public:
   SaberTypeExtensions(SaberTypeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21160 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21157 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology___c::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6735a1c;
+  constexpr static std::size_t addrs = 0x67337b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology___c*>(), { ".ctor", {}, {} })));
@@ -38,7 +38,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::ProBuilder::Face* (::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology___c::*)(::UnityEngine::ProBuilder::FaceRebuildData*)>(
         &::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology___c::_ToTriangles_b__0_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6735a20;
+  constexpr static std::size_t addrs = 0x67337bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology___c*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology___c::*)(::UnityEngine::ProBuilder::Vertex*)>(
     &::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology___c::_GetWindingOrder_b__3_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6735a34;
+  constexpr static std::size_t addrs = 0x67337d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology___c*>(),
@@ -110,7 +110,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::ArrayW<::UnityEngine::ProBuilder::Face*> (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>*)>(
         &::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::ToTriangles)> {
   constexpr static std::size_t size = 0x5a4;
-  constexpr static std::size_t addrs = 0x6733b78;
+  constexpr static std::size_t addrs = 0x6731914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
                                                       ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::BreakFaceIntoTris)> {
   constexpr static std::size_t size = 0x604;
-  constexpr static std::size_t addrs = 0x673411c;
+  constexpr static std::size_t addrs = 0x6731eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::WindingOrder (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*)>(
     &::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::GetWindingOrder)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6734720;
+  constexpr static std::size_t addrs = 0x67324bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +163,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::ProBuilder::WindingOrder (*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::IList_1<int32_t>*)>(
         &::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::GetWindingOrder)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x67349f8;
+  constexpr static std::size_t addrs = 0x6732794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology*>(),
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::WindingOrder (*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::GetWindingOrder)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x6734770;
+  constexpr static std::size_t addrs = 0x673250c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*)>(
     &::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::FlipEdge)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x6734ba8;
+  constexpr static std::size_t addrs = 0x6732944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -211,7 +211,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::ProBuilder::ActionResult* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*)>(
         &::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::ConformNormals)> {
   constexpr static std::size_t size = 0x59c;
-  constexpr static std::size_t addrs = 0x6734ee4;
+  constexpr static std::size_t addrs = 0x6732c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::WingedEdge*, bool, ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, bool>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::GetWindingFlags)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6735480;
+  constexpr static std::size_t addrs = 0x673321c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::ActionResult* (*)(::UnityEngine::ProBuilder::WingedEdge*)>(
     &::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::ConformOppositeNormal)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x67356d8;
+  constexpr static std::size_t addrs = 0x6733474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology*>(),
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Edge (*)(::UnityEngine::ProBuilder::WingedEdge*)>(
     &::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::GetCommonEdgeInWindingOrder)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6735590;
+  constexpr static std::size_t addrs = 0x673332c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology*>(),
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology::MatchNormal)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x67357e0;
+  constexpr static std::size_t addrs = 0x673357c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::SurfaceTopology*>(),

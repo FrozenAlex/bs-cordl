@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Net::Security::BufferOffsetSize::*)()>(&::Mono::Net::Security::BufferOffsetSize::get_EndOffset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5fd0db8;
+  constexpr static std::size_t addrs = 0x5fceb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::BufferOffsetSize*>(), { "get_EndOffset", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Net::Security::BufferOffsetSize::*)()>(&::Mono::Net::Security::BufferOffsetSize::get_Remaining)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5fd0dc4;
+  constexpr static std::size_t addrs = 0x5fceb60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::BufferOffsetSize*>(), { "get_Remaining", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::BufferOffsetSize::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::Mono::Net::Security::BufferOffsetSize::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5fd0de8;
+  constexpr static std::size_t addrs = 0x5fceb84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Net::Security::BufferOffsetSize::*)()>(&::Mono::Net::Security::BufferOffsetSize::ToString)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5fd0eb8;
+  constexpr static std::size_t addrs = 0x5fcec54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

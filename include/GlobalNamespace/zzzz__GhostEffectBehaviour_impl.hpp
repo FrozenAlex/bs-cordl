@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostEffectBehaviour::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(
     &::GlobalNamespace::GhostEffectBehaviour::OnBehaviourPlay)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x590690c;
+  constexpr static std::size_t addrs = 0x5904e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostEffectBehaviour::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(
     &::GlobalNamespace::GhostEffectBehaviour::ProcessFrame)> {
   constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x5906bb0;
+  constexpr static std::size_t addrs = 0x59050d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostEffectBehaviour::*)(bool)>(&::GlobalNamespace::GhostEffectBehaviour::EnableObjects)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x5906a9c;
+  constexpr static std::size_t addrs = 0x5904fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GhostEffectBehaviour::*)()>(&::GlobalNamespace::GhostEffectBehaviour::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5907028;
+  constexpr static std::size_t addrs = 0x5905548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GhostEffectBehaviour*>(), { ".ctor", {}, {} })));

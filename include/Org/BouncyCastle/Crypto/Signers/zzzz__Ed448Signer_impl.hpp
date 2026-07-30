@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Signers::Ed448Signer_Buffer::*)(
     ::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters*, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Crypto::Signers::Ed448Signer_Buffer::GenerateSignature)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3425708;
+  constexpr static std::size_t addrs = 0x3423cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Signers::Ed448Signer_Buffer::*)(
     ::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Crypto::Signers::Ed448Signer_Buffer::VerifySignature)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x3425914;
+  constexpr static std::size_t addrs = 0x3423edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Ed448Signer_Buffer::*)()>(&::Org::BouncyCastle::Crypto::Signers::Ed448Signer_Buffer::Reset)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3425ae0;
+  constexpr static std::size_t addrs = 0x34240a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::Ed448Signer_Buffer*>(), { "Reset", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Ed448Signer_Buffer::*)()>(&::Org::BouncyCastle::Crypto::Signers::Ed448Signer_Buffer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3425514;
+  constexpr static std::size_t addrs = 0x3423adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::Ed448Signer_Buffer*>(), { ".ctor", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Ed448Signer::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Crypto::Signers::Ed448Signer::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3425474;
+  constexpr static std::size_t addrs = 0x3423a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Signers::Ed448Signer::*)()>(&::Org::BouncyCastle::Crypto::Signers::Ed448Signer::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x342551c;
+  constexpr static std::size_t addrs = 0x3423ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Ed448Signer::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Signers::Ed448Signer::Init)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3425560;
+  constexpr static std::size_t addrs = 0x3423b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Ed448Signer::*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Signers::Ed448Signer::Update)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3425650;
+  constexpr static std::size_t addrs = 0x3423c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Ed448Signer::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Signers::Ed448Signer::BlockUpdate)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3425670;
+  constexpr static std::size_t addrs = 0x3423c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Signers::Ed448Signer::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::Ed448Signer::GenerateSignature)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3425690;
+  constexpr static std::size_t addrs = 0x3423c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Signers::Ed448Signer::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Signers::Ed448Signer::VerifySignature)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3425898;
+  constexpr static std::size_t addrs = 0x3423e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Ed448Signer::*)()>(&::Org::BouncyCastle::Crypto::Signers::Ed448Signer::Reset)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3425acc;
+  constexpr static std::size_t addrs = 0x3424094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

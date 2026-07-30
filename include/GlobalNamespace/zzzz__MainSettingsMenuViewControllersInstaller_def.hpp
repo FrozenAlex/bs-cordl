@@ -54,7 +54,7 @@ public:
   __declspec(property(get = __cordl_internal_get__tabBarViewControllerPrefab, put = __cordl_internal_set__tabBarViewControllerPrefab)) ::UnityW<::GlobalNamespace::TabBarViewController>
       _tabBarViewControllerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x59f7500, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x59f5bf4, size 0xc8, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MainSettingsMenuViewControllersInstaller* New_ctor();
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__tabBarViewControllerPrefab(::UnityW<::GlobalNamespace::TabBarViewController> value);
 
-  /// @brief Method .ctor, addr 0x59f75c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f5cbc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

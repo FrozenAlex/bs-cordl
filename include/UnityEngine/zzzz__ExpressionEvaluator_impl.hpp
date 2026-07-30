@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ExpressionEvaluator_Expression::*)(::StringW)>(&::UnityEngine::ExpressionEvaluator_Expression::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6a79130;
+  constexpr static std::size_t addrs = 0x6a76ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ExpressionEvaluator_PcgRandom::*)(uint64_t, uint64_t)>(&::UnityEngine::ExpressionEvaluator_PcgRandom::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6a790fc;
+  constexpr static std::size_t addrs = 0x6a76e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::ExpressionEvaluator_PcgRandom::*)()>(&::UnityEngine::ExpressionEvaluator_PcgRandom::GetUInt)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6a78abc;
+  constexpr static std::size_t addrs = 0x6a76858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ExpressionEvaluator_PcgRandom>(), { "GetUInt", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, int32_t)>(&::UnityEngine::ExpressionEvaluator_PcgRandom::RotateRight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a791e4;
+  constexpr static std::size_t addrs = 0x6a76f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint64_t)>(&::UnityEngine::ExpressionEvaluator_PcgRandom::XshRr)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6a791cc;
+  constexpr static std::size_t addrs = 0x6a76f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ExpressionEvaluator_PcgRandom::*)()>(&::UnityEngine::ExpressionEvaluator_PcgRandom::Step)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6a791ac;
+  constexpr static std::size_t addrs = 0x6a76f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ExpressionEvaluator_PcgRandom>(), { "Step", {}, {} })));
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ExpressionEvaluator_Operator::*)(
     ::UnityEngine::ExpressionEvaluator_Op, int32_t, int32_t, ::UnityEngine::ExpressionEvaluator_Associativity)>(&::UnityEngine::ExpressionEvaluator_Operator::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a79124;
+  constexpr static std::size_t addrs = 0x6a76ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ExpressionEvaluator_Operator*>(),
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ExpressionEvaluator___c::*)()>(&::UnityEngine::ExpressionEvaluator___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a79240;
+  constexpr static std::size_t addrs = 0x6a76fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ExpressionEvaluator___c*>(), { ".ctor", {}, {} })));
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ExpressionEvaluator___c::*)(::StringW)>(&::UnityEngine::ExpressionEvaluator___c::_ExpressionToTokens_b__14_0)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6a79244;
+  constexpr static std::size_t addrs = 0x6a76fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<::StringW>, ::by_ref<double_t>, int32_t, int32_t)>(&::UnityEngine::ExpressionEvaluator::EvaluateDouble)> {
   constexpr static std::size_t size = 0x530;
-  constexpr static std::size_t addrs = 0x6a772fc;
+  constexpr static std::size_t addrs = 0x6a75098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -334,7 +334,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)(::ArrayW<::StringW>)>(&::UnityEngine::ExpressionEvaluator::InfixToRPN)> {
   constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x6a77d94;
+  constexpr static std::size_t addrs = 0x6a75b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Collections::Generic::Stack_1<::StringW>*, ::UnityEngine::ExpressionEvaluator_Operator*)>(
     &::UnityEngine::ExpressionEvaluator::NeedToPop)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6a78238;
+  constexpr static std::size_t addrs = 0x6a75fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -363,7 +363,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)(::StringW, ::by_ref<bool>)>(&::UnityEngine::ExpressionEvaluator::ExpressionToTokens)> {
   constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x6a7833c;
+  constexpr static std::size_t addrs = 0x6a760d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -377,7 +377,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::ExpressionEvaluator::IsCommand)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6a77974;
+  constexpr static std::size_t addrs = 0x6a75710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -390,7 +390,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::ExpressionEvaluator::IsVariable)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6a77d48;
+  constexpr static std::size_t addrs = 0x6a75ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::ExpressionEvaluator::IsDelayedFunction)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6a781c8;
+  constexpr static std::size_t addrs = 0x6a75f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -416,7 +416,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::ExpressionEvaluator::IsOperator)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6a7782c;
+  constexpr static std::size_t addrs = 0x6a755c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -429,7 +429,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ExpressionEvaluator_Operator* (*)(::StringW)>(&::UnityEngine::ExpressionEvaluator::TokenToOperator)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6a778cc;
+  constexpr static std::size_t addrs = 0x6a75668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -442,7 +442,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::ExpressionEvaluator::PreFormatExpression)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x6a78788;
+  constexpr static std::size_t addrs = 0x6a76524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -455,7 +455,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)(::ArrayW<::StringW>)>(&::UnityEngine::ExpressionEvaluator::FixUnaryOperators)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6a78950;
+  constexpr static std::size_t addrs = 0x6a766ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -468,7 +468,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::ArrayW<double_t>, ::UnityEngine::ExpressionEvaluator_Op, int32_t, int32_t)>(&::UnityEngine::ExpressionEvaluator::EvaluateOp)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x6a77a10;
+  constexpr static std::size_t addrs = 0x6a757ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

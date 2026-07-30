@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::GetInstance)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x3376940;
+  constexpr static std::size_t addrs = 0x3374f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::*)()>(&::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3376b58;
+  constexpr static std::size_t addrs = 0x3375120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier*>(), { ".ctor", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::*)(::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*)>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3376b00;
+  constexpr static std::size_t addrs = 0x33750c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* (::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::get_SignaturePolicyId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3376b60;
+  constexpr static std::size_t addrs = 0x3375128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier::ToAsn1Object)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3376b68;
+  constexpr static std::size_t addrs = 0x3375130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier*>(),

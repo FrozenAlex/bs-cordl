@@ -73,28 +73,28 @@ public:
 
   static inline ::System::Runtime::Serialization::Attributes* New_ctor();
 
-  /// @brief Method Read, addr 0x612e0e8, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x612be84, size 0x254, virtual false, abstract: false, final false
   inline void Read(::System::Runtime::Serialization::XmlReaderDelegator* reader);
 
-  /// @brief Method ReadArraySize, addr 0x612e478, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ReadArraySize, addr 0x612c214, size 0xc8, virtual false, abstract: false, final false
   inline void ReadArraySize(::System::Runtime::Serialization::XmlReaderDelegator* reader);
 
-  /// @brief Method ReadFactoryType, addr 0x612e5f4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ReadFactoryType, addr 0x612c390, size 0x68, virtual false, abstract: false, final false
   inline void ReadFactoryType(::System::Runtime::Serialization::XmlReaderDelegator* reader);
 
-  /// @brief Method ReadId, addr 0x612e3c4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ReadId, addr 0x612c160, size 0xb4, virtual false, abstract: false, final false
   inline void ReadId(::System::Runtime::Serialization::XmlReaderDelegator* reader);
 
-  /// @brief Method ReadRef, addr 0x612e540, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ReadRef, addr 0x612c2dc, size 0xb4, virtual false, abstract: false, final false
   inline void ReadRef(::System::Runtime::Serialization::XmlReaderDelegator* reader);
 
-  /// @brief Method ReadXsiNil, addr 0x612e65c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ReadXsiNil, addr 0x612c3f8, size 0x2c, virtual false, abstract: false, final false
   inline void ReadXsiNil(::System::Runtime::Serialization::XmlReaderDelegator* reader);
 
-  /// @brief Method ReadXsiType, addr 0x612e688, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ReadXsiType, addr 0x612c424, size 0x68, virtual false, abstract: false, final false
   inline void ReadXsiType(::System::Runtime::Serialization::XmlReaderDelegator* reader);
 
-  /// @brief Method Reset, addr 0x612e33c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x612c0d8, size 0x88, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get_ArraySZSize() const;
@@ -175,7 +175,7 @@ public:
 
   constexpr void __cordl_internal_set_XsiTypePrefix(::StringW value);
 
-  /// @brief Method .ctor, addr 0x612e6f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x612c48c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Xml::XmlDictionaryString*> getStaticF_schemaInstanceLocalNames();
@@ -201,7 +201,7 @@ public:
   Attributes(Attributes const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16967 };
 
   /// @brief Field Id, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Id;

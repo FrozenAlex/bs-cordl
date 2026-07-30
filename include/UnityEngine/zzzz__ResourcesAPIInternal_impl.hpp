@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>> (*)(::System::Type*)>(&::UnityEngine::ResourcesAPIInternal::FindObjectsOfTypeAll)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ad5904;
+  constexpr static std::size_t addrs = 0x6ad11fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)(::StringW)>(&::UnityEngine::ResourcesAPIInternal::FindShaderByName)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x6ad5940;
+  constexpr static std::size_t addrs = 0x6ad1238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (*)(::StringW, ::System::Type*)>(&::UnityEngine::ResourcesAPIInternal::Load)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x6ad5bf0;
+  constexpr static std::size_t addrs = 0x6ad14e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>> (*)(::StringW, ::System::Type*)>(&::UnityEngine::ResourcesAPIInternal::LoadAll)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x6ad5ec0;
+  constexpr static std::size_t addrs = 0x6ad17b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::ResourcesAPIInternal::FindShaderByName_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ad5bb4;
+  constexpr static std::size_t addrs = 0x6ad14ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::System::Type*)>(
     &::UnityEngine::ResourcesAPIInternal::Load_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ad5e7c;
+  constexpr static std::size_t addrs = 0x6ad1774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>> (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::System::Type*)>(
     &::UnityEngine::ResourcesAPIInternal::LoadAll_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ad6048;
+  constexpr static std::size_t addrs = 0x6ad1940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Policy::Evidence_EvidenceEnumerator::*)(::System::Collections::IEnumerator*, ::System::Collections::IEnumerator*)>(
     &::System::Security::Policy::Evidence_EvidenceEnumerator::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5af1edc;
+  constexpr static std::size_t addrs = 0x5aefd20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Policy::Evidence_EvidenceEnumerator::*)()>(&::System::Security::Policy::Evidence_EvidenceEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5af1ee8;
+  constexpr static std::size_t addrs = 0x5aefd2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Policy::Evidence_EvidenceEnumerator*>(), { "MoveNext", {}, {} })));
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Policy::Evidence_EvidenceEnumerator::*)()>(&::System::Security::Policy::Evidence_EvidenceEnumerator::Reset)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5af2014;
+  constexpr static std::size_t addrs = 0x5aefe58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Policy::Evidence_EvidenceEnumerator*>(), { "Reset", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Security::Policy::Evidence_EvidenceEnumerator::*)()>(
     &::System::Security::Policy::Evidence_EvidenceEnumerator::get_Current)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5af2138;
+  constexpr static std::size_t addrs = 0x5aeff7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Policy::Evidence_EvidenceEnumerator*>(), { "get_Current", {}, {} })));
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Policy::Evidence::*)()>(&::System::Security::Policy::Evidence::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5af1d10;
+  constexpr static std::size_t addrs = 0x5aefb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Policy::Evidence*>(), { ".ctor", {}, {} })));
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Policy::Evidence::*)()>(&::System::Security::Policy::Evidence::get_Count)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5af1d14;
+  constexpr static std::size_t addrs = 0x5aefb58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Policy::Evidence*>(), { "get_Count", {}, {} })));
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Policy::Evidence::*)()>(&::System::Security::Policy::Evidence::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5af1d70;
+  constexpr static std::size_t addrs = 0x5aefbb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Policy::Evidence*>(), { "get_IsSynchronized", {}, {} })));
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Security::Policy::Evidence::*)()>(&::System::Security::Policy::Evidence::get_SyncRoot)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5af1d78;
+  constexpr static std::size_t addrs = 0x5aefbbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Policy::Evidence*>(), { "get_SyncRoot", {}, {} })));
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Policy::Evidence::*)(::System::Array*, int32_t)>(&::System::Security::Policy::Evidence::CopyTo)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5af1d7c;
+  constexpr static std::size_t addrs = 0x5aefbc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Security::Policy::Evidence::*)()>(&::System::Security::Policy::Evidence::GetEnumerator)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5af1e40;
+  constexpr static std::size_t addrs = 0x5aefc84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Policy::Evidence*>(), { "GetEnumerator", {}, {} })));

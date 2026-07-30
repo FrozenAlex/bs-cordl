@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::DisconnectedReason)>(&::GlobalNamespace::DisconnectedReasonMethods::LocalizedKey)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x373242c;
+  constexpr static std::size_t addrs = 0x3730e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::DisconnectedReason)>(&::GlobalNamespace::DisconnectedReasonMethods::ErrorCode)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x373250c;
+  constexpr static std::size_t addrs = 0x3730f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

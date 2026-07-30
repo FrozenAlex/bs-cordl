@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ShadowDrawingSettings::*)(bool)>(
     &::UnityEngine::Rendering::ShadowDrawingSettings::set_useRenderingLayerMaskTest)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b24c04;
+  constexpr static std::size_t addrs = 0x6b20608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ShadowDrawingSettings::*)(::UnityEngine::Rendering::CullingResults, int32_t)>(
     &::UnityEngine::Rendering::ShadowDrawingSettings::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6b24c10;
+  constexpr static std::size_t addrs = 0x6b20614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ShadowDrawingSettings::*)(::UnityEngine::Rendering::ShadowDrawingSettings)>(
     &::UnityEngine::Rendering::ShadowDrawingSettings::Equals)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6b24d8c;
+  constexpr static std::size_t addrs = 0x6b20790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ShadowDrawingSettings::*)(::System::Object*)>(&::UnityEngine::Rendering::ShadowDrawingSettings::Equals)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6b25074;
+  constexpr static std::size_t addrs = 0x6b20a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ShadowDrawingSettings::*)()>(&::UnityEngine::Rendering::ShadowDrawingSettings::GetHashCode)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6b25130;
+  constexpr static std::size_t addrs = 0x6b20b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

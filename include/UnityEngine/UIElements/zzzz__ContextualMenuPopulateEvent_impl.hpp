@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ContextualMenuPopulateEvent___c::*)()>(&::UnityEngine::UIElements::ContextualMenuPopulateEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d9e48c;
+  constexpr static std::size_t addrs = 0x6d99e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextualMenuPopulateEvent___c*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ContextualMenuPopulateEvent* (::UnityEngine::UIElements::ContextualMenuPopulateEvent___c::*)()>(
     &::UnityEngine::UIElements::ContextualMenuPopulateEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d9e490;
+  constexpr static std::size_t addrs = 0x6d99e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DropdownMenu* (::UnityEngine::UIElements::ContextualMenuPopulateEvent::*)()>(
     &::UnityEngine::UIElements::ContextualMenuPopulateEvent::get_menu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d9da60;
+  constexpr static std::size_t addrs = 0x6d99464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>(), { "get_menu", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ContextualMenuPopulateEvent::*)(::UnityEngine::UIElements::DropdownMenu*)>(
     &::UnityEngine::UIElements::ContextualMenuPopulateEvent::set_menu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d9da68;
+  constexpr static std::size_t addrs = 0x6d9946c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::EventBase* (::UnityEngine::UIElements::ContextualMenuPopulateEvent::*)()>(
     &::UnityEngine::UIElements::ContextualMenuPopulateEvent::get_triggerEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d9da70;
+  constexpr static std::size_t addrs = 0x6d99474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ContextualMenuPopulateEvent::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::ContextualMenuPopulateEvent::set_triggerEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d9da78;
+  constexpr static std::size_t addrs = 0x6d9947c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>(),
@@ -118,7 +118,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::UIElements::ContextualMenuPopulateEvent* (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::DropdownMenu*, ::UnityEngine::UIElements::IEventHandler*,
                                                                             ::UnityEngine::UIElements::ContextualMenuManager*)>(&::UnityEngine::UIElements::ContextualMenuPopulateEvent::GetPooled)> {
   constexpr static std::size_t size = 0x7f8;
-  constexpr static std::size_t addrs = 0x6d9da80;
+  constexpr static std::size_t addrs = 0x6d99484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ContextualMenuPopulateEvent::*)()>(&::UnityEngine::UIElements::ContextualMenuPopulateEvent::Init)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6d9e278;
+  constexpr static std::size_t addrs = 0x6d99c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>(),
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ContextualMenuPopulateEvent::*)()>(&::UnityEngine::UIElements::ContextualMenuPopulateEvent::LocalInit)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6d9e2ec;
+  constexpr static std::size_t addrs = 0x6d99cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>(), { "LocalInit", {}, {} })));
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ContextualMenuPopulateEvent::*)()>(&::UnityEngine::UIElements::ContextualMenuPopulateEvent::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6d9e320;
+  constexpr static std::size_t addrs = 0x6d99d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>(), { ".ctor", {}, {} })));
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ContextualMenuPopulateEvent::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::ContextualMenuPopulateEvent::PostDispatch)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6d9e394;
+  constexpr static std::size_t addrs = 0x6d99d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>(),

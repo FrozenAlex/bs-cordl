@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ENet::ENetSslConfiguration (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::get_NativeSslConfiguration)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5894450;
+  constexpr static std::size_t addrs = 0x58928fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::SslConfiguration>(), { "get_NativeSslConfiguration", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::SslConfiguration::*)(::ENet::ENetSslConfiguration)>(&::ENet::SslConfiguration::set_NativeSslConfiguration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5894460;
+  constexpr static std::size_t addrs = 0x589290c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::SslConfiguration::*)(::ENet::ENetSslConfiguration)>(&::ENet::SslConfiguration::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5894468;
+  constexpr static std::size_t addrs = 0x5892914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::Dispose)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5894470;
+  constexpr static std::size_t addrs = 0x589291c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::SslConfiguration>(), { "Dispose", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ENet::SslMode (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::get_Mode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58944c0;
+  constexpr static std::size_t addrs = 0x589296c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::SslConfiguration>(), { "get_Mode", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::SslConfiguration::*)(::ENet::SslMode)>(&::ENet::SslConfiguration::set_Mode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58944c8;
+  constexpr static std::size_t addrs = 0x5892974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::SslConfiguration>(), { "set_Mode", {}, { ::i2c::type_of<::ENet::SslMode>() } })));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::get_CertificatePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58944d0;
+  constexpr static std::size_t addrs = 0x589297c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::SslConfiguration>(), { "get_CertificatePath", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::SslConfiguration::*)(::StringW)>(&::ENet::SslConfiguration::set_CertificatePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5894488;
+  constexpr static std::size_t addrs = 0x5892934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::get_Certificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58944d8;
+  constexpr static std::size_t addrs = 0x5892984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::SslConfiguration>(), { "get_Certificate", {}, {} })));
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::SslConfiguration::*)(::StringW)>(&::ENet::SslConfiguration::set_Certificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5894490;
+  constexpr static std::size_t addrs = 0x589293c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::SslConfiguration>(), { "set_Certificate", {}, { ::i2c::type_of<::StringW>() } })));
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::get_PrivateKeyPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58944e0;
+  constexpr static std::size_t addrs = 0x589298c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::SslConfiguration>(), { "get_PrivateKeyPath", {}, {} })));
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::SslConfiguration::*)(::StringW)>(&::ENet::SslConfiguration::set_PrivateKeyPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5894498;
+  constexpr static std::size_t addrs = 0x5892944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::get_PrivateKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58944e8;
+  constexpr static std::size_t addrs = 0x5892994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::SslConfiguration>(), { "get_PrivateKey", {}, {} })));
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::SslConfiguration::*)(::StringW)>(&::ENet::SslConfiguration::set_PrivateKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58944a0;
+  constexpr static std::size_t addrs = 0x589294c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::SslConfiguration>(), { "set_PrivateKey", {}, { ::i2c::type_of<::StringW>() } })));
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::get_ValidateCertificate)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x58944f0;
+  constexpr static std::size_t addrs = 0x589299c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::SslConfiguration>(), { "get_ValidateCertificate", {}, {} })));
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::SslConfiguration::*)(bool)>(&::ENet::SslConfiguration::set_ValidateCertificate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5894500;
+  constexpr static std::size_t addrs = 0x58929ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::get_RootCertificatePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x589450c;
+  constexpr static std::size_t addrs = 0x58929b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::SslConfiguration>(), { "get_RootCertificatePath", {}, {} })));
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::SslConfiguration::*)(::StringW)>(&::ENet::SslConfiguration::set_RootCertificatePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58944a8;
+  constexpr static std::size_t addrs = 0x5892954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::get_RootCertificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5894514;
+  constexpr static std::size_t addrs = 0x58929c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::SslConfiguration>(), { "get_RootCertificate", {}, {} })));
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::SslConfiguration::*)(::StringW)>(&::ENet::SslConfiguration::set_RootCertificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58944b0;
+  constexpr static std::size_t addrs = 0x589295c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::get_HostName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x589451c;
+  constexpr static std::size_t addrs = 0x58929c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::SslConfiguration>(), { "get_HostName", {}, {} })));
@@ -269,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::SslConfiguration::*)(::StringW)>(&::ENet::SslConfiguration::set_HostName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58944b8;
+  constexpr static std::size_t addrs = 0x5892964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::SslConfiguration>(), { "set_HostName", {}, { ::i2c::type_of<::StringW>() } })));

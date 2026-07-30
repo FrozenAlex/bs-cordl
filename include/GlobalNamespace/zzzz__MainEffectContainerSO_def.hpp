@@ -48,7 +48,7 @@ public:
   constexpr MainEffectContainerSO_HardwareOverride(::GlobalNamespace::HardwareCategory hardwareCategory, ::UnityW<::GlobalNamespace::MainEffectSO> mainEffect) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20879 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -102,21 +102,21 @@ public:
 
   __declspec(property(get = get_postProcessEnabled)) ::UnityW<::GlobalNamespace::BoolSO> postProcessEnabled;
 
-  /// @brief Method Init, addr 0x5f40b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5f3e650, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::MainEffectSO* mainEffectEnabled, ::GlobalNamespace::MainEffectSO* mainEffectDisabled);
 
   static inline ::GlobalNamespace::MainEffectContainerSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5f40b60, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5f3e658, size 0xd8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5f40a5c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5f3e554, size 0xfc, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnEnableChanged, addr 0x5f40c38, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnEnableChanged, addr 0x5f3e730, size 0xdc, virtual false, abstract: false, final false
   inline void OnEnableChanged();
 
-  /// @brief Method ResolveMainEffect, addr 0x5f40d14, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ResolveMainEffect, addr 0x5f3e80c, size 0xdc, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MainEffectSO> ResolveMainEffect();
 
   constexpr ::ArrayW<::GlobalNamespace::MainEffectContainerSO_HardwareOverride> const& __cordl_internal_get__hardwareOverrides() const;
@@ -149,20 +149,20 @@ public:
 
   constexpr void __cordl_internal_set__postProcessEnabled(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  /// @brief Method .ctor, addr 0x5f40df0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f3e8e8, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::BoolCvar* getStaticF__enabled();
 
-  /// @brief Method get_mainEffect, addr 0x5f40a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainEffect, addr 0x5f3e53c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MainEffectSO> get_mainEffect();
 
-  /// @brief Method get_postProcessEnabled, addr 0x5f40a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_postProcessEnabled, addr 0x5f3e54c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BoolSO> get_postProcessEnabled();
 
   static inline void setStaticF__enabled(::GlobalNamespace::BoolCvar* value);
 
-  /// @brief Method set_mainEffect, addr 0x5f40a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mainEffect, addr 0x5f3e544, size 0x8, virtual false, abstract: false, final false
   inline void set_mainEffect(::GlobalNamespace::MainEffectSO* value);
 
 protected:
@@ -180,7 +180,7 @@ public:
   MainEffectContainerSO(MainEffectContainerSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20880 };
 
   /// @brief Field _mainEffect, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainEffectSO> ____mainEffect;

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::TMPro::TMP_SpriteCharacter::*)()>(&::TMPro::TMP_SpriteCharacter::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699c8fc;
+  constexpr static std::size_t addrs = 0x699a698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteCharacter*>(), { "get_name", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteCharacter::*)(::StringW)>(&::TMPro::TMP_SpriteCharacter::set_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699c904;
+  constexpr static std::size_t addrs = 0x699a6a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteCharacter*>(), { "set_name", {}, { ::i2c::type_of<::StringW>() } })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteCharacter::*)()>(&::TMPro::TMP_SpriteCharacter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x699c7ac;
+  constexpr static std::size_t addrs = 0x699a548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SpriteCharacter*>(), { ".ctor", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteCharacter::*)(uint32_t, ::TMPro::TMP_SpriteGlyph*)>(&::TMPro::TMP_SpriteCharacter::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x699c910;
+  constexpr static std::size_t addrs = 0x699a6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteCharacter::*)(uint32_t, ::TMPro::TMP_SpriteAsset*, ::TMPro::TMP_SpriteGlyph*)>(&::TMPro::TMP_SpriteCharacter::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x699c93c;
+  constexpr static std::size_t addrs = 0x699a6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SpriteCharacter::*)(uint32_t, uint32_t)>(&::TMPro::TMP_SpriteCharacter::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x699c968;
+  constexpr static std::size_t addrs = 0x699a704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

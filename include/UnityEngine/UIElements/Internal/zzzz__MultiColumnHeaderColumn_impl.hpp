@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Clickable* (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::get_clickable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d2703c;
+  constexpr static std::size_t addrs = 0x6d22a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(::UnityEngine::UIElements::Clickable*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::set_clickable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d27044;
+  constexpr static std::size_t addrs = 0x6d22a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn*>(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Internal::ColumnMover* (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::get_mover)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d2704c;
+  constexpr static std::size_t addrs = 0x6d22a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn*>(), { "get_mover", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(::UnityEngine::UIElements::Internal::ColumnMover*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::set_mover)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d27054;
+  constexpr static std::size_t addrs = 0x6d22a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(::StringW)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::set_sortOrderLabel)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6d256e4;
+  constexpr static std::size_t addrs = 0x6d210e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Column* (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::get_column)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d2705c;
+  constexpr static std::size_t addrs = 0x6d22a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(::UnityEngine::UIElements::Column*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::set_column)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d27064;
+  constexpr static std::size_t addrs = 0x6d22a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn*>(),
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::get_content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d2706c;
+  constexpr static std::size_t addrs = 0x6d22a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::set_content)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6d27074;
+  constexpr static std::size_t addrs = 0x6d22a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn*>(),
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::get_isContentBound)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6d272bc;
+  constexpr static std::size_t addrs = 0x6d22cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(bool)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::set_isContentBound)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6d27374;
+  constexpr static std::size_t addrs = 0x6d22d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(::UnityEngine::UIElements::Column*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::_ctor)> {
   constexpr static std::size_t size = 0x6d4;
-  constexpr static std::size_t addrs = 0x6d22f48;
+  constexpr static std::size_t addrs = 0x6d1e94c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(
     ::UnityEngine::UIElements::Column*, ::UnityEngine::UIElements::ColumnDataType)>(&::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::OnColumnChanged)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x6d279b0;
+  constexpr static std::size_t addrs = 0x6d233b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(::UnityEngine::UIElements::Column*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::OnColumnResized)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d27b94;
+  constexpr static std::size_t addrs = 0x6d23598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn*>(),
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::InitManipulators)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x6d2774c;
+  constexpr static std::size_t addrs = 0x6d23150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(::UnityEngine::UIElements::Internal::ColumnMover*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::OnMoverChanged)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6d27b98;
+  constexpr static std::size_t addrs = 0x6d2359c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn*>(),
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::UpdateDataFromColumn)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6d27b60;
+  constexpr static std::size_t addrs = 0x6d23564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::BindHeaderContent)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6d27d18;
+  constexpr static std::size_t addrs = 0x6d2371c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::UnbindHeaderContent)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6d27c3c;
+  constexpr static std::size_t addrs = 0x6d23640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::DestroyHeaderContent)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6d27140;
+  constexpr static std::size_t addrs = 0x6d22b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::CreateDefaultHeaderContent)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x6d27df4;
+  constexpr static std::size_t addrs = 0x6d237f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::DefaultBindHeaderContent)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x6d27f9c;
+  constexpr static std::size_t addrs = 0x6d239a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn*>(),
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::UpdateHeaderTemplate)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x6d2741c;
+  constexpr static std::size_t addrs = 0x6d22e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::UpdateGeometryFromColumn)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6d27640;
+  constexpr static std::size_t addrs = 0x6d23044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::Dispose)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6d261b8;
+  constexpr static std::size_t addrs = 0x6d21bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn*>(), { "Dispose", {}, {} })));

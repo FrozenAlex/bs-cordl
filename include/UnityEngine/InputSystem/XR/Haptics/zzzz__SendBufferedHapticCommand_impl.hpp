@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(&::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand::get_Type)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6586b98;
+  constexpr static std::size_t addrs = 0x6584934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand::*)()>(
     &::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6586ba4;
+  constexpr static std::size_t addrs = 0x6584940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand (*)(::ArrayW<uint8_t>)>(
     &::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand::Create)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x65869a0;
+  constexpr static std::size_t addrs = 0x658473c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

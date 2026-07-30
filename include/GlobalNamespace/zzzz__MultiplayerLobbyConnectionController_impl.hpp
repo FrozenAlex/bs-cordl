@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyConnectionController::*)(::System::Action*)>(
     &::GlobalNamespace::MultiplayerLobbyConnectionController::add_connectionSuccessEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59d6d14;
+  constexpr static std::size_t addrs = 0x59d5384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyConnectionController::*)(::System::Action*)>(
     &::GlobalNamespace::MultiplayerLobbyConnectionController::remove_connectionSuccessEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59d6dc0;
+  constexpr static std::size_t addrs = 0x59d5430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLobbyConnectionController*>(),
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionType, ::GlobalNamespace::ConnectionFailedReason>*)>(
     &::GlobalNamespace::MultiplayerLobbyConnectionController::add_connectionFailedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59d6e6c;
+  constexpr static std::size_t addrs = 0x59d54dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionType, ::GlobalNamespace::ConnectionFailedReason>*)>(
     &::GlobalNamespace::MultiplayerLobbyConnectionController::remove_connectionFailedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59d6f2c;
+  constexpr static std::size_t addrs = 0x59d559c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionState (::GlobalNamespace::MultiplayerLobbyConnectionController::*)()>(
     &::GlobalNamespace::MultiplayerLobbyConnectionController::get_connectionState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59d6fec;
+  constexpr static std::size_t addrs = 0x59d565c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyConnectionController::*)(::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionState)>(
     &::GlobalNamespace::MultiplayerLobbyConnectionController::set_connectionState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59d6ff4;
+  constexpr static std::size_t addrs = 0x59d5664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionType (::GlobalNamespace::MultiplayerLobbyConnectionController::*)()>(
     &::GlobalNamespace::MultiplayerLobbyConnectionController::get_connectionType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59d6ffc;
+  constexpr static std::size_t addrs = 0x59d566c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyConnectionController::*)(::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionType)>(
     &::GlobalNamespace::MultiplayerLobbyConnectionController::set_connectionType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59d7004;
+  constexpr static std::size_t addrs = 0x59d5674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ConnectionFailedReason (::GlobalNamespace::MultiplayerLobbyConnectionController::*)()>(
     &::GlobalNamespace::MultiplayerLobbyConnectionController::get_connectionFailedReason)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59d700c;
+  constexpr static std::size_t addrs = 0x59d567c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyConnectionController::*)(::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::MultiplayerLobbyConnectionController::set_connectionFailedReason)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59d7014;
+  constexpr static std::size_t addrs = 0x59d5684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLobbyConnectionController*>(),
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyConnectionController::*)(::GlobalNamespace::CreateServerFormData)>(
     &::GlobalNamespace::MultiplayerLobbyConnectionController::CreateParty)> {
   constexpr static std::size_t size = 0x408;
-  constexpr static std::size_t addrs = 0x59d701c;
+  constexpr static std::size_t addrs = 0x59d568c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLobbyConnectionController*>(),
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyConnectionController::*)(::StringW)>(
     &::GlobalNamespace::MultiplayerLobbyConnectionController::ConnectToParty)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x59d7828;
+  constexpr static std::size_t addrs = 0x59d5e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyConnectionController::*)(::GlobalNamespace::SelectMultiplayerLobbyDestination*)>(
     &::GlobalNamespace::MultiplayerLobbyConnectionController::CreateOrConnectToDestinationParty)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x59d7adc;
+  constexpr static std::size_t addrs = 0x59d614c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyConnectionController::*)(::GlobalNamespace::INetworkPlayer*, ::StringW)>(
     &::GlobalNamespace::MultiplayerLobbyConnectionController::ConnectToServer)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x59d7e74;
+  constexpr static std::size_t addrs = 0x59d64e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyConnectionController::*)(
     ::GlobalNamespace::BeatmapDifficultyMask, ::GlobalNamespace::SongPackMask, bool)>(&::GlobalNamespace::MultiplayerLobbyConnectionController::ConnectToMatchmaking)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x59d815c;
+  constexpr static std::size_t addrs = 0x59d67cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyConnectionController::*)()>(&::GlobalNamespace::MultiplayerLobbyConnectionController::LeaveLobby)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59d8438;
+  constexpr static std::size_t addrs = 0x59d6aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLobbyConnectionController*>(), { "LeaveLobby", {}, {} })));
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerLobbyConnectionController::*)(::GlobalNamespace::UnifiedNetworkPlayerModel_JoinMatchmakingPartyConfig*)>(
     &::GlobalNamespace::MultiplayerLobbyConnectionController::TryCreatePartyConnection)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x59d7424;
+  constexpr static std::size_t addrs = 0x59d5a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyConnectionController::*)()>(
     &::GlobalNamespace::MultiplayerLobbyConnectionController::ClearCurrentConnection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59d84e4;
+  constexpr static std::size_t addrs = 0x59d6b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyConnectionController::*)()>(
     &::GlobalNamespace::MultiplayerLobbyConnectionController::HandleMultiplayerSessionManagerConnected)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x59d84ec;
+  constexpr static std::size_t addrs = 0x59d6b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyConnectionController::*)(::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::MultiplayerLobbyConnectionController::HandleMultiplayerSessionManagerConnectionFailed)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x59d758c;
+  constexpr static std::size_t addrs = 0x59d5bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyConnectionController::*)(::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::MultiplayerLobbyConnectionController::HandleMultiplayerSessionManagerConnectionFailedWithRetry)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x59d876c;
+  constexpr static std::size_t addrs = 0x59d6ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -358,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyConnectionController::*)()>(&::GlobalNamespace::MultiplayerLobbyConnectionController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59d87f0;
+  constexpr static std::size_t addrs = 0x59d6e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLobbyConnectionController*>(), { ".ctor", {}, {} })));

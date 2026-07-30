@@ -33,6 +33,9 @@ public:
 
   __declspec(property(get = get_userId)) uint64_t userId;
 
+  /// @brief Method FlushAchievements, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void FlushAchievements();
+
   /// @brief Method GetAccessTokenAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetAccessTokenAsync();
 
@@ -68,7 +71,7 @@ public:
   IPlatformUser(IPlatformUser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22416 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22413 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

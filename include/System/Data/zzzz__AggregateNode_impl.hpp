@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::AggregateNode::*)(::System::Data::DataTable*, ::System::Data::FunctionId, ::StringW)>(
     &::System::Data::AggregateNode::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x60307fc;
+  constexpr static std::size_t addrs = 0x602e598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::AggregateNode::*)(::System::Data::DataTable*, ::System::Data::FunctionId, ::StringW, bool, ::StringW)>(
     &::System::Data::AggregateNode::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6030808;
+  constexpr static std::size_t addrs = 0x602e5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::AggregateNode::*)(::System::Data::DataTable*, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*)>(
     &::System::Data::AggregateNode::Bind)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x6030908;
+  constexpr static std::size_t addrs = 0x602e6a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::AggregateNode*>(), { ::i2c::class_of<::System::Data::AggregateNode*>(), 5 }));
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Data::DataRelation*, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*)>(
     &::System::Data::AggregateNode::Bind)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x6030c88;
+  constexpr static std::size_t addrs = 0x602ea24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::AggregateNode::*)()>(&::System::Data::AggregateNode::Eval)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6030e64;
+  constexpr static std::size_t addrs = 0x602ec00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::AggregateNode*>(), { ::i2c::class_of<::System::Data::AggregateNode*>(), 6 }));
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::AggregateNode::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(
     &::System::Data::AggregateNode::Eval)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x6030e78;
+  constexpr static std::size_t addrs = 0x602ec14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::AggregateNode*>(), { ::i2c::class_of<::System::Data::AggregateNode*>(), 7 }));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::AggregateNode::*)(::ArrayW<int32_t>)>(&::System::Data::AggregateNode::Eval)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x60311b4;
+  constexpr static std::size_t addrs = 0x602ef50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::AggregateNode*>(), { ::i2c::class_of<::System::Data::AggregateNode*>(), 8 }));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::AggregateNode::*)()>(&::System::Data::AggregateNode::IsConstant)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x603127c;
+  constexpr static std::size_t addrs = 0x602f018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::AggregateNode*>(), { ::i2c::class_of<::System::Data::AggregateNode*>(), 9 }));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::AggregateNode::*)()>(&::System::Data::AggregateNode::IsTableConstant)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6031284;
+  constexpr static std::size_t addrs = 0x602f020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::AggregateNode::*)()>(&::System::Data::AggregateNode::HasLocalAggregate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x603128c;
+  constexpr static std::size_t addrs = 0x602f028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::AggregateNode::*)()>(&::System::Data::AggregateNode::HasRemoteAggregate)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6031294;
+  constexpr static std::size_t addrs = 0x602f030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::AggregateNode::*)(::System::Data::DataColumn*)>(&::System::Data::AggregateNode::DependsOn)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x60312a4;
+  constexpr static std::size_t addrs = 0x602f040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::ExpressionNode* (::System::Data::AggregateNode::*)()>(&::System::Data::AggregateNode::Optimize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6031308;
+  constexpr static std::size_t addrs = 0x602f0a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

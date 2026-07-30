@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::BindingLogLevel)>(&::UnityEngine::UIElements::Binding::SetGlobalLogLevel)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6c2d2e8;
+  constexpr static std::size_t addrs = 0x6c28cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::IPanel*, ::UnityEngine::UIElements::BindingLogLevel)>(
     &::UnityEngine::UIElements::Binding::SetPanelLogLevel)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6c2d348;
+  constexpr static std::size_t addrs = 0x6c28d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::IPanel*)>(&::UnityEngine::UIElements::Binding::ResetPanelLogLevel)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6c2d470;
+  constexpr static std::size_t addrs = 0x6c28e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Binding::*)()>(&::UnityEngine::UIElements::Binding::get_isDirty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c2d508;
+  constexpr static std::size_t addrs = 0x6c28f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Binding*>(), { "get_isDirty", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BindingUpdateTrigger (::UnityEngine::UIElements::Binding::*)()>(
     &::UnityEngine::UIElements::Binding::get_updateTrigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c2d510;
+  constexpr static std::size_t addrs = 0x6c28f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Binding*>(), { "get_updateTrigger", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Binding::*)(::UnityEngine::UIElements::BindingUpdateTrigger)>(
     &::UnityEngine::UIElements::Binding::set_updateTrigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c2d518;
+  constexpr static std::size_t addrs = 0x6c28f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Binding::*)()>(&::UnityEngine::UIElements::Binding::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c2d520;
+  constexpr static std::size_t addrs = 0x6c28f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Binding*>(), { ".ctor", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Binding::*)()>(&::UnityEngine::UIElements::Binding::MarkDirty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c2d52c;
+  constexpr static std::size_t addrs = 0x6c28f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Binding*>(), { "MarkDirty", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Binding::*)()>(&::UnityEngine::UIElements::Binding::ClearDirty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c2d538;
+  constexpr static std::size_t addrs = 0x6c28f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Binding*>(), { "ClearDirty", {}, {} })));
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Binding::*)(::by_ref<::UnityEngine::UIElements::BindingActivationContext>)>(
     &::UnityEngine::UIElements::Binding::OnActivated)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c2d540;
+  constexpr static std::size_t addrs = 0x6c28f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Binding::*)(::by_ref<::UnityEngine::UIElements::BindingActivationContext>)>(
     &::UnityEngine::UIElements::Binding::OnDeactivated)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c2d544;
+  constexpr static std::size_t addrs = 0x6c28f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Binding::*)(::by_ref<::UnityEngine::UIElements::DataSourceContextChanged>)>(
     &::UnityEngine::UIElements::Binding::OnDataSourceChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c2d548;
+  constexpr static std::size_t addrs = 0x6c28f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

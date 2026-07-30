@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::BombNoteData::*)()>(&::BeatmapSaveDataVersion3::BombNoteData::get_line)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375af30;
+  constexpr static std::size_t addrs = 0x3759a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::BombNoteData*>(), { "get_line", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::BombNoteData::*)()>(&::BeatmapSaveDataVersion3::BombNoteData::get_layer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375af38;
+  constexpr static std::size_t addrs = 0x3759a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::BombNoteData*>(), { "get_layer", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion3::BombNoteData::*)(float_t, int32_t, int32_t)>(&::BeatmapSaveDataVersion3::BombNoteData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x375af40;
+  constexpr static std::size_t addrs = 0x3759a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::BombNoteData*>(),

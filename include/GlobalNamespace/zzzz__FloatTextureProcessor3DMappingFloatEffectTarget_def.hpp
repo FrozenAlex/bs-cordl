@@ -131,13 +131,13 @@ public:
 
   static inline ::GlobalNamespace::FloatTextureProcessor3DMappingFloatEffectTarget* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x598dd7c, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x598c440, size 0x208, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetValue, addr 0x598dd78, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x598c43c, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x598df84, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x598c648, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr bool const& __cordl_internal_get__invertAxis() const;
@@ -182,7 +182,7 @@ public:
 
   constexpr void __cordl_internal_set__valueBounds(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x598df88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598c64c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::StringW> getStaticF__propertyStrings();

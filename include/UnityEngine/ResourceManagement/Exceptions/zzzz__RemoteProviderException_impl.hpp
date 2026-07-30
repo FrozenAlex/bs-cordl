@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Reso
     ::StringW, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*, ::System::Exception*)>(
     &::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x690c4d8;
+  constexpr static std::size_t addrs = 0x690a274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::*)()>(
     &::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::get_Message)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x690c504;
+  constexpr static std::size_t addrs = 0x690a2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException*>(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* (::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::*)()>(
     &::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::get_WebRequestResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x690c510;
+  constexpr static std::size_t addrs = 0x690a2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::*)()>(
     &::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::ToString)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x690c518;
+  constexpr static std::size_t addrs = 0x690a2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException*>(),

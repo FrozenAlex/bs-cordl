@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Audio::AudioClipPlayable (*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::AudioClip*, bool)>(
     &::UnityEngine::Audio::AudioClipPlayable::Create)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6a500e0;
+  constexpr static std::size_t addrs = 0x6a4de7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableHandle (*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::AudioClip*, bool)>(
     &::UnityEngine::Audio::AudioClipPlayable::CreateHandle)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6a501ec;
+  constexpr static std::size_t addrs = 0x6a4df88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::AudioClipPlayable::*)(::UnityEngine::Playables::PlayableHandle)>(&::UnityEngine::Audio::AudioClipPlayable::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6a5029c;
+  constexpr static std::size_t addrs = 0x6a4e038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableHandle (::UnityEngine::Audio::AudioClipPlayable::*)()>(&::UnityEngine::Audio::AudioClipPlayable::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a50458;
+  constexpr static std::size_t addrs = 0x6a4e1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(), { "GetHandle", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::Playable (*)(::UnityEngine::Audio::AudioClipPlayable)>(
     &::UnityEngine::Audio::AudioClipPlayable::op_Implicit___UnityEngine__Playables__Playable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a50464;
+  constexpr static std::size_t addrs = 0x6a4e200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Audio::AudioClipPlayable (*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Audio::AudioClipPlayable::op_Explicit___UnityEngine__Audio__AudioClipPlayable)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6a50468;
+  constexpr static std::size_t addrs = 0x6a4e204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Audio::AudioClipPlayable::*)(::UnityEngine::Audio::AudioClipPlayable)>(&::UnityEngine::Audio::AudioClipPlayable::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6a504e8;
+  constexpr static std::size_t addrs = 0x6a4e284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::AudioClip> (::UnityEngine::Audio::AudioClipPlayable::*)()>(&::UnityEngine::Audio::AudioClipPlayable::GetClip)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a50564;
+  constexpr static std::size_t addrs = 0x6a4e300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(), { "GetClip", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::AudioClipPlayable::*)(::UnityEngine::AudioClip*)>(&::UnityEngine::Audio::AudioClipPlayable::SetClip)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a50688;
+  constexpr static std::size_t addrs = 0x6a4e424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Audio::AudioClipPlayable::*)()>(&::UnityEngine::Audio::AudioClipPlayable::GetLooped)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a5071c;
+  constexpr static std::size_t addrs = 0x6a4e4b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(), { "GetLooped", {}, {} })));
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::AudioClipPlayable::*)(bool)>(&::UnityEngine::Audio::AudioClipPlayable::SetLooped)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a50794;
+  constexpr static std::size_t addrs = 0x6a4e530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Audio::AudioClipPlayable::*)()>(&::UnityEngine::Audio::AudioClipPlayable::GetVolume)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a5081c;
+  constexpr static std::size_t addrs = 0x6a4e5b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(), { "GetVolume", {}, {} })));
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::AudioClipPlayable::*)(float_t)>(&::UnityEngine::Audio::AudioClipPlayable::SetVolume)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6a50894;
+  constexpr static std::size_t addrs = 0x6a4e630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Audio::AudioClipPlayable::*)()>(&::UnityEngine::Audio::AudioClipPlayable::GetClipPositionSec)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a509b0;
+  constexpr static std::size_t addrs = 0x6a4e74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(), { "GetClipPositionSec", {}, {} })));
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Audio::AudioClipPlayable::*)()>(&::UnityEngine::Audio::AudioClipPlayable::GetStereoPan)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a50a28;
+  constexpr static std::size_t addrs = 0x6a4e7c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(), { "GetStereoPan", {}, {} })));
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::AudioClipPlayable::*)(float_t)>(&::UnityEngine::Audio::AudioClipPlayable::SetStereoPan)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6a50aa0;
+  constexpr static std::size_t addrs = 0x6a4e83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Audio::AudioClipPlayable::*)()>(&::UnityEngine::Audio::AudioClipPlayable::GetSpatialBlend)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a50bbc;
+  constexpr static std::size_t addrs = 0x6a4e958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(), { "GetSpatialBlend", {}, {} })));
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::AudioClipPlayable::*)(float_t)>(&::UnityEngine::Audio::AudioClipPlayable::SetSpatialBlend)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6a50c34;
+  constexpr static std::size_t addrs = 0x6a4e9d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Audio::AudioClipPlayable::*)()>(&::UnityEngine::Audio::AudioClipPlayable::IsPlaying)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a50d50;
+  constexpr static std::size_t addrs = 0x6a4eaec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(), { "IsPlaying", {}, {} })));
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Audio::AudioClipPlayable::*)()>(&::UnityEngine::Audio::AudioClipPlayable::IsChannelPlaying)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a50d8c;
+  constexpr static std::size_t addrs = 0x6a4eb28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(), { "IsChannelPlaying", {}, {} })));
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::Audio::AudioClipPlayable::*)()>(&::UnityEngine::Audio::AudioClipPlayable::GetStartDelay)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a50e04;
+  constexpr static std::size_t addrs = 0x6a4eba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(), { "GetStartDelay", {}, {} })));
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::AudioClipPlayable::*)(double_t)>(&::UnityEngine::Audio::AudioClipPlayable::SetStartDelay)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6a50e7c;
+  constexpr static std::size_t addrs = 0x6a4ec18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::Audio::AudioClipPlayable::*)()>(&::UnityEngine::Audio::AudioClipPlayable::GetPauseDelay)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a50f14;
+  constexpr static std::size_t addrs = 0x6a4ecb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(), { "GetPauseDelay", {}, {} })));
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::AudioClipPlayable::*)(double_t)>(&::UnityEngine::Audio::AudioClipPlayable::GetPauseDelay)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x6a50f8c;
+  constexpr static std::size_t addrs = 0x6a4ed28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::AudioClipPlayable::*)(double_t, double_t)>(&::UnityEngine::Audio::AudioClipPlayable::Seek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a51164;
+  constexpr static std::size_t addrs = 0x6a4ef00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Audio::AudioClipPlayable::*)(double_t, double_t, double_t)>(&::UnityEngine::Audio::AudioClipPlayable::Seek)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x6a5116c;
+  constexpr static std::size_t addrs = 0x6a4ef08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(),
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::AudioClip> (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>)>(
     &::UnityEngine::Audio::AudioClipPlayable::GetClipInternal)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6a50568;
+  constexpr static std::size_t addrs = 0x6a4e304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(),
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>, ::UnityEngine::AudioClip*)>(
     &::UnityEngine::Audio::AudioClipPlayable::SetClipInternal)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6a5068c;
+  constexpr static std::size_t addrs = 0x6a4e428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -377,7 +377,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>)>(&::UnityEngine::Audio::AudioClipPlayable::GetLoopedInternal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a50758;
+  constexpr static std::size_t addrs = 0x6a4e4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(),
@@ -390,7 +390,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>, bool)>(&::UnityEngine::Audio::AudioClipPlayable::SetLoopedInternal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a507d8;
+  constexpr static std::size_t addrs = 0x6a4e574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -404,7 +404,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>)>(&::UnityEngine::Audio::AudioClipPlayable::GetVolumeInternal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a50858;
+  constexpr static std::size_t addrs = 0x6a4e5f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(),
@@ -417,7 +417,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>, float_t)>(&::UnityEngine::Audio::AudioClipPlayable::SetVolumeInternal)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6a50964;
+  constexpr static std::size_t addrs = 0x6a4e700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -431,7 +431,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>)>(&::UnityEngine::Audio::AudioClipPlayable::GetClipPositionSecInternal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a509ec;
+  constexpr static std::size_t addrs = 0x6a4e788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -445,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>)>(&::UnityEngine::Audio::AudioClipPlayable::GetStereoPanInternal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a50a64;
+  constexpr static std::size_t addrs = 0x6a4e800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(),
@@ -458,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>, float_t)>(&::UnityEngine::Audio::AudioClipPlayable::SetStereoPanInternal)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6a50b70;
+  constexpr static std::size_t addrs = 0x6a4e90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -472,7 +472,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>)>(&::UnityEngine::Audio::AudioClipPlayable::GetSpatialBlendInternal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a50bf8;
+  constexpr static std::size_t addrs = 0x6a4e994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -486,7 +486,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>, float_t)>(&::UnityEngine::Audio::AudioClipPlayable::SetSpatialBlendInternal)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6a50d04;
+  constexpr static std::size_t addrs = 0x6a4eaa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -500,7 +500,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>)>(&::UnityEngine::Audio::AudioClipPlayable::GetIsChannelPlayingInternal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a50dc8;
+  constexpr static std::size_t addrs = 0x6a4eb64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -514,7 +514,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>)>(&::UnityEngine::Audio::AudioClipPlayable::GetStartDelayInternal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a50e40;
+  constexpr static std::size_t addrs = 0x6a4ebdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(),
@@ -527,7 +527,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>, double_t)>(&::UnityEngine::Audio::AudioClipPlayable::SetStartDelayInternal)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6a50ec8;
+  constexpr static std::size_t addrs = 0x6a4ec64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -541,7 +541,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>)>(&::UnityEngine::Audio::AudioClipPlayable::GetPauseDelayInternal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a50f50;
+  constexpr static std::size_t addrs = 0x6a4ecec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(),
@@ -554,7 +554,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>, double_t)>(&::UnityEngine::Audio::AudioClipPlayable::SetPauseDelayInternal)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6a51118;
+  constexpr static std::size_t addrs = 0x6a4eeb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -569,7 +569,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Playables::PlayableGraph>, ::UnityEngine::AudioClip*, bool,
                                                                 ::by_ref<::UnityEngine::Playables::PlayableHandle>)>(&::UnityEngine::Audio::AudioClipPlayable::InternalCreateAudioClipPlayable)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6a503b0;
+  constexpr static std::size_t addrs = 0x6a4e14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -586,7 +586,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>)>(&::UnityEngine::Audio::AudioClipPlayable::ValidateType)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a514c0;
+  constexpr static std::size_t addrs = 0x6a4f25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(),
@@ -599,7 +599,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>)>(&::UnityEngine::Audio::AudioClipPlayable::GetClipInternal_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a513e4;
+  constexpr static std::size_t addrs = 0x6a4f180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -614,7 +614,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableHandle>, ::System::IntPtr)>(
     &::UnityEngine::Audio::AudioClipPlayable::SetClipInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a51420;
+  constexpr static std::size_t addrs = 0x6a4f1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -629,7 +629,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Playables::PlayableGraph>, ::System::IntPtr, bool, ::by_ref<::UnityEngine::Playables::PlayableHandle>)>(
     &::UnityEngine::Audio::AudioClipPlayable::InternalCreateAudioClipPlayable_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6a51464;
+  constexpr static std::size_t addrs = 0x6a4f200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Audio::AudioClipPlayable>(),

@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Settings_LightCookieManager_AtlasSettings::*)()>(
     &::UnityEngine::Rendering::Universal::Settings_LightCookieManager_AtlasSettings::get_isPow2)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6875e64;
+  constexpr static std::size_t addrs = 0x6873c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Settings_LightCookieManager_AtlasSettings::*)()>(
     &::UnityEngine::Rendering::Universal::Settings_LightCookieManager_AtlasSettings::get_isSquare)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68766f0;
+  constexpr static std::size_t addrs = 0x687448c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::LightCookieManager_Settings (*)()>(
     &::UnityEngine::Rendering::Universal::LightCookieManager_Settings::Create)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x687664c;
+  constexpr static std::size_t addrs = 0x68743e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LightCookieManager_Settings>(), { "Create", {}, {} })));
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::LightCookieMapping_LightCookieManager___c::*)()>(
     &::UnityEngine::Rendering::Universal::LightCookieMapping_LightCookieManager___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6876874;
+  constexpr static std::size_t addrs = 0x6874610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
     ::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping, ::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping)>(
     &::UnityEngine::Rendering::Universal::LightCookieMapping_LightCookieManager___c::__cctor_b__6_0)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6876878;
+  constexpr static std::size_t addrs = 0x6874614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LightCookieMapping_LightCookieManager___c*>(),
@@ -228,7 +228,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
     ::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping, ::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping)>(
     &::UnityEngine::Rendering::Universal::LightCookieMapping_LightCookieManager___c::__cctor_b__6_1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6876944;
+  constexpr static std::size_t addrs = 0x68746e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LightCookieMapping_LightCookieManager___c*>(),
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::LightCookieManager_WorkMemory::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::LightCookieManager_WorkMemory::Resize)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x68747c8;
+  constexpr static std::size_t addrs = 0x6872564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::LightCookieManager_WorkMemory::*)()>(
     &::UnityEngine::Rendering::Universal::LightCookieManager_WorkMemory::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6873c60;
+  constexpr static std::size_t addrs = 0x68719fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -432,7 +432,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Matrix4x4> (::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::*)()>(
     &::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::get_worldToLights)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6876950;
+  constexpr static std::size_t addrs = 0x68746ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -446,7 +446,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::ShaderBitArray (::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::*)()>(
     &::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::get_cookieEnableBits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6876958;
+  constexpr static std::size_t addrs = 0x68746f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -460,7 +460,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector4> (::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::*)()>(
     &::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::get_atlasUVRects)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6876960;
+  constexpr static std::size_t addrs = 0x68746fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<float_t> (::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::*)()>(
     &::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::get_lightTypes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6876968;
+  constexpr static std::size_t addrs = 0x6874704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -488,7 +488,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::*)()>(
     &::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::get_isUploaded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6876970;
+  constexpr static std::size_t addrs = 0x687470c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -502,7 +502,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::*)(bool)>(
     &::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::set_isUploaded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6876978;
+  constexpr static std::size_t addrs = 0x6874714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -517,7 +517,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::*)(int32_t, bool)>(
     &::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6873d88;
+  constexpr static std::size_t addrs = 0x6871b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData*>(),
@@ -531,7 +531,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::*)()>(
     &::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::Dispose)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6873de0;
+  constexpr static std::size_t addrs = 0x6871b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -545,7 +545,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::Resize)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x6875f40;
+  constexpr static std::size_t addrs = 0x6873cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -559,7 +559,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::*)(::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::Upload)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6876158;
+  constexpr static std::size_t addrs = 0x6873ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData*>(),
@@ -573,7 +573,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::*)(::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData::Clear)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6874590;
+  constexpr static std::size_t addrs = 0x687232c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderData*>(),
@@ -778,7 +778,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::LightCookieManager::*)()>(
     &::UnityEngine::Rendering::Universal::LightCookieManager::get_IsKeywordLightCookieEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6873bb8;
+  constexpr static std::size_t addrs = 0x6871954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -792,7 +792,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::LightCookieManager::*)(bool)>(
     &::UnityEngine::Rendering::Universal::LightCookieManager::set_IsKeywordLightCookieEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6873bc0;
+  constexpr static std::size_t addrs = 0x687195c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -806,7 +806,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::Universal::LightCookieManager::*)()>(
     &::UnityEngine::Rendering::Universal::LightCookieManager::get_AdditionalLightsCookieAtlasTexture)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6873bc8;
+  constexpr static std::size_t addrs = 0x6871964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -820,7 +820,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::LightCookieManager::*)(::by_ref<::UnityEngine::Rendering::Universal::LightCookieManager_Settings>)>(
     &::UnityEngine::Rendering::Universal::LightCookieManager::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6873be0;
+  constexpr static std::size_t addrs = 0x687197c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -835,7 +835,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::LightCookieManager::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::LightCookieManager::InitAdditionalLights)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6873c64;
+  constexpr static std::size_t addrs = 0x6871a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -848,7 +848,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::LightCookieManager::*)()>(&::UnityEngine::Rendering::Universal::LightCookieManager::isInitialized)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6873d90;
+  constexpr static std::size_t addrs = 0x6871b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LightCookieManager*>(), { "isInitialized", {}, {} })));
@@ -860,7 +860,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::LightCookieManager::*)()>(&::UnityEngine::Rendering::Universal::LightCookieManager::Dispose)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6873db0;
+  constexpr static std::size_t addrs = 0x6871b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LightCookieManager*>(), { "Dispose", {}, {} })));
@@ -873,7 +873,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::LightCookieManager::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::LightCookieManager::GetLightCookieShaderDataIndex)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6873e28;
+  constexpr static std::size_t addrs = 0x6871bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -887,7 +887,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::LightCookieManager::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::Universal::UniversalLightData*)>(&::UnityEngine::Rendering::Universal::LightCookieManager::Setup)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x6873e70;
+  constexpr static std::size_t addrs = 0x6871c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -903,7 +903,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::LightCookieManager::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::VisibleLight>)>(&::UnityEngine::Rendering::Universal::LightCookieManager::SetupMainLight)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x6874008;
+  constexpr static std::size_t addrs = 0x6871da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -919,7 +919,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieShaderFormat (::UnityEngine::Rendering::Universal::LightCookieManager::*)(
     ::UnityEngine::Experimental::Rendering::GraphicsFormat)>(&::UnityEngine::Rendering::Universal::LightCookieManager::GetLightCookieShaderFormat)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x687462c;
+  constexpr static std::size_t addrs = 0x68723c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -935,7 +935,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::UnityEngine::Rendering::Universal::LightCookieManager::*)(::by_ref<::UnityEngine::Rendering::Universal::UniversalAdditionalLightData*>, ::by_ref<::UnityEngine::Matrix4x4>)>(
         &::UnityEngine::Rendering::Universal::LightCookieManager::GetLightUVScaleOffset)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x687470c;
+  constexpr static std::size_t addrs = 0x68724a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -953,7 +953,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::LightCookieManager::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::Universal::UniversalLightData*)>(&::UnityEngine::Rendering::Universal::LightCookieManager::SetupAdditionalLights)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x68743f4;
+  constexpr static std::size_t addrs = 0x6872190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -971,7 +971,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
     ::UnityEngine::Rendering::Universal::UniversalLightData*, ::ArrayW<::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping>)>(
     &::UnityEngine::Rendering::Universal::LightCookieManager::FilterAndValidateAdditionalLights)> {
   constexpr static std::size_t size = 0x468;
-  constexpr static std::size_t addrs = 0x68748e8;
+  constexpr static std::size_t addrs = 0x6872684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -990,7 +990,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
     ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::LightCookieManager_WorkSlice_1<::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping>>,
     ::ArrayW<::UnityEngine::Vector4>)>(&::UnityEngine::Rendering::Universal::LightCookieManager::UpdateAdditionalLightsAtlas)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x6874d50;
+  constexpr static std::size_t addrs = 0x6872aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1012,7 +1012,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
     ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::LightCookieManager_WorkSlice_1<::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping>>,
     ::ArrayW<::UnityEngine::Vector4>, int32_t)>(&::UnityEngine::Rendering::Universal::LightCookieManager::FetchUVRects)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x6875714;
+  constexpr static std::size_t addrs = 0x68734b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1034,7 +1034,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::
     ::by_ref<::UnityEngine::Rendering::Universal::LightCookieManager_WorkSlice_1<::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping>>)>(
     &::UnityEngine::Rendering::Universal::LightCookieManager::ComputeCookieRequestPixelCount)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x68755e0;
+  constexpr static std::size_t addrs = 0x687337c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1053,7 +1053,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::LightCookieManager::*)(float_t)>(
     &::UnityEngine::Rendering::Universal::LightCookieManager::ApproximateCookieSizeDivisor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x68756e8;
+  constexpr static std::size_t addrs = 0x6873484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1067,7 +1067,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::Universal::LightCookieManager::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Texture*, int32_t)>(&::UnityEngine::Rendering::Universal::LightCookieManager::Fetch2D)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6875b1c;
+  constexpr static std::size_t addrs = 0x68738b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1083,7 +1083,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::Universal::LightCookieManager::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Texture*, int32_t)>(&::UnityEngine::Rendering::Universal::LightCookieManager::FetchCube)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x68759ac;
+  constexpr static std::size_t addrs = 0x6873748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1099,7 +1099,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::LightCookieManager::*)(::UnityEngine::Texture*)>(
     &::UnityEngine::Rendering::Universal::LightCookieManager::ComputeOctahedralCookieSize)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6875d40;
+  constexpr static std::size_t addrs = 0x6873adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::LightCookieManager*>(),
@@ -1113,7 +1113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::LightCookieManager::*)(
     ::by_ref<::UnityEngine::Vector4>, ::UnityEngine::Texture*, ::by_ref<::UnityEngine::Vector2>)>(&::UnityEngine::Rendering::Universal::LightCookieManager::AdjustUVRect)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6875c84;
+  constexpr static std::size_t addrs = 0x6873a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1130,7 +1130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::LightCookieManager::*)(::by_ref<::UnityEngine::Vector4>, float_t, ::by_ref<::UnityEngine::Vector2>)>(
     &::UnityEngine::Rendering::Universal::LightCookieManager::ShrinkUVRect)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6875e90;
+  constexpr static std::size_t addrs = 0x6873c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1148,7 +1148,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::Universal::LightCookieManager_WorkSlice_1<::UnityEngine::Rendering::Universal::LightCookieManager_LightCookieMapping>>,
     ::by_ref<::UnityEngine::Rendering::Universal::LightCookieManager_WorkSlice_1<::UnityEngine::Vector4>>)>(&::UnityEngine::Rendering::Universal::LightCookieManager::UploadAdditionalLights)> {
   constexpr static std::size_t size = 0x70c;
-  constexpr static std::size_t addrs = 0x6874ed4;
+  constexpr static std::size_t addrs = 0x6872c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::IntPtr)>(&::Mono::RuntimeMarshal::PtrToUtf8String)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5aabc3c;
+  constexpr static std::size_t addrs = 0x5aa9a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::SafeStringMarshal (*)(::StringW)>(&::Mono::RuntimeMarshal::MarshalString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5aabca8;
+  constexpr static std::size_t addrs = 0x5aa9aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::RuntimeMarshal*>(), { "MarshalString", {}, { ::i2c::type_of<::StringW>() } })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::by_ref<::System::IntPtr>)>(&::Mono::RuntimeMarshal::DecodeBlobSize)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5aabcb8;
+  constexpr static std::size_t addrs = 0x5aa9afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::System::IntPtr)>(&::Mono::RuntimeMarshal::DecodeBlobArray)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5aabd14;
+  constexpr static std::size_t addrs = 0x5aa9b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Mono::RuntimeMarshal::AsciHexDigitValue)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5aabdd0;
+  constexpr static std::size_t addrs = 0x5aa9c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::RuntimeMarshal*>(), { "AsciHexDigitValue", {}, { ::i2c::type_of<int32_t>() } })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Mono::MonoAssemblyName>, bool)>(&::Mono::RuntimeMarshal::FreeAssemblyName)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5aabdfc;
+  constexpr static std::size_t addrs = 0x5aa9c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Component*)>(&::UnityEngine::UI::MaskUtilities::Notify2DMaskStateChanged)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x6dfda50;
+  constexpr static std::size_t addrs = 0x6df9454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Component*)>(&::UnityEngine::UI::MaskUtilities::NotifyStencilStateChanged)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x6dfbffc;
+  constexpr static std::size_t addrs = 0x6df7a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::UnityEngine::Transform*)>(&::UnityEngine::UI::MaskUtilities::FindRootSortOverrideCanvas)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x6dfc7a8;
+  constexpr static std::size_t addrs = 0x6df81ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&::UnityEngine::UI::MaskUtilities::GetStencilDepth)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x6dfc968;
+  constexpr static std::size_t addrs = 0x6df836c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&::UnityEngine::UI::MaskUtilities::IsDescendantOrSelf)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6dfdcd0;
+  constexpr static std::size_t addrs = 0x6df96d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::RectMask2D> (*)(::UnityEngine::UI::IClippable*)>(&::UnityEngine::UI::MaskUtilities::GetRectMaskForClippable)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x6dfd45c;
+  constexpr static std::size_t addrs = 0x6df8e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UI::RectMask2D*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>*)>(
     &::UnityEngine::UI::MaskUtilities::GetRectMasksForClip)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x6dfde20;
+  constexpr static std::size_t addrs = 0x6df9824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::MaskUtilities::*)()>(&::UnityEngine::UI::MaskUtilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6dfe1cc;
+  constexpr static std::size_t addrs = 0x6df9bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::MaskUtilities*>(), { ".ctor", {}, {} })));

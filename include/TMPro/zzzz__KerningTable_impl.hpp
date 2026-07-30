@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::KerningTable___c::*)()>(&::TMPro::KerningTable___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6957dc4;
+  constexpr static std::size_t addrs = 0x6955b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::KerningTable___c*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::TMPro::KerningTable___c::*)(::TMPro::KerningPair*)>(&::TMPro::KerningTable___c::_SortKerningPairs_b__7_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6957dc8;
+  constexpr static std::size_t addrs = 0x6955b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::TMPro::KerningTable___c::*)(::TMPro::KerningPair*)>(&::TMPro::KerningTable___c::_SortKerningPairs_b__7_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6957ddc;
+  constexpr static std::size_t addrs = 0x6955b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::KerningTable___c__DisplayClass3_0::*)()>(&::TMPro::KerningTable___c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69577e4;
+  constexpr static std::size_t addrs = 0x6955580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::KerningTable___c__DisplayClass3_0*>(), { ".ctor", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::KerningTable___c__DisplayClass3_0::*)(::TMPro::KerningPair*)>(
     &::TMPro::KerningTable___c__DisplayClass3_0::_AddKerningPair_b__0)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6957df0;
+  constexpr static std::size_t addrs = 0x6955b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::KerningTable___c__DisplayClass4_0::*)()>(&::TMPro::KerningTable___c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69579d8;
+  constexpr static std::size_t addrs = 0x6955774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::KerningTable___c__DisplayClass4_0*>(), { ".ctor", {}, {} })));
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::KerningTable___c__DisplayClass4_0::*)(::TMPro::KerningPair*)>(
     &::TMPro::KerningTable___c__DisplayClass4_0::_AddGlyphPairAdjustmentRecord_b__0)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6957e28;
+  constexpr static std::size_t addrs = 0x6955bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::KerningTable___c__DisplayClass5_0::*)()>(&::TMPro::KerningTable___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6957b04;
+  constexpr static std::size_t addrs = 0x69558a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::KerningTable___c__DisplayClass5_0*>(), { ".ctor", {}, {} })));
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::KerningTable___c__DisplayClass5_0::*)(::TMPro::KerningPair*)>(
     &::TMPro::KerningTable___c__DisplayClass5_0::_RemoveKerningPair_b__0)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6957e60;
+  constexpr static std::size_t addrs = 0x6955bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::KerningTable::*)()>(&::TMPro::KerningTable::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x69573f8;
+  constexpr static std::size_t addrs = 0x6955194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::KerningTable*>(), { ".ctor", {}, {} })));
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::KerningTable::*)()>(&::TMPro::KerningTable::AddKerningPair)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x695746c;
+  constexpr static std::size_t addrs = 0x6955208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::KerningTable*>(), { "AddKerningPair", {}, {} })));
@@ -307,7 +307,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::KerningTable::*)(uint32_t, uint32_t, float_t)>(&::TMPro::KerningTable::AddKerningPair)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x6957634;
+  constexpr static std::size_t addrs = 0x69553d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::KerningTable::*)(uint32_t, ::TMPro::GlyphValueRecord_Legacy, uint32_t, ::TMPro::GlyphValueRecord_Legacy)>(
     &::TMPro::KerningTable::AddGlyphPairAdjustmentRecord)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x69577e8;
+  constexpr static std::size_t addrs = 0x6955584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -338,7 +338,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::KerningTable::*)(int32_t, int32_t)>(&::TMPro::KerningTable::RemoveKerningPair)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x69579dc;
+  constexpr static std::size_t addrs = 0x6955778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -351,7 +351,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::KerningTable::*)(int32_t)>(&::TMPro::KerningTable::RemoveKerningPair)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6957b08;
+  constexpr static std::size_t addrs = 0x69558a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::KerningTable*>(), { "RemoveKerningPair", {}, { ::i2c::type_of<int32_t>() } })));
@@ -363,7 +363,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::KerningTable::*)()>(&::TMPro::KerningTable::SortKerningPairs)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x6957b6c;
+  constexpr static std::size_t addrs = 0x6955908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::KerningTable*>(), { "SortKerningPairs", {}, {} })));

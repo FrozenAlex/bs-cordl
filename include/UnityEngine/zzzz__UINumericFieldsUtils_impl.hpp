@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<double_t>, ::by_ref<::UnityEngine::ExpressionEvaluator_Expression*>)>(
     &::UnityEngine::UINumericFieldsUtils::TryConvertStringToDouble)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x6aefbc4;
+  constexpr static std::size_t addrs = 0x6aeb5c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, ::by_ref<double_t>)>(&::UnityEngine::UINumericFieldsUtils::TryConvertStringToDouble)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6aefd5c;
+  constexpr static std::size_t addrs = 0x6aeb760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, ::by_ref<float_t>)>(&::UnityEngine::UINumericFieldsUtils::TryConvertStringToFloat)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6aefe68;
+  constexpr static std::size_t addrs = 0x6aeb86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<int64_t>, ::by_ref<::UnityEngine::ExpressionEvaluator_Expression*>)>(
     &::UnityEngine::UINumericFieldsUtils::TryConvertStringToLong)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6aeff5c;
+  constexpr static std::size_t addrs = 0x6aeb960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, ::by_ref<int64_t>)>(&::UnityEngine::UINumericFieldsUtils::TryConvertStringToLong)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6aeffe8;
+  constexpr static std::size_t addrs = 0x6aeb9ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<uint64_t>, ::by_ref<::UnityEngine::ExpressionEvaluator_Expression*>)>(
     &::UnityEngine::UINumericFieldsUtils::TryConvertStringToULong)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6af00f4;
+  constexpr static std::size_t addrs = 0x6aebaf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, ::by_ref<uint64_t>)>(&::UnityEngine::UINumericFieldsUtils::TryConvertStringToULong)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6af0180;
+  constexpr static std::size_t addrs = 0x6aebb84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, ::by_ref<int32_t>)>(&::UnityEngine::UINumericFieldsUtils::TryConvertStringToInt)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6af028c;
+  constexpr static std::size_t addrs = 0x6aebc90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, ::by_ref<uint32_t>)>(&::UnityEngine::UINumericFieldsUtils::TryConvertStringToUInt)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6af0330;
+  constexpr static std::size_t addrs = 0x6aebd34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

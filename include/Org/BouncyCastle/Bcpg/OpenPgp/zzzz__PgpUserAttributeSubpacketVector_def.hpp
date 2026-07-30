@@ -37,21 +37,21 @@ public:
   /// @brief Field packets, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_packets, put = __cordl_internal_set_packets)) ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*> packets;
 
-  /// @brief Method Equals, addr 0x35a0a50, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x359f018, size 0x124, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x35a0b74, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x359f13c, size 0x74, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetImageAttribute, addr 0x35a09c4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetImageAttribute, addr 0x359ef8c, size 0x84, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::Attr::ImageAttrib* GetImageAttribute();
 
-  /// @brief Method GetSubpacket, addr 0x35a0924, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetSubpacket, addr 0x359eeec, size 0xa0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* GetSubpacket(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector* New_ctor(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*> packets);
 
-  /// @brief Method ToSubpacketArray, addr 0x35a0a48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToSubpacketArray, addr 0x359f010, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*> ToSubpacketArray();
 
   constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*> const& __cordl_internal_get_packets() const;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_packets(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*> value);
 
-  /// @brief Method .ctor, addr 0x35a091c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x359eee4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*> packets);
 
 protected:

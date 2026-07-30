@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingScoreEffect_Pool::*)(::GlobalNamespace::FlyingScoreEffect*)>(
     &::GlobalNamespace::FlyingScoreEffect_Pool::OnDespawned)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x59813cc;
+  constexpr static std::size_t addrs = 0x5980178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingScoreEffect_Pool::*)()>(&::GlobalNamespace::FlyingScoreEffect_Pool::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5981438;
+  constexpr static std::size_t addrs = 0x59801e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingScoreEffect_Pool*>(), { ".ctor", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::FlyingScoreEffect::Initialize)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x59806c8;
+  constexpr static std::size_t addrs = 0x597f474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingScoreEffect*>(), { "Initialize", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)(::GlobalNamespace::IReadonlyCutScoreBuffer*, float_t, ::UnityEngine::Vector3,
                                                                                                       ::UnityEngine::Color)>(&::GlobalNamespace::FlyingScoreEffect::InitAndPresent)> {
   constexpr static std::size_t size = 0x4e8;
-  constexpr static std::size_t addrs = 0x59808ec;
+  constexpr static std::size_t addrs = 0x597f698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)(float_t)>(&::GlobalNamespace::FlyingScoreEffect::ManualUpdate)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x5981094;
+  constexpr static std::size_t addrs = 0x597fe40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)(::GlobalNamespace::CutScoreBuffer*)>(
     &::GlobalNamespace::FlyingScoreEffect::HandleCutScoreBufferDidChange)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x59811b0;
+  constexpr static std::size_t addrs = 0x597ff5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)(int32_t, int32_t)>(&::GlobalNamespace::FlyingScoreEffect::RefreshScore)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x5980dd4;
+  constexpr static std::size_t addrs = 0x597fb80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)(::GlobalNamespace::CutScoreBuffer*)>(
     &::GlobalNamespace::FlyingScoreEffect::HandleCutScoreBufferDidFinish)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59811f8;
+  constexpr static std::size_t addrs = 0x597ffa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)()>(&::GlobalNamespace::FlyingScoreEffect::UnregisterCallbacksIfNeeded)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x59811fc;
+  constexpr static std::size_t addrs = 0x597ffa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingScoreEffect*>(), { "UnregisterCallbacksIfNeeded", {}, {} })));
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)()>(&::GlobalNamespace::FlyingScoreEffect::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5981328;
+  constexpr static std::size_t addrs = 0x59800d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingScoreEffect*>(), { ".ctor", {}, {} })));

@@ -27,7 +27,7 @@ public:
   /// @brief Field next, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next)) ::MS::Internal::Xml::XPath::Axis* next;
 
-  /// @brief Method ConvertTree, addr 0x6312188, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ConvertTree, addr 0x630ff24, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::DoubleLinkAxis* ConvertTree(::MS::Internal::Xml::XPath::Axis* axis);
 
   static inline ::System::Xml::Schema::DoubleLinkAxis* New_ctor(::MS::Internal::Xml::XPath::Axis* axis, ::System::Xml::Schema::DoubleLinkAxis* inputaxis);
@@ -38,13 +38,13 @@ public:
 
   constexpr void __cordl_internal_set_next(::MS::Internal::Xml::XPath::Axis* value);
 
-  /// @brief Method .ctor, addr 0x6312130, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x630fecc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::Axis* axis, ::System::Xml::Schema::DoubleLinkAxis* inputaxis);
 
-  /// @brief Method get_Next, addr 0x6312120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Next, addr 0x630febc, size 0x8, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::Axis* get_Next();
 
-  /// @brief Method set_Next, addr 0x6312128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Next, addr 0x630fec4, size 0x8, virtual false, abstract: false, final false
   inline void set_Next(::MS::Internal::Xml::XPath::Axis* value);
 
 protected:

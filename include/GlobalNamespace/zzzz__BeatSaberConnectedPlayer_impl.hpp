@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerAvatarsData (::GlobalNamespace::BeatSaberConnectedPlayer::*)()>(
     &::GlobalNamespace::BeatSaberConnectedPlayer::get_multiplayerAvatarsData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x32a55bc;
+  constexpr static std::size_t addrs = 0x32a2f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberConnectedPlayer*>(), { "get_multiplayerAvatarsData", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerActiveHand (::GlobalNamespace::BeatSaberConnectedPlayer::*)()>(
     &::GlobalNamespace::BeatSaberConnectedPlayer::get_activeHand)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32a55d0;
+  constexpr static std::size_t addrs = 0x32a2f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberConnectedPlayer*>(), { "get_activeHand", {}, {} })));
@@ -48,7 +48,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     uint8_t, uint8_t, ::GlobalNamespace::IConnection*, ::GlobalNamespace::BeatSaberConnectedPlayer*, ::StringW, ::StringW, bool, bool, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::StringW)>(
     &::GlobalNamespace::BeatSaberConnectedPlayer::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x32a55d8;
+  constexpr static std::size_t addrs = 0x32a2f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatSaberPlayerIdentityPacketData (::GlobalNamespace::BeatSaberConnectedPlayer::*)()>(
     &::GlobalNamespace::BeatSaberConnectedPlayer::GetGameSpecificPlayerIdentityData)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32a56b0;
+  constexpr static std::size_t addrs = 0x32a303c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerAvatarPacket* (::GlobalNamespace::BeatSaberConnectedPlayer::*)()>(
     &::GlobalNamespace::BeatSaberConnectedPlayer::GetPlayerAvatarPacket)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x32a56e4;
+  constexpr static std::size_t addrs = 0x32a3070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberConnectedPlayer*>(), { "GetPlayerAvatarPacket", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerControllerDataPacket* (::GlobalNamespace::BeatSaberConnectedPlayer::*)()>(
     &::GlobalNamespace::BeatSaberConnectedPlayer::GetPlayerControllerDataPacket)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32a5754;
+  constexpr static std::size_t addrs = 0x32a30e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberConnectedPlayer::*)(::GlobalNamespace::BeatSaberPlayerIdentityPacketData)>(
     &::GlobalNamespace::BeatSaberConnectedPlayer::UpdateIdentity)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32a5804;
+  constexpr static std::size_t addrs = 0x32a3190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberConnectedPlayer*>(),
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberConnectedPlayer::*)(::GlobalNamespace::PlayerAvatarPacket*)>(
     &::GlobalNamespace::BeatSaberConnectedPlayer::UpdateAvatar)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x32a5820;
+  constexpr static std::size_t addrs = 0x32a31ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberConnectedPlayer::*)(::GlobalNamespace::MultiplayerAvatarsData)>(
     &::GlobalNamespace::BeatSaberConnectedPlayer::SetMultiplayerAvatarsData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x32a5840;
+  constexpr static std::size_t addrs = 0x32a31cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatSaberConnectedPlayer*>(),
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberConnectedPlayer::*)(::GlobalNamespace::PlayerControllerDataPacket*)>(
     &::GlobalNamespace::BeatSaberConnectedPlayer::UpdatePlayerControllerData)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x32a5854;
+  constexpr static std::size_t addrs = 0x32a31e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatSaberConnectedPlayer::*)(::GlobalNamespace::MultiplayerActiveHand)>(
     &::GlobalNamespace::BeatSaberConnectedPlayer::SetActiveHand)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32a586c;
+  constexpr static std::size_t addrs = 0x32a31f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

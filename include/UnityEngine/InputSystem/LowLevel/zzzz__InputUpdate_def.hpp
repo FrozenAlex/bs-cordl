@@ -43,16 +43,16 @@ public:
   // Declarations
   __declspec(property(get = get_value, put = set_value)) uint32_t value;
 
-  /// @brief Method OnBeforeUpdate, addr 0x65b0c78, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnBeforeUpdate, addr 0x65aea14, size 0x18, virtual false, abstract: false, final false
   inline void OnBeforeUpdate();
 
-  /// @brief Method OnUpdate, addr 0x65b0c90, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x65aea2c, size 0x1c, virtual false, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method get_value, addr 0x65b0c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x65aea04, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_value();
 
-  /// @brief Method set_value, addr 0x65b0c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x65aea0c, size 0x8, virtual false, abstract: false, final false
   inline void set_value(uint32_t value);
 
   // Ctor Parameters []
@@ -142,22 +142,22 @@ public:
   /// @brief Field s_UpdateStepCount, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_UpdateStepCount, put = setStaticF_s_UpdateStepCount)) uint32_t s_UpdateStepCount;
 
-  /// @brief Method GetUpdateTypeForPlayer, addr 0x65b0c40, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetUpdateTypeForPlayer, addr 0x65ae9dc, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputUpdateType GetUpdateTypeForPlayer(::UnityEngine::InputSystem::LowLevel::InputUpdateType mask);
 
-  /// @brief Method IsPlayerUpdate, addr 0x65b0c5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsPlayerUpdate, addr 0x65ae9f8, size 0xc, virtual false, abstract: false, final false
   static inline bool IsPlayerUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
 
-  /// @brief Method OnBeforeUpdate, addr 0x65b0a30, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OnBeforeUpdate, addr 0x65ae7cc, size 0x84, virtual false, abstract: false, final false
   static inline void OnBeforeUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType type);
 
-  /// @brief Method OnUpdate, addr 0x65b0ab4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x65ae850, size 0x8c, virtual false, abstract: false, final false
   static inline void OnUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType type);
 
-  /// @brief Method Restore, addr 0x65b0ba8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Restore, addr 0x65ae944, size 0x98, virtual false, abstract: false, final false
   static inline void Restore(::UnityEngine::InputSystem::LowLevel::InputUpdate_SerializedState state);
 
-  /// @brief Method Save, addr 0x65b0b40, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x65ae8dc, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputUpdate_SerializedState Save();
 
   static inline ::UnityEngine::InputSystem::LowLevel::InputUpdateType getStaticF_s_LatestUpdateType();

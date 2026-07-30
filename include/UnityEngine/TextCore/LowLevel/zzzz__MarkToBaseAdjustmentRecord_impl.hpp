@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::get_baseGlyphID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bbd658;
+  constexpr static std::size_t addrs = 0x6bb905c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::*)(uint32_t)>(
     &::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::set_baseGlyphID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bbd660;
+  constexpr static std::size_t addrs = 0x6bb9064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint (::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::get_baseGlyphAnchorPoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bbd668;
+  constexpr static std::size_t addrs = 0x6bb906c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::*)(::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint)>(
     &::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::set_baseGlyphAnchorPoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bbd670;
+  constexpr static std::size_t addrs = 0x6bb9074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::get_markGlyphID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bbd678;
+  constexpr static std::size_t addrs = 0x6bb907c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::*)(uint32_t)>(
     &::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::set_markGlyphID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bbd680;
+  constexpr static std::size_t addrs = 0x6bb9084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment (::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::get_markPositionAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bbd688;
+  constexpr static std::size_t addrs = 0x6bb908c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::*)(::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment)>(
     &::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::set_markPositionAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bbd690;
+  constexpr static std::size_t addrs = 0x6bb9094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -43,24 +43,24 @@ public:
   /// @brief Field m_Property, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Property, put = __cordl_internal_set_m_Property)) ::UnityEngine::VFX::Utility::ExposedProperty* m_Property;
 
-  /// @brief Method IsValid, addr 0x69e092c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x69de6c8, size 0xcc, virtual true, abstract: false, final false
   inline bool IsValid(::UnityEngine::VFX::VisualEffect* component);
 
   static inline ::UnityEngine::VFX::Utility::VFXPlaneBinder* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x69e0910, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x69de6ac, size 0x18, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x69e0928, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x69de6c4, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method ToString, addr 0x69e0c1c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69de9b8, size 0xfc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateBinding, addr 0x69e09f8, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method UpdateBinding, addr 0x69de794, size 0xb0, virtual true, abstract: false, final false
   inline void UpdateBinding(::UnityEngine::VFX::VisualEffect* component);
 
-  /// @brief Method UpdateSubProperties, addr 0x69e0868, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method UpdateSubProperties, addr 0x69de604, size 0xa8, virtual false, abstract: false, final false
   inline void UpdateSubProperties();
 
   constexpr ::UnityEngine::VFX::Utility::ExposedProperty* const& __cordl_internal_get_Normal() const;
@@ -87,13 +87,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Property(::UnityEngine::VFX::Utility::ExposedProperty* value);
 
-  /// @brief Method .ctor, addr 0x69e0d18, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69deab4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Property, addr 0x69e0828, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Property, addr 0x69de5c4, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Property();
 
-  /// @brief Method set_Property, addr 0x69e0840, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_Property, addr 0x69de5dc, size 0x28, virtual false, abstract: false, final false
   inline void set_Property(::StringW value);
 
 protected:
@@ -111,7 +111,7 @@ public:
   VFXPlaneBinder(VFXPlaneBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19967 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19964 };
 
   /// @brief Field m_Property, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_Property;

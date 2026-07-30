@@ -7,94 +7,94 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(_PrivateImplementationDetails_)
 namespace GlobalNamespace {
-struct _PrivateImplementationDetails____StaticArrayInitTypeSize = 432;
+struct _PrivateImplementationDetails____StaticArrayInitTypeSize = 1488;
 }
 namespace GlobalNamespace {
-struct _PrivateImplementationDetails____StaticArrayInitTypeSize = 756;
+struct _PrivateImplementationDetails____StaticArrayInitTypeSize = 2767;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class _PrivateImplementationDetails_;
 }
 namespace GlobalNamespace {
-struct _PrivateImplementationDetails____StaticArrayInitTypeSize = 432;
+struct _PrivateImplementationDetails____StaticArrayInitTypeSize = 1488;
 }
 namespace GlobalNamespace {
-struct _PrivateImplementationDetails____StaticArrayInitTypeSize = 756;
+struct _PrivateImplementationDetails____StaticArrayInitTypeSize = 2767;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::_PrivateImplementationDetails_*);
-MARK_VAL_T(::GlobalNamespace::_PrivateImplementationDetails____StaticArrayInitTypeSize = 432);
-MARK_VAL_T(::GlobalNamespace::_PrivateImplementationDetails____StaticArrayInitTypeSize = 756);
+MARK_VAL_T(::GlobalNamespace::_PrivateImplementationDetails____StaticArrayInitTypeSize = 1488);
+MARK_VAL_T(::GlobalNamespace::_PrivateImplementationDetails____StaticArrayInitTypeSize = 2767);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::_PrivateImplementationDetails_*, "", "<PrivateImplementationDetails>");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::_PrivateImplementationDetails____StaticArrayInitTypeSize = 432, "", "<PrivateImplementationDetails>/__StaticArrayInitTypeSize=432");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::_PrivateImplementationDetails____StaticArrayInitTypeSize = 756, "", "<PrivateImplementationDetails>/__StaticArrayInitTypeSize=756");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::_PrivateImplementationDetails____StaticArrayInitTypeSize = 1488, "", "<PrivateImplementationDetails>/__StaticArrayInitTypeSize=1488");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::_PrivateImplementationDetails____StaticArrayInitTypeSize = 2767, "", "<PrivateImplementationDetails>/__StaticArrayInitTypeSize=2767");
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: <PrivateImplementationDetails>/__StaticArrayInitTypeSize=432
+// CS Name: <PrivateImplementationDetails>/__StaticArrayInitTypeSize=1488
 #pragma pack(push, 1)
-struct CORDL_TYPE _PrivateImplementationDetails____StaticArrayInitTypeSize = 432 {
+struct CORDL_TYPE _PrivateImplementationDetails____StaticArrayInitTypeSize = 1488 {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr _PrivateImplementationDetails____StaticArrayInitTypeSize = 432();
+  constexpr _PrivateImplementationDetails____StaticArrayInitTypeSize = 1488();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21172 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1b0 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x5d0 };
 
-  /// @brief Size padding 0x1b0 - 0x0 = 0x1b0, packed as 0x1b0
-  uint8_t _cordl_size_padding[0x1b0];
+  /// @brief Size padding 0x5d0 - 0x0 = 0x5d0, packed as 0x5d0
+  uint8_t _cordl_size_padding[0x5d0];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(sizeof(::GlobalNamespace::_PrivateImplementationDetails____StaticArrayInitTypeSize = 432) == 0x1b0, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::_PrivateImplementationDetails____StaticArrayInitTypeSize = 1488) == 0x5d0, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: <PrivateImplementationDetails>/__StaticArrayInitTypeSize=756
+// CS Name: <PrivateImplementationDetails>/__StaticArrayInitTypeSize=2767
 #pragma pack(push, 1)
-struct CORDL_TYPE _PrivateImplementationDetails____StaticArrayInitTypeSize = 756 {
+struct CORDL_TYPE _PrivateImplementationDetails____StaticArrayInitTypeSize = 2767 {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr _PrivateImplementationDetails____StaticArrayInitTypeSize = 756();
+  constexpr _PrivateImplementationDetails____StaticArrayInitTypeSize = 2767();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21173 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2f4 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xacf };
 
-  /// @brief Size padding 0x2f4 - 0x0 = 0x2f4, packed as 0x2f4
-  uint8_t _cordl_size_padding[0x2f4];
+  /// @brief Size padding 0xacf - 0x0 = 0xacf, packed as 0xacf
+  uint8_t _cordl_size_padding[0xacf];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(sizeof(::GlobalNamespace::_PrivateImplementationDetails____StaticArrayInitTypeSize = 756) == 0x2f4, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::_PrivateImplementationDetails____StaticArrayInitTypeSize = 2767) == 0xacf, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies <PrivateImplementationDetails>::__StaticArrayInitTypeSize=432, <PrivateImplementationDetails>::__StaticArrayInitTypeSize=756, System.Object
+// Dependencies <PrivateImplementationDetails>::__StaticArrayInitTypeSize=1488, <PrivateImplementationDetails>::__StaticArrayInitTypeSize=2767, System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: <PrivateImplementationDetails>
 class CORDL_TYPE _PrivateImplementationDetails_ : public ::System::Object {
 public:
   // Declarations
-  using __StaticArrayInitTypeSize = 432 = ::GlobalNamespace::_PrivateImplementationDetails____StaticArrayInitTypeSize = 432;
+  using __StaticArrayInitTypeSize = 1488 = ::GlobalNamespace::_PrivateImplementationDetails____StaticArrayInitTypeSize = 1488;
 
-  using __StaticArrayInitTypeSize = 756 = ::GlobalNamespace::_PrivateImplementationDetails____StaticArrayInitTypeSize = 756;
+  using __StaticArrayInitTypeSize = 2767 = ::GlobalNamespace::_PrivateImplementationDetails____StaticArrayInitTypeSize = 2767;
 
 protected:
   // Ctor Parameters []
@@ -110,14 +110,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   _PrivateImplementationDetails_(_PrivateImplementationDetails_ const&) = delete;
 
-  /// @brief Field 280AEF196F7AE6E6C0DB20C29DA8F9BA4B8A7DA527EFB53492E25DF80F26C89B value: Null
-  static ::GlobalNamespace::_PrivateImplementationDetails____StaticArrayInitTypeSize = 432 280AEF196F7AE6E6C0DB20C29DA8F9BA4B8A7DA527EFB53492E25DF80F26C89B;
+  /// @brief Field 0561A2B1D7708464049E5CE829CB36F55F793BF56B7DD3731AEE2C79F1F9FEFB value: Null
+  static ::GlobalNamespace::_PrivateImplementationDetails____StaticArrayInitTypeSize = 2767 0561A2B1D7708464049E5CE829CB36F55F793BF56B7DD3731AEE2C79F1F9FEFB;
 
-  /// @brief Field 288E90C20C909C9A33F79AAFF18BF9878E10E571A6467113050FCF9F9D943D2E value: Null
-  static ::GlobalNamespace::_PrivateImplementationDetails____StaticArrayInitTypeSize = 756 288E90C20C909C9A33F79AAFF18BF9878E10E571A6467113050FCF9F9D943D2E;
+  /// @brief Field 6B61FEE3DACB34EC810534D45F8781EB97EE2594ECC0C22BE20777DC780E5A31 value: Null
+  static ::GlobalNamespace::_PrivateImplementationDetails____StaticArrayInitTypeSize = 1488 6B61FEE3DACB34EC810534D45F8781EB97EE2594ECC0C22BE20777DC780E5A31;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22104 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21174 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

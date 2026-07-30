@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::get_useCustomMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5863d34;
+  constexpr static std::size_t addrs = 0x5862230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::get_customMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5863d3c;
+  constexpr static std::size_t addrs = 0x5862238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::*)(::UnityEngine::MaterialPropertyBlock*)>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::SetCustomPropertyBlock)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5863d44;
+  constexpr static std::size_t addrs = 0x5862240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore*>(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::InitIfNeeded)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5863c18;
+  constexpr static std::size_t addrs = 0x5862114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore*>(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::Awake)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5863af0;
+  constexpr static std::size_t addrs = 0x5861fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore*>(),
@@ -100,7 +100,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4)>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::Render)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x5863e24;
+  constexpr static std::size_t addrs = 0x5862320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore*>(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5862c98;
+  constexpr static std::size_t addrs = 0x5861194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore*>(), { ".ctor", {}, {} })));

@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrailerGameplayManager__Start_d__4::*)(int32_t)>(&::GlobalNamespace::TrailerGameplayManager__Start_d__4::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59a4d54;
+  constexpr static std::size_t addrs = 0x59a340c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrailerGameplayManager__Start_d__4::*)()>(
     &::GlobalNamespace::TrailerGameplayManager__Start_d__4::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59a4d60;
+  constexpr static std::size_t addrs = 0x59a3418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::TrailerGameplayManager__Start_d__4::*)()>(&::GlobalNamespace::TrailerGameplayManager__Start_d__4::MoveNext)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x59a4d64;
+  constexpr static std::size_t addrs = 0x59a341c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrailerGameplayManager__Start_d__4*>(), { "MoveNext", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::TrailerGameplayManager__Start_d__4::*)()>(
     &::GlobalNamespace::TrailerGameplayManager__Start_d__4::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59a4e64;
+  constexpr static std::size_t addrs = 0x59a351c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrailerGameplayManager__Start_d__4::*)()>(
     &::GlobalNamespace::TrailerGameplayManager__Start_d__4::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59a4e6c;
+  constexpr static std::size_t addrs = 0x59a3524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::TrailerGameplayManager__Start_d__4::*)()>(
     &::GlobalNamespace::TrailerGameplayManager__Start_d__4::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59a4ea4;
+  constexpr static std::size_t addrs = 0x59a355c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::TrailerGameplayManager::*)()>(&::GlobalNamespace::TrailerGameplayManager::Start)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x59a4d00;
+  constexpr static std::size_t addrs = 0x59a33b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrailerGameplayManager*>(), { "Start", {}, {} })));
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TrailerGameplayManager::*)()>(&::GlobalNamespace::TrailerGameplayManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59a4d5c;
+  constexpr static std::size_t addrs = 0x59a3414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TrailerGameplayManager*>(), { ".ctor", {}, {} })));

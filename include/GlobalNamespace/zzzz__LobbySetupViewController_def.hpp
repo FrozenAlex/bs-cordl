@@ -126,51 +126,51 @@ public:
   /// @brief Field startGameOrReadyEvent, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get_startGameOrReadyEvent, put = __cordl_internal_set_startGameOrReadyEvent)) ::System::Action* startGameOrReadyEvent;
 
-  /// @brief Method DidActivate, addr 0x5960620, size 0x38c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x595ee08, size 0x38c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::LobbySetupViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59609ac, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x595f194, size 0x18, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetLobbyPlayerData, addr 0x5960090, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method SetLobbyPlayerData, addr 0x595e878, size 0x3c0, virtual false, abstract: false, final false
   inline void SetLobbyPlayerData(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
 
-  /// @brief Method SetLobbyState, addr 0x5960538, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetLobbyState, addr 0x595ed20, size 0xe8, virtual false, abstract: false, final false
   inline void SetLobbyState(::GlobalNamespace::MultiplayerLobbyState lobbyState);
 
-  /// @brief Method SetPlayerActiveState, addr 0x5960450, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerActiveState, addr 0x595ec38, size 0x20, virtual false, abstract: false, final false
   inline void SetPlayerActiveState(bool isActive);
 
-  /// @brief Method SetPlayersMissingLevelText, addr 0x5960470, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetPlayersMissingLevelText, addr 0x595ec58, size 0x60, virtual false, abstract: false, final false
   inline void SetPlayersMissingLevelText(::StringW playersMissingLevelText);
 
-  /// @brief Method SetReadyButtonActive, addr 0x5960060, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetReadyButtonActive, addr 0x595e848, size 0x30, virtual false, abstract: false, final false
   inline void SetReadyButtonActive(bool active);
 
-  /// @brief Method SetStartGameEnabled, addr 0x59604d0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetStartGameEnabled, addr 0x595ecb8, size 0x68, virtual false, abstract: false, final false
   inline void SetStartGameEnabled(::GlobalNamespace::CannotStartGameReason cannotStartGameReason);
 
-  /// @brief Method Setup, addr 0x595fe28, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x595e610, size 0x238, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, bool isPartyOwner, bool allowSongSelection, bool allowModifierSelection, bool isManaged, bool isQuickStart);
 
-  /// @brief Method <DidActivate>b__44_0, addr 0x5960a28, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__44_0, addr 0x595f210, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__44_0();
 
-  /// @brief Method <DidActivate>b__44_1, addr 0x5960a44, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__44_1, addr 0x595f22c, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__44_1();
 
-  /// @brief Method <DidActivate>b__44_2, addr 0x5960a60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__44_2, addr 0x595f248, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__44_2();
 
-  /// @brief Method <DidActivate>b__44_3, addr 0x5960a7c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__44_3, addr 0x595f264, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__44_3();
 
-  /// @brief Method <DidActivate>b__44_4, addr 0x5960a98, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__44_4, addr 0x595f280, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__44_4();
 
-  /// @brief Method <DidActivate>b__44_5, addr 0x5960ab4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__44_5, addr 0x595f29c, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__44_5();
 
   constexpr ::UnityW<::GlobalNamespace::EditableBeatmapSelectionView> const& __cordl_internal_get__beatmapSelectionView() const;
@@ -299,43 +299,43 @@ public:
 
   constexpr void __cordl_internal_set_startGameOrReadyEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x59609c4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x595f1ac, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_cancelGameOrUnreadyEvent, addr 0x595fa20, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_cancelGameOrUnreadyEvent, addr 0x595e208, size 0xac, virtual false, abstract: false, final false
   inline void add_cancelGameOrUnreadyEvent(::System::Action* value);
 
-  /// @brief Method add_clearSuggestedBeatmapEvent, addr 0x595fb78, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_clearSuggestedBeatmapEvent, addr 0x595e360, size 0xac, virtual false, abstract: false, final false
   inline void add_clearSuggestedBeatmapEvent(::System::Action* value);
 
-  /// @brief Method add_clearSuggestedModifiersEvent, addr 0x595fcd0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_clearSuggestedModifiersEvent, addr 0x595e4b8, size 0xac, virtual false, abstract: false, final false
   inline void add_clearSuggestedModifiersEvent(::System::Action* value);
 
-  /// @brief Method add_selectBeatmapEvent, addr 0x595f618, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_selectBeatmapEvent, addr 0x595de00, size 0xac, virtual false, abstract: false, final false
   inline void add_selectBeatmapEvent(::System::Action* value);
 
-  /// @brief Method add_selectModifiersEvent, addr 0x595f770, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_selectModifiersEvent, addr 0x595df58, size 0xac, virtual false, abstract: false, final false
   inline void add_selectModifiersEvent(::System::Action* value);
 
-  /// @brief Method add_startGameOrReadyEvent, addr 0x595f8c8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_startGameOrReadyEvent, addr 0x595e0b0, size 0xac, virtual false, abstract: false, final false
   inline void add_startGameOrReadyEvent(::System::Action* value);
 
-  /// @brief Method remove_cancelGameOrUnreadyEvent, addr 0x595facc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_cancelGameOrUnreadyEvent, addr 0x595e2b4, size 0xac, virtual false, abstract: false, final false
   inline void remove_cancelGameOrUnreadyEvent(::System::Action* value);
 
-  /// @brief Method remove_clearSuggestedBeatmapEvent, addr 0x595fc24, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_clearSuggestedBeatmapEvent, addr 0x595e40c, size 0xac, virtual false, abstract: false, final false
   inline void remove_clearSuggestedBeatmapEvent(::System::Action* value);
 
-  /// @brief Method remove_clearSuggestedModifiersEvent, addr 0x595fd7c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_clearSuggestedModifiersEvent, addr 0x595e564, size 0xac, virtual false, abstract: false, final false
   inline void remove_clearSuggestedModifiersEvent(::System::Action* value);
 
-  /// @brief Method remove_selectBeatmapEvent, addr 0x595f6c4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_selectBeatmapEvent, addr 0x595deac, size 0xac, virtual false, abstract: false, final false
   inline void remove_selectBeatmapEvent(::System::Action* value);
 
-  /// @brief Method remove_selectModifiersEvent, addr 0x595f81c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_selectModifiersEvent, addr 0x595e004, size 0xac, virtual false, abstract: false, final false
   inline void remove_selectModifiersEvent(::System::Action* value);
 
-  /// @brief Method remove_startGameOrReadyEvent, addr 0x595f974, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_startGameOrReadyEvent, addr 0x595e15c, size 0xac, virtual false, abstract: false, final false
   inline void remove_startGameOrReadyEvent(::System::Action* value);
 
 protected:
@@ -353,7 +353,7 @@ public:
   LobbySetupViewController(LobbySetupViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6952 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6949 };
 
   /// @brief Field kCancelTextKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kCancelTextKey{ u"BUTTON_CANCEL" };

@@ -306,16 +306,16 @@ public:
 
   __declspec(property(get = get_PaddingBuffer)) float_t* PaddingBuffer;
 
-  /// @brief Method get_BorderBuffer, addr 0x6cff824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BorderBuffer, addr 0x6cfb228, size 0x8, virtual false, abstract: false, final false
   inline float_t* get_BorderBuffer();
 
-  /// @brief Method get_Default, addr 0x6cfbfa8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x6cf79ac, size 0x130, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutComputedData get_Default();
 
-  /// @brief Method get_MarginBuffer, addr 0x6cff81c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MarginBuffer, addr 0x6cfb220, size 0x8, virtual false, abstract: false, final false
   inline float_t* get_MarginBuffer();
 
-  /// @brief Method get_PaddingBuffer, addr 0x6cff82c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PaddingBuffer, addr 0x6cfb230, size 0x8, virtual false, abstract: false, final false
   inline float_t* get_PaddingBuffer();
 
   // Ctor Parameters []

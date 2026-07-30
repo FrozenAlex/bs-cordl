@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::LoadLocalInstruction::*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::LoadLocalInstruction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fac8b8;
+  constexpr static std::size_t addrs = 0x5faa654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LoadLocalInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LoadLocalInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fac8c0;
+  constexpr static std::size_t addrs = 0x5faa65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::LoadLocalInstruction*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::LoadLocalInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LoadLocalInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5fac8c8;
+  constexpr static std::size_t addrs = 0x5faa664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::LoadLocalInstruction*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LoadLocalInstruction::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(
     &::System::Linq::Expressions::Interpreter::LoadLocalInstruction::Run)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5fac90c;
+  constexpr static std::size_t addrs = 0x5faa6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::LoadLocalInstruction*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Interpreter::Instruction* (::System::Linq::Expressions::Interpreter::LoadLocalInstruction::*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::LoadLocalInstruction::BoxIfIndexMatches)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5fac994;
+  constexpr static std::size_t addrs = 0x5faa730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

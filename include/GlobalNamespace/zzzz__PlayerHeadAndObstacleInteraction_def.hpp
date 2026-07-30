@@ -73,10 +73,10 @@ public:
 
   static inline ::GlobalNamespace::PlayerHeadAndObstacleInteraction* New_ctor();
 
-  /// @brief Method RefreshIntersectingObstacles, addr 0x59e597c, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method RefreshIntersectingObstacles, addr 0x59e3fec, size 0x368, virtual false, abstract: false, final false
   inline void RefreshIntersectingObstacles(::UnityEngine::Vector3 worldPos);
 
-  /// @brief Method Update, addr 0x59e5ce4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59e4354, size 0x94, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -127,28 +127,28 @@ public:
 
   constexpr void __cordl_internal_set_headDidLeaveObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  /// @brief Method .ctor, addr 0x59e5d78, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e43e8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_headDidEnterObstacleEvent, addr 0x59e5624, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_headDidEnterObstacleEvent, addr 0x59e3c94, size 0xc0, virtual false, abstract: false, final false
   inline void add_headDidEnterObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  /// @brief Method add_headDidEnterObstaclesEvent, addr 0x59e54cc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_headDidEnterObstaclesEvent, addr 0x59e3b3c, size 0xac, virtual false, abstract: false, final false
   inline void add_headDidEnterObstaclesEvent(::System::Action* value);
 
-  /// @brief Method add_headDidLeaveObstacleEvent, addr 0x59e57a4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_headDidLeaveObstacleEvent, addr 0x59e3e14, size 0xc0, virtual false, abstract: false, final false
   inline void add_headDidLeaveObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  /// @brief Method get_playerHeadIsInObstacle, addr 0x59e5924, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_playerHeadIsInObstacle, addr 0x59e3f94, size 0x58, virtual false, abstract: false, final false
   inline bool get_playerHeadIsInObstacle();
 
-  /// @brief Method remove_headDidEnterObstacleEvent, addr 0x59e56e4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_headDidEnterObstacleEvent, addr 0x59e3d54, size 0xc0, virtual false, abstract: false, final false
   inline void remove_headDidEnterObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  /// @brief Method remove_headDidEnterObstaclesEvent, addr 0x59e5578, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_headDidEnterObstaclesEvent, addr 0x59e3be8, size 0xac, virtual false, abstract: false, final false
   inline void remove_headDidEnterObstaclesEvent(::System::Action* value);
 
-  /// @brief Method remove_headDidLeaveObstacleEvent, addr 0x59e5864, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_headDidLeaveObstacleEvent, addr 0x59e3ed4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_headDidLeaveObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
 protected:

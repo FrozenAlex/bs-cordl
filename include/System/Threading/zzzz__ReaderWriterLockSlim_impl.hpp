@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim_TimeoutTracker::*)(int32_t)>(&::System::Threading::ReaderWriterLockSlim_TimeoutTracker::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5fc84e0;
+  constexpr static std::size_t addrs = 0x5fc627c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::ReaderWriterLockSlim_TimeoutTracker::*)()>(
     &::System::Threading::ReaderWriterLockSlim_TimeoutTracker::get_RemainingMilliseconds)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5fc9980;
+  constexpr static std::size_t addrs = 0x5fc771c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ReaderWriterLockSlim_TimeoutTracker::*)()>(
     &::System::Threading::ReaderWriterLockSlim_TimeoutTracker::get_IsExpired)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fc88ac;
+  constexpr static std::size_t addrs = 0x5fc6648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim_TimeoutTracker>(), { "get_IsExpired", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::InitializeThreadCounts)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5fc821c;
+  constexpr static std::size_t addrs = 0x5fc5fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "InitializeThreadCounts", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc8228;
+  constexpr static std::size_t addrs = 0x5fc5fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { ".ctor", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)(::System::Threading::LockRecursionPolicy)>(
     &::System::Threading::ReaderWriterLockSlim::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5fc8230;
+  constexpr static std::size_t addrs = 0x5fc5fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Threading::ReaderWriterCount*)>(&::System::Threading::ReaderWriterLockSlim::IsRWEntryEmpty)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5fc82bc;
+  constexpr static std::size_t addrs = 0x5fc6058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(::System::Threading::ReaderWriterCount*)>(
     &::System::Threading::ReaderWriterLockSlim::IsRwHashEntryChanged)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5fc82f8;
+  constexpr static std::size_t addrs = 0x5fc6094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(),
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::ReaderWriterCount* (::System::Threading::ReaderWriterLockSlim::*)(bool)>(
     &::System::Threading::ReaderWriterLockSlim::GetThreadRWCount)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5fc8318;
+  constexpr static std::size_t addrs = 0x5fc60b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::EnterReadLock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc84ac;
+  constexpr static std::size_t addrs = 0x5fc6248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "EnterReadLock", {}, {} })));
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(int32_t)>(&::System::Threading::ReaderWriterLockSlim::TryEnterReadLock)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5fc84b4;
+  constexpr static std::size_t addrs = 0x5fc6250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(::System::Threading::ReaderWriterLockSlim_TimeoutTracker)>(
     &::System::Threading::ReaderWriterLockSlim::TryEnterReadLock)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fc8560;
+  constexpr static std::size_t addrs = 0x5fc62fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(::System::Threading::ReaderWriterLockSlim_TimeoutTracker)>(
     &::System::Threading::ReaderWriterLockSlim::TryEnterReadLockCore)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x5fc8564;
+  constexpr static std::size_t addrs = 0x5fc6300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::EnterWriteLock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc8c5c;
+  constexpr static std::size_t addrs = 0x5fc69f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "EnterWriteLock", {}, {} })));
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(int32_t)>(&::System::Threading::ReaderWriterLockSlim::TryEnterWriteLock)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5fc8c64;
+  constexpr static std::size_t addrs = 0x5fc6a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(::System::Threading::ReaderWriterLockSlim_TimeoutTracker)>(
     &::System::Threading::ReaderWriterLockSlim::TryEnterWriteLock)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fc8c90;
+  constexpr static std::size_t addrs = 0x5fc6a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(::System::Threading::ReaderWriterLockSlim_TimeoutTracker)>(
     &::System::Threading::ReaderWriterLockSlim::TryEnterWriteLockCore)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x5fc8c94;
+  constexpr static std::size_t addrs = 0x5fc6a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::EnterUpgradeableReadLock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc90bc;
+  constexpr static std::size_t addrs = 0x5fc6e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "EnterUpgradeableReadLock", {}, {} })));
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(int32_t)>(&::System::Threading::ReaderWriterLockSlim::TryEnterUpgradeableReadLock)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5fc90c4;
+  constexpr static std::size_t addrs = 0x5fc6e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(::System::Threading::ReaderWriterLockSlim_TimeoutTracker)>(
     &::System::Threading::ReaderWriterLockSlim::TryEnterUpgradeableReadLock)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fc90f0;
+  constexpr static std::size_t addrs = 0x5fc6e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(::System::Threading::ReaderWriterLockSlim_TimeoutTracker)>(
     &::System::Threading::ReaderWriterLockSlim::TryEnterUpgradeableReadLockCore)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x5fc90f4;
+  constexpr static std::size_t addrs = 0x5fc6e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::ExitReadLock)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x5fc94a4;
+  constexpr static std::size_t addrs = 0x5fc7240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "ExitReadLock", {}, {} })));
@@ -330,7 +330,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::ExitWriteLock)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5fc9654;
+  constexpr static std::size_t addrs = 0x5fc73f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "ExitWriteLock", {}, {} })));
@@ -342,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::ExitUpgradeableReadLock)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x5fc97a4;
+  constexpr static std::size_t addrs = 0x5fc7540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "ExitUpgradeableReadLock", {}, {} })));
@@ -355,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)(::by_ref<::System::Threading::EventWaitHandle*>, bool)>(
     &::System::Threading::ReaderWriterLockSlim::LazyCreateEvent)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5fc894c;
+  constexpr static std::size_t addrs = 0x5fc66e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -370,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(
     ::System::Threading::EventWaitHandle*, ::by_ref<uint32_t>, ::System::Threading::ReaderWriterLockSlim_TimeoutTracker, bool)>(&::System::Threading::ReaderWriterLockSlim::WaitOnEvent)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x5fc8a50;
+  constexpr static std::size_t addrs = 0x5fc67ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -387,7 +387,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::ExitAndWakeUpAppropriateWaiters)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fc963c;
+  constexpr static std::size_t addrs = 0x5fc73d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -401,7 +401,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::ExitAndWakeUpAppropriateWaitersPreferringWriters)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5fc99c4;
+  constexpr static std::size_t addrs = 0x5fc7760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -414,7 +414,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::ExitAndWakeUpAppropriateReadWaiters)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5fc9a44;
+  constexpr static std::size_t addrs = 0x5fc77e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -427,7 +427,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::IsWriterAcquired)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5fc9090;
+  constexpr static std::size_t addrs = 0x5fc6e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "IsWriterAcquired", {}, {} })));
@@ -439,7 +439,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::SetWriterAcquired)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5fc90a0;
+  constexpr static std::size_t addrs = 0x5fc6e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "SetWriterAcquired", {}, {} })));
@@ -451,7 +451,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::ClearWriterAcquired)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5fc9794;
+  constexpr static std::size_t addrs = 0x5fc7530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "ClearWriterAcquired", {}, {} })));
@@ -463,7 +463,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::SetWritersWaiting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5fc9960;
+  constexpr static std::size_t addrs = 0x5fc76fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "SetWritersWaiting", {}, {} })));
@@ -475,7 +475,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::ClearWritersWaiting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5fc9ad8;
+  constexpr static std::size_t addrs = 0x5fc7874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "ClearWritersWaiting", {}, {} })));
@@ -487,7 +487,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::SetUpgraderWaiting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5fc9970;
+  constexpr static std::size_t addrs = 0x5fc770c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "SetUpgraderWaiting", {}, {} })));
@@ -499,7 +499,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::ClearUpgraderWaiting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5fc9ae8;
+  constexpr static std::size_t addrs = 0x5fc7884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "ClearUpgraderWaiting", {}, {} })));
@@ -511,7 +511,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::GetNumReaders)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5fc90b0;
+  constexpr static std::size_t addrs = 0x5fc6e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "GetNumReaders", {}, {} })));
@@ -523,7 +523,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::EnterMyLock)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5fc9af8;
+  constexpr static std::size_t addrs = 0x5fc7894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "EnterMyLock", {}, {} })));
@@ -535,7 +535,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::EnterMyLockSpin)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5fc9b30;
+  constexpr static std::size_t addrs = 0x5fc78cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "EnterMyLockSpin", {}, {} })));
@@ -547,7 +547,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::ExitMyLock)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5fc88a0;
+  constexpr static std::size_t addrs = 0x5fc663c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "ExitMyLock", {}, {} })));
@@ -559,7 +559,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::System::Threading::ReaderWriterLockSlim::SpinWait)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5fc88c4;
+  constexpr static std::size_t addrs = 0x5fc6660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -572,7 +572,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::Dispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc9bdc;
+  constexpr static std::size_t addrs = 0x5fc7978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "Dispose", {}, {} })));
@@ -584,7 +584,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)(bool)>(&::System::Threading::ReaderWriterLockSlim::Dispose)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5fc9be4;
+  constexpr static std::size_t addrs = 0x5fc7980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -597,7 +597,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::get_IsReadLockHeld)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fc9d1c;
+  constexpr static std::size_t addrs = 0x5fc7ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "get_IsReadLockHeld", {}, {} })));
@@ -609,7 +609,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::get_IsUpgradeableReadLockHeld)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fc9d34;
+  constexpr static std::size_t addrs = 0x5fc7ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -622,7 +622,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::get_IsWriteLockHeld)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fc9d4c;
+  constexpr static std::size_t addrs = 0x5fc7ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "get_IsWriteLockHeld", {}, {} })));
@@ -634,7 +634,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::get_RecursiveReadCount)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5fc9d64;
+  constexpr static std::size_t addrs = 0x5fc7b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "get_RecursiveReadCount", {}, {} })));
@@ -646,7 +646,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::get_RecursiveUpgradeCount)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5fc9e14;
+  constexpr static std::size_t addrs = 0x5fc7bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "get_RecursiveUpgradeCount", {}, {} })));
@@ -658,7 +658,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::get_RecursiveWriteCount)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5fc9ef4;
+  constexpr static std::size_t addrs = 0x5fc7c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "get_RecursiveWriteCount", {}, {} })));
@@ -670,7 +670,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::get_WaitingReadCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc9fd4;
+  constexpr static std::size_t addrs = 0x5fc7d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "get_WaitingReadCount", {}, {} })));
@@ -682,7 +682,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::get_WaitingUpgradeCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc9fdc;
+  constexpr static std::size_t addrs = 0x5fc7d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "get_WaitingUpgradeCount", {}, {} })));
@@ -694,7 +694,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::get_WaitingWriteCount)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x5fc9fe4;
+  constexpr static std::size_t addrs = 0x5fc7d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::ReaderWriterLockSlim*>(), { "get_WaitingWriteCount", {}, {} })));

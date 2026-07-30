@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                              ::GlobalNamespace::EnvironmentEffectsFilterPreset, ::GlobalNamespace::EnvironmentIntensityReductionOptions*,
                                                              ::by_ref<::BeatSaber::Settings::Settings>)>(&::GlobalNamespace::BeatmapDataTransformHelper::CreateTransformedBeatmapData)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x370443c;
+  constexpr static std::size_t addrs = 0x3702e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t
                                                                 ::GlobalNamespace::NoteLineLayer, ::GlobalNamespace::NoteCutDirection, int32_t, float_t, ::GlobalNamespace::BeatmapData*)>(
     &::GlobalNamespace::BeatmapDataTransformHelper::AddTestBurstSlider)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x37046a4;
+  constexpr static std::size_t addrs = 0x37030cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t
                                                                 int32_t, ::GlobalNamespace::NoteLineLayer, ::GlobalNamespace::NoteCutDirection, float_t, bool, bool, ::GlobalNamespace::BeatmapData*)>(
     &::GlobalNamespace::BeatmapDataTransformHelper::AddTestSlider)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x37047d8;
+  constexpr static std::size_t addrs = 0x3703200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, bool)>(&::GlobalNamespace::BeatmapDataTransformHelper::IsObstaclesMergingNeeded)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3704698;
+  constexpr static std::size_t addrs = 0x37030c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataTransformHelper*>(),

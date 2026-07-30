@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetPlayersPermissionConfigurationRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_GetPlayersPermissionConfigurationRpc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b6a10;
+  constexpr static std::size_t addrs = 0x32b439c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetPlayersPermissionConfigurationRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_SetPlayersPermissionConfigurationRpc::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b6a14;
+  constexpr static std::size_t addrs = 0x32b43a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetPlayersMissingEntitlementsToLevelRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_SetPlayersMissingEntitlementsToLevelRpc::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b6a60;
+  constexpr static std::size_t addrs = 0x32b43ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetIsEntitledToLevelRpc::*)()>(&::GlobalNamespace::MenuRpcManager_GetIsEntitledToLevelRpc::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b6aac;
+  constexpr static std::size_t addrs = 0x32b4438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_GetIsEntitledToLevelRpc*>(), { ".ctor", {}, {} })));
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetIsEntitledToLevelRpc::*)()>(&::GlobalNamespace::MenuRpcManager_SetIsEntitledToLevelRpc::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b6af8;
+  constexpr static std::size_t addrs = 0x32b4484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_SetIsEntitledToLevelRpc*>(), { ".ctor", {}, {} })));
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_InvalidateLevelEntitlementStatusesRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_InvalidateLevelEntitlementStatusesRpc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b6b44;
+  constexpr static std::size_t addrs = 0x32b44d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_SelectLevelPackRpc::*)()>(&::GlobalNamespace::MenuRpcManager_SelectLevelPackRpc::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b6b48;
+  constexpr static std::size_t addrs = 0x32b44d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_SelectLevelPackRpc*>(), { ".ctor", {}, {} })));
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetSelectedBeatmapRpc::*)()>(&::GlobalNamespace::MenuRpcManager_SetSelectedBeatmapRpc::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b6b94;
+  constexpr static std::size_t addrs = 0x32b4520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_SetSelectedBeatmapRpc*>(), { ".ctor", {}, {} })));
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_ClearSelectedBeatmapRpc::*)()>(&::GlobalNamespace::MenuRpcManager_ClearSelectedBeatmapRpc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b6be0;
+  constexpr static std::size_t addrs = 0x32b456c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_ClearSelectedBeatmapRpc*>(), { ".ctor", {}, {} })));
@@ -281,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetSelectedBeatmapRpc::*)()>(&::GlobalNamespace::MenuRpcManager_GetSelectedBeatmapRpc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b6be4;
+  constexpr static std::size_t addrs = 0x32b4570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_GetSelectedBeatmapRpc*>(), { ".ctor", {}, {} })));
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_RecommendBeatmapRpc::*)()>(&::GlobalNamespace::MenuRpcManager_RecommendBeatmapRpc::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b6be8;
+  constexpr static std::size_t addrs = 0x32b4574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_RecommendBeatmapRpc*>(), { ".ctor", {}, {} })));
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_ClearRecommendedBeatmapRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_ClearRecommendedBeatmapRpc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b6c34;
+  constexpr static std::size_t addrs = 0x32b45c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_ClearRecommendedBeatmapRpc*>(), { ".ctor", {}, {} })));
@@ -345,7 +345,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetRecommendedBeatmapRpc::*)()>(&::GlobalNamespace::MenuRpcManager_GetRecommendedBeatmapRpc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b6c38;
+  constexpr static std::size_t addrs = 0x32b45c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_GetRecommendedBeatmapRpc*>(), { ".ctor", {}, {} })));
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetSelectedGameplayModifiersRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_SetSelectedGameplayModifiersRpc::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b6c3c;
+  constexpr static std::size_t addrs = 0x32b45c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -390,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_ClearSelectedGameplayModifiersRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_ClearSelectedGameplayModifiersRpc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b6c88;
+  constexpr static std::size_t addrs = 0x32b4614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -414,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetSelectedGameplayModifiersRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_GetSelectedGameplayModifiersRpc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b6c8c;
+  constexpr static std::size_t addrs = 0x32b4618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -437,7 +437,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_RecommendGameplayModifiersRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_RecommendGameplayModifiersRpc::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b6c90;
+  constexpr static std::size_t addrs = 0x32b461c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_RecommendGameplayModifiersRpc*>(), { ".ctor", {}, {} })));
@@ -459,7 +459,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_ClearRecommendedGameplayModifiersRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_ClearRecommendedGameplayModifiersRpc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b6cdc;
+  constexpr static std::size_t addrs = 0x32b4668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -483,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetRecommendedGameplayModifiersRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_GetRecommendedGameplayModifiersRpc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b6ce0;
+  constexpr static std::size_t addrs = 0x32b466c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -507,7 +507,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetIsStartButtonEnabledRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_GetIsStartButtonEnabledRpc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b6ce4;
+  constexpr static std::size_t addrs = 0x32b4670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_GetIsStartButtonEnabledRpc*>(), { ".ctor", {}, {} })));
@@ -529,7 +529,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetIsStartButtonEnabledRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_SetIsStartButtonEnabledRpc::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b6ce8;
+  constexpr static std::size_t addrs = 0x32b4674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_SetIsStartButtonEnabledRpc*>(), { ".ctor", {}, {} })));
@@ -550,7 +550,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_LevelLoadErrorRpc::*)()>(&::GlobalNamespace::MenuRpcManager_LevelLoadErrorRpc::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b6d34;
+  constexpr static std::size_t addrs = 0x32b46c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_LevelLoadErrorRpc*>(), { ".ctor", {}, {} })));
@@ -571,7 +571,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_LevelLoadSuccessRpc::*)()>(&::GlobalNamespace::MenuRpcManager_LevelLoadSuccessRpc::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b6d80;
+  constexpr static std::size_t addrs = 0x32b470c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_LevelLoadSuccessRpc*>(), { ".ctor", {}, {} })));
@@ -592,7 +592,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_StartLevelRpc::*)()>(&::GlobalNamespace::MenuRpcManager_StartLevelRpc::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b6dcc;
+  constexpr static std::size_t addrs = 0x32b4758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_StartLevelRpc*>(), { ".ctor", {}, {} })));
@@ -613,7 +613,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetStartedLevelRpc::*)()>(&::GlobalNamespace::MenuRpcManager_GetStartedLevelRpc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b6e18;
+  constexpr static std::size_t addrs = 0x32b47a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_GetStartedLevelRpc*>(), { ".ctor", {}, {} })));
@@ -635,7 +635,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetMultiplayerGameStateRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_GetMultiplayerGameStateRpc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b6e1c;
+  constexpr static std::size_t addrs = 0x32b47a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_GetMultiplayerGameStateRpc*>(), { ".ctor", {}, {} })));
@@ -657,7 +657,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetMultiplayerGameStateRpc::*)()>(
     &::GlobalNamespace::MenuRpcManager_SetMultiplayerGameStateRpc::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b6e20;
+  constexpr static std::size_t addrs = 0x32b47ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_SetMultiplayerGameStateRpc*>(), { ".ctor", {}, {} })));
@@ -678,7 +678,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_CancelCountdownRpc::*)()>(&::GlobalNamespace::MenuRpcManager_CancelCountdownRpc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b6e6c;
+  constexpr static std::size_t addrs = 0x32b47f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_CancelCountdownRpc*>(), { ".ctor", {}, {} })));
@@ -699,7 +699,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetCountdownEndTimeRpc::*)()>(&::GlobalNamespace::MenuRpcManager_SetCountdownEndTimeRpc::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b6e70;
+  constexpr static std::size_t addrs = 0x32b47fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_SetCountdownEndTimeRpc*>(), { ".ctor", {}, {} })));
@@ -720,7 +720,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetCountdownEndTimeRpc::*)()>(&::GlobalNamespace::MenuRpcManager_GetCountdownEndTimeRpc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b6ebc;
+  constexpr static std::size_t addrs = 0x32b4848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_GetCountdownEndTimeRpc*>(), { ".ctor", {}, {} })));
@@ -741,7 +741,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_CancelLevelStartRpc::*)()>(&::GlobalNamespace::MenuRpcManager_CancelLevelStartRpc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b6ec0;
+  constexpr static std::size_t addrs = 0x32b484c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_CancelLevelStartRpc*>(), { ".ctor", {}, {} })));
@@ -762,7 +762,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetIsReadyRpc::*)()>(&::GlobalNamespace::MenuRpcManager_GetIsReadyRpc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b6ec4;
+  constexpr static std::size_t addrs = 0x32b4850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_GetIsReadyRpc*>(), { ".ctor", {}, {} })));
@@ -783,7 +783,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetIsReadyRpc::*)()>(&::GlobalNamespace::MenuRpcManager_SetIsReadyRpc::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b6ec8;
+  constexpr static std::size_t addrs = 0x32b4854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_SetIsReadyRpc*>(), { ".ctor", {}, {} })));
@@ -804,7 +804,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetStartGameTimeRpc::*)()>(&::GlobalNamespace::MenuRpcManager_SetStartGameTimeRpc::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b6f14;
+  constexpr static std::size_t addrs = 0x32b48a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_SetStartGameTimeRpc*>(), { ".ctor", {}, {} })));
@@ -825,7 +825,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_CancelStartGameTimeRpc::*)()>(&::GlobalNamespace::MenuRpcManager_CancelStartGameTimeRpc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b6f60;
+  constexpr static std::size_t addrs = 0x32b48ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_CancelStartGameTimeRpc*>(), { ".ctor", {}, {} })));
@@ -846,7 +846,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetIsInLobbyRpc::*)()>(&::GlobalNamespace::MenuRpcManager_GetIsInLobbyRpc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b6f64;
+  constexpr static std::size_t addrs = 0x32b48f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_GetIsInLobbyRpc*>(), { ".ctor", {}, {} })));
@@ -867,7 +867,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetIsInLobbyRpc::*)()>(&::GlobalNamespace::MenuRpcManager_SetIsInLobbyRpc::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b6f68;
+  constexpr static std::size_t addrs = 0x32b48f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_SetIsInLobbyRpc*>(), { ".ctor", {}, {} })));
@@ -888,7 +888,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_GetOwnedSongPacksRpc::*)()>(&::GlobalNamespace::MenuRpcManager_GetOwnedSongPacksRpc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b6fb4;
+  constexpr static std::size_t addrs = 0x32b4940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_GetOwnedSongPacksRpc*>(), { ".ctor", {}, {} })));
@@ -909,7 +909,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_SetOwnedSongPacksRpc::*)()>(&::GlobalNamespace::MenuRpcManager_SetOwnedSongPacksRpc::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b6fb8;
+  constexpr static std::size_t addrs = 0x32b4944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_SetOwnedSongPacksRpc*>(), { ".ctor", {}, {} })));
@@ -930,7 +930,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager_RequestKickPlayerRpc::*)()>(&::GlobalNamespace::MenuRpcManager_RequestKickPlayerRpc::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x32b7004;
+  constexpr static std::size_t addrs = 0x32b4990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager_RequestKickPlayerRpc*>(), { ".ctor", {}, {} })));
@@ -952,7 +952,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IBeatSaberMultiplayerSessionManager* (::GlobalNamespace::MenuRpcManager::*)()>(
     &::GlobalNamespace::MenuRpcManager::get_multiplayerSessionManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b1594;
+  constexpr static std::size_t addrs = 0x32aef20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "get_multiplayerSessionManager", {}, {} })));
@@ -964,7 +964,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::get_enabled)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x32b159c;
+  constexpr static std::size_t addrs = 0x32aef28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "get_enabled", {}, {} })));
@@ -976,7 +976,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(bool)>(&::GlobalNamespace::MenuRpcManager::set_enabled)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x32b1664;
+  constexpr static std::size_t addrs = 0x32aeff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "set_enabled", {}, { ::i2c::type_of<bool>() } })));
@@ -988,7 +988,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::get_enabledForAllPlayers)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x32b173c;
+  constexpr static std::size_t addrs = 0x32af0c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "get_enabledForAllPlayers", {}, {} })));
@@ -1000,7 +1000,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::get_syncTime)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x32b192c;
+  constexpr static std::size_t addrs = 0x32af2b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "get_syncTime", {}, {} })));
@@ -1013,7 +1013,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::IBeatSaberMultiplayerSessionManager*)>(
     &::GlobalNamespace::MenuRpcManager::_ctor)> {
   constexpr static std::size_t size = 0x1218;
-  constexpr static std::size_t addrs = 0x32b0264;
+  constexpr static std::size_t addrs = 0x32adbf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1027,7 +1027,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::Dispose)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x32b19d4;
+  constexpr static std::size_t addrs = 0x32af360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "Dispose", {}, {} })));
@@ -1039,7 +1039,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::MenuRpcManager::EnabledForPlayer)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x32b1a34;
+  constexpr static std::size_t addrs = 0x32af3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1053,7 +1053,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_getPlayersPermissionConfigurationEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b1af8;
+  constexpr static std::size_t addrs = 0x32af484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1068,7 +1068,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getPlayersPermissionConfigurationEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b1bb8;
+  constexpr static std::size_t addrs = 0x32af544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1082,7 +1082,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetPlayersPermissionConfiguration)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b1c78;
+  constexpr static std::size_t addrs = 0x32af604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "GetPlayersPermissionConfiguration", {}, {} })));
@@ -1094,7 +1094,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeGetPlayersPermissionConfiguration)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b1ccc;
+  constexpr static std::size_t addrs = 0x32af658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1108,7 +1108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::System::Action_2<::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*)>(&::GlobalNamespace::MenuRpcManager::add_setPlayersPermissionConfigurationEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b1ce8;
+  constexpr static std::size_t addrs = 0x32af674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1125,7 +1125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::System::Action_2<::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*)>(&::GlobalNamespace::MenuRpcManager::remove_setPlayersPermissionConfigurationEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b1da8;
+  constexpr static std::size_t addrs = 0x32af734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1142,7 +1142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*)>(
     &::GlobalNamespace::MenuRpcManager::SetPlayersPermissionConfiguration)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32b1e68;
+  constexpr static std::size_t addrs = 0x32af7f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1157,7 +1157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*)>(
     &::GlobalNamespace::MenuRpcManager::InvokeSetPlayersPermissionConfiguration)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b1ecc;
+  constexpr static std::size_t addrs = 0x32af858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1174,7 +1174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>*)>(
     &::GlobalNamespace::MenuRpcManager::add_setPlayersMissingEntitlementsToLevelEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b1ee8;
+  constexpr static std::size_t addrs = 0x32af874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1191,7 +1191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_setPlayersMissingEntitlementsToLevelEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b1fa8;
+  constexpr static std::size_t addrs = 0x32af934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1208,7 +1208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*)>(
     &::GlobalNamespace::MenuRpcManager::SetPlayersMissingEntitlementsToLevel)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32b2068;
+  constexpr static std::size_t addrs = 0x32af9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1223,7 +1223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*)>(
     &::GlobalNamespace::MenuRpcManager::InvokeSetPlayersMissingEntitlementsToLevelRpc)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b20cc;
+  constexpr static std::size_t addrs = 0x32afa58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1240,7 +1240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_getIsEntitledToLevelEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b20e8;
+  constexpr static std::size_t addrs = 0x32afa74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(),
@@ -1254,7 +1254,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getIsEntitledToLevelEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b21a8;
+  constexpr static std::size_t addrs = 0x32afb34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1268,7 +1268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::GetIsEntitledToLevel)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32b2268;
+  constexpr static std::size_t addrs = 0x32afbf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1281,7 +1281,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeGetIsEntitledToLevel)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b22cc;
+  constexpr static std::size_t addrs = 0x32afc58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1296,7 +1296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_3<::StringW, ::StringW, ::GlobalNamespace::EntitlementsStatus>*)>(
     &::GlobalNamespace::MenuRpcManager::add_setIsEntitledToLevelEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b22e8;
+  constexpr static std::size_t addrs = 0x32afc74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1311,7 +1311,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_3<::StringW, ::StringW, ::GlobalNamespace::EntitlementsStatus>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_setIsEntitledToLevelEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b23a8;
+  constexpr static std::size_t addrs = 0x32afd34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1326,7 +1326,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::GlobalNamespace::EntitlementsStatus)>(
     &::GlobalNamespace::MenuRpcManager::SetIsEntitledToLevel)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x32b2468;
+  constexpr static std::size_t addrs = 0x32afdf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1340,7 +1340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::StringW, int32_t)>(&::GlobalNamespace::MenuRpcManager::InvokeSetIsEntitledToLevel)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b24d4;
+  constexpr static std::size_t addrs = 0x32afe60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1355,7 +1355,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_levelEntitlementStatusesInvalidatedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b24f0;
+  constexpr static std::size_t addrs = 0x32afe7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1370,7 +1370,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_levelEntitlementStatusesInvalidatedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b25b0;
+  constexpr static std::size_t addrs = 0x32aff3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1384,7 +1384,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::InvalidateLevelEntitlementStatuses)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b2670;
+  constexpr static std::size_t addrs = 0x32afffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "InvalidateLevelEntitlementStatuses", {}, {} })));
@@ -1396,7 +1396,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeLevelEntitlementStatusesInvalidated)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b26c4;
+  constexpr static std::size_t addrs = 0x32b0050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1410,7 +1410,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_selectedLevelPackEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b26e0;
+  constexpr static std::size_t addrs = 0x32b006c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(),
@@ -1424,7 +1424,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_selectedLevelPackEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b27a0;
+  constexpr static std::size_t addrs = 0x32b012c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(),
@@ -1437,7 +1437,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::SelectLevelPack)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32b2860;
+  constexpr static std::size_t addrs = 0x32b01ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1450,7 +1450,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeOnSelectedLevelPackEvent)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b28c4;
+  constexpr static std::size_t addrs = 0x32b0250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(),
@@ -1464,7 +1464,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>*)>(
     &::GlobalNamespace::MenuRpcManager::add_setSelectedBeatmapEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b28e0;
+  constexpr static std::size_t addrs = 0x32b026c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1479,7 +1479,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_setSelectedBeatmapEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b29a0;
+  constexpr static std::size_t addrs = 0x32b032c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1494,7 +1494,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::BeatmapKeyNetSerializable*)>(
     &::GlobalNamespace::MenuRpcManager::SetSelectedBeatmap)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32b2a60;
+  constexpr static std::size_t addrs = 0x32b03ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1509,7 +1509,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*)>(
     &::GlobalNamespace::MenuRpcManager::InvokeSetSelectedBeatmap)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b2ac4;
+  constexpr static std::size_t addrs = 0x32b0450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1524,7 +1524,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_clearSelectedBeatmapEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b2ae0;
+  constexpr static std::size_t addrs = 0x32b046c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1538,7 +1538,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_clearSelectedBeatmapEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b2ba0;
+  constexpr static std::size_t addrs = 0x32b052c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1552,7 +1552,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::ClearSelectedBeatmap)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b2c60;
+  constexpr static std::size_t addrs = 0x32b05ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "ClearSelectedBeatmap", {}, {} })));
@@ -1564,7 +1564,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeClearSelectedBeatmap)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b2cb4;
+  constexpr static std::size_t addrs = 0x32b0640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1577,7 +1577,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(&::GlobalNamespace::MenuRpcManager::add_getSelectedBeatmapEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b2cd0;
+  constexpr static std::size_t addrs = 0x32b065c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1591,7 +1591,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getSelectedBeatmapEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b2d90;
+  constexpr static std::size_t addrs = 0x32b071c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1605,7 +1605,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetSelectedBeatmap)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b2e50;
+  constexpr static std::size_t addrs = 0x32b07dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "GetSelectedBeatmap", {}, {} })));
@@ -1617,7 +1617,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeGetSelectedBeatmapRpc)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b2ea4;
+  constexpr static std::size_t addrs = 0x32b0830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1631,7 +1631,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>*)>(
     &::GlobalNamespace::MenuRpcManager::add_recommendBeatmapEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b2ec0;
+  constexpr static std::size_t addrs = 0x32b084c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1646,7 +1646,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_recommendBeatmapEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b2f80;
+  constexpr static std::size_t addrs = 0x32b090c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1661,7 +1661,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::BeatmapKeyNetSerializable*)>(
     &::GlobalNamespace::MenuRpcManager::RecommendBeatmap)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32b3040;
+  constexpr static std::size_t addrs = 0x32b09cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1676,7 +1676,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*)>(
     &::GlobalNamespace::MenuRpcManager::InvokeRecommendBeatmap)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b30a4;
+  constexpr static std::size_t addrs = 0x32b0a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1691,7 +1691,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_clearRecommendedBeatmapEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b30c0;
+  constexpr static std::size_t addrs = 0x32b0a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1706,7 +1706,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_clearRecommendedBeatmapEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b3180;
+  constexpr static std::size_t addrs = 0x32b0b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1720,7 +1720,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::ClearRecommendedBeatmap)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b3240;
+  constexpr static std::size_t addrs = 0x32b0bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "ClearRecommendedBeatmap", {}, {} })));
@@ -1732,7 +1732,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeClearRecommendedBeatmap)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b3294;
+  constexpr static std::size_t addrs = 0x32b0c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1746,7 +1746,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_getRecommendedBeatmapEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b32b0;
+  constexpr static std::size_t addrs = 0x32b0c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1761,7 +1761,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getRecommendedBeatmapEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b3370;
+  constexpr static std::size_t addrs = 0x32b0cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1775,7 +1775,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetRecommendedBeatmap)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b3430;
+  constexpr static std::size_t addrs = 0x32b0dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "GetRecommendedBeatmap", {}, {} })));
@@ -1787,7 +1787,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeGetRecommendedBeatmap)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b3484;
+  constexpr static std::size_t addrs = 0x32b0e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1801,7 +1801,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>*)>(
     &::GlobalNamespace::MenuRpcManager::add_setSelectedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b34a0;
+  constexpr static std::size_t addrs = 0x32b0e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1816,7 +1816,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_setSelectedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b3560;
+  constexpr static std::size_t addrs = 0x32b0eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1831,7 +1831,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::MenuRpcManager::SetSelectedGameplayModifiers)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32b3620;
+  constexpr static std::size_t addrs = 0x32b0fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1846,7 +1846,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::MenuRpcManager::InvokeSetSelectedGameplayModifiers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b3684;
+  constexpr static std::size_t addrs = 0x32b1010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1861,7 +1861,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_clearSelectedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b36a0;
+  constexpr static std::size_t addrs = 0x32b102c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(),
@@ -1875,7 +1875,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_clearSelectedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b3760;
+  constexpr static std::size_t addrs = 0x32b10ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1889,7 +1889,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::ClearSelectedGameplayModifiers)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b3820;
+  constexpr static std::size_t addrs = 0x32b11ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "ClearSelectedGameplayModifiers", {}, {} })));
@@ -1901,7 +1901,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeClearSelectedGameplayModifiers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b3874;
+  constexpr static std::size_t addrs = 0x32b1200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1915,7 +1915,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_getSelectedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b3890;
+  constexpr static std::size_t addrs = 0x32b121c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(),
@@ -1929,7 +1929,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getSelectedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b3950;
+  constexpr static std::size_t addrs = 0x32b12dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(),
@@ -1942,7 +1942,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetSelectedGameplayModifiers)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b3a10;
+  constexpr static std::size_t addrs = 0x32b139c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "GetSelectedGameplayModifiers", {}, {} })));
@@ -1954,7 +1954,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeGetSelectedGameplayModifiers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b3a64;
+  constexpr static std::size_t addrs = 0x32b13f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1968,7 +1968,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>*)>(
     &::GlobalNamespace::MenuRpcManager::add_recommendGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b3a80;
+  constexpr static std::size_t addrs = 0x32b140c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1983,7 +1983,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_recommendGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b3b40;
+  constexpr static std::size_t addrs = 0x32b14cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1998,7 +1998,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::MenuRpcManager::RecommendGameplayModifiers)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32b3c00;
+  constexpr static std::size_t addrs = 0x32b158c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2013,7 +2013,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::MenuRpcManager::InvokeRecommendGameplayModifiers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b3c64;
+  constexpr static std::size_t addrs = 0x32b15f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2028,7 +2028,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_clearRecommendedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b3c80;
+  constexpr static std::size_t addrs = 0x32b160c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2043,7 +2043,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_clearRecommendedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b3d40;
+  constexpr static std::size_t addrs = 0x32b16cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2057,7 +2057,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::ClearRecommendedGameplayModifiers)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b3e00;
+  constexpr static std::size_t addrs = 0x32b178c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "ClearRecommendedGameplayModifiers", {}, {} })));
@@ -2069,7 +2069,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeClearRecommendedGameplayModifiers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b3e54;
+  constexpr static std::size_t addrs = 0x32b17e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2083,7 +2083,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_getRecommendedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b3e70;
+  constexpr static std::size_t addrs = 0x32b17fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(),
@@ -2097,7 +2097,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getRecommendedGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b3f30;
+  constexpr static std::size_t addrs = 0x32b18bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2111,7 +2111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetRecommendedGameplayModifiers)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b3ff0;
+  constexpr static std::size_t addrs = 0x32b197c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "GetRecommendedGameplayModifiers", {}, {} })));
@@ -2123,7 +2123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeGetRecommendedGameplayModifiers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b4044;
+  constexpr static std::size_t addrs = 0x32b19d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2137,7 +2137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_getIsStartButtonEnabledEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b4060;
+  constexpr static std::size_t addrs = 0x32b19ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2152,7 +2152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getIsStartButtonEnabledEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b4120;
+  constexpr static std::size_t addrs = 0x32b1aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2166,7 +2166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetIsStartButtonEnabled)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b41e0;
+  constexpr static std::size_t addrs = 0x32b1b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "GetIsStartButtonEnabled", {}, {} })));
@@ -2178,7 +2178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeGetIsStartButtonEnabled)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b4234;
+  constexpr static std::size_t addrs = 0x32b1bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2192,7 +2192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::CannotStartGameReason>*)>(
     &::GlobalNamespace::MenuRpcManager::add_setIsStartButtonEnabledEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b4250;
+  constexpr static std::size_t addrs = 0x32b1bdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2207,7 +2207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::CannotStartGameReason>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_setIsStartButtonEnabledEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b4310;
+  constexpr static std::size_t addrs = 0x32b1c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2222,7 +2222,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::CannotStartGameReason)>(
     &::GlobalNamespace::MenuRpcManager::SetIsStartButtonEnabled)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32b43d0;
+  constexpr static std::size_t addrs = 0x32b1d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2237,7 +2237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::GlobalNamespace::CannotStartGameReason)>(
     &::GlobalNamespace::MenuRpcManager::InvokeSetIsStartButtonEnabled)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b4434;
+  constexpr static std::size_t addrs = 0x32b1dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2252,7 +2252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_levelLoadErrorEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b4450;
+  constexpr static std::size_t addrs = 0x32b1ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2267,7 +2267,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_levelLoadErrorEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b4510;
+  constexpr static std::size_t addrs = 0x32b1e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(),
@@ -2280,7 +2280,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::LevelLoadError)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32b45d0;
+  constexpr static std::size_t addrs = 0x32b1f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2293,7 +2293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeLevelLoadError)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b4634;
+  constexpr static std::size_t addrs = 0x32b1fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2307,7 +2307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_levelLoadSuccessEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b4650;
+  constexpr static std::size_t addrs = 0x32b1fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2322,7 +2322,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_levelLoadSuccessEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b4710;
+  constexpr static std::size_t addrs = 0x32b209c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(),
@@ -2335,7 +2335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::LevelLoadSuccess)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32b47d0;
+  constexpr static std::size_t addrs = 0x32b215c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2348,7 +2348,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeLevelLoadSuccess)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b4834;
+  constexpr static std::size_t addrs = 0x32b21c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2363,7 +2363,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::System::Action_4<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>*)>(&::GlobalNamespace::MenuRpcManager::add_startedLevelEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b4850;
+  constexpr static std::size_t addrs = 0x32b21dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2380,7 +2380,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(
     ::System::Action_4<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>*)>(&::GlobalNamespace::MenuRpcManager::remove_startedLevelEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b4910;
+  constexpr static std::size_t addrs = 0x32b229c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2397,7 +2397,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::BeatmapKeyNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t)>(
     &::GlobalNamespace::MenuRpcManager::StartLevel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x32b49d0;
+  constexpr static std::size_t addrs = 0x32b235c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2414,7 +2414,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*, ::GlobalNamespace::GameplayModifiers*,
                                                                                                    int64_t)>(&::GlobalNamespace::MenuRpcManager::InvokeStartLevel)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b4a4c;
+  constexpr static std::size_t addrs = 0x32b23d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2430,7 +2430,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(&::GlobalNamespace::MenuRpcManager::add_getStartedLevelEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b4a68;
+  constexpr static std::size_t addrs = 0x32b23f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2443,7 +2443,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(&::GlobalNamespace::MenuRpcManager::remove_getStartedLevelEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b4b28;
+  constexpr static std::size_t addrs = 0x32b24b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2456,7 +2456,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetStartedLevel)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b4be8;
+  constexpr static std::size_t addrs = 0x32b2574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "GetStartedLevel", {}, {} })));
@@ -2468,7 +2468,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeGetStartedLevel)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b4c3c;
+  constexpr static std::size_t addrs = 0x32b25c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2482,7 +2482,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_getMultiplayerGameStateEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b4c58;
+  constexpr static std::size_t addrs = 0x32b25e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2497,7 +2497,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getMultiplayerGameStateEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b4d18;
+  constexpr static std::size_t addrs = 0x32b26a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2511,7 +2511,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetMultiplayerGameState)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b4dd8;
+  constexpr static std::size_t addrs = 0x32b2764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "GetMultiplayerGameState", {}, {} })));
@@ -2523,7 +2523,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeGetMultiplayerGameState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b4e2c;
+  constexpr static std::size_t addrs = 0x32b27b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2537,7 +2537,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerGameState>*)>(
     &::GlobalNamespace::MenuRpcManager::add_setMultiplayerGameStateEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b4e48;
+  constexpr static std::size_t addrs = 0x32b27d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2552,7 +2552,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerGameState>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_setMultiplayerGameStateEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b4f08;
+  constexpr static std::size_t addrs = 0x32b2894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2567,7 +2567,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::MultiplayerGameState)>(
     &::GlobalNamespace::MenuRpcManager::SetMultiplayerGameState)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32b4fc8;
+  constexpr static std::size_t addrs = 0x32b2954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2582,7 +2582,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::GlobalNamespace::MultiplayerGameState)>(
     &::GlobalNamespace::MenuRpcManager::InvokeSetMultiplayerGameState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b502c;
+  constexpr static std::size_t addrs = 0x32b29b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2596,7 +2596,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(&::GlobalNamespace::MenuRpcManager::add_cancelCountdownEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b5048;
+  constexpr static std::size_t addrs = 0x32b29d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2609,7 +2609,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(&::GlobalNamespace::MenuRpcManager::remove_cancelCountdownEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b5108;
+  constexpr static std::size_t addrs = 0x32b2a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2622,7 +2622,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::CancelCountdown)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b51c8;
+  constexpr static std::size_t addrs = 0x32b2b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "CancelCountdown", {}, {} })));
@@ -2634,7 +2634,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeCancelCountdown)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b521c;
+  constexpr static std::size_t addrs = 0x32b2ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2648,7 +2648,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, int64_t>*)>(
     &::GlobalNamespace::MenuRpcManager::add_setCountdownEndTimeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b5238;
+  constexpr static std::size_t addrs = 0x32b2bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(),
@@ -2662,7 +2662,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, int64_t>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_setCountdownEndTimeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b52f8;
+  constexpr static std::size_t addrs = 0x32b2c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(),
@@ -2675,7 +2675,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(int64_t)>(&::GlobalNamespace::MenuRpcManager::SetCountdownEndTime)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32b53b8;
+  constexpr static std::size_t addrs = 0x32b2d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2688,7 +2688,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, int64_t)>(&::GlobalNamespace::MenuRpcManager::InvokeSetCountdownEndTime)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b541c;
+  constexpr static std::size_t addrs = 0x32b2da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2702,7 +2702,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(&::GlobalNamespace::MenuRpcManager::add_getCountdownEndTimeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b5438;
+  constexpr static std::size_t addrs = 0x32b2dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2716,7 +2716,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getCountdownEndTimeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b54f8;
+  constexpr static std::size_t addrs = 0x32b2e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2730,7 +2730,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetCountdownEndTime)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b55b8;
+  constexpr static std::size_t addrs = 0x32b2f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "GetCountdownEndTime", {}, {} })));
@@ -2742,7 +2742,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeGetCountdownEndTime)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b560c;
+  constexpr static std::size_t addrs = 0x32b2f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2755,7 +2755,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(&::GlobalNamespace::MenuRpcManager::add_cancelledLevelStartEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b5628;
+  constexpr static std::size_t addrs = 0x32b2fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2769,7 +2769,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_cancelledLevelStartEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b56e8;
+  constexpr static std::size_t addrs = 0x32b3074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2783,7 +2783,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::CancelLevelStart)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b57a8;
+  constexpr static std::size_t addrs = 0x32b3134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "CancelLevelStart", {}, {} })));
@@ -2795,7 +2795,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeCancelLevelStart)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b57fc;
+  constexpr static std::size_t addrs = 0x32b3188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2808,7 +2808,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(&::GlobalNamespace::MenuRpcManager::add_getIsReadyEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b5818;
+  constexpr static std::size_t addrs = 0x32b31a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2821,7 +2821,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(&::GlobalNamespace::MenuRpcManager::remove_getIsReadyEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b58d8;
+  constexpr static std::size_t addrs = 0x32b3264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2834,7 +2834,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetIsReady)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b5998;
+  constexpr static std::size_t addrs = 0x32b3324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "GetIsReady", {}, {} })));
@@ -2846,7 +2846,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeGetIsReady)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b59ec;
+  constexpr static std::size_t addrs = 0x32b3378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2859,7 +2859,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, bool>*)>(&::GlobalNamespace::MenuRpcManager::add_setIsReadyEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b5a08;
+  constexpr static std::size_t addrs = 0x32b3394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2872,7 +2872,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, bool>*)>(&::GlobalNamespace::MenuRpcManager::remove_setIsReadyEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b5ac8;
+  constexpr static std::size_t addrs = 0x32b3454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2885,7 +2885,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(bool)>(&::GlobalNamespace::MenuRpcManager::SetIsReady)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32b5b88;
+  constexpr static std::size_t addrs = 0x32b3514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "SetIsReady", {}, { ::i2c::type_of<bool>() } })));
@@ -2897,7 +2897,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, bool)>(&::GlobalNamespace::MenuRpcManager::InvokeSetIsReady)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x32b5bec;
+  constexpr static std::size_t addrs = 0x32b3578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2911,7 +2911,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, int64_t>*)>(
     &::GlobalNamespace::MenuRpcManager::add_setStartGameTimeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b5c0c;
+  constexpr static std::size_t addrs = 0x32b3598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2926,7 +2926,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, int64_t>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_setStartGameTimeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b5ccc;
+  constexpr static std::size_t addrs = 0x32b3658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(),
@@ -2939,7 +2939,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(int64_t)>(&::GlobalNamespace::MenuRpcManager::SetStartGameTime)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32b5d8c;
+  constexpr static std::size_t addrs = 0x32b3718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2952,7 +2952,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, int64_t)>(&::GlobalNamespace::MenuRpcManager::InvokeSetStartGameCountdown)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b5df0;
+  constexpr static std::size_t addrs = 0x32b377c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2966,7 +2966,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(&::GlobalNamespace::MenuRpcManager::add_cancelStartGameTimeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b5e0c;
+  constexpr static std::size_t addrs = 0x32b3798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2980,7 +2980,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_cancelStartGameTimeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b5ecc;
+  constexpr static std::size_t addrs = 0x32b3858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2994,7 +2994,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::CancelStartGameTime)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b5f8c;
+  constexpr static std::size_t addrs = 0x32b3918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "CancelStartGameTime", {}, {} })));
@@ -3006,7 +3006,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeCancelStartGameCountdown)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b5fe0;
+  constexpr static std::size_t addrs = 0x32b396c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3019,7 +3019,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(&::GlobalNamespace::MenuRpcManager::add_getIsInLobbyEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b5ffc;
+  constexpr static std::size_t addrs = 0x32b3988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3032,7 +3032,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(&::GlobalNamespace::MenuRpcManager::remove_getIsInLobbyEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b60bc;
+  constexpr static std::size_t addrs = 0x32b3a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3045,7 +3045,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetIsInLobby)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b617c;
+  constexpr static std::size_t addrs = 0x32b3b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "GetIsInLobby", {}, {} })));
@@ -3057,7 +3057,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeGetIsInLobby)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b61d0;
+  constexpr static std::size_t addrs = 0x32b3b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3070,7 +3070,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, bool>*)>(&::GlobalNamespace::MenuRpcManager::add_setIsInLobbyEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b61ec;
+  constexpr static std::size_t addrs = 0x32b3b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3084,7 +3084,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, bool>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_setIsInLobbyEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b62ac;
+  constexpr static std::size_t addrs = 0x32b3c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3098,7 +3098,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(bool)>(&::GlobalNamespace::MenuRpcManager::SetIsInLobby)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32b636c;
+  constexpr static std::size_t addrs = 0x32b3cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "SetIsInLobby", {}, { ::i2c::type_of<bool>() } })));
@@ -3110,7 +3110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, bool)>(&::GlobalNamespace::MenuRpcManager::InvokeSetIsInLobby)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x32b63d0;
+  constexpr static std::size_t addrs = 0x32b3d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3123,7 +3123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(&::GlobalNamespace::MenuRpcManager::add_getOwnedSongPacksEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b63f0;
+  constexpr static std::size_t addrs = 0x32b3d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3137,7 +3137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_getOwnedSongPacksEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b64b0;
+  constexpr static std::size_t addrs = 0x32b3e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3150,7 +3150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)()>(&::GlobalNamespace::MenuRpcManager::GetOwnedSongPacks)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32b6570;
+  constexpr static std::size_t addrs = 0x32b3efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(), { "GetOwnedSongPacks", {}, {} })));
@@ -3162,7 +3162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeGetOwnedSongPacks)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b65c4;
+  constexpr static std::size_t addrs = 0x32b3f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3176,7 +3176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::SongPackMask>*)>(
     &::GlobalNamespace::MenuRpcManager::add_setOwnedSongPacksEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b65e0;
+  constexpr static std::size_t addrs = 0x32b3f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3191,7 +3191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::GlobalNamespace::SongPackMask>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_setOwnedSongPacksEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b66a0;
+  constexpr static std::size_t addrs = 0x32b402c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3205,7 +3205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::GlobalNamespace::SongPackMask)>(&::GlobalNamespace::MenuRpcManager::SetOwnedSongPacks)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x32b6760;
+  constexpr static std::size_t addrs = 0x32b40ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3219,7 +3219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::GlobalNamespace::SongPackMask)>(
     &::GlobalNamespace::MenuRpcManager::InvokeSetOwnedSongPacks)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x32b67d8;
+  constexpr static std::size_t addrs = 0x32b4164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3234,7 +3234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::add_requestedKickPlayerEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b6810;
+  constexpr static std::size_t addrs = 0x32b419c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuRpcManager*>(),
@@ -3248,7 +3248,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::System::Action_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::MenuRpcManager::remove_requestedKickPlayerEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32b68d0;
+  constexpr static std::size_t addrs = 0x32b425c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3262,7 +3262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW)>(&::GlobalNamespace::MenuRpcManager::RequestKickPlayer)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x32b6990;
+  constexpr static std::size_t addrs = 0x32b431c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3275,7 +3275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuRpcManager::*)(::StringW, ::StringW)>(&::GlobalNamespace::MenuRpcManager::InvokeKickPlayer)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32b69f4;
+  constexpr static std::size_t addrs = 0x32b4380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayModifiersDropdown___c::*)()>(&::GlobalNamespace::GameplayModifiersDropdown___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x593e200;
+  constexpr static std::size_t addrs = 0x593c9e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifiersDropdown___c*>(), { ".ctor", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GameplayModifiersDropdown___c::*)(::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*)>(
     &::GlobalNamespace::GameplayModifiersDropdown___c::_Start_b__10_0)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x593e204;
+  constexpr static std::size_t addrs = 0x593c9ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayModifiersDropdown::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::GameplayModifiersDropdown::add_didSelectCellWithIdxEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x593d788;
+  constexpr static std::size_t addrs = 0x593bf70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifiersDropdown*>(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayModifiersDropdown::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::GameplayModifiersDropdown::remove_didSelectCellWithIdxEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x593d848;
+  constexpr static std::size_t addrs = 0x593c030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifiersDropdown*>(),
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>* (
     ::GlobalNamespace::GameplayModifiersDropdown::*)()>(&::GlobalNamespace::GameplayModifiersDropdown::get_gameplayModifiersData)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x593d908;
+  constexpr static std::size_t addrs = 0x593c0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifiersDropdown*>(), { "get_gameplayModifiersData", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayModifiersDropdown::*)()>(&::GlobalNamespace::GameplayModifiersDropdown::Start)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x593daf0;
+  constexpr static std::size_t addrs = 0x593c2d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifiersDropdown*>(), { "Start", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayModifiersDropdown::*)()>(&::GlobalNamespace::GameplayModifiersDropdown::OnDestroy)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x593dca4;
+  constexpr static std::size_t addrs = 0x593c48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifiersDropdown*>(), { "OnDestroy", {}, {} })));
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameplayModifierMask (::GlobalNamespace::GameplayModifiersDropdown::*)()>(
     &::GlobalNamespace::GameplayModifiersDropdown::GetSelectedGameplayModifierMask)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x593dd80;
+  constexpr static std::size_t addrs = 0x593c568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayModifiersDropdown::*)(::GlobalNamespace::GameplayModifierMask)>(
     &::GlobalNamespace::GameplayModifiersDropdown::SelectCellWithGameplayModifierMask)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x593de5c;
+  constexpr static std::size_t addrs = 0x593c644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::GameplayModifiersDropdown::*)(::GlobalNamespace::GameplayModifierMask)>(
     &::GlobalNamespace::GameplayModifiersDropdown::GetIdxForGameplayModifierMask)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x593de8c;
+  constexpr static std::size_t addrs = 0x593c674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifiersDropdown*>(),
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayModifiersDropdown::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::GlobalNamespace::GameplayModifiersDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x593e024;
+  constexpr static std::size_t addrs = 0x593c80c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayModifiersDropdown::*)()>(&::GlobalNamespace::GameplayModifiersDropdown::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x593e048;
+  constexpr static std::size_t addrs = 0x593c830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifiersDropdown*>(), { ".ctor", {}, {} })));
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>* (
     ::GlobalNamespace::GameplayModifiersDropdown::*)(::GlobalNamespace::GameplayModifierMask)>(&::GlobalNamespace::GameplayModifiersDropdown::_get_gameplayModifiersData_b__9_0)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x593e04c;
+  constexpr static std::size_t addrs = 0x593c834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

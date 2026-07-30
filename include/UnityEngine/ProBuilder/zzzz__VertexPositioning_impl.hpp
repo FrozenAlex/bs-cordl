@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector3> (*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(
     &::UnityEngine::ProBuilder::VertexPositioning::VerticesInWorldSpace)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x66f98f0;
+  constexpr static std::size_t addrs = 0x66f768c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::VertexPositioning*>(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<int32_t>, ::UnityEngine::Vector3)>(
     &::UnityEngine::ProBuilder::VertexPositioning::TranslateVerticesInWorldSpace)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x66f9a70;
+  constexpr static std::size_t addrs = 0x66f780c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<int32_t>, ::UnityEngine::Vector3, float_t, bool)>(
     &::UnityEngine::ProBuilder::VertexPositioning::TranslateVerticesInWorldSpace)> {
   constexpr static std::size_t size = 0x580;
-  constexpr static std::size_t addrs = 0x66f9b8c;
+  constexpr static std::size_t addrs = 0x66f7928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::VertexPositioning*>(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<int32_t>*, ::UnityEngine::Vector3)>(
     &::UnityEngine::ProBuilder::VertexPositioning::TranslateVertices)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x66fa10c;
+  constexpr static std::size_t addrs = 0x66f7ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*,
                                                                 ::UnityEngine::Vector3)>(&::UnityEngine::ProBuilder::VertexPositioning::TranslateVertices)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x66fa3b4;
+  constexpr static std::size_t addrs = 0x66f8150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*,
                                                                 ::UnityEngine::Vector3)>(&::UnityEngine::ProBuilder::VertexPositioning::TranslateVertices)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x66fa4e8;
+  constexpr static std::size_t addrs = 0x66f8284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<int32_t>*, ::UnityEngine::Vector3)>(
     &::UnityEngine::ProBuilder::VertexPositioning::TranslateVerticesInternal)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x66fa240;
+  constexpr static std::size_t addrs = 0x66f7fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, int32_t, ::UnityEngine::Vector3)>(
     &::UnityEngine::ProBuilder::VertexPositioning::SetSharedVertexPosition)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x66fa61c;
+  constexpr static std::size_t addrs = 0x66f83b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, int32_t, ::UnityEngine::ProBuilder::Vertex*)>(
     &::UnityEngine::ProBuilder::VertexPositioning::SetSharedVertexValues)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x66fa988;
+  constexpr static std::size_t addrs = 0x66f8724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

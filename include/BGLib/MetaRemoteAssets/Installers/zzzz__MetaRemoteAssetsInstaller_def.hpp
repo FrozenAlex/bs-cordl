@@ -23,13 +23,13 @@ public:
   /// @brief Field _useMock, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__useMock, put = __cordl_internal_set__useMock)) bool _useMock;
 
-  /// @brief Method GetPlatform, addr 0x331922c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetPlatform, addr 0x33177f4, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW GetPlatform();
 
-  /// @brief Method InstallBindings, addr 0x331907c, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3317644, size 0x1b0, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method InstallRemoteCatalogLoader, addr 0x3319270, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method InstallRemoteCatalogLoader, addr 0x3317838, size 0xa0, virtual false, abstract: false, final false
   inline void InstallRemoteCatalogLoader();
 
   static inline ::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller* New_ctor(bool useMock);
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__useMock(bool value);
 
-  /// @brief Method .ctor, addr 0x3319028, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33175f0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(bool useMock);
 
 protected:
@@ -58,7 +58,7 @@ public:
   MetaRemoteAssetsInstaller(MetaRemoteAssetsInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22451 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22448 };
 
   /// @brief Field _useMock, offset: 0x18, size: 0x1, def value: None
   bool ____useMock;

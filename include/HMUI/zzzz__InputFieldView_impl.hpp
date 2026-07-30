@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView_InputFieldChanged::*)()>(&::HMUI::InputFieldView_InputFieldChanged::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5889114;
+  constexpr static std::size_t addrs = 0x58875c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView_InputFieldChanged*>(), { ".ctor", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::*)(int32_t)>(&::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5888fe0;
+  constexpr static std::size_t addrs = 0x588748c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::*)()>(
     &::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58891f0;
+  constexpr static std::size_t addrs = 0x588769c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::*)()>(&::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::MoveNext)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x58891f4;
+  constexpr static std::size_t addrs = 0x58876a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46*>(), { "MoveNext", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::*)()>(
     &::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5889280;
+  constexpr static std::size_t addrs = 0x588772c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::*)()>(
     &::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5889288;
+  constexpr static std::size_t addrs = 0x5887734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::*)()>(
     &::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58892c0;
+  constexpr static std::size_t addrs = 0x588776c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::HMUI::InputFieldView_InputFieldChanged* (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::get_onValueChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58883ac;
+  constexpr static std::size_t addrs = 0x5886858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView*>(), { "get_onValueChanged", {}, {} })));
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView::*)(::HMUI::InputFieldView_InputFieldChanged*)>(&::HMUI::InputFieldView::set_onValueChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58883b4;
+  constexpr static std::size_t addrs = 0x5886860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView::*)(::System::Action_1<::HMUI::InputFieldView_SelectionState>*)>(
     &::HMUI::InputFieldView::add_selectionStateDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58883bc;
+  constexpr static std::size_t addrs = 0x5886868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView::*)(::System::Action_1<::HMUI::InputFieldView_SelectionState>*)>(
     &::HMUI::InputFieldView::remove_selectionStateDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x588847c;
+  constexpr static std::size_t addrs = 0x5886928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::HMUI::InputFieldView_SelectionState (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::get_selectionState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x588853c;
+  constexpr static std::size_t addrs = 0x58869e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView*>(), { "get_selectionState", {}, {} })));
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::get_useGlobalKeyboard)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5888544;
+  constexpr static std::size_t addrs = 0x58869f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView*>(), { "get_useGlobalKeyboard", {}, {} })));
@@ -315,7 +315,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::get_useSystemKeyboardIfAvailable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x588854c;
+  constexpr static std::size_t addrs = 0x58869f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView*>(), { "get_useSystemKeyboardIfAvailable", {}, {} })));
@@ -327,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::get_keyboardPositionOffset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5888554;
+  constexpr static std::size_t addrs = 0x5886a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView*>(), { "get_keyboardPositionOffset", {}, {} })));
@@ -339,7 +339,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::get_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5888564;
+  constexpr static std::size_t addrs = 0x5886a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView*>(), { "get_text", {}, {} })));
@@ -351,7 +351,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView::*)(::StringW)>(&::HMUI::InputFieldView::set_text)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x588856c;
+  constexpr static std::size_t addrs = 0x5886a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView*>(), { "set_text", {}, { ::i2c::type_of<::StringW>() } })));
@@ -363,7 +363,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::Awake)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x58886f4;
+  constexpr static std::size_t addrs = 0x5886ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView*>(), { ::i2c::class_of<::HMUI::InputFieldView*>(), 4 }));
@@ -375,7 +375,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::OnDestroy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5888810;
+  constexpr static std::size_t addrs = 0x5886cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView*>(), { ::i2c::class_of<::HMUI::InputFieldView*>(), 8 }));
@@ -387,7 +387,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView::*)(::UnityEngine::UI::Selectable_SelectionState, bool)>(&::HMUI::InputFieldView::DoStateTransition)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5888824;
+  constexpr static std::size_t addrs = 0x5886cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView*>(), { ::i2c::class_of<::HMUI::InputFieldView*>(), 26 }));
@@ -399,7 +399,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView::*)(::HMUI::UIKeyboard*)>(&::HMUI::InputFieldView::ActivateKeyboard)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x5888884;
+  constexpr static std::size_t addrs = 0x5886d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -412,7 +412,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView::*)(::HMUI::UIKeyboard*)>(&::HMUI::InputFieldView::DeactivateKeyboard)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x5888b1c;
+  constexpr static std::size_t addrs = 0x5886fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -425,7 +425,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView::*)(::StringW)>(&::HMUI::InputFieldView::SetText)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5888d6c;
+  constexpr static std::size_t addrs = 0x5887218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView*>(), { "SetText", {}, { ::i2c::type_of<::StringW>() } })));
@@ -437,7 +437,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::ClearInput)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5888d84;
+  constexpr static std::size_t addrs = 0x5887230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView*>(), { "ClearInput", {}, {} })));
@@ -449,7 +449,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView::*)(char16_t)>(&::HMUI::InputFieldView::KeyboardKeyPressed)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5888dd8;
+  constexpr static std::size_t addrs = 0x5887284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView*>(), { "KeyboardKeyPressed", {}, { ::i2c::type_of<char16_t>() } })));
@@ -461,7 +461,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::KeyboardDeletePressed)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5888efc;
+  constexpr static std::size_t addrs = 0x58873a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView*>(), { "KeyboardDeletePressed", {}, {} })));
@@ -473,7 +473,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::BlinkingCaretCoroutine)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5888ac8;
+  constexpr static std::size_t addrs = 0x5886f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView*>(), { "BlinkingCaretCoroutine", {}, {} })));
@@ -485,7 +485,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::UpdateCaretPosition)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x58885c0;
+  constexpr static std::size_t addrs = 0x5886a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView*>(), { "UpdateCaretPosition", {}, {} })));
@@ -497,7 +497,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::UpdatePlaceholder)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x58886bc;
+  constexpr static std::size_t addrs = 0x5886b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView*>(), { "UpdatePlaceholder", {}, {} })));
@@ -509,7 +509,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::UpdateClearButton)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5888d34;
+  constexpr static std::size_t addrs = 0x58871e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView*>(), { "UpdateClearButton", {}, {} })));
@@ -521,7 +521,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5888fe8;
+  constexpr static std::size_t addrs = 0x5887494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView*>(), { ".ctor", {}, {} })));
@@ -533,7 +533,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::_Awake_b__37_0)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5889160;
+  constexpr static std::size_t addrs = 0x588760c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldView*>(), { "<Awake>b__37_0", {}, {} })));

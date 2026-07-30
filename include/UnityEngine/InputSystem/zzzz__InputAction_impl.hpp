@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::InputAction_CallbackContext::*)()>(
     &::UnityEngine::InputSystem::InputAction_CallbackContext::get_actionIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cfaa8;
+  constexpr static std::size_t addrs = 0x64cd844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction_CallbackContext>(), { "get_actionIndex", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::InputAction_CallbackContext::*)()>(
     &::UnityEngine::InputSystem::InputAction_CallbackContext::get_bindingIndex)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x64cfab0;
+  constexpr static std::size_t addrs = 0x64cd84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::InputAction_CallbackContext::*)()>(
     &::UnityEngine::InputSystem::InputAction_CallbackContext::get_controlIndex)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x64cfadc;
+  constexpr static std::size_t addrs = 0x64cd878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::InputAction_CallbackContext::*)()>(
     &::UnityEngine::InputSystem::InputAction_CallbackContext::get_interactionIndex)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x64cfb14;
+  constexpr static std::size_t addrs = 0x64cd8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputActionPhase (::UnityEngine::InputSystem::InputAction_CallbackContext::*)()>(
     &::UnityEngine::InputSystem::InputAction_CallbackContext::get_phase)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x64cfb4c;
+  constexpr static std::size_t addrs = 0x64cd8e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction_CallbackContext>(), { "get_phase", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputAction_CallbackContext::*)()>(&::UnityEngine::InputSystem::InputAction_CallbackContext::get_started)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x64cfb74;
+  constexpr static std::size_t addrs = 0x64cd910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction_CallbackContext>(), { "get_started", {}, {} })));
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputAction_CallbackContext::*)()>(&::UnityEngine::InputSystem::InputAction_CallbackContext::get_performed)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x64cfba4;
+  constexpr static std::size_t addrs = 0x64cd940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction_CallbackContext>(), { "get_performed", {}, {} })));
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputAction_CallbackContext::*)()>(&::UnityEngine::InputSystem::InputAction_CallbackContext::get_canceled)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x64cfbd4;
+  constexpr static std::size_t addrs = 0x64cd970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction_CallbackContext>(), { "get_canceled", {}, {} })));
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputAction* (::UnityEngine::InputSystem::InputAction_CallbackContext::*)()>(
     &::UnityEngine::InputSystem::InputAction_CallbackContext::get_action)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x64cfc04;
+  constexpr static std::size_t addrs = 0x64cd9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction_CallbackContext>(), { "get_action", {}, {} })));
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputControl* (::UnityEngine::InputSystem::InputAction_CallbackContext::*)()>(
     &::UnityEngine::InputSystem::InputAction_CallbackContext::get_control)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x64cfc30;
+  constexpr static std::size_t addrs = 0x64cd9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction_CallbackContext>(), { "get_control", {}, {} })));
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<Il2CppObject* (::UnityEngine::InputSystem::InputAction_CallbackContext::*)()>(
     &::UnityEngine::InputSystem::InputAction_CallbackContext::get_interaction)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x64cfc94;
+  constexpr static std::size_t addrs = 0x64cda30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction_CallbackContext>(), { "get_interaction", {}, {} })));
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::InputSystem::InputAction_CallbackContext::*)()>(&::UnityEngine::InputSystem::InputAction_CallbackContext::get_time)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x64cfcf8;
+  constexpr static std::size_t addrs = 0x64cda94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction_CallbackContext>(), { "get_time", {}, {} })));
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::InputSystem::InputAction_CallbackContext::*)()>(
     &::UnityEngine::InputSystem::InputAction_CallbackContext::get_startTime)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x64cfd24;
+  constexpr static std::size_t addrs = 0x64cdac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction_CallbackContext>(), { "get_startTime", {}, {} })));
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::InputSystem::InputAction_CallbackContext::*)()>(
     &::UnityEngine::InputSystem::InputAction_CallbackContext::get_duration)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x64cfd50;
+  constexpr static std::size_t addrs = 0x64cdaec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction_CallbackContext>(), { "get_duration", {}, {} })));
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::UnityEngine::InputSystem::InputAction_CallbackContext::*)()>(
     &::UnityEngine::InputSystem::InputAction_CallbackContext::get_valueType)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x64cfd80;
+  constexpr static std::size_t addrs = 0x64cdb1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction_CallbackContext>(), { "get_valueType", {}, {} })));
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::InputAction_CallbackContext::*)()>(
     &::UnityEngine::InputSystem::InputAction_CallbackContext::get_valueSizeInBytes)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x64cfdbc;
+  constexpr static std::size_t addrs = 0x64cdb58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputAction_CallbackContext::*)(void*, int32_t)>(
     &::UnityEngine::InputSystem::InputAction_CallbackContext::ReadValue)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x64cfdf8;
+  constexpr static std::size_t addrs = 0x64cdb94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputAction_CallbackContext::*)()>(
     &::UnityEngine::InputSystem::InputAction_CallbackContext::ReadValueAsButton)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x64cffb0;
+  constexpr static std::size_t addrs = 0x64cdd4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::InputSystem::InputAction_CallbackContext::*)()>(
     &::UnityEngine::InputSystem::InputAction_CallbackContext::ReadValueAsObject)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x64d0004;
+  constexpr static std::size_t addrs = 0x64cdda0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::InputAction_CallbackContext::*)()>(&::UnityEngine::InputSystem::InputAction_CallbackContext::ToString)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x64d005c;
+  constexpr static std::size_t addrs = 0x64cddf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction_CallbackContext>(),
@@ -397,7 +397,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cd9d0;
+  constexpr static std::size_t addrs = 0x64cb76c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "get_name", {}, {} })));
@@ -410,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputActionType (::UnityEngine::InputSystem::InputAction::*)()>(
     &::UnityEngine::InputSystem::InputAction::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cd9d8;
+  constexpr static std::size_t addrs = 0x64cb774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "get_type", {}, {} })));
@@ -422,7 +422,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Guid (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::get_id)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x64cd9e0;
+  constexpr static std::size_t addrs = 0x64cb77c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "get_id", {}, {} })));
@@ -434,7 +434,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Guid (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::get_idDontGenerate)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64cda58;
+  constexpr static std::size_t addrs = 0x64cb7f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "get_idDontGenerate", {}, {} })));
@@ -446,7 +446,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::get_expectedControlType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cda9c;
+  constexpr static std::size_t addrs = 0x64cb838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "get_expectedControlType", {}, {} })));
@@ -458,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputAction::*)(::StringW)>(&::UnityEngine::InputSystem::InputAction::set_expectedControlType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cdaa4;
+  constexpr static std::size_t addrs = 0x64cb840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -471,7 +471,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::get_processors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cdaac;
+  constexpr static std::size_t addrs = 0x64cb848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "get_processors", {}, {} })));
@@ -483,7 +483,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::get_interactions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cdab4;
+  constexpr static std::size_t addrs = 0x64cb850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "get_interactions", {}, {} })));
@@ -496,7 +496,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputActionMap* (::UnityEngine::InputSystem::InputAction::*)()>(
     &::UnityEngine::InputSystem::InputAction::get_actionMap)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64cdabc;
+  constexpr static std::size_t addrs = 0x64cb858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "get_actionMap", {}, {} })));
@@ -509,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> (::UnityEngine::InputSystem::InputAction::*)()>(
     &::UnityEngine::InputSystem::InputAction::get_bindingMask)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64cdafc;
+  constexpr static std::size_t addrs = 0x64cb898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "get_bindingMask", {}, {} })));
@@ -522,7 +522,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputAction::*)(::System::Nullable_1<::UnityEngine::InputSystem::InputBinding>)>(
     &::UnityEngine::InputSystem::InputAction::set_bindingMask)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x64cdb0c;
+  constexpr static std::size_t addrs = 0x64cb8a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -537,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputBinding> (::UnityEngine::InputSystem::InputAction::*)()>(
     &::UnityEngine::InputSystem::InputAction::get_bindings)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x64cde04;
+  constexpr static std::size_t addrs = 0x64cbba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "get_bindings", {}, {} })));
@@ -550,7 +550,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControl*> (
     ::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::get_controls)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64cdea0;
+  constexpr static std::size_t addrs = 0x64cbc3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "get_controls", {}, {} })));
@@ -563,7 +563,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputActionPhase (::UnityEngine::InputSystem::InputAction::*)()>(
     &::UnityEngine::InputSystem::InputAction::get_phase)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x64cdf84;
+  constexpr static std::size_t addrs = 0x64cbd20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "get_phase", {}, {} })));
@@ -575,7 +575,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::get_inProgress)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x64ce02c;
+  constexpr static std::size_t addrs = 0x64cbdc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "get_inProgress", {}, {} })));
@@ -587,7 +587,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::get_enabled)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x64ce078;
+  constexpr static std::size_t addrs = 0x64cbe14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "get_enabled", {}, {} })));
@@ -600,7 +600,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputAction::*)(::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>*)>(
     &::UnityEngine::InputSystem::InputAction::add_started)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64ce0c0;
+  constexpr static std::size_t addrs = 0x64cbe5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -615,7 +615,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputAction::*)(::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>*)>(
     &::UnityEngine::InputSystem::InputAction::remove_started)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64ce11c;
+  constexpr static std::size_t addrs = 0x64cbeb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -630,7 +630,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputAction::*)(::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>*)>(
     &::UnityEngine::InputSystem::InputAction::add_canceled)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64ce178;
+  constexpr static std::size_t addrs = 0x64cbf14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -645,7 +645,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputAction::*)(::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>*)>(
     &::UnityEngine::InputSystem::InputAction::remove_canceled)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64ce1d4;
+  constexpr static std::size_t addrs = 0x64cbf70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -660,7 +660,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputAction::*)(::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>*)>(
     &::UnityEngine::InputSystem::InputAction::add_performed)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64ce230;
+  constexpr static std::size_t addrs = 0x64cbfcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -675,7 +675,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputAction::*)(::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>*)>(
     &::UnityEngine::InputSystem::InputAction::remove_performed)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64ce28c;
+  constexpr static std::size_t addrs = 0x64cc028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -689,7 +689,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::get_triggered)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64ce2e8;
+  constexpr static std::size_t addrs = 0x64cc084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "get_triggered", {}, {} })));
@@ -702,7 +702,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputControl* (::UnityEngine::InputSystem::InputAction::*)()>(
     &::UnityEngine::InputSystem::InputAction::get_activeControl)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64ce3a0;
+  constexpr static std::size_t addrs = 0x64cc13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "get_activeControl", {}, {} })));
@@ -714,7 +714,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::get_activeValueType)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x64ce420;
+  constexpr static std::size_t addrs = 0x64cc1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "get_activeValueType", {}, {} })));
@@ -726,7 +726,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::get_wantsInitialStateCheck)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64ce48c;
+  constexpr static std::size_t addrs = 0x64cc228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "get_wantsInitialStateCheck", {}, {} })));
@@ -738,7 +738,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputAction::*)(bool)>(&::UnityEngine::InputSystem::InputAction::set_wantsInitialStateCheck)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64ce4a8;
+  constexpr static std::size_t addrs = 0x64cc244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -751,7 +751,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x64ce4b8;
+  constexpr static std::size_t addrs = 0x64cc254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { ".ctor", {}, {} })));
@@ -764,7 +764,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputAction::*)(::StringW, ::UnityEngine::InputSystem::InputActionType, ::StringW, ::StringW, ::StringW,
                                                                                                          ::StringW)>(&::UnityEngine::InputSystem::InputAction::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x64ce4f4;
+  constexpr static std::size_t addrs = 0x64cc290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -781,7 +781,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64ce624;
+  constexpr static std::size_t addrs = 0x64cc3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "Dispose", {}, {} })));
@@ -793,7 +793,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::ToString)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x64ce640;
+  constexpr static std::size_t addrs = 0x64cc3dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -806,7 +806,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::Enable)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x64ce8fc;
+  constexpr static std::size_t addrs = 0x64cc698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "Enable", {}, {} })));
@@ -818,7 +818,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::Disable)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x64ceae8;
+  constexpr static std::size_t addrs = 0x64cc884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "Disable", {}, {} })));
@@ -830,7 +830,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputAction* (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::Clone)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x64cecb4;
+  constexpr static std::size_t addrs = 0x64cca50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "Clone", {}, {} })));
@@ -842,7 +842,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::System_ICloneable_Clone)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64ced9c;
+  constexpr static std::size_t addrs = 0x64ccb38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "System.ICloneable.Clone", {}, {} })));
@@ -854,7 +854,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::ReadValueAsObject)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64ceda0;
+  constexpr static std::size_t addrs = 0x64ccb3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "ReadValueAsObject", {}, {} })));
@@ -866,7 +866,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::GetControlMagnitude)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x64cee20;
+  constexpr static std::size_t addrs = 0x64ccbbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "GetControlMagnitude", {}, {} })));
@@ -878,7 +878,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::Reset)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x64cee78;
+  constexpr static std::size_t addrs = 0x64ccc14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "Reset", {}, {} })));
@@ -890,7 +890,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::IsPressed)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x64cef44;
+  constexpr static std::size_t addrs = 0x64ccce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "IsPressed", {}, {} })));
@@ -902,7 +902,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::IsInProgress)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64cef9c;
+  constexpr static std::size_t addrs = 0x64ccd38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "IsInProgress", {}, {} })));
@@ -914,7 +914,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::ExpectedFrame)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x64ceff8;
+  constexpr static std::size_t addrs = 0x64ccd94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "ExpectedFrame", {}, {} })));
@@ -926,7 +926,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::WasPressedThisFrame)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x64cf08c;
+  constexpr static std::size_t addrs = 0x64cce28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "WasPressedThisFrame", {}, {} })));
@@ -938,7 +938,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::WasReleasedThisFrame)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x64cf140;
+  constexpr static std::size_t addrs = 0x64ccedc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "WasReleasedThisFrame", {}, {} })));
@@ -950,7 +950,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::WasPerformedThisFrame)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x64ce2ec;
+  constexpr static std::size_t addrs = 0x64cc088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "WasPerformedThisFrame", {}, {} })));
@@ -962,7 +962,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::WasCompletedThisFrame)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x64cf1f4;
+  constexpr static std::size_t addrs = 0x64ccf90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "WasCompletedThisFrame", {}, {} })));
@@ -974,7 +974,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::GetTimeoutCompletionPercentage)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x64cf2a8;
+  constexpr static std::size_t addrs = 0x64cd044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "GetTimeoutCompletionPercentage", {}, {} })));
@@ -986,7 +986,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::get_isSingletonAction)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64cdadc;
+  constexpr static std::size_t addrs = 0x64cb878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "get_isSingletonAction", {}, {} })));
@@ -999,7 +999,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputActionState_TriggerState (::UnityEngine::InputSystem::InputAction::*)()>(
     &::UnityEngine::InputSystem::InputAction::get_currentState)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x64cdfc4;
+  constexpr static std::size_t addrs = 0x64cbd60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "get_currentState", {}, {} })));
@@ -1011,7 +1011,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::MakeSureIdIsInPlace)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64cda14;
+  constexpr static std::size_t addrs = 0x64cb7b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "MakeSureIdIsInPlace", {}, {} })));
@@ -1023,7 +1023,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::GenerateId)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x64cf3a8;
+  constexpr static std::size_t addrs = 0x64cd144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "GenerateId", {}, {} })));
@@ -1036,7 +1036,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputActionMap* (::UnityEngine::InputSystem::InputAction::*)()>(
     &::UnityEngine::InputSystem::InputAction::GetOrCreateActionMap)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x64cdcfc;
+  constexpr static std::size_t addrs = 0x64cba98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "GetOrCreateActionMap", {}, {} })));
@@ -1048,7 +1048,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::CreateInternalActionMapForSingletonAction)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x64cf3dc;
+  constexpr static std::size_t addrs = 0x64cd178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1061,7 +1061,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::InputAction::*)()>(&::UnityEngine::InputSystem::InputAction::RequestInitialStateCheckOnEnabledAction)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x64cf4ec;
+  constexpr static std::size_t addrs = 0x64cd288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1075,7 +1075,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::InputAction::*)(::UnityEngine::InputSystem::InputControl*)>(
     &::UnityEngine::InputSystem::InputAction::ActiveControlIsValid)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x64cf52c;
+  constexpr static std::size_t addrs = 0x64cd2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(),
@@ -1089,7 +1089,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> (::UnityEngine::InputSystem::InputAction::*)()>(
     &::UnityEngine::InputSystem::InputAction::FindEffectiveBindingMask)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x64cf6fc;
+  constexpr static std::size_t addrs = 0x64cd498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::InputAction*>(), { "FindEffectiveBindingMask", {}, {} })));
@@ -1102,7 +1102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::InputAction::*)(int32_t)>(
     &::UnityEngine::InputSystem::InputAction::BindingIndexOnActionToBindingIndexOnMap)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x64cf7a0;
+  constexpr static std::size_t addrs = 0x64cd53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1116,7 +1116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::InputAction::*)(int32_t)>(
     &::UnityEngine::InputSystem::InputAction::BindingIndexOnMapToBindingIndexOnAction)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x64cf928;
+  constexpr static std::size_t addrs = 0x64cd6c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

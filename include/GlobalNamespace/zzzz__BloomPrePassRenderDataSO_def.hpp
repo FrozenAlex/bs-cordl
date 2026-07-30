@@ -102,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set_viewMatrix(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method .ctor, addr 0x5861f94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5860490, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -120,7 +120,7 @@ public:
   BloomPrePassRenderDataSO_Data(BloomPrePassRenderDataSO_Data const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19600 };
 
   /// @brief Field bloomPrePassRenderTexture, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ___bloomPrePassRenderTexture;
@@ -183,7 +183,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::GlobalNamespace::BloomPrePassRenderDataSO_Data* value);
 
-  /// @brief Method .ctor, addr 0x58653e8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58638e4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -201,7 +201,7 @@ public:
   BloomPrePassRenderDataSO(BloomPrePassRenderDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19601 };
 
   /// @brief Field data, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::BloomPrePassRenderDataSO_Data* ___data;

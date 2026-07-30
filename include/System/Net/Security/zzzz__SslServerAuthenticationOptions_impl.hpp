@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Security::SslServerAuthenticationOptions::*)()>(
     &::System::Net::Security::SslServerAuthenticationOptions::get_ClientCertificateRequired)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636aea8;
+  constexpr static std::size_t addrs = 0x6368c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslServerAuthenticationOptions::*)(bool)>(
     &::System::Net::Security::SslServerAuthenticationOptions::set_ClientCertificateRequired)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636aeb0;
+  constexpr static std::size_t addrs = 0x6368c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (::System::Net::Security::SslServerAuthenticationOptions::*)()>(
     &::System::Net::Security::SslServerAuthenticationOptions::get_ServerCertificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636aeb8;
+  constexpr static std::size_t addrs = 0x6368c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslServerAuthenticationOptions::*)(::System::Security::Cryptography::X509Certificates::X509Certificate*)>(
     &::System::Net::Security::SslServerAuthenticationOptions::set_ServerCertificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636aec0;
+  constexpr static std::size_t addrs = 0x6368c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Authentication::SslProtocols (::System::Net::Security::SslServerAuthenticationOptions::*)()>(
     &::System::Net::Security::SslServerAuthenticationOptions::get_EnabledSslProtocols)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636aec8;
+  constexpr static std::size_t addrs = 0x6368c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslServerAuthenticationOptions::*)(::System::Security::Authentication::SslProtocols)>(
     &::System::Net::Security::SslServerAuthenticationOptions::set_EnabledSslProtocols)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636aed0;
+  constexpr static std::size_t addrs = 0x6368c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Security::SslServerAuthenticationOptions*>(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslServerAuthenticationOptions::*)(::System::Security::Cryptography::X509Certificates::X509RevocationMode)>(
     &::System::Net::Security::SslServerAuthenticationOptions::set_CertificateRevocationCheckMode)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x636aed8;
+  constexpr static std::size_t addrs = 0x6368c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslServerAuthenticationOptions::*)(::System::Net::Security::EncryptionPolicy)>(
     &::System::Net::Security::SslServerAuthenticationOptions::set_EncryptionPolicy)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x636af6c;
+  constexpr static std::size_t addrs = 0x6368d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Security::SslServerAuthenticationOptions*>(),
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::SslServerAuthenticationOptions::*)()>(&::System::Net::Security::SslServerAuthenticationOptions::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x636b000;
+  constexpr static std::size_t addrs = 0x6368d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Security::SslServerAuthenticationOptions*>(), { ".ctor", {}, {} })));

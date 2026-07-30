@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::ExceptionArgument)>(&::System::ThrowHelper::ThrowArgumentNullException)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c586dc;
+  constexpr static std::size_t addrs = 0x5c56448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::ExceptionArgument)>(&::System::ThrowHelper::CreateArgumentNullException)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5c66550;
+  constexpr static std::size_t addrs = 0x5c642bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::ThrowHelper::ThrowArrayTypeMismatchException)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c665f4;
+  constexpr static std::size_t addrs = 0x5c64360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ThrowHelper*>(), { "ThrowArrayTypeMismatchException", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::ThrowHelper::CreateArrayTypeMismatchException)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5c66618;
+  constexpr static std::size_t addrs = 0x5c64384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ThrowHelper*>(), { "CreateArrayTypeMismatchException", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::ThrowHelper::ThrowArgumentException_DestinationTooShort)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c66670;
+  constexpr static std::size_t addrs = 0x5c643dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ThrowHelper*>(), { "ThrowArgumentException_DestinationTooShort", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::ThrowHelper::CreateArgumentException_DestinationTooShort)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5c66694;
+  constexpr static std::size_t addrs = 0x5c64400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ThrowHelper*>(), { "CreateArgumentException_DestinationTooShort", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::ThrowHelper::ThrowIndexOutOfRangeException)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c66710;
+  constexpr static std::size_t addrs = 0x5c6447c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ThrowHelper*>(), { "ThrowIndexOutOfRangeException", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::ThrowHelper::CreateIndexOutOfRangeException)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5c66734;
+  constexpr static std::size_t addrs = 0x5c644a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ThrowHelper*>(), { "CreateIndexOutOfRangeException", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::ThrowHelper::ThrowArgumentOutOfRangeException)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c6678c;
+  constexpr static std::size_t addrs = 0x5c644f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ThrowHelper*>(), { "ThrowArgumentOutOfRangeException", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::ThrowHelper::CreateArgumentOutOfRangeException)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5c667b0;
+  constexpr static std::size_t addrs = 0x5c6451c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ThrowHelper*>(), { "CreateArgumentOutOfRangeException", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::ExceptionArgument)>(&::System::ThrowHelper::ThrowArgumentOutOfRangeException)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c66808;
+  constexpr static std::size_t addrs = 0x5c64574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::ExceptionArgument)>(&::System::ThrowHelper::CreateArgumentOutOfRangeException)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5c6682c;
+  constexpr static std::size_t addrs = 0x5c64598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::ThrowHelper::ThrowObjectDisposedException_ArrayMemoryPoolBuffer)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c668d0;
+  constexpr static std::size_t addrs = 0x5c6463c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::ThrowHelper::CreateObjectDisposedException_ArrayMemoryPoolBuffer)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5c668f4;
+  constexpr static std::size_t addrs = 0x5c64660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::ThrowHelper::ThrowNotSupportedException)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c66964;
+  constexpr static std::size_t addrs = 0x5c646d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ThrowHelper*>(), { "ThrowNotSupportedException", {}, {} })));
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::ThrowHelper::CreateThrowNotSupportedException)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5c66988;
+  constexpr static std::size_t addrs = 0x5c646f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ThrowHelper*>(), { "CreateThrowNotSupportedException", {}, {} })));
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::System::Type*)>(&::System::ThrowHelper::ThrowWrongKeyTypeArgumentException)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5c669e0;
+  constexpr static std::size_t addrs = 0x5c6474c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::System::Type*)>(&::System::ThrowHelper::ThrowWrongValueTypeArgumentException)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5c66aac;
+  constexpr static std::size_t addrs = 0x5c64818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::ExceptionResource)>(&::System::ThrowHelper::ThrowArgumentException)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5c66b78;
+  constexpr static std::size_t addrs = 0x5c648e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::ExceptionResource, ::System::ExceptionArgument)>(&::System::ThrowHelper::ThrowArgumentException)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5c66fac;
+  constexpr static std::size_t addrs = 0x5c64d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::ExceptionArgument, ::System::ExceptionResource)>(&::System::ThrowHelper::ThrowArgumentOutOfRangeException)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5c6723c;
+  constexpr static std::size_t addrs = 0x5c64fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::ExceptionResource)>(&::System::ThrowHelper::ThrowInvalidOperationException)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5c672d0;
+  constexpr static std::size_t addrs = 0x5c6503c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::ExceptionResource)>(&::System::ThrowHelper::ThrowSerializationException)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5c67318;
+  constexpr static std::size_t addrs = 0x5c65084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::ExceptionResource)>(&::System::ThrowHelper::ThrowNotSupportedException)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5c67360;
+  constexpr static std::size_t addrs = 0x5c650cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -324,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::ThrowHelper::ThrowInvalidOperationException_InvalidOperation_EnumFailedVersion)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c673a8;
+  constexpr static std::size_t addrs = 0x5c65114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -337,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::ThrowHelper::ThrowInvalidOperationException_InvalidOperation_EnumOpCantHappen)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c673f4;
+  constexpr static std::size_t addrs = 0x5c65160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::ThrowHelper::ThrowInvalidOperationException_InvalidOperation_EnumNotStarted)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c67440;
+  constexpr static std::size_t addrs = 0x5c651ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -363,7 +363,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::ThrowHelper::ThrowInvalidOperationException_InvalidOperation_EnumEnded)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c6748c;
+  constexpr static std::size_t addrs = 0x5c651f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -376,7 +376,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::ThrowHelper::ThrowInvalidOperationException_InvalidOperation_NoValue)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c674d8;
+  constexpr static std::size_t addrs = 0x5c65244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -389,7 +389,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ArgumentOutOfRangeException* (*)(::System::ExceptionArgument, ::StringW)>(&::System::ThrowHelper::GetArgumentOutOfRangeException)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5c67524;
+  constexpr static std::size_t addrs = 0x5c65290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::ThrowHelper::ThrowArgumentOutOfRange_IndexException)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5c675ac;
+  constexpr static std::size_t addrs = 0x5c65318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ThrowHelper*>(), { "ThrowArgumentOutOfRange_IndexException", {}, {} })));
@@ -415,7 +415,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::ThrowHelper::ThrowIndexArgumentOutOfRange_NeedNonNegNumException)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5c675e4;
+  constexpr static std::size_t addrs = 0x5c65350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -428,7 +428,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::ThrowHelper::ThrowArgumentException_Argument_InvalidArrayType)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c6761c;
+  constexpr static std::size_t addrs = 0x5c65388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ThrowHelper*>(), { "ThrowArgumentException_Argument_InvalidArrayType", {}, {} })));
@@ -440,7 +440,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ArgumentException* (*)(::System::Object*)>(&::System::ThrowHelper::GetAddingDuplicateWithKeyArgumentException)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5c67668;
+  constexpr static std::size_t addrs = 0x5c653d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -453,7 +453,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::ThrowHelper::ThrowAddingDuplicateWithKeyArgumentException)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c67700;
+  constexpr static std::size_t addrs = 0x5c6546c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -466,7 +466,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::KeyNotFoundException* (*)(::System::Object*)>(&::System::ThrowHelper::GetKeyNotFoundException)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5c67724;
+  constexpr static std::size_t addrs = 0x5c65490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -479,7 +479,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::ThrowHelper::ThrowKeyNotFoundException)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c6779c;
+  constexpr static std::size_t addrs = 0x5c65508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -492,7 +492,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*)>(&::System::ThrowHelper::ThrowInvalidTypeWithPointersNotSupported)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5c677a4;
+  constexpr static std::size_t addrs = 0x5c65510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -505,7 +505,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::ThrowHelper::ThrowInvalidOperationException_ConcurrentOperationsNotSupported)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5c67804;
+  constexpr static std::size_t addrs = 0x5c65570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -518,7 +518,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::InvalidOperationException* (*)(::StringW)>(&::System::ThrowHelper::GetInvalidOperationException)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5c67834;
+  constexpr static std::size_t addrs = 0x5c655a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -531,7 +531,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Array*, int32_t, int32_t)>(&::System::ThrowHelper::ThrowArraySegmentCtorValidationFailedExceptions)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c6789c;
+  constexpr static std::size_t addrs = 0x5c65608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -546,7 +546,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::System::Array*, int32_t, int32_t)>(&::System::ThrowHelper::GetArraySegmentCtorValidationFailedException)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5c678c0;
+  constexpr static std::size_t addrs = 0x5c6562c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -560,7 +560,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ArgumentException* (*)(::System::ExceptionResource)>(&::System::ThrowHelper::GetArgumentException)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5c67a28;
+  constexpr static std::size_t addrs = 0x5c65794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -573,7 +573,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ArgumentNullException* (*)(::System::ExceptionArgument)>(&::System::ThrowHelper::GetArgumentNullException)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5c678f0;
+  constexpr static std::size_t addrs = 0x5c6565c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -586,7 +586,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::ExceptionArgument)>(&::System::ThrowHelper::GetArgumentName)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x5c67008;
+  constexpr static std::size_t addrs = 0x5c64d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -600,7 +600,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ArgumentOutOfRangeException* (*)(::System::ExceptionArgument, ::System::ExceptionResource)>(
     &::System::ThrowHelper::GetArgumentOutOfRangeException)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5c67960;
+  constexpr static std::size_t addrs = 0x5c656cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -614,7 +614,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::ThrowHelper::ThrowStartIndexArgumentOutOfRange_ArgumentOutOfRange_Index)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5c67ad4;
+  constexpr static std::size_t addrs = 0x5c65840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -627,7 +627,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::ThrowHelper::ThrowCountArgumentOutOfRange_ArgumentOutOfRange_Count)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5c67b00;
+  constexpr static std::size_t addrs = 0x5c6586c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -640,7 +640,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::ExceptionResource)>(&::System::ThrowHelper::GetResourceName)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x5c66bc0;
+  constexpr static std::size_t addrs = 0x5c6492c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -653,7 +653,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::ThrowHelper::ThrowValueArgumentOutOfRange_NeedNonNegNumException)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5c67b2c;
+  constexpr static std::size_t addrs = 0x5c65898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

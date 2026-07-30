@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ParallelBitArray::*)()>(&::UnityEngine::Rendering::ParallelBitArray::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6832fd0;
+  constexpr static std::size_t addrs = 0x6830d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ParallelBitArray>(), { "get_Length", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ParallelBitArray::*)()>(&::UnityEngine::Rendering::ParallelBitArray::get_IsCreated)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6832fd8;
+  constexpr static std::size_t addrs = 0x6830d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ParallelBitArray>(), { "get_IsCreated", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ParallelBitArray::*)(int32_t, ::Unity::Collections::Allocator, ::Unity::Collections::NativeArrayOptions)>(
     &::UnityEngine::Rendering::ParallelBitArray::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6833024;
+  constexpr static std::size_t addrs = 0x6830dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ParallelBitArray::*)()>(&::UnityEngine::Rendering::ParallelBitArray::Dispose)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x68330c8;
+  constexpr static std::size_t addrs = 0x6830e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ParallelBitArray>(), { "Dispose", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ParallelBitArray::*)(::Unity::Jobs::JobHandle)>(&::UnityEngine::Rendering::ParallelBitArray::Dispose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x683311c;
+  constexpr static std::size_t addrs = 0x6830eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ParallelBitArray::*)(int32_t)>(&::UnityEngine::Rendering::ParallelBitArray::Resize)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x6833188;
+  constexpr static std::size_t addrs = 0x6830f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ParallelBitArray::*)(int32_t, bool)>(&::UnityEngine::Rendering::ParallelBitArray::Set)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6827bb0;
+  constexpr static std::size_t addrs = 0x682594c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ParallelBitArray::*)(int32_t)>(&::UnityEngine::Rendering::ParallelBitArray::Get)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6827f80;
+  constexpr static std::size_t addrs = 0x6825d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::Rendering::ParallelBitArray::*)(int32_t)>(&::UnityEngine::Rendering::ParallelBitArray::GetChunk)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6827f74;
+  constexpr static std::size_t addrs = 0x6825d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ParallelBitArray::*)(int32_t, uint64_t)>(&::UnityEngine::Rendering::ParallelBitArray::SetChunk)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6827fe0;
+  constexpr static std::size_t addrs = 0x6825d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::Rendering::ParallelBitArray::*)(int32_t)>(&::UnityEngine::Rendering::ParallelBitArray::InterlockedReadChunk)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6833340;
+  constexpr static std::size_t addrs = 0x68310dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ParallelBitArray::*)(int32_t, uint64_t)>(&::UnityEngine::Rendering::ParallelBitArray::InterlockedOrChunk)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x68333a0;
+  constexpr static std::size_t addrs = 0x683113c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ParallelBitArray::*)()>(&::UnityEngine::Rendering::ParallelBitArray::ChunkCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6833428;
+  constexpr static std::size_t addrs = 0x68311c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ParallelBitArray>(), { "ChunkCount", {}, {} })));
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ParallelBitArray (::UnityEngine::Rendering::ParallelBitArray::*)(int32_t)>(
     &::UnityEngine::Rendering::ParallelBitArray::GetSubArray)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6833430;
+  constexpr static std::size_t addrs = 0x68311cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<int64_t> (::UnityEngine::Rendering::ParallelBitArray::*)()>(
     &::UnityEngine::Rendering::ParallelBitArray::GetBitsArray)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68334b4;
+  constexpr static std::size_t addrs = 0x6831250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ParallelBitArray>(), { "GetBitsArray", {}, {} })));
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ParallelBitArray::*)(int32_t)>(&::UnityEngine::Rendering::ParallelBitArray::FillZeroes)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x68334c0;
+  constexpr static std::size_t addrs = 0x683125c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

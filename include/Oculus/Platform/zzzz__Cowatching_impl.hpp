@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::StringW>* (*)()>(&::Oculus::Platform::Cowatching::GetPresenterData)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5de47fc;
+  constexpr static std::size_t addrs = 0x5de2568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Cowatching*>(), { "GetPresenterData", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::CowatchViewerList*>* (*)()>(&::Oculus::Platform::Cowatching::GetViewersData)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5de4954;
+  constexpr static std::size_t addrs = 0x5de26c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Cowatching*>(), { "GetViewersData", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::CowatchingState*>* (*)()>(&::Oculus::Platform::Cowatching::IsInSession)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5de4aac;
+  constexpr static std::size_t addrs = 0x5de2818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Cowatching*>(), { "IsInSession", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)()>(&::Oculus::Platform::Cowatching::JoinSession)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5de4c04;
+  constexpr static std::size_t addrs = 0x5de2970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Cowatching*>(), { "JoinSession", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)()>(&::Oculus::Platform::Cowatching::LaunchInviteDialog)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5de4d48;
+  constexpr static std::size_t addrs = 0x5de2ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Cowatching*>(), { "LaunchInviteDialog", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)()>(&::Oculus::Platform::Cowatching::LeaveSession)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5de4e8c;
+  constexpr static std::size_t addrs = 0x5de2bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Cowatching*>(), { "LeaveSession", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)()>(&::Oculus::Platform::Cowatching::RequestToPresent)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5de4fd0;
+  constexpr static std::size_t addrs = 0x5de2d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Cowatching*>(), { "RequestToPresent", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)()>(&::Oculus::Platform::Cowatching::ResignFromPresenting)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5de5114;
+  constexpr static std::size_t addrs = 0x5de2e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Cowatching*>(), { "ResignFromPresenting", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)(::StringW, ::StringW)>(&::Oculus::Platform::Cowatching::SetPresenterData)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x5de5258;
+  constexpr static std::size_t addrs = 0x5de2fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)(::StringW)>(&::Oculus::Platform::Cowatching::SetViewerData)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5de53b4;
+  constexpr static std::size_t addrs = 0x5de3120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::StringW>*)>(&::Oculus::Platform::Cowatching::SetApiNotReadyNotificationCallback)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5de5508;
+  constexpr static std::size_t addrs = 0x5de3274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::StringW>*)>(&::Oculus::Platform::Cowatching::SetApiReadyNotificationCallback)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5de5584;
+  constexpr static std::size_t addrs = 0x5de32f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::CowatchingState*>*)>(
     &::Oculus::Platform::Cowatching::SetInSessionChangedNotificationCallback)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5de5600;
+  constexpr static std::size_t addrs = 0x5de336c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::StringW>*)>(&::Oculus::Platform::Cowatching::SetInitializedNotificationCallback)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5de567c;
+  constexpr static std::size_t addrs = 0x5de33e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::StringW>*)>(&::Oculus::Platform::Cowatching::SetPresenterDataChangedNotificationCallback)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5de56f8;
+  constexpr static std::size_t addrs = 0x5de3464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::StringW>*)>(&::Oculus::Platform::Cowatching::SetSessionStartedNotificationCallback)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5de5774;
+  constexpr static std::size_t addrs = 0x5de34e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::StringW>*)>(&::Oculus::Platform::Cowatching::SetSessionStoppedNotificationCallback)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5de57f0;
+  constexpr static std::size_t addrs = 0x5de355c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::CowatchViewerUpdate*>*)>(
     &::Oculus::Platform::Cowatching::SetViewersDataChangedNotificationCallback)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5de586c;
+  constexpr static std::size_t addrs = 0x5de35d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::CowatchViewerList*>* (*)(::Oculus::Platform::Models::CowatchViewerList*)>(
     &::Oculus::Platform::Cowatching::GetNextCowatchViewerListPage)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x5de58e8;
+  constexpr static std::size_t addrs = 0x5de3654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

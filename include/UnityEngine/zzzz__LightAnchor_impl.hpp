@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::LightAnchor::*)()>(&::UnityEngine::LightAnchor::get_yaw)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x673e344;
+  constexpr static std::size_t addrs = 0x673c0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightAnchor*>(), { "get_yaw", {}, {} })));
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightAnchor::*)(float_t)>(&::UnityEngine::LightAnchor::set_yaw)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x673e34c;
+  constexpr static std::size_t addrs = 0x673c0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightAnchor*>(), { "set_yaw", {}, { ::i2c::type_of<float_t>() } })));
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::LightAnchor::*)()>(&::UnityEngine::LightAnchor::get_pitch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x673e3b8;
+  constexpr static std::size_t addrs = 0x673c154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightAnchor*>(), { "get_pitch", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightAnchor::*)(float_t)>(&::UnityEngine::LightAnchor::set_pitch)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x673e3c0;
+  constexpr static std::size_t addrs = 0x673c15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightAnchor*>(), { "set_pitch", {}, { ::i2c::type_of<float_t>() } })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::LightAnchor::*)()>(&::UnityEngine::LightAnchor::get_roll)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x673e3f8;
+  constexpr static std::size_t addrs = 0x673c194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightAnchor*>(), { "get_roll", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightAnchor::*)(float_t)>(&::UnityEngine::LightAnchor::set_roll)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x673e400;
+  constexpr static std::size_t addrs = 0x673c19c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightAnchor*>(), { "set_roll", {}, { ::i2c::type_of<float_t>() } })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::LightAnchor::*)()>(&::UnityEngine::LightAnchor::get_distance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x673e438;
+  constexpr static std::size_t addrs = 0x673c1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightAnchor*>(), { "get_distance", {}, {} })));
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightAnchor::*)(float_t)>(&::UnityEngine::LightAnchor::set_distance)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x673e440;
+  constexpr static std::size_t addrs = 0x673c1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightAnchor*>(), { "set_distance", {}, { ::i2c::type_of<float_t>() } })));
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LightAnchor_UpDirection (::UnityEngine::LightAnchor::*)()>(&::UnityEngine::LightAnchor::get_frameSpace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x673e464;
+  constexpr static std::size_t addrs = 0x673c200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightAnchor*>(), { "get_frameSpace", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightAnchor::*)(::UnityEngine::LightAnchor_UpDirection)>(&::UnityEngine::LightAnchor::set_frameSpace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x673e46c;
+  constexpr static std::size_t addrs = 0x673c208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::LightAnchor::*)()>(&::UnityEngine::LightAnchor::get_anchorPosition)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x673e474;
+  constexpr static std::size_t addrs = 0x673c210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightAnchor*>(), { "get_anchorPosition", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::UnityEngine::LightAnchor::*)()>(&::UnityEngine::LightAnchor::get_anchorPositionOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x673e584;
+  constexpr static std::size_t addrs = 0x673c320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightAnchor*>(), { "get_anchorPositionOverride", {}, {} })));
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightAnchor::*)(::UnityEngine::Transform*)>(&::UnityEngine::LightAnchor::set_anchorPositionOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x673e58c;
+  constexpr static std::size_t addrs = 0x673c328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::LightAnchor::*)()>(&::UnityEngine::LightAnchor::get_anchorPositionOffset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x673e594;
+  constexpr static std::size_t addrs = 0x673c330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightAnchor*>(), { "get_anchorPositionOffset", {}, {} })));
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightAnchor::*)(::UnityEngine::Vector3)>(&::UnityEngine::LightAnchor::set_anchorPositionOffset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x673e5a0;
+  constexpr static std::size_t addrs = 0x673c33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t)>(&::UnityEngine::LightAnchor::NormalizeAngleDegree)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x673e384;
+  constexpr static std::size_t addrs = 0x673c120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightAnchor::*)(::UnityEngine::Camera*)>(&::UnityEngine::LightAnchor::SynchronizeOnTransform)> {
   constexpr static std::size_t size = 0x500;
-  constexpr static std::size_t addrs = 0x673e5ac;
+  constexpr static std::size_t addrs = 0x673c348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightAnchor::*)(::UnityEngine::Camera*, ::UnityEngine::Vector3)>(&::UnityEngine::LightAnchor::UpdateTransform)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x673f338;
+  constexpr static std::size_t addrs = 0x673d0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LightAnchor_Axes (::UnityEngine::LightAnchor::*)(::UnityEngine::Camera*, ::UnityEngine::Vector3)>(
     &::UnityEngine::LightAnchor::GetWorldSpaceAxes)> {
   constexpr static std::size_t size = 0x88c;
-  constexpr static std::size_t addrs = 0x673eaac;
+  constexpr static std::size_t addrs = 0x673c848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightAnchor::*)()>(&::UnityEngine::LightAnchor::Update)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x673f664;
+  constexpr static std::size_t addrs = 0x673d400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightAnchor*>(), { "Update", {}, {} })));
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightAnchor::*)()>(&::UnityEngine::LightAnchor::OnDrawGizmosSelected)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x673f768;
+  constexpr static std::size_t addrs = 0x673d504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightAnchor*>(), { "OnDrawGizmosSelected", {}, {} })));
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightAnchor::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::UnityEngine::LightAnchor::UpdateTransform)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x673f3a0;
+  constexpr static std::size_t addrs = 0x673d13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightAnchor::*)()>(&::UnityEngine::LightAnchor::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x673f844;
+  constexpr static std::size_t addrs = 0x673d5e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightAnchor*>(), { ".ctor", {}, {} })));

@@ -23,7 +23,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     int32_t, int32_t, bool, bool, bool, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2,
     ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&::GlobalNamespace::LightTranslationGroupEffect_InitData::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5994cdc;
+  constexpr static std::size_t addrs = 0x59933a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::*)()>(
     &::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5994c60;
+  constexpr static std::size_t addrs = 0x5993324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::*)(::GlobalNamespace::LightTranslationBeatmapEventData*)>(
     &::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass14_0::_GetTranslationEventHandler_b__0)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x5994d14;
+  constexpr static std::size_t addrs = 0x59933d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                                 ::Tweening::SongTimeTweeningManager*, ::GlobalNamespace::BeatmapCallbacksController*)>(
     &::GlobalNamespace::LightTranslationGroupEffect::_ctor)> {
   constexpr static std::size_t size = 0xc7c;
-  constexpr static std::size_t addrs = 0x5993cfc;
+  constexpr static std::size_t addrs = 0x59923c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -361,7 +361,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect::*)()>(&::GlobalNamespace::LightTranslationGroupEffect::RefreshIfNeeded)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5994a68;
+  constexpr static std::size_t addrs = 0x599312c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroupEffect*>(), { "RefreshIfNeeded", {}, {} })));
@@ -373,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect::*)()>(&::GlobalNamespace::LightTranslationGroupEffect::Cleanup)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5994bf8;
+  constexpr static std::size_t addrs = 0x59932bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTranslationGroupEffect*>(), { "Cleanup", {}, {} })));
@@ -387,7 +387,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Beatma
     ::GlobalNamespace::LightTranslationGroupEffect::*)(::Tweening::FloatTween*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, bool)>(
     &::GlobalNamespace::LightTranslationGroupEffect::GetTranslationEventHandler)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5994978;
+  constexpr static std::size_t addrs = 0x599303c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -404,7 +404,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect::*)(float_t)>(&::GlobalNamespace::LightTranslationGroupEffect::SetTranslation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5994c64;
+  constexpr static std::size_t addrs = 0x5993328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -418,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Tweening::FloatTween*, float_t, float_t, float_t, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::LightTranslationGroupEffect::SetTweenData)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5994c70;
+  constexpr static std::size_t addrs = 0x5993334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, ::UnityEngine::Vector2, float_t, ::UnityEngine::Vector2, bool)>(
     &::GlobalNamespace::LightTranslationGroupEffect::ComputeTranslation)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5994c90;
+  constexpr static std::size_t addrs = 0x5993354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -59,7 +59,7 @@ public:
   constexpr BeatmapEditorStartTestLevelData_FpfcData(bool enabled, int32_t cameraFov) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6708 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6704 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -96,7 +96,7 @@ public:
   constexpr BeatmapEditorStartTestLevelData_OverdrawData(bool enabled, ::UnityEngine::ComputeBuffer* computeBuffer, int32_t audioClipFrequency, float_t samplesPerOverdrawBucket) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6709 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6705 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -148,7 +148,7 @@ public:
                                                           ::StringW recordingPath) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6710 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6706 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -228,7 +228,7 @@ public:
                                             ::GlobalNamespace::BeatmapEditorStartTestLevelData_RecordingData recordingData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6711 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6707 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };

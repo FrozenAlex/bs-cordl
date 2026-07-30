@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x36d6504;
+  constexpr static std::size_t addrs = 0x36d4acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder*>(),
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*)>(
         &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetPublicKey)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x36d65d0;
+  constexpr static std::size_t addrs = 0x36d4b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder*>(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Asn1::X509::X509Name*)>(&::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetIssuer)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x36d6600;
+  constexpr static std::size_t addrs = 0x36d4bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder*>(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Asn1::X509::X509Name*)>(&::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetSubject)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x36d6630;
+  constexpr static std::size_t addrs = 0x36d4bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder*>(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetSerialNumber)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x36d6660;
+  constexpr static std::size_t addrs = 0x36d4c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder*>(),
@@ -98,7 +98,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Asn1::X509::Time*, ::Org::BouncyCastle::Asn1::X509::Time*)>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetValidity)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x36d66f8;
+  constexpr static std::size_t addrs = 0x36d4cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, bool, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::AddExtension)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x36d677c;
+  constexpr static std::size_t addrs = 0x36d4d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, bool, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::AddExtension)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x36d67a8;
+  constexpr static std::size_t addrs = 0x36d4d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Crmf::IControl*)>(&::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::AddControl)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x36d67d4;
+  constexpr static std::size_t addrs = 0x36d4d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder*>(),
@@ -163,7 +163,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Crypto::ISignatureFactory*)>(
         &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetProofOfPossessionSignKeySigner)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x36d6894;
+  constexpr static std::size_t addrs = 0x36d4e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*)>(
         &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetProofOfPossessionSubsequentMessage)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x36d6900;
+  constexpr static std::size_t addrs = 0x36d4ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(int32_t, ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*)>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetProofOfPossessionSubsequentMessage)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x36d69d8;
+  constexpr static std::size_t addrs = 0x36d4fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Asn1::Crmf::PKMacValue*)>(
         &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetProofOfPossessionAgreeMac)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x36d6af0;
+  constexpr static std::size_t addrs = 0x36d50b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)()>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetProofOfPossessionRaVerified)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x36d6b5c;
+  constexpr static std::size_t addrs = 0x36d5124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Crmf::PKMacBuilder*, ::ArrayW<char16_t>)>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetAuthInfoPKMAC)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36d6c1c;
+  constexpr static std::size_t addrs = 0x36d51e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Asn1::X509::X509Name*)>(&::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetAuthInfoSender)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x36d6c24;
+  constexpr static std::size_t addrs = 0x36d51ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder*>(),
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetAuthInfoSender)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36d6c94;
+  constexpr static std::size_t addrs = 0x36d525c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder*>(),
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessage* (::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)()>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::Build)> {
   constexpr static std::size_t size = 0x8e4;
-  constexpr static std::size_t addrs = 0x36d6c9c;
+  constexpr static std::size_t addrs = 0x36d5264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder*>(), { "Build", {}, {} })));

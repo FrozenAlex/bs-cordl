@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Renderer>> (::GlobalNamespace::MaterialPropertyBlockController::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockController::get_renderers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58741e4;
+  constexpr static std::size_t addrs = 0x5872690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialPropertyBlockController*>(), { "get_renderers", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::MaterialPropertyBlock* (::GlobalNamespace::MaterialPropertyBlockController::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockController::get_materialPropertyBlock)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5873ddc;
+  constexpr static std::size_t addrs = 0x5872288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockController::*)()>(&::GlobalNamespace::MaterialPropertyBlockController::ApplyChanges)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5873d1c;
+  constexpr static std::size_t addrs = 0x58721c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialPropertyBlockController*>(), { "ApplyChanges", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockController::*)(bool)>(&::GlobalNamespace::MaterialPropertyBlockController::SetRendererState)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5873fe0;
+  constexpr static std::size_t addrs = 0x587248c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockController::*)()>(&::GlobalNamespace::MaterialPropertyBlockController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58741ec;
+  constexpr static std::size_t addrs = 0x5872698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaterialPropertyBlockController*>(), { ".ctor", {}, {} })));

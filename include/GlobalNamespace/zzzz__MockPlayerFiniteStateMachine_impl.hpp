@@ -21,7 +21,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::IMockBeatmapDataProvider*, ::GlobalNamespace::MockPlayerLobbyPoseGenerator*, ::GlobalNamespace::MockPlayerGamePoseGenerator*)>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a809b4;
+  constexpr static std::size_t addrs = 0x5a7e7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::get_saberAColor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a809b8;
+  constexpr static std::size_t addrs = 0x5a7e7fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(), { "get_saberAColor", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::set_saberAColor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a809cc;
+  constexpr static std::size_t addrs = 0x5a7e810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::get_saberBColor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a809d0;
+  constexpr static std::size_t addrs = 0x5a7e814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(), { "get_saberBColor", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::set_saberBColor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a809e4;
+  constexpr static std::size_t addrs = 0x5a7e828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::get_obstaclesColor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5a809e8;
+  constexpr static std::size_t addrs = 0x5a7e82c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(), { "get_obstaclesColor", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::set_obstaclesColor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a809fc;
+  constexpr static std::size_t addrs = 0x5a7e840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&::GlobalNamespace::MockPlayerFiniteStateMachine::get_leftHanded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a80a00;
+  constexpr static std::size_t addrs = 0x5a7e844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(), { "get_leftHanded", {}, {} })));
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(bool)>(&::GlobalNamespace::MockPlayerFiniteStateMachine::set_leftHanded)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a80a08;
+  constexpr static std::size_t addrs = 0x5a7e84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&::GlobalNamespace::MockPlayerFiniteStateMachine::get_inactiveByDefault)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a80a0c;
+  constexpr static std::size_t addrs = 0x5a7e850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(), { "get_inactiveByDefault", {}, {} })));
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(bool)>(&::GlobalNamespace::MockPlayerFiniteStateMachine::set_inactiveByDefault)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a80a14;
+  constexpr static std::size_t addrs = 0x5a7e858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MockPlayerGamePoseGenerator* (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::get_gamePoseGenerator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a80a18;
+  constexpr static std::size_t addrs = 0x5a7e85c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(), { "get_gamePoseGenerator", {}, {} })));
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&::GlobalNamespace::MockPlayerFiniteStateMachine::Tick)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a80a20;
+  constexpr static std::size_t addrs = 0x5a7e864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(), { "Tick", {}, {} })));
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&::GlobalNamespace::MockPlayerFiniteStateMachine::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a80a24;
+  constexpr static std::size_t addrs = 0x5a7e868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(), { "Dispose", {}, {} })));
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(bool)>(&::GlobalNamespace::MockPlayerFiniteStateMachine::SetIsReady)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a80a28;
+  constexpr static std::size_t addrs = 0x5a7e86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(::GlobalNamespace::BeatmapDifficulty, ::StringW)>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::RecommendBeatmap)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a80a2c;
+  constexpr static std::size_t addrs = 0x5a7e870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::RecommendGameplayModifiers)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a80a30;
+  constexpr static std::size_t addrs = 0x5a7e874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(),

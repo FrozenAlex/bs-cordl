@@ -37,7 +37,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IQuickPlaySetupModel"
   constexpr operator ::GlobalNamespace::IQuickPlaySetupModel*() noexcept;
 
-  /// @brief Method GetQuickPlaySetupAsync, addr 0x59c8c70, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method GetQuickPlaySetupAsync, addr 0x59c72e0, size 0x78, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::MockQuickPlaySetupModel* New_ctor();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value);
 
-  /// @brief Method .ctor, addr 0x59c8ce8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c7358, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IQuickPlaySetupModel"

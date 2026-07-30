@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::System::Platform::uname)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6375038;
+  constexpr static std::size_t addrs = 0x6372dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Platform*>(), { "uname", {}, { ::i2c::type_of<::System::IntPtr>() } })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Platform::CheckOS)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x63750b4;
+  constexpr static std::size_t addrs = 0x6372e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Platform*>(), { "CheckOS", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Platform::get_IsMacOS)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x63752b4;
+  constexpr static std::size_t addrs = 0x6373050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Platform*>(), { "get_IsMacOS", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Platform::get_IsFreeBSD)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x63753a0;
+  constexpr static std::size_t addrs = 0x637313c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Platform*>(), { "get_IsFreeBSD", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Platform::get_IsOpenBSD)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6375400;
+  constexpr static std::size_t addrs = 0x637319c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Platform*>(), { "get_IsOpenBSD", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Platform::get_IsIBMi)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6375460;
+  constexpr static std::size_t addrs = 0x63731fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Platform*>(), { "get_IsIBMi", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Platform::get_IsAix)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x63754c0;
+  constexpr static std::size_t addrs = 0x637325c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Platform*>(), { "get_IsAix", {}, {} })));

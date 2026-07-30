@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::MonoChunkStream__ProcessReadAsync_d__7::*)()>(&::System::Net::MonoChunkStream__ProcessReadAsync_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x6334fd4;
+  constexpr static std::size_t addrs = 0x6332d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::MonoChunkStream__ProcessReadAsync_d__7>(), { "MoveNext", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::MonoChunkStream__ProcessReadAsync_d__7::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::System::Net::MonoChunkStream__ProcessReadAsync_d__7::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6335414;
+  constexpr static std::size_t addrs = 0x63331b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::MonoChunkStream__ProcessReadAsync_d__7>(),
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::MonoChunkStream__FinishReading_d__8::*)()>(&::System::Net::MonoChunkStream__FinishReading_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x490;
-  constexpr static std::size_t addrs = 0x6335494;
+  constexpr static std::size_t addrs = 0x6333230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::MonoChunkStream__FinishReading_d__8>(), { "MoveNext", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::MonoChunkStream__FinishReading_d__8::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::System::Net::MonoChunkStream__FinishReading_d__8::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6335924;
+  constexpr static std::size_t addrs = 0x63336c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::MonoChunkStream__FinishReading_d__8>(),
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::MonoChunkParser* (::System::Net::MonoChunkStream::*)()>(&::System::Net::MonoChunkStream::get_Decoder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6334d04;
+  constexpr static std::size_t addrs = 0x6332aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::MonoChunkStream*>(), { "get_Decoder", {}, {} })));
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::MonoChunkStream::*)(::System::Net::WebOperation*, ::System::IO::Stream*, ::System::Net::WebHeaderCollection*)>(
     &::System::Net::MonoChunkStream::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6334d0c;
+  constexpr static std::size_t addrs = 0x6332aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
     ::System::Net::MonoChunkStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::Net::MonoChunkStream::ProcessReadAsync)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6334d9c;
+  constexpr static std::size_t addrs = 0x6332b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::MonoChunkStream::*)(::System::Threading::CancellationToken)>(
     &::System::Net::MonoChunkStream::FinishReading)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6334eac;
+  constexpr static std::size_t addrs = 0x6332c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Net::MonoChunkStream::ThrowExpectingChunkTrailer)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6334f74;
+  constexpr static std::size_t addrs = 0x6332d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::MonoChunkStream*>(), { "ThrowExpectingChunkTrailer", {}, {} })));
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::MonoChunkStream::*)(::System::Threading::CancellationToken)>(
     &::System::Net::MonoChunkStream::__n__0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6334fcc;
+  constexpr static std::size_t addrs = 0x6332d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPacksDropdown___c::*)()>(&::GlobalNamespace::SongPacksDropdown___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x593e9c8;
+  constexpr static std::size_t addrs = 0x593d1b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPacksDropdown___c*>(), { ".ctor", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::SongPacksDropdown___c::*)(::StringW)>(&::GlobalNamespace::SongPacksDropdown___c::_LazyInit_b__7_0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x593e9cc;
+  constexpr static std::size_t addrs = 0x593d1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPacksDropdown::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::SongPacksDropdown::add_didSelectCellWithIdxEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x593e250;
+  constexpr static std::size_t addrs = 0x593ca38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPacksDropdown::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::SongPacksDropdown::remove_didSelectCellWithIdxEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x593e310;
+  constexpr static std::size_t addrs = 0x593caf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPacksDropdown::*)()>(&::GlobalNamespace::SongPacksDropdown::LazyInit)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x593e3d0;
+  constexpr static std::size_t addrs = 0x593cbb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPacksDropdown*>(), { "LazyInit", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPacksDropdown::*)()>(&::GlobalNamespace::SongPacksDropdown::Start)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x593e594;
+  constexpr static std::size_t addrs = 0x593cd7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPacksDropdown*>(), { "Start", {}, {} })));
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPacksDropdown::*)()>(&::GlobalNamespace::SongPacksDropdown::OnDestroy)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x593e62c;
+  constexpr static std::size_t addrs = 0x593ce14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPacksDropdown*>(), { "OnDestroy", {}, {} })));
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPacksDropdown::*)(::System::Collections::Generic::List_1<::StringW>*)>(
     &::GlobalNamespace::SongPacksDropdown::SetOverrideSongPacks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x593e708;
+  constexpr static std::size_t addrs = 0x593cef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPacksDropdown*>(),
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SongPackMask (::GlobalNamespace::SongPacksDropdown::*)()>(&::GlobalNamespace::SongPacksDropdown::GetSelectedSongPackMask)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x593e710;
+  constexpr static std::size_t addrs = 0x593cef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPacksDropdown*>(), { "GetSelectedSongPackMask", {}, {} })));
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPacksDropdown::*)(::GlobalNamespace::SongPackMask)>(
     &::GlobalNamespace::SongPacksDropdown::SelectCellWithSongPackMask)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x593e7b4;
+  constexpr static std::size_t addrs = 0x593cf9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::SongPacksDropdown::*)(::GlobalNamespace::SongPackMask)>(
     &::GlobalNamespace::SongPacksDropdown::GetIdxForSongPackMask)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x593e874;
+  constexpr static std::size_t addrs = 0x593d05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPacksDropdown::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::GlobalNamespace::SongPacksDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x593e94c;
+  constexpr static std::size_t addrs = 0x593d134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPacksDropdown::*)()>(&::GlobalNamespace::SongPacksDropdown::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x593e970;
+  constexpr static std::size_t addrs = 0x593d158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPacksDropdown*>(), { ".ctor", {}, {} })));

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::IndexFilterType (::BeatmapSaveDataVersion3::IndexFilter::*)()>(&::BeatmapSaveDataVersion3::IndexFilter::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375aa64;
+  constexpr static std::size_t addrs = 0x3759588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::IndexFilter*>(), { "get_type", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::IndexFilter::*)()>(&::BeatmapSaveDataVersion3::IndexFilter::get_param0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375aa6c;
+  constexpr static std::size_t addrs = 0x3759590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::IndexFilter*>(), { "get_param0", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::IndexFilter::*)()>(&::BeatmapSaveDataVersion3::IndexFilter::get_param1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375aa74;
+  constexpr static std::size_t addrs = 0x3759598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::IndexFilter*>(), { "get_param1", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatmapSaveDataVersion3::IndexFilter::*)()>(&::BeatmapSaveDataVersion3::IndexFilter::get_reversed)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x375aa7c;
+  constexpr static std::size_t addrs = 0x37595a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::IndexFilter*>(), { "get_reversed", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::IndexFilter::*)()>(&::BeatmapSaveDataVersion3::IndexFilter::get_chunks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375aa8c;
+  constexpr static std::size_t addrs = 0x37595b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::IndexFilter*>(), { "get_chunks", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapSaveDataVersion3::IndexFilter::*)()>(&::BeatmapSaveDataVersion3::IndexFilter::get_limit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375aa94;
+  constexpr static std::size_t addrs = 0x37595b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::IndexFilter*>(), { "get_limit", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType (::BeatmapSaveDataVersion3::IndexFilter::*)()>(
     &::BeatmapSaveDataVersion3::IndexFilter::get_limitAlsoAffectsType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375aa9c;
+  constexpr static std::size_t addrs = 0x37595c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::IndexFilter*>(), { "get_limitAlsoAffectsType", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::IndexFilterRandomType (::BeatmapSaveDataVersion3::IndexFilter::*)()>(
     &::BeatmapSaveDataVersion3::IndexFilter::get_random)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375aaa4;
+  constexpr static std::size_t addrs = 0x37595c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::IndexFilter*>(), { "get_random", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion3::IndexFilter::*)()>(&::BeatmapSaveDataVersion3::IndexFilter::get_seed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375aaac;
+  constexpr static std::size_t addrs = 0x37595d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::IndexFilter*>(), { "get_seed", {}, {} })));
@@ -125,7 +125,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::BeatmapSaveDataVersion3::IndexFilter::*)(::BeatmapSaveDataCommon::IndexFilterType, int32_t, int32_t, bool, ::BeatmapSaveDataCommon::IndexFilterRandomType, int32_t, int32_t,
                                                                  float_t, ::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType)>(&::BeatmapSaveDataVersion3::IndexFilter::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x375aab4;
+  constexpr static std::size_t addrs = 0x37595d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion3::IndexFilter::*)(::BeatmapSaveDataVersion3::IndexFilter*)>(&::BeatmapSaveDataVersion3::IndexFilter::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x375aad8;
+  constexpr static std::size_t addrs = 0x37595fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataVersion3::IndexFilter* (*)(int32_t, int32_t, bool)>(&::BeatmapSaveDataVersion3::IndexFilter::CreateDivisionIndexFilter)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x375ab10;
+  constexpr static std::size_t addrs = 0x3759634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataVersion3::IndexFilter* (*)(int32_t, int32_t, bool)>(&::BeatmapSaveDataVersion3::IndexFilter::CreateStepFilter)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x375ab84;
+  constexpr static std::size_t addrs = 0x37596a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataVersion3::IndexFilter* (*)()>(&::BeatmapSaveDataVersion3::IndexFilter::CreateForExtension)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x375abf8;
+  constexpr static std::size_t addrs = 0x375971c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion3::IndexFilter*>(), { "CreateForExtension", {}, {} })));

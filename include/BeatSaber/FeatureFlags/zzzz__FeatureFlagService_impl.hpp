@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService___c::*)()>(&::BeatSaber::FeatureFlags::FeatureFlagService___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x328b380;
+  constexpr static std::size_t addrs = 0x328866c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService___c*>(), { ".ctor", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatSaber::FeatureFlags::FeatureFlagService___c::*)(::GlobalNamespace::FeatureConfiguration_Remote*)>(
     &::BeatSaber::FeatureFlags::FeatureFlagService___c::_QueryRemoteFlagsAsync_b__12_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x328b384;
+  constexpr static std::size_t addrs = 0x3288670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11::*)()>(
     &::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11::MoveNext)> {
   constexpr static std::size_t size = 0x74c;
-  constexpr static std::size_t addrs = 0x328b398;
+  constexpr static std::size_t addrs = 0x3288684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x328bae4;
+  constexpr static std::size_t addrs = 0x3288dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__InitializeAsync_d__11>(),
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14::*)()>(
     &::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14::MoveNext)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x328bb64;
+  constexpr static std::size_t addrs = 0x3288e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x328be80;
+  constexpr static std::size_t addrs = 0x328916c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__IsFeatureEnabledAsync_d__14>(),
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12::*)()>(
     &::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12::MoveNext)> {
   constexpr static std::size_t size = 0x898;
-  constexpr static std::size_t addrs = 0x328bf00;
+  constexpr static std::size_t addrs = 0x32891ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x328c7c0;
+  constexpr static std::size_t addrs = 0x3289aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__QueryRemoteFlagsAsync_d__12>(),
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17::*)()>(
     &::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17::MoveNext)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x328c82c;
+  constexpr static std::size_t addrs = 0x3289b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x328c9f8;
+  constexpr static std::size_t addrs = 0x3289ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService__WaitForInitialization_d__17>(),
@@ -339,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService::*)(::BeatSaber::GraphQL::IGraphQLClientProvider*, ::BeatSaber::FeatureFlags::IFeatureFlags*,
                                                                                                                int32_t)>(&::BeatSaber::FeatureFlags::FeatureFlagService::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x328a8b8;
+  constexpr static std::size_t addrs = 0x3287ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -355,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService::*)()>(&::BeatSaber::FeatureFlags::FeatureFlagService::Initialize)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x328a9c8;
+  constexpr static std::size_t addrs = 0x3287cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(), { "Initialize", {}, {} })));
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::BeatSaber::FeatureFlags::FeatureFlagService_State>* (::BeatSaber::FeatureFlags::FeatureFlagService::*)()>(
     &::BeatSaber::FeatureFlags::FeatureFlagService::InitializeAsync)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x328aa8c;
+  constexpr static std::size_t addrs = 0x3287d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(), { "InitializeAsync", {}, {} })));
@@ -381,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::FeatureFlags::FeatureFlagService::*)()>(
     &::BeatSaber::FeatureFlags::FeatureFlagService::QueryRemoteFlagsAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x328ab68;
+  constexpr static std::size_t addrs = 0x3287e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(), { "QueryRemoteFlagsAsync", {}, {} })));
@@ -394,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<bool> (::BeatSaber::FeatureFlags::FeatureFlagService::*)(::BeatSaber::FeatureFlags::Feature)>(
     &::BeatSaber::FeatureFlags::FeatureFlagService::IsFeatureEnabled)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x328ac18;
+  constexpr static std::size_t addrs = 0x3287f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -409,7 +409,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::BeatSaber::FeatureFlags::FeatureFlagService::*)(::BeatSaber::FeatureFlags::Feature)>(
     &::BeatSaber::FeatureFlags::FeatureFlagService::IsFeatureEnabledAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x328b0d8;
+  constexpr static std::size_t addrs = 0x32883c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(),
@@ -423,7 +423,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<bool> (::BeatSaber::FeatureFlags::FeatureFlagService::*)(::GlobalNamespace::FeatureConfiguration_Remote*)>(
     &::BeatSaber::FeatureFlags::FeatureFlagService::GetRemoteFlag)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x328afb0;
+  constexpr static std::size_t addrs = 0x328829c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(),
@@ -437,7 +437,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<bool> (::BeatSaber::FeatureFlags::FeatureFlagService::*)(::GlobalNamespace::FeatureConfiguration_RemoteWithDependency*)>(
     &::BeatSaber::FeatureFlags::FeatureFlagService::GetRemoteFlagWithDependency)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x328aef0;
+  constexpr static std::size_t addrs = 0x32881dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -452,7 +452,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::FeatureFlags::FeatureFlagService::*)()>(
     &::BeatSaber::FeatureFlags::FeatureFlagService::WaitForInitialization)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x328b1c8;
+  constexpr static std::size_t addrs = 0x32884b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(), { "WaitForInitialization", {}, {} })));
@@ -464,7 +464,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService::*)()>(&::BeatSaber::FeatureFlags::FeatureFlagService::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x328b278;
+  constexpr static std::size_t addrs = 0x3288564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::FeatureFlags::FeatureFlagService*>(), { "Dispose", {}, {} })));
@@ -477,7 +477,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::FeatureFlags::FeatureFlagService::*)(
     ::System::Threading::Tasks::Task_1<::BeatSaber::FeatureFlags::FeatureFlagService_State>*)>(&::BeatSaber::FeatureFlags::FeatureFlagService::_Initialize_b__10_0)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x328b27c;
+  constexpr static std::size_t addrs = 0x3288568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

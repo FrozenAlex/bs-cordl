@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ClothRandomFluctuation_SineLayer::*)()>(&::GlobalNamespace::ClothRandomFluctuation_SineLayer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58b1ad0;
+  constexpr static std::size_t addrs = 0x58aff7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ClothRandomFluctuation_SineLayer*>(), { ".ctor", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ClothRandomFluctuation::*)()>(&::GlobalNamespace::ClothRandomFluctuation::Update)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58b17f0;
+  constexpr static std::size_t addrs = 0x58afc9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ClothRandomFluctuation*>(), { "Update", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ClothRandomFluctuation::*)(::UnityEngine::Cloth*)>(&::GlobalNamespace::ClothRandomFluctuation::FluctuateCloth)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x58b17f8;
+  constexpr static std::size_t addrs = 0x58afca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::ClothRandomFluctuation::*)(float_t, float_t)>(&::GlobalNamespace::ClothRandomFluctuation::GetNoise)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x58b19bc;
+  constexpr static std::size_t addrs = 0x58afe68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ClothRandomFluctuation::*)()>(&::GlobalNamespace::ClothRandomFluctuation::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58b1acc;
+  constexpr static std::size_t addrs = 0x58aff78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ClothRandomFluctuation*>(), { ".ctor", {}, {} })));

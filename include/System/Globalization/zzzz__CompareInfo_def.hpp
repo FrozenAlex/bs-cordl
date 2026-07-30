@@ -84,161 +84,161 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
 
-  /// @brief Method Compare, addr 0x5b93954, size 0x4e8, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x5b91798, size 0x4e8, virtual true, abstract: false, final false
   inline int32_t Compare(::StringW string1, int32_t offset1, int32_t length1, ::StringW string2, int32_t offset2, int32_t length2, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method Compare, addr 0x5b92d70, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x5b90bb4, size 0x10, virtual true, abstract: false, final false
   inline int32_t Compare(::StringW string1, ::StringW string2);
 
-  /// @brief Method Compare, addr 0x5b92d80, size 0x2b8, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x5b90bc4, size 0x2b8, virtual true, abstract: false, final false
   inline int32_t Compare(::StringW string1, ::StringW string2, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method Compare, addr 0x5b9331c, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x5b91160, size 0x39c, virtual false, abstract: false, final false
   inline int32_t Compare(::System::ReadOnlySpan_1<char16_t> string1, ::StringW string2, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method CompareOptionIgnoreCase, addr 0x5b9371c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method CompareOptionIgnoreCase, addr 0x5b91560, size 0x164, virtual false, abstract: false, final false
   inline int32_t CompareOptionIgnoreCase(::System::ReadOnlySpan_1<char16_t> string1, ::System::ReadOnlySpan_1<char16_t> string2);
 
-  /// @brief Method CompareOrdinalIgnoreCase, addr 0x5b93e3c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CompareOrdinalIgnoreCase, addr 0x5b91c80, size 0x138, virtual false, abstract: false, final false
   static inline int32_t CompareOrdinalIgnoreCase(::StringW strA, int32_t indexA, int32_t lengthA, ::StringW strB, int32_t indexB, int32_t lengthB);
 
-  /// @brief Method CompareOrdinalIgnoreCase, addr 0x5b93038, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method CompareOrdinalIgnoreCase, addr 0x5b90e7c, size 0x1e4, virtual false, abstract: false, final false
   static inline int32_t CompareOrdinalIgnoreCase(::System::ReadOnlySpan_1<char16_t> strA, ::System::ReadOnlySpan_1<char16_t> strB);
 
-  /// @brief Method CompareString, addr 0x5b936b8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CompareString, addr 0x5b914fc, size 0x64, virtual false, abstract: false, final false
   inline int32_t CompareString(::System::ReadOnlySpan_1<char16_t> string1, ::StringW string2, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method CompareString, addr 0x5b93880, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CompareString, addr 0x5b916c4, size 0xd4, virtual false, abstract: false, final false
   inline int32_t CompareString(::System::ReadOnlySpan_1<char16_t> string1, ::System::ReadOnlySpan_1<char16_t> string2, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method CompareStringOrdinalIgnoreCase, addr 0x5b93f74, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method CompareStringOrdinalIgnoreCase, addr 0x5b91db8, size 0x184, virtual false, abstract: false, final false
   static inline int32_t CompareStringOrdinalIgnoreCase(char16_t* pString1, int32_t length1, char16_t* pString2, int32_t length2);
 
-  /// @brief Method CreateSortKey, addr 0x5b95704, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CreateSortKey, addr 0x5b93548, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Globalization::SortKey* CreateSortKey(::StringW source, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method CreateSortKeyCore, addr 0x5b965ac, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CreateSortKeyCore, addr 0x5b943f0, size 0x144, virtual false, abstract: false, final false
   inline ::System::Globalization::SortKey* CreateSortKeyCore(::StringW source, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method EndsWith, addr 0x5b946d4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x5b92518, size 0x178, virtual false, abstract: false, final false
   inline bool EndsWith(::StringW source, ::StringW suffix, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method EndsWith, addr 0x5b94850, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x5b92694, size 0x58, virtual false, abstract: false, final false
   inline bool EndsWith(::System::ReadOnlySpan_1<char16_t> source, ::System::ReadOnlySpan_1<char16_t> suffix, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method Equals, addr 0x5b957bc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5b93600, size 0xc0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetCollator, addr 0x5b96228, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method GetCollator, addr 0x5b9406c, size 0x384, virtual false, abstract: false, final false
   inline ::System::Globalization::ISimpleCollator* GetCollator();
 
-  /// @brief Method GetCompareInfo, addr 0x5b92adc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetCompareInfo, addr 0x5b90920, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Globalization::CompareInfo* GetCompareInfo(::StringW name);
 
-  /// @brief Method GetHashCode, addr 0x5b9587c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5b936c0, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetHashCode, addr 0x5b95f58, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5b93d9c, size 0x104, virtual true, abstract: false, final false
   inline int32_t GetHashCode(::StringW source, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method GetHashCodeOfString, addr 0x5b95d6c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeOfString, addr 0x5b93bb0, size 0x1c0, virtual false, abstract: false, final false
   inline int32_t GetHashCodeOfString(::StringW source, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method GetHashCodeOfStringCore, addr 0x5b95f2c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeOfStringCore, addr 0x5b93d70, size 0x2c, virtual false, abstract: false, final false
   inline int32_t GetHashCodeOfStringCore(::StringW source, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method GetIgnoreCaseHash, addr 0x5b958a4, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method GetIgnoreCaseHash, addr 0x5b936e8, size 0x4c8, virtual false, abstract: false, final false
   static inline int32_t GetIgnoreCaseHash(::StringW source);
 
-  /// @brief Method GetSortKey, addr 0x5b95634, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetSortKey, addr 0x5b93478, size 0xd0, virtual true, abstract: false, final false
   inline ::System::Globalization::SortKey* GetSortKey(::StringW source, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method IndexOf, addr 0x5b94914, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x5b92758, size 0x6c, virtual true, abstract: false, final false
   inline int32_t IndexOf(::StringW source, ::StringW value, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method IndexOf, addr 0x5b94e04, size 0x2cc, virtual true, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x5b92c48, size 0x2cc, virtual true, abstract: false, final false
   inline int32_t IndexOf(::StringW source, ::StringW value, int32_t startIndex, int32_t count, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method IndexOf, addr 0x5b948a8, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x5b926ec, size 0x6c, virtual true, abstract: false, final false
   inline int32_t IndexOf(::StringW source, char16_t value, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method IndexOf, addr 0x5b94980, size 0x2fc, virtual true, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x5b927c4, size 0x2fc, virtual true, abstract: false, final false
   inline int32_t IndexOf(::StringW source, char16_t value, int32_t startIndex, int32_t count, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method IndexOfCore, addr 0x5b94db0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IndexOfCore, addr 0x5b92bf4, size 0x54, virtual false, abstract: false, final false
   inline int32_t IndexOfCore(::StringW source, ::StringW target, int32_t startIndex, int32_t count, ::System::Globalization::CompareOptions options, int32_t* matchLengthPtr);
 
-  /// @brief Method IndexOfOrdinal, addr 0x5b94c7c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method IndexOfOrdinal, addr 0x5b92ac0, size 0x134, virtual false, abstract: false, final false
   inline int32_t IndexOfOrdinal(::StringW source, ::StringW value, int32_t startIndex, int32_t count, bool ignoreCase);
 
-  /// @brief Method IndexOfOrdinalCore, addr 0x5b950d0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IndexOfOrdinalCore, addr 0x5b92f14, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t IndexOfOrdinalCore(::StringW source, ::StringW value, int32_t startIndex, int32_t count, bool ignoreCase);
 
-  /// @brief Method InitSort, addr 0x5b92ac4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method InitSort, addr 0x5b90908, size 0x18, virtual false, abstract: false, final false
   inline void InitSort(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method InvariantCreateSortKey, addr 0x5b92824, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method InvariantCreateSortKey, addr 0x5b90668, size 0x288, virtual false, abstract: false, final false
   inline ::System::Globalization::SortKey* InvariantCreateSortKey(::StringW source, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method InvariantFindString, addr 0x5b9235c, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method InvariantFindString, addr 0x5b901a0, size 0x3f4, virtual false, abstract: false, final false
   static inline int32_t InvariantFindString(char16_t* source, int32_t sourceCount, char16_t* value, int32_t valueCount, bool ignoreCase, bool start);
 
-  /// @brief Method InvariantIndexOf, addr 0x5b922a8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InvariantIndexOf, addr 0x5b900ec, size 0xb4, virtual false, abstract: false, final false
   static inline int32_t InvariantIndexOf(::StringW source, ::StringW value, int32_t startIndex, int32_t count, bool ignoreCase);
 
-  /// @brief Method InvariantLastIndexOf, addr 0x5b92750, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method InvariantLastIndexOf, addr 0x5b90594, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t InvariantLastIndexOf(::StringW source, ::StringW value, int32_t startIndex, int32_t count, bool ignoreCase);
 
-  /// @brief Method InvariantToUpper, addr 0x5b9280c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method InvariantToUpper, addr 0x5b90650, size 0x18, virtual false, abstract: false, final false
   static inline char16_t InvariantToUpper(char16_t c);
 
-  /// @brief Method IsPrefix, addr 0x5b940f8, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method IsPrefix, addr 0x5b91f3c, size 0x230, virtual true, abstract: false, final false
   inline bool IsPrefix(::StringW source, ::StringW prefix, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method IsSuffix, addr 0x5b944a4, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method IsSuffix, addr 0x5b922e8, size 0x230, virtual true, abstract: false, final false
   inline bool IsSuffix(::StringW source, ::StringW suffix, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method IsSuffix, addr 0x5b9484c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method IsSuffix, addr 0x5b92690, size 0x4, virtual false, abstract: false, final false
   inline bool IsSuffix(::System::ReadOnlySpan_1<char16_t> source, ::System::ReadOnlySpan_1<char16_t> suffix, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method LastIndexOf, addr 0x5b950fc, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x5b92f40, size 0x6c, virtual true, abstract: false, final false
   inline int32_t LastIndexOf(::StringW source, ::StringW value, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method LastIndexOf, addr 0x5b95168, size 0x354, virtual true, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x5b92fac, size 0x354, virtual true, abstract: false, final false
   inline int32_t LastIndexOf(::StringW source, ::StringW value, int32_t startIndex, int32_t count, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method LastIndexOfCore, addr 0x5b955f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOfCore, addr 0x5b93434, size 0x18, virtual false, abstract: false, final false
   inline int32_t LastIndexOfCore(::StringW source, ::StringW target, int32_t startIndex, int32_t count, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method LastIndexOfOrdinal, addr 0x5b954bc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOfOrdinal, addr 0x5b93300, size 0x134, virtual false, abstract: false, final false
   inline int32_t LastIndexOfOrdinal(::StringW source, ::StringW value, int32_t startIndex, int32_t count, bool ignoreCase);
 
-  /// @brief Method LastIndexOfOrdinalCore, addr 0x5b95608, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOfOrdinalCore, addr 0x5b9344c, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t LastIndexOfOrdinalCore(::StringW source, ::StringW value, int32_t startIndex, int32_t count, bool ignoreCase);
 
   static inline ::System::Globalization::CompareInfo* New_ctor();
 
   static inline ::System::Globalization::CompareInfo* New_ctor(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method OnDeserialized, addr 0x5b92ba4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnDeserialized, addr 0x5b909e8, size 0xac, virtual false, abstract: false, final false
   inline void OnDeserialized();
 
-  /// @brief Method OnDeserialized, addr 0x5b92c50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDeserialized, addr 0x5b90a94, size 0x4, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnDeserializing, addr 0x5b92b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDeserializing, addr 0x5b909dc, size 0x8, virtual false, abstract: false, final false
   inline void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnSerializing, addr 0x5b92c54, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnSerializing, addr 0x5b90a98, size 0x90, virtual false, abstract: false, final false
   inline void OnSerializing(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method StartsWith, addr 0x5b94328, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x5b9216c, size 0x17c, virtual false, abstract: false, final false
   inline bool StartsWith(::StringW source, ::StringW prefix, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x5b92ba0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x5b909e4, size 0x4, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
-  /// @brief Method ToString, addr 0x5b9605c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5b93ea0, size 0x64, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__sortName() const;
@@ -271,10 +271,10 @@ public:
 
   constexpr void __cordl_internal_set_m_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5b96c8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b94ad0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5b92aac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b908f0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureInfo* culture);
 
   static inline ::System::Globalization::CompareInfo* getStaticF_Invariant();
@@ -285,37 +285,37 @@ public:
 
   static inline bool getStaticF_managedCollationChecked();
 
-  /// @brief Method get_Name, addr 0x5b92ce4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5b90b28, size 0x8c, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_UseManagedCollation, addr 0x5b960c0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method get_UseManagedCollation, addr 0x5b93f04, size 0x168, virtual false, abstract: false, final false
   static inline bool get_UseManagedCollation();
 
   /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
-  /// @brief Method internal_compare, addr 0x5b96a38, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method internal_compare, addr 0x5b9487c, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t internal_compare(::StringW str1, int32_t offset1, int32_t length1, ::StringW str2, int32_t offset2, int32_t length2, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method internal_compare_icall, addr 0x5b96bf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method internal_compare_icall, addr 0x5b94a38, size 0x4, virtual false, abstract: false, final false
   static inline int32_t internal_compare_icall(char16_t* str1, int32_t length1, char16_t* str2, int32_t length2, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method internal_compare_managed, addr 0x5b96ae8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method internal_compare_managed, addr 0x5b9492c, size 0x10c, virtual false, abstract: false, final false
   inline int32_t internal_compare_managed(::StringW str1, int32_t offset1, int32_t length1, ::StringW str2, int32_t offset2, int32_t length2, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method internal_compare_switch, addr 0x5b9321c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method internal_compare_switch, addr 0x5b91060, size 0x100, virtual false, abstract: false, final false
   inline int32_t internal_compare_switch(::StringW str1, int32_t offset1, int32_t length1, ::StringW str2, int32_t offset2, int32_t length2, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method internal_index, addr 0x5b96848, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method internal_index, addr 0x5b9468c, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t internal_index(::StringW source, int32_t sindex, int32_t count, ::StringW value, bool first);
 
-  /// @brief Method internal_index_icall, addr 0x5b96bf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method internal_index_icall, addr 0x5b94a3c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t internal_index_icall(char16_t* source, int32_t sindex, int32_t count, char16_t* value, int32_t value_length, bool first);
 
-  /// @brief Method internal_index_managed, addr 0x5b968f0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method internal_index_managed, addr 0x5b94734, size 0x148, virtual false, abstract: false, final false
   inline int32_t internal_index_managed(::StringW s1, int32_t sindex, int32_t count, ::StringW s2, ::System::Globalization::CompareOptions opt, bool first);
 
-  /// @brief Method internal_index_switch, addr 0x5b966f0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method internal_index_switch, addr 0x5b94534, size 0x158, virtual false, abstract: false, final false
   inline int32_t internal_index_switch(::StringW s1, int32_t sindex, int32_t count, ::StringW s2, ::System::Globalization::CompareOptions opt, bool first);
 
   static inline void setStaticF_Invariant(::System::Globalization::CompareInfo* value);

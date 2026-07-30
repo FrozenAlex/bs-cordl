@@ -34,18 +34,18 @@ public:
   /// @brief Field _valueBounds, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__valueBounds, put = __cordl_internal_set__valueBounds)) ::UnityEngine::Vector2 _valueBounds;
 
-  /// @brief Method Awake, addr 0x598dcc0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x598c384, size 0xc, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::FloatSDFPointScaleEffect* New_ctor();
 
-  /// @brief Method Scale, addr 0x598dd00, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Scale, addr 0x598c3c4, size 0x34, virtual false, abstract: false, final false
   inline void Scale(float_t value);
 
-  /// @brief Method SetValue, addr 0x598dccc, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x598c390, size 0x34, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x598dd34, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x598c3f8, size 0x34, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityW<::GlobalNamespace::SDFPoint> const& __cordl_internal_get__colorPoints() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__valueBounds(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x598dd68, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598c42c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

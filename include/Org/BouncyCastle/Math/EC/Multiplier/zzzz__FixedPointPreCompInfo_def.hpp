@@ -67,28 +67,28 @@ public:
 
   constexpr void __cordl_internal_set_m_width(int32_t value);
 
-  /// @brief Method .ctor, addr 0x350b61c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3509be4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LookupTable, addr 0x350b5ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LookupTable, addr 0x3509bb4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECLookupTable* get_LookupTable();
 
-  /// @brief Method get_Offset, addr 0x350b5fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Offset, addr 0x3509bc4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Offset();
 
-  /// @brief Method get_Width, addr 0x350b60c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Width, addr 0x3509bd4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Width();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
   constexpr ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* i___Org__BouncyCastle__Math__EC__Multiplier__PreCompInfo() noexcept;
 
-  /// @brief Method set_LookupTable, addr 0x350b5f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_LookupTable, addr 0x3509bbc, size 0x8, virtual true, abstract: false, final false
   inline void set_LookupTable(::Org::BouncyCastle::Math::EC::ECLookupTable* value);
 
-  /// @brief Method set_Offset, addr 0x350b604, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Offset, addr 0x3509bcc, size 0x8, virtual true, abstract: false, final false
   inline void set_Offset(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method set_Width, addr 0x350b614, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Width, addr 0x3509bdc, size 0x8, virtual true, abstract: false, final false
   inline void set_Width(int32_t value);
 
 protected:

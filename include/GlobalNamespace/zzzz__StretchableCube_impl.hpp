@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StretchableCube::*)()>(&::GlobalNamespace::StretchableCube::Awake)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x58dd7d0;
+  constexpr static std::size_t addrs = 0x58dbca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StretchableCube*>(), { "Awake", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StretchableCube::*)()>(&::GlobalNamespace::StretchableCube::OnDestroy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58dd98c;
+  constexpr static std::size_t addrs = 0x58dbe64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StretchableCube*>(), { "OnDestroy", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::GlobalNamespace::StretchableCube::*)()>(&::GlobalNamespace::StretchableCube::CreateBox)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x58dd844;
+  constexpr static std::size_t addrs = 0x58dbd1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StretchableCube*>(), { "CreateBox", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StretchableCube::*)(::ArrayW<::UnityEngine::Vector2>)>(&::GlobalNamespace::StretchableCube::RecalculateUVs)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x58dd998;
+  constexpr static std::size_t addrs = 0x58dbe70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StretchableCube::*)()>(&::GlobalNamespace::StretchableCube::RefreshUVs)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x58ddb8c;
+  constexpr static std::size_t addrs = 0x58dc064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StretchableCube*>(), { "RefreshUVs", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StretchableCube::*)()>(&::GlobalNamespace::StretchableCube::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58ddc24;
+  constexpr static std::size_t addrs = 0x58dc0fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StretchableCube*>(), { ".ctor", {}, {} })));

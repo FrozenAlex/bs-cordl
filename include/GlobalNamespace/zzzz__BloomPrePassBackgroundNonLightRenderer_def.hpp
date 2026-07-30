@@ -48,21 +48,21 @@ public:
 
   __declspec(property(get = get_renderer)) ::UnityW<::UnityEngine::Renderer> renderer;
 
-  /// @brief Method Awake, addr 0x5863ac4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x5861fc0, size 0x2c, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded, addr 0x5863b4c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x5862048, size 0xcc, virtual true, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x5863afc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5861ff8, size 0x10, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x5863b10, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x586200c, size 0x34, virtual true, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetRenderer, addr 0x5863b44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetRenderer, addr 0x5862040, size 0x8, virtual false, abstract: false, final false
   inline void SetRenderer(::UnityEngine::Renderer* renderer);
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__cachedTransform() const;
@@ -89,19 +89,19 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  /// @brief Method .ctor, addr 0x5863cdc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58621d8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cachedTransform, addr 0x5863abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cachedTransform, addr 0x5861fb8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_cachedTransform();
 
-  /// @brief Method get_meshFilter, addr 0x5863ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_meshFilter, addr 0x5861fb0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::MeshFilter> get_meshFilter();
 
-  /// @brief Method get_renderer, addr 0x5863aac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x5861fa8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
-  /// @brief Method set_isPartOfInstancedRendering, addr 0x5862ef8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_isPartOfInstancedRendering, addr 0x58613f4, size 0x34, virtual false, abstract: false, final false
   inline void set_isPartOfInstancedRendering(bool value);
 
 protected:
@@ -119,7 +119,7 @@ public:
   BloomPrePassBackgroundNonLightRenderer(BloomPrePassBackgroundNonLightRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19587 };
 
   /// @brief Field _renderer, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Renderer> ____renderer;

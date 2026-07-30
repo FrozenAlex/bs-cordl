@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarHeadOffset::*)()>(&::BeatSaber::AvatarCore::AvatarHeadOffset::Start)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x326a73c;
+  constexpr static std::size_t addrs = 0x32679fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarHeadOffset*>(), { "Start", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarHeadOffset::*)()>(&::BeatSaber::AvatarCore::AvatarHeadOffset::OnDestroy)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x326a888;
+  constexpr static std::size_t addrs = 0x3267b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarHeadOffset*>(), { "OnDestroy", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarHeadOffset::*)(::UnityEngine::Vector3)>(
     &::BeatSaber::AvatarCore::AvatarHeadOffset::HandleMultiplayerAvatarPoseControllerDidUpdatePose)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x326aa58;
+  constexpr static std::size_t addrs = 0x3267d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarHeadOffset::*)()>(&::BeatSaber::AvatarCore::AvatarHeadOffset::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x326aaac;
+  constexpr static std::size_t addrs = 0x3267d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarHeadOffset*>(), { ".ctor", {}, {} })));

@@ -22,10 +22,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRMixedRealityCaptureConfigurationExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ApplyTo, addr 0x5f004a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ApplyTo, addr 0x5efe20c, size 0x4, virtual false, abstract: false, final false
   static inline void ApplyTo(::GlobalNamespace::OVRMixedRealityCaptureConfiguration* dest, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* source);
 
-  /// @brief Method ReadFrom, addr 0x5f004a4, size 0x142c, virtual false, abstract: false, final false
+  /// @brief Method ReadFrom, addr 0x5efe210, size 0x142c, virtual false, abstract: false, final false
   static inline void ReadFrom(::GlobalNamespace::OVRMixedRealityCaptureConfiguration* dest, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* source);
 
 protected:

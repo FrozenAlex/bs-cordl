@@ -39,28 +39,28 @@ namespace System {
 struct CORDL_TYPE DateTimeResult {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x5c3e518, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5c3c284, size 0x24, virtual false, abstract: false, final false
   inline void Init(::System::ReadOnlySpan_1<char16_t> originalDateTimeString);
 
-  /// @brief Method SetBadDateTimeFailure, addr 0x5c3e630, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetBadDateTimeFailure, addr 0x5c3c39c, size 0x54, virtual false, abstract: false, final false
   inline void SetBadDateTimeFailure();
 
-  /// @brief Method SetBadFormatSpecifierFailure, addr 0x5c3e548, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetBadFormatSpecifierFailure, addr 0x5c3c2b4, size 0x80, virtual false, abstract: false, final false
   inline void SetBadFormatSpecifierFailure();
 
-  /// @brief Method SetBadFormatSpecifierFailure, addr 0x5c3e5c8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetBadFormatSpecifierFailure, addr 0x5c3c334, size 0x68, virtual false, abstract: false, final false
   inline void SetBadFormatSpecifierFailure(::System::ReadOnlySpan_1<char16_t> failedFormatSpecifier);
 
-  /// @brief Method SetDate, addr 0x5c3e53c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetDate, addr 0x5c3c2a8, size 0xc, virtual false, abstract: false, final false
   inline void SetDate(int32_t year, int32_t month, int32_t day);
 
-  /// @brief Method SetFailure, addr 0x5c3e684, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x5c3c3f0, size 0xc, virtual false, abstract: false, final false
   inline void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID);
 
-  /// @brief Method SetFailure, addr 0x5c3e690, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x5c3c3fc, size 0xc, virtual false, abstract: false, final false
   inline void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument);
 
-  /// @brief Method SetFailure, addr 0x5c3e69c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x5c3c408, size 0x10, virtual false, abstract: false, final false
   inline void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument, ::StringW failureArgumentName);
 
   // Ctor Parameters []

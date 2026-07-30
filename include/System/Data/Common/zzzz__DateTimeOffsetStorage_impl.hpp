@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DateTimeOffsetStorage::*)(::System::Data::DataColumn*)>(&::System::Data::Common::DateTimeOffsetStorage::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x60a10a4;
+  constexpr static std::size_t addrs = 0x609ee40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DateTimeOffsetStorage::*)(::ArrayW<int32_t>, ::System::Data::AggregateType)>(
     &::System::Data::Common::DateTimeOffsetStorage::Aggregate)> {
   constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x60a2f64;
+  constexpr static std::size_t addrs = 0x60a0d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Common::DateTimeOffsetStorage::*)(int32_t, int32_t)>(&::System::Data::Common::DateTimeOffsetStorage::Compare)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x60a3440;
+  constexpr static std::size_t addrs = 0x60a11dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Common::DateTimeOffsetStorage::*)(int32_t, ::System::Object*)>(
     &::System::Data::Common::DateTimeOffsetStorage::CompareValueTo)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x60a35e4;
+  constexpr static std::size_t addrs = 0x60a1380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DateTimeOffsetStorage::*)(::System::Object*)>(
     &::System::Data::Common::DateTimeOffsetStorage::ConvertValue)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x60a3764;
+  constexpr static std::size_t addrs = 0x60a1500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DateTimeOffsetStorage::*)(int32_t, int32_t)>(&::System::Data::Common::DateTimeOffsetStorage::Copy)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x60a3814;
+  constexpr static std::size_t addrs = 0x60a15b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DateTimeOffsetStorage::*)(int32_t)>(&::System::Data::Common::DateTimeOffsetStorage::Get)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x60a3868;
+  constexpr static std::size_t addrs = 0x60a1604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DateTimeOffsetStorage::*)(int32_t, ::System::Object*)>(&::System::Data::Common::DateTimeOffsetStorage::Set)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x60a3978;
+  constexpr static std::size_t addrs = 0x60a1714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DateTimeOffsetStorage::*)(int32_t)>(&::System::Data::Common::DateTimeOffsetStorage::SetCapacity)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x60a3a9c;
+  constexpr static std::size_t addrs = 0x60a1838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DateTimeOffsetStorage::*)(::StringW)>(
     &::System::Data::Common::DateTimeOffsetStorage::ConvertXmlToObject)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x60a3b5c;
+  constexpr static std::size_t addrs = 0x60a18f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::Common::DateTimeOffsetStorage::*)(::System::Object*)>(
     &::System::Data::Common::DateTimeOffsetStorage::ConvertObjectToXml)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x60a3bf0;
+  constexpr static std::size_t addrs = 0x60a198c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::DateTimeOffsetStorage::*)(int32_t)>(
     &::System::Data::Common::DateTimeOffsetStorage::GetEmptyStorage)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x60a3c8c;
+  constexpr static std::size_t addrs = 0x60a1a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DateTimeOffsetStorage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(
     &::System::Data::Common::DateTimeOffsetStorage::CopyValue)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x60a3cd8;
+  constexpr static std::size_t addrs = 0x60a1a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::DateTimeOffsetStorage::*)(::System::Object*, ::System::Collections::BitArray*)>(
     &::System::Data::Common::DateTimeOffsetStorage::SetStorage)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x60a3de0;
+  constexpr static std::size_t addrs = 0x60a1b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

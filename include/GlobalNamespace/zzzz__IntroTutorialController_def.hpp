@@ -91,21 +91,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x59f1368, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x59efa5c, size 0x14c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59f14b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x59efba8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59f14bc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x59efbb0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59f14f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x59efbe8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x59f1364, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x59efa58, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -132,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set__elapsedTime_5__2(float_t value);
 
-  /// @brief Method .ctor, addr 0x59f12ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ef9e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -235,33 +235,33 @@ public:
   /// @brief Field introTutorialDidFinishEvent, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_introTutorialDidFinishEvent, put = __cordl_internal_set_introTutorialDidFinishEvent)) ::System::Action* introTutorialDidFinishEvent;
 
-  /// @brief Method CleanUp, addr 0x59f0f0c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method CleanUp, addr 0x59ef600, size 0x1e4, virtual false, abstract: false, final false
   inline void CleanUp();
 
-  /// @brief Method HandleGameDidPause, addr 0x59f11f0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleGameDidPause, addr 0x59ef8e4, size 0x70, virtual false, abstract: false, final false
   inline void HandleGameDidPause();
 
-  /// @brief Method HandleGameDidResume, addr 0x59f1260, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleGameDidResume, addr 0x59ef954, size 0x38, virtual false, abstract: false, final false
   inline void HandleGameDidResume();
 
   static inline ::GlobalNamespace::IntroTutorialController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59f0f08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59ef5fc, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetFinishAnimationParams, addr 0x59f12f4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetFinishAnimationParams, addr 0x59ef9e8, size 0x6c, virtual false, abstract: false, final false
   inline void SetFinishAnimationParams(float_t progress);
 
-  /// @brief Method ShowFinishAnimation, addr 0x59f1178, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ShowFinishAnimation, addr 0x59ef86c, size 0x78, virtual false, abstract: false, final false
   inline void ShowFinishAnimation();
 
-  /// @brief Method ShowFinishAnimationCoroutine, addr 0x59f1298, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ShowFinishAnimationCoroutine, addr 0x59ef98c, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ShowFinishAnimationCoroutine();
 
-  /// @brief Method Start, addr 0x59f0d6c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59ef460, size 0x19c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x59f10f0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59ef7e4, size 0x88, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::BloomFogParamsAnimator> const& __cordl_internal_get__bloomFogAnimator() const;
@@ -342,13 +342,13 @@ public:
 
   constexpr void __cordl_internal_set_introTutorialDidFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x59f1360, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59efa54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_introTutorialDidFinishEvent, addr 0x59f0c14, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_introTutorialDidFinishEvent, addr 0x59ef308, size 0xac, virtual false, abstract: false, final false
   inline void add_introTutorialDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_introTutorialDidFinishEvent, addr 0x59f0cc0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_introTutorialDidFinishEvent, addr 0x59ef3b4, size 0xac, virtual false, abstract: false, final false
   inline void remove_introTutorialDidFinishEvent(::System::Action* value);
 
 protected:

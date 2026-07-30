@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::MeshCollider::*)()>(&::UnityEngine::MeshCollider::get_sharedMesh)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6b8f2c4;
+  constexpr static std::size_t addrs = 0x6b8acc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MeshCollider*>(), { "get_sharedMesh", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::MeshCollider::*)(::UnityEngine::Mesh*)>(&::UnityEngine::MeshCollider::set_sharedMesh)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6b8f450;
+  constexpr static std::size_t addrs = 0x6b8ae54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::MeshCollider::*)()>(&::UnityEngine::MeshCollider::get_convex)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b8f554;
+  constexpr static std::size_t addrs = 0x6b8af58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MeshCollider*>(), { "get_convex", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::MeshCollider::*)(bool)>(&::UnityEngine::MeshCollider::set_convex)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b8f610;
+  constexpr static std::size_t addrs = 0x6b8b014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MeshCollider*>(), { "set_convex", {}, { ::i2c::type_of<bool>() } })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::MeshColliderCookingOptions (::UnityEngine::MeshCollider::*)()>(&::UnityEngine::MeshCollider::get_cookingOptions)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b8f6e4;
+  constexpr static std::size_t addrs = 0x6b8b0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MeshCollider*>(), { "get_cookingOptions", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::MeshCollider::*)(::UnityEngine::MeshColliderCookingOptions)>(&::UnityEngine::MeshCollider::set_cookingOptions)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b8f7a0;
+  constexpr static std::size_t addrs = 0x6b8b1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::MeshCollider::*)()>(&::UnityEngine::MeshCollider::get_smoothSphereCollisions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b8f874;
+  constexpr static std::size_t addrs = 0x6b8b278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MeshCollider*>(), { "get_smoothSphereCollisions", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::MeshCollider::*)(bool)>(&::UnityEngine::MeshCollider::set_smoothSphereCollisions)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b8f87c;
+  constexpr static std::size_t addrs = 0x6b8b280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::MeshCollider::*)()>(&::UnityEngine::MeshCollider::get_skinWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b8f880;
+  constexpr static std::size_t addrs = 0x6b8b284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MeshCollider*>(), { "get_skinWidth", {}, {} })));
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::MeshCollider::*)(float_t)>(&::UnityEngine::MeshCollider::set_skinWidth)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b8f888;
+  constexpr static std::size_t addrs = 0x6b8b28c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MeshCollider*>(), { "set_skinWidth", {}, { ::i2c::type_of<float_t>() } })));
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::MeshCollider::*)()>(&::UnityEngine::MeshCollider::get_inflateMesh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b8f88c;
+  constexpr static std::size_t addrs = 0x6b8b290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MeshCollider*>(), { "get_inflateMesh", {}, {} })));
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::MeshCollider::*)(bool)>(&::UnityEngine::MeshCollider::set_inflateMesh)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b8f894;
+  constexpr static std::size_t addrs = 0x6b8b298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MeshCollider*>(), { "set_inflateMesh", {}, { ::i2c::type_of<bool>() } })));
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::MeshCollider::*)()>(&::UnityEngine::MeshCollider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b8f898;
+  constexpr static std::size_t addrs = 0x6b8b29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::MeshCollider*>(), { ".ctor", {}, {} })));
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::MeshCollider::get_sharedMesh_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b8f414;
+  constexpr static std::size_t addrs = 0x6b8ae18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::MeshCollider::set_sharedMesh_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b8f510;
+  constexpr static std::size_t addrs = 0x6b8af14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::MeshCollider::get_convex_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b8f5d4;
+  constexpr static std::size_t addrs = 0x6b8afd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::MeshCollider::set_convex_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b8f6a0;
+  constexpr static std::size_t addrs = 0x6b8b0a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::MeshColliderCookingOptions (*)(::System::IntPtr)>(&::UnityEngine::MeshCollider::get_cookingOptions_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b8f764;
+  constexpr static std::size_t addrs = 0x6b8b168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::MeshColliderCookingOptions)>(&::UnityEngine::MeshCollider::set_cookingOptions_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b8f830;
+  constexpr static std::size_t addrs = 0x6b8b234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_ThreefishCipher::*)(::ArrayW<uint64_t>, ::ArrayW<uint64_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_ThreefishCipher::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33c7ea4;
+  constexpr static std::size_t addrs = 0x33c646c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_ThreefishCipher*>(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish256Cipher::*)(::ArrayW<uint64_t>, ::ArrayW<uint64_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish256Cipher::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33c72c0;
+  constexpr static std::size_t addrs = 0x33c5888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish256Cipher*>(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish256Cipher::*)(::ArrayW<uint64_t>, ::ArrayW<uint64_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish256Cipher::EncryptBlock)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x33c7eac;
+  constexpr static std::size_t addrs = 0x33c6474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish256Cipher*>(),
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish256Cipher::*)(::ArrayW<uint64_t>, ::ArrayW<uint64_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish256Cipher::DecryptBlock)> {
   constexpr static std::size_t size = 0x438;
-  constexpr static std::size_t addrs = 0x33c8258;
+  constexpr static std::size_t addrs = 0x33c6820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish256Cipher*>(),
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish512Cipher::*)(::ArrayW<uint64_t>, ::ArrayW<uint64_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish512Cipher::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33c72c8;
+  constexpr static std::size_t addrs = 0x33c5890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish512Cipher*>(),
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish512Cipher::*)(::ArrayW<uint64_t>, ::ArrayW<uint64_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish512Cipher::EncryptBlock)> {
   constexpr static std::size_t size = 0x570;
-  constexpr static std::size_t addrs = 0x33c8690;
+  constexpr static std::size_t addrs = 0x33c6c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish512Cipher*>(),
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish512Cipher::*)(::ArrayW<uint64_t>, ::ArrayW<uint64_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish512Cipher::DecryptBlock)> {
   constexpr static std::size_t size = 0x6a8;
-  constexpr static std::size_t addrs = 0x33c8c00;
+  constexpr static std::size_t addrs = 0x33c71c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish512Cipher*>(),
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish1024Cipher::*)(::ArrayW<uint64_t>, ::ArrayW<uint64_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish1024Cipher::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33c72d0;
+  constexpr static std::size_t addrs = 0x33c5898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish1024Cipher*>(),
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish1024Cipher::*)(::ArrayW<uint64_t>, ::ArrayW<uint64_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish1024Cipher::EncryptBlock)> {
   constexpr static std::size_t size = 0x974;
-  constexpr static std::size_t addrs = 0x33c92a8;
+  constexpr static std::size_t addrs = 0x33c7870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish1024Cipher*>(),
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish1024Cipher::*)(::ArrayW<uint64_t>, ::ArrayW<uint64_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish1024Cipher::DecryptBlock)> {
   constexpr static std::size_t size = 0xc0c;
-  constexpr static std::size_t addrs = 0x33c9c1c;
+  constexpr static std::size_t addrs = 0x33c81e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish1024Cipher*>(),
@@ -287,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)(int32_t)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::_ctor)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x33c7144;
+  constexpr static std::size_t addrs = 0x33c570c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Init)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x33c72d8;
+  constexpr static std::size_t addrs = 0x33c58a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine*>(),
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)(bool, ::ArrayW<uint64_t>, ::ArrayW<uint64_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Init)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x33c7710;
+  constexpr static std::size_t addrs = 0x33c5cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)(::ArrayW<uint64_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::SetKey)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x33c7758;
+  constexpr static std::size_t addrs = 0x33c5d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)(::ArrayW<uint64_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::SetTweak)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x33c78b4;
+  constexpr static std::size_t addrs = 0x33c5e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x33c79c4;
+  constexpr static std::size_t addrs = 0x33c5f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine*>(),
@@ -372,7 +372,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::get_IsPartialBlockOkay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33c7a3c;
+  constexpr static std::size_t addrs = 0x33c6004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine*>(),
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)()>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::GetBlockSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33c7a44;
+  constexpr static std::size_t addrs = 0x33c600c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine*>(),
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)()>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x33c7a4c;
+  constexpr static std::size_t addrs = 0x33c6014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine*>(),
@@ -412,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)(::ArrayW<uint8_t>, int32_t, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ProcessBlock)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x33c7a50;
+  constexpr static std::size_t addrs = 0x33c6018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine*>(),
@@ -426,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)(::ArrayW<uint64_t>, ::ArrayW<uint64_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ProcessBlock)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x33c7c20;
+  constexpr static std::size_t addrs = 0x33c61e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine*>(),
@@ -439,7 +439,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::ArrayW<uint8_t>, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::BytesToWord)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x33c7618;
+  constexpr static std::size_t addrs = 0x33c5be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine*>(),
@@ -452,7 +452,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, ::ArrayW<uint8_t>, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::WordToBytes)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x33c7d58;
+  constexpr static std::size_t addrs = 0x33c6320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -466,7 +466,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, int32_t, uint64_t)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::RotlXor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x33c7e88;
+  constexpr static std::size_t addrs = 0x33c6450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine*>(),
@@ -479,7 +479,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, int32_t, uint64_t)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::XorRotr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x33c7e98;
+  constexpr static std::size_t addrs = 0x33c6460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine*>(),

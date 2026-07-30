@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(::System::Action_1<::GlobalNamespace::MenuDestination*>*)>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::add_didSendMenuDestinationRequestEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x597ba1c;
+  constexpr static std::size_t addrs = 0x597a7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(::System::Action_1<::GlobalNamespace::MenuDestination*>*)>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::remove_didSendMenuDestinationRequestEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x597badc;
+  constexpr static std::size_t addrs = 0x597a888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MenuDestination* (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::get_currentMenuDestinationRequest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x597bb9c;
+  constexpr static std::size_t addrs = 0x597a948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(::GlobalNamespace::MenuDestination*)>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::set_currentMenuDestinationRequest)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x597bba4;
+  constexpr static std::size_t addrs = 0x597a950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*>(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(::GlobalNamespace::IDeeplinkManager*)>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::Init)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x597bbc4;
+  constexpr static std::size_t addrs = 0x597a970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*>(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::Clear)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x597c434;
+  constexpr static std::size_t addrs = 0x597b1e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(::GlobalNamespace::Deeplink*)>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::HandleDeeplinkManagerDidReceiveDeeplink)> {
   constexpr static std::size_t size = 0x69c;
-  constexpr static std::size_t addrs = 0x597bd98;
+  constexpr static std::size_t addrs = 0x597ab44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*>(),
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(
     &::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x597c43c;
+  constexpr static std::size_t addrs = 0x597b1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

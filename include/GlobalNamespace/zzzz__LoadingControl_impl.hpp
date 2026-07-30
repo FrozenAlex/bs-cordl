@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LoadingControl::*)(::System::Action*)>(&::GlobalNamespace::LoadingControl::add_didPressRefreshButtonEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59fcc80;
+  constexpr static std::size_t addrs = 0x59fb0ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LoadingControl::*)(::System::Action*)>(&::GlobalNamespace::LoadingControl::remove_didPressRefreshButtonEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59fcd2c;
+  constexpr static std::size_t addrs = 0x59fb158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LoadingControl::*)()>(&::GlobalNamespace::LoadingControl::get_isLoading)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59fcdd8;
+  constexpr static std::size_t addrs = 0x59fb204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LoadingControl*>(), { "get_isLoading", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LoadingControl::*)()>(&::GlobalNamespace::LoadingControl::Awake)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x59fcdf0;
+  constexpr static std::size_t addrs = 0x59fb21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LoadingControl*>(), { "Awake", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LoadingControl::*)()>(&::GlobalNamespace::LoadingControl::OnDestroy)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59fceb8;
+  constexpr static std::size_t addrs = 0x59fb2e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LoadingControl*>(), { "OnDestroy", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LoadingControl::*)(::StringW)>(&::GlobalNamespace::LoadingControl::ShowLoading)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x59fced0;
+  constexpr static std::size_t addrs = 0x59fb2fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LoadingControl::*)(::StringW, bool)>(&::GlobalNamespace::LoadingControl::ShowText)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x59fcf5c;
+  constexpr static std::size_t addrs = 0x59fb388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LoadingControl::*)(::StringW, float_t)>(&::GlobalNamespace::LoadingControl::ShowDownloadingProgress)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59fd00c;
+  constexpr static std::size_t addrs = 0x59fb438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LoadingControl::*)()>(&::GlobalNamespace::LoadingControl::Hide)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x59fd0b8;
+  constexpr static std::size_t addrs = 0x59fb4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LoadingControl*>(), { "Hide", {}, {} })));
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LoadingControl::*)()>(&::GlobalNamespace::LoadingControl::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59fd0dc;
+  constexpr static std::size_t addrs = 0x59fb508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LoadingControl*>(), { ".ctor", {}, {} })));
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LoadingControl::*)()>(&::GlobalNamespace::LoadingControl::_Awake_b__14_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x59fd0e0;
+  constexpr static std::size_t addrs = 0x59fb50c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LoadingControl*>(), { "<Awake>b__14_0", {}, {} })));

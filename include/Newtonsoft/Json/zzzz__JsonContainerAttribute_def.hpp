@@ -180,82 +180,82 @@ public:
 
   constexpr void __cordl_internal_set__namingStrategyType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x5cd0f1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ccec88, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5cd0f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ccec9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
-  /// @brief Method get_Description, addr 0x5cd0f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Description, addr 0x5ccecc8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Description();
 
-  /// @brief Method get_Id, addr 0x5cd0f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x5cceca8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method get_IsReference, addr 0x5cd0fc4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_IsReference, addr 0x5cced30, size 0x44, virtual false, abstract: false, final false
   inline bool get_IsReference();
 
-  /// @brief Method get_ItemConverterParameters, addr 0x5cd0f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemConverterParameters, addr 0x5ccece8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*> get_ItemConverterParameters();
 
-  /// @brief Method get_ItemConverterType, addr 0x5cd0f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemConverterType, addr 0x5ccecd8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ItemConverterType();
 
-  /// @brief Method get_ItemIsReference, addr 0x5cd1064, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_ItemIsReference, addr 0x5ccedd0, size 0x44, virtual false, abstract: false, final false
   inline bool get_ItemIsReference();
 
-  /// @brief Method get_ItemReferenceLoopHandling, addr 0x5cd1104, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_ItemReferenceLoopHandling, addr 0x5ccee70, size 0x44, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::ReferenceLoopHandling get_ItemReferenceLoopHandling();
 
-  /// @brief Method get_ItemTypeNameHandling, addr 0x5cd11a0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_ItemTypeNameHandling, addr 0x5ccef0c, size 0x44, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::TypeNameHandling get_ItemTypeNameHandling();
 
-  /// @brief Method get_NamingStrategyInstance, addr 0x5cd0fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NamingStrategyInstance, addr 0x5cced20, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::NamingStrategy* get_NamingStrategyInstance();
 
-  /// @brief Method get_NamingStrategyParameters, addr 0x5cd0fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NamingStrategyParameters, addr 0x5cced0c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*> get_NamingStrategyParameters();
 
-  /// @brief Method get_NamingStrategyType, addr 0x5cd0f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NamingStrategyType, addr 0x5ccecf8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_NamingStrategyType();
 
-  /// @brief Method get_Title, addr 0x5cd0f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Title, addr 0x5ccecb8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Title();
 
-  /// @brief Method set_Description, addr 0x5cd0f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Description, addr 0x5ccecd0, size 0x8, virtual false, abstract: false, final false
   inline void set_Description(::StringW value);
 
-  /// @brief Method set_Id, addr 0x5cd0f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x5ccecb0, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
-  /// @brief Method set_IsReference, addr 0x5cd1008, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_IsReference, addr 0x5cced74, size 0x5c, virtual false, abstract: false, final false
   inline void set_IsReference(bool value);
 
-  /// @brief Method set_ItemConverterParameters, addr 0x5cd0f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemConverterParameters, addr 0x5ccecf0, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemConverterParameters(::ArrayW<::System::Object*> value);
 
-  /// @brief Method set_ItemConverterType, addr 0x5cd0f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemConverterType, addr 0x5ccece0, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemConverterType(::System::Type* value);
 
-  /// @brief Method set_ItemIsReference, addr 0x5cd10a8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_ItemIsReference, addr 0x5ccee14, size 0x5c, virtual false, abstract: false, final false
   inline void set_ItemIsReference(bool value);
 
-  /// @brief Method set_ItemReferenceLoopHandling, addr 0x5cd1148, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_ItemReferenceLoopHandling, addr 0x5cceeb4, size 0x58, virtual false, abstract: false, final false
   inline void set_ItemReferenceLoopHandling(::Newtonsoft::Json::ReferenceLoopHandling value);
 
-  /// @brief Method set_ItemTypeNameHandling, addr 0x5cd11e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_ItemTypeNameHandling, addr 0x5ccef50, size 0x58, virtual false, abstract: false, final false
   inline void set_ItemTypeNameHandling(::Newtonsoft::Json::TypeNameHandling value);
 
-  /// @brief Method set_NamingStrategyInstance, addr 0x5cd0fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NamingStrategyInstance, addr 0x5cced28, size 0x8, virtual false, abstract: false, final false
   inline void set_NamingStrategyInstance(::Newtonsoft::Json::Serialization::NamingStrategy* value);
 
-  /// @brief Method set_NamingStrategyParameters, addr 0x5cd0fa8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_NamingStrategyParameters, addr 0x5cced14, size 0xc, virtual false, abstract: false, final false
   inline void set_NamingStrategyParameters(::ArrayW<::System::Object*> value);
 
-  /// @brief Method set_NamingStrategyType, addr 0x5cd0f94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_NamingStrategyType, addr 0x5cced00, size 0xc, virtual false, abstract: false, final false
   inline void set_NamingStrategyType(::System::Type* value);
 
-  /// @brief Method set_Title, addr 0x5cd0f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Title, addr 0x5ccecc0, size 0x8, virtual false, abstract: false, final false
   inline void set_Title(::StringW value);
 
 protected:
@@ -273,7 +273,7 @@ public:
   JsonContainerAttribute(JsonContainerAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13218 };
 
   /// @brief Field <Id>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Id_k__BackingField;

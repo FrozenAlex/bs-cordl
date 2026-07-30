@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLoader___c::*)()>(&::GlobalNamespace::PlatformLoader___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3773bdc;
+  constexpr static std::size_t addrs = 0x3772700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLoader___c*>(), { ".ctor", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PlatformLoader___c::*)(::GlobalNamespace::AchievementSO*)>(
     &::GlobalNamespace::PlatformLoader___c::_GetPlatformInitParams_b__12_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3773be0;
+  constexpr static std::size_t addrs = 0x3772704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLoader___c*>(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLoader__InitializeAnalyticsEventsDispatcherAsync_d__15::*)()>(
     &::GlobalNamespace::PlatformLoader__InitializeAnalyticsEventsDispatcherAsync_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x3773bf4;
+  constexpr static std::size_t addrs = 0x3772718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLoader__InitializeAnalyticsEventsDispatcherAsync_d__15::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::PlatformLoader__InitializeAnalyticsEventsDispatcherAsync_d__15::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3773f68;
+  constexpr static std::size_t addrs = 0x3772a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLoader__InitializeAnalyticsEventsDispatcherAsync_d__15>(),
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLoader__InitializeMockedPlatformAsync_d__13::*)()>(
     &::GlobalNamespace::PlatformLoader__InitializeMockedPlatformAsync_d__13::MoveNext)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x3773fd4;
+  constexpr static std::size_t addrs = 0x3772af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLoader__InitializeMockedPlatformAsync_d__13::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::PlatformLoader__InitializeMockedPlatformAsync_d__13::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x37742f4;
+  constexpr static std::size_t addrs = 0x3772e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLoader__InitializeMockedPlatformAsync_d__13>(),
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLoader__InitializePlatformAsync_d__11::*)()>(
     &::GlobalNamespace::PlatformLoader__InitializePlatformAsync_d__11::MoveNext)> {
   constexpr static std::size_t size = 0x588;
-  constexpr static std::size_t addrs = 0x3774360;
+  constexpr static std::size_t addrs = 0x3772e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLoader__InitializePlatformAsync_d__11::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::PlatformLoader__InitializePlatformAsync_d__11::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x37748e8;
+  constexpr static std::size_t addrs = 0x377340c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLoader__InitializePlatformAsync_d__11>(),
@@ -274,7 +274,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLoader__LoadInternalAsync_d__10::*)()>(&::GlobalNamespace::PlatformLoader__LoadInternalAsync_d__10::MoveNext)> {
   constexpr static std::size_t size = 0x550;
-  constexpr static std::size_t addrs = 0x3774954;
+  constexpr static std::size_t addrs = 0x3773478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLoader__LoadInternalAsync_d__10>(), { "MoveNext", {}, {} })));
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLoader__LoadInternalAsync_d__10::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::PlatformLoader__LoadInternalAsync_d__10::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3774ea4;
+  constexpr static std::size_t addrs = 0x37739c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLoader__LoadInternalAsync_d__10>(),
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep (::GlobalNamespace::PlatformLoader::*)()>(
     &::GlobalNamespace::PlatformLoader::get_synchronizationStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37734b4;
+  constexpr static std::size_t addrs = 0x3771fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -353,7 +353,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
                                                                                                                                 ::Zenject::DiContainer*, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::PlatformLoader::LoadInternalAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x37734bc;
+  constexpr static std::size_t addrs = 0x3771fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PlatformLoader::*)(bool, ::Zenject::DiContainer*)>(
     &::GlobalNamespace::PlatformLoader::InitializePlatformAsync)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3773584;
+  constexpr static std::size_t addrs = 0x37720a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLoader*>(),
@@ -381,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::Platform::Core::PlatformInitParams* (::GlobalNamespace::PlatformLoader::*)()>(
     &::GlobalNamespace::PlatformLoader::GetPlatformInitParams)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x3773654;
+  constexpr static std::size_t addrs = 0x3772178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLoader*>(), { "GetPlatformInitParams", {}, {} })));
@@ -393,7 +393,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PlatformLoader::*)()>(&::GlobalNamespace::PlatformLoader::InitializeMockedPlatformAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x37738ec;
+  constexpr static std::size_t addrs = 0x3772410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLoader*>(), { "InitializeMockedPlatformAsync", {}, {} })));
@@ -405,7 +405,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::OSCE::Analytics::AnalyticsManager> (*)()>(&::GlobalNamespace::PlatformLoader::FindOrCreateAnalyticsManager)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x377399c;
+  constexpr static std::size_t addrs = 0x37724c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLoader*>(), { "FindOrCreateAnalyticsManager", {}, {} })));
@@ -419,7 +419,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task* (*)(::Analytics::Model::TelemetryModel*, ::OculusStudios::Platform::Core::IPlatform*, ::OSCE::Analytics::AnalyticsManager*)>(
         &::GlobalNamespace::PlatformLoader::InitializeAnalyticsEventsDispatcherAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3773ac0;
+  constexpr static std::size_t addrs = 0x37725e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -436,7 +436,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformLoader::*)()>(&::GlobalNamespace::PlatformLoader::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3773b84;
+  constexpr static std::size_t addrs = 0x37726a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformLoader*>(), { ".ctor", {}, {} })));

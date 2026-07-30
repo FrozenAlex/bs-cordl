@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Haptics::HapticPresetSO::*)()>(&::BeatSaber::Haptics::HapticPresetSO::get_hasPS5HapticsClip)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3298500;
+  constexpr static std::size_t addrs = 0x32957ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::HapticPresetSO*>(), { "get_hasPS5HapticsClip", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Haptics::HapticPresetSO::*)()>(&::BeatSaber::Haptics::HapticPresetSO::get_hasOculusHapticsClip)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x32972a8;
+  constexpr static std::size_t addrs = 0x3294594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::HapticPresetSO*>(), { "get_hasOculusHapticsClip", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Haptics::HapticPresetSO::*)()>(&::BeatSaber::Haptics::HapticPresetSO::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x32985e4;
+  constexpr static std::size_t addrs = 0x32958d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Haptics::HapticPresetSO*>(), { ".ctor", {}, {} })));

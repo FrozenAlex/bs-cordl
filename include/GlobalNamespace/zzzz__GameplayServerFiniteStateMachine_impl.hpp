@@ -20,7 +20,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::BGNet::Core::ITaskUtility*, ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*, ::StringW, ::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration,
     ::GlobalNamespace::IServerBeatmapProvider*)>(&::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x32b147c;
+  constexpr static std::size_t addrs = 0x32aee08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGNet::Core::ITaskUtility* (::GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::get_taskUtility)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b009c;
+  constexpr static std::size_t addrs = 0x32ada28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayServerFiniteStateMachine*>(), { "get_taskUtility", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayServerFiniteStateMachine::*)(::BGNet::Core::ITaskUtility*)>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::set_taskUtility)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b00a4;
+  constexpr static std::size_t addrs = 0x32ada30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IBeatSaberMultiplayerSessionManager* (::GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::get_multiplayerSessionManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b00ac;
+  constexpr static std::size_t addrs = 0x32ada38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayServerFiniteStateMachine::*)(::GlobalNamespace::IBeatSaberMultiplayerSessionManager*)>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::set_multiplayerSessionManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b00b4;
+  constexpr static std::size_t addrs = 0x32ada40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(&::GlobalNamespace::GameplayServerFiniteStateMachine::get_ownerUserId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b00bc;
+  constexpr static std::size_t addrs = 0x32ada48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayServerFiniteStateMachine*>(), { "get_ownerUserId", {}, {} })));
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayServerFiniteStateMachine::*)(::StringW)>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::set_ownerUserId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b00c4;
+  constexpr static std::size_t addrs = 0x32ada50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapLevelSelectionMask (::GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::get_selectionMask)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x32b00cc;
+  constexpr static std::size_t addrs = 0x32ada58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayServerFiniteStateMachine*>(), { "get_selectionMask", {}, {} })));
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayServerFiniteStateMachine::*)(::GlobalNamespace::BeatmapLevelSelectionMask)>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::set_selectionMask)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x32b00e4;
+  constexpr static std::size_t addrs = 0x32ada70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayServerFiniteStateMachine*>(),
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameplayServerConfiguration (::GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::get_configuration)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x32b00fc;
+  constexpr static std::size_t addrs = 0x32ada88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayServerFiniteStateMachine*>(), { "get_configuration", {}, {} })));
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayServerFiniteStateMachine::*)(::GlobalNamespace::GameplayServerConfiguration)>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::set_configuration)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x32b0110;
+  constexpr static std::size_t addrs = 0x32ada9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayServerFiniteStateMachine*>(),
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IServerBeatmapProvider* (::GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::get_beatmapProvider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b0124;
+  constexpr static std::size_t addrs = 0x32adab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayServerFiniteStateMachine::*)(::GlobalNamespace::IServerBeatmapProvider*)>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::set_beatmapProvider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b012c;
+  constexpr static std::size_t addrs = 0x32adab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayServerFiniteStateMachine*>(),
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MenuRpcManager* (::GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::get_menuRpcManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b0134;
+  constexpr static std::size_t addrs = 0x32adac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayServerFiniteStateMachine*>(), { "get_menuRpcManager", {}, {} })));
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayServerFiniteStateMachine::*)(::GlobalNamespace::MenuRpcManager*)>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::set_menuRpcManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b013c;
+  constexpr static std::size_t addrs = 0x32adac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayServerFiniteStateMachine*>(),
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameplayRpcManager* (::GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::get_gameplayRpcManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b0144;
+  constexpr static std::size_t addrs = 0x32adad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayServerFiniteStateMachine::*)(::GlobalNamespace::GameplayRpcManager*)>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::set_gameplayRpcManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b014c;
+  constexpr static std::size_t addrs = 0x32adad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayServerFiniteStateMachine*>(),
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayServerFiniteStateMachine::*)(::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams)>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x32b0154;
+  constexpr static std::size_t addrs = 0x32adae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayServerFiniteStateMachine*>(),

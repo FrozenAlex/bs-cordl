@@ -94,19 +94,19 @@ public:
 
   static inline ::GlobalNamespace::TubeBloomPrePassLightCollisionEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x599c6dc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x599ad94, size 0xb0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x599c644, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x599acfc, size 0x98, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x599c5ac, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x599ac64, size 0x98, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x599c3ac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x599aa64, size 0x48, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateExternal, addr 0x599c91c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method UpdateExternal, addr 0x599afd4, size 0xe0, virtual false, abstract: false, final false
   inline void UpdateExternal(bool hit, float_t normalizedHitDistance);
 
   constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater> const& __cordl_internal_get__effectUpdater() const;
@@ -181,31 +181,31 @@ public:
 
   constexpr void __cordl_internal_set__useScale(bool value);
 
-  /// @brief Method .ctor, addr 0x599c9fc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x599b0b4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_EffectTransform, addr 0x599c394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EffectTransform, addr 0x599aa4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_EffectTransform();
 
-  /// @brief Method get_EnvironmentLayerMask, addr 0x599c38c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnvironmentLayerMask, addr 0x599aa44, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_EnvironmentLayerMask();
 
-  /// @brief Method get_HitPointTransform, addr 0x599c39c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HitPointTransform, addr 0x599aa54, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_HitPointTransform();
 
-  /// @brief Method get_MaxLength, addr 0x599c374, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_MaxLength, addr 0x599aa2c, size 0x18, virtual false, abstract: false, final false
   inline float_t get_MaxLength();
 
-  /// @brief Method get_NeedsUpdate, addr 0x599c35c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_NeedsUpdate, addr 0x599aa14, size 0x18, virtual false, abstract: false, final false
   inline bool get_NeedsUpdate();
 
-  /// @brief Method get_ScaleTransform, addr 0x599c3a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ScaleTransform, addr 0x599aa5c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_ScaleTransform();
 
-  /// @brief Method get_ShowHitPoint, addr 0x599c34c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShowHitPoint, addr 0x599aa04, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShowHitPoint();
 
-  /// @brief Method get_UseScale, addr 0x599c354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseScale, addr 0x599aa0c, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseScale();
 
 protected:

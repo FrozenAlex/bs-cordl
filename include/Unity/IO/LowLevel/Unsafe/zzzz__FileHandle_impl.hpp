@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (::Unity::IO::LowLevel::Unsafe::FileHandle::*)()>(&::Unity::IO::LowLevel::Unsafe::FileHandle::get_JobHandle)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6a595ec;
+  constexpr static std::size_t addrs = 0x6a57388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(), { "get_JobHandle", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::IO::LowLevel::Unsafe::FileHandle::*)()>(&::Unity::IO::LowLevel::Unsafe::FileHandle::IsValid)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a5970c;
+  constexpr static std::size_t addrs = 0x6a574a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(), { "IsValid", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (::Unity::IO::LowLevel::Unsafe::FileHandle::*)(::Unity::Jobs::JobHandle)>(
     &::Unity::IO::LowLevel::Unsafe::FileHandle::Close)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6a59748;
+  constexpr static std::size_t addrs = 0x6a574e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>)>(&::Unity::IO::LowLevel::Unsafe::FileHandle::IsFileHandleValid)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a5967c;
+  constexpr static std::size_t addrs = 0x6a57418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::FileHandle>(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>)>(
     &::Unity::IO::LowLevel::Unsafe::FileHandle::GetJobHandle_Internal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a596b8;
+  constexpr static std::size_t addrs = 0x6a57454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>, ::by_ref<::Unity::Jobs::JobHandle>)>(
     &::Unity::IO::LowLevel::Unsafe::FileHandle::GetJobHandle_Internal_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a5984c;
+  constexpr static std::size_t addrs = 0x6a575e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

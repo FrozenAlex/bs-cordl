@@ -65,7 +65,7 @@ namespace UnityEngine {
 struct CORDL_TYPE LightProbesQuery_LightProbesQueryDispose {
 public:
   // Declarations
-  /// @brief Method Dispose, addr 0x6a7f8cc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6a7d668, size 0x70, virtual false, abstract: false, final false
   inline void Dispose();
 
   // Ctor Parameters []
@@ -102,7 +102,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x6a7f93c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6a7d6d8, size 0x4, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -146,28 +146,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes, addr 0x6a7f858, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes, addr 0x6a7d5f4, size 0x74, virtual false, abstract: false, final false
   static inline void CalculateInterpolatedLightAndOcclusionProbes(::System::IntPtr lightProbeContextWrapper, ::System::IntPtr positions, ::System::IntPtr tetrahedronIndices,
                                                                   ::System::IntPtr lightProbes, ::System::IntPtr occlusionProbes, int32_t count);
 
-  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes, addr 0x6a7f690, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes, addr 0x6a7d42c, size 0x1c8, virtual false, abstract: false, final false
   inline void CalculateInterpolatedLightAndOcclusionProbes(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> positions, ::Unity::Collections::NativeArray_1<int32_t> tetrahedronIndices,
                                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SphericalHarmonicsL2> lightProbes,
                                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4> occlusionProbes);
 
-  /// @brief Method Create, addr 0x6a7f424, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6a7d1c0, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create();
 
-  /// @brief Method Destroy, addr 0x6a7f558, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x6a7d2f4, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr lightProbeContextWrapper);
 
-  /// @brief Method Dispose, addr 0x6a7f594, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6a7d330, size 0xfc, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle Dispose(::Unity::Jobs::JobHandle inputDeps);
 
-  /// @brief Method Dispose, addr 0x6a7f44c, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6a7d1e8, size 0x10c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x6a7f3a4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a7d140, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::Allocator allocator);
 
   /// @brief Convert to "::System::IDisposable"

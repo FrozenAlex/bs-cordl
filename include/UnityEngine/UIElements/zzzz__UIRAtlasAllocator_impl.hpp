@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Row_UIRAtlasAllocator___c::*)()>(&::UnityEngine::UIElements::Row_UIRAtlasAllocator___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6dba62c;
+  constexpr static std::size_t addrs = 0x6db6030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Row_UIRAtlasAllocator___c*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIRAtlasAllocator_Row* (::UnityEngine::UIElements::Row_UIRAtlasAllocator___c::*)()>(
     &::UnityEngine::UIElements::Row_UIRAtlasAllocator___c::__cctor_b__21_0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6dba630;
+  constexpr static std::size_t addrs = 0x6db6034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Row_UIRAtlasAllocator___c*>(), { "<.cctor>b__21_0", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UIRAtlasAllocator_Row::*)()>(&::UnityEngine::UIElements::UIRAtlasAllocator_Row::get_offsetX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dba484;
+  constexpr static std::size_t addrs = 0x6db5e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRAtlasAllocator_Row*>(), { "get_offsetX", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator_Row::*)(int32_t)>(&::UnityEngine::UIElements::UIRAtlasAllocator_Row::set_offsetX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dba48c;
+  constexpr static std::size_t addrs = 0x6db5e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UIRAtlasAllocator_Row::*)()>(&::UnityEngine::UIElements::UIRAtlasAllocator_Row::get_offsetY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dba494;
+  constexpr static std::size_t addrs = 0x6db5e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRAtlasAllocator_Row*>(), { "get_offsetY", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator_Row::*)(int32_t)>(&::UnityEngine::UIElements::UIRAtlasAllocator_Row::set_offsetY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dba49c;
+  constexpr static std::size_t addrs = 0x6db5ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UIRAtlasAllocator_Row::*)()>(&::UnityEngine::UIElements::UIRAtlasAllocator_Row::get_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dba4a4;
+  constexpr static std::size_t addrs = 0x6db5ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRAtlasAllocator_Row*>(), { "get_width", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator_Row::*)(int32_t)>(&::UnityEngine::UIElements::UIRAtlasAllocator_Row::set_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dba4ac;
+  constexpr static std::size_t addrs = 0x6db5eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator_Row::*)(int32_t)>(&::UnityEngine::UIElements::UIRAtlasAllocator_Row::set_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dba4b4;
+  constexpr static std::size_t addrs = 0x6db5eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIRAtlasAllocator_Row* (*)(int32_t, int32_t, int32_t, int32_t)>(
     &::UnityEngine::UIElements::UIRAtlasAllocator_Row::Acquire)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6dba284;
+  constexpr static std::size_t addrs = 0x6db5c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator_Row::*)()>(&::UnityEngine::UIElements::UIRAtlasAllocator_Row::Release)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6db971c;
+  constexpr static std::size_t addrs = 0x6db5120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRAtlasAllocator_Row*>(), { "Release", {}, {} })));
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator_Row::*)()>(&::UnityEngine::UIElements::UIRAtlasAllocator_Row::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6dba4bc;
+  constexpr static std::size_t addrs = 0x6db5ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRAtlasAllocator_Row*>(), { ".ctor", {}, {} })));
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::AreaNode_UIRAtlasAllocator___c::*)()>(&::UnityEngine::UIElements::AreaNode_UIRAtlasAllocator___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6dba7e4;
+  constexpr static std::size_t addrs = 0x6db61e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AreaNode_UIRAtlasAllocator___c*>(), { ".ctor", {}, {} })));
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode* (::UnityEngine::UIElements::AreaNode_UIRAtlasAllocator___c::*)()>(
     &::UnityEngine::UIElements::AreaNode_UIRAtlasAllocator___c::__cctor_b__9_0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6dba7e8;
+  constexpr static std::size_t addrs = 0x6db61ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode* (*)(::UnityEngine::RectInt)>(
     &::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode::Acquire)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6db9b70;
+  constexpr static std::size_t addrs = 0x6db5574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -363,7 +363,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode::*)()>(&::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode::Release)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6db97b4;
+  constexpr static std::size_t addrs = 0x6db51b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode*>(), { "Release", {}, {} })));
@@ -375,7 +375,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode::*)()>(&::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode::RemoveFromChain)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6dba338;
+  constexpr static std::size_t addrs = 0x6db5d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode*>(), { "RemoveFromChain", {}, {} })));
@@ -388,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode::*)(::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode*)>(
     &::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode::AddAfter)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6dba354;
+  constexpr static std::size_t addrs = 0x6db5d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode*>(),
@@ -401,7 +401,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode::*)()>(&::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6dba674;
+  constexpr static std::size_t addrs = 0x6db6078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode*>(), { ".ctor", {}, {} })));
@@ -484,7 +484,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UIRAtlasAllocator::*)()>(&::UnityEngine::UIElements::UIRAtlasAllocator::get_maxAtlasSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db95b4;
+  constexpr static std::size_t addrs = 0x6db4fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRAtlasAllocator*>(), { "get_maxAtlasSize", {}, {} })));
@@ -496,7 +496,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UIRAtlasAllocator::*)()>(&::UnityEngine::UIElements::UIRAtlasAllocator::get_maxImageWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db95bc;
+  constexpr static std::size_t addrs = 0x6db4fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRAtlasAllocator*>(), { "get_maxImageWidth", {}, {} })));
@@ -508,7 +508,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UIRAtlasAllocator::*)()>(&::UnityEngine::UIElements::UIRAtlasAllocator::get_maxImageHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db95c4;
+  constexpr static std::size_t addrs = 0x6db4fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRAtlasAllocator*>(), { "get_maxImageHeight", {}, {} })));
@@ -520,7 +520,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UIRAtlasAllocator::*)()>(&::UnityEngine::UIElements::UIRAtlasAllocator::get_virtualWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db95cc;
+  constexpr static std::size_t addrs = 0x6db4fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRAtlasAllocator*>(), { "get_virtualWidth", {}, {} })));
@@ -532,7 +532,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator::*)(int32_t)>(&::UnityEngine::UIElements::UIRAtlasAllocator::set_virtualWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db95d4;
+  constexpr static std::size_t addrs = 0x6db4fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -545,7 +545,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UIRAtlasAllocator::*)()>(&::UnityEngine::UIElements::UIRAtlasAllocator::get_virtualHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db95dc;
+  constexpr static std::size_t addrs = 0x6db4fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRAtlasAllocator*>(), { "get_virtualHeight", {}, {} })));
@@ -557,7 +557,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator::*)(int32_t)>(&::UnityEngine::UIElements::UIRAtlasAllocator::set_virtualHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db95e4;
+  constexpr static std::size_t addrs = 0x6db4fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -570,7 +570,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UIRAtlasAllocator::*)()>(&::UnityEngine::UIElements::UIRAtlasAllocator::get_physicalWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db95ec;
+  constexpr static std::size_t addrs = 0x6db4ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRAtlasAllocator*>(), { "get_physicalWidth", {}, {} })));
@@ -582,7 +582,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator::*)(int32_t)>(&::UnityEngine::UIElements::UIRAtlasAllocator::set_physicalWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db95f4;
+  constexpr static std::size_t addrs = 0x6db4ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -595,7 +595,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UIRAtlasAllocator::*)()>(&::UnityEngine::UIElements::UIRAtlasAllocator::get_physicalHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db95fc;
+  constexpr static std::size_t addrs = 0x6db5000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRAtlasAllocator*>(), { "get_physicalHeight", {}, {} })));
@@ -607,7 +607,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator::*)(int32_t)>(&::UnityEngine::UIElements::UIRAtlasAllocator::set_physicalHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db9604;
+  constexpr static std::size_t addrs = 0x6db5008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -620,7 +620,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIRAtlasAllocator::*)()>(&::UnityEngine::UIElements::UIRAtlasAllocator::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db960c;
+  constexpr static std::size_t addrs = 0x6db5010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRAtlasAllocator*>(), { "get_disposed", {}, {} })));
@@ -632,7 +632,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator::*)(bool)>(&::UnityEngine::UIElements::UIRAtlasAllocator::set_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db9614;
+  constexpr static std::size_t addrs = 0x6db5018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -645,7 +645,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator::*)()>(&::UnityEngine::UIElements::UIRAtlasAllocator::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6db961c;
+  constexpr static std::size_t addrs = 0x6db5020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRAtlasAllocator*>(), { "Dispose", {}, {} })));
@@ -657,7 +657,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator::*)(bool)>(&::UnityEngine::UIElements::UIRAtlasAllocator::Dispose)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6db968c;
+  constexpr static std::size_t addrs = 0x6db5090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -670,7 +670,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::UIElements::UIRAtlasAllocator::GetLog2OfNextPower)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x6db983c;
+  constexpr static std::size_t addrs = 0x6db5240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -683,7 +683,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator::*)(int32_t, int32_t, int32_t)>(&::UnityEngine::UIElements::UIRAtlasAllocator::_ctor)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x6db9990;
+  constexpr static std::size_t addrs = 0x6db5394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRAtlasAllocator*>(),
@@ -697,7 +697,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIRAtlasAllocator::*)(int32_t, int32_t, ::by_ref<::UnityEngine::RectInt>)>(
     &::UnityEngine::UIElements::UIRAtlasAllocator::TryAllocate)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x6db9cfc;
+  constexpr static std::size_t addrs = 0x6db5700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -712,7 +712,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIRAtlasAllocator::*)(::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode*, int32_t, int32_t, int32_t)>(
     &::UnityEngine::UIElements::UIRAtlasAllocator::TryPartitionArea)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x6dba0fc;
+  constexpr static std::size_t addrs = 0x6db5b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -729,7 +729,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRAtlasAllocator::*)()>(&::UnityEngine::UIElements::UIRAtlasAllocator::BuildAreas)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6db9c10;
+  constexpr static std::size_t addrs = 0x6db5614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRAtlasAllocator*>(), { "BuildAreas", {}, {} })));

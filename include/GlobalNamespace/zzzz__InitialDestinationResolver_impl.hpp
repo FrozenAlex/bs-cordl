@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__37::*)()>(
     &::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__37::MoveNext)> {
   constexpr static std::size_t size = 0x51c;
-  constexpr static std::size_t addrs = 0x376d56c;
+  constexpr static std::size_t addrs = 0x376c090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__37::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__37::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x376da88;
+  constexpr static std::size_t addrs = 0x376c5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__37>(),
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__40::*)()>(
     &::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__40::MoveNext)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x376daf4;
+  constexpr static std::size_t addrs = 0x376c618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__40::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__40::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x376de14;
+  constexpr static std::size_t addrs = 0x376c938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__40>(),
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__32::*)()>(
     &::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__32::MoveNext)> {
   constexpr static std::size_t size = 0x75c;
-  constexpr static std::size_t addrs = 0x376de80;
+  constexpr static std::size_t addrs = 0x376c9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__32::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__32::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x376e5dc;
+  constexpr static std::size_t addrs = 0x376d100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__32>(),
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39::*)()>(
     &::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39::MoveNext)> {
   constexpr static std::size_t size = 0xa7c;
-  constexpr static std::size_t addrs = 0x376e648;
+  constexpr static std::size_t addrs = 0x376d16c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x376f0c4;
+  constexpr static std::size_t addrs = 0x376dbe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39>(),
@@ -342,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__31::*)()>(
     &::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__31::MoveNext)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x376f130;
+  constexpr static std::size_t addrs = 0x376dc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__31::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__31::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x376f5d0;
+  constexpr static std::size_t addrs = 0x376e0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__31>(),
@@ -410,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__34::*)()>(
     &::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__34::MoveNext)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x376f63c;
+  constexpr static std::size_t addrs = 0x376e160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -424,7 +424,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__34::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__34::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x376f98c;
+  constexpr static std::size_t addrs = 0x376e4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__34>(),
@@ -472,7 +472,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__29::*)()>(
     &::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__29::MoveNext)> {
   constexpr static std::size_t size = 0x6bc;
-  constexpr static std::size_t addrs = 0x376f9f8;
+  constexpr static std::size_t addrs = 0x376e51c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -486,7 +486,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__29::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__29::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x37700b4;
+  constexpr static std::size_t addrs = 0x376ebd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__29>(),
@@ -535,7 +535,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__35::*)()>(
     &::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__35::MoveNext)> {
   constexpr static std::size_t size = 0x5c4;
-  constexpr static std::size_t addrs = 0x3770120;
+  constexpr static std::size_t addrs = 0x376ec44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -549,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__35::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__35::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x37706e4;
+  constexpr static std::size_t addrs = 0x376f208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__35>(),
@@ -602,7 +602,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__27::*)()>(
     &::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__27::MoveNext)> {
   constexpr static std::size_t size = 0x588;
-  constexpr static std::size_t addrs = 0x3770750;
+  constexpr static std::size_t addrs = 0x376f274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -616,7 +616,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__27::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__27::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3770cd8;
+  constexpr static std::size_t addrs = 0x376f7fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__27>(),
@@ -664,7 +664,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42::*)()>(
     &::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42::MoveNext)> {
   constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x3770d44;
+  constexpr static std::size_t addrs = 0x376f868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -678,7 +678,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3771118;
+  constexpr static std::size_t addrs = 0x376fc3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42>(),
@@ -729,7 +729,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__41::*)()>(
     &::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__41::MoveNext)> {
   constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x3771184;
+  constexpr static std::size_t addrs = 0x376fca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -743,7 +743,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__41::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__41::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3771558;
+  constexpr static std::size_t addrs = 0x377007c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__41>(),
@@ -793,7 +793,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver::*)()>(&::GlobalNamespace::InitialDestinationResolver::Initialize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x376c1a4;
+  constexpr static std::size_t addrs = 0x376acc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitialDestinationResolver*>(), { "Initialize", {}, {} })));
@@ -806,7 +806,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::InitialDestinationResolver::*)()>(
     &::GlobalNamespace::InitialDestinationResolver::InitializeScenesAsync)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x376c1c0;
+  constexpr static std::size_t addrs = 0x376ace4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitialDestinationResolver*>(), { "InitializeScenesAsync", {}, {} })));
@@ -818,7 +818,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver::*)()>(&::GlobalNamespace::InitialDestinationResolver::ClearPreviousState)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x376c274;
+  constexpr static std::size_t addrs = 0x376ad98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitialDestinationResolver*>(), { "ClearPreviousState", {}, {} })));
@@ -831,7 +831,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::InitialDestinationResolver::*)(::BeatSaber::Destinations::Destination*, bool)>(
     &::GlobalNamespace::InitialDestinationResolver::GoToTargetDestinationAsync)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x376c430;
+  constexpr static std::size_t addrs = 0x376af54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -845,7 +845,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (*)()>(&::GlobalNamespace::InitialDestinationResolver::DelaySmallAmountOfTime)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x376c4fc;
+  constexpr static std::size_t addrs = 0x376b020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitialDestinationResolver*>(), { "DelaySmallAmountOfTime", {}, {} })));
@@ -858,7 +858,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::InitialDestinationResolver::*)(::BeatSaber::Destinations::Destination*, bool)>(
     &::GlobalNamespace::InitialDestinationResolver::GoToStandardLevelAsync)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x376c554;
+  constexpr static std::size_t addrs = 0x376b078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -873,7 +873,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::InitialDestinationResolver::*)(::BeatSaber::Destinations::Destination*, bool)>(
     &::GlobalNamespace::InitialDestinationResolver::GoToMissionLevelAsync)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x376c624;
+  constexpr static std::size_t addrs = 0x376b148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -888,7 +888,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver::*)(
     ::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*)>(&::GlobalNamespace::InitialDestinationResolver::HandleMissionSceneDidFinish)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x376c6f4;
+  constexpr static std::size_t addrs = 0x376b218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -905,7 +905,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::InitialDestinationResolver::*)(::BeatSaber::Destinations::Destination*)>(
     &::GlobalNamespace::InitialDestinationResolver::GoToStartupErrorAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x376c7ac;
+  constexpr static std::size_t addrs = 0x376b2d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitialDestinationResolver*>(),
@@ -919,7 +919,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::InitialDestinationResolver::*)(::BeatSaber::Destinations::Destination*, bool)>(
     &::GlobalNamespace::InitialDestinationResolver::GoToTutorialAsync)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x376c870;
+  constexpr static std::size_t addrs = 0x376b394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -935,7 +935,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                                ::GlobalNamespace::TutorialScenesTransitionSetupData_TutorialEndStateType)>(
     &::GlobalNamespace::InitialDestinationResolver::HandleTutorialSceneDidFinish)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x376c940;
+  constexpr static std::size_t addrs = 0x376b464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitialDestinationResolver*>(),
@@ -952,7 +952,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::InitialDestinationResolver::*)(::BeatSaber::Destinations::Destination*, bool)>(
     &::GlobalNamespace::InitialDestinationResolver::GoToCreditsAsync)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x376caa4;
+  constexpr static std::size_t addrs = 0x376b5c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -967,7 +967,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver::*)(::GlobalNamespace::CreditsScenesTransitionSetupData*)>(
     &::GlobalNamespace::InitialDestinationResolver::HandleCreditsSceneDidFinish)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x376cb74;
+  constexpr static std::size_t addrs = 0x376b698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -982,7 +982,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::InitialDestinationResolver::*)(::BeatSaber::Destinations::Destination*, bool)>(
     &::GlobalNamespace::InitialDestinationResolver::GoToMultiplayerLevelAsync)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x376cc2c;
+  constexpr static std::size_t addrs = 0x376b750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -997,7 +997,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::InitialDestinationResolver::*)(bool)>(
     &::GlobalNamespace::InitialDestinationResolver::GoToMainMenuAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x376ccfc;
+  constexpr static std::size_t addrs = 0x376b820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1011,7 +1011,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::InitialDestinationResolver::*)()>(
     &::GlobalNamespace::InitialDestinationResolver::PresentShaderWarmUpAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x376cdc4;
+  constexpr static std::size_t addrs = 0x376b8e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitialDestinationResolver*>(), { "PresentShaderWarmUpAsync", {}, {} })));
@@ -1024,7 +1024,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::InitialDestinationResolver::*)()>(
     &::GlobalNamespace::InitialDestinationResolver::PresentHealthWarningAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x376ce74;
+  constexpr static std::size_t addrs = 0x376b998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1038,7 +1038,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver::*)(
     ::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::BeatSaber::Destinations::Destination*)>(&::GlobalNamespace::InitialDestinationResolver::InitializeStandardLevelSetupData)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x376cf24;
+  constexpr static std::size_t addrs = 0x376ba48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1057,7 +1057,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::by_ref<::GlobalNamespace::PlayerSpecificSettings*>, ::by_ref<::GlobalNamespace::OverrideEnvironmentSettings*>, ::by_ref<::GlobalNamespace::ColorScheme*>,
     ::by_ref<::BeatSaber::Destinations::GameplayEnvironmentOverride*>)>(&::GlobalNamespace::InitialDestinationResolver::PrepareParametersForLevelSetupData)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x376d100;
+  constexpr static std::size_t addrs = 0x376bc24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1077,7 +1077,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver::*)(
     ::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*)>(&::GlobalNamespace::InitialDestinationResolver::HandleStandardLevelSetupDataFinishEvent)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x376d370;
+  constexpr static std::size_t addrs = 0x376be94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1093,7 +1093,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::InitialDestinationResolver::*)()>(&::GlobalNamespace::InitialDestinationResolver::ShouldGoDirectlyToMenu)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x376d4d4;
+  constexpr static std::size_t addrs = 0x376bff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitialDestinationResolver*>(), { "ShouldGoDirectlyToMenu", {}, {} })));
@@ -1105,7 +1105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InitialDestinationResolver::*)()>(&::GlobalNamespace::InitialDestinationResolver::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x376d4f4;
+  constexpr static std::size_t addrs = 0x376c018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InitialDestinationResolver*>(), { ".ctor", {}, {} })));
@@ -1118,7 +1118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MissionObjective* (::GlobalNamespace::InitialDestinationResolver::*)(::BeatSaber::Destinations::SimpleMissionObjective*)>(
     &::GlobalNamespace::InitialDestinationResolver::_GoToMissionLevelAsync_b__32_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x376d548;
+  constexpr static std::size_t addrs = 0x376c06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1133,7 +1133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::InitialDestinationResolver::_GoToMultiplayerLevelAsync_g__InitializeMultiplayerMocks_39_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x376d568;
+  constexpr static std::size_t addrs = 0x376c08c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SDFArrayManager::*)()>(&::GlobalNamespace::SDFArrayManager::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58752f4;
+  constexpr static std::size_t addrs = 0x58737a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SDFArrayManager*>(), { "Awake", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SDFArrayManager::*)()>(&::GlobalNamespace::SDFArrayManager::InitIfNeeded)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x58752f8;
+  constexpr static std::size_t addrs = 0x58737a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SDFArrayManager*>(), { "InitIfNeeded", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SDFArrayManager::*)()>(&::GlobalNamespace::SDFArrayManager::Update)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5875368;
+  constexpr static std::size_t addrs = 0x5873814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SDFArrayManager*>(), { "Update", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SDFArrayManager::*)()>(&::GlobalNamespace::SDFArrayManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5875474;
+  constexpr static std::size_t addrs = 0x5873920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SDFArrayManager*>(), { ".ctor", {}, {} })));

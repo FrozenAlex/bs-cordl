@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Message_Callback::*)(::System::Object*, ::System::IntPtr)>(&::Oculus::Platform::Message_Callback::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5dd6a3c;
+  constexpr static std::size_t addrs = 0x5dd47a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Message_Callback::*)(::Oculus::Platform::Message*)>(&::Oculus::Platform::Message_Callback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5dd6b80;
+  constexpr static std::size_t addrs = 0x5dd48ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::Oculus::Platform::Message_Callback::*)(::Oculus::Platform::Message*, ::System::AsyncCallback*, ::System::Object*)>(
     &::Oculus::Platform::Message_Callback::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5dd6b94;
+  constexpr static std::size_t addrs = 0x5dd4900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Message_Callback::*)(::System::IAsyncResult*)>(&::Oculus::Platform::Message_Callback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5dd6bb4;
+  constexpr static std::size_t addrs = 0x5dd4920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Message_ExtraMessageTypesHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::Oculus::Platform::Message_ExtraMessageTypesHandler::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5dd6bc0;
+  constexpr static std::size_t addrs = 0x5dd492c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message_ExtraMessageTypesHandler*>(),
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Message* (
     ::Oculus::Platform::Message_ExtraMessageTypesHandler::*)(::System::IntPtr, ::Oculus::Platform::Message_MessageType)>(&::Oculus::Platform::Message_ExtraMessageTypesHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5dd6c2c;
+  constexpr static std::size_t addrs = 0x5dd4998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message_ExtraMessageTypesHandler*>(),
@@ -343,7 +343,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                                                                          ::System::AsyncCallback*, ::System::Object*)>(
     &::Oculus::Platform::Message_ExtraMessageTypesHandler::BeginInvoke)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5dd6c40;
+  constexpr static std::size_t addrs = 0x5dd49ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message_ExtraMessageTypesHandler*>(),
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Message* (::Oculus::Platform::Message_ExtraMessageTypesHandler::*)(::System::IAsyncResult*)>(
     &::Oculus::Platform::Message_ExtraMessageTypesHandler::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5dd6ce4;
+  constexpr static std::size_t addrs = 0x5dd4a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message_ExtraMessageTypesHandler*>(),
@@ -396,7 +396,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Message::*)(::System::IntPtr)>(&::Oculus::Platform::Message::_ctor)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x5dd2e24;
+  constexpr static std::size_t addrs = 0x5dd0b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ".ctor", {}, { ::i2c::type_of<::System::IntPtr>() } })));
@@ -408,7 +408,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::Finalize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5dd30cc;
+  constexpr static std::size_t addrs = 0x5dd0e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 1 }));
@@ -420,7 +420,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Message_MessageType (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd30d0;
+  constexpr static std::size_t addrs = 0x5dd0e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { "get_Type", {}, {} })));
@@ -432,7 +432,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::get_IsError)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5dd30d8;
+  constexpr static std::size_t addrs = 0x5dd0e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { "get_IsError", {}, {} })));
@@ -444,7 +444,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::get_RequestID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd30e8;
+  constexpr static std::size_t addrs = 0x5dd0e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { "get_RequestID", {}, {} })));
@@ -456,7 +456,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::Error* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetError)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd30f0;
+  constexpr static std::size_t addrs = 0x5dd0e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 4 }));
@@ -468,7 +468,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::HttpTransferUpdate* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetHttpTransferUpdate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd30f8;
+  constexpr static std::size_t addrs = 0x5dd0e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 5 }));
@@ -480,7 +480,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::PlatformInitialize* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetPlatformInitialize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3100;
+  constexpr static std::size_t addrs = 0x5dd0e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 6 }));
@@ -492,7 +492,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AbuseReportRecording* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetAbuseReportRecording)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3108;
+  constexpr static std::size_t addrs = 0x5dd0e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 7 }));
@@ -505,7 +505,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AchievementDefinitionList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAchievementDefinitions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3110;
+  constexpr static std::size_t addrs = 0x5dd0e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 8 }));
@@ -518,7 +518,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AchievementProgressList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAchievementProgressList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3118;
+  constexpr static std::size_t addrs = 0x5dd0e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 9 }));
@@ -530,7 +530,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AchievementUpdate* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetAchievementUpdate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3120;
+  constexpr static std::size_t addrs = 0x5dd0e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 10 }));
@@ -543,7 +543,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AppDownloadProgressResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAppDownloadProgressResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3128;
+  constexpr static std::size_t addrs = 0x5dd0e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 11 }));
@@ -555,7 +555,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AppDownloadResult* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetAppDownloadResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3130;
+  constexpr static std::size_t addrs = 0x5dd0e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 12 }));
@@ -567,7 +567,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::ApplicationInviteList* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetApplicationInviteList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3138;
+  constexpr static std::size_t addrs = 0x5dd0ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 13 }));
@@ -579,7 +579,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::ApplicationVersion* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetApplicationVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3140;
+  constexpr static std::size_t addrs = 0x5dd0eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 14 }));
@@ -591,7 +591,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AssetDetails* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetAssetDetails)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3148;
+  constexpr static std::size_t addrs = 0x5dd0eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 15 }));
@@ -603,7 +603,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AssetDetailsList* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetAssetDetailsList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3150;
+  constexpr static std::size_t addrs = 0x5dd0ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 16 }));
@@ -615,7 +615,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AssetFileDeleteResult* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetAssetFileDeleteResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3158;
+  constexpr static std::size_t addrs = 0x5dd0ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 17 }));
@@ -628,7 +628,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AssetFileDownloadCancelResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAssetFileDownloadCancelResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3160;
+  constexpr static std::size_t addrs = 0x5dd0ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 18 }));
@@ -641,7 +641,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AssetFileDownloadResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAssetFileDownloadResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3168;
+  constexpr static std::size_t addrs = 0x5dd0ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 19 }));
@@ -654,7 +654,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AssetFileDownloadUpdate* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAssetFileDownloadUpdate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3170;
+  constexpr static std::size_t addrs = 0x5dd0edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 20 }));
@@ -666,7 +666,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AvatarEditorResult* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetAvatarEditorResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3178;
+  constexpr static std::size_t addrs = 0x5dd0ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 21 }));
@@ -678,7 +678,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::BlockedUserList* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetBlockedUserList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3180;
+  constexpr static std::size_t addrs = 0x5dd0eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 22 }));
@@ -690,7 +690,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::Challenge* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetChallenge)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3188;
+  constexpr static std::size_t addrs = 0x5dd0ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 23 }));
@@ -702,7 +702,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::ChallengeEntryList* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetChallengeEntryList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3190;
+  constexpr static std::size_t addrs = 0x5dd0efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 24 }));
@@ -714,7 +714,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::ChallengeList* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetChallengeList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3198;
+  constexpr static std::size_t addrs = 0x5dd0f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 25 }));
@@ -726,7 +726,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::CowatchingState* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetCowatchingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd31a0;
+  constexpr static std::size_t addrs = 0x5dd0f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 26 }));
@@ -738,7 +738,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::CowatchViewerList* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetCowatchViewerList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd31a8;
+  constexpr static std::size_t addrs = 0x5dd0f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 27 }));
@@ -750,7 +750,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::CowatchViewerUpdate* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetCowatchViewerUpdate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd31b0;
+  constexpr static std::size_t addrs = 0x5dd0f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 28 }));
@@ -762,7 +762,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::DestinationList* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetDestinationList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd31b8;
+  constexpr static std::size_t addrs = 0x5dd0f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 29 }));
@@ -775,7 +775,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::GroupPresenceJoinIntent* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetGroupPresenceJoinIntent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd31c0;
+  constexpr static std::size_t addrs = 0x5dd0f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 30 }));
@@ -788,7 +788,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::GroupPresenceLeaveIntent* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetGroupPresenceLeaveIntent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd31c8;
+  constexpr static std::size_t addrs = 0x5dd0f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 31 }));
@@ -801,7 +801,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::InstalledApplicationList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetInstalledApplicationList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd31d0;
+  constexpr static std::size_t addrs = 0x5dd0f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 32 }));
@@ -813,7 +813,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::InvitePanelResultInfo* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetInvitePanelResultInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd31d8;
+  constexpr static std::size_t addrs = 0x5dd0f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 33 }));
@@ -825,7 +825,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LaunchBlockFlowResult* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetLaunchBlockFlowResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd31e0;
+  constexpr static std::size_t addrs = 0x5dd0f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 34 }));
@@ -838,7 +838,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LaunchFriendRequestFlowResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLaunchFriendRequestFlowResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd31e8;
+  constexpr static std::size_t addrs = 0x5dd0f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 35 }));
@@ -851,7 +851,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LaunchInvitePanelFlowResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLaunchInvitePanelFlowResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd31f0;
+  constexpr static std::size_t addrs = 0x5dd0f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 36 }));
@@ -864,7 +864,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LaunchReportFlowResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLaunchReportFlowResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd31f8;
+  constexpr static std::size_t addrs = 0x5dd0f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 37 }));
@@ -877,7 +877,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LaunchUnblockFlowResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLaunchUnblockFlowResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3200;
+  constexpr static std::size_t addrs = 0x5dd0f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 38 }));
@@ -889,7 +889,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetLeaderboardDidUpdate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3208;
+  constexpr static std::size_t addrs = 0x5dd0f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 39 }));
@@ -901,7 +901,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LeaderboardEntryList* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetLeaderboardEntryList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3210;
+  constexpr static std::size_t addrs = 0x5dd0f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 40 }));
@@ -913,7 +913,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LeaderboardList* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetLeaderboardList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3218;
+  constexpr static std::size_t addrs = 0x5dd0f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 41 }));
@@ -925,7 +925,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LinkedAccountList* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetLinkedAccountList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3220;
+  constexpr static std::size_t addrs = 0x5dd0f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 42 }));
@@ -938,7 +938,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LivestreamingApplicationStatus* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLivestreamingApplicationStatus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3228;
+  constexpr static std::size_t addrs = 0x5dd0f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 43 }));
@@ -951,7 +951,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LivestreamingStartResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLivestreamingStartResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3230;
+  constexpr static std::size_t addrs = 0x5dd0f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 44 }));
@@ -963,7 +963,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LivestreamingStatus* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetLivestreamingStatus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3238;
+  constexpr static std::size_t addrs = 0x5dd0fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 45 }));
@@ -976,7 +976,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::LivestreamingVideoStats* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLivestreamingVideoStats)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3240;
+  constexpr static std::size_t addrs = 0x5dd0fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 46 }));
@@ -989,7 +989,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::MicrophoneAvailabilityState* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetMicrophoneAvailabilityState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3248;
+  constexpr static std::size_t addrs = 0x5dd0fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 47 }));
@@ -1001,7 +1001,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::NetSyncConnection* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetNetSyncConnection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3250;
+  constexpr static std::size_t addrs = 0x5dd0fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 48 }));
@@ -1013,7 +1013,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::NetSyncSessionList* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetNetSyncSessionList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3258;
+  constexpr static std::size_t addrs = 0x5dd0fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 49 }));
@@ -1026,7 +1026,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::NetSyncSessionsChangedNotification* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetNetSyncSessionsChangedNotification)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3260;
+  constexpr static std::size_t addrs = 0x5dd0fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 50 }));
@@ -1039,7 +1039,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::NetSyncSetSessionPropertyResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetNetSyncSetSessionPropertyResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3268;
+  constexpr static std::size_t addrs = 0x5dd0fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 51 }));
@@ -1052,7 +1052,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::NetSyncVoipAttenuationValueList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetNetSyncVoipAttenuationValueList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3270;
+  constexpr static std::size_t addrs = 0x5dd0fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 52 }));
@@ -1064,7 +1064,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::OrgScopedID* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetOrgScopedID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3278;
+  constexpr static std::size_t addrs = 0x5dd0fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 53 }));
@@ -1076,7 +1076,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::Party* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetParty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3280;
+  constexpr static std::size_t addrs = 0x5dd0fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 54 }));
@@ -1088,7 +1088,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::PartyID* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetPartyID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3288;
+  constexpr static std::size_t addrs = 0x5dd0ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 55 }));
@@ -1101,7 +1101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::PartyUpdateNotification* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetPartyUpdateNotification)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3290;
+  constexpr static std::size_t addrs = 0x5dd0ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 56 }));
@@ -1113,7 +1113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::PidList* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetPidList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3298;
+  constexpr static std::size_t addrs = 0x5dd1004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 57 }));
@@ -1125,7 +1125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::ProductList* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetProductList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd32a0;
+  constexpr static std::size_t addrs = 0x5dd100c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 58 }));
@@ -1137,7 +1137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::Purchase* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetPurchase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd32a8;
+  constexpr static std::size_t addrs = 0x5dd1014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 59 }));
@@ -1149,7 +1149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::PurchaseList* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetPurchaseList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd32b0;
+  constexpr static std::size_t addrs = 0x5dd101c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 60 }));
@@ -1162,7 +1162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::PushNotificationResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetPushNotificationResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd32b8;
+  constexpr static std::size_t addrs = 0x5dd1024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 61 }));
@@ -1174,7 +1174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::RejoinDialogResult* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetRejoinDialogResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd32c0;
+  constexpr static std::size_t addrs = 0x5dd102c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 62 }));
@@ -1186,7 +1186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::SdkAccountList* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetSdkAccountList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd32c8;
+  constexpr static std::size_t addrs = 0x5dd1034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 63 }));
@@ -1198,7 +1198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::SendInvitesResult* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetSendInvitesResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd32d0;
+  constexpr static std::size_t addrs = 0x5dd103c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 64 }));
@@ -1210,7 +1210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::ShareMediaResult* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetShareMediaResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd32d8;
+  constexpr static std::size_t addrs = 0x5dd1044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 65 }));
@@ -1222,7 +1222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd32e0;
+  constexpr static std::size_t addrs = 0x5dd104c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 66 }));
@@ -1234,7 +1234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::SystemVoipState* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetSystemVoipState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd32e8;
+  constexpr static std::size_t addrs = 0x5dd1054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 67 }));
@@ -1246,7 +1246,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::User* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetUser)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd32f0;
+  constexpr static std::size_t addrs = 0x5dd105c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 68 }));
@@ -1259,7 +1259,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::UserAccountAgeCategory* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetUserAccountAgeCategory)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd32f8;
+  constexpr static std::size_t addrs = 0x5dd1064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 69 }));
@@ -1271,7 +1271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::UserCapabilityList* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetUserCapabilityList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3300;
+  constexpr static std::size_t addrs = 0x5dd106c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 70 }));
@@ -1283,7 +1283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::UserList* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetUserList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3308;
+  constexpr static std::size_t addrs = 0x5dd1074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 71 }));
@@ -1295,7 +1295,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::UserProof* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetUserProof)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3310;
+  constexpr static std::size_t addrs = 0x5dd107c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 72 }));
@@ -1307,7 +1307,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::UserReportID* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetUserReportID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3318;
+  constexpr static std::size_t addrs = 0x5dd1084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { ::i2c::class_of<::Oculus::Platform::Message*>(), 73 }));
@@ -1319,7 +1319,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Message* (*)(::System::IntPtr)>(&::Oculus::Platform::Message::ParseMessageHandle)> {
   constexpr static std::size_t size = 0x1940;
-  constexpr static std::size_t addrs = 0x5dd3320;
+  constexpr static std::size_t addrs = 0x5dd108c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1332,7 +1332,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Message* (*)()>(&::Oculus::Platform::Message::PopMessage)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5db3328;
+  constexpr static std::size_t addrs = 0x5db1094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { "PopMessage", {}, {} })));
@@ -1344,7 +1344,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Oculus::Platform::Message_ExtraMessageTypesHandler*)>(&::Oculus::Platform::Message::set_HandleExtraMessageTypes)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5dd69a0;
+  constexpr static std::size_t addrs = 0x5dd470c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1358,7 +1358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Message_ExtraMessageTypesHandler* (*)()>(&::Oculus::Platform::Message::get_HandleExtraMessageTypes)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5dd69f0;
+  constexpr static std::size_t addrs = 0x5dd475c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Message*>(), { "get_HandleExtraMessageTypes", {}, {} })));

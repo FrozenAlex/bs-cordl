@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData::*)(
     ::UnityEngine::UI::Graphic*, ::UnityEngine::Vector3, ::UnityEngine::Vector2, float_t)>(&::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6595a0c;
+  constexpr static std::size_t addrs = 0x65937a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Graphic> (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData::*)()>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData::get_graphic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6595b30;
+  constexpr static std::size_t addrs = 0x65938cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData::*)()>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData::get_worldHitPosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6595b38;
+  constexpr static std::size_t addrs = 0x65938d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData::*)()>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData::get_screenPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6595b44;
+  constexpr static std::size_t addrs = 0x65938e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData::*)()>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData::get_distance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6595b4c;
+  constexpr static std::size_t addrs = 0x65938e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster___c::*)()>(&::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6595ba8;
+  constexpr static std::size_t addrs = 0x6593944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster___c*>(), { ".ctor", {}, {} })));
@@ -156,7 +156,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::I
                                                                                                                                ::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData)>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster___c::_SortedRaycastGraphics_b__25_0)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6595bac;
+  constexpr static std::size_t addrs = 0x6593948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster___c*>(),
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Camera> (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::*)()>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::get_eventCamera)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6594d58;
+  constexpr static std::size_t addrs = 0x6592af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster*>(),
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LayerMask (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::*)()>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::get_blockingMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6594e8c;
+  constexpr static std::size_t addrs = 0x6592c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::*)(::UnityEngine::LayerMask)>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::set_blockingMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6594e94;
+  constexpr static std::size_t addrs = 0x6592c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::*)()>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::get_checkFor3DOcclusion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6594e9c;
+  constexpr static std::size_t addrs = 0x6592c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::*)(bool)>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::set_checkFor3DOcclusion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6594ea4;
+  constexpr static std::size_t addrs = 0x6592c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::*)()>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::get_checkFor2DOcclusion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6594eac;
+  constexpr static std::size_t addrs = 0x6592c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::*)(bool)>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::set_checkFor2DOcclusion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6594eb4;
+  constexpr static std::size_t addrs = 0x6592c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::*)()>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::get_ignoreReversedGraphics)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6594ebc;
+  constexpr static std::size_t addrs = 0x6592c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::*)(bool)>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::set_ignoreReversedGraphics)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6594ec4;
+  constexpr static std::size_t addrs = 0x6592c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::*)()>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::get_maxDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6594ecc;
+  constexpr static std::size_t addrs = 0x6592c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster*>(), { "get_maxDistance", {}, {} })));
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::*)(float_t)>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::set_maxDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6594ed4;
+  constexpr static std::size_t addrs = 0x6592c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -360,7 +360,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::*)()>(&::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::OnEnable)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6594edc;
+  constexpr static std::size_t addrs = 0x6592c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster*>(),
@@ -373,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::*)()>(&::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::OnDisable)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6594f68;
+  constexpr static std::size_t addrs = 0x6592d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster*>(),
@@ -388,7 +388,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Inpu
     ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*)>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::Raycast)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6595060;
+  constexpr static std::size_t addrs = 0x6592dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster*>(),
@@ -403,7 +403,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Inpu
     ::UnityEngine::InputSystem::UI::ExtendedPointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*)>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::PerformRaycast)> {
   constexpr static std::size_t size = 0x614;
-  constexpr static std::size_t addrs = 0x658dddc;
+  constexpr static std::size_t addrs = 0x658bb78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -422,7 +422,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Inpu
     ::UnityEngine::Canvas*, ::UnityEngine::Ray, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster_RaycastHitData>*)>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::SortedRaycastGraphics)> {
   constexpr static std::size_t size = 0x504;
-  constexpr static std::size_t addrs = 0x659510c;
+  constexpr static std::size_t addrs = 0x6592ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -440,7 +440,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::RectTransform*, ::UnityEngine::Ray, ::by_ref<::UnityEngine::Vector3>, ::by_ref<float_t>)>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::RayIntersectsRectTransform)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x6595610;
+  constexpr static std::size_t addrs = 0x65933ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster*>(),
@@ -457,7 +457,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Canvas> (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::*)()>(
     &::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::get_canvas)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6594df0;
+  constexpr static std::size_t addrs = 0x6592b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster*>(), { "get_canvas", {}, {} })));
@@ -469,7 +469,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::*)()>(&::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6595a20;
+  constexpr static std::size_t addrs = 0x65937bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster*>(), { ".ctor", {}, {} })));

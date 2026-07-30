@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow::*)(int64_t)>(&::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow::ShouldDiscard)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3447d58;
+  constexpr static std::size_t addrs = 0x3446320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow::ReportAuthenticated)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3447d98;
+  constexpr static std::size_t addrs = 0x3446360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow::*)()>(&::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow::Reset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x34496f8;
+  constexpr static std::size_t addrs = 0x3447cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow*>(), { "Reset", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow::*)()>(&::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3445c44;
+  constexpr static std::size_t addrs = 0x344420c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow*>(), { ".ctor", {}, {} })));

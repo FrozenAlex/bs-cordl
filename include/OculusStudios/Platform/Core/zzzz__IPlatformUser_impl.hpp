@@ -140,6 +140,19 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::OculusStudios::Platform::Core::IPlatformUser.FlushAchievements
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::IPlatformUser::*)()>(&::OculusStudios::Platform::Core::IPlatformUser::FlushAchievements)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::IPlatformUser*>(), { ::i2c::class_of<::OculusStudios::Platform::Core::IPlatformUser*>(), 10 }));
+    return ___internal_method;
+  }
+};
 inline uint64_t OculusStudios::Platform::Core::IPlatformUser::get_userId() {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::Platform::Core::IPlatformUser*>(), 0 })));
@@ -189,4 +202,9 @@ inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadO
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::Platform::Core::IPlatformUser*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyCollection_1<::StringW>*>*>(this, ___internal_method);
+}
+inline void OculusStudios::Platform::Core::IPlatformUser::FlushAchievements() {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::OculusStudios::Platform::Core::IPlatformUser*>(), 10 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }

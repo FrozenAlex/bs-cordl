@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::TextCore::Text::FontAsset> (*)(::UnityEngine::Font*, ::UnityEngine::Shader*)>(
     &::UnityEngine::TextCore::Text::FontAssetFactory::CreateDefaultEditorFontAsset)> {
   constexpr static std::size_t size = 0x834;
-  constexpr static std::size_t addrs = 0x6bfaaec;
+  constexpr static std::size_t addrs = 0x6bf64f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::TextCore::Text::FontAsset*, ::UnityEngine::Shader*)>(
     &::UnityEngine::TextCore::Text::FontAssetFactory::SetupFontAssetSettings)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6bfb320;
+  constexpr static std::size_t addrs = 0x6bf6d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::TextCore::Text::FontAsset*)>(&::UnityEngine::TextCore::Text::FontAssetFactory::SetHideFlags)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6bfb3e8;
+  constexpr static std::size_t addrs = 0x6bf6dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontAssetFactory*>(),

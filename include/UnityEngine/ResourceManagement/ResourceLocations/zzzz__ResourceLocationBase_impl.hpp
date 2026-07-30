@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(
     &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_InternalId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x691e268;
+  constexpr static std::size_t addrs = 0x691c004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(
     &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_ProviderId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x691e270;
+  constexpr static std::size_t addrs = 0x691c00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* (
     ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(&::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_Dependencies)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x691e278;
+  constexpr static std::size_t addrs = 0x691c014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(
     &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_HasDependencies)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x691e280;
+  constexpr static std::size_t addrs = 0x691c01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(
     &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_Data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x691e2dc;
+  constexpr static std::size_t addrs = 0x691c078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)(::System::Object*)>(
     &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::set_Data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x691e2e4;
+  constexpr static std::size_t addrs = 0x691c080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(
     &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_PrimaryKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x691e2ec;
+  constexpr static std::size_t addrs = 0x691c088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)(::StringW)>(
     &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::set_PrimaryKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x691e2f4;
+  constexpr static std::size_t addrs = 0x691c090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(
     &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_DependencyHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x691e2fc;
+  constexpr static std::size_t addrs = 0x691c098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(
     &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_ResourceType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x691e304;
+  constexpr static std::size_t addrs = 0x691c0a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)(::System::Type*)>(
     &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::Hash)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x691e30c;
+  constexpr static std::size_t addrs = 0x691c0a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(
     &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x691e358;
+  constexpr static std::size_t addrs = 0x691c0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>(),
@@ -185,7 +185,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Reso
     ::StringW, ::StringW, ::StringW, ::System::Type*, ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>)>(
     &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::_ctor)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x691e360;
+  constexpr static std::size_t addrs = 0x691c0fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(
     &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::ComputeDependencyHash)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x691e538;
+  constexpr static std::size_t addrs = 0x691c2d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::Newtonsoft::Json::JsonPropertyAttribute::*)()>(&::Newtonsoft::Json::JsonPropertyAttribute::get_ItemConverterType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd5b58;
+  constexpr static std::size_t addrs = 0x5cd38c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(), { "get_ItemConverterType", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonPropertyAttribute::*)(::System::Type*)>(&::Newtonsoft::Json::JsonPropertyAttribute::set_ItemConverterType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd5b60;
+  constexpr static std::size_t addrs = 0x5cd38cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::Newtonsoft::Json::JsonPropertyAttribute::*)()>(
     &::Newtonsoft::Json::JsonPropertyAttribute::get_ItemConverterParameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd5b68;
+  constexpr static std::size_t addrs = 0x5cd38d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(), { "get_ItemConverterParameters", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonPropertyAttribute::*)(::ArrayW<::System::Object*>)>(
     &::Newtonsoft::Json::JsonPropertyAttribute::set_ItemConverterParameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd5b70;
+  constexpr static std::size_t addrs = 0x5cd38dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::Newtonsoft::Json::JsonPropertyAttribute::*)()>(&::Newtonsoft::Json::JsonPropertyAttribute::get_NamingStrategyType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd5b78;
+  constexpr static std::size_t addrs = 0x5cd38e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(), { "get_NamingStrategyType", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonPropertyAttribute::*)(::System::Type*)>(&::Newtonsoft::Json::JsonPropertyAttribute::set_NamingStrategyType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd5b80;
+  constexpr static std::size_t addrs = 0x5cd38ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::Newtonsoft::Json::JsonPropertyAttribute::*)()>(
     &::Newtonsoft::Json::JsonPropertyAttribute::get_NamingStrategyParameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd5b88;
+  constexpr static std::size_t addrs = 0x5cd38f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(), { "get_NamingStrategyParameters", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonPropertyAttribute::*)(::ArrayW<::System::Object*>)>(
     &::Newtonsoft::Json::JsonPropertyAttribute::set_NamingStrategyParameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd5b90;
+  constexpr static std::size_t addrs = 0x5cd38fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::NullValueHandling (::Newtonsoft::Json::JsonPropertyAttribute::*)()>(
     &::Newtonsoft::Json::JsonPropertyAttribute::get_NullValueHandling)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cd5b98;
+  constexpr static std::size_t addrs = 0x5cd3904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(), { "get_NullValueHandling", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonPropertyAttribute::*)(::Newtonsoft::Json::NullValueHandling)>(
     &::Newtonsoft::Json::JsonPropertyAttribute::set_NullValueHandling)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5cd5bdc;
+  constexpr static std::size_t addrs = 0x5cd3948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::DefaultValueHandling (::Newtonsoft::Json::JsonPropertyAttribute::*)()>(
     &::Newtonsoft::Json::JsonPropertyAttribute::get_DefaultValueHandling)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cd5c34;
+  constexpr static std::size_t addrs = 0x5cd39a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(), { "get_DefaultValueHandling", {}, {} })));
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonPropertyAttribute::*)(::Newtonsoft::Json::DefaultValueHandling)>(
     &::Newtonsoft::Json::JsonPropertyAttribute::set_DefaultValueHandling)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5cd5c78;
+  constexpr static std::size_t addrs = 0x5cd39e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(),
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::ReferenceLoopHandling (::Newtonsoft::Json::JsonPropertyAttribute::*)()>(
     &::Newtonsoft::Json::JsonPropertyAttribute::get_ReferenceLoopHandling)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cd5cd0;
+  constexpr static std::size_t addrs = 0x5cd3a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(), { "get_ReferenceLoopHandling", {}, {} })));
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonPropertyAttribute::*)(::Newtonsoft::Json::ReferenceLoopHandling)>(
     &::Newtonsoft::Json::JsonPropertyAttribute::set_ReferenceLoopHandling)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5cd5d14;
+  constexpr static std::size_t addrs = 0x5cd3a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(),
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::ObjectCreationHandling (::Newtonsoft::Json::JsonPropertyAttribute::*)()>(
     &::Newtonsoft::Json::JsonPropertyAttribute::get_ObjectCreationHandling)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cd5d6c;
+  constexpr static std::size_t addrs = 0x5cd3ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(), { "get_ObjectCreationHandling", {}, {} })));
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonPropertyAttribute::*)(::Newtonsoft::Json::ObjectCreationHandling)>(
     &::Newtonsoft::Json::JsonPropertyAttribute::set_ObjectCreationHandling)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5cd5db0;
+  constexpr static std::size_t addrs = 0x5cd3b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(),
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::TypeNameHandling (::Newtonsoft::Json::JsonPropertyAttribute::*)()>(
     &::Newtonsoft::Json::JsonPropertyAttribute::get_TypeNameHandling)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cd5e08;
+  constexpr static std::size_t addrs = 0x5cd3b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(), { "get_TypeNameHandling", {}, {} })));
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonPropertyAttribute::*)(::Newtonsoft::Json::TypeNameHandling)>(
     &::Newtonsoft::Json::JsonPropertyAttribute::set_TypeNameHandling)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5cd5e4c;
+  constexpr static std::size_t addrs = 0x5cd3bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::JsonPropertyAttribute::*)()>(&::Newtonsoft::Json::JsonPropertyAttribute::get_IsReference)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cd5ea4;
+  constexpr static std::size_t addrs = 0x5cd3c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(), { "get_IsReference", {}, {} })));
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonPropertyAttribute::*)(bool)>(&::Newtonsoft::Json::JsonPropertyAttribute::set_IsReference)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5cd5ee8;
+  constexpr static std::size_t addrs = 0x5cd3c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Newtonsoft::Json::JsonPropertyAttribute::*)()>(&::Newtonsoft::Json::JsonPropertyAttribute::get_Order)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cd5f44;
+  constexpr static std::size_t addrs = 0x5cd3cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(), { "get_Order", {}, {} })));
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonPropertyAttribute::*)(int32_t)>(&::Newtonsoft::Json::JsonPropertyAttribute::set_Order)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5cd5f88;
+  constexpr static std::size_t addrs = 0x5cd3cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Required (::Newtonsoft::Json::JsonPropertyAttribute::*)()>(&::Newtonsoft::Json::JsonPropertyAttribute::get_Required)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cd5fe0;
+  constexpr static std::size_t addrs = 0x5cd3d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(), { "get_Required", {}, {} })));
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonPropertyAttribute::*)(::Newtonsoft::Json::Required)>(&::Newtonsoft::Json::JsonPropertyAttribute::set_Required)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5cd6024;
+  constexpr static std::size_t addrs = 0x5cd3d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -341,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::JsonPropertyAttribute::*)()>(&::Newtonsoft::Json::JsonPropertyAttribute::get_PropertyName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd607c;
+  constexpr static std::size_t addrs = 0x5cd3de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(), { "get_PropertyName", {}, {} })));
@@ -353,7 +353,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonPropertyAttribute::*)(::StringW)>(&::Newtonsoft::Json::JsonPropertyAttribute::set_PropertyName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd6084;
+  constexpr static std::size_t addrs = 0x5cd3df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::ReferenceLoopHandling (::Newtonsoft::Json::JsonPropertyAttribute::*)()>(
     &::Newtonsoft::Json::JsonPropertyAttribute::get_ItemReferenceLoopHandling)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cd608c;
+  constexpr static std::size_t addrs = 0x5cd3df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -381,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonPropertyAttribute::*)(::Newtonsoft::Json::ReferenceLoopHandling)>(
     &::Newtonsoft::Json::JsonPropertyAttribute::set_ItemReferenceLoopHandling)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5cd60d0;
+  constexpr static std::size_t addrs = 0x5cd3e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(),
@@ -395,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::TypeNameHandling (::Newtonsoft::Json::JsonPropertyAttribute::*)()>(
     &::Newtonsoft::Json::JsonPropertyAttribute::get_ItemTypeNameHandling)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cd6128;
+  constexpr static std::size_t addrs = 0x5cd3e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(), { "get_ItemTypeNameHandling", {}, {} })));
@@ -408,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonPropertyAttribute::*)(::Newtonsoft::Json::TypeNameHandling)>(
     &::Newtonsoft::Json::JsonPropertyAttribute::set_ItemTypeNameHandling)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5cd616c;
+  constexpr static std::size_t addrs = 0x5cd3ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(),
@@ -421,7 +421,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::JsonPropertyAttribute::*)()>(&::Newtonsoft::Json::JsonPropertyAttribute::get_ItemIsReference)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cd61c4;
+  constexpr static std::size_t addrs = 0x5cd3f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(), { "get_ItemIsReference", {}, {} })));
@@ -433,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonPropertyAttribute::*)(bool)>(&::Newtonsoft::Json::JsonPropertyAttribute::set_ItemIsReference)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5cd6208;
+  constexpr static std::size_t addrs = 0x5cd3f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -446,7 +446,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonPropertyAttribute::*)()>(&::Newtonsoft::Json::JsonPropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cd6264;
+  constexpr static std::size_t addrs = 0x5cd3fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonPropertyAttribute*>(), { ".ctor", {}, {} })));
@@ -458,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonPropertyAttribute::*)(::StringW)>(&::Newtonsoft::Json::JsonPropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd6268;
+  constexpr static std::size_t addrs = 0x5cd3fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

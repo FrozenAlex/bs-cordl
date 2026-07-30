@@ -22,16 +22,16 @@ namespace System::IO {
 class CORDL_TYPE Error : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEndOfFile, addr 0x5bf4384, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetEndOfFile, addr 0x5bf21c8, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Exception* GetEndOfFile();
 
-  /// @brief Method GetReadNotSupported, addr 0x5bf4404, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetReadNotSupported, addr 0x5bf2248, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Exception* GetReadNotSupported();
 
-  /// @brief Method GetStreamIsClosed, addr 0x5bf4300, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetStreamIsClosed, addr 0x5bf2144, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Exception* GetStreamIsClosed();
 
-  /// @brief Method GetWriteNotSupported, addr 0x5bf4484, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetWriteNotSupported, addr 0x5bf22c8, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Exception* GetWriteNotSupported();
 
 protected:

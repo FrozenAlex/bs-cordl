@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::ObjectSecurity::*)(::System::Security::AccessControl::CommonSecurityDescriptor*)>(
     &::System::Security::AccessControl::ObjectSecurity::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5b1e4d4;
+  constexpr static std::size_t addrs = 0x5b1c318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::ObjectSecurity*>(),
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::ObjectSecurity::*)(bool, bool)>(&::System::Security::AccessControl::ObjectSecurity::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5b1ca48;
+  constexpr static std::size_t addrs = 0x5b1a88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::ObjectSecurity::*)(::System::Security::AccessControl::AccessControlSections)>(
     &::System::Security::AccessControl::ObjectSecurity::set_AccessControlSectionsModified)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5b1de5c;
+  constexpr static std::size_t addrs = 0x5b1bca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::ObjectSecurity::*)()>(&::System::Security::AccessControl::ObjectSecurity::ReadLock)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5b1e5f8;
+  constexpr static std::size_t addrs = 0x5b1c43c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::ObjectSecurity*>(), { "ReadLock", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::ObjectSecurity::*)()>(&::System::Security::AccessControl::ObjectSecurity::ReadUnlock)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5b1e614;
+  constexpr static std::size_t addrs = 0x5b1c458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::ObjectSecurity*>(), { "ReadUnlock", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::ObjectSecurity::*)()>(&::System::Security::AccessControl::ObjectSecurity::Writing)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5b1e58c;
+  constexpr static std::size_t addrs = 0x5b1c3d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::ObjectSecurity*>(), { "Writing", {}, {} })));
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::ObjectSecurity::*)()>(&::System::Security::AccessControl::ObjectSecurity::WriteLock)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5b1de40;
+  constexpr static std::size_t addrs = 0x5b1bc84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::ObjectSecurity*>(), { "WriteLock", {}, {} })));
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::ObjectSecurity::*)()>(&::System::Security::AccessControl::ObjectSecurity::WriteUnlock)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5b1e62c;
+  constexpr static std::size_t addrs = 0x5b1c470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::ObjectSecurity*>(), { "WriteUnlock", {}, {} })));
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::AuthorizationRuleCollection* (
     ::System::Security::AccessControl::ObjectSecurity::*)(bool, bool, ::System::Type*)>(&::System::Security::AccessControl::ObjectSecurity::InternalGetAccessRules)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x5b1cb30;
+  constexpr static std::size_t addrs = 0x5b1a974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Acces
     ::System::Security::AccessControl::ObjectSecurity::*)(::System::Security::AccessControl::QualifiedAce*, ::System::Type*, ::System::Security::AccessControl::AccessControlType)>(
     &::System::Security::AccessControl::ObjectSecurity::InternalAccessRuleFactory)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5b1e644;
+  constexpr static std::size_t addrs = 0x5b1c488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

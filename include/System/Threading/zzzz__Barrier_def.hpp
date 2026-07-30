@@ -79,47 +79,47 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method DiscontinuousWait, addr 0x6376524, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method DiscontinuousWait, addr 0x63742c0, size 0x13c, virtual false, abstract: false, final false
   inline bool DiscontinuousWait(::System::Threading::ManualResetEventSlim* currentPhaseEvent, int32_t totalTimeout, ::System::Threading::CancellationToken token, int64_t observedPhase);
 
-  /// @brief Method Dispose, addr 0x6376814, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x63745b0, size 0xe4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x63768f8, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6374694, size 0x54, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method FinishPhase, addr 0x6376230, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method FinishPhase, addr 0x6373fcc, size 0x2f4, virtual false, abstract: false, final false
   inline void FinishPhase(bool observedSense);
 
-  /// @brief Method GetCurrentTotal, addr 0x6375c80, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentTotal, addr 0x6373a1c, size 0x20, virtual false, abstract: false, final false
   inline void GetCurrentTotal(int32_t currentTotal, ::by_ref<int32_t> current, ::by_ref<int32_t> total, ::by_ref<bool> sense);
 
-  /// @brief Method InvokePostPhaseAction, addr 0x637677c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method InvokePostPhaseAction, addr 0x6374518, size 0x98, virtual false, abstract: false, final false
   static inline void InvokePostPhaseAction(::System::Object* obj);
 
   static inline ::System::Threading::Barrier* New_ctor(int32_t participantCount);
 
   static inline ::System::Threading::Barrier* New_ctor(int32_t participantCount, ::System::Action_1<::System::Threading::Barrier*>* postPhaseAction);
 
-  /// @brief Method SetCurrentTotal, addr 0x6375ca0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentTotal, addr 0x6373a3c, size 0x3c, virtual false, abstract: false, final false
   inline bool SetCurrentTotal(int32_t currentTotal, int32_t current, int32_t total, bool sense);
 
-  /// @brief Method SetResetEvents, addr 0x6376718, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetResetEvents, addr 0x63744b4, size 0x64, virtual false, abstract: false, final false
   inline void SetResetEvents(bool observedSense);
 
-  /// @brief Method SignalAndWait, addr 0x6375cf4, size 0x4cc, virtual false, abstract: false, final false
+  /// @brief Method SignalAndWait, addr 0x6373a90, size 0x4cc, virtual false, abstract: false, final false
   inline bool SignalAndWait(int32_t millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SignalAndWait, addr 0x6375cdc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SignalAndWait, addr 0x6373a78, size 0xc, virtual false, abstract: false, final false
   inline void SignalAndWait();
 
-  /// @brief Method SignalAndWait, addr 0x6375ce8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SignalAndWait, addr 0x6373a84, size 0xc, virtual false, abstract: false, final false
   inline void SignalAndWait(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ThrowIfDisposed, addr 0x63761c0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfDisposed, addr 0x6373f5c, size 0x70, virtual false, abstract: false, final false
   inline void ThrowIfDisposed();
 
-  /// @brief Method WaitCurrentPhase, addr 0x6376660, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method WaitCurrentPhase, addr 0x63743fc, size 0xb8, virtual false, abstract: false, final false
   inline void WaitCurrentPhase(::System::Threading::ManualResetEventSlim* currentPhaseEvent, int64_t observedPhase);
 
   constexpr int32_t const& __cordl_internal_get_m_actionCallerID() const;
@@ -176,15 +176,15 @@ public:
 
   constexpr void __cordl_internal_set_m_postPhaseAction(::System::Action_1<::System::Threading::Barrier*>* value);
 
-  /// @brief Method .ctor, addr 0x6375b00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x637389c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t participantCount);
 
-  /// @brief Method .ctor, addr 0x6375b08, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63738a4, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(int32_t participantCount, ::System::Action_1<::System::Threading::Barrier*>* postPhaseAction);
 
   static inline ::System::Threading::ContextCallback* getStaticF_s_invokePostPhaseAction();
 
-  /// @brief Method get_CurrentPhaseNumber, addr 0x6375ae8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentPhaseNumber, addr 0x6373884, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_CurrentPhaseNumber();
 
   /// @brief Convert to "::System::IDisposable"
@@ -192,7 +192,7 @@ public:
 
   static inline void setStaticF_s_invokePostPhaseAction(::System::Threading::ContextCallback* value);
 
-  /// @brief Method set_CurrentPhaseNumber, addr 0x6375af4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CurrentPhaseNumber, addr 0x6373890, size 0xc, virtual false, abstract: false, final false
   inline void set_CurrentPhaseNumber(int64_t value);
 
 protected:
@@ -210,7 +210,7 @@ public:
   Barrier(Barrier const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11065 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11063 };
 
   /// @brief Field m_currentTotalCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_currentTotalCount;

@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::InternalDataCollectionBase::*)()>(&::System::Data::InternalDataCollectionBase::get_Count)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x601640c;
+  constexpr static std::size_t addrs = 0x60141a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::InternalDataCollectionBase::*)(::System::Array*, int32_t)>(&::System::Data::InternalDataCollectionBase::CopyTo)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6016438;
+  constexpr static std::size_t addrs = 0x60141d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Data::InternalDataCollectionBase::*)()>(
     &::System::Data::InternalDataCollectionBase::GetEnumerator)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6016480;
+  constexpr static std::size_t addrs = 0x601421c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::InternalDataCollectionBase::*)()>(&::System::Data::InternalDataCollectionBase::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60164ac;
+  constexpr static std::size_t addrs = 0x6014248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::InternalDataCollectionBase*>(), { "get_IsSynchronized", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::InternalDataCollectionBase::*)(::StringW, ::StringW, bool, ::System::Globalization::CultureInfo*)>(
     &::System::Data::InternalDataCollectionBase::NamesEqual)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x60164b4;
+  constexpr static std::size_t addrs = 0x6014250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::InternalDataCollectionBase::*)()>(&::System::Data::InternalDataCollectionBase::get_SyncRoot)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6016558;
+  constexpr static std::size_t addrs = 0x60142f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::InternalDataCollectionBase*>(), { "get_SyncRoot", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::System::Data::InternalDataCollectionBase::*)()>(&::System::Data::InternalDataCollectionBase::get_List)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x601655c;
+  constexpr static std::size_t addrs = 0x60142f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::InternalDataCollectionBase::*)()>(&::System::Data::InternalDataCollectionBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6016564;
+  constexpr static std::size_t addrs = 0x6014300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::InternalDataCollectionBase*>(), { ".ctor", {}, {} })));

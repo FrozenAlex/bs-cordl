@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LeaderboardPlayerInfo::*)()>(&::GlobalNamespace::LeaderboardPlayerInfo::get_playerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375229c;
+  constexpr static std::size_t addrs = 0x3750dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardPlayerInfo*>(), { "get_playerId", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardPlayerInfo::*)(::StringW)>(&::GlobalNamespace::LeaderboardPlayerInfo::set_playerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37522a4;
+  constexpr static std::size_t addrs = 0x3750dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LeaderboardPlayerInfo::*)()>(&::GlobalNamespace::LeaderboardPlayerInfo::get_playerName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37522ac;
+  constexpr static std::size_t addrs = 0x3750dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardPlayerInfo*>(), { "get_playerName", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardPlayerInfo::*)(::StringW)>(&::GlobalNamespace::LeaderboardPlayerInfo::set_playerName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37522b4;
+  constexpr static std::size_t addrs = 0x3750dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LeaderboardPlayerInfo::*)()>(&::GlobalNamespace::LeaderboardPlayerInfo::get_playerKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37522bc;
+  constexpr static std::size_t addrs = 0x3750de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardPlayerInfo*>(), { "get_playerKey", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardPlayerInfo::*)(::StringW)>(&::GlobalNamespace::LeaderboardPlayerInfo::set_playerKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37522c4;
+  constexpr static std::size_t addrs = 0x3750de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LeaderboardPlayerInfo::*)()>(&::GlobalNamespace::LeaderboardPlayerInfo::get_authType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37522cc;
+  constexpr static std::size_t addrs = 0x3750df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardPlayerInfo*>(), { "get_authType", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardPlayerInfo::*)(::StringW)>(&::GlobalNamespace::LeaderboardPlayerInfo::set_authType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37522d4;
+  constexpr static std::size_t addrs = 0x3750df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LeaderboardPlayerInfo::*)()>(&::GlobalNamespace::LeaderboardPlayerInfo::get_playerFriends)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37522dc;
+  constexpr static std::size_t addrs = 0x3750e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardPlayerInfo*>(), { "get_playerFriends", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardPlayerInfo::*)(::StringW)>(&::GlobalNamespace::LeaderboardPlayerInfo::set_playerFriends)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37522e4;
+  constexpr static std::size_t addrs = 0x3750e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LeaderboardPlayerInfo::*)()>(&::GlobalNamespace::LeaderboardPlayerInfo::get_succeeded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37522ec;
+  constexpr static std::size_t addrs = 0x3750e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardPlayerInfo*>(), { "get_succeeded", {}, {} })));
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardPlayerInfo::*)(bool)>(&::GlobalNamespace::LeaderboardPlayerInfo::set_succeeded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37522f4;
+  constexpr static std::size_t addrs = 0x3750e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardPlayerInfo::*)(bool, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(
     &::GlobalNamespace::LeaderboardPlayerInfo::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x37522fc;
+  constexpr static std::size_t addrs = 0x3750e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

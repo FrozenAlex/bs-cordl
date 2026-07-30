@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelFinishedController::*)()>(&::GlobalNamespace::StandardLevelFinishedController::Start)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x59b0740;
+  constexpr static std::size_t addrs = 0x59aeda0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelFinishedController*>(), { "Start", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelFinishedController::*)()>(&::GlobalNamespace::StandardLevelFinishedController::OnDestroy)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x59b0834;
+  constexpr static std::size_t addrs = 0x59aee94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelFinishedController*>(), { "OnDestroy", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelFinishedController::*)()>(&::GlobalNamespace::StandardLevelFinishedController::HandleLevelFinished)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59b096c;
+  constexpr static std::size_t addrs = 0x59aefcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelFinishedController*>(), { "HandleLevelFinished", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelFinishedController::*)()>(&::GlobalNamespace::StandardLevelFinishedController::StartLevelFinished)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x59b0970;
+  constexpr static std::size_t addrs = 0x59aefd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelFinishedController*>(), { "StartLevelFinished", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelFinishedController::*)()>(&::GlobalNamespace::StandardLevelFinishedController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59b09c4;
+  constexpr static std::size_t addrs = 0x59af024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelFinishedController*>(), { ".ctor", {}, {} })));

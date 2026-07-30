@@ -113,12 +113,12 @@ namespace System {
 class CORDL_TYPE DateTimeParse_MatchNumberDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x5c3c52c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5c3a298, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::by_ref<::System::__DTString> str, int32_t digitLen, ::by_ref<int32_t> result);
 
   static inline ::System::DateTimeParse_MatchNumberDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x5c3c4ac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c3a218, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -552,10 +552,10 @@ public:
 
   static inline ::System::DateTimeParse___c* New_ctor();
 
-  /// @brief Method <DoStrictParse>b__98_0, addr 0x5c3c598, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <DoStrictParse>b__98_0, addr 0x5c3a304, size 0x74, virtual false, abstract: false, final false
   inline ::System::DateTimeParse_MatchNumberDelegate* _DoStrictParse_b__98_0();
 
-  /// @brief Method .ctor, addr 0x5c3c594, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c3a300, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::DateTimeParse___c* getStaticF___9();
@@ -612,269 +612,269 @@ public:
   /// @brief Field m_hebrewNumberParser, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_hebrewNumberParser, put = setStaticF_m_hebrewNumberParser)) ::System::DateTimeParse_MatchNumberDelegate* m_hebrewNumberParser;
 
-  /// @brief Method AdjustHour, addr 0x5c36bec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method AdjustHour, addr 0x5c34958, size 0x4c, virtual false, abstract: false, final false
   static inline bool AdjustHour(::by_ref<int32_t> hour, ::System::DateTimeParse_TM timeMark);
 
-  /// @brief Method AdjustTimeMark, addr 0x5c36b60, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AdjustTimeMark, addr 0x5c348cc, size 0x8c, virtual false, abstract: false, final false
   static inline void AdjustTimeMark(::System::Globalization::DateTimeFormatInfo* dtfi, ::by_ref<::System::DateTimeRawInfo> raw);
 
-  /// @brief Method AdjustTimeZoneToLocal, addr 0x5c38cb4, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method AdjustTimeZoneToLocal, addr 0x5c36a20, size 0x2a4, virtual false, abstract: false, final false
   static inline bool AdjustTimeZoneToLocal(::by_ref<::System::DateTimeResult> result, bool bTimeOnly);
 
-  /// @brief Method AdjustTimeZoneToUniversal, addr 0x5c38b98, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method AdjustTimeZoneToUniversal, addr 0x5c36904, size 0x11c, virtual false, abstract: false, final false
   static inline bool AdjustTimeZoneToUniversal(::by_ref<::System::DateTimeResult> result);
 
-  /// @brief Method CheckDefaultDateTime, addr 0x5c38464, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method CheckDefaultDateTime, addr 0x5c361d0, size 0x28c, virtual false, abstract: false, final false
   static inline bool CheckDefaultDateTime(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::Globalization::Calendar*> cal, ::System::Globalization::DateTimeStyles styles);
 
-  /// @brief Method CheckNewValue, addr 0x5c3a4f0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CheckNewValue, addr 0x5c3825c, size 0xac, virtual false, abstract: false, final false
   static inline bool CheckNewValue(::by_ref<int32_t> currentValue, int32_t newValue, char16_t patternChar, ::by_ref<::System::DateTimeResult> result);
 
-  /// @brief Method DateTimeOffsetTimeZonePostProcessing, addr 0x5c3894c, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method DateTimeOffsetTimeZonePostProcessing, addr 0x5c366b8, size 0x24c, virtual false, abstract: false, final false
   static inline bool DateTimeOffsetTimeZonePostProcessing(::by_ref<::System::__DTString> str, ::by_ref<::System::DateTimeResult> result, ::System::Globalization::DateTimeStyles styles);
 
-  /// @brief Method DetermineTimeZoneAdjustments, addr 0x5c386f0, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method DetermineTimeZoneAdjustments, addr 0x5c3645c, size 0x25c, virtual false, abstract: false, final false
   static inline bool DetermineTimeZoneAdjustments(::by_ref<::System::__DTString> str, ::by_ref<::System::DateTimeResult> result, ::System::Globalization::DateTimeStyles styles, bool bTimeOnly);
 
-  /// @brief Method DoStrictParse, addr 0x5c32418, size 0x8a4, virtual false, abstract: false, final false
+  /// @brief Method DoStrictParse, addr 0x5c30184, size 0x8a4, virtual false, abstract: false, final false
   static inline bool DoStrictParse(::System::ReadOnlySpan_1<char16_t> s, ::System::ReadOnlySpan_1<char16_t> formatParam, ::System::Globalization::DateTimeStyles styles,
                                    ::System::Globalization::DateTimeFormatInfo* dtfi, ::by_ref<::System::DateTimeResult> result);
 
-  /// @brief Method ExpandPredefinedFormat, addr 0x5c3a59c, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method ExpandPredefinedFormat, addr 0x5c38308, size 0x344, virtual false, abstract: false, final false
   static inline ::StringW ExpandPredefinedFormat(::System::ReadOnlySpan_1<char16_t> format, ::by_ref<::System::Globalization::DateTimeFormatInfo*> dtfi, ::by_ref<::System::ParsingInfo> parseInfo,
                                                  ::by_ref<::System::DateTimeResult> result);
 
-  /// @brief Method GetDateOfDSN, addr 0x5c36de0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetDateOfDSN, addr 0x5c34b4c, size 0x84, virtual false, abstract: false, final false
   static inline bool GetDateOfDSN(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::DateTimeRawInfo> raw);
 
-  /// @brief Method GetDateOfNDS, addr 0x5c36e64, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetDateOfNDS, addr 0x5c34bd0, size 0xe0, virtual false, abstract: false, final false
   static inline bool GetDateOfNDS(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::DateTimeRawInfo> raw);
 
-  /// @brief Method GetDateOfNNDS, addr 0x5c36f44, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method GetDateOfNNDS, addr 0x5c34cb0, size 0x230, virtual false, abstract: false, final false
   static inline bool GetDateOfNNDS(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::DateTimeRawInfo> raw, ::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method GetDateTimeNow, addr 0x5c3579c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetDateTimeNow, addr 0x5c33508, size 0x124, virtual false, abstract: false, final false
   static inline ::System::DateTime GetDateTimeNow(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::Globalization::DateTimeStyles> styles);
 
-  /// @brief Method GetDateTimeParseException, addr 0x5c32298, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetDateTimeParseException, addr 0x5c30004, size 0x180, virtual false, abstract: false, final false
   static inline ::System::Exception* GetDateTimeParseException(::by_ref<::System::DateTimeResult> result);
 
-  /// @brief Method GetDayOfMN, addr 0x5c35d18, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method GetDayOfMN, addr 0x5c33a84, size 0x22c, virtual false, abstract: false, final false
   static inline bool GetDayOfMN(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::Globalization::DateTimeStyles> styles, ::by_ref<::System::DateTimeRawInfo> raw,
                                 ::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method GetDayOfMNN, addr 0x5c362e4, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method GetDayOfMNN, addr 0x5c34050, size 0x2f0, virtual false, abstract: false, final false
   static inline bool GetDayOfMNN(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::DateTimeRawInfo> raw, ::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method GetDayOfNM, addr 0x5c360b8, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method GetDayOfNM, addr 0x5c33e24, size 0x22c, virtual false, abstract: false, final false
   static inline bool GetDayOfNM(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::Globalization::DateTimeStyles> styles, ::by_ref<::System::DateTimeRawInfo> raw,
                                 ::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method GetDayOfNN, addr 0x5c358c0, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetDayOfNN, addr 0x5c3362c, size 0x198, virtual false, abstract: false, final false
   static inline bool GetDayOfNN(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::Globalization::DateTimeStyles> styles, ::by_ref<::System::DateTimeRawInfo> raw,
                                 ::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method GetDayOfNNN, addr 0x5c35a58, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method GetDayOfNNN, addr 0x5c337c4, size 0x2c0, virtual false, abstract: false, final false
   static inline bool GetDayOfNNN(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::DateTimeRawInfo> raw, ::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method GetDayOfNNY, addr 0x5c3672c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetDayOfNNY, addr 0x5c34498, size 0x19c, virtual false, abstract: false, final false
   static inline bool GetDayOfNNY(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::DateTimeRawInfo> raw, ::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method GetDayOfYM, addr 0x5c36a88, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetDayOfYM, addr 0x5c347f4, size 0xd8, virtual false, abstract: false, final false
   static inline bool GetDayOfYM(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::DateTimeRawInfo> raw);
 
-  /// @brief Method GetDayOfYMN, addr 0x5c368c8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetDayOfYMN, addr 0x5c34634, size 0xe0, virtual false, abstract: false, final false
   static inline bool GetDayOfYMN(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::DateTimeRawInfo> raw);
 
-  /// @brief Method GetDayOfYN, addr 0x5c369a8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetDayOfYN, addr 0x5c34714, size 0xe0, virtual false, abstract: false, final false
   static inline bool GetDayOfYN(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::DateTimeRawInfo> raw);
 
-  /// @brief Method GetDayOfYNN, addr 0x5c365d4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetDayOfYNN, addr 0x5c34340, size 0x158, virtual false, abstract: false, final false
   static inline bool GetDayOfYNN(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::DateTimeRawInfo> raw, ::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method GetDefaultYear, addr 0x5c356fc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultYear, addr 0x5c33468, size 0xa0, virtual false, abstract: false, final false
   static inline void GetDefaultYear(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::Globalization::DateTimeStyles> styles);
 
-  /// @brief Method GetHebrewDayOfNM, addr 0x5c35f44, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetHebrewDayOfNM, addr 0x5c33cb0, size 0x174, virtual false, abstract: false, final false
   static inline bool GetHebrewDayOfNM(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::DateTimeRawInfo> raw, ::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method GetJapaneseCalendarDefaultInstance, addr 0x5c349fc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetJapaneseCalendarDefaultInstance, addr 0x5c32768, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Globalization::Calendar* GetJapaneseCalendarDefaultInstance();
 
-  /// @brief Method GetMonthDayOrder, addr 0x5c35278, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method GetMonthDayOrder, addr 0x5c32fe4, size 0x1e0, virtual false, abstract: false, final false
   static inline bool GetMonthDayOrder(::StringW pattern, ::System::Globalization::DateTimeFormatInfo* dtfi, ::by_ref<int32_t> order);
 
-  /// @brief Method GetTaiwanCalendarDefaultInstance, addr 0x5c34af4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetTaiwanCalendarDefaultInstance, addr 0x5c32860, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Globalization::Calendar* GetTaiwanCalendarDefaultInstance();
 
-  /// @brief Method GetTimeOfN, addr 0x5c36c38, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetTimeOfN, addr 0x5c349a4, size 0x88, virtual false, abstract: false, final false
   static inline bool GetTimeOfN(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::DateTimeRawInfo> raw);
 
-  /// @brief Method GetTimeOfNN, addr 0x5c36cc0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetTimeOfNN, addr 0x5c34a2c, size 0x8c, virtual false, abstract: false, final false
   static inline bool GetTimeOfNN(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::DateTimeRawInfo> raw);
 
-  /// @brief Method GetTimeOfNNN, addr 0x5c36d4c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetTimeOfNNN, addr 0x5c34ab8, size 0x94, virtual false, abstract: false, final false
   static inline bool GetTimeOfNNN(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::DateTimeRawInfo> raw);
 
-  /// @brief Method GetTimeZoneName, addr 0x5c33140, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetTimeZoneName, addr 0x5c30eac, size 0xbc, virtual false, abstract: false, final false
   static inline bool GetTimeZoneName(::by_ref<::System::__DTString> str);
 
-  /// @brief Method GetYearMonthDayOrder, addr 0x5c34e18, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method GetYearMonthDayOrder, addr 0x5c32b84, size 0x298, virtual false, abstract: false, final false
   static inline bool GetYearMonthDayOrder(::StringW datePattern, ::System::Globalization::DateTimeFormatInfo* dtfi, ::by_ref<int32_t> order);
 
-  /// @brief Method GetYearMonthOrder, addr 0x5c350b0, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method GetYearMonthOrder, addr 0x5c32e1c, size 0x1c8, virtual false, abstract: false, final false
   static inline bool GetYearMonthOrder(::StringW pattern, ::System::Globalization::DateTimeFormatInfo* dtfi, ::by_ref<int32_t> order);
 
-  /// @brief Method HandleTimeZone, addr 0x5c335d8, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method HandleTimeZone, addr 0x5c31344, size 0x204, virtual false, abstract: false, final false
   static inline bool HandleTimeZone(::by_ref<::System::__DTString> str, ::by_ref<::System::DateTimeResult> result);
 
-  /// @brief Method IsDigit, addr 0x5c331fc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsDigit, addr 0x5c30f68, size 0x14, virtual false, abstract: false, final false
   static inline bool IsDigit(char16_t ch);
 
-  /// @brief Method Lex, addr 0x5c337dc, size 0xedc, virtual false, abstract: false, final false
+  /// @brief Method Lex, addr 0x5c31548, size 0xedc, virtual false, abstract: false, final false
   static inline bool Lex(::System::DateTimeParse_DS dps, ::by_ref<::System::__DTString> str, ::by_ref<::System::DateTimeToken> dtok, ::by_ref<::System::DateTimeRawInfo> raw,
                          ::by_ref<::System::DateTimeResult> result, ::by_ref<::System::Globalization::DateTimeFormatInfo*> dtfi, ::System::Globalization::DateTimeStyles styles);
 
-  /// @brief Method MatchAbbreviatedDayName, addr 0x5c39d2c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method MatchAbbreviatedDayName, addr 0x5c37a98, size 0x174, virtual false, abstract: false, final false
   static inline bool MatchAbbreviatedDayName(::by_ref<::System::__DTString> str, ::System::Globalization::DateTimeFormatInfo* dtfi, ::by_ref<int32_t> result);
 
-  /// @brief Method MatchAbbreviatedMonthName, addr 0x5c398a0, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method MatchAbbreviatedMonthName, addr 0x5c3760c, size 0x214, virtual false, abstract: false, final false
   static inline bool MatchAbbreviatedMonthName(::by_ref<::System::__DTString> str, ::System::Globalization::DateTimeFormatInfo* dtfi, ::by_ref<int32_t> result);
 
-  /// @brief Method MatchAbbreviatedTimeMark, addr 0x5c3a37c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method MatchAbbreviatedTimeMark, addr 0x5c380e8, size 0x174, virtual false, abstract: false, final false
   static inline bool MatchAbbreviatedTimeMark(::by_ref<::System::__DTString> str, ::System::Globalization::DateTimeFormatInfo* dtfi, ::by_ref<::System::DateTimeParse_TM> result);
 
-  /// @brief Method MatchDayName, addr 0x5c39ea0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method MatchDayName, addr 0x5c37c0c, size 0x174, virtual false, abstract: false, final false
   static inline bool MatchDayName(::by_ref<::System::__DTString> str, ::System::Globalization::DateTimeFormatInfo* dtfi, ::by_ref<int32_t> result);
 
-  /// @brief Method MatchEraName, addr 0x5c3a014, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method MatchEraName, addr 0x5c37d80, size 0x1a0, virtual false, abstract: false, final false
   static inline bool MatchEraName(::by_ref<::System::__DTString> str, ::System::Globalization::DateTimeFormatInfo* dtfi, ::by_ref<int32_t> result);
 
-  /// @brief Method MatchHebrewDigits, addr 0x5c38fec, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method MatchHebrewDigits, addr 0x5c36d58, size 0x110, virtual false, abstract: false, final false
   static inline bool MatchHebrewDigits(::by_ref<::System::__DTString> str, int32_t digitLen, ::by_ref<int32_t> number);
 
-  /// @brief Method MatchMonthName, addr 0x5c39ab4, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method MatchMonthName, addr 0x5c37820, size 0x278, virtual false, abstract: false, final false
   static inline bool MatchMonthName(::by_ref<::System::__DTString> str, ::System::Globalization::DateTimeFormatInfo* dtfi, ::by_ref<int32_t> result);
 
-  /// @brief Method MatchTimeMark, addr 0x5c3a1b4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method MatchTimeMark, addr 0x5c37f20, size 0x1c8, virtual false, abstract: false, final false
   static inline bool MatchTimeMark(::by_ref<::System::__DTString> str, ::System::Globalization::DateTimeFormatInfo* dtfi, ::by_ref<::System::DateTimeParse_TM> result);
 
-  /// @brief Method MatchWord, addr 0x5c32f68, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method MatchWord, addr 0x5c30cd4, size 0x1d8, virtual false, abstract: false, final false
   static inline bool MatchWord(::by_ref<::System::__DTString> str, ::StringW target);
 
-  /// @brief Method Parse, addr 0x5c27094, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x5c24ee8, size 0x110, virtual false, abstract: false, final false
   static inline ::System::DateTime Parse(::System::ReadOnlySpan_1<char16_t> s, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Globalization::DateTimeStyles styles);
 
-  /// @brief Method Parse, addr 0x5c2b290, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x5c28ffc, size 0x124, virtual false, abstract: false, final false
   static inline ::System::DateTime Parse(::System::ReadOnlySpan_1<char16_t> s, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Globalization::DateTimeStyles styles,
                                          ::by_ref<::System::TimeSpan> offset);
 
-  /// @brief Method ParseByFormat, addr 0x5c3aa00, size 0x1174, virtual false, abstract: false, final false
+  /// @brief Method ParseByFormat, addr 0x5c3876c, size 0x1174, virtual false, abstract: false, final false
   static inline bool ParseByFormat(::by_ref<::System::__DTString> str, ::by_ref<::System::__DTString> format, ::by_ref<::System::ParsingInfo> parseInfo,
                                    ::System::Globalization::DateTimeFormatInfo* dtfi, ::by_ref<::System::DateTimeResult> result);
 
-  /// @brief Method ParseDigits, addr 0x5c38f58, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ParseDigits, addr 0x5c36cc4, size 0x94, virtual false, abstract: false, final false
   static inline bool ParseDigits(::by_ref<::System::__DTString> str, int32_t digitLen, ::by_ref<int32_t> result);
 
-  /// @brief Method ParseDigits, addr 0x5c390fc, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method ParseDigits, addr 0x5c36e68, size 0x1f0, virtual false, abstract: false, final false
   static inline bool ParseDigits(::by_ref<::System::__DTString> str, int32_t minDigitLen, int32_t maxDigitLen, ::by_ref<int32_t> result);
 
-  /// @brief Method ParseExact, addr 0x5c274bc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ParseExact, addr 0x5c25228, size 0x128, virtual false, abstract: false, final false
   static inline ::System::DateTime ParseExact(::System::ReadOnlySpan_1<char16_t> s, ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::DateTimeFormatInfo* dtfi,
                                               ::System::Globalization::DateTimeStyles style);
 
-  /// @brief Method ParseExact, addr 0x5c2b57c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ParseExact, addr 0x5c292e8, size 0x174, virtual false, abstract: false, final false
   static inline ::System::DateTime ParseExact(::System::ReadOnlySpan_1<char16_t> s, ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::DateTimeFormatInfo* dtfi,
                                               ::System::Globalization::DateTimeStyles style, ::by_ref<::System::TimeSpan> offset);
 
-  /// @brief Method ParseExactMultiple, addr 0x5c27860, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ParseExactMultiple, addr 0x5c255cc, size 0x118, virtual false, abstract: false, final false
   static inline ::System::DateTime ParseExactMultiple(::System::ReadOnlySpan_1<char16_t> s, ::ArrayW<::StringW> formats, ::System::Globalization::DateTimeFormatInfo* dtfi,
                                                       ::System::Globalization::DateTimeStyles style);
 
-  /// @brief Method ParseFraction, addr 0x5c33210, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ParseFraction, addr 0x5c30f7c, size 0xf4, virtual false, abstract: false, final false
   static inline bool ParseFraction(::by_ref<::System::__DTString> str, ::by_ref<double_t> result);
 
-  /// @brief Method ParseFractionExact, addr 0x5c392ec, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method ParseFractionExact, addr 0x5c37058, size 0x2ec, virtual false, abstract: false, final false
   static inline bool ParseFractionExact(::by_ref<::System::__DTString> str, int32_t maxDigitLen, ::by_ref<double_t> result);
 
-  /// @brief Method ParseISO8601, addr 0x5c37e78, size 0x5ec, virtual false, abstract: false, final false
+  /// @brief Method ParseISO8601, addr 0x5c35be4, size 0x5ec, virtual false, abstract: false, final false
   static inline bool ParseISO8601(::by_ref<::System::DateTimeRawInfo> raw, ::by_ref<::System::__DTString> str, ::System::Globalization::DateTimeStyles styles,
                                   ::by_ref<::System::DateTimeResult> result);
 
-  /// @brief Method ParseJapaneseEraStart, addr 0x5c3a8e0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ParseJapaneseEraStart, addr 0x5c3864c, size 0x120, virtual false, abstract: false, final false
   static inline bool ParseJapaneseEraStart(::by_ref<::System::__DTString> str, ::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method ParseSign, addr 0x5c395d8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ParseSign, addr 0x5c37344, size 0xc8, virtual false, abstract: false, final false
   static inline bool ParseSign(::by_ref<::System::__DTString> str, ::by_ref<bool> result);
 
-  /// @brief Method ParseTimeZone, addr 0x5c33304, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method ParseTimeZone, addr 0x5c31070, size 0x2d4, virtual false, abstract: false, final false
   static inline bool ParseTimeZone(::by_ref<::System::__DTString> str, ::by_ref<::System::TimeSpan> result);
 
-  /// @brief Method ParseTimeZoneOffset, addr 0x5c396a0, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method ParseTimeZoneOffset, addr 0x5c3740c, size 0x200, virtual false, abstract: false, final false
   static inline bool ParseTimeZoneOffset(::by_ref<::System::__DTString> str, int32_t len, ::by_ref<::System::TimeSpan> result);
 
-  /// @brief Method ProcessDateTimeSuffix, addr 0x5c37174, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ProcessDateTimeSuffix, addr 0x5c34ee0, size 0xf8, virtual false, abstract: false, final false
   static inline bool ProcessDateTimeSuffix(::by_ref<::System::DateTimeResult> result, ::by_ref<::System::DateTimeRawInfo> raw, ::by_ref<::System::DateTimeToken> dtok);
 
-  /// @brief Method ProcessHebrewTerminalState, addr 0x5c3726c, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method ProcessHebrewTerminalState, addr 0x5c34fd8, size 0x3d0, virtual false, abstract: false, final false
   static inline bool ProcessHebrewTerminalState(::System::DateTimeParse_DS dps, ::by_ref<::System::__DTString> str, ::by_ref<::System::DateTimeResult> result,
                                                 ::by_ref<::System::Globalization::DateTimeStyles> styles, ::by_ref<::System::DateTimeRawInfo> raw, ::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method ProcessTerminalState, addr 0x5c346b8, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method ProcessTerminalState, addr 0x5c32424, size 0x344, virtual false, abstract: false, final false
   static inline bool ProcessTerminalState(::System::DateTimeParse_DS dps, ::by_ref<::System::__DTString> str, ::by_ref<::System::DateTimeResult> result,
                                           ::by_ref<::System::Globalization::DateTimeStyles> styles, ::by_ref<::System::DateTimeRawInfo> raw, ::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method SetDateDMY, addr 0x5c355fc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetDateDMY, addr 0x5c33368, size 0x80, virtual false, abstract: false, final false
   static inline bool SetDateDMY(::by_ref<::System::DateTimeResult> result, int32_t day, int32_t month, int32_t year);
 
-  /// @brief Method SetDateMDY, addr 0x5c3557c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetDateMDY, addr 0x5c332e8, size 0x80, virtual false, abstract: false, final false
   static inline bool SetDateMDY(::by_ref<::System::DateTimeResult> result, int32_t month, int32_t day, int32_t year);
 
-  /// @brief Method SetDateYDM, addr 0x5c3567c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetDateYDM, addr 0x5c333e8, size 0x80, virtual false, abstract: false, final false
   static inline bool SetDateYDM(::by_ref<::System::DateTimeResult> result, int32_t year, int32_t day, int32_t month);
 
-  /// @brief Method SetDateYMD, addr 0x5c35520, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetDateYMD, addr 0x5c3328c, size 0x5c, virtual false, abstract: false, final false
   static inline bool SetDateYMD(::by_ref<::System::DateTimeResult> result, int32_t year, int32_t month, int32_t day);
 
-  /// @brief Method TryAdjustYear, addr 0x5c35458, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method TryAdjustYear, addr 0x5c331c4, size 0xc8, virtual false, abstract: false, final false
   static inline bool TryAdjustYear(::by_ref<::System::DateTimeResult> result, int32_t year, ::by_ref<int32_t> adjustedYear);
 
-  /// @brief Method TryParse, addr 0x5c280e0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x5c25e4c, size 0x120, virtual false, abstract: false, final false
   static inline bool TryParse(::System::ReadOnlySpan_1<char16_t> s, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Globalization::DateTimeStyles styles,
                               ::by_ref<::System::DateTime> result);
 
-  /// @brief Method TryParse, addr 0x5c2c2c0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x5c2a02c, size 0x174, virtual false, abstract: false, final false
   static inline bool TryParse(::System::ReadOnlySpan_1<char16_t> s, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Globalization::DateTimeStyles styles,
                               ::by_ref<::System::DateTime> result, ::by_ref<::System::TimeSpan> offset);
 
-  /// @brief Method TryParse, addr 0x5c3763c, size 0x83c, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x5c353a8, size 0x83c, virtual false, abstract: false, final false
   static inline bool TryParse(::System::ReadOnlySpan_1<char16_t> s, ::System::Globalization::DateTimeFormatInfo* dtfi, ::System::Globalization::DateTimeStyles styles,
                               ::by_ref<::System::DateTimeResult> result);
 
-  /// @brief Method TryParseExact, addr 0x5c28364, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method TryParseExact, addr 0x5c260d0, size 0x138, virtual false, abstract: false, final false
   static inline bool TryParseExact(::System::ReadOnlySpan_1<char16_t> s, ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::DateTimeFormatInfo* dtfi,
                                    ::System::Globalization::DateTimeStyles style, ::by_ref<::System::DateTime> result);
 
-  /// @brief Method TryParseExact, addr 0x5c2c600, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method TryParseExact, addr 0x5c2a36c, size 0x18c, virtual false, abstract: false, final false
   static inline bool TryParseExact(::System::ReadOnlySpan_1<char16_t> s, ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::DateTimeFormatInfo* dtfi,
                                    ::System::Globalization::DateTimeStyles style, ::by_ref<::System::DateTime> result, ::by_ref<::System::TimeSpan> offset);
 
-  /// @brief Method TryParseExact, addr 0x5c32188, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method TryParseExact, addr 0x5c2fef4, size 0x110, virtual false, abstract: false, final false
   static inline bool TryParseExact(::System::ReadOnlySpan_1<char16_t> s, ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::DateTimeFormatInfo* dtfi,
                                    ::System::Globalization::DateTimeStyles style, ::by_ref<::System::DateTimeResult> result);
 
-  /// @brief Method TryParseExactMultiple, addr 0x5c2c94c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method TryParseExactMultiple, addr 0x5c2a6b8, size 0x17c, virtual false, abstract: false, final false
   static inline bool TryParseExactMultiple(::System::ReadOnlySpan_1<char16_t> s, ::ArrayW<::StringW> formats, ::System::Globalization::DateTimeFormatInfo* dtfi,
                                            ::System::Globalization::DateTimeStyles style, ::by_ref<::System::DateTime> result, ::by_ref<::System::TimeSpan> offset);
 
-  /// @brief Method TryParseExactMultiple, addr 0x5c32cbc, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method TryParseExactMultiple, addr 0x5c30a28, size 0x2ac, virtual false, abstract: false, final false
   static inline bool TryParseExactMultiple(::System::ReadOnlySpan_1<char16_t> s, ::ArrayW<::StringW> formats, ::System::Globalization::DateTimeFormatInfo* dtfi,
                                            ::System::Globalization::DateTimeStyles style, ::by_ref<::System::DateTimeResult> result);
 
-  /// @brief Method TryParseQuoteString, addr 0x5c3bb74, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method TryParseQuoteString, addr 0x5c398e0, size 0xf8, virtual false, abstract: false, final false
   static inline bool TryParseQuoteString(::System::ReadOnlySpan_1<char16_t> format, int32_t pos, ::System::Text::StringBuilder* result, ::by_ref<int32_t> returnValue);
 
-  /// @brief Method VerifyValidPunctuation, addr 0x5c34bec, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method VerifyValidPunctuation, addr 0x5c32958, size 0x22c, virtual false, abstract: false, final false
   static inline bool VerifyValidPunctuation(::by_ref<::System::__DTString> str);
 
   static inline ::ArrayW<::ArrayW<::System::DateTimeParse_DS>> getStaticF_dateParsingStates();

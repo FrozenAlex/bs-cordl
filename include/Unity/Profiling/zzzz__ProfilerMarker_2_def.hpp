@@ -54,7 +54,7 @@ public:
   constexpr ProfilerMarker_2_AutoScope();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23401 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -96,7 +96,7 @@ public:
   constexpr ProfilerMarker_2();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23402 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

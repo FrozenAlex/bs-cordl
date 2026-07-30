@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HeadsetHapticSettingsSampleController::*)()>(&::GlobalNamespace::HeadsetHapticSettingsSampleController::Start)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5a0ed04;
+  constexpr static std::size_t addrs = 0x5a0d130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HeadsetHapticSettingsSampleController*>(), { "Start", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HeadsetHapticSettingsSampleController::*)()>(&::GlobalNamespace::HeadsetHapticSettingsSampleController::OnDestroy)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5a0eda4;
+  constexpr static std::size_t addrs = 0x5a0d1d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HeadsetHapticSettingsSampleController*>(), { "OnDestroy", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HeadsetHapticSettingsSampleController::*)()>(&::GlobalNamespace::HeadsetHapticSettingsSampleController::Update)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5a0ee80;
+  constexpr static std::size_t addrs = 0x5a0d2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HeadsetHapticSettingsSampleController*>(), { "Update", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HeadsetHapticSettingsSampleController::*)(::GlobalNamespace::FormattedFloatListSettingsController*, float_t)>(
     &::GlobalNamespace::HeadsetHapticSettingsSampleController::HandleHapticSettingValueDidChange)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5a0ef24;
+  constexpr static std::size_t addrs = 0x5a0d350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HeadsetHapticSettingsSampleController::*)()>(&::GlobalNamespace::HeadsetHapticSettingsSampleController::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a0ef98;
+  constexpr static std::size_t addrs = 0x5a0d3c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HeadsetHapticSettingsSampleController*>(), { ".ctor", {}, {} })));

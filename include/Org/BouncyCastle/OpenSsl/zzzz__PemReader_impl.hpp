@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::OpenSsl::PemReader::*)(::System::IO::TextReader*)>(&::Org::BouncyCastle::OpenSsl::PemReader::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x35a5120;
+  constexpr static std::size_t addrs = 0x35a36e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::OpenSsl::PemReader::*)(::System::IO::TextReader*, ::Org::BouncyCastle::OpenSsl::IPasswordFinder*)>(
     &::Org::BouncyCastle::OpenSsl::PemReader::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35a5138;
+  constexpr static std::size_t addrs = 0x35a3700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::OpenSsl::PemReader::*)()>(&::Org::BouncyCastle::OpenSsl::PemReader::ReadObject)> {
   constexpr static std::size_t size = 0x570;
-  constexpr static std::size_t addrs = 0x35a515c;
+  constexpr static std::size_t addrs = 0x35a3724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::OpenSsl::PemReader*>(), { "ReadObject", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (
     ::Org::BouncyCastle::OpenSsl::PemReader::*)(::Org::BouncyCastle::Utilities::IO::Pem::PemObject*)>(&::Org::BouncyCastle::OpenSsl::PemReader::ReadRsaPublicKey)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x35a6948;
+  constexpr static std::size_t addrs = 0x35a4f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::OpenSsl::PemReader*>(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (
     ::Org::BouncyCastle::OpenSsl::PemReader::*)(::Org::BouncyCastle::Utilities::IO::Pem::PemObject*)>(&::Org::BouncyCastle::OpenSsl::PemReader::ReadPublicKey)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x35a6930;
+  constexpr static std::size_t addrs = 0x35a4ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::OpenSsl::PemReader*>(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::X509::X509Certificate* (::Org::BouncyCastle::OpenSsl::PemReader::*)(::Org::BouncyCastle::Utilities::IO::Pem::PemObject*)>(
     &::Org::BouncyCastle::OpenSsl::PemReader::ReadCertificate)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x35a6b20;
+  constexpr static std::size_t addrs = 0x35a50e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::OpenSsl::PemReader*>(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::X509::X509Crl* (::Org::BouncyCastle::OpenSsl::PemReader::*)(::Org::BouncyCastle::Utilities::IO::Pem::PemObject*)>(
     &::Org::BouncyCastle::OpenSsl::PemReader::ReadCrl)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x35a6d8c;
+  constexpr static std::size_t addrs = 0x35a5354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest* (
     ::Org::BouncyCastle::OpenSsl::PemReader::*)(::Org::BouncyCastle::Utilities::IO::Pem::PemObject*)>(&::Org::BouncyCastle::OpenSsl::PemReader::ReadCertificateRequest)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x35a69d4;
+  constexpr static std::size_t addrs = 0x35a4f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::X509::IX509AttributeCertificate* (
     ::Org::BouncyCastle::OpenSsl::PemReader::*)(::Org::BouncyCastle::Utilities::IO::Pem::PemObject*)>(&::Org::BouncyCastle::OpenSsl::PemReader::ReadAttributeCertificate)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35a6ed8;
+  constexpr static std::size_t addrs = 0x35a54a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::ContentInfo* (::Org::BouncyCastle::OpenSsl::PemReader::*)(::Org::BouncyCastle::Utilities::IO::Pem::PemObject*)>(
     &::Org::BouncyCastle::OpenSsl::PemReader::ReadPkcs7)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x35a6c74;
+  constexpr static std::size_t addrs = 0x35a523c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::OpenSsl::PemReader::*)(::Org::BouncyCastle::Utilities::IO::Pem::PemObject*)>(
     &::Org::BouncyCastle::OpenSsl::PemReader::ReadPrivateKey)> {
   constexpr static std::size_t size = 0x1264;
-  constexpr static std::size_t addrs = 0x35a56cc;
+  constexpr static std::size_t addrs = 0x35a3c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::OpenSsl::PemReader*>(),
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::StringW)>(&::Org::BouncyCastle::OpenSsl::PemReader::GetCurveParameters)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x35a6fe8;
+  constexpr static std::size_t addrs = 0x35a55b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::Assembly*> (*)()>(
     &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::GetAssemblies)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64667f0;
+  constexpr static std::size_t addrs = 0x646458c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::GetCachedValueCount)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x646680c;
+  constexpr static std::size_t addrs = 0x64645a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW)>(&::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::SetPropertyValue)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6466890;
+  constexpr static std::size_t addrs = 0x646462c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties*>(),
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::ClearCachedPropertyValues)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6466938;
+  constexpr static std::size_t addrs = 0x64646d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateProperty)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x64669b8;
+  constexpr static std::size_t addrs = 0x6464754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties*>(),
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateString)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x64526ac;
+  constexpr static std::size_t addrs = 0x6450448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties*>(),
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, char16_t, char16_t, ::System::Func_2<::StringW, ::StringW>*)>(
     &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateString)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6467354;
+  constexpr static std::size_t addrs = 0x64650f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, char16_t, char16_t, ::System::Func_2<::StringW, ::StringW>*)>(
     &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateStringInternal)> {
   constexpr static std::size_t size = 0x5c0;
-  constexpr static std::size_t addrs = 0x6466d94;
+  constexpr static std::size_t addrs = 0x6464b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRModeParms::*)()>(&::GlobalNamespace::OVRModeParms::Start)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5f02934;
+  constexpr static std::size_t addrs = 0x5f006a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRModeParms*>(), { "Start", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRModeParms::*)()>(&::GlobalNamespace::OVRModeParms::Update)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5f029d4;
+  constexpr static std::size_t addrs = 0x5f00740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRModeParms*>(), { "Update", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRModeParms::*)()>(&::GlobalNamespace::OVRModeParms::TestPowerStateMode)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5f02a88;
+  constexpr static std::size_t addrs = 0x5f007f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRModeParms*>(), { "TestPowerStateMode", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRModeParms::*)()>(&::GlobalNamespace::OVRModeParms::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f02b38;
+  constexpr static std::size_t addrs = 0x5f008a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRModeParms*>(), { ".ctor", {}, {} })));

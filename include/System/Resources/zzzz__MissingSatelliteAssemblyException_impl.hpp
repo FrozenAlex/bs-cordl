@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::MissingSatelliteAssemblyException::*)()>(&::System::Resources::MissingSatelliteAssemblyException::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5b70d54;
+  constexpr static std::size_t addrs = 0x5b6eb98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::MissingSatelliteAssemblyException*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::MissingSatelliteAssemblyException::*)(::StringW, ::StringW)>(
     &::System::Resources::MissingSatelliteAssemblyException::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5b70db4;
+  constexpr static std::size_t addrs = 0x5b6ebf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::MissingSatelliteAssemblyException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Resources::MissingSatelliteAssemblyException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b70de8;
+  constexpr static std::size_t addrs = 0x5b6ec2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

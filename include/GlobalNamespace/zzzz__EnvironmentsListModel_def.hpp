@@ -90,22 +90,22 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentsListModel___c* New_ctor();
 
-  /// @brief Method <CreateFromAddressables>b__15_0, addr 0x37071cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <CreateFromAddressables>b__15_0, addr 0x3705bf4, size 0x4, virtual false, abstract: false, final false
   inline void _CreateFromAddressables_b__15_0(::GlobalNamespace::EnvironmentInfoSO* _);
 
-  /// @brief Method <.ctor>b__14_0, addr 0x370717c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__14_0, addr 0x3705ba4, size 0x14, virtual false, abstract: false, final false
   inline int32_t __ctor_b__14_0(::GlobalNamespace::EnvironmentInfoSO* envInfo);
 
-  /// @brief Method <.ctor>b__14_1, addr 0x37071b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__14_1, addr 0x3705be0, size 0x14, virtual false, abstract: false, final false
   inline ::StringW __ctor_b__14_1(::GlobalNamespace::EnvironmentInfoSO* envInfo);
 
-  /// @brief Method <.ctor>b__14_2, addr 0x3707190, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__14_2, addr 0x3705bb8, size 0x14, virtual false, abstract: false, final false
   inline ::StringW __ctor_b__14_2(::GlobalNamespace::EnvironmentInfoSO* e);
 
-  /// @brief Method <.ctor>b__14_3, addr 0x37071a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__14_3, addr 0x3705bcc, size 0x14, virtual false, abstract: false, final false
   inline ::StringW __ctor_b__14_3(::GlobalNamespace::EnvironmentInfoSO* e);
 
-  /// @brief Method .ctor, addr 0x3707178, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3705ba0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::EnvironmentsListModel___c* getStaticF___9();
@@ -147,7 +147,7 @@ public:
   EnvironmentsListModel___c(EnvironmentsListModel___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14819 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -167,7 +167,7 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentsListModel___c__DisplayClass22_0* New_ctor();
 
-  /// @brief Method <AddEnvironmentNames>b__0, addr 0x37071d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <AddEnvironmentNames>b__0, addr 0x3705bf8, size 0x20, virtual false, abstract: false, final false
   inline bool _AddEnvironmentNames_b__0(::GlobalNamespace::EnvironmentInfoSO* e);
 
   constexpr ::GlobalNamespace::EnvironmentType const& __cordl_internal_get_environmentType() const;
@@ -176,7 +176,7 @@ public:
 
   constexpr void __cordl_internal_set_environmentType(::GlobalNamespace::EnvironmentType value);
 
-  /// @brief Method .ctor, addr 0x3707120, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3705b48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -194,7 +194,7 @@ public:
   EnvironmentsListModel___c__DisplayClass22_0(EnvironmentsListModel___c__DisplayClass22_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14820 };
 
   /// @brief Field environmentType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentType ___environmentType;
@@ -245,35 +245,35 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
   constexpr operator ::GlobalNamespace::IVerboseLogger*() noexcept;
 
-  /// @brief Method AddEnvironmentNames, addr 0x3706938, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method AddEnvironmentNames, addr 0x3705360, size 0x170, virtual false, abstract: false, final false
   inline void AddEnvironmentNames(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType, ::ArrayW<::StringW>>* envCollection,
                                   ::GlobalNamespace::EnvironmentType environmentType, ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* selectFn);
 
-  /// @brief Method CreateFromAddressables, addr 0x3706aa8, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method CreateFromAddressables, addr 0x37054d0, size 0x26c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentsListModel* CreateFromAddressables();
 
-  /// @brief Method EnvironmentTypeByCharacteristic, addr 0x37061b8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method EnvironmentTypeByCharacteristic, addr 0x3704be0, size 0x60, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentType EnvironmentTypeByCharacteristic(::GlobalNamespace::BeatmapCharacteristic characteristic);
 
-  /// @brief Method GetAllEnvironmentInfosWithType, addr 0x3706f0c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetAllEnvironmentInfosWithType, addr 0x3705934, size 0x144, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* GetAllEnvironmentInfosWithType(::GlobalNamespace::EnvironmentType environmentType);
 
-  /// @brief Method GetEnvironmentInfoBySerializedName, addr 0x3706d14, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentInfoBySerializedName, addr 0x370573c, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetEnvironmentInfoBySerializedName(::StringW environmentSerializedName);
 
-  /// @brief Method GetEnvironmentInfoBySerializedNameSafe, addr 0x3706d90, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentInfoBySerializedNameSafe, addr 0x37057b8, size 0x17c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetEnvironmentInfoBySerializedNameSafe(::StringW environmentSerializedName);
 
-  /// @brief Method GetEnvironmentNamesByCharacteristic, addr 0x3706218, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentNamesByCharacteristic, addr 0x3704c40, size 0x70, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> GetEnvironmentNamesByCharacteristic(::GlobalNamespace::BeatmapCharacteristic characteristic);
 
-  /// @brief Method GetEnvironmentSerializedNamesByCharacteristic, addr 0x3706148, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentSerializedNamesByCharacteristic, addr 0x3704b70, size 0x70, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> GetEnvironmentSerializedNamesByCharacteristic(::GlobalNamespace::BeatmapCharacteristic characteristic);
 
-  /// @brief Method GetFirstEnvironmentInfoWithType, addr 0x3707050, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetFirstEnvironmentInfoWithType, addr 0x3705a78, size 0x60, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetFirstEnvironmentInfoWithType(::GlobalNamespace::EnvironmentType environmentType);
 
-  /// @brief Method GetLastEnvironmentInfoWithType, addr 0x37070b0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetLastEnvironmentInfoWithType, addr 0x3705ad8, size 0x60, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetLastEnvironmentInfoWithType(::GlobalNamespace::EnvironmentType environmentType);
 
   static inline ::GlobalNamespace::EnvironmentsListModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* envInfoSOs);
@@ -302,19 +302,19 @@ public:
 
   constexpr void __cordl_internal_set__environmentSerializedNames(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType, ::ArrayW<::StringW>>* value);
 
-  /// @brief Method .ctor, addr 0x3706288, size 0x6b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3704cb0, size 0x6b0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* envInfoSOs);
 
-  /// @brief Method get_environmentInfos, addr 0x3706130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentInfos, addr 0x3704b58, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* get_environmentInfos();
 
-  /// @brief Method get_environmentNames, addr 0x3706138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentNames, addr 0x3704b60, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType, ::ArrayW<::StringW>>* get_environmentNames();
 
-  /// @brief Method get_environmentSerializedNames, addr 0x3706140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentSerializedNames, addr 0x3704b68, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType, ::ArrayW<::StringW>>* get_environmentSerializedNames();
 
-  /// @brief Method get_loggerPrefix, addr 0x37060ec, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_loggerPrefix, addr 0x3704b14, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_loggerPrefix();
 
   /// @brief Convert to "::GlobalNamespace::IVerboseLogger"
@@ -335,7 +335,7 @@ public:
   EnvironmentsListModel(EnvironmentsListModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14823 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14821 };
 
   /// @brief Field _envInfos, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::EnvironmentInfoSO>> ____envInfos;

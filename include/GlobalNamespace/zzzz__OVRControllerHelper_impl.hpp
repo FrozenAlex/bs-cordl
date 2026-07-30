@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::Start)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5eefa4c;
+  constexpr static std::size_t addrs = 0x5eed7b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRControllerHelper*>(), { "Start", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::OnEnable)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5ef0004;
+  constexpr static std::size_t addrs = 0x5eedd70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRControllerHelper*>(), { "OnEnable", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::OnDisable)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5ef00e0;
+  constexpr static std::size_t addrs = 0x5eede4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRControllerHelper*>(), { "OnDisable", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)(::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::Scene)>(
     &::GlobalNamespace::OVRControllerHelper::OnSceneChanged)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5ef01bc;
+  constexpr static std::size_t addrs = 0x5eedf28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::InitializeControllerModels)> {
   constexpr static std::size_t size = 0x544;
-  constexpr static std::size_t addrs = 0x5eefac0;
+  constexpr static std::size_t addrs = 0x5eed82c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRControllerHelper*>(), { "InitializeControllerModels", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::Update)> {
   constexpr static std::size_t size = 0x958;
-  constexpr static std::size_t addrs = 0x5ef0218;
+  constexpr static std::size_t addrs = 0x5eedf84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRControllerHelper*>(), { "Update", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::InputFocusAquired)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ef0b70;
+  constexpr static std::size_t addrs = 0x5eee8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRControllerHelper*>(), { "InputFocusAquired", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::InputFocusLost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ef0b7c;
+  constexpr static std::size_t addrs = 0x5eee8e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRControllerHelper*>(), { "InputFocusLost", {}, {} })));
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::IsPressed)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5ef0b84;
+  constexpr static std::size_t addrs = 0x5eee8f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRControllerHelper*>(), { "IsPressed", {}, {} })));
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::IsReleased)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5ef0be8;
+  constexpr static std::size_t addrs = 0x5eee954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRControllerHelper*>(), { "IsReleased", {}, {} })));
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRControllerHelper::*)()>(
     &::GlobalNamespace::OVRControllerHelper::GetPointerRayTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ef0c4c;
+  constexpr static std::size_t addrs = 0x5eee9b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRControllerHelper*>(), { "GetPointerRayTransform", {}, {} })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::IsValid)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5ef0c54;
+  constexpr static std::size_t addrs = 0x5eee9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRControllerHelper*>(), { "IsValid", {}, {} })));
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::IsActive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ef0cb4;
+  constexpr static std::size_t addrs = 0x5eeea20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRControllerHelper*>(), { "IsActive", {}, {} })));
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_Hand (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::GetHand)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5ef0cbc;
+  constexpr static std::size_t addrs = 0x5eeea28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRControllerHelper*>(), { "GetHand", {}, {} })));
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)(::GlobalNamespace::OVRInputRayData)>(
     &::GlobalNamespace::OVRControllerHelper::UpdatePointerRay)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5ef0ccc;
+  constexpr static std::size_t addrs = 0x5eeea38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5ef0dc8;
+  constexpr static std::size_t addrs = 0x5eeeb34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRControllerHelper*>(), { ".ctor", {}, {} })));

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryReaderQuotas::*)()>(&::System::Xml::XmlDictionaryReaderQuotas::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x611e980;
+  constexpr static std::size_t addrs = 0x611c71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReaderQuotas*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryReaderQuotas::*)(int32_t, int32_t, int32_t, int32_t, int32_t, ::System::Xml::XmlDictionaryReaderQuotaTypes)>(
     &::System::Xml::XmlDictionaryReaderQuotas::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x611eaac;
+  constexpr static std::size_t addrs = 0x611c848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDictionaryReaderQuotas* (*)()>(&::System::Xml::XmlDictionaryReaderQuotas::get_Max)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x611ead0;
+  constexpr static std::size_t addrs = 0x611c86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReaderQuotas*>(), { "get_Max", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryReaderQuotas::*)(::System::Xml::XmlDictionaryReaderQuotas*)>(
     &::System::Xml::XmlDictionaryReaderQuotas::CopyTo)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x611e9ec;
+  constexpr static std::size_t addrs = 0x611c788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryReaderQuotas::*)(::System::Xml::XmlDictionaryReaderQuotas*)>(
     &::System::Xml::XmlDictionaryReaderQuotas::InternalCopyTo)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x611eb2c;
+  constexpr static std::size_t addrs = 0x611c8c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReaderQuotas::*)()>(&::System::Xml::XmlDictionaryReaderQuotas::get_MaxStringContentLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x611eb4c;
+  constexpr static std::size_t addrs = 0x611c8e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReaderQuotas*>(), { "get_MaxStringContentLength", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReaderQuotas::*)()>(&::System::Xml::XmlDictionaryReaderQuotas::get_MaxArrayLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x611eb54;
+  constexpr static std::size_t addrs = 0x611c8f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReaderQuotas*>(), { "get_MaxArrayLength", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReaderQuotas::*)()>(&::System::Xml::XmlDictionaryReaderQuotas::get_MaxBytesPerRead)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x611eb5c;
+  constexpr static std::size_t addrs = 0x611c8f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReaderQuotas*>(), { "get_MaxBytesPerRead", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReaderQuotas::*)()>(&::System::Xml::XmlDictionaryReaderQuotas::get_MaxDepth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x611eb64;
+  constexpr static std::size_t addrs = 0x611c900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReaderQuotas*>(), { "get_MaxDepth", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryReaderQuotas::*)()>(&::System::Xml::XmlDictionaryReaderQuotas::get_MaxNameTableCharCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x611eb6c;
+  constexpr static std::size_t addrs = 0x611c908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReaderQuotas*>(), { "get_MaxNameTableCharCount", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryReaderQuotas::*)()>(&::System::Xml::XmlDictionaryReaderQuotas::MakeReadOnly)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x611eac4;
+  constexpr static std::size_t addrs = 0x611c860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryReaderQuotas*>(), { "MakeReadOnly", {}, {} })));

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData* (::GlobalNamespace::SteamLevelProductPacksSO::*)()>(
     &::GlobalNamespace::SteamLevelProductPacksSO::get_levelPackProductData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3741214;
+  constexpr static std::size_t addrs = 0x373fc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SteamLevelProductPacksSO*>(), { "get_levelPackProductData", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData*> (::GlobalNamespace::SteamLevelProductPacksSO::*)()>(
     &::GlobalNamespace::SteamLevelProductPacksSO::get_levelPackRedirectionData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x374121c;
+  constexpr static std::size_t addrs = 0x373fc5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     &::GlobalNamespace::SteamLevelProductPacksSO::
         ILevelPackProductDataContainer_SteamLevelProductCollectionModel_LevelPackProductData_SteamLevelProductCollectionModel_LevelProductData__SetLevelPackProductData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3741224;
+  constexpr static std::size_t addrs = 0x373fc64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SteamLevelProductPacksSO::*)()>(&::GlobalNamespace::SteamLevelProductPacksSO::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x374122c;
+  constexpr static std::size_t addrs = 0x373fc6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SteamLevelProductPacksSO*>(), { ".ctor", {}, {} })));

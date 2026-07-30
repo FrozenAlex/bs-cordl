@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GameplayModifierParamsSO::*)()>(&::GlobalNamespace::GameplayModifierParamsSO::get_modifierNameLocalizationKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3709da4;
+  constexpr static std::size_t addrs = 0x37087cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GameplayModifierParamsSO::*)()>(&::GlobalNamespace::GameplayModifierParamsSO::get_descriptionLocalizationKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3709dac;
+  constexpr static std::size_t addrs = 0x37087d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::GameplayModifierParamsSO::*)()>(&::GlobalNamespace::GameplayModifierParamsSO::get_icon)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3709db4;
+  constexpr static std::size_t addrs = 0x37087dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifierParamsSO*>(), { "get_icon", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>> (::GlobalNamespace::GameplayModifierParamsSO::*)()>(
     &::GlobalNamespace::GameplayModifierParamsSO::get_mutuallyExclusives)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3709dbc;
+  constexpr static std::size_t addrs = 0x37087e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifierParamsSO*>(), { "get_mutuallyExclusives", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>> (::GlobalNamespace::GameplayModifierParamsSO::*)()>(
     &::GlobalNamespace::GameplayModifierParamsSO::get_requires)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3709dc4;
+  constexpr static std::size_t addrs = 0x37087ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifierParamsSO*>(), { "get_requires", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>> (::GlobalNamespace::GameplayModifierParamsSO::*)()>(
     &::GlobalNamespace::GameplayModifierParamsSO::get_requiredBy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3709dcc;
+  constexpr static std::size_t addrs = 0x37087f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifierParamsSO*>(), { "get_requiredBy", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::GameplayModifierParamsSO::*)()>(&::GlobalNamespace::GameplayModifierParamsSO::get_multiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3709dd4;
+  constexpr static std::size_t addrs = 0x37087fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifierParamsSO*>(), { "get_multiplier", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameplayModifierParamsSO::*)()>(&::GlobalNamespace::GameplayModifierParamsSO::get_multiplierConditionallyValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3709ddc;
+  constexpr static std::size_t addrs = 0x3708804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameplayModifierParamsSO::*)()>(&::GlobalNamespace::GameplayModifierParamsSO::get_isInBeta)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3709de4;
+  constexpr static std::size_t addrs = 0x370880c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifierParamsSO*>(), { "get_isInBeta", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayModifierParamsSO::*)()>(&::GlobalNamespace::GameplayModifierParamsSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3709dec;
+  constexpr static std::size_t addrs = 0x3708814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayModifierParamsSO*>(), { ".ctor", {}, {} })));

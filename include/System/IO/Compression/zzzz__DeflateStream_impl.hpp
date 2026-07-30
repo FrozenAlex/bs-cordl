@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Compression::DeflateStream_ReadMethod::*)(::System::Object*, ::System::IntPtr)>(
     &::System::IO::Compression::DeflateStream_ReadMethod::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x63f0118;
+  constexpr static std::size_t addrs = 0x63edeb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Compression::DeflateStream_ReadMethod*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::Compression::DeflateStream_ReadMethod::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::IO::Compression::DeflateStream_ReadMethod::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63f09d0;
+  constexpr static std::size_t addrs = 0x63ee76c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::Compression::DeflateStream_ReadMethod*>(),
@@ -56,7 +56,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::System::IO::Compression::DeflateStream_ReadMethod::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::System::IO::Compression::DeflateStream_ReadMethod::BeginInvoke)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x63f0198;
+  constexpr static std::size_t addrs = 0x63edf34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::Compression::DeflateStream_ReadMethod*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::Compression::DeflateStream_ReadMethod::*)(::System::IAsyncResult*)>(
     &::System::IO::Compression::DeflateStream_ReadMethod::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x63f06cc;
+  constexpr static std::size_t addrs = 0x63ee468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::Compression::DeflateStream_ReadMethod*>(),
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Compression::DeflateStream_WriteMethod::*)(::System::Object*, ::System::IntPtr)>(
     &::System::IO::Compression::DeflateStream_WriteMethod::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x63f0480;
+  constexpr static std::size_t addrs = 0x63ee21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Compression::DeflateStream_WriteMethod*>(),
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Compression::DeflateStream_WriteMethod::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::IO::Compression::DeflateStream_WriteMethod::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63f09e4;
+  constexpr static std::size_t addrs = 0x63ee780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::Compression::DeflateStream_WriteMethod*>(),
@@ -139,7 +139,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::System::IO::Compression::DeflateStream_WriteMethod::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::System::IO::Compression::DeflateStream_WriteMethod::BeginInvoke)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x63f0500;
+  constexpr static std::size_t addrs = 0x63ee29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::Compression::DeflateStream_WriteMethod*>(),
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Compression::DeflateStream_WriteMethod::*)(::System::IAsyncResult*)>(
     &::System::IO::Compression::DeflateStream_WriteMethod::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63f0838;
+  constexpr static std::size_t addrs = 0x63ee5d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::Compression::DeflateStream_WriteMethod*>(),
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Compression::DeflateStream::*)(::System::IO::Stream*, ::System::IO::Compression::CompressionMode)>(
     &::System::IO::Compression::DeflateStream::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63ef3bc;
+  constexpr static std::size_t addrs = 0x63ed158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Compression::DeflateStream::*)(::System::IO::Stream*, ::System::IO::Compression::CompressionMode, bool, int32_t)>(
     &::System::IO::Compression::DeflateStream::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63ee8b8;
+  constexpr static std::size_t addrs = 0x63ec654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Compression::DeflateStream::*)(::System::IO::Stream*, ::System::IO::Compression::CompressionMode, bool, bool)>(
     &::System::IO::Compression::DeflateStream::_ctor)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x63ef3c8;
+  constexpr static std::size_t addrs = 0x63ed164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Compression::DeflateStream::*)(::System::IO::Stream*, ::System::IO::Compression::CompressionLevel, bool, int32_t)>(
     &::System::IO::Compression::DeflateStream::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63ee968;
+  constexpr static std::size_t addrs = 0x63ec704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Compression::DeflateStream::*)(::System::IO::Stream*, ::System::IO::Compression::CompressionLevel, bool, bool)>(
     &::System::IO::Compression::DeflateStream::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63ef660;
+  constexpr static std::size_t addrs = 0x63ed3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Compression::DeflateStream::*)()>(&::System::IO::Compression::DeflateStream::Finalize)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x63ef668;
+  constexpr static std::size_t addrs = 0x63ed404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Compression::DeflateStream::*)(bool)>(&::System::IO::Compression::DeflateStream::Dispose)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x63ef6bc;
+  constexpr static std::size_t addrs = 0x63ed458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::Compression::DeflateStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::IO::Compression::DeflateStream::ReadInternal)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x63ef888;
+  constexpr static std::size_t addrs = 0x63ed624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::ValueTask_1<int32_t> (::System::IO::Compression::DeflateStream::*)(
     ::System::Memory_1<uint8_t>, ::System::Threading::CancellationToken)>(&::System::IO::Compression::DeflateStream::ReadAsyncMemory)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63ef23c;
+  constexpr static std::size_t addrs = 0x63ecfd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::Compression::DeflateStream::*)(::System::Span_1<uint8_t>)>(&::System::IO::Compression::DeflateStream::ReadCore)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x63eed70;
+  constexpr static std::size_t addrs = 0x63ecb0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::Compression::DeflateStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::IO::Compression::DeflateStream::Read)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x63ef944;
+  constexpr static std::size_t addrs = 0x63ed6e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Compression::DeflateStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::IO::Compression::DeflateStream::WriteInternal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x63efb14;
+  constexpr static std::size_t addrs = 0x63ed8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::ValueTask (::System::IO::Compression::DeflateStream::*)(
     ::System::ReadOnlyMemory_1<uint8_t>, ::System::Threading::CancellationToken)>(&::System::IO::Compression::DeflateStream::WriteAsyncMemory)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63ef324;
+  constexpr static std::size_t addrs = 0x63ed0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -387,7 +387,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Compression::DeflateStream::*)(::System::ReadOnlySpan_1<uint8_t>)>(&::System::IO::Compression::DeflateStream::WriteCore)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x63ef03c;
+  constexpr static std::size_t addrs = 0x63ecdd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -400,7 +400,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Compression::DeflateStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::IO::Compression::DeflateStream::Write)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x63efbc0;
+  constexpr static std::size_t addrs = 0x63ed95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -413,7 +413,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Compression::DeflateStream::*)()>(&::System::IO::Compression::DeflateStream::Flush)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x63efd9c;
+  constexpr static std::size_t addrs = 0x63edb38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -427,7 +427,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::System::IO::Compression::DeflateStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(&::System::IO::Compression::DeflateStream::BeginRead)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x63efea4;
+  constexpr static std::size_t addrs = 0x63edc40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -441,7 +441,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::System::IO::Compression::DeflateStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(&::System::IO::Compression::DeflateStream::BeginWrite)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x63f020c;
+  constexpr static std::size_t addrs = 0x63edfa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -454,7 +454,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::Compression::DeflateStream::*)(::System::IAsyncResult*)>(&::System::IO::Compression::DeflateStream::EndRead)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x63f0574;
+  constexpr static std::size_t addrs = 0x63ee310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -467,7 +467,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Compression::DeflateStream::*)(::System::IAsyncResult*)>(&::System::IO::Compression::DeflateStream::EndWrite)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x63f06f0;
+  constexpr static std::size_t addrs = 0x63ee48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -480,7 +480,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::IO::Compression::DeflateStream::*)(int64_t, ::System::IO::SeekOrigin)>(&::System::IO::Compression::DeflateStream::Seek)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x63f0844;
+  constexpr static std::size_t addrs = 0x63ee5e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -493,7 +493,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Compression::DeflateStream::*)(int64_t)>(&::System::IO::Compression::DeflateStream::SetLength)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x63f087c;
+  constexpr static std::size_t addrs = 0x63ee618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -506,7 +506,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::IO::Compression::DeflateStream::*)()>(&::System::IO::Compression::DeflateStream::get_CanRead)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x63f08b4;
+  constexpr static std::size_t addrs = 0x63ee650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -519,7 +519,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::IO::Compression::DeflateStream::*)()>(&::System::IO::Compression::DeflateStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63f08e8;
+  constexpr static std::size_t addrs = 0x63ee684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -532,7 +532,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::IO::Compression::DeflateStream::*)()>(&::System::IO::Compression::DeflateStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x63f08f0;
+  constexpr static std::size_t addrs = 0x63ee68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -545,7 +545,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::IO::Compression::DeflateStream::*)()>(&::System::IO::Compression::DeflateStream::get_Length)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x63f0928;
+  constexpr static std::size_t addrs = 0x63ee6c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -558,7 +558,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::IO::Compression::DeflateStream::*)()>(&::System::IO::Compression::DeflateStream::get_Position)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x63f0960;
+  constexpr static std::size_t addrs = 0x63ee6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -571,7 +571,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::Compression::DeflateStream::*)(int64_t)>(&::System::IO::Compression::DeflateStream::set_Position)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x63f0998;
+  constexpr static std::size_t addrs = 0x63ee734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

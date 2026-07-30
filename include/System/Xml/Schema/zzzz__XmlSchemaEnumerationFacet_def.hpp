@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::XmlSchemaEnumerationFacet* New_ctor();
 
-  /// @brief Method .ctor, addr 0x622beb8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6229c54, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

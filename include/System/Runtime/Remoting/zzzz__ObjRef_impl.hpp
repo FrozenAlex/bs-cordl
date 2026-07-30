@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ObjRef::*)()>(&::System::Runtime::Remoting::ObjRef::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b1f670;
+  constexpr static std::size_t addrs = 0x5b1d4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ObjRef*>(), { ".ctor", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ObjRef::*)(::StringW, ::System::Runtime::Remoting::IChannelInfo*)>(
     &::System::Runtime::Remoting::ObjRef::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1f6cc;
+  constexpr static std::size_t addrs = 0x5b1d510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::ObjRef* (::System::Runtime::Remoting::ObjRef::*)(int32_t, ::ArrayW<uint8_t>)>(
     &::System::Runtime::Remoting::ObjRef::DeserializeInTheCurrentDomain)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5b1f6d4;
+  constexpr static std::size_t addrs = 0x5b1d518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Runtime::Remoting::ObjRef::*)()>(&::System::Runtime::Remoting::ObjRef::SerializeType)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5b1f800;
+  constexpr static std::size_t addrs = 0x5b1d644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ObjRef*>(), { "SerializeType", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ObjRef::*)(::System::Type*, ::StringW, ::System::Object*)>(&::System::Runtime::Remoting::ObjRef::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5b1f878;
+  constexpr static std::size_t addrs = 0x5b1d6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ObjRef::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Remoting::ObjRef::_ctor)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x5b1f96c;
+  constexpr static std::size_t addrs = 0x5b1d7b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::ObjRef::*)()>(&::System::Runtime::Remoting::ObjRef::get_IsReferenceToWellKnow)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5b1fe98;
+  constexpr static std::size_t addrs = 0x5b1dcdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ObjRef*>(), { "get_IsReferenceToWellKnow", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::IChannelInfo* (::System::Runtime::Remoting::ObjRef::*)()>(&::System::Runtime::Remoting::ObjRef::get_ChannelInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1ff04;
+  constexpr static std::size_t addrs = 0x5b1dd48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::IEnvoyInfo* (::System::Runtime::Remoting::ObjRef::*)()>(&::System::Runtime::Remoting::ObjRef::get_EnvoyInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1ff0c;
+  constexpr static std::size_t addrs = 0x5b1dd50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ObjRef::*)(::System::Runtime::Remoting::IEnvoyInfo*)>(&::System::Runtime::Remoting::ObjRef::set_EnvoyInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1ff14;
+  constexpr static std::size_t addrs = 0x5b1dd58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::IRemotingTypeInfo* (::System::Runtime::Remoting::ObjRef::*)()>(
     &::System::Runtime::Remoting::ObjRef::get_TypeInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1ff1c;
+  constexpr static std::size_t addrs = 0x5b1dd60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ObjRef::*)(::System::Runtime::Remoting::IRemotingTypeInfo*)>(
     &::System::Runtime::Remoting::ObjRef::set_TypeInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1ff24;
+  constexpr static std::size_t addrs = 0x5b1dd68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::ObjRef::*)()>(&::System::Runtime::Remoting::ObjRef::get_URI)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1ff2c;
+  constexpr static std::size_t addrs = 0x5b1dd70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ObjRef::*)(::StringW)>(&::System::Runtime::Remoting::ObjRef::set_URI)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1ff34;
+  constexpr static std::size_t addrs = 0x5b1dd78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ObjRef::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Remoting::ObjRef::GetObjectData)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x5b1ff3c;
+  constexpr static std::size_t addrs = 0x5b1dd80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Remoting::ObjRef::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Runtime::Remoting::ObjRef::GetRealObject)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5b2010c;
+  constexpr static std::size_t addrs = 0x5b1df50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ObjRef::*)()>(&::System::Runtime::Remoting::ObjRef::UpdateChannelInfo)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5b1f674;
+  constexpr static std::size_t addrs = 0x5b1d4b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ObjRef*>(), { "UpdateChannelInfo", {}, {} })));
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Runtime::Remoting::ObjRef::*)()>(&::System::Runtime::Remoting::ObjRef::get_ServerType)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5b201bc;
+  constexpr static std::size_t addrs = 0x5b1e000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ObjRef*>(), { "get_ServerType", {}, {} })));

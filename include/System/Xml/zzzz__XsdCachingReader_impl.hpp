@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XsdCachingReader::*)(::System::Xml::XmlReader*, ::System::Xml::IXmlLineInfo*, ::System::Xml::CachingEventHandler*)>(
     &::System::Xml::XsdCachingReader::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x62a5ba4;
+  constexpr static std::size_t addrs = 0x62a3940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::Init)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x62a5c64;
+  constexpr static std::size_t addrs = 0x62a3a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XsdCachingReader*>(), { "Init", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XsdCachingReader::*)(::System::Xml::XmlReader*)>(&::System::Xml::XsdCachingReader::Reset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62a60b0;
+  constexpr static std::size_t addrs = 0x62a3e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlReaderSettings* (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_Settings)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x62a60b8;
+  constexpr static std::size_t addrs = 0x62a3e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_NodeType)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x62a60d4;
+  constexpr static std::size_t addrs = 0x62a3e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_Name)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x62a60ec;
+  constexpr static std::size_t addrs = 0x62a3e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_LocalName)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x62a610c;
+  constexpr static std::size_t addrs = 0x62a3ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_NamespaceURI)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x62a6124;
+  constexpr static std::size_t addrs = 0x62a3ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_Prefix)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x62a613c;
+  constexpr static std::size_t addrs = 0x62a3ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_Value)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x62a6154;
+  constexpr static std::size_t addrs = 0x62a3ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_Depth)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x62a6188;
+  constexpr static std::size_t addrs = 0x62a3f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_BaseURI)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x62a61a0;
+  constexpr static std::size_t addrs = 0x62a3f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_IsEmptyElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62a61c0;
+  constexpr static std::size_t addrs = 0x62a3f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_IsDefault)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62a61c8;
+  constexpr static std::size_t addrs = 0x62a3f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_QuoteChar)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x62a61d0;
+  constexpr static std::size_t addrs = 0x62a3f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlSpace (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_XmlSpace)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x62a61f0;
+  constexpr static std::size_t addrs = 0x62a3f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_XmlLang)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x62a6210;
+  constexpr static std::size_t addrs = 0x62a3fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_AttributeCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62a6230;
+  constexpr static std::size_t addrs = 0x62a3fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)(::StringW)>(&::System::Xml::XsdCachingReader::GetAttribute)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x62a6238;
+  constexpr static std::size_t addrs = 0x62a3fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)(::StringW, ::StringW)>(&::System::Xml::XsdCachingReader::GetAttribute)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x62a63f0;
+  constexpr static std::size_t addrs = 0x62a418c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)(int32_t)>(&::System::Xml::XsdCachingReader::GetAttribute)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x62a64c0;
+  constexpr static std::size_t addrs = 0x62a425c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XsdCachingReader::*)(::StringW)>(&::System::Xml::XsdCachingReader::MoveToAttribute)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x62a6550;
+  constexpr static std::size_t addrs = 0x62a42ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XsdCachingReader::*)(::StringW, ::StringW)>(&::System::Xml::XsdCachingReader::MoveToAttribute)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x62a65e4;
+  constexpr static std::size_t addrs = 0x62a4380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XsdCachingReader::*)(int32_t)>(&::System::Xml::XsdCachingReader::MoveToAttribute)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x62a66c0;
+  constexpr static std::size_t addrs = 0x62a445c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::MoveToFirstAttribute)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x62a6750;
+  constexpr static std::size_t addrs = 0x62a44ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -357,7 +357,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::MoveToNextAttribute)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x62a6790;
+  constexpr static std::size_t addrs = 0x62a452c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -370,7 +370,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::MoveToElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x62a67e4;
+  constexpr static std::size_t addrs = 0x62a4580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -383,7 +383,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::Read)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x62a6838;
+  constexpr static std::size_t addrs = 0x62a45d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::ValidatingReaderNodeData* (::System::Xml::XsdCachingReader::*)(::StringW, ::StringW, int32_t, int32_t, int32_t)>(
     &::System::Xml::XsdCachingReader::RecordTextNode)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x62a6b04;
+  constexpr static std::size_t addrs = 0x62a48a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -412,7 +412,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XsdCachingReader::*)(::StringW, ::StringW)>(&::System::Xml::XsdCachingReader::SwitchTextNodeAndEndElement)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x62a6b50;
+  constexpr static std::size_t addrs = 0x62a48ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -426,7 +426,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::RecordEndElementNode)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x62a6c54;
+  constexpr static std::size_t addrs = 0x62a49f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XsdCachingReader*>(), { "RecordEndElementNode", {}, {} })));
@@ -438,7 +438,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::ReadOriginalContentAsString)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x62a6d84;
+  constexpr static std::size_t addrs = 0x62a4b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XsdCachingReader*>(), { "ReadOriginalContentAsString", {}, {} })));
@@ -450,7 +450,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_EOF)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x62a6da8;
+  constexpr static std::size_t addrs = 0x62a4b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -463,7 +463,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::Close)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x62a6ddc;
+  constexpr static std::size_t addrs = 0x62a4b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -476,7 +476,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::ReadState (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_ReadState)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x62a6e10;
+  constexpr static std::size_t addrs = 0x62a4bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -489,7 +489,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::Skip)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x62a6e30;
+  constexpr static std::size_t addrs = 0x62a4bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -502,7 +502,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNameTable* (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_NameTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62a6f44;
+  constexpr static std::size_t addrs = 0x62a4ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -515,7 +515,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)(::StringW)>(&::System::Xml::XsdCachingReader::LookupNamespace)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x62a6f4c;
+  constexpr static std::size_t addrs = 0x62a4ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -528,7 +528,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::ResolveEntity)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x62a6f6c;
+  constexpr static std::size_t addrs = 0x62a4d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -541,7 +541,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::ReadAttributeValue)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x62a6fa4;
+  constexpr static std::size_t addrs = 0x62a4d40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -554,7 +554,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::System_Xml_IXmlLineInfo_HasLineInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62a7078;
+  constexpr static std::size_t addrs = 0x62a4e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XsdCachingReader*>(), { "System.Xml.IXmlLineInfo.HasLineInfo", {}, {} })));
@@ -566,7 +566,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::System_Xml_IXmlLineInfo_get_LineNumber)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x62a7080;
+  constexpr static std::size_t addrs = 0x62a4e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XsdCachingReader*>(), { "System.Xml.IXmlLineInfo.get_LineNumber", {}, {} })));
@@ -578,7 +578,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::System_Xml_IXmlLineInfo_get_LinePosition)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x62a7098;
+  constexpr static std::size_t addrs = 0x62a4e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -591,7 +591,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::SetToReplayMode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x62a70b0;
+  constexpr static std::size_t addrs = 0x62a4e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XsdCachingReader*>(), { "SetToReplayMode", {}, {} })));
@@ -603,7 +603,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlReader* (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::GetCoreReader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62a70d0;
+  constexpr static std::size_t addrs = 0x62a4e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XsdCachingReader*>(), { "GetCoreReader", {}, {} })));
@@ -615,7 +615,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::IXmlLineInfo* (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::GetLineInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62a70d8;
+  constexpr static std::size_t addrs = 0x62a4e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XsdCachingReader*>(), { "GetLineInfo", {}, {} })));
@@ -627,7 +627,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::ClearAttributesInfo)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x62a6af4;
+  constexpr static std::size_t addrs = 0x62a4890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XsdCachingReader*>(), { "ClearAttributesInfo", {}, {} })));
@@ -639,7 +639,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::ValidatingReaderNodeData* (::System::Xml::XsdCachingReader::*)(int32_t)>(&::System::Xml::XsdCachingReader::AddAttribute)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x62a70e0;
+  constexpr static std::size_t addrs = 0x62a4e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -653,7 +653,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::ValidatingReaderNodeData* (::System::Xml::XsdCachingReader::*)(::System::Xml::XmlNodeType)>(
     &::System::Xml::XsdCachingReader::AddContent)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x62a5db8;
+  constexpr static std::size_t addrs = 0x62a3b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -666,7 +666,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::RecordAttributes)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x62a5f30;
+  constexpr static std::size_t addrs = 0x62a3ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XsdCachingReader*>(), { "RecordAttributes", {}, {} })));
@@ -678,7 +678,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XsdCachingReader::*)(::StringW)>(&::System::Xml::XsdCachingReader::GetAttributeIndexWithoutPrefix)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x62a62c8;
+  constexpr static std::size_t addrs = 0x62a4064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -691,7 +691,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XsdCachingReader::*)(::StringW)>(&::System::Xml::XsdCachingReader::GetAttributeIndexWithPrefix)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x62a6358;
+  constexpr static std::size_t addrs = 0x62a40f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -705,7 +705,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::ValidatingReaderNodeData* (::System::Xml::XsdCachingReader::*)(::StringW, int32_t)>(
     &::System::Xml::XsdCachingReader::CreateDummyTextNode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x62a6ff0;
+  constexpr static std::size_t addrs = 0x62a4d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

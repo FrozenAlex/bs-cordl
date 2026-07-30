@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RestartGameCommand___c__DisplayClass7_0::*)()>(&::GlobalNamespace::RestartGameCommand___c__DisplayClass7_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32e166c;
+  constexpr static std::size_t addrs = 0x32deff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RestartGameCommand___c__DisplayClass7_0*>(), { ".ctor", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RestartGameCommand___c__DisplayClass7_0::*)()>(
     &::GlobalNamespace::RestartGameCommand___c__DisplayClass7_0::_ExecuteAsync_b__0)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x32e190c;
+  constexpr static std::size_t addrs = 0x32df298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RestartGameCommand__GameRestarted_d__8::*)()>(&::GlobalNamespace::RestartGameCommand__GameRestarted_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x32e19fc;
+  constexpr static std::size_t addrs = 0x32df388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RestartGameCommand__GameRestarted_d__8>(), { "MoveNext", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RestartGameCommand__GameRestarted_d__8::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::RestartGameCommand__GameRestarted_d__8::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e1bcc;
+  constexpr static std::size_t addrs = 0x32df558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RestartGameCommand__GameRestarted_d__8>(),
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::RestartGameCommand::*)()>(&::GlobalNamespace::RestartGameCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32e1408;
+  constexpr static std::size_t addrs = 0x32ded94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::RestartGameCommand::*)()>(&::GlobalNamespace::RestartGameCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32e144c;
+  constexpr static std::size_t addrs = 0x32dedd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::GlobalNamespace::RestartGameCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(&::GlobalNamespace::RestartGameCommand::ExecuteAsync)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x32e1490;
+  constexpr static std::size_t addrs = 0x32dee1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RestartGameCommand::*)(::Zenject::DiContainer*)>(&::GlobalNamespace::RestartGameCommand::GameRestarted)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x32e1808;
+  constexpr static std::size_t addrs = 0x32df194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RestartGameCommand::*)()>(&::GlobalNamespace::RestartGameCommand::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x32e18ac;
+  constexpr static std::size_t addrs = 0x32df238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RestartGameCommand*>(), { ".ctor", {}, {} })));

@@ -125,34 +125,34 @@ public:
 
   constexpr void __cordl_internal_set__sortingOrder(int32_t value);
 
-  /// @brief Method .ctor, addr 0x370ce40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x370b868, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_characteristicNameLocalizationKey, addr 0x370ce08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_characteristicNameLocalizationKey, addr 0x370b830, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_characteristicNameLocalizationKey();
 
-  /// @brief Method get_compoundIdPartName, addr 0x370ce18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_compoundIdPartName, addr 0x370b840, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_compoundIdPartName();
 
-  /// @brief Method get_containsRotationEvents, addr 0x370ce28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_containsRotationEvents, addr 0x370b850, size 0x8, virtual false, abstract: false, final false
   inline bool get_containsRotationEvents();
 
-  /// @brief Method get_descriptionLocalizationKey, addr 0x370ce00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_descriptionLocalizationKey, addr 0x370b828, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_descriptionLocalizationKey();
 
-  /// @brief Method get_icon, addr 0x370cdf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x370b820, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
-  /// @brief Method get_numberOfColors, addr 0x370ce38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfColors, addr 0x370b860, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberOfColors();
 
-  /// @brief Method get_requires360Movement, addr 0x370ce30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_requires360Movement, addr 0x370b858, size 0x8, virtual false, abstract: false, final false
   inline bool get_requires360Movement();
 
-  /// @brief Method get_serializedName, addr 0x370ce10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_serializedName, addr 0x370b838, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_serializedName();
 
-  /// @brief Method get_sortingOrder, addr 0x370ce20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sortingOrder, addr 0x370b848, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sortingOrder();
 
 protected:
@@ -170,7 +170,7 @@ public:
   BeatmapCharacteristicSO(BeatmapCharacteristicSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14850 };
 
   /// @brief Field _icon, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____icon;

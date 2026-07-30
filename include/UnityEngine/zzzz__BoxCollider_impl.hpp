@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::BoxCollider::*)()>(&::UnityEngine::BoxCollider::get_center)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6b77f14;
+  constexpr static std::size_t addrs = 0x6b73918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoxCollider*>(), { "get_center", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoxCollider::*)(::UnityEngine::Vector3)>(&::UnityEngine::BoxCollider::set_center)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6b77ff8;
+  constexpr static std::size_t addrs = 0x6b739fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::BoxCollider::*)()>(&::UnityEngine::BoxCollider::get_size)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6b780d4;
+  constexpr static std::size_t addrs = 0x6b73ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoxCollider*>(), { "get_size", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoxCollider::*)(::UnityEngine::Vector3)>(&::UnityEngine::BoxCollider::set_size)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6b781b8;
+  constexpr static std::size_t addrs = 0x6b73bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::BoxCollider::*)()>(&::UnityEngine::BoxCollider::get_extents)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6b78294;
+  constexpr static std::size_t addrs = 0x6b73c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoxCollider*>(), { "get_extents", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoxCollider::*)(::UnityEngine::Vector3)>(&::UnityEngine::BoxCollider::set_extents)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b782b4;
+  constexpr static std::size_t addrs = 0x6b73cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoxCollider::*)()>(&::UnityEngine::BoxCollider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b782c4;
+  constexpr static std::size_t addrs = 0x6b73cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoxCollider*>(), { ".ctor", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::BoxCollider::get_center_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b77fb4;
+  constexpr static std::size_t addrs = 0x6b739b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::BoxCollider::set_center_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b78090;
+  constexpr static std::size_t addrs = 0x6b73a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::BoxCollider::get_size_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b78174;
+  constexpr static std::size_t addrs = 0x6b73b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::BoxCollider::set_size_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b78250;
+  constexpr static std::size_t addrs = 0x6b73c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

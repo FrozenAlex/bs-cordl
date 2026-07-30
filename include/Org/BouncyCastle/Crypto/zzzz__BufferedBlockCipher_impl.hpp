@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::BufferedBlockCipher::*)()>(&::Org::BouncyCastle::Crypto::BufferedBlockCipher::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x33f5eac;
+  constexpr static std::size_t addrs = 0x33f4474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::BufferedBlockCipher*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::BufferedBlockCipher::*)(::Org::BouncyCastle::Crypto::IBlockCipher*)>(
     &::Org::BouncyCastle::Crypto::BufferedBlockCipher::_ctor)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x33f5f04;
+  constexpr static std::size_t addrs = 0x33f44cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::BufferedBlockCipher::*)()>(&::Org::BouncyCastle::Crypto::BufferedBlockCipher::get_AlgorithmName)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x33f6058;
+  constexpr static std::size_t addrs = 0x33f4620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::BufferedBlockCipher::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::BufferedBlockCipher::Init)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x33f60fc;
+  constexpr static std::size_t addrs = 0x33f46c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::BufferedBlockCipher::*)()>(&::Org::BouncyCastle::Crypto::BufferedBlockCipher::GetBlockSize)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x33f622c;
+  constexpr static std::size_t addrs = 0x33f47f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::BufferedBlockCipher::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::BufferedBlockCipher::GetUpdateOutputSize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x33f62d4;
+  constexpr static std::size_t addrs = 0x33f489c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::BufferedBlockCipher::*)(int32_t)>(&::Org::BouncyCastle::Crypto::BufferedBlockCipher::GetOutputSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x33f62fc;
+  constexpr static std::size_t addrs = 0x33f48c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::BufferedBlockCipher::*)(uint8_t, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::BufferedBlockCipher::ProcessByte)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x33f6308;
+  constexpr static std::size_t addrs = 0x33f48d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::BufferedBlockCipher::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::BufferedBlockCipher::ProcessByte)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x33f6498;
+  constexpr static std::size_t addrs = 0x33f4a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::BufferedBlockCipher::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::BufferedBlockCipher::ProcessBytes)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x33f658c;
+  constexpr static std::size_t addrs = 0x33f4b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::BufferedBlockCipher::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::BufferedBlockCipher::ProcessBytes)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x33f66f4;
+  constexpr static std::size_t addrs = 0x33f4cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::BufferedBlockCipher::*)()>(&::Org::BouncyCastle::Crypto::BufferedBlockCipher::DoFinal)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x33f6a4c;
+  constexpr static std::size_t addrs = 0x33f5014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::BufferedBlockCipher::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::BufferedBlockCipher::DoFinal)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x33f6b78;
+  constexpr static std::size_t addrs = 0x33f5140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::BufferedBlockCipher::*)(::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::BufferedBlockCipher::DoFinal)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x33f6d4c;
+  constexpr static std::size_t addrs = 0x33f5314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::BufferedBlockCipher::*)()>(&::Org::BouncyCastle::Crypto::BufferedBlockCipher::Reset)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x33f6fb8;
+  constexpr static std::size_t addrs = 0x33f5580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

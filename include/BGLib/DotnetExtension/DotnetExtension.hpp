@@ -3,6 +3,7 @@ module;
 #endif
 
 #pragma once
+#include "BGLib/DotnetExtension/DateTimeExtensions.hpp"
 #include "BGLib/DotnetExtension/EnvironmentVariableHelper.hpp"
 #include "BGLib/DotnetExtension/ExternalProcessHelper.hpp"
 #include "BGLib/DotnetExtension/IntegerExtensions.hpp"

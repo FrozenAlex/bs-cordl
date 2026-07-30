@@ -110,10 +110,10 @@ public:
 
   constexpr void __cordl_internal_set_probeVolumeSamplingDebugShader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6791104, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x678eea0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_version, addr 0x67910fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x678ee98, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -137,7 +137,7 @@ public:
   ProbeVolumeDebugResources(ProbeVolumeDebugResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12115 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12113 };
 
   /// @brief Field m_Version, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Version;

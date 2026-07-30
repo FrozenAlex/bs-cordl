@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSettingsAsyncLoader_MainSettingsInstaller::*)(
     ::GlobalNamespace::SettingsManager*, ::GlobalNamespace::INetworkConfig*)>(&::GlobalNamespace::MainSettingsAsyncLoader_MainSettingsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3771cd0;
+  constexpr static std::size_t addrs = 0x37707f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSettingsAsyncLoader_MainSettingsInstaller::*)()>(
     &::GlobalNamespace::MainSettingsAsyncLoader_MainSettingsInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3771e04;
+  constexpr static std::size_t addrs = 0x3770928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSettingsAsyncLoader_MainSettingsInstaller*>(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSettingsAsyncLoader___LoadInternalAsync_g__CreateSettingsManagerAsync_8_0_d::*)()>(
     &::GlobalNamespace::MainSettingsAsyncLoader___LoadInternalAsync_g__CreateSettingsManagerAsync_8_0_d::MoveNext)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x3771f48;
+  constexpr static std::size_t addrs = 0x3770a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSettingsAsyncLoader___LoadInternalAsync_g__CreateSettingsManagerAsync_8_0_d::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MainSettingsAsyncLoader___LoadInternalAsync_g__CreateSettingsManagerAsync_8_0_d::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x377226c;
+  constexpr static std::size_t addrs = 0x3770d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSettingsAsyncLoader__LoadInternalAsync_d__8::*)()>(
     &::GlobalNamespace::MainSettingsAsyncLoader__LoadInternalAsync_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x37722ec;
+  constexpr static std::size_t addrs = 0x3770e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSettingsAsyncLoader__LoadInternalAsync_d__8::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::MainSettingsAsyncLoader__LoadInternalAsync_d__8::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3772520;
+  constexpr static std::size_t addrs = 0x3771044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSettingsAsyncLoader__LoadInternalAsync_d__8>(),
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::INetworkConfig* (::GlobalNamespace::MainSettingsAsyncLoader::*)()>(
     &::GlobalNamespace::MainSettingsAsyncLoader::get_networkConfig)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x377186c;
+  constexpr static std::size_t addrs = 0x3770390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSettingsAsyncLoader*>(), { "get_networkConfig", {}, {} })));
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSettingsAsyncLoader::*)(::GlobalNamespace::INetworkConfig*)>(
     &::GlobalNamespace::MainSettingsAsyncLoader::set_networkConfig)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3771874;
+  constexpr static std::size_t addrs = 0x3770398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep (::GlobalNamespace::MainSettingsAsyncLoader::*)()>(
     &::GlobalNamespace::MainSettingsAsyncLoader::get_synchronizationStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x377187c;
+  constexpr static std::size_t addrs = 0x37703a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -267,7 +267,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::MainSettingsAsyncLoader::*)(::BGLib::AppFlow::Initialization::IInstallerRegistry*, ::Zenject::DiContainer*, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MainSettingsAsyncLoader::LoadInternalAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3771884;
+  constexpr static std::size_t addrs = 0x37703a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSettingsAsyncLoader::*)(::BGLib::AppFlow::Initialization::IInstallerRegistry*)>(
     &::GlobalNamespace::MainSettingsAsyncLoader::RegisterInstallers)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x3771948;
+  constexpr static std::size_t addrs = 0x377046c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSettingsAsyncLoader*>(),
@@ -294,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSettingsAsyncLoader::*)()>(&::GlobalNamespace::MainSettingsAsyncLoader::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3771d24;
+  constexpr static std::size_t addrs = 0x3770848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSettingsAsyncLoader*>(), { ".ctor", {}, {} })));
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::SettingsManager*>* (*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::MainSettingsAsyncLoader::_LoadInternalAsync_g__CreateSettingsManagerAsync_8_0)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3771d28;
+  constexpr static std::size_t addrs = 0x377084c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

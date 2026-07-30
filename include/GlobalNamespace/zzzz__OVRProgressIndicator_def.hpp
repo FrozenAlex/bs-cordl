@@ -29,12 +29,12 @@ public:
   /// @brief Field progressImage, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_progressImage, put = __cordl_internal_set_progressImage)) ::UnityW<::UnityEngine::MeshRenderer> progressImage;
 
-  /// @brief Method Awake, addr 0x5f07cf0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5f05a5c, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::OVRProgressIndicator* New_ctor();
 
-  /// @brief Method Update, addr 0x5f07d0c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5f05a78, size 0x84, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get_currentProgress() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_progressImage(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  /// @brief Method .ctor, addr 0x5f07d90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f05afc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

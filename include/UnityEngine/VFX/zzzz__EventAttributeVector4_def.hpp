@@ -53,13 +53,13 @@ public:
 
   static inline ::UnityEngine::VFX::EventAttributeVector4___c* New_ctor();
 
-  /// @brief Method <.ctor>b__0_0, addr 0x69cdc14, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x69cb9b0, size 0x1c, virtual false, abstract: false, final false
   inline bool __ctor_b__0_0(::UnityEngine::VFX::VFXEventAttribute* e, int32_t id);
 
-  /// @brief Method <.ctor>b__0_1, addr 0x69cdc30, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_1, addr 0x69cb9cc, size 0x1c, virtual false, abstract: false, final false
   inline void __ctor_b__0_1(::UnityEngine::VFX::VFXEventAttribute* e, int32_t id, ::UnityEngine::Vector4 value);
 
-  /// @brief Method .ctor, addr 0x69cdc10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69cb9ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::VFX::EventAttributeVector4___c* getStaticF___9();
@@ -89,7 +89,7 @@ public:
   EventAttributeVector4___c(EventAttributeVector4___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19911 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19908 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -108,7 +108,7 @@ public:
 
   static inline ::UnityEngine::VFX::EventAttributeVector4* New_ctor();
 
-  /// @brief Method .ctor, addr 0x69cda3c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69cb7d8, size 0x180, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,7 +126,7 @@ public:
   EventAttributeVector4(EventAttributeVector4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19909 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

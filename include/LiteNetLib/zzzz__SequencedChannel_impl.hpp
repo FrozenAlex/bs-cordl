@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::SequencedChannel::*)(::LiteNetLib::NetPeer*, bool, uint8_t)>(&::LiteNetLib::SequencedChannel::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x58a6e0c;
+  constexpr static std::size_t addrs = 0x58a52b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::SequencedChannel::*)()>(&::LiteNetLib::SequencedChannel::SendNextPackets)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x58aaffc;
+  constexpr static std::size_t addrs = 0x58a94a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::LiteNetLib::SequencedChannel::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::SequencedChannel::ProcessPacket)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x58ab310;
+  constexpr static std::size_t addrs = 0x58a97bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

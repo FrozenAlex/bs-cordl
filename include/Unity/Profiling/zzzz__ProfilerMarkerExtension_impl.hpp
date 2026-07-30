@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Profiling::ProfilerMarker, int32_t)>(&::Unity::Profiling::ProfilerMarkerExtension::Begin)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x673d634;
+  constexpr static std::size_t addrs = 0x673b3d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerMarkerExtension*>(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Profiling::ProfilerMarker, uint32_t)>(&::Unity::Profiling::ProfilerMarkerExtension::Begin)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x673d6f8;
+  constexpr static std::size_t addrs = 0x673b494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerMarkerExtension*>(),
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Profiling::ProfilerMarker, int64_t)>(&::Unity::Profiling::ProfilerMarkerExtension::Begin)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x673d7bc;
+  constexpr static std::size_t addrs = 0x673b558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerMarkerExtension*>(),
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Profiling::ProfilerMarker, uint64_t)>(&::Unity::Profiling::ProfilerMarkerExtension::Begin)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x673d880;
+  constexpr static std::size_t addrs = 0x673b61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerMarkerExtension*>(),
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Profiling::ProfilerMarker, float_t)>(&::Unity::Profiling::ProfilerMarkerExtension::Begin)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x673d944;
+  constexpr static std::size_t addrs = 0x673b6e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerMarkerExtension*>(),
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Profiling::ProfilerMarker, double_t)>(&::Unity::Profiling::ProfilerMarkerExtension::Begin)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x673da08;
+  constexpr static std::size_t addrs = 0x673b7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerMarkerExtension*>(),
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Profiling::ProfilerMarker, ::StringW)>(&::Unity::Profiling::ProfilerMarkerExtension::Begin)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x673dacc;
+  constexpr static std::size_t addrs = 0x673b868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::ProfilerMarkerExtension*>(),

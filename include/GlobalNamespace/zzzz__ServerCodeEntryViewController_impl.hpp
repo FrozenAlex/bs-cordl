@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerCodeEntryViewController::*)(::System::Action_2<bool, ::StringW>*)>(
     &::GlobalNamespace::ServerCodeEntryViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5961a18;
+  constexpr static std::size_t addrs = 0x5960200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ServerCodeEntryViewController*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerCodeEntryViewController::*)(::System::Action_2<bool, ::StringW>*)>(
     &::GlobalNamespace::ServerCodeEntryViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5961ad8;
+  constexpr static std::size_t addrs = 0x59602c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ServerCodeEntryViewController*>(),
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerCodeEntryViewController::*)(bool, bool, bool)>(&::GlobalNamespace::ServerCodeEntryViewController::DidActivate)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x5961b98;
+  constexpr static std::size_t addrs = 0x5960380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerCodeEntryViewController::*)(bool, bool)>(&::GlobalNamespace::ServerCodeEntryViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5961d84;
+  constexpr static std::size_t addrs = 0x596056c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerCodeEntryViewController::*)(::HMUI::InputFieldView*)>(
     &::GlobalNamespace::ServerCodeEntryViewController::HandleInputFieldChanged)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5961dac;
+  constexpr static std::size_t addrs = 0x5960594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerCodeEntryViewController::*)()>(&::GlobalNamespace::ServerCodeEntryViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5961de4;
+  constexpr static std::size_t addrs = 0x59605cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerCodeEntryViewController::*)()>(&::GlobalNamespace::ServerCodeEntryViewController::HandleJoinButtonPressed)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5961e0c;
+  constexpr static std::size_t addrs = 0x59605f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerCodeEntryViewController::*)()>(&::GlobalNamespace::ServerCodeEntryViewController::HandleCancelButtonPressed)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5961e40;
+  constexpr static std::size_t addrs = 0x5960628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ServerCodeEntryViewController::*)()>(&::GlobalNamespace::ServerCodeEntryViewController::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5961e64;
+  constexpr static std::size_t addrs = 0x596064c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ServerCodeEntryViewController*>(), { ".ctor", {}, {} })));

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel::*)(
     ::StringW)>(&::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel::set_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f960;
+  constexpr static std::size_t addrs = 0x329d1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::StringW (::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel::*)()>(
         &::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel::get_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f968;
+  constexpr static std::size_t addrs = 0x329d1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel::*)(
     ::StringW)>(&::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel::set_Alias)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f970;
+  constexpr static std::size_t addrs = 0x329d1cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::StringW (::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel::*)()>(
         &::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel::get_Alias)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f978;
+  constexpr static std::size_t addrs = 0x329d1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x329f980;
+  constexpr static std::size_t addrs = 0x329d1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -155,7 +155,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::
     ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::OwnersModel_FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_NodesModel*>*)>(
     &::BeatSaber::Main::GraphQL::Models::FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel::set_Nodes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f94c;
+  constexpr static std::size_t addrs = 0x329d1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         ::BeatSaber::Main::GraphQL::Models::FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel::*)()>(
         &::BeatSaber::Main::GraphQL::Models::FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel::get_Nodes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f954;
+  constexpr static std::size_t addrs = 0x329d1b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x329f95c;
+  constexpr static std::size_t addrs = 0x329d1b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -257,7 +257,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::
     ::BeatSaber::Main::GraphQL::Models::FirstPartyXplatformUserModel_UserModel_LeaderboardEntryWithRankModel_OwnersModel*)>(
     &::BeatSaber::Main::GraphQL::Models::UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel::set_Owners)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f938;
+  constexpr static std::size_t addrs = 0x329d194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -274,7 +274,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::GraphQ
     ::BeatSaber::Main::GraphQL::Models::UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel::get_Owners)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f940;
+  constexpr static std::size_t addrs = 0x329d19c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x329f948;
+  constexpr static std::size_t addrs = 0x329d1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -343,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel::*)(::StringW)>(
     &::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel::set_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f914;
+  constexpr static std::size_t addrs = 0x329d170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel::get_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f91c;
+  constexpr static std::size_t addrs = 0x329d178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -372,7 +372,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::
     ::BeatSaber::Main::GraphQL::Models::UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel*)>(
     &::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel::set_FirstPartyXplatformUser)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f924;
+  constexpr static std::size_t addrs = 0x329d180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -388,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::GraphQL::Models::UserModel_LeaderboardEntryWithRankModel_FirstPartyXplatformUserModel* (
     ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel::*)()>(&::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel::get_FirstPartyXplatformUser)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f92c;
+  constexpr static std::size_t addrs = 0x329d188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x329f934;
+  constexpr static std::size_t addrs = 0x329d190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -477,7 +477,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel::*)(
     ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel*)>(&::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel::set_User)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f8d8;
+  constexpr static std::size_t addrs = 0x329d134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -492,7 +492,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel_UserModel* (
     ::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel::*)()>(&::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel::get_User)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f8e0;
+  constexpr static std::size_t addrs = 0x329d13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -506,7 +506,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel::*)(::System::Nullable_1<int64_t>)>(
     &::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel::set_Score)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f8e8;
+  constexpr static std::size_t addrs = 0x329d144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>(),
@@ -520,7 +520,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<int64_t> (::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel::get_Score)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x329f8f0;
+  constexpr static std::size_t addrs = 0x329d14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -534,7 +534,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel::*)(::System::Nullable_1<int64_t>)>(
     &::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel::set_Rank)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x329f8fc;
+  constexpr static std::size_t addrs = 0x329d158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>(),
@@ -548,7 +548,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<int64_t> (::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel::get_Rank)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x329f904;
+  constexpr static std::size_t addrs = 0x329d160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -562,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x329f910;
+  constexpr static std::size_t addrs = 0x329d16c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

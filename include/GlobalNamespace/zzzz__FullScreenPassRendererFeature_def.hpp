@@ -158,7 +158,7 @@ public:
   static ::GlobalNamespace::FullScreenPassRendererFeature_InjectionPoint const BeforeRenderingTransparents;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12534 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12532 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -192,7 +192,7 @@ public:
 
   constexpr void __cordl_internal_set_inputTexture(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x6835cd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6833a74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -210,7 +210,7 @@ public:
   FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassData(FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12533 };
 
   /// @brief Field inputTexture, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___inputTexture;
@@ -259,7 +259,7 @@ public:
 
   constexpr void __cordl_internal_set_passIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6835cdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6833a78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -277,7 +277,7 @@ public:
   FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData(FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12536 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12534 };
 
   /// @brief Field material, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___material;
@@ -322,15 +322,15 @@ public:
 
   static inline ::GlobalNamespace::FullScreenRenderPass_FullScreenPassRendererFeature___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__14_0, addr 0x6835d38, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__14_0, addr 0x6833ad4, size 0xb4, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__14_0(::GlobalNamespace::FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassData* data,
                                          ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext);
 
-  /// @brief Method <RecordRenderGraph>b__14_1, addr 0x6835dec, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__14_1, addr 0x6833b88, size 0xc8, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__14_1(::GlobalNamespace::FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData* data,
                                          ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext);
 
-  /// @brief Method .ctor, addr 0x6835d34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6833ad0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::FullScreenRenderPass_FullScreenPassRendererFeature___c* getStaticF___9();
@@ -366,7 +366,7 @@ public:
   FullScreenRenderPass_FullScreenPassRendererFeature___c(FullScreenRenderPass_FullScreenPassRendererFeature___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12537 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12535 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -405,30 +405,30 @@ public:
   /// @brief Field s_SharedPropertyBlock, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_SharedPropertyBlock, put = setStaticF_s_SharedPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* s_SharedPropertyBlock;
 
-  /// @brief Method Dispose, addr 0x6834854, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x68325f0, size 0x14, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Execute, addr 0x6834c34, size 0x2c8, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x68329d0, size 0x2c8, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecuteCopyColorPass, addr 0x68349cc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCopyColorPass, addr 0x6832768, size 0x84, virtual false, abstract: false, final false
   static inline void ExecuteCopyColorPass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* sourceTexture);
 
-  /// @brief Method ExecuteMainPass, addr 0x6834a50, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method ExecuteMainPass, addr 0x68327ec, size 0x1e4, virtual false, abstract: false, final false
   static inline void ExecuteMainPass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* sourceTexture, ::UnityEngine::Material* material, int32_t passIndex);
 
   static inline ::GlobalNamespace::FullScreenPassRendererFeature_FullScreenRenderPass* New_ctor(::StringW passName);
 
-  /// @brief Method OnCameraSetup, addr 0x68348c4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method OnCameraSetup, addr 0x6832660, size 0x64, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ReAllocate, addr 0x6834928, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ReAllocate, addr 0x68326c4, size 0xa4, virtual false, abstract: false, final false
   inline void ReAllocate(::UnityEngine::RenderTextureDescriptor desc);
 
-  /// @brief Method RecordRenderGraph, addr 0x6834efc, size 0xd44, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x6832c98, size 0xd44, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method SetupMembers, addr 0x683481c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetupMembers, addr 0x68325b8, size 0x14, virtual false, abstract: false, final false
   inline void SetupMembers(::UnityEngine::Material* material, int32_t passIndex, bool fetchActiveColor, bool bindDepthStencilAttachment);
 
   constexpr bool const& __cordl_internal_get_m_BindDepthStencilAttachment() const;
@@ -461,7 +461,7 @@ public:
 
   constexpr void __cordl_internal_set_m_PassIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x68344bc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6832258, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::StringW passName);
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF_s_SharedPropertyBlock();
@@ -483,7 +483,7 @@ public:
   FullScreenPassRendererFeature_FullScreenRenderPass(FullScreenPassRendererFeature_FullScreenRenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12536 };
 
   /// @brief Field m_Material, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_Material;
@@ -567,7 +567,7 @@ public:
   static ::GlobalNamespace::FullScreenPassRendererFeature_Version const Uninitialised;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12537 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -625,28 +625,28 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method AddRenderPasses, addr 0x6834578, size 0x2a4, virtual true, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x6832314, size 0x2a4, virtual true, abstract: false, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Create, addr 0x6834450, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x68321ec, size 0x6c, virtual true, abstract: false, final false
   inline void Create();
 
-  /// @brief Method Dispose, addr 0x6834830, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x68325cc, size 0x24, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::GlobalNamespace::FullScreenPassRendererFeature* New_ctor();
 
-  /// @brief Method RequireRenderingLayers, addr 0x6834564, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method RequireRenderingLayers, addr 0x6832300, size 0x14, virtual true, abstract: false, final false
   inline bool RequireRenderingLayers(bool isDeferred, bool needsGBufferAccurateNormals, ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event> atEvent,
                                      ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize> maskSize);
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6834888, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6832624, size 0x18, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x683486c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x6832608, size 0x1c, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
-  /// @brief Method UpgradeIfNeeded, addr 0x6834868, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UpgradeIfNeeded, addr 0x6832604, size 0x4, virtual false, abstract: false, final false
   inline void UpgradeIfNeeded();
 
   constexpr bool const& __cordl_internal_get_bindDepthStencilAttachment() const;
@@ -697,7 +697,7 @@ public:
 
   constexpr void __cordl_internal_set_requirements(::UnityEngine::Rendering::Universal::ScriptableRenderPassInput value);
 
-  /// @brief Method .ctor, addr 0x68348a0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x683263c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -718,7 +718,7 @@ public:
   FullScreenPassRendererFeature(FullScreenPassRendererFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12540 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12538 };
 
   /// @brief Field injectionPoint, offset: 0x1c, size: 0x4, def value: None
   ::GlobalNamespace::FullScreenPassRendererFeature_InjectionPoint ___injectionPoint;

@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::*)()>(
     &::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::get_canBeActive)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x597d8ec;
+  constexpr static std::size_t addrs = 0x597c698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::*)()>(
     &::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::get_isActive)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x597d82c;
+  constexpr static std::size_t addrs = 0x597c5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::*)()>(
     &::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x597dab4;
+  constexpr static std::size_t addrs = 0x597c860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState*>(), { ".ctor", {}, {} })));
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)()>(&::GlobalNamespace::ArcAndObstacleHapticEffectManager::Start)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x597d0ac;
+  constexpr static std::size_t addrs = 0x597be58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ArcAndObstacleHapticEffectManager*>(), { "Start", {}, {} })));
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)()>(&::GlobalNamespace::ArcAndObstacleHapticEffectManager::OnDestroy)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x597d450;
+  constexpr static std::size_t addrs = 0x597c1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ArcAndObstacleHapticEffectManager*>(), { "OnDestroy", {}, {} })));
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)()>(&::GlobalNamespace::ArcAndObstacleHapticEffectManager::Update)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x597d7a0;
+  constexpr static std::size_t addrs = 0x597c54c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ArcAndObstacleHapticEffectManager*>(), { "Update", {}, {} })));
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)(
     ::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState*, ::UnityEngine::XR::XRNode)>(&::GlobalNamespace::ArcAndObstacleHapticEffectManager::UpdateHaptic)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x597d7c8;
+  constexpr static std::size_t addrs = 0x597c574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)(::GlobalNamespace::SaberType)>(
     &::GlobalNamespace::ArcAndObstacleHapticEffectManager::HandleSparkleEffectDidStart)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x597d86c;
+  constexpr static std::size_t addrs = 0x597c618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ArcAndObstacleHapticEffectManager*>(),
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)(::GlobalNamespace::SaberType)>(
     &::GlobalNamespace::ArcAndObstacleHapticEffectManager::HandleSparkleEffectDidEnd)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x597d90c;
+  constexpr static std::size_t addrs = 0x597c6b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ArcAndObstacleHapticEffectManager*>(),
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)(::GlobalNamespace::SliderInteractionManager*)>(
     &::GlobalNamespace::ArcAndObstacleHapticEffectManager::HandleSliderInteractionManagerAllSliderWereRemovedFromActiveSliders)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x597d984;
+  constexpr static std::size_t addrs = 0x597c730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)(::GlobalNamespace::SliderInteractionManager*, float_t)>(
     &::GlobalNamespace::ArcAndObstacleHapticEffectManager::HandleSliderInteractionManagerSliderWasAddedToActiveSliders)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x597d9f0;
+  constexpr static std::size_t addrs = 0x597c79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)()>(&::GlobalNamespace::ArcAndObstacleHapticEffectManager::TryDisableThis)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x597d934;
+  constexpr static std::size_t addrs = 0x597c6e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ArcAndObstacleHapticEffectManager*>(), { "TryDisableThis", {}, {} })));
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState* (
     ::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)(::GlobalNamespace::SaberType)>(&::GlobalNamespace::ArcAndObstacleHapticEffectManager::GetState)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x597d8ac;
+  constexpr static std::size_t addrs = 0x597c658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState* (
     ::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)(::GlobalNamespace::ColorType)>(&::GlobalNamespace::ArcAndObstacleHapticEffectManager::GetState)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x597d9c4;
+  constexpr static std::size_t addrs = 0x597c770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)()>(&::GlobalNamespace::ArcAndObstacleHapticEffectManager::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x597da4c;
+  constexpr static std::size_t addrs = 0x597c7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ArcAndObstacleHapticEffectManager*>(), { ".ctor", {}, {} })));

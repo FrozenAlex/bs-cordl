@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)(::System::Action_1<::BGLib::Polyglot::LocalizationLanguage>*)>(
     &::GlobalNamespace::SelectLanguageViewController::add_didChangeLanguageEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5965288;
+  constexpr static std::size_t addrs = 0x5963a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)(::System::Action_1<::BGLib::Polyglot::LocalizationLanguage>*)>(
     &::GlobalNamespace::SelectLanguageViewController::remove_didChangeLanguageEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5965348;
+  constexpr static std::size_t addrs = 0x5963b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)(bool, bool, bool)>(&::GlobalNamespace::SelectLanguageViewController::DidActivate)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5965408;
+  constexpr static std::size_t addrs = 0x5963bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)()>(&::GlobalNamespace::SelectLanguageViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x5965540;
+  constexpr static std::size_t addrs = 0x5963d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)()>(
     &::GlobalNamespace::SelectLanguageViewController::HandleLanguageSettingsControllerOndropDownValueDidChange)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x596565c;
+  constexpr static std::size_t addrs = 0x5963e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)()>(&::GlobalNamespace::SelectLanguageViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x596568c;
+  constexpr static std::size_t addrs = 0x5963e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectLanguageViewController*>(), { ".ctor", {}, {} })));

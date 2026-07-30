@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UI::RectangularVertexClipper::*)(::UnityEngine::RectTransform*, ::UnityEngine::Canvas*)>(
     &::UnityEngine::UI::RectangularVertexClipper::GetCanvasRect)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6c18084;
+  constexpr static std::size_t addrs = 0x6c13a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::RectangularVertexClipper::*)()>(&::UnityEngine::UI::RectangularVertexClipper::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6c181e4;
+  constexpr static std::size_t addrs = 0x6c13be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::RectangularVertexClipper*>(), { ".ctor", {}, {} })));

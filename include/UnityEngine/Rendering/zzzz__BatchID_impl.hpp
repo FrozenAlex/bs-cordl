@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::BatchID::*)()>(&::UnityEngine::Rendering::BatchID::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b26eb4;
+  constexpr static std::size_t addrs = 0x6b228b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::BatchID::*)(::System::Object*)>(&::UnityEngine::Rendering::BatchID::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6b26ebc;
+  constexpr static std::size_t addrs = 0x6b228c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::BatchID::*)(::UnityEngine::Rendering::BatchID)>(&::UnityEngine::Rendering::BatchID::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b26f6c;
+  constexpr static std::size_t addrs = 0x6b22970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

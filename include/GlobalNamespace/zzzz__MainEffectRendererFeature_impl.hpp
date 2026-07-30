@@ -2,16 +2,18 @@
 // IWYU pragma private; include "GlobalNamespace/MainEffectRendererFeature.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRendererFeature_impl.hpp"
 #include "GlobalNamespace/zzzz__MainEffectRendererFeature_def.hpp"
+#include "GlobalNamespace/zzzz__MainEffectController_def.hpp"
 #include "GlobalNamespace/zzzz__MainEffectPostRenderPass_def.hpp"
 #include "GlobalNamespace/zzzz__MainEffectPreRenderPass_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderingData_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderer_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MainEffectRendererFeature.Create
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectRendererFeature::*)()>(&::GlobalNamespace::MainEffectRendererFeature::Create)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5f41340;
+  constexpr static std::size_t addrs = 0x5f3efa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,11 +27,39 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectRendererFeature::*)(
     ::UnityEngine::Rendering::Universal::ScriptableRenderer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::GlobalNamespace::MainEffectRendererFeature::AddRenderPasses)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5f414b4;
+  constexpr static std::size_t addrs = 0x5f3f114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), { ::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), 7 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MainEffectRendererFeature.ResolveController
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MainEffectController> (*)(::UnityEngine::Camera*)>(
+    &::GlobalNamespace::MainEffectRendererFeature::ResolveController)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5f3f154;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), { "ResolveController", {}, { ::i2c::type_of<::UnityEngine::Camera*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MainEffectRendererFeature.GetEnabledController
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MainEffectController> (*)(::UnityEngine::Camera*)>(
+    &::GlobalNamespace::MainEffectRendererFeature::GetEnabledController)> {
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x5f3f158;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), { "GetEnabledController", {}, { ::i2c::type_of<::UnityEngine::Camera*>() } })));
     return ___internal_method;
   }
 };
@@ -38,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectRendererFeature::*)()>(&::GlobalNamespace::MainEffectRendererFeature::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f414f4;
+  constexpr static std::size_t addrs = 0x5f3f214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), { ".ctor", {}, {} })));
@@ -79,6 +109,16 @@ inline void GlobalNamespace::MainEffectRendererFeature::AddRenderPasses(::UnityE
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer, renderingData);
+}
+inline ::UnityW<::GlobalNamespace::MainEffectController> GlobalNamespace::MainEffectRendererFeature::ResolveController(::UnityEngine::Camera* camera) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), { "ResolveController", {}, { ::i2c::type_of<::UnityEngine::Camera*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::MainEffectController>>(nullptr, ___internal_method, camera);
+}
+inline ::UnityW<::GlobalNamespace::MainEffectController> GlobalNamespace::MainEffectRendererFeature::GetEnabledController(::UnityEngine::Camera* camera) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), { "GetEnabledController", {}, { ::i2c::type_of<::UnityEngine::Camera*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::MainEffectController>>(nullptr, ___internal_method, camera);
 }
 inline void GlobalNamespace::MainEffectRendererFeature::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectRendererFeature*>(), { ".ctor", {}, {} })));

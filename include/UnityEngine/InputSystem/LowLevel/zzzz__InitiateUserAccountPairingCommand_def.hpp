@@ -105,7 +105,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x65a7f88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x65a5d24, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand Create();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -114,10 +114,10 @@ public:
 
   constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
 
-  /// @brief Method get_Type, addr 0x65a7f70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x65a5d0c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x65a7f7c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x65a5d18, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"

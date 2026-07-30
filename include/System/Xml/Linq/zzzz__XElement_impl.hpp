@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XElement__GetAttributes_d__116::*)(int32_t)>(&::System::Xml::Linq::XElement__GetAttributes_d__116::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x61a3c6c;
+  constexpr static std::size_t addrs = 0x61a1a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XElement__GetAttributes_d__116::*)()>(
     &::System::Xml::Linq::XElement__GetAttributes_d__116::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61a4534;
+  constexpr static std::size_t addrs = 0x61a22d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Linq::XElement__GetAttributes_d__116::*)()>(&::System::Xml::Linq::XElement__GetAttributes_d__116::MoveNext)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x61a4538;
+  constexpr static std::size_t addrs = 0x61a22d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XElement__GetAttributes_d__116*>(), { "MoveNext", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Linq::XAttribute* (::System::Xml::Linq::XElement__GetAttributes_d__116::*)()>(
     &::System::Xml::Linq::XElement__GetAttributes_d__116::System_Collections_Generic_IEnumerator_System_Xml_Linq_XAttribute__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61a45e0;
+  constexpr static std::size_t addrs = 0x61a237c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XElement__GetAttributes_d__116*>(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XElement__GetAttributes_d__116::*)()>(
     &::System::Xml::Linq::XElement__GetAttributes_d__116::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x61a45e8;
+  constexpr static std::size_t addrs = 0x61a2384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Linq::XElement__GetAttributes_d__116::*)()>(
     &::System::Xml::Linq::XElement__GetAttributes_d__116::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61a4620;
+  constexpr static std::size_t addrs = 0x61a23bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XAttribute*>* (::System::Xml::Linq::XElement__GetAttributes_d__116::*)()>(
     &::System::Xml::Linq::XElement__GetAttributes_d__116::System_Collections_Generic_IEnumerable_System_Xml_Linq_XAttribute__GetEnumerator)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x61a4628;
+  constexpr static std::size_t addrs = 0x61a23c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XElement__GetAttributes_d__116*>(),
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Xml::Linq::XElement__GetAttributes_d__116::*)()>(
     &::System::Xml::Linq::XElement__GetAttributes_d__116::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61a46c8;
+  constexpr static std::size_t addrs = 0x61a2464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XElement::*)(::System::Xml::Linq::XName*)>(&::System::Xml::Linq::XElement::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x61a2078;
+  constexpr static std::size_t addrs = 0x619fe14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XElement::*)(::System::Xml::Linq::XElement*)>(&::System::Xml::Linq::XElement::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x61a3128;
+  constexpr static std::size_t addrs = 0x61a0ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XElement::*)(::System::Xml::Linq::XStreamingElement*)>(&::System::Xml::Linq::XElement::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x619fe98;
+  constexpr static std::size_t addrs = 0x619dc34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -345,7 +345,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Linq::XElement::*)()>(&::System::Xml::Linq::XElement::get_HasAttributes)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x61a31e8;
+  constexpr static std::size_t addrs = 0x61a0f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XElement*>(), { "get_HasAttributes", {}, {} })));
@@ -357,7 +357,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Linq::XElement::*)()>(&::System::Xml::Linq::XElement::get_IsEmpty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x61a31f8;
+  constexpr static std::size_t addrs = 0x61a0f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XElement*>(), { "get_IsEmpty", {}, {} })));
@@ -369,7 +369,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Linq::XName* (::System::Xml::Linq::XElement::*)()>(&::System::Xml::Linq::XElement::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61a3208;
+  constexpr static std::size_t addrs = 0x61a0fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XElement*>(), { "get_Name", {}, {} })));
@@ -381,7 +381,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNodeType (::System::Xml::Linq::XElement::*)()>(&::System::Xml::Linq::XElement::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61a3210;
+  constexpr static std::size_t addrs = 0x61a0fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XElement*>(), { ::i2c::class_of<::System::Xml::Linq::XElement*>(), 7 }));
@@ -393,7 +393,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Linq::XElement::*)()>(&::System::Xml::Linq::XElement::get_Value)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x61a3218;
+  constexpr static std::size_t addrs = 0x61a0fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XElement*>(), { "get_Value", {}, {} })));
@@ -405,7 +405,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XElement::*)(::StringW)>(&::System::Xml::Linq::XElement::set_Value)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x61a3284;
+  constexpr static std::size_t addrs = 0x61a1020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XElement*>(), { "set_Value", {}, { ::i2c::type_of<::StringW>() } })));
@@ -417,7 +417,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Linq::XAttribute* (::System::Xml::Linq::XElement::*)(::System::Xml::Linq::XName*)>(&::System::Xml::Linq::XElement::Attribute)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61a32f8;
+  constexpr static std::size_t addrs = 0x61a1094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -431,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XAttribute*>* (::System::Xml::Linq::XElement::*)()>(
     &::System::Xml::Linq::XElement::Attributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61a3334;
+  constexpr static std::size_t addrs = 0x61a10d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XElement*>(), { "Attributes", {}, {} })));
@@ -443,7 +443,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Linq::XElement::*)(::System::Xml::Linq::XNamespace*)>(&::System::Xml::Linq::XElement::GetPrefixOfNamespace)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x619e880;
+  constexpr static std::size_t addrs = 0x619c61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -456,7 +456,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XElement::*)(::System::Xml::XmlWriter*)>(&::System::Xml::Linq::XElement::WriteTo)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x61a34b8;
+  constexpr static std::size_t addrs = 0x61a1254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::Linq::XElement*>(), { ::i2c::class_of<::System::Xml::Linq::XElement*>(), 8 }));
@@ -469,7 +469,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchema* (::System::Xml::Linq::XElement::*)()>(
     &::System::Xml::Linq::XElement::System_Xml_Serialization_IXmlSerializable_GetSchema)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61a36d0;
+  constexpr static std::size_t addrs = 0x61a146c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -483,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XElement::*)(::System::Xml::XmlReader*)>(
     &::System::Xml::Linq::XElement::System_Xml_Serialization_IXmlSerializable_ReadXml)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x61a36d8;
+  constexpr static std::size_t addrs = 0x61a1474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -498,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XElement::*)(::System::Xml::XmlWriter*)>(
     &::System::Xml::Linq::XElement::System_Xml_Serialization_IXmlSerializable_WriteXml)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61a38dc;
+  constexpr static std::size_t addrs = 0x61a1678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -512,7 +512,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XElement::*)(::System::Xml::Linq::XAttribute*)>(&::System::Xml::Linq::XElement::AddAttribute)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x61a38e8;
+  constexpr static std::size_t addrs = 0x61a1684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -525,7 +525,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XElement::*)(::System::Xml::Linq::XAttribute*)>(&::System::Xml::Linq::XElement::AddAttributeSkipNotify)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x61a3b04;
+  constexpr static std::size_t addrs = 0x61a18a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -538,7 +538,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XElement::*)(::System::Xml::Linq::XAttribute*)>(&::System::Xml::Linq::XElement::AppendAttribute)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x61a39d8;
+  constexpr static std::size_t addrs = 0x61a1774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -551,7 +551,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XElement::*)(::System::Xml::Linq::XAttribute*)>(&::System::Xml::Linq::XElement::AppendAttributeSkipNotify)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x61a20d0;
+  constexpr static std::size_t addrs = 0x619fe6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -564,7 +564,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Linq::XNode* (::System::Xml::Linq::XElement::*)()>(&::System::Xml::Linq::XElement::CloneNode)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x61a3c10;
+  constexpr static std::size_t addrs = 0x61a19ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -578,7 +578,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XAttribute*>* (
     ::System::Xml::Linq::XElement::*)(::System::Xml::Linq::XName*)>(&::System::Xml::Linq::XElement::GetAttributes)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x61a333c;
+  constexpr static std::size_t addrs = 0x61a10d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -592,7 +592,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Linq::XElement::*)(::StringW, ::System::Xml::Linq::XElement*)>(
     &::System::Xml::Linq::XElement::GetNamespaceOfPrefixInScope)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x61a33c4;
+  constexpr static std::size_t addrs = 0x61a1160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -607,7 +607,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XElement::*)(::System::Xml::XmlReader*, ::System::Xml::Linq::LoadOptions)>(
     &::System::Xml::Linq::XElement::ReadElementFrom)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x61a3864;
+  constexpr static std::size_t addrs = 0x61a1600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -622,7 +622,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XElement::*)(::System::Xml::XmlReader*, ::System::Xml::Linq::LoadOptions)>(
     &::System::Xml::Linq::XElement::ReadElementFromImpl)> {
   constexpr static std::size_t size = 0x4e4;
-  constexpr static std::size_t addrs = 0x61a3c8c;
+  constexpr static std::size_t addrs = 0x61a1a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -636,7 +636,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XElement::*)(int32_t, int32_t)>(&::System::Xml::Linq::XElement::SetEndElementLineInfo)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x61a22d0;
+  constexpr static std::size_t addrs = 0x61a006c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -650,7 +650,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::XElement::*)(::System::Xml::Linq::XNode*, ::System::Xml::Linq::XNode*)>(
     &::System::Xml::Linq::XElement::ValidateNode)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x61a43f0;
+  constexpr static std::size_t addrs = 0x61a218c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::WingedEdge___c::*)()>(&::UnityEngine::ProBuilder::WingedEdge___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66fc96c;
+  constexpr static std::size_t addrs = 0x66fa708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::WingedEdge___c*>(), { ".ctor", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::WingedEdge___c::*)(::UnityEngine::ProBuilder::WingedEdge*)>(
     &::UnityEngine::ProBuilder::WingedEdge___c::_SortCommonIndexesByAdjacency_b__32_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x66fc970;
+  constexpr static std::size_t addrs = 0x66fa70c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::WingedEdge___c::*)(::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::WingedEdge___c::_SortCommonIndexesByAdjacency_b__32_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66fc984;
+  constexpr static std::size_t addrs = 0x66fa720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::WingedEdge___c*>(),
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::WingedEdge___c__DisplayClass32_0::*)()>(&::UnityEngine::ProBuilder::WingedEdge___c__DisplayClass32_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66fc080;
+  constexpr static std::size_t addrs = 0x66f9e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::WingedEdge___c__DisplayClass32_0*>(), { ".ctor", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::WingedEdge___c__DisplayClass32_0::*)(::UnityEngine::ProBuilder::WingedEdge*)>(
     &::UnityEngine::ProBuilder::WingedEdge___c__DisplayClass32_0::_SortCommonIndexesByAdjacency_b__0)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x66fc98c;
+  constexpr static std::size_t addrs = 0x66fa728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::EdgeLookup (::UnityEngine::ProBuilder::WingedEdge::*)()>(&::UnityEngine::ProBuilder::WingedEdge::get_edge)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66facd0;
+  constexpr static std::size_t addrs = 0x66f8a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::WingedEdge*>(), { "get_edge", {}, {} })));
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::WingedEdge::*)(::UnityEngine::ProBuilder::EdgeLookup)>(&::UnityEngine::ProBuilder::WingedEdge::set_edge)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66facdc;
+  constexpr static std::size_t addrs = 0x66f8a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Face* (::UnityEngine::ProBuilder::WingedEdge::*)()>(&::UnityEngine::ProBuilder::WingedEdge::get_face)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66face4;
+  constexpr static std::size_t addrs = 0x66f8a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::WingedEdge*>(), { "get_face", {}, {} })));
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::WingedEdge::*)(::UnityEngine::ProBuilder::Face*)>(&::UnityEngine::ProBuilder::WingedEdge::set_face)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66facec;
+  constexpr static std::size_t addrs = 0x66f8a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::WingedEdge* (::UnityEngine::ProBuilder::WingedEdge::*)()>(&::UnityEngine::ProBuilder::WingedEdge::get_next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66facf4;
+  constexpr static std::size_t addrs = 0x66f8a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::WingedEdge*>(), { "get_next", {}, {} })));
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::WingedEdge::*)(::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::WingedEdge::set_next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66facfc;
+  constexpr static std::size_t addrs = 0x66f8a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::WingedEdge* (::UnityEngine::ProBuilder::WingedEdge::*)()>(&::UnityEngine::ProBuilder::WingedEdge::get_previous)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66fad04;
+  constexpr static std::size_t addrs = 0x66f8aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::WingedEdge*>(), { "get_previous", {}, {} })));
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::WingedEdge::*)(::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::WingedEdge::set_previous)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66fad0c;
+  constexpr static std::size_t addrs = 0x66f8aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::WingedEdge* (::UnityEngine::ProBuilder::WingedEdge::*)()>(&::UnityEngine::ProBuilder::WingedEdge::get_opposite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66fad14;
+  constexpr static std::size_t addrs = 0x66f8ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::WingedEdge*>(), { "get_opposite", {}, {} })));
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::WingedEdge::*)(::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::WingedEdge::set_opposite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66fad1c;
+  constexpr static std::size_t addrs = 0x66f8ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::WingedEdge::*)()>(&::UnityEngine::ProBuilder::WingedEdge::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66fad24;
+  constexpr static std::size_t addrs = 0x66f8ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::WingedEdge*>(), { ".ctor", {}, {} })));
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::WingedEdge::*)(::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::WingedEdge::Equals)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x66fad28;
+  constexpr static std::size_t addrs = 0x66f8ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::WingedEdge::*)(::System::Object*)>(&::UnityEngine::ProBuilder::WingedEdge::Equals)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x66fadc8;
+  constexpr static std::size_t addrs = 0x66f8b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::WingedEdge::*)()>(&::UnityEngine::ProBuilder::WingedEdge::GetHashCode)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x66faed4;
+  constexpr static std::size_t addrs = 0x66f8c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::WingedEdge::*)()>(&::UnityEngine::ProBuilder::WingedEdge::Count)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x66faf4c;
+  constexpr static std::size_t addrs = 0x66f8ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::WingedEdge*>(), { "Count", {}, {} })));
@@ -343,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::WingedEdge::*)()>(&::UnityEngine::ProBuilder::WingedEdge::ToString)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x66faf80;
+  constexpr static std::size_t addrs = 0x66f8d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (*)(::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::WingedEdge*)>(
     &::UnityEngine::ProBuilder::WingedEdge::MakeQuad)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x66fb17c;
+  constexpr static std::size_t addrs = 0x66f8f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -372,7 +372,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::WingedEdge* (::UnityEngine::ProBuilder::WingedEdge::*)(int32_t)>(
     &::UnityEngine::ProBuilder::WingedEdge::GetAdjacentEdgeWithCommonIndex)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x66fb558;
+  constexpr static std::size_t addrs = 0x66f92f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -386,7 +386,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* (*)(::UnityEngine::ProBuilder::Face*)>(
     &::UnityEngine::ProBuilder::WingedEdge::SortEdgesByAdjacency)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x66fb624;
+  constexpr static std::size_t addrs = 0x66f93c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -400,7 +400,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*)>(
     &::UnityEngine::ProBuilder::WingedEdge::SortEdgesByAdjacency)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x66fb740;
+  constexpr static std::size_t addrs = 0x66f94dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -416,7 +416,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     int32_t, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>* (*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*)>(
     &::UnityEngine::ProBuilder::WingedEdge::GetSpokes)> {
   constexpr static std::size_t size = 0x484;
-  constexpr static std::size_t addrs = 0x66fb8e4;
+  constexpr static std::size_t addrs = 0x66f9680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -432,7 +432,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
                                                                                                             ::System::Collections::Generic::HashSet_1<int32_t>*)>(
     &::UnityEngine::ProBuilder::WingedEdge::SortCommonIndexesByAdjacency)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x66fbd68;
+  constexpr static std::size_t addrs = 0x66f9b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::WingedEdge*>(),
@@ -449,7 +449,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, bool)>(
     &::UnityEngine::ProBuilder::WingedEdge::GetWingedEdges)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x66fc084;
+  constexpr static std::size_t addrs = 0x66f9e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -465,7 +465,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::UnityEngine::ProBuilder::WingedEdge*>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, bool)>(
     &::UnityEngine::ProBuilder::WingedEdge::GetWingedEdges)> {
   constexpr static std::size_t size = 0x6e4;
-  constexpr static std::size_t addrs = 0x66fc180;
+  constexpr static std::size_t addrs = 0x66f9f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

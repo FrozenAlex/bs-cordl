@@ -31,13 +31,13 @@ namespace UnityEngine {
 class CORDL_TYPE ColorGamutUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetColorPrimaries, addr 0x6a86918, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetColorPrimaries, addr 0x6a846b4, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorPrimaries GetColorPrimaries(::UnityEngine::ColorGamut gamut);
 
-  /// @brief Method GetTransferFunction, addr 0x6a86990, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetTransferFunction, addr 0x6a8472c, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TransferFunction GetTransferFunction(::UnityEngine::ColorGamut gamut);
 
-  /// @brief Method GetWhitePoint, addr 0x6a86954, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetWhitePoint, addr 0x6a846f0, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::WhitePoint GetWhitePoint(::UnityEngine::ColorGamut gamut);
 
 protected:

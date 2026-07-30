@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Pose, ::UnityEngine::Pose, float_t)>(&::BGLib::UnityExtension::PoseExtensions::InterpolateTo)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3326c58;
+  constexpr static std::size_t addrs = 0x3325220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Pose)>(&::BGLib::UnityExtension::PoseExtensions::Invert)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3326ce8;
+  constexpr static std::size_t addrs = 0x33252b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Pose, ::UnityEngine::Pose, float_t)>(&::BGLib::UnityExtension::PoseExtensions::LerpTo)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3326d50;
+  constexpr static std::size_t addrs = 0x3325318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Pose)>(&::BGLib::UnityExtension::PoseExtensions::MirrorController)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3326de0;
+  constexpr static std::size_t addrs = 0x33253a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

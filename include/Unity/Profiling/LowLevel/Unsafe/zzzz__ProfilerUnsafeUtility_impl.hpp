@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(uint8_t*, int32_t, ::Unity::Profiling::ProfilerCategoryColor)>(
     &::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility::CreateCategory__Unmanaged)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a58c80;
+  constexpr static std::size_t addrs = 0x6a56a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription (*)(uint16_t)>(
     &::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility::GetCategoryDescription)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6a578e8;
+  constexpr static std::size_t addrs = 0x6a55684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::StringW, uint16_t, ::Unity::Profiling::LowLevel::MarkerFlags, int32_t)>(
     &::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility::CreateMarker)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x6a57abc;
+  constexpr static std::size_t addrs = 0x6a55858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(uint8_t*, int32_t, uint16_t, ::Unity::Profiling::LowLevel::MarkerFlags, int32_t)>(
     &::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility::CreateMarker__Unmanaged)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6a58d74;
+  constexpr static std::size_t addrs = 0x6a56b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility*>(),
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, uint8_t*, int32_t, uint8_t, uint8_t)>(
     &::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility::SetMarkerMetadata__Unmanaged)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6a58de0;
+  constexpr static std::size_t addrs = 0x6a56b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility*>(),
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility::BeginSample)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a57cc4;
+  constexpr static std::size_t addrs = 0x6a55a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, void*)>(&::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility::BeginSampleWithMetadata)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6a58e54;
+  constexpr static std::size_t addrs = 0x6a56bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility::EndSample)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a57d4c;
+  constexpr static std::size_t addrs = 0x6a55ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void* (*)(::by_ref<::System::IntPtr>, uint8_t*, int32_t, uint16_t, ::Unity::Profiling::LowLevel::MarkerFlags, uint8_t, uint8_t, int32_t, ::Unity::Profiling::ProfilerCounterOptions)>(
         &::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility::CreateCounterValue__Unmanaged)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6a58ea8;
+  constexpr static std::size_t addrs = 0x6a56c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(uint8_t*, int32_t)>(&::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility::Utf8ToString)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6a57978;
+  constexpr static std::size_t addrs = 0x6a55714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility*>(),
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint16_t, ::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription>)>(
     &::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility::GetCategoryDescription_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a58cd4;
+  constexpr static std::size_t addrs = 0x6a56a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, uint16_t, ::Unity::Profiling::LowLevel::MarkerFlags, int32_t)>(
     &::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility::CreateMarker_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6a58d18;
+  constexpr static std::size_t addrs = 0x6a56ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtility*>(),

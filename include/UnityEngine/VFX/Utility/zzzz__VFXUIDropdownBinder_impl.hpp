@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXUIDropdownBinder::*)()>(&::UnityEngine::VFX::Utility::VFXUIDropdownBinder::get_Property)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69e2cd4;
+  constexpr static std::size_t addrs = 0x69e0a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXUIDropdownBinder*>(), { "get_Property", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXUIDropdownBinder::*)(::StringW)>(&::UnityEngine::VFX::Utility::VFXUIDropdownBinder::set_Property)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69e2cec;
+  constexpr static std::size_t addrs = 0x69e0a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::Utility::VFXUIDropdownBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXUIDropdownBinder::IsValid)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x69e2d0c;
+  constexpr static std::size_t addrs = 0x69e0aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXUIDropdownBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXUIDropdownBinder::UpdateBinding)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x69e2db8;
+  constexpr static std::size_t addrs = 0x69e0b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXUIDropdownBinder::*)()>(&::UnityEngine::VFX::Utility::VFXUIDropdownBinder::ToString)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x69e2e00;
+  constexpr static std::size_t addrs = 0x69e0b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXUIDropdownBinder::*)()>(&::UnityEngine::VFX::Utility::VFXUIDropdownBinder::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69e2efc;
+  constexpr static std::size_t addrs = 0x69e0c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXUIDropdownBinder*>(), { ".ctor", {}, {} })));

@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::CustomYieldInstruction::*)()>(&::UnityEngine::CustomYieldInstruction::get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6adb340;
+  constexpr static std::size_t addrs = 0x6ad6c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CustomYieldInstruction*>(), { "get_Current", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::CustomYieldInstruction::*)()>(&::UnityEngine::CustomYieldInstruction::MoveNext)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6adb348;
+  constexpr static std::size_t addrs = 0x6ad6c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CustomYieldInstruction*>(), { "MoveNext", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CustomYieldInstruction::*)()>(&::UnityEngine::CustomYieldInstruction::Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6adb354;
+  constexpr static std::size_t addrs = 0x6ad6c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CustomYieldInstruction::*)()>(&::UnityEngine::CustomYieldInstruction::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6adb358;
+  constexpr static std::size_t addrs = 0x6ad6c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CustomYieldInstruction*>(), { ".ctor", {}, {} })));

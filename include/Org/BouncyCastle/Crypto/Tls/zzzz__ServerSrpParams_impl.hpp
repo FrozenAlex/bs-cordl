@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
                                                                                                                    ::ArrayW<uint8_t>, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Crypto::Tls::ServerSrpParams::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x346d504;
+  constexpr static std::size_t addrs = 0x346bacc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Tls::ServerSrpParams::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::ServerSrpParams::get_B)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x346d58c;
+  constexpr static std::size_t addrs = 0x346bb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Tls::ServerSrpParams::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::ServerSrpParams::get_G)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x346d594;
+  constexpr static std::size_t addrs = 0x346bb5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Tls::ServerSrpParams::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::ServerSrpParams::get_N)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x346d59c;
+  constexpr static std::size_t addrs = 0x346bb64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Tls::ServerSrpParams::*)()>(&::Org::BouncyCastle::Crypto::Tls::ServerSrpParams::get_S)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x346d5a4;
+  constexpr static std::size_t addrs = 0x346bb6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::ServerSrpParams::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::ServerSrpParams::Encode)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x346d5ac;
+  constexpr static std::size_t addrs = 0x346bb74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::ServerSrpParams* (*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Crypto::Tls::ServerSrpParams::Parse)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x346d64c;
+  constexpr static std::size_t addrs = 0x346bc14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

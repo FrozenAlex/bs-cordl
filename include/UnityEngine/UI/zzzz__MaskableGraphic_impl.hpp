@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::MaskableGraphic_CullStateChangedEvent::*)()>(&::UnityEngine::UI::MaskableGraphic_CullStateChangedEvent::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6dfd9fc;
+  constexpr static std::size_t addrs = 0x6df9400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::MaskableGraphic_CullStateChangedEvent*>(), { ".ctor", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UI::MaskableGraphic_CullStateChangedEvent* (::UnityEngine::UI::MaskableGraphic::*)()>(
     &::UnityEngine::UI::MaskableGraphic::get_onCullStateChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfcc08;
+  constexpr static std::size_t addrs = 0x6df860c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::MaskableGraphic*>(), { "get_onCullStateChanged", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)(::UnityEngine::UI::MaskableGraphic_CullStateChangedEvent*)>(
     &::UnityEngine::UI::MaskableGraphic::set_onCullStateChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfcc10;
+  constexpr static std::size_t addrs = 0x6df8614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::get_maskable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfcc18;
+  constexpr static std::size_t addrs = 0x6df861c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::MaskableGraphic*>(), { "get_maskable", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)(bool)>(&::UnityEngine::UI::MaskableGraphic::set_maskable)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6dfcc20;
+  constexpr static std::size_t addrs = 0x6df8624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::get_isMaskingGraphic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfcc50;
+  constexpr static std::size_t addrs = 0x6df8654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::MaskableGraphic*>(), { "get_isMaskingGraphic", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)(bool)>(&::UnityEngine::UI::MaskableGraphic::set_isMaskingGraphic)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6dfbfe4;
+  constexpr static std::size_t addrs = 0x6df79e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::UI::MaskableGraphic::*)(::UnityEngine::Material*)>(
     &::UnityEngine::UI::MaskableGraphic::GetModifiedMaterial)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6dfcc58;
+  constexpr static std::size_t addrs = 0x6df865c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)(::UnityEngine::Rect, bool)>(&::UnityEngine::UI::MaskableGraphic::Cull)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6dfcd64;
+  constexpr static std::size_t addrs = 0x6df8768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)(bool)>(&::UnityEngine::UI::MaskableGraphic::UpdateCull)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6dfcfc4;
+  constexpr static std::size_t addrs = 0x6df89c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::MaskableGraphic*>(), { "UpdateCull", {}, { ::i2c::type_of<bool>() } })));
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)(::UnityEngine::Rect, bool)>(&::UnityEngine::UI::MaskableGraphic::SetClipRect)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6dfd0b8;
+  constexpr static std::size_t addrs = 0x6df8abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)(::UnityEngine::Vector2)>(&::UnityEngine::UI::MaskableGraphic::SetClipSoftness)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6dfd128;
+  constexpr static std::size_t addrs = 0x6df8b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::OnEnable)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6dfd160;
+  constexpr static std::size_t addrs = 0x6df8b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::OnDisable)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6dfd308;
+  constexpr static std::size_t addrs = 0x6df8d0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::OnTransformParentChanged)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6dfd3b8;
+  constexpr static std::size_t addrs = 0x6df8dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::ParentMaskStateChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6dfd408;
+  constexpr static std::size_t addrs = 0x6df8e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::OnCanvasHierarchyChanged)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6dfd40c;
+  constexpr static std::size_t addrs = 0x6df8e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::get_rootCanvasRect)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x6dfce28;
+  constexpr static std::size_t addrs = 0x6df882c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::MaskableGraphic*>(), { "get_rootCanvasRect", {}, {} })));
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::UpdateClipParent)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6dfd1b0;
+  constexpr static std::size_t addrs = 0x6df8bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::MaskableGraphic*>(), { "UpdateClipParent", {}, {} })));
@@ -271,7 +271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::RecalculateClipping)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6dfd8b4;
+  constexpr static std::size_t addrs = 0x6df92b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::RecalculateMasking)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6dfd8b8;
+  constexpr static std::size_t addrs = 0x6df92bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6dfd938;
+  constexpr static std::size_t addrs = 0x6df933c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::MaskableGraphic*>(), { ".ctor", {}, {} })));
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::UI::MaskableGraphic::*)()>(
     &::UnityEngine::UI::MaskableGraphic::UnityEngine_UI_IClippable_get_gameObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dfda48;
+  constexpr static std::size_t addrs = 0x6df944c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

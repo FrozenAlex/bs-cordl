@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_bcpgOut(::Org::BouncyCastle::Bcpg::BcpgOutputStream* value);
 
-  /// @brief Method .ctor, addr 0x369c894, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369ae5c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
 protected:

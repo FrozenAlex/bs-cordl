@@ -34,16 +34,16 @@ public:
 
   static inline ::UnityEngine::VFX::SetSpawnTime* New_ctor();
 
-  /// @brief Method OnPlay, addr 0x69cc3fc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnPlay, addr 0x69ca198, size 0x4, virtual true, abstract: false, final true
   inline void OnPlay(::UnityEngine::VFX::VFXSpawnerState* state, ::UnityEngine::VFX::VFXExpressionValues* vfxValues, ::UnityEngine::VFX::VisualEffect* vfxComponent);
 
-  /// @brief Method OnStop, addr 0x69cc4a4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnStop, addr 0x69ca240, size 0x4, virtual true, abstract: false, final true
   inline void OnStop(::UnityEngine::VFX::VFXSpawnerState* state, ::UnityEngine::VFX::VFXExpressionValues* vfxValues, ::UnityEngine::VFX::VisualEffect* vfxComponent);
 
-  /// @brief Method OnUpdate, addr 0x69cc400, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method OnUpdate, addr 0x69ca19c, size 0xa4, virtual true, abstract: false, final true
   inline void OnUpdate(::UnityEngine::VFX::VFXSpawnerState* state, ::UnityEngine::VFX::VFXExpressionValues* vfxValues, ::UnityEngine::VFX::VisualEffect* vfxComponent);
 
-  /// @brief Method .ctor, addr 0x69cc4a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69ca244, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_spawnTimeID();
@@ -65,7 +65,7 @@ public:
   SetSpawnTime(SetSpawnTime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19889 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

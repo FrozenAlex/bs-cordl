@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Diagnostics::TraceLevel (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)()>(
     &::Newtonsoft::Json::Serialization::MemoryTraceWriter::get_LevelFilter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d57520;
+  constexpr static std::size_t addrs = 0x5d5528c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>(), { "get_LevelFilter", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)(::System::Diagnostics::TraceLevel)>(
     &::Newtonsoft::Json::Serialization::MemoryTraceWriter::set_LevelFilter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d57528;
+  constexpr static std::size_t addrs = 0x5d55294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>(),
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)()>(&::Newtonsoft::Json::Serialization::MemoryTraceWriter::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5d57530;
+  constexpr static std::size_t addrs = 0x5d5529c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>(), { ".ctor", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)(::System::Diagnostics::TraceLevel, ::StringW, ::System::Exception*)>(
     &::Newtonsoft::Json::Serialization::MemoryTraceWriter::Trace)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x5d575d0;
+  constexpr static std::size_t addrs = 0x5d5533c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)()>(
     &::Newtonsoft::Json::Serialization::MemoryTraceWriter::GetTraceMessages)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d578ac;
+  constexpr static std::size_t addrs = 0x5d55618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>(), { "GetTraceMessages", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Serialization::MemoryTraceWriter::*)()>(&::Newtonsoft::Json::Serialization::MemoryTraceWriter::ToString)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x5d578b4;
+  constexpr static std::size_t addrs = 0x5d55620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::MemoryTraceWriter*>(),

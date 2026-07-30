@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::SortingGroup::get_invalidSortingGroupID)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6b04890;
+  constexpr static std::size_t addrs = 0x6b00294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SortingGroup*>(), { "get_invalidSortingGroupID", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Rendering::SortingGroup::UpdateAllSortingGroups)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6b048b8;
+  constexpr static std::size_t addrs = 0x6b002bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SortingGroup*>(), { "UpdateAllSortingGroups", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::SortingGroup> (*)(int32_t)>(&::UnityEngine::Rendering::SortingGroup::GetSortingGroupByIndex)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6b048e0;
+  constexpr static std::size_t addrs = 0x6b002e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::SortingGroup::*)()>(&::UnityEngine::Rendering::SortingGroup::get_sortingLayerName)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6b04a3c;
+  constexpr static std::size_t addrs = 0x6b00440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SortingGroup*>(), { "get_sortingLayerName", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SortingGroup::*)(::StringW)>(&::UnityEngine::Rendering::SortingGroup::set_sortingLayerName)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6b04ba8;
+  constexpr static std::size_t addrs = 0x6b005ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::SortingGroup::*)()>(&::UnityEngine::Rendering::SortingGroup::get_sortingLayerID)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6b04d4c;
+  constexpr static std::size_t addrs = 0x6b00750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SortingGroup*>(), { "get_sortingLayerID", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SortingGroup::*)(int32_t)>(&::UnityEngine::Rendering::SortingGroup::set_sortingLayerID)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6b04e00;
+  constexpr static std::size_t addrs = 0x6b00804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::SortingGroup::*)()>(&::UnityEngine::Rendering::SortingGroup::get_sortingOrder)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6b04ecc;
+  constexpr static std::size_t addrs = 0x6b008d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SortingGroup*>(), { "get_sortingOrder", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SortingGroup::*)(int32_t)>(&::UnityEngine::Rendering::SortingGroup::set_sortingOrder)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6b04f80;
+  constexpr static std::size_t addrs = 0x6b00984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SortingGroup::*)()>(&::UnityEngine::Rendering::SortingGroup::get_sortAtRoot)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6b0504c;
+  constexpr static std::size_t addrs = 0x6b00a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SortingGroup*>(), { "get_sortAtRoot", {}, {} })));
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SortingGroup::*)(bool)>(&::UnityEngine::Rendering::SortingGroup::set_sortAtRoot)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6b05100;
+  constexpr static std::size_t addrs = 0x6b00b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::SortingGroup::*)()>(&::UnityEngine::Rendering::SortingGroup::get_sortingGroupID)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6b051cc;
+  constexpr static std::size_t addrs = 0x6b00bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SortingGroup*>(), { "get_sortingGroupID", {}, {} })));
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::SortingGroup::*)()>(&::UnityEngine::Rendering::SortingGroup::get_sortingGroupOrder)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6b05280;
+  constexpr static std::size_t addrs = 0x6b00c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SortingGroup*>(), { "get_sortingGroupOrder", {}, {} })));
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::SortingGroup::*)()>(&::UnityEngine::Rendering::SortingGroup::get_index)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6b05334;
+  constexpr static std::size_t addrs = 0x6b00d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SortingGroup*>(), { "get_index", {}, {} })));
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::SortingGroup::*)()>(&::UnityEngine::Rendering::SortingGroup::get_sortingKey)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6b053e8;
+  constexpr static std::size_t addrs = 0x6b00dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SortingGroup*>(), { "get_sortingKey", {}, {} })));
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SortingGroup::*)()>(&::UnityEngine::Rendering::SortingGroup::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b0549c;
+  constexpr static std::size_t addrs = 0x6b00ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SortingGroup*>(), { ".ctor", {}, {} })));
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::Rendering::SortingGroup::GetSortingGroupByIndex_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b04a00;
+  constexpr static std::size_t addrs = 0x6b00404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::Rendering::SortingGroup::get_sortingLayerName_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b04b64;
+  constexpr static std::size_t addrs = 0x6b00568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::Rendering::SortingGroup::set_sortingLayerName_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b04d08;
+  constexpr static std::size_t addrs = 0x6b0070c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::Rendering::SortingGroup::get_sortingLayerID_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b04dc4;
+  constexpr static std::size_t addrs = 0x6b007c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t)>(&::UnityEngine::Rendering::SortingGroup::set_sortingLayerID_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b04e88;
+  constexpr static std::size_t addrs = 0x6b0088c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SortingGroup*>(),
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::Rendering::SortingGroup::get_sortingOrder_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b04f44;
+  constexpr static std::size_t addrs = 0x6b00948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t)>(&::UnityEngine::Rendering::SortingGroup::set_sortingOrder_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b05008;
+  constexpr static std::size_t addrs = 0x6b00a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SortingGroup*>(),
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Rendering::SortingGroup::get_sortAtRoot_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b050c4;
+  constexpr static std::size_t addrs = 0x6b00ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::Rendering::SortingGroup::set_sortAtRoot_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b05188;
+  constexpr static std::size_t addrs = 0x6b00b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SortingGroup*>(),
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::Rendering::SortingGroup::get_sortingGroupID_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b05244;
+  constexpr static std::size_t addrs = 0x6b00c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -342,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::Rendering::SortingGroup::get_sortingGroupOrder_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b052f8;
+  constexpr static std::size_t addrs = 0x6b00cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -355,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::Rendering::SortingGroup::get_index_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b053ac;
+  constexpr static std::size_t addrs = 0x6b00db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -368,7 +368,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::System::IntPtr)>(&::UnityEngine::Rendering::SortingGroup::get_sortingKey_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b05460;
+  constexpr static std::size_t addrs = 0x6b00e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

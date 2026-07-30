@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFunction::*)(::System::Object*, ::System::IntPtr)>(
     &::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFunction::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x32a0a7c;
+  constexpr static std::size_t addrs = 0x329e2d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFunction*>(),
@@ -56,7 +56,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>* (
         ::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFunction::*)()>(&::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x32a0dec;
+  constexpr static std::size_t addrs = 0x329e648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFunction*>(),
@@ -71,7 +71,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFunction::*)(::System::AsyncCallback*, ::System::Object*)>(
         &::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFunction::BeginInvoke)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32a0e00;
+  constexpr static std::size_t addrs = 0x329e65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFunction*>(),
@@ -87,7 +87,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         ::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFunction::*)(::System::IAsyncResult*)>(
         &::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFunction::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32a0e1c;
+  constexpr static std::size_t addrs = 0x329e678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFunction*>(),
@@ -128,76 +128,76 @@ inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFun
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFunction::BeatLeaderboards_FetchLeaderboardTypeFunction() {}
-//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::__c__DisplayClass11_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d.MoveNext
+//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d.MoveNext
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (::BeatSaber::Main::Leaderboards::__c__DisplayClass11_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d::*)()>(
-        &::BeatSaber::Main::Leaderboards::__c__DisplayClass11_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d::MoveNext)> {
-  constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x32a0f08;
+    static_cast<void (::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d::*)()>(
+        &::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d::MoveNext)> {
+  constexpr static std::size_t size = 0x4c4;
+  constexpr static std::size_t addrs = 0x329e764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass11_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d>(),
+                     (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d>(),
                                          { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::__c__DisplayClass11_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d.SetStateMachine
+//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d.SetStateMachine
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (::BeatSaber::Main::Leaderboards::__c__DisplayClass11_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d::*)(
+    static_cast<void (::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d::*)(
         ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-        &::BeatSaber::Main::Leaderboards::__c__DisplayClass11_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d::SetStateMachine)> {
+        &::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x32a1470;
+  constexpr static std::size_t addrs = 0x329ecec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass11_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d>(),
+                     (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d>(),
                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void BeatSaber::Main::Leaderboards::__c__DisplayClass11_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d::MoveNext() {
+inline void BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass11_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d>(),
+                   (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d>(),
                                        { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void BeatSaber::Main::Leaderboards::__c__DisplayClass11_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d::SetStateMachine(
+inline void BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d::SetStateMachine(
     ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass11_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d>(),
+                   (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d>(),
                                        { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BeatSaber::Main::Leaderboards::__c__DisplayClass11_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d::operator ::System::Runtime::CompilerServices::
+constexpr BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d::operator ::System::Runtime::CompilerServices::
     IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BeatSaber::Main::Leaderboards::__c__DisplayClass11_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "__8__1", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0*", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "__8__1", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardAroundMeModel*>", modifiers: "", def_value: Some("{}") }]
-constexpr ::BeatSaber::Main::Leaderboards::__c__DisplayClass11_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d::
-    __c__DisplayClass11_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d(
+constexpr ::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d::
+    __c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d(
         int32_t __1__state,
         ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*> __t__builder,
-        ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0* __4__this, ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1* __8__1,
+        ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0* __4__this, ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1* __8__1,
         ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardAroundMeModel*> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
@@ -206,249 +206,15 @@ constexpr ::BeatSaber::Main::Leaderboards::__c__DisplayClass11_0_BeatLeaderboard
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::Main::Leaderboards::__c__DisplayClass11_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d::
-    __c__DisplayClass11_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d() {}
-//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0::*)()>(
-    &::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32a0a78;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0._GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<
-    ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>* (::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0::*)()>(
-    &::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0::_GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x32a0e28;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0*>(),
-                                                                                           { "<GetLeaderboardAroundMeAsync>g__GetLeaderboardAroundMeInternal|0", {}, {} })));
-    return ___internal_method;
-  }
-};
-constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards*& BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0::__cordl_internal_get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards* const& BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0::__cordl_internal_get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0::__cordl_internal_set___4__this(::BeatSaber::Main::Leaderboards::BeatLeaderboards* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____4__this = value;
-}
-constexpr ::GlobalNamespace::BeatmapKey& BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0::__cordl_internal_get_key() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___key;
-}
-constexpr ::GlobalNamespace::BeatmapKey const& BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0::__cordl_internal_get_key() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___key;
-}
-constexpr void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0::__cordl_internal_set_key(::GlobalNamespace::BeatmapKey value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___key = value;
-}
-constexpr ::GlobalNamespace::GameplayModifierMask& BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0::__cordl_internal_get_modifiers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___modifiers;
-}
-constexpr ::GlobalNamespace::GameplayModifierMask const& BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0::__cordl_internal_get_modifiers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___modifiers;
-}
-constexpr void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0::__cordl_internal_set_modifiers(::GlobalNamespace::GameplayModifierMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___modifiers = value;
-}
-inline void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*
-BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0::_GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0*>(),
-                                                                                         { "<GetLeaderboardAroundMeAsync>g__GetLeaderboardAroundMeInternal|0", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*>(
-      this, ___internal_method);
-}
-inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0* BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0*>());
-}
-// Ctor Parameters []
-constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_0::BeatLeaderboards___c__DisplayClass11_0() {}
-//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1::*)()>(
-    &::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32a13bc;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1._GetLeaderboardAroundMeAsync_b__1
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1::*)(
-    ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_NodesModel*)>(
-    &::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1::_GetLeaderboardAroundMeAsync_b__1)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x32a14f0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{},
-        (::i2c::find_method(
-            ::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1*>(),
-            { "<GetLeaderboardAroundMeAsync>b__1",
-              {},
-              { ::i2c::type_of<::BeatSaber::Main::GraphQL::Models::
-                                   LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_NodesModel*>() } })));
-    return ___internal_method;
-  }
-};
-constexpr ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*&
-BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1::__cordl_internal_get_result() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___result;
-}
-constexpr ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>* const&
-BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1::__cordl_internal_get_result() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___result;
-}
-constexpr void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1::__cordl_internal_set_result(
-    ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___result = value;
-}
-inline void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1::_GetLeaderboardAroundMeAsync_b__1(
-    ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_NodesModel* node) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{},
-      (::i2c::find_method(
-          ::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1*>(),
-          { "<GetLeaderboardAroundMeAsync>b__1",
-            {},
-            { ::i2c::type_of<::BeatSaber::Main::GraphQL::Models::
-                                 LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardAroundMeModel_NodesModel*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, node);
-}
-inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1* BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1*>());
-}
-// Ctor Parameters []
-constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass11_1::BeatLeaderboards___c__DisplayClass11_1() {}
-//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d::*)()>(
-        &::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d::MoveNext)> {
-  constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x32a16e4;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d>(),
-                                         { "MoveNext", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d.SetStateMachine
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-        &::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d::SetStateMachine)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x32a1c4c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d>(),
-                                         { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
-    return ___internal_method;
-  }
-};
-inline void BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d>(),
-                                       { "MoveNext", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
-}
-inline void BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d>(),
-                                       { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
-}
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d::operator ::System::Runtime::CompilerServices::
-    IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
-}
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "__8__1", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel*>", modifiers: "", def_value: Some("{}") }]
-constexpr ::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d::
-    __c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*> __t__builder,
-        ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0* __4__this, ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1* __8__1,
-        ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel*> __u__1) noexcept {
-  this->__1__state = __1__state;
-  this->__t__builder = __t__builder;
-  this->__4__this = __4__this;
-  this->__8__1 = __8__1;
-  this->__u__1 = __u__1;
-}
-// Ctor Parameters []
-constexpr ::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d::
-    __c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d() {}
+constexpr ::BeatSaber::Main::Leaderboards::__c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d::
+    __c__DisplayClass12_0_BeatLeaderboards___GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0_d() {}
 //  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0::*)()>(
     &::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32a0cd8;
+  constexpr static std::size_t addrs = 0x329e2d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -456,18 +222,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0._GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0
+//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0._GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<
     ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>* (::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0::*)()>(
-    &::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0::_GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0)> {
+    &::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0::_GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x32a1604;
+  constexpr static std::size_t addrs = 0x329e684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0*>(),
-                                                                                           { "<GetLeaderboardFriendsAsync>g__GetLeaderboardFriendsInternal|0", {}, {} })));
+                                                                                           { "<GetLeaderboardAroundMeAsync>g__GetLeaderboardAroundMeInternal|0", {}, {} })));
     return ___internal_method;
   }
 };
@@ -513,9 +279,9 @@ inline void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*
-BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0::_GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0() {
+BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0::_GetLeaderboardAroundMeAsync_g__GetLeaderboardAroundMeInternal_0() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_0*>(),
-                                                                                         { "<GetLeaderboardFriendsAsync>g__GetLeaderboardFriendsInternal|0", {}, {} })));
+                                                                                         { "<GetLeaderboardAroundMeAsync>g__GetLeaderboardAroundMeInternal|0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*>(
       this, ___internal_method);
 }
@@ -530,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1::*)()>(
     &::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32a1b98;
+  constexpr static std::size_t addrs = 0x329ec28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -538,24 +304,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1._GetLeaderboardFriendsAsync_b__1
+//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1._GetLeaderboardAroundMeAsync_b__1
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1::*)(
-    ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesForUserFriendsModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardFriendsModel_NodesModel*)>(
-    &::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1::_GetLeaderboardFriendsAsync_b__1)> {
+    ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_NodesModel*)>(
+    &::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1::_GetLeaderboardAroundMeAsync_b__1)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x32a1ccc;
+  constexpr static std::size_t addrs = 0x329ed6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(
             ::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1*>(),
-            { "<GetLeaderboardFriendsAsync>b__1",
+            { "<GetLeaderboardAroundMeAsync>b__1",
               {},
-              { ::i2c::type_of<::BeatSaber::Main::GraphQL::Models::
-                                   LeaderboardEntriesForUserFriendsModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardFriendsModel_NodesModel*>() } })));
+              { ::i2c::type_of<
+                  ::BeatSaber::Main::GraphQL::Models::
+                      LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_NodesModel*>() } })));
     return ___internal_method;
   }
 };
@@ -579,16 +346,17 @@ inline void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1::_GetLeaderboardFriendsAsync_b__1(
-    ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesForUserFriendsModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardFriendsModel_NodesModel* node) {
+inline void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1::_GetLeaderboardAroundMeAsync_b__1(
+    ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_NodesModel*
+        node) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1*>(),
-          { "<GetLeaderboardFriendsAsync>b__1",
+          { "<GetLeaderboardAroundMeAsync>b__1",
             {},
             { ::i2c::type_of<::BeatSaber::Main::GraphQL::Models::
-                                 LeaderboardEntriesForUserFriendsModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardFriendsModel_NodesModel*>() } })));
+                                 LeaderboardEntriesAroundPlayerPageModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardAroundMeModel_NodesModel*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, node);
 }
 inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1* BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1::New_ctor() {
@@ -596,71 +364,77 @@ inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1* 
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass12_1::BeatLeaderboards___c__DisplayClass12_1() {}
-//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d.MoveNext
+//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d::*)()>(
-    &::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d::MoveNext)> {
-  constexpr static std::size_t size = 0x490;
-  constexpr static std::size_t addrs = 0x32a1ec0;
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<void (::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d::*)()>(
+        &::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d::MoveNext)> {
+  constexpr static std::size_t size = 0x4c4;
+  constexpr static std::size_t addrs = 0x329ef60;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d>(),
-                                                { "MoveNext", {}, {} })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d>(),
+                                         { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d.SetStateMachine
+//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<
+    static_cast<void (::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d::*)(
+        ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+        &::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x32a23fc;
+  constexpr static std::size_t addrs = 0x329f4e8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d>(),
-                                                { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d>(),
+                                         { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d>(),
-                                              { "MoveNext", {}, {} })));
+inline void BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d>(),
+                                       { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d::SetStateMachine(
+inline void BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d::SetStateMachine(
     ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d>(),
-                                              { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d>(),
+                                       { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d::operator ::System::Runtime::CompilerServices::
+constexpr BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d::operator ::System::Runtime::CompilerServices::
     IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0*", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "__8__1", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel*>", modifiers: "", def_value: Some("{}") }]
-constexpr ::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d::
-    __c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d(
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel*>", modifiers: "", def_value: Some("{}") }]
+constexpr ::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d::
+    __c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d(
         int32_t __1__state,
         ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*> __t__builder,
         ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0* __4__this, ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1* __8__1,
-        ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel*> __u__1) noexcept {
+        ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel*> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -668,15 +442,15 @@ constexpr ::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboard
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d::
-    __c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d() {}
+constexpr ::BeatSaber::Main::Leaderboards::__c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d::
+    __c__DisplayClass13_0_BeatLeaderboards___GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0_d() {}
 //  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0::*)()>(
     &::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32a0de4;
+  constexpr static std::size_t addrs = 0x329e534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -684,21 +458,33 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0._GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0
+//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0._GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<
     ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>* (::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0::*)()>(
-    &::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0::_GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0)> {
+    &::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0::_GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x32a1de0;
+  constexpr static std::size_t addrs = 0x329ee80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0*>(),
-                                                                                           { "<GetLeaderboardTopNAsync>g__GetLeaderboardTopNInternal|0", {}, {} })));
+                                                                                           { "<GetLeaderboardFriendsAsync>g__GetLeaderboardFriendsInternal|0", {}, {} })));
     return ___internal_method;
   }
 };
+constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards*& BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards* const& BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0::__cordl_internal_set___4__this(::BeatSaber::Main::Leaderboards::BeatLeaderboards* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
+}
 constexpr ::GlobalNamespace::BeatmapKey& BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0::__cordl_internal_get_key() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
@@ -723,27 +509,15 @@ constexpr void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___modifiers = value;
 }
-constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards*& BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0::__cordl_internal_get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards* const& BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0::__cordl_internal_get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0::__cordl_internal_set___4__this(::BeatSaber::Main::Leaderboards::BeatLeaderboards* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____4__this = value;
-}
 inline void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*
-BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0::_GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0() {
+BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0::_GetLeaderboardFriendsAsync_g__GetLeaderboardFriendsInternal_0() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_0*>(),
-                                                                                         { "<GetLeaderboardTopNAsync>g__GetLeaderboardTopNInternal|0", {}, {} })));
+                                                                                         { "<GetLeaderboardFriendsAsync>g__GetLeaderboardFriendsInternal|0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*>(
       this, ___internal_method);
 }
@@ -758,7 +532,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1::*)()>(
     &::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32a2350;
+  constexpr static std::size_t addrs = 0x329f424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -766,24 +540,24 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1._GetLeaderboardTopNAsync_b__1
+//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1._GetLeaderboardFriendsAsync_b__1
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1::*)(
-    ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*)>(
-    &::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1::_GetLeaderboardTopNAsync_b__1)> {
+    ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesForUserFriendsModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_NodesModel*)>(
+    &::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1::_GetLeaderboardFriendsAsync_b__1)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x32a247c;
+  constexpr static std::size_t addrs = 0x329f568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{},
         (::i2c::find_method(
             ::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1*>(),
-            { "<GetLeaderboardTopNAsync>b__1",
+            { "<GetLeaderboardFriendsAsync>b__1",
               {},
-              { ::i2c::type_of<
-                  ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*>() } })));
+              { ::i2c::type_of<::BeatSaber::Main::GraphQL::Models::
+                                   LeaderboardEntriesForUserFriendsModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_NodesModel*>() } })));
     return ___internal_method;
   }
 };
@@ -807,16 +581,17 @@ inline void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1::_GetLeaderboardTopNAsync_b__1(
-    ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel* node) {
+inline void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1::_GetLeaderboardFriendsAsync_b__1(
+    ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesForUserFriendsModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_NodesModel*
+        node) {
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{},
       (::i2c::find_method(
           ::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1*>(),
-          { "<GetLeaderboardTopNAsync>b__1",
+          { "<GetLeaderboardFriendsAsync>b__1",
             {},
-            { ::i2c::type_of<
-                ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_ActiveDataEnvironmentModel_XocBeatGamesCurrentUserModel_BSLeaderboardTopNModel_NodesModel*>() } })));
+            { ::i2c::type_of<::BeatSaber::Main::GraphQL::Models::
+                                 LeaderboardEntriesForUserFriendsModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_NodesModel*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, node);
 }
 inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1* BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1::New_ctor() {
@@ -824,51 +599,278 @@ inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1* 
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass13_1::BeatLeaderboards___c__DisplayClass13_1() {}
-//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__15.MoveNext
+//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::__c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__15::*)()>(
-    &::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__15::MoveNext)> {
-  constexpr static std::size_t size = 0x5c0;
-  constexpr static std::size_t addrs = 0x32a2590;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::__c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d::*)()>(
+    &::BeatSaber::Main::Leaderboards::__c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d::MoveNext)> {
+  constexpr static std::size_t size = 0x4b4;
+  constexpr static std::size_t addrs = 0x329f75c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__15>(), { "MoveNext", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d>(),
+                                                { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__15.SetStateMachine
+//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::__c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__15::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__15::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::__c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::BeatSaber::Main::Leaderboards::__c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x32a2b64;
+  constexpr static std::size_t addrs = 0x329fcc4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__15>(),
-                                                                                           { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d>(),
+                                                { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__15::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__15>(), { "MoveNext", {}, {} })));
+inline void BeatSaber::Main::Leaderboards::__c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d>(),
+                                              { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__15::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__15>(),
-                                                                                         { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
+inline void BeatSaber::Main::Leaderboards::__c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d::SetStateMachine(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::__c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d>(),
+                                              { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__15::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BeatSaber::Main::Leaderboards::__c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d::operator ::System::Runtime::CompilerServices::
+    IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__15::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BeatSaber::Main::Leaderboards::__c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0*", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "__8__1", ty: "::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel*>", modifiers: "", def_value: Some("{}") }]
+constexpr ::BeatSaber::Main::Leaderboards::__c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d::
+    __c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d(
+        int32_t __1__state,
+        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*> __t__builder,
+        ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0* __4__this, ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1* __8__1,
+        ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardTopNModel*> __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__4__this = __4__this;
+  this->__8__1 = __8__1;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::BeatSaber::Main::Leaderboards::__c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d::
+    __c__DisplayClass14_0_BeatLeaderboards___GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0_d() {}
+//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0::*)()>(
+    &::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x329e640;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0._GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<
+    ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>* (::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0::*)()>(
+    &::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0::_GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x329f67c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0*>(),
+                                                                                           { "<GetLeaderboardTopNAsync>g__GetLeaderboardTopNInternal|0", {}, {} })));
+    return ___internal_method;
+  }
+};
+constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards*& BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards* const& BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0::__cordl_internal_set___4__this(::BeatSaber::Main::Leaderboards::BeatLeaderboards* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
+}
+constexpr ::GlobalNamespace::BeatmapKey& BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0::__cordl_internal_get_key() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___key;
+}
+constexpr ::GlobalNamespace::BeatmapKey const& BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0::__cordl_internal_get_key() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___key;
+}
+constexpr void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0::__cordl_internal_set_key(::GlobalNamespace::BeatmapKey value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___key = value;
+}
+constexpr ::GlobalNamespace::GameplayModifierMask& BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0::__cordl_internal_get_modifiers() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___modifiers;
+}
+constexpr ::GlobalNamespace::GameplayModifierMask const& BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0::__cordl_internal_get_modifiers() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___modifiers;
+}
+constexpr void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0::__cordl_internal_set_modifiers(::GlobalNamespace::GameplayModifierMask value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___modifiers = value;
+}
+inline void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*
+BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0::_GetLeaderboardTopNAsync_g__GetLeaderboardTopNInternal_0() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0*>(),
+                                                                                         { "<GetLeaderboardTopNAsync>g__GetLeaderboardTopNInternal|0", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>*>(
+      this, ___internal_method);
+}
+inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0* BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0*>());
+}
+// Ctor Parameters []
+constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_0::BeatLeaderboards___c__DisplayClass14_0() {}
+//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1::*)()>(
+    &::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x329fc10;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1._GetLeaderboardTopNAsync_b__1
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1::*)(
+    ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardTopNModel_NodesModel*)>(
+    &::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1::_GetLeaderboardTopNAsync_b__1)> {
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x329fd44;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(
+                         ::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1*>(),
+                         { "<GetLeaderboardTopNAsync>b__1",
+                           {},
+                           { ::i2c::type_of<::BeatSaber::Main::GraphQL::Models::
+                                                LeaderboardEntriesPageModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardTopNModel_NodesModel*>() } })));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*&
+BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1::__cordl_internal_get_result() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___result;
+}
+constexpr ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>* const&
+BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1::__cordl_internal_get_result() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___result;
+}
+constexpr void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1::__cordl_internal_set_result(
+    ::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___result = value;
+}
+inline void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1::_GetLeaderboardTopNAsync_b__1(
+    ::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesPageModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardTopNModel_NodesModel* node) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{},
+      (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1*>(),
+                          { "<GetLeaderboardTopNAsync>b__1",
+                            {},
+                            { ::i2c::type_of<::BeatSaber::Main::GraphQL::Models::
+                                                 LeaderboardEntriesPageModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardTopNModel_NodesModel*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, node);
+}
+inline ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1* BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1*>());
+}
+// Ctor Parameters []
+constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards___c__DisplayClass14_1::BeatLeaderboards___c__DisplayClass14_1() {}
+//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__16.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__16::*)()>(
+    &::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__16::MoveNext)> {
+  constexpr static std::size_t size = 0x5c0;
+  constexpr static std::size_t addrs = 0x329fe58;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__16>(), { "MoveNext", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__16.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__16::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__16::SetStateMachine)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x32a042c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__16>(),
+                                                                                           { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
+    return ___internal_method;
+  }
+};
+inline void BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__16::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__16>(), { "MoveNext", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+inline void BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__16::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__16>(),
+                                                                                         { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__16::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__16::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
@@ -878,7 +880,7 @@ BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__15::i___
 // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*>", modifiers: "", def_value:
 // Some("{}") }]
-constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__15::BeatLeaderboards__GetLeaderboardAsync_d__15(
+constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__16::BeatLeaderboards__GetLeaderboardAsync_d__16(
     int32_t __1__state,
     ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::BeatSaber::Main::GraphQL::Models::LeaderboardEntryWithRankModel*>*> __t__builder,
     ::BeatSaber::Main::Leaderboards::BeatLeaderboards* __4__this, ::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFunction* fetchLeaderboard,
@@ -892,51 +894,51 @@ constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__15::BeatLeaderboards__GetLeaderboardAsync_d__15() {}
-//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__9.MoveNext
+constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards__GetLeaderboardAsync_d__16::BeatLeaderboards__GetLeaderboardAsync_d__16() {}
+//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__10.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__9::*)()>(
-    &::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__9::MoveNext)> {
-  constexpr static std::size_t size = 0xc5c;
-  constexpr static std::size_t addrs = 0x32a2be4;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__10::*)()>(
+    &::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__10::MoveNext)> {
+  constexpr static std::size_t size = 0xcb4;
+  constexpr static std::size_t addrs = 0x32a04ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__9>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__10>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__9.SetStateMachine
+//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__10.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__9::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__9::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__10::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__10::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x32a3978;
+  constexpr static std::size_t addrs = 0x32a1298;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__9>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__10>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__9::MoveNext() {
+inline void BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__10::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__9>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__10>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__9::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__9>(),
+inline void BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__10::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__10>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__9::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__10::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__9::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__10::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
@@ -944,7 +946,7 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BeatSaber::Ma
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel*>", modifiers: "", def_value: Some("{}") }]
-constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__9::BeatLeaderboards__InitializeAsync_d__9(
+constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__10::BeatLeaderboards__InitializeAsync_d__10(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::BeatSaber::Main::Leaderboards::BeatLeaderboards* __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSLeaderboardHealthModel*> __u__2,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSUpsertUserModel*> __u__3) noexcept {
@@ -956,52 +958,52 @@ constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__
   this->__u__3 = __u__3;
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__9::BeatLeaderboards__InitializeAsync_d__9() {}
-//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10.MoveNext
+constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards__InitializeAsync_d__10::BeatLeaderboards__InitializeAsync_d__10() {}
+//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__11.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10::*)()>(
-    &::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10::MoveNext)> {
-  constexpr static std::size_t size = 0x684;
-  constexpr static std::size_t addrs = 0x32a39e4;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__11::*)()>(
+    &::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__11::MoveNext)> {
+  constexpr static std::size_t size = 0x698;
+  constexpr static std::size_t addrs = 0x32a1304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__11>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10.SetStateMachine
+//  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__11.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__11::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__11::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x32a411c;
+  constexpr static std::size_t addrs = 0x32a1a60;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__11>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10::MoveNext() {
+inline void BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__11::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__11>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10>(),
+inline void BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__11::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__11>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__11::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__11::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
@@ -1010,7 +1012,7 @@ BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__
 // "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: Some("{}") }, CppParam { name: "modifiers", ty: "::GlobalNamespace::GameplayModifiers*", modifiers: "", def_value: Some("{}") }, CppParam
 // { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel*>", modifiers: "", def_value: Some("{}") }]
-constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10(
+constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__11::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__11(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::BeatSaber::Main::Leaderboards::BeatLeaderboards* __4__this,
     ::GlobalNamespace::LevelCompletionResults* results, ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::GameplayModifiers* modifiers,
     ::System::Runtime::CompilerServices::TaskAwaiter __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Main::GraphQL::Models::BSUpsertLeaderboardEntryModel*> __u__2) noexcept {
@@ -1024,14 +1026,14 @@ constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEn
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__10() {}
+constexpr ::BeatSaber::Main::Leaderboards::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__11::BeatLeaderboards__SubmitLeaderboardEntryAsync_d__11() {}
 //  Writing Method size for method: ::BeatSaber::Main::Leaderboards::BeatLeaderboards.get_state
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::Leaderboards::BeatLeaderboardsState (::BeatSaber::Main::Leaderboards::BeatLeaderboards::*)()>(
     &::BeatSaber::Main::Leaderboards::BeatLeaderboards::get_state)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32a07b4;
+  constexpr static std::size_t addrs = 0x329e010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards*>(), { "get_state", {}, {} })));
@@ -1044,7 +1046,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards::*)()>(
     &::BeatSaber::Main::Leaderboards::BeatLeaderboards::Zenject_IInitializable_Initialize)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x32a07bc;
+  constexpr static std::size_t addrs = 0x329e018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1058,7 +1060,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::Main::Leaderboards::BeatLeaderboards::*)()>(
     &::BeatSaber::Main::Leaderboards::BeatLeaderboards::InitializeAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x32a07e0;
+  constexpr static std::size_t addrs = 0x329e03c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards*>(), { "InitializeAsync", {}, {} })));
@@ -1072,7 +1074,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::BeatSaber::Main::Leaderboards::BeatLeaderboards::*)(::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::GameplayModifiers*)>(
     &::BeatSaber::Main::Leaderboards::BeatLeaderboards::SubmitLeaderboardEntryAsync)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x32a0890;
+  constexpr static std::size_t addrs = 0x329e0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1092,7 +1094,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         ::BeatSaber::Main::Leaderboards::BeatLeaderboards::*)(::GlobalNamespace::BeatmapKey, ::GlobalNamespace::GameplayModifierMask)>(
         &::BeatSaber::Main::Leaderboards::BeatLeaderboards::GetLeaderboardAroundMeAsync)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x32a0970;
+  constexpr static std::size_t addrs = 0x329e1cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1110,7 +1112,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         ::BeatSaber::Main::Leaderboards::BeatLeaderboards::*)(::GlobalNamespace::BeatmapKey, ::GlobalNamespace::GameplayModifierMask)>(
         &::BeatSaber::Main::Leaderboards::BeatLeaderboards::GetLeaderboardFriendsAsync)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x32a0bd0;
+  constexpr static std::size_t addrs = 0x329e42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1127,7 +1129,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         ::BeatSaber::Main::Leaderboards::BeatLeaderboards::*)(::GlobalNamespace::BeatmapKey, ::GlobalNamespace::GameplayModifierMask)>(
         &::BeatSaber::Main::Leaderboards::BeatLeaderboards::GetLeaderboardTopNAsync)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x32a0cdc;
+  constexpr static std::size_t addrs = 0x329e538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1144,7 +1146,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         ::BeatSaber::Main::Leaderboards::BeatLeaderboards::*)(::BeatSaber::Main::Leaderboards::BeatLeaderboards_FetchLeaderboardTypeFunction*)>(
         &::BeatSaber::Main::Leaderboards::BeatLeaderboards::GetLeaderboardAsync)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x32a0ae4;
+  constexpr static std::size_t addrs = 0x329e340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1158,7 +1160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::Leaderboards::BeatLeaderboards::*)()>(&::BeatSaber::Main::Leaderboards::BeatLeaderboards::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32a0de8;
+  constexpr static std::size_t addrs = 0x329e644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::Leaderboards::BeatLeaderboards*>(), { ".ctor", {}, {} })));
@@ -1212,6 +1214,18 @@ constexpr ::StringW const& BeatSaber::Main::Leaderboards::BeatLeaderboards::__co
 constexpr void BeatSaber::Main::Leaderboards::BeatLeaderboards::__cordl_internal_set__userId(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____userId = value;
+}
+constexpr ::StringW& BeatSaber::Main::Leaderboards::BeatLeaderboards::__cordl_internal_get__environmentPlayerRootId() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentPlayerRootId;
+}
+constexpr ::StringW const& BeatSaber::Main::Leaderboards::BeatLeaderboards::__cordl_internal_get__environmentPlayerRootId() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentPlayerRootId;
+}
+constexpr void BeatSaber::Main::Leaderboards::BeatLeaderboards::__cordl_internal_set__environmentPlayerRootId(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____environmentPlayerRootId = value;
 }
 constexpr ::System::Threading::Tasks::Task*& BeatSaber::Main::Leaderboards::BeatLeaderboards::__cordl_internal_get__initializationTask() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)()>(&::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::get_IsInterior)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a6814;
+  constexpr static std::size_t addrs = 0x66a45b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), { "get_IsInterior", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(bool)>(&::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::set_IsInterior)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a681c;
+  constexpr static std::size_t addrs = 0x66a45b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProB
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x66a6824;
+  constexpr static std::size_t addrs = 0x66a45c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::IndexOf)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x66a6888;
+  constexpr static std::size_t addrs = 0x66a4624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::IndexCWFrom)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x66a6938;
+  constexpr static std::size_t addrs = 0x66a46d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::IndexCCWFrom)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x66a696c;
+  constexpr static std::size_t addrs = 0x66a4708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::Contains)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x66a69a0;
+  constexpr static std::size_t addrs = 0x66a473c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(),
@@ -115,7 +115,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProB
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::MarkNeighbor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x66a69fc;
+  constexpr static std::size_t addrs = 0x66a4798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::MarkNeighbor)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x66a6b9c;
+  constexpr static std::size_t addrs = 0x66a4938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(),
@@ -149,7 +149,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder
     ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::OppositePoint)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x66a6d14;
+  constexpr static std::size_t addrs = 0x66a4ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* (
     ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::NeighborCWFrom)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x66a6dc8;
+  constexpr static std::size_t addrs = 0x66a4b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(),
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* (
     ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::NeighborCCWFrom)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x66a6e6c;
+  constexpr static std::size_t addrs = 0x66a4c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(),
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* (
     ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::NeighborAcrossFrom)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x66a6f10;
+  constexpr static std::size_t addrs = 0x66a4cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* (
     ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::PointCCWFrom)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x66a6f94;
+  constexpr static std::size_t addrs = 0x66a4d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(),
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* (
     ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::PointCWFrom)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x66a6d40;
+  constexpr static std::size_t addrs = 0x66a4adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(),
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)()>(&::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::RotateCW)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x66a701c;
+  constexpr static std::size_t addrs = 0x66a4db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), { "RotateCW", {}, {} })));
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::Legalize)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x66a7080;
+  constexpr static std::size_t addrs = 0x66a4e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)()>(&::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::ToString)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x66a7118;
+  constexpr static std::size_t addrs = 0x66a4eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(),
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)()>(&::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::MarkNeighborEdges)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x66a724c;
+  constexpr static std::size_t addrs = 0x66a4fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::MarkEdge)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x66a7404;
+  constexpr static std::size_t addrs = 0x66a51a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(),
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*)>(&::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::MarkEdge)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x66a74e8;
+  constexpr static std::size_t addrs = 0x66a5284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(int32_t)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::MarkConstrainedEdge)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66a7698;
+  constexpr static std::size_t addrs = 0x66a5434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::MarkConstrainedEdge)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66a7708;
+  constexpr static std::size_t addrs = 0x66a54a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::MarkConstrainedEdge)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x66a73d4;
+  constexpr static std::size_t addrs = 0x66a5170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)()>(&::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::Area)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x66a7720;
+  constexpr static std::size_t addrs = 0x66a54bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), { "Area", {}, {} })));
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::Centroid)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x66a77d8;
+  constexpr static std::size_t addrs = 0x66a5574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>(), { "Centroid", {}, {} })));
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::EdgeIndex)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x66a6acc;
+  constexpr static std::size_t addrs = 0x66a4868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -410,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::GetConstrainedEdgeCCW)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x66a78a0;
+  constexpr static std::size_t addrs = 0x66a563c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -425,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::GetConstrainedEdgeCW)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x66a78dc;
+  constexpr static std::size_t addrs = 0x66a5678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -440,7 +440,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::GetConstrainedEdgeAcross)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x66a7918;
+  constexpr static std::size_t addrs = 0x66a56b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -455,7 +455,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, bool)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::SetConstrainedEdgeCCW)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x66a7934;
+  constexpr static std::size_t addrs = 0x66a56d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -470,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, bool)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::SetConstrainedEdgeCW)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x66a7980;
+  constexpr static std::size_t addrs = 0x66a571c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -485,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, bool)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::SetConstrainedEdgeAcross)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x66a79cc;
+  constexpr static std::size_t addrs = 0x66a5768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -500,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::GetDelaunayEdgeCCW)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x66a79f8;
+  constexpr static std::size_t addrs = 0x66a5794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -515,7 +515,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::GetDelaunayEdgeCW)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x66a7a34;
+  constexpr static std::size_t addrs = 0x66a57d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -530,7 +530,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::GetDelaunayEdgeAcross)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x66a7a70;
+  constexpr static std::size_t addrs = 0x66a580c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -545,7 +545,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, bool)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::SetDelaunayEdgeCCW)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x66a7a8c;
+  constexpr static std::size_t addrs = 0x66a5828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -560,7 +560,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, bool)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::SetDelaunayEdgeCW)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x66a7ad8;
+  constexpr static std::size_t addrs = 0x66a5874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -575,7 +575,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, bool)>(
     &::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle::SetDelaunayEdgeAcross)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x66a7b24;
+  constexpr static std::size_t addrs = 0x66a58c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

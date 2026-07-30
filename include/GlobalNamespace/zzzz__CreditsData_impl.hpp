@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CreditsData_Text::*)()>(&::GlobalNamespace::CreditsData_Text::IsEmpty)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x327fb30;
+  constexpr static std::size_t addrs = 0x327cdf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsData_Text*>(), { "IsEmpty", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::CreditsData_Text::*)()>(&::GlobalNamespace::CreditsData_Text::ToString)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x327fb50;
+  constexpr static std::size_t addrs = 0x327ce10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsData_Text::*)()>(&::GlobalNamespace::CreditsData_Text::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x327fc24;
+  constexpr static std::size_t addrs = 0x327cee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsData_Text*>(), { ".ctor", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CreditsData_ChildCreditsItem::*)()>(&::GlobalNamespace::CreditsData_ChildCreditsItem::HasTitle)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x327fc6c;
+  constexpr static std::size_t addrs = 0x327cf2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsData_ChildCreditsItem*>(), { "HasTitle", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CreditsData_ChildCreditsItem::*)()>(&::GlobalNamespace::CreditsData_ChildCreditsItem::HasText)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x327fc7c;
+  constexpr static std::size_t addrs = 0x327cf3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsData_ChildCreditsItem*>(), { "HasText", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsData_ChildCreditsItem::*)()>(&::GlobalNamespace::CreditsData_ChildCreditsItem::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x327fc8c;
+  constexpr static std::size_t addrs = 0x327cf4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsData_ChildCreditsItem*>(), { ".ctor", {}, {} })));
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CreditsData_RootCreditsItem::*)()>(&::GlobalNamespace::CreditsData_RootCreditsItem::HasTitle)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x327fc28;
+  constexpr static std::size_t addrs = 0x327cee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsData_RootCreditsItem*>(), { "HasTitle", {}, {} })));
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CreditsData_RootCreditsItem::*)()>(&::GlobalNamespace::CreditsData_RootCreditsItem::HasText)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x327fc38;
+  constexpr static std::size_t addrs = 0x327cef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsData_RootCreditsItem*>(), { "HasText", {}, {} })));
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CreditsData_RootCreditsItem::*)()>(&::GlobalNamespace::CreditsData_RootCreditsItem::HasRowItems)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x327fc48;
+  constexpr static std::size_t addrs = 0x327cf08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsData_RootCreditsItem*>(), { "HasRowItems", {}, {} })));
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsData_RootCreditsItem::*)()>(&::GlobalNamespace::CreditsData_RootCreditsItem::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x327fc68;
+  constexpr static std::size_t addrs = 0x327cf28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsData_RootCreditsItem*>(), { ".ctor", {}, {} })));
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::CreditsData* (*)(::StringW)>(&::GlobalNamespace::CreditsData::Deserialize)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x327fa18;
+  constexpr static std::size_t addrs = 0x327ccd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsData::*)()>(&::GlobalNamespace::CreditsData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x327fb2c;
+  constexpr static std::size_t addrs = 0x327cdec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsData*>(), { ".ctor", {}, {} })));

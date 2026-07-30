@@ -73,7 +73,7 @@ public:
   static ::GlobalNamespace::InstancedMaterialLightWithId_MultiplyColorByAlphaType const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19498 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19660 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -133,10 +133,10 @@ public:
 
   __declspec(property(get = get_intensity, put = set_intensity)) float_t intensity;
 
-  /// @brief Method AddNecessaryComponents, addr 0x586f9ac, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method AddNecessaryComponents, addr 0x586de58, size 0x110, virtual false, abstract: false, final false
   inline void AddNecessaryComponents();
 
-  /// @brief Method ColorWasSet, addr 0x586f898, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x586dd44, size 0x114, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color newColor);
 
   static inline ::GlobalNamespace::InstancedMaterialLightWithId* New_ctor();
@@ -201,13 +201,13 @@ public:
 
   constexpr void __cordl_internal_set__startColorWasSet(bool value);
 
-  /// @brief Method .ctor, addr 0x586fabc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x586df68, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_intensity, addr 0x586f874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x586dd20, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method set_intensity, addr 0x586f87c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x586dd28, size 0x1c, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
 protected:
@@ -225,7 +225,7 @@ public:
   InstancedMaterialLightWithId(InstancedMaterialLightWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19499 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19661 };
 
   /// @brief Field _materialPropertyBlockColorSetter, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> ____materialPropertyBlockColorSetter;

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Newtonsoft::Json::JsonToken)>(&::Newtonsoft::Json::Utilities::JsonTokenUtils::IsEndToken)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d177e8;
+  constexpr static std::size_t addrs = 0x5d15554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Newtonsoft::Json::JsonToken)>(&::Newtonsoft::Json::Utilities::JsonTokenUtils::IsStartToken)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d2b1bc;
+  constexpr static std::size_t addrs = 0x5d28f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Newtonsoft::Json::JsonToken)>(&::Newtonsoft::Json::Utilities::JsonTokenUtils::IsPrimitiveToken)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d2b1cc;
+  constexpr static std::size_t addrs = 0x5d28f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

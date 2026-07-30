@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyStateDataModel::*)(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>*)>(
     &::GlobalNamespace::LobbyStateDataModel::add_playerConnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x373803c;
+  constexpr static std::size_t addrs = 0x3736a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyStateDataModel::*)(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>*)>(
     &::GlobalNamespace::LobbyStateDataModel::remove_playerConnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x37380fc;
+  constexpr static std::size_t addrs = 0x3736b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyStateDataModel::*)(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>*)>(
     &::GlobalNamespace::LobbyStateDataModel::add_playerDisconnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x37381bc;
+  constexpr static std::size_t addrs = 0x3736bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyStateDataModel::*)(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>*)>(
     &::GlobalNamespace::LobbyStateDataModel::remove_playerDisconnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x373827c;
+  constexpr static std::size_t addrs = 0x3736cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::LobbyStateDataModel::*)()>(&::GlobalNamespace::LobbyStateDataModel::get_isConnected)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x373833c;
+  constexpr static std::size_t addrs = 0x3736d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyStateDataModel*>(), { "get_isConnected", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IBeatSaberConnectedPlayer* (::GlobalNamespace::LobbyStateDataModel::*)()>(
     &::GlobalNamespace::LobbyStateDataModel::get_localPlayer)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x37383e4;
+  constexpr static std::size_t addrs = 0x3736e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyStateDataModel*>(), { "get_localPlayer", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* (::GlobalNamespace::LobbyStateDataModel::*)()>(
     &::GlobalNamespace::LobbyStateDataModel::get_connectedPlayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3738488;
+  constexpr static std::size_t addrs = 0x3736ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyStateDataModel*>(), { "get_connectedPlayers", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* (::GlobalNamespace::LobbyStateDataModel::*)()>(
     &::GlobalNamespace::LobbyStateDataModel::get_rawConnectedPlayers)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3738490;
+  constexpr static std::size_t addrs = 0x3736ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyStateDataModel*>(), { "get_rawConnectedPlayers", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameplayServerConfiguration (::GlobalNamespace::LobbyStateDataModel::*)()>(
     &::GlobalNamespace::LobbyStateDataModel::get_configuration)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3738538;
+  constexpr static std::size_t addrs = 0x3736f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyStateDataModel*>(), { "get_configuration", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyStateDataModel::*)()>(&::GlobalNamespace::LobbyStateDataModel::Activate)> {
   constexpr static std::size_t size = 0x814;
-  constexpr static std::size_t addrs = 0x373854c;
+  constexpr static std::size_t addrs = 0x3736f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyStateDataModel*>(), { "Activate", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyStateDataModel::*)()>(&::GlobalNamespace::LobbyStateDataModel::Deactivate)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x3738d60;
+  constexpr static std::size_t addrs = 0x37377a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyStateDataModel*>(), { "Deactivate", {}, {} })));
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyStateDataModel::*)()>(&::GlobalNamespace::LobbyStateDataModel::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3738efc;
+  constexpr static std::size_t addrs = 0x373793c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyStateDataModel*>(), { "Dispose", {}, {} })));
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IConnectedPlayer* (::GlobalNamespace::LobbyStateDataModel::*)(::StringW)>(
     &::GlobalNamespace::LobbyStateDataModel::GetPlayerById)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3738f00;
+  constexpr static std::size_t addrs = 0x3737940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyStateDataModel::*)(::GlobalNamespace::IBeatSaberConnectedPlayer*)>(
     &::GlobalNamespace::LobbyStateDataModel::HandleMultiplayerSessionManagerPlayerConnected)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3738f9c;
+  constexpr static std::size_t addrs = 0x37379dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyStateDataModel::*)(::GlobalNamespace::IBeatSaberConnectedPlayer*)>(
     &::GlobalNamespace::LobbyStateDataModel::HandleMultiplayerSessionManagerPlayerDisconnected)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x373912c;
+  constexpr static std::size_t addrs = 0x3737b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LobbyStateDataModel::*)()>(&::GlobalNamespace::LobbyStateDataModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3739264;
+  constexpr static std::size_t addrs = 0x3737ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LobbyStateDataModel*>(), { ".ctor", {}, {} })));

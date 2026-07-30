@@ -36,10 +36,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x65b891c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x65b66b8, size 0x70, virtual true, abstract: false, final false
   inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x65b898c, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x65b6728, size 0xbc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_max() const;
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set_min(float_t value);
 
-  /// @brief Method .ctor, addr 0x65b8a48, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65b67e4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_maxOrDefault, addr 0x65b88a8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_maxOrDefault, addr 0x65b6644, size 0x74, virtual false, abstract: false, final false
   inline float_t get_maxOrDefault();
 
-  /// @brief Method get_minOrDefault, addr 0x65b8834, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_minOrDefault, addr 0x65b65d0, size 0x74, virtual false, abstract: false, final false
   inline float_t get_minOrDefault();
 
 protected:

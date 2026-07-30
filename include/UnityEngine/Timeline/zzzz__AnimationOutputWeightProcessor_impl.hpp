@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationOutputWeightProcessor::*)(::UnityEngine::Animations::AnimationPlayableOutput)>(
     &::UnityEngine::Timeline::AnimationOutputWeightProcessor::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x69a7358;
+  constexpr static std::size_t addrs = 0x69a50f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationOutputWeightProcessor*>(),
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationOutputWeightProcessor::*)()>(&::UnityEngine::Timeline::AnimationOutputWeightProcessor::FindMixers)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x69a7410;
+  constexpr static std::size_t addrs = 0x69a51ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationOutputWeightProcessor*>(), { "FindMixers", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationOutputWeightProcessor::*)(
     ::UnityEngine::Playables::Playable, int32_t, ::UnityEngine::Playables::Playable)>(&::UnityEngine::Timeline::AnimationOutputWeightProcessor::FindMixers)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x69a750c;
+  constexpr static std::size_t addrs = 0x69a52a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::AnimationOutputWeightProcessor::*)()>(&::UnityEngine::Timeline::AnimationOutputWeightProcessor::Evaluate)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x69a77f0;
+  constexpr static std::size_t addrs = 0x69a558c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::AnimationOutputWeightProcessor*>(), { "Evaluate", {}, {} })));

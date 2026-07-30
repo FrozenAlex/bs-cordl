@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c::*)()>(
     &::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x675a434;
+  constexpr static std::size_t addrs = 0x67581d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c::*)()>(
     &::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c::_GenerateTableColumns_b__9_2)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x675a438;
+  constexpr static std::size_t addrs = 0x67581d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c::*)()>(
     &::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c::__cctor_b__11_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x675a44c;
+  constexpr static std::size_t addrs = 0x67581e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0::*)()>(
     &::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6757d38;
+  constexpr static std::size_t addrs = 0x6755ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0::*)()>(
     &::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0::_CreateComponentSelector_b__0)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x675a460;
+  constexpr static std::size_t addrs = 0x67581fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0::*)(int32_t)>(
     &::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0::_CreateComponentSelector_b__1)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x675a528;
+  constexpr static std::size_t addrs = 0x67582c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0*>(),
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0::*)()>(
     &::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0::_CreateComponentSelector_b__2)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x675a604;
+  constexpr static std::size_t addrs = 0x67583a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0::*)(int32_t)>(
     &::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0::_CreateComponentSelector_b__3)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x675a65c;
+  constexpr static std::size_t addrs = 0x67583f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0*>(),
@@ -355,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67582ec;
+  constexpr static std::size_t addrs = 0x6756088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -369,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0::_CreateCameraSelector_b__0)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x675a6c0;
+  constexpr static std::size_t addrs = 0x675845c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -384,7 +384,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0::*)(::UnityEngine::Object*)>(
     &::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0::_CreateCameraSelector_b__1)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x675a78c;
+  constexpr static std::size_t addrs = 0x6758528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0*>(),
@@ -399,7 +399,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* (::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0::*)()>(
         &::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0::_CreateCameraSelector_b__2)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x675a954;
+  constexpr static std::size_t addrs = 0x67586f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -454,7 +454,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0::*)()>(
     &::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x675928c;
+  constexpr static std::size_t addrs = 0x6757028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -468,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0::*)()>(
     &::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0::_CreateVolumeTable_b__1)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x675aa20;
+  constexpr static std::size_t addrs = 0x67587bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -482,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0::*)()>(
     &::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0::_CreateVolumeTable_b__0)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x675aad8;
+  constexpr static std::size_t addrs = 0x6758874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -576,7 +576,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0::*)()>(
     &::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x675a1c8;
+  constexpr static std::size_t addrs = 0x6757f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -612,7 +612,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1::*)()>(
     &::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x675a1cc;
+  constexpr static std::size_t addrs = 0x6757f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -626,7 +626,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1::*)()>(
     &::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1::_GenerateTableColumns_b__0)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x675ad74;
+  constexpr static std::size_t addrs = 0x6758b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -641,7 +641,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1::*)()>(
     &::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1::_GenerateTableColumns_b__1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x675af00;
+  constexpr static std::size_t addrs = 0x6758c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -656,7 +656,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1::*)()>(
     &::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1::_GenerateTableColumns_b__3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x675af08;
+  constexpr static std::size_t addrs = 0x6758ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -727,7 +727,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
                                                                                                         ::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*, int32_t>*)>(
     &::UnityEngine::Rendering::DebugDisplaySettingsVolume_WidgetFactory::CreateComponentSelector)> {
   constexpr static std::size_t size = 0x754;
-  constexpr static std::size_t addrs = 0x67575e4;
+  constexpr static std::size_t addrs = 0x6755380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -747,7 +747,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
                                                             ::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<::UnityW<::UnityEngine::Object>>*, ::UnityW<::UnityEngine::Object>>*)>(
     &::UnityEngine::Rendering::DebugDisplaySettingsVolume_WidgetFactory::CreateCameraSelector)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x675807c;
+  constexpr static std::size_t addrs = 0x6755e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -766,7 +766,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::DebugUI_Widget* (*)(::StringW, bool, ::UnityEngine::Rendering::VolumeParameter*, ::System::Func_1<bool>*)>(
     &::UnityEngine::Rendering::DebugDisplaySettingsVolume_WidgetFactory::CreateVolumeParameterWidget)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x675832c;
+  constexpr static std::size_t addrs = 0x67560c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -784,7 +784,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::VolumeComponent> (*)(::UnityEngine::Rendering::VolumeProfile*, ::System::Type*)>(
     &::UnityEngine::Rendering::DebugDisplaySettingsVolume_WidgetFactory::GetSelectedVolumeComponent)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x6758414;
+  constexpr static std::size_t addrs = 0x67561b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -800,7 +800,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::System::Collections::Generic::List_1<::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume_VolumeParameterChain>* (*)(::UnityEngine::Rendering::DebugDisplaySettingsVolume*)>(
     &::UnityEngine::Rendering::DebugDisplaySettingsVolume_WidgetFactory::GetResolutionChain)> {
   constexpr static std::size_t size = 0x9fc;
-  constexpr static std::size_t addrs = 0x675859c;
+  constexpr static std::size_t addrs = 0x6756338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplaySettingsVolume_WidgetFactory*>(),
@@ -814,7 +814,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::DebugUI_Table* (*)(::UnityEngine::Rendering::DebugDisplaySettingsVolume*)>(
     &::UnityEngine::Rendering::DebugDisplaySettingsVolume_WidgetFactory::CreateVolumeTable)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x6758f98;
+  constexpr static std::size_t addrs = 0x6756d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplaySettingsVolume_WidgetFactory*>(),
@@ -828,7 +828,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::DebugDisplaySettingsVolume*, ::UnityEngine::Rendering::DebugUI_Table*)>(
     &::UnityEngine::Rendering::DebugDisplaySettingsVolume_WidgetFactory::SetTableColumnVisibility)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x6759e60;
+  constexpr static std::size_t addrs = 0x6757bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -846,7 +846,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                                 ::System::Collections::Generic::List_1<::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume_VolumeParameterChain>*)>(
     &::UnityEngine::Rendering::DebugDisplaySettingsVolume_WidgetFactory::GenerateTableColumns)> {
   constexpr static std::size_t size = 0x8fc;
-  constexpr static std::size_t addrs = 0x6759564;
+  constexpr static std::size_t addrs = 0x6757300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -866,7 +866,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::Rendering::DebugUI_Table*, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume_VolumeParameterChain>*)>(
         &::UnityEngine::Rendering::DebugDisplaySettingsVolume_WidgetFactory::GenerateTableRows)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x67592e4;
+  constexpr static std::size_t addrs = 0x6757080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -978,7 +978,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplaySettingsVolume_SettingsPanel::*)(::UnityEngine::Rendering::DebugDisplaySettingsVolume*)>(
     &::UnityEngine::Rendering::DebugDisplaySettingsVolume_SettingsPanel::_ctor)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6757134;
+  constexpr static std::size_t addrs = 0x6754ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplaySettingsVolume_SettingsPanel*>(),
@@ -992,7 +992,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplaySettingsVolume_SettingsPanel::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsVolume_SettingsPanel::Refresh)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x675af10;
+  constexpr static std::size_t addrs = 0x6758cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1006,7 +1006,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplaySettingsVolume_SettingsPanel::*)(
     ::UnityEngine::Rendering::DebugUI_Field_1<::UnityW<::UnityEngine::Object>>*, ::UnityEngine::Object*)>(&::UnityEngine::Rendering::DebugDisplaySettingsVolume_SettingsPanel::__ctor_b__0_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x675b1cc;
+  constexpr static std::size_t addrs = 0x6758f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1022,7 +1022,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplaySettingsVolume_SettingsPanel::*)(::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*, int32_t)>(
     &::UnityEngine::Rendering::DebugDisplaySettingsVolume_SettingsPanel::__ctor_b__0_1)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x675b1d0;
+  constexpr static std::size_t addrs = 0x6758f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1078,7 +1078,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::IVolumeDebugSettings* (::UnityEngine::Rendering::DebugDisplaySettingsVolume::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsVolume::get_volumeDebugSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6757020;
+  constexpr static std::size_t addrs = 0x6754dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1092,7 +1092,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplaySettingsVolume::*)(::UnityEngine::Rendering::IVolumeDebugSettings*)>(
     &::UnityEngine::Rendering::DebugDisplaySettingsVolume::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6757028;
+  constexpr static std::size_t addrs = 0x6754dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplaySettingsVolume*>(),
@@ -1106,7 +1106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugDisplaySettingsVolume::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsVolume::get_AreAnySettingsActive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67570d0;
+  constexpr static std::size_t addrs = 0x6754e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1120,7 +1120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* (::UnityEngine::Rendering::DebugDisplaySettingsVolume::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsVolume::CreatePanel)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x67570d8;
+  constexpr static std::size_t addrs = 0x6754e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplaySettingsVolume*>(), { "CreatePanel", {}, {} })));

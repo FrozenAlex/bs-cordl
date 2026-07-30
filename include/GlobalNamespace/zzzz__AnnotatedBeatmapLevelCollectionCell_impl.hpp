@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23::MoveNext)> {
   constexpr static std::size_t size = 0x5e0;
-  constexpr static std::size_t addrs = 0x59fa908;
+  constexpr static std::size_t addrs = 0x59f8ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59faee8;
+  constexpr static std::size_t addrs = 0x59f95dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23>(),
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)()>(&::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::get_cellIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59fa3f0;
+  constexpr static std::size_t addrs = 0x59f8ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>(), { "get_cellIndex", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(int32_t)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::set_cellIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59fa3f8;
+  constexpr static std::size_t addrs = 0x59f8aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(::GlobalNamespace::BeatmapLevelPack*, bool, bool, bool)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::SetData)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x59fa400;
+  constexpr static std::size_t addrs = 0x59f8af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)()>(&::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::InternalToggle)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x59fa6a8;
+  constexpr static std::size_t addrs = 0x59f8d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>(),
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::SelectionDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59fa6fc;
+  constexpr static std::size_t addrs = 0x59f8df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>(),
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::HighlightDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59fa7fc;
+  constexpr static std::size_t addrs = 0x59f8ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>(),
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)()>(&::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::RefreshVisuals)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x59fa700;
+  constexpr static std::size_t addrs = 0x59f8df4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>(), { "RefreshVisuals", {}, {} })));
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(::StringW, int32_t, int32_t)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::GetInfoText)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x59fa548;
+  constexpr static std::size_t addrs = 0x59f8c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(::GlobalNamespace::IEntitlementModel*)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::RefreshAvailabilityAsync)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x59fa800;
+  constexpr static std::size_t addrs = 0x59f8ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>(),
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(bool)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::SetDownloadIconVisible)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x59fa65c;
+  constexpr static std::size_t addrs = 0x59f8d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::CancelAsyncOperations)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x59fa8b4;
+  constexpr static std::size_t addrs = 0x59f8fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)()>(&::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x59fa8e0;
+  constexpr static std::size_t addrs = 0x59f8fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>(), { ".ctor", {}, {} })));

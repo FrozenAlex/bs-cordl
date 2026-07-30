@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AddressableAssets::AssetReferenceGameObject* (::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::*)()>(
     &::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::get_avatarGameplayPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32748a4;
+  constexpr static std::size_t addrs = 0x3271b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AddressableAssets::AssetReferenceGameObject* (::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::*)()>(
     &::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::get_avatarResultsPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32748ac;
+  constexpr static std::size_t addrs = 0x3271b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AddressableAssets::AssetReferenceGameObject* (::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::*)()>(
     &::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::get_avatarHologramPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32748b4;
+  constexpr static std::size_t addrs = 0x3271b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AddressableAssets::AssetReferenceGameObject* (::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::*)()>(
     &::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::get_avatarEditorPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32748bc;
+  constexpr static std::size_t addrs = 0x3271b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AddressableAssets::AssetReferenceGameObject* (::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::*)()>(
     &::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::get_avatarSelectionViewPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32748c4;
+  constexpr static std::size_t addrs = 0x3271b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AddressableAssets::AssetReferenceGameObject* (::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::*)()>(
     &::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::get_avatarForUnityEditorPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32748cc;
+  constexpr static std::size_t addrs = 0x3271b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::*)()>(&::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32748d4;
+  constexpr static std::size_t addrs = 0x3271b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings*>(), { ".ctor", {}, {} })));

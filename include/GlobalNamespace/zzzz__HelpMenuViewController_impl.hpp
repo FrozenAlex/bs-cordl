@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HelpMenuViewController::*)(::System::Action_1<::UnityW<::HMUI::ViewController>>*)>(
     &::GlobalNamespace::HelpMenuViewController::add_didSelectHelpSubMenuEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5947190;
+  constexpr static std::size_t addrs = 0x5945978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HelpMenuViewController::*)(::System::Action_1<::UnityW<::HMUI::ViewController>>*)>(
     &::GlobalNamespace::HelpMenuViewController::remove_didSelectHelpSubMenuEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5947250;
+  constexpr static std::size_t addrs = 0x5945a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HelpMenuViewController::*)(bool, bool, bool)>(&::GlobalNamespace::HelpMenuViewController::DidActivate)> {
   constexpr static std::size_t size = 0x548;
-  constexpr static std::size_t addrs = 0x5947310;
+  constexpr static std::size_t addrs = 0x5945af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HelpMenuViewController::*)(::HMUI::SegmentedControl*, int32_t)>(
     &::GlobalNamespace::HelpMenuViewController::HandleHelpMenuSegmentedControlDidSelectCell)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5947858;
+  constexpr static std::size_t addrs = 0x5946040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HelpMenuViewController::*)()>(&::GlobalNamespace::HelpMenuViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59478e8;
+  constexpr static std::size_t addrs = 0x59460d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HelpMenuViewController*>(), { ".ctor", {}, {} })));

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::ArrayW<::UnityEngine::Plane>)>(&::UnityEngine::GeometryUtility::CalculateFrustumPlanes)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6a7ae80;
+  constexpr static std::size_t addrs = 0x6a78c1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Matrix4x4, ::ArrayW<::UnityEngine::Plane>)>(&::UnityEngine::GeometryUtility::CalculateFrustumPlanes)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6a7af08;
+  constexpr static std::size_t addrs = 0x6a78ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<::UnityEngine::Plane>, ::UnityEngine::Bounds)>(&::UnityEngine::GeometryUtility::TestPlanesAABB)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6a7b10c;
+  constexpr static std::size_t addrs = 0x6a78ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::ArrayW<::UnityEngine::Plane>>, ::UnityEngine::Matrix4x4)>(&::UnityEngine::GeometryUtility::Internal_ExtractPlanes)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6a7afe4;
+  constexpr static std::size_t addrs = 0x6a78d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Bounds>)>(
     &::UnityEngine::GeometryUtility::TestPlanesAABB_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a7b1e4;
+  constexpr static std::size_t addrs = 0x6a78f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>, ::by_ref<::UnityEngine::Matrix4x4>)>(
     &::UnityEngine::GeometryUtility::Internal_ExtractPlanes_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a7b228;
+  constexpr static std::size_t addrs = 0x6a78fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

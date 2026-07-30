@@ -22,17 +22,17 @@ public:
   /// @brief Field s_DefaultPanelTextSettings, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_DefaultPanelTextSettings, put = setStaticF_s_DefaultPanelTextSettings)) ::UnityW<::UnityEngine::UIElements::PanelTextSettings> s_DefaultPanelTextSettings;
 
-  /// @brief Method InitializeDefaultPanelTextSettingsIfNull, addr 0x6ca080c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InitializeDefaultPanelTextSettingsIfNull, addr 0x6c9c210, size 0xb4, virtual false, abstract: false, final false
   static inline void InitializeDefaultPanelTextSettingsIfNull();
 
   static inline ::UnityEngine::UIElements::PanelTextSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6ca08c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c9c2c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> getStaticF_s_DefaultPanelTextSettings();
 
-  /// @brief Method get_defaultPanelTextSettings, addr 0x6ca07bc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_defaultPanelTextSettings, addr 0x6c9c1c0, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> get_defaultPanelTextSettings();
 
   static inline void setStaticF_s_DefaultPanelTextSettings(::UnityW<::UnityEngine::UIElements::PanelTextSettings> value);

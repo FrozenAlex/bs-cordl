@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResizableTextMeshPro::*)()>(&::GlobalNamespace::ResizableTextMeshPro::Start)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x58fd688;
+  constexpr static std::size_t addrs = 0x58fbbf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ResizableTextMeshPro*>(), { "Start", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResizableTextMeshPro::*)()>(&::GlobalNamespace::ResizableTextMeshPro::Update)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x58fd760;
+  constexpr static std::size_t addrs = 0x58fbcd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ResizableTextMeshPro*>(), { "Update", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResizableTextMeshPro::*)()>(&::GlobalNamespace::ResizableTextMeshPro::OnDestroy)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x58fd7c0;
+  constexpr static std::size_t addrs = 0x58fbd30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ResizableTextMeshPro*>(), { "OnDestroy", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResizableTextMeshPro::*)(::UnityEngine::Object*)>(&::GlobalNamespace::ResizableTextMeshPro::HandleTextDidChange)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x58fd898;
+  constexpr static std::size_t addrs = 0x58fbe08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResizableTextMeshPro::*)()>(&::GlobalNamespace::ResizableTextMeshPro::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58fd92c;
+  constexpr static std::size_t addrs = 0x58fbe9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ResizableTextMeshPro*>(), { ".ctor", {}, {} })));

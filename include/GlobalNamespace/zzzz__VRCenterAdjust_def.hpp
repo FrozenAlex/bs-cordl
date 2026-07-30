@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include <cmath>
 CORDL_MODULE_EXPORT(VRCenterAdjust)
 namespace GlobalNamespace {
 class SettingsApplicatorSO;
@@ -26,9 +25,6 @@ namespace GlobalNamespace {
 class CORDL_TYPE VRCenterAdjust : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _headYawCorrection, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__headYawCorrection, put = setStaticF__headYawCorrection)) float_t _headYawCorrection;
-
   /// @brief Field _settingsApplicator, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsApplicator, put = __cordl_internal_set__settingsApplicator)) ::UnityW<::GlobalNamespace::SettingsApplicatorSO> _settingsApplicator;
 
@@ -37,22 +33,22 @@ public:
 
   static inline ::GlobalNamespace::VRCenterAdjust* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x59053dc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x59038fc, size 0x10c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x59052d0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x59037f0, size 0x10c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResetRoom, addr 0x59050bc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ResetRoom, addr 0x5903624, size 0xcc, virtual false, abstract: false, final false
   inline void ResetRoom();
 
-  /// @brief Method SetRoomTransformOffset, addr 0x5905188, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SetRoomTransformOffset, addr 0x59036f0, size 0xac, virtual false, abstract: false, final false
   inline void SetRoomTransformOffset();
 
-  /// @brief Method Start, addr 0x5905058, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59035c0, size 0x64, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x590527c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x590379c, size 0x54, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::SettingsApplicatorSO> const& __cordl_internal_get__settingsApplicator() const;
@@ -67,12 +63,8 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x59054e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5903a08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
-
-  static inline float_t getStaticF__headYawCorrection();
-
-  static inline void setStaticF__headYawCorrection(float_t value);
 
 protected:
   // Ctor Parameters []
@@ -89,7 +81,7 @@ public:
   VRCenterAdjust(VRCenterAdjust const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6654 };
 
   /// @brief Field _settingsManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;

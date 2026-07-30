@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnniversaryManager::*)()>(&::GlobalNamespace::AnniversaryManager::Start)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x58b1570;
+  constexpr static std::size_t addrs = 0x58afa1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnniversaryManager*>(), { "Start", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnniversaryManager::*)()>(&::GlobalNamespace::AnniversaryManager::OnDestroy)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x58b1688;
+  constexpr static std::size_t addrs = 0x58afb34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnniversaryManager*>(), { "OnDestroy", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnniversaryManager::*)(
     ::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::MainMenuViewController_MenuButton)>(&::GlobalNamespace::AnniversaryManager::HandleMainMenuViewControllerDidFinish)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58b17c8;
+  constexpr static std::size_t addrs = 0x58afc74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnniversaryManager::*)(::GlobalNamespace::DlcPromoPanelModel_PromoInfo*)>(
     &::GlobalNamespace::AnniversaryManager::HandleMainMenuViewControllerPromoButtonWasPressed)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58b17e8;
+  constexpr static std::size_t addrs = 0x58afc94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnniversaryManager::*)()>(&::GlobalNamespace::AnniversaryManager::StartFireworks)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58b166c;
+  constexpr static std::size_t addrs = 0x58afb18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnniversaryManager*>(), { "StartFireworks", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnniversaryManager::*)()>(&::GlobalNamespace::AnniversaryManager::StopFireworks)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58b17cc;
+  constexpr static std::size_t addrs = 0x58afc78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnniversaryManager*>(), { "StopFireworks", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnniversaryManager::*)()>(&::GlobalNamespace::AnniversaryManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58b17ec;
+  constexpr static std::size_t addrs = 0x58afc98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnniversaryManager*>(), { ".ctor", {}, {} })));

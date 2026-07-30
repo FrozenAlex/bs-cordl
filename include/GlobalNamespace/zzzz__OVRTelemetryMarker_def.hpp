@@ -63,19 +63,19 @@ public:
 
   __declspec(property(get = get_Sent, put = set_Sent)) bool Sent;
 
-  /// @brief Method .ctor, addr 0x5edccf0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5edaa5c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool sent, ::GlobalNamespace::Qpl_OVRPlugin_ResultType result);
 
-  /// @brief Method get_Result, addr 0x5edd710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Result, addr 0x5edb47c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::Qpl_OVRPlugin_ResultType get_Result();
 
-  /// @brief Method get_Sent, addr 0x5edd700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Sent, addr 0x5edb46c, size 0x8, virtual false, abstract: false, final false
   inline bool get_Sent();
 
-  /// @brief Method set_Result, addr 0x5edd718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Result, addr 0x5edb484, size 0x8, virtual false, abstract: false, final false
   inline void set_Result(::GlobalNamespace::Qpl_OVRPlugin_ResultType value);
 
-  /// @brief Method set_Sent, addr 0x5edd708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Sent, addr 0x5edb474, size 0x8, virtual false, abstract: false, final false
   inline void set_Sent(bool value);
 
   // Ctor Parameters []
@@ -139,23 +139,23 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method AddAnnotation, addr 0x5edc5cc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x5eda338, size 0x80, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker AddAnnotation(::StringW annotationKey, ::StringW annotationValue, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType);
 
-  /// @brief Method AddAnnotation, addr 0x5edcd04, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x5edaa70, size 0x68, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker AddAnnotation(::StringW annotationKey, bool annotationValue, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType);
 
-  /// @brief Method AddAnnotation, addr 0x5edcd6c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x5edaad8, size 0x68, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker AddAnnotation(::StringW annotationKey, double_t annotationValue, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType);
 
-  /// @brief Method AddAnnotation, addr 0x5edcdd4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x5edab40, size 0x64, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker AddAnnotation(::StringW annotationKey, int64_t annotationValue, ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType);
 
-  /// @brief Method AddAnnotation, addr 0x5edd198, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x5edaf04, size 0x6c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker AddAnnotation(::StringW annotationKey, ::GlobalNamespace::OVRPlugin_Bool* annotationValues, int32_t count,
                                                              ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType);
 
-  /// @brief Method AddAnnotation, addr 0x5edd0e4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x5edae50, size 0xb4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker AddAnnotation(::StringW annotationKey, ::System::ReadOnlySpan_1<::GlobalNamespace::OVRPlugin_Bool> annotationValues,
                                                              ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType);
 
@@ -164,61 +164,61 @@ public:
   inline ::GlobalNamespace::OVRTelemetryMarker AddAnnotation(::StringW annotationKey, ::System::ReadOnlySpan_1<T> annotationValues,
                                                              ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType);
 
-  /// @brief Method AddAnnotation, addr 0x5edcfc4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x5edad30, size 0xb4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker AddAnnotation(::StringW annotationKey, ::System::ReadOnlySpan_1<double_t> annotationValues,
                                                              ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType);
 
-  /// @brief Method AddAnnotation, addr 0x5edcea4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x5edac10, size 0xb4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker AddAnnotation(::StringW annotationKey, ::System::ReadOnlySpan_1<int64_t> annotationValues,
                                                              ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType);
 
-  /// @brief Method AddAnnotation, addr 0x5edd078, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x5edade4, size 0x6c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker AddAnnotation(::StringW annotationKey, double_t* annotationValues, int32_t count,
                                                              ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType);
 
-  /// @brief Method AddAnnotation, addr 0x5edcf58, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x5edacc4, size 0x6c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker AddAnnotation(::StringW annotationKey, int64_t* annotationValues, int32_t count,
                                                              ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType);
 
-  /// @brief Method AddAnnotation, addr 0x5edce38, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x5edaba4, size 0x6c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker AddAnnotation(::StringW annotationKey, uint8_t* annotationValues, int32_t count,
                                                              ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType);
 
-  /// @brief Method AddAnnotationIfNotNullOrEmpty, addr 0x5edd204, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AddAnnotationIfNotNullOrEmpty, addr 0x5edaf70, size 0x48, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker AddAnnotationIfNotNullOrEmpty(::StringW annotationKey, ::StringW annotationValue,
                                                                              ::GlobalNamespace::Editor_OVRTelemetryConstants_AnnotationVariant eAnnotationType);
 
-  /// @brief Method AddPoint, addr 0x5edd500, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AddPoint, addr 0x5edb26c, size 0x50, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker AddPoint(::StringW name);
 
-  /// @brief Method AddPoint, addr 0x5edd550, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AddPoint, addr 0x5edb2bc, size 0x130, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker AddPoint(::StringW name, ::GlobalNamespace::Annotation_Qpl_OVRPlugin_Builder annotationBuilder);
 
-  /// @brief Method AddPoint, addr 0x5edd680, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method AddPoint, addr 0x5edb3ec, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker AddPoint(::StringW name, ::GlobalNamespace::Qpl_OVRPlugin_Annotation* annotations, int32_t annotationCount);
 
-  /// @brief Method AddPoint, addr 0x5edd4b0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AddPoint, addr 0x5edb21c, size 0x50, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker AddPoint(::GlobalNamespace::OVRTelemetry_MarkerPoint point);
 
-  /// @brief Method Dispose, addr 0x5edd6d8, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5edb444, size 0x28, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetOVRTelemetryConsent, addr 0x5edccfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetOVRTelemetryConsent, addr 0x5edaa68, size 0x8, virtual false, abstract: false, final false
   inline bool GetOVRTelemetryConsent();
 
-  /// @brief Method Send, addr 0x5edbfe0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x5ed9d4c, size 0x144, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker Send();
 
-  /// @brief Method SendIf, addr 0x5edd460, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SendIf, addr 0x5edb1cc, size 0x50, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker SendIf(bool condition);
 
-  /// @brief Method SetResult, addr 0x5edc464, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetResult, addr 0x5eda1d0, size 0x28, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker SetResult(::GlobalNamespace::Qpl_OVRPlugin_ResultType result);
 
-  /// @brief Method .ctor, addr 0x5edccb0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5edaa1c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRTelemetry_TelemetryClient* client, int32_t markerId, int32_t instanceKey, int64_t timestampMs, ::StringW joinId);
 
-  /// @brief Method .ctor, addr 0x5edc304, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5eda070, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(int32_t markerId, int32_t instanceKey, int64_t timestampMs, ::StringW joindId);
 
   static inline ::StringW getStaticF__applicationIdentifier();
@@ -227,28 +227,28 @@ public:
 
   static inline ::StringW getStaticF__unityVersion();
 
-  /// @brief Method get_ApplicationIdentifier, addr 0x5edd24c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_ApplicationIdentifier, addr 0x5edafb8, size 0x8c, virtual false, abstract: false, final false
   static inline ::StringW get_ApplicationIdentifier();
 
-  /// @brief Method get_InstanceKey, addr 0x5edcca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstanceKey, addr 0x5edaa14, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_InstanceKey();
 
-  /// @brief Method get_IsBatchMode, addr 0x5edd364, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_IsBatchMode, addr 0x5edb0d0, size 0xfc, virtual false, abstract: false, final false
   static inline bool get_IsBatchMode();
 
-  /// @brief Method get_MarkerId, addr 0x5edcca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MarkerId, addr 0x5edaa0c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MarkerId();
 
-  /// @brief Method get_Result, addr 0x5edcc98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Result, addr 0x5edaa04, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::Qpl_OVRPlugin_ResultType get_Result();
 
-  /// @brief Method get_Sent, addr 0x5edcc88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Sent, addr 0x5eda9f4, size 0x10, virtual false, abstract: false, final false
   inline bool get_Sent();
 
-  /// @brief Method get_State, addr 0x5edcc78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_State, addr 0x5eda9e4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState get_State();
 
-  /// @brief Method get_UnityVersion, addr 0x5edd2d8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_UnityVersion, addr 0x5edb044, size 0x8c, virtual false, abstract: false, final false
   static inline ::StringW get_UnityVersion();
 
   /// @brief Convert to "::System::IDisposable"
@@ -260,7 +260,7 @@ public:
 
   static inline void setStaticF__unityVersion(::StringW value);
 
-  /// @brief Method set_State, addr 0x5edcc80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_State, addr 0x5eda9ec, size 0x8, virtual false, abstract: false, final false
   inline void set_State(::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState value);
 
   // Ctor Parameters []

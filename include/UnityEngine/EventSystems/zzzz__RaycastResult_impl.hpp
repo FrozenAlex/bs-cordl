@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::EventSystems::RaycastResult::*)()>(
     &::UnityEngine::EventSystems::RaycastResult::get_gameObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e20fdc;
+  constexpr static std::size_t addrs = 0x6e1c9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::RaycastResult>(), { "get_gameObject", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::RaycastResult::*)(::UnityEngine::GameObject*)>(&::UnityEngine::EventSystems::RaycastResult::set_gameObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e20fe4;
+  constexpr static std::size_t addrs = 0x6e1c9e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::EventSystems::RaycastResult::*)()>(&::UnityEngine::EventSystems::RaycastResult::get_isValid)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6e20fec;
+  constexpr static std::size_t addrs = 0x6e1c9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::RaycastResult>(), { "get_isValid", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::RaycastResult::*)()>(&::UnityEngine::EventSystems::RaycastResult::Clear)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6e21088;
+  constexpr static std::size_t addrs = 0x6e1ca8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::RaycastResult>(), { "Clear", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::EventSystems::RaycastResult::*)()>(&::UnityEngine::EventSystems::RaycastResult::ToString)> {
   constexpr static std::size_t size = 0x460;
-  constexpr static std::size_t addrs = 0x6e15828;
+  constexpr static std::size_t addrs = 0x6e1122c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

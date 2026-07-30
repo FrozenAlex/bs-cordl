@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_UpdateManager* (*)()>(&::TMPro::TMP_UpdateManager::get_instance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x69a4c80;
+  constexpr static std::size_t addrs = 0x69a2a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_UpdateManager*>(), { "get_instance", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_UpdateManager::*)()>(&::TMPro::TMP_UpdateManager::_ctor)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x69a4d24;
+  constexpr static std::size_t addrs = 0x69a2ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_UpdateManager*>(), { ".ctor", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_UpdateManager::RegisterTextObjectForUpdate)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69a4ed4;
+  constexpr static std::size_t addrs = 0x69a2c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_UpdateManager::*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_UpdateManager::InternalRegisterTextObjectForUpdate)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x69a4f38;
+  constexpr static std::size_t addrs = 0x69a2cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_UpdateManager::RegisterTextElementForLayoutRebuild)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69a506c;
+  constexpr static std::size_t addrs = 0x69a2e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_UpdateManager::*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_UpdateManager::InternalRegisterTextElementForLayoutRebuild)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x69a50d0;
+  constexpr static std::size_t addrs = 0x69a2e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_UpdateManager::RegisterTextElementForGraphicRebuild)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69a5204;
+  constexpr static std::size_t addrs = 0x69a2fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_UpdateManager::*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_UpdateManager::InternalRegisterTextElementForGraphicRebuild)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x69a5268;
+  constexpr static std::size_t addrs = 0x69a3004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_UpdateManager::RegisterTextElementForCullingUpdate)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69a539c;
+  constexpr static std::size_t addrs = 0x69a3138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_UpdateManager::*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_UpdateManager::InternalRegisterTextElementForCullingUpdate)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x69a5400;
+  constexpr static std::size_t addrs = 0x69a319c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_UpdateManager::*)()>(&::TMPro::TMP_UpdateManager::OnCameraPreCull)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69a5534;
+  constexpr static std::size_t addrs = 0x69a32d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_UpdateManager*>(), { "OnCameraPreCull", {}, {} })));
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_UpdateManager::*)()>(&::TMPro::TMP_UpdateManager::DoRebuilds)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x69a5538;
+  constexpr static std::size_t addrs = 0x69a32d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_UpdateManager*>(), { "DoRebuilds", {}, {} })));
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_UpdateManager::UnRegisterTextObjectForUpdate)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69a57a0;
+  constexpr static std::size_t addrs = 0x69a353c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_UpdateManager::UnRegisterTextElementForRebuild)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x69a58ac;
+  constexpr static std::size_t addrs = 0x69a3648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_UpdateManager::*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_UpdateManager::InternalUnRegisterTextElementForGraphicRebuild)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x69a5930;
+  constexpr static std::size_t addrs = 0x69a36cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_UpdateManager::*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_UpdateManager::InternalUnRegisterTextElementForLayoutRebuild)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x69a59d8;
+  constexpr static std::size_t addrs = 0x69a3774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_UpdateManager::*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_UpdateManager::InternalUnRegisterTextObjectForUpdate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x69a5804;
+  constexpr static std::size_t addrs = 0x69a35a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

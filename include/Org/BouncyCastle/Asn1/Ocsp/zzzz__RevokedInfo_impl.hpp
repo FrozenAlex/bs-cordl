@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::GetInstance)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x34582d4;
+  constexpr static std::size_t addrs = 0x345689c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x345b650;
+  constexpr static std::size_t addrs = 0x3459c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::*)(::Org::BouncyCastle::Asn1::DerGeneralizedTime*)>(
     &::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x345b9a0;
+  constexpr static std::size_t addrs = 0x3459f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::*)(
     ::Org::BouncyCastle::Asn1::DerGeneralizedTime*, ::Org::BouncyCastle::Asn1::X509::CrlReason*)>(&::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x345b9a8;
+  constexpr static std::size_t addrs = 0x3459f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::_ctor)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x345b7d4;
+  constexpr static std::size_t addrs = 0x3459d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerGeneralizedTime* (::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::get_RevocationTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x345ba00;
+  constexpr static std::size_t addrs = 0x3459fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo*>(), { "get_RevocationTime", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::CrlReason* (::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::get_RevocationReason)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x345ba08;
+  constexpr static std::size_t addrs = 0x3459fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo*>(), { "get_RevocationReason", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::ToAsn1Object)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x345ba10;
+  constexpr static std::size_t addrs = 0x3459fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

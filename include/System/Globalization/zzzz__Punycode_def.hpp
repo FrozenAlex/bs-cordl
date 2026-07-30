@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Globalization::Punycode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5bdcb68, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bda9ac, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

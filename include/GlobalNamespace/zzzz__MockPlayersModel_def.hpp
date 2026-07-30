@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MockPlayersModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x59c8c6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c72dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

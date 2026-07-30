@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Resources::FastResourceComparer::*)(::System::Object*)>(&::System::Resources::FastResourceComparer::GetHashCode)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5b72b30;
+  constexpr static std::size_t addrs = 0x5b70974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Resources::FastResourceComparer::*)(::StringW)>(&::System::Resources::FastResourceComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5b72c1c;
+  constexpr static std::size_t addrs = 0x5b70a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::System::Resources::FastResourceComparer::HashFunction)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5b72bd8;
+  constexpr static std::size_t addrs = 0x5b70a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Resources::FastResourceComparer::*)(::System::Object*, ::System::Object*)>(
     &::System::Resources::FastResourceComparer::Compare)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5b72ca8;
+  constexpr static std::size_t addrs = 0x5b70aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::FastResourceComparer*>(),
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Resources::FastResourceComparer::*)(::StringW, ::StringW)>(&::System::Resources::FastResourceComparer::Compare)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5b72d10;
+  constexpr static std::size_t addrs = 0x5b70b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Resources::FastResourceComparer::*)(::StringW, ::StringW)>(&::System::Resources::FastResourceComparer::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5b72d20;
+  constexpr static std::size_t addrs = 0x5b70b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Resources::FastResourceComparer::*)(::System::Object*, ::System::Object*)>(&::System::Resources::FastResourceComparer::Equals)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5b72d30;
+  constexpr static std::size_t addrs = 0x5b70b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::FastResourceComparer*>(),
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, ::ArrayW<uint8_t>, int32_t)>(&::System::Resources::FastResourceComparer::CompareOrdinal)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5b72d98;
+  constexpr static std::size_t addrs = 0x5b70bdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>, int32_t, ::StringW)>(&::System::Resources::FastResourceComparer::CompareOrdinal)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5b72e1c;
+  constexpr static std::size_t addrs = 0x5b70c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint8_t*, int32_t, ::StringW)>(&::System::Resources::FastResourceComparer::CompareOrdinal)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5b72e94;
+  constexpr static std::size_t addrs = 0x5b70cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::FastResourceComparer::*)()>(&::System::Resources::FastResourceComparer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b72ef0;
+  constexpr static std::size_t addrs = 0x5b70d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::FastResourceComparer*>(), { ".ctor", {}, {} })));

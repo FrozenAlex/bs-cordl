@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BeatSaber::Settings::Settings>, ::System::Text::StringBuilder*)>(&::BeatSaber::Settings::SettingStrings::Encode)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32c5dd8;
+  constexpr static std::size_t addrs = 0x32c3764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::BeatSaber::Settings::Settings>, ::StringW, ::by_ref<::StringW>)>(&::BeatSaber::Settings::SettingStrings::Decode)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32c6b1c;
+  constexpr static std::size_t addrs = 0x32c44a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::BeatSaber::Settings::Settings>, ::System::Text::StringBuilder*)>(&::BeatSaber::Settings::SettingStrings::WriteProperties)> {
   constexpr static std::size_t size = 0xd40;
-  constexpr static std::size_t addrs = 0x32c5ddc;
+  constexpr static std::size_t addrs = 0x32c3768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::BeatSaber::Settings::Settings>, ::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>,
                                                                 ::by_ref<::StringW>)>(&::BeatSaber::Settings::SettingStrings::ReadProperty)> {
   constexpr static std::size_t size = 0x1614;
-  constexpr static std::size_t addrs = 0x32c6e00;
+  constexpr static std::size_t addrs = 0x32c478c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::BeatSaber::Settings::Settings>, ::StringW, ::by_ref<::StringW>)>(&::BeatSaber::Settings::SettingStrings::ReadProperties)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x32c6b20;
+  constexpr static std::size_t addrs = 0x32c44ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::BeatSaber::Settings::Settings>, ::System::ReadOnlySpan_1<char16_t>, ::by_ref<::StringW>)>(
     &::BeatSaber::Settings::SettingStrings::ReadPropertyLine)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x32c8a54;
+  constexpr static std::size_t addrs = 0x32c63e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>)>(&::BeatSaber::Settings::SettingStrings::IsPureWhiteSpace)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x32c8c60;
+  constexpr static std::size_t addrs = 0x32c65ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::by_ref<::StringW>, ::by_ref<::StringW>)>(
     &::BeatSaber::Settings::SettingStrings::ReadString)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x32c89d0;
+  constexpr static std::size_t addrs = 0x32c635c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::by_ref<float_t>, ::by_ref<::StringW>)>(
     &::BeatSaber::Settings::SettingStrings::ReadFloat)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x32c8454;
+  constexpr static std::size_t addrs = 0x32c5de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::by_ref<int32_t>, ::by_ref<::StringW>)>(
     &::BeatSaber::Settings::SettingStrings::ReadInt)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x32c87f0;
+  constexpr static std::size_t addrs = 0x32c617c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::by_ref<bool>, ::by_ref<::StringW>)>(
     &::BeatSaber::Settings::SettingStrings::ReadBool)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x32c8634;
+  constexpr static std::size_t addrs = 0x32c5fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f264d4;
+  constexpr static std::size_t addrs = 0x5f24240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback*>(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback::*)(
     ::ArrayW<uint8_t>, ::System::Net::HttpStatusCode, ::StringW, ::System::Exception*)>(&::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f26554;
+  constexpr static std::size_t addrs = 0x5f242c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback*>(),
@@ -118,7 +118,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback::*)(::ArrayW<uint8_t>, ::System::Net::HttpStatusCode, ::StringW, ::System::Exception*, ::System::AsyncCallback*,
                                                                                      ::System::Object*)>(&::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5f26568;
+  constexpr static std::size_t addrs = 0x5f242d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback*>(),
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback::*)(::System::IAsyncResult*)>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f26614;
+  constexpr static std::size_t addrs = 0x5f24380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback*>(),
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass30_0::*)()>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass30_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f26620;
+  constexpr static std::size_t addrs = 0x5f2438c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass30_0::*)(::System::IAsyncResult*)>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass30_0::_CheckFastFallbackAsync_b__0)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x5f26624;
+  constexpr static std::size_t addrs = 0x5f24390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpRequestManager___c__DisplayClass30_0*>(),
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__35::*)()>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__35::MoveNext)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x5f26800;
+  constexpr static std::size_t addrs = 0x5f2456c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__35::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::OculusStudios::GraphQL::Client::HttpRequestManager__CheckAndConsiderFastFallbackAsync_d__35::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5f26a10;
+  constexpr static std::size_t addrs = 0x5f2477c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__30::*)()>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__30::MoveNext)> {
   constexpr static std::size_t size = 0xb94;
-  constexpr static std::size_t addrs = 0x5f26a7c;
+  constexpr static std::size_t addrs = 0x5f247e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__30::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__30::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5f27610;
+  constexpr static std::size_t addrs = 0x5f2537c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackAsync_d__30>(),
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__29::*)()>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__29::MoveNext)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x5f2767c;
+  constexpr static std::size_t addrs = 0x5f253e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__29::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__29::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f27818;
+  constexpr static std::size_t addrs = 0x5f25584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpRequestManager__CheckFastFallbackNoWait_d__29>(),
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__39::*)()>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__39::MoveNext)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x5f27820;
+  constexpr static std::size_t addrs = 0x5f2558c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__39::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__39::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f27c50;
+  constexpr static std::size_t addrs = 0x5f259bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncInternal_d__39>(),
@@ -484,7 +484,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41::*)()>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41::MoveNext)> {
   constexpr static std::size_t size = 0x6b4;
-  constexpr static std::size_t addrs = 0x5f27cd0;
+  constexpr static std::size_t addrs = 0x5f25a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -498,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f28384;
+  constexpr static std::size_t addrs = 0x5f260f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpRequestManager__SendAsyncReceiveByteArray_d__41>(),
@@ -564,7 +564,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::GraphQL::Client::HttpRequestManager_fastFallbackState (*)()>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager::get_currentFastFallbackState)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5f251a0;
+  constexpr static std::size_t addrs = 0x5f22f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -578,7 +578,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig (*)()>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager::get_globalConfig)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5f251fc;
+  constexpr static std::size_t addrs = 0x5f22f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpRequestManager*>(), { "get_globalConfig", {}, {} })));
@@ -591,7 +591,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig (::OculusStudios::GraphQL::Client::HttpRequestManager::*)()>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager::get_sessionConfig)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f25268;
+  constexpr static std::size_t addrs = 0x5f22fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpRequestManager*>(), { "get_sessionConfig", {}, {} })));
@@ -603,7 +603,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::OculusStudios::GraphQL::Client::HttpRequestManager::CreateHttpClient)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x5f25274;
+  constexpr static std::size_t addrs = 0x5f22fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpRequestManager*>(), { "CreateHttpClient", {}, {} })));
@@ -617,7 +617,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Object
                                                                 ::System::Security::Cryptography::X509Certificates::X509Chain*, ::System::Net::Security::SslPolicyErrors)>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager::MyCertHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f25680;
+  constexpr static std::size_t addrs = 0x5f233ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -635,7 +635,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::OculusStudios::GraphQL::Client::HttpRequestManager_GlobalConfig)>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager::UpdateGlobalConfig)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5f255a0;
+  constexpr static std::size_t addrs = 0x5f2330c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -649,7 +649,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpRequestManager::*)()>(&::OculusStudios::GraphQL::Client::HttpRequestManager::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f21d2c;
+  constexpr static std::size_t addrs = 0x5f1fa98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpRequestManager*>(), { ".ctor", {}, {} })));
@@ -662,7 +662,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpRequestManager::*)(::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig)>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f25778;
+  constexpr static std::size_t addrs = 0x5f234e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpRequestManager*>(),
@@ -676,7 +676,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpRequestManager::*)(::System::Net::Http::HttpMessageHandler*)>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5f257f8;
+  constexpr static std::size_t addrs = 0x5f23564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -691,7 +691,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::HttpRequestManager::*)(::OculusStudios::GraphQL::Client::HttpRequestManager_SessionConfig)>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager::UpdateSessionConfig)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5f25688;
+  constexpr static std::size_t addrs = 0x5f233f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -705,7 +705,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::OculusStudios::GraphQL::Client::HttpRequestManager::ResetFastFallback)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5f25524;
+  constexpr static std::size_t addrs = 0x5f23290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpRequestManager*>(), { "ResetFastFallback", {}, {} })));
@@ -717,7 +717,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::OculusStudios::GraphQL::Client::HttpRequestManager::CheckFastFallbackNoWait)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5f258dc;
+  constexpr static std::size_t addrs = 0x5f23648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -730,7 +730,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (*)()>(&::OculusStudios::GraphQL::Client::HttpRequestManager::CheckFastFallbackAsync)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5f25974;
+  constexpr static std::size_t addrs = 0x5f236e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -744,7 +744,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::IPEndPoint* (*)(::System::Net::ServicePoint*, ::System::Net::IPEndPoint*, int32_t)>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager::BindTo)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x5f25a28;
+  constexpr static std::size_t addrs = 0x5f23794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -758,7 +758,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::OculusStudios::GraphQL::Client::HttpRequestManager::get_fastFallbackChecked)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5f25ba8;
+  constexpr static std::size_t addrs = 0x5f23914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -771,7 +771,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Uri*)>(&::OculusStudios::GraphQL::Client::HttpRequestManager::ConsiderFastFallback)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5f25c0c;
+  constexpr static std::size_t addrs = 0x5f23978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -785,7 +785,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (*)(::System::Uri*)>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager::CheckAndConsiderFastFallbackAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5f25d24;
+  constexpr static std::size_t addrs = 0x5f23a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -800,7 +800,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::HttpRequestMessage* (
     ::OculusStudios::GraphQL::Client::HttpRequestManager::*)(::System::Net::Http::HttpMethod*, ::System::Uri*)>(&::OculusStudios::GraphQL::Client::HttpRequestManager::CreateRequest)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x5f25dd4;
+  constexpr static std::size_t addrs = 0x5f23b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -816,7 +816,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::Http
     ::OculusStudios::GraphQL::Client::HttpRequestManager::*)(::System::Net::Http::HttpMethod*, ::System::Uri*, ::StringW, ::StringW, ::ArrayW<uint8_t>)>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager::CreateByteArrayRequest)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x5f25f24;
+  constexpr static std::size_t addrs = 0x5f23c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpRequestManager*>(),
@@ -833,7 +833,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* (
     ::OculusStudios::GraphQL::Client::HttpRequestManager::*)(::System::Net::Http::HttpRequestMessage*)>(&::OculusStudios::GraphQL::Client::HttpRequestManager::SendAsync)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f260e0;
+  constexpr static std::size_t addrs = 0x5f23e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpRequestManager*>(),
@@ -847,7 +847,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* (
     ::OculusStudios::GraphQL::Client::HttpRequestManager::*)(::System::Net::Http::HttpRequestMessage*)>(&::OculusStudios::GraphQL::Client::HttpRequestManager::SendAsyncInternal)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5f260e4;
+  constexpr static std::size_t addrs = 0x5f23e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpRequestManager*>(),
@@ -861,7 +861,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* (
     ::OculusStudios::GraphQL::Client::HttpRequestManager::*)(::System::Net::Http::HttpRequestMessage*)>(&::OculusStudios::GraphQL::Client::HttpRequestManager::OpenPersistentStream)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f24330;
+  constexpr static std::size_t addrs = 0x5f2209c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::HttpRequestManager*>(),
@@ -876,7 +876,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Gr
                                                                                                                       ::OculusStudios::GraphQL::Client::HttpRequestManager_ByteArrayResultCallback*)>(
     &::OculusStudios::GraphQL::Client::HttpRequestManager::SendAsyncReceiveByteArray)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5f261c4;
+  constexpr static std::size_t addrs = 0x5f23f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

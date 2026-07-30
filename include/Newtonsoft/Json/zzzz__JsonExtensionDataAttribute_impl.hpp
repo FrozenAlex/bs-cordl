@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::JsonExtensionDataAttribute::*)()>(&::Newtonsoft::Json::JsonExtensionDataAttribute::get_WriteData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd5270;
+  constexpr static std::size_t addrs = 0x5cd2fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonExtensionDataAttribute*>(), { "get_WriteData", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonExtensionDataAttribute::*)(bool)>(&::Newtonsoft::Json::JsonExtensionDataAttribute::set_WriteData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd5278;
+  constexpr static std::size_t addrs = 0x5cd2fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::JsonExtensionDataAttribute::*)()>(&::Newtonsoft::Json::JsonExtensionDataAttribute::get_ReadData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd5280;
+  constexpr static std::size_t addrs = 0x5cd2fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonExtensionDataAttribute*>(), { "get_ReadData", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonExtensionDataAttribute::*)(bool)>(&::Newtonsoft::Json::JsonExtensionDataAttribute::set_ReadData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd5288;
+  constexpr static std::size_t addrs = 0x5cd2ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::JsonExtensionDataAttribute::*)()>(&::Newtonsoft::Json::JsonExtensionDataAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cd5290;
+  constexpr static std::size_t addrs = 0x5cd2ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::JsonExtensionDataAttribute*>(), { ".ctor", {}, {} })));

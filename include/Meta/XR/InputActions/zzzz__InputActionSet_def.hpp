@@ -35,7 +35,7 @@ public:
 
   static inline ::Meta::XR::InputActions::InputActionSet* New_ctor();
 
-  /// @brief Method ToString, addr 0x5e4eb20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5e4c88c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Collections::Generic::List_1<::Meta::XR::InputActions::InputActionDefinition*>* const& __cordl_internal_get_InputActionDefinitions() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_InteractionProfile(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5e4eb28, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4c894, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

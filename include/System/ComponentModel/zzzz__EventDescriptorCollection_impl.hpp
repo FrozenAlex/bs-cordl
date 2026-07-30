@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EventDescriptorCollection_ArraySubsetEnumerator::*)(::System::Array*, int32_t)>(
     &::System::ComponentModel::EventDescriptorCollection_ArraySubsetEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x63bbafc;
+  constexpr static std::size_t addrs = 0x63b9898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::EventDescriptorCollection_ArraySubsetEnumerator*>(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::EventDescriptorCollection_ArraySubsetEnumerator::*)()>(
     &::System::ComponentModel::EventDescriptorCollection_ArraySubsetEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x63bc090;
+  constexpr static std::size_t addrs = 0x63b9e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EventDescriptorCollection_ArraySubsetEnumerator::*)()>(
     &::System::ComponentModel::EventDescriptorCollection_ArraySubsetEnumerator::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63bc0b4;
+  constexpr static std::size_t addrs = 0x63b9e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::EventDescriptorCollection_ArraySubsetEnumerator::*)()>(
     &::System::ComponentModel::EventDescriptorCollection_ArraySubsetEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x63bc0c0;
+  constexpr static std::size_t addrs = 0x63b9e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(::ArrayW<::System::ComponentModel::EventDescriptor*>)>(
     &::System::ComponentModel::EventDescriptorCollection::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x63baff8;
+  constexpr static std::size_t addrs = 0x63b8d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::EventDescriptorCollection*>(),
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(::ArrayW<::System::ComponentModel::EventDescriptor*>, bool)>(
     &::System::ComponentModel::EventDescriptorCollection::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x63bb0c0;
+  constexpr static std::size_t addrs = 0x63b8e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::EventDescriptorCollection::*)()>(&::System::ComponentModel::EventDescriptorCollection::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63bb0e4;
+  constexpr static std::size_t addrs = 0x63b8e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::EventDescriptorCollection*>(), { "get_Count", {}, {} })));
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(int32_t)>(&::System::ComponentModel::EventDescriptorCollection::set_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63bb0ec;
+  constexpr static std::size_t addrs = 0x63b8e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::EventDescriptor* (::System::ComponentModel::EventDescriptorCollection::*)(int32_t)>(
     &::System::ComponentModel::EventDescriptorCollection::get_Item)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x63bb0f4;
+  constexpr static std::size_t addrs = 0x63b8e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::EventDescriptorCollection*>(),
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::EventDescriptor* (::System::ComponentModel::EventDescriptorCollection::*)(::StringW)>(
     &::System::ComponentModel::EventDescriptorCollection::get_Item)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63bb228;
+  constexpr static std::size_t addrs = 0x63b8fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::EventDescriptorCollection*>(),
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::EventDescriptorCollection::*)(::System::ComponentModel::EventDescriptor*)>(
     &::System::ComponentModel::EventDescriptorCollection::Add)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x63bb23c;
+  constexpr static std::size_t addrs = 0x63b8fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)()>(&::System::ComponentModel::EventDescriptorCollection::Clear)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x63bb404;
+  constexpr static std::size_t addrs = 0x63b91a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::EventDescriptorCollection*>(), { "Clear", {}, {} })));
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::EventDescriptorCollection::*)(::System::ComponentModel::EventDescriptor*)>(
     &::System::ComponentModel::EventDescriptorCollection::Contains)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x63bb44c;
+  constexpr static std::size_t addrs = 0x63b91e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::EventDescriptorCollection*>(),
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(::System::Array*, int32_t)>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_ICollection_CopyTo)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x63bb4c8;
+  constexpr static std::size_t addrs = 0x63b9264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -281,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)()>(&::System::ComponentModel::EventDescriptorCollection::EnsureEventsOwned)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x63bb178;
+  constexpr static std::size_t addrs = 0x63b8f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::EventDescriptorCollection*>(), { "EnsureEventsOwned", {}, {} })));
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(int32_t)>(&::System::ComponentModel::EventDescriptorCollection::EnsureSize)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x63bb304;
+  constexpr static std::size_t addrs = 0x63b90a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::EventDescriptor* (::System::ComponentModel::EventDescriptorCollection::*)(::StringW, bool)>(
     &::System::ComponentModel::EventDescriptorCollection::Find)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x63bb770;
+  constexpr static std::size_t addrs = 0x63b950c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::EventDescriptorCollection*>(),
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::EventDescriptorCollection::*)(::System::ComponentModel::EventDescriptor*)>(
     &::System::ComponentModel::EventDescriptorCollection::IndexOf)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x63bb464;
+  constexpr static std::size_t addrs = 0x63b9200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::EventDescriptorCollection*>(),
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(int32_t, ::System::ComponentModel::EventDescriptor*)>(
     &::System::ComponentModel::EventDescriptorCollection::Insert)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x63bb878;
+  constexpr static std::size_t addrs = 0x63b9614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(::System::ComponentModel::EventDescriptor*)>(
     &::System::ComponentModel::EventDescriptorCollection::Remove)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x63bb960;
+  constexpr static std::size_t addrs = 0x63b96fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(int32_t)>(&::System::ComponentModel::EventDescriptorCollection::RemoveAt)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x63bb9c8;
+  constexpr static std::size_t addrs = 0x63b9764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::ComponentModel::EventDescriptorCollection::*)()>(
     &::System::ComponentModel::EventDescriptorCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x63bba74;
+  constexpr static std::size_t addrs = 0x63b9810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::EventDescriptorCollection*>(), { "GetEnumerator", {}, {} })));
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(::ArrayW<::StringW>)>(
     &::System::ComponentModel::EventDescriptorCollection::InternalSort)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x63bb504;
+  constexpr static std::size_t addrs = 0x63b92a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(::System::Collections::IComparer*)>(
     &::System::ComponentModel::EventDescriptorCollection::InternalSort)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x63bbb0c;
+  constexpr static std::size_t addrs = 0x63b98a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -420,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::EventDescriptorCollection::*)()>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_ICollection_get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63bbb94;
+  constexpr static std::size_t addrs = 0x63b9930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -434,7 +434,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::EventDescriptorCollection::*)()>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_ICollection_get_SyncRoot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63bbb9c;
+  constexpr static std::size_t addrs = 0x63b9938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -448,7 +448,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::EventDescriptorCollection::*)()>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_ICollection_get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63bbba4;
+  constexpr static std::size_t addrs = 0x63b9940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -462,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::ComponentModel::EventDescriptorCollection::*)()>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63bbbac;
+  constexpr static std::size_t addrs = 0x63b9948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -476,7 +476,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::EventDescriptorCollection::*)(int32_t)>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_get_Item)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x63bbbb0;
+  constexpr static std::size_t addrs = 0x63b994c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -490,7 +490,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(int32_t, ::System::Object*)>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_set_Item)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x63bbbc0;
+  constexpr static std::size_t addrs = 0x63b995c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -505,7 +505,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::EventDescriptorCollection::*)(::System::Object*)>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_Add)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x63bbd2c;
+  constexpr static std::size_t addrs = 0x63b9ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -520,7 +520,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::EventDescriptorCollection::*)(::System::Object*)>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_Contains)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x63bbdbc;
+  constexpr static std::size_t addrs = 0x63b9b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::EventDescriptorCollection*>(),
@@ -534,7 +534,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)()>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_Clear)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63bbe58;
+  constexpr static std::size_t addrs = 0x63b9bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -548,7 +548,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::EventDescriptorCollection::*)(::System::Object*)>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_IndexOf)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x63bbe5c;
+  constexpr static std::size_t addrs = 0x63b9bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::EventDescriptorCollection*>(),
@@ -562,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(int32_t, ::System::Object*)>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_Insert)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x63bbeec;
+  constexpr static std::size_t addrs = 0x63b9c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -577,7 +577,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(::System::Object*)>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_Remove)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x63bbf84;
+  constexpr static std::size_t addrs = 0x63b9d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -592,7 +592,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(int32_t)>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_RemoveAt)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63bc014;
+  constexpr static std::size_t addrs = 0x63b9db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -606,7 +606,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::EventDescriptorCollection::*)()>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63bc018;
+  constexpr static std::size_t addrs = 0x63b9db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -620,7 +620,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::EventDescriptorCollection::*)()>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63bc020;
+  constexpr static std::size_t addrs = 0x63b9dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

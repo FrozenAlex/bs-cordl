@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(MainEffectRendererFeature)
 namespace GlobalNamespace {
+class MainEffectController;
+}
+namespace GlobalNamespace {
 class MainEffectPostRenderPass;
 }
 namespace GlobalNamespace {
@@ -17,6 +20,9 @@ struct RenderingData;
 }
 namespace UnityEngine::Rendering::Universal {
 class ScriptableRenderer;
+}
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,13 +44,19 @@ public:
   /// @brief Field _preRenderPass, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__preRenderPass, put = __cordl_internal_set__preRenderPass)) ::GlobalNamespace::MainEffectPreRenderPass* _preRenderPass;
 
-  /// @brief Method AddRenderPasses, addr 0x5f414b4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x5f3f114, size 0x40, virtual true, abstract: false, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Create, addr 0x5f41340, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x5f3efa0, size 0x8c, virtual true, abstract: false, final false
   inline void Create();
 
+  /// @brief Method GetEnabledController, addr 0x5f3f158, size 0xbc, virtual false, abstract: false, final false
+  static inline ::UnityW<::GlobalNamespace::MainEffectController> GetEnabledController(::UnityEngine::Camera* camera);
+
   static inline ::GlobalNamespace::MainEffectRendererFeature* New_ctor();
+
+  /// @brief Method ResolveController, addr 0x5f3f154, size 0x4, virtual false, abstract: false, final false
+  static inline ::UnityW<::GlobalNamespace::MainEffectController> ResolveController(::UnityEngine::Camera* camera);
 
   constexpr ::GlobalNamespace::MainEffectPostRenderPass* const& __cordl_internal_get__postRenderPass() const;
 
@@ -58,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__preRenderPass(::GlobalNamespace::MainEffectPreRenderPass* value);
 
-  /// @brief Method .ctor, addr 0x5f414f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f3f214, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +88,7 @@ public:
   MainEffectRendererFeature(MainEffectRendererFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20886 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20884 };
 
   /// @brief Field kMainEffectBloomTextureName offset 0xffffffff size 0x8
   static constexpr ::ConstString kMainEffectBloomTextureName{ u"_MainEffectBloomTexture" };

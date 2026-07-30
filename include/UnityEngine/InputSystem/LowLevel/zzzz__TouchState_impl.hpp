@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(&::UnityEngine::InputSystem::LowLevel::TouchState::get_Format)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a8c84;
+  constexpr static std::size_t addrs = 0x65a6a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::TouchState>(), { "get_Format", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::TouchPhase (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::get_phase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a8c90;
+  constexpr static std::size_t addrs = 0x65a6a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::TouchState>(), { "get_phase", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::TouchState::*)(::UnityEngine::InputSystem::TouchPhase)>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::set_phase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65a405c;
+  constexpr static std::size_t addrs = 0x65a1df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(&::UnityEngine::InputSystem::LowLevel::TouchState::get_isNoneEndedOrCanceled)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x65a8c98;
+  constexpr static std::size_t addrs = 0x65a6a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(&::UnityEngine::InputSystem::LowLevel::TouchState::get_isInProgress)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x65a8cb4;
+  constexpr static std::size_t addrs = 0x65a6a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::TouchState>(), { "get_isInProgress", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(&::UnityEngine::InputSystem::LowLevel::TouchState::get_isPrimaryTouch)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a8cd0;
+  constexpr static std::size_t addrs = 0x65a6a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::TouchState>(), { "get_isPrimaryTouch", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::TouchState::*)(bool)>(&::UnityEngine::InputSystem::LowLevel::TouchState::set_isPrimaryTouch)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65a8cdc;
+  constexpr static std::size_t addrs = 0x65a6a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(&::UnityEngine::InputSystem::LowLevel::TouchState::get_isOrphanedPrimaryTouch)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a8cfc;
+  constexpr static std::size_t addrs = 0x65a6a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::TouchState::*)(bool)>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::set_isOrphanedPrimaryTouch)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65a8d08;
+  constexpr static std::size_t addrs = 0x65a6aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(&::UnityEngine::InputSystem::LowLevel::TouchState::get_isIndirectTouch)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a8d28;
+  constexpr static std::size_t addrs = 0x65a6ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::TouchState>(), { "get_isIndirectTouch", {}, {} })));
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::TouchState::*)(bool)>(&::UnityEngine::InputSystem::LowLevel::TouchState::set_isIndirectTouch)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x65a8d34;
+  constexpr static std::size_t addrs = 0x65a6ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(&::UnityEngine::InputSystem::LowLevel::TouchState::get_isTap)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a25cc;
+  constexpr static std::size_t addrs = 0x65a0368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::TouchState>(), { "get_isTap", {}, {} })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::TouchState::*)(bool)>(&::UnityEngine::InputSystem::LowLevel::TouchState::set_isTap)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65a8d54;
+  constexpr static std::size_t addrs = 0x65a6af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(&::UnityEngine::InputSystem::LowLevel::TouchState::get_isTapPress)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a8d48;
+  constexpr static std::size_t addrs = 0x65a6ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::TouchState>(), { "get_isTapPress", {}, {} })));
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::TouchState::*)(bool)>(&::UnityEngine::InputSystem::LowLevel::TouchState::set_isTapPress)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65a8d74;
+  constexpr static std::size_t addrs = 0x65a6b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(&::UnityEngine::InputSystem::LowLevel::TouchState::get_isTapRelease)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a16f8;
+  constexpr static std::size_t addrs = 0x659f494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::TouchState>(), { "get_isTapRelease", {}, {} })));
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::TouchState::*)(bool)>(&::UnityEngine::InputSystem::LowLevel::TouchState::set_isTapRelease)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65a8d94;
+  constexpr static std::size_t addrs = 0x65a6b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(&::UnityEngine::InputSystem::LowLevel::TouchState::get_beganInSameFrame)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a19dc;
+  constexpr static std::size_t addrs = 0x659f778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::TouchState>(), { "get_beganInSameFrame", {}, {} })));
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::TouchState::*)(bool)>(&::UnityEngine::InputSystem::LowLevel::TouchState::set_beganInSameFrame)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x65a19e8;
+  constexpr static std::size_t addrs = 0x659f784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::get_format)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a8db4;
+  constexpr static std::size_t addrs = 0x65a6b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::TouchState>(), { "get_format", {}, {} })));
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(&::UnityEngine::InputSystem::LowLevel::TouchState::ToString)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x65a8dc0;
+  constexpr static std::size_t addrs = 0x65a6b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

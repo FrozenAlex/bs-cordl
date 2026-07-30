@@ -34,13 +34,13 @@ namespace System::Reflection {
 class CORDL_TYPE CustomAttributeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCustomAttribute, addr 0x5b8386c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttribute, addr 0x5b816b0, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Attribute* GetCustomAttribute(::System::Reflection::Assembly* element, ::System::Type* attributeType);
 
-  /// @brief Method GetCustomAttribute, addr 0x5b83874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttribute, addr 0x5b816b8, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Attribute* GetCustomAttribute(::System::Reflection::MemberInfo* element, ::System::Type* attributeType);
 
-  /// @brief Method GetCustomAttribute, addr 0x5b8387c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttribute, addr 0x5b816c0, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Attribute* GetCustomAttribute(::System::Reflection::MemberInfo* element, ::System::Type* attributeType, bool inherit);
 
   /// @brief Method GetCustomAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -52,16 +52,16 @@ public:
   /// @brief Method GetCustomAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetCustomAttribute(::System::Reflection::MemberInfo* element, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x5b83884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x5b816c8, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* GetCustomAttributes(::System::Reflection::Assembly* element);
 
-  /// @brief Method GetCustomAttributes, addr 0x5b8388c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x5b816d0, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* GetCustomAttributes(::System::Reflection::MemberInfo* element);
 
-  /// @brief Method GetCustomAttributes, addr 0x5b83894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x5b816d8, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* GetCustomAttributes(::System::Reflection::MemberInfo* element, ::System::Type* attributeType);
 
-  /// @brief Method GetCustomAttributes, addr 0x5b8389c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x5b816e0, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* GetCustomAttributes(::System::Reflection::MemberInfo* element, ::System::Type* attributeType, bool inherit);
 
   /// @brief Method GetCustomAttributes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -70,7 +70,7 @@ public:
   /// @brief Method GetCustomAttributes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<T>* GetCustomAttributes(::System::Reflection::MemberInfo* element, bool inherit);
 
-  /// @brief Method IsDefined, addr 0x5b838a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x5b816e8, size 0x8, virtual false, abstract: false, final false
   static inline bool IsDefined(::System::Reflection::MemberInfo* element, ::System::Type* attributeType);
 
 protected:

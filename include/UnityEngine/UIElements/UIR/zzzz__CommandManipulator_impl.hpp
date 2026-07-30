@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::CommandManipulator::IsParentOrAncestorOf)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6cd17c8;
+  constexpr static std::size_t addrs = 0x6ccd1cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::VisualElement*,
                                                                 ::UnityEngine::UIElements::UIR::EntryProcessor*)>(&::UnityEngine::UIElements::UIR::CommandManipulator::ReplaceCommands)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x6cd17fc;
+  constexpr static std::size_t addrs = 0x6ccd200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::UIR::RenderChainCommand*>, ::by_ref<::UnityEngine::UIElements::UIR::RenderChainCommand*>)>(
         &::UnityEngine::UIElements::UIR::CommandManipulator::FindHeadCommandInsertionPoint)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6cd1d54;
+  constexpr static std::size_t addrs = 0x6ccd758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::UIR::RenderChainCommand*>, ::by_ref<::UnityEngine::UIElements::UIR::RenderChainCommand*>)>(
         &::UnityEngine::UIElements::UIR::CommandManipulator::FindTailCommandInsertionPoint)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6cd1ed0;
+  constexpr static std::size_t addrs = 0x6ccd8d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::UIR::RenderChainCommand*,
                                                                 ::UnityEngine::UIElements::UIR::RenderChainCommand*)>(&::UnityEngine::UIElements::UIR::CommandManipulator::RemoveChain)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6cd1c60;
+  constexpr static std::size_t addrs = 0x6ccd664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::CommandManipulator::ResetCommands)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x6cd19b8;
+  constexpr static std::size_t addrs = 0x6ccd3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::U
                                                                 ::UnityEngine::UIElements::UIR::RenderChainCommand*, ::UnityEngine::UIElements::UIR::RenderChainCommand*)>(
     &::UnityEngine::UIElements::UIR::CommandManipulator::InjectCommandInBetween)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6cd1fb4;
+  constexpr static std::size_t addrs = 0x6ccd9b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::VisualElement*, bool)>(
     &::UnityEngine::UIElements::UIR::CommandManipulator::DisableElementRendering)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x6cd2058;
+  constexpr static std::size_t addrs = 0x6ccda5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::VisualElement*,
                                                                 ::UnityEngine::UIElements::UIR::RenderChainCommand*)>(&::UnityEngine::UIElements::UIR::CommandManipulator::RemoveSingleCommand)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x6cd2294;
+  constexpr static std::size_t addrs = 0x6ccdc98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

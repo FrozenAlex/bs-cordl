@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::SignalReceiver_EventKeyValue::*)(
     ::UnityEngine::Timeline::SignalAsset*, ::by_ref<::UnityEngine::Events::UnityEvent*>)>(&::UnityEngine::Timeline::SignalReceiver_EventKeyValue::TryGetValue)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x69c1454;
+  constexpr static std::size_t addrs = 0x69bf1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::SignalReceiver_EventKeyValue::*)(::UnityEngine::Timeline::SignalAsset*, ::UnityEngine::Events::UnityEvent*)>(
     &::UnityEngine::Timeline::SignalReceiver_EventKeyValue::Append)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x69c1668;
+  constexpr static std::size_t addrs = 0x69bf404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::SignalReceiver_EventKeyValue::*)(int32_t)>(&::UnityEngine::Timeline::SignalReceiver_EventKeyValue::Remove)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x69c1d70;
+  constexpr static std::size_t addrs = 0x69bfb0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::SignalReceiver_EventKeyValue::*)(::UnityEngine::Timeline::SignalAsset*)>(
     &::UnityEngine::Timeline::SignalReceiver_EventKeyValue::Remove)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x69c18d4;
+  constexpr static std::size_t addrs = 0x69bf670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* (
     ::UnityEngine::Timeline::SignalReceiver_EventKeyValue::*)()>(&::UnityEngine::Timeline::SignalReceiver_EventKeyValue::get_signals)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2194;
+  constexpr static std::size_t addrs = 0x69bff30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::SignalReceiver_EventKeyValue*>(), { "get_signals", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::Events::UnityEvent*>* (::UnityEngine::Timeline::SignalReceiver_EventKeyValue::*)()>(
     &::UnityEngine::Timeline::SignalReceiver_EventKeyValue::get_events)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c219c;
+  constexpr static std::size_t addrs = 0x69bff38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::SignalReceiver_EventKeyValue*>(), { "get_events", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::SignalReceiver_EventKeyValue::*)()>(&::UnityEngine::Timeline::SignalReceiver_EventKeyValue::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x69c20d8;
+  constexpr static std::size_t addrs = 0x69bfe74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::SignalReceiver_EventKeyValue*>(), { ".ctor", {}, {} })));
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::SignalReceiver::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::INotification*,
                                                                                                          ::System::Object*)>(&::UnityEngine::Timeline::SignalReceiver::OnNotify)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x69c1328;
+  constexpr static std::size_t addrs = 0x69bf0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::SignalReceiver::*)(::UnityEngine::Timeline::SignalAsset*, ::UnityEngine::Events::UnityEvent*)>(
     &::UnityEngine::Timeline::SignalReceiver::AddReaction)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x69c1528;
+  constexpr static std::size_t addrs = 0x69bf2c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Timeline::SignalReceiver::*)(::UnityEngine::Events::UnityEvent*)>(
     &::UnityEngine::Timeline::SignalReceiver::AddEmptyReaction)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x69c1790;
+  constexpr static std::size_t addrs = 0x69bf52c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::SignalReceiver::*)(::UnityEngine::Timeline::SignalAsset*)>(&::UnityEngine::Timeline::SignalReceiver::Remove)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x69c180c;
+  constexpr static std::size_t addrs = 0x69bf5a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* (::UnityEngine::Timeline::SignalReceiver::*)()>(
     &::UnityEngine::Timeline::SignalReceiver::GetRegisteredSignals)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69c19c4;
+  constexpr static std::size_t addrs = 0x69bf760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::SignalReceiver*>(), { "GetRegisteredSignals", {}, {} })));
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Events::UnityEvent* (::UnityEngine::Timeline::SignalReceiver::*)(::UnityEngine::Timeline::SignalAsset*)>(
     &::UnityEngine::Timeline::SignalReceiver::GetReaction)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x69c19dc;
+  constexpr static std::size_t addrs = 0x69bf778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Timeline::SignalReceiver::*)()>(&::UnityEngine::Timeline::SignalReceiver::Count)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x69c1a08;
+  constexpr static std::size_t addrs = 0x69bf7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::SignalReceiver*>(), { "Count", {}, {} })));
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::SignalReceiver::*)(int32_t, ::UnityEngine::Timeline::SignalAsset*)>(
     &::UnityEngine::Timeline::SignalReceiver::ChangeSignalAtIndex)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x69c1a60;
+  constexpr static std::size_t addrs = 0x69bf7fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::SignalReceiver::*)(int32_t)>(&::UnityEngine::Timeline::SignalReceiver::RemoveAtIndex)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x69c1cc4;
+  constexpr static std::size_t addrs = 0x69bfa60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::SignalReceiver::*)(int32_t, ::UnityEngine::Events::UnityEvent*)>(
     &::UnityEngine::Timeline::SignalReceiver::ChangeReactionAtIndex)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x69c1e18;
+  constexpr static std::size_t addrs = 0x69bfbb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Events::UnityEvent* (::UnityEngine::Timeline::SignalReceiver::*)(int32_t)>(
     &::UnityEngine::Timeline::SignalReceiver::GetReactionAtIndex)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x69c1ee8;
+  constexpr static std::size_t addrs = 0x69bfc84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Timeline::SignalAsset> (::UnityEngine::Timeline::SignalReceiver::*)(int32_t)>(
     &::UnityEngine::Timeline::SignalReceiver::GetSignalAssetAtIndex)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x69c1fb0;
+  constexpr static std::size_t addrs = 0x69bfd4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::SignalReceiver::*)()>(&::UnityEngine::Timeline::SignalReceiver::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69c2078;
+  constexpr static std::size_t addrs = 0x69bfe14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::SignalReceiver*>(), { "OnEnable", {}, {} })));
@@ -358,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::SignalReceiver::*)()>(&::UnityEngine::Timeline::SignalReceiver::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69c207c;
+  constexpr static std::size_t addrs = 0x69bfe18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::SignalReceiver*>(), { ".ctor", {}, {} })));

@@ -38,61 +38,61 @@ namespace Oculus::Platform {
 class CORDL_TYPE Cowatching : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetNextCowatchViewerListPage, addr 0x5de58e8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method GetNextCowatchViewerListPage, addr 0x5de3654, size 0x1f0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::CowatchViewerList*>* GetNextCowatchViewerListPage(::Oculus::Platform::Models::CowatchViewerList* list);
 
-  /// @brief Method GetPresenterData, addr 0x5de47fc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetPresenterData, addr 0x5de2568, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::StringW>* GetPresenterData();
 
-  /// @brief Method GetViewersData, addr 0x5de4954, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetViewersData, addr 0x5de26c0, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::CowatchViewerList*>* GetViewersData();
 
-  /// @brief Method IsInSession, addr 0x5de4aac, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method IsInSession, addr 0x5de2818, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::CowatchingState*>* IsInSession();
 
-  /// @brief Method JoinSession, addr 0x5de4c04, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method JoinSession, addr 0x5de2970, size 0x144, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* JoinSession();
 
-  /// @brief Method LaunchInviteDialog, addr 0x5de4d48, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method LaunchInviteDialog, addr 0x5de2ab4, size 0x144, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* LaunchInviteDialog();
 
-  /// @brief Method LeaveSession, addr 0x5de4e8c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method LeaveSession, addr 0x5de2bf8, size 0x144, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* LeaveSession();
 
-  /// @brief Method RequestToPresent, addr 0x5de4fd0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method RequestToPresent, addr 0x5de2d3c, size 0x144, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* RequestToPresent();
 
-  /// @brief Method ResignFromPresenting, addr 0x5de5114, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ResignFromPresenting, addr 0x5de2e80, size 0x144, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* ResignFromPresenting();
 
-  /// @brief Method SetApiNotReadyNotificationCallback, addr 0x5de5508, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetApiNotReadyNotificationCallback, addr 0x5de3274, size 0x7c, virtual false, abstract: false, final false
   static inline void SetApiNotReadyNotificationCallback(::Oculus::Platform::Message_1_Callback<::StringW>* callback);
 
-  /// @brief Method SetApiReadyNotificationCallback, addr 0x5de5584, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetApiReadyNotificationCallback, addr 0x5de32f0, size 0x7c, virtual false, abstract: false, final false
   static inline void SetApiReadyNotificationCallback(::Oculus::Platform::Message_1_Callback<::StringW>* callback);
 
-  /// @brief Method SetInSessionChangedNotificationCallback, addr 0x5de5600, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetInSessionChangedNotificationCallback, addr 0x5de336c, size 0x7c, virtual false, abstract: false, final false
   static inline void SetInSessionChangedNotificationCallback(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::CowatchingState*>* callback);
 
-  /// @brief Method SetInitializedNotificationCallback, addr 0x5de567c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetInitializedNotificationCallback, addr 0x5de33e8, size 0x7c, virtual false, abstract: false, final false
   static inline void SetInitializedNotificationCallback(::Oculus::Platform::Message_1_Callback<::StringW>* callback);
 
-  /// @brief Method SetPresenterData, addr 0x5de5258, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method SetPresenterData, addr 0x5de2fc4, size 0x15c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* SetPresenterData(::StringW video_title, ::StringW presenter_data);
 
-  /// @brief Method SetPresenterDataChangedNotificationCallback, addr 0x5de56f8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetPresenterDataChangedNotificationCallback, addr 0x5de3464, size 0x7c, virtual false, abstract: false, final false
   static inline void SetPresenterDataChangedNotificationCallback(::Oculus::Platform::Message_1_Callback<::StringW>* callback);
 
-  /// @brief Method SetSessionStartedNotificationCallback, addr 0x5de5774, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetSessionStartedNotificationCallback, addr 0x5de34e0, size 0x7c, virtual false, abstract: false, final false
   static inline void SetSessionStartedNotificationCallback(::Oculus::Platform::Message_1_Callback<::StringW>* callback);
 
-  /// @brief Method SetSessionStoppedNotificationCallback, addr 0x5de57f0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetSessionStoppedNotificationCallback, addr 0x5de355c, size 0x7c, virtual false, abstract: false, final false
   static inline void SetSessionStoppedNotificationCallback(::Oculus::Platform::Message_1_Callback<::StringW>* callback);
 
-  /// @brief Method SetViewerData, addr 0x5de53b4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method SetViewerData, addr 0x5de3120, size 0x154, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* SetViewerData(::StringW viewer_data);
 
-  /// @brief Method SetViewersDataChangedNotificationCallback, addr 0x5de586c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetViewersDataChangedNotificationCallback, addr 0x5de35d8, size 0x7c, virtual false, abstract: false, final false
   static inline void SetViewersDataChangedNotificationCallback(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::CowatchViewerUpdate*>* callback);
 
 protected:
@@ -110,7 +110,7 @@ public:
   Cowatching(Cowatching const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17924 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17922 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

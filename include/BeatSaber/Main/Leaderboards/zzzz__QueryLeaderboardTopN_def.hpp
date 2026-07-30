@@ -4,6 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "OculusStudios/GraphQL/Client/zzzz__QueryRequest_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(QueryLeaderboardTopN)
 namespace BeatSaber::Main::GraphQL::InputTypes {
@@ -35,15 +36,16 @@ public:
   /// @brief Field kDefaultOrder, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kDefaultOrder, put = setStaticF_kDefaultOrder)) ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* kDefaultOrder;
 
-  /// @brief Method CreateQuery, addr 0x32a4b38, size 0x1a8, virtual false, abstract: false, final false
-  static inline ::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN* CreateQuery(::GlobalNamespace::BeatmapKey key, ::GlobalNamespace::GameplayModifierMask modifiers, int64_t amountEntries,
+  /// @brief Method CreateQuery, addr 0x32a24ac, size 0x1c0, virtual false, abstract: false, final false
+  static inline ::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN* CreateQuery(::StringW environmentPlayerRootId, ::GlobalNamespace::BeatmapKey key,
+                                                                                    ::GlobalNamespace::GameplayModifierMask modifiers, int64_t amountEntries,
                                                                                     ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* order);
 
-  static inline ::BeatSaber::Main::Leaderboards::QueryLeaderboardTopN* New_ctor(::GlobalNamespace::BeatmapKey key, ::GlobalNamespace::GameplayModifierMask modifiers, int64_t amountEntries,
-                                                                                ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* order);
+  static inline ::BeatSaber::Main::Leaderboards::QueryLeaderboardTopN* New_ctor(::StringW environmentPlayerRootId, ::GlobalNamespace::BeatmapKey key, ::GlobalNamespace::GameplayModifierMask modifiers,
+                                                                                int64_t amountEntries, ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* order);
 
-  /// @brief Method .ctor, addr 0x32a2354, size 0xa8, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::BeatmapKey key, ::GlobalNamespace::GameplayModifierMask modifiers, int64_t amountEntries,
+  /// @brief Method .ctor, addr 0x329fc14, size 0xb0, virtual false, abstract: false, final false
+  inline void _ctor(::StringW environmentPlayerRootId, ::GlobalNamespace::BeatmapKey key, ::GlobalNamespace::GameplayModifierMask modifiers, int64_t amountEntries,
                     ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* order);
 
   static inline ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryOrder* getStaticF_kDefaultOrder();
@@ -65,7 +67,7 @@ public:
   QueryLeaderboardTopN(QueryLeaderboardTopN const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20701 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20576 };
 
   /// @brief Field kDefaultAmountEntries offset 0xffffffff size 0x8
   static constexpr int64_t kDefaultAmountEntries{ static_cast<int64_t>(0xa) };

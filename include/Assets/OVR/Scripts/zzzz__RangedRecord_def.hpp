@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_value(float_t value);
 
-  /// @brief Method .ctor, addr 0x5e47a20, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4578c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t order, ::StringW cat, ::StringW msg, float_t val, float_t minVal, float_t maxVal);
 
 protected:

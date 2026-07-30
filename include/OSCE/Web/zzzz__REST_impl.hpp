@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::__c__DisplayClass10_0_REST___PostAsync_b__0_d::*)()>(&::OSCE::Web::__c__DisplayClass10_0_REST___PostAsync_b__0_d::MoveNext)> {
   constexpr static std::size_t size = 0x760;
-  constexpr static std::size_t addrs = 0x5f35954;
+  constexpr static std::size_t addrs = 0x5f3384c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::__c__DisplayClass10_0_REST___PostAsync_b__0_d>(), { "MoveNext", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::__c__DisplayClass10_0_REST___PostAsync_b__0_d::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::OSCE::Web::__c__DisplayClass10_0_REST___PostAsync_b__0_d::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5f360b4;
+  constexpr static std::size_t addrs = 0x5f33fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::__c__DisplayClass10_0_REST___PostAsync_b__0_d>(),
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST___c__DisplayClass10_0::*)()>(&::OSCE::Web::REST___c__DisplayClass10_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f35888;
+  constexpr static std::size_t addrs = 0x5f33780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST___c__DisplayClass10_0*>(), { ".ctor", {}, {} })));
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::OSCE::Web::REST___c__DisplayClass10_0::*)(::System::Threading::CancellationToken)>(
     &::OSCE::Web::REST___c__DisplayClass10_0::_PostAsync_b__0)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5f3588c;
+  constexpr static std::size_t addrs = 0x5f33784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST__BuildQueryString_d__12::*)()>(&::OSCE::Web::REST__BuildQueryString_d__12::MoveNext)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x5f36120;
+  constexpr static std::size_t addrs = 0x5f34018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST__BuildQueryString_d__12>(), { "MoveNext", {}, {} })));
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST__BuildQueryString_d__12::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::OSCE::Web::REST__BuildQueryString_d__12::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f36434;
+  constexpr static std::size_t addrs = 0x5f3432c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST__BuildQueryString_d__12>(),
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST__BuildUri_d__11::*)()>(&::OSCE::Web::REST__BuildUri_d__11::MoveNext)> {
   constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x5f364b4;
+  constexpr static std::size_t addrs = 0x5f343ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST__BuildUri_d__11>(), { "MoveNext", {}, {} })));
@@ -288,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST__BuildUri_d__11::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::OSCE::Web::REST__BuildUri_d__11::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f36910;
+  constexpr static std::size_t addrs = 0x5f34808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST__BuildUri_d__11>(),
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST__PostAsync_d__10::*)()>(&::OSCE::Web::REST__PostAsync_d__10::MoveNext)> {
   constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x5f36990;
+  constexpr static std::size_t addrs = 0x5f34888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST__PostAsync_d__10>(), { "MoveNext", {}, {} })));
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST__PostAsync_d__10::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::OSCE::Web::REST__PostAsync_d__10::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f36e04;
+  constexpr static std::size_t addrs = 0x5f34cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST__PostAsync_d__10>(),
@@ -410,7 +410,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST__PostRequest_d__7::*)()>(&::OSCE::Web::REST__PostRequest_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x5f36e84;
+  constexpr static std::size_t addrs = 0x5f34d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST__PostRequest_d__7>(), { "MoveNext", {}, {} })));
@@ -423,7 +423,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST__PostRequest_d__7::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::OSCE::Web::REST__PostRequest_d__7::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f37128;
+  constexpr static std::size_t addrs = 0x5f35020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST__PostRequest_d__7>(),
@@ -480,7 +480,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::REST::*)()>(&::OSCE::Web::REST::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5f35248;
+  constexpr static std::size_t addrs = 0x5f33140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST*>(), { ".ctor", {}, {} })));
@@ -494,7 +494,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::StringW, ::StringW, ::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*, ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>*,
     ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>*, int32_t, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::OSCE::Web::REST::PostRequest)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5f3503c;
+  constexpr static std::size_t addrs = 0x5f32f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -513,7 +513,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::HttpClient* (::OSCE::Web::REST::*)()>(&::OSCE::Web::REST::CreateClient)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5f352fc;
+  constexpr static std::size_t addrs = 0x5f331f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST*>(), { "CreateClient", {}, {} })));
@@ -525,7 +525,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::HttpClientHandler* (::OSCE::Web::REST::*)()>(&::OSCE::Web::REST::GetHandler)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5f35370;
+  constexpr static std::size_t addrs = 0x5f33268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Web::REST*>(), { "GetHandler", {}, {} })));
@@ -540,7 +540,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
                           ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>*, ::System::Threading::CancellationToken, int32_t,
                           ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::OSCE::Web::REST::PostAsync)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5f35504;
+  constexpr static std::size_t addrs = 0x5f333fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -561,7 +561,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::Uri*>* (
     ::OSCE::Web::REST::*)(::StringW, ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::OSCE::Web::REST::BuildUri)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5f35644;
+  constexpr static std::size_t addrs = 0x5f3353c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -577,7 +577,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (*)(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*, bool)>(
     &::OSCE::Web::REST::BuildQueryString)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5f35738;
+  constexpr static std::size_t addrs = 0x5f33630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

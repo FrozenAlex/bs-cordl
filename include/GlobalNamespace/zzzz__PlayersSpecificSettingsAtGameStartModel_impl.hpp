@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel___c__DisplayClass13_0::*)()>(
     &::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel___c__DisplayClass13_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b875c;
+  constexpr static std::size_t addrs = 0x32b60e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel___c__DisplayClass13_0::*)(::GlobalNamespace::IBeatSaberConnectedPlayer*)>(
     &::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel___c__DisplayClass13_0::_SaveFromNetSerializable_b__0)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x32b8760;
+  constexpr static std::size_t addrs = 0x32b60ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* (
     ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::*)()>(&::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::get_playersAtGameStart)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x32b7f40;
+  constexpr static std::size_t addrs = 0x32b58cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerSpecificSettingsNetSerializable* (::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::*)()>(
     &::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::get_localPlayerSpecificSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b7f54;
+  constexpr static std::size_t addrs = 0x32b58e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::*)(::GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(
     &::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::set_localPlayerSpecificSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b7f5c;
+  constexpr static std::size_t addrs = 0x32b58e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* (::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::*)()>(
     &::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::get_playersAtGameStartNetSerializable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b7f64;
+  constexpr static std::size_t addrs = 0x32b58f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::*)(::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*)>(
     &::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::set_playersAtGameStartNetSerializable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b7f6c;
+  constexpr static std::size_t addrs = 0x32b58f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::*)(
     ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(&::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x32b7f74;
+  constexpr static std::size_t addrs = 0x32b5900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerSpecificSettingsNetSerializable* (::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::*)(::StringW)>(
     &::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::GetPlayerSpecificSettingsForUserId)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x32b7fdc;
+  constexpr static std::size_t addrs = 0x32b5968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*>(),
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::*)(::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*)>(
     &::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::SaveFromNetSerializable)> {
   constexpr static std::size_t size = 0x404;
-  constexpr static std::size_t addrs = 0x32b8358;
+  constexpr static std::size_t addrs = 0x32b5ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

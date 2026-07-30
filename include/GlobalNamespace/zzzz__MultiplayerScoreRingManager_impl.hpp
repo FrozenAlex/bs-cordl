@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreRingManager::*)()>(&::GlobalNamespace::MultiplayerScoreRingManager::Start)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x59df61c;
+  constexpr static std::size_t addrs = 0x59ddc8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreRingManager*>(), { "Start", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreRingManager::*)()>(&::GlobalNamespace::MultiplayerScoreRingManager::OnDestroy)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x59dfd60;
+  constexpr static std::size_t addrs = 0x59de3d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreRingManager*>(), { "OnDestroy", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreRingManager::*)()>(&::GlobalNamespace::MultiplayerScoreRingManager::Update)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x59e0170;
+  constexpr static std::size_t addrs = 0x59de7e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreRingManager*>(), { "Update", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreRingManager::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerScoreRingManager::UpdateScore)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x59e0268;
+  constexpr static std::size_t addrs = 0x59de8d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreRingManager::*)(
     ::StringW, ::UnityEngine::Color, ::UnityEngine::Color, float_t, ::GlobalNamespace::EaseType)>(&::GlobalNamespace::MultiplayerScoreRingManager::AnimateColorsForPlayer)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x59e0474;
+  constexpr static std::size_t addrs = 0x59deae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> (::GlobalNamespace::MultiplayerScoreRingManager::*)(::StringW)>(
     &::GlobalNamespace::MultiplayerScoreRingManager::GetScoreRingItem)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x59d29b8;
+  constexpr static std::size_t addrs = 0x59d1028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::GameObject>> (::GlobalNamespace::MultiplayerScoreRingManager::*)()>(
     &::GlobalNamespace::MultiplayerScoreRingManager::GetScoreRingItems)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x59dacf8;
+  constexpr static std::size_t addrs = 0x59d9368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreRingManager*>(), { "GetScoreRingItems", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreRingManager::*)(::UnityEngine::Color, ::UnityEngine::Color, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::MultiplayerScoreRingManager::AnimateColorsForAllPlayers)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x59e0640;
+  constexpr static std::size_t addrs = 0x59decb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreRingManager::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerScoreRingManager::SetPlayerToFailedState)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x59e07e0;
+  constexpr static std::size_t addrs = 0x59dee50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreRingManager*>(),
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreRingManager::*)()>(&::GlobalNamespace::MultiplayerScoreRingManager::TrySpawnTexts)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59e0918;
+  constexpr static std::size_t addrs = 0x59def88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreRingManager*>(), { "TrySpawnTexts", {}, {} })));
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreRingManager::*)()>(&::GlobalNamespace::MultiplayerScoreRingManager::SpawnTexts)> {
   constexpr static std::size_t size = 0x5b0;
-  constexpr static std::size_t addrs = 0x59e0930;
+  constexpr static std::size_t addrs = 0x59defa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreRingManager*>(), { "SpawnTexts", {}, {} })));
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreRingManager::*)(::GlobalNamespace::MultiplayerController_State)>(
     &::GlobalNamespace::MultiplayerScoreRingManager::HandleStateChanged)> {
   constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x59df8ac;
+  constexpr static std::size_t addrs = 0x59ddf1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreRingManager*>(),
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreRingManager::*)(float_t)>(
     &::GlobalNamespace::MultiplayerScoreRingManager::HandleSpawnCenterDistanceWasFound)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59df87c;
+  constexpr static std::size_t addrs = 0x59ddeec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreRingManager::*)()>(&::GlobalNamespace::MultiplayerScoreRingManager::HandlePlayerSpawningDidFinish)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59df894;
+  constexpr static std::size_t addrs = 0x59ddf04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreRingManager::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerScoreRingManager::HandlePlayerStateChanged)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x59e0ee0;
+  constexpr static std::size_t addrs = 0x59df550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreRingManager*>(),
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreRingManager::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerScoreRingManager::HandlePlayerDisconnected)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59e0f20;
+  constexpr static std::size_t addrs = 0x59df590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreRingManager*>(),
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreRingManager::*)()>(&::GlobalNamespace::MultiplayerScoreRingManager::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x59e0f24;
+  constexpr static std::size_t addrs = 0x59df594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreRingManager*>(), { ".ctor", {}, {} })));

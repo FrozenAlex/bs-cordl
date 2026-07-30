@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::get_select)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f228;
+  constexpr static std::size_t addrs = 0x6a0cfc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::set_select)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f230;
+  constexpr static std::size_t addrs = 0x6a0cfcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand*>(),
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::get_selectPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f238;
+  constexpr static std::size_t addrs = 0x6a0cfd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::set_selectPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f240;
+  constexpr static std::size_t addrs = 0x6a0cfdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand*>(),
@@ -75,7 +75,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::get_squeeze)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f248;
+  constexpr static std::size_t addrs = 0x6a0cfe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::set_squeeze)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f250;
+  constexpr static std::size_t addrs = 0x6a0cfec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand*>(),
@@ -104,7 +104,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::get_squeezePressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f258;
+  constexpr static std::size_t addrs = 0x6a0cff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::set_squeezePressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f260;
+  constexpr static std::size_t addrs = 0x6a0cffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand*>(),
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::Input::PoseControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::get_devicePose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f268;
+  constexpr static std::size_t addrs = 0x6a0d004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)(
     ::UnityEngine::XR::OpenXR::Input::PoseControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::set_devicePose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f270;
+  constexpr static std::size_t addrs = 0x6a0d00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand*>(),
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::Input::PoseControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::get_pointer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f278;
+  constexpr static std::size_t addrs = 0x6a0d014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)(
     ::UnityEngine::XR::OpenXR::Input::PoseControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::set_pointer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f280;
+  constexpr static std::size_t addrs = 0x6a0d01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand*>(),
@@ -189,7 +189,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::get_isTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f288;
+  constexpr static std::size_t addrs = 0x6a0d024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::set_isTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f290;
+  constexpr static std::size_t addrs = 0x6a0d02c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand*>(),
@@ -218,7 +218,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::IntegerControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::get_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f298;
+  constexpr static std::size_t addrs = 0x6a0d034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)(
     ::UnityEngine::InputSystem::Controls::IntegerControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::set_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f2a0;
+  constexpr static std::size_t addrs = 0x6a0d03c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand*>(),
@@ -247,7 +247,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::get_devicePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f2a8;
+  constexpr static std::size_t addrs = 0x6a0d044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)(
     ::UnityEngine::InputSystem::Controls::Vector3Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::set_devicePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f2b0;
+  constexpr static std::size_t addrs = 0x6a0d04c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand*>(),
@@ -276,7 +276,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::get_deviceRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f2b8;
+  constexpr static std::size_t addrs = 0x6a0d054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)(
     ::UnityEngine::InputSystem::Controls::QuaternionControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::set_deviceRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f2c0;
+  constexpr static std::size_t addrs = 0x6a0d05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::get_pointerPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f2c8;
+  constexpr static std::size_t addrs = 0x6a0d064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)(
     ::UnityEngine::InputSystem::Controls::Vector3Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::set_pointerPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f2d0;
+  constexpr static std::size_t addrs = 0x6a0d06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -336,7 +336,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::get_pointerRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f2d8;
+  constexpr static std::size_t addrs = 0x6a0d074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)(
     ::UnityEngine::InputSystem::Controls::QuaternionControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::set_pointerRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a0f2e0;
+  constexpr static std::size_t addrs = 0x6a0d07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::FinishSetup)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x6a0f2e8;
+  constexpr static std::size_t addrs = 0x6a0d084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6a0f5c0;
+  constexpr static std::size_t addrs = 0x6a0d35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -708,7 +708,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction::RegisterDeviceLayout)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6a0e0e0;
+  constexpr static std::size_t addrs = 0x6a0be7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction*>(),
@@ -722,7 +722,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction::UnregisterDeviceLayout)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6a0e228;
+  constexpr static std::size_t addrs = 0x6a0bfc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction*>(),
@@ -736,7 +736,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction::GetDeviceLayoutName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a0e298;
+  constexpr static std::size_t addrs = 0x6a0c034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction*>(),
@@ -750,7 +750,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction::RegisterActionMapsWithRuntime)> {
   constexpr static std::size_t size = 0xef0;
-  constexpr static std::size_t addrs = 0x6a0e2dc;
+  constexpr static std::size_t addrs = 0x6a0c078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction*>(),
@@ -764,7 +764,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6a0f1cc;
+  constexpr static std::size_t addrs = 0x6a0cf68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -32,13 +32,13 @@ public:
 
   static inline ::System::MethodAccessException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5c48d30, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c46a9c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5c48db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c46b20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5c48d90, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c46afc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

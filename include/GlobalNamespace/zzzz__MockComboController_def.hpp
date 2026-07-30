@@ -52,22 +52,22 @@ public:
 
   constexpr void __cordl_internal_set_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x59edab4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ec1a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x59ed95c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x59ec050, size 0xac, virtual true, abstract: false, final true
   inline void add_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method add_comboDidChangeEvent, addr 0x59ed7dc, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_comboDidChangeEvent, addr 0x59ebed0, size 0xc0, virtual true, abstract: false, final true
   inline void add_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
   /// @brief Convert to "::GlobalNamespace::IComboController"
   constexpr ::GlobalNamespace::IComboController* i___GlobalNamespace__IComboController() noexcept;
 
-  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x59eda08, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x59ec0fc, size 0xac, virtual true, abstract: false, final true
   inline void remove_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method remove_comboDidChangeEvent, addr 0x59ed89c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_comboDidChangeEvent, addr 0x59ebf90, size 0xc0, virtual true, abstract: false, final true
   inline void remove_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
 protected:

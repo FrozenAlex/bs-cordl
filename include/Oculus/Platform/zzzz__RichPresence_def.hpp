@@ -31,16 +31,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE RichPresence : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x5de8948, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x5de66b4, size 0x144, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* Clear();
 
-  /// @brief Method GetDestinations, addr 0x5de8a8c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetDestinations, addr 0x5de67f8, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetDestinations();
 
-  /// @brief Method GetNextDestinationListPage, addr 0x5de8d4c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method GetNextDestinationListPage, addr 0x5de6ab8, size 0x1f0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetNextDestinationListPage(::Oculus::Platform::Models::DestinationList* list);
 
-  /// @brief Method Set, addr 0x5de8be4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x5de6950, size 0x15c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* Set(::Oculus::Platform::RichPresenceOptions* richPresenceOptions);
 
 protected:
@@ -58,7 +58,7 @@ public:
   RichPresence(RichPresence const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17934 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

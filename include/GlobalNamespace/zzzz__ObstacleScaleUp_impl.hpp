@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleScaleUp::*)()>(&::GlobalNamespace::ObstacleScaleUp::Awake)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x58dd264;
+  constexpr static std::size_t addrs = 0x58db73c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleScaleUp*>(), { "Awake", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleScaleUp::*)()>(&::GlobalNamespace::ObstacleScaleUp::OnDestroy)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x58dd434;
+  constexpr static std::size_t addrs = 0x58db90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleScaleUp*>(), { "OnDestroy", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleScaleUp::*)(float_t)>(&::GlobalNamespace::ObstacleScaleUp::UpdateScale)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x58dd2fc;
+  constexpr static std::size_t addrs = 0x58db7d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleScaleUp::*)(::GlobalNamespace::ObstacleController*, float_t)>(
     &::GlobalNamespace::ObstacleScaleUp::HandleObstacleControllerDidUpdateProgress)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x58dd56c;
+  constexpr static std::size_t addrs = 0x58dba44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleScaleUp::*)(::GlobalNamespace::ObstacleControllerBase*)>(
     &::GlobalNamespace::ObstacleScaleUp::HandleObstacleControllerDidInit)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x58dd6a0;
+  constexpr static std::size_t addrs = 0x58dbb78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleScaleUp::*)()>(&::GlobalNamespace::ObstacleScaleUp::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58dd770;
+  constexpr static std::size_t addrs = 0x58dbc48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleScaleUp*>(), { ".ctor", {}, {} })));

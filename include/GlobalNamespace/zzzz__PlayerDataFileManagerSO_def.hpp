@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__buildInSongPackSerializedName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3744318, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3742d58, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allSongPackSerializedName, addr 0x3744310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allSongPackSerializedName, addr 0x3742d50, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_allSongPackSerializedName();
 
-  /// @brief Method get_buildInSongPackSerializedName, addr 0x3744308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buildInSongPackSerializedName, addr 0x3742d48, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_buildInSongPackSerializedName();
 
 protected:
@@ -68,7 +68,7 @@ public:
   PlayerDataFileManagerSO(PlayerDataFileManagerSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15130 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15128 };
 
   /// @brief Field _buildInSongPackSerializedName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____buildInSongPackSerializedName;

@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsNavigationController::*)(::System::Action_1<::GlobalNamespace::SettingsNavigationController_FinishAction>*)>(
     &::GlobalNamespace::SettingsNavigationController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a1bfd0;
+  constexpr static std::size_t addrs = 0x5a1a3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsNavigationController::*)(::System::Action_1<::GlobalNamespace::SettingsNavigationController_FinishAction>*)>(
     &::GlobalNamespace::SettingsNavigationController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a1c090;
+  constexpr static std::size_t addrs = 0x5a1a4bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsNavigationController::*)(bool, bool, bool)>(&::GlobalNamespace::SettingsNavigationController::DidActivate)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x5a1c150;
+  constexpr static std::size_t addrs = 0x5a1a57c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsNavigationController::*)(::GlobalNamespace::SettingsNavigationController_FinishAction)>(
     &::GlobalNamespace::SettingsNavigationController::HandleFinishButton)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a1c310;
+  constexpr static std::size_t addrs = 0x5a1a73c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsNavigationController::*)()>(&::GlobalNamespace::SettingsNavigationController::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a1c32c;
+  constexpr static std::size_t addrs = 0x5a1a758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsNavigationController*>(), { ".ctor", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsNavigationController::*)()>(&::GlobalNamespace::SettingsNavigationController::_DidActivate_b__7_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a1c338;
+  constexpr static std::size_t addrs = 0x5a1a764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsNavigationController*>(), { "<DidActivate>b__7_0", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsNavigationController::*)()>(&::GlobalNamespace::SettingsNavigationController::_DidActivate_b__7_1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a1c358;
+  constexpr static std::size_t addrs = 0x5a1a784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsNavigationController*>(), { "<DidActivate>b__7_1", {}, {} })));
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsNavigationController::*)()>(&::GlobalNamespace::SettingsNavigationController::_DidActivate_b__7_2)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a1c378;
+  constexpr static std::size_t addrs = 0x5a1a7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsNavigationController*>(), { "<DidActivate>b__7_2", {}, {} })));

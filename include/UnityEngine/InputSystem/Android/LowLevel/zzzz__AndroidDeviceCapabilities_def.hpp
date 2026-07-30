@@ -47,10 +47,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities___c* New_ctor();
 
-  /// @brief Method <ToString>b__8_0, addr 0x65a7674, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__8_0, addr 0x65a5410, size 0x68, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__8_0(::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis i);
 
-  /// @brief Method .ctor, addr 0x65a7670, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65a540c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities___c* getStaticF___9();
@@ -93,13 +93,13 @@ public:
   // Declarations
   using __c = ::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities___c;
 
-  /// @brief Method FromJson, addr 0x65a7064, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x65a4e00, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities FromJson(::StringW json);
 
-  /// @brief Method ToJson, addr 0x65a7240, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x65a4fdc, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW ToJson();
 
-  /// @brief Method ToString, addr 0x65a72ac, size 0x370, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x65a5048, size 0x370, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []

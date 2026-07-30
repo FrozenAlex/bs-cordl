@@ -24,34 +24,34 @@ public:
   /// @brief Field _xrSession, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__xrSession, put = setStaticF__xrSession)) uint64_t _xrSession;
 
-  /// @brief Method MetaGetEyeTrackedFoveationSupported, addr 0x5e4d50c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method MetaGetEyeTrackedFoveationSupported, addr 0x5e4b278, size 0x90, virtual false, abstract: false, final false
   static inline void MetaGetEyeTrackedFoveationSupported(::by_ref<bool> supported);
 
-  /// @brief Method MetaGetFoveationEyeTracked, addr 0x5e4d388, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method MetaGetFoveationEyeTracked, addr 0x5e4b0f4, size 0x90, virtual false, abstract: false, final false
   static inline void MetaGetFoveationEyeTracked(::by_ref<bool> isEyeTracked);
 
-  /// @brief Method MetaSetFoveationEyeTracked, addr 0x5e4d46c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method MetaSetFoveationEyeTracked, addr 0x5e4b1d8, size 0x84, virtual false, abstract: false, final false
   static inline void MetaSetFoveationEyeTracked(uint64_t session, bool isEyeTracked);
 
   static inline ::Meta::XR::MetaXREyeTrackedFoveationFeature* New_ctor();
 
-  /// @brief Method OnSessionCreate, addr 0x5e4d31c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnSessionCreate, addr 0x5e4b088, size 0x50, virtual true, abstract: false, final false
   inline void OnSessionCreate(uint64_t xrSession);
 
-  /// @brief Method .ctor, addr 0x5e4d59c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4b308, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline uint64_t getStaticF__xrSession();
 
-  /// @brief Method get_eyeTrackedFoveatedRenderingEnabled, addr 0x5e4d36c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTrackedFoveatedRenderingEnabled, addr 0x5e4b0d8, size 0x1c, virtual false, abstract: false, final false
   static inline bool get_eyeTrackedFoveatedRenderingEnabled();
 
-  /// @brief Method get_eyeTrackedFoveatedRenderingSupported, addr 0x5e4d4f0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTrackedFoveatedRenderingSupported, addr 0x5e4b25c, size 0x1c, virtual false, abstract: false, final false
   static inline bool get_eyeTrackedFoveatedRenderingSupported();
 
   static inline void setStaticF__xrSession(uint64_t value);
 
-  /// @brief Method set_eyeTrackedFoveatedRenderingEnabled, addr 0x5e4d418, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_eyeTrackedFoveatedRenderingEnabled, addr 0x5e4b184, size 0x54, virtual false, abstract: false, final false
   static inline void set_eyeTrackedFoveatedRenderingEnabled(bool value);
 
 protected:

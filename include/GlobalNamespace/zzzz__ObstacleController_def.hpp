@@ -157,7 +157,7 @@ public:
 
   static inline ::GlobalNamespace::ObstacleController_Pool* New_ctor();
 
-  /// @brief Method OnCreated, addr 0x58dcb24, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method OnCreated, addr 0x58daffc, size 0x94, virtual true, abstract: false, final false
   inline void OnCreated(::GlobalNamespace::ObstacleController* item);
 
   constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
@@ -166,7 +166,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x58dcbb8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58db090, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -229,21 +229,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x58dcbf8, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58db0d0, size 0xe0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58dccd8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58db1b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58dcce0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58db1b8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58dcd18, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58db1f0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x58dcbf4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x58db0cc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -270,7 +270,7 @@ public:
 
   constexpr void __cordl_internal_set_duration(float_t value);
 
-  /// @brief Method .ctor, addr 0x58dc9d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58daeac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -457,36 +457,36 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapObjectController"
   constexpr operator ::GlobalNamespace::IBeatmapObjectController*() noexcept;
 
-  /// @brief Method Dissolve, addr 0x58dc9dc, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Dissolve, addr 0x58daeb4, size 0x34, virtual true, abstract: false, final true
   inline void Dissolve(float_t duration);
 
-  /// @brief Method DissolveCoroutine, addr 0x58dc970, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method DissolveCoroutine, addr 0x58dae48, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DissolveCoroutine(float_t duration);
 
-  /// @brief Method GetObstacleLength, addr 0x58dc834, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetObstacleLength, addr 0x58dad0c, size 0x13c, virtual false, abstract: false, final false
   inline float_t GetObstacleLength();
 
-  /// @brief Method GetPosForTime, addr 0x58dc5a0, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method GetPosForTime, addr 0x58daa78, size 0x294, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPosForTime(float_t time);
 
-  /// @brief Method Hide, addr 0x58c9d3c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Hide, addr 0x58c8214, size 0x64, virtual true, abstract: false, final true
   inline void Hide(bool hide);
 
-  /// @brief Method Init, addr 0x58dbf98, size 0x4b8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x58da470, size 0x4b8, virtual true, abstract: false, final false
   inline void Init(::GlobalNamespace::ObstacleData* obstacleData, ::by_ref<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData);
 
-  /// @brief Method InitGraphics, addr 0x58dc450, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method InitGraphics, addr 0x58da928, size 0x110, virtual false, abstract: false, final false
   inline void InitGraphics(::BeatSaber::Settings::Settings settings);
 
-  /// @brief Method ManualUpdate, addr 0x58c9524, size 0x818, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x58c79fc, size 0x818, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::GlobalNamespace::ObstacleController* New_ctor();
 
-  /// @brief Method Pause, addr 0x58dca10, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Pause, addr 0x58daee8, size 0x10, virtual true, abstract: false, final true
   inline void Pause(bool pause);
 
-  /// @brief Method Update, addr 0x58dc59c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x58daa74, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSyncController() const;
@@ -675,64 +675,64 @@ public:
 
   constexpr void __cordl_internal_set_passedThreeQuartersOfJumpDurationEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  /// @brief Method .ctor, addr 0x58dca20, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58daef8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didDissolveEvent, addr 0x58cabe0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didDissolveEvent, addr 0x58c90b8, size 0xc0, virtual false, abstract: false, final false
   inline void add_didDissolveEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  /// @brief Method add_didUpdateProgress, addr 0x58dbdd0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didUpdateProgress, addr 0x58da2a8, size 0xc0, virtual false, abstract: false, final false
   inline void add_didUpdateProgress(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* value);
 
-  /// @brief Method add_finishedMovementEvent, addr 0x58ca9a0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_finishedMovementEvent, addr 0x58c8e78, size 0xc0, virtual false, abstract: false, final false
   inline void add_finishedMovementEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  /// @brief Method add_passedAvoidedMarkEvent, addr 0x58cab20, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_passedAvoidedMarkEvent, addr 0x58c8ff8, size 0xc0, virtual false, abstract: false, final false
   inline void add_passedAvoidedMarkEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  /// @brief Method add_passedThreeQuartersOfJumpDurationEvent, addr 0x58caa60, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_passedThreeQuartersOfJumpDurationEvent, addr 0x58c8f38, size 0xc0, virtual false, abstract: false, final false
   inline void add_passedThreeQuartersOfJumpDurationEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  /// @brief Method get_bounds, addr 0x58dbf50, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_bounds, addr 0x58da428, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
 
-  /// @brief Method get_color, addr 0x58dbf8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x58da464, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_hasPassedAvoidedMark, addr 0x58dbf6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasPassedAvoidedMark, addr 0x58da444, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasPassedAvoidedMark();
 
-  /// @brief Method get_height, addr 0x58dbf7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x58da454, size 0x8, virtual false, abstract: false, final false
   inline float_t get_height();
 
-  /// @brief Method get_length, addr 0x58dbf84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x58da45c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_length();
 
-  /// @brief Method get_manualUvOffset, addr 0x58dbb10, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_manualUvOffset, addr 0x58d9fe8, size 0xa4, virtual false, abstract: false, final false
   inline float_t get_manualUvOffset();
 
-  /// @brief Method get_obstacleData, addr 0x58dbf64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_obstacleData, addr 0x58da43c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ObstacleData* get_obstacleData();
 
-  /// @brief Method get_width, addr 0x58dbf74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x58da44c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_width();
 
   /// @brief Convert to "::GlobalNamespace::IBeatmapObjectController"
   constexpr ::GlobalNamespace::IBeatmapObjectController* i___GlobalNamespace__IBeatmapObjectController() noexcept;
 
-  /// @brief Method remove_didDissolveEvent, addr 0x58cb034, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didDissolveEvent, addr 0x58c950c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didDissolveEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  /// @brief Method remove_didUpdateProgress, addr 0x58dbe90, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didUpdateProgress, addr 0x58da368, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didUpdateProgress(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* value);
 
-  /// @brief Method remove_finishedMovementEvent, addr 0x58cadf4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_finishedMovementEvent, addr 0x58c92cc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_finishedMovementEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  /// @brief Method remove_passedAvoidedMarkEvent, addr 0x58caf74, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_passedAvoidedMarkEvent, addr 0x58c944c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_passedAvoidedMarkEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  /// @brief Method remove_passedThreeQuartersOfJumpDurationEvent, addr 0x58caeb4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_passedThreeQuartersOfJumpDurationEvent, addr 0x58c938c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_passedThreeQuartersOfJumpDurationEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
 protected:

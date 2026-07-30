@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::*)(
     ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*, ::GlobalNamespace::NodePoseSyncStateManager*)>(&::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::_ctor)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x59c6110;
+  constexpr static std::size_t addrs = 0x59c4780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::*)()>(&::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::Init)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59c8354;
+  constexpr static std::size_t addrs = 0x59c69c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror*>(),
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::*)()>(&::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::Dispose)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x59c8358;
+  constexpr static std::size_t addrs = 0x59c69c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror*>(),
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::*)()>(&::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::Tick)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x59c842c;
+  constexpr static std::size_t addrs = 0x59c6a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror*>(),
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::*)()>(&::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::FindPlayerToMirror)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x59c84f0;
+  constexpr static std::size_t addrs = 0x59c6b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::*)(
     ::BeatSaber::AvatarCore::OptionalAvatarDataPacket*, ::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::HandleOptionalAvatarDataReceived)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x59c8870;
+  constexpr static std::size_t addrs = 0x59c6ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

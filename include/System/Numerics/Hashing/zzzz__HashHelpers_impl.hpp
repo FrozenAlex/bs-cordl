@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::System::Numerics::Hashing::HashHelpers::Combine)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x60cce4c;
+  constexpr static std::size_t addrs = 0x5b8fb88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PerformanceConfigurationChecks::*)()>(&::GlobalNamespace::PerformanceConfigurationChecks::IsValid)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x58ef358;
+  constexpr static std::size_t addrs = 0x58ed8c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationChecks*>(), { "IsValid", {}, {} })));
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PerformanceConfigurationChecks::*)()>(&::GlobalNamespace::PerformanceConfigurationChecks::CreateErrorLog)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x58ef3b4;
+  constexpr static std::size_t addrs = 0x58ed924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationChecks*>(), { "CreateErrorLog", {}, {} })));
@@ -138,7 +138,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
     ::by_ref<::BeatSaber::Settings::Settings>, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayModifierMask, ::BeatSaber::Automation::RecPlayBehaviourState*)>(
     &::GlobalNamespace::PerformanceConfigurationChecks::SetExpected)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x58ef5f8;
+  constexpr static std::size_t addrs = 0x58edb68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
     ::by_ref<::BeatSaber::Settings::Settings>, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayModifierMask, ::BeatSaber::Automation::RecPlayBehaviourState*)>(
     &::GlobalNamespace::PerformanceConfigurationChecks::VerifyExpected)> {
   constexpr static std::size_t size = 0x1560;
-  constexpr static std::size_t addrs = 0x58ef970;
+  constexpr static std::size_t addrs = 0x58edee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceConfigurationChecks::*)()>(&::GlobalNamespace::PerformanceConfigurationChecks::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x58f0ed0;
+  constexpr static std::size_t addrs = 0x58ef440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceConfigurationChecks*>(), { ".ctor", {}, {} })));

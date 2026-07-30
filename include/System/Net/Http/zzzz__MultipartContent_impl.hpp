@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MultipartContent__SerializeToStreamAsync_d__8::*)()>(
     &::System::Net::Http::MultipartContent__SerializeToStreamAsync_d__8::MoveNext)> {
   constexpr static std::size_t size = 0xd58;
-  constexpr static std::size_t addrs = 0x60db3e4;
+  constexpr static std::size_t addrs = 0x60d9180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MultipartContent__SerializeToStreamAsync_d__8::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::System::Net::Http::MultipartContent__SerializeToStreamAsync_d__8::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x60dc13c;
+  constexpr static std::size_t addrs = 0x60d9ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::MultipartContent__SerializeToStreamAsync_d__8>(),
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MultipartContent::*)(::StringW)>(&::System::Net::Http::MultipartContent::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x60da420;
+  constexpr static std::size_t addrs = 0x60d81bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MultipartContent::*)(::StringW, ::StringW)>(&::System::Net::Http::MultipartContent::_ctor)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x60da4d8;
+  constexpr static std::size_t addrs = 0x60d8274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::System::Net::Http::MultipartContent::IsValidRFC2049)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x60da7e8;
+  constexpr static std::size_t addrs = 0x60d8584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MultipartContent::*)(::System::Net::Http::HttpContent*)>(&::System::Net::Http::MultipartContent::Add)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x60da944;
+  constexpr static std::size_t addrs = 0x60d86e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::MultipartContent::*)(bool)>(&::System::Net::Http::MultipartContent::Dispose)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x60daa94;
+  constexpr static std::size_t addrs = 0x60d8830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::Http::MultipartContent::*)(::System::IO::Stream*, ::System::Net::TransportContext*)>(
     &::System::Net::Http::MultipartContent::SerializeToStreamAsync)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x60dabf0;
+  constexpr static std::size_t addrs = 0x60d898c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::MultipartContent::*)(::by_ref<int64_t>)>(&::System::Net::Http::MultipartContent::TryComputeLength)> {
   constexpr static std::size_t size = 0x618;
-  constexpr static std::size_t addrs = 0x60dacbc;
+  constexpr static std::size_t addrs = 0x60d8a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Net::Http::HttpContent*>* (::System::Net::Http::MultipartContent::*)()>(
     &::System::Net::Http::MultipartContent::GetEnumerator)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x60db2d4;
+  constexpr static std::size_t addrs = 0x60d9070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::MultipartContent*>(), { "GetEnumerator", {}, {} })));
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Net::Http::MultipartContent::*)()>(
     &::System::Net::Http::MultipartContent::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x60db35c;
+  constexpr static std::size_t addrs = 0x60d90f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

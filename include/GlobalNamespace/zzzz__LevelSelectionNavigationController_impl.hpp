@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*)>(
     &::GlobalNamespace::LevelSelectionNavigationController::add_didChangeLevelDetailContentEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5959788;
+  constexpr static std::size_t addrs = 0x5957f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>*)>(
     &::GlobalNamespace::LevelSelectionNavigationController::remove_didChangeLevelDetailContentEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5959848;
+  constexpr static std::size_t addrs = 0x5958030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>*)>(
     &::GlobalNamespace::LevelSelectionNavigationController::add_didSelectLevelPackEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5959908;
+  constexpr static std::size_t addrs = 0x59580f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>*)>(
     &::GlobalNamespace::LevelSelectionNavigationController::remove_didSelectLevelPackEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59599c8;
+  constexpr static std::size_t addrs = 0x59581b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>*)>(&::GlobalNamespace::LevelSelectionNavigationController::add_didPressActionButtonEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5959a88;
+  constexpr static std::size_t addrs = 0x5958270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>*)>(&::GlobalNamespace::LevelSelectionNavigationController::remove_didPressActionButtonEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5959b48;
+  constexpr static std::size_t addrs = 0x5958330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>*)>(
     &::GlobalNamespace::LevelSelectionNavigationController::add_didPressPracticeButtonEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5959c08;
+  constexpr static std::size_t addrs = 0x59583f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>*)>(
     &::GlobalNamespace::LevelSelectionNavigationController::remove_didPressPracticeButtonEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5959cc8;
+  constexpr static std::size_t addrs = 0x59584b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>*)>(&::GlobalNamespace::LevelSelectionNavigationController::add_didChangeDifficultyBeatmapEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5959d88;
+  constexpr static std::size_t addrs = 0x5958570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::LevelSelectionNavigationController>>*)>(&::GlobalNamespace::LevelSelectionNavigationController::remove_didChangeDifficultyBeatmapEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5959e48;
+  constexpr static std::size_t addrs = 0x5958630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory (::GlobalNamespace::LevelSelectionNavigationController::*)()>(
     &::GlobalNamespace::LevelSelectionNavigationController::get_selectedLevelCategory)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5959f08;
+  constexpr static std::size_t addrs = 0x59586f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapLevelPack* (::GlobalNamespace::LevelSelectionNavigationController::*)()>(
     &::GlobalNamespace::LevelSelectionNavigationController::get_selectedBeatmapLevelPack)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5959f28;
+  constexpr static std::size_t addrs = 0x5958710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::LevelSelectionNavigationController::*)()>(
     &::GlobalNamespace::LevelSelectionNavigationController::get_beatmapKey)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5959f4c;
+  constexpr static std::size_t addrs = 0x5958734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelSelectionNavigationController*>(), { "get_beatmapKey", {}, {} })));
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapLevel* (::GlobalNamespace::LevelSelectionNavigationController::*)()>(
     &::GlobalNamespace::LevelSelectionNavigationController::get_beatmapLevel)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5959f64;
+  constexpr static std::size_t addrs = 0x595874c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelSelectionNavigationController*>(), { "get_beatmapLevel", {}, {} })));
@@ -255,7 +255,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::SongPackMask, ::GlobalNamespace::BeatmapDifficultyMask, ::ArrayW<::GlobalNamespace::BeatmapCharacteristic>, bool, bool, ::StringW, ::GlobalNamespace::BeatmapLevelPack*,
     ::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory, ::GlobalNamespace::BeatmapLevel*, bool)>(&::GlobalNamespace::LevelSelectionNavigationController::Setup)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5959f88;
+  constexpr static std::size_t addrs = 0x5958770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(bool, bool, bool)>(
     &::GlobalNamespace::LevelSelectionNavigationController::DidActivate)> {
   constexpr static std::size_t size = 0x4f8;
-  constexpr static std::size_t addrs = 0x595a004;
+  constexpr static std::size_t addrs = 0x59587ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelSelectionNavigationController*>(),
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(bool, bool)>(
     &::GlobalNamespace::LevelSelectionNavigationController::DidDeactivate)> {
   constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x595a4fc;
+  constexpr static std::size_t addrs = 0x5958ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelSelectionNavigationController*>(),
@@ -304,7 +304,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                                        ::GlobalNamespace::StandardLevelDetailViewController_ContentType)>(
     &::GlobalNamespace::LevelSelectionNavigationController::HandleLevelCollectionNavigationControllerDidChangeLevelDetailContent)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x595a960;
+  constexpr static std::size_t addrs = 0x5959148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -323,7 +323,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(::GlobalNamespace::LevelCollectionNavigationController*, ::GlobalNamespace::BeatmapLevel*)>(
         &::GlobalNamespace::LevelSelectionNavigationController::HandleLevelCollectionNavigationControllerDidPressPracticeButton)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x595a980;
+  constexpr static std::size_t addrs = 0x5959168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(::GlobalNamespace::LevelCollectionNavigationController*)>(
     &::GlobalNamespace::LevelSelectionNavigationController::HandleLevelCollectionNavigationControllerDidPressActionButton)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x595a9a8;
+  constexpr static std::size_t addrs = 0x5959190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -357,7 +357,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(::GlobalNamespace::LevelCollectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*)>(
         &::GlobalNamespace::LevelSelectionNavigationController::HandleLevelCollectionNavigationControllerDidSelectPack)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x595a9d0;
+  constexpr static std::size_t addrs = 0x59591b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(::GlobalNamespace::LevelCollectionNavigationController*)>(
     &::GlobalNamespace::LevelSelectionNavigationController::HandleLevelCollectionNavigationControllerDidChangeDifficultyBeatmap)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x595a9f0;
+  constexpr static std::size_t addrs = 0x59591d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -391,7 +391,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(::GlobalNamespace::LevelCollectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*)>(
         &::GlobalNamespace::LevelSelectionNavigationController::HandleLevelCollectionNavigationControllerDidPressOpenPackButton)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x595aa10;
+  constexpr static std::size_t addrs = 0x59591f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -407,7 +407,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)()>(&::GlobalNamespace::LevelSelectionNavigationController::RefreshDetail)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x595aa28;
+  constexpr static std::size_t addrs = 0x5959210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelSelectionNavigationController*>(), { "RefreshDetail", {}, {} })));
@@ -419,7 +419,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)()>(&::GlobalNamespace::LevelSelectionNavigationController::ClearSelected)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x595aa40;
+  constexpr static std::size_t addrs = 0x5959228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelSelectionNavigationController*>(), { "ClearSelected", {}, {} })));
@@ -432,7 +432,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)()>(
     &::GlobalNamespace::LevelSelectionNavigationController::HandleLevelFilteringNavigationControllerDidOpenBeatmapLevelCollections)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x595aa58;
+  constexpr static std::size_t addrs = 0x5959240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelSelectionNavigationController*>(),
@@ -446,7 +446,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)()>(
     &::GlobalNamespace::LevelSelectionNavigationController::HandleLevelFilteringNavigationControllerDidCloseBeatmapLevelCollections)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x595aa74;
+  constexpr static std::size_t addrs = 0x595925c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelSelectionNavigationController*>(),
@@ -461,7 +461,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::LevelFilteringNavigationController*, ::GlobalNamespace::BeatmapLevelPack*, ::UnityEngine::GameObject*, ::GlobalNamespace::LevelSelectionOptions)>(
     &::GlobalNamespace::LevelSelectionNavigationController::HandleLevelFilteringNavigationControllerDidSelectBeatmapLevelPack)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x595aa90;
+  constexpr static std::size_t addrs = 0x5959278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -479,7 +479,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(::GlobalNamespace::LevelFilteringNavigationController*)>(
     &::GlobalNamespace::LevelSelectionNavigationController::HandleLevelFilteringNavigationControllerDidStartLoading)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x595abc0;
+  constexpr static std::size_t addrs = 0x59593a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -494,7 +494,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)(::GlobalNamespace::LevelFilteringNavigationController*)>(
     &::GlobalNamespace::LevelSelectionNavigationController::HandleLevelFilteringNavigationControllerDidPressAllSongs)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x595abd8;
+  constexpr static std::size_t addrs = 0x59593c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -508,7 +508,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelSelectionNavigationController::*)()>(&::GlobalNamespace::LevelSelectionNavigationController::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x595abf0;
+  constexpr static std::size_t addrs = 0x59593d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelSelectionNavigationController*>(), { ".ctor", {}, {} })));

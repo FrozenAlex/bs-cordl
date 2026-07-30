@@ -91,10 +91,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BlockLevelGameplayAnalyticsEventsCache_GoodHitBlockData {
 public:
   // Declarations
-  /// @brief Method WriteFieldsToJson, addr 0x59ec140, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method WriteFieldsToJson, addr 0x59ea834, size 0xa0, virtual false, abstract: false, final false
   inline void WriteFieldsToJson(::Newtonsoft::Json::JsonWriter* jsonWriter);
 
-  /// @brief Method .ctor, addr 0x59eaf10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e9604, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, float_t score, uint8_t colorType, uint8_t gameplayType, ::System::Nullable_1<uint8_t> lineIndex, ::System::Nullable_1<uint8_t> lineLayer);
 
   // Ctor Parameters []
@@ -156,10 +156,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BlockLevelGameplayAnalyticsEventsCache_BadHitBlockData {
 public:
   // Declarations
-  /// @brief Method WriteFieldsToJson, addr 0x59ec0a0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method WriteFieldsToJson, addr 0x59ea794, size 0xa0, virtual false, abstract: false, final false
   inline void WriteFieldsToJson(::Newtonsoft::Json::JsonWriter* jsonWriter);
 
-  /// @brief Method .ctor, addr 0x59eb0d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e97cc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, uint8_t failReason, uint8_t colorType, uint8_t gameplayType, ::System::Nullable_1<uint8_t> lineIndex, ::System::Nullable_1<uint8_t> lineLayer);
 
   // Ctor Parameters []
@@ -221,10 +221,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BlockLevelGameplayAnalyticsEventsCache_MissedBlockData {
 public:
   // Declarations
-  /// @brief Method WriteFieldsToJson, addr 0x59ebf30, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WriteFieldsToJson, addr 0x59ea624, size 0x20, virtual false, abstract: false, final false
   inline void WriteFieldsToJson(::Newtonsoft::Json::JsonWriter* jsonWriter);
 
-  /// @brief Method .ctor, addr 0x59eb27c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e9970, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, uint8_t colorType, uint8_t gameplayType, ::System::Nullable_1<uint8_t> lineIndex, ::System::Nullable_1<uint8_t> lineLayer);
 
   // Ctor Parameters []
@@ -281,10 +281,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BlockLevelGameplayAnalyticsEventsCache_BombHitData {
 public:
   // Declarations
-  /// @brief Method WriteFieldsToJson, addr 0x59ebf50, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method WriteFieldsToJson, addr 0x59ea644, size 0x84, virtual false, abstract: false, final false
   inline void WriteFieldsToJson(::Newtonsoft::Json::JsonWriter* jsonWriter);
 
-  /// @brief Method .ctor, addr 0x59ec40c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59eab00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t beat);
 
   // Ctor Parameters []
@@ -318,10 +318,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BlockLevelGameplayAnalyticsEventsCache_ObstacleHitData {
 public:
   // Declarations
-  /// @brief Method WriteFieldsToJson, addr 0x59ebfd4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method WriteFieldsToJson, addr 0x59ea6c8, size 0xcc, virtual false, abstract: false, final false
   inline void WriteFieldsToJson(::Newtonsoft::Json::JsonWriter* jsonWriter);
 
-  /// @brief Method .ctor, addr 0x59eb404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e9af8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, float_t duration);
 
   // Ctor Parameters []
@@ -393,53 +393,53 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache"
   constexpr operator ::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache*() noexcept;
 
-  /// @brief Method AddBadCut, addr 0x59eaf28, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method AddBadCut, addr 0x59e961c, size 0x1b0, virtual true, abstract: false, final true
   inline void AddBadCut(float_t beat, ::GlobalNamespace::NoteCutInfo_FailReason failReason, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteData_GameplayType gameplayType,
                         ::System::Nullable_1<int32_t> lineIndex, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> lineLayer);
 
-  /// @brief Method AddBlockMiss, addr 0x59eb0f4, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method AddBlockMiss, addr 0x59e97e8, size 0x188, virtual true, abstract: false, final true
   inline void AddBlockMiss(float_t beat, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteData_GameplayType gameplayType, ::System::Nullable_1<int32_t> lineIndex,
                            ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> lineLayer);
 
-  /// @brief Method AddBombCut, addr 0x59eb294, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method AddBombCut, addr 0x59e9988, size 0xb4, virtual true, abstract: false, final true
   inline void AddBombCut(float_t beat);
 
-  /// @brief Method AddGoodCut, addr 0x59ead8c, size 0x184, virtual true, abstract: false, final true
+  /// @brief Method AddGoodCut, addr 0x59e9480, size 0x184, virtual true, abstract: false, final true
   inline void AddGoodCut(float_t beat, float_t score, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteData_GameplayType gameplayType, ::System::Nullable_1<int32_t> lineIndex,
                          ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> lineLayer);
 
-  /// @brief Method AddObstacleHit, addr 0x59eb348, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method AddObstacleHit, addr 0x59e9a3c, size 0xbc, virtual true, abstract: false, final true
   inline void AddObstacleHit(float_t beat, float_t duration);
 
-  /// @brief Method IsEmpty, addr 0x59ebe34, size 0xfc, virtual true, abstract: false, final true
+  /// @brief Method IsEmpty, addr 0x59ea528, size 0xfc, virtual true, abstract: false, final true
   inline bool IsEmpty();
 
   static inline ::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache* New_ctor(int32_t maxBlocks, int32_t maxBombs, int32_t maxObstacles);
 
-  /// @brief Method SerializeJSON, addr 0x59eb40c, size 0x224, virtual true, abstract: false, final true
+  /// @brief Method SerializeJSON, addr 0x59e9b00, size 0x224, virtual true, abstract: false, final true
   inline ::StringW SerializeJSON();
 
-  /// @brief Method WriteBadHitBlocksArray, addr 0x59eb7c4, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method WriteBadHitBlocksArray, addr 0x59e9eb8, size 0x1a0, virtual false, abstract: false, final false
   inline void WriteBadHitBlocksArray(::Newtonsoft::Json::JsonTextWriter* jsonWriter,
                                      ::System::Collections::Generic::List_1<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BadHitBlockData>* blocks);
 
-  /// @brief Method WriteBombsHitArray, addr 0x59ebb0c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method WriteBombsHitArray, addr 0x59ea200, size 0x194, virtual false, abstract: false, final false
   inline void WriteBombsHitArray(::Newtonsoft::Json::JsonTextWriter* jsonWriter,
                                  ::System::Collections::Generic::List_1<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_BombHitData>* bombHits);
 
-  /// @brief Method WriteCommonBlockFieldsToJson, addr 0x59ec1e0, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method WriteCommonBlockFieldsToJson, addr 0x59ea8d4, size 0x22c, virtual false, abstract: false, final false
   static inline void WriteCommonBlockFieldsToJson(::Newtonsoft::Json::JsonWriter* jsonWriter, float_t beat, uint8_t colorType, uint8_t gameplayType, ::System::Nullable_1<uint8_t> lineIndex,
                                                   ::System::Nullable_1<uint8_t> lineLayer);
 
-  /// @brief Method WriteGoodCutsArray, addr 0x59eb630, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method WriteGoodCutsArray, addr 0x59e9d24, size 0x194, virtual false, abstract: false, final false
   static inline void WriteGoodCutsArray(::Newtonsoft::Json::JsonTextWriter* jsonWriter,
                                         ::System::Collections::Generic::List_1<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_GoodHitBlockData>* blocks);
 
-  /// @brief Method WriteMissedBlocksArray, addr 0x59eb964, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method WriteMissedBlocksArray, addr 0x59ea058, size 0x1a8, virtual false, abstract: false, final false
   inline void WriteMissedBlocksArray(::Newtonsoft::Json::JsonTextWriter* jsonWriter,
                                      ::System::Collections::Generic::List_1<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_MissedBlockData>* missedBlocks);
 
-  /// @brief Method WriteObstaclesHitArray, addr 0x59ebca0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method WriteObstaclesHitArray, addr 0x59ea394, size 0x194, virtual false, abstract: false, final false
   inline void WriteObstaclesHitArray(::Newtonsoft::Json::JsonTextWriter* jsonWriter,
                                      ::System::Collections::Generic::List_1<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_ObstacleHitData>* obstacleHits);
 
@@ -473,7 +473,7 @@ public:
 
   constexpr void __cordl_internal_set__obstacleHits(::System::Collections::Generic::List_1<::GlobalNamespace::BlockLevelGameplayAnalyticsEventsCache_ObstacleHitData>* value);
 
-  /// @brief Method .ctor, addr 0x59eabbc, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e92b0, size 0x1d0, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxBlocks, int32_t maxBombs, int32_t maxObstacles);
 
   /// @brief Convert to "::GlobalNamespace::IBlockLevelGameplayAnalyticsEventsCache"

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_token::*)()>(&::System::Xml::Schema::Datatype_token::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61c231c;
+  constexpr static std::size_t addrs = 0x61c00b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaWhiteSpace (::System::Xml::Schema::Datatype_token::*)()>(
     &::System::Xml::Schema::Datatype_token::get_BuiltInWhitespaceFacet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61c2324;
+  constexpr static std::size_t addrs = 0x61c00c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Datatype_token::*)()>(&::System::Xml::Schema::Datatype_token::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61bac68;
+  constexpr static std::size_t addrs = 0x61b8a04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_token*>(), { ".ctor", {}, {} })));

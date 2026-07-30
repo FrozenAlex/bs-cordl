@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::*)(
     ::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*)>(&::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x350a950;
+  constexpr static std::size_t addrs = 0x3508f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Math::BigInteger*> (::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::*)(
     ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::DecomposeScalar)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x350a9f0;
+  constexpr static std::size_t addrs = 0x3508fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism*>(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECPointMap* (::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::get_PointMap)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350aa78;
+  constexpr static std::size_t addrs = 0x3509040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism*>(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::get_HasEfficientPointMap)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350aa80;
+  constexpr static std::size_t addrs = 0x3509048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism*>(),

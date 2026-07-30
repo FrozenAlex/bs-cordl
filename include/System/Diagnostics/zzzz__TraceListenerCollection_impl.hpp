@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceListenerCollection::*)()>(&::System::Diagnostics::TraceListenerCollection::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6393064;
+  constexpr static std::size_t addrs = 0x6390e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceListenerCollection*>(), { ".ctor", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Diagnostics::TraceListener* (::System::Diagnostics::TraceListenerCollection::*)(::StringW)>(
     &::System::Diagnostics::TraceListenerCollection::get_Item)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x6393e74;
+  constexpr static std::size_t addrs = 0x6391c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Diagnostics::TraceListenerCollection::*)()>(&::System::Diagnostics::TraceListenerCollection::get_Count)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6394170;
+  constexpr static std::size_t addrs = 0x6391f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceListenerCollection*>(), { "get_Count", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Diagnostics::TraceListenerCollection::*)(::System::Diagnostics::TraceListener*)>(
     &::System::Diagnostics::TraceListenerCollection::Add)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x63931c8;
+  constexpr static std::size_t addrs = 0x6390f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceListenerCollection::*)()>(&::System::Diagnostics::TraceListenerCollection::Clear)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x63942b8;
+  constexpr static std::size_t addrs = 0x6392054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceListenerCollection*>(), { "Clear", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Diagnostics::TraceListenerCollection::*)()>(
     &::System::Diagnostics::TraceListenerCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6394150;
+  constexpr static std::size_t addrs = 0x6391eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceListenerCollection*>(), { "GetEnumerator", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceListenerCollection::*)(::System::Diagnostics::TraceListener*)>(
     &::System::Diagnostics::TraceListenerCollection::InitializeListener)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6394190;
+  constexpr static std::size_t addrs = 0x6391f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceListenerCollection*>(),
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceListenerCollection::*)(::StringW)>(&::System::Diagnostics::TraceListenerCollection::Remove)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6394314;
+  constexpr static std::size_t addrs = 0x63920b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceListenerCollection::*)(int32_t)>(&::System::Diagnostics::TraceListenerCollection::RemoveAt)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x63943e4;
+  constexpr static std::size_t addrs = 0x6392180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Diagnostics::TraceListenerCollection::*)(int32_t)>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_IList_get_Item)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6394508;
+  constexpr static std::size_t addrs = 0x63922a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceListenerCollection::*)(int32_t, ::System::Object*)>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_IList_set_Item)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6394528;
+  constexpr static std::size_t addrs = 0x63922c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Diagnostics::TraceListenerCollection::*)()>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_IList_get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6394630;
+  constexpr static std::size_t addrs = 0x63923cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Diagnostics::TraceListenerCollection::*)()>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_IList_get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6394638;
+  constexpr static std::size_t addrs = 0x63923d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Diagnostics::TraceListenerCollection::*)(::System::Object*)>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_IList_Add)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x6394640;
+  constexpr static std::size_t addrs = 0x63923dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Diagnostics::TraceListenerCollection::*)(::System::Object*)>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_IList_Contains)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6394820;
+  constexpr static std::size_t addrs = 0x63925bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Diagnostics::TraceListenerCollection::*)(::System::Object*)>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_IList_IndexOf)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6394840;
+  constexpr static std::size_t addrs = 0x63925dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceListenerCollection::*)(int32_t, ::System::Object*)>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_IList_Insert)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x6394860;
+  constexpr static std::size_t addrs = 0x63925fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceListenerCollection::*)(::System::Object*)>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_IList_Remove)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6394a38;
+  constexpr static std::size_t addrs = 0x63927d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Diagnostics::TraceListenerCollection::*)()>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_ICollection_get_SyncRoot)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6394b5c;
+  constexpr static std::size_t addrs = 0x63928f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Diagnostics::TraceListenerCollection::*)()>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_ICollection_get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6394b60;
+  constexpr static std::size_t addrs = 0x63928fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceListenerCollection::*)(::System::Array*, int32_t)>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_ICollection_CopyTo)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6394b68;
+  constexpr static std::size_t addrs = 0x6392904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

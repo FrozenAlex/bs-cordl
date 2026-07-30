@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)()>(
     &::UnityEngine::Rendering::Universal::RTHandleResourcePool::get_staleResourceCapacity)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x68b2b00;
+  constexpr static std::size_t addrs = 0x68b089c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::RTHandleResourcePool::set_staleResourceCapacity)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x68b2b5c;
+  constexpr static std::size_t addrs = 0x68b08f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>, ::UnityEngine::Rendering::RTHandle*, int32_t)>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::AddResourceToPool)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x68b30b8;
+  constexpr static std::size_t addrs = 0x68b0e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>(),
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
                                                                                                                            ::by_ref<::UnityEngine::Rendering::RTHandle*>, bool)>(
     &::UnityEngine::Rendering::Universal::RTHandleResourcePool::TryGetResource)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x68b3324;
+  constexpr static std::size_t addrs = 0x68b10c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>(),
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)()>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::Cleanup)> {
   constexpr static std::size_t size = 0x4bc;
-  constexpr static std::size_t addrs = 0x68b2bfc;
+  constexpr static std::size_t addrs = 0x68b0998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>(), { "Cleanup", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, int32_t)>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::ShouldReleaseResource)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x68b350c;
+  constexpr static std::size_t addrs = 0x68b12a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>(),
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::RTHandleResourcePool::PurgeUnusedResources)> {
   constexpr static std::size_t size = 0x608;
-  constexpr static std::size_t addrs = 0x68b3584;
+  constexpr static std::size_t addrs = 0x68b1320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)()>(
     &::UnityEngine::Rendering::Universal::RTHandleResourcePool::LogDebugInfo)> {
   constexpr static std::size_t size = 0x89c;
-  constexpr static std::size_t addrs = 0x68b3b8c;
+  constexpr static std::size_t addrs = 0x68b1928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>(), { "LogDebugInfo", {}, {} })));
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>)>(
     &::UnityEngine::Rendering::Universal::RTHandleResourcePool::GetHashCodeWithNameHash)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x68b32cc;
+  constexpr static std::size_t addrs = 0x68b1068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::RenderTextureDescriptor, ::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode, int32_t, float_t, ::UnityEngine::FilterMode, ::UnityEngine::TextureWrapMode, ::StringW)>(
     &::UnityEngine::Rendering::Universal::RTHandleResourcePool::CreateTextureDesc)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x68b4428;
+  constexpr static std::size_t addrs = 0x68b21c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::RTHandleResourcePool::*)()>(&::UnityEngine::Rendering::Universal::RTHandleResourcePool::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x68b4568;
+  constexpr static std::size_t addrs = 0x68b2304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::RTHandleResourcePool*>(), { ".ctor", {}, {} })));

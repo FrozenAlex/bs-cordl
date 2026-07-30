@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithAvatarEditorResult::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithAvatarEditorResult::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd510c;
+  constexpr static std::size_t addrs = 0x5dd2e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AvatarEditorResult* (::Oculus::Platform::MessageWithAvatarEditorResult::*)()>(
     &::Oculus::Platform::MessageWithAvatarEditorResult::GetAvatarEditorResult)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5dd82cc;
+  constexpr static std::size_t addrs = 0x5dd6038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AvatarEditorResult* (::Oculus::Platform::MessageWithAvatarEditorResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithAvatarEditorResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5dd8310;
+  constexpr static std::size_t addrs = 0x5dd607c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

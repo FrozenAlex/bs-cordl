@@ -216,36 +216,36 @@ public:
   /// @brief Field _useAutomaticLeadPlayerSelection, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get__useAutomaticLeadPlayerSelection, put = __cordl_internal_set__useAutomaticLeadPlayerSelection)) bool _useAutomaticLeadPlayerSelection;
 
-  /// @brief Method AnimateHide, addr 0x59b7178, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method AnimateHide, addr 0x59b57d8, size 0x120, virtual false, abstract: false, final false
   inline void AnimateHide();
 
-  /// @brief Method AnimateIsLeadPlayer, addr 0x59b7298, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AnimateIsLeadPlayer, addr 0x59b58f8, size 0x50, virtual false, abstract: false, final false
   inline void AnimateIsLeadPlayer(bool isLeader);
 
-  /// @brief Method AnimateScoreDiff, addr 0x59b6f7c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method AnimateScoreDiff, addr 0x59b55dc, size 0x1fc, virtual false, abstract: false, final false
   inline void AnimateScoreDiff(int32_t scoreDiff);
 
-  /// @brief Method HandleNewLeaderWasSelected, addr 0x59b72e8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleNewLeaderWasSelected, addr 0x59b5948, size 0xcc, virtual false, abstract: false, final false
   inline void HandleNewLeaderWasSelected(::StringW userId);
 
   static inline ::GlobalNamespace::MultiplayerScoreDiffText* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59b6d8c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59b53ec, size 0x118, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetHorizontalPositionRelativeToLocalPlayer, addr 0x59b6ea4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetHorizontalPositionRelativeToLocalPlayer, addr 0x59b5504, size 0xd8, virtual false, abstract: false, final false
   inline void SetHorizontalPositionRelativeToLocalPlayer(::GlobalNamespace::MultiplayerScoreDiffText_HorizontalPosition relativePosition);
 
-  /// @brief Method Start, addr 0x59b6bec, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59b524c, size 0x1a0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method <AnimateHide>b__18_0, addr 0x59b7434, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <AnimateHide>b__18_0, addr 0x59b5a94, size 0x30, virtual false, abstract: false, final false
   inline void _AnimateHide_b__18_0();
 
-  /// @brief Method <AnimateScoreDiff>b__17_0, addr 0x59b7428, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <AnimateScoreDiff>b__17_0, addr 0x59b5a88, size 0xc, virtual false, abstract: false, final false
   inline void _AnimateScoreDiff_b__17_0();
 
-  /// @brief Method <Start>b__14_0, addr 0x59b73cc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__14_0, addr 0x59b5a2c, size 0x5c, virtual false, abstract: false, final false
   inline void _Start_b__14_0(float_t val);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__activeTextColor() const;
@@ -320,7 +320,7 @@ public:
 
   constexpr void __cordl_internal_set__useAutomaticLeadPlayerSelection(bool value);
 
-  /// @brief Method .ctor, addr 0x59b73b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59b5a14, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -37,7 +37,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::BadCutScoringElement_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x59eff94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ee688, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,7 +89,7 @@ public:
 
   __declspec(property(get = get_wouldBeCorrectCutBestPossibleMultiplierEventType)) ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType wouldBeCorrectCutBestPossibleMultiplierEventType;
 
-  /// @brief Method Init, addr 0x59ef708, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x59eddfc, size 0x48, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData);
 
   static inline ::GlobalNamespace::BadCutScoringElement* New_ctor();
@@ -106,19 +106,19 @@ public:
 
   constexpr void __cordl_internal_set__wouldBeCorrectCutBestPossibleMultiplierEventType(::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType value);
 
-  /// @brief Method .ctor, addr 0x59eff90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ee684, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cutScore, addr 0x59eff6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_cutScore, addr 0x59ee660, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_cutScore();
 
-  /// @brief Method get_executionOrder, addr 0x59eff84, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_executionOrder, addr 0x59ee678, size 0xc, virtual true, abstract: false, final false
   inline int32_t get_executionOrder();
 
-  /// @brief Method get_multiplierEventType, addr 0x59eff7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_multiplierEventType, addr 0x59ee670, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType get_multiplierEventType();
 
-  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x59eff74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x59ee668, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType();
 
 protected:

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(&::GlobalNamespace::FinishTutorialAchievementHandler::Start)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x36f87ec;
+  constexpr static std::size_t addrs = 0x36f7100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FinishTutorialAchievementHandler*>(), { "Start", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(&::GlobalNamespace::FinishTutorialAchievementHandler::OnDestroy)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x36f8884;
+  constexpr static std::size_t addrs = 0x36f7198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FinishTutorialAchievementHandler*>(), { "OnDestroy", {}, {} })));
@@ -33,8 +33,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(&::GlobalNamespace::FinishTutorialAchievementHandler::HandleTutorialFinished)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x36f8910;
+  constexpr static std::size_t size = 0x204;
+  constexpr static std::size_t addrs = 0x36f7224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(&::GlobalNamespace::FinishTutorialAchievementHandler::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x36f8a44;
+  constexpr static std::size_t addrs = 0x36f7428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FinishTutorialAchievementHandler*>(), { ".ctor", {}, {} })));

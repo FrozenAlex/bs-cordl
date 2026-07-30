@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::UrlAndHash::*)(::StringW, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Crypto::Tls::UrlAndHash::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x34970ec;
+  constexpr static std::size_t addrs = 0x34956b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Tls::UrlAndHash::*)()>(&::Org::BouncyCastle::Crypto::Tls::UrlAndHash::get_Url)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34971b8;
+  constexpr static std::size_t addrs = 0x3495780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Tls::UrlAndHash::*)()>(&::Org::BouncyCastle::Crypto::Tls::UrlAndHash::get_Sha1Hash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34971c0;
+  constexpr static std::size_t addrs = 0x3495788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::UrlAndHash::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Crypto::Tls::UrlAndHash::Encode)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x34971c8;
+  constexpr static std::size_t addrs = 0x3495790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::UrlAndHash* (*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*, ::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::UrlAndHash::Parse)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x34972d0;
+  constexpr static std::size_t addrs = 0x3495898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

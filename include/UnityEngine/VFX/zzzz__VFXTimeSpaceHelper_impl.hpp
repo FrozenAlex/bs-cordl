@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1::*)(int32_t)>(
     &::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69ce3ac;
+  constexpr static std::size_t addrs = 0x69cc148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1::*)()>(
     &::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69ce604;
+  constexpr static std::size_t addrs = 0x69cc3a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1::*)()>(
     &::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1::MoveNext)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x69ce670;
+  constexpr static std::size_t addrs = 0x69cc40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1::*)()>(
     &::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1::__m__Finally1)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x69ce89c;
+  constexpr static std::size_t addrs = 0x69cc638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent (::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1::*)()>(
     &::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1::System_Collections_Generic_IEnumerator_UnityEngine_VFX_VisualEffectPlayableSerializedEvent__get_Current)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69ce8e4;
+  constexpr static std::size_t addrs = 0x69cc680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1::*)()>(
     &::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x69ce8fc;
+  constexpr static std::size_t addrs = 0x69cc698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1::*)()>(
     &::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69ce934;
+  constexpr static std::size_t addrs = 0x69cc6d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>* (::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1::*)()>(
         &::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1::System_Collections_Generic_IEnumerable_UnityEngine_VFX_VisualEffectPlayableSerializedEvent__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x69ce9a0;
+  constexpr static std::size_t addrs = 0x69cc73c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1::*)()>(
     &::UnityEngine::VFX::VFXTimeSpaceHelper__CollectClipEvents_d__1::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69cea38;
+  constexpr static std::size_t addrs = 0x69cc7d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3::*)(int32_t)>(
     &::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69ce414;
+  constexpr static std::size_t addrs = 0x69cc1b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3::*)()>(
     &::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x69cea3c;
+  constexpr static std::size_t addrs = 0x69cc7d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3::*)()>(
     &::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3::MoveNext)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x69cea58;
+  constexpr static std::size_t addrs = 0x69cc7f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3::*)()>(
     &::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x69cedc8;
+  constexpr static std::size_t addrs = 0x69ccb64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent (::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3::*)()>(
     &::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3::System_Collections_Generic_IEnumerator_UnityEngine_VFX_VisualEffectPlayableSerializedEvent__get_Current)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x69cee7c;
+  constexpr static std::size_t addrs = 0x69ccc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -408,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3::*)()>(
     &::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x69cee94;
+  constexpr static std::size_t addrs = 0x69ccc30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3::*)()>(
     &::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69ceecc;
+  constexpr static std::size_t addrs = 0x69ccc68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -438,7 +438,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>* (::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3::*)()>(
         &::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3::System_Collections_Generic_IEnumerable_UnityEngine_VFX_VisualEffectPlayableSerializedEvent__GetEnumerator)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x69cef38;
+  constexpr static std::size_t addrs = 0x69cccd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3::*)()>(
     &::UnityEngine::VFX::VFXTimeSpaceHelper__GetEventNormalizedSpace_d__3::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69cefe8;
+  constexpr static std::size_t addrs = 0x69ccd84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -719,7 +719,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>* (*)(::UnityEngine::VFX::PlayableTimeSpace, ::UnityEngine::VFX::VisualEffectControlPlayableBehaviour*)>(
     &::UnityEngine::VFX::VFXTimeSpaceHelper::GetEventNormalizedSpace)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x69ce28c;
+  constexpr static std::size_t addrs = 0x69cc028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -737,7 +737,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>* (*)(::UnityEngine::VFX::VisualEffectControlClip*)>(
         &::UnityEngine::VFX::VFXTimeSpaceHelper::CollectClipEvents)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69ce33c;
+  constexpr static std::size_t addrs = 0x69cc0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -753,7 +753,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>* (*)(::UnityEngine::VFX::PlayableTimeSpace, ::UnityEngine::VFX::VisualEffectControlClip*,
                                                                                                                 bool)>(&::UnityEngine::VFX::VFXTimeSpaceHelper::GetEventNormalizedSpace)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x69ce3cc;
+  constexpr static std::size_t addrs = 0x69cc168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -772,7 +772,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
                                                                   ::System::Collections::Generic::IEnumerable_1<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>*, double_t, double_t)>(
     &::UnityEngine::VFX::VFXTimeSpaceHelper::GetEventNormalizedSpace)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x69ce2a8;
+  constexpr static std::size_t addrs = 0x69cc044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -791,7 +791,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::UnityEngine::VFX::PlayableTimeSpace, double_t, ::UnityEngine::VFX::PlayableTimeSpace, double_t, double_t)>(
     &::UnityEngine::VFX::VFXTimeSpaceHelper::GetTimeInSpace)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x69ce434;
+  constexpr static std::size_t addrs = 0x69cc1d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__ColocateAutomaticallyInternal_d__19::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__ColocateAutomaticallyInternal_d__19::MoveNext)> {
   constexpr static std::size_t size = 0x4d4;
-  constexpr static std::size_t addrs = 0x5a79948;
+  constexpr static std::size_t addrs = 0x5a7778c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__ColocateAutomaticallyInternal_d__19::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__ColocateAutomaticallyInternal_d__19::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a79e28;
+  constexpr static std::size_t addrs = 0x5a77c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__ColocateByPlayerWithOculusIdInternal_d__20::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__ColocateByPlayerWithOculusIdInternal_d__20::MoveNext)> {
   constexpr static std::size_t size = 0x490;
-  constexpr static std::size_t addrs = 0x5a79e30;
+  constexpr static std::size_t addrs = 0x5a77c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__ColocateByPlayerWithOculusIdInternal_d__20::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__ColocateByPlayerWithOculusIdInternal_d__20::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a7a2c0;
+  constexpr static std::size_t addrs = 0x5a78104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__CreateNewColocatedSpace_d__23::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__CreateNewColocatedSpace_d__23::MoveNext)> {
   constexpr static std::size_t size = 0x4e0;
-  constexpr static std::size_t addrs = 0x5a7a2c8;
+  constexpr static std::size_t addrs = 0x5a7810c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__CreateNewColocatedSpace_d__23::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__CreateNewColocatedSpace_d__23::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a7a7c4;
+  constexpr static std::size_t addrs = 0x5a78608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__LocalizeAnchor_d__30::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__LocalizeAnchor_d__30::MoveNext)> {
   constexpr static std::size_t size = 0x4f8;
-  constexpr static std::size_t addrs = 0x5a7a7cc;
+  constexpr static std::size_t addrs = 0x5a78610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__LocalizeAnchor_d__30::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__LocalizeAnchor_d__30::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a7adb0;
+  constexpr static std::size_t addrs = 0x5a78bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__OnAnchorShareRequestReceived_d__28::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__OnAnchorShareRequestReceived_d__28::MoveNext)> {
   constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x5a7adb8;
+  constexpr static std::size_t addrs = 0x5a78bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__OnAnchorShareRequestReceived_d__28::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher__OnAnchorShareRequestReceived_d__28::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a7b3f0;
+  constexpr static std::size_t addrs = 0x5a79234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -371,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::*)(::System::Action*)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::add_ColocationReady)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a783d4;
+  constexpr static std::size_t addrs = 0x5a76218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher*>(),
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::*)(::System::Action*)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::remove_ColocationReady)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a78480;
+  constexpr static std::size_t addrs = 0x5a762c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher*>(),
@@ -399,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::*)(
     ::System::Action_1<::Meta::XR::MultiplayerBlocks::Colocation::ColocationFailedReason>*)>(&::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::add_ColocationFailed)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a708d8;
+  constexpr static std::size_t addrs = 0x5a6e71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -414,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::*)(
     ::System::Action_1<::Meta::XR::MultiplayerBlocks::Colocation::ColocationFailedReason>*)>(&::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::remove_ColocationFailed)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a7852c;
+  constexpr static std::size_t addrs = 0x5a76370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -430,7 +430,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Multipl
     ::Meta::XR::MultiplayerBlocks::Colocation::INetworkData*, ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger*, ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*,
     ::UnityEngine::GameObject*, uint64_t, uint64_t)>(&::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::Init)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x5a706e8;
+  constexpr static std::size_t addrs = 0x5a6e52c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -450,7 +450,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::ColocateAutomatically)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a70998;
+  constexpr static std::size_t addrs = 0x5a6e7dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -464,7 +464,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::*)(uint64_t)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::ColocateByPlayerWithOculusId)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a78690;
+  constexpr static std::size_t addrs = 0x5a764d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher*>(),
@@ -478,7 +478,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::CreateColocatedSpace)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a78748;
+  constexpr static std::size_t addrs = 0x5a7658c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -492,7 +492,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::ColocateAutomaticallyInternal)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5a785ec;
+  constexpr static std::size_t addrs = 0x5a76430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -506,7 +506,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::*)(uint64_t)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::ColocateByPlayerWithOculusIdInternal)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5a78694;
+  constexpr static std::size_t addrs = 0x5a764d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher*>(),
@@ -520,7 +520,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::Meta::XR::MultiplayerBlocks::Colocation::Anchor> (
     ::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::*)(uint64_t)>(&::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::FindAlignmentAnchorUsedByOculusId)> {
   constexpr static std::size_t size = 0x4d4;
-  constexpr static std::size_t addrs = 0x5a78750;
+  constexpr static std::size_t addrs = 0x5a76594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher*>(),
@@ -534,7 +534,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::CreateColocatedSpaceInternal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a7874c;
+  constexpr static std::size_t addrs = 0x5a76590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -548,7 +548,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::CreateNewColocatedSpace)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5a78c24;
+  constexpr static std::size_t addrs = 0x5a76a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -562,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::AlignPlayerToAnchor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5a78cc8;
+  constexpr static std::size_t addrs = 0x5a76b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -576,7 +576,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::Meta::XR::MultiplayerBlocks::Colocation::Anchor>* (
     ::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::*)()>(&::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::GetAllAlignmentAnchors)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x5a78d4c;
+  constexpr static std::size_t addrs = 0x5a76b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -591,7 +591,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<bool>* (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::*)(::Meta::XR::MultiplayerBlocks::Colocation::Anchor)>(
         &::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::ShareAndLocalizeAnchor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5a78fe0;
+  constexpr static std::size_t addrs = 0x5a76e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher*>(),
@@ -605,7 +605,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::*)(::Meta::XR::MultiplayerBlocks::Colocation::Anchor)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::SendAnchorShareRequest)> {
   constexpr static std::size_t size = 0x4b8;
-  constexpr static std::size_t addrs = 0x5a790a8;
+  constexpr static std::size_t addrs = 0x5a76eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher*>(),
@@ -619,7 +619,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::*)(
     ::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams)>(&::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::OnAnchorShareRequestReceived)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a79574;
+  constexpr static std::size_t addrs = 0x5a773b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -634,7 +634,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::*)(
     ::Meta::XR::MultiplayerBlocks::Colocation::ShareAndLocalizeParams)>(&::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::OnAnchorShareRequestCompleted)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x5a79634;
+  constexpr static std::size_t addrs = 0x5a77478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -649,7 +649,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::*)(::System::Guid)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::LocalizeAnchor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5a79890;
+  constexpr static std::size_t addrs = 0x5a776d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -664,7 +664,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::AutomaticColocationLauncher::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a706e4;
+  constexpr static std::size_t addrs = 0x5a6e528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

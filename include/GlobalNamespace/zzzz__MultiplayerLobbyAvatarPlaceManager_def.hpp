@@ -48,21 +48,21 @@ public:
   /// @brief Field _minOuterCircleRadius, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__minOuterCircleRadius, put = __cordl_internal_set__minOuterCircleRadius)) float_t _minOuterCircleRadius;
 
-  /// @brief Method Activate, addr 0x59d6670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x59d4ce0, size 0x8, virtual false, abstract: false, final false
   inline void Activate(float_t innerCircleRadius, float_t minOuterCircleRadius);
 
-  /// @brief Method Deactivate, addr 0x59d6b10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x59d5180, size 0x4, virtual false, abstract: false, final false
   inline void Deactivate();
 
-  /// @brief Method DespawnAllPlaces, addr 0x59d6b14, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method DespawnAllPlaces, addr 0x59d5184, size 0x184, virtual false, abstract: false, final false
   inline void DespawnAllPlaces();
 
   static inline ::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59d6c98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59d5308, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SpawnAllPlaces, addr 0x59d6678, size 0x498, virtual false, abstract: false, final false
+  /// @brief Method SpawnAllPlaces, addr 0x59d4ce8, size 0x498, virtual false, abstract: false, final false
   inline void SpawnAllPlaces();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlace>>* const& __cordl_internal_get__allPlaces() const;
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__minOuterCircleRadius(float_t value);
 
-  /// @brief Method .ctor, addr 0x59d6c9c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d530c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

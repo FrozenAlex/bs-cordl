@@ -58,22 +58,22 @@ public:
 
   constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x58883a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5886854, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_imageColor, addr 0x5888368, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_imageColor, addr 0x5886814, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_imageColor();
 
-  /// @brief Method get_sprite, addr 0x5888338, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x58867e4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method set_hintText, addr 0x5888350, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_hintText, addr 0x58867fc, size 0x18, virtual false, abstract: false, final false
   inline void set_hintText(::StringW value);
 
-  /// @brief Method set_imageColor, addr 0x5888388, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_imageColor, addr 0x5886834, size 0x20, virtual false, abstract: false, final false
   inline void set_imageColor(::UnityEngine::Color value);
 
-  /// @brief Method set_sprite, addr 0x5888320, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x58867cc, size 0x18, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
 protected:
@@ -91,7 +91,7 @@ public:
   ImageWithHint(ImageWithHint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19180 };
 
   /// @brief Field _image, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____image;

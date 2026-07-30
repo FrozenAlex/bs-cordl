@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::*)()>(
     &::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58bd754;
+  constexpr static std::size_t addrs = 0x58bbc2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>(), { "get_position", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::*)()>(
     &::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_reverbZoneMix)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58bd760;
+  constexpr static std::size_t addrs = 0x58bbc38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::*)()>(
     &::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_spatialBlend)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58bd768;
+  constexpr static std::size_t addrs = 0x58bbc40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::*)()>(&::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_spread)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58bd770;
+  constexpr static std::size_t addrs = 0x58bbc48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>(), { "get_spread", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::*)()>(&::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58bd778;
+  constexpr static std::size_t addrs = 0x58bbc50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>(), { ".ctor", {}, {} })));
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::*)(float_t)>(
     &::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::set_volume)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x58bcee0;
+  constexpr static std::size_t addrs = 0x58bb3b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::*)()>(
     &::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::get_volume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58bd77c;
+  constexpr static std::size_t addrs = 0x58bbc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::*)()>(
     &::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::get_maxVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58bd784;
+  constexpr static std::size_t addrs = 0x58bbc5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::*)(float_t)>(
     &::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::set_maxVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58bd78c;
+  constexpr static std::size_t addrs = 0x58bbc64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::*)(::UnityEngine::AudioSource*)>(
     &::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x58bca30;
+  constexpr static std::size_t addrs = 0x58baf08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27::*)(int32_t)>(
     &::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58bcb9c;
+  constexpr static std::size_t addrs = 0x58bb074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27::*)()>(
     &::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58bd794;
+  constexpr static std::size_t addrs = 0x58bbc6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27::*)()>(
     &::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27::MoveNext)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x58bd798;
+  constexpr static std::size_t addrs = 0x58bbc70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27::*)()>(
     &::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58bd83c;
+  constexpr static std::size_t addrs = 0x58bbd14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27*>(),
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27::*)()>(
     &::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x58bd844;
+  constexpr static std::size_t addrs = 0x58bbd1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27::*)()>(
     &::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__27::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58bd87c;
+  constexpr static std::size_t addrs = 0x58bbd54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -490,7 +490,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::AudioClip> (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::get_activeAudioClip)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x58bc800;
+  constexpr static std::size_t addrs = 0x58bacd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -503,7 +503,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::AudioClip> (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::get_defaultAudioClip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58bc854;
+  constexpr static std::size_t addrs = 0x58bad2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayer*>(), { "get_defaultAudioClip", {}, {} })));
@@ -515,7 +515,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::Awake)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x58bc85c;
+  constexpr static std::size_t addrs = 0x58bad34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayer*>(), { "Awake", {}, {} })));
@@ -527,7 +527,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::OnEnable)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x58bca40;
+  constexpr static std::size_t addrs = 0x58baf18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayer*>(), { "OnEnable", {}, {} })));
@@ -540,7 +540,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::SongPreviewPlayer::*)(float_t)>(
     &::GlobalNamespace::SongPreviewPlayer::CrossFadeAfterDelayCoroutine)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x58bcb38;
+  constexpr static std::size_t addrs = 0x58bb010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -553,7 +553,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::OnDisable)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x58bcba4;
+  constexpr static std::size_t addrs = 0x58bb07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayer*>(), { "OnDisable", {}, {} })));
@@ -565,7 +565,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::Update)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x58bcd18;
+  constexpr static std::size_t addrs = 0x58bb1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayer*>(), { "Update", {}, {} })));
@@ -577,7 +577,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::CrossfadeToDefault)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x58bd2bc;
+  constexpr static std::size_t addrs = 0x58bb794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayer*>(), { "CrossfadeToDefault", {}, {} })));
@@ -589,7 +589,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)(::UnityEngine::AudioClip*)>(&::GlobalNamespace::SongPreviewPlayer::CrossfadeToNewDefault)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x58bd498;
+  constexpr static std::size_t addrs = 0x58bb970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -603,7 +603,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)(::UnityEngine::AudioClip*, float_t, float_t, float_t, ::System::Action*)>(
     &::GlobalNamespace::SongPreviewPlayer::CrossfadeTo)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58bd598;
+  constexpr static std::size_t addrs = 0x58bba70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -621,7 +621,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)(::UnityEngine::AudioClip*, float_t, float_t, float_t, bool, ::System::Action*)>(
     &::GlobalNamespace::SongPreviewPlayer::CrossfadeTo)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x58bcf9c;
+  constexpr static std::size_t addrs = 0x58bb474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayer*>(),
@@ -637,7 +637,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::StopCurrentChannel)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x58bcc84;
+  constexpr static std::size_t addrs = 0x58bb15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayer*>(), { "StopCurrentChannel", {}, {} })));
@@ -649,7 +649,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::PauseCurrentChannel)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x58bd5a4;
+  constexpr static std::size_t addrs = 0x58bba7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -662,7 +662,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::UnPauseCurrentChannel)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x58bd618;
+  constexpr static std::size_t addrs = 0x58bbaf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -675,7 +675,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)(float_t)>(&::GlobalNamespace::SongPreviewPlayer::FadeOut)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58bd688;
+  constexpr static std::size_t addrs = 0x58bbb60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -688,7 +688,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)(int32_t)>(&::GlobalNamespace::SongPreviewPlayer::ReportChannelDidFadeOut)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x58bcf10;
+  constexpr static std::size_t addrs = 0x58bb3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -701,7 +701,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x58bd6a4;
+  constexpr static std::size_t addrs = 0x58bbb7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SongPreviewPlayer*>(), { ".ctor", {}, {} })));

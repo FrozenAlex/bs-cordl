@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<int32_t>, int32_t, int32_t)>(&::System::Threading::Interlocked::CompareExchange)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cb2964;
+  constexpr static std::size_t addrs = 0x5cb06d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<int32_t>, int32_t, int32_t, ::by_ref<bool>)>(&::System::Threading::Interlocked::CompareExchange)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5cb6018;
+  constexpr static std::size_t addrs = 0x5cb3d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::Object*>, ::by_ref<::System::Object*>, ::by_ref<::System::Object*>, ::by_ref<::System::Object*>)>(
     &::System::Threading::Interlocked::CompareExchange)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5cb6050;
+  constexpr static std::size_t addrs = 0x5cb3dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::System::Object*>, ::System::Object*, ::System::Object*)>(&::System::Threading::Interlocked::CompareExchange)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5cb608c;
+  constexpr static std::size_t addrs = 0x5cb3df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<float_t>, float_t, float_t)>(&::System::Threading::Interlocked::CompareExchange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5cb60b4;
+  constexpr static std::size_t addrs = 0x5cb3e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<int32_t>)>(&::System::Threading::Interlocked::Decrement)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cb60d8;
+  constexpr static std::size_t addrs = 0x5cb3e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::by_ref<int64_t>)>(&::System::Threading::Interlocked::Decrement)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cb60f8;
+  constexpr static std::size_t addrs = 0x5cb3e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<int32_t>)>(&::System::Threading::Interlocked::Increment)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cb6118;
+  constexpr static std::size_t addrs = 0x5cb3e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::by_ref<int64_t>)>(&::System::Threading::Interlocked::Increment)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cb6138;
+  constexpr static std::size_t addrs = 0x5cb3ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<int32_t>, int32_t)>(&::System::Threading::Interlocked::Exchange)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cb3e30;
+  constexpr static std::size_t addrs = 0x5cb1b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::Object*>, ::by_ref<::System::Object*>, ::by_ref<::System::Object*>)>(&::System::Threading::Interlocked::Exchange)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5cb6158;
+  constexpr static std::size_t addrs = 0x5cb3ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::System::Object*>, ::System::Object*)>(&::System::Threading::Interlocked::Exchange)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cb6180;
+  constexpr static std::size_t addrs = 0x5cb3eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<float_t>, float_t)>(&::System::Threading::Interlocked::Exchange)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cb61a0;
+  constexpr static std::size_t addrs = 0x5cb3f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::by_ref<int64_t>, int64_t, int64_t)>(&::System::Threading::Interlocked::CompareExchange)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cb61c0;
+  constexpr static std::size_t addrs = 0x5cb3f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::System::IntPtr>, ::System::IntPtr, ::System::IntPtr)>(&::System::Threading::Interlocked::CompareExchange)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cb61e0;
+  constexpr static std::size_t addrs = 0x5cb3f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::by_ref<double_t>, double_t, double_t)>(&::System::Threading::Interlocked::CompareExchange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5cb6200;
+  constexpr static std::size_t addrs = 0x5cb3f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::by_ref<int64_t>, int64_t)>(&::System::Threading::Interlocked::Exchange)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cb6224;
+  constexpr static std::size_t addrs = 0x5cb3f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::System::IntPtr>, ::System::IntPtr)>(&::System::Threading::Interlocked::Exchange)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cb6244;
+  constexpr static std::size_t addrs = 0x5cb3fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Interlocked*>(),
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::by_ref<double_t>, double_t)>(&::System::Threading::Interlocked::Exchange)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cb6264;
+  constexpr static std::size_t addrs = 0x5cb3fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::by_ref<int64_t>)>(&::System::Threading::Interlocked::Read)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cb6284;
+  constexpr static std::size_t addrs = 0x5cb3ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<int32_t>, int32_t)>(&::System::Threading::Interlocked::Add)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5cb62a0;
+  constexpr static std::size_t addrs = 0x5cb400c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::by_ref<int64_t>, int64_t)>(&::System::Threading::Interlocked::Add)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5cb62c4;
+  constexpr static std::size_t addrs = 0x5cb4030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Threading::Interlocked::MemoryBarrier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cb62e8;
+  constexpr static std::size_t addrs = 0x5cb4054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Interlocked*>(), { "MemoryBarrier", {}, {} })));

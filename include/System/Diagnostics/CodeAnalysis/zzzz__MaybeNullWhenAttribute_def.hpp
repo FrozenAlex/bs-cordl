@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__ReturnValue_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x5be0ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bdeb24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool returnValue);
 
 protected:

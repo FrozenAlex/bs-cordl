@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlInt32::*)(bool)>(&::System::Data::SqlTypes::SqlInt32::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x608e6bc;
+  constexpr static std::size_t addrs = 0x608c458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlInt32>(), { ".ctor", {}, { ::i2c::type_of<bool>() } })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlInt32::*)(int32_t)>(&::System::Data::SqlTypes::SqlInt32::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x608e6c8;
+  constexpr static std::size_t addrs = 0x608c464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlInt32>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::SqlTypes::SqlInt32::*)()>(&::System::Data::SqlTypes::SqlInt32::get_IsNull)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6088b48;
+  constexpr static std::size_t addrs = 0x60868e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlInt32>(), { "get_IsNull", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::SqlTypes::SqlInt32::*)()>(&::System::Data::SqlTypes::SqlInt32::get_Value)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6088b58;
+  constexpr static std::size_t addrs = 0x60868f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlInt32>(), { "get_Value", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlInt32 (*)(int32_t)>(&::System::Data::SqlTypes::SqlInt32::op_Implicit___System__Data__SqlTypes__SqlInt32)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x608e6d8;
+  constexpr static std::size_t addrs = 0x608c474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::SqlTypes::SqlInt32::*)()>(&::System::Data::SqlTypes::SqlInt32::ToString)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x608e6e4;
+  constexpr static std::size_t addrs = 0x608c480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlInt32 (*)(::System::Data::SqlTypes::SqlInt32)>(&::System::Data::SqlTypes::SqlInt32::op_UnaryNegation)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x608e788;
+  constexpr static std::size_t addrs = 0x608c524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlInt32 (*)(::System::Data::SqlTypes::SqlInt32, ::System::Data::SqlTypes::SqlInt32)>(
     &::System::Data::SqlTypes::SqlInt32::op_Addition)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x608e828;
+  constexpr static std::size_t addrs = 0x608c5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlInt32 (*)(::System::Data::SqlTypes::SqlInt32, ::System::Data::SqlTypes::SqlInt32)>(
     &::System::Data::SqlTypes::SqlInt32::op_Subtraction)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x608e96c;
+  constexpr static std::size_t addrs = 0x608c708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlInt32 (*)(::System::Data::SqlTypes::SqlInt32, ::System::Data::SqlTypes::SqlInt32)>(
     &::System::Data::SqlTypes::SqlInt32::op_Multiply)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x608eaa4;
+  constexpr static std::size_t addrs = 0x608c840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlInt32 (*)(::System::Data::SqlTypes::SqlInt32, ::System::Data::SqlTypes::SqlInt32)>(
     &::System::Data::SqlTypes::SqlInt32::op_Division)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x608ebf4;
+  constexpr static std::size_t addrs = 0x608c990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlInt32 (*)(::System::Data::SqlTypes::SqlByte)>(
     &::System::Data::SqlTypes::SqlInt32::op_Implicit___System__Data__SqlTypes__SqlInt32)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x608ed60;
+  constexpr static std::size_t addrs = 0x608cafc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlInt32 (*)(::System::Data::SqlTypes::SqlInt16)>(
     &::System::Data::SqlTypes::SqlInt32::op_Implicit___System__Data__SqlTypes__SqlInt32)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x608ee38;
+  constexpr static std::size_t addrs = 0x608cbd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlInt32 (*)(::System::Data::SqlTypes::SqlInt64)>(
     &::System::Data::SqlTypes::SqlInt32::op_Explicit___System__Data__SqlTypes__SqlInt32)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x608ef14;
+  constexpr static std::size_t addrs = 0x608ccb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, int32_t)>(&::System::Data::SqlTypes::SqlInt32::SameSignInt)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x608e960;
+  constexpr static std::size_t addrs = 0x608c6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::System::Data::SqlTypes::SqlInt32, ::System::Data::SqlTypes::SqlInt32)>(
     &::System::Data::SqlTypes::SqlInt32::op_Equality)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x608f038;
+  constexpr static std::size_t addrs = 0x608cdd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::System::Data::SqlTypes::SqlInt32, ::System::Data::SqlTypes::SqlInt32)>(
     &::System::Data::SqlTypes::SqlInt32::op_LessThan)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x608f104;
+  constexpr static std::size_t addrs = 0x608cea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::System::Data::SqlTypes::SqlInt32, ::System::Data::SqlTypes::SqlInt32)>(
     &::System::Data::SqlTypes::SqlInt32::op_GreaterThan)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x608f1d0;
+  constexpr static std::size_t addrs = 0x608cf6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::System::Data::SqlTypes::SqlInt32, ::System::Data::SqlTypes::SqlInt32)>(
     &::System::Data::SqlTypes::SqlInt32::LessThan)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x608f29c;
+  constexpr static std::size_t addrs = 0x608d038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlBoolean (*)(::System::Data::SqlTypes::SqlInt32, ::System::Data::SqlTypes::SqlInt32)>(
     &::System::Data::SqlTypes::SqlInt32::GreaterThan)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x608f304;
+  constexpr static std::size_t addrs = 0x608d0a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlDouble (::System::Data::SqlTypes::SqlInt32::*)()>(&::System::Data::SqlTypes::SqlInt32::ToSqlDouble)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x608f36c;
+  constexpr static std::size_t addrs = 0x608d108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlInt32>(), { "ToSqlDouble", {}, {} })));
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::SqlTypes::SqlInt64 (::System::Data::SqlTypes::SqlInt32::*)()>(&::System::Data::SqlTypes::SqlInt32::ToSqlInt64)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x608f3c8;
+  constexpr static std::size_t addrs = 0x608d164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::SqlTypes::SqlInt32>(), { "ToSqlInt64", {}, {} })));
@@ -321,7 +321,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::SqlTypes::SqlInt32::*)(::System::Object*)>(&::System::Data::SqlTypes::SqlInt32::CompareTo)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x608f4e4;
+  constexpr static std::size_t addrs = 0x608d280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -334,7 +334,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::SqlTypes::SqlInt32::*)(::System::Data::SqlTypes::SqlInt32)>(&::System::Data::SqlTypes::SqlInt32::CompareTo)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x608f5e4;
+  constexpr static std::size_t addrs = 0x608d380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -347,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::SqlTypes::SqlInt32::*)(::System::Object*)>(&::System::Data::SqlTypes::SqlInt32::Equals)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x608f740;
+  constexpr static std::size_t addrs = 0x608d4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -360,7 +360,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::SqlTypes::SqlInt32::*)()>(&::System::Data::SqlTypes::SqlInt32::GetHashCode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x608f86c;
+  constexpr static std::size_t addrs = 0x608d608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchema* (::System::Data::SqlTypes::SqlInt32::*)()>(
     &::System::Data::SqlTypes::SqlInt32::System_Xml_Serialization_IXmlSerializable_GetSchema)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x608f8ec;
+  constexpr static std::size_t addrs = 0x608d688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -388,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlInt32::*)(::System::Xml::XmlReader*)>(
     &::System::Data::SqlTypes::SqlInt32::System_Xml_Serialization_IXmlSerializable_ReadXml)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x608f8f4;
+  constexpr static std::size_t addrs = 0x608d690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::SqlTypes::SqlInt32::*)(::System::Xml::XmlWriter*)>(
     &::System::Data::SqlTypes::SqlInt32::System_Xml_Serialization_IXmlSerializable_WriteXml)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x608fa30;
+  constexpr static std::size_t addrs = 0x608d7cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -417,7 +417,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Xml::Schema::XmlSchemaSet*)>(&::System::Data::SqlTypes::SqlInt32::GetXsdType)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x608fbbc;
+  constexpr static std::size_t addrs = 0x608d958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

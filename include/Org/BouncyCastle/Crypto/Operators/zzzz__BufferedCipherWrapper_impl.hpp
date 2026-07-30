@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::*)(::Org::BouncyCastle::Crypto::IBufferedCipher*, ::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x34037ec;
+  constexpr static std::size_t addrs = 0x3401db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::GetMaxOutputSize)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3403870;
+  constexpr static std::size_t addrs = 0x3401e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::GetUpdateOutputSize)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3403928;
+  constexpr static std::size_t addrs = 0x3401ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::get_Stream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34039e0;
+  constexpr static std::size_t addrs = 0x3401fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

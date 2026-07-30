@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Buffers::Binary::BinaryPrimitives::ReverseEndianness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bf1d50;
+  constexpr static std::size_t addrs = 0x5befb94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(uint16_t)>(&::System::Buffers::Binary::BinaryPrimitives::ReverseEndianness)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5bf1d58;
+  constexpr static std::size_t addrs = 0x5befb9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::System::Buffers::Binary::BinaryPrimitives::ReverseEndianness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bf1d64;
+  constexpr static std::size_t addrs = 0x5befba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

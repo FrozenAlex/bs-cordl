@@ -241,115 +241,115 @@ public:
 
   constexpr void __cordl_internal_set__userName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x59c8c68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c72d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_aiCubeHitChance, addr 0x59c8bd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_aiCubeHitChance, addr 0x59c7240, size 0x8, virtual false, abstract: false, final false
   inline float_t get_aiCubeHitChance();
 
-  /// @brief Method get_autoConnect, addr 0x59c8b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_autoConnect, addr 0x59c71e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_autoConnect();
 
-  /// @brief Method get_avatarType, addr 0x59c8ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatarType, addr 0x59c7210, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MockPlayerAvatarType get_avatarType();
 
-  /// @brief Method get_beatmapDifficulty, addr 0x59c8c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapDifficulty, addr 0x59c72a8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
 
-  /// @brief Method get_beatmapLevelId, addr 0x59c8c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevelId, addr 0x59c72b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_beatmapLevelId();
 
-  /// @brief Method get_gameplayModifiers, addr 0x59c8c58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x59c72c8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method get_inactiveByDefault, addr 0x59c8b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inactiveByDefault, addr 0x59c71f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_inactiveByDefault();
 
-  /// @brief Method get_latency, addr 0x59c8b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_latency, addr 0x59c71d0, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_latency();
 
-  /// @brief Method get_leftHanded, addr 0x59c8be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftHanded, addr 0x59c7250, size 0x8, virtual false, abstract: false, final false
   inline bool get_leftHanded();
 
-  /// @brief Method get_movementType, addr 0x59c8b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_movementType, addr 0x59c7200, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MockPlayerMovementType get_movementType();
 
-  /// @brief Method get_obstaclesColor, addr 0x59c8c20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_obstaclesColor, addr 0x59c7290, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_obstaclesColor();
 
-  /// @brief Method get_platformUserId, addr 0x59c8bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_platformUserId, addr 0x59c7220, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_platformUserId();
 
-  /// @brief Method get_recodingFile, addr 0x59c8bc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_recodingFile, addr 0x59c7230, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_recodingFile();
 
-  /// @brief Method get_saberAColor, addr 0x59c8bf0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_saberAColor, addr 0x59c7260, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_saberAColor();
 
-  /// @brief Method get_saberBColor, addr 0x59c8c08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_saberBColor, addr 0x59c7278, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_saberBColor();
 
-  /// @brief Method get_sortIndex, addr 0x59c8b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sortIndex, addr 0x59c71c0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sortIndex();
 
-  /// @brief Method get_userId, addr 0x59c8b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userId, addr 0x59c71b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName, addr 0x59c8b30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userName, addr 0x59c71a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userName();
 
-  /// @brief Method set_aiCubeHitChance, addr 0x59c8bd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_aiCubeHitChance, addr 0x59c7248, size 0x8, virtual false, abstract: false, final false
   inline void set_aiCubeHitChance(float_t value);
 
-  /// @brief Method set_autoConnect, addr 0x59c8b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_autoConnect, addr 0x59c71e8, size 0x8, virtual false, abstract: false, final false
   inline void set_autoConnect(bool value);
 
-  /// @brief Method set_avatarType, addr 0x59c8ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_avatarType, addr 0x59c7218, size 0x8, virtual false, abstract: false, final false
   inline void set_avatarType(::GlobalNamespace::MockPlayerAvatarType value);
 
-  /// @brief Method set_beatmapDifficulty, addr 0x59c8c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapDifficulty, addr 0x59c72b0, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
 
-  /// @brief Method set_beatmapLevelId, addr 0x59c8c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapLevelId, addr 0x59c72c0, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapLevelId(::StringW value);
 
-  /// @brief Method set_gameplayModifiers, addr 0x59c8c60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayModifiers, addr 0x59c72d0, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  /// @brief Method set_inactiveByDefault, addr 0x59c8b88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_inactiveByDefault, addr 0x59c71f8, size 0x8, virtual false, abstract: false, final false
   inline void set_inactiveByDefault(bool value);
 
-  /// @brief Method set_latency, addr 0x59c8b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_latency, addr 0x59c71d8, size 0x8, virtual false, abstract: false, final false
   inline void set_latency(int64_t value);
 
-  /// @brief Method set_leftHanded, addr 0x59c8be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftHanded, addr 0x59c7258, size 0x8, virtual false, abstract: false, final false
   inline void set_leftHanded(bool value);
 
-  /// @brief Method set_movementType, addr 0x59c8b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_movementType, addr 0x59c7208, size 0x8, virtual false, abstract: false, final false
   inline void set_movementType(::GlobalNamespace::MockPlayerMovementType value);
 
-  /// @brief Method set_obstaclesColor, addr 0x59c8c2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_obstaclesColor, addr 0x59c729c, size 0xc, virtual false, abstract: false, final false
   inline void set_obstaclesColor(::UnityEngine::Color value);
 
-  /// @brief Method set_platformUserId, addr 0x59c8bb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_platformUserId, addr 0x59c7228, size 0x8, virtual false, abstract: false, final false
   inline void set_platformUserId(uint64_t value);
 
-  /// @brief Method set_recodingFile, addr 0x59c8bc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_recodingFile, addr 0x59c7238, size 0x8, virtual false, abstract: false, final false
   inline void set_recodingFile(::StringW value);
 
-  /// @brief Method set_saberAColor, addr 0x59c8bfc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_saberAColor, addr 0x59c726c, size 0xc, virtual false, abstract: false, final false
   inline void set_saberAColor(::UnityEngine::Color value);
 
-  /// @brief Method set_saberBColor, addr 0x59c8c14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_saberBColor, addr 0x59c7284, size 0xc, virtual false, abstract: false, final false
   inline void set_saberBColor(::UnityEngine::Color value);
 
-  /// @brief Method set_sortIndex, addr 0x59c8b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sortIndex, addr 0x59c71c8, size 0x8, virtual false, abstract: false, final false
   inline void set_sortIndex(int32_t value);
 
-  /// @brief Method set_userId, addr 0x59c8b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userId, addr 0x59c71b8, size 0x8, virtual false, abstract: false, final false
   inline void set_userId(::StringW value);
 
-  /// @brief Method set_userName, addr 0x59c8b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userName, addr 0x59c71a8, size 0x8, virtual false, abstract: false, final false
   inline void set_userName(::StringW value);
 
 protected:

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsScenesTransitionSetupData::*)(::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupData*>*)>(
     &::GlobalNamespace::CreditsScenesTransitionSetupData::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x590c5ac;
+  constexpr static std::size_t addrs = 0x590aacc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsScenesTransitionSetupData::*)(::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupData*>*)>(
     &::GlobalNamespace::CreditsScenesTransitionSetupData::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x590c66c;
+  constexpr static std::size_t addrs = 0x590ab8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsScenesTransitionSetupData::*)()>(&::GlobalNamespace::CreditsScenesTransitionSetupData::Init)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x590c72c;
+  constexpr static std::size_t addrs = 0x590ac4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsScenesTransitionSetupData*>(), { "Init", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsScenesTransitionSetupData::*)()>(&::GlobalNamespace::CreditsScenesTransitionSetupData::Finish)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x590c7ec;
+  constexpr static std::size_t addrs = 0x590ad0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsScenesTransitionSetupData*>(), { "Finish", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CreditsScenesTransitionSetupData::*)()>(&::GlobalNamespace::CreditsScenesTransitionSetupData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x590c80c;
+  constexpr static std::size_t addrs = 0x590ad2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CreditsScenesTransitionSetupData*>(), { ".ctor", {}, {} })));

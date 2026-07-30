@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::System::Drawing::Color::*)()>(&::System::Drawing::Color::get_R)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x60cf538;
+  constexpr static std::size_t addrs = 0x60cd2d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Drawing::Color>(), { "get_R", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::System::Drawing::Color::*)()>(&::System::Drawing::Color::get_G)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x60cf580;
+  constexpr static std::size_t addrs = 0x60cd31c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Drawing::Color>(), { "get_G", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::System::Drawing::Color::*)()>(&::System::Drawing::Color::get_B)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x60cf594;
+  constexpr static std::size_t addrs = 0x60cd330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Drawing::Color>(), { "get_B", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::System::Drawing::Color::*)()>(&::System::Drawing::Color::get_A)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x60cf5a4;
+  constexpr static std::size_t addrs = 0x60cd340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Drawing::Color>(), { "get_A", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Drawing::Color::*)()>(&::System::Drawing::Color::get_IsKnownColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x60cf5b8;
+  constexpr static std::size_t addrs = 0x60cd354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Drawing::Color>(), { "get_IsKnownColor", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Drawing::Color::*)()>(&::System::Drawing::Color::get_Name)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x60cf5c4;
+  constexpr static std::size_t addrs = 0x60cd360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Drawing::Color>(), { "get_Name", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Drawing::Color::*)()>(&::System::Drawing::Color::get_Value)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x60cf54c;
+  constexpr static std::size_t addrs = 0x60cd2e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Drawing::Color>(), { "get_Value", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Drawing::Color::*)()>(&::System::Drawing::Color::ToString)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x60cf660;
+  constexpr static std::size_t addrs = 0x60cd3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Drawing::Color>(), { ::i2c::class_of<::System::Drawing::Color>(), 3 }));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Drawing::Color, ::System::Drawing::Color)>(&::System::Drawing::Color::op_Equality)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x60cf8cc;
+  constexpr static std::size_t addrs = 0x60cd668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Drawing::Color::*)(::System::Object*)>(&::System::Drawing::Color::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x60cf910;
+  constexpr static std::size_t addrs = 0x60cd6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Drawing::Color>(), { ::i2c::class_of<::System::Drawing::Color>(), 0 }));
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Drawing::Color::*)(::System::Drawing::Color)>(&::System::Drawing::Color::Equals)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x60cf9a4;
+  constexpr static std::size_t addrs = 0x60cd740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Drawing::Color::*)()>(&::System::Drawing::Color::GetHashCode)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x60cf9e8;
+  constexpr static std::size_t addrs = 0x60cd784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Drawing::Color>(), { ::i2c::class_of<::System::Drawing::Color>(), 2 }));

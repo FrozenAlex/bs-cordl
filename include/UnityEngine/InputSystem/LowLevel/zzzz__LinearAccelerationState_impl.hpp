@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(&::UnityEngine::InputSystem::LowLevel::LinearAccelerationState::get_kFormat)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a8c6c;
+  constexpr static std::size_t addrs = 0x65a6a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::LinearAccelerationState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::LinearAccelerationState::get_format)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65a8c78;
+  constexpr static std::size_t addrs = 0x65a6a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

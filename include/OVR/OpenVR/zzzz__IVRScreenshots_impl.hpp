@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRScreenshots__RequestScreenshot::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRScreenshots__RequestScreenshot::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e3d694;
+  constexpr static std::size_t addrs = 0x5e3b400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRScreenshots__RequestScreenshot*>(),
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRScreenshotError (::OVR::OpenVR::IVRScreenshots__RequestScreenshot::*)(
     ::by_ref<uint32_t>, ::OVR::OpenVR::EVRScreenshotType, ::StringW, ::StringW)>(&::OVR::OpenVR::IVRScreenshots__RequestScreenshot::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e3d714;
+  constexpr static std::size_t addrs = 0x5e3b480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                                                                      ::StringW, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRScreenshots__RequestScreenshot::BeginInvoke)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e3d728;
+  constexpr static std::size_t addrs = 0x5e3b494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRScreenshotError (::OVR::OpenVR::IVRScreenshots__RequestScreenshot::*)(::by_ref<uint32_t>, ::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRScreenshots__RequestScreenshot::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e3d7e8;
+  constexpr static std::size_t addrs = 0x5e3b554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRScreenshots__HookScreenshot::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRScreenshots__HookScreenshot::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e3d80c;
+  constexpr static std::size_t addrs = 0x5e3b578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRScreenshots__HookScreenshot*>(),
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRScreenshotError (::OVR::OpenVR::IVRScreenshots__HookScreenshot::*)(
     ::by_ref<::ArrayW<::OVR::OpenVR::EVRScreenshotType>>, int32_t)>(&::OVR::OpenVR::IVRScreenshots__HookScreenshot::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e3d88c;
+  constexpr static std::size_t addrs = 0x5e3b5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRScreenshots__HookScreenshot::*)(::by_ref<::ArrayW<::OVR::OpenVR::EVRScreenshotType>>, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::IVRScreenshots__HookScreenshot::BeginInvoke)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5e3d8a0;
+  constexpr static std::size_t addrs = 0x5e3b60c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRScreenshotError (::OVR::OpenVR::IVRScreenshots__HookScreenshot::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRScreenshots__HookScreenshot::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e3d8fc;
+  constexpr static std::size_t addrs = 0x5e3b668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyType::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyType::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e3d920;
+  constexpr static std::size_t addrs = 0x5e3b68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyType*>(),
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRScreenshotType (::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyType::*)(
     uint32_t, ::by_ref<::OVR::OpenVR::EVRScreenshotError>)>(&::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyType::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e3d98c;
+  constexpr static std::size_t addrs = 0x5e3b6f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyType*>(),
@@ -213,7 +213,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                                                                              ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyType::BeginInvoke)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e3d9a0;
+  constexpr static std::size_t addrs = 0x5e3b70c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyType*>(),
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRScreenshotType (::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyType::*)(
     ::by_ref<::OVR::OpenVR::EVRScreenshotError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyType::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e3da4c;
+  constexpr static std::size_t addrs = 0x5e3b7b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyType*>(),
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyFilename::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyFilename::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e3da70;
+  constexpr static std::size_t addrs = 0x5e3b7dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyFilename*>(),
@@ -282,7 +282,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::
     uint32_t, ::OVR::OpenVR::EVRScreenshotPropertyFilenames, ::System::Text::StringBuilder*, uint32_t, ::by_ref<::OVR::OpenVR::EVRScreenshotError>)>(
     &::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyFilename::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e3dadc;
+  constexpr static std::size_t addrs = 0x5e3b848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyFilename*>(),
@@ -298,7 +298,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                      ::by_ref<::OVR::OpenVR::EVRScreenshotError>, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyFilename::BeginInvoke)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5e3daf0;
+  constexpr static std::size_t addrs = 0x5e3b85c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyFilename*>(),
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyFilename::*)(
     ::by_ref<::OVR::OpenVR::EVRScreenshotError>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyFilename::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e3dbe4;
+  constexpr static std::size_t addrs = 0x5e3b950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRScreenshots__GetScreenshotPropertyFilename*>(),
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRScreenshots__UpdateScreenshotProgress::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRScreenshots__UpdateScreenshotProgress::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e3dc08;
+  constexpr static std::size_t addrs = 0x5e3b974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRScreenshots__UpdateScreenshotProgress*>(),
@@ -370,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRScreenshotError (::OVR::OpenVR::IVRScreenshots__UpdateScreenshotProgress::*)(uint32_t, float_t)>(
     &::OVR::OpenVR::IVRScreenshots__UpdateScreenshotProgress::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e3dc74;
+  constexpr static std::size_t addrs = 0x5e3b9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRScreenshots__UpdateScreenshotProgress*>(),
@@ -385,7 +385,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRScreenshots__UpdateScreenshotProgress::*)(uint32_t, float_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::IVRScreenshots__UpdateScreenshotProgress::BeginInvoke)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5e3dc88;
+  constexpr static std::size_t addrs = 0x5e3b9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRScreenshots__UpdateScreenshotProgress*>(),
@@ -399,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRScreenshotError (::OVR::OpenVR::IVRScreenshots__UpdateScreenshotProgress::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRScreenshots__UpdateScreenshotProgress::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e3dd00;
+  constexpr static std::size_t addrs = 0x5e3ba6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRScreenshots__UpdateScreenshotProgress*>(),
@@ -439,7 +439,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRScreenshots__TakeStereoScreenshot::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRScreenshots__TakeStereoScreenshot::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e3dd24;
+  constexpr static std::size_t addrs = 0x5e3ba90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRScreenshots__TakeStereoScreenshot*>(),
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRScreenshotError (::OVR::OpenVR::IVRScreenshots__TakeStereoScreenshot::*)(::by_ref<uint32_t>, ::StringW, ::StringW)>(
     &::OVR::OpenVR::IVRScreenshots__TakeStereoScreenshot::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e3dda4;
+  constexpr static std::size_t addrs = 0x5e3bb10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRScreenshots__TakeStereoScreenshot*>(),
@@ -468,7 +468,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRScreenshots__TakeStereoScreenshot::*)(::by_ref<uint32_t>, ::StringW, ::StringW, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::IVRScreenshots__TakeStereoScreenshot::BeginInvoke)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5e3ddb8;
+  constexpr static std::size_t addrs = 0x5e3bb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRScreenshots__TakeStereoScreenshot*>(),
@@ -482,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRScreenshotError (::OVR::OpenVR::IVRScreenshots__TakeStereoScreenshot::*)(::by_ref<uint32_t>, ::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRScreenshots__TakeStereoScreenshot::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e3de1c;
+  constexpr static std::size_t addrs = 0x5e3bb88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRScreenshots__TakeStereoScreenshot*>(),
@@ -522,7 +522,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRScreenshots__SubmitScreenshot::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRScreenshots__SubmitScreenshot::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e3de40;
+  constexpr static std::size_t addrs = 0x5e3bbac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRScreenshots__SubmitScreenshot*>(),
@@ -536,7 +536,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRScreenshotError (::OVR::OpenVR::IVRScreenshots__SubmitScreenshot::*)(
     uint32_t, ::OVR::OpenVR::EVRScreenshotType, ::StringW, ::StringW)>(&::OVR::OpenVR::IVRScreenshots__SubmitScreenshot::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e3deac;
+  constexpr static std::size_t addrs = 0x5e3bc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -551,7 +551,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                                                                     ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRScreenshots__SubmitScreenshot::BeginInvoke)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5e3dec0;
+  constexpr static std::size_t addrs = 0x5e3bc2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -565,7 +565,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRScreenshotError (::OVR::OpenVR::IVRScreenshots__SubmitScreenshot::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRScreenshots__SubmitScreenshot::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e3df74;
+  constexpr static std::size_t addrs = 0x5e3bce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

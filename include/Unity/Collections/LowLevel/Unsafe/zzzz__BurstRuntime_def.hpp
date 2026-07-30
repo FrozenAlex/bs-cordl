@@ -67,7 +67,7 @@ public:
   /// @brief Method GetHashCode64, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int64_t GetHashCode64();
 
-  /// @brief Method HashStringWithFNV1A64, addr 0x6a5a5d8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HashStringWithFNV1A64, addr 0x6a58374, size 0x60, virtual false, abstract: false, final false
   static inline int64_t HashStringWithFNV1A64(::StringW text);
 
 protected:

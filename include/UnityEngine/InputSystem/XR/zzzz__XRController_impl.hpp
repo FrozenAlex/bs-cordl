@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::XR::XRController* (*)()>(&::UnityEngine::InputSystem::XR::XRController::get_leftHand)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6581f34;
+  constexpr static std::size_t addrs = 0x657fcd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::XRController*>(), { "get_leftHand", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::XR::XRController* (*)()>(&::UnityEngine::InputSystem::XR::XRController::get_rightHand)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6581fe0;
+  constexpr static std::size_t addrs = 0x657fd7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::XRController*>(), { "get_rightHand", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::XRController::*)()>(&::UnityEngine::InputSystem::XR::XRController::FinishSetup)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x658208c;
+  constexpr static std::size_t addrs = 0x657fe28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::XRController::*)()>(&::UnityEngine::InputSystem::XR::XRController::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65821d4;
+  constexpr static std::size_t addrs = 0x657ff70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::XRController*>(), { ".ctor", {}, {} })));

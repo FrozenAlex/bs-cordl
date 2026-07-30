@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogSO::*)(float_t)>(&::GlobalNamespace::BloomFogSO::set_transition)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5861444;
+  constexpr static std::size_t addrs = 0x585f940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BloomFogSO::*)()>(&::GlobalNamespace::BloomFogSO::get_transition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5861b00;
+  constexpr static std::size_t addrs = 0x585fffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomFogSO*>(), { "get_transition", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> (::GlobalNamespace::BloomFogSO::*)()>(
     &::GlobalNamespace::BloomFogSO::get_defaultForParams)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5861b08;
+  constexpr static std::size_t addrs = 0x5860004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomFogSO*>(), { "get_defaultForParams", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogSO::*)(::GlobalNamespace::BloomFogEnvironmentParams*)>(&::GlobalNamespace::BloomFogSO::set_defaultForParams)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x586191c;
+  constexpr static std::size_t addrs = 0x585fe18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> (::GlobalNamespace::BloomFogSO::*)()>(
     &::GlobalNamespace::BloomFogSO::get_transitionFogParams)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5861b10;
+  constexpr static std::size_t addrs = 0x586000c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomFogSO*>(), { "get_transitionFogParams", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogSO::*)(::GlobalNamespace::BloomFogEnvironmentParams*)>(
     &::GlobalNamespace::BloomFogSO::set_transitionFogParams)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5861794;
+  constexpr static std::size_t addrs = 0x585fc90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogSO::*)(bool)>(&::GlobalNamespace::BloomFogSO::set_bloomFogEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5861528;
+  constexpr static std::size_t addrs = 0x585fa24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BloomFogSO::*)()>(&::GlobalNamespace::BloomFogSO::get_bloomFogEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5861b38;
+  constexpr static std::size_t addrs = 0x5860034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomFogSO*>(), { "get_bloomFogEnabled", {}, {} })));
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogSO::*)(bool)>(&::GlobalNamespace::BloomFogSO::set_legacyAutoExposureEnabled)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5861530;
+  constexpr static std::size_t addrs = 0x585fa2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BloomFogSO::*)()>(&::GlobalNamespace::BloomFogSO::get_legacyAutoExposureEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5861b40;
+  constexpr static std::size_t addrs = 0x586003c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomFogSO*>(), { "get_legacyAutoExposureEnabled", {}, {} })));
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BloomFogSO::*)()>(&::GlobalNamespace::BloomFogSO::get_autoExposureLimit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5861b48;
+  constexpr static std::size_t addrs = 0x5860044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomFogSO*>(), { "get_autoExposureLimit", {}, {} })));
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BloomFogSO::*)()>(&::GlobalNamespace::BloomFogSO::get_noteSpawnIntensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5861b50;
+  constexpr static std::size_t addrs = 0x586004c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomFogSO*>(), { "get_noteSpawnIntensity", {}, {} })));
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogSO::*)(::GlobalNamespace::BloomFogEnvironmentParams*)>(&::GlobalNamespace::BloomFogSO::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x586145c;
+  constexpr static std::size_t addrs = 0x585f958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogSO::*)()>(&::GlobalNamespace::BloomFogSO::OnEnable)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5861b58;
+  constexpr static std::size_t addrs = 0x5860054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomFogSO*>(), { ::i2c::class_of<::GlobalNamespace::BloomFogSO*>(), 4 }));
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogSO::*)()>(&::GlobalNamespace::BloomFogSO::UpdateKeyword)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5861b18;
+  constexpr static std::size_t addrs = 0x5860014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomFogSO*>(), { "UpdateKeyword", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogSO::*)()>(&::GlobalNamespace::BloomFogSO::UpdateShaderParams)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x586154c;
+  constexpr static std::size_t addrs = 0x585fa48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomFogSO*>(), { "UpdateShaderParams", {}, {} })));
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogSO::*)(float_t, float_t, float_t, float_t, float_t, float_t)>(&::GlobalNamespace::BloomFogSO::SetParams)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x5861bd4;
+  constexpr static std::size_t addrs = 0x58600d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogSO::*)()>(&::GlobalNamespace::BloomFogSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5861d90;
+  constexpr static std::size_t addrs = 0x586028c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomFogSO*>(), { ".ctor", {}, {} })));

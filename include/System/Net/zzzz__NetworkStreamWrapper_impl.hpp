@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkStreamWrapper::*)(::System::Net::Sockets::TcpClient*)>(&::System::Net::NetworkStreamWrapper::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6405a80;
+  constexpr static std::size_t addrs = 0x640381c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::NetworkStreamWrapper::*)()>(&::System::Net::NetworkStreamWrapper::get_UsingSecureStream)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6405afc;
+  constexpr static std::size_t addrs = 0x6403898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetworkStreamWrapper*>(), { "get_UsingSecureStream", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::IPAddress* (::System::Net::NetworkStreamWrapper::*)()>(&::System::Net::NetworkStreamWrapper::get_ServerAddress)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6405b7c;
+  constexpr static std::size_t addrs = 0x6403918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetworkStreamWrapper*>(), { "get_ServerAddress", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Sockets::Socket* (::System::Net::NetworkStreamWrapper::*)()>(&::System::Net::NetworkStreamWrapper::get_Socket)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6405c14;
+  constexpr static std::size_t addrs = 0x64039b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetworkStreamWrapper*>(), { "get_Socket", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Sockets::NetworkStream* (::System::Net::NetworkStreamWrapper::*)()>(&::System::Net::NetworkStreamWrapper::get_NetworkStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6405c2c;
+  constexpr static std::size_t addrs = 0x64039c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetworkStreamWrapper*>(), { "get_NetworkStream", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkStreamWrapper::*)(::System::Net::Sockets::NetworkStream*)>(
     &::System::Net::NetworkStreamWrapper::set_NetworkStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6405c34;
+  constexpr static std::size_t addrs = 0x64039d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::NetworkStreamWrapper::*)()>(&::System::Net::NetworkStreamWrapper::get_CanRead)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6405c3c;
+  constexpr static std::size_t addrs = 0x64039d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::NetworkStreamWrapper::*)()>(&::System::Net::NetworkStreamWrapper::get_CanSeek)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6405c58;
+  constexpr static std::size_t addrs = 0x64039f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::NetworkStreamWrapper::*)()>(&::System::Net::NetworkStreamWrapper::get_CanWrite)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6405c74;
+  constexpr static std::size_t addrs = 0x6403a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::NetworkStreamWrapper::*)()>(&::System::Net::NetworkStreamWrapper::get_CanTimeout)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6405c90;
+  constexpr static std::size_t addrs = 0x6403a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::NetworkStreamWrapper::*)()>(&::System::Net::NetworkStreamWrapper::get_ReadTimeout)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6405cac;
+  constexpr static std::size_t addrs = 0x6403a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkStreamWrapper::*)(int32_t)>(&::System::Net::NetworkStreamWrapper::set_ReadTimeout)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6405ccc;
+  constexpr static std::size_t addrs = 0x6403a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::NetworkStreamWrapper::*)()>(&::System::Net::NetworkStreamWrapper::get_WriteTimeout)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6405cec;
+  constexpr static std::size_t addrs = 0x6403a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkStreamWrapper::*)(int32_t)>(&::System::Net::NetworkStreamWrapper::set_WriteTimeout)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6405d0c;
+  constexpr static std::size_t addrs = 0x6403aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Net::NetworkStreamWrapper::*)()>(&::System::Net::NetworkStreamWrapper::get_Length)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6405d2c;
+  constexpr static std::size_t addrs = 0x6403ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Net::NetworkStreamWrapper::*)()>(&::System::Net::NetworkStreamWrapper::get_Position)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6405d48;
+  constexpr static std::size_t addrs = 0x6403ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkStreamWrapper::*)(int64_t)>(&::System::Net::NetworkStreamWrapper::set_Position)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6405d68;
+  constexpr static std::size_t addrs = 0x6403b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Net::NetworkStreamWrapper::*)(int64_t, ::System::IO::SeekOrigin)>(&::System::Net::NetworkStreamWrapper::Seek)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6405d88;
+  constexpr static std::size_t addrs = 0x6403b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::NetworkStreamWrapper::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Net::NetworkStreamWrapper::Read)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6405da8;
+  constexpr static std::size_t addrs = 0x6403b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkStreamWrapper::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::Net::NetworkStreamWrapper::Write)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6405dc8;
+  constexpr static std::size_t addrs = 0x6403b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkStreamWrapper::*)(bool)>(&::System::Net::NetworkStreamWrapper::Dispose)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6405de8;
+  constexpr static std::size_t addrs = 0x6403b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkStreamWrapper::*)()>(&::System::Net::NetworkStreamWrapper::CloseSocket)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x63fcec0;
+  constexpr static std::size_t addrs = 0x63fac5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetworkStreamWrapper*>(), { "CloseSocket", {}, {} })));
@@ -300,7 +300,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkStreamWrapper::*)(int32_t)>(&::System::Net::NetworkStreamWrapper::Close)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6405e30;
+  constexpr static std::size_t addrs = 0x6403bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetworkStreamWrapper*>(), { "Close", {}, { ::i2c::type_of<int32_t>() } })));
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::System::Net::NetworkStreamWrapper::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::AsyncCallback*,
                                                                                                                         ::System::Object*)>(&::System::Net::NetworkStreamWrapper::BeginRead)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6405e68;
+  constexpr static std::size_t addrs = 0x6403c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -326,7 +326,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::NetworkStreamWrapper::*)(::System::IAsyncResult*)>(&::System::Net::NetworkStreamWrapper::EndRead)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6405e88;
+  constexpr static std::size_t addrs = 0x6403c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
     ::System::Net::NetworkStreamWrapper::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::Net::NetworkStreamWrapper::ReadAsync)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6405ea8;
+  constexpr static std::size_t addrs = 0x6403c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::System::Net::NetworkStreamWrapper::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::AsyncCallback*,
                                                                                                                         ::System::Object*)>(&::System::Net::NetworkStreamWrapper::BeginWrite)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6405ec8;
+  constexpr static std::size_t addrs = 0x6403c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkStreamWrapper::*)(::System::IAsyncResult*)>(&::System::Net::NetworkStreamWrapper::EndWrite)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6405ee8;
+  constexpr static std::size_t addrs = 0x6403c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -381,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::System::Net::NetworkStreamWrapper::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::Net::NetworkStreamWrapper::WriteAsync)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6405f08;
+  constexpr static std::size_t addrs = 0x6403ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -394,7 +394,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkStreamWrapper::*)()>(&::System::Net::NetworkStreamWrapper::Flush)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6405f28;
+  constexpr static std::size_t addrs = 0x6403cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -408,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::NetworkStreamWrapper::*)(::System::Threading::CancellationToken)>(
     &::System::Net::NetworkStreamWrapper::FlushAsync)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6405f48;
+  constexpr static std::size_t addrs = 0x6403ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -421,7 +421,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkStreamWrapper::*)(int64_t)>(&::System::Net::NetworkStreamWrapper::SetLength)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6405f68;
+  constexpr static std::size_t addrs = 0x6403d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -434,7 +434,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkStreamWrapper::*)(int32_t)>(&::System::Net::NetworkStreamWrapper::SetSocketTimeoutOption)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x64026e4;
+  constexpr static std::size_t addrs = 0x6400480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

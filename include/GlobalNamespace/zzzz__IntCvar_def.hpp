@@ -21,12 +21,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE IntCvar : public ::GlobalNamespace::Cvar_1<int32_t> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x3325b20, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x33240e8, size 0x6c, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::GlobalNamespace::IntCvar* New_ctor(::StringW name, int32_t initialValue);
 
-  /// @brief Method .ctor, addr 0x3325b8c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3324154, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, int32_t initialValue);
 
 protected:
@@ -44,7 +44,7 @@ public:
   IntCvar(IntCvar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20558 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20640 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

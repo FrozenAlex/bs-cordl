@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataViewListener::*)(::System::Data::DataView*)>(&::System::Data::DataViewListener::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x602bf10;
+  constexpr static std::size_t addrs = 0x6029cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataViewListener::*)(::System::Object*, ::System::ComponentModel::CollectionChangeEventArgs*)>(
     &::System::Data::DataViewListener::ChildRelationCollectionChanged)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x602f944;
+  constexpr static std::size_t addrs = 0x602d6e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataViewListener::*)(::System::Object*, ::System::ComponentModel::CollectionChangeEventArgs*)>(
     &::System::Data::DataViewListener::ParentRelationCollectionChanged)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x602fa1c;
+  constexpr static std::size_t addrs = 0x602d7b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataViewListener::*)(::System::Object*, ::System::ComponentModel::CollectionChangeEventArgs*)>(
     &::System::Data::DataViewListener::ColumnCollectionChanged)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x602fadc;
+  constexpr static std::size_t addrs = 0x602d878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataViewListener::*)(::System::ComponentModel::ListChangedType, ::System::Data::DataRow*, bool)>(
     &::System::Data::DataViewListener::MaintainDataView)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x602fbac;
+  constexpr static std::size_t addrs = 0x602d948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataViewListener::*)(::System::ComponentModel::ListChangedEventArgs*)>(
     &::System::Data::DataViewListener::IndexListChanged)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x602fc88;
+  constexpr static std::size_t addrs = 0x602da24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataViewListener::*)(::System::Data::DataTable*)>(&::System::Data::DataViewListener::RegisterMetaDataEvents)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x602bf98;
+  constexpr static std::size_t addrs = 0x6029d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataViewListener::*)()>(&::System::Data::DataViewListener::UnregisterMetaDataEvents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x602cc80;
+  constexpr static std::size_t addrs = 0x602aa1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataViewListener*>(), { "UnregisterMetaDataEvents", {}, {} })));
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataViewListener::*)(bool)>(&::System::Data::DataViewListener::UnregisterMetaDataEvents)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x602ff80;
+  constexpr static std::size_t addrs = 0x602dd1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataViewListener::*)(::System::Data::Index*)>(&::System::Data::DataViewListener::RegisterListChangedEvent)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x602f118;
+  constexpr static std::size_t addrs = 0x602ceb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataViewListener::*)()>(&::System::Data::DataViewListener::UnregisterListChangedEvent)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x602f020;
+  constexpr static std::size_t addrs = 0x602cdbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataViewListener*>(), { "UnregisterListChangedEvent", {}, {} })));
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataViewListener::*)(bool)>(&::System::Data::DataViewListener::CleanUp)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x602fa04;
+  constexpr static std::size_t addrs = 0x602d7a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataViewListener*>(), { "CleanUp", {}, { ::i2c::type_of<bool>() } })));
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataViewListener::*)(::System::Data::DataTable*)>(&::System::Data::DataViewListener::RegisterListener)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x602fd48;
+  constexpr static std::size_t addrs = 0x602dae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::InitializationTime___c::*)()>(&::BGLib::AppFlow::Initialization::InitializationTime___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3309714;
+  constexpr static std::size_t addrs = 0x33073ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime___c*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BGLib::AppFlow::Initialization::InitializationTime___c::*)(
     ::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>)>(&::BGLib::AppFlow::Initialization::InitializationTime___c::_ToString_b__20_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3309718;
+  constexpr static std::size_t addrs = 0x33073f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BGLib::AppFlow::Initialization::InitializationTime___c::*)(
     ::System::ValueTuple_2<::StringW, ::System::Nullable_1<::System::TimeSpan>>)>(&::BGLib::AppFlow::Initialization::InitializationTime___c::_ToString_b__20_1)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x3309720;
+  constexpr static std::size_t addrs = 0x33073f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::AppFlow::Initialization::InitializationTime* (*)()>(&::BGLib::AppFlow::Initialization::InitializationTime::get_Current)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3308764;
+  constexpr static std::size_t addrs = 0x330643c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime*>(), { "get_Current", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::BGLib::AppFlow::Initialization::InitializationTime*)>(&::BGLib::AppFlow::Initialization::InitializationTime::set_Current)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x33087b0;
+  constexpr static std::size_t addrs = 0x3306488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime*>(),
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::BGLib::AppFlow::Initialization::InitializationTime::InitializeWithEditorTimestamp)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3308800;
+  constexpr static std::size_t addrs = 0x33064d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::BGLib::AppFlow::Initialization::InitializationTime::RunBeforeInitialization)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x330893c;
+  constexpr static std::size_t addrs = 0x3306614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::InitializationTime::*)()>(
     &::BGLib::AppFlow::Initialization::InitializationTime::ReportGameInitializationStarted)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x32fef30;
+  constexpr static std::size_t addrs = 0x32fcc00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::InitializationTime::*)()>(&::BGLib::AppFlow::Initialization::InitializationTime::ReportPreloadEnded)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x32ff038;
+  constexpr static std::size_t addrs = 0x32fcd08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::InitializationTime::*)()>(
     &::BGLib::AppFlow::Initialization::InitializationTime::ReportSceneContextEnded)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x32ff144;
+  constexpr static std::size_t addrs = 0x32fce14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::InitializationTime::*)()>(
     &::BGLib::AppFlow::Initialization::InitializationTime::ReportNoTransitionInstallerEnded)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3308a70;
+  constexpr static std::size_t addrs = 0x3306748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::InitializationTime::*)()>(
     &::BGLib::AppFlow::Initialization::InitializationTime::ReportInitializationEnded)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x32ff1a0;
+  constexpr static std::size_t addrs = 0x32fce70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BGLib::AppFlow::Initialization::InitializationTime::*)()>(&::BGLib::AppFlow::Initialization::InitializationTime::ToString)> {
   constexpr static std::size_t size = 0xac4;
-  constexpr static std::size_t addrs = 0x3308acc;
+  constexpr static std::size_t addrs = 0x33067a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime*>(),
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TimeSpan (*)(int64_t, int64_t)>(&::BGLib::AppFlow::Initialization::InitializationTime::GetElapsedTime)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3309590;
+  constexpr static std::size_t addrs = 0x3307268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime*>(),
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::BGLib::AppFlow::Initialization::InitializationTime::LogEventName)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3309630;
+  constexpr static std::size_t addrs = 0x3307308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::BGLib::AppFlow::Initialization::InitializationTime::LogVerbose)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3309634;
+  constexpr static std::size_t addrs = 0x330730c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::InitializationTime::*)()>(&::BGLib::AppFlow::Initialization::InitializationTime::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x33088c4;
+  constexpr static std::size_t addrs = 0x330659c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::InitializationTime*>(), { ".ctor", {}, {} })));

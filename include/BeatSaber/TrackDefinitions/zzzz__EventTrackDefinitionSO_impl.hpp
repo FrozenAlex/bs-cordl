@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::*)()>(&::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::get_visible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32eae70;
+  constexpr static std::size_t addrs = 0x32e8b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO*>(), { "get_visible", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO_DataTransformationType (::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::*)()>(
     &::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::get_dataTransformation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32eae78;
+  constexpr static std::size_t addrs = 0x32e8b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO_MarkerType (::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::*)()>(
     &::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::get_markerType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32eae80;
+  constexpr static std::size_t addrs = 0x32e8b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO*>(), { "get_markerType", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::*)()>(&::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::get_needsFiltering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32eae88;
+  constexpr static std::size_t addrs = 0x32e8b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::*)()>(&::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32eae90;
+  constexpr static std::size_t addrs = 0x32e8b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO*>(), { ".ctor", {}, {} })));

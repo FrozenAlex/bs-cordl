@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::InstancedMaterialLightWithId::*)()>(&::GlobalNamespace::InstancedMaterialLightWithId::get_intensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x586f874;
+  constexpr static std::size_t addrs = 0x586dd20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InstancedMaterialLightWithId*>(), { "get_intensity", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InstancedMaterialLightWithId::*)(float_t)>(&::GlobalNamespace::InstancedMaterialLightWithId::set_intensity)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x586f87c;
+  constexpr static std::size_t addrs = 0x586dd28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InstancedMaterialLightWithId::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::InstancedMaterialLightWithId::ColorWasSet)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x586f898;
+  constexpr static std::size_t addrs = 0x586dd44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InstancedMaterialLightWithId::*)()>(&::GlobalNamespace::InstancedMaterialLightWithId::AddNecessaryComponents)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x586f9ac;
+  constexpr static std::size_t addrs = 0x586de58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InstancedMaterialLightWithId*>(), { "AddNecessaryComponents", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InstancedMaterialLightWithId::*)()>(&::GlobalNamespace::InstancedMaterialLightWithId::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x586fabc;
+  constexpr static std::size_t addrs = 0x586df68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InstancedMaterialLightWithId*>(), { ".ctor", {}, {} })));

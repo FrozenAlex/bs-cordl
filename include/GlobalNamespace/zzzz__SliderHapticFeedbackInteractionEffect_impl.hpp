@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderHapticFeedbackInteractionEffect::*)()>(&::GlobalNamespace::SliderHapticFeedbackInteractionEffect::Start)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5977dcc;
+  constexpr static std::size_t addrs = 0x5976b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderHapticFeedbackInteractionEffect*>(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderHapticFeedbackInteractionEffect::*)()>(&::GlobalNamespace::SliderHapticFeedbackInteractionEffect::Update)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5977f1c;
+  constexpr static std::size_t addrs = 0x5976cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderHapticFeedbackInteractionEffect*>(), { "Update", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderHapticFeedbackInteractionEffect::*)(float_t)>(
     &::GlobalNamespace::SliderHapticFeedbackInteractionEffect::StartEffect)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x597803c;
+  constexpr static std::size_t addrs = 0x5976de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderHapticFeedbackInteractionEffect*>(),
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderHapticFeedbackInteractionEffect::*)()>(&::GlobalNamespace::SliderHapticFeedbackInteractionEffect::EndEffect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5978084;
+  constexpr static std::size_t addrs = 0x5976e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderHapticFeedbackInteractionEffect*>(),
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderHapticFeedbackInteractionEffect::*)()>(&::GlobalNamespace::SliderHapticFeedbackInteractionEffect::Vibrate)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x597800c;
+  constexpr static std::size_t addrs = 0x5976db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderHapticFeedbackInteractionEffect*>(), { "Vibrate", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderHapticFeedbackInteractionEffect::*)()>(&::GlobalNamespace::SliderHapticFeedbackInteractionEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5978090;
+  constexpr static std::size_t addrs = 0x5976e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderHapticFeedbackInteractionEffect*>(), { ".ctor", {}, {} })));

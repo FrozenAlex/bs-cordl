@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::*)(int32_t)>(
     &::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f0a988;
+  constexpr static std::size_t addrs = 0x5f086f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::*)()>(
     &::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f0aa44;
+  constexpr static std::size_t addrs = 0x5f087b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::*)()>(
     &::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::MoveNext)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5f0aa48;
+  constexpr static std::size_t addrs = 0x5f087b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::*)()>(
     &::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f0ab68;
+  constexpr static std::size_t addrs = 0x5f088d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16*>(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::*)()>(
     &::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5f0ab70;
+  constexpr static std::size_t addrs = 0x5f088dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::*)()>(
     &::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f0aba8;
+  constexpr static std::size_t addrs = 0x5f08914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRRuntimeController::*)()>(&::GlobalNamespace::OVRRuntimeController::Start)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x5f09e64;
+  constexpr static std::size_t addrs = 0x5f07bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeController*>(), { "Start", {}, {} })));
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRRuntimeController::*)()>(&::GlobalNamespace::OVRRuntimeController::Update)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5f0a224;
+  constexpr static std::size_t addrs = 0x5f07f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeController*>(), { "Update", {}, {} })));
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRRuntimeController::*)(::StringW)>(&::GlobalNamespace::OVRRuntimeController::IsModelSupported)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x5f0a054;
+  constexpr static std::size_t addrs = 0x5f07dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRRuntimeController::*)(::StringW)>(&::GlobalNamespace::OVRRuntimeController::LoadControllerModel)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x5f0a6c4;
+  constexpr static std::size_t addrs = 0x5f08430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRRuntimeController::*)()>(
     &::GlobalNamespace::OVRRuntimeController::UpdateControllerModel)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5f0a1d0;
+  constexpr static std::size_t addrs = 0x5f07f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeController*>(), { "UpdateControllerModel", {}, {} })));
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRRuntimeController::*)()>(&::GlobalNamespace::OVRRuntimeController::UpdateControllerAnimation)> {
   constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x5f0a334;
+  constexpr static std::size_t addrs = 0x5f080a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeController*>(), { "UpdateControllerAnimation", {}, {} })));
@@ -274,7 +274,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRRuntimeController::*)()>(&::GlobalNamespace::OVRRuntimeController::InputFocusAquired)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f0a990;
+  constexpr static std::size_t addrs = 0x5f086fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeController*>(), { "InputFocusAquired", {}, {} })));
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRRuntimeController::*)()>(&::GlobalNamespace::OVRRuntimeController::InputFocusLost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f0a99c;
+  constexpr static std::size_t addrs = 0x5f08708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeController*>(), { "InputFocusLost", {}, {} })));
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRRuntimeController::*)()>(&::GlobalNamespace::OVRRuntimeController::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f0a9a4;
+  constexpr static std::size_t addrs = 0x5f08710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeController*>(), { ".ctor", {}, {} })));

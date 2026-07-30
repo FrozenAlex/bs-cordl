@@ -401,7 +401,7 @@ public:
   InstanceDataSystem_InstanceTransformUpdateIDs(InstanceDataSystem_InstanceTransformUpdateIDs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17675 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17673 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -466,7 +466,7 @@ public:
   InstanceDataSystem_InstanceWindDataUpdateIDs(InstanceDataSystem_InstanceWindDataUpdateIDs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17676 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17674 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -485,7 +485,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelForBatch"
   constexpr operator ::Unity::Jobs::IJobParallelForBatch*();
 
-  /// @brief Method Execute, addr 0x6825ce8, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6823a84, size 0xd0, virtual true, abstract: false, final true
   inline void Execute(int32_t startIndex, int32_t count);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelForBatch"
@@ -505,7 +505,7 @@ public:
                                                                    ::Unity::Collections::NativeArray_1<int32_t> rendererGroupIDs, ::Unity::Collections::NativeArray_1<int32_t> instancesCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17677 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17675 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1b8 };
@@ -554,7 +554,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x6825db8, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6823b54, size 0x8c, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -572,7 +572,7 @@ public:
                                                                                 ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle> instances) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17678 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17676 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -609,7 +609,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelForBatch"
   constexpr operator ::Unity::Jobs::IJobParallelForBatch*();
 
-  /// @brief Method Execute, addr 0x6825e44, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6823be0, size 0x134, virtual true, abstract: false, final true
   inline void Execute(int32_t startIndex, int32_t count);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelForBatch"
@@ -629,7 +629,7 @@ public:
                                                               ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32 atomicNonFoundInstancesCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17679 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17677 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -674,7 +674,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelForBatch"
   constexpr operator ::Unity::Jobs::IJobParallelForBatch*();
 
-  /// @brief Method Execute, addr 0x6825f78, size 0x20c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6823d14, size 0x20c, virtual true, abstract: false, final true
   inline void Execute(int32_t startIndex, int32_t count);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelForBatch"
@@ -698,7 +698,7 @@ public:
                                                                    ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32 atomicNonFoundInstancesCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17680 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17678 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -758,7 +758,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelForBatch"
   constexpr operator ::Unity::Jobs::IJobParallelForBatch*();
 
-  /// @brief Method Execute, addr 0x6826184, size 0x1f8, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6823f20, size 0x1f8, virtual true, abstract: false, final true
   inline void Execute(int32_t startIndex, int32_t count);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelForBatch"
@@ -776,7 +776,7 @@ public:
                                                            ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle> instances) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17681 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17679 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1a0 };
@@ -820,7 +820,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x682637c, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6824118, size 0x168, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -842,7 +842,7 @@ public:
                                                                                     ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4> probesOcclusion) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17682 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17680 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -899,7 +899,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x68264e4, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6824280, size 0x3c, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -916,7 +916,7 @@ public:
                                                                  ::Unity::Collections::NativeArray_1<int32_t> compactTetrahedronCache, ::UnityEngine::Rendering::CPUInstanceData instanceData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17683 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17681 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };
@@ -956,7 +956,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelForBatch"
   constexpr operator ::Unity::Jobs::IJobParallelForBatch*();
 
-  /// @brief Method Execute, addr 0x6826520, size 0x5a0, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x68242bc, size 0x5a0, virtual true, abstract: false, final true
   inline void Execute(int32_t startIndex, int32_t count);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelForBatch"
@@ -985,7 +985,7 @@ public:
                                                   ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4> boundingSpheresDataQueue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17684 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17682 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1f8 };
@@ -1065,7 +1065,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelForBatch"
   constexpr operator ::Unity::Jobs::IJobParallelForBatch*();
 
-  /// @brief Method Execute, addr 0x6826ac0, size 0x298, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x682485c, size 0x298, virtual true, abstract: false, final true
   inline void Execute(int32_t startIndex, int32_t count);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelForBatch"
@@ -1088,7 +1088,7 @@ public:
                                                ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> probeQueryPosition) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17683 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1d0 };
@@ -1147,7 +1147,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x6826d58, size 0x184, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6824af4, size 0x184, virtual true, abstract: false, final true
   inline void Execute(int32_t chunk_index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -1165,7 +1165,7 @@ public:
                                                ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> transformUpdateInstanceQueue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17684 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };
@@ -1210,7 +1210,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x6826edc, size 0x38c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6824c78, size 0x38c, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -1237,7 +1237,7 @@ public:
                                                       ::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle> rendererGroupInstanceMultiHash) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17685 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x250 };
@@ -1309,7 +1309,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x6827268, size 0x2f0, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6825004, size 0x2f0, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -1329,7 +1329,7 @@ public:
                                                 ::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle> rendererGroupInstanceMultiHash) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17686 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x208 };
@@ -1376,7 +1376,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x6827558, size 0x268, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x68252f4, size 0x268, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -1396,7 +1396,7 @@ public:
       ::Unity::Collections::NativeParallelMultiHashMap_2<int32_t, ::UnityEngine::Rendering::InstanceHandle> rendererGroupInstanceMultiHash) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17687 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x208 };
@@ -1443,7 +1443,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x68277c0, size 0x3f0, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x682555c, size 0x3f0, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -1465,7 +1465,7 @@ public:
                                                           ::UnityEngine::Rendering::CPUInstanceData instanceData, ::UnityEngine::Rendering::CPUSharedInstanceData sharedInstanceData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17690 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17688 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x370 };
@@ -1519,7 +1519,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x6827c54, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x68259f0, size 0x98, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -1539,7 +1539,7 @@ public:
                                                                     ::Unity::Collections::NativeArray_1<uint32_t> lodGroupAndMasks) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17689 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x198 };
@@ -1584,7 +1584,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelForBatch"
   constexpr operator ::Unity::Jobs::IJobParallelForBatch*();
 
-  /// @brief Method Execute, addr 0x6827cec, size 0x288, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6825a88, size 0x288, virtual true, abstract: false, final true
   inline void Execute(int32_t startIndex, int32_t count);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelForBatch"
@@ -1607,7 +1607,7 @@ public:
                                                                       ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter32 atomicTreeInstancesCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17690 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1f8 };
@@ -1671,7 +1671,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelForBatch"
   constexpr operator ::Unity::Jobs::IJobParallelForBatch*();
 
-  /// @brief Method Execute, addr 0x6827fec, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6825d88, size 0xe4, virtual true, abstract: false, final true
   inline void Execute(int32_t startIndex, int32_t count);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelForBatch"
@@ -1687,7 +1687,7 @@ public:
                                                                     ::UnityEngine::Rendering::CPUInstanceData instanceData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17691 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };
@@ -1833,76 +1833,76 @@ public:
   /// @brief Method AtomicAddLengthNoResize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t AtomicAddLengthNoResize(::by_ref<::Unity::Collections::NativeList_1<T>> list, int32_t count);
 
-  /// @brief Method DispatchMotionUpdateCommand, addr 0x682310c, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method DispatchMotionUpdateCommand, addr 0x6820ea8, size 0x288, virtual false, abstract: false, final false
   inline void DispatchMotionUpdateCommand(int32_t motionQueueCount, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> transformInstanceQueue,
                                           ::UnityEngine::Rendering::RenderersParameters renderersParameters, ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
 
-  /// @brief Method DispatchProbeUpdateCommand, addr 0x6822e14, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method DispatchProbeUpdateCommand, addr 0x6820bb0, size 0x2f8, virtual false, abstract: false, final false
   inline void DispatchProbeUpdateCommand(int32_t queueCount, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> probeInstanceQueue,
                                          ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SphericalHarmonicsL2> probeUpdateDataQueue,
                                          ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4> probeOcclusionUpdateDataQueue, ::UnityEngine::Rendering::RenderersParameters renderersParameters,
                                          ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
 
-  /// @brief Method DispatchTransformUpdateCommand, addr 0x6823394, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method DispatchTransformUpdateCommand, addr 0x6821130, size 0x3c0, virtual false, abstract: false, final false
   inline void DispatchTransformUpdateCommand(bool initialize, int32_t transformQueueCount, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> transformInstanceQueue,
                                              ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::TransformUpdatePacket> updateDataQueue,
                                              ::Unity::Collections::NativeArray_1<::Unity::Mathematics::float4> boundingSphereUpdateDataQueue,
                                              ::UnityEngine::Rendering::RenderersParameters renderersParameters, ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
 
-  /// @brief Method DispatchWindDataCopyHistoryCommand, addr 0x6823754, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method DispatchWindDataCopyHistoryCommand, addr 0x68214f0, size 0x264, virtual false, abstract: false, final false
   inline void DispatchWindDataCopyHistoryCommand(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> gpuInstanceIndices,
                                                  ::UnityEngine::Rendering::RenderersParameters renderersParameters, ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
 
-  /// @brief Method Dispose, addr 0x682281c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x68205b8, size 0xc0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method EnsureIndexQueueBufferCapacity, addr 0x682292c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method EnsureIndexQueueBufferCapacity, addr 0x68206c8, size 0x9c, virtual false, abstract: false, final false
   inline void EnsureIndexQueueBufferCapacity(int32_t capacity);
 
-  /// @brief Method EnsureProbeBuffersCapacity, addr 0x68229c8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method EnsureProbeBuffersCapacity, addr 0x6820764, size 0x154, virtual false, abstract: false, final false
   inline void EnsureProbeBuffersCapacity(int32_t capacity);
 
-  /// @brief Method EnsureTransformBuffersCapacity, addr 0x6822b1c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method EnsureTransformBuffersCapacity, addr 0x68208b8, size 0x178, virtual false, abstract: false, final false
   inline void EnsureTransformBuffersCapacity(int32_t capacity);
 
-  /// @brief Method FreeInstances, addr 0x682484c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method FreeInstances, addr 0x68225e8, size 0xb8, virtual false, abstract: false, final false
   inline void FreeInstances(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
-  /// @brief Method FreeRendererGroupInstances, addr 0x6824794, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method FreeRendererGroupInstances, addr 0x6822530, size 0xb8, virtual false, abstract: false, final false
   inline void FreeRendererGroupInstances(::Unity::Collections::NativeArray_1<int32_t> rendererGroupsID);
 
-  /// @brief Method GetAliveInstancesOfType, addr 0x6822904, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetAliveInstancesOfType, addr 0x68206a0, size 0x28, virtual false, abstract: false, final false
   inline int32_t GetAliveInstancesOfType(::UnityEngine::Rendering::InstanceType instanceType);
 
-  /// @brief Method GetMaxInstancesOfType, addr 0x68228dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMaxInstancesOfType, addr 0x6820678, size 0x28, virtual false, abstract: false, final false
   inline int32_t GetMaxInstancesOfType(::UnityEngine::Rendering::InstanceType instanceType);
 
-  /// @brief Method GetVisibleTreeInstances, addr 0x6825390, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method GetVisibleTreeInstances, addr 0x682312c, size 0x3d8, virtual false, abstract: false, final false
   inline void GetVisibleTreeInstances(::by_ref<::UnityEngine::Rendering::ParallelBitArray> compactedVisibilityMasks, ::by_ref<::UnityEngine::Rendering::ParallelBitArray> processedBits,
                                       ::Unity::Collections::NativeList_1<int32_t> visibeTreeRendererIDs,
                                       ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle> visibeTreeInstances, bool becomeVisibleOnly,
                                       ::by_ref<int32_t> becomeVisibeTreeInstancesCount);
 
-  /// @brief Method InitializeInstanceTransforms, addr 0x6824ac4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method InitializeInstanceTransforms, addr 0x6822860, size 0x48, virtual false, abstract: false, final false
   inline void InitializeInstanceTransforms(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> localToWorldMatrices,
                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> prevLocalToWorldMatrices,
                                            ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters, ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
 
-  /// @brief Method InternalSanityCheckStates, addr 0x6825118, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method InternalSanityCheckStates, addr 0x6822eb4, size 0x278, virtual false, abstract: false, final false
   inline bool InternalSanityCheckStates();
 
   static inline ::UnityEngine::Rendering::InstanceDataSystem* New_ctor(int32_t maxInstances, bool enableBoundingSpheres, ::UnityEngine::Rendering::GPUResidentDrawerResources* resources);
 
-  /// @brief Method ReallocateAndGetInstances, addr 0x68244c0, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method ReallocateAndGetInstances, addr 0x682225c, size 0x2d4, virtual false, abstract: false, final false
   inline void ReallocateAndGetInstances(::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
                                         ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
-  /// @brief Method ScheduleCollectInstancesLODGroupAndMasksJob, addr 0x682501c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ScheduleCollectInstancesLODGroupAndMasksJob, addr 0x6822db8, size 0xfc, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleCollectInstancesLODGroupAndMasksJob(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                                                               ::Unity::Collections::NativeArray_1<uint32_t> lodGroupAndMasks);
 
-  /// @brief Method ScheduleInterpolateProbesAndUpdateTetrahedronCache, addr 0x6822c94, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ScheduleInterpolateProbesAndUpdateTetrahedronCache, addr 0x6820a30, size 0x180, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleInterpolateProbesAndUpdateTetrahedronCache(int32_t queueCount,
                                                                                      ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> probeUpdateInstanceQueue,
                                                                                      ::Unity::Collections::NativeArray_1<int32_t> compactTetrahedronCache,
@@ -1910,57 +1910,57 @@ public:
                                                                                      ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::SphericalHarmonicsL2> probeUpdateDataQueue,
                                                                                      ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4> probeOcclusionUpdateDataQueue);
 
-  /// @brief Method ScheduleQueryRendererGroupInstancesJob, addr 0x6824b64, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ScheduleQueryRendererGroupInstancesJob, addr 0x6822900, size 0xb0, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleQueryRendererGroupInstancesJob(::Unity::Collections::NativeArray_1<int32_t> rendererGroupIDs,
                                                                          ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
-  /// @brief Method ScheduleQueryRendererGroupInstancesJob, addr 0x6824c14, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleQueryRendererGroupInstancesJob, addr 0x68229b0, size 0x11c, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleQueryRendererGroupInstancesJob(::Unity::Collections::NativeArray_1<int32_t> rendererGroupIDs,
                                                                          ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
-  /// @brief Method ScheduleQueryRendererGroupInstancesJob, addr 0x6824d30, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method ScheduleQueryRendererGroupInstancesJob, addr 0x6822acc, size 0x1dc, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleQueryRendererGroupInstancesJob(::Unity::Collections::NativeArray_1<int32_t> rendererGroupIDs, ::Unity::Collections::NativeArray_1<int32_t> instancesOffset,
                                                                          ::Unity::Collections::NativeArray_1<int32_t> instancesCount,
                                                                          ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
-  /// @brief Method ScheduleQuerySortedMeshInstancesJob, addr 0x6824f0c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ScheduleQuerySortedMeshInstancesJob, addr 0x6822ca8, size 0x110, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleQuerySortedMeshInstancesJob(::Unity::Collections::NativeArray_1<int32_t> sortedMeshIDs,
                                                                       ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::InstanceHandle> instances);
 
-  /// @brief Method ScheduleUpdateInstanceDataJob, addr 0x6824904, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleUpdateInstanceDataJob, addr 0x68226a0, size 0x12c, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleUpdateInstanceDataJob(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                                                 ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData> rendererData,
                                                                 ::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex> lodGroupDataMap);
 
-  /// @brief Method UpdateAllInstanceProbes, addr 0x6824a30, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method UpdateAllInstanceProbes, addr 0x68227cc, size 0x94, virtual false, abstract: false, final false
   inline void UpdateAllInstanceProbes(::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters, ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
 
-  /// @brief Method UpdateInstanceMotions, addr 0x6824b50, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceMotions, addr 0x68228ec, size 0x14, virtual false, abstract: false, final false
   inline void UpdateInstanceMotions(::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters, ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
 
-  /// @brief Method UpdateInstanceMotionsData, addr 0x68239b8, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceMotionsData, addr 0x6821754, size 0x1d0, virtual false, abstract: false, final false
   inline void UpdateInstanceMotionsData(::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters, ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
 
-  /// @brief Method UpdateInstanceProbesData, addr 0x68240f8, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceProbesData, addr 0x6821e94, size 0x368, virtual false, abstract: false, final false
   inline void UpdateInstanceProbesData(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                        ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters, ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
 
-  /// @brief Method UpdateInstanceTransforms, addr 0x6824b0c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceTransforms, addr 0x68228a8, size 0x44, virtual false, abstract: false, final false
   inline void UpdateInstanceTransforms(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                        ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> localToWorldMatrices, ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters,
                                        ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
 
-  /// @brief Method UpdateInstanceTransformsData, addr 0x6823b88, size 0x570, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceTransformsData, addr 0x6821924, size 0x570, virtual false, abstract: false, final false
   inline void UpdateInstanceTransformsData(bool initialize, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> instances,
                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> localToWorldMatrices,
                                            ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> prevLocalToWorldMatrices,
                                            ::by_ref<::UnityEngine::Rendering::RenderersParameters> renderersParameters, ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
 
-  /// @brief Method UpdateInstanceWindDataHistory, addr 0x6824460, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method UpdateInstanceWindDataHistory, addr 0x68221fc, size 0x60, virtual false, abstract: false, final false
   inline void UpdateInstanceWindDataHistory(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex> gpuInstanceIndices,
                                             ::UnityEngine::Rendering::RenderersParameters renderersParameters, ::UnityEngine::Rendering::GPUInstanceDataBuffer* outputBuffer);
 
-  /// @brief Method UpdatePerFrameInstanceVisibility, addr 0x6825768, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method UpdatePerFrameInstanceVisibility, addr 0x6823504, size 0xc4, virtual false, abstract: false, final false
   inline void UpdatePerFrameInstanceVisibility(::by_ref<::UnityEngine::Rendering::ParallelBitArray> compactedVisibilityMasks);
 
   constexpr ::UnityEngine::ComputeBuffer* const& __cordl_internal_get_m_BoundingSpheresUpdateDataQueueBuffer() const;
@@ -2077,19 +2077,19 @@ public:
 
   constexpr void __cordl_internal_set_m_WindDataUpdateCS(::UnityW<::UnityEngine::ComputeShader> value);
 
-  /// @brief Method .ctor, addr 0x68225d4, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6820370, size 0x248, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxInstances, bool enableBoundingSpheres, ::UnityEngine::Rendering::GPUResidentDrawerResources* resources);
 
-  /// @brief Method get_aliveInstances, addr 0x682257c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_aliveInstances, addr 0x6820318, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::InstanceHandle> get_aliveInstances();
 
-  /// @brief Method get_hasBoundingSpheres, addr 0x68224d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasBoundingSpheres, addr 0x6820270, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasBoundingSpheres();
 
-  /// @brief Method get_instanceData, addr 0x68224dc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_instanceData, addr 0x6820278, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CPUInstanceData_ReadOnly get_instanceData();
 
-  /// @brief Method get_sharedInstanceData, addr 0x682252c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_sharedInstanceData, addr 0x68202c8, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CPUSharedInstanceData_ReadOnly get_sharedInstanceData();
 
   /// @brief Convert to "::System::IDisposable"
@@ -2110,7 +2110,7 @@ public:
   InstanceDataSystem(InstanceDataSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17694 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17692 };
 
   /// @brief Field m_InstanceAllocators, offset: 0x10, size: 0x60, def value: None
   ::UnityEngine::Rendering::InstanceAllocators ___m_InstanceAllocators;

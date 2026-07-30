@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, bool, ::by_ref<::System::Reflection::MethodBase*>, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<::StringW>,
                                                                 ::by_ref<int32_t>, ::by_ref<int32_t>)>(&::System::Diagnostics::StackFrame::get_frame_info)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5bde9fc;
+  constexpr static std::size_t addrs = 0x5bdc840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::StackFrame::*)()>(&::System::Diagnostics::StackFrame::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5bdea00;
+  constexpr static std::size_t addrs = 0x5bdc844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::StackFrame*>(), { ".ctor", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::StackFrame::*)(int32_t, bool)>(&::System::Diagnostics::StackFrame::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5bdea2c;
+  constexpr static std::size_t addrs = 0x5bdc870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Diagnostics::StackFrame::*)()>(&::System::Diagnostics::StackFrame::GetFileLineNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bdea5c;
+  constexpr static std::size_t addrs = 0x5bdc8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Diagnostics::StackFrame::*)()>(&::System::Diagnostics::StackFrame::GetFileName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bdea64;
+  constexpr static std::size_t addrs = 0x5bdc8a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Diagnostics::StackFrame::*)()>(&::System::Diagnostics::StackFrame::GetSecureFileName)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5bdea6c;
+  constexpr static std::size_t addrs = 0x5bdc8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::StackFrame*>(), { "GetSecureFileName", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Diagnostics::StackFrame::*)()>(&::System::Diagnostics::StackFrame::GetILOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bdeb48;
+  constexpr static std::size_t addrs = 0x5bdc98c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodBase* (::System::Diagnostics::StackFrame::*)()>(&::System::Diagnostics::StackFrame::GetMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bdeb50;
+  constexpr static std::size_t addrs = 0x5bdc994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Diagnostics::StackFrame::*)()>(&::System::Diagnostics::StackFrame::GetNativeOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bdeb58;
+  constexpr static std::size_t addrs = 0x5bdc99c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Diagnostics::StackFrame::*)()>(&::System::Diagnostics::StackFrame::GetMethodAddress)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bdeb60;
+  constexpr static std::size_t addrs = 0x5bdc9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::StackFrame*>(), { "GetMethodAddress", {}, {} })));
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::System::Diagnostics::StackFrame::*)()>(&::System::Diagnostics::StackFrame::GetMethodIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bdeb68;
+  constexpr static std::size_t addrs = 0x5bdc9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::StackFrame*>(), { "GetMethodIndex", {}, {} })));
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Diagnostics::StackFrame::*)()>(&::System::Diagnostics::StackFrame::GetInternalMethodName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bdeb70;
+  constexpr static std::size_t addrs = 0x5bdc9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::StackFrame*>(), { "GetInternalMethodName", {}, {} })));
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Diagnostics::StackFrame::*)()>(&::System::Diagnostics::StackFrame::ToString)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x5bdeb78;
+  constexpr static std::size_t addrs = 0x5bdc9bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

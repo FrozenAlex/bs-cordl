@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Unity::XR::OpenVR::ViveLighthouse* New_ctor();
 
-  /// @brief Method .ctor, addr 0x64cb7f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64c9594, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

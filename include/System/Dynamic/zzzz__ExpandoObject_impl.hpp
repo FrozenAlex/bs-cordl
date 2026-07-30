@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::*)(int32_t)>(
     &::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc08a4;
+  constexpr static std::size_t addrs = 0x5fbe640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::*)()>(
     &::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fc08ac;
+  constexpr static std::size_t addrs = 0x5fbe648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::*)()>(
     &::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x5fc08b0;
+  constexpr static std::size_t addrs = 0x5fbe64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::*)()>(
     &::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_Generic_IEnumerator_System_String__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc0a30;
+  constexpr static std::size_t addrs = 0x5fbe7cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15*>(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::*)()>(
     &::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5fc0a38;
+  constexpr static std::size_t addrs = 0x5fbe7d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::*)()>(
     &::System::Dynamic::KeyCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc0a70;
+  constexpr static std::size_t addrs = 0x5fbe80c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_KeyCollection::*)(::System::Dynamic::ExpandoObject*)>(
     &::System::Dynamic::ExpandoObject_KeyCollection::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5fbf5a0;
+  constexpr static std::size_t addrs = 0x5fbd33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_KeyCollection::*)()>(&::System::Dynamic::ExpandoObject_KeyCollection::CheckVersion)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5fc03dc;
+  constexpr static std::size_t addrs = 0x5fbe178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "CheckVersion", {}, {} })));
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_KeyCollection::*)(::StringW)>(&::System::Dynamic::ExpandoObject_KeyCollection::Add)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5fc043c;
+  constexpr static std::size_t addrs = 0x5fbe1d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_KeyCollection::*)()>(&::System::Dynamic::ExpandoObject_KeyCollection::Clear)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5fc0464;
+  constexpr static std::size_t addrs = 0x5fbe200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "Clear", {}, {} })));
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject_KeyCollection::*)(::StringW)>(&::System::Dynamic::ExpandoObject_KeyCollection::Contains)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5fc048c;
+  constexpr static std::size_t addrs = 0x5fbe228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_KeyCollection::*)(::ArrayW<::StringW>, int32_t)>(
     &::System::Dynamic::ExpandoObject_KeyCollection::CopyTo)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x5fc057c;
+  constexpr static std::size_t addrs = 0x5fbe318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Dynamic::ExpandoObject_KeyCollection::*)()>(&::System::Dynamic::ExpandoObject_KeyCollection::get_Count)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fc0804;
+  constexpr static std::size_t addrs = 0x5fbe5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "get_Count", {}, {} })));
@@ -330,7 +330,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject_KeyCollection::*)()>(&::System::Dynamic::ExpandoObject_KeyCollection::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc081c;
+  constexpr static std::size_t addrs = 0x5fbe5b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "get_IsReadOnly", {}, {} })));
@@ -342,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject_KeyCollection::*)(::StringW)>(&::System::Dynamic::ExpandoObject_KeyCollection::Remove)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5fc0824;
+  constexpr static std::size_t addrs = 0x5fbe5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>* (::System::Dynamic::ExpandoObject_KeyCollection::*)()>(
     &::System::Dynamic::ExpandoObject_KeyCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5fc084c;
+  constexpr static std::size_t addrs = 0x5fbe5e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_KeyCollection*>(), { "GetEnumerator", {}, {} })));
@@ -369,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Dynamic::ExpandoObject_KeyCollection::*)()>(
     &::System::Dynamic::ExpandoObject_KeyCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fc08a0;
+  constexpr static std::size_t addrs = 0x5fbe63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -513,7 +513,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::*)(int32_t)>(
     &::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc1100;
+  constexpr static std::size_t addrs = 0x5fbee9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -527,7 +527,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::*)()>(
     &::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fc110c;
+  constexpr static std::size_t addrs = 0x5fbeea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -541,7 +541,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::*)()>(
     &::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5fc1110;
+  constexpr static std::size_t addrs = 0x5fbeeac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -555,7 +555,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::*)()>(
     &::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc1234;
+  constexpr static std::size_t addrs = 0x5fbefd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15*>(),
@@ -569,7 +569,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::*)()>(
     &::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5fc123c;
+  constexpr static std::size_t addrs = 0x5fbefd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -583,7 +583,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::*)()>(
     &::System::Dynamic::ValueCollection_ExpandoObject__GetEnumerator_d__15::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc1274;
+  constexpr static std::size_t addrs = 0x5fbf010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -717,7 +717,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_ValueCollection::*)(::System::Dynamic::ExpandoObject*)>(
     &::System::Dynamic::ExpandoObject_ValueCollection::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5fc0a78;
+  constexpr static std::size_t addrs = 0x5fbe814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -730,7 +730,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_ValueCollection::*)()>(&::System::Dynamic::ExpandoObject_ValueCollection::CheckVersion)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5fc0b58;
+  constexpr static std::size_t addrs = 0x5fbe8f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "CheckVersion", {}, {} })));
@@ -742,7 +742,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_ValueCollection::*)(::System::Object*)>(&::System::Dynamic::ExpandoObject_ValueCollection::Add)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5fc0bb8;
+  constexpr static std::size_t addrs = 0x5fbe954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -755,7 +755,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_ValueCollection::*)()>(&::System::Dynamic::ExpandoObject_ValueCollection::Clear)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5fc0be0;
+  constexpr static std::size_t addrs = 0x5fbe97c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "Clear", {}, {} })));
@@ -767,7 +767,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject_ValueCollection::*)(::System::Object*)>(&::System::Dynamic::ExpandoObject_ValueCollection::Contains)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x5fc0c08;
+  constexpr static std::size_t addrs = 0x5fbe9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -781,7 +781,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_ValueCollection::*)(::ArrayW<::System::Object*>, int32_t)>(
     &::System::Dynamic::ExpandoObject_ValueCollection::CopyTo)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x5fc0d78;
+  constexpr static std::size_t addrs = 0x5fbeb14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(),
@@ -794,7 +794,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Dynamic::ExpandoObject_ValueCollection::*)()>(&::System::Dynamic::ExpandoObject_ValueCollection::get_Count)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fc1064;
+  constexpr static std::size_t addrs = 0x5fbee00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "get_Count", {}, {} })));
@@ -806,7 +806,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject_ValueCollection::*)()>(&::System::Dynamic::ExpandoObject_ValueCollection::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc107c;
+  constexpr static std::size_t addrs = 0x5fbee18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "get_IsReadOnly", {}, {} })));
@@ -818,7 +818,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject_ValueCollection::*)(::System::Object*)>(&::System::Dynamic::ExpandoObject_ValueCollection::Remove)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5fc1084;
+  constexpr static std::size_t addrs = 0x5fbee20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -832,7 +832,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>* (::System::Dynamic::ExpandoObject_ValueCollection::*)()>(
     &::System::Dynamic::ExpandoObject_ValueCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5fc10ac;
+  constexpr static std::size_t addrs = 0x5fbee48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ValueCollection*>(), { "GetEnumerator", {}, {} })));
@@ -845,7 +845,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Dynamic::ExpandoObject_ValueCollection::*)()>(
     &::System::Dynamic::ExpandoObject_ValueCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fc1108;
+  constexpr static std::size_t addrs = 0x5fbeea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -988,7 +988,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::*)()>(
     &::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fc1eb4;
+  constexpr static std::size_t addrs = 0x5fbfc50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1003,7 +1003,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::*)(::System::Dynamic::DynamicMetaObject*)>(
         &::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0::_BindInvokeMember_b__0)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5fc274c;
+  constexpr static std::size_t addrs = 0x5fc04e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject___c__DisplayClass3_0*>(),
@@ -1055,7 +1055,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)(int32_t)>(
     &::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5fc2670;
+  constexpr static std::size_t addrs = 0x5fc040c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1069,7 +1069,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(
     &::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fc2774;
+  constexpr static std::size_t addrs = 0x5fc0510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1083,7 +1083,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(
     &::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::MoveNext)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5fc2778;
+  constexpr static std::size_t addrs = 0x5fc0514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1097,7 +1097,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(
     &::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_Generic_IEnumerator_System_String__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc28b4;
+  constexpr static std::size_t addrs = 0x5fc0650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>(),
@@ -1111,7 +1111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(
     &::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5fc28bc;
+  constexpr static std::size_t addrs = 0x5fc0658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1125,7 +1125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(
     &::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc28f4;
+  constexpr static std::size_t addrs = 0x5fc0690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1140,7 +1140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>* (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(
     &::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_Generic_IEnumerable_System_String__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5fc28fc;
+  constexpr static std::size_t addrs = 0x5fc0698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6*>(),
@@ -1154,7 +1154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::*)()>(
     &::System::Dynamic::MetaExpando_ExpandoObject__GetDynamicMemberNames_d__6::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fc2994;
+  constexpr static std::size_t addrs = 0x5fc0730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1342,7 +1342,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_MetaExpando::*)(::System::Linq::Expressions::Expression*, ::System::Dynamic::ExpandoObject*)>(
     &::System::Dynamic::ExpandoObject_MetaExpando::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5fc127c;
+  constexpr static std::size_t addrs = 0x5fbf018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1359,7 +1359,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::Dynami
                                                      ::System::Func_2<::System::Dynamic::DynamicMetaObject*, ::System::Dynamic::DynamicMetaObject*>*)>(
     &::System::Dynamic::ExpandoObject_MetaExpando::BindGetOrInvokeMember)> {
   constexpr static std::size_t size = 0x5b0;
-  constexpr static std::size_t addrs = 0x5fc132c;
+  constexpr static std::size_t addrs = 0x5fbf0c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1378,7 +1378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::ExpandoObject_MetaExpando::*)(::System::Dynamic::GetMemberBinder*)>(
     &::System::Dynamic::ExpandoObject_MetaExpando::BindGetMember)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5fc1cd8;
+  constexpr static std::size_t addrs = 0x5fbfa74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1393,7 +1393,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::ExpandoObject_MetaExpando::*)(::System::Dynamic::InvokeMemberBinder*, ::ArrayW<::System::Dynamic::DynamicMetaObject*>)>(
         &::System::Dynamic::ExpandoObject_MetaExpando::BindInvokeMember)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5fc1d84;
+  constexpr static std::size_t addrs = 0x5fbfb20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1407,7 +1407,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::DynamicMetaObject* (
     ::System::Dynamic::ExpandoObject_MetaExpando::*)(::System::Dynamic::SetMemberBinder*, ::System::Dynamic::DynamicMetaObject*)>(&::System::Dynamic::ExpandoObject_MetaExpando::BindSetMember)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x5fc1ec8;
+  constexpr static std::size_t addrs = 0x5fbfc64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1421,7 +1421,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::ExpandoObject_MetaExpando::*)(::System::Dynamic::DeleteMemberBinder*)>(
     &::System::Dynamic::ExpandoObject_MetaExpando::BindDeleteMember)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x5fc2358;
+  constexpr static std::size_t addrs = 0x5fc00f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1435,7 +1435,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (::System::Dynamic::ExpandoObject_MetaExpando::*)()>(
     &::System::Dynamic::ExpandoObject_MetaExpando::GetDynamicMemberNames)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5fc2600;
+  constexpr static std::size_t addrs = 0x5fc039c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1450,7 +1450,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::Dynami
     ::System::Dynamic::ExpandoObject_MetaExpando::*)(::System::Dynamic::DynamicMetaObjectBinder*, ::System::Dynamic::ExpandoClass*, ::System::Dynamic::ExpandoClass*,
                                                      ::System::Dynamic::DynamicMetaObject*)>(&::System::Dynamic::ExpandoObject_MetaExpando::AddDynamicTestAndDefer)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x5fc1a3c;
+  constexpr static std::size_t addrs = 0x5fbf7d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1469,7 +1469,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::Expand
     ::System::Dynamic::ExpandoObject_MetaExpando::*)(::StringW, bool, ::System::Dynamic::ExpandoObject*, ::by_ref<::System::Dynamic::ExpandoClass*>, ::by_ref<int32_t>)>(
     &::System::Dynamic::ExpandoObject_MetaExpando::GetClassEnsureIndex)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5fc22a0;
+  constexpr static std::size_t addrs = 0x5fc003c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(),
@@ -1486,7 +1486,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Dynamic::ExpandoObject_MetaExpando::*)()>(
     &::System::Dynamic::ExpandoObject_MetaExpando::GetLimitedSelf)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5fc194c;
+  constexpr static std::size_t addrs = 0x5fbf6e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), { "GetLimitedSelf", {}, {} })));
@@ -1499,7 +1499,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::BindingRestrictions* (::System::Dynamic::ExpandoObject_MetaExpando::*)()>(
     &::System::Dynamic::ExpandoObject_MetaExpando::GetRestrictions)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5fc2690;
+  constexpr static std::size_t addrs = 0x5fc042c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), { "GetRestrictions", {}, {} })));
@@ -1512,7 +1512,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::ExpandoObject* (::System::Dynamic::ExpandoObject_MetaExpando::*)()>(
     &::System::Dynamic::ExpandoObject_MetaExpando::get_Value)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5fc18dc;
+  constexpr static std::size_t addrs = 0x5fbf678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_MetaExpando*>(), { "get_Value", {}, {} })));
@@ -1606,7 +1606,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Dynamic::ExpandoObject_ExpandoData::*)(int32_t)>(&::System::Dynamic::ExpandoObject_ExpandoData::get_Item)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5fc0a00;
+  constexpr static std::size_t addrs = 0x5fbe79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1619,7 +1619,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_ExpandoData::*)(int32_t, ::System::Object*)>(&::System::Dynamic::ExpandoObject_ExpandoData::set_Item)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5fc2998;
+  constexpr static std::size_t addrs = 0x5fc0734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1633,7 +1633,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Dynamic::ExpandoObject_ExpandoData::*)()>(&::System::Dynamic::ExpandoObject_ExpandoData::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc2a08;
+  constexpr static std::size_t addrs = 0x5fc07a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ExpandoData*>(), { "get_Version", {}, {} })));
@@ -1645,7 +1645,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Dynamic::ExpandoObject_ExpandoData::*)()>(&::System::Dynamic::ExpandoObject_ExpandoData::get_Length)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fc2a10;
+  constexpr static std::size_t addrs = 0x5fc07ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ExpandoData*>(), { "get_Length", {}, {} })));
@@ -1657,7 +1657,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_ExpandoData::*)()>(&::System::Dynamic::ExpandoObject_ExpandoData::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5fc2a28;
+  constexpr static std::size_t addrs = 0x5fc07c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject_ExpandoData*>(), { ".ctor", {}, {} })));
@@ -1670,7 +1670,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject_ExpandoData::*)(::System::Dynamic::ExpandoClass*, ::ArrayW<::System::Object*>, int32_t)>(
     &::System::Dynamic::ExpandoObject_ExpandoData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5fc2b00;
+  constexpr static std::size_t addrs = 0x5fc089c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1685,7 +1685,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::ExpandoObject_ExpandoData* (::System::Dynamic::ExpandoObject_ExpandoData::*)(::System::Dynamic::ExpandoClass*)>(
     &::System::Dynamic::ExpandoObject_ExpandoData::UpdateClass)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5fc2b0c;
+  constexpr static std::size_t addrs = 0x5fc08a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1698,7 +1698,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Dynamic::ExpandoObject_ExpandoData::GetAlignedSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5fc2ca0;
+  constexpr static std::size_t addrs = 0x5fc0a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1802,7 +1802,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::*)(int32_t)>(
     &::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc2d08;
+  constexpr static std::size_t addrs = 0x5fc0aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1816,7 +1816,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::*)()>(
     &::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fc2d10;
+  constexpr static std::size_t addrs = 0x5fc0aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1830,7 +1830,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::*)()>(
     &::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::MoveNext)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5fc2d14;
+  constexpr static std::size_t addrs = 0x5fc0ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51*>(), { "MoveNext", {}, {} })));
@@ -1845,7 +1845,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> (::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::*)()>(
         &::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Current)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5fc2e9c;
+  constexpr static std::size_t addrs = 0x5fc0c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1860,7 +1860,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::*)()>(
     &::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5fc2ea8;
+  constexpr static std::size_t addrs = 0x5fc0c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1874,7 +1874,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::*)()>(
     &::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5fc2ee0;
+  constexpr static std::size_t addrs = 0x5fc0c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2021,7 +2021,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject::*)()>(&::System::Dynamic::ExpandoObject::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5fbf350;
+  constexpr static std::size_t addrs = 0x5fbd0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { ".ctor", {}, {} })));
@@ -2034,7 +2034,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::System::Object*, int32_t, ::StringW, bool, ::by_ref<::System::Object*>)>(
     &::System::Dynamic::ExpandoObject::TryGetValue)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x5fbb4b0;
+  constexpr static std::size_t addrs = 0x5fb924c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2051,7 +2051,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::System::Object*, int32_t, ::System::Object*, ::StringW, bool, bool)>(
     &::System::Dynamic::ExpandoObject::TrySetValue)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x5fbb60c;
+  constexpr static std::size_t addrs = 0x5fb93a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2069,7 +2069,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::System::Object*, int32_t, ::StringW, bool, ::System::Object*)>(
     &::System::Dynamic::ExpandoObject::TryDeleteValue)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x5fbba4c;
+  constexpr static std::size_t addrs = 0x5fb97e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2085,7 +2085,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(int32_t)>(&::System::Dynamic::ExpandoObject::IsDeletedMember)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5fbf23c;
+  constexpr static std::size_t addrs = 0x5fbcfd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2098,7 +2098,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::ExpandoClass* (::System::Dynamic::ExpandoObject::*)()>(&::System::Dynamic::ExpandoObject::get_Class)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fbbd90;
+  constexpr static std::size_t addrs = 0x5fb9b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::ExpandoObject*>(), { "get_Class", {}, {} })));
@@ -2111,7 +2111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::ExpandoObject_ExpandoData* (
     ::System::Dynamic::ExpandoObject::*)(::System::Dynamic::ExpandoClass*, ::System::Dynamic::ExpandoClass*)>(&::System::Dynamic::ExpandoObject::PromoteClassCore)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5fbf3d8;
+  constexpr static std::size_t addrs = 0x5fbd174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2125,7 +2125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::System::Object*, ::System::Object*)>(&::System::Dynamic::ExpandoObject::PromoteClass)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5fbbdb8;
+  constexpr static std::size_t addrs = 0x5fb9b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2140,7 +2140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::ExpandoObject::*)(::System::Linq::Expressions::Expression*)>(
     &::System::Dynamic::ExpandoObject::System_Dynamic_IDynamicMetaObjectProvider_GetMetaObject)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5fbf410;
+  constexpr static std::size_t addrs = 0x5fbd1ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2154,7 +2154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::StringW, ::System::Object*)>(&::System::Dynamic::ExpandoObject::TryAddMember)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5fbf480;
+  constexpr static std::size_t addrs = 0x5fbd21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2167,7 +2167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::StringW, ::by_ref<::System::Object*>)>(&::System::Dynamic::ExpandoObject::TryGetValueForKey)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fbf500;
+  constexpr static std::size_t addrs = 0x5fbd29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2181,7 +2181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::StringW)>(&::System::Dynamic::ExpandoObject::ExpandoContainsKey)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5fbf518;
+  constexpr static std::size_t addrs = 0x5fbd2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2195,7 +2195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::ICollection_1<::StringW>* (::System::Dynamic::ExpandoObject::*)()>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__get_Keys)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5fbf544;
+  constexpr static std::size_t addrs = 0x5fbd2e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2209,7 +2209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::ICollection_1<::System::Object*>* (::System::Dynamic::ExpandoObject::*)()>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__get_Values)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5fbf680;
+  constexpr static std::size_t addrs = 0x5fbd41c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2223,7 +2223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Dynamic::ExpandoObject::*)(::StringW)>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__get_Item)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5fbf6e0;
+  constexpr static std::size_t addrs = 0x5fbd47c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2238,7 +2238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::StringW, ::System::Object*)>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__set_Item)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5fbf744;
+  constexpr static std::size_t addrs = 0x5fbd4e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2254,7 +2254,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::StringW, ::System::Object*)>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__Add)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fbf7c4;
+  constexpr static std::size_t addrs = 0x5fbd560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2270,7 +2270,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::StringW)>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__ContainsKey)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5fbf7c8;
+  constexpr static std::size_t addrs = 0x5fbd564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2285,7 +2285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::StringW)>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__Remove)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5fbf8a4;
+  constexpr static std::size_t addrs = 0x5fbd640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2300,7 +2300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::StringW, ::by_ref<::System::Object*>)>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__TryGetValue)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fbf94c;
+  constexpr static std::size_t addrs = 0x5fbd6e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2316,7 +2316,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Dynamic::ExpandoObject::*)()>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fbf964;
+  constexpr static std::size_t addrs = 0x5fbd700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2331,7 +2331,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)()>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fbf96c;
+  constexpr static std::size_t addrs = 0x5fbd708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2346,7 +2346,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>)>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Add)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5fbf974;
+  constexpr static std::size_t addrs = 0x5fbd710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2363,7 +2363,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject::*)()>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Clear)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x5fbf9e4;
+  constexpr static std::size_t addrs = 0x5fbd780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2378,7 +2378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>)>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Contains)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5fbfc10;
+  constexpr static std::size_t addrs = 0x5fbd9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2395,7 +2395,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::ArrayW<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>, int32_t)>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___CopyTo)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x5fbfce8;
+  constexpr static std::size_t addrs = 0x5fbda84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2412,7 +2412,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>)>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Remove)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5fc00d4;
+  constexpr static std::size_t addrs = 0x5fbde70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2430,7 +2430,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>* (::System::Dynamic::ExpandoObject::*)()>(
         &::System::Dynamic::ExpandoObject::System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Object___GetEnumerator)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fc0150;
+  constexpr static std::size_t addrs = 0x5fbdeec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2445,7 +2445,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Dynamic::ExpandoObject::*)()>(
     &::System::Dynamic::ExpandoObject::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fc01d4;
+  constexpr static std::size_t addrs = 0x5fbdf70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2459,7 +2459,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>* (
     ::System::Dynamic::ExpandoObject::*)(::System::Dynamic::ExpandoObject_ExpandoData*, int32_t)>(&::System::Dynamic::ExpandoObject::GetExpandoEnumerator)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5fc0168;
+  constexpr static std::size_t addrs = 0x5fbdf04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

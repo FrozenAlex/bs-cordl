@@ -22,10 +22,10 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE MouseCaptureController : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CaptureMouse, addr 0x6db31c0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CaptureMouse, addr 0x6daebc4, size 0xcc, virtual false, abstract: false, final false
   static inline void CaptureMouse(::UnityEngine::UIElements::IEventHandler* handler);
 
-  /// @brief Method HasMouseCapture, addr 0x6db19dc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HasMouseCapture, addr 0x6dad3e0, size 0xb4, virtual false, abstract: false, final false
   static inline bool HasMouseCapture(::UnityEngine::UIElements::IEventHandler* handler);
 
 protected:

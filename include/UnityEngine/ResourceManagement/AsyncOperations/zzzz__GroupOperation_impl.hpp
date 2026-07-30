@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6921908;
+  constexpr static std::size_t addrs = 0x691f6a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::InvokeWaitForCompletion)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x6921a4c;
+  constexpr static std::size_t addrs = 0x691f7e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*>(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceManagement::Util::IOperationCacheKey* (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6921e24;
+  constexpr static std::size_t addrs = 0x691fbc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*>(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)(::UnityEngine::ResourceManagement::Util::IOperationCacheKey*)>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::UnityEngine_ResourceManagement_AsyncOperations_ICachable_set_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6921e2c;
+  constexpr static std::size_t addrs = 0x691fbc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* (
     ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(&::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GetDependentOps)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6921e34;
+  constexpr static std::size_t addrs = 0x691fbd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Reso
     ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GetDependencies)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6921e78;
+  constexpr static std::size_t addrs = 0x691fc14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*>(),
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::ReleaseDependencies)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x6921f00;
+  constexpr static std::size_t addrs = 0x691fc9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*>(),
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)(
     ::System::Collections::Generic::HashSet_1<::System::Object*>*)>(&::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GetDownloadStatus)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x6922168;
+  constexpr static std::size_t addrs = 0x691ff04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*>(),
@@ -147,7 +147,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Reso
     ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::DependenciesAreUnchanged)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x69223d8;
+  constexpr static std::size_t addrs = 0x6920174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::get_DebugName)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x6922564;
+  constexpr static std::size_t addrs = 0x6920300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*>(),
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::Execute)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x69228a4;
+  constexpr static std::size_t addrs = 0x6920640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*>(),
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::CompleteIfDependenciesComplete)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x6922acc;
+  constexpr static std::size_t addrs = 0x6920868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::Destroy)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6922de4;
+  constexpr static std::size_t addrs = 0x6920b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*>(),
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::get_Progress)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x6922e08;
+  constexpr static std::size_t addrs = 0x6920ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*>(),
@@ -235,7 +235,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Reso
     ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*, bool, bool)>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::Init)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6923010;
+  constexpr static std::size_t addrs = 0x6920dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -254,7 +254,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Reso
     ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*,
     ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings)>(&::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::Init)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x69230d0;
+  constexpr static std::size_t addrs = 0x6920e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::OnOperationCompleted)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6923170;
+  constexpr static std::size_t addrs = 0x6920f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

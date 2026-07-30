@@ -47,34 +47,34 @@ public:
 
   __declspec(property(get = get_visualMode)) ::UnityEngine::UIElements::DragVisualMode visualMode;
 
-  /// @brief Method SetGenericData, addr 0x6d88598, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetGenericData, addr 0x6d83f9c, size 0x98, virtual false, abstract: false, final false
   inline void SetGenericData(::StringW key, ::System::Object* data);
 
-  /// @brief Method .ctor, addr 0x6d86604, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d82008, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW title, ::UnityEngine::UIElements::DragVisualMode visualMode);
 
-  /// @brief Method get_assetPaths, addr 0x6d88588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_assetPaths, addr 0x6d83f8c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_assetPaths();
 
-  /// @brief Method get_genericData, addr 0x6d88568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_genericData, addr 0x6d83f6c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* get_genericData();
 
-  /// @brief Method get_title, addr 0x6d88558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_title, addr 0x6d83f5c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_title();
 
-  /// @brief Method get_unityObjectReferences, addr 0x6d88578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unityObjectReferences, addr 0x6d83f7c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* get_unityObjectReferences();
 
-  /// @brief Method get_visualMode, addr 0x6d88560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visualMode, addr 0x6d83f64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DragVisualMode get_visualMode();
 
-  /// @brief Method set_assetPaths, addr 0x6d88590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_assetPaths, addr 0x6d83f94, size 0x8, virtual false, abstract: false, final false
   inline void set_assetPaths(::ArrayW<::StringW> value);
 
-  /// @brief Method set_genericData, addr 0x6d88570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_genericData, addr 0x6d83f74, size 0x8, virtual false, abstract: false, final false
   inline void set_genericData(::System::Collections::Hashtable* value);
 
-  /// @brief Method set_unityObjectReferences, addr 0x6d88580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_unityObjectReferences, addr 0x6d83f84, size 0x8, virtual false, abstract: false, final false
   inline void set_unityObjectReferences(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* value);
 
   // Ctor Parameters []

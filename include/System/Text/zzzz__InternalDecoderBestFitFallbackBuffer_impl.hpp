@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)()>(&::System::Text::InternalDecoderBestFitFallbackBuffer::get_InternalSyncObject)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5cc97c0;
+  constexpr static std::size_t addrs = 0x5cc752c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::InternalDecoderBestFitFallbackBuffer::*)(::System::Text::InternalDecoderBestFitFallback*)>(
     &::System::Text::InternalDecoderBestFitFallbackBuffer::_ctor)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5cc95d0;
+  constexpr static std::size_t addrs = 0x5cc733c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::InternalDecoderBestFitFallbackBuffer*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Text::InternalDecoderBestFitFallbackBuffer::*)(::ArrayW<uint8_t>, int32_t)>(
     &::System::Text::InternalDecoderBestFitFallbackBuffer::Fallback)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5cc9858;
+  constexpr static std::size_t addrs = 0x5cc75c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Text::InternalDecoderBestFitFallbackBuffer*>(),
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::System::Text::InternalDecoderBestFitFallbackBuffer::*)()>(&::System::Text::InternalDecoderBestFitFallbackBuffer::GetNextChar)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5cc99e4;
+  constexpr static std::size_t addrs = 0x5cc7750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Text::InternalDecoderBestFitFallbackBuffer*>(),
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::InternalDecoderBestFitFallbackBuffer::*)()>(&::System::Text::InternalDecoderBestFitFallbackBuffer::get_Remaining)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cc9a24;
+  constexpr static std::size_t addrs = 0x5cc7790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Text::InternalDecoderBestFitFallbackBuffer*>(),
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::InternalDecoderBestFitFallbackBuffer::*)()>(&::System::Text::InternalDecoderBestFitFallbackBuffer::Reset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5cc9a30;
+  constexpr static std::size_t addrs = 0x5cc779c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Text::InternalDecoderBestFitFallbackBuffer*>(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::InternalDecoderBestFitFallbackBuffer::*)(::ArrayW<uint8_t>, uint8_t*)>(
     &::System::Text::InternalDecoderBestFitFallbackBuffer::InternalFallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc9a40;
+  constexpr static std::size_t addrs = 0x5cc77ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Text::InternalDecoderBestFitFallbackBuffer*>(),
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::System::Text::InternalDecoderBestFitFallbackBuffer::*)(::ArrayW<uint8_t>)>(
     &::System::Text::InternalDecoderBestFitFallbackBuffer::TryBestFit)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x5cc9898;
+  constexpr static std::size_t addrs = 0x5cc7604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

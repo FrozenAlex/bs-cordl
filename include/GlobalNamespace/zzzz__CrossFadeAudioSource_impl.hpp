@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::AudioClip> (::GlobalNamespace::CrossFadeAudioSource::*)()>(&::GlobalNamespace::CrossFadeAudioSource::get_clip)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x58b8ba4;
+  constexpr static std::size_t addrs = 0x58b707c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CrossFadeAudioSource*>(), { "get_clip", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)(::UnityEngine::AudioClip*)>(&::GlobalNamespace::CrossFadeAudioSource::set_clip)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x58b8bbc;
+  constexpr static std::size_t addrs = 0x58b7094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)(float_t)>(&::GlobalNamespace::CrossFadeAudioSource::set_pitch)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x58b8bf4;
+  constexpr static std::size_t addrs = 0x58b70cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)(float_t)>(&::GlobalNamespace::CrossFadeAudioSource::set_time)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x58b8c2c;
+  constexpr static std::size_t addrs = 0x58b7104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CrossFadeAudioSource::*)()>(&::GlobalNamespace::CrossFadeAudioSource::get_isPlaying)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x58b8c6c;
+  constexpr static std::size_t addrs = 0x58b7144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CrossFadeAudioSource*>(), { "get_isPlaying", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)()>(&::GlobalNamespace::CrossFadeAudioSource::Awake)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x58b8c84;
+  constexpr static std::size_t addrs = 0x58b715c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CrossFadeAudioSource*>(), { "Awake", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)()>(&::GlobalNamespace::CrossFadeAudioSource::OnDestroy)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x58b8e40;
+  constexpr static std::size_t addrs = 0x58b7318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CrossFadeAudioSource*>(), { "OnDestroy", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)(float_t)>(&::GlobalNamespace::CrossFadeAudioSource::PlayPitchGainEffect)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x58b8ecc;
+  constexpr static std::size_t addrs = 0x58b73a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)()>(&::GlobalNamespace::CrossFadeAudioSource::InterruptLastPitchGainEffect)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x58b8f04;
+  constexpr static std::size_t addrs = 0x58b73dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CrossFadeAudioSource*>(), { "InterruptLastPitchGainEffect", {}, {} })));
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)(float_t, float_t)>(&::GlobalNamespace::CrossFadeAudioSource::CrossFade)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x58b8f18;
+  constexpr static std::size_t addrs = 0x58b73f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)()>(&::GlobalNamespace::CrossFadeAudioSource::Play)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x58b9190;
+  constexpr static std::size_t addrs = 0x58b7668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CrossFadeAudioSource*>(), { "Play", {}, {} })));
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)()>(&::GlobalNamespace::CrossFadeAudioSource::Stop)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x58b91a8;
+  constexpr static std::size_t addrs = 0x58b7680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CrossFadeAudioSource*>(), { "Stop", {}, {} })));
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)()>(&::GlobalNamespace::CrossFadeAudioSource::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x58b91f8;
+  constexpr static std::size_t addrs = 0x58b76d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CrossFadeAudioSource*>(), { ".ctor", {}, {} })));
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)(float_t)>(&::GlobalNamespace::CrossFadeAudioSource::_Awake_b__21_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x58b9208;
+  constexpr static std::size_t addrs = 0x58b76e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)(float_t)>(&::GlobalNamespace::CrossFadeAudioSource::_Awake_b__21_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x58b9220;
+  constexpr static std::size_t addrs = 0x58b76f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)(float_t)>(&::GlobalNamespace::CrossFadeAudioSource::_CrossFade_b__25_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x58b9238;
+  constexpr static std::size_t addrs = 0x58b7710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)(float_t)>(&::GlobalNamespace::CrossFadeAudioSource::_CrossFade_b__25_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x58b9250;
+  constexpr static std::size_t addrs = 0x58b7728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)()>(&::GlobalNamespace::CrossFadeAudioSource::_CrossFade_b__25_2)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x58b9268;
+  constexpr static std::size_t addrs = 0x58b7740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CrossFadeAudioSource*>(), { "<CrossFade>b__25_2", {}, {} })));

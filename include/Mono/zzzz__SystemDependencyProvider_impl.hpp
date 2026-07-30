@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::SystemDependencyProvider* (*)()>(&::Mono::SystemDependencyProvider::get_Instance)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5fca8dc;
+  constexpr static std::size_t addrs = 0x5fc8678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::SystemDependencyProvider*>(), { "get_Instance", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Mono::SystemDependencyProvider::Initialize)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5fca93c;
+  constexpr static std::size_t addrs = 0x5fc86d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::SystemDependencyProvider*>(), { "Initialize", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::ISystemCertificateProvider* (::Mono::SystemDependencyProvider::*)()>(
     &::Mono::SystemDependencyProvider::Mono_ISystemDependencyProvider_get_CertificateProvider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fcab04;
+  constexpr static std::size_t addrs = 0x5fc88a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::SystemCertificateProvider* (::Mono::SystemDependencyProvider::*)()>(&::Mono::SystemDependencyProvider::get_CertificateProvider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fcab0c;
+  constexpr static std::size_t addrs = 0x5fc88a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::SystemDependencyProvider*>(), { "get_CertificateProvider", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::X509PalImpl* (::Mono::SystemDependencyProvider::*)()>(&::Mono::SystemDependencyProvider::get_X509Pal)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5fcab14;
+  constexpr static std::size_t addrs = 0x5fc88b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::SystemDependencyProvider*>(), { "get_X509Pal", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::SystemDependencyProvider::*)()>(&::Mono::SystemDependencyProvider::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5fcaa80;
+  constexpr static std::size_t addrs = 0x5fc881c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::SystemDependencyProvider*>(), { ".ctor", {}, {} })));

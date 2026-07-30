@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::SceneManagement::SceneManager::get_sceneCount)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6afcaac;
+  constexpr static std::size_t addrs = 0x6af84b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(), { "get_sceneCount", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::SceneManagement::SceneManager::get_sceneCountInBuildSettings)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6afcad4;
+  constexpr static std::size_t addrs = 0x6af84d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SceneManagement::Scene (*)()>(&::UnityEngine::SceneManagement::SceneManager::GetActiveScene)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6afcb38;
+  constexpr static std::size_t addrs = 0x6af853c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(), { "GetActiveScene", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::SceneManagement::Scene)>(&::UnityEngine::SceneManagement::SceneManager::SetActiveScene)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6afcbf4;
+  constexpr static std::size_t addrs = 0x6af85f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SceneManagement::Scene (*)(::StringW)>(&::UnityEngine::SceneManagement::SceneManager::GetSceneByName)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6afccb0;
+  constexpr static std::size_t addrs = 0x6af86b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SceneManagement::Scene (*)(int32_t)>(&::UnityEngine::SceneManagement::SceneManager::GetSceneAt)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6afce50;
+  constexpr static std::size_t addrs = 0x6af8854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AsyncOperation* (*)(::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::UnloadSceneOptions)>(
     &::UnityEngine::SceneManagement::SceneManager::UnloadSceneAsyncInternal)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6afcf24;
+  constexpr static std::size_t addrs = 0x6af8928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AsyncOperation* (*)(::StringW, int32_t, ::UnityEngine::SceneManagement::LoadSceneParameters, bool)>(
     &::UnityEngine::SceneManagement::SceneManager::LoadSceneAsyncNameIndexInternal)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6afd000;
+  constexpr static std::size_t addrs = 0x6af8a04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::SceneManagement::Scene)>(
     &::UnityEngine::SceneManagement::SceneManager::MoveGameObjectToScene)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6afd0e4;
+  constexpr static std::size_t addrs = 0x6af8ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AsyncOperation* (*)(bool)>(&::UnityEngine::SceneManagement::SceneManager::LoadFirstScene_Internal)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6afd1f4;
+  constexpr static std::size_t addrs = 0x6af8bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Events::UnityAction_2<::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode>*)>(
     &::UnityEngine::SceneManagement::SceneManager::add_sceneLoaded)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6afd260;
+  constexpr static std::size_t addrs = 0x6af8c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Events::UnityAction_2<::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode>*)>(
     &::UnityEngine::SceneManagement::SceneManager::remove_sceneLoaded)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6afd368;
+  constexpr static std::size_t addrs = 0x6af8d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Events::UnityAction_1<::UnityEngine::SceneManagement::Scene>*)>(
     &::UnityEngine::SceneManagement::SceneManager::add_sceneUnloaded)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6afd470;
+  constexpr static std::size_t addrs = 0x6af8e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Events::UnityAction_1<::UnityEngine::SceneManagement::Scene>*)>(
     &::UnityEngine::SceneManagement::SceneManager::remove_sceneUnloaded)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6afd578;
+  constexpr static std::size_t addrs = 0x6af8f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Events::UnityAction_2<::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::Scene>*)>(
     &::UnityEngine::SceneManagement::SceneManager::add_activeSceneChanged)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6afd680;
+  constexpr static std::size_t addrs = 0x6af9084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Events::UnityAction_2<::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::Scene>*)>(
     &::UnityEngine::SceneManagement::SceneManager::remove_activeSceneChanged)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6afd788;
+  constexpr static std::size_t addrs = 0x6af918c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::UnityEngine::SceneManagement::LoadSceneMode)>(&::UnityEngine::SceneManagement::SceneManager::LoadScene)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6afd890;
+  constexpr static std::size_t addrs = 0x6af9294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::UnityEngine::SceneManagement::SceneManager::LoadScene)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6afd998;
+  constexpr static std::size_t addrs = 0x6af939c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SceneManagement::Scene (*)(::StringW, ::UnityEngine::SceneManagement::LoadSceneParameters)>(
     &::UnityEngine::SceneManagement::SceneManager::LoadScene)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6afd900;
+  constexpr static std::size_t addrs = 0x6af9304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -296,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::UnityEngine::SceneManagement::LoadSceneMode)>(&::UnityEngine::SceneManagement::SceneManager::LoadScene)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6afd9f4;
+  constexpr static std::size_t addrs = 0x6af93f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SceneManagement::Scene (*)(int32_t, ::UnityEngine::SceneManagement::LoadSceneParameters)>(
     &::UnityEngine::SceneManagement::SceneManager::LoadScene)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6afda5c;
+  constexpr static std::size_t addrs = 0x6af9460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AsyncOperation* (*)(int32_t, ::UnityEngine::SceneManagement::LoadSceneMode)>(
     &::UnityEngine::SceneManagement::SceneManager::LoadSceneAsync)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6afdaf4;
+  constexpr static std::size_t addrs = 0x6af94f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AsyncOperation* (*)(int32_t, ::UnityEngine::SceneManagement::LoadSceneParameters)>(
     &::UnityEngine::SceneManagement::SceneManager::LoadSceneAsync)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6afdb5c;
+  constexpr static std::size_t addrs = 0x6af9560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AsyncOperation* (*)(::StringW, ::UnityEngine::SceneManagement::LoadSceneMode)>(
     &::UnityEngine::SceneManagement::SceneManager::LoadSceneAsync)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6afdbcc;
+  constexpr static std::size_t addrs = 0x6af95d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -370,7 +370,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AsyncOperation* (*)(::StringW)>(&::UnityEngine::SceneManagement::SceneManager::LoadSceneAsync)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6afdca4;
+  constexpr static std::size_t addrs = 0x6af96a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -384,7 +384,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AsyncOperation* (*)(::StringW, ::UnityEngine::SceneManagement::LoadSceneParameters)>(
     &::UnityEngine::SceneManagement::SceneManager::LoadSceneAsync)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6afdc34;
+  constexpr static std::size_t addrs = 0x6af9638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AsyncOperation* (*)(::UnityEngine::SceneManagement::Scene)>(&::UnityEngine::SceneManagement::SceneManager::UnloadSceneAsync)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6afdd00;
+  constexpr static std::size_t addrs = 0x6af9704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -413,7 +413,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AsyncOperation* (*)(::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::UnloadSceneOptions)>(
     &::UnityEngine::SceneManagement::SceneManager::UnloadSceneAsync)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6afdd5c;
+  constexpr static std::size_t addrs = 0x6af9760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -429,7 +429,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode)>(
     &::UnityEngine::SceneManagement::SceneManager::Internal_SceneLoaded)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6afddc4;
+  constexpr static std::size_t addrs = 0x6af97c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -444,7 +444,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::SceneManagement::Scene)>(&::UnityEngine::SceneManagement::SceneManager::Internal_SceneUnloaded)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6afde78;
+  constexpr static std::size_t addrs = 0x6af987c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(),
@@ -458,7 +458,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::Scene)>(
     &::UnityEngine::SceneManagement::SceneManager::Internal_ActiveSceneChanged)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6afdf18;
+  constexpr static std::size_t addrs = 0x6af991c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -473,7 +473,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::SceneManagement::Scene>)>(&::UnityEngine::SceneManagement::SceneManager::GetActiveScene_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6afcbb8;
+  constexpr static std::size_t addrs = 0x6af85bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(),
@@ -486,7 +486,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::SceneManagement::Scene>)>(&::UnityEngine::SceneManagement::SceneManager::SetActiveScene_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6afcc74;
+  constexpr static std::size_t addrs = 0x6af8678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SceneManagement::SceneManager*>(),
@@ -500,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::SceneManagement::Scene>)>(
     &::UnityEngine::SceneManagement::SceneManager::GetSceneByName_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6afce0c;
+  constexpr static std::size_t addrs = 0x6af8810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -516,7 +516,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::by_ref<::UnityEngine::SceneManagement::Scene>)>(&::UnityEngine::SceneManagement::SceneManager::GetSceneAt_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6afcee0;
+  constexpr static std::size_t addrs = 0x6af88e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -531,7 +531,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::SceneManagement::Scene>, ::UnityEngine::SceneManagement::UnloadSceneOptions)>(
     &::UnityEngine::SceneManagement::SceneManager::UnloadSceneAsyncInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6afcfbc;
+  constexpr static std::size_t addrs = 0x6af89c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -548,7 +548,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::SceneManagement::Scene>)>(
     &::UnityEngine::SceneManagement::SceneManager::MoveGameObjectToScene_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6afd1b0;
+  constexpr static std::size_t addrs = 0x6af8bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

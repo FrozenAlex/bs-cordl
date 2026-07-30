@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader___c__DisplayClass26_0::*)()>(&::GlobalNamespace::OVRGLTFLoader___c__DisplayClass26_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e52250;
+  constexpr static std::size_t addrs = 0x5e4ffbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader___c__DisplayClass26_0*>(), { ".ctor", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRGLTFLoader___c__DisplayClass26_0::*)()>(
     &::GlobalNamespace::OVRGLTFLoader___c__DisplayClass26_0::_LoadGLBCoroutine_b__1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e52254;
+  constexpr static std::size_t addrs = 0x5e4ffc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26::*)(int32_t)>(&::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4f6dc;
+  constexpr static std::size_t addrs = 0x5e4d448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26::*)()>(
     &::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e5226c;
+  constexpr static std::size_t addrs = 0x5e4ffd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26::*)()>(&::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26::MoveNext)> {
   constexpr static std::size_t size = 0x8ec;
-  constexpr static std::size_t addrs = 0x5e52270;
+  constexpr static std::size_t addrs = 0x5e4ffdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26*>(), { "MoveNext", {}, {} })));
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26::*)()>(
     &::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e52b5c;
+  constexpr static std::size_t addrs = 0x5e508c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26*>(),
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26::*)()>(
     &::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e52b64;
+  constexpr static std::size_t addrs = 0x5e508d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26::*)()>(
     &::GlobalNamespace::OVRGLTFLoader__LoadGLBCoroutine_d__26::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e52b9c;
+  constexpr static std::size_t addrs = 0x5e50908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37::*)(int32_t)>(&::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4fe60;
+  constexpr static std::size_t addrs = 0x5e4dbcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37::*)()>(&::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e52ba4;
+  constexpr static std::size_t addrs = 0x5e50910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -345,7 +345,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37::*)()>(&::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37::MoveNext)> {
   constexpr static std::size_t size = 0x6dc;
-  constexpr static std::size_t addrs = 0x5e52ba8;
+  constexpr static std::size_t addrs = 0x5e50914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37*>(), { "MoveNext", {}, {} })));
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37::*)()>(
     &::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e53284;
+  constexpr static std::size_t addrs = 0x5e50ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37::*)()>(
     &::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e5328c;
+  constexpr static std::size_t addrs = 0x5e50ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37::*)()>(
     &::GlobalNamespace::OVRGLTFLoader__LoadGLTF_d__37::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e532c4;
+  constexpr static std::size_t addrs = 0x5e51030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -568,7 +568,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48::*)(int32_t)>(
     &::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e51f50;
+  constexpr static std::size_t addrs = 0x5e4fcbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -582,7 +582,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48::*)()>(
     &::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e532cc;
+  constexpr static std::size_t addrs = 0x5e51038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -595,7 +595,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48::*)()>(&::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48::MoveNext)> {
   constexpr static std::size_t size = 0x6c8;
-  constexpr static std::size_t addrs = 0x5e532d0;
+  constexpr static std::size_t addrs = 0x5e5103c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48*>(), { "MoveNext", {}, {} })));
@@ -608,7 +608,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48::*)()>(
     &::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e53998;
+  constexpr static std::size_t addrs = 0x5e51704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48*>(),
@@ -622,7 +622,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48::*)()>(
     &::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e539a0;
+  constexpr static std::size_t addrs = 0x5e5170c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -636,7 +636,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48::*)()>(
     &::GlobalNamespace::OVRGLTFLoader__ProcessAnimations_d__48::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e539d8;
+  constexpr static std::size_t addrs = 0x5e51744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -780,7 +780,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38::*)(int32_t)>(&::GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4feec;
+  constexpr static std::size_t addrs = 0x5e4dc58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -794,7 +794,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38::*)()>(
     &::GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e539e0;
+  constexpr static std::size_t addrs = 0x5e5174c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -807,7 +807,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38::*)()>(&::GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38::MoveNext)> {
   constexpr static std::size_t size = 0xd64;
-  constexpr static std::size_t addrs = 0x5e539e4;
+  constexpr static std::size_t addrs = 0x5e51750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38*>(), { "MoveNext", {}, {} })));
@@ -820,7 +820,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38::*)()>(
     &::GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e54748;
+  constexpr static std::size_t addrs = 0x5e524b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -835,7 +835,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38::*)()>(
     &::GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e54750;
+  constexpr static std::size_t addrs = 0x5e524bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -849,7 +849,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38::*)()>(
     &::GlobalNamespace::OVRGLTFLoader__ProcessNode_d__38::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e54788;
+  constexpr static std::size_t addrs = 0x5e524f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1090,7 +1090,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader::*)(::StringW)>(&::GlobalNamespace::OVRGLTFLoader::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5e4f37c;
+  constexpr static std::size_t addrs = 0x5e4d0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -1102,7 +1102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader::*)(::ArrayW<uint8_t>)>(&::GlobalNamespace::OVRGLTFLoader::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5e4f420;
+  constexpr static std::size_t addrs = 0x5e4d18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1115,7 +1115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader::*)(::System::Func_1<::System::IO::Stream*>*)>(&::GlobalNamespace::OVRGLTFLoader::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5e4f4f8;
+  constexpr static std::size_t addrs = 0x5e4d264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1128,7 +1128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRGLTFScene (::GlobalNamespace::OVRGLTFLoader::*)(bool, bool)>(&::GlobalNamespace::OVRGLTFLoader::LoadGLB)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5e4f588;
+  constexpr static std::size_t addrs = 0x5e4d2f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1141,7 +1141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRGLTFLoader::*)(bool, bool)>(&::GlobalNamespace::OVRGLTFLoader::LoadGLBCoroutine)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5e4f668;
+  constexpr static std::size_t addrs = 0x5e4d3d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1154,7 +1154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVRSimpleJSON::JSONNode* (::GlobalNamespace::OVRGLTFLoader::*)()>(&::GlobalNamespace::OVRGLTFLoader::InitializeGLBLoad)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5e4f6e4;
+  constexpr static std::size_t addrs = 0x5e4d450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader*>(), { "InitializeGLBLoad", {}, {} })));
@@ -1166,7 +1166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader::*)(::UnityEngine::Shader*)>(&::GlobalNamespace::OVRGLTFLoader::SetModelShader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4fa5c;
+  constexpr static std::size_t addrs = 0x5e4d7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1179,7 +1179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader::*)(::UnityEngine::Shader*)>(&::GlobalNamespace::OVRGLTFLoader::SetModelAlphaBlendShader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4fa64;
+  constexpr static std::size_t addrs = 0x5e4d7d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1193,7 +1193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader::*)(::GlobalNamespace::OVRTextureQualityFiltering)>(
     &::GlobalNamespace::OVRGLTFLoader::SetTextureQualityFiltering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4fa6c;
+  constexpr static std::size_t addrs = 0x5e4d7d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader*>(),
@@ -1206,7 +1206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader::*)(float_t)>(&::GlobalNamespace::OVRGLTFLoader::SetMipMapBias)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e4fa74;
+  constexpr static std::size_t addrs = 0x5e4d7e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1220,7 +1220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTextureQualityFiltering (*)(::by_ref<::UnityEngine::Texture2D*>)>(
     &::GlobalNamespace::OVRGLTFLoader::DetectTextureQuality)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e4fa94;
+  constexpr static std::size_t addrs = 0x5e4d800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1234,7 +1234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OVRTextureQualityFiltering, ::by_ref<::UnityEngine::Texture2D*>)>(
     &::GlobalNamespace::OVRGLTFLoader::ApplyTextureQuality)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x5e4fb54;
+  constexpr static std::size_t addrs = 0x5e4d8c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1249,7 +1249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IO::Stream*)>(&::GlobalNamespace::OVRGLTFLoader::ValidateGLB)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x5e4f7d0;
+  constexpr static std::size_t addrs = 0x5e4d53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1262,7 +1262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::System::IO::Stream*, ::GlobalNamespace::OVRChunkType)>(&::GlobalNamespace::OVRGLTFLoader::ReadChunk)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5e4f984;
+  constexpr static std::size_t addrs = 0x5e4d6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1276,7 +1276,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IO::Stream*, ::GlobalNamespace::OVRChunkType, ::by_ref<uint32_t>)>(&::GlobalNamespace::OVRGLTFLoader::ValidateChunk)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5e4fcc4;
+  constexpr static std::size_t addrs = 0x5e4da30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1291,7 +1291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRGLTFLoader::*)(bool, bool)>(&::GlobalNamespace::OVRGLTFLoader::LoadGLTF)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5e4fdec;
+  constexpr static std::size_t addrs = 0x5e4db58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1305,7 +1305,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (
     ::GlobalNamespace::OVRGLTFLoader::*)(::OVRSimpleJSON::JSONArray*, int32_t, bool, ::UnityEngine::Transform*)>(&::GlobalNamespace::OVRGLTFLoader::ProcessNode)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5e4fe68;
+  constexpr static std::size_t addrs = 0x5e4dbd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1321,7 +1321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRMeshData (::GlobalNamespace::OVRGLTFLoader::*)(::OVRSimpleJSON::JSONNode*, bool)>(
     &::GlobalNamespace::OVRGLTFLoader::ProcessMesh)> {
   constexpr static std::size_t size = 0x8e8;
-  constexpr static std::size_t addrs = 0x5e4fef4;
+  constexpr static std::size_t addrs = 0x5e4dc60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1335,7 +1335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::ArrayW<int32_t>>)>(&::GlobalNamespace::OVRGLTFLoader::FlipTriangleIndices)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5e513a8;
+  constexpr static std::size_t addrs = 0x5e4f114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1349,7 +1349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRMeshAttributes (::GlobalNamespace::OVRGLTFLoader::*)(::OVRSimpleJSON::JSONNode*, int32_t, int32_t)>(
     &::GlobalNamespace::OVRGLTFLoader::ReadMeshAttributes)> {
   constexpr static std::size_t size = 0x578;
-  constexpr static std::size_t addrs = 0x5e51418;
+  constexpr static std::size_t addrs = 0x5e4f184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1364,7 +1364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader::*)(::OVRSimpleJSON::JSONNode*, ::UnityEngine::SkinnedMeshRenderer*)>(
     &::GlobalNamespace::OVRGLTFLoader::ProcessSkin)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x5e51990;
+  constexpr static std::size_t addrs = 0x5e4f6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1378,7 +1378,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRMaterialData (::GlobalNamespace::OVRGLTFLoader::*)(int32_t)>(&::GlobalNamespace::OVRGLTFLoader::ProcessMaterial)> {
   constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x5e507dc;
+  constexpr static std::size_t addrs = 0x5e4e548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1391,7 +1391,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTextureData (::GlobalNamespace::OVRGLTFLoader::*)(int32_t)>(&::GlobalNamespace::OVRGLTFLoader::ProcessTexture)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x5e50bbc;
+  constexpr static std::size_t addrs = 0x5e4e928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1404,7 +1404,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFLoader::*)(::by_ref<::GlobalNamespace::OVRTextureData>)>(&::GlobalNamespace::OVRGLTFLoader::TranscodeTexture)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5e50fc8;
+  constexpr static std::size_t addrs = 0x5e4ed34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1418,7 +1418,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::GlobalNamespace::OVRGLTFLoader::*)(::GlobalNamespace::OVRMaterialData, bool)>(
     &::GlobalNamespace::OVRGLTFLoader::CreateUnityMaterial)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x5e51084;
+  constexpr static std::size_t addrs = 0x5e4edf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1432,7 +1432,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRGLTFInputNode (::GlobalNamespace::OVRGLTFLoader::*)(::StringW)>(&::GlobalNamespace::OVRGLTFLoader::GetInputNodeType)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5e51d74;
+  constexpr static std::size_t addrs = 0x5e4fae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1445,7 +1445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRGLTFLoader::*)()>(&::GlobalNamespace::OVRGLTFLoader::ProcessAnimations)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5e51efc;
+  constexpr static std::size_t addrs = 0x5e4fc68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader*>(), { "ProcessAnimations", {}, {} })));
@@ -1457,7 +1457,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVRSimpleJSON::JSONNode* (::GlobalNamespace::OVRGLTFLoader::*)()>(&::GlobalNamespace::OVRGLTFLoader::_LoadGLBCoroutine_b__26_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e5224c;
+  constexpr static std::size_t addrs = 0x5e4ffb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFLoader*>(), { "<LoadGLBCoroutine>b__26_0", {}, {} })));

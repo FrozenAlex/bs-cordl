@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaExternal::*)()>(&::System::Xml::Schema::XmlSchemaExternal::get_SchemaLocation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x622bd28;
+  constexpr static std::size_t addrs = 0x6229ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaExternal*>(), { "get_SchemaLocation", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaExternal::*)(::StringW)>(&::System::Xml::Schema::XmlSchemaExternal::set_SchemaLocation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x622bd30;
+  constexpr static std::size_t addrs = 0x6229acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchema* (::System::Xml::Schema::XmlSchemaExternal::*)()>(&::System::Xml::Schema::XmlSchemaExternal::get_Schema)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x622bd38;
+  constexpr static std::size_t addrs = 0x6229ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaExternal*>(), { "get_Schema", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaExternal::*)(::System::Xml::Schema::XmlSchema*)>(&::System::Xml::Schema::XmlSchemaExternal::set_Schema)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x622bd40;
+  constexpr static std::size_t addrs = 0x6229adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaExternal::*)()>(&::System::Xml::Schema::XmlSchemaExternal::get_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x622bd48;
+  constexpr static std::size_t addrs = 0x6229ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaExternal*>(), { "get_Id", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaExternal::*)(::StringW)>(&::System::Xml::Schema::XmlSchemaExternal::set_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x622bd50;
+  constexpr static std::size_t addrs = 0x6229aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Uri* (::System::Xml::Schema::XmlSchemaExternal::*)()>(&::System::Xml::Schema::XmlSchemaExternal::get_BaseUri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x622bd58;
+  constexpr static std::size_t addrs = 0x6229af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaExternal*>(), { "get_BaseUri", {}, {} })));
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaExternal::*)(::System::Uri*)>(&::System::Xml::Schema::XmlSchemaExternal::set_BaseUri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x622bd60;
+  constexpr static std::size_t addrs = 0x6229afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaExternal::*)()>(&::System::Xml::Schema::XmlSchemaExternal::get_IdAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x622bd68;
+  constexpr static std::size_t addrs = 0x6229b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaExternal::*)(::StringW)>(&::System::Xml::Schema::XmlSchemaExternal::set_IdAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x622bd70;
+  constexpr static std::size_t addrs = 0x6229b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaExternal::*)(::ArrayW<::System::Xml::XmlAttribute*>)>(
     &::System::Xml::Schema::XmlSchemaExternal::SetUnhandledAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x622bd78;
+  constexpr static std::size_t addrs = 0x6229b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::Compositor (::System::Xml::Schema::XmlSchemaExternal::*)()>(&::System::Xml::Schema::XmlSchemaExternal::get_Compositor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x622bd80;
+  constexpr static std::size_t addrs = 0x6229b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaExternal*>(), { "get_Compositor", {}, {} })));
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaExternal::*)(::System::Xml::Schema::Compositor)>(
     &::System::Xml::Schema::XmlSchemaExternal::set_Compositor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x622bd88;
+  constexpr static std::size_t addrs = 0x6229b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaExternal::*)()>(&::System::Xml::Schema::XmlSchemaExternal::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x622bd90;
+  constexpr static std::size_t addrs = 0x6229b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaExternal*>(), { ".ctor", {}, {} })));

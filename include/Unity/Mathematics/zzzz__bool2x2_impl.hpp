@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::bool2x2::*)(::Unity::Mathematics::bool2, ::Unity::Mathematics::bool2)>(&::Unity::Mathematics::bool2x2::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65fb084;
+  constexpr static std::size_t addrs = 0x65f8e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::bool2x2::*)(bool, bool, bool, bool)>(&::Unity::Mathematics::bool2x2::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x65fb090;
+  constexpr static std::size_t addrs = 0x65f8e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Mathematics::bool2x2::*)(bool)>(&::Unity::Mathematics::bool2x2::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x65fb0b8;
+  constexpr static std::size_t addrs = 0x65f8e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::bool2x2>(), { ".ctor", {}, { ::i2c::type_of<bool>() } })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x2 (*)(bool)>(&::Unity::Mathematics::bool2x2::op_Implicit___Unity__Mathematics__bool2x2)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65fb0d4;
+  constexpr static std::size_t addrs = 0x65f8e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::bool2x2>(), { "op_Implicit", {}, { ::i2c::type_of<bool>() } })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::bool2x2, ::Unity::Mathematics::bool2x2)>(&::Unity::Mathematics::bool2x2::op_Equality)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x65fb0ec;
+  constexpr static std::size_t addrs = 0x65f8e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::bool2x2, bool)>(&::Unity::Mathematics::bool2x2::op_Equality)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x65fb0fc;
+  constexpr static std::size_t addrs = 0x65f8e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x2 (*)(bool, ::Unity::Mathematics::bool2x2)>(&::Unity::Mathematics::bool2x2::op_Equality)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x65fb150;
+  constexpr static std::size_t addrs = 0x65f8eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::bool2x2, ::Unity::Mathematics::bool2x2)>(
     &::Unity::Mathematics::bool2x2::op_Inequality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65fb1a4;
+  constexpr static std::size_t addrs = 0x65f8f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::bool2x2, bool)>(&::Unity::Mathematics::bool2x2::op_Inequality)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x65fb1b0;
+  constexpr static std::size_t addrs = 0x65f8f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x2 (*)(bool, ::Unity::Mathematics::bool2x2)>(&::Unity::Mathematics::bool2x2::op_Inequality)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x65fb1ec;
+  constexpr static std::size_t addrs = 0x65f8f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::bool2x2)>(&::Unity::Mathematics::bool2x2::op_LogicalNot)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65fb228;
+  constexpr static std::size_t addrs = 0x65f8fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::bool2x2, ::Unity::Mathematics::bool2x2)>(
     &::Unity::Mathematics::bool2x2::op_BitwiseAnd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65fb234;
+  constexpr static std::size_t addrs = 0x65f8fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::bool2x2, bool)>(&::Unity::Mathematics::bool2x2::op_BitwiseAnd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x65fb240;
+  constexpr static std::size_t addrs = 0x65f8fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x2 (*)(bool, ::Unity::Mathematics::bool2x2)>(&::Unity::Mathematics::bool2x2::op_BitwiseAnd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x65fb264;
+  constexpr static std::size_t addrs = 0x65f9000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::bool2x2, ::Unity::Mathematics::bool2x2)>(&::Unity::Mathematics::bool2x2::op_BitwiseOr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65fb288;
+  constexpr static std::size_t addrs = 0x65f9024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::bool2x2, bool)>(&::Unity::Mathematics::bool2x2::op_BitwiseOr)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65fb294;
+  constexpr static std::size_t addrs = 0x65f9030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x2 (*)(bool, ::Unity::Mathematics::bool2x2)>(&::Unity::Mathematics::bool2x2::op_BitwiseOr)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x65fb2c4;
+  constexpr static std::size_t addrs = 0x65f9060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::bool2x2, ::Unity::Mathematics::bool2x2)>(
     &::Unity::Mathematics::bool2x2::op_ExclusiveOr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65fb2f4;
+  constexpr static std::size_t addrs = 0x65f9090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::bool2x2, bool)>(&::Unity::Mathematics::bool2x2::op_ExclusiveOr)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x65fb300;
+  constexpr static std::size_t addrs = 0x65f909c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::bool2x2 (*)(bool, ::Unity::Mathematics::bool2x2)>(&::Unity::Mathematics::bool2x2::op_ExclusiveOr)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x65fb33c;
+  constexpr static std::size_t addrs = 0x65f90d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::Unity::Mathematics::bool2> (::Unity::Mathematics::bool2x2::*)(int32_t)>(&::Unity::Mathematics::bool2x2::get_Item)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65fb378;
+  constexpr static std::size_t addrs = 0x65f9114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Mathematics::bool2x2>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Mathematics::bool2x2::*)(::Unity::Mathematics::bool2x2)>(&::Unity::Mathematics::bool2x2::Equals)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x65fb380;
+  constexpr static std::size_t addrs = 0x65f911c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Mathematics::bool2x2::*)(::System::Object*)>(&::Unity::Mathematics::bool2x2::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x65fb3cc;
+  constexpr static std::size_t addrs = 0x65f9168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Mathematics::bool2x2>(), { ::i2c::class_of<::Unity::Mathematics::bool2x2>(), 0 }));
@@ -323,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Mathematics::bool2x2::*)()>(&::Unity::Mathematics::bool2x2::GetHashCode)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x65fb47c;
+  constexpr static std::size_t addrs = 0x65f9218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Mathematics::bool2x2>(), { ::i2c::class_of<::Unity::Mathematics::bool2x2>(), 2 }));
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Mathematics::bool2x2::*)()>(&::Unity::Mathematics::bool2x2::ToString)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x65fb4f4;
+  constexpr static std::size_t addrs = 0x65f9290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Mathematics::bool2x2>(), { ::i2c::class_of<::Unity::Mathematics::bool2x2>(), 3 }));

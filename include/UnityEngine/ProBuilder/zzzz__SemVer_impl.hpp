@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::get_major)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66e31a0;
+  constexpr static std::size_t addrs = 0x66e0f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SemVer*>(), { "get_major", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::get_minor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66e31a8;
+  constexpr static std::size_t addrs = 0x66e0f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SemVer*>(), { "get_minor", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::get_patch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66e31b0;
+  constexpr static std::size_t addrs = 0x66e0f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SemVer*>(), { "get_patch", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::get_build)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66e31b8;
+  constexpr static std::size_t addrs = 0x66e0f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SemVer*>(), { "get_build", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::get_type)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x66e31c0;
+  constexpr static std::size_t addrs = 0x66e0f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SemVer*>(), { "get_type", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::get_metadata)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x66e3214;
+  constexpr static std::size_t addrs = 0x66e0fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SemVer*>(), { "get_metadata", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::get_date)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x66e3268;
+  constexpr static std::size_t addrs = 0x66e1004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SemVer*>(), { "get_date", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::SemVer* (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::get_MajorMinorPatch)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x66e32bc;
+  constexpr static std::size_t addrs = 0x66e1058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SemVer*>(), { "get_MajorMinorPatch", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x66e3340;
+  constexpr static std::size_t addrs = 0x66e10dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SemVer*>(), { ".ctor", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SemVer::*)(::StringW, ::StringW)>(&::UnityEngine::ProBuilder::SemVer::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x66e3358;
+  constexpr static std::size_t addrs = 0x66e10f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SemVer::*)(int32_t, int32_t, int32_t, int32_t, ::StringW, ::StringW, ::StringW)>(
     &::UnityEngine::ProBuilder::SemVer::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x66e332c;
+  constexpr static std::size_t addrs = 0x66e10c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::IsValid)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x66e378c;
+  constexpr static std::size_t addrs = 0x66e1528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SemVer*>(), { "IsValid", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::SemVer::*)(::System::Object*)>(&::UnityEngine::ProBuilder::SemVer::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x66e37bc;
+  constexpr static std::size_t addrs = 0x66e1558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::GetHashCode)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x66e39e4;
+  constexpr static std::size_t addrs = 0x66e1780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::SemVer::*)(::UnityEngine::ProBuilder::SemVer*)>(&::UnityEngine::ProBuilder::SemVer::Equals)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x66e383c;
+  constexpr static std::size_t addrs = 0x66e15d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::SemVer::*)(::System::Object*)>(&::UnityEngine::ProBuilder::SemVer::CompareTo)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x66e3b24;
+  constexpr static std::size_t addrs = 0x66e18c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::ProBuilder::SemVer::WrapNoValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x66e3ce8;
+  constexpr static std::size_t addrs = 0x66e1a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::SemVer::*)(::UnityEngine::ProBuilder::SemVer*)>(&::UnityEngine::ProBuilder::SemVer::CompareTo)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x66e3b94;
+  constexpr static std::size_t addrs = 0x66e1930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*)>(&::UnityEngine::ProBuilder::SemVer::op_Equality)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x66e3cf8;
+  constexpr static std::size_t addrs = 0x66e1a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*)>(&::UnityEngine::ProBuilder::SemVer::op_Inequality)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x66e3d0c;
+  constexpr static std::size_t addrs = 0x66e1aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*)>(&::UnityEngine::ProBuilder::SemVer::op_LessThan)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x66e3d34;
+  constexpr static std::size_t addrs = 0x66e1ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -282,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*)>(&::UnityEngine::ProBuilder::SemVer::op_GreaterThan)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x66e3d58;
+  constexpr static std::size_t addrs = 0x66e1af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -296,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*)>(&::UnityEngine::ProBuilder::SemVer::op_LessThanOrEqual)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x66e3d74;
+  constexpr static std::size_t addrs = 0x66e1b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ProBuilder::SemVer*, ::UnityEngine::ProBuilder::SemVer*)>(&::UnityEngine::ProBuilder::SemVer::op_GreaterThanOrEqual)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x66e3dbc;
+  constexpr static std::size_t addrs = 0x66e1b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -324,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::SemVer::*)(::StringW)>(&::UnityEngine::ProBuilder::SemVer::ToString)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x66e3e10;
+  constexpr static std::size_t addrs = 0x66e1bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -337,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::SemVer::*)()>(&::UnityEngine::ProBuilder::SemVer::ToString)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x66e4060;
+  constexpr static std::size_t addrs = 0x66e1dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::UnityEngine::ProBuilder::SemVer*>)>(&::UnityEngine::ProBuilder::SemVer::TryGetVersionInfo)> {
   constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x66e33f8;
+  constexpr static std::size_t addrs = 0x66e1194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::UnityEngine::ProBuilder::SemVer::GetBuildNumber)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x66e42c4;
+  constexpr static std::size_t addrs = 0x66e2060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

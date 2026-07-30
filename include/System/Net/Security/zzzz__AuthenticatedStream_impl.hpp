@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::AuthenticatedStream::*)(::System::IO::Stream*, bool)>(&::System::Net::Security::AuthenticatedStream::_ctor)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x636b00c;
+  constexpr static std::size_t addrs = 0x6368da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::System::Net::Security::AuthenticatedStream::*)()>(&::System::Net::Security::AuthenticatedStream::get_InnerStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636b18c;
+  constexpr static std::size_t addrs = 0x6368f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Security::AuthenticatedStream*>(), { "get_InnerStream", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Security::AuthenticatedStream::*)(bool)>(&::System::Net::Security::AuthenticatedStream::Dispose)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x636b194;
+  constexpr static std::size_t addrs = 0x6368f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

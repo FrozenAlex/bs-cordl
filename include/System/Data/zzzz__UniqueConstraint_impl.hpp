@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::UniqueConstraint::*)(::System::Data::DataColumn*)>(&::System::Data::UniqueConstraint::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x604c250;
+  constexpr static std::size_t addrs = 0x6049fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::UniqueConstraint::*)(::StringW, ::ArrayW<::System::Data::DataColumn*>)>(&::System::Data::UniqueConstraint::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x604c3e0;
+  constexpr static std::size_t addrs = 0x604a17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::UniqueConstraint*>(),
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::UniqueConstraint::*)(::ArrayW<::System::Data::DataColumn*>)>(&::System::Data::UniqueConstraint::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x604c3fc;
+  constexpr static std::size_t addrs = 0x604a198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::UniqueConstraint::*)(::StringW, ::ArrayW<::StringW>, bool)>(&::System::Data::UniqueConstraint::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x604c420;
+  constexpr static std::size_t addrs = 0x604a1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::UniqueConstraint::*)(::StringW, ::ArrayW<::System::Data::DataColumn*>, bool)>(&::System::Data::UniqueConstraint::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x604c444;
+  constexpr static std::size_t addrs = 0x604a1e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::get_ColumnNames)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x604c464;
+  constexpr static std::size_t addrs = 0x604a200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::UniqueConstraint*>(), { "get_ColumnNames", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::Index* (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::get_ConstraintIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x604c470;
+  constexpr static std::size_t addrs = 0x604a20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::UniqueConstraint*>(), { "get_ConstraintIndex", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::ConstraintIndexClear)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x604c478;
+  constexpr static std::size_t addrs = 0x604a214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::UniqueConstraint*>(), { "ConstraintIndexClear", {}, {} })));
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::ConstraintIndexInitialize)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x604c498;
+  constexpr static std::size_t addrs = 0x604a234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::UniqueConstraint*>(), { "ConstraintIndexInitialize", {}, {} })));
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::CheckState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x604c4d0;
+  constexpr static std::size_t addrs = 0x604a26c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::NonVirtualCheckState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x604c4dc;
+  constexpr static std::size_t addrs = 0x604a278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::UniqueConstraint*>(), { "NonVirtualCheckState", {}, {} })));
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::UniqueConstraint::*)(::System::Data::ConstraintCollection*)>(&::System::Data::UniqueConstraint::CheckCanAddToCollection)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x604c4e8;
+  constexpr static std::size_t addrs = 0x604a284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::UniqueConstraint::*)(::System::Data::ConstraintCollection*, bool)>(
     &::System::Data::UniqueConstraint::CanBeRemovedFromCollection)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x604c4ec;
+  constexpr static std::size_t addrs = 0x604a288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::CanEnableConstraint)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x604c63c;
+  constexpr static std::size_t addrs = 0x604a3d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::IsConstraintViolated)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x604c6a0;
+  constexpr static std::size_t addrs = 0x604a43c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::UniqueConstraint::*)(::System::Data::DataRow*, ::System::Data::DataRowAction)>(
     &::System::Data::UniqueConstraint::CheckConstraint)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x604c8f8;
+  constexpr static std::size_t addrs = 0x604a694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::UniqueConstraint::*)(::System::Data::DataColumn*)>(&::System::Data::UniqueConstraint::ContainsColumn)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x604ca08;
+  constexpr static std::size_t addrs = 0x604a7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::Constraint* (::System::Data::UniqueConstraint::*)(::System::Data::DataSet*)>(&::System::Data::UniqueConstraint::Clone)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x604ca14;
+  constexpr static std::size_t addrs = 0x604a7b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::Constraint* (::System::Data::UniqueConstraint::*)(::System::Data::DataSet*, bool)>(&::System::Data::UniqueConstraint::Clone)> {
   constexpr static std::size_t size = 0x550;
-  constexpr static std::size_t addrs = 0x604ca24;
+  constexpr static std::size_t addrs = 0x604a7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::UniqueConstraint* (::System::Data::UniqueConstraint::*)(::System::Data::DataTable*)>(&::System::Data::UniqueConstraint::Clone)> {
   constexpr static std::size_t size = 0x4a8;
-  constexpr static std::size_t addrs = 0x604cf74;
+  constexpr static std::size_t addrs = 0x604ad10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Data::DataColumn*> (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::get_Columns)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x604d41c;
+  constexpr static std::size_t addrs = 0x604b1b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Data::DataColumn*> (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::get_ColumnsReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x604ca00;
+  constexpr static std::size_t addrs = 0x604a79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::UniqueConstraint*>(), { "get_ColumnsReference", {}, {} })));
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::get_IsPrimaryKey)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x604d428;
+  constexpr static std::size_t addrs = 0x604b1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::UniqueConstraint*>(), { "get_IsPrimaryKey", {}, {} })));
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::UniqueConstraint::*)(::StringW, ::ArrayW<::System::Data::DataColumn*>)>(&::System::Data::UniqueConstraint::Create)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x604c310;
+  constexpr static std::size_t addrs = 0x604a0ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::UniqueConstraint::*)(::System::Object*)>(&::System::Data::UniqueConstraint::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x604d46c;
+  constexpr static std::size_t addrs = 0x604b208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -341,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x604d508;
+  constexpr static std::size_t addrs = 0x604b2a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::UniqueConstraint::*)(bool)>(&::System::Data::UniqueConstraint::set_InCollection)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x604d51c;
+  constexpr static std::size_t addrs = 0x604b2b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataKey (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::get_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x604d568;
+  constexpr static std::size_t addrs = 0x604b304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::UniqueConstraint*>(), { "get_Key", {}, {} })));
@@ -379,7 +379,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataTable* (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::get_Table)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x604d570;
+  constexpr static std::size_t addrs = 0x604b30c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

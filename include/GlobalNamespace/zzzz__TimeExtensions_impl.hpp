@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(float_t)>(&::GlobalNamespace::TimeExtensions::MinSecDurationText)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x330cb54;
+  constexpr static std::size_t addrs = 0x330a82c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(float_t)>(&::GlobalNamespace::TimeExtensions::MinSecMillisecDurationText)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x330cdd0;
+  constexpr static std::size_t addrs = 0x330aaa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t)>(&::GlobalNamespace::TimeExtensions::OneBeatDuration)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x330cf0c;
+  constexpr static std::size_t addrs = 0x330abe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::TimeExtensions::TimeToBeat)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x330cf28;
+  constexpr static std::size_t addrs = 0x330ac00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t)>(&::GlobalNamespace::TimeExtensions::SecondsToMinutes)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x330cf3c;
+  constexpr static std::size_t addrs = 0x330ac14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::TimeExtensions::SecondsToDays)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x330cf4c;
+  constexpr static std::size_t addrs = 0x330ac24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::TimeExtensions::SecondsToHours)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x330cf6c;
+  constexpr static std::size_t addrs = 0x330ac44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::TimeExtensions::SecondsToMinutes)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x330cf8c;
+  constexpr static std::size_t addrs = 0x330ac64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::TimeExtensions::DaysToSeconds)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x330cfac;
+  constexpr static std::size_t addrs = 0x330ac84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::TimeExtensions::HoursToSeconds)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x330cfbc;
+  constexpr static std::size_t addrs = 0x330ac94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::TimeExtensions::MinutesToSeconds)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x330cfc8;
+  constexpr static std::size_t addrs = 0x330aca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(float_t)>(&::GlobalNamespace::TimeExtensions::Hours)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x330cfd4;
+  constexpr static std::size_t addrs = 0x330acac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimeExtensions*>(), { "Hours", {}, { ::i2c::type_of<float_t>() } })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(float_t)>(&::GlobalNamespace::TimeExtensions::Minutes)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x330cd24;
+  constexpr static std::size_t addrs = 0x330a9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimeExtensions*>(), { "Minutes", {}, { ::i2c::type_of<float_t>() } })));
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(float_t)>(&::GlobalNamespace::TimeExtensions::Seconds)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x330cda0;
+  constexpr static std::size_t addrs = 0x330aa78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimeExtensions*>(), { "Seconds", {}, { ::i2c::type_of<float_t>() } })));
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(float_t)>(&::GlobalNamespace::TimeExtensions::Milliseconds)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x330ced4;
+  constexpr static std::size_t addrs = 0x330abac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(float_t)>(&::GlobalNamespace::TimeExtensions::TotalDays)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x330d054;
+  constexpr static std::size_t addrs = 0x330ad2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimeExtensions*>(), { "TotalDays", {}, { ::i2c::type_of<float_t>() } })));
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(float_t)>(&::GlobalNamespace::TimeExtensions::TotalHours)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x330d08c;
+  constexpr static std::size_t addrs = 0x330ad64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(float_t)>(&::GlobalNamespace::TimeExtensions::TotalMinutes)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x330d0c8;
+  constexpr static std::size_t addrs = 0x330ada0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(float_t)>(&::GlobalNamespace::TimeExtensions::TotalSeconds)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x330d104;
+  constexpr static std::size_t addrs = 0x330addc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::System::DateTime)>(&::GlobalNamespace::TimeExtensions::ToUnixTime)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x330d120;
+  constexpr static std::size_t addrs = 0x330adf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (*)(int64_t)>(&::GlobalNamespace::TimeExtensions::AsUnixTime)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x330d218;
+  constexpr static std::size_t addrs = 0x330aef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::TimeSpan)>(&::GlobalNamespace::TimeExtensions::GetFormattedRemainingTimeTwoOfDaysHoursMinutes)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x330d2e4;
+  constexpr static std::size_t addrs = 0x330afbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

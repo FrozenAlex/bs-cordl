@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Painter2D_Painter2DJob::*)(int32_t)>(&::UnityEngine::UIElements::Painter2D_Painter2DJob::Execute)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x6dd34dc;
+  constexpr static std::size_t addrs = 0x6dceee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Painter2D::*)(Il2CppObject*)>(&::UnityEngine::UIElements::Painter2D::_ctor)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6dd1af0;
+  constexpr static std::size_t addrs = 0x6dcd4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Painter2D::*)()>(&::UnityEngine::UIElements::Painter2D::_ctor)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x6dd2f04;
+  constexpr static std::size_t addrs = 0x6dce908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Painter2D*>(), { ".ctor", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Painter2D::*)()>(&::UnityEngine::UIElements::Painter2D::Reset)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6dd21fc;
+  constexpr static std::size_t addrs = 0x6dcdc00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Painter2D*>(), { "Reset", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Painter2D::*)()>(&::UnityEngine::UIElements::Painter2D::Dispose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6dd2380;
+  constexpr static std::size_t addrs = 0x6dcdd84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Painter2D*>(), { "Dispose", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Painter2D::*)(bool)>(&::UnityEngine::UIElements::Painter2D::Dispose)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6dd3090;
+  constexpr static std::size_t addrs = 0x6dcea94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Painter2D*>(), { "Dispose", {}, { ::i2c::type_of<bool>() } })));
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::UIElements::Painter2D::set_isPainterActive)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6dd3150;
+  constexpr static std::size_t addrs = 0x6dceb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Painter2D::*)(Il2CppObject*)>(&::UnityEngine::UIElements::Painter2D::ScheduleJobs)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x6dd31b4;
+  constexpr static std::size_t addrs = 0x6dcebb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Painter2D::*)(Il2CppObject*, ::System::Object*)>(&::UnityEngine::UIElements::Painter2D::OnMeshGeneration)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6dd33d8;
+  constexpr static std::size_t addrs = 0x6dceddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Painter2D*>(),

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CustomStyleResolvedEvent___c::*)()>(&::UnityEngine::UIElements::CustomStyleResolvedEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6da2f20;
+  constexpr static std::size_t addrs = 0x6d9e924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CustomStyleResolvedEvent___c*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::CustomStyleResolvedEvent* (::UnityEngine::UIElements::CustomStyleResolvedEvent___c::*)()>(
     &::UnityEngine::UIElements::CustomStyleResolvedEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6da2f24;
+  constexpr static std::size_t addrs = 0x6d9e928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CustomStyleResolvedEvent___c*>(), { "<.cctor>b__0_0", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ICustomStyle* (::UnityEngine::UIElements::CustomStyleResolvedEvent::*)()>(
     &::UnityEngine::UIElements::CustomStyleResolvedEvent::get_customStyle)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6da2e44;
+  constexpr static std::size_t addrs = 0x6d9e848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CustomStyleResolvedEvent*>(), { "get_customStyle", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CustomStyleResolvedEvent::*)()>(&::UnityEngine::UIElements::CustomStyleResolvedEvent::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6da2e58;
+  constexpr static std::size_t addrs = 0x6d9e85c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CustomStyleResolvedEvent*>(), { ".ctor", {}, {} })));

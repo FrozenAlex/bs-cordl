@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput_GetInternalDeviceIdCommand::get_Type)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69f54f4;
+  constexpr static std::size_t addrs = 0x69f3290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::XR::OpenXR::Input::OpenXRInput_GetInternalDeviceIdCommand::*)()>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput_GetInternalDeviceIdCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69f5500;
+  constexpr static std::size_t addrs = 0x69f329c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::Input::OpenXRInput_GetInternalDeviceIdCommand (*)()>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput_GetInternalDeviceIdCommand::Create)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69f4dbc;
+  constexpr static std::size_t addrs = 0x69f2b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Input::OpenXRInput___c::*)()>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69f5560;
+  constexpr static std::size_t addrs = 0x69f32fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::OpenXRInput___c*>(), { ".ctor", {}, {} })));
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Input::OpenXRInput___c::*)(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature*)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput___c::_AttachActionSets_b__9_0)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x69f5564;
+  constexpr static std::size_t addrs = 0x69f3300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Input::OpenXRInput___c::*)(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature*)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput___c::_AttachActionSets_b__9_1)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x69f55ac;
+  constexpr static std::size_t addrs = 0x69f3348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::XR::OpenXR::Input::OpenXRInput___c::*)(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_DeviceConfig*)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput___c::_CreateActions_b__11_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69f55ec;
+  constexpr static std::size_t addrs = 0x69f3388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Input::OpenXRInput___c::*)(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionBinding*)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput___c::_CreateActions_b__11_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x69f5600;
+  constexpr static std::size_t addrs = 0x69f339c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::UnityEngine::XR::OpenXR::Input::OpenXRInput___c::*)(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionBinding*)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput___c::_CreateActions_b__11_2)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69f561c;
+  constexpr static std::size_t addrs = 0x69f33b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::RegisterLayouts)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x69eaf0c;
+  constexpr static std::size_t addrs = 0x69e8ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::OpenXRInput*>(), { "RegisterLayouts", {}, {} })));
@@ -364,7 +364,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (*)(::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature*, ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig*)>(
         &::UnityEngine::XR::OpenXR::Input::OpenXRInput::ValidateActionMapConfig)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x69f1a14;
+  constexpr static std::size_t addrs = 0x69ef7b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::OpenXRInput*>(),
@@ -380,7 +380,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::AttachActionSets)> {
   constexpr static std::size_t size = 0xc18;
-  constexpr static std::size_t addrs = 0x69ec29c;
+  constexpr static std::size_t addrs = 0x69ea038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::OpenXRInput*>(), { "AttachActionSets", {}, {} })));
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig*>*, bool)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput::RegisterDevices)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x69f1c58;
+  constexpr static std::size_t addrs = 0x69ef9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -414,7 +414,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::Input::OpenXRInput_SerializedBinding>*>*)>(
         &::UnityEngine::XR::OpenXR::Input::OpenXRInput::CreateActions)> {
   constexpr static std::size_t size = 0xa28;
-  constexpr static std::size_t addrs = 0x69f1f00;
+  constexpr static std::size_t addrs = 0x69efc9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -434,7 +434,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::SetDpadBindingCustomValues)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x69f2928;
+  constexpr static std::size_t addrs = 0x69f06c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -447,7 +447,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(char16_t)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::SanitizeCharForOpenXRPath)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x69f34ec;
+  constexpr static std::size_t addrs = 0x69f1288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -460,7 +460,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::SanitizeStringForOpenXRPath)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x69f2f50;
+  constexpr static std::size_t addrs = 0x69f0cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -473,7 +473,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::GetActionHandleName)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x69f35c4;
+  constexpr static std::size_t addrs = 0x69f1360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::OpenXRInput*>(),
@@ -487,7 +487,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::InputActionReference*, float_t, float_t, ::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput::SendHapticImpulse)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x69f36ac;
+  constexpr static std::size_t addrs = 0x69f1448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::OpenXRInput*>(),
@@ -504,7 +504,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::InputActionReference*, float_t, float_t, float_t, ::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput::SendHapticImpulse)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x69f3730;
+  constexpr static std::size_t addrs = 0x69f14cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -522,7 +522,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::InputAction*, float_t, float_t, ::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput::SendHapticImpulse)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x69f38cc;
+  constexpr static std::size_t addrs = 0x69f1668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::OpenXRInput*>(),
@@ -539,7 +539,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::InputAction*, float_t, float_t, float_t, ::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput::SendHapticImpulse)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x69f37dc;
+  constexpr static std::size_t addrs = 0x69f1578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -557,7 +557,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::InputActionReference*, ::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput::StopHaptics)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x69f3cd4;
+  constexpr static std::size_t addrs = 0x69f1a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -572,7 +572,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::InputDevice, float_t, float_t, float_t)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::SendHapticImpulse)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x69f3e48;
+  constexpr static std::size_t addrs = 0x69f1be4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -587,7 +587,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::InputDevice)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::StopHapticImpulse)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x69f408c;
+  constexpr static std::size_t addrs = 0x69f1e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -601,7 +601,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput::StopHaptics)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x69f3da4;
+  constexpr static std::size_t addrs = 0x69f1b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -617,7 +617,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::I
                                                                 ::UnityEngine::XR::OpenXR::Input::OpenXRInput_InputSourceNameFlags, ::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput::TryGetInputSourceName)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x69f4244;
+  constexpr static std::size_t addrs = 0x69f1fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -635,7 +635,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::InputSystem::InputAction*)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::GetActionIsActive)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x69f4430;
+  constexpr static std::size_t addrs = 0x69f21cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::OpenXRInput*>(),
@@ -649,7 +649,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::InputDevice, ::UnityEngine::XR::InputFeatureUsage)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput::GetActionIsActive)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69f4690;
+  constexpr static std::size_t addrs = 0x69f242c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -663,7 +663,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::InputDevice, ::StringW)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::GetActionIsActive)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x69f4700;
+  constexpr static std::size_t addrs = 0x69f249c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -677,7 +677,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::InputSystem::InputAction*)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::TrySetControllerLateLatchAction)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x69f4840;
+  constexpr static std::size_t addrs = 0x69f25dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::OpenXRInput*>(),
@@ -691,7 +691,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::InputDevice, ::UnityEngine::XR::InputFeatureUsage)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput::TrySetControllerLateLatchAction)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69f4a2c;
+  constexpr static std::size_t addrs = 0x69f27c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -706,7 +706,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::InputDevice, ::StringW)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::TrySetControllerLateLatchAction)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x69f4a9c;
+  constexpr static std::size_t addrs = 0x69f2838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -721,7 +721,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::UnityEngine::XR::InputDevice, ::UnityEngine::XR::InputFeatureUsage)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput::GetActionHandle)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69f4c0c;
+  constexpr static std::size_t addrs = 0x69f29a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -735,7 +735,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::UnityEngine::XR::InputDevice, ::StringW)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::GetActionHandle)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x69f4b68;
+  constexpr static std::size_t addrs = 0x69f2904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -750,7 +750,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput::GetActionHandle)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x69f3950;
+  constexpr static std::size_t addrs = 0x69f16ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -765,7 +765,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::UnityEngine::InputSystem::InputDevice*)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::GetDeviceId)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x69f3b78;
+  constexpr static std::size_t addrs = 0x69f1914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -779,7 +779,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::UnityEngine::XR::InputDevice)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::GetDeviceId)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x69f3f30;
+  constexpr static std::size_t addrs = 0x69f1ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -792,7 +792,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::UserPathToDeviceName)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x69f2c0c;
+  constexpr static std::size_t addrs = 0x69f09a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -805,7 +805,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, float_t, float_t, float_t, float_t, bool)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::Internal_SetDpadBindingCustomValues)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x69f3438;
+  constexpr static std::size_t addrs = 0x69f11d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -822,7 +822,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint32_t, uint64_t, float_t, float_t, float_t)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::Internal_SendHapticImpulse)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x69f3c28;
+  constexpr static std::size_t addrs = 0x69f19c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -838,7 +838,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint32_t, float_t, float_t, float_t)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::Internal_SendHapticImpulseNoISX)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x69f3fe8;
+  constexpr static std::size_t addrs = 0x69f1d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -853,7 +853,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint32_t, uint64_t)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::Internal_StopHaptics)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x69f41c0;
+  constexpr static std::size_t addrs = 0x69f1f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::OpenXRInput*>(),
@@ -866,7 +866,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint32_t)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::Internal_StopHapticsNoISX)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x69f4144;
+  constexpr static std::size_t addrs = 0x69f1ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -879,7 +879,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint32_t, ::StringW)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::Internal_GetActionId)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x69f4d18;
+  constexpr static std::size_t addrs = 0x69f2ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::OpenXRInput*>(),
@@ -892,7 +892,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint32_t, ::StringW)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::Internal_GetActionIdNoISX)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x69f4c7c;
+  constexpr static std::size_t addrs = 0x69f2a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::OpenXRInput*>(),
@@ -906,7 +906,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t, uint64_t, uint32_t, uint32_t, ::by_ref<::System::IntPtr>)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput::Internal_TryGetInputSourceNamePtr)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x69f4e6c;
+  constexpr static std::size_t addrs = 0x69f2c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -924,7 +924,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t, uint64_t, uint32_t, uint32_t, ::by_ref<::StringW>)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput::Internal_TryGetInputSourceName)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x69f4330;
+  constexpr static std::size_t addrs = 0x69f20cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -941,7 +941,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t, uint64_t)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::Internal_TrySetControllerLateLatchAction)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x69f49a0;
+  constexpr static std::size_t addrs = 0x69f273c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -955,7 +955,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t, ::StringW)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::Internal_GetActionIsActive)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x69f45e8;
+  constexpr static std::size_t addrs = 0x69f2384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::OpenXRInput*>(),
@@ -968,7 +968,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t, ::StringW)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::Internal_GetActionIsActiveNoISX)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x69f47a0;
+  constexpr static std::size_t addrs = 0x69f253c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::OpenXRInput*>(),
@@ -982,7 +982,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::StringW, ::StringW, bool, uint32_t, ::StringW, ::StringW, ::StringW)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput::Internal_RegisterDeviceDefinition)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x69f2e14;
+  constexpr static std::size_t addrs = 0x69f0bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1000,7 +1000,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::StringW, ::StringW, ::UnityEngine::XR::OpenXR::Input::OpenXRInput_SerializedGuid)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput::Internal_CreateActionSet)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x69f310c;
+  constexpr static std::size_t addrs = 0x69f0ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1017,7 +1017,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, ::StringW, ::StringW, uint32_t, ::UnityEngine::XR::OpenXR::Input::OpenXRInput_SerializedGuid, ::ArrayW<::StringW>,
                                                                     uint32_t, bool, ::ArrayW<::StringW>, uint32_t)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::Internal_CreateAction)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x69f31d8;
+  constexpr static std::size_t addrs = 0x69f0f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1036,7 +1036,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::ArrayW<::UnityEngine::XR::OpenXR::Input::OpenXRInput_SerializedBinding>, uint32_t)>(
     &::UnityEngine::XR::OpenXR::Input::OpenXRInput::Internal_SuggestBindings)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x69f2a5c;
+  constexpr static std::size_t addrs = 0x69f07f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1053,7 +1053,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::Internal_AttachActionSets)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x69f2bac;
+  constexpr static std::size_t addrs = 0x69f0948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1066,7 +1066,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::UnityEngine::XR::InputDeviceCharacteristics, ::StringW)>(&::UnityEngine::XR::OpenXR::Input::OpenXRInput::Internal_GetDeviceId)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x69f4dd0;
+  constexpr static std::size_t addrs = 0x69f2b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

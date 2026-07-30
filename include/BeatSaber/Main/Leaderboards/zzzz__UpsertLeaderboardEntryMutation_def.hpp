@@ -4,6 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "OculusStudios/GraphQL/Client/zzzz__MutationRequest_1_def.hpp"
+#include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(UpsertLeaderboardEntryMutation)
 namespace BeatSaber::Main::GraphQL::InputTypes {
 class XOCBeatGamesBeatmapLeaderboardEntryUpsertData;
@@ -31,15 +32,17 @@ namespace BeatSaber::Main::Leaderboards {
 class CORDL_TYPE UpsertLeaderboardEntryMutation : public ::OculusStudios::GraphQL::Client::MutationRequest_1<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryUpsertData*> {
 public:
   // Declarations
-  /// @brief Method ConvertInputData, addr 0x32a454c, size 0x11c, virtual false, abstract: false, final false
-  static inline ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryUpsertData*
-  ConvertInputData(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::GameplayModifiers* modifiers);
+  /// @brief Method ConvertInputData, addr 0x32a1e90, size 0x12c, virtual false, abstract: false, final false
+  static inline ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryUpsertData* ConvertInputData(::StringW environmentPlayerRootId,
+                                                                                                                        ::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
+                                                                                                                        ::GlobalNamespace::BeatmapKey beatmapKey,
+                                                                                                                        ::GlobalNamespace::GameplayModifiers* modifiers);
 
-  static inline ::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation* New_ctor(::GlobalNamespace::LevelCompletionResults* results, ::GlobalNamespace::BeatmapKey beatmapKey,
-                                                                                          ::GlobalNamespace::GameplayModifiers* modifiers);
+  static inline ::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation* New_ctor(::StringW environmentPlayerRootId, ::GlobalNamespace::LevelCompletionResults* results,
+                                                                                          ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::GameplayModifiers* modifiers);
 
-  /// @brief Method .ctor, addr 0x32a4068, size 0xb4, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::LevelCompletionResults* results, ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::GameplayModifiers* modifiers);
+  /// @brief Method .ctor, addr 0x32a199c, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::StringW environmentPlayerRootId, ::GlobalNamespace::LevelCompletionResults* results, ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::GameplayModifiers* modifiers);
 
 protected:
   // Ctor Parameters []
@@ -56,7 +59,7 @@ public:
   UpsertLeaderboardEntryMutation(UpsertLeaderboardEntryMutation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20696 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20571 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

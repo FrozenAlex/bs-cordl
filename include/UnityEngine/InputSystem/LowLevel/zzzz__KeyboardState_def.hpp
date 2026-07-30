@@ -81,22 +81,22 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method Press, addr 0x65a8b08, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Press, addr 0x65a68a4, size 0x24, virtual false, abstract: false, final false
   inline void Press(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method Release, addr 0x65a8b2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x65a68c8, size 0x24, virtual false, abstract: false, final false
   inline void Release(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method Set, addr 0x65a8ad8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x65a6874, size 0x30, virtual false, abstract: false, final false
   inline void Set(::UnityEngine::InputSystem::Key key, bool state);
 
-  /// @brief Method .ctor, addr 0x65a89ec, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65a6788, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::InputSystem::Key> pressedKeys);
 
-  /// @brief Method get_Format, addr 0x65a89e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x65a677c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method get_format, addr 0x65a8b50, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x65a68ec, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"

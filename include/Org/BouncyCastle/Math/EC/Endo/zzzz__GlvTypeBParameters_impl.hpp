@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*>, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*>,
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, int32_t)>(&::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x350aa88;
+  constexpr static std::size_t addrs = 0x3509050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
                                                                                                                          ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*)>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x350ac2c;
+  constexpr static std::size_t addrs = 0x35091f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_Beta)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350ac38;
+  constexpr static std::size_t addrs = 0x3509200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*>(),
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_Lambda)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350ac40;
+  constexpr static std::size_t addrs = 0x3509208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*>(),
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* (::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_SplitParams)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350ac48;
+  constexpr static std::size_t addrs = 0x3509210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*>(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Math::BigInteger*> (::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_V1)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x350ac50;
+  constexpr static std::size_t addrs = 0x3509218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*>(),
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Math::BigInteger*> (::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_V2)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x350ad40;
+  constexpr static std::size_t addrs = 0x3509308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*>(),
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_G1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x350ae30;
+  constexpr static std::size_t addrs = 0x35093f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*>(),
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_G2)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x350ae4c;
+  constexpr static std::size_t addrs = 0x3509414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*>(),
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(&::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_Bits)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x350ae68;
+  constexpr static std::size_t addrs = 0x3509430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*>(),

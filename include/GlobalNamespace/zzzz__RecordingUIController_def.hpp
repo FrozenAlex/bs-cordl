@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_recordingEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x59a700c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a56c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool recordingEnabled);
 
 protected:
@@ -95,12 +95,12 @@ public:
   /// @brief Field _updateTimeSpan, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__updateTimeSpan, put = __cordl_internal_set__updateTimeSpan)) float_t _updateTimeSpan;
 
-  /// @brief Method Init, addr 0x59a6ec0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x59a5578, size 0xa4, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::RecordingUIController* New_ctor();
 
-  /// @brief Method Update, addr 0x59a6f64, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59a561c, size 0x9c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__circle() const;
@@ -127,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set__updateTimeSpan(float_t value);
 
-  /// @brief Method .ctor, addr 0x59a7000, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a56b8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

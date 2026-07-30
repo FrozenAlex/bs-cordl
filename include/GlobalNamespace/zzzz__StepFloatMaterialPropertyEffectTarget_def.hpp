@@ -42,18 +42,18 @@ public:
   /// @brief Field _stepSize, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__stepSize, put = __cordl_internal_set__stepSize)) float_t _stepSize;
 
-  /// @brief Method Awake, addr 0x598fa4c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x598e110, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::StepFloatMaterialPropertyEffectTarget* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x598fa70, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x598e134, size 0x58, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetValue, addr 0x598fa6c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x598e130, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x598fac8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x598e18c, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__stepSize(float_t value);
 
-  /// @brief Method .ctor, addr 0x598facc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598e190, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

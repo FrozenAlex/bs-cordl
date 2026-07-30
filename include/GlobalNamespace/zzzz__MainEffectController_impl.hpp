@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MainEffectController_def.hpp"
 #include "GlobalNamespace/zzzz__FloatSO_def.hpp"
-#include "GlobalNamespace/zzzz__ImageEffectController_def.hpp"
 #include "GlobalNamespace/zzzz__MainEffectContainerSO_def.hpp"
 #include "GlobalNamespace/zzzz__MainEffectRenderData_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -14,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MainEffectRenderData* (::GlobalNamespace::MainEffectController::*)()>(
     &::GlobalNamespace::MainEffectController::get_renderData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f40f30;
+  constexpr static std::size_t addrs = 0x5f3ea28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectController*>(), { "get_renderData", {}, {} })));
@@ -27,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectController::*)(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*)>(
     &::GlobalNamespace::MainEffectController::add_afterImageEffectEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5f40f38;
+  constexpr static std::size_t addrs = 0x5f3ea30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectController::*)(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*)>(
     &::GlobalNamespace::MainEffectController::remove_afterImageEffectEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5f40ff8;
+  constexpr static std::size_t addrs = 0x5f3eaf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MainEffectController::*)()>(&::GlobalNamespace::MainEffectController::get_fadeValue)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5f410b8;
+  constexpr static std::size_t addrs = 0x5f3ebb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectController*>(), { "get_fadeValue", {}, {} })));
@@ -69,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MainEffectContainerSO> (::GlobalNamespace::MainEffectController::*)()>(
     &::GlobalNamespace::MainEffectController::get_container)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f41108;
+  constexpr static std::size_t addrs = 0x5f3ec00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectController*>(), { "get_container", {}, {} })));
@@ -81,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectController::*)()>(&::GlobalNamespace::MainEffectController::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f41110;
+  constexpr static std::size_t addrs = 0x5f3ec08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectController*>(), { ".ctor", {}, {} })));
@@ -135,18 +134,6 @@ constexpr ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* const& Glo
 constexpr void GlobalNamespace::MainEffectController::__cordl_internal_set_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___afterImageEffectEvent = value;
-}
-constexpr ::UnityW<::GlobalNamespace::ImageEffectController>& GlobalNamespace::MainEffectController::__cordl_internal_get__imageEffectController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____imageEffectController;
-}
-constexpr ::UnityW<::GlobalNamespace::ImageEffectController> const& GlobalNamespace::MainEffectController::__cordl_internal_get__imageEffectController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____imageEffectController;
-}
-constexpr void GlobalNamespace::MainEffectController::__cordl_internal_set__imageEffectController(::UnityW<::GlobalNamespace::ImageEffectController> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____imageEffectController = value;
 }
 inline ::GlobalNamespace::MainEffectRenderData* GlobalNamespace::MainEffectController::get_renderData() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectController*>(), { "get_renderData", {}, {} })));

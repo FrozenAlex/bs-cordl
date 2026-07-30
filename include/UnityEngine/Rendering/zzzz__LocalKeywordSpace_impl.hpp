@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Rendering::LocalKeyword> (::UnityEngine::Rendering::LocalKeywordSpace::*)()>(
     &::UnityEngine::Rendering::LocalKeywordSpace::GetKeywords)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2a624;
+  constexpr static std::size_t addrs = 0x6b26028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LocalKeywordSpace>(), { "GetKeywords", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Rendering::LocalKeyword> (::UnityEngine::Rendering::LocalKeywordSpace::*)()>(
     &::UnityEngine::Rendering::LocalKeywordSpace::get_keywords)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b2a660;
+  constexpr static std::size_t addrs = 0x6b26064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LocalKeywordSpace>(), { "get_keywords", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::LocalKeywordSpace::*)(::System::Object*)>(&::UnityEngine::Rendering::LocalKeywordSpace::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6b2a69c;
+  constexpr static std::size_t addrs = 0x6b260a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::LocalKeywordSpace::*)(::UnityEngine::Rendering::LocalKeywordSpace)>(
     &::UnityEngine::Rendering::LocalKeywordSpace::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b2a718;
+  constexpr static std::size_t addrs = 0x6b2611c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::LocalKeywordSpace, ::UnityEngine::Rendering::LocalKeywordSpace)>(
     &::UnityEngine::Rendering::LocalKeywordSpace::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b2a600;
+  constexpr static std::size_t addrs = 0x6b26004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::LocalKeywordSpace::*)()>(&::UnityEngine::Rendering::LocalKeywordSpace::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b2a61c;
+  constexpr static std::size_t addrs = 0x6b26020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

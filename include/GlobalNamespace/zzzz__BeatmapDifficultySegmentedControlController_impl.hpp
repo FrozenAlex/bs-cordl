@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>*)>(
     &::GlobalNamespace::BeatmapDifficultySegmentedControlController::add_didSelectDifficultyEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59427b4;
+  constexpr static std::size_t addrs = 0x5940f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>*)>(
     &::GlobalNamespace::BeatmapDifficultySegmentedControlController::remove_didSelectDifficultyEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5942874;
+  constexpr static std::size_t addrs = 0x594105c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDifficulty (::GlobalNamespace::BeatmapDifficultySegmentedControlController::*)()>(
     &::GlobalNamespace::BeatmapDifficultySegmentedControlController::get_selectedDifficulty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5942934;
+  constexpr static std::size_t addrs = 0x594111c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDifficultySegmentedControlController::*)()>(
     &::GlobalNamespace::BeatmapDifficultySegmentedControlController::Awake)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x594293c;
+  constexpr static std::size_t addrs = 0x5941124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDifficultySegmentedControlController*>(), { "Awake", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDifficultySegmentedControlController::*)()>(
     &::GlobalNamespace::BeatmapDifficultySegmentedControlController::OnDestroy)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x59429cc;
+  constexpr static std::size_t addrs = 0x59411b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapDifficultySegmentedControlController::*)(::GlobalNamespace::BeatmapDifficulty)>(
     &::GlobalNamespace::BeatmapDifficultySegmentedControlController::GetClosestDifficultyIndex)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5942aa8;
+  constexpr static std::size_t addrs = 0x5941290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDifficultySegmentedControlController*>(),
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDifficultySegmentedControlController::*)(::HMUI::SegmentedControl*, int32_t)>(
     &::GlobalNamespace::BeatmapDifficultySegmentedControlController::HandleDifficultySegmentedControlDidSelectCell)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5942bc0;
+  constexpr static std::size_t addrs = 0x59413a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapDifficulty>*, ::GlobalNamespace::BeatmapDifficulty, ::GlobalNamespace::BeatmapDifficultyMask)>(
     &::GlobalNamespace::BeatmapDifficultySegmentedControlController::SetData)> {
   constexpr static std::size_t size = 0x4f8;
-  constexpr static std::size_t addrs = 0x5942c58;
+  constexpr static std::size_t addrs = 0x5941440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDifficultySegmentedControlController::*)()>(
     &::GlobalNamespace::BeatmapDifficultySegmentedControlController::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5943150;
+  constexpr static std::size_t addrs = 0x5941938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDifficultySegmentedControlController*>(), { ".ctor", {}, {} })));

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRHandSkeletonVersion (::GlobalNamespace::OVRRuntimeSettings::*)()>(
     &::GlobalNamespace::OVRRuntimeSettings::get_HandSkeletonVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ebd47c;
+  constexpr static std::size_t addrs = 0x5ebb1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeSettings*>(), { "get_HandSkeletonVersion", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRRuntimeSettings::*)(::GlobalNamespace::OVRHandSkeletonVersion)>(
     &::GlobalNamespace::OVRRuntimeSettings::set_HandSkeletonVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ebd484;
+  constexpr static std::size_t addrs = 0x5ebb1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeSettings*>(),
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::OVRRuntimeSettings> (*)()>(&::GlobalNamespace::OVRRuntimeSettings::get_Instance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5ebd48c;
+  constexpr static std::size_t addrs = 0x5ebb1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeSettings*>(), { "get_Instance", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRRuntimeSettings::*)()>(&::GlobalNamespace::OVRRuntimeSettings::get_RequestsVisualFaceTracking)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ebd6a4;
+  constexpr static std::size_t addrs = 0x5ebb410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeSettings*>(), { "get_RequestsVisualFaceTracking", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRRuntimeSettings::*)(bool)>(&::GlobalNamespace::OVRRuntimeSettings::set_RequestsVisualFaceTracking)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ebd6ac;
+  constexpr static std::size_t addrs = 0x5ebb418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRRuntimeSettings::*)()>(&::GlobalNamespace::OVRRuntimeSettings::get_RequestsAudioFaceTracking)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ebd6b4;
+  constexpr static std::size_t addrs = 0x5ebb420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeSettings*>(), { "get_RequestsAudioFaceTracking", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRRuntimeSettings::*)(bool)>(&::GlobalNamespace::OVRRuntimeSettings::set_RequestsAudioFaceTracking)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ebd6bc;
+  constexpr static std::size_t addrs = 0x5ebb428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRRuntimeSettings::*)()>(&::GlobalNamespace::OVRRuntimeSettings::get_EnableFaceTrackingVisemesOutput)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ebd6c4;
+  constexpr static std::size_t addrs = 0x5ebb430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRRuntimeSettings::*)(bool)>(&::GlobalNamespace::OVRRuntimeSettings::set_EnableFaceTrackingVisemesOutput)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5ebd6cc;
+  constexpr static std::size_t addrs = 0x5ebb438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OVRRuntimeSettings::*)()>(&::GlobalNamespace::OVRRuntimeSettings::get_TelemetryProjectGuid)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5ebd73c;
+  constexpr static std::size_t addrs = 0x5ebb4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeSettings*>(), { "get_TelemetryProjectGuid", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2 (::GlobalNamespace::OVRRuntimeSettings::*)()>(
     &::GlobalNamespace::OVRRuntimeSettings::get_BodyTrackingFidelity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ebd780;
+  constexpr static std::size_t addrs = 0x5ebb4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeSettings*>(), { "get_BodyTrackingFidelity", {}, {} })));
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRRuntimeSettings::*)(::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2)>(
     &::GlobalNamespace::OVRRuntimeSettings::set_BodyTrackingFidelity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ebd788;
+  constexpr static std::size_t addrs = 0x5ebb4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRPlugin_BodyJointSet (::GlobalNamespace::OVRRuntimeSettings::*)()>(
     &::GlobalNamespace::OVRRuntimeSettings::get_BodyTrackingJointSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ebd790;
+  constexpr static std::size_t addrs = 0x5ebb4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeSettings*>(), { "get_BodyTrackingJointSet", {}, {} })));
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRRuntimeSettings::*)(::GlobalNamespace::OVRPlugin_BodyJointSet)>(
     &::GlobalNamespace::OVRRuntimeSettings::set_BodyTrackingJointSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ebd798;
+  constexpr static std::size_t addrs = 0x5ebb504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeSettings*>(),
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::OVRRuntimeSettings> (*)()>(&::GlobalNamespace::OVRRuntimeSettings::GetRuntimeSettings)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x5ebd530;
+  constexpr static std::size_t addrs = 0x5ebb29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeSettings*>(), { "GetRuntimeSettings", {}, {} })));
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OVRRuntimeSettings*)>(&::GlobalNamespace::OVRRuntimeSettings::HandleSettingsCreated)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ebd7a0;
+  constexpr static std::size_t addrs = 0x5ebb50c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRRuntimeSettings::*)()>(&::GlobalNamespace::OVRRuntimeSettings::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5ebd7a4;
+  constexpr static std::size_t addrs = 0x5ebb510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRRuntimeSettings*>(), { ".ctor", {}, {} })));

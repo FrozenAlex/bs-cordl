@@ -78,13 +78,13 @@ public:
 
   static inline ::GlobalNamespace::SwitchGameObjectArrayEffectTarget* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x598fad4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x598e198, size 0xb0, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetValue, addr 0x598fad0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x598e194, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x598fb84, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x598e248, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::ArrayW<::GlobalNamespace::SwitchGameObjectArrayEffectTarget_GameObjectActivation> const& __cordl_internal_get_gameObjects() const;
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_gameObjects(::ArrayW<::GlobalNamespace::SwitchGameObjectArrayEffectTarget_GameObjectActivation> value);
 
-  /// @brief Method .ctor, addr 0x598fb88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598e24c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::Controls::QuaternionControl::*)()>(
     &::UnityEngine::InputSystem::Controls::QuaternionControl::get_x)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f69a0;
+  constexpr static std::size_t addrs = 0x64f473c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::QuaternionControl*>(), { "get_x", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::QuaternionControl::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::Controls::QuaternionControl::set_x)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f69a8;
+  constexpr static std::size_t addrs = 0x64f4744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::QuaternionControl*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::Controls::QuaternionControl::*)()>(
     &::UnityEngine::InputSystem::Controls::QuaternionControl::get_y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f69b0;
+  constexpr static std::size_t addrs = 0x64f474c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::QuaternionControl*>(), { "get_y", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::QuaternionControl::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::Controls::QuaternionControl::set_y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f69b8;
+  constexpr static std::size_t addrs = 0x64f4754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::QuaternionControl*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::Controls::QuaternionControl::*)()>(
     &::UnityEngine::InputSystem::Controls::QuaternionControl::get_z)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f69c0;
+  constexpr static std::size_t addrs = 0x64f475c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::QuaternionControl*>(), { "get_z", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::QuaternionControl::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::Controls::QuaternionControl::set_z)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f69c8;
+  constexpr static std::size_t addrs = 0x64f4764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::QuaternionControl*>(),
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::Controls::QuaternionControl::*)()>(
     &::UnityEngine::InputSystem::Controls::QuaternionControl::get_w)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f69d0;
+  constexpr static std::size_t addrs = 0x64f476c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::QuaternionControl*>(), { "get_w", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::QuaternionControl::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::Controls::QuaternionControl::set_w)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f69d8;
+  constexpr static std::size_t addrs = 0x64f4774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::QuaternionControl*>(),
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::QuaternionControl::*)()>(&::UnityEngine::InputSystem::Controls::QuaternionControl::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x64f69e0;
+  constexpr static std::size_t addrs = 0x64f477c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::QuaternionControl*>(), { ".ctor", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::QuaternionControl::*)()>(&::UnityEngine::InputSystem::Controls::QuaternionControl::FinishSetup)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x64f6a6c;
+  constexpr static std::size_t addrs = 0x64f4808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::QuaternionControl*>(),
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::UnityEngine::InputSystem::Controls::QuaternionControl::*)(void*)>(
     &::UnityEngine::InputSystem::Controls::QuaternionControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x64f6b84;
+  constexpr static std::size_t addrs = 0x64f4920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::QuaternionControl*>(),
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::QuaternionControl::*)(::UnityEngine::Quaternion, void*)>(
     &::UnityEngine::InputSystem::Controls::QuaternionControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x64f6cbc;
+  constexpr static std::size_t addrs = 0x64f4a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::QuaternionControl*>(),
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::Controls::QuaternionControl::*)()>(
     &::UnityEngine::InputSystem::Controls::QuaternionControl::CalculateOptimizedControlDataType)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x64f6df8;
+  constexpr static std::size_t addrs = 0x64f4b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::QuaternionControl*>(),

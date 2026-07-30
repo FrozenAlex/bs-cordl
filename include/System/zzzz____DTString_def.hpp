@@ -45,81 +45,81 @@ public:
   /// @brief Field WhiteSpaceChecks, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_WhiteSpaceChecks, put = setStaticF_WhiteSpaceChecks)) ::ArrayW<char16_t> WhiteSpaceChecks;
 
-  /// @brief Method Advance, addr 0x5c3c918, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Advance, addr 0x5c3a684, size 0xc4, virtual false, abstract: false, final false
   inline bool Advance(int32_t count);
 
-  /// @brief Method AtEnd, addr 0x5c3c884, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AtEnd, addr 0x5c3a5f0, size 0x94, virtual false, abstract: false, final false
   inline bool AtEnd();
 
-  /// @brief Method ConsumeSubString, addr 0x5c3e354, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ConsumeSubString, addr 0x5c3c0c0, size 0xbc, virtual false, abstract: false, final false
   inline void ConsumeSubString(::System::DTSubString sub);
 
-  /// @brief Method GetChar, addr 0x5c3da48, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetChar, addr 0x5c3b7b4, size 0x24, virtual false, abstract: false, final false
   inline char16_t GetChar();
 
-  /// @brief Method GetDigit, addr 0x5c3da6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDigit, addr 0x5c3b7d8, size 0x28, virtual false, abstract: false, final false
   inline int32_t GetDigit();
 
-  /// @brief Method GetNext, addr 0x5c3c7c4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetNext, addr 0x5c3a530, size 0xc0, virtual false, abstract: false, final false
   inline bool GetNext();
 
-  /// @brief Method GetNextDigit, addr 0x5c3d958, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetNextDigit, addr 0x5c3b6c4, size 0xf0, virtual false, abstract: false, final false
   inline bool GetNextDigit();
 
-  /// @brief Method GetRegularToken, addr 0x5c3c9dc, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method GetRegularToken, addr 0x5c3a748, size 0x354, virtual false, abstract: false, final false
   inline void GetRegularToken(::by_ref<::System::TokenType> tokenType, ::by_ref<int32_t> tokenValue, ::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method GetRepeatCount, addr 0x5c3d870, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetRepeatCount, addr 0x5c3b5dc, size 0xe8, virtual false, abstract: false, final false
   inline int32_t GetRepeatCount();
 
-  /// @brief Method GetSeparatorToken, addr 0x5c3cd30, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetSeparatorToken, addr 0x5c3aa9c, size 0x10c, virtual false, abstract: false, final false
   inline ::System::TokenType GetSeparatorToken(::System::Globalization::DateTimeFormatInfo* dtfi, ::by_ref<int32_t> indexBeforeSeparator, ::by_ref<char16_t> charBeforeSeparator);
 
-  /// @brief Method GetSubString, addr 0x5c3e1e4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetSubString, addr 0x5c3bf50, size 0x170, virtual false, abstract: false, final false
   inline ::System::DTSubString GetSubString();
 
-  /// @brief Method Match, addr 0x5c3d694, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Match, addr 0x5c3b400, size 0xe0, virtual false, abstract: false, final false
   inline bool Match(char16_t ch);
 
-  /// @brief Method Match, addr 0x5c3d528, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Match, addr 0x5c3b294, size 0x16c, virtual false, abstract: false, final false
   inline bool Match(::StringW str);
 
-  /// @brief Method MatchLongestWords, addr 0x5c3d774, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method MatchLongestWords, addr 0x5c3b4e0, size 0xfc, virtual false, abstract: false, final false
   inline int32_t MatchLongestWords(::ArrayW<::StringW> words, ::by_ref<int32_t> maxMatchStrLen);
 
-  /// @brief Method MatchSpecifiedWord, addr 0x5c3cfa8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method MatchSpecifiedWord, addr 0x5c3ad14, size 0x138, virtual false, abstract: false, final false
   inline bool MatchSpecifiedWord(::StringW target);
 
-  /// @brief Method MatchSpecifiedWords, addr 0x5c3d0e0, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method MatchSpecifiedWords, addr 0x5c3ae4c, size 0x448, virtual false, abstract: false, final false
   inline bool MatchSpecifiedWords(::StringW target, bool checkWordBoundary, ::by_ref<int32_t> matchLength);
 
-  /// @brief Method RemoveLeadingInQuoteSpaces, addr 0x5c3df20, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method RemoveLeadingInQuoteSpaces, addr 0x5c3bc8c, size 0x2c4, virtual false, abstract: false, final false
   inline void RemoveLeadingInQuoteSpaces();
 
-  /// @brief Method RemoveTrailingInQuoteSpaces, addr 0x5c3dcd0, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method RemoveTrailingInQuoteSpaces, addr 0x5c3ba3c, size 0x250, virtual false, abstract: false, final false
   inline void RemoveTrailingInQuoteSpaces();
 
-  /// @brief Method SkipWhiteSpaceCurrent, addr 0x5c3ce3c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method SkipWhiteSpaceCurrent, addr 0x5c3aba8, size 0x16c, virtual false, abstract: false, final false
   inline bool SkipWhiteSpaceCurrent();
 
-  /// @brief Method SkipWhiteSpaces, addr 0x5c3da94, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SkipWhiteSpaces, addr 0x5c3b800, size 0xf4, virtual false, abstract: false, final false
   inline void SkipWhiteSpaces();
 
-  /// @brief Method TrimTail, addr 0x5c3db88, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method TrimTail, addr 0x5c3b8f4, size 0x148, virtual false, abstract: false, final false
   inline void TrimTail();
 
-  /// @brief Method .ctor, addr 0x5c3c6e0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c3a44c, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::System::ReadOnlySpan_1<char16_t> str, ::System::Globalization::DateTimeFormatInfo* dtfi);
 
-  /// @brief Method .ctor, addr 0x5c3c650, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c3a3bc, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::ReadOnlySpan_1<char16_t> str, ::System::Globalization::DateTimeFormatInfo* dtfi, bool checkDigitToken);
 
   static inline ::ArrayW<char16_t> getStaticF_WhiteSpaceChecks();
 
-  /// @brief Method get_CompareInfo, addr 0x5c3c7bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CompareInfo, addr 0x5c3a528, size 0x8, virtual false, abstract: false, final false
   inline ::System::Globalization::CompareInfo* get_CompareInfo();
 
-  /// @brief Method get_Length, addr 0x5c3c60c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x5c3a378, size 0x44, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   static inline void setStaticF_WhiteSpaceChecks(::ArrayW<char16_t> value);

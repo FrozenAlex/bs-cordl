@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::GeneratePropertyBagsForTypesQualifiedWithAttribute::*)(::System::Type*, ::Unity::Properties::TypeGenerationOptions)>(
     &::Unity::Properties::GeneratePropertyBagsForTypesQualifiedWithAttribute::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6b9af74;
+  constexpr static std::size_t addrs = 0x6b96978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

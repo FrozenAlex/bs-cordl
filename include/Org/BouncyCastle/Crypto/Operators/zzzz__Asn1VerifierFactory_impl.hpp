@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::*)(::StringW, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::_ctor)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3407fdc;
+  constexpr static std::size_t addrs = 0x34065a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::*)(
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(&::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3408118;
+  constexpr static std::size_t addrs = 0x34066e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::get_AlgorithmDetails)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3408120;
+  constexpr static std::size_t addrs = 0x34066e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IStreamCalculator* (::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::CreateCalculator)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3408128;
+  constexpr static std::size_t addrs = 0x34066f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

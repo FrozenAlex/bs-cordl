@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::DecalChunk::*)()>(&::UnityEngine::Rendering::Universal::DecalChunk::get_count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6854738;
+  constexpr static std::size_t addrs = 0x68524d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalChunk*>(), { "get_count", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalChunk::*)(int32_t)>(&::UnityEngine::Rendering::Universal::DecalChunk::set_count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6854740;
+  constexpr static std::size_t addrs = 0x68524dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::DecalChunk::*)()>(&::UnityEngine::Rendering::Universal::DecalChunk::get_capacity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6854748;
+  constexpr static std::size_t addrs = 0x68524e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalChunk*>(), { "get_capacity", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalChunk::*)(int32_t)>(&::UnityEngine::Rendering::Universal::DecalChunk::set_capacity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6854750;
+  constexpr static std::size_t addrs = 0x68524ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (::UnityEngine::Rendering::Universal::DecalChunk::*)()>(
     &::UnityEngine::Rendering::Universal::DecalChunk::get_currentJobHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6854758;
+  constexpr static std::size_t addrs = 0x68524f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalChunk*>(), { "get_currentJobHandle", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalChunk::*)(::Unity::Jobs::JobHandle)>(
     &::UnityEngine::Rendering::Universal::DecalChunk::set_currentJobHandle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6854764;
+  constexpr static std::size_t addrs = 0x6852500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalChunk::*)()>(&::UnityEngine::Rendering::Universal::DecalChunk::Push)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x685476c;
+  constexpr static std::size_t addrs = 0x6852508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalChunk::*)()>(&::UnityEngine::Rendering::Universal::DecalChunk::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x685477c;
+  constexpr static std::size_t addrs = 0x6852518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                  ::ArrayW<::UnityEngine::Rendering::Universal::DecalProjector*>, int32_t)>(
     &::UnityEngine::Rendering::Universal::DecalChunk::ResizeNativeArray)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6854780;
+  constexpr static std::size_t addrs = 0x685251c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DecalChunk::*)()>(&::UnityEngine::Rendering::Universal::DecalChunk::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6854860;
+  constexpr static std::size_t addrs = 0x68525fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DecalChunk*>(), { ".ctor", {}, {} })));

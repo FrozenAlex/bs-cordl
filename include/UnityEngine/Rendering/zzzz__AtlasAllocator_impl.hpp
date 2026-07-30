@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::AtlasAllocator_AtlasNode::*)(::by_ref<::UnityEngine::Rendering::ObjectPool_1<::UnityEngine::Rendering::AtlasAllocator_AtlasNode*>*>, int32_t, int32_t, bool)>(
     &::UnityEngine::Rendering::AtlasAllocator_AtlasNode::Allocate)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x67ab2a0;
+  constexpr static std::size_t addrs = 0x67a903c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AtlasAllocator_AtlasNode::*)(
     ::by_ref<::UnityEngine::Rendering::ObjectPool_1<::UnityEngine::Rendering::AtlasAllocator_AtlasNode*>*>)>(&::UnityEngine::Rendering::AtlasAllocator_AtlasNode::Release)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x67ab4c4;
+  constexpr static std::size_t addrs = 0x67a9260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AtlasAllocator_AtlasNode::*)()>(&::UnityEngine::Rendering::AtlasAllocator_AtlasNode::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67ab208;
+  constexpr static std::size_t addrs = 0x67a8fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AtlasAllocator_AtlasNode*>(), { ".ctor", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AtlasAllocator___c::*)()>(&::UnityEngine::Rendering::AtlasAllocator___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67ab5f8;
+  constexpr static std::size_t addrs = 0x67a9394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AtlasAllocator___c*>(), { ".ctor", {}, {} })));
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AtlasAllocator___c::*)(::UnityEngine::Rendering::AtlasAllocator_AtlasNode*)>(
     &::UnityEngine::Rendering::AtlasAllocator___c::__ctor_b__6_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67ab5fc;
+  constexpr static std::size_t addrs = 0x67a9398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AtlasAllocator___c*>(),
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AtlasAllocator___c::*)(::UnityEngine::Rendering::AtlasAllocator_AtlasNode*)>(
     &::UnityEngine::Rendering::AtlasAllocator___c::__ctor_b__6_1)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67ab600;
+  constexpr static std::size_t addrs = 0x67a939c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AtlasAllocator___c*>(),
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AtlasAllocator::*)(int32_t, int32_t, bool)>(&::UnityEngine::Rendering::AtlasAllocator::_ctor)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x67ab00c;
+  constexpr static std::size_t addrs = 0x67a8da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AtlasAllocator*>(),
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::AtlasAllocator::*)(::by_ref<::UnityEngine::Vector4>, int32_t, int32_t)>(
     &::UnityEngine::Rendering::AtlasAllocator::Allocate)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x67ab210;
+  constexpr static std::size_t addrs = 0x67a8fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AtlasAllocator::*)()>(&::UnityEngine::Rendering::AtlasAllocator::Reset)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x67ab488;
+  constexpr static std::size_t addrs = 0x67a9224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AtlasAllocator*>(), { "Reset", {}, {} })));

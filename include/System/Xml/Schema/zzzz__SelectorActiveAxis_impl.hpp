@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::SelectorActiveAxis::*)()>(&::System::Xml::Schema::SelectorActiveAxis::get_lastDepth)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6316594;
+  constexpr static std::size_t addrs = 0x6314330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::SelectorActiveAxis*>(), { "get_lastDepth", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::SelectorActiveAxis::*)(::System::Xml::Schema::Asttree*, ::System::Xml::Schema::ConstraintStruct*)>(
     &::System::Xml::Schema::SelectorActiveAxis::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x63164cc;
+  constexpr static std::size_t addrs = 0x6314268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::SelectorActiveAxis::*)(::StringW, ::StringW)>(&::System::Xml::Schema::SelectorActiveAxis::EndElement)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6316640;
+  constexpr static std::size_t addrs = 0x63143dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::SelectorActiveAxis::*)(int32_t, int32_t)>(&::System::Xml::Schema::SelectorActiveAxis::PushKS)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x6316688;
+  constexpr static std::size_t addrs = 0x6314424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::KeySequence* (::System::Xml::Schema::SelectorActiveAxis::*)()>(&::System::Xml::Schema::SelectorActiveAxis::PopKS)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6316a48;
+  constexpr static std::size_t addrs = 0x63147e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::SelectorActiveAxis*>(), { "PopKS", {}, {} })));

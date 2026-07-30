@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Quaternion::FromToRotation)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6acca34;
+  constexpr static std::size_t addrs = 0x6ac832c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion)>(&::UnityEngine::Quaternion::Inverse)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6accae8;
+  constexpr static std::size_t addrs = 0x6ac83e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion, float_t)>(&::UnityEngine::Quaternion::Slerp)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6accb80;
+  constexpr static std::size_t addrs = 0x6ac8478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion, float_t)>(&::UnityEngine::Quaternion::SlerpUnclamped)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6accc58;
+  constexpr static std::size_t addrs = 0x6ac8550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion, float_t)>(&::UnityEngine::Quaternion::Lerp)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6accd30;
+  constexpr static std::size_t addrs = 0x6ac8628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Vector3)>(&::UnityEngine::Quaternion::Internal_FromEulerRad)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6acce08;
+  constexpr static std::size_t addrs = 0x6ac8700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Quaternion)>(&::UnityEngine::Quaternion::Internal_ToEulerRad)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6accea0;
+  constexpr static std::size_t addrs = 0x6ac8798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Quaternion, ::by_ref<::UnityEngine::Vector3>, ::by_ref<float_t>)>(&::UnityEngine::Quaternion::Internal_ToAxisAngleRad)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6accf3c;
+  constexpr static std::size_t addrs = 0x6ac8834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(float_t, ::UnityEngine::Vector3)>(&::UnityEngine::Quaternion::AngleAxis)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6accfec;
+  constexpr static std::size_t addrs = 0x6ac88e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Quaternion::LookRotation)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6acd0a4;
+  constexpr static std::size_t addrs = 0x6ac899c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Vector3)>(&::UnityEngine::Quaternion::LookRotation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6acd158;
+  constexpr static std::size_t addrs = 0x6ac8a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Quaternion::*)(float_t, float_t, float_t, float_t)>(&::UnityEngine::Quaternion::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6acd1d0;
+  constexpr static std::size_t addrs = 0x6ac8ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)()>(&::UnityEngine::Quaternion::get_identity)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6acd1dc;
+  constexpr static std::size_t addrs = 0x6ac8ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "get_identity", {}, {} })));
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(&::UnityEngine::Quaternion::op_Multiply)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6acd22c;
+  constexpr static std::size_t addrs = 0x6ac8b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(&::UnityEngine::Quaternion::op_Multiply)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6acd2a0;
+  constexpr static std::size_t addrs = 0x6ac8b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(float_t)>(&::UnityEngine::Quaternion::IsEqualUsingDot)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6acd344;
+  constexpr static std::size_t addrs = 0x6ac8c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "IsEqualUsingDot", {}, { ::i2c::type_of<float_t>() } })));
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(&::UnityEngine::Quaternion::op_Equality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6acd358;
+  constexpr static std::size_t addrs = 0x6ac8c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(&::UnityEngine::Quaternion::op_Inequality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6acd388;
+  constexpr static std::size_t addrs = 0x6ac8c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(&::UnityEngine::Quaternion::Dot)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6acd3b8;
+  constexpr static std::size_t addrs = 0x6ac8cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -270,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Quaternion::*)(::UnityEngine::Vector3)>(&::UnityEngine::Quaternion::SetLookRotation)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6acd3d8;
+  constexpr static std::size_t addrs = 0x6ac8cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Quaternion::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Quaternion::SetLookRotation)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6acd460;
+  constexpr static std::size_t addrs = 0x6ac8d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(&::UnityEngine::Quaternion::Angle)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6acd47c;
+  constexpr static std::size_t addrs = 0x6ac8d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3)>(&::UnityEngine::Quaternion::Internal_MakePositive)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6acd4dc;
+  constexpr static std::size_t addrs = 0x6ac8dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -324,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Quaternion::*)()>(&::UnityEngine::Quaternion::get_eulerAngles)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6acd564;
+  constexpr static std::size_t addrs = 0x6ac8e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "get_eulerAngles", {}, {} })));
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Quaternion::*)(::UnityEngine::Vector3)>(&::UnityEngine::Quaternion::set_eulerAngles)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6acd590;
+  constexpr static std::size_t addrs = 0x6ac8e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -349,7 +349,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(float_t, float_t, float_t)>(&::UnityEngine::Quaternion::Euler)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6acd5c0;
+  constexpr static std::size_t addrs = 0x6ac8eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -362,7 +362,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Vector3)>(&::UnityEngine::Quaternion::Euler)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6acd5d8;
+  constexpr static std::size_t addrs = 0x6ac8ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -375,7 +375,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Quaternion::*)(::by_ref<float_t>, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Quaternion::ToAngleAxis)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6acd5f0;
+  constexpr static std::size_t addrs = 0x6ac8ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -389,7 +389,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion, float_t)>(&::UnityEngine::Quaternion::RotateTowards)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6acd624;
+  constexpr static std::size_t addrs = 0x6ac8f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion)>(&::UnityEngine::Quaternion::Normalize)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6acd728;
+  constexpr static std::size_t addrs = 0x6ac9020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -416,7 +416,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Quaternion::*)()>(&::UnityEngine::Quaternion::Normalize)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6acd80c;
+  constexpr static std::size_t addrs = 0x6ac9104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { "Normalize", {}, {} })));
@@ -428,7 +428,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Quaternion::*)()>(&::UnityEngine::Quaternion::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6acd8e0;
+  constexpr static std::size_t addrs = 0x6ac91d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { ::i2c::class_of<::UnityEngine::Quaternion>(), 2 }));
@@ -440,7 +440,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Quaternion::*)(::System::Object*)>(&::UnityEngine::Quaternion::Equals)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6acd94c;
+  constexpr static std::size_t addrs = 0x6ac9244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { ::i2c::class_of<::UnityEngine::Quaternion>(), 0 }));
@@ -452,7 +452,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Quaternion::*)(::UnityEngine::Quaternion)>(&::UnityEngine::Quaternion::Equals)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6acdaac;
+  constexpr static std::size_t addrs = 0x6ac93a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -465,7 +465,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Quaternion::*)()>(&::UnityEngine::Quaternion::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6acdba0;
+  constexpr static std::size_t addrs = 0x6ac9498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Quaternion>(), { ::i2c::class_of<::UnityEngine::Quaternion>(), 3 }));
@@ -477,7 +477,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Quaternion::*)(::StringW, ::System::IFormatProvider*)>(&::UnityEngine::Quaternion::ToString)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x6acdbb0;
+  constexpr static std::size_t addrs = 0x6ac94a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -491,7 +491,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>)>(
     &::UnityEngine::Quaternion::FromToRotation_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6acca94;
+  constexpr static std::size_t addrs = 0x6ac838c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -508,7 +508,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Quaternion>)>(&::UnityEngine::Quaternion::Inverse_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6accb3c;
+  constexpr static std::size_t addrs = 0x6ac8434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Quaternion>, float_t, ::by_ref<::UnityEngine::Quaternion>)>(
     &::UnityEngine::Quaternion::Slerp_Injected)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6accbf4;
+  constexpr static std::size_t addrs = 0x6ac84ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -541,7 +541,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Quaternion>, float_t, ::by_ref<::UnityEngine::Quaternion>)>(
     &::UnityEngine::Quaternion::SlerpUnclamped_Injected)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6accccc;
+  constexpr static std::size_t addrs = 0x6ac85c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -559,7 +559,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Quaternion>, float_t, ::by_ref<::UnityEngine::Quaternion>)>(
     &::UnityEngine::Quaternion::Lerp_Injected)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6accda4;
+  constexpr static std::size_t addrs = 0x6ac869c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -576,7 +576,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>)>(&::UnityEngine::Quaternion::Internal_FromEulerRad_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6acce5c;
+  constexpr static std::size_t addrs = 0x6ac8754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -591,7 +591,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Quaternion::Internal_ToEulerRad_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6accef8;
+  constexpr static std::size_t addrs = 0x6ac87f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -607,7 +607,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<float_t>)>(
     &::UnityEngine::Quaternion::Internal_ToAxisAngleRad_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6accf98;
+  constexpr static std::size_t addrs = 0x6ac8890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -624,7 +624,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>)>(&::UnityEngine::Quaternion::AngleAxis_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6acd050;
+  constexpr static std::size_t addrs = 0x6ac8948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -640,7 +640,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>)>(
     &::UnityEngine::Quaternion::LookRotation_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6acd104;
+  constexpr static std::size_t addrs = 0x6ac89fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

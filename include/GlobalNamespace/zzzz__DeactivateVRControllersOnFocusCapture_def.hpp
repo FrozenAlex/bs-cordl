@@ -52,21 +52,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
   constexpr operator ::GlobalNamespace::IVerboseLogger*() noexcept;
 
-  /// @brief Method HandleSystemStateChange, addr 0x58573d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleSystemStateChange, addr 0x58558d4, size 0x10, virtual false, abstract: false, final false
   inline void HandleSystemStateChange(::GlobalNamespace::XRSystemEventType eventType);
 
-  /// @brief Method LateUpdate, addr 0x5857524, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5855a20, size 0x4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::DeactivateVRControllersOnFocusCapture* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x58573e8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x58558e4, size 0x13c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5856ed8, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58553d4, size 0x254, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateVRControllerActiveState, addr 0x585712c, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateVRControllerActiveState, addr 0x5855628, size 0x2ac, virtual false, abstract: false, final false
   inline void UpdateVRControllerActiveState();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>> const& __cordl_internal_get__vrControllerGameObjects() const;
@@ -93,10 +93,10 @@ public:
 
   constexpr void __cordl_internal_set__xrSystemState(::GlobalNamespace::IXRSystemState* value);
 
-  /// @brief Method .ctor, addr 0x5857528, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5855a24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_loggerPrefix, addr 0x5856e94, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_loggerPrefix, addr 0x5855390, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_loggerPrefix();
 
   /// @brief Convert to "::GlobalNamespace::IVerboseLogger"
@@ -117,7 +117,7 @@ public:
   DeactivateVRControllersOnFocusCapture(DeactivateVRControllersOnFocusCapture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21340 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21337 };
 
   /// @brief Field _vrControllers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::VRController>> ____vrControllers;

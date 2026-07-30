@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneTransitionAudioFadeController::*)()>(&::GlobalNamespace::SceneTransitionAudioFadeController::Initialize)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x58bc2cc;
+  constexpr static std::size_t addrs = 0x58ba7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneTransitionAudioFadeController*>(), { "Initialize", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneTransitionAudioFadeController::*)()>(&::GlobalNamespace::SceneTransitionAudioFadeController::Dispose)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x58bc3f8;
+  constexpr static std::size_t addrs = 0x58ba8d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneTransitionAudioFadeController*>(), { "Dispose", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneTransitionAudioFadeController::*)(::GlobalNamespace::GameScenesManager_SceneTransitionType, float_t)>(
     &::GlobalNamespace::SceneTransitionAudioFadeController::HandleTransitionDidStart)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x58bc524;
+  constexpr static std::size_t addrs = 0x58ba9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                                        ::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*)>(
     &::GlobalNamespace::SceneTransitionAudioFadeController::HandleTransitionDidFinish)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x58bc55c;
+  constexpr static std::size_t addrs = 0x58baa34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneTransitionAudioFadeController::*)()>(&::GlobalNamespace::SceneTransitionAudioFadeController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58bc590;
+  constexpr static std::size_t addrs = 0x58baa68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneTransitionAudioFadeController*>(), { ".ctor", {}, {} })));

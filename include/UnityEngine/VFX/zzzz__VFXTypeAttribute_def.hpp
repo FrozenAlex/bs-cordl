@@ -66,7 +66,7 @@ public:
   static ::UnityEngine::VFX::VFXTypeAttribute_Usage const GraphicsBuffer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19892 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -115,19 +115,19 @@ public:
 
   constexpr void __cordl_internal_set__usages_k__BackingField(::UnityEngine::VFX::VFXTypeAttribute_Usage value);
 
-  /// @brief Method .ctor, addr 0x69cca1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69ca7b8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::VFX::VFXTypeAttribute_Usage usages, ::StringW name);
 
-  /// @brief Method get_name, addr 0x69cca38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x69ca7d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_usages, addr 0x69cca28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_usages, addr 0x69ca7c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::VFX::VFXTypeAttribute_Usage get_usages();
 
-  /// @brief Method set_name, addr 0x69cca40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x69ca7dc, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method set_usages, addr 0x69cca30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_usages, addr 0x69ca7cc, size 0x8, virtual false, abstract: false, final false
   inline void set_usages(::UnityEngine::VFX::VFXTypeAttribute_Usage value);
 
 protected:
@@ -145,7 +145,7 @@ public:
   VFXTypeAttribute(VFXTypeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19896 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19893 };
 
   /// @brief Field <usages>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::VFX::VFXTypeAttribute_Usage ____usages_k__BackingField;

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::NetworkPlayerTableCell::*)()>(&::GlobalNamespace::NetworkPlayerTableCell::get_showSeparator)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a0d3c4;
+  constexpr static std::size_t addrs = 0x5a0b7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPlayerTableCell*>(), { "get_showSeparator", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerTableCell::*)(bool)>(&::GlobalNamespace::NetworkPlayerTableCell::set_showSeparator)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5a0c8b0;
+  constexpr static std::size_t addrs = 0x5a0acdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerTableCell::*)(::StringW, bool, bool, bool, bool)>(&::GlobalNamespace::NetworkPlayerTableCell::SetData)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5a0c810;
+  constexpr static std::size_t addrs = 0x5a0ac3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerTableCell::*)(::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::NetworkPlayerTableCell::SelectionDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a0d5f0;
+  constexpr static std::size_t addrs = 0x5a0ba1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerTableCell::*)(::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::NetworkPlayerTableCell::HighlightDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a0d5f4;
+  constexpr static std::size_t addrs = 0x5a0ba20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerTableCell::*)()>(&::GlobalNamespace::NetworkPlayerTableCell::RefreshVisuals)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x5a0d3dc;
+  constexpr static std::size_t addrs = 0x5a0b808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPlayerTableCell*>(), { "RefreshVisuals", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::NetworkPlayerTableCell::*)()>(&::GlobalNamespace::NetworkPlayerTableCell::get_activeColor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5a0d5f8;
+  constexpr static std::size_t addrs = 0x5a0ba24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPlayerTableCell*>(), { "get_activeColor", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerTableCell::*)()>(&::GlobalNamespace::NetworkPlayerTableCell::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a0d660;
+  constexpr static std::size_t addrs = 0x5a0ba8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPlayerTableCell*>(), { ".ctor", {}, {} })));

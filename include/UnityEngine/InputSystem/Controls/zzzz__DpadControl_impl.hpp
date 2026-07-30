@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::Controls::DpadControl_DpadAxisControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DpadControl_DpadAxisControl::get_component)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f6380;
+  constexpr static std::size_t addrs = 0x64f411c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::DpadControl_DpadAxisControl::*)(int32_t)>(
     &::UnityEngine::InputSystem::Controls::DpadControl_DpadAxisControl::set_component)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f6388;
+  constexpr static std::size_t addrs = 0x64f4124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::DpadControl_DpadAxisControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DpadControl_DpadAxisControl::FinishSetup)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x64f6390;
+  constexpr static std::size_t addrs = 0x64f412c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DpadControl_DpadAxisControl*>(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Controls::DpadControl_DpadAxisControl::*)(void*)>(
     &::UnityEngine::InputSystem::Controls::DpadControl_DpadAxisControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x64f641c;
+  constexpr static std::size_t addrs = 0x64f41b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DpadControl_DpadAxisControl*>(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::DpadControl_DpadAxisControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DpadControl_DpadAxisControl::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64f6514;
+  constexpr static std::size_t addrs = 0x64f42b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Controls::DpadControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DpadControl::get_up)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f5d50;
+  constexpr static std::size_t addrs = 0x64f3aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DpadControl*>(), { "get_up", {}, {} })));
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::DpadControl::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Controls::DpadControl::set_up)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f5d58;
+  constexpr static std::size_t addrs = 0x64f3af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DpadControl*>(),
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Controls::DpadControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DpadControl::get_down)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f5d60;
+  constexpr static std::size_t addrs = 0x64f3afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DpadControl*>(), { "get_down", {}, {} })));
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::DpadControl::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Controls::DpadControl::set_down)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f5d68;
+  constexpr static std::size_t addrs = 0x64f3b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DpadControl*>(),
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Controls::DpadControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DpadControl::get_left)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f5d70;
+  constexpr static std::size_t addrs = 0x64f3b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DpadControl*>(), { "get_left", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::DpadControl::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Controls::DpadControl::set_left)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f5d78;
+  constexpr static std::size_t addrs = 0x64f3b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DpadControl*>(),
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Controls::DpadControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DpadControl::get_right)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f5d80;
+  constexpr static std::size_t addrs = 0x64f3b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DpadControl*>(), { "get_right", {}, {} })));
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::DpadControl::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Controls::DpadControl::set_right)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f5d88;
+  constexpr static std::size_t addrs = 0x64f3b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DpadControl*>(),
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::DpadControl::*)()>(&::UnityEngine::InputSystem::Controls::DpadControl::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x64f5d90;
+  constexpr static std::size_t addrs = 0x64f3b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::DpadControl*>(), { ".ctor", {}, {} })));
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::DpadControl::*)()>(&::UnityEngine::InputSystem::Controls::DpadControl::FinishSetup)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x64f5e04;
+  constexpr static std::size_t addrs = 0x64f3ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::InputSystem::Controls::DpadControl::*)(void*)>(
     &::UnityEngine::InputSystem::Controls::DpadControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x64f5f00;
+  constexpr static std::size_t addrs = 0x64f3c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::DpadControl::*)(::UnityEngine::Vector2, void*)>(
     &::UnityEngine::InputSystem::Controls::DpadControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x64f61bc;
+  constexpr static std::size_t addrs = 0x64f3f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(bool, bool, bool, bool, bool)>(&::UnityEngine::InputSystem::Controls::DpadControl::MakeDpadVector)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64f6160;
+  constexpr static std::size_t addrs = 0x64f3efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -307,7 +307,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(float_t, float_t, float_t, float_t)>(&::UnityEngine::InputSystem::Controls::DpadControl::MakeDpadVector)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64f6370;
+  constexpr static std::size_t addrs = 0x64f410c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

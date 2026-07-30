@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIContent::*)(::System::Action*)>(&::UnityEngine::GUIContent::add_OnTextChanged)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6b406e0;
+  constexpr static std::size_t addrs = 0x6b3c0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIContent::*)(::System::Action*)>(&::UnityEngine::GUIContent::remove_OnTextChanged)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6b4078c;
+  constexpr static std::size_t addrs = 0x6b3c190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::GUIContent::*)()>(&::UnityEngine::GUIContent::get_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b40838;
+  constexpr static std::size_t addrs = 0x6b3c23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIContent*>(), { "get_text", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIContent::*)(::StringW)>(&::UnityEngine::GUIContent::set_text)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6b40840;
+  constexpr static std::size_t addrs = 0x6b3c244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIContent*>(), { "set_text", {}, { ::i2c::type_of<::StringW>() } })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::GUIContent::*)()>(&::UnityEngine::GUIContent::get_textWithWhitespace)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6b40914;
+  constexpr static std::size_t addrs = 0x6b3c318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIContent*>(), { "get_textWithWhitespace", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIContent::*)(::StringW)>(&::UnityEngine::GUIContent::set_textWithWhitespace)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6b40898;
+  constexpr static std::size_t addrs = 0x6b3c29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIContent::*)(::StringW)>(&::UnityEngine::GUIContent::SetTextWithoutNotify)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b40984;
+  constexpr static std::size_t addrs = 0x6b3c388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIContent::*)(::UnityEngine::Texture*)>(&::UnityEngine::GUIContent::set_image)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b4098c;
+  constexpr static std::size_t addrs = 0x6b3c390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::GUIContent::*)()>(&::UnityEngine::GUIContent::get_tooltip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b3f0f4;
+  constexpr static std::size_t addrs = 0x6b3aaf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIContent*>(), { "get_tooltip", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIContent::*)(::StringW)>(&::UnityEngine::GUIContent::set_tooltip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b40994;
+  constexpr static std::size_t addrs = 0x6b3c398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIContent*>(), { "set_tooltip", {}, { ::i2c::type_of<::StringW>() } })));
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIContent::*)()>(&::UnityEngine::GUIContent::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6b4099c;
+  constexpr static std::size_t addrs = 0x6b3c3a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIContent*>(), { ".ctor", {}, {} })));
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIContent::*)(::StringW)>(&::UnityEngine::GUIContent::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6b409b8;
+  constexpr static std::size_t addrs = 0x6b3c3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIContent*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIContent::*)(::StringW, ::StringW)>(&::UnityEngine::GUIContent::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b40a30;
+  constexpr static std::size_t addrs = 0x6b3c434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIContent::*)(::StringW, ::UnityEngine::Texture*, ::StringW)>(&::UnityEngine::GUIContent::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6b409f0;
+  constexpr static std::size_t addrs = 0x6b3c3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIContent::*)(::UnityEngine::GUIContent*)>(&::UnityEngine::GUIContent::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6b40a6c;
+  constexpr static std::size_t addrs = 0x6b3c470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GUIContent* (*)(::StringW)>(&::UnityEngine::GUIContent::Temp)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6b3e918;
+  constexpr static std::size_t addrs = 0x6b3a31c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIContent*>(), { "Temp", {}, { ::i2c::type_of<::StringW>() } })));
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::GUIContent::ClearStaticCache)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6b40ab8;
+  constexpr static std::size_t addrs = 0x6b3c4bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIContent*>(), { "ClearStaticCache", {}, {} })));
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::GUIContent::*)()>(&::UnityEngine::GUIContent::ToString)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6b40b54;
+  constexpr static std::size_t addrs = 0x6b3c558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::GUIContent*>(), { ::i2c::class_of<::UnityEngine::GUIContent*>(), 3 }));

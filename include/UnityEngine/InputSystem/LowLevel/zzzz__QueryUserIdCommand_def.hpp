@@ -86,10 +86,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x65a87a8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x65a6544, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand Create();
 
-  /// @brief Method ReadId, addr 0x65a877c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReadId, addr 0x65a6518, size 0x20, virtual false, abstract: false, final false
   inline ::StringW ReadId();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -104,10 +104,10 @@ public:
 
   constexpr void __cordl_internal_set_idBuffer(::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand__idBuffer_e__FixedBuffer value);
 
-  /// @brief Method get_Type, addr 0x65a8770, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x65a650c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x65a879c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x65a6538, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Interactable::*)(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>*)>(&::HMUI::Interactable::add_interactableChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x587ba68;
+  constexpr static std::size_t addrs = 0x5879f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Interactable::*)(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>*)>(
     &::HMUI::Interactable::remove_interactableChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x587bb28;
+  constexpr static std::size_t addrs = 0x5879fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::Interactable::*)()>(&::HMUI::Interactable::get_interactable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x587bbe8;
+  constexpr static std::size_t addrs = 0x587a094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::Interactable*>(), { "get_interactable", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Interactable::*)(bool)>(&::HMUI::Interactable::set_interactable)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x587bc08;
+  constexpr static std::size_t addrs = 0x587a0b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::Interactable*>(), { "set_interactable", {}, { ::i2c::type_of<bool>() } })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Interactable::*)()>(&::HMUI::Interactable::OnCanvasGroupChanged)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x587bc68;
+  constexpr static std::size_t addrs = 0x587a114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::Interactable*>(), { ::i2c::class_of<::HMUI::Interactable*>(), 14 }));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::Interactable::*)()>(&::HMUI::Interactable::ParentGroupAllowsInteraction)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x587bd18;
+  constexpr static std::size_t addrs = 0x587a1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::Interactable*>(), { "ParentGroupAllowsInteraction", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::Interactable::*)()>(&::HMUI::Interactable::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5877788;
+  constexpr static std::size_t addrs = 0x5875c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::Interactable*>(), { ".ctor", {}, {} })));

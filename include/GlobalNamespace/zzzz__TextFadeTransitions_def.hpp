@@ -119,21 +119,21 @@ public:
   /// @brief Field _textLabel, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__textLabel, put = __cordl_internal_set__textLabel)) ::UnityW<::TMPro::TextMeshProUGUI> _textLabel;
 
-  /// @brief Method Awake, addr 0x59f14fc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x59efbf0, size 0x80, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::TextFadeTransitions* New_ctor();
 
-  /// @brief Method RefreshState, addr 0x59f1654, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method RefreshState, addr 0x59efd48, size 0x174, virtual false, abstract: false, final false
   inline void RefreshState();
 
-  /// @brief Method RefreshTextAlpha, addr 0x59f157c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method RefreshTextAlpha, addr 0x59efc70, size 0xd4, virtual false, abstract: false, final false
   inline void RefreshTextAlpha();
 
-  /// @brief Method ShowText, addr 0x59e6320, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ShowText, addr 0x59e4990, size 0x80, virtual false, abstract: false, final false
   inline void ShowText(::StringW text, float_t delay);
 
-  /// @brief Method Update, addr 0x59f1650, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x59efd44, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__canvasGroup() const;
@@ -178,7 +178,7 @@ public:
 
   constexpr void __cordl_internal_set__textLabel(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x59f17c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59efebc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

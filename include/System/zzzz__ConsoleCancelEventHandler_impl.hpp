@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ConsoleCancelEventHandler::*)(::System::Object*, ::System::IntPtr)>(&::System::ConsoleCancelEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5c661c4;
+  constexpr static std::size_t addrs = 0x5c63f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ConsoleCancelEventHandler::*)(::System::Object*, ::System::ConsoleCancelEventArgs*)>(
     &::System::ConsoleCancelEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c6630c;
+  constexpr static std::size_t addrs = 0x5c64078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXPreviousPositionBinder::*)()>(&::UnityEngine::VFX::Utility::VFXPreviousPositionBinder::OnEnable)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x69e10e4;
+  constexpr static std::size_t addrs = 0x69dee80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXPreviousPositionBinder*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::Utility::VFXPreviousPositionBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXPreviousPositionBinder::IsValid)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x69e11b4;
+  constexpr static std::size_t addrs = 0x69def50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXPreviousPositionBinder*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXPreviousPositionBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXPreviousPositionBinder::UpdateBinding)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x69e1260;
+  constexpr static std::size_t addrs = 0x69deffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXPreviousPositionBinder*>(),
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXPreviousPositionBinder::*)()>(&::UnityEngine::VFX::Utility::VFXPreviousPositionBinder::ToString)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x69e12d4;
+  constexpr static std::size_t addrs = 0x69df070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXPreviousPositionBinder*>(),
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXPreviousPositionBinder::*)()>(&::UnityEngine::VFX::Utility::VFXPreviousPositionBinder::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69e13d0;
+  constexpr static std::size_t addrs = 0x69df16c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXPreviousPositionBinder*>(), { ".ctor", {}, {} })));

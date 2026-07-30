@@ -73,24 +73,24 @@ public:
   /// @brief Field m_VelocityProperty, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_VelocityProperty, put = __cordl_internal_set_m_VelocityProperty)) ::UnityEngine::VFX::Utility::ExposedProperty* m_VelocityProperty;
 
-  /// @brief Method GetMousePosition, addr 0x69dee20, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetMousePosition, addr 0x69dcbbc, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetMousePosition();
 
-  /// @brief Method IsLeftClickPressed, addr 0x69ded40, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsLeftClickPressed, addr 0x69dcadc, size 0x70, virtual false, abstract: false, final false
   inline bool IsLeftClickPressed();
 
-  /// @brief Method IsRightClickPressed, addr 0x69dedb0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsRightClickPressed, addr 0x69dcb4c, size 0x70, virtual false, abstract: false, final false
   inline bool IsRightClickPressed();
 
-  /// @brief Method IsValid, addr 0x69dea74, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x69dc810, size 0xbc, virtual true, abstract: false, final false
   inline bool IsValid(::UnityEngine::VFX::VisualEffect* component);
 
   static inline ::UnityEngine::VFX::Utility::VFXInputMouseBinder* New_ctor();
 
-  /// @brief Method ToString, addr 0x69deec0, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69dcc5c, size 0x100, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateBinding, addr 0x69deb30, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method UpdateBinding, addr 0x69dc8cc, size 0x210, virtual true, abstract: false, final false
   inline void UpdateBinding(::UnityEngine::VFX::VisualEffect* component);
 
   constexpr bool const& __cordl_internal_get_CheckLeftClick() const;
@@ -153,31 +153,31 @@ public:
 
   constexpr void __cordl_internal_set_m_VelocityProperty(::UnityEngine::VFX::Utility::ExposedProperty* value);
 
-  /// @brief Method .ctor, addr 0x69defc0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69dcd5c, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MouseLeftClickProperty, addr 0x69de9a4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_MouseLeftClickProperty, addr 0x69dc740, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_MouseLeftClickProperty();
 
-  /// @brief Method get_MouseRightClickProperty, addr 0x69de9d8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_MouseRightClickProperty, addr 0x69dc774, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_MouseRightClickProperty();
 
-  /// @brief Method get_PositionProperty, addr 0x69dea0c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_PositionProperty, addr 0x69dc7a8, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_PositionProperty();
 
-  /// @brief Method get_VelocityProperty, addr 0x69dea40, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_VelocityProperty, addr 0x69dc7dc, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_VelocityProperty();
 
-  /// @brief Method set_MouseLeftClickProperty, addr 0x69de9bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_MouseLeftClickProperty, addr 0x69dc758, size 0x1c, virtual false, abstract: false, final false
   inline void set_MouseLeftClickProperty(::StringW value);
 
-  /// @brief Method set_MouseRightClickProperty, addr 0x69de9f0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_MouseRightClickProperty, addr 0x69dc78c, size 0x1c, virtual false, abstract: false, final false
   inline void set_MouseRightClickProperty(::StringW value);
 
-  /// @brief Method set_PositionProperty, addr 0x69dea24, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_PositionProperty, addr 0x69dc7c0, size 0x1c, virtual false, abstract: false, final false
   inline void set_PositionProperty(::StringW value);
 
-  /// @brief Method set_VelocityProperty, addr 0x69dea58, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_VelocityProperty, addr 0x69dc7f4, size 0x1c, virtual false, abstract: false, final false
   inline void set_VelocityProperty(::StringW value);
 
 protected:
@@ -195,7 +195,7 @@ public:
   VFXInputMouseBinder(VFXInputMouseBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19959 };
 
   /// @brief Field m_MouseLeftClickProperty, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_MouseLeftClickProperty;

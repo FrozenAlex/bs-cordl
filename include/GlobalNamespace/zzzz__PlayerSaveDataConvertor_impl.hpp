@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EnvironmentEffectsFilterPreset (*)(
     ::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_EnvironmentEffectsFilterPresetSaveData)>(&::GlobalNamespace::PlayerSaveDataConvertor::GetRuntimeData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x37478c0;
+  constexpr static std::size_t addrs = 0x3746300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_EnvironmentEffectsFilterPresetSaveData (*)(
     ::GlobalNamespace::EnvironmentEffectsFilterPreset)>(&::GlobalNamespace::PlayerSaveDataConvertor::GetSaveData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x374580c;
+  constexpr static std::size_t addrs = 0x374424c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSaveDataConvertor*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteJumpDurationTypeSettings (*)(
     ::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_NoteJumpDurationTypeSettingsSaveData)>(&::GlobalNamespace::PlayerSaveDataConvertor::GetRuntimeData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x37478a4;
+  constexpr static std::size_t addrs = 0x37462e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_NoteJumpDurationTypeSettingsSaveData (*)(
     ::GlobalNamespace::NoteJumpDurationTypeSettings)>(&::GlobalNamespace::PlayerSaveDataConvertor::GetSaveData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x37457f0;
+  constexpr static std::size_t addrs = 0x3744230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSaveDataConvertor*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ArcVisibilityType (*)(::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_ArcVisibilityTypeSaveData)>(
     &::GlobalNamespace::PlayerSaveDataConvertor::GetRuntimeData)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x37478b0;
+  constexpr static std::size_t addrs = 0x37462f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerSpecificSettings_PlayerSaveData_ArcVisibilityTypeSaveData (*)(::GlobalNamespace::ArcVisibilityType)>(
     &::GlobalNamespace::PlayerSaveDataConvertor::GetSaveData)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x37457fc;
+  constexpr static std::size_t addrs = 0x374423c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

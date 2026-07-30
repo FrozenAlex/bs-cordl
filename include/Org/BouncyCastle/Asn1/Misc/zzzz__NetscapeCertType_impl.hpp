@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Misc::NetscapeCertType::*)(int32_t)>(&::Org::BouncyCastle::Asn1::Misc::NetscapeCertType::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x34551a8;
+  constexpr static std::size_t addrs = 0x3453770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Misc::NetscapeCertType::*)(::Org::BouncyCastle::Asn1::DerBitString*)>(
     &::Org::BouncyCastle::Asn1::Misc::NetscapeCertType::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3455214;
+  constexpr static std::size_t addrs = 0x34537dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Asn1::Misc::NetscapeCertType::*)()>(&::Org::BouncyCastle::Asn1::Misc::NetscapeCertType::ToString)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x34552b4;
+  constexpr static std::size_t addrs = 0x345387c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

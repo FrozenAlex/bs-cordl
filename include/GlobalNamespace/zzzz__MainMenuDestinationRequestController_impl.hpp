@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainMenuDestinationRequestController__ProcessDestinationRequest_d__9::*)()>(
     &::GlobalNamespace::MainMenuDestinationRequestController__ProcessDestinationRequest_d__9::MoveNext)> {
   constexpr static std::size_t size = 0x4f0;
-  constexpr static std::size_t addrs = 0x597cbb4;
+  constexpr static std::size_t addrs = 0x597b960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainMenuDestinationRequestController__ProcessDestinationRequest_d__9::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MainMenuDestinationRequestController__ProcessDestinationRequest_d__9::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x597d0a4;
+  constexpr static std::size_t addrs = 0x597be50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainMenuDestinationRequestController__ProcessDestinationRequest_d__9>(),
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainMenuDestinationRequestController::*)()>(&::GlobalNamespace::MainMenuDestinationRequestController::Initialize)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x597c440;
+  constexpr static std::size_t addrs = 0x597b1ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainMenuDestinationRequestController*>(), { "Initialize", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainMenuDestinationRequestController::*)()>(&::GlobalNamespace::MainMenuDestinationRequestController::Dispose)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x597c770;
+  constexpr static std::size_t addrs = 0x597b51c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainMenuDestinationRequestController*>(), { "Dispose", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainMenuDestinationRequestController::*)(::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*)>(
     &::GlobalNamespace::MainMenuDestinationRequestController::HandleGameScenesManagerInstallEarlyBindings)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x597c934;
+  constexpr static std::size_t addrs = 0x597b6e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainMenuDestinationRequestController::*)(::GlobalNamespace::MenuDestination*)>(
     &::GlobalNamespace::MainMenuDestinationRequestController::HandleDestinationRequestManagerDidSendMenuDestinationRequest)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x597cbac;
+  constexpr static std::size_t addrs = 0x597b958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainMenuDestinationRequestController::*)(::GlobalNamespace::MenuDestination*)>(
     &::GlobalNamespace::MainMenuDestinationRequestController::ProcessDestinationRequest)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x597c6c0;
+  constexpr static std::size_t addrs = 0x597b46c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainMenuDestinationRequestController*>(),
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainMenuDestinationRequestController::*)()>(&::GlobalNamespace::MainMenuDestinationRequestController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x597cbb0;
+  constexpr static std::size_t addrs = 0x597b95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainMenuDestinationRequestController*>(), { ".ctor", {}, {} })));

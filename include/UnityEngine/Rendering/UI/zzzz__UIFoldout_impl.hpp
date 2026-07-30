@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::UIFoldout::*)()>(&::UnityEngine::Rendering::UI::UIFoldout::Start)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6804360;
+  constexpr static std::size_t addrs = 0x68020fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::UIFoldout::*)()>(&::UnityEngine::Rendering::UI::UIFoldout::OnValidate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x680442c;
+  constexpr static std::size_t addrs = 0x68021c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::UIFoldout*>(), { "OnValidate", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::UIFoldout::*)(bool)>(&::UnityEngine::Rendering::UI::UIFoldout::SetState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6804424;
+  constexpr static std::size_t addrs = 0x68021c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::UIFoldout::*)(bool, bool)>(&::UnityEngine::Rendering::UI::UIFoldout::SetState)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x6804438;
+  constexpr static std::size_t addrs = 0x68021d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::UIFoldout::*)()>(&::UnityEngine::Rendering::UI::UIFoldout::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6804630;
+  constexpr static std::size_t addrs = 0x68023cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::UIFoldout*>(), { ".ctor", {}, {} })));

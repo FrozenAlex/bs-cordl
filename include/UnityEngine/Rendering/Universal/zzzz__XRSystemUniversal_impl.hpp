@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::Universal::XRPassUniversal*)>(
     &::UnityEngine::Rendering::Universal::XRSystemUniversal::BeginLateLatching)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x68e3538;
+  constexpr static std::size_t addrs = 0x68e12d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::Universal::XRPassUniversal*)>(
     &::UnityEngine::Rendering::Universal::XRSystemUniversal::EndLateLatching)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x68e3614;
+  constexpr static std::size_t addrs = 0x68e13b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::XRPassUniversal*)>(
     &::UnityEngine::Rendering::Universal::XRSystemUniversal::UnmarkShaderProperties)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x68e36dc;
+  constexpr static std::size_t addrs = 0x68e1478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::XRPassUniversal*, bool)>(
     &::UnityEngine::Rendering::Universal::XRSystemUniversal::MarkShaderProperties)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x68e3768;
+  constexpr static std::size_t addrs = 0x68e1504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRSystemUniversal*>(),

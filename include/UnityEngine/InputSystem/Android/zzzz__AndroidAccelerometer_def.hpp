@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidAccelerometer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x65a62d8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65a4074, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

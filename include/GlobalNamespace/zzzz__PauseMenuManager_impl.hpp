@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager_InitData::*)(::StringW, ::by_ref<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*,
                                                                                                               bool, bool)>(&::GlobalNamespace::PauseMenuManager_InitData::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x59af3b0;
+  constexpr static std::size_t addrs = 0x59ada10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)(::System::Action*)>(&::GlobalNamespace::PauseMenuManager::add_didPressContinueButtonEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59ad858;
+  constexpr static std::size_t addrs = 0x59abeb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)(::System::Action*)>(&::GlobalNamespace::PauseMenuManager::remove_didPressContinueButtonEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59ae358;
+  constexpr static std::size_t addrs = 0x59ac9b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)(::System::Action*)>(&::GlobalNamespace::PauseMenuManager::add_didPressMenuButtonEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59ad9b0;
+  constexpr static std::size_t addrs = 0x59ac010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)(::System::Action*)>(&::GlobalNamespace::PauseMenuManager::remove_didPressMenuButtonEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59ae4b0;
+  constexpr static std::size_t addrs = 0x59acb10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)(::System::Action*)>(&::GlobalNamespace::PauseMenuManager::add_didPressRestartButtonEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59ad904;
+  constexpr static std::size_t addrs = 0x59abf64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)(::System::Action*)>(&::GlobalNamespace::PauseMenuManager::remove_didPressRestartButtonEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59ae404;
+  constexpr static std::size_t addrs = 0x59aca64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)(::System::Action*)>(&::GlobalNamespace::PauseMenuManager::add_didStartResumeAnimationEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59ad700;
+  constexpr static std::size_t addrs = 0x59abd60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)(::System::Action*)>(&::GlobalNamespace::PauseMenuManager::remove_didStartResumeAnimationEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59ae200;
+  constexpr static std::size_t addrs = 0x59ac860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)(::System::Action*)>(&::GlobalNamespace::PauseMenuManager::add_didFinishResumeAnimationEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59ad7ac;
+  constexpr static std::size_t addrs = 0x59abe0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)(::System::Action*)>(&::GlobalNamespace::PauseMenuManager::remove_didFinishResumeAnimationEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59ae2ac;
+  constexpr static std::size_t addrs = 0x59ac90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -246,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::Awake)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x59aec74;
+  constexpr static std::size_t addrs = 0x59ad2d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseMenuManager*>(), { "Awake", {}, {} })));
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::Start)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x59aeecc;
+  constexpr static std::size_t addrs = 0x59ad52c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseMenuManager*>(), { "Start", {}, {} })));
@@ -270,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::OnDestroy)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x59aeff4;
+  constexpr static std::size_t addrs = 0x59ad654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseMenuManager*>(), { "OnDestroy", {}, {} })));
@@ -282,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::Update)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x59af114;
+  constexpr static std::size_t addrs = 0x59ad774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseMenuManager*>(), { "Update", {}, {} })));
@@ -294,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::ShowMenu)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x59ae60c;
+  constexpr static std::size_t addrs = 0x59acc6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseMenuManager*>(), { "ShowMenu", {}, {} })));
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::StartResumeAnimation)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x59ae7b8;
+  constexpr static std::size_t addrs = 0x59ace18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseMenuManager*>(), { "StartResumeAnimation", {}, {} })));
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::HandleResumeFromPauseAnimationDidFinish)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x59af368;
+  constexpr static std::size_t addrs = 0x59ad9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::MenuButtonPressed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59af330;
+  constexpr static std::size_t addrs = 0x59ad990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseMenuManager*>(), { "MenuButtonPressed", {}, {} })));
@@ -343,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::RestartButtonPressed)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x59af2e4;
+  constexpr static std::size_t addrs = 0x59ad944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseMenuManager*>(), { "RestartButtonPressed", {}, {} })));
@@ -355,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::ContinueButtonPressed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59af2ac;
+  constexpr static std::size_t addrs = 0x59ad90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseMenuManager*>(), { "ContinueButtonPressed", {}, {} })));
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59af3ac;
+  constexpr static std::size_t addrs = 0x59ada0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PauseMenuManager*>(), { ".ctor", {}, {} })));

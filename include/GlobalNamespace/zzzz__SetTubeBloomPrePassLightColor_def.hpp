@@ -32,7 +32,7 @@ public:
 
   static inline ::GlobalNamespace::SetTubeBloomPrePassLightColor* New_ctor();
 
-  /// @brief Method Start, addr 0x59eaa98, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59e918c, size 0x64, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__color() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__tubeLights(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>> value);
 
-  /// @brief Method .ctor, addr 0x59eaafc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e91f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

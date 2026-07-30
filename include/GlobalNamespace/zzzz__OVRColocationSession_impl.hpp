@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Guid (::GlobalNamespace::OVRColocationSession_Data::*)()>(&::GlobalNamespace::OVRColocationSession_Data::get_AdvertisementUuid)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e1a9cc;
+  constexpr static std::size_t addrs = 0x5e18738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRColocationSession_Data>(), { "get_AdvertisementUuid", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRColocationSession_Data::*)(::System::Guid)>(&::GlobalNamespace::OVRColocationSession_Data::set_AdvertisementUuid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e1a9d8;
+  constexpr static std::size_t addrs = 0x5e18744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::GlobalNamespace::OVRColocationSession_Data::*)()>(&::GlobalNamespace::OVRColocationSession_Data::get_Metadata)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e1a9e0;
+  constexpr static std::size_t addrs = 0x5e1874c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRColocationSession_Data>(), { "get_Metadata", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRColocationSession_Data::*)(::ArrayW<uint8_t>)>(&::GlobalNamespace::OVRColocationSession_Data::set_Metadata)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e1a9e8;
+  constexpr static std::size_t addrs = 0x5e18754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::GlobalNamespace::OVRColocationSession_Data>*)>(
     &::GlobalNamespace::OVRColocationSession::add_ColocationSessionDiscovered)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5e19e9c;
+  constexpr static std::size_t addrs = 0x5e17c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::GlobalNamespace::OVRColocationSession_Data>*)>(
     &::GlobalNamespace::OVRColocationSession::remove_ColocationSessionDiscovered)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5e19f7c;
+  constexpr static std::size_t addrs = 0x5e17ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Guid, ::GlobalNamespace::OVRColocationSession_Result>> (*)(
     ::System::ReadOnlySpan_1<uint8_t>)>(&::GlobalNamespace::OVRColocationSession::StartAdvertisementAsync)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x5e1a05c;
+  constexpr static std::size_t addrs = 0x5e17dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRColocationSession_Result>> (*)()>(
     &::GlobalNamespace::OVRColocationSession::StopAdvertisementAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5e1a20c;
+  constexpr static std::size_t addrs = 0x5e17f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRColocationSession*>(), { "StopAdvertisementAsync", {}, {} })));
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRColocationSession_Result>> (*)()>(
     &::GlobalNamespace::OVRColocationSession::StartDiscoveryAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5e1a2f0;
+  constexpr static std::size_t addrs = 0x5e1805c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRColocationSession*>(), { "StartDiscoveryAsync", {}, {} })));
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_1<::GlobalNamespace::OVRColocationSession_Result>> (*)()>(
     &::GlobalNamespace::OVRColocationSession::StopDiscoveryAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5e1a3d4;
+  constexpr static std::size_t addrs = 0x5e18140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRColocationSession*>(), { "StopDiscoveryAsync", {}, {} })));
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, ::GlobalNamespace::OVRPlugin_Result, ::System::Guid)>(
     &::GlobalNamespace::OVRColocationSession::OnColocationSessionStartAdvertisementComplete)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5e1a4b8;
+  constexpr static std::size_t addrs = 0x5e18224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, ::GlobalNamespace::OVRPlugin_Result)>(
     &::GlobalNamespace::OVRColocationSession::OnColocationSessionStopAdvertisementComplete)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5e1a560;
+  constexpr static std::size_t addrs = 0x5e182cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, ::GlobalNamespace::OVRPlugin_Result)>(&::GlobalNamespace::OVRColocationSession::OnColocationSessionStartDiscoveryComplete)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5e1a5e8;
+  constexpr static std::size_t addrs = 0x5e18354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, ::GlobalNamespace::OVRPlugin_Result)>(&::GlobalNamespace::OVRColocationSession::OnColocationSessionStopDiscoveryComplete)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5e1a670;
+  constexpr static std::size_t addrs = 0x5e183dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, ::System::Guid, uint32_t, uint8_t*)>(&::GlobalNamespace::OVRColocationSession::OnColocationSessionDiscoveryResult)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5e1a6f8;
+  constexpr static std::size_t addrs = 0x5e18464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, ::GlobalNamespace::OVRPlugin_Result)>(&::GlobalNamespace::OVRColocationSession::OnColocationSessionAdvertisementComplete)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5e1a7f8;
+  constexpr static std::size_t addrs = 0x5e18564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, ::GlobalNamespace::OVRPlugin_Result)>(&::GlobalNamespace::OVRColocationSession::OnColocationSessionDiscoveryComplete)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5e1a8e0;
+  constexpr static std::size_t addrs = 0x5e1864c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -294,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRColocationSession::*)()>(&::GlobalNamespace::OVRColocationSession::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e1a9c8;
+  constexpr static std::size_t addrs = 0x5e18734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRColocationSession*>(), { ".ctor", {}, {} })));

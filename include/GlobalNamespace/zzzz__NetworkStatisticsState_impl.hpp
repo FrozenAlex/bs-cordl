@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x333924c;
+  constexpr static std::size_t addrs = 0x3337814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::*)(::by_ref<::GlobalNamespace::NetworkStatisticsState>)>(
     &::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x33392c8;
+  constexpr static std::size_t addrs = 0x3337890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate*>(),
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::*)(::by_ref<::GlobalNamespace::NetworkStatisticsState>, ::System::AsyncCallback*, ::System::Object*)>(
     &::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x33392dc;
+  constexpr static std::size_t addrs = 0x33378a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate*>(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::*)(
     ::by_ref<::GlobalNamespace::NetworkStatisticsState>, ::System::IAsyncResult*)>(&::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x333936c;
+  constexpr static std::size_t addrs = 0x3337934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate*>(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkStatisticsState::*)(int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t,
                                                                                                            int64_t, int64_t, int64_t)>(&::GlobalNamespace::NetworkStatisticsState::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x333669c;
+  constexpr static std::size_t addrs = 0x3334c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NetworkStatisticsDelta (*)(
     ::by_ref<::GlobalNamespace::NetworkStatisticsState>, ::by_ref<::GlobalNamespace::NetworkStatisticsState>)>(&::GlobalNamespace::NetworkStatisticsState::op_Subtraction)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x33391cc;
+  constexpr static std::size_t addrs = 0x3337794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

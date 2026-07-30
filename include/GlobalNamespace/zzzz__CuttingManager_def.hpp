@@ -34,15 +34,15 @@ public:
   /// @brief Field _saberManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager)) ::UnityW<::GlobalNamespace::SaberManager> _saberManager;
 
-  /// @brief Method HandleSaberManagerDidUpdateSaberPositions, addr 0x59e820c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HandleSaberManagerDidUpdateSaberPositions, addr 0x59e687c, size 0xb4, virtual false, abstract: false, final false
   inline void HandleSaberManagerDidUpdateSaberPositions(::GlobalNamespace::Saber* leftSaber, ::GlobalNamespace::Saber* rightSaber);
 
   static inline ::GlobalNamespace::CuttingManager* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x59e80c0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x59e6730, size 0x8c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x59e7f74, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x59e65e4, size 0x8c, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::GlobalNamespace::NoteCutter* const& __cordl_internal_get__noteCutter() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
 
-  /// @brief Method .ctor, addr 0x59e8844, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e6eb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

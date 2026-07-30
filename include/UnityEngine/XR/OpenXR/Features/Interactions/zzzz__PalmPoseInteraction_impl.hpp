@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::Input::PoseControl* (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::get_palmPose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a15aec;
+  constexpr static std::size_t addrs = 0x6a13888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::*)(::UnityEngine::XR::OpenXR::Input::PoseControl*)>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::set_palmPose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a15af4;
+  constexpr static std::size_t addrs = 0x6a13890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose*>(),
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::get_isTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a15afc;
+  constexpr static std::size_t addrs = 0x6a13898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::set_isTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a15b04;
+  constexpr static std::size_t addrs = 0x6a138a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose*>(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::IntegerControl* (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::get_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a15b0c;
+  constexpr static std::size_t addrs = 0x6a138a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::*)(
     ::UnityEngine::InputSystem::Controls::IntegerControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::set_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a15b14;
+  constexpr static std::size_t addrs = 0x6a138b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose*>(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::get_devicePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a15b1c;
+  constexpr static std::size_t addrs = 0x6a138b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::*)(
     ::UnityEngine::InputSystem::Controls::Vector3Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::set_devicePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a15b24;
+  constexpr static std::size_t addrs = 0x6a138c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose*>(),
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::get_deviceRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a15b2c;
+  constexpr static std::size_t addrs = 0x6a138c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::*)(
     ::UnityEngine::InputSystem::Controls::QuaternionControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::set_deviceRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a15b34;
+  constexpr static std::size_t addrs = 0x6a138d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::get_palmPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a15b3c;
+  constexpr static std::size_t addrs = 0x6a138d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::*)(
     ::UnityEngine::InputSystem::Controls::Vector3Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::set_palmPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a15b44;
+  constexpr static std::size_t addrs = 0x6a138e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose*>(),
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::get_palmRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a15b4c;
+  constexpr static std::size_t addrs = 0x6a138e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::*)(
     ::UnityEngine::InputSystem::Controls::QuaternionControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::set_palmRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a15b54;
+  constexpr static std::size_t addrs = 0x6a138f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::FinishSetup)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6a15b5c;
+  constexpr static std::size_t addrs = 0x6a138f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose*>(),
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction_PalmPose::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6a15bd8;
+  constexpr static std::size_t addrs = 0x6a13974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -430,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction___c::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a15c4c;
+  constexpr static std::size_t addrs = 0x6a139e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -444,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction___c::*)(
     ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_DeviceConfig*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction___c::_AddAdditiveActions_b__15_0)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6a15c50;
+  constexpr static std::size_t addrs = 0x6a139ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -459,7 +459,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction___c::*)(
     ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionConfig*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction___c::_AddAdditiveActions_b__15_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6a15d08;
+  constexpr static std::size_t addrs = 0x6a13aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -526,7 +526,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction::get_IsAdditive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a14ce0;
+  constexpr static std::size_t addrs = 0x6a12a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction*>(),
@@ -540,7 +540,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction::OnInstanceCreate)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6a14ce8;
+  constexpr static std::size_t addrs = 0x6a12a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction*>(),
@@ -554,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction::RegisterDeviceLayout)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6a14d54;
+  constexpr static std::size_t addrs = 0x6a12af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction*>(),
@@ -568,7 +568,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction::UnregisterDeviceLayout)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6a14e9c;
+  constexpr static std::size_t addrs = 0x6a12c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction*>(),
@@ -582,7 +582,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction::GetDeviceLayoutName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a14f0c;
+  constexpr static std::size_t addrs = 0x6a12ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction*>(),
@@ -596,7 +596,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction::RegisterActionMapsWithRuntime)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x6a14f50;
+  constexpr static std::size_t addrs = 0x6a12cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction*>(),
@@ -610,7 +610,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionBinding*>* (
     ::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction::*)()>(&::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction::AddBindingBasedOnRuntimeAPIVersion)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x6a152fc;
+  constexpr static std::size_t addrs = 0x6a13098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -625,7 +625,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::
     ::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig*>*,
     ::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_ActionMapConfig*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction::AddAdditiveActions)> {
   constexpr static std::size_t size = 0x614;
-  constexpr static std::size_t addrs = 0x6a1547c;
+  constexpr static std::size_t addrs = 0x6a13218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction*>(),
@@ -639,7 +639,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::PalmPoseInteraction::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6a15a90;
+  constexpr static std::size_t addrs = 0x6a1382c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (
     ::UnityEngine::UIElements::ElementUnderPointer::*)(int32_t, ::by_ref<::UnityEngine::Vector2>, ::by_ref<bool>)>(&::UnityEngine::UIElements::ElementUnderPointer::GetTopElementUnderPointer)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6d9342c;
+  constexpr static std::size_t addrs = 0x6d8ee30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::ElementUnderPointer::*)(int32_t)>(
     &::UnityEngine::UIElements::ElementUnderPointer::GetTopElementUnderPointer)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6d934a0;
+  constexpr static std::size_t addrs = 0x6d8eea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ElementUnderPointer::*)(::UnityEngine::UIElements::VisualElement*, int32_t, ::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::ElementUnderPointer::SetElementUnderPointer)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6d934d0;
+  constexpr static std::size_t addrs = 0x6d8eed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::ElementUnderPointer::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::ElementUnderPointer::GetEventPointerPosition)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x6d93634;
+  constexpr static std::size_t addrs = 0x6d8f038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ElementUnderPointer*>(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ElementUnderPointer::*)(
     ::UnityEngine::UIElements::VisualElement*, int32_t, ::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::ElementUnderPointer::SetTemporaryElementUnderPointer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d937f4;
+  constexpr static std::size_t addrs = 0x6d8f1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ElementUnderPointer::*)(
     ::UnityEngine::UIElements::VisualElement*, int32_t, ::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::ElementUnderPointer::SetElementUnderPointer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d939c8;
+  constexpr static std::size_t addrs = 0x6d8f3cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ElementUnderPointer::*)(
     ::UnityEngine::UIElements::VisualElement*, int32_t, ::UnityEngine::UIElements::EventBase*, bool)>(&::UnityEngine::UIElements::ElementUnderPointer::SetElementUnderPointer)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x6d937fc;
+  constexpr static std::size_t addrs = 0x6d8f200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ElementUnderPointer::*)(::UnityEngine::UIElements::EventDispatcher*, ::UnityEngine::UIElements::ContextType)>(
     &::UnityEngine::UIElements::ElementUnderPointer::CommitElementUnderPointers)> {
   constexpr static std::size_t size = 0xcac;
-  constexpr static std::size_t addrs = 0x6d939d0;
+  constexpr static std::size_t addrs = 0x6d8f3d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ElementUnderPointer::*)()>(&::UnityEngine::UIElements::ElementUnderPointer::_ctor)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6d94c78;
+  constexpr static std::size_t addrs = 0x6d9067c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ElementUnderPointer*>(), { ".ctor", {}, {} })));

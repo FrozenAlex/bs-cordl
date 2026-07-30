@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::VerticalScrollController::*)(::System::Action_1<float_t>*)>(&::HMUI::VerticalScrollController::add_updateScrollPositionEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x588a40c;
+  constexpr static std::size_t addrs = 0x58888b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::VerticalScrollController::*)(::System::Action_1<float_t>*)>(&::HMUI::VerticalScrollController::remove_updateScrollPositionEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x588a848;
+  constexpr static std::size_t addrs = 0x5888cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::VerticalScrollController::*)()>(&::HMUI::VerticalScrollController::Awake)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x588ca4c;
+  constexpr static std::size_t addrs = 0x588aef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::VerticalScrollController*>(), { "Awake", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::VerticalScrollController::*)()>(&::HMUI::VerticalScrollController::OnValidate)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x588ca68;
+  constexpr static std::size_t addrs = 0x588af14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::VerticalScrollController*>(), { "OnValidate", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::VerticalScrollController::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::VerticalScrollController::OnPointerDown)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x588cb4c;
+  constexpr static std::size_t addrs = 0x588aff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::VerticalScrollController::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::VerticalScrollController::OnDrag)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x588cc50;
+  constexpr static std::size_t addrs = 0x588b0fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::Rect, ::UnityEngine::Rect)>(
     &::HMUI::VerticalScrollController::GetDragPosition)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x588cc10;
+  constexpr static std::size_t addrs = 0x588b0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::VerticalScrollController::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::HMUI::VerticalScrollController::OnInitializePotentialDrag)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x588ccf0;
+  constexpr static std::size_t addrs = 0x588b19c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::VerticalScrollController*>(),
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::VerticalScrollController::*)()>(&::HMUI::VerticalScrollController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x588cd04;
+  constexpr static std::size_t addrs = 0x588b1b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::VerticalScrollController*>(), { ".ctor", {}, {} })));

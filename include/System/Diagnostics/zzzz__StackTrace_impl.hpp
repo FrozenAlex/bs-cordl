@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::StackTrace::*)()>(&::System::Diagnostics::StackTrace::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5bdeda4;
+  constexpr static std::size_t addrs = 0x5bdcbe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::StackTrace*>(), { ".ctor", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::StackTrace::*)(bool)>(&::System::Diagnostics::StackTrace::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5bdefc4;
+  constexpr static std::size_t addrs = 0x5bdce08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::StackTrace*>(), { ".ctor", {}, { ::i2c::type_of<bool>() } })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::StackTrace::*)(int32_t)>(&::System::Diagnostics::StackTrace::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bdefd0;
+  constexpr static std::size_t addrs = 0x5bdce14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::StackTrace*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::StackTrace::*)(int32_t, bool)>(&::System::Diagnostics::StackTrace::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5bdefd8;
+  constexpr static std::size_t addrs = 0x5bdce1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::StackTrace::*)(int32_t, bool)>(&::System::Diagnostics::StackTrace::init_frames)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x5bdedb0;
+  constexpr static std::size_t addrs = 0x5bdcbf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Diagnostics::StackFrame*> (*)(::System::Exception*, int32_t, bool)>(&::System::Diagnostics::StackTrace::get_trace)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5bdefdc;
+  constexpr static std::size_t addrs = 0x5bdce20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::StackTrace::*)(::System::Exception*, bool)>(&::System::Diagnostics::StackTrace::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5bdefe0;
+  constexpr static std::size_t addrs = 0x5bdce24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::StackTrace::*)(::System::Exception*, int32_t, bool)>(&::System::Diagnostics::StackTrace::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5bdefec;
+  constexpr static std::size_t addrs = 0x5bdce30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Diagnostics::StackTrace::*)()>(&::System::Diagnostics::StackTrace::get_FrameCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5bdf0bc;
+  constexpr static std::size_t addrs = 0x5bdcf00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Diagnostics::StackFrame* (::System::Diagnostics::StackTrace::*)(int32_t)>(&::System::Diagnostics::StackTrace::GetFrame)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5bdf0d4;
+  constexpr static std::size_t addrs = 0x5bdcf18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Diagnostics::StackFrame*> (::System::Diagnostics::StackTrace::*)()>(&::System::Diagnostics::StackTrace::GetFrames)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x5bdf134;
+  constexpr static std::size_t addrs = 0x5bdcf78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Diagnostics::StackTrace::GetAotId)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5bdf324;
+  constexpr static std::size_t addrs = 0x5bdd168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::StackTrace*>(), { "GetAotId", {}, {} })));
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Diagnostics::StackTrace::*)(::System::Text::StringBuilder*, bool, ::by_ref<bool>)>(
     &::System::Diagnostics::StackTrace::AddFrames)> {
   constexpr static std::size_t size = 0x564;
-  constexpr static std::size_t addrs = 0x5bdf3f0;
+  constexpr static std::size_t addrs = 0x5bdd234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::StackTrace::*)(::System::Text::StringBuilder*, ::System::Reflection::MethodBase*, bool, ::by_ref<bool>,
                                                                                                    ::by_ref<bool>)>(&::System::Diagnostics::StackTrace::GetFullNameForStackTrace)> {
   constexpr static std::size_t size = 0x65c;
-  constexpr static std::size_t addrs = 0x5bdf954;
+  constexpr static std::size_t addrs = 0x5bdd798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::StackTrace*>(),
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::Reflection::MethodBase*>, ::by_ref<::System::Type*>)>(
     &::System::Diagnostics::StackTrace::ConvertAsyncStateMachineMethod)> {
   constexpr static std::size_t size = 0x408;
-  constexpr static std::size_t addrs = 0x5bdffb0;
+  constexpr static std::size_t addrs = 0x5bdddf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Diagnostics::StackTrace::*)()>(&::System::Diagnostics::StackTrace::ToString)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5be03b8;
+  constexpr static std::size_t addrs = 0x5bde1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Diagnostics::StackTrace::*)(::System::Diagnostics::StackTrace_TraceFormat)>(&::System::Diagnostics::StackTrace::ToString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5be0520;
+  constexpr static std::size_t addrs = 0x5bde364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

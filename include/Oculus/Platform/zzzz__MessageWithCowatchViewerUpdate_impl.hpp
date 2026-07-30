@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithCowatchViewerUpdate::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithCowatchViewerUpdate::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd5334;
+  constexpr static std::size_t addrs = 0x5dd30a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::CowatchViewerUpdate* (::Oculus::Platform::MessageWithCowatchViewerUpdate::*)()>(
     &::Oculus::Platform::MessageWithCowatchViewerUpdate::GetCowatchViewerUpdate)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5dd880c;
+  constexpr static std::size_t addrs = 0x5dd6578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::CowatchViewerUpdate* (::Oculus::Platform::MessageWithCowatchViewerUpdate::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithCowatchViewerUpdate::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5dd8850;
+  constexpr static std::size_t addrs = 0x5dd65bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

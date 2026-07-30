@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::HasFailed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350c998;
+  constexpr static std::size_t addrs = 0x350af60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::ReportFailed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x350c9a0;
+  constexpr static std::size_t addrs = 0x350af68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::HasCurveEquationPassed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350c9ac;
+  constexpr static std::size_t addrs = 0x350af74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::ReportCurveEquationPassed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x350c9b4;
+  constexpr static std::size_t addrs = 0x350af7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::HasOrderPassed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350c9c0;
+  constexpr static std::size_t addrs = 0x350af88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::ReportOrderPassed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x350c9c8;
+  constexpr static std::size_t addrs = 0x350af90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x350ca3c;
+  constexpr static std::size_t addrs = 0x350b004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo*>(), { ".ctor", {}, {} })));

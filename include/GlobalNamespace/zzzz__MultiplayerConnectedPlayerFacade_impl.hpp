@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerFacade_Factory::*)()>(&::GlobalNamespace::MultiplayerConnectedPlayerFacade_Factory::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x59b4a84;
+  constexpr static std::size_t addrs = 0x59b30e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerFacade_Factory*>(), { ".ctor", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator> (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerFacade::get_introAnimator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59b44c4;
+  constexpr static std::size_t addrs = 0x59b2b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>(), { "get_introAnimator", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerFacade::get_outroAnimator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59b44cc;
+  constexpr static std::size_t addrs = 0x59b2b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>(), { "get_outroAnimator", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MultiplayerScoreDiffText> (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerFacade::get_scoreDiffText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59b44d4;
+  constexpr static std::size_t addrs = 0x59b2b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>(), { "get_scoreDiffText", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)(int64_t)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerFacade::SetSongStartSyncTime)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x59b44dc;
+  constexpr static std::size_t addrs = 0x59b2b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(&::GlobalNamespace::MultiplayerConnectedPlayerFacade::PauseSpawning)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x59b463c;
+  constexpr static std::size_t addrs = 0x59b2c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>(), { "PauseSpawning", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(&::GlobalNamespace::MultiplayerConnectedPlayerFacade::ResumeSpawning)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x59b46e4;
+  constexpr static std::size_t addrs = 0x59b2d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>(), { "ResumeSpawning", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(&::GlobalNamespace::MultiplayerConnectedPlayerFacade::__ForceStopSong)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x59b478c;
+  constexpr static std::size_t addrs = 0x59b2dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>(), { "__ForceStopSong", {}, {} })));
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(&::GlobalNamespace::MultiplayerConnectedPlayerFacade::HideBigAvatar)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x59b47cc;
+  constexpr static std::size_t addrs = 0x59b2e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>(), { "HideBigAvatar", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::BeatSaber::AvatarCore::Avatar> (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerFacade::__GetPlayerAvatar)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x59b4a24;
+  constexpr static std::size_t addrs = 0x59b3084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>(), { "__GetPlayerAvatar", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(&::GlobalNamespace::MultiplayerConnectedPlayerFacade::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x59b4a74;
+  constexpr static std::size_t addrs = 0x59b30d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>(), { ".ctor", {}, {} })));

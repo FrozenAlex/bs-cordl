@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* (::GlobalNamespace::FlyingObjectEffect::*)()>(
     &::GlobalNamespace::FlyingObjectEffect::get_didFinishEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5980148;
+  constexpr static std::size_t addrs = 0x597eef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingObjectEffect*>(), { "get_didFinishEvent", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingObjectEffect::*)(float_t, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, bool)>(
     &::GlobalNamespace::FlyingObjectEffect::InitAndPresent)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5980150;
+  constexpr static std::size_t addrs = 0x597eefc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingObjectEffect::*)()>(&::GlobalNamespace::FlyingObjectEffect::Update)> {
   constexpr static std::size_t size = 0x3c0;
-  constexpr static std::size_t addrs = 0x5980238;
+  constexpr static std::size_t addrs = 0x597efe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingObjectEffect*>(), { "Update", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingObjectEffect::*)()>(&::GlobalNamespace::FlyingObjectEffect::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x59805f8;
+  constexpr static std::size_t addrs = 0x597f3a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingObjectEffect*>(), { ".ctor", {}, {} })));

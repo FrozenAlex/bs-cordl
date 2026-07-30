@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnLaserAnimation::*)()>(&::GlobalNamespace::SpawnLaserAnimation::InitIfNeeded)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x59870e0;
+  constexpr static std::size_t addrs = 0x59857a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnLaserAnimation*>(), { "InitIfNeeded", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnLaserAnimation::*)()>(&::GlobalNamespace::SpawnLaserAnimation::LateUpdate)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x59871a4;
+  constexpr static std::size_t addrs = 0x598586c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnLaserAnimation*>(), { "LateUpdate", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpawnLaserAnimation::*)()>(&::GlobalNamespace::SpawnLaserAnimation::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5987294;
+  constexpr static std::size_t addrs = 0x598595c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpawnLaserAnimation*>(), { ".ctor", {}, {} })));

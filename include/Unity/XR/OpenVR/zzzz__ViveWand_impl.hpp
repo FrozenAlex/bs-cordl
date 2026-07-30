@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::Unity::XR::OpenVR::ViveWand::*)()>(&::Unity::XR::OpenVR::ViveWand::get_grip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb4e8;
+  constexpr static std::size_t addrs = 0x64c9284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::OpenVR::ViveWand*>(), { "get_grip", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::OpenVR::ViveWand::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(&::Unity::XR::OpenVR::ViveWand::set_grip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb4f0;
+  constexpr static std::size_t addrs = 0x64c928c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::OpenVR::ViveWand::*)()>(&::Unity::XR::OpenVR::ViveWand::get_gripPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb4f8;
+  constexpr static std::size_t addrs = 0x64c9294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::OpenVR::ViveWand*>(), { "get_gripPressed", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::OpenVR::ViveWand::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::OpenVR::ViveWand::set_gripPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb500;
+  constexpr static std::size_t addrs = 0x64c929c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::OpenVR::ViveWand::*)()>(&::Unity::XR::OpenVR::ViveWand::get_primary)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb508;
+  constexpr static std::size_t addrs = 0x64c92a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::OpenVR::ViveWand*>(), { "get_primary", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::OpenVR::ViveWand::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::Unity::XR::OpenVR::ViveWand::set_primary)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb510;
+  constexpr static std::size_t addrs = 0x64c92ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::OpenVR::ViveWand::*)()>(
     &::Unity::XR::OpenVR::ViveWand::get_trackpadPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb518;
+  constexpr static std::size_t addrs = 0x64c92b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::OpenVR::ViveWand*>(), { "get_trackpadPressed", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::OpenVR::ViveWand::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::OpenVR::ViveWand::set_trackpadPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb520;
+  constexpr static std::size_t addrs = 0x64c92bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::OpenVR::ViveWand*>(),
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::OpenVR::ViveWand::*)()>(
     &::Unity::XR::OpenVR::ViveWand::get_trackpadTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb528;
+  constexpr static std::size_t addrs = 0x64c92c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::OpenVR::ViveWand*>(), { "get_trackpadTouched", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::OpenVR::ViveWand::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::OpenVR::ViveWand::set_trackpadTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb530;
+  constexpr static std::size_t addrs = 0x64c92cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::OpenVR::ViveWand*>(),
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector2Control* (::Unity::XR::OpenVR::ViveWand::*)()>(&::Unity::XR::OpenVR::ViveWand::get_trackpad)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb538;
+  constexpr static std::size_t addrs = 0x64c92d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::OpenVR::ViveWand*>(), { "get_trackpad", {}, {} })));
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::OpenVR::ViveWand::*)(::UnityEngine::InputSystem::Controls::Vector2Control*)>(&::Unity::XR::OpenVR::ViveWand::set_trackpad)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb540;
+  constexpr static std::size_t addrs = 0x64c92dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::Unity::XR::OpenVR::ViveWand::*)()>(&::Unity::XR::OpenVR::ViveWand::get_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb548;
+  constexpr static std::size_t addrs = 0x64c92e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::OpenVR::ViveWand*>(), { "get_trigger", {}, {} })));
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::OpenVR::ViveWand::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(&::Unity::XR::OpenVR::ViveWand::set_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb550;
+  constexpr static std::size_t addrs = 0x64c92ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::OpenVR::ViveWand::*)()>(&::Unity::XR::OpenVR::ViveWand::get_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb558;
+  constexpr static std::size_t addrs = 0x64c92f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::OpenVR::ViveWand*>(), { "get_triggerPressed", {}, {} })));
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::OpenVR::ViveWand::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::OpenVR::ViveWand::set_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb560;
+  constexpr static std::size_t addrs = 0x64c92fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::OpenVR::ViveWand::*)()>(
     &::Unity::XR::OpenVR::ViveWand::get_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb568;
+  constexpr static std::size_t addrs = 0x64c9304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::OpenVR::ViveWand*>(), { "get_deviceVelocity", {}, {} })));
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::OpenVR::ViveWand::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::OpenVR::ViveWand::set_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb570;
+  constexpr static std::size_t addrs = 0x64c930c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::OpenVR::ViveWand*>(),
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::OpenVR::ViveWand::*)()>(
     &::Unity::XR::OpenVR::ViveWand::get_deviceAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb578;
+  constexpr static std::size_t addrs = 0x64c9314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::OpenVR::ViveWand*>(), { "get_deviceAngularVelocity", {}, {} })));
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::OpenVR::ViveWand::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::OpenVR::ViveWand::set_deviceAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64cb580;
+  constexpr static std::size_t addrs = 0x64c931c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::OpenVR::ViveWand::*)()>(&::Unity::XR::OpenVR::ViveWand::FinishSetup)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x64cb588;
+  constexpr static std::size_t addrs = 0x64c9324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::OpenVR::ViveWand::*)()>(&::Unity::XR::OpenVR::ViveWand::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64cb7d8;
+  constexpr static std::size_t addrs = 0x64c9574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::OpenVR::ViveWand*>(), { ".ctor", {}, {} })));

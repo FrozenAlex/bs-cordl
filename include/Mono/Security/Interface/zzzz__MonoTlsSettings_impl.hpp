@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_RemoteCertificateValidationCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9beec;
+  constexpr static std::size_t addrs = 0x5a99d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*)>(
     &::Mono::Security::Interface::MonoTlsSettings::set_RemoteCertificateValidationCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bef4;
+  constexpr static std::size_t addrs = 0x5a99d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_ClientCertificateSelectionCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9befc;
+  constexpr static std::size_t addrs = 0x5a99d40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*)>(
     &::Mono::Security::Interface::MonoTlsSettings::set_ClientCertificateSelectionCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bf04;
+  constexpr static std::size_t addrs = 0x5a99d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<bool> (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_UseServicePointManagerCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bf0c;
+  constexpr static std::size_t addrs = 0x5a99d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(::System::Nullable_1<bool>)>(
     &::Mono::Security::Interface::MonoTlsSettings::set_UseServicePointManagerCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bf14;
+  constexpr static std::size_t addrs = 0x5a99d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoTlsSettings*>(),
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Interface::MonoTlsSettings::*)()>(&::Mono::Security::Interface::MonoTlsSettings::get_CallbackNeedsCertificateChain)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bf1c;
+  constexpr static std::size_t addrs = 0x5a99d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::System::DateTime> (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_CertificateValidationTime)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a9bf24;
+  constexpr static std::size_t addrs = 0x5a99d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(::System::Nullable_1<::System::DateTime>)>(
     &::Mono::Security::Interface::MonoTlsSettings::set_CertificateValidationTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bf30;
+  constexpr static std::size_t addrs = 0x5a99d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoTlsSettings*>(),
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateCollection* (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_TrustAnchors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bf38;
+  constexpr static std::size_t addrs = 0x5a99d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoTlsSettings*>(), { "get_TrustAnchors", {}, {} })));
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(::System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(
     &::Mono::Security::Interface::MonoTlsSettings::set_TrustAnchors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bf40;
+  constexpr static std::size_t addrs = 0x5a99d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Mono::Security::Interface::MonoTlsSettings::*)()>(&::Mono::Security::Interface::MonoTlsSettings::get_UserSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bf48;
+  constexpr static std::size_t addrs = 0x5a99d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoTlsSettings*>(), { "get_UserSettings", {}, {} })));
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(::System::Object*)>(&::Mono::Security::Interface::MonoTlsSettings::set_UserSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bf50;
+  constexpr static std::size_t addrs = 0x5a99d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_CertificateSearchPaths)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bf58;
+  constexpr static std::size_t addrs = 0x5a99d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(::ArrayW<::StringW>)>(
     &::Mono::Security::Interface::MonoTlsSettings::set_CertificateSearchPaths)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bf60;
+  constexpr static std::size_t addrs = 0x5a99da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Interface::MonoTlsSettings::*)()>(&::Mono::Security::Interface::MonoTlsSettings::get_SendCloseNotify)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bf68;
+  constexpr static std::size_t addrs = 0x5a99dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoTlsSettings*>(), { "get_SendCloseNotify", {}, {} })));
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(bool)>(&::Mono::Security::Interface::MonoTlsSettings::set_SendCloseNotify)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bf70;
+  constexpr static std::size_t addrs = 0x5a99db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_ClientCertificateIssuers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bf78;
+  constexpr static std::size_t addrs = 0x5a99dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(::ArrayW<::StringW>)>(
     &::Mono::Security::Interface::MonoTlsSettings::set_ClientCertificateIssuers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bf80;
+  constexpr static std::size_t addrs = 0x5a99dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_DisallowUnauthenticatedCertificateRequest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bf88;
+  constexpr static std::size_t addrs = 0x5a99dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(bool)>(
     &::Mono::Security::Interface::MonoTlsSettings::set_DisallowUnauthenticatedCertificateRequest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bf90;
+  constexpr static std::size_t addrs = 0x5a99dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::Mono::Security::Interface::TlsProtocols> (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_EnabledProtocols)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bf98;
+  constexpr static std::size_t addrs = 0x5a99ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoTlsSettings*>(), { "get_EnabledProtocols", {}, {} })));
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(::System::Nullable_1<::Mono::Security::Interface::TlsProtocols>)>(
     &::Mono::Security::Interface::MonoTlsSettings::set_EnabledProtocols)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bfa0;
+  constexpr static std::size_t addrs = 0x5a99de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -339,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Mono::Security::Interface::CipherSuiteCode> (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_EnabledCiphers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bfa8;
+  constexpr static std::size_t addrs = 0x5a99dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoTlsSettings*>(), { "get_EnabledCiphers", {}, {} })));
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(::ArrayW<::Mono::Security::Interface::CipherSuiteCode>)>(
     &::Mono::Security::Interface::MonoTlsSettings::set_EnabledCiphers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9bfb0;
+  constexpr static std::size_t addrs = 0x5a99df4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -366,7 +366,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)()>(&::Mono::Security::Interface::MonoTlsSettings::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5a9bfb8;
+  constexpr static std::size_t addrs = 0x5a99dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoTlsSettings*>(), { ".ctor", {}, {} })));
@@ -378,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Interface::MonoTlsSettings* (*)()>(&::Mono::Security::Interface::MonoTlsSettings::get_DefaultSettings)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5a9bfc8;
+  constexpr static std::size_t addrs = 0x5a99e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoTlsSettings*>(), { "get_DefaultSettings", {}, {} })));
@@ -390,7 +390,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Interface::MonoTlsSettings* (*)()>(&::Mono::Security::Interface::MonoTlsSettings::CopyDefaultSettings)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a9c050;
+  constexpr static std::size_t addrs = 0x5a99e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoTlsSettings*>(), { "CopyDefaultSettings", {}, {} })));
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Interface::ICertificateValidator* (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_CertificateValidator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a9c0c4;
+  constexpr static std::size_t addrs = 0x5a99f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoTlsSettings*>(), { "get_CertificateValidator", {}, {} })));
@@ -416,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Interface::MonoTlsSettings* (
     ::Mono::Security::Interface::MonoTlsSettings::*)(::Mono::Security::Interface::ICertificateValidator*)>(&::Mono::Security::Interface::MonoTlsSettings::CloneWithValidator)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5a9c0cc;
+  constexpr static std::size_t addrs = 0x5a99f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoTlsSettings*>(),
@@ -430,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Interface::MonoTlsSettings* (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::Clone)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5a9c068;
+  constexpr static std::size_t addrs = 0x5a99eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::MonoTlsSettings*>(), { "Clone", {}, {} })));
@@ -443,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(::Mono::Security::Interface::MonoTlsSettings*)>(
     &::Mono::Security::Interface::MonoTlsSettings::_ctor)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5a9c14c;
+  constexpr static std::size_t addrs = 0x5a99f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

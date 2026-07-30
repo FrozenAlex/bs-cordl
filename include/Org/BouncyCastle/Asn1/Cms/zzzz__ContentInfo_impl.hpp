@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::ContentInfo* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Cms::ContentInfo::GetInstance)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3352cac;
+  constexpr static std::size_t addrs = 0x3351274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::ContentInfo* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Cms::ContentInfo::GetInstance)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3356560;
+  constexpr static std::size_t addrs = 0x3354b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::ContentInfo::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cms::ContentInfo::_ctor)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x33562c4;
+  constexpr static std::size_t addrs = 0x335488c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::ContentInfo::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(&::Org::BouncyCastle::Asn1::Cms::ContentInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3356574;
+  constexpr static std::size_t addrs = 0x3354b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Asn1::Cms::ContentInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::ContentInfo::get_ContentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x335657c;
+  constexpr static std::size_t addrs = 0x3354b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::ContentInfo*>(), { "get_ContentType", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Asn1::Cms::ContentInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::ContentInfo::get_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3356584;
+  constexpr static std::size_t addrs = 0x3354b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::ContentInfo*>(), { "get_Content", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::ContentInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::ContentInfo::ToAsn1Object)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x335658c;
+  constexpr static std::size_t addrs = 0x3354b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

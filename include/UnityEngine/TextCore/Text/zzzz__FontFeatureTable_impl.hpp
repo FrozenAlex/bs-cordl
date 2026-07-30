@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)()>(&::UnityEngine::TextCore::Text::FontFeatureTable___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6bc3d40;
+  constexpr static std::size_t addrs = 0x6bbf744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontFeatureTable___c*>(), { ".ctor", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(
     &::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortGlyphPairAdjustmentRecords_b__24_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bc3d44;
+  constexpr static std::size_t addrs = 0x6bbf748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(
     &::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortGlyphPairAdjustmentRecords_b__24_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bc3d4c;
+  constexpr static std::size_t addrs = 0x6bbf750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)(::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord)>(
     &::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToBaseAdjustmentRecords_b__25_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bc3d54;
+  constexpr static std::size_t addrs = 0x6bbf758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)(::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord)>(
     &::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToBaseAdjustmentRecords_b__25_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bc3d5c;
+  constexpr static std::size_t addrs = 0x6bbf760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)(::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord)>(
     &::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToMarkAdjustmentRecords_b__26_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bc3d64;
+  constexpr static std::size_t addrs = 0x6bbf768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)(::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord)>(
     &::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToMarkAdjustmentRecords_b__26_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bc3d6c;
+  constexpr static std::size_t addrs = 0x6bbf770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* (
     ::UnityEngine::TextCore::Text::FontFeatureTable::*)()>(&::UnityEngine::TextCore::Text::FontFeatureTable::get_glyphPairAdjustmentRecords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bc33cc;
+  constexpr static std::size_t addrs = 0x6bbedd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>* (
     ::UnityEngine::TextCore::Text::FontFeatureTable::*)()>(&::UnityEngine::TextCore::Text::FontFeatureTable::get_MarkToBaseAdjustmentRecords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bc33d4;
+  constexpr static std::size_t addrs = 0x6bbedd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord>* (
     ::UnityEngine::TextCore::Text::FontFeatureTable::*)()>(&::UnityEngine::TextCore::Text::FontFeatureTable::get_MarkToMarkAdjustmentRecords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bc33dc;
+  constexpr static std::size_t addrs = 0x6bbede0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::FontFeatureTable::*)()>(&::UnityEngine::TextCore::Text::FontFeatureTable::_ctor)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x6bc33e4;
+  constexpr static std::size_t addrs = 0x6bbede8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::FontFeatureTable*>(), { ".ctor", {}, {} })));
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::FontFeatureTable::*)()>(&::UnityEngine::TextCore::Text::FontFeatureTable::SortGlyphPairAdjustmentRecords)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x6bc36e0;
+  constexpr static std::size_t addrs = 0x6bbf0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::FontFeatureTable::*)()>(
     &::UnityEngine::TextCore::Text::FontFeatureTable::SortMarkToBaseAdjustmentRecords)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x6bc38e4;
+  constexpr static std::size_t addrs = 0x6bbf2e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::FontFeatureTable::*)()>(
     &::UnityEngine::TextCore::Text::FontFeatureTable::SortMarkToMarkAdjustmentRecords)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x6bc3ae8;
+  constexpr static std::size_t addrs = 0x6bbf4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -38,52 +38,52 @@ public:
 
   __declspec(property(get = get_weightedMode, put = set_weightedMode)) ::UnityEngine::WeightedMode weightedMode;
 
-  /// @brief Method .ctor, addr 0x6a60048, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a5dde4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t value);
 
-  /// @brief Method .ctor, addr 0x6a60058, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a5ddf4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t value, float_t inTangent, float_t outTangent);
 
-  /// @brief Method get_inTangent, addr 0x6a6008c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inTangent, addr 0x6a5de28, size 0x8, virtual false, abstract: false, final false
   inline float_t get_inTangent();
 
-  /// @brief Method get_inWeight, addr 0x6a600ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inWeight, addr 0x6a5de48, size 0x8, virtual false, abstract: false, final false
   inline float_t get_inWeight();
 
-  /// @brief Method get_outTangent, addr 0x6a6009c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_outTangent, addr 0x6a5de38, size 0x8, virtual false, abstract: false, final false
   inline float_t get_outTangent();
 
-  /// @brief Method get_outWeight, addr 0x6a600bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_outWeight, addr 0x6a5de58, size 0x8, virtual false, abstract: false, final false
   inline float_t get_outWeight();
 
-  /// @brief Method get_time, addr 0x6a6006c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x6a5de08, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_value, addr 0x6a6007c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x6a5de18, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method get_weightedMode, addr 0x6a600cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_weightedMode, addr 0x6a5de68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::WeightedMode get_weightedMode();
 
-  /// @brief Method set_inTangent, addr 0x6a60094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_inTangent, addr 0x6a5de30, size 0x8, virtual false, abstract: false, final false
   inline void set_inTangent(float_t value);
 
-  /// @brief Method set_inWeight, addr 0x6a600b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_inWeight, addr 0x6a5de50, size 0x8, virtual false, abstract: false, final false
   inline void set_inWeight(float_t value);
 
-  /// @brief Method set_outTangent, addr 0x6a600a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_outTangent, addr 0x6a5de40, size 0x8, virtual false, abstract: false, final false
   inline void set_outTangent(float_t value);
 
-  /// @brief Method set_outWeight, addr 0x6a600c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_outWeight, addr 0x6a5de60, size 0x8, virtual false, abstract: false, final false
   inline void set_outWeight(float_t value);
 
-  /// @brief Method set_time, addr 0x6a60074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x6a5de10, size 0x8, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
-  /// @brief Method set_value, addr 0x6a60084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x6a5de20, size 0x8, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
-  /// @brief Method set_weightedMode, addr 0x6a600d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_weightedMode, addr 0x6a5de70, size 0x8, virtual false, abstract: false, final false
   inline void set_weightedMode(::UnityEngine::WeightedMode value);
 
   // Ctor Parameters []

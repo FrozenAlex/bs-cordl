@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetShaderDefaultsPass_PassData::*)()>(&::GlobalNamespace::SetShaderDefaultsPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f497ac;
+  constexpr static std::size_t addrs = 0x5f47424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetShaderDefaultsPass_PassData*>(), { ".ctor", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetShaderDefaultsPass___c::*)()>(&::GlobalNamespace::SetShaderDefaultsPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f49804;
+  constexpr static std::size_t addrs = 0x5f4747c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetShaderDefaultsPass___c*>(), { ".ctor", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetShaderDefaultsPass___c::*)(
     ::GlobalNamespace::SetShaderDefaultsPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(&::GlobalNamespace::SetShaderDefaultsPass___c::_RecordRenderGraph_b__2_0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f49808;
+  constexpr static std::size_t addrs = 0x5f47480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetShaderDefaultsPass::*)(::UnityEngine::Rendering::Universal::RenderPassEvent)>(
     &::GlobalNamespace::SetShaderDefaultsPass::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f49348;
+  constexpr static std::size_t addrs = 0x5f46fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetShaderDefaultsPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::GlobalNamespace::SetShaderDefaultsPass::RecordRenderGraph)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x5f493e8;
+  constexpr static std::size_t addrs = 0x5f47060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::SetShaderDefaultsPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::GlobalNamespace::SetShaderDefaultsPass::ExecutePass)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5f49740;
+  constexpr static std::size_t addrs = 0x5f473b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -37,6 +37,9 @@ public:
   /// @brief Field kAutoRecOption, offset 0xffffffff, size 0x20
   __declspec(property(get = getStaticF_kAutoRecOption, put = setStaticF_kAutoRecOption)) ::BGLib::DotnetExtension::CommandLine::ArgumentOption kAutoRecOption;
 
+  /// @brief Field kAutoplayF8, offset 0xffffffff, size 0x20
+  __declspec(property(get = getStaticF_kAutoplayF8, put = setStaticF_kAutoplayF8)) ::BGLib::DotnetExtension::CommandLine::ArgumentOption kAutoplayF8;
+
   /// @brief Field kCustomSettings, offset 0xffffffff, size 0x20
   __declspec(property(get = getStaticF_kCustomSettings, put = setStaticF_kCustomSettings)) ::BGLib::DotnetExtension::CommandLine::ArgumentOption kCustomSettings;
 
@@ -56,6 +59,8 @@ public:
 
   static inline ::BGLib::DotnetExtension::CommandLine::ArgumentOption getStaticF_kAutoRecOption();
 
+  static inline ::BGLib::DotnetExtension::CommandLine::ArgumentOption getStaticF_kAutoplayF8();
+
   static inline ::BGLib::DotnetExtension::CommandLine::ArgumentOption getStaticF_kCustomSettings();
 
   static inline ::BGLib::DotnetExtension::CommandLine::ArgumentOption getStaticF_kFPFCOption();
@@ -69,6 +74,8 @@ public:
   static inline void setStaticF_kAutoPlayOption(::BGLib::DotnetExtension::CommandLine::ArgumentOption value);
 
   static inline void setStaticF_kAutoRecOption(::BGLib::DotnetExtension::CommandLine::ArgumentOption value);
+
+  static inline void setStaticF_kAutoplayF8(::BGLib::DotnetExtension::CommandLine::ArgumentOption value);
 
   static inline void setStaticF_kCustomSettings(::BGLib::DotnetExtension::CommandLine::ArgumentOption value);
 
@@ -93,7 +100,7 @@ public:
   InitArguments(InitArguments const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22663 };
 
   /// @brief Field kAutoPlayOptionIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kAutoPlayOptionIdentifier{ u"--auto_play" };

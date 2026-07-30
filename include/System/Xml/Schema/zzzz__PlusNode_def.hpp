@@ -25,15 +25,15 @@ public:
   // Declarations
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-  /// @brief Method ConstructPos, addr 0x631a090, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x6317e2c, size 0x9c, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos, ::ArrayW<::System::Xml::Schema::BitSet*> followpos);
 
   static inline ::System::Xml::Schema::PlusNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x631a148, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6317ee4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsNullable, addr 0x631a12c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x6317ec8, size 0x1c, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
 protected:

@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_EditMode)>(
     &::GlobalNamespace::BeatAvatarEditorFlowCoordinator::Setup)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3270f40;
+  constexpr static std::size_t addrs = 0x326e200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)(bool, bool, bool)>(
     &::GlobalNamespace::BeatAvatarEditorFlowCoordinator::DidActivate)> {
   constexpr static std::size_t size = 0x6a4;
-  constexpr static std::size_t addrs = 0x327101c;
+  constexpr static std::size_t addrs = 0x326e2dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)(bool, bool)>(&::GlobalNamespace::BeatAvatarEditorFlowCoordinator::DidDeactivate)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x32720b0;
+  constexpr static std::size_t addrs = 0x326f370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)(::System::Action_1<::UnityEngine::Color>*, ::UnityEngine::Color, ::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t)>(
         &::GlobalNamespace::BeatAvatarEditorFlowCoordinator::HandleBeatAvatarViewControllerDidRequestColorChange)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3272a54;
+  constexpr static std::size_t addrs = 0x326fd14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatAvatarEditorFlowCoordinator*>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)(::BeatSaber::BeatAvatarSDK::AvatarPart)>(
     &::GlobalNamespace::BeatAvatarEditorFlowCoordinator::HandleBeatAvatarViewControllerChangedAvatarPart)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3272b44;
+  constexpr static std::size_t addrs = 0x326fe04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)()>(
     &::GlobalNamespace::BeatAvatarEditorFlowCoordinator::HandleBeatAvatarEditorViewCancelButtonWasPressed)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3272bf4;
+  constexpr static std::size_t addrs = 0x326feb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)()>(
     &::GlobalNamespace::BeatAvatarEditorFlowCoordinator::HandleBeatAvatarEditorViewOkButtonWasPressed)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3272c20;
+  constexpr static std::size_t addrs = 0x326fee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::BeatAvatarEditorFlowCoordinator::HandleEditColorViewControllerDidChangedColor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3272c4c;
+  constexpr static std::size_t addrs = 0x326ff0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatAvatarEditorFlowCoordinator*>(),
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)(bool)>(
     &::GlobalNamespace::BeatAvatarEditorFlowCoordinator::HandleEditColorViewControllerControllerDidFinish)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3272c74;
+  constexpr static std::size_t addrs = 0x326ff34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatAvatarEditorFlowCoordinator*>(),
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)()>(&::GlobalNamespace::BeatAvatarEditorFlowCoordinator::OneTimeInitialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3272db4;
+  constexpr static std::size_t addrs = 0x3270074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)()>(&::GlobalNamespace::BeatAvatarEditorFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3272db8;
+  constexpr static std::size_t addrs = 0x3270078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatAvatarEditorFlowCoordinator*>(), { ".ctor", {}, {} })));

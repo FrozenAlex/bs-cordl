@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_startPlayerHeight(float_t value);
 
-  /// @brief Method .ctor, addr 0x59e6ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e5350, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t headPosToPlayerHeightOffset, float_t startPlayerHeight);
 
 protected:
@@ -146,18 +146,18 @@ public:
   /// @brief Field playerHeightDidChangeEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_playerHeightDidChangeEvent, put = __cordl_internal_set_playerHeightDidChangeEvent)) ::System::Action_1<float_t>* playerHeightDidChangeEvent;
 
-  /// @brief Method BeatmapObjectSpawnCallback, addr 0x59e6c9c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method BeatmapObjectSpawnCallback, addr 0x59e530c, size 0x40, virtual false, abstract: false, final false
   inline void BeatmapObjectSpawnCallback(::GlobalNamespace::ObstacleData* obstacleData);
 
-  /// @brief Method LateUpdate, addr 0x59e6a98, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x59e5108, size 0x204, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::PlayerHeightDetector* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59e6a7c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59e50ec, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x59e6990, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59e5000, size 0xec, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSyncController() const;
@@ -220,16 +220,16 @@ public:
 
   constexpr void __cordl_internal_set_playerHeightDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x59e6cdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e534c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_playerHeightDidChangeEvent, addr 0x59e6808, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_playerHeightDidChangeEvent, addr 0x59e4e78, size 0xc0, virtual false, abstract: false, final false
   inline void add_playerHeightDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_playerHeight, addr 0x59e6988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerHeight, addr 0x59e4ff8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_playerHeight();
 
-  /// @brief Method remove_playerHeightDidChangeEvent, addr 0x59e68c8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_playerHeightDidChangeEvent, addr 0x59e4f38, size 0xc0, virtual false, abstract: false, final false
   inline void remove_playerHeightDidChangeEvent(::System::Action_1<float_t>* value);
 
 protected:

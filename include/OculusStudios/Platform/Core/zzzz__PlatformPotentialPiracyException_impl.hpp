@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::PlatformPotentialPiracyException::*)()>(
     &::OculusStudios::Platform::Core::PlatformPotentialPiracyException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f2c540;
+  constexpr static std::size_t addrs = 0x5f2a2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::PlatformPotentialPiracyException::*)(::StringW)>(
     &::OculusStudios::Platform::Core::PlatformPotentialPiracyException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5f2c598;
+  constexpr static std::size_t addrs = 0x5f2a304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::PlatformPotentialPiracyException::*)(::StringW, ::System::Exception*)>(
     &::OculusStudios::Platform::Core::PlatformPotentialPiracyException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5f2c604;
+  constexpr static std::size_t addrs = 0x5f2a370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::PlatformPotentialPiracyException*>(),

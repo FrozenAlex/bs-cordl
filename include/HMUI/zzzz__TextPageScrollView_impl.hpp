@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TextPageScrollView::*)(::StringW)>(&::HMUI::TextPageScrollView::SetText)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5893208;
+  constexpr static std::size_t addrs = 0x58916b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TextPageScrollView*>(), { "SetText", {}, { ::i2c::type_of<::StringW>() } })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TextPageScrollView::*)(::StringW)>(&::HMUI::TextPageScrollView::AddText)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5893288;
+  constexpr static std::size_t addrs = 0x5891734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TextPageScrollView*>(), { "AddText", {}, { ::i2c::type_of<::StringW>() } })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TextPageScrollView::*)()>(&::HMUI::TextPageScrollView::UpdateMeshes)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5893238;
+  constexpr static std::size_t addrs = 0x58916e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TextPageScrollView*>(), { "UpdateMeshes", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TextPageScrollView::*)()>(&::HMUI::TextPageScrollView::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x58932ec;
+  constexpr static std::size_t addrs = 0x5891798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TextPageScrollView*>(), { ".ctor", {}, {} })));

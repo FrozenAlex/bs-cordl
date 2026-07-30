@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BackgroundSize (::UnityEngine::UIElements::StyleBackgroundSize::*)()>(
     &::UnityEngine::UIElements::StyleBackgroundSize::get_value)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6c8f320;
+  constexpr static std::size_t addrs = 0x6c8ad24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackgroundSize>(), { "get_value", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleBackgroundSize::*)(::UnityEngine::UIElements::BackgroundSize)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::set_value)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c8f360;
+  constexpr static std::size_t addrs = 0x6c8ad64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleKeyword (::UnityEngine::UIElements::StyleBackgroundSize::*)()>(
     &::UnityEngine::UIElements::StyleBackgroundSize::get_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c8f374;
+  constexpr static std::size_t addrs = 0x6c8ad78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleBackgroundSize>(), { "get_keyword", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleBackgroundSize::*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::set_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c8f37c;
+  constexpr static std::size_t addrs = 0x6c8ad80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleBackgroundSize::*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c8f384;
+  constexpr static std::size_t addrs = 0x6c8ad88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleBackgroundSize::*)(::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c8f390;
+  constexpr static std::size_t addrs = 0x6c8ad94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::StyleBackgroundSize, ::UnityEngine::UIElements::StyleBackgroundSize)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::op_Equality)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c8f3a8;
+  constexpr static std::size_t addrs = 0x6c8adac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleBackgroundSize (*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::op_Implicit___UnityEngine__UIElements__StyleBackgroundSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c8f424;
+  constexpr static std::size_t addrs = 0x6c8ae28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleBackgroundSize::*)(::UnityEngine::UIElements::StyleBackgroundSize)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c8f430;
+  constexpr static std::size_t addrs = 0x6c8ae34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleBackgroundSize::*)(::System::Object*)>(&::UnityEngine::UIElements::StyleBackgroundSize::Equals)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6c8f4ac;
+  constexpr static std::size_t addrs = 0x6c8aeb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::StyleBackgroundSize::*)()>(&::UnityEngine::UIElements::StyleBackgroundSize::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6c8f584;
+  constexpr static std::size_t addrs = 0x6c8af88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::StyleBackgroundSize::*)()>(&::UnityEngine::UIElements::StyleBackgroundSize::ToString)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6c8f5ac;
+  constexpr static std::size_t addrs = 0x6c8afb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -38,7 +38,7 @@ public:
   constexpr DynamicResolutionHandler_ScalerContainer(::UnityEngine::Rendering::DynamicResScalePolicyType type, ::UnityEngine::Rendering::PerformDynamicRes* method) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11883 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11881 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -102,7 +102,7 @@ public:
   static ::UnityEngine::Rendering::DynamicResolutionHandler_UpsamplerScheduleType const BeforePost;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11882 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

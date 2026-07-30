@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogIndent::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger*, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogIndent::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x67dac14;
+  constexpr static std::size_t addrs = 0x67d89b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogIndent::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogIndent::Dispose)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x67dacac;
+  constexpr static std::size_t addrs = 0x67d8a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogIndent::*)(bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogIndent::Dispose)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x67dace0;
+  constexpr static std::size_t addrs = 0x67d8a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

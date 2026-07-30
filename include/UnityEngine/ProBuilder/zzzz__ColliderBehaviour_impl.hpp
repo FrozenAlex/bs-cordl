@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::ColliderBehaviour::*)()>(&::UnityEngine::ProBuilder::ColliderBehaviour::Initialize)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x66b2fc0;
+  constexpr static std::size_t addrs = 0x66b0d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::ColliderBehaviour::*)()>(&::UnityEngine::ProBuilder::ColliderBehaviour::OnEnterPlayMode)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x66b31c8;
+  constexpr static std::size_t addrs = 0x66b0f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::ColliderBehaviour::*)(::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode)>(
     &::UnityEngine::ProBuilder::ColliderBehaviour::OnSceneLoaded)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x66b327c;
+  constexpr static std::size_t addrs = 0x66b1018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::ColliderBehaviour::*)()>(&::UnityEngine::ProBuilder::ColliderBehaviour::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66b3330;
+  constexpr static std::size_t addrs = 0x66b10cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColliderBehaviour*>(), { ".ctor", {}, {} })));

@@ -101,13 +101,13 @@ public:
 
   constexpr void __cordl_internal_set_unitType(::Unity::Profiling::ProfilerMarkerDataUnit value);
 
-  /// @brief Method get_Category, addr 0x6a58728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Category, addr 0x6a564c4, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Profiling::ProfilerCategory get_Category();
 
-  /// @brief Method get_Flags, addr 0x6a58730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x6a564cc, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Profiling::LowLevel::MarkerFlags get_Flags();
 
-  /// @brief Method get_Name, addr 0x6a58738, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6a564d4, size 0x10, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
   // Ctor Parameters []

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Profiling::ProfilerMarker (::UnityEngine::UIElements::UIRLayoutUpdater::*)()>(
     &::UnityEngine::UIElements::UIRLayoutUpdater::get_profilerMarker)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6dbb638;
+  constexpr static std::size_t addrs = 0x6db703c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRLayoutUpdater::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VersionChangeType)>(
     &::UnityEngine::UIElements::UIRLayoutUpdater::OnVersionChanged)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6dbb694;
+  constexpr static std::size_t addrs = 0x6db7098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRLayoutUpdater::*)()>(&::UnityEngine::UIElements::UIRLayoutUpdater::Update)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x6dbb6e4;
+  constexpr static std::size_t addrs = 0x6db70e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(
     ::UnityEngine::UIElements::VisualElement*, ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*>>*,
     bool)>(&::UnityEngine::UIElements::UIRLayoutUpdater::UpdateHierarchyDisplayed)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x6dbc320;
+  constexpr static std::size_t addrs = 0x6db7d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*>>*)>(
     &::UnityEngine::UIElements::UIRLayoutUpdater::UpdateSubTree)> {
   constexpr static std::size_t size = 0x73c;
-  constexpr static std::size_t addrs = 0x6dbb924;
+  constexpr static std::size_t addrs = 0x6db7328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*>>*, int32_t)>(
     &::UnityEngine::UIElements::UIRLayoutUpdater::DispatchChangeEvents)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x6dbc060;
+  constexpr static std::size_t addrs = 0x6db7a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIRLayoutUpdater::*)()>(&::UnityEngine::UIElements::UIRLayoutUpdater::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6dbc614;
+  constexpr static std::size_t addrs = 0x6db8018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIRLayoutUpdater*>(), { ".ctor", {}, {} })));

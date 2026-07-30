@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TimeHelper::*)()>(&::GlobalNamespace::TimeHelper::get_Time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3324768;
+  constexpr static std::size_t addrs = 0x3322d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimeHelper*>(), { "get_Time", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TimeHelper::*)(float_t)>(&::GlobalNamespace::TimeHelper::set_Time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3324770;
+  constexpr static std::size_t addrs = 0x3322d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimeHelper*>(), { "set_Time", {}, { ::i2c::type_of<float_t>() } })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TimeHelper::*)()>(&::GlobalNamespace::TimeHelper::get_DeltaTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3324778;
+  constexpr static std::size_t addrs = 0x3322d40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimeHelper*>(), { "get_DeltaTime", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TimeHelper::*)(float_t)>(&::GlobalNamespace::TimeHelper::set_DeltaTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3324780;
+  constexpr static std::size_t addrs = 0x3322d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimeHelper*>(), { "set_DeltaTime", {}, { ::i2c::type_of<float_t>() } })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TimeHelper::*)()>(&::GlobalNamespace::TimeHelper::get_FixedDeltaTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3324788;
+  constexpr static std::size_t addrs = 0x3322d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimeHelper*>(), { "get_FixedDeltaTime", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TimeHelper::*)(float_t)>(&::GlobalNamespace::TimeHelper::set_FixedDeltaTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3324790;
+  constexpr static std::size_t addrs = 0x3322d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::TimeHelper::*)()>(&::GlobalNamespace::TimeHelper::get_InterpolationFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3324798;
+  constexpr static std::size_t addrs = 0x3322d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimeHelper*>(), { "get_InterpolationFactor", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TimeHelper::*)(float_t)>(&::GlobalNamespace::TimeHelper::set_InterpolationFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33247a0;
+  constexpr static std::size_t addrs = 0x3322d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::GlobalNamespace::TimeHelper::*)()>(&::GlobalNamespace::TimeHelper::get_TimeHelperOffset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x33247a8;
+  constexpr static std::size_t addrs = 0x3322d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimeHelper*>(), { "get_TimeHelperOffset", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TimeHelper::*)(::UnityEngine::Vector4)>(&::GlobalNamespace::TimeHelper::set_TimeHelperOffset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x33247b4;
+  constexpr static std::size_t addrs = 0x3322d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TimeHelper::*)()>(&::GlobalNamespace::TimeHelper::Awake)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x33247c0;
+  constexpr static std::size_t addrs = 0x3322d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimeHelper*>(), { "Awake", {}, {} })));
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TimeHelper::*)()>(&::GlobalNamespace::TimeHelper::FixedUpdate)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3324814;
+  constexpr static std::size_t addrs = 0x3322ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimeHelper*>(), { "FixedUpdate", {}, {} })));
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TimeHelper::*)()>(&::GlobalNamespace::TimeHelper::Update)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x33248a4;
+  constexpr static std::size_t addrs = 0x3322e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimeHelper*>(), { "Update", {}, {} })));
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::TimeHelper::*)()>(&::GlobalNamespace::TimeHelper::GetFrameCount)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3324908;
+  constexpr static std::size_t addrs = 0x3322ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimeHelper*>(), { "GetFrameCount", {}, {} })));
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TimeHelper::*)(float_t)>(&::GlobalNamespace::TimeHelper::SetTime)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x33241ec;
+  constexpr static std::size_t addrs = 0x33227b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimeHelper*>(), { "SetTime", {}, { ::i2c::type_of<float_t>() } })));
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TimeHelper::*)(::UnityEngine::Rendering::CommandBuffer*)>(
     &::GlobalNamespace::TimeHelper::SetCommandBufferTimeProperties)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3324990;
+  constexpr static std::size_t addrs = 0x3322f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(float_t)>(&::GlobalNamespace::TimeHelper::EncodeTimeAsVector)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3324974;
+  constexpr static std::size_t addrs = 0x3322f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::GlobalNamespace::TimeHelper::GetShaderTimeValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x332494c;
+  constexpr static std::size_t addrs = 0x3322f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimeHelper*>(), { "GetShaderTimeValue", {}, {} })));
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TimeHelper::*)()>(&::GlobalNamespace::TimeHelper::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3324a68;
+  constexpr static std::size_t addrs = 0x3323030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TimeHelper*>(), { ".ctor", {}, {} })));

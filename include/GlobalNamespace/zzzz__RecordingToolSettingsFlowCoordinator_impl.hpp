@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolSettingsFlowCoordinator::*)(bool, bool, bool)>(
     &::GlobalNamespace::RecordingToolSettingsFlowCoordinator::DidActivate)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5a06fa8;
+  constexpr static std::size_t addrs = 0x5a053d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolSettingsFlowCoordinator*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolSettingsFlowCoordinator::*)(bool, bool)>(
     &::GlobalNamespace::RecordingToolSettingsFlowCoordinator::DidDeactivate)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5a070d0;
+  constexpr static std::size_t addrs = 0x5a054fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolSettingsFlowCoordinator*>(),
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolSettingsFlowCoordinator::*)()>(&::GlobalNamespace::RecordingToolSettingsFlowCoordinator::Update)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5a07180;
+  constexpr static std::size_t addrs = 0x5a055ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolSettingsFlowCoordinator*>(), { "Update", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolSettingsFlowCoordinator::*)()>(
     &::GlobalNamespace::RecordingToolSettingsFlowCoordinator::HandleRecordingToolSettingsViewControllerDidFinish)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5a071d4;
+  constexpr static std::size_t addrs = 0x5a05600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolSettingsFlowCoordinator::*)()>(&::GlobalNamespace::RecordingToolSettingsFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a07234;
+  constexpr static std::size_t addrs = 0x5a05660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolSettingsFlowCoordinator*>(), { ".ctor", {}, {} })));

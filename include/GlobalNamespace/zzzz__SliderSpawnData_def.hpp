@@ -24,7 +24,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE SliderSpawnData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x58cf268, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58cd740, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 headNoteOffset, float_t headGravityBase, ::UnityEngine::Vector3 tailNoteOffset, float_t tailGravityBase);
 
   // Ctor Parameters []

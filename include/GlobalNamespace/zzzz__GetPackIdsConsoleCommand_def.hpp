@@ -39,7 +39,7 @@ public:
 
   __declspec(property(get = get_description)) ::StringW description;
 
-  /// @brief Method ExecuteAsync, addr 0x32db470, size 0x45c, virtual true, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x32d8dfc, size 0x45c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
   static inline ::GlobalNamespace::GetPackIdsConsoleCommand* New_ctor();
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
 
-  /// @brief Method .ctor, addr 0x32db8cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32d9258, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandName, addr 0x32db3e8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x32d8d74, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0x32db42c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x32d8db8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_description();
 
 protected:
@@ -74,7 +74,7 @@ public:
   GetPackIdsConsoleCommand(GetPackIdsConsoleCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19366 };
 
   /// @brief Field _beatmapLevelsModel, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;

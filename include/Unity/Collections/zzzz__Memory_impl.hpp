@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Collections::AllocatorManager_AllocatorHandle)>(&::Unity::Collections::Unmanaged_Memory_Array::IsCustom)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64bcaa4;
+  constexpr static std::size_t addrs = 0x64ba840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::Unmanaged_Memory_Array>(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(void*, int64_t, int64_t, ::Unity::Collections::AllocatorManager_AllocatorHandle, int64_t, int32_t)>(
     &::Unity::Collections::Unmanaged_Memory_Array::CustomResize)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x64bcab0;
+  constexpr static std::size_t addrs = 0x64ba84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(void*, int64_t, int64_t, ::Unity::Collections::AllocatorManager_AllocatorHandle, int64_t, int32_t)>(
     &::Unity::Collections::Unmanaged_Memory_Array::Resize)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x64bc938;
+  constexpr static std::size_t addrs = 0x64ba6d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(int64_t, int32_t, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(&::Unity::Collections::Memory_Unmanaged::Allocate)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64bc91c;
+  constexpr static std::size_t addrs = 0x64ba6b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(&::Unity::Collections::Memory_Unmanaged::Free)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64bca84;
+  constexpr static std::size_t addrs = 0x64ba820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int64_t)>(&::Unity::Collections::Memory::CheckByteCountIsReasonable)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x64bc85c;
+  constexpr static std::size_t addrs = 0x64ba5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

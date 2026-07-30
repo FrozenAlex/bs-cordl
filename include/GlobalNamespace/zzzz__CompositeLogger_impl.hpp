@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CompositeLogger::*)(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>*)>(
     &::GlobalNamespace::CompositeLogger::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58e3448;
+  constexpr static std::size_t addrs = 0x58e19b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CompositeLogger::*)(::GlobalNamespace::IBeatSaberLogger*)>(&::GlobalNamespace::CompositeLogger::AddLogger)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x58e3450;
+  constexpr static std::size_t addrs = 0x58e19c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CompositeLogger::*)(::StringW)>(&::GlobalNamespace::CompositeLogger::Log)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x58e3504;
+  constexpr static std::size_t addrs = 0x58e1a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompositeLogger*>(), { "Log", {}, { ::i2c::type_of<::StringW>() } })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CompositeLogger::*)(::StringW, ::System::Object*)>(&::GlobalNamespace::CompositeLogger::Log)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x58e3684;
+  constexpr static std::size_t addrs = 0x58e1bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CompositeLogger::*)(::StringW)>(&::GlobalNamespace::CompositeLogger::LogWarning)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x58e3810;
+  constexpr static std::size_t addrs = 0x58e1d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CompositeLogger::*)(::StringW, ::System::Object*)>(&::GlobalNamespace::CompositeLogger::LogWarning)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x58e3994;
+  constexpr static std::size_t addrs = 0x58e1f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CompositeLogger::*)(::StringW)>(&::GlobalNamespace::CompositeLogger::LogError)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x58e3b20;
+  constexpr static std::size_t addrs = 0x58e2090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CompositeLogger::*)(::StringW, ::System::Object*)>(&::GlobalNamespace::CompositeLogger::LogError)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x58e3ca4;
+  constexpr static std::size_t addrs = 0x58e2214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CompositeLogger::*)(::System::Exception*)>(&::GlobalNamespace::CompositeLogger::LogException)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x58e3e30;
+  constexpr static std::size_t addrs = 0x58e23a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CompositeLogger::*)(::System::Exception*, ::System::Object*)>(&::GlobalNamespace::CompositeLogger::LogException)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x58e3fb4;
+  constexpr static std::size_t addrs = 0x58e2524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CompositeLogger*>(),

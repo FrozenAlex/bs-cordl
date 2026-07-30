@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, void*, uint32_t)>(&::Unity::Burst::Unsafe::CopyBlock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x648dff0;
+  constexpr static std::size_t addrs = 0x648bd8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint8_t>, ::by_ref<uint8_t>, uint32_t)>(&::Unity::Burst::Unsafe::CopyBlock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x648dff8;
+  constexpr static std::size_t addrs = 0x648bd94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, void*, uint32_t)>(&::Unity::Burst::Unsafe::CopyBlockUnaligned)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x648e000;
+  constexpr static std::size_t addrs = 0x648bd9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint8_t>, ::by_ref<uint8_t>, uint32_t)>(&::Unity::Burst::Unsafe::CopyBlockUnaligned)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x648e008;
+  constexpr static std::size_t addrs = 0x648bda4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, uint8_t, uint32_t)>(&::Unity::Burst::Unsafe::InitBlock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x648e010;
+  constexpr static std::size_t addrs = 0x648bdac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint8_t>, uint8_t, uint32_t)>(&::Unity::Burst::Unsafe::InitBlock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x648e018;
+  constexpr static std::size_t addrs = 0x648bdb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, uint8_t, uint32_t)>(&::Unity::Burst::Unsafe::InitBlockUnaligned)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x648e020;
+  constexpr static std::size_t addrs = 0x648bdbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint8_t>, uint8_t, uint32_t)>(&::Unity::Burst::Unsafe::InitBlockUnaligned)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x648e028;
+  constexpr static std::size_t addrs = 0x648bdc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

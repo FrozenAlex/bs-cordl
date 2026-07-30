@@ -32,13 +32,13 @@ public:
 
   static inline ::GlobalNamespace::SwitchGameObjectEffectTarget* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x598fb90, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x598e254, size 0xd8, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetValue, addr 0x598fb8c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x598e250, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x598fc68, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x598e32c, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__gameObject01() const;
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__gameObject02(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x598fc6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x598e330, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

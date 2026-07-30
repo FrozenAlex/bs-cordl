@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Transform*, ::UnityEngine::Quaternion)>(
     &::GlobalNamespace::TransformExtensions::InverseTransformRotation)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3324b10;
+  constexpr static std::size_t addrs = 0x33230d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::UnityEngine::Transform*, ::StringW)>(&::GlobalNamespace::TransformExtensions::FindChildRecursively)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3324bc4;
+  constexpr static std::size_t addrs = 0x332318c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Transform*)>(&::GlobalNamespace::TransformExtensions::CalculateTransformDepth)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3324cc4;
+  constexpr static std::size_t addrs = 0x332328c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Transform*)>(&::GlobalNamespace::TransformExtensions::ExtractLocalPose)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3324d50;
+  constexpr static std::size_t addrs = 0x3323318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Transform*)>(&::GlobalNamespace::TransformExtensions::ExtractGlobalPose)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3324db4;
+  constexpr static std::size_t addrs = 0x332337c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

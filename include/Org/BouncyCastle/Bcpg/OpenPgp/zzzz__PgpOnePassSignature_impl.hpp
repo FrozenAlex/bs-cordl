@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* (*)(::Org::BouncyCastle::Bcpg::Packet*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::Cast)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x35850c0;
+  constexpr static std::size_t addrs = 0x3583688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3584d9c;
+  constexpr static std::size_t addrs = 0x3583364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature*>(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::*)(::Org::BouncyCastle::Bcpg::OnePassSignaturePacket*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x358518c;
+  constexpr static std::size_t addrs = 0x3583754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature*>(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::*)(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::InitVerify)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x35851a8;
+  constexpr static std::size_t addrs = 0x3583770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature*>(),
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::*)(uint8_t)>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::Update)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x358542c;
+  constexpr static std::size_t addrs = 0x35839f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::*)(uint8_t)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::doCanonicalUpdateByte)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3585508;
+  constexpr static std::size_t addrs = 0x3583ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::*)()>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::doUpdateCRLF)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x35855f4;
+  constexpr static std::size_t addrs = 0x3583bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature*>(), { "doUpdateCRLF", {}, {} })));
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::Update)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3585708;
+  constexpr static std::size_t addrs = 0x3583cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::Update)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3585828;
+  constexpr static std::size_t addrs = 0x3583df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::*)(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::Verify)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x358594c;
+  constexpr static std::size_t addrs = 0x3583f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature*>(),
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::*)()>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::get_KeyId)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3585aac;
+  constexpr static std::size_t addrs = 0x3584074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature*>(), { "get_KeyId", {}, {} })));
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::get_SignatureType)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3585ac4;
+  constexpr static std::size_t addrs = 0x358408c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::HashAlgorithmTag (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::get_HashAlgorithm)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3585adc;
+  constexpr static std::size_t addrs = 0x35840a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::get_KeyAlgorithm)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3585af4;
+  constexpr static std::size_t addrs = 0x35840bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::GetEncoded)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3585b0c;
+  constexpr static std::size_t addrs = 0x35840d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature*>(), { "GetEncoded", {}, {} })));
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::Encode)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3585b88;
+  constexpr static std::size_t addrs = 0x3584150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::ResultsTableView::*)(int32_t)>(&::GlobalNamespace::ResultsTableView::CellSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x596cd88;
+  constexpr static std::size_t addrs = 0x596bb34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ResultsTableView::*)()>(&::GlobalNamespace::ResultsTableView::NumberOfCells)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x596cd90;
+  constexpr static std::size_t addrs = 0x596bb3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ResultsTableView*>(), { "NumberOfCells", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::HMUI::TableCell> (::GlobalNamespace::ResultsTableView::*)(::HMUI::TableView*, int32_t)>(
     &::GlobalNamespace::ResultsTableView::CellForIdx)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x596ce34;
+  constexpr static std::size_t addrs = 0x596bbe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResultsTableView::*)(
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*)>(&::GlobalNamespace::ResultsTableView::SetData)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x596d018;
+  constexpr static std::size_t addrs = 0x596bdc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResultsTableView::*)()>(&::GlobalNamespace::ResultsTableView::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x596d048;
+  constexpr static std::size_t addrs = 0x596bdf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ResultsTableView*>(), { ".ctor", {}, {} })));

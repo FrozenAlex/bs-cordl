@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* (
     ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::*)()>(&::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_levelsEntitlements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36faa60;
+  constexpr static std::size_t addrs = 0x36f9460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* (
     ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::*)()>(&::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_levelPacksEntitlements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36faa68;
+  constexpr static std::size_t addrs = 0x36f9468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_packBetterBuyThanLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36faa70;
+  constexpr static std::size_t addrs = 0x36f9470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_useCustomEntitlement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36faa78;
+  constexpr static std::size_t addrs = 0x36f9478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x36faa80;
+  constexpr static std::size_t addrs = 0x36f9480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

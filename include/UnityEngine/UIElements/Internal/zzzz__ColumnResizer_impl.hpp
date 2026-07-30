@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ColumnLayout* (::UnityEngine::UIElements::Internal::ColumnResizer::*)()>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::get_columnLayout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d1fb04;
+  constexpr static std::size_t addrs = 0x6d1b508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::ColumnResizer*>(), { "get_columnLayout", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)(::UnityEngine::UIElements::ColumnLayout*)>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::set_columnLayout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d1fb0c;
+  constexpr static std::size_t addrs = 0x6d1b510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::ColumnResizer*>(),
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Internal::ColumnResizer::*)()>(&::UnityEngine::UIElements::Internal::ColumnResizer::get_preview)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d1fb14;
+  constexpr static std::size_t addrs = 0x6d1b518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::ColumnResizer*>(), { "get_preview", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)(bool)>(&::UnityEngine::UIElements::Internal::ColumnResizer::set_preview)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d1fb1c;
+  constexpr static std::size_t addrs = 0x6d1b520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)(::UnityEngine::UIElements::Column*)>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6d1fb24;
+  constexpr static std::size_t addrs = 0x6d1b528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)()>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::RegisterCallbacksOnTarget)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x6d1fbec;
+  constexpr static std::size_t addrs = 0x6d1b5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)()>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::UnregisterCallbacksFromTarget)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x6d1fe18;
+  constexpr static std::size_t addrs = 0x6d1b81c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)(::UnityEngine::UIElements::KeyDownEvent*)>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::OnKeyDown)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6d20044;
+  constexpr static std::size_t addrs = 0x6d1ba48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)(::UnityEngine::UIElements::PointerDownEvent*)>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::OnPointerDown)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x6d20128;
+  constexpr static std::size_t addrs = 0x6d1bb2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::ColumnResizer*>(),
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)(::UnityEngine::UIElements::PointerMoveEvent*)>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::OnPointerMove)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6d2037c;
+  constexpr static std::size_t addrs = 0x6d1bd80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::ColumnResizer*>(),
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)(::UnityEngine::UIElements::PointerUpEvent*)>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::OnPointerUp)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6d204c8;
+  constexpr static std::size_t addrs = 0x6d1becc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Internal::ColumnResizer*>(),
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)(float_t)>(&::UnityEngine::UIElements::Internal::ColumnResizer::BeginDragResize)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6d20334;
+  constexpr static std::size_t addrs = 0x6d1bd38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)(float_t)>(&::UnityEngine::UIElements::Internal::ColumnResizer::DragResize)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6d20488;
+  constexpr static std::size_t addrs = 0x6d1be8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)()>(&::UnityEngine::UIElements::Internal::ColumnResizer::UpdatePreviewPosition)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6d20600;
+  constexpr static std::size_t addrs = 0x6d1c004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)(float_t, bool)>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::EndDragResize)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6d200cc;
+  constexpr static std::size_t addrs = 0x6d1bad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

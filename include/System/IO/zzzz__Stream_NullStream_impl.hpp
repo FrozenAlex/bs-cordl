@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Stream_NullStream::*)()>(&::GlobalNamespace::Stream_NullStream::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5c1153c;
+  constexpr static std::size_t addrs = 0x5c0f380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Stream_NullStream*>(), { ".ctor", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Stream_NullStream::*)()>(&::GlobalNamespace::Stream_NullStream::get_CanRead)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c11750;
+  constexpr static std::size_t addrs = 0x5c0f594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Stream_NullStream::*)()>(&::GlobalNamespace::Stream_NullStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c11758;
+  constexpr static std::size_t addrs = 0x5c0f59c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::Stream_NullStream::*)()>(&::GlobalNamespace::Stream_NullStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c11760;
+  constexpr static std::size_t addrs = 0x5c0f5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::Stream_NullStream::*)()>(&::GlobalNamespace::Stream_NullStream::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c11768;
+  constexpr static std::size_t addrs = 0x5c0f5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::Stream_NullStream::*)()>(&::GlobalNamespace::Stream_NullStream::get_Position)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c11770;
+  constexpr static std::size_t addrs = 0x5c0f5b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Stream_NullStream::*)(int64_t)>(&::GlobalNamespace::Stream_NullStream::set_Position)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c11778;
+  constexpr static std::size_t addrs = 0x5c0f5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Stream_NullStream::*)(::System::IO::Stream*, int32_t)>(&::GlobalNamespace::Stream_NullStream::CopyTo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c1177c;
+  constexpr static std::size_t addrs = 0x5c0f5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::GlobalNamespace::Stream_NullStream::*)(::System::IO::Stream*, int32_t, ::System::Threading::CancellationToken)>(&::GlobalNamespace::Stream_NullStream::CopyToAsync)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5c11784;
+  constexpr static std::size_t addrs = 0x5c0f5c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Stream_NullStream::*)(bool)>(&::GlobalNamespace::Stream_NullStream::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c118c0;
+  constexpr static std::size_t addrs = 0x5c0f704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Stream_NullStream::*)()>(&::GlobalNamespace::Stream_NullStream::Flush)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c118c4;
+  constexpr static std::size_t addrs = 0x5c0f708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::Stream_NullStream::*)(::System::Threading::CancellationToken)>(
     &::GlobalNamespace::Stream_NullStream::FlushAsync)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5c118c8;
+  constexpr static std::size_t addrs = 0x5c0f70c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::GlobalNamespace::Stream_NullStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::AsyncCallback*,
                                                                                                                          ::System::Object*)>(&::GlobalNamespace::Stream_NullStream::BeginRead)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5c119cc;
+  constexpr static std::size_t addrs = 0x5c0f810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::Stream_NullStream::*)(::System::IAsyncResult*)>(&::GlobalNamespace::Stream_NullStream::EndRead)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5c11a58;
+  constexpr static std::size_t addrs = 0x5c0f89c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::GlobalNamespace::Stream_NullStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::AsyncCallback*,
                                                                                                                          ::System::Object*)>(&::GlobalNamespace::Stream_NullStream::BeginWrite)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5c11afc;
+  constexpr static std::size_t addrs = 0x5c0f940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Stream_NullStream::*)(::System::IAsyncResult*)>(&::GlobalNamespace::Stream_NullStream::EndWrite)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5c11b88;
+  constexpr static std::size_t addrs = 0x5c0f9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::Stream_NullStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::GlobalNamespace::Stream_NullStream::Read)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c11c2c;
+  constexpr static std::size_t addrs = 0x5c0fa70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::Stream_NullStream::*)(::System::Span_1<uint8_t>)>(&::GlobalNamespace::Stream_NullStream::Read)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c11c34;
+  constexpr static std::size_t addrs = 0x5c0fa78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
     ::GlobalNamespace::Stream_NullStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::GlobalNamespace::Stream_NullStream::ReadAsync)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5c11c3c;
+  constexpr static std::size_t addrs = 0x5c0fa80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::ValueTask_1<int32_t> (::GlobalNamespace::Stream_NullStream::*)(
     ::System::Memory_1<uint8_t>, ::System::Threading::CancellationToken)>(&::GlobalNamespace::Stream_NullStream::ReadAsync)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5c11c98;
+  constexpr static std::size_t addrs = 0x5c0fadc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::Stream_NullStream::*)()>(&::GlobalNamespace::Stream_NullStream::ReadByte)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c11cdc;
+  constexpr static std::size_t addrs = 0x5c0fb20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Stream_NullStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::GlobalNamespace::Stream_NullStream::Write)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c11ce4;
+  constexpr static std::size_t addrs = 0x5c0fb28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Stream_NullStream::*)(::System::ReadOnlySpan_1<uint8_t>)>(&::GlobalNamespace::Stream_NullStream::Write)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c11ce8;
+  constexpr static std::size_t addrs = 0x5c0fb2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::GlobalNamespace::Stream_NullStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::GlobalNamespace::Stream_NullStream::WriteAsync)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5c11cec;
+  constexpr static std::size_t addrs = 0x5c0fb30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::ValueTask (::GlobalNamespace::Stream_NullStream::*)(
     ::System::ReadOnlyMemory_1<uint8_t>, ::System::Threading::CancellationToken)>(&::GlobalNamespace::Stream_NullStream::WriteAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5c11df0;
+  constexpr static std::size_t addrs = 0x5c0fc34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -353,7 +353,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Stream_NullStream::*)(uint8_t)>(&::GlobalNamespace::Stream_NullStream::WriteByte)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c11eb4;
+  constexpr static std::size_t addrs = 0x5c0fcf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -366,7 +366,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::Stream_NullStream::*)(int64_t, ::System::IO::SeekOrigin)>(&::GlobalNamespace::Stream_NullStream::Seek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c11eb8;
+  constexpr static std::size_t addrs = 0x5c0fcfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -379,7 +379,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Stream_NullStream::*)(int64_t)>(&::GlobalNamespace::Stream_NullStream::SetLength)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c11ec0;
+  constexpr static std::size_t addrs = 0x5c0fd04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

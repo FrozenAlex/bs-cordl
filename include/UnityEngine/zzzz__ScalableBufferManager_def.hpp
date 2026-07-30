@@ -20,13 +20,13 @@ namespace UnityEngine {
 class CORDL_TYPE ScalableBufferManager : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ResizeBuffers, addr 0x6a83e7c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ResizeBuffers, addr 0x6a81c18, size 0x40, virtual false, abstract: false, final false
   static inline void ResizeBuffers(float_t widthScale, float_t heightScale);
 
-  /// @brief Method get_heightScaleFactor, addr 0x6a83e54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_heightScaleFactor, addr 0x6a81bf0, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_heightScaleFactor();
 
-  /// @brief Method get_widthScaleFactor, addr 0x6a83e2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_widthScaleFactor, addr 0x6a81bc8, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_widthScaleFactor();
 
 protected:

@@ -3,6 +3,7 @@ module;
 #endif
 
 #pragma once
+#include "BGLib/Attributes/DateStringAttribute.hpp"
 #include "BGLib/Attributes/ToggleLeftAttribute.hpp"
 #ifdef __cpp_modules
 export module Attributes;

@@ -49,24 +49,24 @@ public:
   /// @brief Field playerLoopRecorder, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_playerLoopRecorder, put = __cordl_internal_set_playerLoopRecorder)) ::Unity::Profiling::ProfilerRecorder playerLoopRecorder;
 
-  /// @brief Method Awake, addr 0x58552e0, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x58537dc, size 0x2ac, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetLastFrameSampleValue, addr 0x58555dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetLastFrameSampleValue, addr 0x5853ad8, size 0x7c, virtual false, abstract: false, final false
   static inline int64_t GetLastFrameSampleValue(::Unity::Profiling::ProfilerRecorder recorder, int32_t lastFrameCount);
 
-  /// @brief Method Initialize, addr 0x5855140, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x585363c, size 0x1a0, virtual false, abstract: false, final false
   static inline void Initialize();
 
   static inline ::GlobalNamespace::FrameTiming* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x585558c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5853a88, size 0x4c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Refresh, addr 0x5854e28, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5853324, size 0x260, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method Update, addr 0x58555d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5853ad4, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr double_t const& __cordl_internal_get_gpuMilliseconds() const;
@@ -111,15 +111,15 @@ public:
 
   constexpr void __cordl_internal_set_playerLoopRecorder(::Unity::Profiling::ProfilerRecorder value);
 
-  /// @brief Method .ctor, addr 0x5855658, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5853b54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::GlobalNamespace::FrameTiming> getStaticF_instance();
 
-  /// @brief Method get_GPUMilliseconds, addr 0x5855088, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_GPUMilliseconds, addr 0x5853584, size 0xb8, virtual false, abstract: false, final false
   static inline double_t get_GPUMilliseconds();
 
-  /// @brief Method get_PlayerLoopMilliseconds, addr 0x5854d70, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_PlayerLoopMilliseconds, addr 0x585326c, size 0xb8, virtual false, abstract: false, final false
   static inline double_t get_PlayerLoopMilliseconds();
 
   static inline void setStaticF_instance(::UnityW<::GlobalNamespace::FrameTiming> value);
@@ -139,7 +139,7 @@ public:
   FrameTiming(FrameTiming const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22714 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22711 };
 
   /// @brief Field lastRefreshFrame, offset: 0x20, size: 0x4, def value: None
   int32_t ___lastRefreshFrame;

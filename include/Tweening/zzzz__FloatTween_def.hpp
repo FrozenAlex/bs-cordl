@@ -37,7 +37,7 @@ public:
                       put =
                           setStaticF_Pool)) ::Zenject::StaticMemoryPool_7<float_t, float_t, ::System::Action_1<float_t>*, float_t, ::GlobalNamespace::EaseType, float_t, ::Tweening::FloatTween*>* Pool;
 
-  /// @brief Method GetValue, addr 0x6442ac8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x6440864, size 0x28, virtual true, abstract: false, final false
   inline float_t GetValue(float_t t);
 
   static inline ::Tweening::FloatTween* New_ctor();
@@ -47,13 +47,13 @@ public:
 
   static inline ::Tweening::FloatTween* New_ctor(float_t fromValue, float_t toValue, ::System::Action_1<float_t>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
-  /// @brief Method .ctor, addr 0x6442954, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64406f0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6442a38, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64407d4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(float_t fromValue, float_t toValue, ::System::Action_1<float_t>* onUpdate, float_t duration, ::UnityEngine::AnimationCurve* animationCurve, float_t delay);
 
-  /// @brief Method .ctor, addr 0x64429ac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6440748, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(float_t fromValue, float_t toValue, ::System::Action_1<float_t>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
   static inline ::Zenject::StaticMemoryPool_7<float_t, float_t, ::System::Action_1<float_t>*, float_t, ::GlobalNamespace::EaseType, float_t, ::Tweening::FloatTween*>* getStaticF_Pool();
@@ -75,7 +75,7 @@ public:
   FloatTween(FloatTween const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22928 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22925 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

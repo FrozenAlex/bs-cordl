@@ -26,10 +26,10 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_ENUMERATION* New_ctor();
 
-  /// @brief Method .ctor, addr 0x61ba658, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b83f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TokenizedType, addr 0x61c55c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TokenizedType, addr 0x61c3364, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
 protected:

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerTransitionHelpers___c__DisplayClass5_0::*)()>(
     &::HMUI::ViewControllerTransitionHelpers___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32f5f24;
+  constexpr static std::size_t addrs = 0x32f3bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ViewControllerTransitionHelpers___c__DisplayClass5_0*>(), { ".ctor", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerTransitionHelpers___c__DisplayClass5_0::*)(float_t)>(
     &::HMUI::ViewControllerTransitionHelpers___c__DisplayClass5_0::_DoHorizontalTransition_b__0)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x32f5f28;
+  constexpr static std::size_t addrs = 0x32f3bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerTransitionHelpers___c__DisplayClass6_0::*)()>(
     &::HMUI::ViewControllerTransitionHelpers___c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32f6000;
+  constexpr static std::size_t addrs = 0x32f3cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ViewControllerTransitionHelpers___c__DisplayClass6_0*>(), { ".ctor", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerTransitionHelpers___c__DisplayClass6_0::*)(float_t)>(
     &::HMUI::ViewControllerTransitionHelpers___c__DisplayClass6_0::_DoVerticalTransition_b__0)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x32f6004;
+  constexpr static std::size_t addrs = 0x32f3cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerTransitionHelpers__AnimationCoroutine_d__8::*)(int32_t)>(
     &::HMUI::ViewControllerTransitionHelpers__AnimationCoroutine_d__8::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f5f18;
+  constexpr static std::size_t addrs = 0x32f3be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerTransitionHelpers__AnimationCoroutine_d__8::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__AnimationCoroutine_d__8::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32f60ec;
+  constexpr static std::size_t addrs = 0x32f3dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ViewControllerTransitionHelpers__AnimationCoroutine_d__8::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__AnimationCoroutine_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x32f60f0;
+  constexpr static std::size_t addrs = 0x32f3dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::ViewControllerTransitionHelpers__AnimationCoroutine_d__8::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__AnimationCoroutine_d__8::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f6200;
+  constexpr static std::size_t addrs = 0x32f3ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ViewControllerTransitionHelpers__AnimationCoroutine_d__8*>(),
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerTransitionHelpers__AnimationCoroutine_d__8::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__AnimationCoroutine_d__8::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x32f6208;
+  constexpr static std::size_t addrs = 0x32f3ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::ViewControllerTransitionHelpers__AnimationCoroutine_d__8::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__AnimationCoroutine_d__8::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f6240;
+  constexpr static std::size_t addrs = 0x32f3f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -389,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerTransitionHelpers__DoDismissTransition_d__4::*)(int32_t)>(
     &::HMUI::ViewControllerTransitionHelpers__DoDismissTransition_d__4::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f5dcc;
+  constexpr static std::size_t addrs = 0x32f3a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerTransitionHelpers__DoDismissTransition_d__4::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__DoDismissTransition_d__4::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32f6248;
+  constexpr static std::size_t addrs = 0x32f3f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -417,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ViewControllerTransitionHelpers__DoDismissTransition_d__4::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__DoDismissTransition_d__4::MoveNext)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x32f624c;
+  constexpr static std::size_t addrs = 0x32f3f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -431,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::ViewControllerTransitionHelpers__DoDismissTransition_d__4::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__DoDismissTransition_d__4::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f62d0;
+  constexpr static std::size_t addrs = 0x32f3fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ViewControllerTransitionHelpers__DoDismissTransition_d__4*>(),
@@ -445,7 +445,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerTransitionHelpers__DoDismissTransition_d__4::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__DoDismissTransition_d__4::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x32f62d8;
+  constexpr static std::size_t addrs = 0x32f3fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -459,7 +459,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::ViewControllerTransitionHelpers__DoDismissTransition_d__4::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__DoDismissTransition_d__4::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f6310;
+  constexpr static std::size_t addrs = 0x32f3fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -605,7 +605,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerTransitionHelpers__DoHorizontalTransition_d__5::*)(int32_t)>(
     &::HMUI::ViewControllerTransitionHelpers__DoHorizontalTransition_d__5::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f5e44;
+  constexpr static std::size_t addrs = 0x32f3b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -619,7 +619,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerTransitionHelpers__DoHorizontalTransition_d__5::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__DoHorizontalTransition_d__5::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32f6318;
+  constexpr static std::size_t addrs = 0x32f3fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -633,7 +633,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ViewControllerTransitionHelpers__DoHorizontalTransition_d__5::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__DoHorizontalTransition_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x32f631c;
+  constexpr static std::size_t addrs = 0x32f3fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -647,7 +647,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::ViewControllerTransitionHelpers__DoHorizontalTransition_d__5::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__DoHorizontalTransition_d__5::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f64b0;
+  constexpr static std::size_t addrs = 0x32f4180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ViewControllerTransitionHelpers__DoHorizontalTransition_d__5*>(),
@@ -661,7 +661,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerTransitionHelpers__DoHorizontalTransition_d__5::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__DoHorizontalTransition_d__5::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x32f64b8;
+  constexpr static std::size_t addrs = 0x32f4188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -675,7 +675,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::ViewControllerTransitionHelpers__DoHorizontalTransition_d__5::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__DoHorizontalTransition_d__5::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f64f0;
+  constexpr static std::size_t addrs = 0x32f41c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -821,7 +821,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerTransitionHelpers__DoPresentTransition_d__3::*)(int32_t)>(
     &::HMUI::ViewControllerTransitionHelpers__DoPresentTransition_d__3::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f5dc4;
+  constexpr static std::size_t addrs = 0x32f3a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -835,7 +835,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerTransitionHelpers__DoPresentTransition_d__3::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__DoPresentTransition_d__3::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32f64f8;
+  constexpr static std::size_t addrs = 0x32f41c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -849,7 +849,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ViewControllerTransitionHelpers__DoPresentTransition_d__3::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__DoPresentTransition_d__3::MoveNext)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x32f64fc;
+  constexpr static std::size_t addrs = 0x32f41cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -863,7 +863,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::ViewControllerTransitionHelpers__DoPresentTransition_d__3::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__DoPresentTransition_d__3::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f6580;
+  constexpr static std::size_t addrs = 0x32f4250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ViewControllerTransitionHelpers__DoPresentTransition_d__3*>(),
@@ -877,7 +877,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerTransitionHelpers__DoPresentTransition_d__3::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__DoPresentTransition_d__3::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x32f6588;
+  constexpr static std::size_t addrs = 0x32f4258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -891,7 +891,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::ViewControllerTransitionHelpers__DoPresentTransition_d__3::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__DoPresentTransition_d__3::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f65c0;
+  constexpr static std::size_t addrs = 0x32f4290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1037,7 +1037,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerTransitionHelpers__DoVerticalTransition_d__6::*)(int32_t)>(
     &::HMUI::ViewControllerTransitionHelpers__DoVerticalTransition_d__6::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f5ebc;
+  constexpr static std::size_t addrs = 0x32f3b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1051,7 +1051,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerTransitionHelpers__DoVerticalTransition_d__6::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__DoVerticalTransition_d__6::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32f65c8;
+  constexpr static std::size_t addrs = 0x32f4298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1065,7 +1065,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::ViewControllerTransitionHelpers__DoVerticalTransition_d__6::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__DoVerticalTransition_d__6::MoveNext)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x32f65cc;
+  constexpr static std::size_t addrs = 0x32f429c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1079,7 +1079,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::ViewControllerTransitionHelpers__DoVerticalTransition_d__6::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__DoVerticalTransition_d__6::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f6764;
+  constexpr static std::size_t addrs = 0x32f4434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ViewControllerTransitionHelpers__DoVerticalTransition_d__6*>(),
@@ -1093,7 +1093,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerTransitionHelpers__DoVerticalTransition_d__6::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__DoVerticalTransition_d__6::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x32f676c;
+  constexpr static std::size_t addrs = 0x32f443c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1107,7 +1107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::ViewControllerTransitionHelpers__DoVerticalTransition_d__6::*)()>(
     &::HMUI::ViewControllerTransitionHelpers__DoVerticalTransition_d__6::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32f67a4;
+  constexpr static std::size_t addrs = 0x32f4474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1253,7 +1253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (*)(::HMUI::ViewController*, ::HMUI::ViewController*, ::HMUI::ViewController_AnimationDirection, float_t)>(
     &::HMUI::ViewControllerTransitionHelpers::DoPresentTransition)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x32f5a4c;
+  constexpr static std::size_t addrs = 0x32f371c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1271,7 +1271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (*)(::HMUI::ViewController*, ::HMUI::ViewController*, ::HMUI::ViewController_AnimationDirection, float_t)>(
     &::HMUI::ViewControllerTransitionHelpers::DoDismissTransition)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x32f565c;
+  constexpr static std::size_t addrs = 0x32f332c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1289,7 +1289,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (*)(::HMUI::ViewController*, ::HMUI::ViewController*, float_t)>(
     &::HMUI::ViewControllerTransitionHelpers::DoHorizontalTransition)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x32f5dd4;
+  constexpr static std::size_t addrs = 0x32f3aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1305,7 +1305,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (*)(::HMUI::ViewController*, ::HMUI::ViewController*, float_t)>(
     &::HMUI::ViewControllerTransitionHelpers::DoVerticalTransition)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x32f5e4c;
+  constexpr static std::size_t addrs = 0x32f3b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1319,7 +1319,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::HMUI::ViewController*, ::HMUI::ViewController*)>(&::HMUI::ViewControllerTransitionHelpers::ImmediateTransition)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x32f56d4;
+  constexpr static std::size_t addrs = 0x32f33a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1333,7 +1333,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (*)(::System::Action_1<float_t>*)>(&::HMUI::ViewControllerTransitionHelpers::AnimationCoroutine)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32f5ec4;
+  constexpr static std::size_t addrs = 0x32f3b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1346,7 +1346,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerTransitionHelpers::*)()>(&::HMUI::ViewControllerTransitionHelpers::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32f5f20;
+  constexpr static std::size_t addrs = 0x32f3bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ViewControllerTransitionHelpers*>(), { ".ctor", {}, {} })));

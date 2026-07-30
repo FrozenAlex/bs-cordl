@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
 
-  /// @brief Method .ctor, addr 0x599d9cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x599c084, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
 protected:
@@ -165,7 +165,7 @@ public:
 
   static inline ::GlobalNamespace::VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <LoadVideoFromModel>b__0, addr 0x599ded8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <LoadVideoFromModel>b__0, addr 0x599c590, size 0x20, virtual false, abstract: false, final false
   inline bool _LoadVideoFromModel_b__0(::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId* clipWithId);
 
   constexpr int32_t const& __cordl_internal_get_eventValue() const;
@@ -174,7 +174,7 @@ public:
 
   constexpr void __cordl_internal_set_eventValue(int32_t value);
 
-  /// @brief Method .ctor, addr 0x599de30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x599c4e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -215,10 +215,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x599def8, size 0x2c8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x599c5b0, size 0x2c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x599e1c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x599c878, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -299,19 +299,19 @@ public:
   /// @brief Field _videoPlayer, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__videoPlayer, put = __cordl_internal_set__videoPlayer)) ::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer> _videoPlayer;
 
-  /// @brief Method Dispose, addr 0x599d9e0, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x599c098, size 0xd8, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method LoadPreviewCoverAsset, addr 0x599de34, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method LoadPreviewCoverAsset, addr 0x599c4ec, size 0xa4, virtual false, abstract: false, final false
   inline void LoadPreviewCoverAsset();
 
-  /// @brief Method LoadVideoFromModel, addr 0x599db74, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method LoadVideoFromModel, addr 0x599c22c, size 0x2bc, virtual false, abstract: false, final false
   inline void LoadVideoFromModel(int32_t eventValue);
 
   static inline ::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior* New_ctor(::GlobalNamespace::VideoProjectionDataModelSO* dataModel,
                                                                                            ::GlobalNamespace::SongTimeSyncedVideoPlayer* videoPlayer, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method UnloadCoverAsset, addr 0x599dab8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method UnloadCoverAsset, addr 0x599c170, size 0xbc, virtual false, abstract: false, final false
   inline void UnloadCoverAsset();
 
   constexpr ::GlobalNamespace::BeatmapLevel* const& __cordl_internal_get__beatmapLevel() const;
@@ -350,7 +350,7 @@ public:
 
   constexpr void __cordl_internal_set__videoPlayer(::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer> value);
 
-  /// @brief Method .ctor, addr 0x599d9d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x599c08c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::VideoProjectionDataModelSO* dataModel, ::GlobalNamespace::SongTimeSyncedVideoPlayer* videoPlayer, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
 protected:
@@ -420,10 +420,10 @@ public:
   /// @brief Field _callbackWrapper, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__callbackWrapper, put = __cordl_internal_set__callbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _callbackWrapper;
 
-  /// @brief Method Dispose, addr 0x599e1c8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x599c880, size 0x28, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method HandleBeatmapEvent, addr 0x599e1f0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x599c8a8, size 0x10c, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* data);
 
   static inline ::GlobalNamespace::VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior*
@@ -442,7 +442,7 @@ public:
 
   constexpr void __cordl_internal_set__callbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method .ctor, addr 0x599d78c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x599be44, size 0x224, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::VideoProjectionDataModelSO* dataModel, ::GlobalNamespace::SongTimeSyncedVideoPlayer* videoPlayer,
                     ::GlobalNamespace::BasicBeatmapEventType videoEventType, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
@@ -490,7 +490,7 @@ public:
   New_ctor(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::VideoProjectionDataModelSO* dataModel, ::GlobalNamespace::SongTimeSyncedVideoPlayer* videoPlayer,
            ::GlobalNamespace::BasicBeatmapEventType videoEventType, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method .ctor, addr 0x599d64c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x599bd04, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::VideoProjectionDataModelSO* dataModel, ::GlobalNamespace::SongTimeSyncedVideoPlayer* videoPlayer,
                     ::GlobalNamespace::BasicBeatmapEventType videoEventType, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
@@ -560,10 +560,10 @@ public:
 
   static inline ::GlobalNamespace::VideoProjectionEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x599d9b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x599c068, size 0x18, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x599d540, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x599bbf8, size 0x10c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -614,7 +614,7 @@ public:
 
   constexpr void __cordl_internal_set__videoProjectionDataModel(::UnityW<::GlobalNamespace::VideoProjectionDataModelSO> value);
 
-  /// @brief Method .ctor, addr 0x599d9c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x599c080, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<bool> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInAtoms)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x6367dec;
+  constexpr static std::size_t addrs = 0x6365b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Mime::MailBnfHelper*>(), { "CreateCharactersAllowedInAtoms", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<bool> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInQuotedStrings)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6367fd0;
+  constexpr static std::size_t addrs = 0x6365d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<bool> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInDomainLiterals)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6368110;
+  constexpr static std::size_t addrs = 0x6365eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<bool> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInHeaderNames)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6368250;
+  constexpr static std::size_t addrs = 0x6365fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<bool> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInTokens)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6368314;
+  constexpr static std::size_t addrs = 0x63660b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Mime::MailBnfHelper*>(), { "CreateCharactersAllowedInTokens", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<bool> (*)()>(&::System::Net::Mime::MailBnfHelper::CreateCharactersAllowedInComments)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6368410;
+  constexpr static std::size_t addrs = 0x63661ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Mime::MailBnfHelper*>(), { "CreateCharactersAllowedInComments", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t)>(&::System::Net::Mime::MailBnfHelper::IsAllowedWhiteSpace)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6368584;
+  constexpr static std::size_t addrs = 0x6366320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlNumeric10Converter::*)(::System::Xml::Schema::XmlSchemaType*)>(
     &::System::Xml::Schema::XmlNumeric10Converter::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6247834;
+  constexpr static std::size_t addrs = 0x62455d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlValueConverter* (*)(::System::Xml::Schema::XmlSchemaType*)>(&::System::Xml::Schema::XmlNumeric10Converter::Create)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x62478a0;
+  constexpr static std::size_t addrs = 0x624563c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::Xml::Schema::XmlNumeric10Converter::*)(::StringW)>(&::System::Xml::Schema::XmlNumeric10Converter::ToDecimal)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x62478fc;
+  constexpr static std::size_t addrs = 0x6245698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::Xml::Schema::XmlNumeric10Converter::*)(::System::Object*)>(
     &::System::Xml::Schema::XmlNumeric10Converter::ToDecimal)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x62479dc;
+  constexpr static std::size_t addrs = 0x6245778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::XmlNumeric10Converter::*)(int64_t)>(&::System::Xml::Schema::XmlNumeric10Converter::ToInt32)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x62480c8;
+  constexpr static std::size_t addrs = 0x6245e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::XmlNumeric10Converter::*)(::StringW)>(&::System::Xml::Schema::XmlNumeric10Converter::ToInt32)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6248124;
+  constexpr static std::size_t addrs = 0x6245ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::XmlNumeric10Converter::*)(::System::Object*)>(&::System::Xml::Schema::XmlNumeric10Converter::ToInt32)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x6248254;
+  constexpr static std::size_t addrs = 0x6245ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Xml::Schema::XmlNumeric10Converter::*)(int32_t)>(&::System::Xml::Schema::XmlNumeric10Converter::ToInt64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62485c4;
+  constexpr static std::size_t addrs = 0x6246360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Xml::Schema::XmlNumeric10Converter::*)(::StringW)>(&::System::Xml::Schema::XmlNumeric10Converter::ToInt64)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x62485cc;
+  constexpr static std::size_t addrs = 0x6246368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Xml::Schema::XmlNumeric10Converter::*)(::System::Object*)>(&::System::Xml::Schema::XmlNumeric10Converter::ToInt64)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x62486fc;
+  constexpr static std::size_t addrs = 0x6246498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlNumeric10Converter::*)(::System::Decimal)>(&::System::Xml::Schema::XmlNumeric10Converter::ToString)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6248a50;
+  constexpr static std::size_t addrs = 0x62467ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlNumeric10Converter::*)(int32_t)>(&::System::Xml::Schema::XmlNumeric10Converter::ToString)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6248b14;
+  constexpr static std::size_t addrs = 0x62468b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlNumeric10Converter::*)(int64_t)>(&::System::Xml::Schema::XmlNumeric10Converter::ToString)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6248b90;
+  constexpr static std::size_t addrs = 0x624692c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlNumeric10Converter::*)(::System::Object*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlNumeric10Converter::ToString)> {
   constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x6248c0c;
+  constexpr static std::size_t addrs = 0x62469a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlNumeric10Converter::*)(::System::Decimal, ::System::Type*)>(
     &::System::Xml::Schema::XmlNumeric10Converter::ChangeType)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x6248fac;
+  constexpr static std::size_t addrs = 0x6246d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlNumeric10Converter::*)(int32_t, ::System::Type*)>(
     &::System::Xml::Schema::XmlNumeric10Converter::ChangeType)> {
   constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x6249764;
+  constexpr static std::size_t addrs = 0x6247500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlNumeric10Converter::*)(int64_t, ::System::Type*)>(
     &::System::Xml::Schema::XmlNumeric10Converter::ChangeType)> {
   constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x6249b28;
+  constexpr static std::size_t addrs = 0x62478c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlNumeric10Converter::*)(::StringW, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlNumeric10Converter::ChangeType)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x6249f08;
+  constexpr static std::size_t addrs = 0x6247ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlNumeric10Converter::*)(::System::Object*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlNumeric10Converter::ChangeType)> {
   constexpr static std::size_t size = 0xd30;
-  constexpr static std::size_t addrs = 0x624a2d0;
+  constexpr static std::size_t addrs = 0x624806c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlNumeric10Converter::*)(::System::Object*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlNumeric10Converter::ChangeTypeWildcardDestination)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x6247d5c;
+  constexpr static std::size_t addrs = 0x6245af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlNumeric10Converter::*)(::System::Object*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlNumeric10Converter::ChangeTypeWildcardSource)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x62493ac;
+  constexpr static std::size_t addrs = 0x6247148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  /// @brief Method .ctor, addr 0x590c394, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x590a8b4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(bool autoRestart, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
 protected:
@@ -86,7 +86,7 @@ public:
   StandardGameplaySceneSetupData(StandardGameplaySceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6700 };
 
   /// @brief Field autoRestart, offset: 0x10, size: 0x1, def value: None
   bool ___autoRestart;

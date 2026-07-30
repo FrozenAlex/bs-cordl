@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x369b324;
+  constexpr static std::size_t addrs = 0x36998ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x369b38c;
+  constexpr static std::size_t addrs = 0x3699954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::*)()>(&::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::get_Format)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x369b3f4;
+  constexpr static std::size_t addrs = 0x36999bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey*>(), { "get_Format", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::*)()>(&::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::GetEncoded)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x369b438;
+  constexpr static std::size_t addrs = 0x3699a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::*)(::Org::BouncyCastle::Bcpg::BcpgOutputStream*)>(
     &::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::Encode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x369b4c0;
+  constexpr static std::size_t addrs = 0x3699a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::*)()>(
     &::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::get_X)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x369b4e4;
+  constexpr static std::size_t addrs = 0x3699aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey*>(), { "get_X", {}, {} })));

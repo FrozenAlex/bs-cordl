@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Globalization::ThaiBuddhistCalendar::*)()>(
     &::System::Globalization::ThaiBuddhistCalendar::get_MinSupportedDateTime)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5bcd630;
+  constexpr static std::size_t addrs = 0x5bcb474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Globalization::ThaiBuddhistCalendar::*)()>(
     &::System::Globalization::ThaiBuddhistCalendar::get_MaxSupportedDateTime)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5bcd68c;
+  constexpr static std::size_t addrs = 0x5bcb4d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::ThaiBuddhistCalendar::*)()>(&::System::Globalization::ThaiBuddhistCalendar::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5bcd6e8;
+  constexpr static std::size_t addrs = 0x5bcb52c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::ThaiBuddhistCalendar*>(), { ".ctor", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::ThaiBuddhistCalendar::*)()>(&::System::Globalization::ThaiBuddhistCalendar::get_ID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5bcd788;
+  constexpr static std::size_t addrs = 0x5bcb5cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::ThaiBuddhistCalendar::*)(int32_t, int32_t, int32_t)>(
     &::System::Globalization::ThaiBuddhistCalendar::GetDaysInMonth)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5bcd790;
+  constexpr static std::size_t addrs = 0x5bcb5d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::ThaiBuddhistCalendar::*)(int32_t, int32_t)>(&::System::Globalization::ThaiBuddhistCalendar::GetDaysInYear)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5bcd7a4;
+  constexpr static std::size_t addrs = 0x5bcb5e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::ThaiBuddhistCalendar::*)(::System::DateTime)>(&::System::Globalization::ThaiBuddhistCalendar::GetDayOfMonth)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5bcd7b8;
+  constexpr static std::size_t addrs = 0x5bcb5fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DayOfWeek (::System::Globalization::ThaiBuddhistCalendar::*)(::System::DateTime)>(
     &::System::Globalization::ThaiBuddhistCalendar::GetDayOfWeek)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5bcd7cc;
+  constexpr static std::size_t addrs = 0x5bcb610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::ThaiBuddhistCalendar::*)(int32_t, int32_t)>(&::System::Globalization::ThaiBuddhistCalendar::GetMonthsInYear)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5bcd7e0;
+  constexpr static std::size_t addrs = 0x5bcb624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::ThaiBuddhistCalendar::*)(::System::DateTime)>(&::System::Globalization::ThaiBuddhistCalendar::GetEra)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5bcd804;
+  constexpr static std::size_t addrs = 0x5bcb648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::ThaiBuddhistCalendar::*)(::System::DateTime)>(&::System::Globalization::ThaiBuddhistCalendar::GetMonth)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5bcd818;
+  constexpr static std::size_t addrs = 0x5bcb65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::ThaiBuddhistCalendar::*)(::System::DateTime)>(&::System::Globalization::ThaiBuddhistCalendar::GetYear)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5bcd82c;
+  constexpr static std::size_t addrs = 0x5bcb670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::ThaiBuddhistCalendar::*)(int32_t, int32_t)>(&::System::Globalization::ThaiBuddhistCalendar::IsLeapYear)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5bcd840;
+  constexpr static std::size_t addrs = 0x5bcb684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Globalization::ThaiBuddhistCalendar::*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::System::Globalization::ThaiBuddhistCalendar::ToDateTime)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5bcd854;
+  constexpr static std::size_t addrs = 0x5bcb698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::System::Globalization::ThaiBuddhistCalendar::*)()>(&::System::Globalization::ThaiBuddhistCalendar::get_Eras)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5bcd874;
+  constexpr static std::size_t addrs = 0x5bcb6b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::ThaiBuddhistCalendar::*)()>(&::System::Globalization::ThaiBuddhistCalendar::get_TwoDigitYearMax)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5bcd888;
+  constexpr static std::size_t addrs = 0x5bcb6cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::ThaiBuddhistCalendar::*)(int32_t)>(&::System::Globalization::ThaiBuddhistCalendar::set_TwoDigitYearMax)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5bcd8cc;
+  constexpr static std::size_t addrs = 0x5bcb710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::ThaiBuddhistCalendar::*)(int32_t)>(&::System::Globalization::ThaiBuddhistCalendar::ToFourDigitYear)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5bcd9f0;
+  constexpr static std::size_t addrs = 0x5bcb834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

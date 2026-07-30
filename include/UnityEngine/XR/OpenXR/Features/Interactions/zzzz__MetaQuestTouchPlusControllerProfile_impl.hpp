@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::Vector2Control* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_thumbstick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a094c8;
+  constexpr static std::size_t addrs = 0x6a07264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::Vector2Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_thumbstick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a094d0;
+  constexpr static std::size_t addrs = 0x6a0726c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_grip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a094d8;
+  constexpr static std::size_t addrs = 0x6a07274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_grip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a094e0;
+  constexpr static std::size_t addrs = 0x6a0727c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_gripPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a094e8;
+  constexpr static std::size_t addrs = 0x6a07284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_gripPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a094f0;
+  constexpr static std::size_t addrs = 0x6a0728c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_menu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a094f8;
+  constexpr static std::size_t addrs = 0x6a07294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_menu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09500;
+  constexpr static std::size_t addrs = 0x6a0729c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_primaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09508;
+  constexpr static std::size_t addrs = 0x6a072a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_primaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09510;
+  constexpr static std::size_t addrs = 0x6a072ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_primaryTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09518;
+  constexpr static std::size_t addrs = 0x6a072b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_primaryTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09520;
+  constexpr static std::size_t addrs = 0x6a072bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_secondaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09528;
+  constexpr static std::size_t addrs = 0x6a072c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_secondaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09530;
+  constexpr static std::size_t addrs = 0x6a072cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_secondaryTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09538;
+  constexpr static std::size_t addrs = 0x6a072d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_secondaryTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09540;
+  constexpr static std::size_t addrs = 0x6a072dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -267,7 +267,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09548;
+  constexpr static std::size_t addrs = 0x6a072e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09550;
+  constexpr static std::size_t addrs = 0x6a072ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09558;
+  constexpr static std::size_t addrs = 0x6a072f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09560;
+  constexpr static std::size_t addrs = 0x6a072fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -329,7 +329,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_triggerTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09568;
+  constexpr static std::size_t addrs = 0x6a07304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_triggerTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09570;
+  constexpr static std::size_t addrs = 0x6a0730c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -360,7 +360,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_thumbstickClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09578;
+  constexpr static std::size_t addrs = 0x6a07314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -375,7 +375,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_thumbstickClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09580;
+  constexpr static std::size_t addrs = 0x6a0731c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -391,7 +391,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_thumbstickTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09588;
+  constexpr static std::size_t addrs = 0x6a07324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -406,7 +406,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_thumbstickTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09590;
+  constexpr static std::size_t addrs = 0x6a0732c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -422,7 +422,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_thumbrestTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09598;
+  constexpr static std::size_t addrs = 0x6a07334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -437,7 +437,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_thumbrestTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a095a0;
+  constexpr static std::size_t addrs = 0x6a0733c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -453,7 +453,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::Input::PoseControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_devicePose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a095a8;
+  constexpr static std::size_t addrs = 0x6a07344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -468,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::XR::OpenXR::Input::PoseControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_devicePose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a095b0;
+  constexpr static std::size_t addrs = 0x6a0734c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -484,7 +484,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::Input::PoseControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_pointer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a095b8;
+  constexpr static std::size_t addrs = 0x6a07354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -499,7 +499,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::XR::OpenXR::Input::PoseControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_pointer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a095c0;
+  constexpr static std::size_t addrs = 0x6a0735c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -515,7 +515,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_isTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a095c8;
+  constexpr static std::size_t addrs = 0x6a07364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -530,7 +530,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_isTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a095d0;
+  constexpr static std::size_t addrs = 0x6a0736c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -546,7 +546,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::IntegerControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a095d8;
+  constexpr static std::size_t addrs = 0x6a07374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -561,7 +561,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::IntegerControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a095e0;
+  constexpr static std::size_t addrs = 0x6a0737c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -577,7 +577,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_devicePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a095e8;
+  constexpr static std::size_t addrs = 0x6a07384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -592,7 +592,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::Vector3Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_devicePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a095f0;
+  constexpr static std::size_t addrs = 0x6a0738c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -608,7 +608,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_deviceRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a095f8;
+  constexpr static std::size_t addrs = 0x6a07394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -623,7 +623,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::QuaternionControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_deviceRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09600;
+  constexpr static std::size_t addrs = 0x6a0739c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -639,7 +639,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_pointerPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09608;
+  constexpr static std::size_t addrs = 0x6a073a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -654,7 +654,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::Vector3Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_pointerPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09610;
+  constexpr static std::size_t addrs = 0x6a073ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -670,7 +670,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_pointerRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09618;
+  constexpr static std::size_t addrs = 0x6a073b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -685,7 +685,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::QuaternionControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_pointerRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09620;
+  constexpr static std::size_t addrs = 0x6a073bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -701,7 +701,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::Input::HapticControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_haptic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09628;
+  constexpr static std::size_t addrs = 0x6a073c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -716,7 +716,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::XR::OpenXR::Input::HapticControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_haptic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09630;
+  constexpr static std::size_t addrs = 0x6a073cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -732,7 +732,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_triggerForce)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09638;
+  constexpr static std::size_t addrs = 0x6a073d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -747,7 +747,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_triggerForce)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09640;
+  constexpr static std::size_t addrs = 0x6a073dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -763,7 +763,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_triggerCurl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09648;
+  constexpr static std::size_t addrs = 0x6a073e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -778,7 +778,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_triggerCurl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09650;
+  constexpr static std::size_t addrs = 0x6a073ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -794,7 +794,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_triggerSlide)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09658;
+  constexpr static std::size_t addrs = 0x6a073f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -809,7 +809,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_triggerSlide)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09660;
+  constexpr static std::size_t addrs = 0x6a073fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -825,7 +825,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_triggerProximity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09668;
+  constexpr static std::size_t addrs = 0x6a07404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -840,7 +840,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_triggerProximity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09670;
+  constexpr static std::size_t addrs = 0x6a0740c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -856,7 +856,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::get_thumbProximity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09678;
+  constexpr static std::size_t addrs = 0x6a07414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -871,7 +871,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::set_thumbProximity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a09680;
+  constexpr static std::size_t addrs = 0x6a0741c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -886,7 +886,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::FinishSetup)> {
   constexpr static std::size_t size = 0x5d0;
-  constexpr static std::size_t addrs = 0x6a09688;
+  constexpr static std::size_t addrs = 0x6a07424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -901,7 +901,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile_QuestTouchPlusController::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6a09c58;
+  constexpr static std::size_t addrs = 0x6a079f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1706,7 +1706,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile::OnInstanceCreate)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6a030e0;
+  constexpr static std::size_t addrs = 0x6a00e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1721,7 +1721,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile::RegisterDeviceLayout)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6a0314c;
+  constexpr static std::size_t addrs = 0x6a00ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1736,7 +1736,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile::UnregisterDeviceLayout)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6a03294;
+  constexpr static std::size_t addrs = 0x6a01030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1751,7 +1751,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile::GetDeviceLayoutName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6a03304;
+  constexpr static std::size_t addrs = 0x6a010a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1766,7 +1766,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile::RegisterActionMapsWithRuntime)> {
   constexpr static std::size_t size = 0x339c;
-  constexpr static std::size_t addrs = 0x6a03348;
+  constexpr static std::size_t addrs = 0x6a010e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1781,7 +1781,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::MetaQuestTouchPlusControllerProfile::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6a066e4;
+  constexpr static std::size_t addrs = 0x6a04480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

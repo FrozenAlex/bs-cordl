@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::BooleanStorage::*)(::System::Data::DataColumn*)>(&::System::Data::Common::BooleanStorage::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x609d5c8;
+  constexpr static std::size_t addrs = 0x609b364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::BooleanStorage::*)(::ArrayW<int32_t>, ::System::Data::AggregateType)>(
     &::System::Data::Common::BooleanStorage::Aggregate)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x609d684;
+  constexpr static std::size_t addrs = 0x609b420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Common::BooleanStorage::*)(int32_t, int32_t)>(&::System::Data::Common::BooleanStorage::Compare)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x609d9e0;
+  constexpr static std::size_t addrs = 0x609b77c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::Common::BooleanStorage::*)(int32_t, ::System::Object*)>(&::System::Data::Common::BooleanStorage::CompareValueTo)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x609da60;
+  constexpr static std::size_t addrs = 0x609b7fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::BooleanStorage::*)(::System::Object*)>(&::System::Data::Common::BooleanStorage::ConvertValue)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x609db30;
+  constexpr static std::size_t addrs = 0x609b8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::BooleanStorage::*)(int32_t, int32_t)>(&::System::Data::Common::BooleanStorage::Copy)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x609dc74;
+  constexpr static std::size_t addrs = 0x609ba10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::BooleanStorage::*)(int32_t)>(&::System::Data::Common::BooleanStorage::Get)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x609dcc8;
+  constexpr static std::size_t addrs = 0x609ba64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::BooleanStorage::*)(int32_t, ::System::Object*)>(&::System::Data::Common::BooleanStorage::Set)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x609dd1c;
+  constexpr static std::size_t addrs = 0x609bab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::BooleanStorage::*)(int32_t)>(&::System::Data::Common::BooleanStorage::SetCapacity)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x609deac;
+  constexpr static std::size_t addrs = 0x609bc48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::BooleanStorage::*)(::StringW)>(&::System::Data::Common::BooleanStorage::ConvertXmlToObject)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x609df6c;
+  constexpr static std::size_t addrs = 0x609bd08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::Common::BooleanStorage::*)(::System::Object*)>(&::System::Data::Common::BooleanStorage::ConvertObjectToXml)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x609dfec;
+  constexpr static std::size_t addrs = 0x609bd88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::Common::BooleanStorage::*)(int32_t)>(&::System::Data::Common::BooleanStorage::GetEmptyStorage)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x609e074;
+  constexpr static std::size_t addrs = 0x609be10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::BooleanStorage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(
     &::System::Data::Common::BooleanStorage::CopyValue)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x609e0c0;
+  constexpr static std::size_t addrs = 0x609be5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::Common::BooleanStorage::*)(::System::Object*, ::System::Collections::BitArray*)>(
     &::System::Data::Common::BooleanStorage::SetStorage)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x609e1c4;
+  constexpr static std::size_t addrs = 0x609bf60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

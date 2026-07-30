@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Destin
     ::BeatSaber::Destinations::DestinationTarget, ::BeatSaber::Destinations::LevelStartDestinationParameters*, ::ArrayW<::StringW>, ::BeatSaber::Destinations::DestinationFlags,
     ::BeatSaber::Destinations::MissionDestinationParameters*, ::GlobalNamespace::GameplayAdditionalInformation*)>(&::BeatSaber::Destinations::Destination::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3280294;
+  constexpr static std::size_t addrs = 0x327d554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Destinations::Destination::*)()>(&::BeatSaber::Destinations::Destination::get_shouldLoadMenu)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32803a4;
+  constexpr static std::size_t addrs = 0x327d664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::Destination*>(), { "get_shouldLoadMenu", {}, {} })));
@@ -47,10 +47,22 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Destinations::Destination::*)()>(&::BeatSaber::Destinations::Destination::get_shouldLoadHealthWarning)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32803b0;
+  constexpr static std::size_t addrs = 0x327d670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::Destination*>(), { "get_shouldLoadHealthWarning", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::Destinations::Destination.get_shouldMockOnlineServices
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Destinations::Destination::*)()>(&::BeatSaber::Destinations::Destination::get_shouldMockOnlineServices)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x327d67c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::Destination*>(), { "get_shouldMockOnlineServices", {}, {} })));
     return ___internal_method;
   }
 };
@@ -146,6 +158,10 @@ inline bool BeatSaber::Destinations::Destination::get_shouldLoadMenu() {
 }
 inline bool BeatSaber::Destinations::Destination::get_shouldLoadHealthWarning() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::Destination*>(), { "get_shouldLoadHealthWarning", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline bool BeatSaber::Destinations::Destination::get_shouldMockOnlineServices() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::Destination*>(), { "get_shouldMockOnlineServices", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
 inline ::BeatSaber::Destinations::Destination* BeatSaber::Destinations::Destination::New_ctor(::BeatSaber::Destinations::DestinationTarget stage,

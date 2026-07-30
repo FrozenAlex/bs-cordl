@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::IndirectBufferContextHandles::*)(::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*)>(
     &::UnityEngine::Rendering::IndirectBufferContextHandles::UseForOcclusionTest)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x682a51c;
+  constexpr static std::size_t addrs = 0x68282b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

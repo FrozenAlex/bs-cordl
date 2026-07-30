@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::UIBehaviour::*)()>(&::UnityEngine::EventSystems::UIBehaviour::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e2114c;
+  constexpr static std::size_t addrs = 0x6e1cb50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::UIBehaviour::*)()>(&::UnityEngine::EventSystems::UIBehaviour::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e11bdc;
+  constexpr static std::size_t addrs = 0x6e0d5e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::UIBehaviour::*)()>(&::UnityEngine::EventSystems::UIBehaviour::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e172bc;
+  constexpr static std::size_t addrs = 0x6e12cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::UIBehaviour::*)()>(&::UnityEngine::EventSystems::UIBehaviour::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e11be4;
+  constexpr static std::size_t addrs = 0x6e0d5e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::UIBehaviour::*)()>(&::UnityEngine::EventSystems::UIBehaviour::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e21150;
+  constexpr static std::size_t addrs = 0x6e1cb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::EventSystems::UIBehaviour::*)()>(&::UnityEngine::EventSystems::UIBehaviour::IsActive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e21154;
+  constexpr static std::size_t addrs = 0x6e1cb58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::UIBehaviour::*)()>(&::UnityEngine::EventSystems::UIBehaviour::OnRectTransformDimensionsChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e2115c;
+  constexpr static std::size_t addrs = 0x6e1cb60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::UIBehaviour::*)()>(&::UnityEngine::EventSystems::UIBehaviour::OnBeforeTransformParentChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e21160;
+  constexpr static std::size_t addrs = 0x6e1cb64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::UIBehaviour::*)()>(&::UnityEngine::EventSystems::UIBehaviour::OnTransformParentChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e1ffc8;
+  constexpr static std::size_t addrs = 0x6e1b9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::UIBehaviour::*)()>(&::UnityEngine::EventSystems::UIBehaviour::OnDidApplyAnimationProperties)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e21164;
+  constexpr static std::size_t addrs = 0x6e1cb68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::UIBehaviour::*)()>(&::UnityEngine::EventSystems::UIBehaviour::OnCanvasGroupChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e21168;
+  constexpr static std::size_t addrs = 0x6e1cb6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::UIBehaviour::*)()>(&::UnityEngine::EventSystems::UIBehaviour::OnCanvasHierarchyChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e1ffbc;
+  constexpr static std::size_t addrs = 0x6e1b9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::EventSystems::UIBehaviour::*)()>(&::UnityEngine::EventSystems::UIBehaviour::IsDestroyed)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6e2116c;
+  constexpr static std::size_t addrs = 0x6e1cb70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::UIBehaviour*>(), { "IsDestroyed", {}, {} })));
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::UIBehaviour::*)()>(&::UnityEngine::EventSystems::UIBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e13d58;
+  constexpr static std::size_t addrs = 0x6e0f75c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::UIBehaviour*>(), { ".ctor", {}, {} })));

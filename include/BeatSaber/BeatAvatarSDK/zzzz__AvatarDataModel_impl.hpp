@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarDataModel__DeleteAsyncInternal_d__20::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarDataModel__DeleteAsyncInternal_d__20::MoveNext)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x327a470;
+  constexpr static std::size_t addrs = 0x3277730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarDataModel__DeleteAsyncInternal_d__20::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::BeatSaber::BeatAvatarSDK::AvatarDataModel__DeleteAsyncInternal_d__20::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x327a71c;
+  constexpr static std::size_t addrs = 0x32779dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarDataModel__DeleteAsyncInternal_d__20>(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarDataModel__LoadInternalAsync_d__16::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarDataModel__LoadInternalAsync_d__16::MoveNext)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x327a79c;
+  constexpr static std::size_t addrs = 0x3277a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarDataModel__LoadInternalAsync_d__16::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::BeatSaber::BeatAvatarSDK::AvatarDataModel__LoadInternalAsync_d__16::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x327aa08;
+  constexpr static std::size_t addrs = 0x3277cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarDataModel__LoadInternalAsync_d__16>(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarDataModel__SaveInternalAsync_d__14::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarDataModel__SaveInternalAsync_d__14::MoveNext)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x327aa88;
+  constexpr static std::size_t addrs = 0x3277d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarDataModel__SaveInternalAsync_d__14::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::BeatSaber::BeatAvatarSDK::AvatarDataModel__SaveInternalAsync_d__14::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x327adfc;
+  constexpr static std::size_t addrs = 0x32780bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarDataModel__SaveInternalAsync_d__14>(),
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::BeatAvatarSDK::AvatarData* (::BeatSaber::BeatAvatarSDK::AvatarDataModel::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarDataModel::get_avatarData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3279a1c;
+  constexpr static std::size_t addrs = 0x3276cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarDataModel*>(), { "get_avatarData", {}, {} })));
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarDataModel::*)(::BeatSaber::BeatAvatarSDK::AvatarData*)>(
     &::BeatSaber::BeatAvatarSDK::AvatarDataModel::set_avatarData)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3279a24;
+  constexpr static std::size_t addrs = 0x3276ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarDataModel::*)(::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>*)>(
     &::BeatSaber::BeatAvatarSDK::AvatarDataModel::add_didChangeAvatarDataEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3279abc;
+  constexpr static std::size_t addrs = 0x3276d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarDataModel::*)(::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>*)>(
     &::BeatSaber::BeatAvatarSDK::AvatarDataModel::remove_didChangeAvatarDataEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3279b7c;
+  constexpr static std::size_t addrs = 0x3276e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarDataModel::*)()>(&::BeatSaber::BeatAvatarSDK::AvatarDataModel::Init)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3279c3c;
+  constexpr static std::size_t addrs = 0x3276efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarDataModel*>(), { "Init", {}, {} })));
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::BeatSaber::BeatAvatarSDK::AvatarDataModel::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarDataModel::RequestIsAvatarCreatedAsync)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3279d30;
+  constexpr static std::size_t addrs = 0x3276ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -281,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::BeatAvatarSDK::AvatarDataModel::*)()>(&::BeatSaber::BeatAvatarSDK::AvatarDataModel::SaveAsync)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3279d38;
+  constexpr static std::size_t addrs = 0x3276ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarDataModel*>(), { "SaveAsync", {}, {} })));
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::BeatSaber::BeatAvatarSDK::AvatarDataModel::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarDataModel::SaveInternalAsync)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3279d50;
+  constexpr static std::size_t addrs = 0x3277010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarDataModel*>(), { "SaveInternalAsync", {}, {} })));
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::BeatAvatarSDK::AvatarDataModel::*)()>(&::BeatSaber::BeatAvatarSDK::AvatarDataModel::LoadAsync)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3279e2c;
+  constexpr static std::size_t addrs = 0x32770ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarDataModel*>(), { "LoadAsync", {}, {} })));
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::BeatSaber::BeatAvatarSDK::AvatarDataModel::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarDataModel::LoadInternalAsync)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3279e44;
+  constexpr static std::size_t addrs = 0x3277104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarDataModel*>(), { "LoadInternalAsync", {}, {} })));
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::BeatSaber::BeatAvatarSDK::AvatarSaveData*>* (*)(::GlobalNamespace::IFileStorage*)>(
     &::BeatSaber::BeatAvatarSDK::AvatarDataModel::LoadFromSaveDataAsync)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3279f20;
+  constexpr static std::size_t addrs = 0x32771e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::BeatAvatarSDK::AvatarDataModel::*)(::BeatSaber::BeatAvatarSDK::AvatarSaveData*)>(
     &::BeatSaber::BeatAvatarSDK::AvatarDataModel::Load)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3279f8c;
+  constexpr static std::size_t addrs = 0x327724c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -361,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::BeatAvatarSDK::AvatarDataModel::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarDataModel::DeleteAsync)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x327a174;
+  constexpr static std::size_t addrs = 0x3277434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarDataModel*>(), { "DeleteAsync", {}, {} })));
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::BeatSaber::BeatAvatarSDK::AvatarDataModel::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarDataModel::DeleteAsyncInternal)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x327a18c;
+  constexpr static std::size_t addrs = 0x327744c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarDataModel*>(), { "DeleteAsyncInternal", {}, {} })));
@@ -386,7 +386,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarDataModel::*)()>(&::BeatSaber::BeatAvatarSDK::AvatarDataModel::ReportAvatarChanged)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3279a9c;
+  constexpr static std::size_t addrs = 0x3276d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarDataModel*>(), { "ReportAvatarChanged", {}, {} })));
@@ -399,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::BeatAvatarSDK::AvatarData* (*)(::BeatSaber::BeatAvatarSDK::AvatarSaveData*)>(
     &::BeatSaber::BeatAvatarSDK::AvatarDataModel::LoadFromCurrentVersion)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x3279fdc;
+  constexpr static std::size_t addrs = 0x327729c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarDataModel*>(),
@@ -413,7 +413,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::BeatAvatarSDK::AvatarData* (::BeatSaber::BeatAvatarSDK::AvatarDataModel::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarDataModel::CreateDefaultAvatarData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x327a170;
+  constexpr static std::size_t addrs = 0x3277430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarDataModel*>(), { "CreateDefaultAvatarData", {}, {} })));
@@ -426,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::BeatAvatarSDK::AvatarData* (::BeatSaber::BeatAvatarSDK::AvatarDataModel::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarDataModel::CreateRandomAvatarData)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x327a268;
+  constexpr static std::size_t addrs = 0x3277528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarDataModel*>(), { "CreateRandomAvatarData", {}, {} })));
@@ -438,7 +438,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarDataModel::*)()>(&::BeatSaber::BeatAvatarSDK::AvatarDataModel::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x327a3f4;
+  constexpr static std::size_t addrs = 0x32776b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarDataModel*>(), { ".ctor", {}, {} })));

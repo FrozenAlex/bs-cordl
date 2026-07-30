@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__1::*)()>(
     &::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__1::MoveNext)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x5f2e488;
+  constexpr static std::size_t addrs = 0x5f2c1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__1::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__1::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f2e738;
+  constexpr static std::size_t addrs = 0x5f2c4a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::MockedPlatformFactory__CreateAsync_d__1>(),
@@ -79,7 +79,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::OculusStudios::Platform::Core::MockedPlatformFactory::*)(::OculusStudios::Platform::Core::PlatformInitParams*)>(
     &::OculusStudios::Platform::Core::MockedPlatformFactory::OculusStudios_Platform_Core_IPlatformFactory_CreateAsync)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f2e39c;
+  constexpr static std::size_t addrs = 0x5f2c108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::OculusStudios::Platform::Core::IPlatform*>* (*)(::OculusStudios::Platform::Core::PlatformInitParams*)>(
     &::OculusStudios::Platform::Core::MockedPlatformFactory::CreateAsync)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5f2e3a4;
+  constexpr static std::size_t addrs = 0x5f2c110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::MockedPlatformFactory*>(),
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::MockedPlatformFactory::*)()>(&::OculusStudios::Platform::Core::MockedPlatformFactory::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f2e484;
+  constexpr static std::size_t addrs = 0x5f2c1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::MockedPlatformFactory*>(), { ".ctor", {}, {} })));

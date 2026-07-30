@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTimeKind (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)()>(
     &::Newtonsoft::Json::Bson::BsonBinaryWriter::get_DateTimeKindHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5da88fc;
+  constexpr static std::size_t addrs = 0x5da6668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Bson::BsonBinaryWriter*>(), { "get_DateTimeKindHandling", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)(::System::DateTimeKind)>(
     &::Newtonsoft::Json::Bson::BsonBinaryWriter::set_DateTimeKindHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5da8904;
+  constexpr static std::size_t addrs = 0x5da6670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)(::System::IO::BinaryWriter*)>(&::Newtonsoft::Json::Bson::BsonBinaryWriter::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5da890c;
+  constexpr static std::size_t addrs = 0x5da6678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)()>(&::Newtonsoft::Json::Bson::BsonBinaryWriter::Flush)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5da891c;
+  constexpr static std::size_t addrs = 0x5da6688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Bson::BsonBinaryWriter*>(), { "Flush", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)()>(&::Newtonsoft::Json::Bson::BsonBinaryWriter::Close)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5da8938;
+  constexpr static std::size_t addrs = 0x5da66a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Bson::BsonBinaryWriter*>(), { "Close", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)(::Newtonsoft::Json::Bson::BsonToken*)>(
     &::Newtonsoft::Json::Bson::BsonBinaryWriter::WriteToken)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5da8954;
+  constexpr static std::size_t addrs = 0x5da66c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)(::Newtonsoft::Json::Bson::BsonToken*)>(
     &::Newtonsoft::Json::Bson::BsonBinaryWriter::WriteTokenInternal)> {
   constexpr static std::size_t size = 0xe4c;
-  constexpr static std::size_t addrs = 0x5da919c;
+  constexpr static std::size_t addrs = 0x5da6f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)(::StringW, int32_t, ::System::Nullable_1<int32_t>)>(
     &::Newtonsoft::Json::Bson::BsonBinaryWriter::WriteString)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5daa070;
+  constexpr static std::size_t addrs = 0x5da7ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)(::StringW, int32_t)>(&::Newtonsoft::Json::Bson::BsonBinaryWriter::WriteUtf8Bytes)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x5daa1b4;
+  constexpr static std::size_t addrs = 0x5da7f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)(int32_t)>(&::Newtonsoft::Json::Bson::BsonBinaryWriter::CalculateSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5daa320;
+  constexpr static std::size_t addrs = 0x5da808c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)(int32_t, bool)>(&::Newtonsoft::Json::Bson::BsonBinaryWriter::CalculateSizeWithLength)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5daa328;
+  constexpr static std::size_t addrs = 0x5da8094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Newtonsoft::Json::Bson::BsonBinaryWriter::*)(::Newtonsoft::Json::Bson::BsonToken*)>(
     &::Newtonsoft::Json::Bson::BsonBinaryWriter::CalculateSize)> {
   constexpr static std::size_t size = 0x820;
-  constexpr static std::size_t addrs = 0x5da897c;
+  constexpr static std::size_t addrs = 0x5da66e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

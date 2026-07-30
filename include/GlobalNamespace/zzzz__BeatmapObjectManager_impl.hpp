@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager_NoteWasCutDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::GlobalNamespace::BeatmapObjectManager_NoteWasCutDelegate::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x58cb924;
+  constexpr static std::size_t addrs = 0x58c9dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectManager_NoteWasCutDelegate*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager_NoteWasCutDelegate::*)(
     ::GlobalNamespace::NoteController*, ::by_ref<::GlobalNamespace::NoteCutInfo>)>(&::GlobalNamespace::BeatmapObjectManager_NoteWasCutDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x58cba6c;
+  constexpr static std::size_t addrs = 0x58c9f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectManager_NoteWasCutDelegate*>(),
@@ -68,7 +68,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::GlobalNamespace::BeatmapObjectManager_NoteWasCutDelegate::*)(::GlobalNamespace::NoteController*, ::by_ref<::GlobalNamespace::NoteCutInfo>, ::System::AsyncCallback*, ::System::Object*)>(
     &::GlobalNamespace::BeatmapObjectManager_NoteWasCutDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x58cba80;
+  constexpr static std::size_t addrs = 0x58c9f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectManager_NoteWasCutDelegate*>(),
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager_NoteWasCutDelegate::*)(::by_ref<::GlobalNamespace::NoteCutInfo>, ::System::IAsyncResult*)>(
     &::GlobalNamespace::BeatmapObjectManager_NoteWasCutDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58cbb18;
+  constexpr static std::size_t addrs = 0x58c9ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectManager_NoteWasCutDelegate*>(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::NoteSpawnData>*)>(
     &::GlobalNamespace::BeatmapObjectManager::add_noteWasAddedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c7bf4;
+  constexpr static std::size_t addrs = 0x58c60cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::NoteSpawnData>*)>(
     &::GlobalNamespace::BeatmapObjectManager::remove_noteWasAddedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c7cb4;
+  constexpr static std::size_t addrs = 0x58c618c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::add_noteWasSpawnedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c7d74;
+  constexpr static std::size_t addrs = 0x58c624c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::remove_noteWasSpawnedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c7e34;
+  constexpr static std::size_t addrs = 0x58c630c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::add_noteWasDespawnedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c7ef4;
+  constexpr static std::size_t addrs = 0x58c63cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::remove_noteWasDespawnedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c7fb4;
+  constexpr static std::size_t addrs = 0x58c648c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::add_noteWasMissedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c8074;
+  constexpr static std::size_t addrs = 0x58c654c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::remove_noteWasMissedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c8134;
+  constexpr static std::size_t addrs = 0x58c660c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::BeatmapObjectManager_NoteWasCutDelegate*)>(
     &::GlobalNamespace::BeatmapObjectManager::add_noteWasCutEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x58c81f4;
+  constexpr static std::size_t addrs = 0x58c66cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::BeatmapObjectManager_NoteWasCutDelegate*)>(
     &::GlobalNamespace::BeatmapObjectManager::remove_noteWasCutEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x58c82a0;
+  constexpr static std::size_t addrs = 0x58c6778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::add_noteDidStartJumpEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c834c;
+  constexpr static std::size_t addrs = 0x58c6824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -288,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::remove_noteDidStartJumpEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c840c;
+  constexpr static std::size_t addrs = 0x58c68e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -303,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::NoteControllerBase>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::add_noteDidStartDissolvingEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c84cc;
+  constexpr static std::size_t addrs = 0x58c69a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::NoteControllerBase>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::remove_noteDidStartDissolvingEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c858c;
+  constexpr static std::size_t addrs = 0x58c6a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(
     ::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::ObstacleSpawnData, float_t>*)>(&::GlobalNamespace::BeatmapObjectManager::add_obstacleWasAddedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c864c;
+  constexpr static std::size_t addrs = 0x58c6b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(
     ::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::ObstacleSpawnData, float_t>*)>(&::GlobalNamespace::BeatmapObjectManager::remove_obstacleWasAddedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c870c;
+  constexpr static std::size_t addrs = 0x58c6be4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::add_obstacleWasSpawnedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c87cc;
+  constexpr static std::size_t addrs = 0x58c6ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::remove_obstacleWasSpawnedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c888c;
+  constexpr static std::size_t addrs = 0x58c6d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -395,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::add_obstacleWasDespawnedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c894c;
+  constexpr static std::size_t addrs = 0x58c6e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -410,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::remove_obstacleWasDespawnedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c8a0c;
+  constexpr static std::size_t addrs = 0x58c6ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -425,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::add_obstacleDidPassThreeQuartersOfMove2Event)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c8acc;
+  constexpr static std::size_t addrs = 0x58c6fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -440,7 +440,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::remove_obstacleDidPassThreeQuartersOfMove2Event)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c8b8c;
+  constexpr static std::size_t addrs = 0x58c7064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -456,7 +456,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::add_obstacleDidPassAvoidedMarkEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c7128;
+  constexpr static std::size_t addrs = 0x58c5600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -471,7 +471,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::remove_obstacleDidPassAvoidedMarkEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c73e4;
+  constexpr static std::size_t addrs = 0x58c58bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -486,7 +486,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_2<::GlobalNamespace::SliderData*, ::GlobalNamespace::SliderSpawnData>*)>(
     &::GlobalNamespace::BeatmapObjectManager::add_sliderWasAddedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c8c4c;
+  constexpr static std::size_t addrs = 0x58c7124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -501,7 +501,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_2<::GlobalNamespace::SliderData*, ::GlobalNamespace::SliderSpawnData>*)>(
     &::GlobalNamespace::BeatmapObjectManager::remove_sliderWasAddedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c8d0c;
+  constexpr static std::size_t addrs = 0x58c71e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -516,7 +516,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::add_sliderWasSpawnedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c8dcc;
+  constexpr static std::size_t addrs = 0x58c72a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -531,7 +531,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::remove_sliderWasSpawnedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c8e8c;
+  constexpr static std::size_t addrs = 0x58c7364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -546,7 +546,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::add_sliderWasDespawnedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c8f4c;
+  constexpr static std::size_t addrs = 0x58c7424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -561,7 +561,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>*)>(
     &::GlobalNamespace::BeatmapObjectManager::remove_sliderWasDespawnedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c900c;
+  constexpr static std::size_t addrs = 0x58c74e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -576,7 +576,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::BeatmapObjectManager::add_didHideAllBeatmapObjectsEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c90cc;
+  constexpr static std::size_t addrs = 0x58c75a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -591,7 +591,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::BeatmapObjectManager::remove_didHideAllBeatmapObjectsEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x58c918c;
+  constexpr static std::size_t addrs = 0x58c7664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectManager*>(),
@@ -702,7 +702,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapObjectManager::*)()>(&::GlobalNamespace::BeatmapObjectManager::get_spawnHidden)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58c924c;
+  constexpr static std::size_t addrs = 0x58c7724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectManager*>(), { "get_spawnHidden", {}, {} })));
@@ -714,7 +714,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(bool)>(&::GlobalNamespace::BeatmapObjectManager::set_spawnHidden)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58c9254;
+  constexpr static std::size_t addrs = 0x58c772c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -728,7 +728,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::ObstacleController*, ::GlobalNamespace::ObstacleSpawnData)>(
     &::GlobalNamespace::BeatmapObjectManager::AddSpawnedObstacleController)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x58c925c;
+  constexpr static std::size_t addrs = 0x58c7734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -744,7 +744,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::NoteController*, ::GlobalNamespace::NoteSpawnData)>(
     &::GlobalNamespace::BeatmapObjectManager::AddSpawnedNoteController)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x58c9da0;
+  constexpr static std::size_t addrs = 0x58c8278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -759,7 +759,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::SliderController*, ::GlobalNamespace::SliderSpawnData)>(
     &::GlobalNamespace::BeatmapObjectManager::AddSpawnedSliderController)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x58ca27c;
+  constexpr static std::size_t addrs = 0x58c8754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -775,7 +775,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::BeatmapObjectManager::SetNoteControllerEventCallbacks)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x58c9f34;
+  constexpr static std::size_t addrs = 0x58c840c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectManager*>(),
@@ -789,7 +789,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::BeatmapObjectManager::RemoveNoteControllerEventCallbacks)> {
   constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x58ca518;
+  constexpr static std::size_t addrs = 0x58c89f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectManager*>(),
@@ -803,7 +803,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::SliderController*)>(
     &::GlobalNamespace::BeatmapObjectManager::SetSliderNoteControllerEventCallbacks)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x58ca3e4;
+  constexpr static std::size_t addrs = 0x58c88bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -818,7 +818,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::SliderController*)>(
     &::GlobalNamespace::BeatmapObjectManager::RemoveSliderNoteControllerEventCallbacks)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x58ca864;
+  constexpr static std::size_t addrs = 0x58c8d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -833,7 +833,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::BeatmapObjectManager::SetObstacleEventCallbacks)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x58c93d0;
+  constexpr static std::size_t addrs = 0x58c78a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectManager*>(),
@@ -847,7 +847,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::BeatmapObjectManager::RemoveObstacleEventCallbacks)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x58caca0;
+  constexpr static std::size_t addrs = 0x58c9178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectManager*>(),
@@ -860,7 +860,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::NoteController*)>(&::GlobalNamespace::BeatmapObjectManager::Despawn)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x58cb0f4;
+  constexpr static std::size_t addrs = 0x58c95cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -873,7 +873,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::ObstacleController*)>(&::GlobalNamespace::BeatmapObjectManager::Despawn)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x58cb1a8;
+  constexpr static std::size_t addrs = 0x58c9680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -886,7 +886,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::SliderController*)>(&::GlobalNamespace::BeatmapObjectManager::Despawn)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x58cb25c;
+  constexpr static std::size_t addrs = 0x58c9734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -900,7 +900,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::BeatmapObjectManager::HandleNoteControllerNoteDidStartJump)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58cb310;
+  constexpr static std::size_t addrs = 0x58c97e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectManager*>(),
@@ -914,7 +914,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::BeatmapObjectManager::HandleNoteControllerNoteWasMissed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58cb32c;
+  constexpr static std::size_t addrs = 0x58c9804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectManager*>(),
@@ -928,7 +928,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::BeatmapObjectManager::HandleNoteControllerNoteDidFinishJump)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58cb348;
+  constexpr static std::size_t addrs = 0x58c9820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectManager*>(),
@@ -942,7 +942,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::NoteControllerBase*, float_t)>(
     &::GlobalNamespace::BeatmapObjectManager::HandleNoteControllerNoteDidStartDissolving)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58cb34c;
+  constexpr static std::size_t addrs = 0x58c9824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -957,7 +957,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::BeatmapObjectManager::HandleNoteControllerNoteDidDissolve)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58cb368;
+  constexpr static std::size_t addrs = 0x58c9840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectManager*>(),
@@ -971,7 +971,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::NoteController*, ::by_ref<::GlobalNamespace::NoteCutInfo>)>(
     &::GlobalNamespace::BeatmapObjectManager::HandleNoteControllerNoteWasCut)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x58cb36c;
+  constexpr static std::size_t addrs = 0x58c9844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -987,7 +987,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::BeatmapObjectManager::HandleObstaclePassedThreeQuartersOfJumpDuration)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58cb3ac;
+  constexpr static std::size_t addrs = 0x58c9884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1002,7 +1002,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::BeatmapObjectManager::HandleObstaclePassedAvoidedMark)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58cb3c8;
+  constexpr static std::size_t addrs = 0x58c98a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectManager*>(),
@@ -1016,7 +1016,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::BeatmapObjectManager::HandleObstacleFinishedMovement)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58cb3e4;
+  constexpr static std::size_t addrs = 0x58c98bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectManager*>(),
@@ -1030,7 +1030,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::BeatmapObjectManager::HandleObstacleDidDissolve)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58cb3e8;
+  constexpr static std::size_t addrs = 0x58c98c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectManager*>(),
@@ -1044,7 +1044,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::SliderController*)>(
     &::GlobalNamespace::BeatmapObjectManager::HandleSliderDidFinishJump)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58cb3ec;
+  constexpr static std::size_t addrs = 0x58c98c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectManager*>(),
@@ -1058,7 +1058,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::SliderController*)>(
     &::GlobalNamespace::BeatmapObjectManager::HandleSliderDidDissolve)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58cb3f0;
+  constexpr static std::size_t addrs = 0x58c98c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1072,7 +1072,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)()>(&::GlobalNamespace::BeatmapObjectManager::DissolveAllObjects)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x58cb3f4;
+  constexpr static std::size_t addrs = 0x58c98cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectManager*>(), { "DissolveAllObjects", {}, {} })));
@@ -1084,7 +1084,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(bool)>(&::GlobalNamespace::BeatmapObjectManager::HideAllBeatmapObjects)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x58cb578;
+  constexpr static std::size_t addrs = 0x58c9a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1097,7 +1097,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(bool)>(&::GlobalNamespace::BeatmapObjectManager::PauseAllBeatmapObjects)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x58cb728;
+  constexpr static std::size_t addrs = 0x58c9c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1110,7 +1110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)()>(&::GlobalNamespace::BeatmapObjectManager::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x58cb8ac;
+  constexpr static std::size_t addrs = 0x58c9d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectManager*>(), { ".ctor", {}, {} })));
@@ -1123,7 +1123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectManager::*)(::GlobalNamespace::NoteController*, ::by_ref<::GlobalNamespace::NoteCutInfo>)>(
     &::GlobalNamespace::BeatmapObjectManager::INoteControllerNoteWasCutEvent_HandleNoteControllerNoteWasCut)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58cb920;
+  constexpr static std::size_t addrs = 0x58c9df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -22,15 +22,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE MockPlayerLobbyPoseGeneratorRecording : public ::GlobalNamespace::MockPlayerLobbyPoseGenerator {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x59c8a50, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x59c70c0, size 0x70, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording* New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method Tick, addr 0x59c8ac0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x59c7130, size 0x70, virtual true, abstract: false, final false
   inline void Tick();
 
-  /// @brief Method .ctor, addr 0x59c6a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c5094, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager);
 
 protected:

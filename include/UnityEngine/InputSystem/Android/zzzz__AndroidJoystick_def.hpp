@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidJoystick* New_ctor();
 
-  /// @brief Method .ctor, addr 0x65a6278, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65a4014, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

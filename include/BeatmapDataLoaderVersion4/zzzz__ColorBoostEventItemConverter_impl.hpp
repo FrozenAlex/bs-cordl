@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2::*)(int32_t)>(
     &::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x375fbb8;
+  constexpr static std::size_t addrs = 0x375e6dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2::*)()>(
     &::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x375fbd8;
+  constexpr static std::size_t addrs = 0x375e6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2::*)()>(
     &::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2::MoveNext)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x375fbdc;
+  constexpr static std::size_t addrs = 0x375e700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapEventData* (::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2::*)()>(
     &::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2::System_Collections_Generic_IEnumerator_BeatmapEventData__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375fcd4;
+  constexpr static std::size_t addrs = 0x375e7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2*>(),
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2::*)()>(
     &::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x375fcdc;
+  constexpr static std::size_t addrs = 0x375e800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2::*)()>(
     &::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375fd14;
+  constexpr static std::size_t addrs = 0x375e838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapEventData*>* (::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2::*)()>(
         &::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2::System_Collections_Generic_IEnumerable_BeatmapEventData__GetEnumerator)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x375fd1c;
+  constexpr static std::size_t addrs = 0x375e840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2*>(),
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2::*)()>(
     &::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter__Convert_d__2::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x375fdbc;
+  constexpr static std::size_t addrs = 0x375e8e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter::*)(
     ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent>, ::GlobalNamespace::BpmTimeProcessor*)>(&::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x375f534;
+  constexpr static std::size_t addrs = 0x375e058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* (
     ::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter::*)(::BeatmapSaveDataVersion4::BeatIndex*)>(&::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter::Convert)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x375f6e8;
+  constexpr static std::size_t addrs = 0x375e20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter*>(),

@@ -45,7 +45,7 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaGroupRef* New_ctor();
 
-  /// @brief Method SetParticle, addr 0x622c004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetParticle, addr 0x6229da0, size 0x8, virtual false, abstract: false, final false
   inline void SetParticle(::System::Xml::Schema::XmlSchemaGroupBase* value);
 
   constexpr ::System::Xml::Schema::XmlSchemaGroupBase* const& __cordl_internal_get_particle() const;
@@ -66,22 +66,22 @@ public:
 
   constexpr void __cordl_internal_set_refined(::System::Xml::Schema::XmlSchemaGroup* value);
 
-  /// @brief Method .ctor, addr 0x622c01c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6229db8, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Particle, addr 0x622bffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Particle, addr 0x6229d98, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaGroupBase* get_Particle();
 
-  /// @brief Method get_Redefined, addr 0x622c00c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Redefined, addr 0x6229da8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaGroup* get_Redefined();
 
-  /// @brief Method get_RefName, addr 0x622bff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RefName, addr 0x6229d90, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_RefName();
 
-  /// @brief Method set_Redefined, addr 0x622c014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Redefined, addr 0x6229db0, size 0x8, virtual false, abstract: false, final false
   inline void set_Redefined(::System::Xml::Schema::XmlSchemaGroup* value);
 
-  /// @brief Method set_RefName, addr 0x6229d84, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_RefName, addr 0x6227b20, size 0x94, virtual false, abstract: false, final false
   inline void set_RefName(::System::Xml::XmlQualifiedName* value);
 
 protected:

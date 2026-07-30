@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::LazyState (::System::LazyHelper::*)()>(&::System::LazyHelper::get_State)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c46b2c;
+  constexpr static std::size_t addrs = 0x5c44898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::LazyHelper*>(), { "get_State", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::LazyHelper::*)(::System::LazyState)>(&::System::LazyHelper::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c46b34;
+  constexpr static std::size_t addrs = 0x5c448a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::LazyHelper*>(), { ".ctor", {}, { ::i2c::type_of<::System::LazyState>() } })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::LazyHelper::*)(::System::Threading::LazyThreadSafetyMode, ::System::Exception*)>(&::System::LazyHelper::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5c46b3c;
+  constexpr static std::size_t addrs = 0x5c448a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::LazyHelper::*)()>(&::System::LazyHelper::ThrowException)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5c46b74;
+  constexpr static std::size_t addrs = 0x5c448e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::LazyHelper*>(), { "ThrowException", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::LazyHelper* (*)(::System::Threading::LazyThreadSafetyMode, bool)>(&::System::LazyHelper::Create)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5c46b8c;
+  constexpr static std::size_t addrs = 0x5c448f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Type*)>(&::System::LazyHelper::CreateViaDefaultConstructor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5c46ce4;
+  constexpr static std::size_t addrs = 0x5c44a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

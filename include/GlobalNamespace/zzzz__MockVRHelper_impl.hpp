@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockVRHelper::*)(::System::Action*)>(&::GlobalNamespace::MockVRHelper::add_inputFocusWasCapturedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x585d524;
+  constexpr static std::size_t addrs = 0x585ba20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockVRHelper::*)(::System::Action*)>(&::GlobalNamespace::MockVRHelper::remove_inputFocusWasCapturedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x585d5d0;
+  constexpr static std::size_t addrs = 0x585bacc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockVRHelper::*)(::System::Action*)>(&::GlobalNamespace::MockVRHelper::add_inputFocusWasReleasedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x585d67c;
+  constexpr static std::size_t addrs = 0x585bb78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockVRHelper::*)(::System::Action*)>(&::GlobalNamespace::MockVRHelper::remove_inputFocusWasReleasedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x585d728;
+  constexpr static std::size_t addrs = 0x585bc24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockVRHelper::*)(::System::Action*)>(&::GlobalNamespace::MockVRHelper::add_vrFocusWasCapturedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x585d7d4;
+  constexpr static std::size_t addrs = 0x585bcd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockVRHelper::*)(::System::Action*)>(&::GlobalNamespace::MockVRHelper::remove_vrFocusWasCapturedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x585d880;
+  constexpr static std::size_t addrs = 0x585bd7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockVRHelper::*)(::System::Action*)>(&::GlobalNamespace::MockVRHelper::add_vrFocusWasReleasedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x585d92c;
+  constexpr static std::size_t addrs = 0x585be28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockVRHelper::*)(::System::Action*)>(&::GlobalNamespace::MockVRHelper::remove_vrFocusWasReleasedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x585d9d8;
+  constexpr static std::size_t addrs = 0x585bed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockVRHelper::*)(::System::Action*)>(&::GlobalNamespace::MockVRHelper::add_hmdUnmountedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x585da84;
+  constexpr static std::size_t addrs = 0x585bf80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockVRHelper::*)(::System::Action*)>(&::GlobalNamespace::MockVRHelper::remove_hmdUnmountedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x585db30;
+  constexpr static std::size_t addrs = 0x585c02c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockVRHelper::*)(::System::Action*)>(&::GlobalNamespace::MockVRHelper::add_hmdMountedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x585dbdc;
+  constexpr static std::size_t addrs = 0x585c0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockVRHelper::*)(::System::Action*)>(&::GlobalNamespace::MockVRHelper::remove_hmdMountedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x585dc88;
+  constexpr static std::size_t addrs = 0x585c184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockVRHelper::*)(::System::Action*)>(&::GlobalNamespace::MockVRHelper::add_controllersDidChangeReferenceEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x585dd34;
+  constexpr static std::size_t addrs = 0x585c230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockVRHelper::*)(::System::Action*)>(&::GlobalNamespace::MockVRHelper::remove_controllersDidChangeReferenceEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x585dde0;
+  constexpr static std::size_t addrs = 0x585c2dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockVRHelper::*)(::System::Action*)>(&::GlobalNamespace::MockVRHelper::add_controllersDidDisconnectEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x585de8c;
+  constexpr static std::size_t addrs = 0x585c388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockVRHelper::*)(::System::Action*)>(&::GlobalNamespace::MockVRHelper::remove_controllersDidDisconnectEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x585df38;
+  constexpr static std::size_t addrs = 0x585c434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockVRHelper::*)()>(&::GlobalNamespace::MockVRHelper::get_debugUpdateOffsetsContinuously)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585dfe4;
+  constexpr static std::size_t addrs = 0x585c4e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockVRHelper*>(), { "get_debugUpdateOffsetsContinuously", {}, {} })));
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockVRHelper::*)()>(&::GlobalNamespace::MockVRHelper::get_hasInputFocus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585dfec;
+  constexpr static std::size_t addrs = 0x585c4e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockVRHelper*>(), { "get_hasInputFocus", {}, {} })));
@@ -246,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockVRHelper::*)()>(&::GlobalNamespace::MockVRHelper::get_hasVrFocus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585dff4;
+  constexpr static std::size_t addrs = 0x585c4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockVRHelper*>(), { "get_hasVrFocus", {}, {} })));
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockVRHelper::*)()>(&::GlobalNamespace::MockVRHelper::get_isAlwaysWireless)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585dffc;
+  constexpr static std::size_t addrs = 0x585c4f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockVRHelper*>(), { "get_isAlwaysWireless", {}, {} })));
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockVRHelper::*)(::UnityEngine::XR::XRNode, float_t, float_t, float_t)>(
     &::GlobalNamespace::MockVRHelper::TriggerHapticPulse)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x585e004;
+  constexpr static std::size_t addrs = 0x585c500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockVRHelper::*)(::UnityEngine::XR::XRNode)>(&::GlobalNamespace::MockVRHelper::StopHaptics)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x585e008;
+  constexpr static std::size_t addrs = 0x585c504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockVRHelper::*)(::UnityEngine::XR::XRNode, ::by_ref<::UnityEngine::Pose>)>(
     &::GlobalNamespace::MockVRHelper::TryGetPoseOffsetForNode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x585e00c;
+  constexpr static std::size_t addrs = 0x585c508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockVRHelper::*)(::UnityEngine::XR::XRNode, int32_t, ::by_ref<::UnityEngine::Vector3>,
                                                                                                  ::by_ref<::UnityEngine::Quaternion>)>(&::GlobalNamespace::MockVRHelper::GetNodePose)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x585e088;
+  constexpr static std::size_t addrs = 0x585c584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (::GlobalNamespace::MockVRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::MockVRHelper::GetRootPositionOffsetForLegacyNodePose)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x585e130;
+  constexpr static std::size_t addrs = 0x585c62c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockVRHelper::*)(::UnityEngine::XR::XRNode, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>)>(
     &::GlobalNamespace::MockVRHelper::TryGetLegacyPoseOffsetForNode)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x585e1a8;
+  constexpr static std::size_t addrs = 0x585c6a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -365,7 +365,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::MockVRHelper::*)()>(&::GlobalNamespace::MockVRHelper::GetAnyJoystickMaxAxis)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x585e22c;
+  constexpr static std::size_t addrs = 0x585c728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockVRHelper*>(), { "GetAnyJoystickMaxAxis", {}, {} })));
@@ -377,7 +377,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MockVRHelper::*)(::UnityEngine::XR::XRNode)>(&::GlobalNamespace::MockVRHelper::GetTriggerValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585e278;
+  constexpr static std::size_t addrs = 0x585c774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -390,7 +390,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::MockVRHelper::*)(::UnityEngine::XR::XRNode)>(&::GlobalNamespace::MockVRHelper::GetThumbstickValue)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x585e280;
+  constexpr static std::size_t addrs = 0x585c77c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockVRHelper::*)(::UnityEngine::XR::XRNode)>(&::GlobalNamespace::MockVRHelper::IsAdvancedHapticsSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585e2cc;
+  constexpr static std::size_t addrs = 0x585c7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -416,7 +416,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockVRHelper::*)()>(&::GlobalNamespace::MockVRHelper::GetMenuButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585e2d4;
+  constexpr static std::size_t addrs = 0x585c7d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockVRHelper*>(), { "GetMenuButton", {}, {} })));
@@ -428,7 +428,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockVRHelper::*)()>(&::GlobalNamespace::MockVRHelper::GetMenuButtonDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x585e2dc;
+  constexpr static std::size_t addrs = 0x585c7d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockVRHelper*>(), { "GetMenuButtonDown", {}, {} })));
@@ -440,7 +440,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockVRHelper::*)()>(&::GlobalNamespace::MockVRHelper::RefreshControllersReference)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x585e2e4;
+  constexpr static std::size_t addrs = 0x585c7e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockVRHelper*>(), { "RefreshControllersReference", {}, {} })));
@@ -452,7 +452,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockVRHelper::*)()>(&::GlobalNamespace::MockVRHelper::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x585e2e8;
+  constexpr static std::size_t addrs = 0x585c7e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockVRHelper*>(), { ".ctor", {}, {} })));

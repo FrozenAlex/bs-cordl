@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRDriverManager__GetDriverCount::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRDriverManager__GetDriverCount::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5e3e1c4;
+  constexpr static std::size_t addrs = 0x5e3bf30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRDriverManager__GetDriverCount*>(),
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::IVRDriverManager__GetDriverCount::*)()>(&::OVR::OpenVR::IVRDriverManager__GetDriverCount::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e3e22c;
+  constexpr static std::size_t addrs = 0x5e3bf98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRDriverManager__GetDriverCount::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRDriverManager__GetDriverCount::BeginInvoke)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e3e240;
+  constexpr static std::size_t addrs = 0x5e3bfac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::IVRDriverManager__GetDriverCount::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRDriverManager__GetDriverCount::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e3e25c;
+  constexpr static std::size_t addrs = 0x5e3bfc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRDriverManager__GetDriverName::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRDriverManager__GetDriverName::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e3e280;
+  constexpr static std::size_t addrs = 0x5e3bfec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRDriverManager__GetDriverName*>(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::IVRDriverManager__GetDriverName::*)(uint32_t, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::IVRDriverManager__GetDriverName::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e3e2ec;
+  constexpr static std::size_t addrs = 0x5e3c058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRDriverManager__GetDriverName::*)(uint32_t, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::IVRDriverManager__GetDriverName::BeginInvoke)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5e3e300;
+  constexpr static std::size_t addrs = 0x5e3c06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::IVRDriverManager__GetDriverName::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRDriverManager__GetDriverName::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e3e378;
+  constexpr static std::size_t addrs = 0x5e3c0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::IVRDriverManager__GetDriverHandle::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRDriverManager__GetDriverHandle::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5e3e39c;
+  constexpr static std::size_t addrs = 0x5e3c108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::IVRDriverManager__GetDriverHandle*>(),
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::OVR::OpenVR::IVRDriverManager__GetDriverHandle::*)(::StringW)>(&::OVR::OpenVR::IVRDriverManager__GetDriverHandle::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e3e418;
+  constexpr static std::size_t addrs = 0x5e3c184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRDriverManager__GetDriverHandle::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRDriverManager__GetDriverHandle::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e3e42c;
+  constexpr static std::size_t addrs = 0x5e3c198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::OVR::OpenVR::IVRDriverManager__GetDriverHandle::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRDriverManager__GetDriverHandle::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e3e44c;
+  constexpr static std::size_t addrs = 0x5e3c1b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

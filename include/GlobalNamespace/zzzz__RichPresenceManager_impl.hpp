@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)()>(&::GlobalNamespace::RichPresenceManager::Awake)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x58fe3a8;
+  constexpr static std::size_t addrs = 0x58fc918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RichPresenceManager*>(), { "Awake", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)()>(&::GlobalNamespace::RichPresenceManager::OnDestroy)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x58fe6b8;
+  constexpr static std::size_t addrs = 0x58fcc28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RichPresenceManager*>(), { "OnDestroy", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)(::GlobalNamespace::MultiplayerGameState)>(
     &::GlobalNamespace::RichPresenceManager::HandleLobbyGameStateModelDidChange)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x58fea08;
+  constexpr static std::size_t addrs = 0x58fcf78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)()>(&::GlobalNamespace::RichPresenceManager::SetMenuPresence)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x58fea24;
+  constexpr static std::size_t addrs = 0x58fcf94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RichPresenceManager*>(), { "SetMenuPresence", {}, {} })));
@@ -78,7 +78,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::RichPresenceManager::*)(::GlobalNamespace::GameScenesManager_SceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*)>(
         &::GlobalNamespace::RichPresenceManager::HandleGameScenesManagerTransitionDidFinish)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x58fed0c;
+  constexpr static std::size_t addrs = 0x58fd27c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)(int32_t)>(&::GlobalNamespace::RichPresenceManager::HandleMultiplayerPartySizeChanged)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x58ff030;
+  constexpr static std::size_t addrs = 0x58fd5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)()>(&::GlobalNamespace::RichPresenceManager::HandleLobbyPlayerPermissionChanged)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x58ff20c;
+  constexpr static std::size_t addrs = 0x58fd77c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)(::GlobalNamespace::IRichPresenceData*)>(&::GlobalNamespace::RichPresenceManager::SetPresence)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x58fec54;
+  constexpr static std::size_t addrs = 0x58fd1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)()>(&::GlobalNamespace::RichPresenceManager::Clear)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x58fef84;
+  constexpr static std::size_t addrs = 0x58fd4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RichPresenceManager*>(), { "Clear", {}, {} })));
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)()>(&::GlobalNamespace::RichPresenceManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58ff368;
+  constexpr static std::size_t addrs = 0x58fd8d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RichPresenceManager*>(), { ".ctor", {}, {} })));

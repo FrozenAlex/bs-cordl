@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SortingSettings::*)(::UnityEngine::Camera*)>(&::UnityEngine::Rendering::SortingSettings::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6b255cc;
+  constexpr static std::size_t addrs = 0x6b20fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::SortingCriteria (::UnityEngine::Rendering::SortingSettings::*)()>(
     &::UnityEngine::Rendering::SortingSettings::get_criteria)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b25634;
+  constexpr static std::size_t addrs = 0x6b21038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SortingSettings>(), { "get_criteria", {}, {} })));
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SortingSettings::*)(::UnityEngine::Rendering::SortingCriteria)>(
     &::UnityEngine::Rendering::SortingSettings::set_criteria)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b2563c;
+  constexpr static std::size_t addrs = 0x6b21040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SortingSettings::*)(::UnityEngine::Rendering::SortingSettings)>(
     &::UnityEngine::Rendering::SortingSettings::Equals)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x6b1dcb4;
+  constexpr static std::size_t addrs = 0x6b196b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SortingSettings::*)(::System::Object*)>(&::UnityEngine::Rendering::SortingSettings::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6b25644;
+  constexpr static std::size_t addrs = 0x6b21048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::SortingSettings::*)()>(&::UnityEngine::Rendering::SortingSettings::GetHashCode)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6b1e024;
+  constexpr static std::size_t addrs = 0x6b19a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

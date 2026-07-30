@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::InputSystem::XR::EyesControl::*)()>(
     &::UnityEngine::InputSystem::XR::EyesControl::get_leftEyePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658570c;
+  constexpr static std::size_t addrs = 0x65834a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::EyesControl*>(), { "get_leftEyePosition", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::UnityEngine::InputSystem::XR::EyesControl::set_leftEyePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6585714;
+  constexpr static std::size_t addrs = 0x65834b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::InputSystem::XR::EyesControl::*)()>(
     &::UnityEngine::InputSystem::XR::EyesControl::get_leftEyeRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658571c;
+  constexpr static std::size_t addrs = 0x65834b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::EyesControl*>(), { "get_leftEyeRotation", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)(::UnityEngine::InputSystem::Controls::QuaternionControl*)>(
     &::UnityEngine::InputSystem::XR::EyesControl::set_leftEyeRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6585724;
+  constexpr static std::size_t addrs = 0x65834c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::InputSystem::XR::EyesControl::*)()>(
     &::UnityEngine::InputSystem::XR::EyesControl::get_rightEyePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658572c;
+  constexpr static std::size_t addrs = 0x65834c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::EyesControl*>(), { "get_rightEyePosition", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::UnityEngine::InputSystem::XR::EyesControl::set_rightEyePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6585734;
+  constexpr static std::size_t addrs = 0x65834d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::InputSystem::XR::EyesControl::*)()>(
     &::UnityEngine::InputSystem::XR::EyesControl::get_rightEyeRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658573c;
+  constexpr static std::size_t addrs = 0x65834d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::EyesControl*>(), { "get_rightEyeRotation", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)(::UnityEngine::InputSystem::Controls::QuaternionControl*)>(
     &::UnityEngine::InputSystem::XR::EyesControl::set_rightEyeRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6585744;
+  constexpr static std::size_t addrs = 0x65834e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::InputSystem::XR::EyesControl::*)()>(
     &::UnityEngine::InputSystem::XR::EyesControl::get_fixationPoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658574c;
+  constexpr static std::size_t addrs = 0x65834e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::EyesControl*>(), { "get_fixationPoint", {}, {} })));
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::UnityEngine::InputSystem::XR::EyesControl::set_fixationPoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6585754;
+  constexpr static std::size_t addrs = 0x65834f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::EyesControl*>(),
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::XR::EyesControl::*)()>(
     &::UnityEngine::InputSystem::XR::EyesControl::get_leftEyeOpenAmount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658575c;
+  constexpr static std::size_t addrs = 0x65834f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::EyesControl*>(), { "get_leftEyeOpenAmount", {}, {} })));
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::XR::EyesControl::set_leftEyeOpenAmount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6585764;
+  constexpr static std::size_t addrs = 0x6583500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::EyesControl*>(),
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::XR::EyesControl::*)()>(
     &::UnityEngine::InputSystem::XR::EyesControl::get_rightEyeOpenAmount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x658576c;
+  constexpr static std::size_t addrs = 0x6583508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::EyesControl*>(), { "get_rightEyeOpenAmount", {}, {} })));
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::XR::EyesControl::set_rightEyeOpenAmount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6585774;
+  constexpr static std::size_t addrs = 0x6583510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)()>(&::UnityEngine::InputSystem::XR::EyesControl::FinishSetup)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x658577c;
+  constexpr static std::size_t addrs = 0x6583518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::XR::Eyes (::UnityEngine::InputSystem::XR::EyesControl::*)(void*)>(
     &::UnityEngine::InputSystem::XR::EyesControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x6585948;
+  constexpr static std::size_t addrs = 0x65836e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)(::UnityEngine::InputSystem::XR::Eyes, void*)>(
     &::UnityEngine::InputSystem::XR::EyesControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6585b0c;
+  constexpr static std::size_t addrs = 0x65838a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)()>(&::UnityEngine::InputSystem::XR::EyesControl::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6585c20;
+  constexpr static std::size_t addrs = 0x65839bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::EyesControl*>(), { ".ctor", {}, {} })));

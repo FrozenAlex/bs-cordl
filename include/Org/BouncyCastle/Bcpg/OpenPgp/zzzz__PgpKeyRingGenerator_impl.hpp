@@ -20,7 +20,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*, ::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x358202c;
+  constexpr static std::size_t addrs = 0x35805f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*, ::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x35820b8;
+  constexpr static std::size_t addrs = 0x3580680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*, ::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3582138;
+  constexpr static std::size_t addrs = 0x3580700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*, ::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator::_ctor)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x35821b8;
+  constexpr static std::size_t addrs = 0x3580780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*, ::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3582348;
+  constexpr static std::size_t addrs = 0x3580910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     bool, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*, ::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x35823d8;
+  constexpr static std::size_t addrs = 0x35809a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*, ::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator::_ctor)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3582468;
+  constexpr static std::size_t addrs = 0x3580a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator::*)(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator::AddSubKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3582610;
+  constexpr static std::size_t addrs = 0x3580bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator*>(),
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator::*)(
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair*, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag)>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator::AddSubKey)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3582a3c;
+  constexpr static std::size_t addrs = 0x3581004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair*, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator::AddSubKey)> {
   constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x3582618;
+  constexpr static std::size_t addrs = 0x3580be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair*, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*,
     ::Org::BouncyCastle::Bcpg::HashAlgorithmTag)>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator::AddSubKey)> {
   constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x3582a4c;
+  constexpr static std::size_t addrs = 0x3581014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRing* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator::GenerateSecretKeyRing)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3582f2c;
+  constexpr static std::size_t addrs = 0x35814f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator::GeneratePublicKeyRing)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x3582f90;
+  constexpr static std::size_t addrs = 0x3581558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

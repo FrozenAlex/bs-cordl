@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::PublicKeyPacket::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::PublicKeyPacket::_ctor)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x36990fc;
+  constexpr static std::size_t addrs = 0x36976c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::PublicKeyPacket::*)(
     ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag, ::System::DateTime, ::Org::BouncyCastle::Bcpg::IBcpgKey*)>(&::Org::BouncyCastle::Bcpg::PublicKeyPacket::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x369cc38;
+  constexpr static std::size_t addrs = 0x369b200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::PublicKeyPacket::*)()>(&::Org::BouncyCastle::Bcpg::PublicKeyPacket::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369cce4;
+  constexpr static std::size_t addrs = 0x369b2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag (::Org::BouncyCastle::Bcpg::PublicKeyPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::PublicKeyPacket::get_Algorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369ccec;
+  constexpr static std::size_t addrs = 0x369b2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::PublicKeyPacket::*)()>(&::Org::BouncyCastle::Bcpg::PublicKeyPacket::get_ValidDays)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369ccf4;
+  constexpr static std::size_t addrs = 0x369b2bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::Org::BouncyCastle::Bcpg::PublicKeyPacket::*)()>(&::Org::BouncyCastle::Bcpg::PublicKeyPacket::GetTime)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x369ccfc;
+  constexpr static std::size_t addrs = 0x369b2c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::IBcpgKey* (::Org::BouncyCastle::Bcpg::PublicKeyPacket::*)()>(&::Org::BouncyCastle::Bcpg::PublicKeyPacket::get_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369cd60;
+  constexpr static std::size_t addrs = 0x369b328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Bcpg::PublicKeyPacket::*)()>(&::Org::BouncyCastle::Bcpg::PublicKeyPacket::GetEncodedContents)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x369cd68;
+  constexpr static std::size_t addrs = 0x369b330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::PublicKeyPacket::*)(::Org::BouncyCastle::Bcpg::BcpgOutputStream*)>(
     &::Org::BouncyCastle::Bcpg::PublicKeyPacket::Encode)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x369ced0;
+  constexpr static std::size_t addrs = 0x369b498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

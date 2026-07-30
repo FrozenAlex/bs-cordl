@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Face::*)()>(&::UnityEngine::ProBuilder::Face::get_manualUV)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b6d40;
+  constexpr static std::size_t addrs = 0x66b4adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "get_manualUV", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Face::*)(bool)>(&::UnityEngine::ProBuilder::Face::set_manualUV)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b6d48;
+  constexpr static std::size_t addrs = 0x66b4ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "set_manualUV", {}, { ::i2c::type_of<bool>() } })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::Face::*)()>(&::UnityEngine::ProBuilder::Face::get_textureGroup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b6d50;
+  constexpr static std::size_t addrs = 0x66b4aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "get_textureGroup", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Face::*)(int32_t)>(&::UnityEngine::ProBuilder::Face::set_textureGroup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b6d58;
+  constexpr static std::size_t addrs = 0x66b4af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::UnityEngine::ProBuilder::Face::*)()>(&::UnityEngine::ProBuilder::Face::get_indexesInternal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b6d60;
+  constexpr static std::size_t addrs = 0x66b4afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "get_indexesInternal", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Face::*)(::ArrayW<int32_t>)>(&::UnityEngine::ProBuilder::Face::set_indexesInternal)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x66b6d68;
+  constexpr static std::size_t addrs = 0x66b4b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t>* (::UnityEngine::ProBuilder::Face::*)()>(
     &::UnityEngine::ProBuilder::Face::get_indexes)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x66b6e2c;
+  constexpr static std::size_t addrs = 0x66b4bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "get_indexes", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Face::*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(
     &::UnityEngine::ProBuilder::Face::SetIndexes)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x66b6ea4;
+  constexpr static std::size_t addrs = 0x66b4c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::UnityEngine::ProBuilder::Face::*)()>(&::UnityEngine::ProBuilder::Face::get_distinctIndexesInternal)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x66b66e8;
+  constexpr static std::size_t addrs = 0x66b4484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "get_distinctIndexesInternal", {}, {} })));
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t>* (::UnityEngine::ProBuilder::Face::*)()>(
     &::UnityEngine::ProBuilder::Face::get_distinctIndexes)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x66b7048;
+  constexpr static std::size_t addrs = 0x66b4de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "get_distinctIndexes", {}, {} })));
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::ProBuilder::Edge> (::UnityEngine::ProBuilder::Face::*)()>(&::UnityEngine::ProBuilder::Face::get_edgesInternal)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x66b6c4c;
+  constexpr static std::size_t addrs = 0x66b49e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "get_edgesInternal", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::Edge>* (::UnityEngine::ProBuilder::Face::*)()>(
     &::UnityEngine::ProBuilder::Face::get_edges)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x66b7484;
+  constexpr static std::size_t addrs = 0x66b5220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "get_edges", {}, {} })));
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::Face::*)()>(&::UnityEngine::ProBuilder::Face::get_smoothingGroup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b7520;
+  constexpr static std::size_t addrs = 0x66b52bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "get_smoothingGroup", {}, {} })));
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Face::*)(int32_t)>(&::UnityEngine::ProBuilder::Face::set_smoothingGroup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b7528;
+  constexpr static std::size_t addrs = 0x66b52c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::ProBuilder::Face::*)()>(&::UnityEngine::ProBuilder::Face::get_material)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b7530;
+  constexpr static std::size_t addrs = 0x66b52cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "get_material", {}, {} })));
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Face::*)(::UnityEngine::Material*)>(&::UnityEngine::ProBuilder::Face::set_material)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b7538;
+  constexpr static std::size_t addrs = 0x66b52d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::Face::*)()>(&::UnityEngine::ProBuilder::Face::get_submeshIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b7540;
+  constexpr static std::size_t addrs = 0x66b52dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "get_submeshIndex", {}, {} })));
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Face::*)(int32_t)>(&::UnityEngine::ProBuilder::Face::set_submeshIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b7548;
+  constexpr static std::size_t addrs = 0x66b52e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::AutoUnwrapSettings (::UnityEngine::ProBuilder::Face::*)()>(&::UnityEngine::ProBuilder::Face::get_uv)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x66b7550;
+  constexpr static std::size_t addrs = 0x66b52ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "get_uv", {}, {} })));
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Face::*)(::UnityEngine::ProBuilder::AutoUnwrapSettings)>(&::UnityEngine::ProBuilder::Face::set_uv)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x66b7560;
+  constexpr static std::size_t addrs = 0x66b52fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::Face::*)(int32_t)>(&::UnityEngine::ProBuilder::Face::get_Item)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x66b7570;
+  constexpr static std::size_t addrs = 0x66b530c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Face::*)()>(&::UnityEngine::ProBuilder::Face::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b75a0;
+  constexpr static std::size_t addrs = 0x66b533c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { ".ctor", {}, {} })));
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Face::*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::UnityEngine::ProBuilder::Face::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x66b75a8;
+  constexpr static std::size_t addrs = 0x66b5344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Face::*)(::ArrayW<int32_t>, ::UnityEngine::Material*, ::UnityEngine::ProBuilder::AutoUnwrapSettings, int32_t,
                                                                                                  int32_t, int32_t, bool)>(&::UnityEngine::ProBuilder::Face::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x66b7644;
+  constexpr static std::size_t addrs = 0x66b53e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -323,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Face::*)(
     ::System::Collections::Generic::IEnumerable_1<int32_t>*, int32_t, ::UnityEngine::ProBuilder::AutoUnwrapSettings, int32_t, int32_t, int32_t, bool)>(&::UnityEngine::ProBuilder::Face::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x66b76d0;
+  constexpr static std::size_t addrs = 0x66b546c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -341,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Face::*)(::UnityEngine::ProBuilder::Face*)>(&::UnityEngine::ProBuilder::Face::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66b7758;
+  constexpr static std::size_t addrs = 0x66b54f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Face::*)(::UnityEngine::ProBuilder::Face*)>(&::UnityEngine::ProBuilder::Face::CopyFrom)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x66b775c;
+  constexpr static std::size_t addrs = 0x66b54f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Face::*)()>(&::UnityEngine::ProBuilder::Face::InvalidateCache)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b6e24;
+  constexpr static std::size_t addrs = 0x66b4bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "InvalidateCache", {}, {} })));
@@ -379,7 +379,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::ProBuilder::Edge> (::UnityEngine::ProBuilder::Face::*)()>(&::UnityEngine::ProBuilder::Face::CacheEdges)> {
   constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x66b70e4;
+  constexpr static std::size_t addrs = 0x66b4e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "CacheEdges", {}, {} })));
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::UnityEngine::ProBuilder::Face::*)()>(&::UnityEngine::ProBuilder::Face::CacheDistinctIndexes)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x66b6fb4;
+  constexpr static std::size_t addrs = 0x66b4d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "CacheDistinctIndexes", {}, {} })));
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Face::*)(int32_t, int32_t, int32_t)>(&::UnityEngine::ProBuilder::Face::Contains)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x66b788c;
+  constexpr static std::size_t addrs = 0x66b5628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(),
@@ -416,7 +416,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Face::*)()>(&::UnityEngine::ProBuilder::Face::IsQuad)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x66b7920;
+  constexpr static std::size_t addrs = 0x66b56bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "IsQuad", {}, {} })));
@@ -428,7 +428,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::UnityEngine::ProBuilder::Face::*)()>(&::UnityEngine::ProBuilder::Face::ToQuad)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x66b7968;
+  constexpr static std::size_t addrs = 0x66b5704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "ToQuad", {}, {} })));
@@ -440,7 +440,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::Face::*)()>(&::UnityEngine::ProBuilder::Face::ToString)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x66b7d34;
+  constexpr static std::size_t addrs = 0x66b5ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -453,7 +453,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Face::*)(int32_t)>(&::UnityEngine::ProBuilder::Face::ShiftIndexes)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x66b7f18;
+  constexpr static std::size_t addrs = 0x66b5cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -466,7 +466,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::Face::*)()>(&::UnityEngine::ProBuilder::Face::SmallestIndexValue)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x66b7f5c;
+  constexpr static std::size_t addrs = 0x66b5cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "SmallestIndexValue", {}, {} })));
@@ -478,7 +478,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Face::*)()>(&::UnityEngine::ProBuilder::Face::ShiftIndexesToZero)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x66b7fac;
+  constexpr static std::size_t addrs = 0x66b5d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "ShiftIndexesToZero", {}, {} })));
@@ -490,7 +490,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Face::*)()>(&::UnityEngine::ProBuilder::Face::Reverse)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x66b8008;
+  constexpr static std::size_t addrs = 0x66b5da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(), { "Reverse", {}, {} })));
@@ -503,7 +503,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::System::Collections::Generic::List_1<int32_t>*)>(
     &::UnityEngine::ProBuilder::Face::GetIndices)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x66b805c;
+  constexpr static std::size_t addrs = 0x66b5df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -521,7 +521,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, ::System::Collections::Generic::List_1<int32_t>*)>(
     &::UnityEngine::ProBuilder::Face::GetDistinctIndices)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x66b8408;
+  constexpr static std::size_t addrs = 0x66b61a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -539,7 +539,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Face::*)(::UnityEngine::ProBuilder::Edge, int32_t, ::by_ref<::UnityEngine::ProBuilder::Edge>,
                                                                                                  ::by_ref<int32_t>)>(&::UnityEngine::ProBuilder::Face::TryGetNextEdge)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x66b87d4;
+  constexpr static std::size_t addrs = 0x66b6570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Face*>(),

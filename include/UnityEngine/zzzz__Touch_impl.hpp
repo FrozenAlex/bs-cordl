@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Touch::*)()>(&::UnityEngine::Touch::get_fingerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5dbd8;
+  constexpr static std::size_t addrs = 0x6b595dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Touch>(), { "get_fingerId", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Touch::*)()>(&::UnityEngine::Touch::get_position)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5dbe0;
+  constexpr static std::size_t addrs = 0x6b595e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Touch>(), { "get_position", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Touch::*)(::UnityEngine::Vector2)>(&::UnityEngine::Touch::set_position)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5dbe8;
+  constexpr static std::size_t addrs = 0x6b595ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Touch::*)()>(&::UnityEngine::Touch::get_rawPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5dbf0;
+  constexpr static std::size_t addrs = 0x6b595f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Touch>(), { "get_rawPosition", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Touch::*)(::UnityEngine::Vector2)>(&::UnityEngine::Touch::set_rawPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5dbf8;
+  constexpr static std::size_t addrs = 0x6b595fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Touch::*)()>(&::UnityEngine::Touch::get_deltaPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5dc00;
+  constexpr static std::size_t addrs = 0x6b59604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Touch>(), { "get_deltaPosition", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Touch::*)(::UnityEngine::Vector2)>(&::UnityEngine::Touch::set_deltaPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5dc08;
+  constexpr static std::size_t addrs = 0x6b5960c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Touch::*)()>(&::UnityEngine::Touch::get_deltaTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5dc10;
+  constexpr static std::size_t addrs = 0x6b59614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Touch>(), { "get_deltaTime", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Touch::*)()>(&::UnityEngine::Touch::get_tapCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5dc18;
+  constexpr static std::size_t addrs = 0x6b5961c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Touch>(), { "get_tapCount", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TouchPhase (::UnityEngine::Touch::*)()>(&::UnityEngine::Touch::get_phase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5dc20;
+  constexpr static std::size_t addrs = 0x6b59624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Touch>(), { "get_phase", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Touch::*)()>(&::UnityEngine::Touch::get_pressure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5dc28;
+  constexpr static std::size_t addrs = 0x6b5962c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Touch>(), { "get_pressure", {}, {} })));
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Touch::*)()>(&::UnityEngine::Touch::get_maximumPossiblePressure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5dc30;
+  constexpr static std::size_t addrs = 0x6b59634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Touch>(), { "get_maximumPossiblePressure", {}, {} })));
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TouchType (::UnityEngine::Touch::*)()>(&::UnityEngine::Touch::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5dc38;
+  constexpr static std::size_t addrs = 0x6b5963c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Touch>(), { "get_type", {}, {} })));
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Touch::*)()>(&::UnityEngine::Touch::get_altitudeAngle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5dc40;
+  constexpr static std::size_t addrs = 0x6b59644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Touch>(), { "get_altitudeAngle", {}, {} })));
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Touch::*)()>(&::UnityEngine::Touch::get_azimuthAngle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5dc48;
+  constexpr static std::size_t addrs = 0x6b5964c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Touch>(), { "get_azimuthAngle", {}, {} })));
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Touch::*)()>(&::UnityEngine::Touch::get_radius)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5dc50;
+  constexpr static std::size_t addrs = 0x6b59654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Touch>(), { "get_radius", {}, {} })));
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Touch::*)()>(&::UnityEngine::Touch::get_radiusVariance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b5dc58;
+  constexpr static std::size_t addrs = 0x6b5965c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Touch>(), { "get_radiusVariance", {}, {} })));

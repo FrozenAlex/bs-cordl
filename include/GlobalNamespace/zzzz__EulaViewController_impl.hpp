@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__17::*)(int32_t)>(
     &::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__17::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a133a8;
+  constexpr static std::size_t addrs = 0x5a117d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__17::*)()>(
     &::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__17::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a134ec;
+  constexpr static std::size_t addrs = 0x5a11918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__17::*)()>(
     &::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__17::MoveNext)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x5a134f0;
+  constexpr static std::size_t addrs = 0x5a1191c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__17::*)()>(
     &::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__17::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a13664;
+  constexpr static std::size_t addrs = 0x5a11a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__17*>(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__17::*)()>(
     &::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__17::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5a1366c;
+  constexpr static std::size_t addrs = 0x5a11a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__17::*)()>(
     &::GlobalNamespace::EulaViewController__EnableButtonsCoroutine_d__17::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a136a4;
+  constexpr static std::size_t addrs = 0x5a11ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EulaViewController::*)()>(&::GlobalNamespace::EulaViewController::Awake)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5a12eac;
+  constexpr static std::size_t addrs = 0x5a112d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EulaViewController*>(), { "Awake", {}, {} })));
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EulaViewController::*)(bool, bool, bool)>(&::GlobalNamespace::EulaViewController::DidActivate)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x5a12ee4;
+  constexpr static std::size_t addrs = 0x5a11310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EulaViewController::*)(bool, bool)>(&::GlobalNamespace::EulaViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5a132d0;
+  constexpr static std::size_t addrs = 0x5a116fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -281,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EulaViewController::*)(bool, bool)>(&::GlobalNamespace::EulaViewController::Init)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5a1339c;
+  constexpr static std::size_t addrs = 0x5a117c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::EulaViewController::*)(float_t)>(
     &::GlobalNamespace::EulaViewController::EnableButtonsCoroutine)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5a1326c;
+  constexpr static std::size_t addrs = 0x5a11698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EulaViewController::*)()>(&::GlobalNamespace::EulaViewController::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5a133b0;
+  constexpr static std::size_t addrs = 0x5a117dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EulaViewController*>(), { ".ctor", {}, {} })));
@@ -320,7 +320,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EulaViewController::*)()>(&::GlobalNamespace::EulaViewController::_DidActivate_b__14_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5a133fc;
+  constexpr static std::size_t addrs = 0x5a11828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EulaViewController*>(), { "<DidActivate>b__14_0", {}, {} })));
@@ -332,7 +332,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EulaViewController::*)()>(&::GlobalNamespace::EulaViewController::_DidActivate_b__14_1)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5a1344c;
+  constexpr static std::size_t addrs = 0x5a11878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EulaViewController*>(), { "<DidActivate>b__14_1", {}, {} })));
@@ -344,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EulaViewController::*)()>(&::GlobalNamespace::EulaViewController::_DidActivate_b__14_2)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5a1349c;
+  constexpr static std::size_t addrs = 0x5a118c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EulaViewController*>(), { "<DidActivate>b__14_2", {}, {} })));

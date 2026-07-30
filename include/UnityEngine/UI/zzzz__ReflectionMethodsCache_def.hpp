@@ -95,18 +95,18 @@ namespace UnityEngine::UI {
 class CORDL_TYPE ReflectionMethodsCache_Raycast3DCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6e0e56c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6e09f70, size 0xf8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Ray r, ::by_ref<::UnityEngine::RaycastHit> hit, float_t f, int32_t i, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6e0e664, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6e0a068, size 0x24, virtual true, abstract: false, final false
   inline bool EndInvoke(::by_ref<::UnityEngine::RaycastHit> hit, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6e0e52c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6e09f30, size 0x40, virtual true, abstract: false, final false
   inline bool Invoke(::UnityEngine::Ray r, ::by_ref<::UnityEngine::RaycastHit> hit, float_t f, int32_t i);
 
   static inline ::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6e0e4c0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e09ec4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -124,7 +124,7 @@ public:
   ReflectionMethodsCache_Raycast3DCallback(ReflectionMethodsCache_Raycast3DCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17473 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17471 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -139,18 +139,18 @@ namespace UnityEngine::UI {
 class CORDL_TYPE ReflectionMethodsCache_RaycastAllCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6e0e730, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6e0a134, size 0xc8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Ray r, float_t f, int32_t i, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6e0e7f8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6e0a1fc, size 0xc, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::RaycastHit> EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6e0e6f4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6e0a0f8, size 0x3c, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::RaycastHit> Invoke(::UnityEngine::Ray r, float_t f, int32_t i);
 
   static inline ::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6e0e688, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e0a08c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -168,7 +168,7 @@ public:
   ReflectionMethodsCache_RaycastAllCallback(ReflectionMethodsCache_RaycastAllCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17474 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17472 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -183,18 +183,18 @@ namespace UnityEngine::UI {
 class CORDL_TYPE ReflectionMethodsCache_GetRaycastNonAllocCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6e0e8ac, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6e0a2b0, size 0xcc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Ray r, ::ArrayW<::UnityEngine::RaycastHit> results, float_t f, int32_t i, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6e0e978, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6e0a37c, size 0x24, virtual true, abstract: false, final false
   inline int32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6e0e870, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6e0a274, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Invoke(::UnityEngine::Ray r, ::ArrayW<::UnityEngine::RaycastHit> results, float_t f, int32_t i);
 
   static inline ::UnityEngine::UI::ReflectionMethodsCache_GetRaycastNonAllocCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6e0e804, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e0a208, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -212,7 +212,7 @@ public:
   ReflectionMethodsCache_GetRaycastNonAllocCallback(ReflectionMethodsCache_GetRaycastNonAllocCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17473 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -227,18 +227,18 @@ namespace UnityEngine::UI {
 class CORDL_TYPE ReflectionMethodsCache_Raycast2DCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6e0ea1c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6e0a420, size 0xd8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, float_t f, int32_t i, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6e0eaf4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6e0a4f8, size 0x34, virtual true, abstract: false, final false
   inline ::UnityEngine::RaycastHit2D EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6e0ea08, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6e0a40c, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::RaycastHit2D Invoke(::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, float_t f, int32_t i);
 
   static inline ::UnityEngine::UI::ReflectionMethodsCache_Raycast2DCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6e0e99c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e0a3a0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -256,7 +256,7 @@ public:
   ReflectionMethodsCache_Raycast2DCallback(ReflectionMethodsCache_Raycast2DCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17474 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -271,18 +271,18 @@ namespace UnityEngine::UI {
 class CORDL_TYPE ReflectionMethodsCache_GetRayIntersectionAllCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6e0ebd0, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6e0a5d4, size 0xc8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Ray r, float_t f, int32_t i, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6e0ec98, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6e0a69c, size 0xc, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::RaycastHit2D> EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6e0eb94, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6e0a598, size 0x3c, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::RaycastHit2D> Invoke(::UnityEngine::Ray r, float_t f, int32_t i);
 
   static inline ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6e0eb28, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e0a52c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -300,7 +300,7 @@ public:
   ReflectionMethodsCache_GetRayIntersectionAllCallback(ReflectionMethodsCache_GetRayIntersectionAllCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17477 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17475 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -315,18 +315,18 @@ namespace UnityEngine::UI {
 class CORDL_TYPE ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x6e0ed4c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6e0a750, size 0xcc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Ray r, ::ArrayW<::UnityEngine::RaycastHit2D> results, float_t f, int32_t i, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x6e0ee18, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6e0a81c, size 0x24, virtual true, abstract: false, final false
   inline int32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x6e0ed10, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6e0a714, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Invoke(::UnityEngine::Ray r, ::ArrayW<::UnityEngine::RaycastHit2D> results, float_t f, int32_t i);
 
   static inline ::UnityEngine::UI::ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6e0eca4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e0a6a8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -344,7 +344,7 @@ public:
   ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback(ReflectionMethodsCache_GetRayIntersectionAllNonAllocCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17478 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17476 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -433,12 +433,12 @@ public:
 
   constexpr void __cordl_internal_set_raycast3DAll(::UnityEngine::UI::ReflectionMethodsCache_RaycastAllCallback* value);
 
-  /// @brief Method .ctor, addr 0x6e0d7b0, size 0xc98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e091b4, size 0xc98, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UI::ReflectionMethodsCache* getStaticF_s_ReflectionMethodsCache();
 
-  /// @brief Method get_Singleton, addr 0x6e0e448, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Singleton, addr 0x6e09e4c, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::UI::ReflectionMethodsCache* get_Singleton();
 
   static inline void setStaticF_s_ReflectionMethodsCache(::UnityEngine::UI::ReflectionMethodsCache* value);
@@ -458,7 +458,7 @@ public:
   ReflectionMethodsCache(ReflectionMethodsCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17479 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17477 };
 
   /// @brief Field raycast3D, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UI::ReflectionMethodsCache_Raycast3DCallback* ___raycast3D;

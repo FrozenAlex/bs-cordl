@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberModelContainer_InitData::*)()>(&::GlobalNamespace::SaberModelContainer_InitData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59ea1d8;
+  constexpr static std::size_t addrs = 0x59e88cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberModelContainer_InitData*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberModelContainer_InitData::*)(::UnityEngine::Color)>(&::GlobalNamespace::SaberModelContainer_InitData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59ea1e4;
+  constexpr static std::size_t addrs = 0x59e88d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,8 +67,8 @@ constexpr ::GlobalNamespace::SaberModelContainer_InitData::SaberModelContainer_I
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberModelContainer::*)()>(&::GlobalNamespace::SaberModelContainer::Start)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x59e9ef4;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x59e8564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberModelContainer*>(), { "Start", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberModelContainer::*)()>(&::GlobalNamespace::SaberModelContainer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59ea1d4;
+  constexpr static std::size_t addrs = 0x59e88c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberModelContainer*>(), { ".ctor", {}, {} })));

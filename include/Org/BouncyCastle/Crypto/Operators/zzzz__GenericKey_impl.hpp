@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::GenericKey::*)(::System::Object*)>(&::Org::BouncyCastle::Crypto::Operators::GenericKey::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3409200;
+  constexpr static std::size_t addrs = 0x34077c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::GenericKey::*)(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Operators::GenericKey::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3409208;
+  constexpr static std::size_t addrs = 0x34077d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::GenericKey::*)(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::System::Object*)>(
     &::Org::BouncyCastle::Crypto::Operators::GenericKey::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3409210;
+  constexpr static std::size_t addrs = 0x34077d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Crypto::Operators::GenericKey::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::GenericKey::get_AlgorithmIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3409218;
+  constexpr static std::size_t addrs = 0x34077e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::Crypto::Operators::GenericKey::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::GenericKey::get_Representation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3409220;
+  constexpr static std::size_t addrs = 0x34077e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Operators::GenericKey*>(), { "get_Representation", {}, {} })));

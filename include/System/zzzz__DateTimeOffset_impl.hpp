@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeOffset::*)(int64_t, ::System::TimeSpan)>(&::System::DateTimeOffset::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5c29204;
+  constexpr static std::size_t addrs = 0x5c26f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeOffset::*)(::System::DateTime)>(&::System::DateTimeOffset::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5c29548;
+  constexpr static std::size_t addrs = 0x5c272b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { ".ctor", {}, { ::i2c::type_of<::System::DateTime>() } })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeOffset::*)(::System::DateTime, ::System::TimeSpan)>(&::System::DateTimeOffset::_ctor)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x5c2966c;
+  constexpr static std::size_t addrs = 0x5c273d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeOffset::*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, ::System::TimeSpan)>(
     &::System::DateTimeOffset::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5c29864;
+  constexpr static std::size_t addrs = 0x5c275d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeOffset::*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, ::System::TimeSpan)>(
     &::System::DateTimeOffset::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5c29934;
+  constexpr static std::size_t addrs = 0x5c276a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeOffset::*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, ::System::Globalization::Calendar*,
                                                                                           ::System::TimeSpan)>(&::System::DateTimeOffset::_ctor)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5c29a14;
+  constexpr static std::size_t addrs = 0x5c27780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTimeOffset (*)()>(&::System::DateTimeOffset::get_Now)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5c29afc;
+  constexpr static std::size_t addrs = 0x5c27868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "get_Now", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::DateTimeOffset::*)()>(&::System::DateTimeOffset::get_DateTime)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5c29b6c;
+  constexpr static std::size_t addrs = 0x5c278d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "get_DateTime", {}, {} })));
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::DateTimeOffset::*)()>(&::System::DateTimeOffset::get_UtcDateTime)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5c29c9c;
+  constexpr static std::size_t addrs = 0x5c27a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "get_UtcDateTime", {}, {} })));
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::DateTimeOffset::*)()>(&::System::DateTimeOffset::get_LocalDateTime)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5c29cfc;
+  constexpr static std::size_t addrs = 0x5c27a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "get_LocalDateTime", {}, {} })));
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTimeOffset (::System::DateTimeOffset::*)(::System::TimeSpan)>(&::System::DateTimeOffset::ToOffset)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5c29d98;
+  constexpr static std::size_t addrs = 0x5c27b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "ToOffset", {}, { ::i2c::type_of<::System::TimeSpan>() } })));
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::DateTimeOffset::*)()>(&::System::DateTimeOffset::get_ClockDateTime)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5c29bc4;
+  constexpr static std::size_t addrs = 0x5c27930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "get_ClockDateTime", {}, {} })));
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::DateTimeOffset::*)()>(&::System::DateTimeOffset::get_Day)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5c29e5c;
+  constexpr static std::size_t addrs = 0x5c27bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "get_Day", {}, {} })));
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::DateTimeOffset::*)()>(&::System::DateTimeOffset::get_Hour)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5c29ef8;
+  constexpr static std::size_t addrs = 0x5c27c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "get_Hour", {}, {} })));
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::DateTimeOffset::*)()>(&::System::DateTimeOffset::get_Millisecond)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5c29f94;
+  constexpr static std::size_t addrs = 0x5c27d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "get_Millisecond", {}, {} })));
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::DateTimeOffset::*)()>(&::System::DateTimeOffset::get_Minute)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5c2a030;
+  constexpr static std::size_t addrs = 0x5c27d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "get_Minute", {}, {} })));
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::DateTimeOffset::*)()>(&::System::DateTimeOffset::get_Month)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5c2a0cc;
+  constexpr static std::size_t addrs = 0x5c27e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "get_Month", {}, {} })));
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TimeSpan (::System::DateTimeOffset::*)()>(&::System::DateTimeOffset::get_Offset)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5c29e34;
+  constexpr static std::size_t addrs = 0x5c27ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "get_Offset", {}, {} })));
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::DateTimeOffset::*)()>(&::System::DateTimeOffset::get_Second)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5c2a168;
+  constexpr static std::size_t addrs = 0x5c27ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "get_Second", {}, {} })));
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::DateTimeOffset::*)()>(&::System::DateTimeOffset::get_Ticks)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5c2a204;
+  constexpr static std::size_t addrs = 0x5c27f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "get_Ticks", {}, {} })));
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TimeSpan (::System::DateTimeOffset::*)()>(&::System::DateTimeOffset::get_TimeOfDay)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5c2a2a0;
+  constexpr static std::size_t addrs = 0x5c2800c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "get_TimeOfDay", {}, {} })));
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::DateTimeOffset::*)()>(&::System::DateTimeOffset::get_Year)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5c2a33c;
+  constexpr static std::size_t addrs = 0x5c280a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "get_Year", {}, {} })));
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTimeOffset (::System::DateTimeOffset::*)(int64_t)>(&::System::DateTimeOffset::AddTicks)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5c2a3d8;
+  constexpr static std::size_t addrs = 0x5c28144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "AddTicks", {}, { ::i2c::type_of<int64_t>() } })));
@@ -321,7 +321,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::DateTimeOffset, ::System::DateTimeOffset)>(&::System::DateTimeOffset::Compare)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5c2a4bc;
+  constexpr static std::size_t addrs = 0x5c28228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::DateTimeOffset::*)(::System::Object*)>(&::System::DateTimeOffset::System_IComparable_CompareTo)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5c2a568;
+  constexpr static std::size_t addrs = 0x5c282d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -348,7 +348,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::DateTimeOffset::*)(::System::DateTimeOffset)>(&::System::DateTimeOffset::CompareTo)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5c2a6ac;
+  constexpr static std::size_t addrs = 0x5c28418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -361,7 +361,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::DateTimeOffset::*)(::System::Object*)>(&::System::DateTimeOffset::Equals)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5c2a788;
+  constexpr static std::size_t addrs = 0x5c284f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { ::i2c::class_of<::System::DateTimeOffset>(), 0 }));
@@ -373,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::DateTimeOffset::*)(::System::DateTimeOffset)>(&::System::DateTimeOffset::Equals)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5c2a884;
+  constexpr static std::size_t addrs = 0x5c285f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -386,7 +386,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTimeOffset (*)(int64_t)>(&::System::DateTimeOffset::FromFileTime)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5c2a938;
+  constexpr static std::size_t addrs = 0x5c286a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "FromFileTime", {}, { ::i2c::type_of<int64_t>() } })));
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTimeOffset (*)(int64_t)>(&::System::DateTimeOffset::FromUnixTimeSeconds)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5c2a9b0;
+  constexpr static std::size_t addrs = 0x5c2871c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "FromUnixTimeSeconds", {}, { ::i2c::type_of<int64_t>() } })));
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeOffset::*)(::System::Object*)>(
     &::System::DateTimeOffset::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5c2ab18;
+  constexpr static std::size_t addrs = 0x5c28884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -426,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeOffset::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::DateTimeOffset::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5c2aca0;
+  constexpr static std::size_t addrs = 0x5c28a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -443,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeOffset::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::DateTimeOffset::_ctor)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5c2ad78;
+  constexpr static std::size_t addrs = 0x5c28ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -458,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::DateTimeOffset::*)()>(&::System::DateTimeOffset::GetHashCode)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5c2af0c;
+  constexpr static std::size_t addrs = 0x5c28c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { ::i2c::class_of<::System::DateTimeOffset>(), 2 }));
@@ -470,7 +470,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTimeOffset (*)(::StringW, ::System::IFormatProvider*)>(&::System::DateTimeOffset::Parse)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5c2afa8;
+  constexpr static std::size_t addrs = 0x5c28d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -484,7 +484,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTimeOffset (*)(::StringW, ::System::IFormatProvider*, ::System::Globalization::DateTimeStyles)>(
     &::System::DateTimeOffset::Parse)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x5c2b024;
+  constexpr static std::size_t addrs = 0x5c28d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -500,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTimeOffset (*)(::StringW, ::StringW, ::System::IFormatProvider*, ::System::Globalization::DateTimeStyles)>(
     &::System::DateTimeOffset::ParseExact)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x5c2b3b4;
+  constexpr static std::size_t addrs = 0x5c29120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -516,7 +516,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTimeOffset (::System::DateTimeOffset::*)()>(&::System::DateTimeOffset::ToLocalTime)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5c2b6f0;
+  constexpr static std::size_t addrs = 0x5c2945c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "ToLocalTime", {}, {} })));
@@ -528,7 +528,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTimeOffset (::System::DateTimeOffset::*)(bool)>(&::System::DateTimeOffset::ToLocalTime)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5c2b74c;
+  constexpr static std::size_t addrs = 0x5c294b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "ToLocalTime", {}, { ::i2c::type_of<bool>() } })));
@@ -540,7 +540,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::DateTimeOffset::*)()>(&::System::DateTimeOffset::ToString)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5c2b80c;
+  constexpr static std::size_t addrs = 0x5c29578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { ::i2c::class_of<::System::DateTimeOffset>(), 3 }));
@@ -552,7 +552,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::DateTimeOffset::*)(::System::IFormatProvider*)>(&::System::DateTimeOffset::ToString)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5c2bbc4;
+  constexpr static std::size_t addrs = 0x5c29930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -565,7 +565,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::DateTimeOffset::*)(::StringW, ::System::IFormatProvider*)>(&::System::DateTimeOffset::ToString)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5c2bc88;
+  constexpr static std::size_t addrs = 0x5c299f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -579,7 +579,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::DateTimeOffset::*)(::System::Span_1<char16_t>, ::by_ref<int32_t>, ::System::ReadOnlySpan_1<char16_t>,
                                                                                           ::System::IFormatProvider*)>(&::System::DateTimeOffset::TryFormat)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5c2bd58;
+  constexpr static std::size_t addrs = 0x5c29ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -596,7 +596,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTimeOffset (::System::DateTimeOffset::*)()>(&::System::DateTimeOffset::ToUniversalTime)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5c2c090;
+  constexpr static std::size_t addrs = 0x5c29dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeOffset>(), { "ToUniversalTime", {}, {} })));
@@ -609,7 +609,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::System::IFormatProvider*, ::System::Globalization::DateTimeStyles, ::by_ref<::System::DateTimeOffset>)>(
     &::System::DateTimeOffset::TryParse)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x5c2c108;
+  constexpr static std::size_t addrs = 0x5c29e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -627,7 +627,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, ::System::IFormatProvider*, ::System::Globalization::DateTimeStyles, ::by_ref<::System::DateTimeOffset>)>(
     &::System::DateTimeOffset::TryParseExact)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x5c2c434;
+  constexpr static std::size_t addrs = 0x5c2a1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -645,7 +645,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::ArrayW<::StringW>, ::System::IFormatProvider*, ::System::Globalization::DateTimeStyles,
                                                                 ::by_ref<::System::DateTimeOffset>)>(&::System::DateTimeOffset::TryParseExact)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x5c2c78c;
+  constexpr static std::size_t addrs = 0x5c2a4f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -662,7 +662,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (*)(::System::TimeSpan)>(&::System::DateTimeOffset::ValidateOffset)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x5c292c8;
+  constexpr static std::size_t addrs = 0x5c27034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -675,7 +675,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (*)(::System::DateTime, ::System::TimeSpan)>(&::System::DateTimeOffset::ValidateDate)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5c29424;
+  constexpr static std::size_t addrs = 0x5c27190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -688,7 +688,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::DateTimeStyles (*)(::System::Globalization::DateTimeStyles, ::StringW)>(&::System::DateTimeOffset::ValidateStyles)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5c2b1c4;
+  constexpr static std::size_t addrs = 0x5c28f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -702,7 +702,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTimeOffset (*)(::System::DateTime)>(&::System::DateTimeOffset::op_Implicit___System__DateTimeOffset)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5c2cac8;
+  constexpr static std::size_t addrs = 0x5c2a834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -715,7 +715,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TimeSpan (*)(::System::DateTimeOffset, ::System::DateTimeOffset)>(&::System::DateTimeOffset::op_Subtraction)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5c2caf0;
+  constexpr static std::size_t addrs = 0x5c2a85c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -729,7 +729,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::DateTimeOffset, ::System::DateTimeOffset)>(&::System::DateTimeOffset::op_Equality)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5c2cb9c;
+  constexpr static std::size_t addrs = 0x5c2a908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -743,7 +743,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::DateTimeOffset, ::System::DateTimeOffset)>(&::System::DateTimeOffset::op_Inequality)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5c2cc48;
+  constexpr static std::size_t addrs = 0x5c2a9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

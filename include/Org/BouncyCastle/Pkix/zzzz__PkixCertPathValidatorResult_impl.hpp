@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Pkix::PkixPolicyNode* (::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::*)()>(
     &::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::get_PolicyTree)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35c57a8;
+  constexpr static std::size_t addrs = 0x35c3d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult*>(), { "get_PolicyTree", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Pkix::TrustAnchor* (::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::*)()>(
     &::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::get_TrustAnchor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35c57b0;
+  constexpr static std::size_t addrs = 0x35c3d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult*>(), { "get_TrustAnchor", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::*)()>(
     &::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::get_SubjectPublicKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35c57b8;
+  constexpr static std::size_t addrs = 0x35c3d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Pkix::TrustAnchor*, ::Org::BouncyCastle::Pkix::PkixPolicyNode*, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x35c57c0;
+  constexpr static std::size_t addrs = 0x35c3d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::*)()>(
     &::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::Clone)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x35c5844;
+  constexpr static std::size_t addrs = 0x35c3e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult*>(), { "Clone", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::*)()>(&::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult::ToString)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x35c58b8;
+  constexpr static std::size_t addrs = 0x35c3e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult*>(),

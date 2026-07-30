@@ -43,13 +43,13 @@ public:
 
   static inline ::GlobalNamespace::ColliderEventEffect* New_ctor();
 
-  /// @brief Method SetValue, addr 0x599a410, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x5998ad4, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method Start, addr 0x599a37c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5998a40, size 0x18, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TriggerValue, addr 0x599a418, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x5998adc, size 0x8, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityW<::UnityEngine::Collider> const& __cordl_internal_get__effectCollider() const;
@@ -70,13 +70,13 @@ public:
 
   constexpr void __cordl_internal_set__value(float_t value);
 
-  /// @brief Method .ctor, addr 0x599a420, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5998ae4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_effectCollider, addr 0x599a36c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_effectCollider, addr 0x5998a30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_effectCollider();
 
-  /// @brief Method get_value, addr 0x599a374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x5998a38, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
 protected:

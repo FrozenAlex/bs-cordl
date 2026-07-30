@@ -1,32 +1,29 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/SaberBurnMarkArea.hpp"
 #include "GlobalNamespace/zzzz__Saber_impl.hpp"
-#include "UnityEngine/Rendering/zzzz__CommandBuffer_impl.hpp"
 #include "UnityEngine/zzzz__Bounds_impl.hpp"
-#include "UnityEngine/zzzz__LineRenderer_impl.hpp"
+#include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__RenderTexture_impl.hpp"
-#include "UnityEngine/zzzz__Vector3_impl.hpp"
+#include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberBurnMarkArea_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 #include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"
-#include "System/zzzz__Random_def.hpp"
-#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
 #include "UnityEngine/zzzz__Bounds_def.hpp"
-#include "UnityEngine/zzzz__LineRenderer_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Plane_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
+#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SaberBurnMarkArea.Initialize
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberBurnMarkArea::*)(::GlobalNamespace::SettingsManager*, ::GlobalNamespace::SaberManager*,
                                                                                                       ::GlobalNamespace::ColorManager*)>(&::GlobalNamespace::SaberBurnMarkArea::Initialize)> {
-  constexpr static std::size_t size = 0x7d0;
-  constexpr static std::size_t addrs = 0x5983d2c;
+  constexpr static std::size_t size = 0x444;
+  constexpr static std::size_t addrs = 0x5982ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,35 +38,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberBurnMarkArea::*)()>(&::GlobalNamespace::SaberBurnMarkArea::OnDestroy)> {
-  constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x59844fc;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x5982f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkArea*>(), { "OnDestroy", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::SaberBurnMarkArea.OnEnable
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberBurnMarkArea::*)()>(&::GlobalNamespace::SaberBurnMarkArea::OnEnable)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x598471c;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkArea*>(), { "OnEnable", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::SaberBurnMarkArea.OnDisable
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberBurnMarkArea::*)()>(&::GlobalNamespace::SaberBurnMarkArea::OnDisable)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x59847f8;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkArea*>(), { "OnDisable", {}, {} })));
     return ___internal_method;
   }
 };
@@ -77,11 +50,25 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberBurnMarkArea::*)()>(&::GlobalNamespace::SaberBurnMarkArea::LateUpdate)> {
-  constexpr static std::size_t size = 0x8cc;
-  constexpr static std::size_t addrs = 0x59848d4;
+  constexpr static std::size_t size = 0x66c;
+  constexpr static std::size_t addrs = 0x5983074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkArea*>(), { "LateUpdate", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::SaberBurnMarkArea.WorldToNormalized
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::SaberBurnMarkArea::*)(::UnityEngine::Vector3)>(
+    &::GlobalNamespace::SaberBurnMarkArea::WorldToNormalized)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5983a0c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkArea*>(), { "WorldToNormalized", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
     return ___internal_method;
   }
 };
@@ -91,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Transform*, ::by_ref<::UnityEngine::Bounds>, ::by_ref<::UnityEngine::Plane>, ::UnityEngine::Vector3,
                                                                 ::UnityEngine::Vector3, ::by_ref<::UnityEngine::Vector3>)>(&::GlobalNamespace::SaberBurnMarkArea::GetBurnMarkPos)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x59851a0;
+  constexpr static std::size_t addrs = 0x59836e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,38 +94,14 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::T
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberBurnMarkArea::*)()>(&::GlobalNamespace::SaberBurnMarkArea::_ctor)> {
-  constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x59854cc;
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x5983a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkArea*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::LineRenderer>& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__saberBurnMarkLinePrefab() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____saberBurnMarkLinePrefab;
-}
-constexpr ::UnityW<::UnityEngine::LineRenderer> const& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__saberBurnMarkLinePrefab() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____saberBurnMarkLinePrefab;
-}
-constexpr void GlobalNamespace::SaberBurnMarkArea::__cordl_internal_set__saberBurnMarkLinePrefab(::UnityW<::UnityEngine::LineRenderer> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____saberBurnMarkLinePrefab = value;
-}
-constexpr float_t& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__blackMarkLineRandomOffset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____blackMarkLineRandomOffset;
-}
-constexpr float_t const& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__blackMarkLineRandomOffset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____blackMarkLineRandomOffset;
-}
-constexpr void GlobalNamespace::SaberBurnMarkArea::__cordl_internal_set__blackMarkLineRandomOffset(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____blackMarkLineRandomOffset = value;
-}
 constexpr int32_t& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__textureWidth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textureWidth;
@@ -199,18 +162,6 @@ constexpr void GlobalNamespace::SaberBurnMarkArea::__cordl_internal_set_kBufferN
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___kBufferNames = value;
 }
-constexpr ::System::Random*& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__random() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____random;
-}
-constexpr ::System::Random* const& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__random() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____random;
-}
-constexpr void GlobalNamespace::SaberBurnMarkArea::__cordl_internal_set__random(::System::Random* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____random = value;
-}
 constexpr ::UnityEngine::Bounds& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__bounds() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bounds;
@@ -223,17 +174,17 @@ constexpr void GlobalNamespace::SaberBurnMarkArea::__cordl_internal_set__bounds(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bounds = value;
 }
-constexpr float_t& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__aspect() {
+constexpr float_t& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__aspectXZ() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____aspect;
+  return this->____aspectXZ;
 }
-constexpr float_t const& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__aspect() const {
+constexpr float_t const& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__aspectXZ() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____aspect;
+  return this->____aspectXZ;
 }
-constexpr void GlobalNamespace::SaberBurnMarkArea::__cordl_internal_set__aspect(float_t value) {
+constexpr void GlobalNamespace::SaberBurnMarkArea::__cordl_internal_set__aspectXZ(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____aspect = value;
+  this->____aspectXZ = value;
 }
 constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__renderMaterial() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -259,18 +210,6 @@ constexpr void GlobalNamespace::SaberBurnMarkArea::__cordl_internal_set__fadeOut
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fadeOutMaterial = value;
 }
-constexpr ::ArrayW<::UnityEngine::Vector3>& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__linePoints() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____linePoints;
-}
-constexpr ::ArrayW<::UnityEngine::Vector3> const& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__linePoints() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____linePoints;
-}
-constexpr void GlobalNamespace::SaberBurnMarkArea::__cordl_internal_set__linePoints(::ArrayW<::UnityEngine::Vector3> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____linePoints = value;
-}
 constexpr ::ArrayW<::UnityW<::GlobalNamespace::Saber>>& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__sabers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sabers;
@@ -283,27 +222,27 @@ constexpr void GlobalNamespace::SaberBurnMarkArea::__cordl_internal_set__sabers(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sabers = value;
 }
-constexpr ::ArrayW<::UnityW<::UnityEngine::LineRenderer>>& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__lineRenderers() {
+constexpr ::ArrayW<::UnityEngine::Color>& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__saberColors() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____lineRenderers;
+  return this->____saberColors;
 }
-constexpr ::ArrayW<::UnityW<::UnityEngine::LineRenderer>> const& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__lineRenderers() const {
+constexpr ::ArrayW<::UnityEngine::Color> const& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__saberColors() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____lineRenderers;
+  return this->____saberColors;
 }
-constexpr void GlobalNamespace::SaberBurnMarkArea::__cordl_internal_set__lineRenderers(::ArrayW<::UnityW<::UnityEngine::LineRenderer>> value) {
+constexpr void GlobalNamespace::SaberBurnMarkArea::__cordl_internal_set__saberColors(::ArrayW<::UnityEngine::Color> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____lineRenderers = value;
+  this->____saberColors = value;
 }
-constexpr ::ArrayW<::UnityEngine::Vector3>& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__prevBurnMarkPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____prevBurnMarkPos;
-}
-constexpr ::ArrayW<::UnityEngine::Vector3> const& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__prevBurnMarkPos() const {
+constexpr ::ArrayW<::UnityEngine::Vector2>& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__prevBurnMarkPos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevBurnMarkPos;
 }
-constexpr void GlobalNamespace::SaberBurnMarkArea::__cordl_internal_set__prevBurnMarkPos(::ArrayW<::UnityEngine::Vector3> value) {
+constexpr ::ArrayW<::UnityEngine::Vector2> const& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__prevBurnMarkPos() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____prevBurnMarkPos;
+}
+constexpr void GlobalNamespace::SaberBurnMarkArea::__cordl_internal_set__prevBurnMarkPos(::ArrayW<::UnityEngine::Vector2> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____prevBurnMarkPos = value;
 }
@@ -331,30 +270,6 @@ constexpr void GlobalNamespace::SaberBurnMarkArea::__cordl_internal_set__renderT
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____renderTextures = value;
 }
-constexpr ::ArrayW<::UnityEngine::Rendering::CommandBuffer*>& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__commandBuffers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____commandBuffers;
-}
-constexpr ::ArrayW<::UnityEngine::Rendering::CommandBuffer*> const& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__commandBuffers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____commandBuffers;
-}
-constexpr void GlobalNamespace::SaberBurnMarkArea::__cordl_internal_set__commandBuffers(::ArrayW<::UnityEngine::Rendering::CommandBuffer*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____commandBuffers = value;
-}
-constexpr ::UnityEngine::Rendering::CommandBuffer*& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__currentCommandBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____currentCommandBuffer;
-}
-constexpr ::UnityEngine::Rendering::CommandBuffer* const& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__currentCommandBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____currentCommandBuffer;
-}
-constexpr void GlobalNamespace::SaberBurnMarkArea::__cordl_internal_set__currentCommandBuffer(::UnityEngine::Rendering::CommandBuffer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____currentCommandBuffer = value;
-}
 constexpr float_t& GlobalNamespace::SaberBurnMarkArea::__cordl_internal_get__disableBlitTimer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disableBlitTimer;
@@ -373,6 +288,30 @@ inline void GlobalNamespace::SaberBurnMarkArea::setStaticF__fadeOutStrengthShade
 inline int32_t GlobalNamespace::SaberBurnMarkArea::getStaticF__fadeOutStrengthShaderPropertyID() {
   return ::cordl_internals::getStaticField<int32_t, "_fadeOutStrengthShaderPropertyID", ::GlobalNamespace::SaberBurnMarkArea*>();
 }
+inline void GlobalNamespace::SaberBurnMarkArea::setStaticF__aspectShaderPropertyID(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "_aspectShaderPropertyID", ::GlobalNamespace::SaberBurnMarkArea*>(std::forward<int32_t>(value));
+}
+inline int32_t GlobalNamespace::SaberBurnMarkArea::getStaticF__aspectShaderPropertyID() {
+  return ::cordl_internals::getStaticField<int32_t, "_aspectShaderPropertyID", ::GlobalNamespace::SaberBurnMarkArea*>();
+}
+inline void GlobalNamespace::SaberBurnMarkArea::setStaticF__strokeRadiusShaderPropertyID(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "_strokeRadiusShaderPropertyID", ::GlobalNamespace::SaberBurnMarkArea*>(std::forward<int32_t>(value));
+}
+inline int32_t GlobalNamespace::SaberBurnMarkArea::getStaticF__strokeRadiusShaderPropertyID() {
+  return ::cordl_internals::getStaticField<int32_t, "_strokeRadiusShaderPropertyID", ::GlobalNamespace::SaberBurnMarkArea*>();
+}
+inline void GlobalNamespace::SaberBurnMarkArea::setStaticF__segShaderPropertyIDs(::ArrayW<int32_t> value) {
+  ::cordl_internals::setStaticField<::ArrayW<int32_t>, "_segShaderPropertyIDs", ::GlobalNamespace::SaberBurnMarkArea*>(std::forward<::ArrayW<int32_t>>(value));
+}
+inline ::ArrayW<int32_t> GlobalNamespace::SaberBurnMarkArea::getStaticF__segShaderPropertyIDs() {
+  return ::cordl_internals::getStaticField<::ArrayW<int32_t>, "_segShaderPropertyIDs", ::GlobalNamespace::SaberBurnMarkArea*>();
+}
+inline void GlobalNamespace::SaberBurnMarkArea::setStaticF__segColorShaderPropertyIDs(::ArrayW<int32_t> value) {
+  ::cordl_internals::setStaticField<::ArrayW<int32_t>, "_segColorShaderPropertyIDs", ::GlobalNamespace::SaberBurnMarkArea*>(std::forward<::ArrayW<int32_t>>(value));
+}
+inline ::ArrayW<int32_t> GlobalNamespace::SaberBurnMarkArea::getStaticF__segColorShaderPropertyIDs() {
+  return ::cordl_internals::getStaticField<::ArrayW<int32_t>, "_segColorShaderPropertyIDs", ::GlobalNamespace::SaberBurnMarkArea*>();
+}
 inline void GlobalNamespace::SaberBurnMarkArea::Initialize(::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::SaberManager* saberManager,
                                                            ::GlobalNamespace::ColorManager* colorManager) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -386,17 +325,14 @@ inline void GlobalNamespace::SaberBurnMarkArea::OnDestroy() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkArea*>(), { "OnDestroy", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::SaberBurnMarkArea::OnEnable() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkArea*>(), { "OnEnable", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void GlobalNamespace::SaberBurnMarkArea::OnDisable() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkArea*>(), { "OnDisable", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
 inline void GlobalNamespace::SaberBurnMarkArea::LateUpdate() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkArea*>(), { "LateUpdate", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::UnityEngine::Vector2 GlobalNamespace::SaberBurnMarkArea::WorldToNormalized(::UnityEngine::Vector3 worldPos) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkArea*>(), { "WorldToNormalized", {}, { ::i2c::type_of<::UnityEngine::Vector3>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2>(this, ___internal_method, worldPos);
 }
 inline bool GlobalNamespace::SaberBurnMarkArea::GetBurnMarkPos(::UnityEngine::Transform* transform, ::by_ref<::UnityEngine::Bounds> bounds, ::by_ref<::UnityEngine::Plane> plane,
                                                                ::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ::by_ref<::UnityEngine::Vector3> burnMarkPos) {

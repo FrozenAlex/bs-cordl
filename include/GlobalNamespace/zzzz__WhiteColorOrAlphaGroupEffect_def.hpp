@@ -48,7 +48,7 @@ public:
   /// @brief Field _defaultColor, offset 0xac, size 0x10
   __declspec(property(get = __cordl_internal_get__defaultColor, put = __cordl_internal_set__defaultColor)) ::UnityEngine::Color _defaultColor;
 
-  /// @brief Method GetColor, addr 0x599259c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetColor, addr 0x5990c4c, size 0x60, virtual true, abstract: false, final false
   inline ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness);
 
   static inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffect* New_ctor(::GlobalNamespace::LightColorGroupEffect_InitData* initData, ::UnityEngine::Color defaultColor,
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__defaultColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x5992560, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5990c10, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightColorGroupEffect_InitData* initData, ::UnityEngine::Color defaultColor, ::GlobalNamespace::LightWithIdManager* lightManager,
                     ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController,
                     ::GlobalNamespace::IBpmController* bpmController);

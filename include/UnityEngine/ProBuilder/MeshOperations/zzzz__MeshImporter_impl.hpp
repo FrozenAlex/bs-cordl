@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c::*)()>(&::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x672fd94;
+  constexpr static std::size_t addrs = 0x672db30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c*>(), { ".ctor", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c::*)(::UnityEngine::ProBuilder::Vertex*)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c::_Import_b__9_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x672fd98;
+  constexpr static std::size_t addrs = 0x672db34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c*>(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(::UnityEngine::GameObject*)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImporter::_ctor)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x672e5ec;
+  constexpr static std::size_t addrs = 0x672c388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(
     ::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Material*>, ::UnityEngine::ProBuilder::ProBuilderMesh*)>(&::UnityEngine::ProBuilder::MeshOperations::MeshImporter::_ctor)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x672e758;
+  constexpr static std::size_t addrs = 0x672c4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImporter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x672e870;
+  constexpr static std::size_t addrs = 0x672c60c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::MeshImporter*>(),
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(
     ::UnityEngine::GameObject*, ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*)>(&::UnityEngine::ProBuilder::MeshOperations::MeshImporter::Import)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x672e878;
+  constexpr static std::size_t addrs = 0x672c614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImporter::Import)> {
   constexpr static std::size_t size = 0xabc;
-  constexpr static std::size_t addrs = 0x672ea08;
+  constexpr static std::size_t addrs = 0x672c7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::MeshImporter*>(),

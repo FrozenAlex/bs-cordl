@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorTransitionSO::*)()>(&::GlobalNamespace::ColorTransitionSO::get_normalColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64411bc;
+  constexpr static std::size_t addrs = 0x643ef58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorTransitionSO*>(), { "get_normalColor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorTransitionSO::*)()>(&::GlobalNamespace::ColorTransitionSO::get_highlightedColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64411c8;
+  constexpr static std::size_t addrs = 0x643ef64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorTransitionSO*>(), { "get_highlightedColor", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorTransitionSO::*)()>(&::GlobalNamespace::ColorTransitionSO::get_pressedColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64411d4;
+  constexpr static std::size_t addrs = 0x643ef70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorTransitionSO*>(), { "get_pressedColor", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorTransitionSO::*)()>(&::GlobalNamespace::ColorTransitionSO::get_disabledColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64411e0;
+  constexpr static std::size_t addrs = 0x643ef7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorTransitionSO*>(), { "get_disabledColor", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorTransitionSO::*)()>(&::GlobalNamespace::ColorTransitionSO::get_selectedColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64411ec;
+  constexpr static std::size_t addrs = 0x643ef88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorTransitionSO*>(), { "get_selectedColor", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorTransitionSO::*)()>(&::GlobalNamespace::ColorTransitionSO::get_selectedAndHighlightedColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64411f8;
+  constexpr static std::size_t addrs = 0x643ef94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorTransitionSO*>(), { "get_selectedAndHighlightedColor", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorTransitionSO::*)()>(&::GlobalNamespace::ColorTransitionSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6441204;
+  constexpr static std::size_t addrs = 0x643efa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorTransitionSO*>(), { ".ctor", {}, {} })));

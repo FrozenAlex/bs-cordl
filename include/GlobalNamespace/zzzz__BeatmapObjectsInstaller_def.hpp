@@ -75,7 +75,7 @@ public:
   /// @brief Field _sliderShortPrefab, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__sliderShortPrefab, put = __cordl_internal_set__sliderShortPrefab)) ::UnityW<::GlobalNamespace::SliderController> _sliderShortPrefab;
 
-  /// @brief Method InstallBindings, addr 0x59f44d4, size 0x440, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x59f2bc8, size 0x440, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::BeatmapObjectsInstaller* New_ctor();
@@ -146,7 +146,7 @@ public:
 
   constexpr void __cordl_internal_set__sliderShortPrefab(::UnityW<::GlobalNamespace::SliderController> value);
 
-  /// @brief Method .ctor, addr 0x59f4914, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f3008, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

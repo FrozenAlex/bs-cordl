@@ -20,10 +20,10 @@ namespace System::Xml {
 class CORDL_TYPE XmlComplianceUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CDataNormalize, addr 0x62d4bc0, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method CDataNormalize, addr 0x62d295c, size 0x1f8, virtual false, abstract: false, final false
   static inline ::StringW CDataNormalize(::StringW value);
 
-  /// @brief Method NonCDataNormalize, addr 0x62d48b0, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method NonCDataNormalize, addr 0x62d264c, size 0x310, virtual false, abstract: false, final false
   static inline ::StringW NonCDataNormalize(::StringW value);
 
 protected:

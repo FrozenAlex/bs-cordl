@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Haptics::IHapticImpulseTransmitter* (::GlobalNamespace::UnityXRController::*)()>(
     &::GlobalNamespace::UnityXRController::get_hapticsHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591b250;
+  constexpr static std::size_t addrs = 0x5919770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityXRController*>(), { "get_hapticsHandler", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityXRController::*)(::BeatSaber::Haptics::IHapticImpulseTransmitter*)>(
     &::GlobalNamespace::UnityXRController::set_hapticsHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591b258;
+  constexpr static std::size_t addrs = 0x5919778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityXRController*>(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::VRControllerManufacturer (::GlobalNamespace::UnityXRController::*)()>(
     &::GlobalNamespace::UnityXRController::get_manufacturer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591b260;
+  constexpr static std::size_t addrs = 0x5919780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityXRController*>(), { "get_manufacturer", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityXRController::*)(::GlobalNamespace::VRControllerManufacturer)>(
     &::GlobalNamespace::UnityXRController::set_manufacturer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591b268;
+  constexpr static std::size_t addrs = 0x5919788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::UnityEngine::XR::XRNode, ::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::InputAction*)>(
     &::GlobalNamespace::UnityXRController::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x591a578;
+  constexpr static std::size_t addrs = 0x5918a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::UnityXRController::*)(::UnityEngine::XR::InputDevice, ::UnityEngine::MonoBehaviour*)>(
     &::GlobalNamespace::UnityXRController::SetupController)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x591b270;
+  constexpr static std::size_t addrs = 0x5919790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityXRController::*)()>(&::GlobalNamespace::UnityXRController::ResetManufacturerName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x591b5ac;
+  constexpr static std::size_t addrs = 0x5919acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::UnityXRController*>(), { "ResetManufacturerName", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::UnityXRController::*)(::UnityEngine::MonoBehaviour*)>(&::GlobalNamespace::UnityXRController::UpdateHapticsHandler)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x591b42c;
+  constexpr static std::size_t addrs = 0x591994c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::UnityXRController::*)(::UnityEngine::XR::InputDevice)>(
     &::GlobalNamespace::UnityXRController::TryToUpdateManufacturerName)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x591b2a4;
+  constexpr static std::size_t addrs = 0x59197c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

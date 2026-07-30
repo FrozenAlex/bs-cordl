@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnableOnVisible::*)(::System::Action_1<bool>*)>(&::GlobalNamespace::EnableOnVisible::add_VisibilityChangedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5858db8;
+  constexpr static std::size_t addrs = 0x58572b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnableOnVisible::*)(::System::Action_1<bool>*)>(&::GlobalNamespace::EnableOnVisible::remove_VisibilityChangedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5858e78;
+  constexpr static std::size_t addrs = 0x5857374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnableOnVisible::*)()>(&::GlobalNamespace::EnableOnVisible::Awake)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5858f38;
+  constexpr static std::size_t addrs = 0x5857434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnableOnVisible*>(), { "Awake", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnableOnVisible::*)()>(&::GlobalNamespace::EnableOnVisible::OnBecameVisible)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5858f90;
+  constexpr static std::size_t addrs = 0x585748c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnableOnVisible*>(), { "OnBecameVisible", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnableOnVisible::*)()>(&::GlobalNamespace::EnableOnVisible::OnBecameInvisible)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x585900c;
+  constexpr static std::size_t addrs = 0x5857508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnableOnVisible*>(), { "OnBecameInvisible", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnableOnVisible::*)()>(&::GlobalNamespace::EnableOnVisible::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5859088;
+  constexpr static std::size_t addrs = 0x5857584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnableOnVisible*>(), { ".ctor", {}, {} })));

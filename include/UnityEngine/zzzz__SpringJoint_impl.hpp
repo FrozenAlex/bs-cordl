@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::SpringJoint::*)()>(&::UnityEngine::SpringJoint::get_spring)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b9a49c;
+  constexpr static std::size_t addrs = 0x6b95ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpringJoint*>(), { "get_spring", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpringJoint::*)(float_t)>(&::UnityEngine::SpringJoint::set_spring)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b9a558;
+  constexpr static std::size_t addrs = 0x6b95f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpringJoint*>(), { "set_spring", {}, { ::i2c::type_of<float_t>() } })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::SpringJoint::*)()>(&::UnityEngine::SpringJoint::get_damper)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b9a634;
+  constexpr static std::size_t addrs = 0x6b96038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpringJoint*>(), { "get_damper", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpringJoint::*)(float_t)>(&::UnityEngine::SpringJoint::set_damper)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b9a6f0;
+  constexpr static std::size_t addrs = 0x6b960f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpringJoint*>(), { "set_damper", {}, { ::i2c::type_of<float_t>() } })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::SpringJoint::*)()>(&::UnityEngine::SpringJoint::get_minDistance)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b9a7cc;
+  constexpr static std::size_t addrs = 0x6b961d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpringJoint*>(), { "get_minDistance", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpringJoint::*)(float_t)>(&::UnityEngine::SpringJoint::set_minDistance)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b9a888;
+  constexpr static std::size_t addrs = 0x6b9628c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpringJoint*>(), { "set_minDistance", {}, { ::i2c::type_of<float_t>() } })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::SpringJoint::*)()>(&::UnityEngine::SpringJoint::get_maxDistance)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b9a964;
+  constexpr static std::size_t addrs = 0x6b96368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpringJoint*>(), { "get_maxDistance", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpringJoint::*)(float_t)>(&::UnityEngine::SpringJoint::set_maxDistance)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b9aa20;
+  constexpr static std::size_t addrs = 0x6b96424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpringJoint*>(), { "set_maxDistance", {}, { ::i2c::type_of<float_t>() } })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::SpringJoint::*)()>(&::UnityEngine::SpringJoint::get_tolerance)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6b9aafc;
+  constexpr static std::size_t addrs = 0x6b96500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpringJoint*>(), { "get_tolerance", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpringJoint::*)(float_t)>(&::UnityEngine::SpringJoint::set_tolerance)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b9abb8;
+  constexpr static std::size_t addrs = 0x6b965bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpringJoint*>(), { "set_tolerance", {}, { ::i2c::type_of<float_t>() } })));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SpringJoint::*)()>(&::UnityEngine::SpringJoint::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b9ac94;
+  constexpr static std::size_t addrs = 0x6b96698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SpringJoint*>(), { ".ctor", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::SpringJoint::get_spring_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b9a51c;
+  constexpr static std::size_t addrs = 0x6b95f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::SpringJoint::set_spring_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6b9a5e8;
+  constexpr static std::size_t addrs = 0x6b95fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::SpringJoint::get_damper_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b9a6b4;
+  constexpr static std::size_t addrs = 0x6b960b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::SpringJoint::set_damper_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6b9a780;
+  constexpr static std::size_t addrs = 0x6b96184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::SpringJoint::get_minDistance_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b9a84c;
+  constexpr static std::size_t addrs = 0x6b96250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::SpringJoint::set_minDistance_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6b9a918;
+  constexpr static std::size_t addrs = 0x6b9631c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::SpringJoint::get_maxDistance_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b9a9e4;
+  constexpr static std::size_t addrs = 0x6b963e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::SpringJoint::set_maxDistance_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6b9aab0;
+  constexpr static std::size_t addrs = 0x6b964b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -246,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::SpringJoint::get_tolerance_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b9ab7c;
+  constexpr static std::size_t addrs = 0x6b96580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::SpringJoint::set_tolerance_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6b9ac48;
+  constexpr static std::size_t addrs = 0x6b9664c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

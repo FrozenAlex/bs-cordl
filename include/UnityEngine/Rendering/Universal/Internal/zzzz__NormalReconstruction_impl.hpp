@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::CameraData>)>(
     &::UnityEngine::Rendering::Universal::Internal::NormalReconstruction::SetupProperties)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x68f2c20;
+  constexpr static std::size_t addrs = 0x68f09bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::CameraData>)>(
     &::UnityEngine::Rendering::Universal::Internal::NormalReconstruction::SetupProperties)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68f2cc4;
+  constexpr static std::size_t addrs = 0x68f0a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
     &::UnityEngine::Rendering::Universal::Internal::NormalReconstruction::SetupProperties)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x68f2fcc;
+  constexpr static std::size_t addrs = 0x68f0d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*>)>(
     &::UnityEngine::Rendering::Universal::Internal::NormalReconstruction::SetupProperties)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x68f2d54;
+  constexpr static std::size_t addrs = 0x68f0af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

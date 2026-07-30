@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IBeatSaberConnectedPlayer* value);
 
-  /// @brief Method .ctor, addr 0x59cab6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c91dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer);
 
-  /// @brief Method get_isFailed, addr 0x59cac1c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_isFailed, addr 0x59c928c, size 0xc, virtual true, abstract: false, final true
   inline bool get_isFailed();
 
-  /// @brief Method get_offsetSyncTime, addr 0x59cab74, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method get_offsetSyncTime, addr 0x59c91e4, size 0xa8, virtual true, abstract: false, final true
   inline int64_t get_offsetSyncTime();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerObservable"

@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerDataFileModel___c::*)()>(&::GlobalNamespace::PlayerDataFileModel___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x374885c;
+  constexpr static std::size_t addrs = 0x374729c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerDataFileModel___c*>(), { ".ctor", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerSaveData_PromoCounterData* (
     ::GlobalNamespace::PlayerDataFileModel___c::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, int32_t>)>(&::GlobalNamespace::PlayerDataFileModel___c::_GetPlayerSaveData_b__19_0)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3748860;
+  constexpr static std::size_t addrs = 0x37472a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::StringW, int32_t> (::GlobalNamespace::PlayerDataFileModel___c::*)(::GlobalNamespace::PlayerSaveData_PromoCounterData*)>(
     &::GlobalNamespace::PlayerDataFileModel___c::_LoadFromCurrentVersion_b__24_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3748900;
+  constexpr static std::size_t addrs = 0x3747340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35::*)()>(
     &::GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35::MoveNext)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x3748950;
+  constexpr static std::size_t addrs = 0x3747390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3748d1c;
+  constexpr static std::size_t addrs = 0x374775c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35>(),
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21::*)()>(&::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21::MoveNext)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x3748d9c;
+  constexpr static std::size_t addrs = 0x37477dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21>(), { "MoveNext", {}, {} })));
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3749038;
+  constexpr static std::size_t addrs = 0x3747a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21>(),
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::GlobalNamespace::PlayerDataFileModel::get_PlayerDataFileName)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3744388;
+  constexpr static std::size_t addrs = 0x3742dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerDataFileModel*>(), { "get_PlayerDataFileName", {}, {} })));
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::PlayerDataFileModel::set_PlayerDataFileName)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x37443e4;
+  constexpr static std::size_t addrs = 0x3742e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::PlayerDataFileModel::Init)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3744474;
+  constexpr static std::size_t addrs = 0x3742eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerDataFileModel*>(), { "Init", {}, {} })));
@@ -274,7 +274,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                         ::GlobalNamespace::BeatmapCharacteristicCollection*, ::GlobalNamespace::ColorSchemesSettings*,
                                                                                                         ::GlobalNamespace::EnvironmentsListModel*)>(&::GlobalNamespace::PlayerDataFileModel::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x37444ec;
+  constexpr static std::size_t addrs = 0x3742f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerDataFileModel::*)(::GlobalNamespace::PlayerData*)>(&::GlobalNamespace::PlayerDataFileModel::Save)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x37444fc;
+  constexpr static std::size_t addrs = 0x3742f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PlayerDataFileModel::*)(::GlobalNamespace::PlayerData*)>(
     &::GlobalNamespace::PlayerDataFileModel::SaveAsync)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x374560c;
+  constexpr static std::size_t addrs = 0x374404c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerSaveData* (::GlobalNamespace::PlayerDataFileModel::*)(::GlobalNamespace::PlayerData*)>(
     &::GlobalNamespace::PlayerDataFileModel::GetPlayerSaveData)> {
   constexpr static std::size_t size = 0xfc4;
-  constexpr static std::size_t addrs = 0x3744648;
+  constexpr static std::size_t addrs = 0x3743088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -333,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerData* (::GlobalNamespace::PlayerDataFileModel::*)()>(&::GlobalNamespace::PlayerDataFileModel::Load)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x37459c8;
+  constexpr static std::size_t addrs = 0x3744408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerDataFileModel*>(), { "Load", {}, {} })));
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::PlayerData*>* (::GlobalNamespace::PlayerDataFileModel::*)()>(
     &::GlobalNamespace::PlayerDataFileModel::LoadAsync)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3745b7c;
+  constexpr static std::size_t addrs = 0x37445bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerDataFileModel*>(), { "LoadAsync", {}, {} })));
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerData* (::GlobalNamespace::PlayerDataFileModel::*)(::StringW)>(
     &::GlobalNamespace::PlayerDataFileModel::LoadOrCreateFromJsonString)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3745b58;
+  constexpr static std::size_t addrs = 0x3744598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerData* (::GlobalNamespace::PlayerDataFileModel::*)(::StringW)>(
     &::GlobalNamespace::PlayerDataFileModel::LoadFromJSONString)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3745c58;
+  constexpr static std::size_t addrs = 0x3744698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerData* (::GlobalNamespace::PlayerDataFileModel::*)(::GlobalNamespace::PlayerSaveData*)>(
     &::GlobalNamespace::PlayerDataFileModel::LoadFromCurrentVersion)> {
   constexpr static std::size_t size = 0x1008;
-  constexpr static std::size_t addrs = 0x374689c;
+  constexpr static std::size_t addrs = 0x37452dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerData* (::GlobalNamespace::PlayerDataFileModel::*)(::GlobalNamespace::PlayerSaveDataV1_0_1*)>(
     &::GlobalNamespace::PlayerDataFileModel::LoadFromVersionV1_0_1)> {
   constexpr static std::size_t size = 0x9b8;
-  constexpr static std::size_t addrs = 0x3745ee4;
+  constexpr static std::size_t addrs = 0x3744924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -417,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerData* (::GlobalNamespace::PlayerDataFileModel::*)()>(
     &::GlobalNamespace::PlayerDataFileModel::CreateDefaultPlayerData)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3745e30;
+  constexpr static std::size_t addrs = 0x3744870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerDataFileModel*>(), { "CreateDefaultPlayerData", {}, {} })));
@@ -429,7 +429,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::GlobalNamespace::BeatmapCharacteristic)>(&::GlobalNamespace::PlayerDataFileModel::GetLevelIdFromV_1_0_1LevelId)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x37484cc;
+  constexpr static std::size_t addrs = 0x3746f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -444,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::GlobalNamespace::BeatmapCharacteristic> (*)(::GlobalNamespace::BeatmapCharacteristicCollection*, ::StringW)>(
     &::GlobalNamespace::PlayerDataFileModel::GetBeatmapCharacteristicFromV_1_0_1LevelId)> {
   constexpr static std::size_t size = 0x408;
-  constexpr static std::size_t addrs = 0x37480c4;
+  constexpr static std::size_t addrs = 0x3746b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -460,7 +460,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OverrideEnvironmentSettings* (::GlobalNamespace::PlayerDataFileModel::*)()>(
     &::GlobalNamespace::PlayerDataFileModel::CreateDefaultOverrideEnvironmentSettings)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3747a54;
+  constexpr static std::size_t addrs = 0x3746494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::EnvironmentInfoSO> (::GlobalNamespace::PlayerDataFileModel::*)(::StringW)>(
     &::GlobalNamespace::PlayerDataFileModel::GetEnvironmentInfoBySerializedName)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x37485a0;
+  constexpr static std::size_t addrs = 0x3746fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -487,7 +487,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PlayerDataFileModel::*)(::ArrayW<uint8_t>)>(&::GlobalNamespace::PlayerDataFileModel::LoadCorrectedSongPackMask)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3747b0c;
+  constexpr static std::size_t addrs = 0x374654c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -501,7 +501,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorSchemesSettings_ColorOverrideType (::GlobalNamespace::PlayerDataFileModel::*)(
     ::GlobalNamespace::PlayerSaveData_ColorOverrideType)>(&::GlobalNamespace::PlayerDataFileModel::ColorOverrideTypeFromSaveData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3747a48;
+  constexpr static std::size_t addrs = 0x3746488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -516,7 +516,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerSaveData_ColorOverrideType (::GlobalNamespace::PlayerDataFileModel::*)(
     ::GlobalNamespace::ColorSchemesSettings_ColorOverrideType)>(&::GlobalNamespace::PlayerDataFileModel::ColorOverrideTypeToSaveData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3745934;
+  constexpr static std::size_t addrs = 0x3744374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -530,7 +530,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::IFileStorage*)>(&::GlobalNamespace::PlayerDataFileModel::LoadAsString)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3745a30;
+  constexpr static std::size_t addrs = 0x3744470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -544,7 +544,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (*)(::GlobalNamespace::IFileStorage*)>(
     &::GlobalNamespace::PlayerDataFileModel::LoadAsStringAsync)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x37485b8;
+  constexpr static std::size_t addrs = 0x3746ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -557,7 +557,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::PlayerDataFileModel::WipePlayerDataFiles)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3748694;
+  constexpr static std::size_t addrs = 0x37470d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerDataFileModel*>(), { "WipePlayerDataFiles", {}, {} })));

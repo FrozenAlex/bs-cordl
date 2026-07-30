@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security:
     bool, bool, ::System::Security::AccessControl::ControlFlags, ::System::Security::Principal::SecurityIdentifier*, ::System::Security::Principal::SecurityIdentifier*,
     ::System::Security::AccessControl::SystemAcl*, ::System::Security::AccessControl::DiscretionaryAcl*)>(&::System::Security::AccessControl::CommonSecurityDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5b1ce70;
+  constexpr static std::size_t addrs = 0x5b1acb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security:
     bool, bool, ::System::Security::AccessControl::ControlFlags, ::System::Security::Principal::SecurityIdentifier*, ::System::Security::Principal::SecurityIdentifier*,
     ::System::Security::AccessControl::SystemAcl*, ::System::Security::AccessControl::DiscretionaryAcl*)>(&::System::Security::AccessControl::CommonSecurityDescriptor::Init)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5b1ce78;
+  constexpr static std::size_t addrs = 0x5b1acbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::DiscretionaryAcl* (::System::Security::AccessControl::CommonSecurityDescriptor::*)()>(
     &::System::Security::AccessControl::CommonSecurityDescriptor::get_DiscretionaryAcl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1d02c;
+  constexpr static std::size_t addrs = 0x5b1ae70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::CommonSecurityDescriptor::*)(::System::Security::AccessControl::DiscretionaryAcl*)>(
     &::System::Security::AccessControl::CommonSecurityDescriptor::set_DiscretionaryAcl)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5b1cf28;
+  constexpr static std::size_t addrs = 0x5b1ad6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::CommonSecurityDescriptor::*)(::System::Security::Principal::SecurityIdentifier*)>(
     &::System::Security::AccessControl::CommonSecurityDescriptor::set_Group)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1d160;
+  constexpr static std::size_t addrs = 0x5b1afa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::CommonSecurityDescriptor*>(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::AccessControl::CommonSecurityDescriptor::*)()>(
     &::System::Security::AccessControl::CommonSecurityDescriptor::get_IsContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1d168;
+  constexpr static std::size_t addrs = 0x5b1afac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::AccessControl::CommonSecurityDescriptor::*)()>(
     &::System::Security::AccessControl::CommonSecurityDescriptor::get_IsDS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1d170;
+  constexpr static std::size_t addrs = 0x5b1afb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::CommonSecurityDescriptor*>(), { "get_IsDS", {}, {} })));
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::CommonSecurityDescriptor::*)(::System::Security::Principal::SecurityIdentifier*)>(
     &::System::Security::AccessControl::CommonSecurityDescriptor::set_Owner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5b1d178;
+  constexpr static std::size_t addrs = 0x5b1afbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::CommonSecurityDescriptor*>(),
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::CommonSecurityDescriptor::*)(::System::Security::AccessControl::SystemAcl*)>(
     &::System::Security::AccessControl::CommonSecurityDescriptor::set_SystemAcl)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5b1cef8;
+  constexpr static std::size_t addrs = 0x5b1ad3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::CommonSecurityDescriptor*>(),
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::CommonSecurityDescriptor::*)(::System::Security::AccessControl::CommonAcl*)>(
     &::System::Security::AccessControl::CommonSecurityDescriptor::CheckAclConsistency)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5b1d0a4;
+  constexpr static std::size_t addrs = 0x5b1aee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::CommonSecurityDescriptor*>(),

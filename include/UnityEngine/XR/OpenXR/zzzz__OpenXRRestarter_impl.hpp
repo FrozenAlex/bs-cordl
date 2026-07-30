@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35::*)(int32_t)>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ef49c;
+  constexpr static std::size_t addrs = 0x69ed238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x69ef504;
+  constexpr static std::size_t addrs = 0x69ed2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35::MoveNext)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x69ef530;
+  constexpr static std::size_t addrs = 0x69ed2cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35::__m__Finally1)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x69ef87c;
+  constexpr static std::size_t addrs = 0x69ed618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ef8b0;
+  constexpr static std::size_t addrs = 0x69ed64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35*>(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x69ef8b8;
+  constexpr static std::size_t addrs = 0x69ed654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35*>(),
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ef8f0;
+  constexpr static std::size_t addrs = 0x69ed68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndRetryInitializationCoroutine_d__35*>(),
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34::*)(int32_t)>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ef494;
+  constexpr static std::size_t addrs = 0x69ed230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x69ef8f8;
+  constexpr static std::size_t addrs = 0x69ed694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34::MoveNext)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x69ef924;
+  constexpr static std::size_t addrs = 0x69ed6c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34::__m__Finally1)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x69efb44;
+  constexpr static std::size_t addrs = 0x69ed8e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -288,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69efb78;
+  constexpr static std::size_t addrs = 0x69ed914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34*>(),
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x69efb80;
+  constexpr static std::size_t addrs = 0x69ed91c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34*>(),
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69efbb8;
+  constexpr static std::size_t addrs = 0x69ed954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRestarter__PauseAndShutdownAndRestartCoroutine_d__34*>(),
@@ -446,7 +446,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRRestarter__RestartCoroutine_d__36::*)(int32_t)>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__RestartCoroutine_d__36::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ef4a4;
+  constexpr static std::size_t addrs = 0x69ed240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -460,7 +460,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRRestarter__RestartCoroutine_d__36::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__RestartCoroutine_d__36::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x69efbc0;
+  constexpr static std::size_t addrs = 0x69ed95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRRestarter__RestartCoroutine_d__36::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__RestartCoroutine_d__36::MoveNext)> {
   constexpr static std::size_t size = 0x55c;
-  constexpr static std::size_t addrs = 0x69efbec;
+  constexpr static std::size_t addrs = 0x69ed988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -488,7 +488,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRRestarter__RestartCoroutine_d__36::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__RestartCoroutine_d__36::__m__Finally1)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x69f01e0;
+  constexpr static std::size_t addrs = 0x69edf7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -502,7 +502,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::XR::OpenXR::OpenXRRestarter__RestartCoroutine_d__36::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__RestartCoroutine_d__36::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f0218;
+  constexpr static std::size_t addrs = 0x69edfb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRestarter__RestartCoroutine_d__36*>(),
@@ -516,7 +516,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRRestarter__RestartCoroutine_d__36::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__RestartCoroutine_d__36::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x69f0220;
+  constexpr static std::size_t addrs = 0x69edfbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -530,7 +530,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::XR::OpenXR::OpenXRRestarter__RestartCoroutine_d__36::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter__RestartCoroutine_d__36::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f0258;
+  constexpr static std::size_t addrs = 0x69edff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -668,7 +668,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRRestarter::*)()>(&::UnityEngine::XR::OpenXR::OpenXRRestarter::ResetCallbacks)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69eeea0;
+  constexpr static std::size_t addrs = 0x69ecc3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRestarter*>(), { "ResetCallbacks", {}, {} })));
@@ -680,7 +680,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRRestarter::*)()>(&::UnityEngine::XR::OpenXR::OpenXRRestarter::get_isRunning)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x69eef0c;
+  constexpr static std::size_t addrs = 0x69ecca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRestarter*>(), { "get_isRunning", {}, {} })));
@@ -692,7 +692,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::XR::OpenXR::OpenXRRestarter::get_TimeBetweenRestartAttempts)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69eef1c;
+  constexpr static std::size_t addrs = 0x69eccb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -705,7 +705,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t)>(&::UnityEngine::XR::OpenXR::OpenXRRestarter::set_TimeBetweenRestartAttempts)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x69eef78;
+  constexpr static std::size_t addrs = 0x69ecd14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -718,7 +718,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::XR::OpenXR::OpenXRRestarter::get_PauseAndRestartAttempts)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69eefe0;
+  constexpr static std::size_t addrs = 0x69ecd7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRestarter*>(), { "get_PauseAndRestartAttempts", {}, {} })));
@@ -730,7 +730,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::XR::OpenXR::OpenXRRestarter::get_PauseAndRestartCoroutineCount)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69ef03c;
+  constexpr static std::size_t addrs = 0x69ecdd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -743,7 +743,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::XR::OpenXR::OpenXRRestarter> (*)()>(&::UnityEngine::XR::OpenXR::OpenXRRestarter::get_Instance)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x69edf80;
+  constexpr static std::size_t addrs = 0x69ebd1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRestarter*>(), { "get_Instance", {}, {} })));
@@ -755,7 +755,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::XR::OpenXR::OpenXRRestarter::get_DisableApplicationQuit)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69ef098;
+  constexpr static std::size_t addrs = 0x69ece34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRestarter*>(), { "get_DisableApplicationQuit", {}, {} })));
@@ -767,7 +767,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::XR::OpenXR::OpenXRRestarter::set_DisableApplicationQuit)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69ef0f4;
+  constexpr static std::size_t addrs = 0x69ece90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -780,7 +780,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRRestarter::*)()>(&::UnityEngine::XR::OpenXR::OpenXRRestarter::Shutdown)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x69ee8c4;
+  constexpr static std::size_t addrs = 0x69ec660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRestarter*>(), { "Shutdown", {}, {} })));
@@ -792,7 +792,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRRestarter::*)()>(&::UnityEngine::XR::OpenXR::OpenXRRestarter::ShutdownAndRestart)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x69ee14c;
+  constexpr static std::size_t addrs = 0x69ebee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRestarter*>(), { "ShutdownAndRestart", {}, {} })));
@@ -804,7 +804,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRRestarter::*)()>(&::UnityEngine::XR::OpenXR::OpenXRRestarter::PauseAndShutdownAndRestart)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x69ee2b0;
+  constexpr static std::size_t addrs = 0x69ec04c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRestarter*>(), { "PauseAndShutdownAndRestart", {}, {} })));
@@ -816,7 +816,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRRestarter::*)()>(&::UnityEngine::XR::OpenXR::OpenXRRestarter::PauseAndRetryInitialization)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x69ee420;
+  constexpr static std::size_t addrs = 0x69ec1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRestarter*>(), { "PauseAndRetryInitialization", {}, {} })));
@@ -828,7 +828,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRRestarter::*)()>(&::UnityEngine::XR::OpenXR::OpenXRRestarter::IncrementPauseAndRestartCoroutineCount)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x69ef294;
+  constexpr static std::size_t addrs = 0x69ed030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -841,7 +841,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRRestarter::*)()>(&::UnityEngine::XR::OpenXR::OpenXRRestarter::DecrementPauseAndRestartCoroutineCount)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x69ef394;
+  constexpr static std::size_t addrs = 0x69ed130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -855,7 +855,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::XR::OpenXR::OpenXRRestarter::*)(float_t)>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter::PauseAndShutdownAndRestartCoroutine)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69ef1cc;
+  constexpr static std::size_t addrs = 0x69ecf68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -869,7 +869,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::XR::OpenXR::OpenXRRestarter::*)(float_t)>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter::PauseAndRetryInitializationCoroutine)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69ef230;
+  constexpr static std::size_t addrs = 0x69ecfcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -883,7 +883,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::XR::OpenXR::OpenXRRestarter::*)(bool, bool)>(
     &::UnityEngine::XR::OpenXR::OpenXRRestarter::RestartCoroutine)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x69ef158;
+  constexpr static std::size_t addrs = 0x69ecef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -896,7 +896,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRRestarter::*)()>(&::UnityEngine::XR::OpenXR::OpenXRRestarter::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x69ef4ac;
+  constexpr static std::size_t addrs = 0x69ed248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRRestarter*>(), { ".ctor", {}, {} })));

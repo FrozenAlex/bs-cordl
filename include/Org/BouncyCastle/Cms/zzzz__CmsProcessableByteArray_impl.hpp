@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsProcessableByteArray::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Cms::CmsProcessableByteArray::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x36ae050;
+  constexpr static std::size_t addrs = 0x36ac618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsProcessableByteArray::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Cms::CmsProcessableByteArray::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36ae0c0;
+  constexpr static std::size_t addrs = 0x36ac688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Cms::CmsProcessableByteArray::*)()>(
     &::Org::BouncyCastle::Cms::CmsProcessableByteArray::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36ae0c8;
+  constexpr static std::size_t addrs = 0x36ac690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsProcessableByteArray*>(), { "get_Type", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Cms::CmsProcessableByteArray::*)()>(
     &::Org::BouncyCastle::Cms::CmsProcessableByteArray::GetInputStream)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x36ae0d0;
+  constexpr static std::size_t addrs = 0x36ac698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsProcessableByteArray::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Cms::CmsProcessableByteArray::Write)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x36ae138;
+  constexpr static std::size_t addrs = 0x36ac700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Org::BouncyCastle::Cms::CmsProcessableByteArray::*)()>(&::Org::BouncyCastle::Cms::CmsProcessableByteArray::GetContent)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x36ae170;
+  constexpr static std::size_t addrs = 0x36ac738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

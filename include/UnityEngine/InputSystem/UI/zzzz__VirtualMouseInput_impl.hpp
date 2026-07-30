@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RectTransform> (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_cursorTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6595bf4;
+  constexpr static std::size_t addrs = 0x6593990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(), { "get_cursorTransform", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::RectTransform*)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_cursorTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6595bfc;
+  constexpr static std::size_t addrs = 0x6593998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(&::UnityEngine::InputSystem::UI::VirtualMouseInput::get_cursorSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6595c04;
+  constexpr static std::size_t addrs = 0x65939a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(), { "get_cursorSpeed", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(float_t)>(&::UnityEngine::InputSystem::UI::VirtualMouseInput::set_cursorSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6595c0c;
+  constexpr static std::size_t addrs = 0x65939a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::UI::VirtualMouseInput_CursorMode (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_cursorMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6595c14;
+  constexpr static std::size_t addrs = 0x65939b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(), { "get_cursorMode", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::InputSystem::UI::VirtualMouseInput_CursorMode)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_cursorMode)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6595c1c;
+  constexpr static std::size_t addrs = 0x65939b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Graphic> (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_cursorGraphic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6595f6c;
+  constexpr static std::size_t addrs = 0x6593d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(), { "get_cursorGraphic", {}, {} })));
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::UI::Graphic*)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_cursorGraphic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6595f74;
+  constexpr static std::size_t addrs = 0x6593d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(&::UnityEngine::InputSystem::UI::VirtualMouseInput::get_scrollSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6595fd4;
+  constexpr static std::size_t addrs = 0x6593d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(), { "get_scrollSpeed", {}, {} })));
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(float_t)>(&::UnityEngine::InputSystem::UI::VirtualMouseInput::set_scrollSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6595fdc;
+  constexpr static std::size_t addrs = 0x6593d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Mouse* (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_virtualMouse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6595fe4;
+  constexpr static std::size_t addrs = 0x6593d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(), { "get_virtualMouse", {}, {} })));
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputActionProperty (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_stickAction)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6595fec;
+  constexpr static std::size_t addrs = 0x6593d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(), { "get_stickAction", {}, {} })));
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_stickAction)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6596000;
+  constexpr static std::size_t addrs = 0x6593d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(),
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputActionProperty (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_leftButtonAction)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6596198;
+  constexpr static std::size_t addrs = 0x6593f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(), { "get_leftButtonAction", {}, {} })));
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_leftButtonAction)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x65961ac;
+  constexpr static std::size_t addrs = 0x6593f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(),
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputActionProperty (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_rightButtonAction)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x65962a8;
+  constexpr static std::size_t addrs = 0x6594044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_rightButtonAction)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x65962bc;
+  constexpr static std::size_t addrs = 0x6594058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(),
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputActionProperty (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_middleButtonAction)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6596348;
+  constexpr static std::size_t addrs = 0x65940e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_middleButtonAction)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x659635c;
+  constexpr static std::size_t addrs = 0x65940f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(),
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputActionProperty (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_forwardButtonAction)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x65963e8;
+  constexpr static std::size_t addrs = 0x6594184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_forwardButtonAction)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x65963fc;
+  constexpr static std::size_t addrs = 0x6594198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(),
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputActionProperty (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_backButtonAction)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6596488;
+  constexpr static std::size_t addrs = 0x6594224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(), { "get_backButtonAction", {}, {} })));
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_backButtonAction)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x659649c;
+  constexpr static std::size_t addrs = 0x6594238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(),
@@ -339,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputActionProperty (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_scrollWheelAction)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6596528;
+  constexpr static std::size_t addrs = 0x65942c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -353,7 +353,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_scrollWheelAction)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x659653c;
+  constexpr static std::size_t addrs = 0x65942d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(),
@@ -366,7 +366,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(&::UnityEngine::InputSystem::UI::VirtualMouseInput::OnEnable)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x659656c;
+  constexpr static std::size_t addrs = 0x6594308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(), { "OnEnable", {}, {} })));
@@ -378,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(&::UnityEngine::InputSystem::UI::VirtualMouseInput::OnDisable)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x65969f8;
+  constexpr static std::size_t addrs = 0x6594794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(), { "OnDisable", {}, {} })));
@@ -390,7 +390,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(&::UnityEngine::InputSystem::UI::VirtualMouseInput::TryFindCanvas)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6595f7c;
+  constexpr static std::size_t addrs = 0x6593d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(), { "TryFindCanvas", {}, {} })));
@@ -402,7 +402,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(&::UnityEngine::InputSystem::UI::VirtualMouseInput::TryEnableHardwareCursor)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x6595d2c;
+  constexpr static std::size_t addrs = 0x6593ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -415,7 +415,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(&::UnityEngine::InputSystem::UI::VirtualMouseInput::UpdateMotion)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x6596c10;
+  constexpr static std::size_t addrs = 0x65949ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(), { "UpdateMotion", {}, {} })));
@@ -428,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::OnButtonActionTriggered)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x6596fc4;
+  constexpr static std::size_t addrs = 0x6594d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -443,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::InputActionProperty, ::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>*, bool)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::SetActionCallback)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6596238;
+  constexpr static std::size_t addrs = 0x6593fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -461,7 +461,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::InputSystem::InputActionProperty>, ::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::SetAction)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6596030;
+  constexpr static std::size_t addrs = 0x6593dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -476,7 +476,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(&::UnityEngine::InputSystem::UI::VirtualMouseInput::OnAfterInputUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65971d4;
+  constexpr static std::size_t addrs = 0x6594f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(), { "OnAfterInputUpdate", {}, {} })));
@@ -488,7 +488,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(&::UnityEngine::InputSystem::UI::VirtualMouseInput::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x65971d8;
+  constexpr static std::size_t addrs = 0x6594f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::UI::VirtualMouseInput*>(), { ".ctor", {}, {} })));

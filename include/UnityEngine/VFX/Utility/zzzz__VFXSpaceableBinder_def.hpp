@@ -80,7 +80,7 @@ public:
   static ::UnityEngine::VFX::Utility::VFXSpaceableBinder_BinderSpace const World;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19969 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -108,23 +108,23 @@ public:
   /// @brief Field Space, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_Space, put = __cordl_internal_set_Space)) ::UnityEngine::VFX::Utility::VFXSpaceableBinder_BinderSpace Space;
 
-  /// @brief Method ApplySpacePosition, addr 0x69e0ef0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ApplySpacePosition, addr 0x69dec8c, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ApplySpacePosition(::UnityEngine::VFX::VisualEffect* component, ::UnityEngine::VFX::Utility::ExposedProperty* targetProperty,
                                                    ::UnityEngine::Vector3 sourceWorldPosition);
 
-  /// @brief Method ApplySpacePositionNormal, addr 0x69e0aa8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ApplySpacePositionNormal, addr 0x69de844, size 0x174, virtual false, abstract: false, final false
   inline void ApplySpacePositionNormal(::UnityEngine::VFX::VisualEffect* component, ::UnityEngine::VFX::Utility::ExposedProperty* targetProperty, ::UnityEngine::Transform* sourceTransform,
                                        ::by_ref<::UnityEngine::Vector3> position, ::by_ref<::UnityEngine::Vector3> normal);
 
-  /// @brief Method ApplySpaceTRS, addr 0x69e1d30, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ApplySpaceTRS, addr 0x69dfacc, size 0x148, virtual false, abstract: false, final false
   inline void ApplySpaceTRS(::UnityEngine::VFX::VisualEffect* component, ::UnityEngine::VFX::Utility::ExposedProperty* targetProperty, ::UnityEngine::Transform* sourceTransform,
                             ::by_ref<::UnityEngine::Vector3> position, ::by_ref<::UnityEngine::Vector3> eulerAngles, ::by_ref<::UnityEngine::Vector3> scale);
 
-  /// @brief Method ApplySpaceTS, addr 0x69e1c40, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ApplySpaceTS, addr 0x69df9dc, size 0xf0, virtual false, abstract: false, final false
   inline void ApplySpaceTS(::UnityEngine::VFX::VisualEffect* component, ::UnityEngine::VFX::Utility::ExposedProperty* targetProperty, ::UnityEngine::Transform* sourceTransform,
                            ::by_ref<::UnityEngine::Vector3> position, ::by_ref<::UnityEngine::Vector3> scale);
 
-  /// @brief Method GetTargetSpace, addr 0x69e1bc4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetTargetSpace, addr 0x69df960, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::VFX::VFXSpace GetTargetSpace(::UnityEngine::VFX::VisualEffect* component, ::UnityEngine::VFX::Utility::ExposedProperty* targetProperty);
 
   static inline ::UnityEngine::VFX::Utility::VFXSpaceableBinder* New_ctor();
@@ -135,7 +135,7 @@ public:
 
   constexpr void __cordl_internal_set_Space(::UnityEngine::VFX::Utility::VFXSpaceableBinder_BinderSpace value);
 
-  /// @brief Method .ctor, addr 0x69e0d74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69deb10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -153,7 +153,7 @@ public:
   VFXSpaceableBinder(VFXSpaceableBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19973 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19970 };
 
   /// @brief Field Space, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::VFX::Utility::VFXSpaceableBinder_BinderSpace ___Space;

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResultObjectiveListItem::*)(::UnityEngine::Color)>(&::GlobalNamespace::ResultObjectiveListItem::set_iconColor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x596c890;
+  constexpr static std::size_t addrs = 0x596b63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResultObjectiveListItem::*)(::UnityEngine::Sprite*)>(&::GlobalNamespace::ResultObjectiveListItem::set_icon)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x596c8b0;
+  constexpr static std::size_t addrs = 0x596b65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResultObjectiveListItem::*)(::UnityEngine::Sprite*)>(&::GlobalNamespace::ResultObjectiveListItem::set_iconGlow)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x596c8c8;
+  constexpr static std::size_t addrs = 0x596b674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResultObjectiveListItem::*)(::StringW)>(&::GlobalNamespace::ResultObjectiveListItem::set_title)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x596c8e0;
+  constexpr static std::size_t addrs = 0x596b68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResultObjectiveListItem::*)(::StringW)>(&::GlobalNamespace::ResultObjectiveListItem::set_conditionText)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x596c900;
+  constexpr static std::size_t addrs = 0x596b6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResultObjectiveListItem::*)(bool)>(&::GlobalNamespace::ResultObjectiveListItem::set_hideConditionText)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x596c920;
+  constexpr static std::size_t addrs = 0x596b6cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResultObjectiveListItem::*)(::StringW)>(&::GlobalNamespace::ResultObjectiveListItem::set_valueText)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x596c954;
+  constexpr static std::size_t addrs = 0x596b700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResultObjectiveListItem::*)(bool)>(&::GlobalNamespace::ResultObjectiveListItem::set_hideValueText)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x596c974;
+  constexpr static std::size_t addrs = 0x596b720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ResultObjectiveListItem::*)()>(&::GlobalNamespace::ResultObjectiveListItem::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x596c9a8;
+  constexpr static std::size_t addrs = 0x596b754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ResultObjectiveListItem*>(), { ".ctor", {}, {} })));

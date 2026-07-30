@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* (
     ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::*)()>(&::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::get_activePlayersAtGameStart)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x32b767c;
+  constexpr static std::size_t addrs = 0x32b5008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* (
     ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::*)()>(&::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::get_activePlayerSpecificSettingsAtGameStart)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b78e8;
+  constexpr static std::size_t addrs = 0x32b5274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*)>(
         &::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::set_activePlayerSpecificSettingsAtGameStart)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b78f0;
+  constexpr static std::size_t addrs = 0x32b527c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::*)()>(
     &::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32b78f8;
+  constexpr static std::size_t addrs = 0x32b5284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*>(), { ".ctor", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::*)(
     ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*)>(&::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32b78fc;
+  constexpr static std::size_t addrs = 0x32b5288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x32b7904;
+  constexpr static std::size_t addrs = 0x32b5290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*>(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x32b7cd4;
+  constexpr static std::size_t addrs = 0x32b5660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*>(),

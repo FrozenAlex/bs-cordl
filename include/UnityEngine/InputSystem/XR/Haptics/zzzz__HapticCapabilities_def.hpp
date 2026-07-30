@@ -32,28 +32,28 @@ public:
 
   __declspec(property(get = get_supportsImpulse)) bool supportsImpulse;
 
-  /// @brief Method .ctor, addr 0x6586b3c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65848d8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(uint32_t numChannels, uint32_t frequencyHz, uint32_t maxBufferSize);
 
-  /// @brief Method .ctor, addr 0x6586b24, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65848c0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(uint32_t numChannels, bool supportsImpulse, bool supportsBuffer, uint32_t frequencyHz, uint32_t maxBufferSize, uint32_t optimalBufferSize);
 
-  /// @brief Method get_frequencyHz, addr 0x6586b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_frequencyHz, addr 0x6584904, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_frequencyHz();
 
-  /// @brief Method get_maxBufferSize, addr 0x6586b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxBufferSize, addr 0x658490c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_maxBufferSize();
 
-  /// @brief Method get_numChannels, addr 0x6586b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numChannels, addr 0x65848ec, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_numChannels();
 
-  /// @brief Method get_optimalBufferSize, addr 0x6586b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_optimalBufferSize, addr 0x6584914, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_optimalBufferSize();
 
-  /// @brief Method get_supportsBuffer, addr 0x6586b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsBuffer, addr 0x65848fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsBuffer();
 
-  /// @brief Method get_supportsImpulse, addr 0x6586b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsImpulse, addr 0x65848f4, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsImpulse();
 
   // Ctor Parameters []

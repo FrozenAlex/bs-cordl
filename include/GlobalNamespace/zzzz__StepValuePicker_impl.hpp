@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StepValuePicker::*)(::System::Action*)>(&::GlobalNamespace::StepValuePicker::add_decButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a2d590;
+  constexpr static std::size_t addrs = 0x5a2b3d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StepValuePicker::*)(::System::Action*)>(&::GlobalNamespace::StepValuePicker::remove_decButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a2d854;
+  constexpr static std::size_t addrs = 0x5a2b698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StepValuePicker::*)(::System::Action*)>(&::GlobalNamespace::StepValuePicker::add_incButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a2d63c;
+  constexpr static std::size_t addrs = 0x5a2b480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StepValuePicker::*)(::System::Action*)>(&::GlobalNamespace::StepValuePicker::remove_incButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5a2d900;
+  constexpr static std::size_t addrs = 0x5a2b744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::StepValuePicker::*)()>(&::GlobalNamespace::StepValuePicker::get_text)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a2e220;
+  constexpr static std::size_t addrs = 0x5a2c064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StepValuePicker*>(), { "get_text", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StepValuePicker::*)(::StringW)>(&::GlobalNamespace::StepValuePicker::set_text)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5a2d454;
+  constexpr static std::size_t addrs = 0x5a2b298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StepValuePicker::*)(bool)>(&::GlobalNamespace::StepValuePicker::set_decButtonInteractable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a2d3c8;
+  constexpr static std::size_t addrs = 0x5a2b20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StepValuePicker::*)(bool)>(&::GlobalNamespace::StepValuePicker::set_incButtonInteractable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a2d40c;
+  constexpr static std::size_t addrs = 0x5a2b250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StepValuePicker::*)()>(&::GlobalNamespace::StepValuePicker::OnEnable)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5a2e240;
+  constexpr static std::size_t addrs = 0x5a2c084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StepValuePicker::*)()>(&::GlobalNamespace::StepValuePicker::OnDisable)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5a2e394;
+  constexpr static std::size_t addrs = 0x5a2c1d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StepValuePicker*>(), { "OnDisable", {}, {} })));
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StepValuePicker::*)()>(&::GlobalNamespace::StepValuePicker::IncButtonPressed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a2e4e8;
+  constexpr static std::size_t addrs = 0x5a2c32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StepValuePicker*>(), { "IncButtonPressed", {}, {} })));
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StepValuePicker::*)()>(&::GlobalNamespace::StepValuePicker::DecButtonPressed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a2e504;
+  constexpr static std::size_t addrs = 0x5a2c348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StepValuePicker*>(), { "DecButtonPressed", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StepValuePicker::*)()>(&::GlobalNamespace::StepValuePicker::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a2e520;
+  constexpr static std::size_t addrs = 0x5a2c364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StepValuePicker*>(), { ".ctor", {}, {} })));

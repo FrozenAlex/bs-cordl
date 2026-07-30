@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::VerticalLayoutGroup::*)()>(&::UnityEngine::UI::VerticalLayoutGroup::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6dfbc18;
+  constexpr static std::size_t addrs = 0x6df761c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::VerticalLayoutGroup*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::VerticalLayoutGroup::*)()>(&::UnityEngine::UI::VerticalLayoutGroup::CalculateLayoutInputHorizontal)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6dfbc24;
+  constexpr static std::size_t addrs = 0x6df7628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::VerticalLayoutGroup::*)()>(&::UnityEngine::UI::VerticalLayoutGroup::CalculateLayoutInputVertical)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6dfbc44;
+  constexpr static std::size_t addrs = 0x6df7648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::VerticalLayoutGroup::*)()>(&::UnityEngine::UI::VerticalLayoutGroup::SetLayoutHorizontal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6dfbc50;
+  constexpr static std::size_t addrs = 0x6df7654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::VerticalLayoutGroup::*)()>(&::UnityEngine::UI::VerticalLayoutGroup::SetLayoutVertical)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6dfbc5c;
+  constexpr static std::size_t addrs = 0x6df7660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

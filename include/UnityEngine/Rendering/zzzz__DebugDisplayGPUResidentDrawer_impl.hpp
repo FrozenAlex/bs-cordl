@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6809014;
+  constexpr static std::size_t addrs = 0x6806db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_0)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6809018;
+  constexpr static std::size_t addrs = 0x6806db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_1)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6809364;
+  constexpr static std::size_t addrs = 0x6807100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_2)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x680940c;
+  constexpr static std::size_t addrs = 0x68071a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_16)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6809460;
+  constexpr static std::size_t addrs = 0x68071fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_17)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6809468;
+  constexpr static std::size_t addrs = 0x6807204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::__ctor_b__4_24)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x68094cc;
+  constexpr static std::size_t addrs = 0x6807268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::_AddInstanceCullingStatsWidget_b__5_1)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6809520;
+  constexpr static std::size_t addrs = 0x68072bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c::_AddOcclusionContextStatsWidget_b__6_1)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6809548;
+  constexpr static std::size_t addrs = 0x68072e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6808590;
+  constexpr static std::size_t addrs = 0x680632c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__3)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6809570;
+  constexpr static std::size_t addrs = 0x680730c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(bool)>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__4)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x680959c;
+  constexpr static std::size_t addrs = 0x6807338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -369,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__5)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x68095c8;
+  constexpr static std::size_t addrs = 0x6807364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(bool)>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__6)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x68095f4;
+  constexpr static std::size_t addrs = 0x6807390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -398,7 +398,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__7)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6809620;
+  constexpr static std::size_t addrs = 0x68073bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -412,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(bool)>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__8)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x680964c;
+  constexpr static std::size_t addrs = 0x68073e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -427,7 +427,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__9)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6809678;
+  constexpr static std::size_t addrs = 0x6807414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -441,7 +441,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(bool)>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__10)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6809690;
+  constexpr static std::size_t addrs = 0x680742c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -456,7 +456,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__11)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68096ac;
+  constexpr static std::size_t addrs = 0x6807448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -470,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(bool)>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__12)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x68096c4;
+  constexpr static std::size_t addrs = 0x6807460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -485,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__13)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68096e0;
+  constexpr static std::size_t addrs = 0x680747c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -499,7 +499,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(int32_t)>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__14)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68096f8;
+  constexpr static std::size_t addrs = 0x6807494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -514,7 +514,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__15)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6809710;
+  constexpr static std::size_t addrs = 0x68074ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -528,7 +528,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__18)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6809730;
+  constexpr static std::size_t addrs = 0x68074cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -542,7 +542,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(float_t)>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__19)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6809748;
+  constexpr static std::size_t addrs = 0x68074e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -557,7 +557,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__20)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6809760;
+  constexpr static std::size_t addrs = 0x68074fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -571,7 +571,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__21)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6809780;
+  constexpr static std::size_t addrs = 0x680751c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -585,7 +585,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(float_t)>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__22)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6809798;
+  constexpr static std::size_t addrs = 0x6807534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -600,7 +600,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__23)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68097b0;
+  constexpr static std::size_t addrs = 0x680754c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -614,7 +614,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__25)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x68097d0;
+  constexpr static std::size_t addrs = 0x680756c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -628,7 +628,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::*)(bool)>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass4_0::__ctor_b__26)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x68097fc;
+  constexpr static std::size_t addrs = 0x6807598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -771,7 +771,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6808fb8;
+  constexpr static std::size_t addrs = 0x6806d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -785,7 +785,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::_AddInstanceCullingStatsWidget_b__0)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6809828;
+  constexpr static std::size_t addrs = 0x68075c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -800,7 +800,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::_AddInstanceCullingStatsWidget_b__2)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x680985c;
+  constexpr static std::size_t addrs = 0x68075f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -815,7 +815,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass5_0::_AddInstanceCullingStatsWidget_b__3)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6809890;
+  constexpr static std::size_t addrs = 0x680762c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -868,7 +868,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6808fbc;
+  constexpr static std::size_t addrs = 0x6806d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -882,7 +882,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::*)()>(
     &::UnityEngine::Rendering::SettingsPanel_DebugDisplayGPUResidentDrawer___c__DisplayClass6_0::_AddOcclusionContextStatsWidget_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68098c4;
+  constexpr static std::size_t addrs = 0x6807660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -925,7 +925,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::get_PanelName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6808544;
+  constexpr static std::size_t addrs = 0x68062e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>(),
@@ -939,7 +939,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::DebugUI_Flags (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::get_Flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6808588;
+  constexpr static std::size_t addrs = 0x6806324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>(),
@@ -953,7 +953,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::*)(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::_ctor)> {
   constexpr static std::size_t size = 0x136c;
-  constexpr static std::size_t addrs = 0x6806f5c;
+  constexpr static std::size_t addrs = 0x6804cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel*>(),
@@ -967,7 +967,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::*)(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::AddInstanceCullingStatsWidget)> {
   constexpr static std::size_t size = 0x610;
-  constexpr static std::size_t addrs = 0x68089a8;
+  constexpr static std::size_t addrs = 0x6806744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -982,7 +982,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::*)(::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer_SettingsPanel::AddOcclusionContextStatsWidget)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x6808594;
+  constexpr static std::size_t addrs = 0x6806330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1030,7 +1030,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6806074;
+  constexpr static std::size_t addrs = 0x6803e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1044,7 +1044,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x68098e4;
+  constexpr static std::size_t addrs = 0x6807680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1058,7 +1058,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__1)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6809900;
+  constexpr static std::size_t addrs = 0x680769c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1072,7 +1072,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__2)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x680996c;
+  constexpr static std::size_t addrs = 0x6807708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1086,7 +1086,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__3)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68099a4;
+  constexpr static std::size_t addrs = 0x6807740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1100,7 +1100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__4)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68099dc;
+  constexpr static std::size_t addrs = 0x6807778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1114,7 +1114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass29_0::_AddInstanceCullerViewDataRow_b__5)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6809a14;
+  constexpr static std::size_t addrs = 0x68077b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1180,7 +1180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6806a54;
+  constexpr static std::size_t addrs = 0x68047f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1194,7 +1194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6809a4c;
+  constexpr static std::size_t addrs = 0x68077e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1209,7 +1209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__1)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6809a68;
+  constexpr static std::size_t addrs = 0x6807804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1224,7 +1224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__2)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6809aa0;
+  constexpr static std::size_t addrs = 0x680783c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1239,7 +1239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__3)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6809b58;
+  constexpr static std::size_t addrs = 0x68078f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1254,7 +1254,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__4)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6809b80;
+  constexpr static std::size_t addrs = 0x680791c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1269,7 +1269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__5)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6809c24;
+  constexpr static std::size_t addrs = 0x68079c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1284,7 +1284,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__6)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6809cb8;
+  constexpr static std::size_t addrs = 0x6807a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1299,7 +1299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass34_0::_AddInstanceOcclusionPassDataRow_b__7)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6809ce0;
+  constexpr static std::size_t addrs = 0x6807a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1376,7 +1376,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6806ec4;
+  constexpr static std::size_t addrs = 0x6804c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1390,7 +1390,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_AddOcclusionContextDataRow_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6809d08;
+  constexpr static std::size_t addrs = 0x6807aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1404,7 +1404,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_AddOcclusionContextDataRow_b__1)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6809d24;
+  constexpr static std::size_t addrs = 0x6807ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1418,7 +1418,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_AddOcclusionContextDataRow_b__2)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6809d50;
+  constexpr static std::size_t addrs = 0x6807aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1432,7 +1432,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer___c__DisplayClass35_0::_AddOcclusionContextDataRow_b__3)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6809d7c;
+  constexpr static std::size_t addrs = 0x6807b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1488,7 +1488,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_displayBatcherStats)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6805420;
+  constexpr static std::size_t addrs = 0x68031bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1502,7 +1502,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)(bool)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::set_displayBatcherStats)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68054a8;
+  constexpr static std::size_t addrs = 0x6803244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1516,7 +1516,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)(::by_ref<int32_t>)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetOccluderViewInstanceID)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x68054c8;
+  constexpr static std::size_t addrs = 0x6803264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1531,7 +1531,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_occlusionTestOverlayEnable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68055b4;
+  constexpr static std::size_t addrs = 0x6803350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1545,7 +1545,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)(bool)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::set_occlusionTestOverlayEnable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68055d4;
+  constexpr static std::size_t addrs = 0x6803370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1559,7 +1559,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_occlusionTestOverlayCountVisible)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68055f4;
+  constexpr static std::size_t addrs = 0x6803390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1573,7 +1573,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)(bool)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::set_occlusionTestOverlayCountVisible)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6805614;
+  constexpr static std::size_t addrs = 0x68033b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1588,7 +1588,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_overrideOcclusionTestToAlwaysPass)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6805634;
+  constexpr static std::size_t addrs = 0x68033d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1602,7 +1602,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)(bool)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::set_overrideOcclusionTestToAlwaysPass)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6805654;
+  constexpr static std::size_t addrs = 0x68033f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1617,7 +1617,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::InstanceCullerViewStats (*)(int32_t)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetInstanceCullerViewStats)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6805674;
+  constexpr static std::size_t addrs = 0x6803410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1631,7 +1631,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::InstanceOcclusionEventStats (*)(int32_t)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetInstanceOcclusionEventStats)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6805758;
+  constexpr static std::size_t addrs = 0x68034f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1644,7 +1644,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::DebugOccluderStats (*)(int32_t)>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetOccluderStats)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6805840;
+  constexpr static std::size_t addrs = 0x68035dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1657,7 +1657,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetOcclusionContextsCounts)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6805904;
+  constexpr static std::size_t addrs = 0x68036a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1670,7 +1670,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetInstanceCullerViewCount)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6805970;
+  constexpr static std::size_t addrs = 0x680370c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1683,7 +1683,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::GetInstanceOcclusionEventCount)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x68059dc;
+  constexpr static std::size_t addrs = 0x6803778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1697,7 +1697,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Table_DebugUI_Row* (*)(int32_t)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::AddInstanceCullerViewDataRow)> {
   constexpr static std::size_t size = 0x62c;
-  constexpr static std::size_t addrs = 0x6805a48;
+  constexpr static std::size_t addrs = 0x68037e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1711,7 +1711,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::OccluderVersionString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6806078;
+  constexpr static std::size_t addrs = 0x6803e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1726,7 +1726,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::OcclusionTestString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x68060f8;
+  constexpr static std::size_t addrs = 0x6803e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1741,7 +1741,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::VisibleInstancesString)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6806180;
+  constexpr static std::size_t addrs = 0x6803f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1756,7 +1756,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::Rendering::InstanceOcclusionEventStats>)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::CulledInstancesString)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x68061f4;
+  constexpr static std::size_t addrs = 0x6803f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1771,7 +1771,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Table_DebugUI_Row* (*)(int32_t)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::AddInstanceOcclusionPassDataRow)> {
   constexpr static std::size_t size = 0x7ec;
-  constexpr static std::size_t addrs = 0x6806268;
+  constexpr static std::size_t addrs = 0x6804004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1786,7 +1786,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Table_DebugUI_Row* (*)(int32_t)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::AddOcclusionContextDataRow)> {
   constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x6806a58;
+  constexpr static std::size_t addrs = 0x68047f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1800,7 +1800,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_AreAnySettingsActive)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6806ec8;
+  constexpr static std::size_t addrs = 0x6804c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1814,7 +1814,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_IsPostProcessingAllowed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6806ee8;
+  constexpr static std::size_t addrs = 0x6804c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1828,7 +1828,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::get_IsLightingActive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6806ef0;
+  constexpr static std::size_t addrs = 0x6804c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1842,7 +1842,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)(::by_ref<::UnityEngine::Color>)>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::TryGetScreenClearColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6806ef8;
+  constexpr static std::size_t addrs = 0x6804c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(),
@@ -1856,7 +1856,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(
     &::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::UnityEngine_Rendering_IDebugDisplaySettingsData_CreatePanel)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6806f00;
+  constexpr static std::size_t addrs = 0x6804c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1870,7 +1870,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::*)()>(&::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68082c8;
+  constexpr static std::size_t addrs = 0x6806064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*>(), { ".ctor", {}, {} })));

@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream___c::*)()>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f29f64;
+  constexpr static std::size_t addrs = 0x5f27cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLResponseStream___c*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream___c::*)()>(
     &::OculusStudios::GraphQL::Client::GraphQLResponseStream___c::__ctor_b__21_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f29f68;
+  constexpr static std::size_t addrs = 0x5f27cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(::System::Action*)>(
     &::OculusStudios::GraphQL::Client::GraphQLResponseStream::add_OnCancelled)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5f24b80;
+  constexpr static std::size_t addrs = 0x5f228ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(::System::Action*)>(
     &::OculusStudios::GraphQL::Client::GraphQLResponseStream::remove_OnCancelled)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5f29c30;
+  constexpr static std::size_t addrs = 0x5f2799c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(::System::Action*)>(
     &::OculusStudios::GraphQL::Client::GraphQLResponseStream::add_OnConnectionClosed)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5f29cdc;
+  constexpr static std::size_t addrs = 0x5f27a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(::System::Action*)>(
     &::OculusStudios::GraphQL::Client::GraphQLResponseStream::remove_OnConnectionClosed)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5f29d88;
+  constexpr static std::size_t addrs = 0x5f27af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)()>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f29e34;
+  constexpr static std::size_t addrs = 0x5f27ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>(), { "Dispose", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(bool)>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::Dispose)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f29e44;
+  constexpr static std::size_t addrs = 0x5f27bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>(),
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::GraphQL::Client::GraphQLResponse* (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)()>(
     &::OculusStudios::GraphQL::Client::GraphQLResponseStream::get_InitialResponse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f29e80;
+  constexpr static std::size_t addrs = 0x5f27bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(::OculusStudios::GraphQL::Client::GraphQLResponse*)>(
     &::OculusStudios::GraphQL::Client::GraphQLResponseStream::set_InitialResponse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f29e88;
+  constexpr static std::size_t addrs = 0x5f27bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>(),
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)()>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::Cancel)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f29e64;
+  constexpr static std::size_t addrs = 0x5f27bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>(), { "Cancel", {}, {} })));
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(::System::Action_1<::OculusStudios::GraphQL::Client::GraphQLResponse*>*)>(
     &::OculusStudios::GraphQL::Client::GraphQLResponseStream::SetResponseCallback)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5f29e90;
+  constexpr static std::size_t addrs = 0x5f27bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(
     ::System::Func_2<::OculusStudios::GraphQL::Client::GraphQLResponse*, ::System::Threading::Tasks::Task*>*)>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::SetResponseCallback)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5f29ec0;
+  constexpr static std::size_t addrs = 0x5f27c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)(::OculusStudios::GraphQL::Client::GraphQLResponse*)>(
     &::OculusStudios::GraphQL::Client::GraphQLResponseStream::PostResponse)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5f229a0;
+  constexpr static std::size_t addrs = 0x5f2070c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>(),
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)()>(
     &::OculusStudios::GraphQL::Client::GraphQLResponseStream::NoteConnectionClosed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f29ef0;
+  constexpr static std::size_t addrs = 0x5f27c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLResponseStream::*)()>(&::OculusStudios::GraphQL::Client::GraphQLResponseStream::_ctor)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5f22de0;
+  constexpr static std::size_t addrs = 0x5f20b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::Client::GraphQLResponseStream*>(), { ".ctor", {}, {} })));

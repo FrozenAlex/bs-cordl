@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::ActionResult_Status (::UnityEngine::ProBuilder::ActionResult::*)()>(
     &::UnityEngine::ProBuilder::ActionResult::get_status)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66ad7f4;
+  constexpr static std::size_t addrs = 0x66ab590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ActionResult*>(), { "get_status", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::ActionResult::*)(::UnityEngine::ProBuilder::ActionResult_Status)>(
     &::UnityEngine::ProBuilder::ActionResult::set_status)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66ad7fc;
+  constexpr static std::size_t addrs = 0x66ab598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::ActionResult::*)()>(&::UnityEngine::ProBuilder::ActionResult::get_notification)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66ad804;
+  constexpr static std::size_t addrs = 0x66ab5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ActionResult*>(), { "get_notification", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::ActionResult::*)(::StringW)>(&::UnityEngine::ProBuilder::ActionResult::set_notification)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66ad80c;
+  constexpr static std::size_t addrs = 0x66ab5a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::ActionResult::*)(::UnityEngine::ProBuilder::ActionResult_Status, ::StringW)>(
     &::UnityEngine::ProBuilder::ActionResult::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66ad814;
+  constexpr static std::size_t addrs = 0x66ab5b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ProBuilder::ActionResult*)>(&::UnityEngine::ProBuilder::ActionResult::op_Implicit_bool)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x66ad820;
+  constexpr static std::size_t addrs = 0x66ab5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::ActionResult::*)()>(&::UnityEngine::ProBuilder::ActionResult::ToBool)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x66ad834;
+  constexpr static std::size_t addrs = 0x66ab5d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ActionResult*>(), { "ToBool", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(bool)>(&::UnityEngine::ProBuilder::ActionResult::FromBool)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x66ad844;
+  constexpr static std::size_t addrs = 0x66ab5e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::ActionResult* (*)()>(&::UnityEngine::ProBuilder::ActionResult::get_Success)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x66ad8dc;
+  constexpr static std::size_t addrs = 0x66ab678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ActionResult*>(), { "get_Success", {}, {} })));
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::ActionResult* (*)()>(&::UnityEngine::ProBuilder::ActionResult::get_NoSelection)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x66ad948;
+  constexpr static std::size_t addrs = 0x66ab6e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ActionResult*>(), { "get_NoSelection", {}, {} })));
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::ActionResult* (*)()>(&::UnityEngine::ProBuilder::ActionResult::get_UserCanceled)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x66ad9b8;
+  constexpr static std::size_t addrs = 0x66ab754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ActionResult*>(), { "get_UserCanceled", {}, {} })));

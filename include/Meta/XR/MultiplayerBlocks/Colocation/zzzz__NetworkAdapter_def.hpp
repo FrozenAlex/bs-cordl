@@ -33,27 +33,27 @@ public:
   __declspec(property(get = getStaticF__NetworkMessenger_k__BackingField,
                       put = setStaticF__NetworkMessenger_k__BackingField)) ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* _NetworkMessenger_k__BackingField;
 
-  /// @brief Method SetConfig, addr 0x5a70654, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetConfig, addr 0x5a6e498, size 0x90, virtual false, abstract: false, final false
   static inline void SetConfig(::Meta::XR::MultiplayerBlocks::Colocation::INetworkData* networkData, ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* networkMessenger);
 
   static inline ::Meta::XR::MultiplayerBlocks::Colocation::INetworkData* getStaticF__NetworkData_k__BackingField();
 
   static inline ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* getStaticF__NetworkMessenger_k__BackingField();
 
-  /// @brief Method get_NetworkData, addr 0x5a7b484, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_NetworkData, addr 0x5a792c8, size 0x4c, virtual false, abstract: false, final false
   static inline ::Meta::XR::MultiplayerBlocks::Colocation::INetworkData* get_NetworkData();
 
-  /// @brief Method get_NetworkMessenger, addr 0x5a7b520, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_NetworkMessenger, addr 0x5a79364, size 0x4c, virtual false, abstract: false, final false
   static inline ::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* get_NetworkMessenger();
 
   static inline void setStaticF__NetworkData_k__BackingField(::Meta::XR::MultiplayerBlocks::Colocation::INetworkData* value);
 
   static inline void setStaticF__NetworkMessenger_k__BackingField(::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* value);
 
-  /// @brief Method set_NetworkData, addr 0x5a7b4d0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_NetworkData, addr 0x5a79314, size 0x50, virtual false, abstract: false, final false
   static inline void set_NetworkData(::Meta::XR::MultiplayerBlocks::Colocation::INetworkData* value);
 
-  /// @brief Method set_NetworkMessenger, addr 0x5a7b56c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_NetworkMessenger, addr 0x5a793b0, size 0x50, virtual false, abstract: false, final false
   static inline void set_NetworkMessenger(::Meta::XR::MultiplayerBlocks::Colocation::INetworkMessenger* value);
 
 protected:
@@ -71,7 +71,7 @@ public:
   NetworkAdapter(NetworkAdapter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20767 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

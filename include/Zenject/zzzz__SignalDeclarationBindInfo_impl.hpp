@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalDeclarationBindInfo::*)(::System::Type*)>(&::Zenject::SignalDeclarationBindInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e42c28;
+  constexpr static std::size_t addrs = 0x6e3e62c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Zenject::SignalDeclarationBindInfo::*)()>(&::Zenject::SignalDeclarationBindInfo::get_Identifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e42c30;
+  constexpr static std::size_t addrs = 0x6e3e634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalDeclarationBindInfo*>(), { "get_Identifier", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalDeclarationBindInfo::*)(::System::Object*)>(&::Zenject::SignalDeclarationBindInfo::set_Identifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e42c38;
+  constexpr static std::size_t addrs = 0x6e3e63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::Zenject::SignalDeclarationBindInfo::*)()>(&::Zenject::SignalDeclarationBindInfo::get_SignalType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e42c40;
+  constexpr static std::size_t addrs = 0x6e3e644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalDeclarationBindInfo*>(), { "get_SignalType", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalDeclarationBindInfo::*)(::System::Type*)>(&::Zenject::SignalDeclarationBindInfo::set_SignalType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e42c48;
+  constexpr static std::size_t addrs = 0x6e3e64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::SignalDeclarationBindInfo::*)()>(&::Zenject::SignalDeclarationBindInfo::get_RunAsync)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e42c50;
+  constexpr static std::size_t addrs = 0x6e3e654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalDeclarationBindInfo*>(), { "get_RunAsync", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalDeclarationBindInfo::*)(bool)>(&::Zenject::SignalDeclarationBindInfo::set_RunAsync)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e42c58;
+  constexpr static std::size_t addrs = 0x6e3e65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Zenject::SignalDeclarationBindInfo::*)()>(&::Zenject::SignalDeclarationBindInfo::get_TickPriority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e42c60;
+  constexpr static std::size_t addrs = 0x6e3e664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalDeclarationBindInfo*>(), { "get_TickPriority", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalDeclarationBindInfo::*)(int32_t)>(&::Zenject::SignalDeclarationBindInfo::set_TickPriority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e42c68;
+  constexpr static std::size_t addrs = 0x6e3e66c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::SignalMissingHandlerResponses (::Zenject::SignalDeclarationBindInfo::*)()>(
     &::Zenject::SignalDeclarationBindInfo::get_MissingHandlerResponse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e42c70;
+  constexpr static std::size_t addrs = 0x6e3e674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalDeclarationBindInfo*>(), { "get_MissingHandlerResponse", {}, {} })));
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalDeclarationBindInfo::*)(::Zenject::SignalMissingHandlerResponses)>(
     &::Zenject::SignalDeclarationBindInfo::set_MissingHandlerResponse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e42c78;
+  constexpr static std::size_t addrs = 0x6e3e67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalDeclarationBindInfo*>(),

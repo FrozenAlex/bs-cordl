@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Ocsp::RevokedStatus::*)(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo*)>(
     &::Org::BouncyCastle::Ocsp::RevokedStatus::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3578ac0;
+  constexpr static std::size_t addrs = 0x3577088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Ocsp::RevokedStatus::*)(::System::DateTime, int32_t)>(&::Org::BouncyCastle::Ocsp::RevokedStatus::_ctor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3578b24;
+  constexpr static std::size_t addrs = 0x35770ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::Org::BouncyCastle::Ocsp::RevokedStatus::*)()>(&::Org::BouncyCastle::Ocsp::RevokedStatus::get_RevocationTime)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3572b10;
+  constexpr static std::size_t addrs = 0x35710d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Ocsp::RevokedStatus*>(), { "get_RevocationTime", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Ocsp::RevokedStatus::*)()>(&::Org::BouncyCastle::Ocsp::RevokedStatus::get_HasRevocationReason)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3572a84;
+  constexpr static std::size_t addrs = 0x357104c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Ocsp::RevokedStatus*>(), { "get_HasRevocationReason", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Ocsp::RevokedStatus::*)()>(&::Org::BouncyCastle::Ocsp::RevokedStatus::get_RevocationReason)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3572aa4;
+  constexpr static std::size_t addrs = 0x357106c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Ocsp::RevokedStatus*>(), { "get_RevocationReason", {}, {} })));

@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDifficultyDropdown___c::*)()>(&::GlobalNamespace::BeatmapDifficultyDropdown___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x593d738;
+  constexpr static std::size_t addrs = 0x593bf20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDifficultyDropdown___c*>(), { ".ctor", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::BeatmapDifficultyDropdown___c::*)(::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*)>(
     &::GlobalNamespace::BeatmapDifficultyDropdown___c::_Start_b__12_0)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x593d73c;
+  constexpr static std::size_t addrs = 0x593bf24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDifficultyDropdown::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::BeatmapDifficultyDropdown::add_didSelectCellWithIdxEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x593cf74;
+  constexpr static std::size_t addrs = 0x593b75c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDifficultyDropdown*>(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDifficultyDropdown::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::BeatmapDifficultyDropdown::remove_didSelectCellWithIdxEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x593d034;
+  constexpr static std::size_t addrs = 0x593b81c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDifficultyDropdown*>(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>* (
     ::GlobalNamespace::BeatmapDifficultyDropdown::*)()>(&::GlobalNamespace::BeatmapDifficultyDropdown::get_beatmapDifficultyData)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x593d0f4;
+  constexpr static std::size_t addrs = 0x593b8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDifficultyDropdown*>(), { "get_beatmapDifficultyData", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapDifficultyDropdown::*)()>(&::GlobalNamespace::BeatmapDifficultyDropdown::get_includeAllDifficulties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x593d2d4;
+  constexpr static std::size_t addrs = 0x593babc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDifficultyDropdown::*)(bool)>(&::GlobalNamespace::BeatmapDifficultyDropdown::set_includeAllDifficulties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x593d2dc;
+  constexpr static std::size_t addrs = 0x593bac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDifficultyDropdown::*)()>(&::GlobalNamespace::BeatmapDifficultyDropdown::Start)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x593d2e4;
+  constexpr static std::size_t addrs = 0x593bacc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDifficultyDropdown*>(), { "Start", {}, {} })));
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDifficultyDropdown::*)()>(&::GlobalNamespace::BeatmapDifficultyDropdown::OnDestroy)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x593d498;
+  constexpr static std::size_t addrs = 0x593bc80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDifficultyDropdown*>(), { "OnDestroy", {}, {} })));
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDifficultyMask (::GlobalNamespace::BeatmapDifficultyDropdown::*)()>(
     &::GlobalNamespace::BeatmapDifficultyDropdown::GetSelectedBeatmapDifficultyMask)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x593d574;
+  constexpr static std::size_t addrs = 0x593bd5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDifficultyDropdown::*)(::GlobalNamespace::BeatmapDifficultyMask)>(
     &::GlobalNamespace::BeatmapDifficultyDropdown::SelectCellWithBeatmapDifficultyMask)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x593d650;
+  constexpr static std::size_t addrs = 0x593be38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapDifficultyDropdown::*)(::GlobalNamespace::BeatmapDifficultyMask)>(
     &::GlobalNamespace::BeatmapDifficultyDropdown::GetIdxForBeatmapDifficultyMask)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x593d67c;
+  constexpr static std::size_t addrs = 0x593be64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDifficultyDropdown*>(),
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDifficultyDropdown::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::GlobalNamespace::BeatmapDifficultyDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x593d6bc;
+  constexpr static std::size_t addrs = 0x593bea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDifficultyDropdown::*)()>(&::GlobalNamespace::BeatmapDifficultyDropdown::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x593d6e0;
+  constexpr static std::size_t addrs = 0x593bec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDifficultyDropdown*>(), { ".ctor", {}, {} })));

@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::Platform::Core::MockedPlatform::*)()>(&::OculusStudios::Platform::Core::MockedPlatform::get_displayName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5f2df58;
+  constexpr static std::size_t addrs = 0x5f2bcc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::Platform::Core::MockedPlatform::*)()>(&::OculusStudios::Platform::Core::MockedPlatform::get_key)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5f2df9c;
+  constexpr static std::size_t addrs = 0x5f2bd08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::Platform::Core::Vendor (::OculusStudios::Platform::Core::MockedPlatform::*)()>(
     &::OculusStudios::Platform::Core::MockedPlatform::get_vendor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f2dfe0;
+  constexpr static std::size_t addrs = 0x5f2bd4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::Platform::Core::IPlatformUser* (::OculusStudios::Platform::Core::MockedPlatform::*)()>(
     &::OculusStudios::Platform::Core::MockedPlatform::get_user)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f2dfe8;
+  constexpr static std::size_t addrs = 0x5f2bd54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::Platform::Core::IPlatformEntitlements* (::OculusStudios::Platform::Core::MockedPlatform::*)()>(
     &::OculusStudios::Platform::Core::MockedPlatform::get_entitlements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f2dff0;
+  constexpr static std::size_t addrs = 0x5f2bd5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::MockedPlatform::*)(
     ::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>*)>(&::OculusStudios::Platform::Core::MockedPlatform::add_destinationRequestedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5f2dff8;
+  constexpr static std::size_t addrs = 0x5f2bd64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::MockedPlatform::*)(
     ::System::Action_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW>*)>(&::OculusStudios::Platform::Core::MockedPlatform::remove_destinationRequestedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5f2e0b8;
+  constexpr static std::size_t addrs = 0x5f2be24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::MockedPlatform::*)()>(&::OculusStudios::Platform::Core::MockedPlatform::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f2e178;
+  constexpr static std::size_t addrs = 0x5f2bee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::MockedPlatform*>(), { "Dispose", {}, {} })));
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::MockedPlatform::*)(float_t)>(&::OculusStudios::Platform::Core::MockedPlatform::Tick)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f2e17c;
+  constexpr static std::size_t addrs = 0x5f2bee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OculusStudios::Platform::Core::MockedPlatform::*)()>(&::OculusStudios::Platform::Core::MockedPlatform::GetAppVersion)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f2e180;
+  constexpr static std::size_t addrs = 0x5f2beec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::MockedPlatform*>(), { "GetAppVersion", {}, {} })));
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::MockedPlatform::*)(::OculusStudios::Platform::Core::RichPresenceRuntimeInstance)>(
     &::OculusStudios::Platform::Core::MockedPlatform::SetRichPresenceStatus)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f2e194;
+  constexpr static std::size_t addrs = 0x5f2bf00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::MockedPlatform::*)()>(&::OculusStudios::Platform::Core::MockedPlatform::ClearRichPresenceStatus)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f2e198;
+  constexpr static std::size_t addrs = 0x5f2bf04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::OculusStudios::Platform::Core::IRichPresenceDefinition*, ::StringW> (
     ::OculusStudios::Platform::Core::MockedPlatform::*)()>(&::OculusStudios::Platform::Core::MockedPlatform::GetDestination)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5f2e19c;
+  constexpr static std::size_t addrs = 0x5f2bf08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::MockedPlatform*>(), { "GetDestination", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::OculusStudios::Platform::Core::MockedPlatform::*)(::OculusStudios::Platform::Core::PlatformInitParams*)>(
     &::OculusStudios::Platform::Core::MockedPlatform::OculusStudios_Platform_Core_IPlatformInternal_InitializeAsync)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5f2e1e0;
+  constexpr static std::size_t addrs = 0x5f2bf4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::MockedPlatform::*)()>(&::OculusStudios::Platform::Core::MockedPlatform::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f2e398;
+  constexpr static std::size_t addrs = 0x5f2c104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::MockedPlatform*>(), { ".ctor", {}, {} })));

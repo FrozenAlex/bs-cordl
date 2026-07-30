@@ -143,15 +143,15 @@ public:
   /// @brief Field xmlResolver, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_xmlResolver, put = __cordl_internal_set_xmlResolver)) ::System::Xml::XmlResolver* xmlResolver;
 
-  /// @brief Method CompleteValidation, addr 0x631457c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CompleteValidation, addr 0x6312318, size 0x4, virtual true, abstract: false, final false
   inline void CompleteValidation();
 
-  /// @brief Method CreateInstance, addr 0x63152f0, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x631308c, size 0x1ac, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::BaseValidator* CreateInstance(::System::Xml::ValidationType valType, ::System::Xml::XmlValidatingReaderImpl* reader,
                                                                      ::System::Xml::Schema::XmlSchemaCollection* schemaCollection, ::System::Xml::IValidationEventHandling* eventHandling,
                                                                      bool processIdentityConstraints);
 
-  /// @brief Method FindId, addr 0x6314580, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method FindId, addr 0x631231c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* FindId(::StringW name);
 
   static inline ::System::Xml::Schema::BaseValidator* New_ctor(::System::Xml::Schema::BaseValidator* other);
@@ -159,45 +159,45 @@ public:
   static inline ::System::Xml::Schema::BaseValidator* New_ctor(::System::Xml::XmlValidatingReaderImpl* reader, ::System::Xml::Schema::XmlSchemaCollection* schemaCollection,
                                                                ::System::Xml::IValidationEventHandling* eventHandling);
 
-  /// @brief Method ProcessEntity, addr 0x63150bc, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ProcessEntity, addr 0x6312e58, size 0x234, virtual false, abstract: false, final false
   static inline void ProcessEntity(::System::Xml::Schema::SchemaInfo* sinfo, ::StringW name, ::System::Xml::IValidationEventHandling* eventHandling, ::StringW baseUriStr, int32_t lineNumber,
                                    int32_t linePosition);
 
-  /// @brief Method ProcessEntity, addr 0x6314eb0, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method ProcessEntity, addr 0x6312c4c, size 0x20c, virtual false, abstract: false, final false
   static inline void ProcessEntity(::System::Xml::Schema::SchemaInfo* sinfo, ::StringW name, ::System::Object* sender, ::System::Xml::Schema::ValidationEventHandler* eventhandler, ::StringW baseUri,
                                    int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method SaveTextValue, addr 0x63149f0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SaveTextValue, addr 0x631278c, size 0x74, virtual false, abstract: false, final false
   inline void SaveTextValue(::StringW value);
 
-  /// @brief Method SendValidationEvent, addr 0x6314b9c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x6312938, size 0x14, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code);
 
-  /// @brief Method SendValidationEvent, addr 0x63147f8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x6312594, size 0xec, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::StringW arg);
 
-  /// @brief Method SendValidationEvent, addr 0x63148e4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x6312680, size 0x10c, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::ArrayW<::StringW> args);
 
-  /// @brief Method SendValidationEvent, addr 0x6314d98, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x6312b34, size 0x118, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::ArrayW<::StringW> args, ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method SendValidationEvent, addr 0x6314ca0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x6312a3c, size 0xf8, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::StringW msg, ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method SendValidationEvent, addr 0x6314bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x631294c, size 0x8, virtual false, abstract: false, final false
   inline void SendValidationEvent(::System::Xml::Schema::XmlSchemaException* e);
 
-  /// @brief Method SendValidationEvent, addr 0x6314bb8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x6312954, size 0xe8, virtual false, abstract: false, final false
   inline void SendValidationEvent(::System::Xml::Schema::XmlSchemaException* e, ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method Validate, addr 0x6314578, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Validate, addr 0x6312314, size 0x4, virtual true, abstract: false, final false
   inline void Validate();
 
-  /// @brief Method ValidateText, addr 0x6314588, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method ValidateText, addr 0x6312324, size 0x270, virtual false, abstract: false, final false
   inline void ValidateText();
 
-  /// @brief Method ValidateWhitespace, addr 0x6314a64, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ValidateWhitespace, addr 0x6312800, size 0x138, virtual false, abstract: false, final false
   inline void ValidateWhitespace();
 
   constexpr ::System::Uri* const& __cordl_internal_get_baseUri() const;
@@ -290,49 +290,49 @@ public:
 
   constexpr void __cordl_internal_set_xmlResolver(::System::Xml::XmlResolver* value);
 
-  /// @brief Method .ctor, addr 0x6314330, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63120cc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::BaseValidator* other);
 
-  /// @brief Method .ctor, addr 0x6312d84, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6310b20, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlValidatingReaderImpl* reader, ::System::Xml::Schema::XmlSchemaCollection* schemaCollection, ::System::Xml::IValidationEventHandling* eventHandling);
 
-  /// @brief Method get_BaseUri, addr 0x63143a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseUri, addr 0x631213c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Uri* get_BaseUri();
 
-  /// @brief Method get_EventHandler, addr 0x63143b0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_EventHandler, addr 0x631214c, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::ValidationEventHandler* get_EventHandler();
 
-  /// @brief Method get_NameTable, addr 0x6314380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x631211c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
-  /// @brief Method get_PositionInfo, addr 0x6314388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PositionInfo, addr 0x6312124, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::PositionInfo* get_PositionInfo();
 
-  /// @brief Method get_PreserveWhitespace, addr 0x6314570, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PreserveWhitespace, addr 0x631230c, size 0x8, virtual true, abstract: false, final false
   inline bool get_PreserveWhitespace();
 
-  /// @brief Method get_Reader, addr 0x6314370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Reader, addr 0x631210c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlValidatingReaderImpl* get_Reader();
 
-  /// @brief Method get_SchemaCollection, addr 0x6314378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaCollection, addr 0x6312114, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaCollection* get_SchemaCollection();
 
-  /// @brief Method get_SchemaInfo, addr 0x6314488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaInfo, addr 0x6312224, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaInfo* get_SchemaInfo();
 
-  /// @brief Method get_SchemaNames, addr 0x6313280, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaNames, addr 0x631101c, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaNames* get_SchemaNames();
 
-  /// @brief Method get_XmlResolver, addr 0x6314390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlResolver, addr 0x631212c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlResolver* get_XmlResolver();
 
-  /// @brief Method set_BaseUri, addr 0x63143a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseUri, addr 0x6312144, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseUri(::System::Uri* value);
 
-  /// @brief Method set_DtdInfo, addr 0x6314490, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method set_DtdInfo, addr 0x631222c, size 0xe0, virtual false, abstract: false, final false
   inline void set_DtdInfo(::System::Xml::IDtdInfo* value);
 
-  /// @brief Method set_XmlResolver, addr 0x6314398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlResolver, addr 0x6312134, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlResolver(::System::Xml::XmlResolver* value);
 
 protected:

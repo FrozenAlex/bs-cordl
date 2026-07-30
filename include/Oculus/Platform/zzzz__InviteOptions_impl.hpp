@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::InviteOptions::*)()>(&::Oculus::Platform::InviteOptions::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd2c60;
+  constexpr static std::size_t addrs = 0x5dd09cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::InviteOptions*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::InviteOptions::*)(uint64_t)>(&::Oculus::Platform::InviteOptions::AddSuggestedUser)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5dd2cbc;
+  constexpr static std::size_t addrs = 0x5dd0a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::InviteOptions::*)()>(&::Oculus::Platform::InviteOptions::ClearSuggestedUsers)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd2d28;
+  constexpr static std::size_t addrs = 0x5dd0a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::InviteOptions*>(), { "ClearSuggestedUsers", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::Oculus::Platform::InviteOptions*)>(&::Oculus::Platform::InviteOptions::op_Explicit___System__IntPtr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5dd2d84;
+  constexpr static std::size_t addrs = 0x5dd0af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::InviteOptions::*)()>(&::Oculus::Platform::InviteOptions::Finalize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5dd2d90;
+  constexpr static std::size_t addrs = 0x5dd0afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

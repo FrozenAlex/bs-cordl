@@ -25,10 +25,10 @@ namespace Unity::IntegerTime {
 class CORDL_TYPE RationalTimeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x6a572f8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x6a55094, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::IntegerTime::RationalTime Convert(::Unity::IntegerTime::RationalTime time, ::Unity::IntegerTime::RationalTime_TicksPerSecond rate);
 
-  /// @brief Method Convert_Injected, addr 0x6a57804, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Convert_Injected, addr 0x6a555a0, size 0x54, virtual false, abstract: false, final false
   static inline void Convert_Injected(::by_ref<::Unity::IntegerTime::RationalTime> time, ::by_ref<::Unity::IntegerTime::RationalTime_TicksPerSecond> rate,
                                       ::by_ref<::Unity::IntegerTime::RationalTime> ret);
 

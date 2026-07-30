@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditColorSchemeController::*)(::System::Action*)>(&::GlobalNamespace::EditColorSchemeController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x591f0f4;
+  constexpr static std::size_t addrs = 0x591d614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditColorSchemeController::*)(::System::Action*)>(
     &::GlobalNamespace::EditColorSchemeController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x591f598;
+  constexpr static std::size_t addrs = 0x591dab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditColorSchemeController::*)(::System::Action_1<::GlobalNamespace::ColorScheme*>*)>(
     &::GlobalNamespace::EditColorSchemeController::add_didChangeColorSchemeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x591f1a0;
+  constexpr static std::size_t addrs = 0x591d6c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditColorSchemeController::*)(::System::Action_1<::GlobalNamespace::ColorScheme*>*)>(
     &::GlobalNamespace::EditColorSchemeController::remove_didChangeColorSchemeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x591f644;
+  constexpr static std::size_t addrs = 0x591db64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditColorSchemeController::*)(::GlobalNamespace::ColorScheme*)>(
     &::GlobalNamespace::EditColorSchemeController::SetColorScheme)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x591fed8;
+  constexpr static std::size_t addrs = 0x591e3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditColorSchemeController::*)()>(&::GlobalNamespace::EditColorSchemeController::Start)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x591ff90;
+  constexpr static std::size_t addrs = 0x591e4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EditColorSchemeController*>(), { "Start", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditColorSchemeController::*)()>(&::GlobalNamespace::EditColorSchemeController::OnDestroy)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x5920310;
+  constexpr static std::size_t addrs = 0x591e830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EditColorSchemeController*>(), { "OnDestroy", {}, {} })));
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditColorSchemeController::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::EditColorSchemeController::HandleColorSchemeColorsToggleGroupSelectedColorDidChange)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x592059c;
+  constexpr static std::size_t addrs = 0x591eabc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditColorSchemeController::*)(::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType)>(
     &::GlobalNamespace::EditColorSchemeController::HandleRGBPanelControllerColorDidChange)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5920634;
+  constexpr static std::size_t addrs = 0x591eb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditColorSchemeController::*)(::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType)>(
     &::GlobalNamespace::EditColorSchemeController::HandleHSVPanelControllerColorDidChange)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x592070c;
+  constexpr static std::size_t addrs = 0x591ec2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditColorSchemeController::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::EditColorSchemeController::HandlePreviousColorPanelControllerColorWasSelected)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x59207f4;
+  constexpr static std::size_t addrs = 0x591ed14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EditColorSchemeController*>(),
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditColorSchemeController::*)()>(&::GlobalNamespace::EditColorSchemeController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59208c0;
+  constexpr static std::size_t addrs = 0x591ede0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EditColorSchemeController*>(), { ".ctor", {}, {} })));
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EditColorSchemeController::*)()>(&::GlobalNamespace::EditColorSchemeController::_Start_b__13_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x59208c4;
+  constexpr static std::size_t addrs = 0x591ede4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EditColorSchemeController*>(), { "<Start>b__13_0", {}, {} })));

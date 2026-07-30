@@ -167,7 +167,7 @@ public:
   static ::UnityEngine::VFX::Event_VisualEffectControlTrackController_ClipType const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19929 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19926 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -203,7 +203,7 @@ public:
                                                      ::UnityEngine::VFX::Event_VisualEffectControlTrackController_ClipType clipType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19927 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -254,7 +254,7 @@ public:
   constexpr VisualEffectControlTrackController_Clip(int32_t enter, int32_t exit) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19928 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -298,7 +298,7 @@ public:
                                                      ::ArrayW<::UnityEngine::VFX::VisualEffectControlTrackController_Clip> clips) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19932 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19929 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -379,12 +379,12 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::VFX::VisualEffectControlPlayableBehaviour*>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::VFX::VisualEffectControlPlayableBehaviour*>*() noexcept;
 
-  /// @brief Method Compare, addr 0x69d1d28, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x69cfac4, size 0x74, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::VFX::VisualEffectControlPlayableBehaviour* x, ::UnityEngine::VFX::VisualEffectControlPlayableBehaviour* y);
 
   static inline ::UnityEngine::VFX::VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x69d1ba0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69cf93c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::UnityEngine::VFX::VisualEffectControlPlayableBehaviour*>"
@@ -406,7 +406,7 @@ public:
   VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer(VisualEffectControlTrackController_VisualEffectControlPlayableBehaviourComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19930 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -433,14 +433,14 @@ public:
 
   static inline ::UnityEngine::VFX::VisualEffectControlTrackController___c* New_ctor();
 
-  /// @brief Method <Init>b__24_0, addr 0x69d1e58, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <Init>b__24_0, addr 0x69cfbf4, size 0x64, virtual false, abstract: false, final false
   inline int32_t _Init_b__24_0(::UnityEngine::VFX::VisualEffectControlTrackController_Event x, ::UnityEngine::VFX::VisualEffectControlTrackController_Event y);
 
-  /// @brief Method <Init>b__24_1, addr 0x69d1df4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <Init>b__24_1, addr 0x69cfb90, size 0x64, virtual false, abstract: false, final false
   inline int32_t _Init_b__24_1(::System::ValueTuple_2<::UnityEngine::VFX::VisualEffectControlTrackController_Event, int32_t> x,
                                ::System::ValueTuple_2<::UnityEngine::VFX::VisualEffectControlTrackController_Event, int32_t> y);
 
-  /// @brief Method .ctor, addr 0x69d1df0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69cfb8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::VFX::VisualEffectControlTrackController___c* getStaticF___9();
@@ -470,7 +470,7 @@ public:
   VisualEffectControlTrackController___c(VisualEffectControlTrackController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19934 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19931 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -530,28 +530,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x69d1ed8, size 0x388, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x69cfc74, size 0x388, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::VFX::VisualEffectControlTrackController__ComputeRuntimeEvent_d__21* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.VFX.VisualEffectControlTrackController.Event>.GetEnumerator, addr 0x69d23c0, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.VFX.VisualEffectControlTrackController.Event>.GetEnumerator, addr 0x69d015c, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::VFX::VisualEffectControlTrackController_Event>*
   System_Collections_Generic_IEnumerable_UnityEngine_VFX_VisualEffectControlTrackController_Event__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.VFX.VisualEffectControlTrackController.Event>.get_Current, addr 0x69d2314, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.VFX.VisualEffectControlTrackController.Event>.get_Current, addr 0x69d00b0, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::VFX::VisualEffectControlTrackController_Event System_Collections_Generic_IEnumerator_UnityEngine_VFX_VisualEffectControlTrackController_Event__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x69d2460, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x69d01fc, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69d2324, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x69d00c0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69d235c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x69d00f8, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x69d1ebc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x69cfc58, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -602,10 +602,10 @@ public:
 
   constexpr void __cordl_internal_set_vfx(::UnityW<::UnityEngine::VFX::VisualEffect> value);
 
-  /// @brief Method <>m__Finally1, addr 0x69d2260, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x69cfffc, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x69d08e8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69ce684, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::VFX::VisualEffectControlTrackController_Event>"
@@ -640,7 +640,7 @@ public:
   VisualEffectControlTrackController__ComputeRuntimeEvent_d__21(VisualEffectControlTrackController__ComputeRuntimeEvent_d__21 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19932 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -734,44 +734,44 @@ public:
   /// @brief Field m_Target, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Target, put = __cordl_internal_set_m_Target)) ::UnityW<::UnityEngine::VFX::VisualEffect> m_Target;
 
-  /// @brief Method ComputeAttribute, addr 0x69d07cc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ComputeAttribute, addr 0x69ce568, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::VFX::VFXEventAttribute* ComputeAttribute(::UnityEngine::VFX::VisualEffect* vfx, ::UnityEngine::VFX::EventAttributes attributes);
 
-  /// @brief Method ComputeRuntimeEvent, addr 0x69d086c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ComputeRuntimeEvent, addr 0x69ce608, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::VFX::VisualEffectControlTrackController_Event>*
   ComputeRuntimeEvent(::UnityEngine::VFX::VisualEffectControlPlayableBehaviour* behavior, ::UnityEngine::VFX::VisualEffect* vfx);
 
-  /// @brief Method GetEventsIndex, addr 0x69d0614, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetEventsIndex, addr 0x69ce3b0, size 0x13c, virtual false, abstract: false, final false
   static inline void GetEventsIndex(::UnityEngine::VFX::VisualEffectControlTrackController_Chunk chunk, double_t minTime, double_t maxTime, int32_t lastIndex,
                                     ::System::Collections::Generic::List_1<int32_t>* eventListIndex);
 
-  /// @brief Method Init, addr 0x69d0908, size 0x1298, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x69ce6a4, size 0x1298, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Playables::Playable playable, ::UnityEngine::VFX::VisualEffect* vfx, ::UnityEngine::VFX::VisualEffectControlTrack* parentTrack);
 
-  /// @brief Method IsTimeInChunk, addr 0x69cfd54, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsTimeInChunk, addr 0x69cdaf0, size 0x44, virtual false, abstract: false, final false
   inline bool IsTimeInChunk(double_t time, int32_t index);
 
   static inline ::UnityEngine::VFX::VisualEffectControlTrackController* New_ctor();
 
-  /// @brief Method OnEnterChunk, addr 0x69cf814, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OnEnterChunk, addr 0x69cd5b0, size 0xe0, virtual false, abstract: false, final false
   inline void OnEnterChunk(int32_t currentChunk);
 
-  /// @brief Method OnLeaveChunk, addr 0x69cf8f4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnLeaveChunk, addr 0x69cd690, size 0xcc, virtual false, abstract: false, final false
   inline void OnLeaveChunk(int32_t previousChunkIndex, bool leavingGoingBeforeClip);
 
-  /// @brief Method ProcessEvent, addr 0x69d0750, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ProcessEvent, addr 0x69ce4ec, size 0x7c, virtual false, abstract: false, final false
   inline void ProcessEvent(int32_t eventIndex, ::UnityEngine::VFX::VisualEffectControlTrackController_Chunk currentChunk);
 
-  /// @brief Method ProcessNoScrubbingEvents, addr 0x69cf9c0, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method ProcessNoScrubbingEvents, addr 0x69cd75c, size 0x2c4, virtual false, abstract: false, final false
   inline void ProcessNoScrubbingEvents(::UnityEngine::VFX::VisualEffectControlTrackController_Chunk chunk, double_t oldTime, double_t newTime);
 
-  /// @brief Method Release, addr 0x69d1c3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x69cf9d8, size 0xc, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method RestoreVFXState, addr 0x69cfc84, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method RestoreVFXState, addr 0x69cda20, size 0xd0, virtual false, abstract: false, final false
   inline void RestoreVFXState(bool restorePause, bool restoreSeedState);
 
-  /// @brief Method Update, addr 0x69cfd98, size 0x87c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x69cdb34, size 0x87c, virtual false, abstract: false, final false
   inline void Update(double_t playableTime, float_t deltaTime);
 
   constexpr bool const& __cordl_internal_get_m_BackupReseedOnPlay() const;
@@ -822,7 +822,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Target(::UnityW<::UnityEngine::VFX::VisualEffect> value);
 
-  /// @brief Method .ctor, addr 0x69d1c48, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69cf9e4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline double_t getStaticF_kEpsilonEvent();
@@ -844,7 +844,7 @@ public:
   VisualEffectControlTrackController(VisualEffectControlTrackController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19933 };
 
   /// @brief Field kErrorIndex offset 0xffffffff size 0x4
   static constexpr int32_t kErrorIndex{ static_cast<int32_t>(0x80000000) };

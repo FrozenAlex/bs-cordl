@@ -63,13 +63,13 @@ public:
   static inline ::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable_ForDevice* New_ctor(::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device,
                                                                                                     ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer);
 
-  /// @brief Method OnCompleted, addr 0x6501710, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnCompleted, addr 0x64ff4ac, size 0x4, virtual true, abstract: false, final true
   inline void OnCompleted();
 
-  /// @brief Method OnError, addr 0x6501714, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method OnError, addr 0x64ff4b0, size 0x5c, virtual true, abstract: false, final true
   inline void OnError(::System::Exception* error);
 
-  /// @brief Method OnNext, addr 0x6501770, size 0x174, virtual true, abstract: false, final true
+  /// @brief Method OnNext, addr 0x64ff50c, size 0x174, virtual true, abstract: false, final true
   inline void OnNext(::UnityEngine::InputSystem::LowLevel::InputEventPtr value);
 
   constexpr ::UnityEngine::InputSystem::InputDevice* const& __cordl_internal_get_m_Device() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Observer(::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
-  /// @brief Method .ctor, addr 0x6501704, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64ff4a0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device, ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer);
 
   /// @brief Convert to "::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
@@ -158,7 +158,7 @@ public:
   static inline ::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable* New_ctor(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source,
                                                                                           ::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Subscribe, addr 0x6501610, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method Subscribe, addr 0x64ff3ac, size 0xf4, virtual true, abstract: false, final true
   inline ::System::IDisposable* Subscribe(::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer);
 
   constexpr ::UnityEngine::InputSystem::InputDevice* const& __cordl_internal_get_m_Device() const;
@@ -179,7 +179,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Source(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
-  /// @brief Method .ctor, addr 0x6501604, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64ff3a0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source, ::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device);
 
   /// @brief Convert to "::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"

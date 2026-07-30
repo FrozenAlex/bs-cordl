@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::AsyncLocalValueChangedArgs_1<::System::Globalization::CultureInfo*>)>(
     &::System::Threading::Thread::AsyncLocalSetCurrentCulture)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5cb0c20;
+  constexpr static std::size_t addrs = 0x5cae98c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::AsyncLocalValueChangedArgs_1<::System::Globalization::CultureInfo*>)>(
     &::System::Threading::Thread::AsyncLocalSetCurrentUICulture)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5cb0cbc;
+  constexpr static std::size_t addrs = 0x5caea28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)(::System::Threading::ThreadStart*)>(&::System::Threading::Thread::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5cb0d58;
+  constexpr static std::size_t addrs = 0x5caeac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)(::System::Threading::ParameterizedThreadStart*)>(&::System::Threading::Thread::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5cb0f14;
+  constexpr static std::size_t addrs = 0x5caec80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)(::System::Threading::ParameterizedThreadStart*, int32_t)>(&::System::Threading::Thread::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5cb0f6c;
+  constexpr static std::size_t addrs = 0x5caecd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)()>(&::System::Threading::Thread::Start)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cb102c;
+  constexpr static std::size_t addrs = 0x5caed98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "Start", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)(::System::Object*)>(&::System::Threading::Thread::Start)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5cb1120;
+  constexpr static std::size_t addrs = 0x5caee8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "Start", {}, { ::i2c::type_of<::System::Object*>() } })));
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)(::by_ref<::System::Threading::StackCrawlMark>)>(&::System::Threading::Thread::Start)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5cb1048;
+  constexpr static std::size_t addrs = 0x5caedb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::ExecutionContext_Reader (::System::Threading::Thread::*)()>(&::System::Threading::Thread::GetExecutionContextReader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cb1250;
+  constexpr static std::size_t addrs = 0x5caefbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "GetExecutionContextReader", {}, {} })));
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::Thread::*)()>(&::System::Threading::Thread::get_ExecutionContextBelongsToCurrentScope)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5cb1258;
+  constexpr static std::size_t addrs = 0x5caefc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "get_ExecutionContextBelongsToCurrentScope", {}, {} })));
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)(bool)>(&::System::Threading::Thread::set_ExecutionContextBelongsToCurrentScope)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cb1268;
+  constexpr static std::size_t addrs = 0x5caefd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::ExecutionContext* (::System::Threading::Thread::*)()>(&::System::Threading::Thread::GetMutableExecutionContext)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5cb1274;
+  constexpr static std::size_t addrs = 0x5caefe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "GetMutableExecutionContext", {}, {} })));
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)(::System::Threading::ExecutionContext*, bool)>(&::System::Threading::Thread::SetExecutionContext)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5cb12e4;
+  constexpr static std::size_t addrs = 0x5caf050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)(::System::Threading::ExecutionContext_Reader, bool)>(&::System::Threading::Thread::SetExecutionContext)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5cb12f4;
+  constexpr static std::size_t addrs = 0x5caf060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::ThreadPriority (::System::Threading::Thread::*)()>(&::System::Threading::Thread::get_Priority)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5cb1304;
+  constexpr static std::size_t addrs = 0x5caf070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "get_Priority", {}, {} })));
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)(::System::Threading::ThreadPriority)>(&::System::Threading::Thread::set_Priority)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5cb135c;
+  constexpr static std::size_t addrs = 0x5caf0c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::Thread::*)()>(&::System::Threading::Thread::GetPriorityNative)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5cb1330;
+  constexpr static std::size_t addrs = 0x5caf09c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "GetPriorityNative", {}, {} })));
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)(int32_t)>(&::System::Threading::Thread::SetPriorityNative)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5cb1384;
+  constexpr static std::size_t addrs = 0x5caf0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::Thread::*)(int32_t)>(&::System::Threading::Thread::JoinInternal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cb13ac;
+  constexpr static std::size_t addrs = 0x5caf118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "JoinInternal", {}, { ::i2c::type_of<int32_t>() } })));
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)()>(&::System::Threading::Thread::Join)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cb13b0;
+  constexpr static std::size_t addrs = 0x5caf11c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "Join", {}, {} })));
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::System::Threading::Thread::SleepInternal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cb13b8;
+  constexpr static std::size_t addrs = 0x5caf124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "SleepInternal", {}, { ::i2c::type_of<int32_t>() } })));
@@ -296,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::System::Threading::Thread::Sleep)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5cb13bc;
+  constexpr static std::size_t addrs = 0x5caf128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "Sleep", {}, { ::i2c::type_of<int32_t>() } })));
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Threading::Thread::YieldInternal)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5cb142c;
+  constexpr static std::size_t addrs = 0x5caf198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "YieldInternal", {}, {} })));
@@ -320,7 +320,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Threading::Thread::Yield)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5cb1444;
+  constexpr static std::size_t addrs = 0x5caf1b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "Yield", {}, {} })));
@@ -332,7 +332,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)(::System::Delegate*, int32_t)>(&::System::Threading::Thread::SetStartHelper)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x5cb0db0;
+  constexpr static std::size_t addrs = 0x5caeb1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -345,7 +345,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::CultureInfo* (::System::Threading::Thread::*)()>(&::System::Threading::Thread::get_CurrentUICulture)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5cb152c;
+  constexpr static std::size_t addrs = 0x5caf298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "get_CurrentUICulture", {}, {} })));
@@ -357,7 +357,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)(::System::Globalization::CultureInfo*)>(&::System::Threading::Thread::set_CurrentUICulture)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x5cb166c;
+  constexpr static std::size_t addrs = 0x5caf3d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -370,7 +370,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::CultureInfo* (::System::Threading::Thread::*)()>(&::System::Threading::Thread::GetCurrentUICultureNoAppX)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5cb1568;
+  constexpr static std::size_t addrs = 0x5caf2d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "GetCurrentUICultureNoAppX", {}, {} })));
@@ -382,7 +382,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::CultureInfo* (::System::Threading::Thread::*)()>(&::System::Threading::Thread::get_CurrentCulture)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5cb19e8;
+  constexpr static std::size_t addrs = 0x5caf754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "get_CurrentCulture", {}, {} })));
@@ -394,7 +394,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)(::System::Globalization::CultureInfo*)>(&::System::Threading::Thread::set_CurrentCulture)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x5cb1b28;
+  constexpr static std::size_t addrs = 0x5caf894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -407,7 +407,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::CultureInfo* (::System::Threading::Thread::*)()>(&::System::Threading::Thread::GetCurrentCultureNoAppX)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5cb1a24;
+  constexpr static std::size_t addrs = 0x5caf790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "GetCurrentCultureNoAppX", {}, {} })));
@@ -419,7 +419,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Threading::Thread::nativeInitCultureAccessors)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5cb18f0;
+  constexpr static std::size_t addrs = 0x5caf65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "nativeInitCultureAccessors", {}, {} })));
@@ -431,7 +431,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Threading::Thread::MemoryBarrier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cb1d88;
+  constexpr static std::size_t addrs = 0x5cafaf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "MemoryBarrier", {}, {} })));
@@ -443,7 +443,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)()>(&::System::Threading::Thread::ConstructInternalThread)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cb1d90;
+  constexpr static std::size_t addrs = 0x5cafafc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "ConstructInternalThread", {}, {} })));
@@ -455,7 +455,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::InternalThread* (::System::Threading::Thread::*)()>(&::System::Threading::Thread::get_Internal)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5cb1d94;
+  constexpr static std::size_t addrs = 0x5cafb00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "get_Internal", {}, {} })));
@@ -467,7 +467,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Contexts::Context* (*)()>(&::System::Threading::Thread::get_CurrentContext)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5cb1db8;
+  constexpr static std::size_t addrs = 0x5cafb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "get_CurrentContext", {}, {} })));
@@ -479,7 +479,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::Threading::Thread*>)>(&::System::Threading::Thread::GetCurrentThread_icall)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5cb1ddc;
+  constexpr static std::size_t addrs = 0x5cafb48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -492,7 +492,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Thread* (*)()>(&::System::Threading::Thread::GetCurrentThread)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5cb1e04;
+  constexpr static std::size_t addrs = 0x5cafb70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "GetCurrentThread", {}, {} })));
@@ -504,7 +504,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Thread* (*)()>(&::System::Threading::Thread::get_CurrentThread)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5cb1e14;
+  constexpr static std::size_t addrs = 0x5cafb80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "get_CurrentThread", {}, {} })));
@@ -516,7 +516,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::Threading::Thread::get_CurrentThreadId)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5cb1ea0;
+  constexpr static std::size_t addrs = 0x5cafc0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "get_CurrentThreadId", {}, {} })));
@@ -528,7 +528,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::Threading::Thread::GetDomainID)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cb1ec4;
+  constexpr static std::size_t addrs = 0x5cafc30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "GetDomainID", {}, {} })));
@@ -540,7 +540,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::Thread::*)(::System::MulticastDelegate*)>(&::System::Threading::Thread::Thread_internal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cb1ed8;
+  constexpr static std::size_t addrs = 0x5cafc44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -553,7 +553,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)()>(&::System::Threading::Thread::Finalize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cb1edc;
+  constexpr static std::size_t addrs = 0x5cafc48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { ::i2c::class_of<::System::Threading::Thread*>(), 1 }));
@@ -565,7 +565,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::Thread::*)()>(&::System::Threading::Thread::get_IsThreadPoolThread)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cb1ee0;
+  constexpr static std::size_t addrs = 0x5cafc4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "get_IsThreadPoolThread", {}, {} })));
@@ -577,7 +577,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::Thread::*)()>(&::System::Threading::Thread::get_IsThreadPoolThreadInternal)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5cb1ee4;
+  constexpr static std::size_t addrs = 0x5cafc50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "get_IsThreadPoolThreadInternal", {}, {} })));
@@ -589,7 +589,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::Thread::*)()>(&::System::Threading::Thread::get_IsAlive)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5cb1f10;
+  constexpr static std::size_t addrs = 0x5cafc7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "get_IsAlive", {}, {} })));
@@ -601,7 +601,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)(bool)>(&::System::Threading::Thread::set_IsBackground)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5cb1f48;
+  constexpr static std::size_t addrs = 0x5cafcb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "set_IsBackground", {}, { ::i2c::type_of<bool>() } })));
@@ -613,7 +613,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::InternalThread*, char16_t*, int32_t)>(&::System::Threading::Thread::SetName_icall)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cb2090;
+  constexpr static std::size_t addrs = 0x5cafdfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -627,7 +627,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::InternalThread*, ::StringW)>(&::System::Threading::Thread::SetName_internal)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5cb2094;
+  constexpr static std::size_t addrs = 0x5cafe00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -641,7 +641,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)(::StringW)>(&::System::Threading::Thread::set_Name)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5cb20ac;
+  constexpr static std::size_t addrs = 0x5cafe18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "set_Name", {}, { ::i2c::type_of<::StringW>() } })));
@@ -653,7 +653,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Threading::Thread::SpinWait_nop)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cb20f8;
+  constexpr static std::size_t addrs = 0x5cafe64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "SpinWait_nop", {}, {} })));
@@ -665,7 +665,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::System::Threading::Thread::SpinWait)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cb20fc;
+  constexpr static std::size_t addrs = 0x5cafe68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "SpinWait", {}, { ::i2c::type_of<int32_t>() } })));
@@ -678,7 +678,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)(::System::Object*, ::by_ref<::System::Threading::StackCrawlMark>)>(
     &::System::Threading::Thread::StartInternal)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5cb11e8;
+  constexpr static std::size_t addrs = 0x5caef54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -692,7 +692,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::InternalThread*, ::System::Threading::ThreadState)>(&::System::Threading::Thread::SetState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cb2048;
+  constexpr static std::size_t addrs = 0x5cafdb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -706,7 +706,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::InternalThread*, ::System::Threading::ThreadState)>(&::System::Threading::Thread::ClrState)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cb204c;
+  constexpr static std::size_t addrs = 0x5cafdb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -720,7 +720,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::ThreadState (*)(::System::Threading::InternalThread*)>(&::System::Threading::Thread::GetState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cb1f44;
+  constexpr static std::size_t addrs = 0x5cafcb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -733,7 +733,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::Threading::Thread::SystemMaxStackStize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cb2100;
+  constexpr static std::size_t addrs = 0x5cafe6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "SystemMaxStackStize", {}, {} })));
@@ -745,7 +745,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Threading::Thread::GetProcessDefaultStackSize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5cb145c;
+  constexpr static std::size_t addrs = 0x5caf1c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -758,7 +758,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Thread::*)(::System::MulticastDelegate*, int32_t)>(&::System::Threading::Thread::SetStart)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5cb14f0;
+  constexpr static std::size_t addrs = 0x5caf25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -771,7 +771,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::Thread::*)()>(&::System::Threading::Thread::get_ManagedThreadId)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5cb2108;
+  constexpr static std::size_t addrs = 0x5cafe74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "get_ManagedThreadId", {}, {} })));
@@ -783,7 +783,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Threading::Thread::BeginCriticalRegion)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cb2134;
+  constexpr static std::size_t addrs = 0x5cafea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "BeginCriticalRegion", {}, {} })));
@@ -795,7 +795,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Threading::Thread::EndCriticalRegion)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cb2178;
+  constexpr static std::size_t addrs = 0x5cafee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "EndCriticalRegion", {}, {} })));
@@ -807,7 +807,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::Thread::*)()>(&::System::Threading::Thread::GetHashCode)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cb21bc;
+  constexpr static std::size_t addrs = 0x5caff28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { ::i2c::class_of<::System::Threading::Thread*>(), 2 }));
@@ -819,7 +819,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::ThreadState (::System::Threading::Thread::*)()>(&::System::Threading::Thread::ValidateThreadState)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5cb1fd4;
+  constexpr static std::size_t addrs = 0x5cafd40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Thread*>(), { "ValidateThreadState", {}, {} })));

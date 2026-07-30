@@ -131,7 +131,7 @@ public:
   static ::System::Net::HttpConnection_InputState const RequestLine;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11565 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11563 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -190,7 +190,7 @@ public:
   static ::System::Net::HttpConnection_LineState const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11566 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11564 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -303,52 +303,52 @@ public:
   /// @brief Field timer, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_timer, put = __cordl_internal_set_timer)) ::System::Threading::Timer* timer;
 
-  /// @brief Method BeginReadRequest, addr 0x642829c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method BeginReadRequest, addr 0x6426038, size 0x1ac, virtual false, abstract: false, final false
   inline void BeginReadRequest();
 
-  /// @brief Method Close, addr 0x6429a60, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x64277fc, size 0x290, virtual false, abstract: false, final false
   inline void Close(bool force_close);
 
-  /// @brief Method CloseSocket, addr 0x642be70, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method CloseSocket, addr 0x6429c0c, size 0x100, virtual false, abstract: false, final false
   inline void CloseSocket();
 
-  /// @brief Method GetRequestStream, addr 0x642bfa0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetRequestStream, addr 0x6429d3c, size 0x150, virtual false, abstract: false, final false
   inline ::System::Net::RequestStream* GetRequestStream(bool chunked, int64_t contentlength);
 
-  /// @brief Method GetResponseStream, addr 0x642c0f0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetResponseStream, addr 0x6429e8c, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Net::ResponseStream* GetResponseStream();
 
-  /// @brief Method Init, addr 0x642bc34, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x64299d0, size 0xa4, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::System::Net::HttpConnection* New_ctor(::System::Net::Sockets::Socket* sock, ::System::Net::EndPointListener* epl, bool secure,
                                                         ::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
 
-  /// @brief Method OnRead, addr 0x642c1b4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnRead, addr 0x6429f50, size 0xdc, virtual false, abstract: false, final false
   static inline void OnRead(::System::IAsyncResult* ares);
 
-  /// @brief Method OnReadInternal, addr 0x642c290, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method OnReadInternal, addr 0x642a02c, size 0x340, virtual false, abstract: false, final false
   inline void OnReadInternal(::System::IAsyncResult* ares);
 
-  /// @brief Method OnTimeout, addr 0x642be58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnTimeout, addr 0x6429bf4, size 0x18, virtual false, abstract: false, final false
   inline void OnTimeout(::System::Object* unused);
 
-  /// @brief Method ProcessInput, addr 0x642c5ec, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method ProcessInput, addr 0x642a388, size 0x2c0, virtual false, abstract: false, final false
   inline bool ProcessInput(::System::IO::MemoryStream* ms);
 
-  /// @brief Method ReadLine, addr 0x642d2f4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x642b090, size 0x178, virtual false, abstract: false, final false
   inline ::StringW ReadLine(::ArrayW<uint8_t> buffer, int32_t offset, int32_t len, ::by_ref<int32_t> used);
 
-  /// @brief Method RemoveConnection, addr 0x642cf1c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method RemoveConnection, addr 0x642acb8, size 0x40, virtual false, abstract: false, final false
   inline void RemoveConnection();
 
-  /// @brief Method SendError, addr 0x642c5d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SendError, addr 0x642a36c, size 0x1c, virtual false, abstract: false, final false
   inline void SendError();
 
-  /// @brief Method SendError, addr 0x6423bb8, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method SendError, addr 0x6421954, size 0x23c, virtual false, abstract: false, final false
   inline void SendError(::StringW msg, int32_t status);
 
-  /// @brief Method Unbind, addr 0x642bf70, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Unbind, addr 0x6429d0c, size 0x30, virtual false, abstract: false, final false
   inline void Unbind();
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get_buffer() const;
@@ -501,27 +501,27 @@ public:
 
   constexpr void __cordl_internal_set_timer(::System::Threading::Timer* value);
 
-  /// @brief Method <.ctor>b__24_0, addr 0x642e580, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__24_0, addr 0x642c31c, size 0xf8, virtual false, abstract: false, final false
   inline bool __ctor_b__24_0(::System::Object* t, ::System::Security::Cryptography::X509Certificates::X509Certificate* c, ::System::Security::Cryptography::X509Certificates::X509Chain* ch,
                              ::System::Net::Security::SslPolicyErrors e);
 
-  /// @brief Method .ctor, addr 0x6428030, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6425dcc, size 0x26c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::Socket* sock, ::System::Net::EndPointListener* epl, bool secure, ::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
 
   static inline ::System::AsyncCallback* getStaticF_onread_cb();
 
-  /// @brief Method get_IsSecure, addr 0x642be48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSecure, addr 0x6429be4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsSecure();
 
-  /// @brief Method get_LocalEndPoint, addr 0x642bd88, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_LocalEndPoint, addr 0x6429b24, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_LocalEndPoint();
 
-  /// @brief Method get_Reuses, addr 0x642bd80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Reuses, addr 0x6429b1c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Reuses();
 
   static inline void setStaticF_onread_cb(::System::AsyncCallback* value);
 
-  /// @brief Method set_Prefix, addr 0x642be50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Prefix, addr 0x6429bec, size 0x8, virtual false, abstract: false, final false
   inline void set_Prefix(::System::Net::ListenerPrefix* value);
 
 protected:
@@ -539,7 +539,7 @@ public:
   HttpConnection(HttpConnection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11567 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11565 };
 
   /// @brief Field sock, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Sockets::Socket* ___sock;

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::Networking::DownloadHandlerAssetBundle*)>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle_BindingsMarshaller::ConvertToNative)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e23530;
+  constexpr static std::size_t addrs = 0x6e1ef34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAssetBundle_BindingsMarshaller*>(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::Networking::DownloadHandlerAssetBundle*, ::StringW, uint32_t)>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::Create)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6e22d64;
+  constexpr static std::size_t addrs = 0x6e1e768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::Networking::DownloadHandlerAssetBundle*, ::StringW, ::StringW, ::UnityEngine::Hash128, uint32_t)>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::CreateCached)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6e22efc;
+  constexpr static std::size_t addrs = 0x6e1e900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAssetBundle*>(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::DownloadHandlerAssetBundle::*)(::StringW, uint32_t)>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::InternalCreateAssetBundle)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e2313c;
+  constexpr static std::size_t addrs = 0x6e1eb40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAssetBundle*>(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::DownloadHandlerAssetBundle::*)(::StringW, ::StringW, ::UnityEngine::Hash128, uint32_t)>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::InternalCreateAssetBundleCached)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e23154;
+  constexpr static std::size_t addrs = 0x6e1eb58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::DownloadHandlerAssetBundle::*)(::StringW, uint32_t)>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e22c20;
+  constexpr static std::size_t addrs = 0x6e1e624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::DownloadHandlerAssetBundle::*)(::StringW, ::UnityEngine::CachedAssetBundle, uint32_t)>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6e22d3c;
+  constexpr static std::size_t addrs = 0x6e1e740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::UnityEngine::Networking::DownloadHandlerAssetBundle::*)()>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::GetData)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e2316c;
+  constexpr static std::size_t addrs = 0x6e1eb70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAssetBundle*>(),
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Networking::DownloadHandlerAssetBundle::*)()>(&::UnityEngine::Networking::DownloadHandlerAssetBundle::GetText)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e231b8;
+  constexpr static std::size_t addrs = 0x6e1ebbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAssetBundle*>(),
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::AssetBundle> (::UnityEngine::Networking::DownloadHandlerAssetBundle::*)()>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::get_assetBundle)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6e23204;
+  constexpr static std::size_t addrs = 0x6e1ec08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAssetBundle*>(), { "get_assetBundle", {}, {} })));
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Networking::DownloadHandlerAssetBundle::*)()>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::get_autoLoadAssetBundle)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6e2337c;
+  constexpr static std::size_t addrs = 0x6e1ed80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::DownloadHandlerAssetBundle::*)(bool)>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::set_autoLoadAssetBundle)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6e23408;
+  constexpr static std::size_t addrs = 0x6e1ee0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Networking::DownloadHandlerAssetBundle::*)()>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::get_isDownloadComplete)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6e234a4;
+  constexpr static std::size_t addrs = 0x6e1eea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::Networking::DownloadHandlerAssetBundle*, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, uint32_t)>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::Create_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e22ea8;
+  constexpr static std::size_t addrs = 0x6e1e8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -231,7 +231,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::Un
                                                                             ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Hash128>, uint32_t)>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::CreateCached_Injected)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6e230d0;
+  constexpr static std::size_t addrs = 0x6e1ead4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::Networking::DownloadHandlerAssetBundle::get_assetBundle_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e23340;
+  constexpr static std::size_t addrs = 0x6e1ed44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Networking::DownloadHandlerAssetBundle::get_autoLoadAssetBundle_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e233cc;
+  constexpr static std::size_t addrs = 0x6e1edd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAssetBundle*>(),
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::Networking::DownloadHandlerAssetBundle::set_autoLoadAssetBundle_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e23460;
+  constexpr static std::size_t addrs = 0x6e1ee64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Networking::DownloadHandlerAssetBundle::get_isDownloadComplete_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e234f4;
+  constexpr static std::size_t addrs = 0x6e1eef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::DownloadHandlerAssetBundle*>(),

@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Crypto::Tls::TlsCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*, int32_t, int32_t)>(
         &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateCipher)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x343bc00;
+  constexpr static std::size_t addrs = 0x343a1c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -34,7 +34,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*, int32_t, int32_t)>(
         &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateAESCipher)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x343bdb8;
+  constexpr static std::size_t addrs = 0x343a380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*, int32_t, int32_t)>(
         &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateCamelliaCipher)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x343beb4;
+  constexpr static std::size_t addrs = 0x343a47c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsCipher* (
     ::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*)>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateChaCha20Poly1305)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x343bfb0;
+  constexpr static std::size_t addrs = 0x343a578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -78,7 +78,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*, int32_t, int32_t)>(
         &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateCipher_Aes_Ccm)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x343c00c;
+  constexpr static std::size_t addrs = 0x343a5d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -93,7 +93,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*, int32_t, int32_t)>(
         &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateCipher_Aes_Gcm)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x343c0cc;
+  constexpr static std::size_t addrs = 0x343a694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -108,7 +108,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*, int32_t, int32_t)>(
         &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateCipher_Aes_Ocb)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x343c18c;
+  constexpr static std::size_t addrs = 0x343a754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -123,7 +123,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*, int32_t, int32_t)>(
         &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateCipher_Camellia_Gcm)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x343c250;
+  constexpr static std::size_t addrs = 0x343a818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -138,7 +138,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*, int32_t)>(
         &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateDesEdeCipher)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x343c310;
+  constexpr static std::size_t addrs = 0x343a8d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -153,7 +153,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Crypto::Tls::TlsNullCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*, int32_t)>(
         &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateNullCipher)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x343c408;
+  constexpr static std::size_t addrs = 0x343a9d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -168,7 +168,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*, int32_t, int32_t)>(
         &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateRC4Cipher)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x343c4bc;
+  constexpr static std::size_t addrs = 0x343aa84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -183,7 +183,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*, int32_t)>(
         &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateSeedCipher)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x343c5c4;
+  constexpr static std::size_t addrs = 0x343ab8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IBlockCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateAesEngine)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x343c6bc;
+  constexpr static std::size_t addrs = 0x343ac84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IBlockCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateCamelliaEngine)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x343c700;
+  constexpr static std::size_t addrs = 0x343acc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IBlockCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateAesBlockCipher)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x343c758;
+  constexpr static std::size_t addrs = 0x343ad20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateAeadBlockCipher_Aes_Ccm)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x343c7d4;
+  constexpr static std::size_t addrs = 0x343ad9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateAeadBlockCipher_Aes_Gcm)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x343c850;
+  constexpr static std::size_t addrs = 0x343ae18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateAeadBlockCipher_Aes_Ocb)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x343c8cc;
+  constexpr static std::size_t addrs = 0x343ae94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateAeadBlockCipher_Camellia_Gcm)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x343c964;
+  constexpr static std::size_t addrs = 0x343af2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IBlockCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateCamelliaBlockCipher)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x343c9e0;
+  constexpr static std::size_t addrs = 0x343afa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IBlockCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateDesEdeBlockCipher)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x343ca5c;
+  constexpr static std::size_t addrs = 0x343b024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -323,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IStreamCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateRC4StreamCipher)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x343cae4;
+  constexpr static std::size_t addrs = 0x343b0ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -337,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IBlockCipher* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateSeedBlockCipher)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x343cb28;
+  constexpr static std::size_t addrs = 0x343b0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::CreateHMacDigest)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x343cbac;
+  constexpr static std::size_t addrs = 0x343b174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(),
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::*)()>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3433034;
+  constexpr static std::size_t addrs = 0x34315fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory*>(), { ".ctor", {}, {} })));

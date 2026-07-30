@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::ImageEffectAllowedInSceneView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a87038, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a84dd4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SaberType (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::get_saberType)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59e8ba0;
+  constexpr static std::size_t addrs = 0x59e7210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Saber*>(), { "get_saberType", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::get_handlePos)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59e8bb8;
+  constexpr static std::size_t addrs = 0x59e7228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Saber*>(), { "get_handlePos", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::get_saberBladeTopPos)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59e8bc4;
+  constexpr static std::size_t addrs = 0x59e7234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Saber*>(), { "get_saberBladeTopPos", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::get_saberBladeBottomPos)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59e8bd0;
+  constexpr static std::size_t addrs = 0x59e7240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Saber*>(), { "get_saberBladeBottomPos", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::get_saberBladeTopPosForLogic)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59e8bdc;
+  constexpr static std::size_t addrs = 0x59e724c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Saber*>(), { "get_saberBladeTopPosForLogic", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::get_saberBladeBottomPosForLogic)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59e8be8;
+  constexpr static std::size_t addrs = 0x59e7258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Saber*>(), { "get_saberBladeBottomPosForLogic", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::get_saberBladeTopPosForVisualEffects)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59e8bf4;
+  constexpr static std::size_t addrs = 0x59e7264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Saber*>(), { "get_saberBladeTopPosForVisualEffects", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::get_saberBladeBottomPosForVisualEffects)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59e8c00;
+  constexpr static std::size_t addrs = 0x59e7270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Saber*>(), { "get_saberBladeBottomPosForVisualEffects", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::get_bladeSpeedForLogic)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59e8c0c;
+  constexpr static std::size_t addrs = 0x59e727c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Saber*>(), { "get_bladeSpeedForLogic", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::get_bladeSpeed)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59e8c24;
+  constexpr static std::size_t addrs = 0x59e7294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Saber*>(), { "get_bladeSpeed", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SaberMovementData* (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::get_movementDataForLogic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59e8c3c;
+  constexpr static std::size_t addrs = 0x59e72ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Saber*>(), { "get_movementDataForLogic", {}, {} })));
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SaberMovementData* (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::get_movementDataForVisualEffects)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59e8c44;
+  constexpr static std::size_t addrs = 0x59e72b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Saber*>(), { "get_movementDataForVisualEffects", {}, {} })));
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::ManualUpdate)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59e8c4c;
+  constexpr static std::size_t addrs = 0x59e72bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Saber*>(), { "ManualUpdate", {}, {} })));
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Saber::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::GlobalNamespace::Saber::OverridePositionAndRotation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x59e8cf8;
+  constexpr static std::size_t addrs = 0x59e7368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x59e8d70;
+  constexpr static std::size_t addrs = 0x59e73e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Saber*>(), { ".ctor", {}, {} })));

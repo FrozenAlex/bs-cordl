@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SteamPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12::*)()>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12::MoveNext)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x3700c04;
+  constexpr static std::size_t addrs = 0x36ff634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SteamPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::SteamPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3700e6c;
+  constexpr static std::size_t addrs = 0x36ff89c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SteamPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10::*)()>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10::MoveNext)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x3700eec;
+  constexpr static std::size_t addrs = 0x36ff91c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SteamPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::SteamPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3701170;
+  constexpr static std::size_t addrs = 0x36ffba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SteamPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11::*)()>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11::MoveNext)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x37011f0;
+  constexpr static std::size_t addrs = 0x36ffc20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SteamPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::SteamPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3701474;
+  constexpr static std::size_t addrs = 0x36ffea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,8 +230,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SteamPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__13::*)()>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__13::MoveNext)> {
-  constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x37014f4;
+  constexpr static std::size_t size = 0x37c;
+  constexpr static std::size_t addrs = 0x36fff24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SteamPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__13::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::SteamPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__13::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3701878;
+  constexpr static std::size_t addrs = 0x37002a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -303,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SteamPlatformAdditionalContentModel__IsDataValidAsync_d__14::*)()>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel__IsDataValidAsync_d__14::MoveNext)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x37018f8;
+  constexpr static std::size_t addrs = 0x3700320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SteamPlatformAdditionalContentModel__IsDataValidAsync_d__14::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::SteamPlatformAdditionalContentModel__IsDataValidAsync_d__14::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3701bfc;
+  constexpr static std::size_t addrs = 0x3700624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SteamPlatformAdditionalContentModel__IsDataValidAsync_d__14>(),
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SteamPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__16::*)()>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__16::MoveNext)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x3701c7c;
+  constexpr static std::size_t addrs = 0x37006a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SteamPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__16::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::SteamPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__16::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3701f40;
+  constexpr static std::size_t addrs = 0x3700968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -431,7 +431,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SteamPlatformAdditionalContentModel::*)()>(&::GlobalNamespace::SteamPlatformAdditionalContentModel::Initialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3700104;
+  constexpr static std::size_t addrs = 0x36feb34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SteamPlatformAdditionalContentModel*>(),
@@ -444,7 +444,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SteamPlatformAdditionalContentModel::*)()>(&::GlobalNamespace::SteamPlatformAdditionalContentModel::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3700108;
+  constexpr static std::size_t addrs = 0x36feb38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SteamPlatformAdditionalContentModel*>(),
@@ -458,7 +458,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SteamPlatformAdditionalContentModel::*)()>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel::InvalidateDataInternal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x370010c;
+  constexpr static std::size_t addrs = 0x36feb3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SteamPlatformAdditionalContentModel*>(),
@@ -472,7 +472,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData* (::GlobalNamespace::SteamPlatformAdditionalContentModel::*)(::StringW)>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel::GetLevelProductData)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3700114;
+  constexpr static std::size_t addrs = 0x36feb44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -487,7 +487,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::SteamPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel::GetLevelEntitlementStatusInternalAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x370012c;
+  constexpr static std::size_t addrs = 0x36feb5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SteamPlatformAdditionalContentModel*>(),
@@ -502,7 +502,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::SteamPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel::GetPackEntitlementStatusInternalAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x370021c;
+  constexpr static std::size_t addrs = 0x36fec4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SteamPlatformAdditionalContentModel*>(),
@@ -517,7 +517,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::SteamPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel::GetLevelDataVersionInternalAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x370030c;
+  constexpr static std::size_t addrs = 0x36fed3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SteamPlatformAdditionalContentModel*>(),
@@ -532,7 +532,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<uint32_t>>* (::GlobalNamespace::SteamPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
         &::GlobalNamespace::SteamPlatformAdditionalContentModel::GetRedirectedLevelPackProductData)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x37003fc;
+  constexpr static std::size_t addrs = 0x36fee2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -547,7 +547,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::SteamPlatformAdditionalContentModel::*)(::System::Threading::CancellationToken)>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel::IsDataValidAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x37004f0;
+  constexpr static std::size_t addrs = 0x36fef20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SteamPlatformAdditionalContentModel*>(),
@@ -562,7 +562,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::SteamPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel::OpenLevelProductStoreAsync)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x37005e0;
+  constexpr static std::size_t addrs = 0x36ff010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SteamPlatformAdditionalContentModel*>(),
@@ -577,7 +577,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::SteamPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel::OpenLevelPackProductStoreAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x37006f4;
+  constexpr static std::size_t addrs = 0x36ff124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SteamPlatformAdditionalContentModel*>(),
@@ -591,7 +591,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SteamPlatformAdditionalContentModel::*)(::StringW)>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel::OpenStore)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x37007e4;
+  constexpr static std::size_t addrs = 0x36ff214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SteamPlatformAdditionalContentModel*>(),
@@ -605,7 +605,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* (
     ::GlobalNamespace::SteamPlatformAdditionalContentModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::SteamPlatformAdditionalContentModel::GetExcludedLevelIdsInternalAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x37007e8;
+  constexpr static std::size_t addrs = 0x36ff218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SteamPlatformAdditionalContentModel*>(),
@@ -619,7 +619,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SteamPlatformAdditionalContentModel::*)(uint32_t)>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel::OpenProductStore)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x37006b8;
+  constexpr static std::size_t addrs = 0x36ff0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -633,7 +633,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SteamPlatformAdditionalContentModel::*)(uint32_t)>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel::OpenBundleUrl)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x37008cc;
+  constexpr static std::size_t addrs = 0x36ff2fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -648,7 +648,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::SteamPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel::IsPackBetterBuyThanLevelAsync)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3700908;
+  constexpr static std::size_t addrs = 0x36ff338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SteamPlatformAdditionalContentModel*>(),
@@ -662,7 +662,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult (::GlobalNamespace::SteamPlatformAdditionalContentModel::*)()>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel::CheckForNewEntitlementsAsync)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3700978;
+  constexpr static std::size_t addrs = 0x36ff3a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -676,7 +676,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapLevelDataVersion (::GlobalNamespace::SteamPlatformAdditionalContentModel::*)(::StringW)>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel::GetLevelDataVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3700980;
+  constexpr static std::size_t addrs = 0x36ff3b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -690,7 +690,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SteamPlatformAdditionalContentModel::*)(::StringW)>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel::HasLevelEntitlement)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3700988;
+  constexpr static std::size_t addrs = 0x36ff3b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -704,7 +704,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SteamPlatformAdditionalContentModel::*)(::StringW)>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel::HasLevelPackEntitlement)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3700a18;
+  constexpr static std::size_t addrs = 0x36ff448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -717,7 +717,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SteamPlatformAdditionalContentModel::*)()>(&::GlobalNamespace::SteamPlatformAdditionalContentModel::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3700af0;
+  constexpr static std::size_t addrs = 0x36ff520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SteamPlatformAdditionalContentModel*>(), { ".ctor", {}, {} })));
@@ -730,7 +730,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SteamPlatformAdditionalContentModel::*)(::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*)>(
     &::GlobalNamespace::SteamPlatformAdditionalContentModel::_HasLevelPackEntitlement_b__25_0)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3700b9c;
+  constexpr static std::size_t addrs = 0x36ff5cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

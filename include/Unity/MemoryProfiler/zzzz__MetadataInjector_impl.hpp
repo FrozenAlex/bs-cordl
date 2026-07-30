@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::MemoryProfiler::MetadataInjector::PlayerInitMetadata)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x668c2b4;
+  constexpr static std::size_t addrs = 0x668a050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::MemoryProfiler::MetadataInjector*>(), { "PlayerInitMetadata", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::MemoryProfiler::MetadataInjector::InitializeMetadataCollection)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x668c45c;
+  constexpr static std::size_t addrs = 0x668a1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::MemoryProfiler::MetadataInjector*>(), { "InitializeMetadataCollection", {}, {} })));

@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Exp
     ::System::Linq::Expressions::Expression*, ::System::Type*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*,
     ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::InvocationExpression5::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5f80d88;
+  constexpr static std::size_t addrs = 0x5f7eb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::InvocationExpression5::*)(int32_t)>(
     &::System::Linq::Expressions::InvocationExpression5::GetArgument)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5f80dd4;
+  constexpr static std::size_t addrs = 0x5f7eb70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::InvocationExpression5::*)()>(&::System::Linq::Expressions::InvocationExpression5::get_ArgumentCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f80ecc;
+  constexpr static std::size_t addrs = 0x5f7ec68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressio
     ::System::Linq::Expressions::InvocationExpression5::*)(::System::Linq::Expressions::Expression*, ::ArrayW<::System::Linq::Expressions::Expression*>)>(
     &::System::Linq::Expressions::InvocationExpression5::Rewrite)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5f80ed4;
+  constexpr static std::size_t addrs = 0x5f7ec70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

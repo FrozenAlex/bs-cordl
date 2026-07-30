@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::Function_FunctionType (::MS::Internal::Xml::XPath::XPathParser_ParamInfo::*)()>(
     &::MS::Internal::Xml::XPath::XPathParser_ParamInfo::get_FType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6274b48;
+  constexpr static std::size_t addrs = 0x62728e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::XPath::XPathParser_ParamInfo*>(), { "get_FType", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::MS::Internal::Xml::XPath::XPathParser_ParamInfo::*)()>(&::MS::Internal::Xml::XPath::XPathParser_ParamInfo::get_Minargs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6274b50;
+  constexpr static std::size_t addrs = 0x62728ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::XPath::XPathParser_ParamInfo*>(), { "get_Minargs", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::MS::Internal::Xml::XPath::XPathParser_ParamInfo::*)()>(&::MS::Internal::Xml::XPath::XPathParser_ParamInfo::get_Maxargs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6274b58;
+  constexpr static std::size_t addrs = 0x62728f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::XPath::XPathParser_ParamInfo*>(), { "get_Maxargs", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Xml::XPath::XPathResultType> (::MS::Internal::Xml::XPath::XPathParser_ParamInfo::*)()>(
     &::MS::Internal::Xml::XPath::XPathParser_ParamInfo::get_ArgTypes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6274b60;
+  constexpr static std::size_t addrs = 0x62728fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::XPath::XPathParser_ParamInfo*>(), { "get_ArgTypes", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::MS::Internal::Xml::XPath::XPathParser_ParamInfo::*)(
     ::MS::Internal::Xml::XPath::Function_FunctionType, int32_t, int32_t, ::ArrayW<::System::Xml::XPath::XPathResultType>)>(&::MS::Internal::Xml::XPath::XPathParser_ParamInfo::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6274508;
+  constexpr static std::size_t addrs = 0x62722a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::XPath::XPathParser_ParamInfo*>(),
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::XPathScanner*)>(&::MS::Internal::Xml::XPath::XPathParser::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6271738;
+  constexpr static std::size_t addrs = 0x626f4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode* (*)(::StringW)>(&::MS::Internal::Xml::XPath::XPathParser::ParseXPathExpression)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6271740;
+  constexpr static std::size_t addrs = 0x626f4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode* (::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(
     &::MS::Internal::Xml::XPath::XPathParser::ParseExpression)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6271898;
+  constexpr static std::size_t addrs = 0x626f634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode* (::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(
     &::MS::Internal::Xml::XPath::XPathParser::ParseOrExpr)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x62718fc;
+  constexpr static std::size_t addrs = 0x626f698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode* (::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(
     &::MS::Internal::Xml::XPath::XPathParser::ParseAndExpr)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x62719f0;
+  constexpr static std::size_t addrs = 0x626f78c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode* (::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(
     &::MS::Internal::Xml::XPath::XPathParser::ParseEqualityExpr)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6271b44;
+  constexpr static std::size_t addrs = 0x626f8e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode* (::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(
     &::MS::Internal::Xml::XPath::XPathParser::ParseRelationalExpr)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6271c14;
+  constexpr static std::size_t addrs = 0x626f9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode* (::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(
     &::MS::Internal::Xml::XPath::XPathParser::ParseAdditiveExpr)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6271d0c;
+  constexpr static std::size_t addrs = 0x626faa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode* (::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(
     &::MS::Internal::Xml::XPath::XPathParser::ParseMultiplicativeExpr)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6271ddc;
+  constexpr static std::size_t addrs = 0x626fb78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode* (::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(
     &::MS::Internal::Xml::XPath::XPathParser::ParseUnaryExpr)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6271f08;
+  constexpr static std::size_t addrs = 0x626fca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode* (::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(
     &::MS::Internal::Xml::XPath::XPathParser::ParseUnionExpr)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6271ffc;
+  constexpr static std::size_t addrs = 0x626fd98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -317,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::MS::Internal::Xml::XPath::XPathScanner*)>(&::MS::Internal::Xml::XPath::XPathParser::IsNodeType)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6272298;
+  constexpr static std::size_t addrs = 0x6270034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode* (::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(
     &::MS::Internal::Xml::XPath::XPathParser::ParsePathExpr)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x62720f8;
+  constexpr static std::size_t addrs = 0x626fe94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode* (::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(
     &::MS::Internal::Xml::XPath::XPathParser::ParseFilterExpr)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6272440;
+  constexpr static std::size_t addrs = 0x62701dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode* (::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(
     &::MS::Internal::Xml::XPath::XPathParser::ParsePredicate)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6272984;
+  constexpr static std::size_t addrs = 0x6270720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode* (::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(
     &::MS::Internal::Xml::XPath::XPathParser::ParseLocationPath)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x62725e0;
+  constexpr static std::size_t addrs = 0x627037c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode* (::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(
     &::MS::Internal::Xml::XPath::XPathParser::ParseRelativeLocationPath)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x62724e8;
+  constexpr static std::size_t addrs = 0x6270284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::XPath::XPathParser*>(),
@@ -400,7 +400,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::MS::Internal::Xml::XPath::XPathScanner_LexKind)>(&::MS::Internal::Xml::XPath::XPathParser::IsStep)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6272a10;
+  constexpr static std::size_t addrs = 0x62707ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -415,7 +415,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode* (::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(
     &::MS::Internal::Xml::XPath::XPathParser::ParseStep)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x6272a50;
+  constexpr static std::size_t addrs = 0x62707ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -430,7 +430,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPat
     ::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*, ::MS::Internal::Xml::XPath::Axis_AxisType, ::System::Xml::XPath::XPathNodeType)>(
     &::MS::Internal::Xml::XPath::XPathParser::ParseNodeTest)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x6272cc4;
+  constexpr static std::size_t addrs = 0x6270a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -447,7 +447,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::MS::Internal::Xml::XPath::XPathScanner*)>(&::MS::Internal::Xml::XPath::XPathParser::IsPrimaryExpr)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x627238c;
+  constexpr static std::size_t addrs = 0x6270128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -462,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode* (::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(
     &::MS::Internal::Xml::XPath::XPathParser::ParsePrimaryExpr)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x6272750;
+  constexpr static std::size_t addrs = 0x62704ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -476,7 +476,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::AstNode* (::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::AstNode*)>(
     &::MS::Internal::Xml::XPath::XPathParser::ParseMethod)> {
   constexpr static std::size_t size = 0x578;
-  constexpr static std::size_t addrs = 0x6273008;
+  constexpr static std::size_t addrs = 0x6270da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -490,7 +490,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::XPathScanner_LexKind)>(
     &::MS::Internal::Xml::XPath::XPathParser::CheckToken)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6272fac;
+  constexpr static std::size_t addrs = 0x6270d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -505,7 +505,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::MS::Internal::Xml::XPath::XPathParser::*)(::MS::Internal::Xml::XPath::XPathScanner_LexKind)>(
     &::MS::Internal::Xml::XPath::XPathParser::PassToken)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x62729f0;
+  constexpr static std::size_t addrs = 0x627078c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -519,7 +519,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::MS::Internal::Xml::XPath::XPathParser::*)()>(&::MS::Internal::Xml::XPath::XPathParser::NextLex)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6271b30;
+  constexpr static std::size_t addrs = 0x626f8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::XPath::XPathParser*>(), { "NextLex", {}, {} })));
@@ -531,7 +531,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::MS::Internal::Xml::XPath::XPathParser::*)(::StringW)>(&::MS::Internal::Xml::XPath::XPathParser::TestOp)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6271ae4;
+  constexpr static std::size_t addrs = 0x626f880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -545,7 +545,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::MS::Internal::Xml::XPath::XPathParser::*)(::System::Xml::XPath::XPathResultType)>(
     &::MS::Internal::Xml::XPath::XPathParser::CheckNodeSet)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x627223c;
+  constexpr static std::size_t addrs = 0x626ffd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -559,7 +559,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::MS::Internal::Xml::XPath::XPathParser_ParamInfo*>* (*)()>(
     &::MS::Internal::Xml::XPath::XPathParser::CreateFunctionTable)> {
   constexpr static std::size_t size = 0xb88;
-  constexpr static std::size_t addrs = 0x6273980;
+  constexpr static std::size_t addrs = 0x627171c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::XPath::XPathParser*>(), { "CreateFunctionTable", {}, {} })));
@@ -572,7 +572,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::MS::Internal::Xml::XPath::Axis_AxisType>* (*)()>(
     &::MS::Internal::Xml::XPath::XPathParser::CreateAxesTable)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x6274518;
+  constexpr static std::size_t addrs = 0x62722b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::XPath::XPathParser*>(), { "CreateAxesTable", {}, {} })));
@@ -584,7 +584,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::Axis_AxisType (::MS::Internal::Xml::XPath::XPathParser::*)()>(&::MS::Internal::Xml::XPath::XPathParser::GetAxis)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6272bd4;
+  constexpr static std::size_t addrs = 0x6270970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::MS::Internal::Xml::XPath::XPathParser*>(), { "GetAxis", {}, {} })));

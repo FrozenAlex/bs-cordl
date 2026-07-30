@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::by_ref<::
                                                                      ::BeatSaber::Automation::RecPlayBehaviourState*, ::GlobalNamespace::PerformanceConfigurationStats*, ::StringW)>(
     &::GlobalNamespace::PerformanceConfigurationLog::Create)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x58f15f0;
+  constexpr static std::size_t addrs = 0x58efb60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogSystemInfo)> {
   constexpr static std::size_t size = 0x5b0;
-  constexpr static std::size_t addrs = 0x58f1850;
+  constexpr static std::size_t addrs = 0x58efdc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogApplicationInfo)> {
   constexpr static std::size_t size = 0x588;
-  constexpr static std::size_t addrs = 0x58f1e00;
+  constexpr static std::size_t addrs = 0x58f0370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogApplicationState)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x58f2388;
+  constexpr static std::size_t addrs = 0x58f08f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogGraphicsInfo)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x58f2638;
+  constexpr static std::size_t addrs = 0x58f0ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogXrInfo)> {
   constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x58f2778;
+  constexpr static std::size_t addrs = 0x58f0ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogOvrInfo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58f2b9c;
+  constexpr static std::size_t addrs = 0x58f110c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogOculusXrInfo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58f2ba0;
+  constexpr static std::size_t addrs = 0x58f1110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogOpenXrInfo)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x58f2ba4;
+  constexpr static std::size_t addrs = 0x58f1114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, ::by_ref<::BeatSaber::Settings::Settings>, ::BeatSaber::Automation::RecPlayBehaviourState*)>(
     &::GlobalNamespace::PerformanceConfigurationLog::LogSettings)> {
   constexpr static std::size_t size = 0xa2c;
-  constexpr static std::size_t addrs = 0x58f2cdc;
+  constexpr static std::size_t addrs = 0x58f124c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, ::GlobalNamespace::PlayerSpecificSettings*)>(
     &::GlobalNamespace::PerformanceConfigurationLog::LogPlayerSettings)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x58f3708;
+  constexpr static std::size_t addrs = 0x58f1c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, ::GlobalNamespace::GameplayModifierMask)>(
     &::GlobalNamespace::PerformanceConfigurationLog::LogLevelSettings)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x58f3b94;
+  constexpr static std::size_t addrs = 0x58f2104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Text::StringBuilder*, ::GlobalNamespace::PerformanceConfigurationStats*)>(
     &::GlobalNamespace::PerformanceConfigurationLog::LogDynamicStates)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x58f3c28;
+  constexpr static std::size_t addrs = 0x58f2198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

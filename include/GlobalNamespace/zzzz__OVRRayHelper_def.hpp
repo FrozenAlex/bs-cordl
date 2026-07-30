@@ -62,10 +62,10 @@ public:
 
   static inline ::GlobalNamespace::OVRRayHelper* New_ctor();
 
-  /// @brief Method Start, addr 0x5f09960, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5f076cc, size 0xe0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdatePointerRay, addr 0x5f09a40, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method UpdatePointerRay, addr 0x5f077ac, size 0x310, virtual false, abstract: false, final false
   inline void UpdatePointerRay(::GlobalNamespace::OVRInputRayData rayData);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_Cursor() const;
@@ -116,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set__initialScale(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x5f09d50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f07abc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

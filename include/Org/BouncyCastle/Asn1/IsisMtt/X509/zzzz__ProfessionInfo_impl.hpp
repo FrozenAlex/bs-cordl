@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x344fa1c;
+  constexpr static std::size_t addrs = 0x344dfe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::_ctor)> {
   constexpr static std::size_t size = 0x8ac;
-  constexpr static std::size_t addrs = 0x3451e64;
+  constexpr static std::size_t addrs = 0x345042c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*>(),
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*, ::ArrayW<::Org::BouncyCastle::Asn1::X500::DirectoryString*>, ::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>, ::StringW,
     ::Org::BouncyCastle::Asn1::Asn1OctetString*)>(&::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3452710;
+  constexpr static std::size_t addrs = 0x3450cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::ToAsn1Object)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x34527bc;
+  constexpr static std::size_t addrs = 0x3450d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*>(),
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::get_AddProfessionInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3452988;
+  constexpr static std::size_t addrs = 0x3450f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*>(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* (::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::get_NamingAuthority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3452990;
+  constexpr static std::size_t addrs = 0x3450f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*>(),
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::X500::DirectoryString*> (::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::GetProfessionItems)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3452998;
+  constexpr static std::size_t addrs = 0x3450f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*>(),
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> (::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::GetProfessionOids)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3452ab0;
+  constexpr static std::size_t addrs = 0x3451078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*>(),
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::get_RegistrationNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3452c18;
+  constexpr static std::size_t addrs = 0x34511e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo*>(),

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::GameObject*)>(&::GlobalNamespace::OVRCompositionUtil::SafeDestroy)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5df1a08;
+  constexpr static std::size_t addrs = 0x5def774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::GameObject*>)>(&::GlobalNamespace::OVRCompositionUtil::SafeDestroy)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5df1ad0;
+  constexpr static std::size_t addrs = 0x5def83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3)>(&::GlobalNamespace::OVRCompositionUtil::GetWorldPosition)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5df1b48;
+  constexpr static std::size_t addrs = 0x5def8b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Camera*, ::UnityEngine::Vector3)>(&::GlobalNamespace::OVRCompositionUtil::GetWorldPosition)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5df1b84;
+  constexpr static std::size_t addrs = 0x5def8f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Camera*, ::GlobalNamespace::OVRBoundary_BoundaryType)>(
     &::GlobalNamespace::OVRCompositionUtil::GetMaximumBoundaryDistance)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x5df1c20;
+  constexpr static std::size_t addrs = 0x5def98c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (*)(::GlobalNamespace::OVRBoundary_BoundaryType, float_t, float_t)>(
     &::GlobalNamespace::OVRCompositionUtil::BuildBoundaryMesh)> {
   constexpr static std::size_t size = 0x4d8;
-  constexpr static std::size_t addrs = 0x5df1dfc;
+  constexpr static std::size_t addrs = 0x5defb68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRCompositionUtil::*)()>(&::GlobalNamespace::OVRCompositionUtil::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5df22d4;
+  constexpr static std::size_t addrs = 0x5df0040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRCompositionUtil*>(), { ".ctor", {}, {} })));

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Focusable::*)()>(&::UnityEngine::UIElements::Focusable::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6da3fc0;
+  constexpr static std::size_t addrs = 0x6d9f9c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Focusable*>(), { ".ctor", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Focusable::*)()>(&::UnityEngine::UIElements::Focusable::get_focusable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da40b4;
+  constexpr static std::size_t addrs = 0x6d9fab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Focusable::*)(bool)>(&::UnityEngine::UIElements::Focusable::set_focusable)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6da40bc;
+  constexpr static std::size_t addrs = 0x6d9fac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::Focusable::*)()>(&::UnityEngine::UIElements::Focusable::get_tabIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da4148;
+  constexpr static std::size_t addrs = 0x6d9fb4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Focusable*>(), { "get_tabIndex", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Focusable::*)(int32_t)>(&::UnityEngine::UIElements::Focusable::set_tabIndex)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6da4024;
+  constexpr static std::size_t addrs = 0x6d9fa28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Focusable::*)()>(&::UnityEngine::UIElements::Focusable::get_delegatesFocus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da4150;
+  constexpr static std::size_t addrs = 0x6d9fb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Focusable*>(), { "get_delegatesFocus", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Focusable::*)(bool)>(&::UnityEngine::UIElements::Focusable::set_delegatesFocus)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6da4158;
+  constexpr static std::size_t addrs = 0x6d9fb5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Focusable::*)()>(&::UnityEngine::UIElements::Focusable::get_excludeFromFocusRing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da41e8;
+  constexpr static std::size_t addrs = 0x6d9fbec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Focusable*>(), { "get_excludeFromFocusRing", {}, {} })));
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Focusable::*)(bool)>(&::UnityEngine::UIElements::Focusable::set_excludeFromFocusRing)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6da41f0;
+  constexpr static std::size_t addrs = 0x6d9fbf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Focusable::*)()>(&::UnityEngine::UIElements::Focusable::get_isEligibleToReceiveFocusFromDisabledChild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da42d4;
+  constexpr static std::size_t addrs = 0x6d9fcd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Focusable::*)(bool)>(&::UnityEngine::UIElements::Focusable::set_isEligibleToReceiveFocusFromDisabledChild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da42dc;
+  constexpr static std::size_t addrs = 0x6d9fce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Focusable::*)()>(&::UnityEngine::UIElements::Focusable::get_canGrabFocus)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6da42e4;
+  constexpr static std::size_t addrs = 0x6d9fce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Focusable::*)()>(&::UnityEngine::UIElements::Focusable::Focus)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6da42f4;
+  constexpr static std::size_t addrs = 0x6d9fcf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Focusable::*)()>(&::UnityEngine::UIElements::Focusable::Blur)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6da4520;
+  constexpr static std::size_t addrs = 0x6d9ff24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Focusable::*)()>(&::UnityEngine::UIElements::Focusable::BlurImmediately)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6da45b0;
+  constexpr static std::size_t addrs = 0x6d9ffb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Focusable*>(), { "BlurImmediately", {}, {} })));
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Focusable* (::UnityEngine::UIElements::Focusable::*)()>(&::UnityEngine::UIElements::Focusable::GetFocusDelegate)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6da43a0;
+  constexpr static std::size_t addrs = 0x6d9fda4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Focusable*>(), { "GetFocusDelegate", {}, {} })));
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Focusable* (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::Focusable::GetFirstFocusableChild)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6da45e8;
+  constexpr static std::size_t addrs = 0x6d9ffec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

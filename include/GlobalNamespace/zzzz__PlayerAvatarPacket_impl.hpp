@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PacketPool_1<::GlobalNamespace::PlayerAvatarPacket*>* (*)()>(&::GlobalNamespace::PlayerAvatarPacket::get_pool)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x332b65c;
+  constexpr static std::size_t addrs = 0x3329c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerAvatarPacket*>(), { "get_pool", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerAvatarPacket::*)(::LiteNetLib::Utils::NetDataWriter*)>(&::GlobalNamespace::PlayerAvatarPacket::Serialize)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x332b6a0;
+  constexpr static std::size_t addrs = 0x3329c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerAvatarPacket::*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::PlayerAvatarPacket::Deserialize)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x332b6cc;
+  constexpr static std::size_t addrs = 0x3329c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerAvatarPacket::*)()>(&::GlobalNamespace::PlayerAvatarPacket::Release)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x332b704;
+  constexpr static std::size_t addrs = 0x3329ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerAvatarPacket*>(), { "Release", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerAvatarPacket* (::GlobalNamespace::PlayerAvatarPacket::*)(::GlobalNamespace::MultiplayerAvatarsData)>(
     &::GlobalNamespace::PlayerAvatarPacket::Init)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x332b75c;
+  constexpr static std::size_t addrs = 0x3329d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerAvatarPacket::*)()>(&::GlobalNamespace::PlayerAvatarPacket::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x332b770;
+  constexpr static std::size_t addrs = 0x3329d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerAvatarPacket*>(), { ".ctor", {}, {} })));

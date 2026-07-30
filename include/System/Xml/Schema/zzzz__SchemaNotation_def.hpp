@@ -58,22 +58,22 @@ public:
 
   constexpr void __cordl_internal_set_systemLiteral(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6205cf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6203a8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method get_Name, addr 0x6205cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6203a94, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_Name();
 
-  /// @brief Method get_Pubid, addr 0x6205d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pubid, addr 0x6203aac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Pubid();
 
-  /// @brief Method get_SystemLiteral, addr 0x6205d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SystemLiteral, addr 0x6203a9c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SystemLiteral();
 
-  /// @brief Method set_Pubid, addr 0x6205d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Pubid, addr 0x6203ab4, size 0x8, virtual false, abstract: false, final false
   inline void set_Pubid(::StringW value);
 
-  /// @brief Method set_SystemLiteral, addr 0x6205d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SystemLiteral, addr 0x6203aa4, size 0x8, virtual false, abstract: false, final false
   inline void set_SystemLiteral(::StringW value);
 
 protected:

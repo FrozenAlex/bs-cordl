@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::Org::BouncyCastle::Math::Raw::Interleave::Expand8to16)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3530f9c;
+  constexpr static std::size_t addrs = 0x352f564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::Org::BouncyCastle::Math::Raw::Interleave::Expand16to32)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3530fbc;
+  constexpr static std::size_t addrs = 0x352f584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint32_t)>(&::Org::BouncyCastle::Math::Raw::Interleave::Expand32to64)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3530fe0;
+  constexpr static std::size_t addrs = 0x352f5a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, ::ArrayW<uint64_t>, int32_t)>(&::Org::BouncyCastle::Math::Raw::Interleave::Expand64To128)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3531038;
+  constexpr static std::size_t addrs = 0x352f600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t, ::ArrayW<uint64_t>, int32_t)>(&::Org::BouncyCastle::Math::Raw::Interleave::Expand64To128Rev)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x35310e0;
+  constexpr static std::size_t addrs = 0x352f6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::Org::BouncyCastle::Math::Raw::Interleave::Shuffle)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3531188;
+  constexpr static std::size_t addrs = 0x352f750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t)>(&::Org::BouncyCastle::Math::Raw::Interleave::Shuffle)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x35311d0;
+  constexpr static std::size_t addrs = 0x352f798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::Org::BouncyCastle::Math::Raw::Interleave::Shuffle2)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x353122c;
+  constexpr static std::size_t addrs = 0x352f7f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::Org::BouncyCastle::Math::Raw::Interleave::Unshuffle)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3531280;
+  constexpr static std::size_t addrs = 0x352f848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t)>(&::Org::BouncyCastle::Math::Raw::Interleave::Unshuffle)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x35312c8;
+  constexpr static std::size_t addrs = 0x352f890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::Org::BouncyCastle::Math::Raw::Interleave::Unshuffle2)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3531324;
+  constexpr static std::size_t addrs = 0x352f8ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::Raw::Interleave::*)()>(&::Org::BouncyCastle::Math::Raw::Interleave::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3531378;
+  constexpr static std::size_t addrs = 0x352f940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::Raw::Interleave*>(), { ".ctor", {}, {} })));

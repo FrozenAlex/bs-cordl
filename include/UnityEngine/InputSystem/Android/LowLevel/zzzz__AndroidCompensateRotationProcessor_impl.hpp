@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor::*)(
     ::UnityEngine::Quaternion, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor::Process)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x65a7a38;
+  constexpr static std::size_t addrs = 0x65a57d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor::*)()>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x65a7a6c;
+  constexpr static std::size_t addrs = 0x65a5808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

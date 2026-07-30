@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataStrobeFilterTransform_StrobeStreakData::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::BeatmapDataStrobeFilterTransform_StrobeStreakData::StartPotentialStrobe)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3704358;
+  constexpr static std::size_t addrs = 0x3702d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataStrobeFilterTransform_StrobeStreakData*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataStrobeFilterTransform_StrobeStreakData::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::BeatmapDataStrobeFilterTransform_StrobeStreakData::AddStrobeData)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x37042b4;
+  constexpr static std::size_t addrs = 0x3702cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataStrobeFilterTransform_StrobeStreakData*>(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataStrobeFilterTransform_StrobeStreakData::*)()>(
     &::GlobalNamespace::BeatmapDataStrobeFilterTransform_StrobeStreakData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x370422c;
+  constexpr static std::size_t addrs = 0x3702c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::GlobalNamespace::IReadonlyBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::EnvironmentIntensityReductionOptions*)>(
         &::GlobalNamespace::BeatmapDataStrobeFilterTransform::CreateTransformedData)> {
   constexpr static std::size_t size = 0xd90;
-  constexpr static std::size_t addrs = 0x370349c;
+  constexpr static std::size_t addrs = 0x3701ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::GlobalNamespace::EnvironmentColorType)>(&::GlobalNamespace::BeatmapDataStrobeFilterTransform::GetOnEventDataValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3704318;
+  constexpr static std::size_t addrs = 0x3702d40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataStrobeFilterTransform*>(),
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::GlobalNamespace::EnvironmentColorType)>(
     &::GlobalNamespace::BeatmapDataStrobeFilterTransform::GetFlashAndFadeToBlackEventDataValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x370433c;
+  constexpr static std::size_t addrs = 0x3702d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

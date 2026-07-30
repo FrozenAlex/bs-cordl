@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Networking::UnityWebRequest* (*)(::StringW)>(&::UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e22a64;
+  constexpr static std::size_t addrs = 0x6e1e468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Networking::UnityWebRequest* (*)(::System::Uri*)>(&::UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e22b34;
+  constexpr static std::size_t addrs = 0x6e1e538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Networking::UnityWebRequest* (*)(::StringW, uint32_t)>(&::UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6e22a6c;
+  constexpr static std::size_t addrs = 0x6e1e470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::UnityWebRequestAssetBundle*>(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Networking::UnityWebRequest* (*)(::System::Uri*, uint32_t)>(
     &::UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6e22b3c;
+  constexpr static std::size_t addrs = 0x6e1e540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::UnityWebRequestAssetBundle*>(),
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Networking::UnityWebRequest* (*)(::System::Uri*, ::UnityEngine::CachedAssetBundle, uint32_t)>(
     &::UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6e22c38;
+  constexpr static std::size_t addrs = 0x6e1e63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

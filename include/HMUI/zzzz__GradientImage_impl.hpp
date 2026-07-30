@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::HMUI::GradientImage::*)()>(&::HMUI::GradientImage::get_color0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5884f64;
+  constexpr static std::size_t addrs = 0x5883410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::GradientImage*>(), { "get_color0", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::GradientImage::*)(::UnityEngine::Color)>(&::HMUI::GradientImage::set_color0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5884f78;
+  constexpr static std::size_t addrs = 0x5883424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::HMUI::GradientImage::*)()>(&::HMUI::GradientImage::get_color1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5884fcc;
+  constexpr static std::size_t addrs = 0x5883478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::GradientImage*>(), { "get_color1", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::GradientImage::*)(::UnityEngine::Color)>(&::HMUI::GradientImage::set_color1)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5884fe0;
+  constexpr static std::size_t addrs = 0x588348c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::GradientImage::*)(::UnityEngine::UI::VertexHelper*)>(&::HMUI::GradientImage::OnPopulateMesh)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x5885034;
+  constexpr static std::size_t addrs = 0x58834e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::GradientImage*>(), { ::i2c::class_of<::HMUI::GradientImage*>(), 44 }));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::GradientImage::*)(::UnityEngine::UI::VertexHelper*, bool, float_t)>(&::HMUI::GradientImage::GenerateSimpleSprite)> {
   constexpr static std::size_t size = 0x538;
-  constexpr static std::size_t addrs = 0x58851a4;
+  constexpr static std::size_t addrs = 0x5883650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::GradientImage::*)(::UnityEngine::UI::VertexHelper*, float_t)>(&::HMUI::GradientImage::GenerateSlicedSprite)> {
   constexpr static std::size_t size = 0x7b8;
-  constexpr static std::size_t addrs = 0x58856dc;
+  constexpr static std::size_t addrs = 0x5883b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::GradientImage::*)(::UnityEngine::UI::VertexHelper*)>(&::HMUI::GradientImage::GenerateTiledSprite)> {
   constexpr static std::size_t size = 0x8c8;
-  constexpr static std::size_t addrs = 0x5885e94;
+  constexpr static std::size_t addrs = 0x5884340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UI::VertexHelper*, ::ArrayW<::UnityEngine::Vector3>, ::UnityEngine::Color32, ::ArrayW<::UnityEngine::Vector3>)>(
     &::HMUI::GradientImage::AddQuad)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5887a7c;
+  constexpr static std::size_t addrs = 0x5885f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UI::VertexHelper*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Color32, ::UnityEngine::Vector2,
                                                                 ::UnityEngine::Vector2)>(&::HMUI::GradientImage::AddQuad)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x58878f8;
+  constexpr static std::size_t addrs = 0x5885da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UI::VertexHelper*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Color32, ::UnityEngine::Color32,
                                                                 ::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t, float_t)>(&::HMUI::GradientImage::AddQuad)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x58874e8;
+  constexpr static std::size_t addrs = 0x5885994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::HMUI::GradientImage::*)(::UnityEngine::Vector4, ::UnityEngine::Rect)>(&::HMUI::GradientImage::GetAdjustedBorders)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5887468;
+  constexpr static std::size_t addrs = 0x5885914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::GradientImage::*)(::UnityEngine::UI::VertexHelper*, bool)>(&::HMUI::GradientImage::GenerateFilledSprite)> {
   constexpr static std::size_t size = 0x8f8;
-  constexpr static std::size_t addrs = 0x588675c;
+  constexpr static std::size_t addrs = 0x5884c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<::UnityEngine::Vector3>, ::ArrayW<::UnityEngine::Vector3>, float_t, bool, int32_t)>(&::HMUI::GradientImage::RadialCut)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x5887b8c;
+  constexpr static std::size_t addrs = 0x5886038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<::UnityEngine::Vector3>, float_t, float_t, bool, int32_t)>(&::HMUI::GradientImage::RadialCut)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x5887cc0;
+  constexpr static std::size_t addrs = 0x588616c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::HMUI::GradientImage::*)(bool)>(&::HMUI::GradientImage::GetDrawingDimensions)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x5887054;
+  constexpr static std::size_t addrs = 0x5885500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::GradientImage*>(), { "GetDrawingDimensions", {}, { ::i2c::type_of<bool>() } })));
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::GradientImage::*)()>(&::HMUI::GradientImage::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x58880b0;
+  constexpr static std::size_t addrs = 0x588655c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::GradientImage*>(), { ".ctor", {}, {} })));

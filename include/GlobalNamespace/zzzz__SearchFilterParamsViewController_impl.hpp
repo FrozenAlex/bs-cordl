@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>*)>(&::GlobalNamespace::SearchFilterParamsViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5954808;
+  constexpr static std::size_t addrs = 0x5952ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::SearchFilterParamsViewController>, ::GlobalNamespace::LevelFilter>*)>(&::GlobalNamespace::SearchFilterParamsViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x59548c8;
+  constexpr static std::size_t addrs = 0x59530b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(
     ::by_ref<::GlobalNamespace::LevelFilter>, ::ArrayW<::GlobalNamespace::BeatmapCharacteristic>)>(&::GlobalNamespace::SearchFilterParamsViewController::Setup)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5954988;
+  constexpr static std::size_t addrs = 0x5953170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::SearchFilterParamsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x5954da4;
+  constexpr static std::size_t addrs = 0x595358c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SearchFilterParamsViewController*>(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(bool, bool)>(
     &::GlobalNamespace::SearchFilterParamsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x5955060;
+  constexpr static std::size_t addrs = 0x5953848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::SearchFilterParamsViewController*>(),
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)()>(&::GlobalNamespace::SearchFilterParamsViewController::OkButtonPressed)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x595529c;
+  constexpr static std::size_t addrs = 0x5953a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SearchFilterParamsViewController*>(), { "OkButtonPressed", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(::GlobalNamespace::FormattedFloatListSettingsController*, float_t)>(
     &::GlobalNamespace::SearchFilterParamsViewController::MinBpmControllerValueDidChange)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5955500;
+  constexpr static std::size_t addrs = 0x5953ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(::GlobalNamespace::FormattedFloatListSettingsController*, float_t)>(
     &::GlobalNamespace::SearchFilterParamsViewController::MaxBpmControllerValueDidChange)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x59555c4;
+  constexpr static std::size_t addrs = 0x5953dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(bool)>(
     &::GlobalNamespace::SearchFilterParamsViewController::HandleFilterByOwnedValueValueChanged)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5955688;
+  constexpr static std::size_t addrs = 0x5953e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(bool)>(
     &::GlobalNamespace::SearchFilterParamsViewController::HandleFilterByNotOwnedValueValueChanged)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x59556ac;
+  constexpr static std::size_t addrs = 0x5953e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)(::by_ref<::GlobalNamespace::LevelFilter>)>(
     &::GlobalNamespace::SearchFilterParamsViewController::Refresh)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x59549c8;
+  constexpr static std::size_t addrs = 0x59531b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SearchFilterParamsViewController::*)()>(&::GlobalNamespace::SearchFilterParamsViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59556d0;
+  constexpr static std::size_t addrs = 0x5953eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SearchFilterParamsViewController*>(), { ".ctor", {}, {} })));

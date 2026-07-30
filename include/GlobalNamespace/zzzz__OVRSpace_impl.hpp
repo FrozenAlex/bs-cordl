@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::GlobalNamespace::OVRSpace::*)()>(&::GlobalNamespace::OVRSpace::get_Handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ecf4d8;
+  constexpr static std::size_t addrs = 0x5ecd244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpace>(), { "get_Handle", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRSpace::*)(::by_ref<::System::Guid>)>(&::GlobalNamespace::OVRSpace::TryGetUuid)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5ecf4e0;
+  constexpr static std::size_t addrs = 0x5ecd24c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRSpace::*)()>(&::GlobalNamespace::OVRSpace::get_Valid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5ec88c0;
+  constexpr static std::size_t addrs = 0x5ec662c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpace>(), { "get_Valid", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSpace::*)(uint64_t)>(&::GlobalNamespace::OVRSpace::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ecf550;
+  constexpr static std::size_t addrs = 0x5ecd2bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpace>(), { ".ctor", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OVRSpace::*)()>(&::GlobalNamespace::OVRSpace::ToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5ecf558;
+  constexpr static std::size_t addrs = 0x5ecd2c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpace>(), { ::i2c::class_of<::GlobalNamespace::OVRSpace>(), 3 }));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRSpace::*)(::GlobalNamespace::OVRSpace)>(&::GlobalNamespace::OVRSpace::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5ecf5f0;
+  constexpr static std::size_t addrs = 0x5ecd35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRSpace::*)(::System::Object*)>(&::GlobalNamespace::OVRSpace::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5ecf600;
+  constexpr static std::size_t addrs = 0x5ecd36c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpace>(), { ::i2c::class_of<::GlobalNamespace::OVRSpace>(), 0 }));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::OVRSpace::*)()>(&::GlobalNamespace::OVRSpace::GetHashCode)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ecf67c;
+  constexpr static std::size_t addrs = 0x5ecd3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpace>(), { ::i2c::class_of<::GlobalNamespace::OVRSpace>(), 2 }));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRSpace, ::GlobalNamespace::OVRSpace)>(&::GlobalNamespace::OVRSpace::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ecf688;
+  constexpr static std::size_t addrs = 0x5ecd3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRSpace, ::GlobalNamespace::OVRSpace)>(&::GlobalNamespace::OVRSpace::op_Inequality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ecf694;
+  constexpr static std::size_t addrs = 0x5ecd400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRSpace (*)(uint64_t)>(&::GlobalNamespace::OVRSpace::op_Implicit___GlobalNamespace__OVRSpace)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ec3ec0;
+  constexpr static std::size_t addrs = 0x5ec1c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSpace>(), { "op_Implicit", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::GlobalNamespace::OVRSpace)>(&::GlobalNamespace::OVRSpace::op_Implicit_uint64_t)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ec3ec4;
+  constexpr static std::size_t addrs = 0x5ec1c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

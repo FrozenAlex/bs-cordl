@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::StreamReader* (*)(::StringW)>(&::System::IO::File::OpenText)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5c054e0;
+  constexpr static std::size_t addrs = 0x5c03324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::File*>(), { "OpenText", {}, { ::i2c::type_of<::StringW>() } })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::StreamWriter* (*)(::StringW)>(&::System::IO::File::CreateText)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5c055a0;
+  constexpr static std::size_t addrs = 0x5c033e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::File*>(), { "CreateText", {}, { ::i2c::type_of<::StringW>() } })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::StreamWriter* (*)(::StringW)>(&::System::IO::File::AppendText)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5c0564c;
+  constexpr static std::size_t addrs = 0x5c03490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::File*>(), { "AppendText", {}, { ::i2c::type_of<::StringW>() } })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::FileStream* (*)(::StringW)>(&::System::IO::File::Create)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c056f8;
+  constexpr static std::size_t addrs = 0x5c0353c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::File*>(), { "Create", {}, { ::i2c::type_of<::StringW>() } })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::FileStream* (*)(::StringW, int32_t)>(&::System::IO::File::Create)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5c05700;
+  constexpr static std::size_t addrs = 0x5c03544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::System::IO::File::Delete)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5c05788;
+  constexpr static std::size_t addrs = 0x5c035cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::File*>(), { "Delete", {}, { ::i2c::type_of<::StringW>() } })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::System::IO::File::Exists)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x5bf818c;
+  constexpr static std::size_t addrs = 0x5bf5fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::File*>(), { "Exists", {}, { ::i2c::type_of<::StringW>() } })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::FileStream* (*)(::StringW, ::System::IO::FileMode)>(&::System::IO::File::Open)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c05834;
+  constexpr static std::size_t addrs = 0x5c03678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::FileStream* (*)(::StringW, ::System::IO::FileMode, ::System::IO::FileAccess, ::System::IO::FileShare)>(
     &::System::IO::File::Open)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5c05848;
+  constexpr static std::size_t addrs = 0x5c0368c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::FileAttributes (*)(::StringW)>(&::System::IO::File::GetAttributes)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5c058e0;
+  constexpr static std::size_t addrs = 0x5c03724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::File*>(), { "GetAttributes", {}, { ::i2c::type_of<::StringW>() } })));
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::FileStream* (*)(::StringW)>(&::System::IO::File::OpenRead)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5c05940;
+  constexpr static std::size_t addrs = 0x5c03784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::File*>(), { "OpenRead", {}, { ::i2c::type_of<::StringW>() } })));
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::FileStream* (*)(::StringW)>(&::System::IO::File::OpenWrite)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5c059bc;
+  constexpr static std::size_t addrs = 0x5c03800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::File*>(), { "OpenWrite", {}, { ::i2c::type_of<::StringW>() } })));
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::IO::File::ReadAllText)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5c05a38;
+  constexpr static std::size_t addrs = 0x5c0387c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::File*>(), { "ReadAllText", {}, { ::i2c::type_of<::StringW>() } })));
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::System::Text::Encoding*)>(&::System::IO::File::InternalReadAllText)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x5c05afc;
+  constexpr static std::size_t addrs = 0x5c03940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW)>(&::System::IO::File::WriteAllText)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5c05c78;
+  constexpr static std::size_t addrs = 0x5c03abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW, ::System::Text::Encoding*)>(&::System::IO::File::WriteAllText)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x5c05e78;
+  constexpr static std::size_t addrs = 0x5c03cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&::System::IO::File::ReadAllBytes)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x5c060ac;
+  constexpr static std::size_t addrs = 0x5c03ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::File*>(), { "ReadAllBytes", {}, { ::i2c::type_of<::StringW>() } })));
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::System::IO::FileStream*)>(&::System::IO::File::ReadAllBytesUnknownLength)> {
   constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x5c06350;
+  constexpr static std::size_t addrs = 0x5c04194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::ArrayW<uint8_t>)>(&::System::IO::File::WriteAllBytes)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5c0685c;
+  constexpr static std::size_t addrs = 0x5c046a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::ArrayW<uint8_t>)>(&::System::IO::File::InternalWriteAllBytes)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5c06958;
+  constexpr static std::size_t addrs = 0x5c0479c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)(::StringW)>(&::System::IO::File::ReadAllLines)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5c06ae0;
+  constexpr static std::size_t addrs = 0x5c04924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::File*>(), { "ReadAllLines", {}, { ::i2c::type_of<::StringW>() } })));
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)(::StringW, ::System::Text::Encoding*)>(&::System::IO::File::InternalReadAllLines)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x5c06ba4;
+  constexpr static std::size_t addrs = 0x5c049e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::ArrayW<::StringW>)>(&::System::IO::File::WriteAllLines)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c06e0c;
+  constexpr static std::size_t addrs = 0x5c04c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*)>(&::System::IO::File::WriteAllLines)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5c06e10;
+  constexpr static std::size_t addrs = 0x5c04c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -325,7 +325,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::TextWriter*, ::System::Collections::Generic::IEnumerable_1<::StringW>*)>(&::System::IO::File::InternalWriteAllLines)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x5c06f3c;
+  constexpr static std::size_t addrs = 0x5c04d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW, ::StringW)>(&::System::IO::File::Replace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c072c4;
+  constexpr static std::size_t addrs = 0x5c05108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -353,7 +353,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW, ::StringW, bool)>(&::System::IO::File::Replace)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5c072cc;
+  constexpr static std::size_t addrs = 0x5c05110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW)>(&::System::IO::File::Move)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x5c073f8;
+  constexpr static std::size_t addrs = 0x5c0523c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -380,7 +380,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::FileSecurity* (*)(::StringW)>(&::System::IO::File::GetAccessControl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c0762c;
+  constexpr static std::size_t addrs = 0x5c05470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::File*>(), { "GetAccessControl", {}, { ::i2c::type_of<::StringW>() } })));
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::FileSecurity* (*)(::StringW, ::System::Security::AccessControl::AccessControlSections)>(
     &::System::IO::File::GetAccessControl)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5c07634;
+  constexpr static std::size_t addrs = 0x5c05478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

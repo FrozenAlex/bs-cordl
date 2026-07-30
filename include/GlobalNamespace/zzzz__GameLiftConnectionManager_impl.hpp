@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager_GameLiftConnectionManagerParamsBase::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager_GameLiftConnectionManagerParamsBase::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x32aa430;
+  constexpr static std::size_t addrs = 0x32a7dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager_ConnectToServerParams::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager_ConnectToServerParams::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x32aa46c;
+  constexpr static std::size_t addrs = 0x32a7df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager_StartClientParams::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager_StartClientParams::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x32aa494;
+  constexpr static std::size_t addrs = 0x32a7e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager_StartClientParams*>(), { ".ctor", {}, {} })));
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__83::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__83::MoveNext)> {
   constexpr static std::size_t size = 0x5d0;
-  constexpr static std::size_t addrs = 0x32aa4bc;
+  constexpr static std::size_t addrs = 0x32a7e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__83::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__83::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x32aaa8c;
+  constexpr static std::size_t addrs = 0x32a8418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager__GameLiftConnectToServer_d__83>(),
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82::MoveNext)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x32aaaf8;
+  constexpr static std::size_t addrs = 0x32a8484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x32aaec8;
+  constexpr static std::size_t addrs = 0x32a8854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager__GetGameLiftPlayerSessionInfo_d__82>(),
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::GameLiftConnectionManager::add_onInitializedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x32a80e0;
+  constexpr static std::size_t addrs = 0x32a5a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::GameLiftConnectionManager::remove_onInitializedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x32a818c;
+  constexpr static std::size_t addrs = 0x32a5b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::GameLiftConnectionManager::add_onConnectedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x32a8238;
+  constexpr static std::size_t addrs = 0x32a5bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::GameLiftConnectionManager::remove_onConnectedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x32a82e4;
+  constexpr static std::size_t addrs = 0x32a5c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -407,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(
     &::GlobalNamespace::GameLiftConnectionManager::add_onDisconnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32a8390;
+  constexpr static std::size_t addrs = 0x32a5d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(
     &::GlobalNamespace::GameLiftConnectionManager::remove_onDisconnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32a8450;
+  constexpr static std::size_t addrs = 0x32a5ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -437,7 +437,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)>(
     &::GlobalNamespace::GameLiftConnectionManager::add_onConnectionFailedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32a8510;
+  constexpr static std::size_t addrs = 0x32a5e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -452,7 +452,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)>(
     &::GlobalNamespace::GameLiftConnectionManager::remove_onConnectionFailedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32a85d0;
+  constexpr static std::size_t addrs = 0x32a5f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -467,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action_1<::GlobalNamespace::IConnection*>*)>(
     &::GlobalNamespace::GameLiftConnectionManager::add_onConnectionConnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32a8690;
+  constexpr static std::size_t addrs = 0x32a601c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -482,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action_1<::GlobalNamespace::IConnection*>*)>(
     &::GlobalNamespace::GameLiftConnectionManager::remove_onConnectionConnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32a8750;
+  constexpr static std::size_t addrs = 0x32a60dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -497,7 +497,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(
     ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*)>(&::GlobalNamespace::GameLiftConnectionManager::add_onConnectionDisconnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32a8810;
+  constexpr static std::size_t addrs = 0x32a619c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -513,7 +513,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(
     ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*)>(&::GlobalNamespace::GameLiftConnectionManager::remove_onConnectionDisconnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32a88d0;
+  constexpr static std::size_t addrs = 0x32a625c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -530,7 +530,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*)>(
         &::GlobalNamespace::GameLiftConnectionManager::add_onReceivedDataEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32a8990;
+  constexpr static std::size_t addrs = 0x32a631c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -548,7 +548,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*)>(
         &::GlobalNamespace::GameLiftConnectionManager::remove_onReceivedDataEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32a8a50;
+  constexpr static std::size_t addrs = 0x32a63dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -564,7 +564,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GameLiftConnectionManager::*)()>(&::GlobalNamespace::GameLiftConnectionManager::get_userId)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x32a8b10;
+  constexpr static std::size_t addrs = 0x32a649c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(), { "get_userId", {}, {} })));
@@ -576,7 +576,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GameLiftConnectionManager::*)()>(&::GlobalNamespace::GameLiftConnectionManager::get_userName)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x32a8c24;
+  constexpr static std::size_t addrs = 0x32a65b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(), { "get_userName", {}, {} })));
@@ -588,7 +588,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameLiftConnectionManager::*)()>(&::GlobalNamespace::GameLiftConnectionManager::get_isConnected)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x32a8d38;
+  constexpr static std::size_t addrs = 0x32a66c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(), { "get_isConnected", {}, {} })));
@@ -600,7 +600,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameLiftConnectionManager::*)()>(&::GlobalNamespace::GameLiftConnectionManager::get_isConnecting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x32a8d48;
+  constexpr static std::size_t addrs = 0x32a66d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(), { "get_isConnecting", {}, {} })));
@@ -612,7 +612,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameLiftConnectionManager::*)()>(&::GlobalNamespace::GameLiftConnectionManager::get_isDisconnecting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x32a8d58;
+  constexpr static std::size_t addrs = 0x32a66e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(), { "get_isDisconnecting", {}, {} })));
@@ -624,7 +624,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::GameLiftConnectionManager::*)()>(&::GlobalNamespace::GameLiftConnectionManager::get_connectionCount)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x32a8d68;
+  constexpr static std::size_t addrs = 0x32a66f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(), { "get_connectionCount", {}, {} })));
@@ -636,7 +636,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameLiftConnectionManager::*)()>(&::GlobalNamespace::GameLiftConnectionManager::get_isConnectionOwner)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x32a8e10;
+  constexpr static std::size_t addrs = 0x32a679c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(), { "get_isConnectionOwner", {}, {} })));
@@ -648,7 +648,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameLiftConnectionManager::*)()>(&::GlobalNamespace::GameLiftConnectionManager::get_isDisposed)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x32a8eb8;
+  constexpr static std::size_t addrs = 0x32a6844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(), { "get_isDisposed", {}, {} })));
@@ -660,7 +660,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GameLiftConnectionManager::*)()>(&::GlobalNamespace::GameLiftConnectionManager::get_compatibilityVersion)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x32a8f60;
+  constexpr static std::size_t addrs = 0x32a68ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(), { "get_compatibilityVersion", {}, {} })));
@@ -672,7 +672,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GameLiftConnectionManager::*)()>(&::GlobalNamespace::GameLiftConnectionManager::get_playerSessionId)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x32a9008;
+  constexpr static std::size_t addrs = 0x32a6994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(), { "get_playerSessionId", {}, {} })));
@@ -685,7 +685,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapLevelSelectionMask (::GlobalNamespace::GameLiftConnectionManager::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager::get_selectionMask)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x32a9020;
+  constexpr static std::size_t addrs = 0x32a69ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(), { "get_selectionMask", {}, {} })));
@@ -698,7 +698,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameplayServerConfiguration (::GlobalNamespace::GameLiftConnectionManager::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager::get_configuration)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x32a9038;
+  constexpr static std::size_t addrs = 0x32a69c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(), { "get_configuration", {}, {} })));
@@ -710,7 +710,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GameLiftConnectionManager::*)()>(&::GlobalNamespace::GameLiftConnectionManager::get_code)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32a904c;
+  constexpr static std::size_t addrs = 0x32a69d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(), { "get_code", {}, {} })));
@@ -722,7 +722,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GameLiftConnectionManager::*)()>(&::GlobalNamespace::GameLiftConnectionManager::get_secret)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32a9054;
+  constexpr static std::size_t addrs = 0x32a69e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(), { "get_secret", {}, {} })));
@@ -735,7 +735,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod)>(
     &::GlobalNamespace::GameLiftConnectionManager::SendToAll)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32a905c;
+  constexpr static std::size_t addrs = 0x32a69e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -750,7 +750,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(
     ::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod, ::GlobalNamespace::IConnection*)>(&::GlobalNamespace::GameLiftConnectionManager::SendToAll)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x32a911c;
+  constexpr static std::size_t addrs = 0x32a6aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -766,7 +766,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)()>(&::GlobalNamespace::GameLiftConnectionManager::PollUpdate)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x32a91ec;
+  constexpr static std::size_t addrs = 0x32a6b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(), { "PollUpdate", {}, {} })));
@@ -778,7 +778,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)()>(&::GlobalNamespace::GameLiftConnectionManager::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x32a9290;
+  constexpr static std::size_t addrs = 0x32a6c1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(), { ".ctor", {}, {} })));
@@ -791,7 +791,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(
     ::BGNet::Core::ITimeProvider*, ::BGNet::Core::ITaskUtility*, ::GlobalNamespace::IConnectionManager*)>(&::GlobalNamespace::GameLiftConnectionManager::_ctor)> {
   constexpr static std::size_t size = 0x520;
-  constexpr static std::size_t addrs = 0x32a936c;
+  constexpr static std::size_t addrs = 0x32a6cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -808,7 +808,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::ValueTask (::GlobalNamespace::GameLiftConnectionManager::*)()>(
     &::GlobalNamespace::GameLiftConnectionManager::DisposeAsync)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x32a988c;
+  constexpr static std::size_t addrs = 0x32a7218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(), { "DisposeAsync", {}, {} })));
@@ -820,7 +820,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)()>(&::GlobalNamespace::GameLiftConnectionManager::Dispose)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x32a9930;
+  constexpr static std::size_t addrs = 0x32a72bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(), { "Dispose", {}, {} })));
@@ -833,7 +833,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::GameLiftConnectionManager::Disconnect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32a99d4;
+  constexpr static std::size_t addrs = 0x32a7360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -847,7 +847,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::GameLiftConnectionManager::DisconnectInternal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32a9ca0;
+  constexpr static std::size_t addrs = 0x32a762c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(),
@@ -861,7 +861,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::GlobalNamespace::DisconnectedReason, ::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::GameLiftConnectionManager::DisconnectInternal)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x32a99dc;
+  constexpr static std::size_t addrs = 0x32a7368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -877,7 +877,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IConnection* (::GlobalNamespace::GameLiftConnectionManager::*)(int32_t)>(
     &::GlobalNamespace::GameLiftConnectionManager::GetConnection)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x32a9cac;
+  constexpr static std::size_t addrs = 0x32a7638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -890,7 +890,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)()>(&::GlobalNamespace::GameLiftConnectionManager::HandleConnected)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x32a9d64;
+  constexpr static std::size_t addrs = 0x32a76f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(), { "HandleConnected", {}, {} })));
@@ -903,7 +903,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::GlobalNamespace::IConnection*)>(
     &::GlobalNamespace::GameLiftConnectionManager::HandleConnectionConnected)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32a9d94;
+  constexpr static std::size_t addrs = 0x32a7720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(),
@@ -917,7 +917,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::GameLiftConnectionManager::HandleConnectionDisconnected)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32a9db0;
+  constexpr static std::size_t addrs = 0x32a773c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -933,7 +933,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::GameLiftConnectionManager::HandleConnectionFailed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32a9dcc;
+  constexpr static std::size_t addrs = 0x32a7758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLiftConnectionManager*>(),
@@ -947,7 +947,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLiftConnectionManager::*)(
     ::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod)>(&::GlobalNamespace::GameLiftConnectionManager::HandleReceivedData)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32a9dd8;
+  constexpr static std::size_t addrs = 0x32a7764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -966,7 +966,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::GameLiftConnectionManager::*)(::GlobalNamespace::IAuthenticationTokenProvider*, ::System::Threading::CancellationToken, ::StringW, ::StringW)>(
     &::GlobalNamespace::GameLiftConnectionManager::GetGameLiftPlayerSessionInfo)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x32a9df4;
+  constexpr static std::size_t addrs = 0x32a7780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -980,7 +980,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::GlobalNamespace::GameLiftConnectionManager::*)(::StringW, ::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::GameLiftConnectionManager::GameLiftConnectToServer)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x32a9efc;
+  constexpr static std::size_t addrs = 0x32a7888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -997,7 +997,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::StringW, ::StringW, int32_t, ::StringW, ::StringW, ::StringW, ::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration)>(
     &::GlobalNamespace::GameLiftConnectionManager::HandleConnectToServerSuccess)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x32a9fd4;
+  constexpr static std::size_t addrs = 0x32a7960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1017,7 +1017,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>*, ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*,
     ::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration, int32_t, int32_t)>(&::GlobalNamespace::GameLiftConnectionManager::GetPublicServers)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x32aa3d4;
+  constexpr static std::size_t addrs = 0x32a7d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

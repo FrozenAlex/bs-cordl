@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::ResponseDescription::*)()>(&::System::Net::ResponseDescription::get_PositiveIntermediate)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63f86cc;
+  constexpr static std::size_t addrs = 0x63f6468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ResponseDescription*>(), { "get_PositiveIntermediate", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::ResponseDescription::*)()>(&::System::Net::ResponseDescription::get_PositiveCompletion)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63f86e0;
+  constexpr static std::size_t addrs = 0x63f647c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ResponseDescription*>(), { "get_PositiveCompletion", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::ResponseDescription::*)()>(&::System::Net::ResponseDescription::get_TransientFailure)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63f86f4;
+  constexpr static std::size_t addrs = 0x63f6490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ResponseDescription*>(), { "get_TransientFailure", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::ResponseDescription::*)()>(&::System::Net::ResponseDescription::get_PermanentFailure)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63f8708;
+  constexpr static std::size_t addrs = 0x63f64a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ResponseDescription*>(), { "get_PermanentFailure", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::ResponseDescription::*)()>(&::System::Net::ResponseDescription::get_InvalidStatusCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63f871c;
+  constexpr static std::size_t addrs = 0x63f64b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ResponseDescription*>(), { "get_InvalidStatusCode", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ResponseDescription::*)()>(&::System::Net::ResponseDescription::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x63f8730;
+  constexpr static std::size_t addrs = 0x63f64cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ResponseDescription*>(), { ".ctor", {}, {} })));

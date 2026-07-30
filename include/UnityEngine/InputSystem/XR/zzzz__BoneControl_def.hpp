@@ -50,15 +50,15 @@ public:
 
   __declspec(property(get = get_rotation, put = set_rotation)) ::UnityEngine::InputSystem::Controls::QuaternionControl* rotation;
 
-  /// @brief Method FinishSetup, addr 0x6585428, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x65831c4, size 0x11c, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::XR::BoneControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x6585544, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x65832e0, size 0xfc, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::Bone ReadUnprocessedValueFromState(void* statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x6585640, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x65833dc, size 0x84, virtual true, abstract: false, final false
   inline void WriteValueIntoState(::UnityEngine::InputSystem::XR::Bone value, void* statePtr);
 
   constexpr ::UnityEngine::InputSystem::Controls::IntegerControl* const& __cordl_internal_get__parentBoneIndex_k__BackingField() const;
@@ -79,25 +79,25 @@ public:
 
   constexpr void __cordl_internal_set__rotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method .ctor, addr 0x65856c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6583460, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_parentBoneIndex, addr 0x65853f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentBoneIndex, addr 0x6583194, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_parentBoneIndex();
 
-  /// @brief Method get_position, addr 0x6585408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x65831a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_position();
 
-  /// @brief Method get_rotation, addr 0x6585418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x65831b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_rotation();
 
-  /// @brief Method set_parentBoneIndex, addr 0x6585400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parentBoneIndex, addr 0x658319c, size 0x8, virtual false, abstract: false, final false
   inline void set_parentBoneIndex(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method set_position, addr 0x6585410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x65831ac, size 0x8, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_rotation, addr 0x6585420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x65831bc, size 0x8, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
 protected:

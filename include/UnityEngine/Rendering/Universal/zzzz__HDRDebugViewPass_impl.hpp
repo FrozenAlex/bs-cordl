@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::HDRDebugViewPass_PassDataCIExy::*)()>(
     &::UnityEngine::Rendering::Universal::HDRDebugViewPass_PassDataCIExy::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x687f614;
+  constexpr static std::size_t addrs = 0x687d3b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::HDRDebugViewPass_PassDataDebugView::*)()>(
     &::UnityEngine::Rendering::Universal::HDRDebugViewPass_PassDataDebugView::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x687f618;
+  constexpr static std::size_t addrs = 0x687d3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::HDRDebugViewPass_ShaderConstants::*)()>(
     &::UnityEngine::Rendering::Universal::HDRDebugViewPass_ShaderConstants::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6881034;
+  constexpr static std::size_t addrs = 0x687edd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::HDRDebugViewPass___c::*)()>(&::UnityEngine::Rendering::Universal::HDRDebugViewPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6881170;
+  constexpr static std::size_t addrs = 0x687ef0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::HDRDebugViewPass___c*>(), { ".ctor", {}, {} })));
@@ -307,7 +307,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                            ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
     &::UnityEngine::Rendering::Universal::HDRDebugViewPass___c::_RenderHDRDebug_b__17_0)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6881174;
+  constexpr static std::size_t addrs = 0x687ef10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::HDRDebugViewPass___c*>(),
@@ -325,7 +325,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                            ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::HDRDebugViewPass___c::_RenderHDRDebug_b__17_1)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6881264;
+  constexpr static std::size_t addrs = 0x687f000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::HDRDebugViewPass___c*>(),
@@ -408,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::HDRDebugViewPass::*)(::UnityEngine::Material*)>(
     &::UnityEngine::Rendering::Universal::HDRDebugViewPass::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x687f4e0;
+  constexpr static std::size_t addrs = 0x687d27c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::RenderTextureDescriptor>)>(
     &::UnityEngine::Rendering::Universal::HDRDebugViewPass::ConfigureDescriptorForCIEPrepass)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x687f61c;
+  constexpr static std::size_t addrs = 0x687d3b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -437,7 +437,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
     &::UnityEngine::Rendering::Universal::HDRDebugViewPass::GetLuminanceParameters)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x687f6b8;
+  constexpr static std::size_t addrs = 0x687d454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -453,7 +453,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                                 ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*)>(
     &::UnityEngine::Rendering::Universal::HDRDebugViewPass::ExecuteCIExyPrepass)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x687f828;
+  constexpr static std::size_t addrs = 0x687d5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -473,7 +473,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                                 ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*)>(
     &::UnityEngine::Rendering::Universal::HDRDebugViewPass::ExecuteHDRDebugViewFinalPass)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x687fad4;
+  constexpr static std::size_t addrs = 0x687d870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -491,7 +491,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::HDRDebugViewPass::*)()>(&::UnityEngine::Rendering::Universal::HDRDebugViewPass::Dispose)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x687fe9c;
+  constexpr static std::size_t addrs = 0x687dc38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::HDRDebugViewPass*>(), { "Dispose", {}, {} })));
@@ -504,7 +504,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::HDRDebugViewPass::*)(
     ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Rendering::Universal::HDRDebugMode)>(&::UnityEngine::Rendering::Universal::HDRDebugViewPass::Setup)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x687fed0;
+  constexpr static std::size_t addrs = 0x687dc6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -520,7 +520,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::HDRDebugViewPass::*)(
     ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::HDRDebugViewPass::Execute)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x6880050;
+  constexpr static std::size_t addrs = 0x687ddec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::HDRDebugViewPass*>(),
@@ -535,7 +535,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::Universal::HDRDebugViewPass_PassDataCIExy*, ::UnityEngine::Rendering::Universal::HDRDebugViewPass_PassDataDebugView*,
     ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*)>(&::UnityEngine::Rendering::Universal::HDRDebugViewPass::ExecutePass)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x6880218;
+  constexpr static std::size_t addrs = 0x687dfb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -556,7 +556,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::Universal::HDRDebugMode)>(
     &::UnityEngine::Rendering::Universal::HDRDebugViewPass::RenderHDRDebug)> {
   constexpr static std::size_t size = 0xc58;
-  constexpr static std::size_t addrs = 0x68803dc;
+  constexpr static std::size_t addrs = 0x687e178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

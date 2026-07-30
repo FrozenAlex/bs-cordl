@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)()>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::get_clipStart)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cefec;
+  constexpr static std::size_t addrs = 0x69ccd88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlPlayableBehaviour*>(), { "get_clipStart", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)(double_t)>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::set_clipStart)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ceff4;
+  constexpr static std::size_t addrs = 0x69ccd90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)()>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::get_clipEnd)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ceffc;
+  constexpr static std::size_t addrs = 0x69ccd98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlPlayableBehaviour*>(), { "get_clipEnd", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)(double_t)>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::set_clipEnd)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf004;
+  constexpr static std::size_t addrs = 0x69ccda0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)()>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::get_scrubbing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf00c;
+  constexpr static std::size_t addrs = 0x69ccda8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlPlayableBehaviour*>(), { "get_scrubbing", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)(bool)>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::set_scrubbing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf014;
+  constexpr static std::size_t addrs = 0x69ccdb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)()>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::get_reinitEnter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf01c;
+  constexpr static std::size_t addrs = 0x69ccdb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)(bool)>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::set_reinitEnter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf024;
+  constexpr static std::size_t addrs = 0x69ccdc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)()>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::get_reinitExit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf02c;
+  constexpr static std::size_t addrs = 0x69ccdc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)(bool)>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::set_reinitExit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf034;
+  constexpr static std::size_t addrs = 0x69ccdd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)()>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::get_startSeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf03c;
+  constexpr static std::size_t addrs = 0x69ccdd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlPlayableBehaviour*>(), { "get_startSeed", {}, {} })));
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)(uint32_t)>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::set_startSeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf044;
+  constexpr static std::size_t addrs = 0x69ccde0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent> (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)()>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::get_events)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf04c;
+  constexpr static std::size_t addrs = 0x69ccde8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlPlayableBehaviour*>(), { "get_events", {}, {} })));
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)(::ArrayW<::UnityEngine::VFX::VisualEffectPlayableSerializedEvent>)>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::set_events)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf054;
+  constexpr static std::size_t addrs = 0x69ccdf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)()>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::get_clipEventsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf05c;
+  constexpr static std::size_t addrs = 0x69ccdf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)(uint32_t)>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::set_clipEventsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf064;
+  constexpr static std::size_t addrs = 0x69cce00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)()>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::get_prewarmStepCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf06c;
+  constexpr static std::size_t addrs = 0x69cce08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)(uint32_t)>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::set_prewarmStepCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf074;
+  constexpr static std::size_t addrs = 0x69cce10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)()>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::get_prewarmDeltaTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf07c;
+  constexpr static std::size_t addrs = 0x69cce18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)(float_t)>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::set_prewarmDeltaTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf084;
+  constexpr static std::size_t addrs = 0x69cce20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::Utility::ExposedProperty* (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)()>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::get_prewarmEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf08c;
+  constexpr static std::size_t addrs = 0x69cce28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)(::UnityEngine::VFX::Utility::ExposedProperty*)>(
     &::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::set_prewarmEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf094;
+  constexpr static std::size_t addrs = 0x69cce30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlPlayableBehaviour*>(),
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::*)()>(&::UnityEngine::VFX::VisualEffectControlPlayableBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69cf09c;
+  constexpr static std::size_t addrs = 0x69cce38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VisualEffectControlPlayableBehaviour*>(), { ".ctor", {}, {} })));

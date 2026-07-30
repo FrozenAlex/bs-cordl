@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnEventEffect::*)(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>*)>(
     &::GlobalNamespace::BTSCharacterSpawnEventEffect::add_startCharacterAnimationEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32846ec;
+  constexpr static std::size_t addrs = 0x32819d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnEventEffect::*)(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>*)>(
     &::GlobalNamespace::BTSCharacterSpawnEventEffect::remove_startCharacterAnimationEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3284c58;
+  constexpr static std::size_t addrs = 0x3281f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BTSCharacterSpawnEventEffect::*)()>(&::GlobalNamespace::BTSCharacterSpawnEventEffect::get_isInitialized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3284ea4;
+  constexpr static std::size_t addrs = 0x3282190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterSpawnEventEffect*>(), { "get_isInitialized", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnEventEffect::*)()>(&::GlobalNamespace::BTSCharacterSpawnEventEffect::Start)> {
   constexpr static std::size_t size = 0x5a4;
-  constexpr static std::size_t addrs = 0x3284eac;
+  constexpr static std::size_t addrs = 0x3282198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterSpawnEventEffect*>(), { "Start", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnEventEffect::*)()>(&::GlobalNamespace::BTSCharacterSpawnEventEffect::LoadAddressables)> {
   constexpr static std::size_t size = 0x844;
-  constexpr static std::size_t addrs = 0x3285450;
+  constexpr static std::size_t addrs = 0x328273c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterSpawnEventEffect*>(), { "LoadAddressables", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnEventEffect::*)()>(&::GlobalNamespace::BTSCharacterSpawnEventEffect::CleanupAddressables)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3285e30;
+  constexpr static std::size_t addrs = 0x328311c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterSpawnEventEffect*>(), { "CleanupAddressables", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnEventEffect::*)()>(&::GlobalNamespace::BTSCharacterSpawnEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3285f8c;
+  constexpr static std::size_t addrs = 0x3283278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterSpawnEventEffect*>(), { "OnDestroy", {}, {} })));
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::BTSCharacterSpawnEventEffect::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x3285fb4;
+  constexpr static std::size_t addrs = 0x32832a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterSpawnEventEffect*>(),
@@ -130,7 +130,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Tuple_2<
                                                                                             ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>*, int32_t,
                                                                                             int32_t)>(&::GlobalNamespace::BTSCharacterSpawnEventEffect::GetCharacterWithAnimationClip)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3285ca4;
+  constexpr static std::size_t addrs = 0x3282f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnEventEffect::*)()>(&::GlobalNamespace::BTSCharacterSpawnEventEffect::_ctor)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x3286138;
+  constexpr static std::size_t addrs = 0x3283424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterSpawnEventEffect*>(), { ".ctor", {}, {} })));

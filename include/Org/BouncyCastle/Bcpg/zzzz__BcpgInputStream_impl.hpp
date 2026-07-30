@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::BcpgInputStream_PartialInputStream::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*, bool, int32_t)>(
     &::Org::BouncyCastle::Bcpg::BcpgInputStream_PartialInputStream::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3697bf4;
+  constexpr static std::size_t addrs = 0x36961bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::BcpgInputStream_PartialInputStream::*)()>(
     &::Org::BouncyCastle::Bcpg::BcpgInputStream_PartialInputStream::ReadByte)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3699be8;
+  constexpr static std::size_t addrs = 0x36981b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::BcpgInputStream_PartialInputStream*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::BcpgInputStream_PartialInputStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Bcpg::BcpgInputStream_PartialInputStream::Read)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3699dc0;
+  constexpr static std::size_t addrs = 0x3698388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::BcpgInputStream_PartialInputStream*>(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::BcpgInputStream_PartialInputStream::*)()>(
     &::Org::BouncyCastle::Bcpg::BcpgInputStream_PartialInputStream::ReadPartialDataLength)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3699c90;
+  constexpr static std::size_t addrs = 0x3698258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::BcpgInputStream* (*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Bcpg::BcpgInputStream::Wrap)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x36971fc;
+  constexpr static std::size_t addrs = 0x36957c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::BcpgInputStream::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Bcpg::BcpgInputStream::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3697290;
+  constexpr static std::size_t addrs = 0x3695858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::BcpgInputStream::*)()>(&::Org::BouncyCastle::Bcpg::BcpgInputStream::ReadByte)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x36972bc;
+  constexpr static std::size_t addrs = 0x3695884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::BcpgInputStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Bcpg::BcpgInputStream::Read)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x36972f4;
+  constexpr static std::size_t addrs = 0x36958bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Bcpg::BcpgInputStream::*)()>(&::Org::BouncyCastle::Bcpg::BcpgInputStream::ReadAll)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36973a4;
+  constexpr static std::size_t addrs = 0x369596c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::BcpgInputStream*>(), { "ReadAll", {}, {} })));
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::BcpgInputStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Bcpg::BcpgInputStream::ReadFully)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x36973ac;
+  constexpr static std::size_t addrs = 0x3695974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::BcpgInputStream::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Bcpg::BcpgInputStream::ReadFully)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3697400;
+  constexpr static std::size_t addrs = 0x36959c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::PacketTag (::Org::BouncyCastle::Bcpg::BcpgInputStream::*)()>(
     &::Org::BouncyCastle::Bcpg::BcpgInputStream::NextPacketTag)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3697418;
+  constexpr static std::size_t addrs = 0x36959e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::BcpgInputStream*>(), { "NextPacketTag", {}, {} })));
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::Packet* (::Org::BouncyCastle::Bcpg::BcpgInputStream::*)()>(&::Org::BouncyCastle::Bcpg::BcpgInputStream::ReadPacket)> {
   constexpr static std::size_t size = 0x6f8;
-  constexpr static std::size_t addrs = 0x36974fc;
+  constexpr static std::size_t addrs = 0x3695ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::BcpgInputStream*>(), { "ReadPacket", {}, {} })));
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::BcpgInputStream::*)()>(&::Org::BouncyCastle::Bcpg::BcpgInputStream::Close)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3699b64;
+  constexpr static std::size_t addrs = 0x369812c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

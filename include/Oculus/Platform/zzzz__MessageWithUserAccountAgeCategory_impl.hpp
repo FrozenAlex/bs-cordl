@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithUserAccountAgeCategory::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithUserAccountAgeCategory::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd5f10;
+  constexpr static std::size_t addrs = 0x5dd3c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::UserAccountAgeCategory* (::Oculus::Platform::MessageWithUserAccountAgeCategory::*)()>(
     &::Oculus::Platform::MessageWithUserAccountAgeCategory::GetUserAccountAgeCategory)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5ddb020;
+  constexpr static std::size_t addrs = 0x5dd8d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithUserAccountAgeCategory*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::UserAccountAgeCategory* (::Oculus::Platform::MessageWithUserAccountAgeCategory::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithUserAccountAgeCategory::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5ddb064;
+  constexpr static std::size_t addrs = 0x5dd8dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::MessageWithUserAccountAgeCategory*>(),

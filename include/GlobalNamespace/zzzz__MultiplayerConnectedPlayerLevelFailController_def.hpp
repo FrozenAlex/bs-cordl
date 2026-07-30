@@ -56,21 +56,21 @@ public:
   /// @brief Field playerDidFailEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_playerDidFailEvent, put = __cordl_internal_set_playerDidFailEvent)) ::System::Action* playerDidFailEvent;
 
-  /// @brief Method CheckIfPlayerFailed, addr 0x59b63c0, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method CheckIfPlayerFailed, addr 0x59b4a20, size 0x1f4, virtual false, abstract: false, final false
   inline void CheckIfPlayerFailed(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandlePlayerDisconnected, addr 0x59b65b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDisconnected, addr 0x59b4c14, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandlePlayerStateChanged, addr 0x59b65b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerStateChanged, addr 0x59b4c18, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerStateChanged(::GlobalNamespace::IConnectedPlayer* player);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x59b6214, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x59b4874, size 0x1ac, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x59b6064, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x59b46c4, size 0x1b0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -109,13 +109,13 @@ public:
 
   constexpr void __cordl_internal_set_playerDidFailEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x59b65bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59b4c1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_playerDidFailEvent, addr 0x59b5340, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_playerDidFailEvent, addr 0x59b39a0, size 0xac, virtual false, abstract: false, final false
   inline void add_playerDidFailEvent(::System::Action* value);
 
-  /// @brief Method remove_playerDidFailEvent, addr 0x59b4e24, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_playerDidFailEvent, addr 0x59b3484, size 0xac, virtual false, abstract: false, final false
   inline void remove_playerDidFailEvent(::System::Action* value);
 
 protected:

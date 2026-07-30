@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DisallowGPUDrivenRendering::*)()>(
     &::UnityEngine::Rendering::DisallowGPUDrivenRendering::get_applyToChildrenRecursively)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6804b08;
+  constexpr static std::size_t addrs = 0x68028a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DisallowGPUDrivenRendering::*)(bool)>(
     &::UnityEngine::Rendering::DisallowGPUDrivenRendering::set_applyToChildrenRecursively)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6804b10;
+  constexpr static std::size_t addrs = 0x68028ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DisallowGPUDrivenRendering::*)()>(&::UnityEngine::Rendering::DisallowGPUDrivenRendering::OnEnable)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6804b54;
+  constexpr static std::size_t addrs = 0x68028f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DisallowGPUDrivenRendering*>(), { "OnEnable", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DisallowGPUDrivenRendering::*)()>(&::UnityEngine::Rendering::DisallowGPUDrivenRendering::OnDisable)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6804b2c;
+  constexpr static std::size_t addrs = 0x68028c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DisallowGPUDrivenRendering*>(), { "OnDisable", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Transform*, bool)>(&::UnityEngine::Rendering::DisallowGPUDrivenRendering::AllowGPUDrivenRendering)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6804eb4;
+  constexpr static std::size_t addrs = 0x6802c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Transform*, bool)>(&::UnityEngine::Rendering::DisallowGPUDrivenRendering::AllowGPUDrivenRenderingRecursively)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x6804b80;
+  constexpr static std::size_t addrs = 0x680291c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DisallowGPUDrivenRendering::*)()>(&::UnityEngine::Rendering::DisallowGPUDrivenRendering::OnValidate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6804f78;
+  constexpr static std::size_t addrs = 0x6802d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DisallowGPUDrivenRendering*>(), { "OnValidate", {}, {} })));
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DisallowGPUDrivenRendering::*)()>(&::UnityEngine::Rendering::DisallowGPUDrivenRendering::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6804f90;
+  constexpr static std::size_t addrs = 0x6802d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DisallowGPUDrivenRendering*>(), { ".ctor", {}, {} })));

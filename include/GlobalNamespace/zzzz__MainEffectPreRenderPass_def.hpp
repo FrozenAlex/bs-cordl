@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_effectContainer(::UnityW<::GlobalNamespace::MainEffectContainerSO> value);
 
-  /// @brief Method .ctor, addr 0x5f41980, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f3f680, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -83,7 +83,7 @@ public:
   MainEffectPreRenderPass_PassData(MainEffectPreRenderPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20887 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20885 };
 
   /// @brief Field effectContainer, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainEffectContainerSO> ___effectContainer;
@@ -113,10 +113,10 @@ public:
 
   static inline ::GlobalNamespace::MainEffectPreRenderPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__2_0, addr 0x5f419dc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__2_0, addr 0x5f3f6dc, size 0xb4, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__2_0(::GlobalNamespace::MainEffectPreRenderPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x5f419d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f3f6d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MainEffectPreRenderPass___c* getStaticF___9();
@@ -144,7 +144,7 @@ public:
   MainEffectPreRenderPass___c(MainEffectPreRenderPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20888 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20886 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -165,10 +165,10 @@ public:
 
   static inline ::GlobalNamespace::MainEffectPreRenderPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
-  /// @brief Method RecordRenderGraph, addr 0x5f41504, size 0x47c, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x5f3f224, size 0x45c, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method .ctor, addr 0x5f413cc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f3f02c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
 protected:
@@ -186,7 +186,7 @@ public:
   MainEffectPreRenderPass(MainEffectPreRenderPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20889 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20887 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

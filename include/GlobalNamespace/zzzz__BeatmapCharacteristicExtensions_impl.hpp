@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<::GlobalNamespace::BeatmapCharacteristic> (*)()>(
     &::GlobalNamespace::BeatmapCharacteristicExtensions::GetAllBeatmapCharacteristics)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x370c734;
+  constexpr static std::size_t addrs = 0x370b15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::BeatmapCharacteristic)>(&::GlobalNamespace::BeatmapCharacteristicExtensions::SerializedName)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x370c5a8;
+  constexpr static std::size_t addrs = 0x370afd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicExtensions*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::GlobalNamespace::BeatmapCharacteristic>)>(
     &::GlobalNamespace::BeatmapCharacteristicExtensions::BeatmapCharacteristicFromSerializedName)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x370c7ac;
+  constexpr static std::size_t addrs = 0x370b1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::BeatmapCharacteristic)>(&::GlobalNamespace::BeatmapCharacteristicExtensions::CompoundIdPartName)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x370c91c;
+  constexpr static std::size_t addrs = 0x370b344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicExtensions*>(),
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::GlobalNamespace::BeatmapCharacteristic)>(&::GlobalNamespace::BeatmapCharacteristicExtensions::SortingOrder)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x370c9e8;
+  constexpr static std::size_t addrs = 0x370b410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicExtensions*>(),
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapCharacteristic)>(&::GlobalNamespace::BeatmapCharacteristicExtensions::ContainsRotationEvents)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3707110;
+  constexpr static std::size_t addrs = 0x3705b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicExtensions*>(),
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapCharacteristic)>(&::GlobalNamespace::BeatmapCharacteristicExtensions::Requires360Movement)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x370c9ec;
+  constexpr static std::size_t addrs = 0x370b414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicExtensions*>(),
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::GlobalNamespace::BeatmapCharacteristic)>(&::GlobalNamespace::BeatmapCharacteristicExtensions::NumberOfColors)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x370c9f8;
+  constexpr static std::size_t addrs = 0x370b420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicExtensions*>(),
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::BeatmapCharacteristic)>(&::GlobalNamespace::BeatmapCharacteristicExtensions::LocalizedName)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x370ca08;
+  constexpr static std::size_t addrs = 0x370b430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicExtensions*>(),
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::BeatmapCharacteristic)>(&::GlobalNamespace::BeatmapCharacteristicExtensions::LocalizedHint)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x370cb34;
+  constexpr static std::size_t addrs = 0x370b55c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicExtensions*>(),
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::BeatmapCharacteristic)>(&::GlobalNamespace::BeatmapCharacteristicExtensions::NameLocalizationKey)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x370ca68;
+  constexpr static std::size_t addrs = 0x370b490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicExtensions*>(),
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::BeatmapCharacteristic)>(&::GlobalNamespace::BeatmapCharacteristicExtensions::HintLocalizationKey)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x370cb94;
+  constexpr static std::size_t addrs = 0x370b5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicExtensions*>(),
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::BeatmapCharacteristicSO*)>(&::GlobalNamespace::BeatmapCharacteristicExtensions::SerializedName)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x370cc60;
+  constexpr static std::size_t addrs = 0x370b688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicExtensions*>(),
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapCharacteristic (*)(::GlobalNamespace::BeatmapCharacteristicSO*)>(
     &::GlobalNamespace::BeatmapCharacteristicExtensions::AsEnum)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x370c274;
+  constexpr static std::size_t addrs = 0x370ac9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

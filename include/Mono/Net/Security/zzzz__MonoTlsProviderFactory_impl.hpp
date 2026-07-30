@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Net::Security::MobileTlsProvider* (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::GetProviderInternal)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5fd3554;
+  constexpr static std::size_t addrs = 0x5fd12f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "GetProviderInternal", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::InitializeInternal)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x5fd786c;
+  constexpr static std::size_t addrs = 0x5fd5608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "InitializeInternal", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Net::Security::MobileTlsProvider* (*)(::StringW, bool)>(&::Mono::Net::Security::MonoTlsProviderFactory::LookupProvider)> {
   constexpr static std::size_t size = 0x5e4;
-  constexpr static std::size_t addrs = 0x5fd804c;
+  constexpr static std::size_t addrs = 0x5fd5de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::InitializeProviderRegistration)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x5fd7c80;
+  constexpr static std::size_t addrs = 0x5fd5a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::PopulateUnityProviders)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5fd8630;
+  constexpr static std::size_t addrs = 0x5fd63cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "PopulateUnityProviders", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::PopulateProviders)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5fd8798;
+  constexpr static std::size_t addrs = 0x5fd6534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "PopulateProviders", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Net::Security::MobileTlsProvider* (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::CreateDefaultProviderImpl)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5fd7ec4;
+  constexpr static std::size_t addrs = 0x5fd5c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Net::Security::MobileTlsProvider* (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::GetProvider)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5fd8810;
+  constexpr static std::size_t addrs = 0x5fd65ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MonoTlsProviderFactory*>(), { "GetProvider", {}, {} })));

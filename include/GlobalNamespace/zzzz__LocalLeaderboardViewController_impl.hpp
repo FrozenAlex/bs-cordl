@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__27::*)()>(
     &::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__27::MoveNext)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x5948470;
+  constexpr static std::size_t addrs = 0x5946c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__27::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__27::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5948758;
+  constexpr static std::size_t addrs = 0x5946f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__27>(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LocalLeaderboardsModel* (::GlobalNamespace::LocalLeaderboardViewController::*)()>(
     &::GlobalNamespace::LocalLeaderboardViewController::get_leaderboardsModel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59478f4;
+  constexpr static std::size_t addrs = 0x59460dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(&::GlobalNamespace::LocalLeaderboardViewController::OnDisable)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x59478fc;
+  constexpr static std::size_t addrs = 0x59460e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardViewController*>(), { "OnDisable", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(bool)>(&::GlobalNamespace::LocalLeaderboardViewController::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5947980;
+  constexpr static std::size_t addrs = 0x5946168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(::by_ref<::GlobalNamespace::BeatmapKey>)>(
     &::GlobalNamespace::LocalLeaderboardViewController::SetData)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5947988;
+  constexpr static std::size_t addrs = 0x5946170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::LocalLeaderboardViewController::DidActivate)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x5947a70;
+  constexpr static std::size_t addrs = 0x5946258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(bool, bool)>(&::GlobalNamespace::LocalLeaderboardViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x5948070;
+  constexpr static std::size_t addrs = 0x5946858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(&::GlobalNamespace::LocalLeaderboardViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5948184;
+  constexpr static std::size_t addrs = 0x594696c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(
     &::GlobalNamespace::LocalLeaderboardViewController::RefreshScopeSegmentedControl)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x5947c60;
+  constexpr static std::size_t addrs = 0x5946448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(::HMUI::SegmentedControl*, int32_t)>(
     &::GlobalNamespace::LocalLeaderboardViewController::HandleScopeSegmentedControlDidSelectCell)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x5947f24;
+  constexpr static std::size_t addrs = 0x594670c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::LocalLeaderboardViewController::*)()>(
     &::GlobalNamespace::LocalLeaderboardViewController::ClearLeaderboardsAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5948220;
+  constexpr static std::size_t addrs = 0x5946a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(::StringW, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType)>(
     &::GlobalNamespace::LocalLeaderboardViewController::SetContent)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x59482d0;
+  constexpr static std::size_t addrs = 0x5946ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(::StringW, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType)>(
     &::GlobalNamespace::LocalLeaderboardViewController::HandleNewScoreWasAddedToLeaderboard)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x594834c;
+  constexpr static std::size_t addrs = 0x5946b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(&::GlobalNamespace::LocalLeaderboardViewController::Refresh)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5947a08;
+  constexpr static std::size_t addrs = 0x59461f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardViewController*>(), { "Refresh", {}, {} })));
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(&::GlobalNamespace::LocalLeaderboardViewController::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59483f4;
+  constexpr static std::size_t addrs = 0x5946bdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardViewController*>(), { ".ctor", {}, {} })));
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(&::GlobalNamespace::LocalLeaderboardViewController::_DidActivate_b__22_0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5948400;
+  constexpr static std::size_t addrs = 0x5946be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LocalLeaderboardViewController*>(), { "<DidActivate>b__22_0", {}, {} })));

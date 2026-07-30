@@ -103,41 +103,41 @@ public:
   // Declarations
   using BurstLogType = ::Unity::Burst::LowLevel::BurstCompilerService_BurstLogType;
 
-  /// @brief Method CompileAsyncDelegateMethod, addr 0x6a5afe4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method CompileAsyncDelegateMethod, addr 0x6a58d80, size 0x13c, virtual false, abstract: false, final false
   static inline int32_t CompileAsyncDelegateMethod(::System::Object* delegateMethod, ::StringW compilerOptions);
 
-  /// @brief Method CompileAsyncDelegateMethod_Injected, addr 0x6a5b120, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CompileAsyncDelegateMethod_Injected, addr 0x6a58ebc, size 0x44, virtual false, abstract: false, final false
   static inline int32_t CompileAsyncDelegateMethod_Injected(::System::Object* delegateMethod, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> compilerOptions);
 
-  /// @brief Method GetAsyncCompiledAsyncDelegateMethod, addr 0x6a5b164, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAsyncCompiledAsyncDelegateMethod, addr 0x6a58f00, size 0x3c, virtual false, abstract: false, final false
   static inline void* GetAsyncCompiledAsyncDelegateMethod(int32_t userID);
 
-  /// @brief Method GetCurrentExecutionMode, addr 0x6a5b1dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentExecutionMode, addr 0x6a58f78, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t GetCurrentExecutionMode();
 
-  /// @brief Method GetDisassembly, addr 0x6a5add8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method GetDisassembly, addr 0x6a58b74, size 0x1b8, virtual false, abstract: false, final false
   static inline ::StringW GetDisassembly(::System::Reflection::MethodInfo* m, ::StringW compilerOptions);
 
-  /// @brief Method GetDisassembly_Injected, addr 0x6a5af90, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetDisassembly_Injected, addr 0x6a58d2c, size 0x54, virtual false, abstract: false, final false
   static inline void GetDisassembly_Injected(::System::Reflection::MethodInfo* m, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> compilerOptions,
                                              ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
-  /// @brief Method GetOrCreateSharedMemory, addr 0x6a5a584, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateSharedMemory, addr 0x6a58320, size 0x54, virtual false, abstract: false, final false
   static inline void* GetOrCreateSharedMemory(::by_ref<::UnityEngine::Hash128> key, uint32_t size_of, uint32_t alignment);
 
-  /// @brief Method LoadBurstLibrary, addr 0x6a5b2dc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method LoadBurstLibrary, addr 0x6a59078, size 0x130, virtual false, abstract: false, final false
   static inline bool LoadBurstLibrary(::StringW fullPathToLibBurstGenerated);
 
-  /// @brief Method LoadBurstLibrary_Injected, addr 0x6a5b40c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method LoadBurstLibrary_Injected, addr 0x6a591a8, size 0x3c, virtual false, abstract: false, final false
   static inline bool LoadBurstLibrary_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> fullPathToLibBurstGenerated);
 
-  /// @brief Method Log, addr 0x6a5b204, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x6a58fa0, size 0x6c, virtual false, abstract: false, final false
   static inline void Log(void* userData, ::Unity::Burst::LowLevel::BurstCompilerService_BurstLogType logType, uint8_t* message, uint8_t* filename, int32_t lineNumber);
 
-  /// @brief Method RuntimeLog, addr 0x6a5b270, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method RuntimeLog, addr 0x6a5900c, size 0x6c, virtual false, abstract: false, final false
   static inline void RuntimeLog(void* userData, ::Unity::Burst::LowLevel::BurstCompilerService_BurstLogType logType, uint8_t* message, uint8_t* filename, int32_t lineNumber);
 
-  /// @brief Method SetCurrentExecutionMode, addr 0x6a5b1a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentExecutionMode, addr 0x6a58f3c, size 0x3c, virtual false, abstract: false, final false
   static inline void SetCurrentExecutionMode(uint32_t environment);
 
 protected:

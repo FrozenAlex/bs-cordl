@@ -48,31 +48,31 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundPosition>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundPosition>*();
 
-  /// @brief Method Equals, addr 0x6c8f014, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c8aa18, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c8efb4, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c8a9b8, size 0x60, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleBackgroundPosition other);
 
-  /// @brief Method GetHashCode, addr 0x6c8f094, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c8aa98, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6c8f0dc, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6c8aae0, size 0x7c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6c8ef50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c8a954, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x6c8d7b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c891bc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BackgroundPosition v);
 
-  /// @brief Method .ctor, addr 0x6c8ef44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c8a948, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BackgroundPosition v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method get_keyword, addr 0x6c8ef34, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x6c8a938, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0x6c8ef08, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x6c8a90c, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::BackgroundPosition get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundPosition>"
@@ -81,16 +81,16 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundPosition>"
   constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundPosition>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__BackgroundPosition_();
 
-  /// @brief Method op_Equality, addr 0x6c8ef5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6c8a960, size 0x58, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleBackgroundPosition lhs, ::UnityEngine::UIElements::StyleBackgroundPosition rhs);
 
-  /// @brief Method op_Implicit, addr 0x6c8d7c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6c891c8, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleBackgroundPosition op_Implicit___UnityEngine__UIElements__StyleBackgroundPosition(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method set_keyword, addr 0x6c8ef3c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_keyword, addr 0x6c8a940, size 0x8, virtual true, abstract: false, final true
   inline void set_keyword(::UnityEngine::UIElements::StyleKeyword value);
 
-  /// @brief Method set_value, addr 0x6c8ef28, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_value, addr 0x6c8a92c, size 0xc, virtual true, abstract: false, final true
   inline void set_value(::UnityEngine::UIElements::BackgroundPosition value);
 
   // Ctor Parameters []

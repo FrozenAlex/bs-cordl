@@ -37,19 +37,19 @@ namespace UnityEngine::InputSystem::LowLevel {
 class CORDL_TYPE InputUpdateDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x65b0868, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x65ae604, size 0xc0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType, ::by_ref<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x65b0928, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x65ae6c4, size 0x18, virtual true, abstract: false, final false
   inline void EndInvoke(::by_ref<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x65b0854, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x65ae5f0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType, ::by_ref<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer);
 
   static inline ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x65b07e8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65ae584, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

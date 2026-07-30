@@ -155,31 +155,31 @@ public:
 
   __declspec(property(get = get_Rotation)) ::System::Nullable_1<::UnityEngine::Quaternion> Rotation;
 
-  /// @brief Method ComputeWorldPosition, addr 0x5e0e160, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method ComputeWorldPosition, addr 0x5e0becc, size 0x288, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::Vector3> ComputeWorldPosition(::UnityEngine::Camera* camera);
 
-  /// @brief Method ComputeWorldPosition, addr 0x5e0ecb8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ComputeWorldPosition, addr 0x5e0ca24, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::Vector3> ComputeWorldPosition(::UnityEngine::Transform* trackingSpaceToWorldSpaceTransform);
 
-  /// @brief Method ComputeWorldRotation, addr 0x5e0e9ec, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method ComputeWorldRotation, addr 0x5e0c758, size 0x2cc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::Quaternion> ComputeWorldRotation(::UnityEngine::Camera* camera);
 
-  /// @brief Method ComputeWorldRotation, addr 0x5e0ee04, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method ComputeWorldRotation, addr 0x5e0cb70, size 0x1e4, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::Quaternion> ComputeWorldRotation(::UnityEngine::Transform* trackingSpaceToWorldSpaceTransform);
 
-  /// @brief Method .ctor, addr 0x5e0cd3c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e0aaa8, size 0x170, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::GlobalNamespace::OVRPlugin_SpaceLocationFlags flags);
 
-  /// @brief Method get_IsPositionTracked, addr 0x5e0e0a8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_IsPositionTracked, addr 0x5e0be14, size 0x5c, virtual false, abstract: false, final false
   inline bool get_IsPositionTracked();
 
-  /// @brief Method get_IsRotationTracked, addr 0x5e0e104, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_IsRotationTracked, addr 0x5e0be70, size 0x5c, virtual false, abstract: false, final false
   inline bool get_IsRotationTracked();
 
-  /// @brief Method get_Position, addr 0x5e0e088, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x5e0bdf4, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::Vector3> get_Position();
 
-  /// @brief Method get_Rotation, addr 0x5e0e094, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Rotation, addr 0x5e0be00, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::Quaternion> get_Rotation();
 
   // Ctor Parameters []
@@ -267,68 +267,68 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRLocatable>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRLocatable>*();
 
-  /// @brief Method Equals, addr 0x5e0ca50, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5e0a7bc, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5e0c900, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5e0a66c, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRLocatable other);
 
-  /// @brief Method GetHashCode, addr 0x5e0cae0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5e0a84c, size 0x68, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IOVRAnchorComponent<OVRLocatable>.FromAnchor, addr 0x5e0c40c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRLocatable>.FromAnchor, addr 0x5e0a178, size 0x30, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRLocatable IOVRAnchorComponent_OVRLocatable__FromAnchor(::GlobalNamespace::OVRAnchor anchor);
 
-  /// @brief Method IOVRAnchorComponent<OVRLocatable>.get_Handle, addr 0x5e0c3b4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRLocatable>.get_Handle, addr 0x5e0a120, size 0x58, virtual true, abstract: false, final true
   inline uint64_t IOVRAnchorComponent_OVRLocatable__get_Handle();
 
-  /// @brief Method IOVRAnchorComponent<OVRLocatable>.get_Type, addr 0x5e0c358, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRLocatable>.get_Type, addr 0x5e0a0c4, size 0x54, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType IOVRAnchorComponent_OVRLocatable__get_Type();
 
-  /// @brief Method ScheduleUpdateTransforms, addr 0x5e0cfdc, size 0x5e0, virtual false, abstract: false, final false
+  /// @brief Method ScheduleUpdateTransforms, addr 0x5e0ad48, size 0x5e0, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleUpdateTransforms(::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable> locatables, ::UnityEngine::Jobs::TransformAccessArray transforms,
                                                                   ::UnityEngine::Transform* trackingSpaceToWorldSpaceTransform,
                                                                   ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose> posesOut, ::Unity::Jobs::JobHandle inputDeps);
 
-  /// @brief Method SetEnabledAsync, addr 0x5e0c5ec, size 0x29c, virtual true, abstract: false, final true
+  /// @brief Method SetEnabledAsync, addr 0x5e0a358, size 0x29c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRTask_1<bool> SetEnabledAsync(bool enabled, double_t timeout);
 
-  /// @brief Method SetEnabledSafeAsync, addr 0x5e0c888, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetEnabledSafeAsync, addr 0x5e0a5f4, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> SetEnabledSafeAsync(bool enabled, double_t timeout);
 
-  /// @brief Method ToString, addr 0x5e0cb48, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5e0a8b4, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryGetSceneAnchorPose, addr 0x5e0cc10, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method TryGetSceneAnchorPose, addr 0x5e0a97c, size 0x124, virtual false, abstract: false, final false
   inline bool TryGetSceneAnchorPose(::by_ref<::GlobalNamespace::OVRLocatable_TrackingSpacePose> pose);
 
-  /// @brief Method TryGetSpatialAnchorPose, addr 0x5e0ceac, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method TryGetSpatialAnchorPose, addr 0x5e0ac18, size 0x124, virtual false, abstract: false, final false
   inline bool TryGetSpatialAnchorPose(::by_ref<::GlobalNamespace::OVRLocatable_TrackingSpacePose> pose);
 
-  /// @brief Method UpdateSceneAnchorTransforms, addr 0x5e0d5bc, size 0xa34, virtual false, abstract: false, final false
+  /// @brief Method UpdateSceneAnchorTransforms, addr 0x5e0b328, size 0xa34, virtual false, abstract: false, final false
   static inline void
   UpdateSceneAnchorTransforms(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::GlobalNamespace::OVRAnchor, ::UnityW<::UnityEngine::Transform>>>* anchors,
                               ::UnityEngine::Transform* trackingSpaceToWorldSpaceTransform,
                               ::System::Collections::Generic::List_1<::GlobalNamespace::OVRLocatable_TrackingSpacePose>* trackingSpacePoses);
 
-  /// @brief Method <UpdateSceneAnchorTransforms>g__GetLocatableOrDefault|34_0, addr 0x5e0dff0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <UpdateSceneAnchorTransforms>g__GetLocatableOrDefault|34_0, addr 0x5e0bd5c, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRLocatable _UpdateSceneAnchorTransforms_g__GetLocatableOrDefault_34_0(::GlobalNamespace::OVRAnchor anchor);
 
-  /// @brief Method .ctor, addr 0x5e0c43c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e0a1a8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRAnchor anchor);
 
   static inline ::GlobalNamespace::OVRLocatable getStaticF_Null();
 
-  /// @brief Method get_Handle, addr 0x5e0cc08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x5e0a974, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
-  /// @brief Method get_IsEnabled, addr 0x5e0c504, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method get_IsEnabled, addr 0x5e0a270, size 0xe8, virtual true, abstract: false, final true
   inline bool get_IsEnabled();
 
-  /// @brief Method get_IsNull, addr 0x5e0c4a4, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method get_IsNull, addr 0x5e0a210, size 0x60, virtual true, abstract: false, final true
   inline bool get_IsNull();
 
-  /// @brief Method get_Type, addr 0x5e0c3ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x5e0a118, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType get_Type();
 
   /// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRLocatable>"
@@ -337,10 +337,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRLocatable>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::OVRLocatable>* i___System__IEquatable_1___GlobalNamespace__OVRLocatable_();
 
-  /// @brief Method op_Equality, addr 0x5e0c96c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x5e0a6d8, size 0x70, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRLocatable lhs, ::GlobalNamespace::OVRLocatable rhs);
 
-  /// @brief Method op_Inequality, addr 0x5e0c9dc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x5e0a748, size 0x74, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRLocatable lhs, ::GlobalNamespace::OVRLocatable rhs);
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRLocatable value);
@@ -379,7 +379,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobFor"
   constexpr operator ::Unity::Jobs::IJobFor*();
 
-  /// @brief Method Unity.Jobs.IJobFor.Execute, addr 0x5e0efe8, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method Unity.Jobs.IJobFor.Execute, addr 0x5e0cd54, size 0xf0, virtual true, abstract: false, final true
   inline void Unity_Jobs_IJobFor_Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobFor"
@@ -426,7 +426,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobFor"
   constexpr operator ::Unity::Jobs::IJobFor*();
 
-  /// @brief Method Unity.Jobs.IJobFor.Execute, addr 0x5e0f0d8, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method Unity.Jobs.IJobFor.Execute, addr 0x5e0ce44, size 0xf0, virtual true, abstract: false, final true
   inline void Unity_Jobs_IJobFor_Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobFor"
@@ -473,7 +473,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobFor"
   constexpr operator ::Unity::Jobs::IJobFor*();
 
-  /// @brief Method Unity.Jobs.IJobFor.Execute, addr 0x5e0f1c8, size 0x284, virtual true, abstract: false, final true
+  /// @brief Method Unity.Jobs.IJobFor.Execute, addr 0x5e0cf34, size 0x284, virtual true, abstract: false, final true
   inline void Unity_Jobs_IJobFor_Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobFor"
@@ -525,7 +525,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Jobs::IJobParallelForTransform"
   constexpr operator ::UnityEngine::Jobs::IJobParallelForTransform*();
 
-  /// @brief Method UnityEngine.Jobs.IJobParallelForTransform.Execute, addr 0x5e0f44c, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Jobs.IJobParallelForTransform.Execute, addr 0x5e0d1b8, size 0x148, virtual true, abstract: false, final true
   inline void UnityEngine_Jobs_IJobParallelForTransform_Execute(int32_t index, ::UnityEngine::Jobs::TransformAccess transform);
 
   /// @brief Convert to "::UnityEngine::Jobs::IJobParallelForTransform"
@@ -565,7 +565,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Jobs::IJobParallelForTransform"
   constexpr operator ::UnityEngine::Jobs::IJobParallelForTransform*();
 
-  /// @brief Method Execute, addr 0x5e0f594, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x5e0d300, size 0x148, virtual true, abstract: false, final true
   inline void Execute(int32_t index, ::UnityEngine::Jobs::TransformAccess transform);
 
   /// @brief Convert to "::UnityEngine::Jobs::IJobParallelForTransform"
@@ -605,7 +605,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobFor"
   constexpr operator ::Unity::Jobs::IJobFor*();
 
-  /// @brief Method Execute, addr 0x5e0f6dc, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x5e0d448, size 0x2c, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobFor"

@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableOutputHandle (*)()>(&::UnityEngine::Playables::PlayableOutputHandle::get_Null)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6b02c6c;
+  constexpr static std::size_t addrs = 0x6afe670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutputHandle>(), { "get_Null", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Playables::PlayableOutputHandle::*)()>(&::UnityEngine::Playables::PlayableOutputHandle::GetHashCode)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b02cc8;
+  constexpr static std::size_t addrs = 0x6afe6cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Playables::PlayableOutputHandle, ::UnityEngine::Playables::PlayableOutputHandle)>(
     &::UnityEngine::Playables::PlayableOutputHandle::op_Equality)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6b02b78;
+  constexpr static std::size_t addrs = 0x6afe57c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Playables::PlayableOutputHandle::*)(::System::Object*)>(&::UnityEngine::Playables::PlayableOutputHandle::Equals)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6b02ce8;
+  constexpr static std::size_t addrs = 0x6afe6ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Playables::PlayableOutputHandle::*)(::UnityEngine::Playables::PlayableOutputHandle)>(
     &::UnityEngine::Playables::PlayableOutputHandle::Equals)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6b02d9c;
+  constexpr static std::size_t addrs = 0x6afe7a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Playables::PlayableOutputHandle, ::UnityEngine::Playables::PlayableOutputHandle)>(
     &::UnityEngine::Playables::PlayableOutputHandle::CompareVersion)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b02cd8;
+  constexpr static std::size_t addrs = 0x6afe6dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Playables::PlayableOutputHandle::*)()>(&::UnityEngine::Playables::PlayableOutputHandle::IsValid)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b02e10;
+  constexpr static std::size_t addrs = 0x6afe814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutputHandle>(), { "IsValid", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::UnityEngine::Playables::PlayableOutputHandle::*)()>(&::UnityEngine::Playables::PlayableOutputHandle::GetPlayableOutputType)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b02e4c;
+  constexpr static std::size_t addrs = 0x6afe850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutputHandle>(), { "GetPlayableOutputType", {}, {} })));
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Playables::PlayableOutputHandle::*)(::UnityEngine::Object*)>(
     &::UnityEngine::Playables::PlayableOutputHandle::SetReferenceObject)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6b02e88;
+  constexpr static std::size_t addrs = 0x6afe88c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (::UnityEngine::Playables::PlayableOutputHandle::*)()>(
     &::UnityEngine::Playables::PlayableOutputHandle::GetUserData)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6b02f84;
+  constexpr static std::size_t addrs = 0x6afe988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutputHandle>(), { "GetUserData", {}, {} })));
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Playables::PlayableOutputHandle::*)(::UnityEngine::Object*)>(
     &::UnityEngine::Playables::PlayableOutputHandle::SetUserData)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b03108;
+  constexpr static std::size_t addrs = 0x6afeb0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::PlayableHandle (::UnityEngine::Playables::PlayableOutputHandle::*)()>(
     &::UnityEngine::Playables::PlayableOutputHandle::GetSourcePlayable)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b0314c;
+  constexpr static std::size_t addrs = 0x6afeb50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutputHandle>(), { "GetSourcePlayable", {}, {} })));
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Playables::PlayableOutputHandle::*)(::UnityEngine::Playables::PlayableHandle, int32_t)>(
     &::UnityEngine::Playables::PlayableOutputHandle::SetSourcePlayable)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6b03220;
+  constexpr static std::size_t addrs = 0x6afec24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Playables::PlayableOutputHandle::*)()>(&::UnityEngine::Playables::PlayableOutputHandle::GetSourceOutputPort)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b03310;
+  constexpr static std::size_t addrs = 0x6afed14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutputHandle>(), { "GetSourceOutputPort", {}, {} })));
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Playables::PlayableOutputHandle::*)(float_t)>(&::UnityEngine::Playables::PlayableOutputHandle::SetWeight)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6b0334c;
+  constexpr static std::size_t addrs = 0x6afed50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Playables::PlayableOutputHandle::*)(
     ::UnityEngine::Playables::PlayableHandle, ::UnityEngine::Playables::INotification*, ::System::Object*)>(&::UnityEngine::Playables::PlayableOutputHandle::PushNotification)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6b03398;
+  constexpr static std::size_t addrs = 0x6afed9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Playables::PlayableOutputHandle::*)(::UnityEngine::Playables::INotificationReceiver*)>(
     &::UnityEngine::Playables::PlayableOutputHandle::AddNotificationReceiver)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b03498;
+  constexpr static std::size_t addrs = 0x6afee9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutputHandle>(),
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableOutputHandle>, ::System::IntPtr)>(
     &::UnityEngine::Playables::PlayableOutputHandle::SetReferenceObject_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b02f40;
+  constexpr static std::size_t addrs = 0x6afe944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Playables::PlayableOutputHandle>)>(
     &::UnityEngine::Playables::PlayableOutputHandle::GetUserData_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b030cc;
+  constexpr static std::size_t addrs = 0x6afead0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableOutputHandle>, ::by_ref<::UnityEngine::Playables::PlayableHandle>)>(
     &::UnityEngine::Playables::PlayableOutputHandle::GetSourcePlayable_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6b031dc;
+  constexpr static std::size_t addrs = 0x6afebe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableOutputHandle>, ::by_ref<::UnityEngine::Playables::PlayableHandle>, int32_t)>(
     &::UnityEngine::Playables::PlayableOutputHandle::SetSourcePlayable_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6b032bc;
+  constexpr static std::size_t addrs = 0x6afecc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableOutputHandle>(),
@@ -318,7 +318,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::by_ref<::UnityEngine::Playables::PlayableOutputHandle>, ::by_ref<::UnityEngine::Playables::PlayableHandle>, ::UnityEngine::Playables::INotification*, ::System::Object*)>(
         &::UnityEngine::Playables::PlayableOutputHandle::PushNotification_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6b0343c;
+  constexpr static std::size_t addrs = 0x6afee40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

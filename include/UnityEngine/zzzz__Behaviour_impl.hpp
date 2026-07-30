@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Behaviour::*)()>(&::UnityEngine::Behaviour::get_enabled)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ad95f0;
+  constexpr static std::size_t addrs = 0x6ad4ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Behaviour*>(), { "get_enabled", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Behaviour::*)(bool)>(&::UnityEngine::Behaviour::set_enabled)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6ad96ac;
+  constexpr static std::size_t addrs = 0x6ad4fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Behaviour*>(), { "set_enabled", {}, { ::i2c::type_of<bool>() } })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Behaviour::*)()>(&::UnityEngine::Behaviour::get_isActiveAndEnabled)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ad9780;
+  constexpr static std::size_t addrs = 0x6ad5078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Behaviour*>(), { "get_isActiveAndEnabled", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Behaviour::*)()>(&::UnityEngine::Behaviour::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ad983c;
+  constexpr static std::size_t addrs = 0x6ad5134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Behaviour*>(), { ".ctor", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Behaviour::get_enabled_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ad9670;
+  constexpr static std::size_t addrs = 0x6ad4f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::Behaviour::set_enabled_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ad973c;
+  constexpr static std::size_t addrs = 0x6ad5034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Behaviour::get_isActiveAndEnabled_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ad9800;
+  constexpr static std::size_t addrs = 0x6ad50f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Diagnostics::TraceEventCache::*)()>(&::System::Diagnostics::TraceEventCache::get_Callstack)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x639297c;
+  constexpr static std::size_t addrs = 0x6390718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceEventCache*>(), { "get_Callstack", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Stack* (::System::Diagnostics::TraceEventCache::*)()>(
     &::System::Diagnostics::TraceEventCache::get_LogicalOperationStack)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x639299c;
+  constexpr static std::size_t addrs = 0x6390738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceEventCache*>(), { "get_LogicalOperationStack", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Diagnostics::TraceEventCache::*)()>(&::System::Diagnostics::TraceEventCache::get_DateTime)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x63929b4;
+  constexpr static std::size_t addrs = 0x6390750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceEventCache*>(), { "get_DateTime", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Diagnostics::TraceEventCache::*)()>(&::System::Diagnostics::TraceEventCache::get_ProcessId)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6392a4c;
+  constexpr static std::size_t addrs = 0x63907e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceEventCache*>(), { "get_ProcessId", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Diagnostics::TraceEventCache::*)()>(&::System::Diagnostics::TraceEventCache::get_ThreadId)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6392aa4;
+  constexpr static std::size_t addrs = 0x6390840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceEventCache*>(), { "get_ThreadId", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Diagnostics::TraceEventCache::*)()>(&::System::Diagnostics::TraceEventCache::get_Timestamp)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6392b38;
+  constexpr static std::size_t addrs = 0x63908d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceEventCache*>(), { "get_Timestamp", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Diagnostics::TraceEventCache::InitProcessInfo)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6392ba4;
+  constexpr static std::size_t addrs = 0x6390940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceEventCache*>(), { "InitProcessInfo", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::Diagnostics::TraceEventCache::GetProcessId)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6392a50;
+  constexpr static std::size_t addrs = 0x63907ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceEventCache*>(), { "GetProcessId", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::Diagnostics::TraceEventCache::GetThreadId)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6392b18;
+  constexpr static std::size_t addrs = 0x63908b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceEventCache*>(), { "GetThreadId", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::TraceEventCache::*)()>(&::System::Diagnostics::TraceEventCache::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6392fc4;
+  constexpr static std::size_t addrs = 0x6390d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::TraceEventCache*>(), { ".ctor", {}, {} })));

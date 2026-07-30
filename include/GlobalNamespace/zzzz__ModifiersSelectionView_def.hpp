@@ -56,7 +56,7 @@ public:
 
   static inline ::GlobalNamespace::ModifiersSelectionView___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <SetGameplayModifiers>b__0, addr 0x596c610, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <SetGameplayModifiers>b__0, addr 0x596b3bc, size 0x80, virtual false, abstract: false, final false
   inline void _SetGameplayModifiers_b__0(int32_t idx, ::GlobalNamespace::GameplayModifierInfoListItem* item);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* const& __cordl_internal_get_modifierParams() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_modifierParams(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* value);
 
-  /// @brief Method .ctor, addr 0x596c60c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x596b3b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -117,7 +117,7 @@ public:
 
   static inline ::GlobalNamespace::ModifiersSelectionView* New_ctor();
 
-  /// @brief Method SetGameplayModifiers, addr 0x596a078, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method SetGameplayModifiers, addr 0x5968860, size 0x1b4, virtual true, abstract: false, final false
   inline void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& __cordl_internal_get__gameplayModifiersModel() const;
@@ -138,7 +138,7 @@ public:
 
   constexpr void __cordl_internal_set__noModifiersText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x596a238, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5968a20, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

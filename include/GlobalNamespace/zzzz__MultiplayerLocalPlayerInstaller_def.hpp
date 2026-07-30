@@ -36,7 +36,7 @@ public:
   /// @brief Field _startState, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__startState, put = __cordl_internal_set__startState)) ::GlobalNamespace::MultiplayerPlayerStartState _startState;
 
-  /// @brief Method InstallBindings, addr 0x59f7fd8, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x59f66cc, size 0x284, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerLocalPlayerInstaller* New_ctor();
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__startState(::GlobalNamespace::MultiplayerPlayerStartState value);
 
-  /// @brief Method .ctor, addr 0x59f825c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f6950, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -39,18 +39,18 @@ public:
   /// @brief Field oldPosition, offset 0x40, size 0xc
   __declspec(property(get = __cordl_internal_get_oldPosition, put = __cordl_internal_set_oldPosition)) ::UnityEngine::Vector3 oldPosition;
 
-  /// @brief Method IsValid, addr 0x69e11b4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x69def50, size 0xac, virtual true, abstract: false, final false
   inline bool IsValid(::UnityEngine::VFX::VisualEffect* component);
 
   static inline ::UnityEngine::VFX::Utility::VFXPreviousPositionBinder* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x69e10e4, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x69dee80, size 0xd0, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ToString, addr 0x69e12d4, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69df070, size 0xfc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateBinding, addr 0x69e1260, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method UpdateBinding, addr 0x69deffc, size 0x74, virtual true, abstract: false, final false
   inline void UpdateBinding(::UnityEngine::VFX::VisualEffect* component);
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_Target() const;
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set_oldPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x69e13d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69df16c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,7 +89,7 @@ public:
   VFXPreviousPositionBinder(VFXPreviousPositionBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19966 };
 
   /// @brief Field m_Property, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::VFX::Utility::ExposedProperty* ___m_Property;

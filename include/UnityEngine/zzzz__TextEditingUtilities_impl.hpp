@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::get_hasSelection)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b4e650;
+  constexpr static std::size_t addrs = 0x6b4a054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "get_hasSelection", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextEditingUtilities::*)(bool)>(&::UnityEngine::TextEditingUtilities::set_revealCursor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6b4e6bc;
+  constexpr static std::size_t addrs = 0x6b4a0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::get_stringCursorIndex)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6b4e72c;
+  constexpr static std::size_t addrs = 0x6b4a130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "get_stringCursorIndex", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::get_cursorIndex)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b4e760;
+  constexpr static std::size_t addrs = 0x6b4a164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "get_cursorIndex", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextEditingUtilities::*)(int32_t)>(&::UnityEngine::TextEditingUtilities::set_cursorIndex)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b4e7cc;
+  constexpr static std::size_t addrs = 0x6b4a1d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::get_cursorIndexNoValidation)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b4e834;
+  constexpr static std::size_t addrs = 0x6b4a238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "get_cursorIndexNoValidation", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextEditingUtilities::*)(int32_t)>(&::UnityEngine::TextEditingUtilities::set_cursorIndexNoValidation)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b4e854;
+  constexpr static std::size_t addrs = 0x6b4a258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextEditingUtilities::*)(int32_t)>(&::UnityEngine::TextEditingUtilities::set_selectIndexNoValidation)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b4e8bc;
+  constexpr static std::size_t addrs = 0x6b4a2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::get_stringSelectIndex)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6b4e924;
+  constexpr static std::size_t addrs = 0x6b4a328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "get_stringSelectIndex", {}, {} })));
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::get_selectIndex)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b4e958;
+  constexpr static std::size_t addrs = 0x6b4a35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "get_selectIndex", {}, {} })));
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextEditingUtilities::*)(int32_t)>(&::UnityEngine::TextEditingUtilities::set_selectIndex)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b4e9c4;
+  constexpr static std::size_t addrs = 0x6b4a3c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::get_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b4ea2c;
+  constexpr static std::size_t addrs = 0x6b4a430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "get_text", {}, {} })));
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextEditingUtilities::*)(::StringW)>(&::UnityEngine::TextEditingUtilities::set_text)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6b4ea34;
+  constexpr static std::size_t addrs = 0x6b4a438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextEditingUtilities::*)(::StringW)>(&::UnityEngine::TextEditingUtilities::SetTextWithoutNotify)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b4ea9c;
+  constexpr static std::size_t addrs = 0x6b4a4a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextEditingUtilities::*)(::UnityEngine::TextSelectingUtilities*, ::UnityEngine::TextCore::Text::TextHandle*, ::StringW)>(
     &::UnityEngine::TextEditingUtilities::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b4eaa4;
+  constexpr static std::size_t addrs = 0x6b4a4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::UpdateImeState)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6b4eabc;
+  constexpr static std::size_t addrs = 0x6b4a4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "UpdateImeState", {}, {} })));
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::ShouldUpdateImeWindowPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b4ec80;
+  constexpr static std::size_t addrs = 0x6b4a684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "ShouldUpdateImeWindowPosition", {}, {} })));
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextEditingUtilities::*)(::UnityEngine::Vector2)>(&::UnityEngine::TextEditingUtilities::SetImeWindowPosition)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6b4ec88;
+  constexpr static std::size_t addrs = 0x6b4a68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::TextEditingUtilities::*)(bool)>(&::UnityEngine::TextEditingUtilities::GeneratePreviewString)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6b4ed38;
+  constexpr static std::size_t addrs = 0x6b4a73c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::EnableCursorPreviewState)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6b4ee84;
+  constexpr static std::size_t addrs = 0x6b4a888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "EnableCursorPreviewState", {}, {} })));
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::RestoreCursorState)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6b4ee44;
+  constexpr static std::size_t addrs = 0x6b4a848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "RestoreCursorState", {}, {} })));
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)(::UnityEngine::Event*)>(&::UnityEngine::TextEditingUtilities::HandleKeyEvent)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6b4ef28;
+  constexpr static std::size_t addrs = 0x6b4a92c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextEditingUtilities::*)(::UnityEngine::TextEditOp)>(&::UnityEngine::TextEditingUtilities::PerformOperation)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x6b4f7f0;
+  constexpr static std::size_t addrs = 0x6b4b1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::UnityEngine::TextEditOp)>(&::UnityEngine::TextEditingUtilities::MapKey)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6b512d4;
+  constexpr static std::size_t addrs = 0x6b4ccd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::InitKeyActions)> {
   constexpr static std::size_t size = 0x798;
-  constexpr static std::size_t addrs = 0x6b4f058;
+  constexpr static std::size_t addrs = 0x6b4aa5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "InitKeyActions", {}, {} })));
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::DeleteLineBack)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6b51088;
+  constexpr static std::size_t addrs = 0x6b4ca8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "DeleteLineBack", {}, {} })));
@@ -343,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::DeleteWordBack)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6b50fa4;
+  constexpr static std::size_t addrs = 0x6b4c9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "DeleteWordBack", {}, {} })));
@@ -355,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::DeleteWordForward)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6b511f0;
+  constexpr static std::size_t addrs = 0x6b4cbf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "DeleteWordForward", {}, {} })));
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::Delete)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6b50b38;
+  constexpr static std::size_t addrs = 0x6b4c53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "Delete", {}, {} })));
@@ -379,7 +379,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::Backspace)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x6b50c68;
+  constexpr static std::size_t addrs = 0x6b4c66c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "Backspace", {}, {} })));
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::DeleteSelection)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x6b5137c;
+  constexpr static std::size_t addrs = 0x6b4cd80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "DeleteSelection", {}, {} })));
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextEditingUtilities::*)(::StringW)>(&::UnityEngine::TextEditingUtilities::ReplaceSelection)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6b4eb68;
+  constexpr static std::size_t addrs = 0x6b4a56c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -416,7 +416,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)(char16_t)>(&::UnityEngine::TextEditingUtilities::Insert)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6b518cc;
+  constexpr static std::size_t addrs = 0x6b4d2d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "Insert", {}, { ::i2c::type_of<char16_t>() } })));
@@ -428,7 +428,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::CanPaste)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6b519ec;
+  constexpr static std::size_t addrs = 0x6b4d3f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "CanPaste", {}, {} })));
@@ -440,7 +440,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::Cut)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6b50ec8;
+  constexpr static std::size_t addrs = 0x6b4c8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "Cut", {}, {} })));
@@ -452,7 +452,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::Paste)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6b50eec;
+  constexpr static std::size_t addrs = 0x6b4c8f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "Paste", {}, {} })));
@@ -464,7 +464,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::TextEditingUtilities::ReplaceNewlinesWithSpaces)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6b51aec;
+  constexpr static std::size_t addrs = 0x6b4d4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -477,7 +477,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::OnBlur)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6b51b88;
+  constexpr static std::size_t addrs = 0x6b4d58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "OnBlur", {}, {} })));
@@ -489,7 +489,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextEditingUtilities::*)()>(&::UnityEngine::TextEditingUtilities::TouchScreenKeyboardShouldBeUsed)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6b51bf4;
+  constexpr static std::size_t addrs = 0x6b4d5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextEditingUtilities*>(), { "TouchScreenKeyboardShouldBeUsed", {}, {} })));

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TransformOrigin::*)(::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, float_t)>(
     &::UnityEngine::UIElements::TransformOrigin::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c92234;
+  constexpr static std::size_t addrs = 0x6c8dc38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TransformOrigin::*)(::UnityEngine::Vector3)>(&::UnityEngine::UIElements::TransformOrigin::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6c92240;
+  constexpr static std::size_t addrs = 0x6c8dc44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TransformOrigin (*)()>(&::UnityEngine::UIElements::TransformOrigin::Initial)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c91444;
+  constexpr static std::size_t addrs = 0x6c8ce48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TransformOrigin>(), { "Initial", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Length (::UnityEngine::UIElements::TransformOrigin::*)()>(&::UnityEngine::UIElements::TransformOrigin::get_x)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9226c;
+  constexpr static std::size_t addrs = 0x6c8dc70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TransformOrigin>(), { "get_x", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TransformOrigin::*)(::UnityEngine::UIElements::Length)>(&::UnityEngine::UIElements::TransformOrigin::set_x)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c92274;
+  constexpr static std::size_t addrs = 0x6c8dc78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Length (::UnityEngine::UIElements::TransformOrigin::*)()>(&::UnityEngine::UIElements::TransformOrigin::get_y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9227c;
+  constexpr static std::size_t addrs = 0x6c8dc80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TransformOrigin>(), { "get_y", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TransformOrigin::*)(::UnityEngine::UIElements::Length)>(&::UnityEngine::UIElements::TransformOrigin::set_y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c92284;
+  constexpr static std::size_t addrs = 0x6c8dc88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::TransformOrigin::*)()>(&::UnityEngine::UIElements::TransformOrigin::get_z)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9228c;
+  constexpr static std::size_t addrs = 0x6c8dc90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TransformOrigin>(), { "get_z", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TransformOrigin::*)(float_t)>(&::UnityEngine::UIElements::TransformOrigin::set_z)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c92294;
+  constexpr static std::size_t addrs = 0x6c8dc98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin)>(
     &::UnityEngine::UIElements::TransformOrigin::op_Equality)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6c8bf50;
+  constexpr static std::size_t addrs = 0x6c87954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin)>(
     &::UnityEngine::UIElements::TransformOrigin::op_Inequality)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6c9229c;
+  constexpr static std::size_t addrs = 0x6c8dca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TransformOrigin::*)(::UnityEngine::UIElements::TransformOrigin)>(
     &::UnityEngine::UIElements::TransformOrigin::Equals)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6c92304;
+  constexpr static std::size_t addrs = 0x6c8dd08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TransformOrigin::*)(::System::Object*)>(&::UnityEngine::UIElements::TransformOrigin::Equals)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6c9236c;
+  constexpr static std::size_t addrs = 0x6c8dd70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::TransformOrigin::*)()>(&::UnityEngine::UIElements::TransformOrigin::GetHashCode)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6c8c298;
+  constexpr static std::size_t addrs = 0x6c87c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::TransformOrigin::*)()>(&::UnityEngine::UIElements::TransformOrigin::ToString)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6c92438;
+  constexpr static std::size_t addrs = 0x6c8de3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_TransformOrigin_XProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TransformOrigin_XProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c927ec;
+  constexpr static std::size_t addrs = 0x6c8e1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TransformOrigin_XProperty*>(),
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_TransformOrigin_XProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TransformOrigin_XProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c927f4;
+  constexpr static std::size_t addrs = 0x6c8e1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TransformOrigin_XProperty*>(),
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Length (::UnityEngine::UIElements::PropertyBag_TransformOrigin_XProperty::*)(
     ::by_ref<::UnityEngine::UIElements::TransformOrigin>)>(&::UnityEngine::UIElements::PropertyBag_TransformOrigin_XProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c927fc;
+  constexpr static std::size_t addrs = 0x6c8e200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TransformOrigin_XProperty*>(),
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TransformOrigin_XProperty::*)(
     ::by_ref<::UnityEngine::UIElements::TransformOrigin>, ::UnityEngine::UIElements::Length)>(&::UnityEngine::UIElements::PropertyBag_TransformOrigin_XProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c92804;
+  constexpr static std::size_t addrs = 0x6c8e208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TransformOrigin_XProperty*>(),
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TransformOrigin_XProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TransformOrigin_XProperty::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6c926c0;
+  constexpr static std::size_t addrs = 0x6c8e0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TransformOrigin_XProperty*>(), { ".ctor", {}, {} })));
@@ -428,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_TransformOrigin_YProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TransformOrigin_YProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9280c;
+  constexpr static std::size_t addrs = 0x6c8e210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TransformOrigin_YProperty*>(),
@@ -442,7 +442,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_TransformOrigin_YProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TransformOrigin_YProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c92814;
+  constexpr static std::size_t addrs = 0x6c8e218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TransformOrigin_YProperty*>(),
@@ -456,7 +456,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Length (::UnityEngine::UIElements::PropertyBag_TransformOrigin_YProperty::*)(
     ::by_ref<::UnityEngine::UIElements::TransformOrigin>)>(&::UnityEngine::UIElements::PropertyBag_TransformOrigin_YProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9281c;
+  constexpr static std::size_t addrs = 0x6c8e220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TransformOrigin_YProperty*>(),
@@ -470,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TransformOrigin_YProperty::*)(
     ::by_ref<::UnityEngine::UIElements::TransformOrigin>, ::UnityEngine::UIElements::Length)>(&::UnityEngine::UIElements::PropertyBag_TransformOrigin_YProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c92824;
+  constexpr static std::size_t addrs = 0x6c8e228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TransformOrigin_YProperty*>(),
@@ -484,7 +484,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TransformOrigin_YProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TransformOrigin_YProperty::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6c92724;
+  constexpr static std::size_t addrs = 0x6c8e128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TransformOrigin_YProperty*>(), { ".ctor", {}, {} })));
@@ -550,7 +550,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_TransformOrigin_ZProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TransformOrigin_ZProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9282c;
+  constexpr static std::size_t addrs = 0x6c8e230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TransformOrigin_ZProperty*>(),
@@ -564,7 +564,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_TransformOrigin_ZProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TransformOrigin_ZProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c92834;
+  constexpr static std::size_t addrs = 0x6c8e238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TransformOrigin_ZProperty*>(),
@@ -578,7 +578,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PropertyBag_TransformOrigin_ZProperty::*)(::by_ref<::UnityEngine::UIElements::TransformOrigin>)>(
     &::UnityEngine::UIElements::PropertyBag_TransformOrigin_ZProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c9283c;
+  constexpr static std::size_t addrs = 0x6c8e240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TransformOrigin_ZProperty*>(),
@@ -592,7 +592,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TransformOrigin_ZProperty::*)(::by_ref<::UnityEngine::UIElements::TransformOrigin>, float_t)>(
     &::UnityEngine::UIElements::PropertyBag_TransformOrigin_ZProperty::SetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c92844;
+  constexpr static std::size_t addrs = 0x6c8e248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TransformOrigin_ZProperty*>(),
@@ -606,7 +606,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TransformOrigin_ZProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_TransformOrigin_ZProperty::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6c92788;
+  constexpr static std::size_t addrs = 0x6c8e18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_TransformOrigin_ZProperty*>(), { ".ctor", {}, {} })));
@@ -671,7 +671,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TransformOrigin_PropertyBag::*)()>(&::UnityEngine::UIElements::TransformOrigin_PropertyBag::_ctor)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6c92574;
+  constexpr static std::size_t addrs = 0x6c8df78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TransformOrigin_PropertyBag*>(), { ".ctor", {}, {} })));

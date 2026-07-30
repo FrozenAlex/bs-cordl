@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Unity::Collections::DataStreamWriter::get_IsLittleEndian)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64a718c;
+  constexpr static std::size_t addrs = 0x64a4f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(), { "get_IsLittleEndian", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::DataStreamWriter::*)(int32_t, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::DataStreamWriter::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x64a8220;
+  constexpr static std::size_t addrs = 0x64a5fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::DataStreamWriter::*)(::Unity::Collections::NativeArray_1<uint8_t>)>(
     &::Unity::Collections::DataStreamWriter::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64a8328;
+  constexpr static std::size_t addrs = 0x64a60c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::DataStreamWriter::*)(uint8_t*, int32_t)>(&::Unity::Collections::DataStreamWriter::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x64a8388;
+  constexpr static std::size_t addrs = 0x64a6124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<uint8_t> (::Unity::Collections::DataStreamWriter::*)()>(
     &::Unity::Collections::DataStreamWriter::AsNativeArray)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x64a8410;
+  constexpr static std::size_t addrs = 0x64a61ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(), { "AsNativeArray", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Collections::DataStreamWriter>, ::Unity::Collections::NativeArray_1<uint8_t>)>(
     &::Unity::Collections::DataStreamWriter::Initialize)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64a82c8;
+  constexpr static std::size_t addrs = 0x64a6064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (*)(int16_t)>(&::Unity::Collections::DataStreamWriter::ByteSwap)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64a84b8;
+  constexpr static std::size_t addrs = 0x64a6254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Unity::Collections::DataStreamWriter::ByteSwap)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64a84c4;
+  constexpr static std::size_t addrs = 0x64a6260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)()>(&::Unity::Collections::DataStreamWriter::get_IsCreated)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64a84cc;
+  constexpr static std::size_t addrs = 0x64a6268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(), { "get_IsCreated", {}, {} })));
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)()>(&::Unity::Collections::DataStreamWriter::get_HasFailedWrites)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64a84dc;
+  constexpr static std::size_t addrs = 0x64a6278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(), { "get_HasFailedWrites", {}, {} })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::DataStreamWriter::*)()>(&::Unity::Collections::DataStreamWriter::get_Capacity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64a84ec;
+  constexpr static std::size_t addrs = 0x64a6288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(), { "get_Capacity", {}, {} })));
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::DataStreamWriter::*)()>(&::Unity::Collections::DataStreamWriter::get_Length)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x64a8468;
+  constexpr static std::size_t addrs = 0x64a6204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(), { "get_Length", {}, {} })));
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::DataStreamWriter::*)()>(&::Unity::Collections::DataStreamWriter::get_LengthInBits)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x64a8534;
+  constexpr static std::size_t addrs = 0x64a62d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(), { "get_LengthInBits", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::DataStreamWriter::*)()>(&::Unity::Collections::DataStreamWriter::SyncBitData)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x64a84f4;
+  constexpr static std::size_t addrs = 0x64a6290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(), { "SyncBitData", {}, {} })));
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::DataStreamWriter::*)()>(&::Unity::Collections::DataStreamWriter::Flush)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x64a8580;
+  constexpr static std::size_t addrs = 0x64a631c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(), { "Flush", {}, {} })));
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(uint8_t*, int32_t)>(&::Unity::Collections::DataStreamWriter::WriteBytesInternal)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x64a85cc;
+  constexpr static std::size_t addrs = 0x64a6368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(uint8_t)>(&::Unity::Collections::DataStreamWriter::WriteByte)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64a868c;
+  constexpr static std::size_t addrs = 0x64a6428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(::Unity::Collections::NativeArray_1<uint8_t>)>(
     &::Unity::Collections::DataStreamWriter::WriteBytes)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x64a86ac;
+  constexpr static std::size_t addrs = 0x64a6448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(::System::Span_1<uint8_t>)>(&::Unity::Collections::DataStreamWriter::WriteBytes)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x64a8708;
+  constexpr static std::size_t addrs = 0x64a64a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(int16_t)>(&::Unity::Collections::DataStreamWriter::WriteShort)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64a877c;
+  constexpr static std::size_t addrs = 0x64a6518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(uint16_t)>(&::Unity::Collections::DataStreamWriter::WriteUShort)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64a879c;
+  constexpr static std::size_t addrs = 0x64a6538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(int32_t)>(&::Unity::Collections::DataStreamWriter::WriteInt)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64a87bc;
+  constexpr static std::size_t addrs = 0x64a6558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(uint32_t)>(&::Unity::Collections::DataStreamWriter::WriteUInt)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64a87dc;
+  constexpr static std::size_t addrs = 0x64a6578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(int64_t)>(&::Unity::Collections::DataStreamWriter::WriteLong)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64a87fc;
+  constexpr static std::size_t addrs = 0x64a6598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -342,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(uint64_t)>(&::Unity::Collections::DataStreamWriter::WriteULong)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64a8818;
+  constexpr static std::size_t addrs = 0x64a65b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -355,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(int16_t)>(&::Unity::Collections::DataStreamWriter::WriteShortNetworkByteOrder)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x64a8834;
+  constexpr static std::size_t addrs = 0x64a65d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -368,7 +368,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(uint16_t)>(&::Unity::Collections::DataStreamWriter::WriteUShortNetworkByteOrder)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x64a885c;
+  constexpr static std::size_t addrs = 0x64a65f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -381,7 +381,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(int32_t)>(&::Unity::Collections::DataStreamWriter::WriteIntNetworkByteOrder)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x64a8884;
+  constexpr static std::size_t addrs = 0x64a6620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -394,7 +394,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(uint32_t)>(&::Unity::Collections::DataStreamWriter::WriteUIntNetworkByteOrder)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x64a88a8;
+  constexpr static std::size_t addrs = 0x64a6644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -407,7 +407,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(float_t)>(&::Unity::Collections::DataStreamWriter::WriteFloat)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64a88cc;
+  constexpr static std::size_t addrs = 0x64a6668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -420,7 +420,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(double_t)>(&::Unity::Collections::DataStreamWriter::WriteDouble)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64a88ec;
+  constexpr static std::size_t addrs = 0x64a6688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -433,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::DataStreamWriter::*)()>(&::Unity::Collections::DataStreamWriter::FlushBits)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x64a890c;
+  constexpr static std::size_t addrs = 0x64a66a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(), { "FlushBits", {}, {} })));
@@ -445,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::DataStreamWriter::*)(uint32_t, int32_t)>(&::Unity::Collections::DataStreamWriter::WriteRawBitsInternal)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x64a8954;
+  constexpr static std::size_t addrs = 0x64a66f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -458,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(uint32_t, int32_t)>(&::Unity::Collections::DataStreamWriter::WriteRawBits)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x64a8978;
+  constexpr static std::size_t addrs = 0x64a6714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -472,7 +472,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(uint32_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedUInt)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x64a89dc;
+  constexpr static std::size_t addrs = 0x64a6778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -487,7 +487,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(uint64_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedULong)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x64a8ad0;
+  constexpr static std::size_t addrs = 0x64a686c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -502,7 +502,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(int32_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedInt)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64a8b18;
+  constexpr static std::size_t addrs = 0x64a68b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -517,7 +517,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(int64_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedLong)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64a8b24;
+  constexpr static std::size_t addrs = 0x64a68c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -532,7 +532,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(float_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedFloat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64a8b30;
+  constexpr static std::size_t addrs = 0x64a68cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -547,7 +547,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(double_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedDouble)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64a8bc0;
+  constexpr static std::size_t addrs = 0x64a695c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -562,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(uint32_t, uint32_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedUIntDelta)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64a8c94;
+  constexpr static std::size_t addrs = 0x64a6a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -578,7 +578,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(int32_t, int32_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedIntDelta)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64a8ca8;
+  constexpr static std::size_t addrs = 0x64a6a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -594,7 +594,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(int64_t, int64_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedLongDelta)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64a8cbc;
+  constexpr static std::size_t addrs = 0x64a6a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -610,7 +610,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(uint64_t, uint64_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedULongDelta)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64a8cd0;
+  constexpr static std::size_t addrs = 0x64a6a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -626,7 +626,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(float_t, float_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedFloatDelta)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x64a8b38;
+  constexpr static std::size_t addrs = 0x64a68d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -642,7 +642,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(double_t, double_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedDoubleDelta)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x64a8bc8;
+  constexpr static std::size_t addrs = 0x64a6964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -658,7 +658,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(::Unity::Collections::FixedString32Bytes)>(
     &::Unity::Collections::DataStreamWriter::WriteFixedString32)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64a8ce4;
+  constexpr static std::size_t addrs = 0x64a6a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -673,7 +673,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(::Unity::Collections::FixedString64Bytes)>(
     &::Unity::Collections::DataStreamWriter::WriteFixedString64)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64a8cf0;
+  constexpr static std::size_t addrs = 0x64a6a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -688,7 +688,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(::Unity::Collections::FixedString128Bytes)>(
     &::Unity::Collections::DataStreamWriter::WriteFixedString128)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64a8cfc;
+  constexpr static std::size_t addrs = 0x64a6a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -703,7 +703,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(::Unity::Collections::FixedString512Bytes)>(
     &::Unity::Collections::DataStreamWriter::WriteFixedString512)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64a8d08;
+  constexpr static std::size_t addrs = 0x64a6aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -718,7 +718,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(::Unity::Collections::FixedString4096Bytes)>(
     &::Unity::Collections::DataStreamWriter::WriteFixedString4096)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64a8d14;
+  constexpr static std::size_t addrs = 0x64a6ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -734,7 +734,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
                                                                                                         ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedFixedString32Delta)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64a8d20;
+  constexpr static std::size_t addrs = 0x64a6abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -753,7 +753,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
                                                                                                         ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedFixedString64Delta)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64a8e94;
+  constexpr static std::size_t addrs = 0x64a6c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -772,7 +772,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
                                                                                                         ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedFixedString128Delta)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64a8ea8;
+  constexpr static std::size_t addrs = 0x64a6c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -791,7 +791,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
                                                                                                         ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedFixedString512Delta)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64a8ebc;
+  constexpr static std::size_t addrs = 0x64a6c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -810,7 +810,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collection
                                                                                                         ::by_ref<::Unity::Collections::StreamCompressionModel>)>(
     &::Unity::Collections::DataStreamWriter::WritePackedFixedString4096Delta)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64a8ed0;
+  constexpr static std::size_t addrs = 0x64a6c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -828,7 +828,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamWriter::*)(
     uint8_t*, uint32_t, uint8_t*, uint32_t, ::by_ref<::Unity::Collections::StreamCompressionModel>)>(&::Unity::Collections::DataStreamWriter::WritePackedFixedStringDelta)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x64a8d34;
+  constexpr static std::size_t addrs = 0x64a6ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -845,7 +845,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::DataStreamWriter::*)()>(&::Unity::Collections::DataStreamWriter::Clear)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64a8ee4;
+  constexpr static std::size_t addrs = 0x64a6c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(), { "Clear", {}, {} })));
@@ -857,7 +857,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::DataStreamWriter::*)()>(&::Unity::Collections::DataStreamWriter::CheckRead)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64a8ef0;
+  constexpr static std::size_t addrs = 0x64a6c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(), { "CheckRead", {}, {} })));
@@ -869,7 +869,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::DataStreamWriter::*)()>(&::Unity::Collections::DataStreamWriter::CheckWrite)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64a8ef4;
+  constexpr static std::size_t addrs = 0x64a6c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(), { "CheckWrite", {}, {} })));
@@ -881,7 +881,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Collections::AllocatorManager_AllocatorHandle)>(&::Unity::Collections::DataStreamWriter::CheckAllocator)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x64a8ef8;
+  constexpr static std::size_t addrs = 0x64a6c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamWriter>(),
@@ -894,7 +894,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint32_t, int32_t)>(&::Unity::Collections::DataStreamWriter::CheckBits)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x64a8f50;
+  constexpr static std::size_t addrs = 0x64a6cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

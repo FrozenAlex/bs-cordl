@@ -155,7 +155,7 @@ namespace UnityEngine::InputSystem::Users {
 struct CORDL_TYPE InputUser_ControlSchemeChangeSyntax {
 public:
   // Declarations
-  /// @brief Method AndPairRemainingDevices, addr 0x658c358, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AndPairRemainingDevices, addr 0x658a0f4, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Users::InputUser_ControlSchemeChangeSyntax AndPairRemainingDevices();
 
   // Ctor Parameters []
@@ -339,10 +339,10 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::InputSystem::InputDevice*>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::InputSystem::InputDevice*>*();
 
-  /// @brief Method Compare, addr 0x658c3c4, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x658a160, size 0x54, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::InputSystem::InputDevice* x, ::UnityEngine::InputSystem::InputDevice* y);
 
-  /// @brief Method GetUserAccountHandleForDevice, addr 0x658c418, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetUserAccountHandleForDevice, addr 0x658a1b4, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle> GetUserAccountHandleForDevice(::UnityEngine::InputSystem::InputDevice* device);
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::UnityEngine::InputSystem::InputDevice*>"
@@ -466,155 +466,155 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUser>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUser>*();
 
-  /// @brief Method ActivateControlScheme, addr 0x657c758, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method ActivateControlScheme, addr 0x657a4f4, size 0x208, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Users::InputUser_ControlSchemeChangeSyntax ActivateControlScheme(::UnityEngine::InputSystem::InputControlScheme scheme);
 
-  /// @brief Method ActivateControlScheme, addr 0x657c960, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ActivateControlScheme, addr 0x657a6fc, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Users::InputUser_ControlSchemeChangeSyntax ActivateControlScheme(::StringW schemeName);
 
-  /// @brief Method ActivateControlSchemeInternal, addr 0x6587978, size 0x43c, virtual false, abstract: false, final false
+  /// @brief Method ActivateControlSchemeInternal, addr 0x6585714, size 0x43c, virtual false, abstract: false, final false
   inline void ActivateControlSchemeInternal(int32_t userIndex, ::UnityEngine::InputSystem::InputControlScheme scheme);
 
-  /// @brief Method AddDeviceToUser, addr 0x658a0c4, size 0x630, virtual false, abstract: false, final false
+  /// @brief Method AddDeviceToUser, addr 0x6587e60, size 0x630, virtual false, abstract: false, final false
   static inline void AddDeviceToUser(int32_t userIndex, ::UnityEngine::InputSystem::InputDevice* device, bool asLostDevice, bool dontUpdateControlScheme);
 
-  /// @brief Method AddUser, addr 0x6589e70, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method AddUser, addr 0x6587c0c, size 0xf8, virtual false, abstract: false, final false
   static inline int32_t AddUser();
 
-  /// @brief Method AssociateActionsWithUser, addr 0x657c1f0, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method AssociateActionsWithUser, addr 0x6579f8c, size 0x39c, virtual false, abstract: false, final false
   inline void AssociateActionsWithUser(::UnityEngine::InputSystem::IInputActionCollection* actions);
 
-  /// @brief Method CreateUserWithoutPairedDevices, addr 0x657c6d8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CreateUserWithoutPairedDevices, addr 0x657a474, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Users::InputUser CreateUserWithoutPairedDevices();
 
-  /// @brief Method DisposeAndResetGlobalState, addr 0x658c14c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method DisposeAndResetGlobalState, addr 0x6589ee8, size 0xf4, virtual false, abstract: false, final false
   static inline void DisposeAndResetGlobalState();
 
-  /// @brief Method Equals, addr 0x658ada0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6588b3c, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x658ad90, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6588b2c, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::Users::InputUser other);
 
-  /// @brief Method FindControlScheme, addr 0x657abe8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method FindControlScheme, addr 0x6578984, size 0x118, virtual false, abstract: false, final false
   inline void FindControlScheme(::StringW schemeName, ::by_ref<::UnityEngine::InputSystem::InputControlScheme> scheme);
 
-  /// @brief Method FindLostDevice, addr 0x658b8f8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method FindLostDevice, addr 0x6589694, size 0xdc, virtual false, abstract: false, final false
   static inline int32_t FindLostDevice(::UnityEngine::InputSystem::InputDevice* device, int32_t startIndex);
 
-  /// @brief Method FindUserByAccount, addr 0x6589c00, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method FindUserByAccount, addr 0x658799c, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUser> FindUserByAccount(::UnityEngine::InputSystem::Users::InputUserAccountHandle platformUserAccountHandle);
 
-  /// @brief Method FindUserPairedToDevice, addr 0x6589994, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method FindUserPairedToDevice, addr 0x6587730, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUser> FindUserPairedToDevice(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method GetHashCode, addr 0x658ae50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6588bec, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetUnpairedInputDevices, addr 0x657c04c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetUnpairedInputDevices, addr 0x6579de8, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputDevice*> GetUnpairedInputDevices();
 
-  /// @brief Method GetUnpairedInputDevices, addr 0x6589778, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method GetUnpairedInputDevices, addr 0x6587514, size 0x21c, virtual false, abstract: false, final false
   static inline int32_t GetUnpairedInputDevices(::by_ref<::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputDevice*>> list);
 
-  /// @brief Method HookIntoActionChange, addr 0x6587820, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method HookIntoActionChange, addr 0x65855bc, size 0x158, virtual false, abstract: false, final false
   static inline void HookIntoActionChange();
 
-  /// @brief Method HookIntoDeviceChange, addr 0x658ac50, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method HookIntoDeviceChange, addr 0x65889ec, size 0x140, virtual false, abstract: false, final false
   static inline void HookIntoDeviceChange();
 
-  /// @brief Method HookIntoEvents, addr 0x6587358, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method HookIntoEvents, addr 0x65850f4, size 0x144, virtual false, abstract: false, final false
   static inline void HookIntoEvents();
 
-  /// @brief Method InitiateUserAccountSelection, addr 0x6589f74, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method InitiateUserAccountSelection, addr 0x6587d10, size 0x150, virtual false, abstract: false, final false
   static inline bool InitiateUserAccountSelection(int32_t userIndex, ::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::Users::InputUserPairingOptions options);
 
-  /// @brief Method InitiateUserAccountSelectionAtPlatformLevel, addr 0x658ab84, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method InitiateUserAccountSelectionAtPlatformLevel, addr 0x6588920, size 0xcc, virtual false, abstract: false, final false
   static inline bool InitiateUserAccountSelectionAtPlatformLevel(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Notify, addr 0x658805c, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method Notify, addr 0x6585df8, size 0x310, virtual false, abstract: false, final false
   static inline void Notify(int32_t userIndex, ::UnityEngine::InputSystem::Users::InputUserChange change, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method OnActionChange, addr 0x658b1ac, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnActionChange, addr 0x6588f48, size 0xf0, virtual false, abstract: false, final false
   static inline void OnActionChange(::System::Object* obj, ::UnityEngine::InputSystem::InputActionChange change);
 
-  /// @brief Method OnDeviceChange, addr 0x658b29c, size 0x65c, virtual false, abstract: false, final false
+  /// @brief Method OnDeviceChange, addr 0x6589038, size 0x65c, virtual false, abstract: false, final false
   static inline void OnDeviceChange(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::InputDeviceChange change);
 
-  /// @brief Method OnEvent, addr 0x658b9d4, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method OnEvent, addr 0x6589770, size 0x564, virtual false, abstract: false, final false
   static inline void OnEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method PerformPairingWithDevice, addr 0x657bb7c, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method PerformPairingWithDevice, addr 0x6579918, size 0x278, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Users::InputUser PerformPairingWithDevice(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::Users::InputUser user,
                                                                                       ::UnityEngine::InputSystem::Users::InputUserPairingOptions options);
 
-  /// @brief Method QueryPairedPlatformUserAccount, addr 0x658b00c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method QueryPairedPlatformUserAccount, addr 0x6588da8, size 0x1a0, virtual false, abstract: false, final false
   static inline int64_t QueryPairedPlatformUserAccount(::UnityEngine::InputSystem::InputDevice* device,
                                                        ::by_ref<::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>> platformAccountHandle,
                                                        ::by_ref<::StringW> platformAccountName, ::by_ref<::StringW> platformAccountId);
 
-  /// @brief Method RemoveDeviceFromUser, addr 0x6588e14, size 0x5dc, virtual false, abstract: false, final false
+  /// @brief Method RemoveDeviceFromUser, addr 0x6586bb0, size 0x5dc, virtual false, abstract: false, final false
   static inline void RemoveDeviceFromUser(int32_t userIndex, ::UnityEngine::InputSystem::InputDevice* device, bool asLostDevice);
 
-  /// @brief Method RemoveLostDevicesForUser, addr 0x6588c54, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method RemoveLostDevicesForUser, addr 0x65869f0, size 0x1c0, virtual false, abstract: false, final false
   static inline void RemoveLostDevicesForUser(int32_t userIndex);
 
-  /// @brief Method RemoveUser, addr 0x65893f0, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method RemoveUser, addr 0x658718c, size 0x388, virtual false, abstract: false, final false
   static inline void RemoveUser(int32_t userIndex);
 
-  /// @brief Method ResetGlobals, addr 0x658c240, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ResetGlobals, addr 0x6589fdc, size 0x5c, virtual false, abstract: false, final false
   static inline void ResetGlobals();
 
-  /// @brief Method SaveAndResetState, addr 0x658bf38, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method SaveAndResetState, addr 0x6589cd4, size 0x214, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::ISavedState* SaveAndResetState();
 
-  /// @brief Method ToString, addr 0x658755c, size 0x2c4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x65852f8, size 0x2c4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryFindControlScheme, addr 0x6587db4, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method TryFindControlScheme, addr 0x6585b50, size 0x2a8, virtual false, abstract: false, final false
   inline bool TryFindControlScheme(::StringW schemeName, ::by_ref<::UnityEngine::InputSystem::InputControlScheme> scheme);
 
-  /// @brief Method TryFindUserIndex, addr 0x6589aa8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method TryFindUserIndex, addr 0x6587844, size 0x158, virtual false, abstract: false, final false
   static inline int32_t TryFindUserIndex(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method TryFindUserIndex, addr 0x6589d54, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method TryFindUserIndex, addr 0x6587af0, size 0x11c, virtual false, abstract: false, final false
   static inline int32_t TryFindUserIndex(::UnityEngine::InputSystem::Users::InputUserAccountHandle platformHandle);
 
-  /// @brief Method TryFindUserIndex, addr 0x6586e88, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method TryFindUserIndex, addr 0x6584c24, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t TryFindUserIndex(uint32_t userId);
 
-  /// @brief Method UnhookFromActionChange, addr 0x658af10, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method UnhookFromActionChange, addr 0x6588cac, size 0xfc, virtual false, abstract: false, final false
   static inline void UnhookFromActionChange();
 
-  /// @brief Method UnhookFromDeviceChange, addr 0x658ae58, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method UnhookFromDeviceChange, addr 0x6588bf4, size 0xb8, virtual false, abstract: false, final false
   static inline void UnhookFromDeviceChange();
 
-  /// @brief Method UnhookFromDeviceStateChange, addr 0x658749c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method UnhookFromDeviceStateChange, addr 0x6585238, size 0xc0, virtual false, abstract: false, final false
   static inline void UnhookFromDeviceStateChange();
 
-  /// @brief Method UnpairDevice, addr 0x657ed74, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method UnpairDevice, addr 0x657cb10, size 0x114, virtual false, abstract: false, final false
   inline void UnpairDevice(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method UnpairDevices, addr 0x657b8e0, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method UnpairDevices, addr 0x657967c, size 0x29c, virtual false, abstract: false, final false
   inline void UnpairDevices();
 
-  /// @brief Method UnpairDevicesAndRemoveUser, addr 0x657c66c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method UnpairDevicesAndRemoveUser, addr 0x657a408, size 0x6c, virtual false, abstract: false, final false
   inline void UnpairDevicesAndRemoveUser();
 
-  /// @brief Method UpdateControlSchemeMatch, addr 0x658836c, size 0x8e8, virtual false, abstract: false, final false
+  /// @brief Method UpdateControlSchemeMatch, addr 0x6586108, size 0x8e8, virtual false, abstract: false, final false
   static inline void UpdateControlSchemeMatch(int32_t userIndex, bool autoPairMissing);
 
-  /// @brief Method UpdatePlatformUserAccount, addr 0x658a6f4, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method UpdatePlatformUserAccount, addr 0x6588490, size 0x490, virtual false, abstract: false, final false
   static inline int64_t UpdatePlatformUserAccount(int32_t userIndex, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method add_onChange, addr 0x657d0b8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method add_onChange, addr 0x657ae54, size 0xcc, virtual false, abstract: false, final false
   static inline void
   add_onChange(::System::Action_3<::UnityEngine::InputSystem::Users::InputUser, ::UnityEngine::InputSystem::Users::InputUserChange, ::UnityEngine::InputSystem::InputDevice*>* value);
 
-  /// @brief Method add_onPrefilterUnpairedDeviceActivity, addr 0x657d5d4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method add_onPrefilterUnpairedDeviceActivity, addr 0x657b370, size 0xcc, virtual false, abstract: false, final false
   static inline void add_onPrefilterUnpairedDeviceActivity(::System::Func_3<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, bool>* value);
 
-  /// @brief Method add_onUnpairedDeviceUsed, addr 0x657d4d8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method add_onUnpairedDeviceUsed, addr 0x657b274, size 0xfc, virtual false, abstract: false, final false
   static inline void add_onUnpairedDeviceUsed(::System::Action_2<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_InputCheckForUnpairMarker();
@@ -623,65 +623,65 @@ public:
 
   static inline ::UnityEngine::InputSystem::Users::InputUser_GlobalState getStaticF_s_GlobalState();
 
-  /// @brief Method get_actions, addr 0x65871b4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_actions, addr 0x6584f50, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::IInputActionCollection* get_actions();
 
-  /// @brief Method get_all, addr 0x65872e0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_all, addr 0x658507c, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Users::InputUser> get_all();
 
-  /// @brief Method get_controlScheme, addr 0x6578938, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_controlScheme, addr 0x65766d4, size 0xa0, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::InputSystem::InputControlScheme> get_controlScheme();
 
-  /// @brief Method get_controlSchemeMatch, addr 0x6587240, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_controlSchemeMatch, addr 0x6584fdc, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControlScheme_MatchResult get_controlSchemeMatch();
 
-  /// @brief Method get_hasMissingRequiredDevices, addr 0x6579810, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_hasMissingRequiredDevices, addr 0x65775ac, size 0x94, virtual false, abstract: false, final false
   inline bool get_hasMissingRequiredDevices();
 
-  /// @brief Method get_id, addr 0x6586f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x6584ce0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_id();
 
-  /// @brief Method get_index, addr 0x6586d5c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method get_index, addr 0x6584af8, size 0x12c, virtual false, abstract: false, final false
   inline int32_t get_index();
 
-  /// @brief Method get_listenForUnpairedDeviceActivity, addr 0x657d6a0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_listenForUnpairedDeviceActivity, addr 0x657b43c, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_listenForUnpairedDeviceActivity();
 
-  /// @brief Method get_lostDevices, addr 0x6587108, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_lostDevices, addr 0x6584ea4, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*> get_lostDevices();
 
-  /// @brief Method get_pairedDevices, addr 0x65796c8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_pairedDevices, addr 0x6577464, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*> get_pairedDevices();
 
-  /// @brief Method get_platformUserAccountHandle, addr 0x6586f4c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_platformUserAccountHandle, addr 0x6584ce8, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle> get_platformUserAccountHandle();
 
-  /// @brief Method get_platformUserAccountId, addr 0x658707c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_platformUserAccountId, addr 0x6584e18, size 0x8c, virtual false, abstract: false, final false
   inline ::StringW get_platformUserAccountId();
 
-  /// @brief Method get_platformUserAccountName, addr 0x6586ff0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_platformUserAccountName, addr 0x6584d8c, size 0x8c, virtual false, abstract: false, final false
   inline ::StringW get_platformUserAccountName();
 
-  /// @brief Method get_valid, addr 0x6578864, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x6576600, size 0xd4, virtual false, abstract: false, final false
   inline bool get_valid();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUser>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUser>* i___System__IEquatable_1___UnityEngine__InputSystem__Users__InputUser_();
 
-  /// @brief Method op_Equality, addr 0x657e410, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x657c1ac, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::Users::InputUser left, ::UnityEngine::InputSystem::Users::InputUser right);
 
-  /// @brief Method op_Inequality, addr 0x6589f68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6587d04, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::Users::InputUser left, ::UnityEngine::InputSystem::Users::InputUser right);
 
-  /// @brief Method remove_onChange, addr 0x657dd48, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method remove_onChange, addr 0x657bae4, size 0xcc, virtual false, abstract: false, final false
   static inline void
   remove_onChange(::System::Action_3<::UnityEngine::InputSystem::Users::InputUser, ::UnityEngine::InputSystem::Users::InputUserChange, ::UnityEngine::InputSystem::InputDevice*>* value);
 
-  /// @brief Method remove_onPrefilterUnpairedDeviceActivity, addr 0x657d924, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method remove_onPrefilterUnpairedDeviceActivity, addr 0x657b6c0, size 0xcc, virtual false, abstract: false, final false
   static inline void remove_onPrefilterUnpairedDeviceActivity(::System::Func_3<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, bool>* value);
 
-  /// @brief Method remove_onUnpairedDeviceUsed, addr 0x657d818, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method remove_onUnpairedDeviceUsed, addr 0x657b5b4, size 0x10c, virtual false, abstract: false, final false
   static inline void remove_onUnpairedDeviceUsed(::System::Action_2<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
   static inline void setStaticF_k_InputCheckForUnpairMarker(::Unity::Profiling::ProfilerMarker value);
@@ -690,7 +690,7 @@ public:
 
   static inline void setStaticF_s_GlobalState(::UnityEngine::InputSystem::Users::InputUser_GlobalState value);
 
-  /// @brief Method set_listenForUnpairedDeviceActivity, addr 0x657d6fc, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method set_listenForUnpairedDeviceActivity, addr 0x657b498, size 0x11c, virtual false, abstract: false, final false
   static inline void set_listenForUnpairedDeviceActivity(int32_t value);
 
   // Ctor Parameters []
@@ -899,13 +899,13 @@ public:
 
   static inline ::UnityEngine::InputSystem::Users::InputUser___c* New_ctor();
 
-  /// @brief Method <SaveAndResetState>b__88_0, addr 0x658c4a8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <SaveAndResetState>b__88_0, addr 0x658a244, size 0x8c, virtual false, abstract: false, final false
   inline void _SaveAndResetState_b__88_0(::by_ref<::UnityEngine::InputSystem::Users::InputUser_GlobalState> state);
 
-  /// @brief Method <SaveAndResetState>b__88_1, addr 0x658c534, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <SaveAndResetState>b__88_1, addr 0x658a2d0, size 0x54, virtual false, abstract: false, final false
   inline void _SaveAndResetState_b__88_1();
 
-  /// @brief Method .ctor, addr 0x658c4a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x658a240, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Users::InputUser___c* getStaticF___9();

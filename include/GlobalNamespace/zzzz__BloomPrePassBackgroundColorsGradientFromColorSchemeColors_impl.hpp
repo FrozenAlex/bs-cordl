@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Element::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors_Element::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a20a80;
+  constexpr static std::size_t addrs = 0x5a1e8c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::_ctor)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x5a207d8;
+  constexpr static std::size_t addrs = 0x5a1e61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Start)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5a20a84;
+  constexpr static std::size_t addrs = 0x5a1e8c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::OnDestroy)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5a20e4c;
+  constexpr static std::size_t addrs = 0x5a1ec90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::HandleColorProviderDidChangeColor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a20f84;
+  constexpr static std::size_t addrs = 0x5a1edc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::SetColorsToElements)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x5a20b84;
+  constexpr static std::size_t addrs = 0x5a1e9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

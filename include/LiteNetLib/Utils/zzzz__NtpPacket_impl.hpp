@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::get_Bytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58ae9d4;
+  constexpr static std::size_t addrs = 0x58ace80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "get_Bytes", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NtpPacket::*)(::ArrayW<uint8_t>)>(&::LiteNetLib::Utils::NtpPacket::set_Bytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58ae9dc;
+  constexpr static std::size_t addrs = 0x58ace88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::Utils::NtpLeapIndicator (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::get_LeapIndicator)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x58ae9e4;
+  constexpr static std::size_t addrs = 0x58ace90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "get_LeapIndicator", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::get_VersionNumber)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x58aea10;
+  constexpr static std::size_t addrs = 0x58acebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "get_VersionNumber", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NtpPacket::*)(int32_t)>(&::LiteNetLib::Utils::NtpPacket::set_VersionNumber)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x58aea3c;
+  constexpr static std::size_t addrs = 0x58acee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::Utils::NtpMode (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::get_Mode)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x58aea70;
+  constexpr static std::size_t addrs = 0x58acf1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "get_Mode", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NtpPacket::*)(::LiteNetLib::Utils::NtpMode)>(&::LiteNetLib::Utils::NtpPacket::set_Mode)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x58aea9c;
+  constexpr static std::size_t addrs = 0x58acf48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::get_Stratum)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x58aead0;
+  constexpr static std::size_t addrs = 0x58acf7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "get_Stratum", {}, {} })));
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::get_Poll)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x58aeafc;
+  constexpr static std::size_t addrs = 0x58acfa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "get_Poll", {}, {} })));
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::get_Precision)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x58aeb28;
+  constexpr static std::size_t addrs = 0x58acfd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "get_Precision", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TimeSpan (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::get_RootDelay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58aeb54;
+  constexpr static std::size_t addrs = 0x58ad000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "get_RootDelay", {}, {} })));
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TimeSpan (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::get_RootDispersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58aebd8;
+  constexpr static std::size_t addrs = 0x58ad084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "get_RootDispersion", {}, {} })));
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::get_ReferenceId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58aebe0;
+  constexpr static std::size_t addrs = 0x58ad08c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "get_ReferenceId", {}, {} })));
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::System::DateTime> (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::get_ReferenceTimestamp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58aec60;
+  constexpr static std::size_t addrs = 0x58ad10c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "get_ReferenceTimestamp", {}, {} })));
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::System::DateTime> (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::get_OriginTimestamp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58aedac;
+  constexpr static std::size_t addrs = 0x58ad258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "get_OriginTimestamp", {}, {} })));
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::System::DateTime> (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::get_ReceiveTimestamp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58aedb4;
+  constexpr static std::size_t addrs = 0x58ad260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "get_ReceiveTimestamp", {}, {} })));
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::System::DateTime> (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::get_TransmitTimestamp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58aedbc;
+  constexpr static std::size_t addrs = 0x58ad268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "get_TransmitTimestamp", {}, {} })));
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NtpPacket::*)(::System::Nullable_1<::System::DateTime>)>(&::LiteNetLib::Utils::NtpPacket::set_TransmitTimestamp)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x58aedc4;
+  constexpr static std::size_t addrs = 0x58ad270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::System::DateTime> (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::get_DestinationTimestamp)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x58aef38;
+  constexpr static std::size_t addrs = 0x58ad3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "get_DestinationTimestamp", {}, {} })));
@@ -246,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NtpPacket::*)(::System::Nullable_1<::System::DateTime>)>(&::LiteNetLib::Utils::NtpPacket::set_DestinationTimestamp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58aef44;
+  constexpr static std::size_t addrs = 0x58ad3f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TimeSpan (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::get_RoundTripTime)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x58aef4c;
+  constexpr static std::size_t addrs = 0x58ad3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "get_RoundTripTime", {}, {} })));
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TimeSpan (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::get_CorrectionOffset)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x58af19c;
+  constexpr static std::size_t addrs = 0x58ad648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "get_CorrectionOffset", {}, {} })));
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x58af2d0;
+  constexpr static std::size_t addrs = 0x58ad77c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { ".ctor", {}, {} })));
@@ -296,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NtpPacket::*)(::ArrayW<uint8_t>)>(&::LiteNetLib::Utils::NtpPacket::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x58af398;
+  constexpr static std::size_t addrs = 0x58ad844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::Utils::NtpPacket* (*)(::ArrayW<uint8_t>, ::System::DateTime)>(&::LiteNetLib::Utils::NtpPacket::FromServerResponse)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x58af420;
+  constexpr static std::size_t addrs = 0x58ad8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -323,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::ValidateRequest)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x58af4ac;
+  constexpr static std::size_t addrs = 0x58ad958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "ValidateRequest", {}, {} })));
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::ValidateReply)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x58af5a4;
+  constexpr static std::size_t addrs = 0x58ada50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "ValidateReply", {}, {} })));
@@ -347,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NtpPacket::*)()>(&::LiteNetLib::Utils::NtpPacket::CheckTimestamps)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x58af070;
+  constexpr static std::size_t addrs = 0x58ad51c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "CheckTimestamps", {}, {} })));
@@ -359,7 +359,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::System::DateTime> (::LiteNetLib::Utils::NtpPacket::*)(int32_t)>(&::LiteNetLib::Utils::NtpPacket::GetDateTime64)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x58aec68;
+  constexpr static std::size_t addrs = 0x58ad114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -372,7 +372,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NtpPacket::*)(int32_t, ::System::Nullable_1<::System::DateTime>)>(&::LiteNetLib::Utils::NtpPacket::SetDateTime64)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x58aedd4;
+  constexpr static std::size_t addrs = 0x58ad280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -386,7 +386,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TimeSpan (::LiteNetLib::Utils::NtpPacket::*)(int32_t)>(&::LiteNetLib::Utils::NtpPacket::GetTimeSpan32)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x58aeb5c;
+  constexpr static std::size_t addrs = 0x58ad008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -399,7 +399,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::LiteNetLib::Utils::NtpPacket::*)(int32_t)>(&::LiteNetLib::Utils::NtpPacket::GetUInt64BE)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x58af6f4;
+  constexpr static std::size_t addrs = 0x58adba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "GetUInt64BE", {}, { ::i2c::type_of<int32_t>() } })));
@@ -411,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NtpPacket::*)(int32_t, uint64_t)>(&::LiteNetLib::Utils::NtpPacket::SetUInt64BE)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x58af76c;
+  constexpr static std::size_t addrs = 0x58adc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -424,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::LiteNetLib::Utils::NtpPacket::*)(int32_t)>(&::LiteNetLib::Utils::NtpPacket::GetInt32BE)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58af7e8;
+  constexpr static std::size_t addrs = 0x58adc94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "GetInt32BE", {}, { ::i2c::type_of<int32_t>() } })));
@@ -436,7 +436,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::LiteNetLib::Utils::NtpPacket::*)(int32_t)>(&::LiteNetLib::Utils::NtpPacket::GetUInt32BE)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x58aebe8;
+  constexpr static std::size_t addrs = 0x58ad094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NtpPacket*>(), { "GetUInt32BE", {}, { ::i2c::type_of<int32_t>() } })));
@@ -448,7 +448,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::LiteNetLib::Utils::NtpPacket::SwapEndianness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58af844;
+  constexpr static std::size_t addrs = 0x58adcf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -461,7 +461,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t)>(&::LiteNetLib::Utils::NtpPacket::SwapEndianness)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x58af7ec;
+  constexpr static std::size_t addrs = 0x58adc98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

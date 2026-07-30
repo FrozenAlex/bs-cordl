@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::MediaTypeHeaderValue___c::*)()>(&::System::Net::Http::Headers::MediaTypeHeaderValue___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60e65c8;
+  constexpr static std::size_t addrs = 0x60e4364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::MediaTypeHeaderValue___c*>(), { ".ctor", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::MediaTypeHeaderValue___c::*)(::System::Net::Http::Headers::NameValueHeaderValue*)>(
     &::System::Net::Http::Headers::MediaTypeHeaderValue___c::_get_CharSet_b__6_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x60e65cc;
+  constexpr static std::size_t addrs = 0x60e4368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::MediaTypeHeaderValue___c*>(),
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::MediaTypeHeaderValue::*)(::StringW)>(&::System::Net::Http::Headers::MediaTypeHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60d5b88;
+  constexpr static std::size_t addrs = 0x60d3924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::MediaTypeHeaderValue::*)(::System::Net::Http::Headers::MediaTypeHeaderValue*)>(
     &::System::Net::Http::Headers::MediaTypeHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x60e5dd0;
+  constexpr static std::size_t addrs = 0x60e3b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::MediaTypeHeaderValue*>(),
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::MediaTypeHeaderValue::*)()>(&::System::Net::Http::Headers::MediaTypeHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60e5ff0;
+  constexpr static std::size_t addrs = 0x60e3d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::MediaTypeHeaderValue*>(), { ".ctor", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::Http::Headers::MediaTypeHeaderValue::*)()>(&::System::Net::Http::Headers::MediaTypeHeaderValue::get_CharSet)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x60d9338;
+  constexpr static std::size_t addrs = 0x60d70d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::MediaTypeHeaderValue*>(), { "get_CharSet", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::MediaTypeHeaderValue::*)(::StringW)>(&::System::Net::Http::Headers::MediaTypeHeaderValue::set_CharSet)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x60dca44;
+  constexpr static std::size_t addrs = 0x60da7e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::MediaTypeHeaderValue::*)(::StringW)>(&::System::Net::Http::Headers::MediaTypeHeaderValue::set_MediaType)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x60e5c78;
+  constexpr static std::size_t addrs = 0x60e3a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* (
     ::System::Net::Http::Headers::MediaTypeHeaderValue::*)()>(&::System::Net::Http::Headers::MediaTypeHeaderValue::get_Parameters)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x60da890;
+  constexpr static std::size_t addrs = 0x60d862c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::MediaTypeHeaderValue*>(), { "get_Parameters", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Net::Http::Headers::MediaTypeHeaderValue::*)()>(
     &::System::Net::Http::Headers::MediaTypeHeaderValue::System_ICloneable_Clone)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x60e617c;
+  constexpr static std::size_t addrs = 0x60e3f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::MediaTypeHeaderValue::*)(::System::Object*)>(&::System::Net::Http::Headers::MediaTypeHeaderValue::Equals)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x60e61d8;
+  constexpr static std::size_t addrs = 0x60e3f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Http::Headers::MediaTypeHeaderValue::*)()>(&::System::Net::Http::Headers::MediaTypeHeaderValue::GetHashCode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x60e62a8;
+  constexpr static std::size_t addrs = 0x60e4044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::Headers::MediaTypeHeaderValue* (*)(::StringW)>(&::System::Net::Http::Headers::MediaTypeHeaderValue::Parse)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x60e6328;
+  constexpr static std::size_t addrs = 0x60e40c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::Http::Headers::MediaTypeHeaderValue::*)()>(&::System::Net::Http::Headers::MediaTypeHeaderValue::ToString)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x60e6504;
+  constexpr static std::size_t addrs = 0x60e42a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::System::Net::Http::Headers::MediaTypeHeaderValue*>)>(
     &::System::Net::Http::Headers::MediaTypeHeaderValue::TryParse)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x60e638c;
+  constexpr static std::size_t addrs = 0x60e4128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::System::Net::Http::Headers::Token> (*)(::System::Net::Http::Headers::Lexer*, ::by_ref<::StringW>)>(
     &::System::Net::Http::Headers::MediaTypeHeaderValue::TryParseMediaType)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x60e5ff4;
+  constexpr static std::size_t addrs = 0x60e3d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

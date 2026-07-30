@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Camera> (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::get_Camera)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a54fd4;
+  constexpr static std::size_t addrs = 0x5a52e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::*)(::UnityEngine::Camera*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::set_Camera)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a54fdc;
+  constexpr static std::size_t addrs = 0x5a52e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::get_CameraTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a54fe4;
+  constexpr static std::size_t addrs = 0x5a52e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::*)(::UnityEngine::Transform*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::set_CameraTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a54fec;
+  constexpr static std::size_t addrs = 0x5a52e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::Refresh)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5a54ff4;
+  constexpr static std::size_t addrs = 0x5a52e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig*>(), { "Refresh", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::SearchForCamera)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x5a550ac;
+  constexpr static std::size_t addrs = 0x5a52ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a5520c;
+  constexpr static std::size_t addrs = 0x5a53050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::ProxyCameraRig*>(), { ".ctor", {}, {} })));

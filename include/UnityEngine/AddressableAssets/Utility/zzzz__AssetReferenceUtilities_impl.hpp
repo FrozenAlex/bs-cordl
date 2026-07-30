@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::AddressableAssets::Utility::AssetReferenceUtilities::FormatName)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x645f7ac;
+  constexpr static std::size_t addrs = 0x645d548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::Utility::AssetReferenceUtilities::*)()>(
     &::UnityEngine::AddressableAssets::Utility::AssetReferenceUtilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x645f848;
+  constexpr static std::size_t addrs = 0x645d5e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

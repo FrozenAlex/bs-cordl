@@ -27,48 +27,48 @@
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__IInitializable_def.hpp"
 #include "Zenject/zzzz__ITickable_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::TerminalController__TryExecuteCommand_d__22.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::TerminalController__TryExecuteCommand_d__23.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController__TryExecuteCommand_d__22::*)()>(
-    &::GlobalNamespace::TerminalController__TryExecuteCommand_d__22::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController__TryExecuteCommand_d__23::*)()>(
+    &::GlobalNamespace::TerminalController__TryExecuteCommand_d__23::MoveNext)> {
   constexpr static std::size_t size = 0x678;
-  constexpr static std::size_t addrs = 0x32e8c68;
+  constexpr static std::size_t addrs = 0x32e6938;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController__TryExecuteCommand_d__22>(), { "MoveNext", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController__TryExecuteCommand_d__23>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::TerminalController__TryExecuteCommand_d__22.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::TerminalController__TryExecuteCommand_d__23.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController__TryExecuteCommand_d__22::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::TerminalController__TryExecuteCommand_d__22::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController__TryExecuteCommand_d__23::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::TerminalController__TryExecuteCommand_d__23::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x32e92e0;
+  constexpr static std::size_t addrs = 0x32e6fb0;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController__TryExecuteCommand_d__22>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController__TryExecuteCommand_d__23>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::TerminalController__TryExecuteCommand_d__22::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController__TryExecuteCommand_d__22>(), { "MoveNext", {}, {} })));
+inline void GlobalNamespace::TerminalController__TryExecuteCommand_d__23::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController__TryExecuteCommand_d__23>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::TerminalController__TryExecuteCommand_d__22::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController__TryExecuteCommand_d__22>(),
+inline void GlobalNamespace::TerminalController__TryExecuteCommand_d__23::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController__TryExecuteCommand_d__23>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::TerminalController__TryExecuteCommand_d__22::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::TerminalController__TryExecuteCommand_d__23::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::TerminalController__TryExecuteCommand_d__22::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::TerminalController__TryExecuteCommand_d__23::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
@@ -77,7 +77,7 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespa
 // "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_command_5__2", ty: "::GlobalNamespace::ConsoleCommandBase*",
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "_commandTask_5__3", ty: "::System::Threading::Tasks::Task_1<bool>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::TerminalController__TryExecuteCommand_d__22::TerminalController__TryExecuteCommand_d__22(
+constexpr ::GlobalNamespace::TerminalController__TryExecuteCommand_d__23::TerminalController__TryExecuteCommand_d__23(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::StringW commandText, ::GlobalNamespace::TerminalController* __4__this,
     ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages, ::GlobalNamespace::ConsoleCommandBase* _command_5__2,
     ::System::Threading::Tasks::Task_1<bool>* _commandTask_5__3, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
@@ -91,57 +91,57 @@ constexpr ::GlobalNamespace::TerminalController__TryExecuteCommand_d__22::Termin
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::TerminalController__TryExecuteCommand_d__22::TerminalController__TryExecuteCommand_d__22() {}
-//  Writing Method size for method: ::GlobalNamespace::TerminalController__TryExecuteCommands_d__14.MoveNext
+constexpr ::GlobalNamespace::TerminalController__TryExecuteCommand_d__23::TerminalController__TryExecuteCommand_d__23() {}
+//  Writing Method size for method: ::GlobalNamespace::TerminalController__TryExecuteCommands_d__15.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController__TryExecuteCommands_d__14::*)()>(
-    &::GlobalNamespace::TerminalController__TryExecuteCommands_d__14::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController__TryExecuteCommands_d__15::*)()>(
+    &::GlobalNamespace::TerminalController__TryExecuteCommands_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x614;
-  constexpr static std::size_t addrs = 0x32e934c;
+  constexpr static std::size_t addrs = 0x32e701c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController__TryExecuteCommands_d__14>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController__TryExecuteCommands_d__15>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::TerminalController__TryExecuteCommands_d__14.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::TerminalController__TryExecuteCommands_d__15.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController__TryExecuteCommands_d__14::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::TerminalController__TryExecuteCommands_d__14::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController__TryExecuteCommands_d__15::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::TerminalController__TryExecuteCommands_d__15::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x32e9960;
+  constexpr static std::size_t addrs = 0x32e7630;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController__TryExecuteCommands_d__14>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController__TryExecuteCommands_d__15>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::TerminalController__TryExecuteCommands_d__14::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController__TryExecuteCommands_d__14>(), { "MoveNext", {}, {} })));
+inline void GlobalNamespace::TerminalController__TryExecuteCommands_d__15::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController__TryExecuteCommands_d__15>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::TerminalController__TryExecuteCommands_d__14::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController__TryExecuteCommands_d__14>(),
+inline void GlobalNamespace::TerminalController__TryExecuteCommands_d__15::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController__TryExecuteCommands_d__15>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::TerminalController__TryExecuteCommands_d__14::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::TerminalController__TryExecuteCommands_d__15::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::TerminalController__TryExecuteCommands_d__14::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::TerminalController__TryExecuteCommands_d__15::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::TerminalController*", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "_messages_5__2", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::TerminalController__TryExecuteCommands_d__14::TerminalController__TryExecuteCommands_d__14(
+constexpr ::GlobalNamespace::TerminalController__TryExecuteCommands_d__15::TerminalController__TryExecuteCommands_d__15(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::TerminalController* __4__this,
     ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* _messages_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -151,13 +151,13 @@ constexpr ::GlobalNamespace::TerminalController__TryExecuteCommands_d__14::Termi
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::TerminalController__TryExecuteCommands_d__14::TerminalController__TryExecuteCommands_d__14() {}
+constexpr ::GlobalNamespace::TerminalController__TryExecuteCommands_d__15::TerminalController__TryExecuteCommands_d__15() {}
 //  Writing Method size for method: ::GlobalNamespace::TerminalController.Init
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::TerminalController::Init)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x32e736c;
+  constexpr static std::size_t addrs = 0x32e4cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(), { "Init", {}, {} })));
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)()>(&::GlobalNamespace::TerminalController::Initialize)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x32e73fc;
+  constexpr static std::size_t addrs = 0x32e4d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(), { "Initialize", {}, {} })));
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)(::StringW)>(&::GlobalNamespace::TerminalController::HandleLaunchParameters)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x32e7bd8;
+  constexpr static std::size_t addrs = 0x32e5854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)()>(&::GlobalNamespace::TerminalController::Dispose)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x32e7cd4;
+  constexpr static std::size_t addrs = 0x32e5950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(), { "Dispose", {}, {} })));
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)()>(&::GlobalNamespace::TerminalController::Tick)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32e7d84;
+  constexpr static std::size_t addrs = 0x32e5a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(), { "Tick", {}, {} })));
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::TerminalController::*)()>(&::GlobalNamespace::TerminalController::TryExecuteCommands)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x32e7e44;
+  constexpr static std::size_t addrs = 0x32e5ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(), { "TryExecuteCommands", {}, {} })));
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)(::StringW)>(&::GlobalNamespace::TerminalController::QueueNewInput)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x32e7c4c;
+  constexpr static std::size_t addrs = 0x32e58c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)(::StringW)>(&::GlobalNamespace::TerminalController::QueueNewInputFirst)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x32e7ef8;
+  constexpr static std::size_t addrs = 0x32e5b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)()>(&::GlobalNamespace::TerminalController::ClearCommandQueue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x32e1384;
+  constexpr static std::size_t addrs = 0x32ded10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(), { "ClearCommandQueue", {}, {} })));
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::CommandNode*> (::GlobalNamespace::TerminalController::*)(::StringW, bool)>(
     &::GlobalNamespace::TerminalController::FindAutocompleteNode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32e7f80;
+  constexpr static std::size_t addrs = 0x32e5bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::AutocompleteResult (::GlobalNamespace::TerminalController::*)(::StringW)>(
     &::GlobalNamespace::TerminalController::TryFindAutocompleteText)> {
   constexpr static std::size_t size = 0x47c;
-  constexpr static std::size_t addrs = 0x32e7f9c;
+  constexpr static std::size_t addrs = 0x32e5c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -296,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::TerminalController::*)(::StringW)>(&::GlobalNamespace::TerminalController::IsArgumentName)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x32e8418;
+  constexpr static std::size_t addrs = 0x32e6094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::TerminalController::*)(::StringW)>(&::GlobalNamespace::TerminalController::IsArgumentValue)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x32e8448;
+  constexpr static std::size_t addrs = 0x32e60c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -323,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::GlobalNamespace::TerminalController::*)(::StringW, ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(&::GlobalNamespace::TerminalController::TryExecuteCommand)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x32e8488;
+  constexpr static std::size_t addrs = 0x32e6104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -339,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ConsoleMessage (::GlobalNamespace::TerminalController::*)(::StringW)>(
     &::GlobalNamespace::TerminalController::CommandNotFoundMessage)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x32e8550;
+  constexpr static std::size_t addrs = 0x32e61cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -352,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::TerminalController::*)(::StringW)>(&::GlobalNamespace::TerminalController::StripExtraWhitespace)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x32e85c4;
+  constexpr static std::size_t addrs = 0x32e6240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -366,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)(::ArrayW<::GlobalNamespace::ConsoleCommandBase*>)>(
     &::GlobalNamespace::TerminalController::FillDictOfCommands)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x32e7a60;
+  constexpr static std::size_t addrs = 0x32e56dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(),
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)(::ArrayW<::GlobalNamespace::ConsoleCommandBase*>)>(
     &::GlobalNamespace::TerminalController::GenerateCommandTree)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x32e7b64;
+  constexpr static std::size_t addrs = 0x32e57e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(),
@@ -393,7 +393,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)(::GlobalNamespace::ConsoleCommandBase*)>(&::GlobalNamespace::TerminalController::CheckCommand)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x32e86c0;
+  constexpr static std::size_t addrs = 0x32e633c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -406,8 +406,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ConsoleCommandBase*>* (::GlobalNamespace::TerminalController::*)()>(
     &::GlobalNamespace::TerminalController::GetAllConsoleCommandInstances)> {
-  constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x32e7534;
+  constexpr static std::size_t size = 0x818;
+  constexpr static std::size_t addrs = 0x32e4ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(), { "GetAllConsoleCommandInstances", {}, {} })));
@@ -418,8 +418,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::TerminalController::*)(::System::Type*)>(&::GlobalNamespace::TerminalController::IsCommandClass)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x32e8800;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x32e647c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -433,7 +433,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::GlobalNamespace::ConsoleCommandBase*>* (
     ::GlobalNamespace::TerminalController::*)()>(&::GlobalNamespace::TerminalController::GetCommands)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e88dc;
+  constexpr static std::size_t addrs = 0x32e65ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(), { "GetCommands", {}, {} })));
@@ -446,7 +446,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ConsoleCommandBase* (::GlobalNamespace::TerminalController::*)(::StringW)>(
     &::GlobalNamespace::TerminalController::GetCommand)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x32e88e4;
+  constexpr static std::size_t addrs = 0x32e65b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -459,7 +459,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)(::GlobalNamespace::ConsoleMessage)>(&::GlobalNamespace::TerminalController::DisplayMessage)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x32e1670;
+  constexpr static std::size_t addrs = 0x32deffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -473,7 +473,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)(::StringW, ::StringW, ::UnityEngine::LogType)>(
     &::GlobalNamespace::TerminalController::OnUnityLogMessageReceived)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x32e8960;
+  constexpr static std::size_t addrs = 0x32e6630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -487,7 +487,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalController::*)()>(&::GlobalNamespace::TerminalController::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x32e8b20;
+  constexpr static std::size_t addrs = 0x32e67f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalController*>(), { ".ctor", {}, {} })));

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::*)(::System::IO::TextWriter*)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x35a76cc;
+  constexpr static std::size_t addrs = 0x35a5c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::TextWriter* (::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::*)()>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::get_Writer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35a77c0;
+  constexpr static std::size_t addrs = 0x35a5d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::IO::Pem::PemWriter*>(), { "get_Writer", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::*)(::Org::BouncyCastle::Utilities::IO::Pem::PemObject*)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::GetOutputSize)> {
   constexpr static std::size_t size = 0x4b0;
-  constexpr static std::size_t addrs = 0x35a77c8;
+  constexpr static std::size_t addrs = 0x35a5d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::IO::Pem::PemWriter*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::*)(::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator*)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::WriteObject)> {
   constexpr static std::size_t size = 0x518;
-  constexpr static std::size_t addrs = 0x35a7c78;
+  constexpr static std::size_t addrs = 0x35a6240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::IO::Pem::PemWriter*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::WriteEncoded)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x35a822c;
+  constexpr static std::size_t addrs = 0x35a67f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::*)(::StringW)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::WritePreEncapsulationBoundary)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x35a8190;
+  constexpr static std::size_t addrs = 0x35a6758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::*)(::StringW)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemWriter::WritePostEncapsulationBoundary)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x35a830c;
+  constexpr static std::size_t addrs = 0x35a68d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::INetworkPlayer* (::GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(
     &::GlobalNamespace::NetworkPlayerOptionsTableCell::get_player)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a0b0a4;
+  constexpr static std::size_t addrs = 0x5a094d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPlayerOptionsTableCell*>(), { "get_player", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerOptionsTableCell::*)(::GlobalNamespace::INetworkPlayer*)>(
     &::GlobalNamespace::NetworkPlayerOptionsTableCell::set_player)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a0b0ac;
+  constexpr static std::size_t addrs = 0x5a094d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(&::GlobalNamespace::NetworkPlayerOptionsTableCell::Refresh)> {
   constexpr static std::size_t size = 0xcd4;
-  constexpr static std::size_t addrs = 0x5a0b0b4;
+  constexpr static std::size_t addrs = 0x5a094e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPlayerOptionsTableCell*>(), { "Refresh", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(&::GlobalNamespace::NetworkPlayerOptionsTableCell::Block)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5a0bd88;
+  constexpr static std::size_t addrs = 0x5a0a1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPlayerOptionsTableCell*>(), { "Block", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(&::GlobalNamespace::NetworkPlayerOptionsTableCell::Unblock)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5a0be38;
+  constexpr static std::size_t addrs = 0x5a0a264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPlayerOptionsTableCell*>(), { "Unblock", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(&::GlobalNamespace::NetworkPlayerOptionsTableCell::Join)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5a0bee8;
+  constexpr static std::size_t addrs = 0x5a0a314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPlayerOptionsTableCell*>(), { "Join", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(&::GlobalNamespace::NetworkPlayerOptionsTableCell::Invite)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5a0bf98;
+  constexpr static std::size_t addrs = 0x5a0a3c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPlayerOptionsTableCell*>(), { "Invite", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(&::GlobalNamespace::NetworkPlayerOptionsTableCell::Kick)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5a0c048;
+  constexpr static std::size_t addrs = 0x5a0a474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPlayerOptionsTableCell*>(), { "Kick", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(&::GlobalNamespace::NetworkPlayerOptionsTableCell::Leave)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5a0c0f8;
+  constexpr static std::size_t addrs = 0x5a0a524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPlayerOptionsTableCell*>(), { "Leave", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerOptionsTableCell::*)()>(&::GlobalNamespace::NetworkPlayerOptionsTableCell::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a0c1a8;
+  constexpr static std::size_t addrs = 0x5a0a5d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPlayerOptionsTableCell*>(), { ".ctor", {}, {} })));

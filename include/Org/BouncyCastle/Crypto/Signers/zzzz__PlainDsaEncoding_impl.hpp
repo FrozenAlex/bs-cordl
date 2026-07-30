@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Math::BigInteger*> (::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::Decode)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x342ca80;
+  constexpr static std::size_t addrs = 0x342b048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::Encode)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x342cc18;
+  constexpr static std::size_t addrs = 0x342b1e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding*>(),
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(
         &::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::CheckValue)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x342cce4;
+  constexpr static std::size_t addrs = 0x342b2ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding*>(),
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::*)(::Org::BouncyCastle::Math::BigInteger*, ::ArrayW<uint8_t>, int32_t, int32_t)>(
         &::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::DecodeValue)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x342cd7c;
+  constexpr static std::size_t addrs = 0x342b344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding*>(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::ArrayW<uint8_t>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::EncodeValue)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x342ce18;
+  constexpr static std::size_t addrs = 0x342b3e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding*>(),
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::*)()>(&::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x342cf88;
+  constexpr static std::size_t addrs = 0x342b550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding*>(), { ".ctor", {}, {} })));

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ColorLookup::*)()>(&::UnityEngine::Rendering::Universal::ColorLookup::IsActive)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6878bc4;
+  constexpr static std::size_t addrs = 0x6876960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ColorLookup*>(), { "IsActive", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ColorLookup::*)()>(&::UnityEngine::Rendering::Universal::ColorLookup::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6878e80;
+  constexpr static std::size_t addrs = 0x6876c1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ColorLookup*>(), { "IsTileCompatible", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::ColorLookup::*)()>(&::UnityEngine::Rendering::Universal::ColorLookup::ValidateLUT)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x6878c08;
+  constexpr static std::size_t addrs = 0x68769a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ColorLookup*>(), { "ValidateLUT", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ColorLookup::*)()>(&::UnityEngine::Rendering::Universal::ColorLookup::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6878e88;
+  constexpr static std::size_t addrs = 0x6876c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ColorLookup*>(), { ".ctor", {}, {} })));

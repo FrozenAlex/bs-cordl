@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::Input::PoseControl* (::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction_EyeGazeDevice::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction_EyeGazeDevice::get_pose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f9774;
+  constexpr static std::size_t addrs = 0x69f7510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction_EyeGazeDevice::*)(::UnityEngine::XR::OpenXR::Input::PoseControl*)>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction_EyeGazeDevice::set_pose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f977c;
+  constexpr static std::size_t addrs = 0x69f7518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction_EyeGazeDevice*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction_EyeGazeDevice::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction_EyeGazeDevice::FinishSetup)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x69f9784;
+  constexpr static std::size_t addrs = 0x69f7520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction_EyeGazeDevice::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction_EyeGazeDevice::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69f97fc;
+  constexpr static std::size_t addrs = 0x69f7598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction::OnInstanceCreate)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69f8e9c;
+  constexpr static std::size_t addrs = 0x69f6c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction*>(),
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction::RegisterDeviceLayout)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x69f8f08;
+  constexpr static std::size_t addrs = 0x69f6ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction*>(),
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction::UnregisterDeviceLayout)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69f9068;
+  constexpr static std::size_t addrs = 0x69f6e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction*>(),
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_InteractionProfileType (
     ::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction::*)()>(&::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction::GetInteractionProfileType)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x69f90d8;
+  constexpr static std::size_t addrs = 0x69f6e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction*>(),
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction::GetDeviceLayoutName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x69f918c;
+  constexpr static std::size_t addrs = 0x69f6f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction*>(),
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction::RegisterActionMapsWithRuntime)> {
   constexpr static std::size_t size = 0x548;
-  constexpr static std::size_t addrs = 0x69f91d0;
+  constexpr static std::size_t addrs = 0x69f6f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction*>(),
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::EyeGazeInteraction::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69f9718;
+  constexpr static std::size_t addrs = 0x69f74b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

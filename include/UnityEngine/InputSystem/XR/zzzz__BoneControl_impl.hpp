@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::IntegerControl* (::UnityEngine::InputSystem::XR::BoneControl::*)()>(
     &::UnityEngine::InputSystem::XR::BoneControl::get_parentBoneIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65853f8;
+  constexpr static std::size_t addrs = 0x6583194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::BoneControl*>(), { "get_parentBoneIndex", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::BoneControl::*)(::UnityEngine::InputSystem::Controls::IntegerControl*)>(
     &::UnityEngine::InputSystem::XR::BoneControl::set_parentBoneIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6585400;
+  constexpr static std::size_t addrs = 0x658319c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::InputSystem::XR::BoneControl::*)()>(
     &::UnityEngine::InputSystem::XR::BoneControl::get_position)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6585408;
+  constexpr static std::size_t addrs = 0x65831a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::BoneControl*>(), { "get_position", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::BoneControl::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::UnityEngine::InputSystem::XR::BoneControl::set_position)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6585410;
+  constexpr static std::size_t addrs = 0x65831ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::BoneControl*>(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::InputSystem::XR::BoneControl::*)()>(
     &::UnityEngine::InputSystem::XR::BoneControl::get_rotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6585418;
+  constexpr static std::size_t addrs = 0x65831b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::BoneControl*>(), { "get_rotation", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::BoneControl::*)(::UnityEngine::InputSystem::Controls::QuaternionControl*)>(
     &::UnityEngine::InputSystem::XR::BoneControl::set_rotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6585420;
+  constexpr static std::size_t addrs = 0x65831bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::BoneControl*>(),
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::BoneControl::*)()>(&::UnityEngine::InputSystem::XR::BoneControl::FinishSetup)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6585428;
+  constexpr static std::size_t addrs = 0x65831c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::XR::Bone (::UnityEngine::InputSystem::XR::BoneControl::*)(void*)>(
     &::UnityEngine::InputSystem::XR::BoneControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6585544;
+  constexpr static std::size_t addrs = 0x65832e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::BoneControl::*)(::UnityEngine::InputSystem::XR::Bone, void*)>(
     &::UnityEngine::InputSystem::XR::BoneControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6585640;
+  constexpr static std::size_t addrs = 0x65833dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::XR::BoneControl::*)()>(&::UnityEngine::InputSystem::XR::BoneControl::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x65856c4;
+  constexpr static std::size_t addrs = 0x6583460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::XR::BoneControl*>(), { ".ctor", {}, {} })));

@@ -27,7 +27,7 @@ public:
   /// @brief Method TransformRay, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Ray TransformRay(::UnityEngine::Ray ray);
 
-  /// @brief Method .ctor, addr 0x5f09d54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f07ac0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

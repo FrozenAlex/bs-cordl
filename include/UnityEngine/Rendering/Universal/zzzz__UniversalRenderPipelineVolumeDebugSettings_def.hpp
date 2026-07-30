@@ -44,19 +44,19 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x684d18c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x684af28, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_selectedCameraLayerMask, addr 0x684dbdc, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method get_selectedCameraLayerMask, addr 0x684b978, size 0xf0, virtual true, abstract: false, final false
   inline ::UnityEngine::LayerMask get_selectedCameraLayerMask();
 
-  /// @brief Method get_selectedCameraPosition, addr 0x684dccc, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method get_selectedCameraPosition, addr 0x684ba68, size 0x100, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_selectedCameraPosition();
 
-  /// @brief Method get_selectedCameraVolumeStack, addr 0x684da8c, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method get_selectedCameraVolumeStack, addr 0x684b828, size 0x150, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::VolumeStack* get_selectedCameraVolumeStack();
 
-  /// @brief Method get_targetRenderPipeline, addr 0x684ddcc, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_targetRenderPipeline, addr 0x684bb68, size 0x60, virtual true, abstract: false, final false
   inline ::System::Type* get_targetRenderPipeline();
 
 protected:
@@ -74,7 +74,7 @@ public:
   UniversalRenderPipelineVolumeDebugSettings(UniversalRenderPipelineVolumeDebugSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12644 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12642 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

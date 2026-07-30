@@ -9,18 +9,20 @@
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassRenderPass_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassRendererFeature_def.hpp"
+#include "GlobalNamespace/zzzz__BloomPrePass_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__RenderingData_def.hpp"
 #include "UnityEngine/Rendering/Universal/zzzz__ScriptableRenderer_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassRendererFeature_IterationHandle._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererFeature_IterationHandle::*)()>(
     &::GlobalNamespace::BloomPrePassRendererFeature_IterationHandle::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58658ac;
+  constexpr static std::size_t addrs = 0x5863dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature_IterationHandle*>(), { ".ctor", {}, {} })));
@@ -48,42 +50,42 @@ inline ::GlobalNamespace::BloomPrePassRendererFeature_IterationHandle* GlobalNam
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassRendererFeature_IterationHandle::BloomPrePassRendererFeature_IterationHandle() {}
-template <typename T> constexpr ::System::Action_1<T>*& GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::__cordl_internal_get_onLoadFinished() {
+template <typename T> constexpr ::System::Action_1<T>*& GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>::__cordl_internal_get_onLoadFinished() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onLoadFinished;
 }
-template <typename T> constexpr ::System::Action_1<T>* const& GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::__cordl_internal_get_onLoadFinished() const {
+template <typename T> constexpr ::System::Action_1<T>* const& GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>::__cordl_internal_get_onLoadFinished() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onLoadFinished;
 }
-template <typename T> constexpr void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::__cordl_internal_set_onLoadFinished(::System::Action_1<T>* value) {
+template <typename T> constexpr void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>::__cordl_internal_set_onLoadFinished(::System::Action_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___onLoadFinished = value;
 }
-template <typename T> inline void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::_ctor() {
+template <typename T> inline void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 template <typename T>
-inline void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::_LoadAssetAsync_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> handle) {
+inline void GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>::_LoadAssetAsync_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> handle) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>*>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>*>(),
                                                            { "<LoadAssetAsync>b__0", {}, { ::i2c::type_of<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, handle);
 }
-template <typename T> inline ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>* GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>*>());
+template <typename T> inline ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>* GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass10_0_1<T>::BloomPrePassRendererFeature___c__DisplayClass10_0_1() {}
+template <typename T> constexpr ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass11_0_1<T>::BloomPrePassRendererFeature___c__DisplayClass11_0_1() {}
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::*)()>(
     &::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x586564c;
+  constexpr static std::size_t addrs = 0x5863b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::*)(::GlobalNamespace::BloomFogSO*)>(
     &::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::_Create_b__0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x58658b0;
+  constexpr static std::size_t addrs = 0x5863e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0*>(),
@@ -111,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::*)(::GlobalNamespace::BloomPrePassEffectSO*)>(
     &::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0::_Create_b__1)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x586592c;
+  constexpr static std::size_t addrs = 0x5863e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature___c__DisplayClass7_0*>(),
@@ -168,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererFeature::*)()>(&::GlobalNamespace::BloomPrePassRendererFeature::Create)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x5865444;
+  constexpr static std::size_t addrs = 0x5863940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,11 +184,24 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererFeature::*)(
     ::UnityEngine::Rendering::Universal::ScriptableRenderer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::GlobalNamespace::BloomPrePassRendererFeature::AddRenderPasses)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x586581c;
+  constexpr static std::size_t addrs = 0x5863d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature*>(), { ::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature*>(), 7 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BloomPrePassRendererFeature.ResolveBloomPrePass
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BloomPrePass> (*)(::UnityEngine::Camera*)>(&::GlobalNamespace::BloomPrePassRendererFeature::ResolveBloomPrePass)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5863d40;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature*>(), { "ResolveBloomPrePass", {}, { ::i2c::type_of<::UnityEngine::Camera*>() } })));
     return ___internal_method;
   }
 };
@@ -195,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererFeature::*)(bool)>(&::GlobalNamespace::BloomPrePassRendererFeature::Dispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5865844;
+  constexpr static std::size_t addrs = 0x5863d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererFeature::*)()>(&::GlobalNamespace::BloomPrePassRendererFeature::ReleaseHandles)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5865650;
+  constexpr static std::size_t addrs = 0x5863b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature*>(), { "ReleaseHandles", {}, {} })));
@@ -220,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererFeature::*)()>(&::GlobalNamespace::BloomPrePassRendererFeature::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x586584c;
+  constexpr static std::size_t addrs = 0x5863d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature*>(), { ".ctor", {}, {} })));
@@ -318,6 +333,11 @@ inline void GlobalNamespace::BloomPrePassRendererFeature::AddRenderPasses(::Unit
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, renderer, renderingData);
+}
+inline ::UnityW<::GlobalNamespace::BloomPrePass> GlobalNamespace::BloomPrePassRendererFeature::ResolveBloomPrePass(::UnityEngine::Camera* camera) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererFeature*>(), { "ResolveBloomPrePass", {}, { ::i2c::type_of<::UnityEngine::Camera*>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::BloomPrePass>>(nullptr, ___internal_method, camera);
 }
 inline void GlobalNamespace::BloomPrePassRendererFeature::Dispose(bool disposing) {
   auto* ___internal_method =

@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectRegionViewController___c::*)()>(&::GlobalNamespace::SelectRegionViewController___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5965b18;
+  constexpr static std::size_t addrs = 0x5964300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectRegionViewController___c*>(), { ".ctor", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::SelectRegionViewController___c::*)(::GlobalNamespace::RegionToLocalizationKeyPair)>(
     &::GlobalNamespace::SelectRegionViewController___c::_DidActivate_b__3_1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5965b1c;
+  constexpr static std::size_t addrs = 0x5964304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectRegionViewController___c*>(),
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectRegionViewController::*)(bool, bool, bool)>(&::GlobalNamespace::SelectRegionViewController::DidActivate)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x5965690;
+  constexpr static std::size_t addrs = 0x5963e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectRegionViewController::*)()>(&::GlobalNamespace::SelectRegionViewController::OnDestroy)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x59658d8;
+  constexpr static std::size_t addrs = 0x59640c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectRegionViewController::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::GlobalNamespace::SelectRegionViewController::HandleRegionSelectionDropdownDidSelectCell)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x59659c0;
+  constexpr static std::size_t addrs = 0x59641a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectRegionViewController::*)()>(&::GlobalNamespace::SelectRegionViewController::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5965a04;
+  constexpr static std::size_t addrs = 0x59641ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectRegionViewController*>(), { ".ctor", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SelectRegionViewController::*)()>(&::GlobalNamespace::SelectRegionViewController::_DidActivate_b__3_0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5965a48;
+  constexpr static std::size_t addrs = 0x5964230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SelectRegionViewController*>(), { "<DidActivate>b__3_0", {}, {} })));

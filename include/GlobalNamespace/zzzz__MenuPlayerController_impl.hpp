@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::VRController> (::GlobalNamespace::MenuPlayerController::*)()>(
     &::GlobalNamespace::MenuPlayerController::get_leftController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a094fc;
+  constexpr static std::size_t addrs = 0x5a07928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuPlayerController*>(), { "get_leftController", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::VRController> (::GlobalNamespace::MenuPlayerController::*)()>(
     &::GlobalNamespace::MenuPlayerController::get_rightController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a09504;
+  constexpr static std::size_t addrs = 0x5a07930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuPlayerController*>(), { "get_rightController", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::MenuPlayerController::*)()>(&::GlobalNamespace::MenuPlayerController::get_headPos)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a0950c;
+  constexpr static std::size_t addrs = 0x5a07938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuPlayerController*>(), { "get_headPos", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::MenuPlayerController::*)()>(&::GlobalNamespace::MenuPlayerController::get_headRot)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5a09524;
+  constexpr static std::size_t addrs = 0x5a07950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuPlayerController*>(), { "get_headRot", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MenuPlayerController::*)()>(&::GlobalNamespace::MenuPlayerController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a0953c;
+  constexpr static std::size_t addrs = 0x5a07968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MenuPlayerController*>(), { ".ctor", {}, {} })));

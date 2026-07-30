@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Xml::ValidateNames::ParseNmtoken)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x62d358c;
+  constexpr static std::size_t addrs = 0x62d1328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Xml::ValidateNames::ParseNmtokenNoNamespaces)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x62d3664;
+  constexpr static std::size_t addrs = 0x62d1400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Xml::ValidateNames::ParseNameNoNamespaces)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x62d3744;
+  constexpr static std::size_t addrs = 0x62d14e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::System::Xml::ValidateNames::IsNameNoNamespaces)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x62d38a4;
+  constexpr static std::size_t addrs = 0x62d1640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Xml::ValidateNames::ParseNCName)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x62d3928;
+  constexpr static std::size_t addrs = 0x62d16c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::System::Xml::ValidateNames::ParseNCName)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x62d3a68;
+  constexpr static std::size_t addrs = 0x62d1804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ValidateNames*>(), { "ParseNCName", {}, { ::i2c::type_of<::StringW>() } })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t, ::by_ref<int32_t>)>(&::System::Xml::ValidateNames::ParseQName)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x62d3ac4;
+  constexpr static std::size_t addrs = 0x62d1860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::by_ref<::StringW>, ::by_ref<::StringW>)>(&::System::Xml::ValidateNames::ParseQNameThrow)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x62d3ba8;
+  constexpr static std::size_t addrs = 0x62d1944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, int32_t, int32_t)>(&::System::Xml::ValidateNames::ThrowInvalidName)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x62d3cc4;
+  constexpr static std::size_t addrs = 0x62d1a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW, int32_t, int32_t)>(&::System::Xml::ValidateNames::GetInvalidNameException)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x62d3e80;
+  constexpr static std::size_t addrs = 0x62d1c1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::by_ref<::StringW>, ::by_ref<::StringW>)>(&::System::Xml::ValidateNames::SplitQName)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x62d4050;
+  constexpr static std::size_t addrs = 0x62d1dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

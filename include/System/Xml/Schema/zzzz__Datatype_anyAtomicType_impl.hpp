@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlValueConverter* (::System::Xml::Schema::Datatype_anyAtomicType::*)(::System::Xml::Schema::XmlSchemaType*)>(
     &::System::Xml::Schema::Datatype_anyAtomicType::CreateValueConverter)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x61bef84;
+  constexpr static std::size_t addrs = 0x61bcd20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaWhiteSpace (::System::Xml::Schema::Datatype_anyAtomicType::*)()>(
     &::System::Xml::Schema::Datatype_anyAtomicType::get_BuiltInWhitespaceFacet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61befe0;
+  constexpr static std::size_t addrs = 0x61bcd7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_anyAtomicType::*)()>(
     &::System::Xml::Schema::Datatype_anyAtomicType::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61befe8;
+  constexpr static std::size_t addrs = 0x61bcd84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::Datatype_anyAtomicType::*)()>(&::System::Xml::Schema::Datatype_anyAtomicType::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x61baecc;
+  constexpr static std::size_t addrs = 0x61b8c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::Datatype_anyAtomicType*>(), { ".ctor", {}, {} })));

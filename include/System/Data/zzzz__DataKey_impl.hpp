@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataKey::*)(::ArrayW<::System::Data::DataColumn*>, bool)>(&::System::Data::DataKey::_ctor)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x601e4a4;
+  constexpr static std::size_t addrs = 0x601c240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Data::DataColumn*> (::System::Data::DataKey::*)()>(&::System::Data::DataKey::get_ColumnsReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x601e734;
+  constexpr static std::size_t addrs = 0x601c4d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataKey>(), { "get_ColumnsReference", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataKey::*)()>(&::System::Data::DataKey::get_HasValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x601e73c;
+  constexpr static std::size_t addrs = 0x601c4d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataKey>(), { "get_HasValue", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataTable* (::System::Data::DataKey::*)()>(&::System::Data::DataKey::get_Table)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x601a7f0;
+  constexpr static std::size_t addrs = 0x601858c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataKey>(), { "get_Table", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataKey::*)()>(&::System::Data::DataKey::CheckState)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x601e698;
+  constexpr static std::size_t addrs = 0x601c434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataKey>(), { "CheckState", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataKey::*)(::System::Data::DataKey)>(&::System::Data::DataKey::ColumnsEqual)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x601e74c;
+  constexpr static std::size_t addrs = 0x601c4e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<::System::Data::DataColumn*>, ::ArrayW<::System::Data::DataColumn*>)>(&::System::Data::DataKey::ColumnsEqual)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x601e754;
+  constexpr static std::size_t addrs = 0x601c4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataKey::*)(::System::Data::DataColumn*)>(&::System::Data::DataKey::ContainsColumn)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x601cfa8;
+  constexpr static std::size_t addrs = 0x601ad44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::DataKey::*)()>(&::System::Data::DataKey::GetHashCode)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x601e844;
+  constexpr static std::size_t addrs = 0x601c5e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::DataKey>(), { ::i2c::class_of<::System::Data::DataKey>(), 2 }));
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataKey::*)(::System::Object*)>(&::System::Data::DataKey::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x601e8a8;
+  constexpr static std::size_t addrs = 0x601c644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::DataKey>(), { ::i2c::class_of<::System::Data::DataKey>(), 0 }));
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataKey::*)(::System::Data::DataKey)>(&::System::Data::DataKey::Equals)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x601e928;
+  constexpr static std::size_t addrs = 0x601c6c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::System::Data::DataKey::*)()>(&::System::Data::DataKey::GetColumnNames)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x601e9e4;
+  constexpr static std::size_t addrs = 0x601c780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataKey>(), { "GetColumnNames", {}, {} })));
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Data::IndexField> (::System::Data::DataKey::*)()>(&::System::Data::DataKey::GetIndexDesc)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x601ea8c;
+  constexpr static std::size_t addrs = 0x601c828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataKey>(), { "GetIndexDesc", {}, {} })));
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Data::DataKey::*)(int32_t)>(&::System::Data::DataKey::GetKeyValues)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x601eb3c;
+  constexpr static std::size_t addrs = 0x601c8d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataKey>(), { "GetKeyValues", {}, { ::i2c::type_of<int32_t>() } })));
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::Index* (::System::Data::DataKey::*)()>(&::System::Data::DataKey::GetSortIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x601ec4c;
+  constexpr static std::size_t addrs = 0x601c9e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataKey>(), { "GetSortIndex", {}, {} })));
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::Index* (::System::Data::DataKey::*)(::System::Data::DataViewRowState)>(&::System::Data::DataKey::GetSortIndex)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x601ec54;
+  constexpr static std::size_t addrs = 0x601c9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataKey::*)(int32_t, int32_t)>(&::System::Data::DataKey::RecordsEqual)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x601ecac;
+  constexpr static std::size_t addrs = 0x601ca48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Data::DataColumn*> (::System::Data::DataKey::*)()>(&::System::Data::DataKey::ToArray)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x601ed30;
+  constexpr static std::size_t addrs = 0x601cacc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataKey>(), { "ToArray", {}, {} })));

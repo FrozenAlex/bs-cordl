@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLoader__Start_d__3::*)()>(&::GlobalNamespace::GameLoader__Start_d__3::MoveNext)> {
   constexpr static std::size_t size = 0x450;
-  constexpr static std::size_t addrs = 0x376bd4c;
+  constexpr static std::size_t addrs = 0x376a870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLoader__Start_d__3>(), { "MoveNext", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLoader__Start_d__3::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::GameLoader__Start_d__3::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x376c19c;
+  constexpr static std::size_t addrs = 0x376acc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLoader__Start_d__3>(),
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLoader::*)()>(&::GlobalNamespace::GameLoader::Start)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x376bb28;
+  constexpr static std::size_t addrs = 0x376a64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLoader*>(), { "Start", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLoader::*)()>(&::GlobalNamespace::GameLoader::HandleSceneContextPostInstall)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x376bbcc;
+  constexpr static std::size_t addrs = 0x376a6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLoader*>(), { "HandleSceneContextPostInstall", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameLoader::*)()>(&::GlobalNamespace::GameLoader::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x376bd48;
+  constexpr static std::size_t addrs = 0x376a86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameLoader*>(), { ".ctor", {}, {} })));

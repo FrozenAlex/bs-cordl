@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObjectDynamicProxy_JObject___c::*)()>(&::Newtonsoft::Json::Linq::JObjectDynamicProxy_JObject___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d74798;
+  constexpr static std::size_t addrs = 0x5d72504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObjectDynamicProxy_JObject___c*>(), { ".ctor", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Linq::JObjectDynamicProxy_JObject___c::*)(::Newtonsoft::Json::Linq::JProperty*)>(
     &::Newtonsoft::Json::Linq::JObjectDynamicProxy_JObject___c::_GetDynamicMemberNames_b__2_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5d7479c;
+  constexpr static std::size_t addrs = 0x5d72508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObjectDynamicProxy_JObject___c*>(),
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Linq::JObject_JObjectDynamicProxy::*)(
     ::Newtonsoft::Json::Linq::JObject*, ::System::Dynamic::GetMemberBinder*, ::by_ref<::System::Object*>)>(&::Newtonsoft::Json::Linq::JObject_JObjectDynamicProxy::TryGetMember)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d74508;
+  constexpr static std::size_t addrs = 0x5d72274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObject_JObjectDynamicProxy*>(),
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Linq::JObject_JObjectDynamicProxy::*)(
     ::Newtonsoft::Json::Linq::JObject*, ::System::Dynamic::SetMemberBinder*, ::System::Object*)>(&::Newtonsoft::Json::Linq::JObject_JObjectDynamicProxy::TrySetMember)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5d74540;
+  constexpr static std::size_t addrs = 0x5d722ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObject_JObjectDynamicProxy*>(),
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (
     ::Newtonsoft::Json::Linq::JObject_JObjectDynamicProxy::*)(::Newtonsoft::Json::Linq::JObject*)>(&::Newtonsoft::Json::Linq::JObject_JObjectDynamicProxy::GetDynamicMemberNames)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x5d74628;
+  constexpr static std::size_t addrs = 0x5d72394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObject_JObjectDynamicProxy*>(),
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject_JObjectDynamicProxy::*)()>(&::Newtonsoft::Json::Linq::JObject_JObjectDynamicProxy::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5d744cc;
+  constexpr static std::size_t addrs = 0x5d72238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObject_JObjectDynamicProxy*>(), { ".ctor", {}, {} })));
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject___WriteToAsync_g__AwaitProperties_0_0_d::*)()>(
     &::Newtonsoft::Json::Linq::JObject___WriteToAsync_g__AwaitProperties_0_0_d::MoveNext)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x5d747b0;
+  constexpr static std::size_t addrs = 0x5d7251c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject___WriteToAsync_g__AwaitProperties_0_0_d::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::Linq::JObject___WriteToAsync_g__AwaitProperties_0_0_d::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d74b80;
+  constexpr static std::size_t addrs = 0x5d728ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObject___WriteToAsync_g__AwaitProperties_0_0_d>(),
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject___c::*)()>(&::Newtonsoft::Json::Linq::JObject___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d74c40;
+  constexpr static std::size_t addrs = 0x5d729ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObject___c*>(), { ".ctor", {}, {} })));
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::JToken* (::Newtonsoft::Json::Linq::JObject___c::*)(::Newtonsoft::Json::Linq::JProperty*)>(
     &::Newtonsoft::Json::Linq::JObject___c::_PropertyValues_b__31_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d74c44;
+  constexpr static std::size_t addrs = 0x5d729b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject__GetEnumerator_d__64::*)(int32_t)>(&::Newtonsoft::Json::Linq::JObject__GetEnumerator_d__64::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d73cb8;
+  constexpr static std::size_t addrs = 0x5d71a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject__GetEnumerator_d__64::*)()>(
     &::Newtonsoft::Json::Linq::JObject__GetEnumerator_d__64::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d74c64;
+  constexpr static std::size_t addrs = 0x5d729d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Linq::JObject__GetEnumerator_d__64::*)()>(&::Newtonsoft::Json::Linq::JObject__GetEnumerator_d__64::MoveNext)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x5d74c80;
+  constexpr static std::size_t addrs = 0x5d729ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObject__GetEnumerator_d__64*>(), { "MoveNext", {}, {} })));
@@ -358,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject__GetEnumerator_d__64::*)()>(&::Newtonsoft::Json::Linq::JObject__GetEnumerator_d__64::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5d74f4c;
+  constexpr static std::size_t addrs = 0x5d72cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObject__GetEnumerator_d__64*>(), { "<>m__Finally1", {}, {} })));
@@ -373,7 +373,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::Newtonsoft::Json::Linq::JObject__GetEnumerator_d__64::*)()>(
     &::Newtonsoft::Json::Linq::JObject__GetEnumerator_d__64::System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_Newtonsoft_Json_Linq_JToken___get_Current)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d75000;
+  constexpr static std::size_t addrs = 0x5d72d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -388,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject__GetEnumerator_d__64::*)()>(
     &::Newtonsoft::Json::Linq::JObject__GetEnumerator_d__64::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d7500c;
+  constexpr static std::size_t addrs = 0x5d72d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Newtonsoft::Json::Linq::JObject__GetEnumerator_d__64::*)()>(
     &::Newtonsoft::Json::Linq::JObject__GetEnumerator_d__64::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5d75044;
+  constexpr static std::size_t addrs = 0x5d72db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -531,7 +531,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject__LoadAsync_d__2::*)()>(&::Newtonsoft::Json::Linq::JObject__LoadAsync_d__2::MoveNext)> {
   constexpr static std::size_t size = 0x67c;
-  constexpr static std::size_t addrs = 0x5d750a4;
+  constexpr static std::size_t addrs = 0x5d72e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObject__LoadAsync_d__2>(), { "MoveNext", {}, {} })));
@@ -544,7 +544,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject__LoadAsync_d__2::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::Linq::JObject__LoadAsync_d__2::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5d75720;
+  constexpr static std::size_t addrs = 0x5d7348c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObject__LoadAsync_d__2>(),
@@ -599,7 +599,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
                                                                                                                                 ::ArrayW<::Newtonsoft::Json::JsonConverter*>)>(
     &::Newtonsoft::Json::Linq::JObject::WriteToAsync)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x5d70c84;
+  constexpr static std::size_t addrs = 0x5d6e9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -614,7 +614,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JObject*>* (*)(::Newtonsoft::Json::JsonReader*, ::System::Threading::CancellationToken)>(
         &::Newtonsoft::Json::Linq::JObject::LoadAsync)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d70f38;
+  constexpr static std::size_t addrs = 0x5d6eca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -630,7 +630,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JObject*>* (*)(::Newtonsoft::Json::JsonReader*, ::Newtonsoft::Json::Linq::JsonLoadSettings*,
                                                                                             ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::Linq::JObject::LoadAsync)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5d70f44;
+  constexpr static std::size_t addrs = 0x5d6ecb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -648,7 +648,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* (::Newtonsoft::Json::Linq::JObject::*)()>(
     &::Newtonsoft::Json::Linq::JObject::get_ChildrenTokens)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d71038;
+  constexpr static std::size_t addrs = 0x5d6eda4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -662,7 +662,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)(::System::ComponentModel::PropertyChangedEventHandler*)>(
     &::Newtonsoft::Json::Linq::JObject::add_PropertyChanged)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d71040;
+  constexpr static std::size_t addrs = 0x5d6edac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -677,7 +677,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)(::System::ComponentModel::PropertyChangedEventHandler*)>(
     &::Newtonsoft::Json::Linq::JObject::remove_PropertyChanged)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d710ec;
+  constexpr static std::size_t addrs = 0x5d6ee58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -692,7 +692,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)(::System::ComponentModel::PropertyChangingEventHandler*)>(
     &::Newtonsoft::Json::Linq::JObject::add_PropertyChanging)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d71198;
+  constexpr static std::size_t addrs = 0x5d6ef04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -707,7 +707,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)(::System::ComponentModel::PropertyChangingEventHandler*)>(
     &::Newtonsoft::Json::Linq::JObject::remove_PropertyChanging)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d71244;
+  constexpr static std::size_t addrs = 0x5d6efb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -721,7 +721,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)()>(&::Newtonsoft::Json::Linq::JObject::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5d6e78c;
+  constexpr static std::size_t addrs = 0x5d6c4f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObject*>(), { ".ctor", {}, {} })));
@@ -733,7 +733,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)(::Newtonsoft::Json::Linq::JObject*)>(&::Newtonsoft::Json::Linq::JObject::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5d71388;
+  constexpr static std::size_t addrs = 0x5d6f0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -747,7 +747,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)(::Newtonsoft::Json::Linq::JObject*, ::Newtonsoft::Json::Linq::JsonCloneSettings*)>(
     &::Newtonsoft::Json::Linq::JObject::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5d713f8;
+  constexpr static std::size_t addrs = 0x5d6f164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -761,7 +761,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)(::ArrayW<::System::Object*>)>(&::Newtonsoft::Json::Linq::JObject::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d7146c;
+  constexpr static std::size_t addrs = 0x5d6f1d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -774,7 +774,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)(::System::Object*)>(&::Newtonsoft::Json::Linq::JObject::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5d71470;
+  constexpr static std::size_t addrs = 0x5d6f1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -787,7 +787,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Linq::JObject::*)(::Newtonsoft::Json::Linq::JToken*)>(&::Newtonsoft::Json::Linq::JObject::DeepEquals)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5d714ec;
+  constexpr static std::size_t addrs = 0x5d6f258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -800,7 +800,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Newtonsoft::Json::Linq::JObject::*)(::Newtonsoft::Json::Linq::JToken*)>(&::Newtonsoft::Json::Linq::JObject::IndexOfItem)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d71978;
+  constexpr static std::size_t addrs = 0x5d6f6e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -814,7 +814,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Linq::JObject::*)(int32_t, ::Newtonsoft::Json::Linq::JToken*, bool, bool)>(
     &::Newtonsoft::Json::Linq::JObject::InsertItem)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5d71a54;
+  constexpr static std::size_t addrs = 0x5d6f7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -828,7 +828,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)(::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Linq::JToken*)>(
     &::Newtonsoft::Json::Linq::JObject::ValidateToken)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x5d71ac8;
+  constexpr static std::size_t addrs = 0x5d6f834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -842,7 +842,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)(::System::Object*, ::Newtonsoft::Json::Linq::JsonMergeSettings*)>(
     &::Newtonsoft::Json::Linq::JObject::MergeItem)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x5d71d50;
+  constexpr static std::size_t addrs = 0x5d6fabc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -855,7 +855,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Newtonsoft::Json::Linq::JToken*)>(&::Newtonsoft::Json::Linq::JObject::IsNull)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5d72224;
+  constexpr static std::size_t addrs = 0x5d6ff90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -869,7 +869,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)(::Newtonsoft::Json::Linq::JProperty*)>(
     &::Newtonsoft::Json::Linq::JObject::InternalPropertyChanged)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5d72350;
+  constexpr static std::size_t addrs = 0x5d700bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -883,7 +883,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)(::Newtonsoft::Json::Linq::JProperty*)>(
     &::Newtonsoft::Json::Linq::JObject::InternalPropertyChanging)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d724a4;
+  constexpr static std::size_t addrs = 0x5d70210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -898,7 +898,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::JToken* (::Newtonsoft::Json::Linq::JObject::*)(::Newtonsoft::Json::Linq::JsonCloneSettings*)>(
     &::Newtonsoft::Json::Linq::JObject::CloneToken)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d724c4;
+  constexpr static std::size_t addrs = 0x5d70230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -911,7 +911,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::JTokenType (::Newtonsoft::Json::Linq::JObject::*)()>(&::Newtonsoft::Json::Linq::JObject::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d72530;
+  constexpr static std::size_t addrs = 0x5d7029c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -925,7 +925,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>* (::Newtonsoft::Json::Linq::JObject::*)()>(
     &::Newtonsoft::Json::Linq::JObject::Properties)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5d72538;
+  constexpr static std::size_t addrs = 0x5d702a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObject*>(), { "Properties", {}, {} })));
@@ -937,7 +937,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::JProperty* (::Newtonsoft::Json::Linq::JObject::*)(::StringW)>(&::Newtonsoft::Json::Linq::JObject::Property)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d72584;
+  constexpr static std::size_t addrs = 0x5d702f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -951,7 +951,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::JProperty* (::Newtonsoft::Json::Linq::JObject::*)(::StringW, ::System::StringComparison)>(
     &::Newtonsoft::Json::Linq::JObject::Property)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5d6e9c4;
+  constexpr static std::size_t addrs = 0x5d6c730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -966,7 +966,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::JEnumerable_1<::Newtonsoft::Json::Linq::JToken*> (::Newtonsoft::Json::Linq::JObject::*)()>(
     &::Newtonsoft::Json::Linq::JObject::PropertyValues)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5d7258c;
+  constexpr static std::size_t addrs = 0x5d702f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObject*>(), { "PropertyValues", {}, {} })));
@@ -978,7 +978,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::JToken* (::Newtonsoft::Json::Linq::JObject::*)(::System::Object*)>(&::Newtonsoft::Json::Linq::JObject::get_Item)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5d726d4;
+  constexpr static std::size_t addrs = 0x5d70440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -992,7 +992,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)(::System::Object*, ::Newtonsoft::Json::Linq::JToken*)>(
     &::Newtonsoft::Json::Linq::JObject::set_Item)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5d7285c;
+  constexpr static std::size_t addrs = 0x5d705c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1005,7 +1005,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::JToken* (::Newtonsoft::Json::Linq::JObject::*)(::StringW)>(&::Newtonsoft::Json::Linq::JObject::get_Item)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5d727d8;
+  constexpr static std::size_t addrs = 0x5d70544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1018,7 +1018,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)(::StringW, ::Newtonsoft::Json::Linq::JToken*)>(&::Newtonsoft::Json::Linq::JObject::set_Item)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5d72968;
+  constexpr static std::size_t addrs = 0x5d706d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObject*>(),
@@ -1031,7 +1031,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::JObject* (*)(::Newtonsoft::Json::JsonReader*)>(&::Newtonsoft::Json::Linq::JObject::Load)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d729e0;
+  constexpr static std::size_t addrs = 0x5d7074c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1045,7 +1045,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::JObject* (*)(::Newtonsoft::Json::JsonReader*, ::Newtonsoft::Json::Linq::JsonLoadSettings*)>(
     &::Newtonsoft::Json::Linq::JObject::Load)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x5d729e8;
+  constexpr static std::size_t addrs = 0x5d70754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1059,7 +1059,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::JObject* (*)(::StringW)>(&::Newtonsoft::Json::Linq::JObject::Parse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d72bc0;
+  constexpr static std::size_t addrs = 0x5d7092c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObject*>(), { "Parse", {}, { ::i2c::type_of<::StringW>() } })));
@@ -1071,7 +1071,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::JObject* (*)(::StringW, ::Newtonsoft::Json::Linq::JsonLoadSettings*)>(&::Newtonsoft::Json::Linq::JObject::Parse)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x5d72bc8;
+  constexpr static std::size_t addrs = 0x5d70934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1085,7 +1085,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::JObject* (*)(::System::Object*)>(&::Newtonsoft::Json::Linq::JObject::FromObject)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d72d80;
+  constexpr static std::size_t addrs = 0x5d70aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1099,7 +1099,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::JObject* (*)(::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
     &::Newtonsoft::Json::Linq::JObject::FromObject)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x5d72da0;
+  constexpr static std::size_t addrs = 0x5d70b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1114,7 +1114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)(::Newtonsoft::Json::JsonWriter*, ::ArrayW<::Newtonsoft::Json::JsonConverter*>)>(
     &::Newtonsoft::Json::Linq::JObject::WriteTo)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5d7310c;
+  constexpr static std::size_t addrs = 0x5d70e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1127,7 +1127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::JToken* (::Newtonsoft::Json::Linq::JObject::*)(::StringW)>(&::Newtonsoft::Json::Linq::JObject::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d73204;
+  constexpr static std::size_t addrs = 0x5d70f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1141,7 +1141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::JToken* (::Newtonsoft::Json::Linq::JObject::*)(::StringW, ::System::StringComparison)>(
     &::Newtonsoft::Json::Linq::JObject::GetValue)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5d7320c;
+  constexpr static std::size_t addrs = 0x5d70f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1156,7 +1156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Linq::JObject::*)(::StringW, ::System::StringComparison, ::by_ref<::Newtonsoft::Json::Linq::JToken*>)>(
     &::Newtonsoft::Json::Linq::JObject::TryGetValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d7323c;
+  constexpr static std::size_t addrs = 0x5d70fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1171,7 +1171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)(::StringW, ::Newtonsoft::Json::Linq::JToken*)>(&::Newtonsoft::Json::Linq::JObject::Add)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5d721a4;
+  constexpr static std::size_t addrs = 0x5d6ff10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1185,7 +1185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Linq::JObject::*)(::StringW)>(&::Newtonsoft::Json::Linq::JObject::ContainsKey)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5d73344;
+  constexpr static std::size_t addrs = 0x5d710b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1199,7 +1199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::ICollection_1<::StringW>* (::Newtonsoft::Json::Linq::JObject::*)()>(
     &::Newtonsoft::Json::Linq::JObject::System_Collections_Generic_IDictionary_System_String_Newtonsoft_Json_Linq_JToken__get_Keys)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5d73478;
+  constexpr static std::size_t addrs = 0x5d711e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObject*>(),
@@ -1212,7 +1212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Linq::JObject::*)(::StringW)>(&::Newtonsoft::Json::Linq::JObject::Remove)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5d734e8;
+  constexpr static std::size_t addrs = 0x5d71254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObject*>(), { "Remove", {}, { ::i2c::type_of<::StringW>() } })));
@@ -1225,7 +1225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Linq::JObject::*)(::StringW, ::by_ref<::Newtonsoft::Json::Linq::JToken*>)>(
     &::Newtonsoft::Json::Linq::JObject::TryGetValue)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5d7357c;
+  constexpr static std::size_t addrs = 0x5d712e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1240,7 +1240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>* (::Newtonsoft::Json::Linq::JObject::*)()>(
     &::Newtonsoft::Json::Linq::JObject::System_Collections_Generic_IDictionary_System_String_Newtonsoft_Json_Linq_JToken__get_Values)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d735bc;
+  constexpr static std::size_t addrs = 0x5d71328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1255,7 +1255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>)>(
     &::Newtonsoft::Json::Linq::JObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_Newtonsoft_Json_Linq_JToken___Add)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5d735f4;
+  constexpr static std::size_t addrs = 0x5d71360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1272,7 +1272,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)()>(
     &::Newtonsoft::Json::Linq::JObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_Newtonsoft_Json_Linq_JToken___Clear)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d7369c;
+  constexpr static std::size_t addrs = 0x5d71408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1288,7 +1288,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Linq::JObject::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>)>(
     &::Newtonsoft::Json::Linq::JObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_Newtonsoft_Json_Linq_JToken___Contains)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5d736ac;
+  constexpr static std::size_t addrs = 0x5d71418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1306,7 +1306,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::Newtonsoft::Json::Linq::JObject::*)(::ArrayW<::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>>, int32_t)>(
         &::Newtonsoft::Json::Linq::JObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_Newtonsoft_Json_Linq_JToken___CopyTo)> {
   constexpr static std::size_t size = 0x420;
-  constexpr static std::size_t addrs = 0x5d7373c;
+  constexpr static std::size_t addrs = 0x5d714a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1325,7 +1325,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Linq::JObject::*)()>(
     &::Newtonsoft::Json::Linq::JObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_Newtonsoft_Json_Linq_JToken___get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d73b5c;
+  constexpr static std::size_t addrs = 0x5d718c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1341,7 +1341,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Linq::JObject::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>)>(
     &::Newtonsoft::Json::Linq::JObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_Newtonsoft_Json_Linq_JToken___Remove)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x5d73b64;
+  constexpr static std::size_t addrs = 0x5d718d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1357,7 +1357,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Newtonsoft::Json::Linq::JObject::*)()>(&::Newtonsoft::Json::Linq::JObject::GetDeepHashCode)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d73cb4;
+  constexpr static std::size_t addrs = 0x5d71a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1371,7 +1371,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>>* (
     ::Newtonsoft::Json::Linq::JObject::*)()>(&::Newtonsoft::Json::Linq::JObject::GetEnumerator)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5d72150;
+  constexpr static std::size_t addrs = 0x5d6febc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObject*>(), { "GetEnumerator", {}, {} })));
@@ -1383,7 +1383,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)(::StringW)>(&::Newtonsoft::Json::Linq::JObject::OnPropertyChanged)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5d73cc0;
+  constexpr static std::size_t addrs = 0x5d71a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1396,7 +1396,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JObject::*)(::StringW)>(&::Newtonsoft::Json::Linq::JObject::OnPropertyChanging)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5d73d54;
+  constexpr static std::size_t addrs = 0x5d71ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1410,7 +1410,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (::Newtonsoft::Json::Linq::JObject::*)()>(
     &::Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetProperties)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5d73de8;
+  constexpr static std::size_t addrs = 0x5d71b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1424,7 +1424,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (::Newtonsoft::Json::Linq::JObject::*)(::ArrayW<::System::Attribute*>)>(
     &::Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetProperties)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x5d73e88;
+  constexpr static std::size_t addrs = 0x5d71bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1439,7 +1439,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::AttributeCollection* (::Newtonsoft::Json::Linq::JObject::*)()>(
     &::Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetAttributes)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5d741ec;
+  constexpr static std::size_t addrs = 0x5d71f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1453,7 +1453,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Linq::JObject::*)()>(
     &::Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetClassName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d74248;
+  constexpr static std::size_t addrs = 0x5d71fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1467,7 +1467,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Linq::JObject::*)()>(
     &::Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetComponentName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d74250;
+  constexpr static std::size_t addrs = 0x5d71fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1481,7 +1481,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::TypeConverter* (::Newtonsoft::Json::Linq::JObject::*)()>(
     &::Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetConverter)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5d74258;
+  constexpr static std::size_t addrs = 0x5d71fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1495,7 +1495,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::EventDescriptor* (::Newtonsoft::Json::Linq::JObject::*)()>(
     &::Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetDefaultEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d7429c;
+  constexpr static std::size_t addrs = 0x5d72008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1509,7 +1509,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::PropertyDescriptor* (::Newtonsoft::Json::Linq::JObject::*)()>(
     &::Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetDefaultProperty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d742a4;
+  constexpr static std::size_t addrs = 0x5d72010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1523,7 +1523,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Newtonsoft::Json::Linq::JObject::*)(::System::Type*)>(
     &::Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetEditor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d742ac;
+  constexpr static std::size_t addrs = 0x5d72018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JObject*>(),
@@ -1537,7 +1537,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::EventDescriptorCollection* (::Newtonsoft::Json::Linq::JObject::*)(::ArrayW<::System::Attribute*>)>(
     &::Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetEvents)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5d742b4;
+  constexpr static std::size_t addrs = 0x5d72020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1552,7 +1552,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::EventDescriptorCollection* (::Newtonsoft::Json::Linq::JObject::*)()>(
     &::Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetEvents)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5d74310;
+  constexpr static std::size_t addrs = 0x5d7207c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1566,7 +1566,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Newtonsoft::Json::Linq::JObject::*)(::System::ComponentModel::PropertyDescriptor*)>(
     &::Newtonsoft::Json::Linq::JObject::System_ComponentModel_ICustomTypeDescriptor_GetPropertyOwner)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5d7436c;
+  constexpr static std::size_t addrs = 0x5d720d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1581,7 +1581,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::DynamicMetaObject* (::Newtonsoft::Json::Linq::JObject::*)(::System::Linq::Expressions::Expression*)>(
     &::Newtonsoft::Json::Linq::JObject::GetMetaObject)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5d743f4;
+  constexpr static std::size_t addrs = 0x5d72160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1596,7 +1596,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::Newtonsoft::Json::Linq::JObject::*)(::System::Threading::Tasks::Task*, int32_t, ::Newtonsoft::Json::JsonWriter*, ::System::Threading::CancellationToken,
                                           ::ArrayW<::Newtonsoft::Json::JsonConverter*>)>(&::Newtonsoft::Json::Linq::JObject::_WriteToAsync_g__AwaitProperties_0_0)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5d70e48;
+  constexpr static std::size_t addrs = 0x5d6ebb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

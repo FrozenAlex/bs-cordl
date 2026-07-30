@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature::*)()>(
     &::UnityEngine::XR::OpenXR::Features::OculusQuestSupport::OculusQuestFeature::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6a08d88;
+  constexpr static std::size_t addrs = 0x6a06b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

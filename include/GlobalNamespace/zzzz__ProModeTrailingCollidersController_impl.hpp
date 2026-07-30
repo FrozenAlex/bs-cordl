@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProModeTrailingCollidersController::*)()>(&::GlobalNamespace::ProModeTrailingCollidersController::Start)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x58daa00;
+  constexpr static std::size_t addrs = 0x58d8ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ProModeTrailingCollidersController*>(), { "Start", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProModeTrailingCollidersController::*)()>(&::GlobalNamespace::ProModeTrailingCollidersController::OnDestroy)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x58daaa0;
+  constexpr static std::size_t addrs = 0x58d8f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ProModeTrailingCollidersController*>(), { "OnDestroy", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProModeTrailingCollidersController::*)()>(
     &::GlobalNamespace::ProModeTrailingCollidersController::HandleNoteDidMoveInJumpPhase)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x58dabac;
+  constexpr static std::size_t addrs = 0x58d9084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProModeTrailingCollidersController::*)()>(&::GlobalNamespace::ProModeTrailingCollidersController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58dad08;
+  constexpr static std::size_t addrs = 0x58d91e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ProModeTrailingCollidersController*>(), { ".ctor", {}, {} })));

@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isReady)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4754;
+  constexpr static std::size_t addrs = 0x59c2dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_isReady", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isReady)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c475c;
+  constexpr static std::size_t addrs = 0x59c2dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "set_isReady", {}, { ::i2c::type_of<bool>() } })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isMe)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4764;
+  constexpr static std::size_t addrs = 0x59c2dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_isMe", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_userId)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59c476c;
+  constexpr static std::size_t addrs = 0x59c2ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_userId", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_userName)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59c4784;
+  constexpr static std::size_t addrs = 0x59c2df4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_userName", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_compatibilityVersion)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x59c479c;
+  constexpr static std::size_t addrs = 0x59c2e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_compatibilityVersion", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_sortIndex)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59c47e0;
+  constexpr static std::size_t addrs = 0x59c2e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_sortIndex", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_autoConnect)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59c47f8;
+  constexpr static std::size_t addrs = 0x59c2e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_autoConnect", {}, {} })));
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_inactiveByDefault)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59c4810;
+  constexpr static std::size_t addrs = 0x59c2e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_inactiveByDefault", {}, {} })));
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isConnected)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4828;
+  constexpr static std::size_t addrs = 0x59c2e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_isConnected", {}, {} })));
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isConnected)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4830;
+  constexpr static std::size_t addrs = 0x59c2ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "set_isConnected", {}, { ::i2c::type_of<bool>() } })));
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerAvatarsData (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_multiplayerAvatarsData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x59c4838;
+  constexpr static std::size_t addrs = 0x59c2ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_multiplayerAvatarsData", {}, {} })));
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(::GlobalNamespace::MultiplayerAvatarsData)>(
     &::GlobalNamespace::MockPlayer::set_multiplayerAvatarsData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x59c484c;
+  constexpr static std::size_t addrs = 0x59c2ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerActiveHand (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_activeHand)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4860;
+  constexpr static std::size_t addrs = 0x59c2ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_activeHand", {}, {} })));
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(::GlobalNamespace::MultiplayerActiveHand)>(&::GlobalNamespace::MockPlayer::set_activeHand)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4868;
+  constexpr static std::size_t addrs = 0x59c2ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isConnectionOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4870;
+  constexpr static std::size_t addrs = 0x59c2ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_isConnectionOwner", {}, {} })));
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isConnectionOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4878;
+  constexpr static std::size_t addrs = 0x59c2ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DisconnectedReason (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_disconnectedReason)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4880;
+  constexpr static std::size_t addrs = 0x59c2ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_disconnectedReason", {}, {} })));
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_offsetSyncTime)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x59c4888;
+  constexpr static std::size_t addrs = 0x59c2ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_offsetSyncTime", {}, {} })));
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_hasValidLatency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4960;
+  constexpr static std::size_t addrs = 0x59c2fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_hasValidLatency", {}, {} })));
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_currentLatency)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x59c4938;
+  constexpr static std::size_t addrs = 0x59c2fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_currentLatency", {}, {} })));
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isKicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4968;
+  constexpr static std::size_t addrs = 0x59c2fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_isKicked", {}, {} })));
@@ -300,7 +300,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isKicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4970;
+  constexpr static std::size_t addrs = 0x59c2fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "set_isKicked", {}, { ::i2c::type_of<bool>() } })));
@@ -312,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_currentPartySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4978;
+  constexpr static std::size_t addrs = 0x59c2fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_currentPartySize", {}, {} })));
@@ -324,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(int32_t)>(&::GlobalNamespace::MockPlayer::set_currentPartySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4980;
+  constexpr static std::size_t addrs = 0x59c2ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -337,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapLevelSelectionMask (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_selectionMask)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59c4988;
+  constexpr static std::size_t addrs = 0x59c2ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_selectionMask", {}, {} })));
@@ -349,7 +349,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(::GlobalNamespace::BeatmapLevelSelectionMask)>(&::GlobalNamespace::MockPlayer::set_selectionMask)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x59c49a0;
+  constexpr static std::size_t addrs = 0x59c3010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -362,7 +362,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameplayServerConfiguration (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_configuration)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x59c49b8;
+  constexpr static std::size_t addrs = 0x59c3028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_configuration", {}, {} })));
@@ -374,7 +374,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(::GlobalNamespace::GameplayServerConfiguration)>(&::GlobalNamespace::MockPlayer::set_configuration)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x59c49cc;
+  constexpr static std::size_t addrs = 0x59c303c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -387,7 +387,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isMyPartyOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c49e0;
+  constexpr static std::size_t addrs = 0x59c3050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_isMyPartyOwner", {}, {} })));
@@ -399,7 +399,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isMyPartyOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c49e8;
+  constexpr static std::size_t addrs = 0x59c3058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -412,7 +412,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IBeatSaberConnectedPlayer* (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_connectedPlayer)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59c49f0;
+  constexpr static std::size_t addrs = 0x59c3060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_connectedPlayer", {}, {} })));
@@ -424,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_canJoin)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c49f4;
+  constexpr static std::size_t addrs = 0x59c3064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -437,7 +437,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_requiresPassword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c49fc;
+  constexpr static std::size_t addrs = 0x59c306c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_requiresPassword", {}, {} })));
@@ -449,7 +449,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_requiresPassword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4a04;
+  constexpr static std::size_t addrs = 0x59c3074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -462,7 +462,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isWaitingOnJoin)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4a0c;
+  constexpr static std::size_t addrs = 0x59c307c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_isWaitingOnJoin", {}, {} })));
@@ -474,7 +474,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isWaitingOnJoin)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4a14;
+  constexpr static std::size_t addrs = 0x59c3084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -487,7 +487,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_canInvite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4a1c;
+  constexpr static std::size_t addrs = 0x59c308c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_canInvite", {}, {} })));
@@ -499,7 +499,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_canInvite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4a24;
+  constexpr static std::size_t addrs = 0x59c3094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "set_canInvite", {}, { ::i2c::type_of<bool>() } })));
@@ -511,7 +511,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isWaitingOnInvite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4a2c;
+  constexpr static std::size_t addrs = 0x59c309c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_isWaitingOnInvite", {}, {} })));
@@ -523,7 +523,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isWaitingOnInvite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4a34;
+  constexpr static std::size_t addrs = 0x59c30a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -536,7 +536,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_canKick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4a3c;
+  constexpr static std::size_t addrs = 0x59c30ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_canKick", {}, {} })));
@@ -548,7 +548,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_canKick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4a44;
+  constexpr static std::size_t addrs = 0x59c30b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "set_canKick", {}, { ::i2c::type_of<bool>() } })));
@@ -560,7 +560,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_canLeave)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4a4c;
+  constexpr static std::size_t addrs = 0x59c30bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_canLeave", {}, {} })));
@@ -572,7 +572,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_canLeave)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4a54;
+  constexpr static std::size_t addrs = 0x59c30c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "set_canLeave", {}, { ::i2c::type_of<bool>() } })));
@@ -584,7 +584,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_canBlock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4a5c;
+  constexpr static std::size_t addrs = 0x59c30cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_canBlock", {}, {} })));
@@ -596,7 +596,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_canBlock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4a64;
+  constexpr static std::size_t addrs = 0x59c30d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "set_canBlock", {}, { ::i2c::type_of<bool>() } })));
@@ -608,7 +608,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_canUnblock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4a6c;
+  constexpr static std::size_t addrs = 0x59c30dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_canUnblock", {}, {} })));
@@ -620,7 +620,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_canUnblock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c4a74;
+  constexpr static std::size_t addrs = 0x59c30e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "set_canUnblock", {}, { ::i2c::type_of<bool>() } })));
@@ -632,7 +632,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isPlayer)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x59c4a7c;
+  constexpr static std::size_t addrs = 0x59c30ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_isPlayer", {}, {} })));
@@ -644,7 +644,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isPlayer)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x59c4b2c;
+  constexpr static std::size_t addrs = 0x59c319c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "set_isPlayer", {}, { ::i2c::type_of<bool>() } })));
@@ -656,7 +656,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isDedicatedServer)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x59c4c34;
+  constexpr static std::size_t addrs = 0x59c32a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_isDedicatedServer", {}, {} })));
@@ -668,7 +668,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isDedicatedServer)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x59c4c80;
+  constexpr static std::size_t addrs = 0x59c32f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -681,7 +681,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_wantsToPlayNextLevel)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x59c4cdc;
+  constexpr static std::size_t addrs = 0x59c334c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_wantsToPlayNextLevel", {}, {} })));
@@ -693,7 +693,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_wantsToPlayNextLevel)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x59c4d28;
+  constexpr static std::size_t addrs = 0x59c3398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -706,7 +706,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_wasActiveAtLevelStart)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x59c4d84;
+  constexpr static std::size_t addrs = 0x59c33f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_wasActiveAtLevelStart", {}, {} })));
@@ -718,7 +718,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_wasActiveAtLevelStart)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x59c4dd0;
+  constexpr static std::size_t addrs = 0x59c3440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -731,7 +731,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isActive)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x59c4e2c;
+  constexpr static std::size_t addrs = 0x59c349c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_isActive", {}, {} })));
@@ -743,7 +743,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isActive)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x59c4e78;
+  constexpr static std::size_t addrs = 0x59c34e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "set_isActive", {}, { ::i2c::type_of<bool>() } })));
@@ -755,7 +755,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_finishedLevel)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x59c4ed4;
+  constexpr static std::size_t addrs = 0x59c3544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_finishedLevel", {}, {} })));
@@ -767,7 +767,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_finishedLevel)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x59c4f20;
+  constexpr static std::size_t addrs = 0x59c3590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -780,7 +780,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::get_isTerminating)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x59c4f7c;
+  constexpr static std::size_t addrs = 0x59c35ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "get_isTerminating", {}, {} })));
@@ -792,7 +792,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::set_isTerminating)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x59c4fc8;
+  constexpr static std::size_t addrs = 0x59c3638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -805,7 +805,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(::GlobalNamespace::MockPlayerSettings*, bool)>(&::GlobalNamespace::MockPlayer::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x59c5024;
+  constexpr static std::size_t addrs = 0x59c3694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -819,7 +819,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::Tick)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59c50cc;
+  constexpr static std::size_t addrs = 0x59c373c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "Tick", {}, {} })));
@@ -831,7 +831,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)(::StringW, bool)>(&::GlobalNamespace::MockPlayer::SetState)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x59c4b88;
+  constexpr static std::size_t addrs = 0x59c31f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -844,7 +844,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayer::*)(::StringW)>(&::GlobalNamespace::MockPlayer::HasState)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x59c4ac8;
+  constexpr static std::size_t addrs = 0x59c3138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "HasState", {}, { ::i2c::type_of<::StringW>() } })));
@@ -858,7 +858,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*, ::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::BeatmapDataLoader*, ::GlobalNamespace::EnvironmentsListModel*,
     ::GlobalNamespace::BeatmapCharacteristicCollection*, ::GlobalNamespace::NodePoseSyncStateManager*)>(&::GlobalNamespace::MockPlayer::Connect)> {
   constexpr static std::size_t size = 0x1040;
-  constexpr static std::size_t addrs = 0x59c50d0;
+  constexpr static std::size_t addrs = 0x59c3740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -871,7 +871,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::Disconnect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x59c6a2c;
+  constexpr static std::size_t addrs = 0x59c509c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -884,7 +884,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::Unblock)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59c6a38;
+  constexpr static std::size_t addrs = 0x59c50a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "Unblock", {}, {} })));
@@ -896,7 +896,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::SendJoinResponse)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59c6a70;
+  constexpr static std::size_t addrs = 0x59c50e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "SendJoinResponse", {}, { ::i2c::type_of<bool>() } })));
@@ -908,7 +908,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(bool)>(&::GlobalNamespace::MockPlayer::SendInviteResponse)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59c6aa8;
+  constexpr static std::size_t addrs = 0x59c5118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -921,7 +921,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::Block)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59c6ae0;
+  constexpr static std::size_t addrs = 0x59c5150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "Block", {}, {} })));
@@ -933,7 +933,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::Leave)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59c6b18;
+  constexpr static std::size_t addrs = 0x59c5188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "Leave", {}, {} })));
@@ -945,7 +945,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::Kick)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59c6b1c;
+  constexpr static std::size_t addrs = 0x59c518c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "Kick", {}, {} })));
@@ -957,7 +957,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::Invite)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59c6b54;
+  constexpr static std::size_t addrs = 0x59c51c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "Invite", {}, {} })));
@@ -969,7 +969,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(::StringW)>(&::GlobalNamespace::MockPlayer::Join)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59c6b8c;
+  constexpr static std::size_t addrs = 0x59c51fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -982,7 +982,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::Join)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x59c6bc4;
+  constexpr static std::size_t addrs = 0x59c5234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -995,7 +995,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::SimulateFail)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x59c6bfc;
+  constexpr static std::size_t addrs = 0x59c526c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "SimulateFail", {}, {} })));
@@ -1007,7 +1007,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::SimulateGiveUp)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x59c6c20;
+  constexpr static std::size_t addrs = 0x59c5290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "SimulateGiveUp", {}, {} })));
@@ -1019,7 +1019,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)()>(&::GlobalNamespace::MockPlayer::SimulateReturnToMainMenu)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x59c6c44;
+  constexpr static std::size_t addrs = 0x59c52b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayer*>(), { "SimulateReturnToMainMenu", {}, {} })));
@@ -1032,7 +1032,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(::GlobalNamespace::BeatmapDifficulty, ::StringW)>(
     &::GlobalNamespace::MockPlayer::RecommendBeatmapLevel)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x59c6cec;
+  constexpr static std::size_t addrs = 0x59c535c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1046,7 +1046,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayer::*)(::GlobalNamespace::GameplayModifiers*)>(&::GlobalNamespace::MockPlayer::RecommendGameplayModifiers)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x59c6d00;
+  constexpr static std::size_t addrs = 0x59c5370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

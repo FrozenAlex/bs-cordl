@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionClearedEnvironmentEffect::*)()>(&::GlobalNamespace::MissionClearedEnvironmentEffect::Awake)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5914eb8;
+  constexpr static std::size_t addrs = 0x59133d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionClearedEnvironmentEffect*>(), { "Awake", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionClearedEnvironmentEffect::*)()>(&::GlobalNamespace::MissionClearedEnvironmentEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5914ff0;
+  constexpr static std::size_t addrs = 0x5913510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionClearedEnvironmentEffect*>(), { "OnDestroy", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionClearedEnvironmentEffect::*)()>(
     &::GlobalNamespace::MissionClearedEnvironmentEffect::HandleMissionObjectiveCheckersManagerObjectiveWasCleared)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5915128;
+  constexpr static std::size_t addrs = 0x5913648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionClearedEnvironmentEffect::*)()>(&::GlobalNamespace::MissionClearedEnvironmentEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59151a4;
+  constexpr static std::size_t addrs = 0x59136c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionClearedEnvironmentEffect*>(), { ".ctor", {}, {} })));

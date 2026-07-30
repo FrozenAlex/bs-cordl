@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerToggle::*)(::UnityEngine::Rendering::DebugUI_Widget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerToggle::SetWidget)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6800be0;
+  constexpr static std::size_t addrs = 0x67fe97c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerToggle::*)(bool)>(&::UnityEngine::Rendering::UI::DebugUIHandlerToggle::OnToggleValueChanged)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6800d38;
+  constexpr static std::size_t addrs = 0x67fead4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UI::DebugUIHandlerToggle::*)(bool, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*)>(
     &::UnityEngine::Rendering::UI::DebugUIHandlerToggle::OnSelection)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6800d5c;
+  constexpr static std::size_t addrs = 0x67feaf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerToggle::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerToggle::OnDeselection)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6800db4;
+  constexpr static std::size_t addrs = 0x67feb50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerToggle::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerToggle::OnAction)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6800e04;
+  constexpr static std::size_t addrs = 0x67feba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerToggle::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerToggle::UpdateValueLabel)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6800e9c;
+  constexpr static std::size_t addrs = 0x67fec38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UI::DebugUIHandlerToggle::*)()>(&::UnityEngine::Rendering::UI::DebugUIHandlerToggle::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6800f60;
+  constexpr static std::size_t addrs = 0x67fecfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UI::DebugUIHandlerToggle*>(), { ".ctor", {}, {} })));

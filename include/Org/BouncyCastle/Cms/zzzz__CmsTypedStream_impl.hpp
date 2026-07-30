@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsTypedStream_FullReaderStream::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Cms::CmsTypedStream_FullReaderStream::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36c8d60;
+  constexpr static std::size_t addrs = 0x36c7328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Cms::CmsTypedStream_FullReaderStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Cms::CmsTypedStream_FullReaderStream::Read)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x36c8d78;
+  constexpr static std::size_t addrs = 0x36c7340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsTypedStream_FullReaderStream*>(),
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsTypedStream::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Cms::CmsTypedStream::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x36c8c28;
+  constexpr static std::size_t addrs = 0x36c71f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsTypedStream::*)(::StringW, ::System::IO::Stream*)>(&::Org::BouncyCastle::Cms::CmsTypedStream::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36b7024;
+  constexpr static std::size_t addrs = 0x36b55ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsTypedStream::*)(::StringW, ::System::IO::Stream*, int32_t)>(
     &::Org::BouncyCastle::Cms::CmsTypedStream::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x36c8cac;
+  constexpr static std::size_t addrs = 0x36c7274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Cms::CmsTypedStream::*)()>(&::Org::BouncyCastle::Cms::CmsTypedStream::get_ContentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36c8d68;
+  constexpr static std::size_t addrs = 0x36c7330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsTypedStream*>(), { "get_ContentType", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Cms::CmsTypedStream::*)()>(&::Org::BouncyCastle::Cms::CmsTypedStream::get_ContentStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36c8d70;
+  constexpr static std::size_t addrs = 0x36c7338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsTypedStream*>(), { "get_ContentStream", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::CmsTypedStream::*)()>(&::Org::BouncyCastle::Cms::CmsTypedStream::Drain)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x36b702c;
+  constexpr static std::size_t addrs = 0x36b55f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::CmsTypedStream*>(), { "Drain", {}, {} })));

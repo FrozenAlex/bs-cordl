@@ -106,7 +106,7 @@ public:
   static ::UnityEngine::TerrainData_BoundaryValueType const MinDetailResPerPatch;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22686 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -165,13 +165,13 @@ public:
 
   __declspec(property(get = get_users)) ::ArrayW<::UnityW<::UnityEngine::Terrain>> users;
 
-  /// @brief Method GetAlphamapResolutionInternal, addr 0x6bb6d0c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetAlphamapResolutionInternal, addr 0x6bb2710, size 0xa8, virtual false, abstract: false, final false
   inline float_t GetAlphamapResolutionInternal();
 
-  /// @brief Method GetAlphamapResolutionInternal_Injected, addr 0x6bb6db4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAlphamapResolutionInternal_Injected, addr 0x6bb27b8, size 0x3c, virtual false, abstract: false, final false
   static inline float_t GetAlphamapResolutionInternal_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method GetBoundaryValue, addr 0x6bb67e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryValue, addr 0x6bb21ec, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetBoundaryValue(::UnityEngine::TerrainData_BoundaryValueType type);
 
   static inline int32_t getStaticF_k_MaximumAlphamapResolution();
@@ -190,34 +190,34 @@ public:
 
   static inline int32_t getStaticF_k_MinimumDetailResolutionPerPatch();
 
-  /// @brief Method get_bounds, addr 0x6bb6bf0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_bounds, addr 0x6bb25f4, size 0xd8, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
 
-  /// @brief Method get_bounds_Injected, addr 0x6bb6cc8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_bounds_Injected, addr 0x6bb26cc, size 0x44, virtual false, abstract: false, final false
   static inline void get_bounds_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bounds> ret);
 
-  /// @brief Method get_heightmapScale, addr 0x6bb69d8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_heightmapScale, addr 0x6bb23dc, size 0xc8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_heightmapScale();
 
-  /// @brief Method get_heightmapScale_Injected, addr 0x6bb6aa0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_heightmapScale_Injected, addr 0x6bb24a4, size 0x44, virtual false, abstract: false, final false
   static inline void get_heightmapScale_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_heightmapTexture, addr 0x6bb6824, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method get_heightmapTexture, addr 0x6bb2228, size 0x178, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_heightmapTexture();
 
-  /// @brief Method get_heightmapTexture_Injected, addr 0x6bb699c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_heightmapTexture_Injected, addr 0x6bb23a0, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_heightmapTexture_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_size, addr 0x6bb6ae4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x6bb24e8, size 0xc8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_size();
 
-  /// @brief Method get_size_Injected, addr 0x6bb6bac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_size_Injected, addr 0x6bb25b0, size 0x44, virtual false, abstract: false, final false
   static inline void get_size_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_users, addr 0x6bb651c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_users, addr 0x6bb1f20, size 0xa8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Terrain>> get_users();
 
-  /// @brief Method get_users_Injected, addr 0x6bb6df0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_users_Injected, addr 0x6bb27f4, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Terrain>> get_users_Injected(::System::IntPtr _unity_self);
 
   static inline void setStaticF_k_MaximumAlphamapResolution(int32_t value);
@@ -251,7 +251,7 @@ public:
   TerrainData(TerrainData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22690 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22687 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

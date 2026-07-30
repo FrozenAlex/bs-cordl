@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IntroTutorialRing::*)(float_t)>(&::GlobalNamespace::IntroTutorialRing::set_alpha)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5919dac;
+  constexpr static std::size_t addrs = 0x59182cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::IntroTutorialRing::*)()>(&::GlobalNamespace::IntroTutorialRing::get_fullyActivated)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5919dc4;
+  constexpr static std::size_t addrs = 0x59182e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IntroTutorialRing*>(), { "get_fullyActivated", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SaberType (::GlobalNamespace::IntroTutorialRing::*)()>(&::GlobalNamespace::IntroTutorialRing::get_saberType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5919de8;
+  constexpr static std::size_t addrs = 0x5918308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IntroTutorialRing*>(), { "get_saberType", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IntroTutorialRing::*)(::GlobalNamespace::SaberType)>(&::GlobalNamespace::IntroTutorialRing::set_saberType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5919df0;
+  constexpr static std::size_t addrs = 0x5918310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IntroTutorialRing::*)()>(&::GlobalNamespace::IntroTutorialRing::Start)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5919df8;
+  constexpr static std::size_t addrs = 0x5918318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IntroTutorialRing*>(), { "Start", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IntroTutorialRing::*)()>(&::GlobalNamespace::IntroTutorialRing::OnEnable)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5919e78;
+  constexpr static std::size_t addrs = 0x5918398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IntroTutorialRing*>(), { "OnEnable", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IntroTutorialRing::*)()>(&::GlobalNamespace::IntroTutorialRing::Update)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x5919ecc;
+  constexpr static std::size_t addrs = 0x59183ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IntroTutorialRing*>(), { "Update", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IntroTutorialRing::*)(float_t)>(&::GlobalNamespace::IntroTutorialRing::SetProgressImagesfillAmount)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x591a030;
+  constexpr static std::size_t addrs = 0x5918550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IntroTutorialRing::*)(::UnityEngine::Collider*)>(&::GlobalNamespace::IntroTutorialRing::OnTriggerEnter)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x591a094;
+  constexpr static std::size_t addrs = 0x59185b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IntroTutorialRing::*)(::UnityEngine::Collider*)>(&::GlobalNamespace::IntroTutorialRing::OnTriggerExit)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x591a1a8;
+  constexpr static std::size_t addrs = 0x59186c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IntroTutorialRing::*)(::UnityEngine::Collider*)>(&::GlobalNamespace::IntroTutorialRing::OnTriggerStay)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x591a2b0;
+  constexpr static std::size_t addrs = 0x59187d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IntroTutorialRing::*)()>(&::GlobalNamespace::IntroTutorialRing::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x591a3d0;
+  constexpr static std::size_t addrs = 0x59188f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IntroTutorialRing*>(), { ".ctor", {}, {} })));

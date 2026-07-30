@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW)>(&::UnityEngine::Assertions::_cordl_Assert::Fail)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6b03808;
+  constexpr static std::size_t addrs = 0x6aff20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::Assertions::_cordl_Assert::IsTrue)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6b039ac;
+  constexpr static std::size_t addrs = 0x6aff3b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::StringW)>(&::UnityEngine::Assertions::_cordl_Assert::IsTrue)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6b03a18;
+  constexpr static std::size_t addrs = 0x6aff41c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::Assertions::_cordl_Assert::IsFalse)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6b03b48;
+  constexpr static std::size_t addrs = 0x6aff54c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::StringW)>(&::UnityEngine::Assertions::_cordl_Assert::IsFalse)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6b03bb4;
+  constexpr static std::size_t addrs = 0x6aff5b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*, ::UnityEngine::Object*, ::StringW)>(&::UnityEngine::Assertions::_cordl_Assert::AreEqual)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6b03c40;
+  constexpr static std::size_t addrs = 0x6aff644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*, ::StringW)>(&::UnityEngine::Assertions::_cordl_Assert::IsNull)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6b03f30;
+  constexpr static std::size_t addrs = 0x6aff934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Object*, ::StringW)>(&::UnityEngine::Assertions::_cordl_Assert::IsNotNull)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6b04174;
+  constexpr static std::size_t addrs = 0x6affb78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Assertions::_cordl_Assert*>(),
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t)>(&::UnityEngine::Assertions::_cordl_Assert::AreEqual)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6b04238;
+  constexpr static std::size_t addrs = 0x6affc3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

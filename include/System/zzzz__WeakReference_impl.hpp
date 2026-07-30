@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::WeakReference::*)(::System::Object*)>(&::System::WeakReference::AllocateHandle)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c9eab8;
+  constexpr static std::size_t addrs = 0x5c9c824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::WeakReference::*)()>(&::System::WeakReference::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c9eadc;
+  constexpr static std::size_t addrs = 0x5c9c848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::WeakReference*>(), { ".ctor", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::WeakReference::*)(::System::Object*)>(&::System::WeakReference::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5c9eae0;
+  constexpr static std::size_t addrs = 0x5c9c84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::WeakReference*>(), { ".ctor", {}, { ::i2c::type_of<::System::Object*>() } })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::WeakReference::*)(::System::Object*, bool)>(&::System::WeakReference::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5c9eb08;
+  constexpr static std::size_t addrs = 0x5c9c874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::WeakReference::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::WeakReference::_ctor)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x5c9eb30;
+  constexpr static std::size_t addrs = 0x5c9c89c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::WeakReference::*)()>(&::System::WeakReference::get_IsAlive)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c9ec4c;
+  constexpr static std::size_t addrs = 0x5c9c9b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::WeakReference*>(), { ::i2c::class_of<::System::WeakReference*>(), 5 }));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::WeakReference::*)()>(&::System::WeakReference::get_Target)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5c9ec6c;
+  constexpr static std::size_t addrs = 0x5c9c9d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::WeakReference*>(), { ::i2c::class_of<::System::WeakReference*>(), 6 }));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::WeakReference::*)(::System::Object*)>(&::System::WeakReference::set_Target)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5c9ec84;
+  constexpr static std::size_t addrs = 0x5c9c9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::WeakReference*>(), { ::i2c::class_of<::System::WeakReference*>(), 7 }));
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::WeakReference::*)()>(&::System::WeakReference::get_TrackResurrection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c9ecb8;
+  constexpr static std::size_t addrs = 0x5c9ca24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::WeakReference*>(), { ::i2c::class_of<::System::WeakReference*>(), 8 }));
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::WeakReference::*)()>(&::System::WeakReference::Finalize)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5c9ecc0;
+  constexpr static std::size_t addrs = 0x5c9ca2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::WeakReference*>(), { ::i2c::class_of<::System::WeakReference*>(), 1 }));
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::WeakReference::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::WeakReference::GetObjectData)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x5c9ed0c;
+  constexpr static std::size_t addrs = 0x5c9ca78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::WeakReference*>(), { ::i2c::class_of<::System::WeakReference*>(), 9 }));

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusChangeTarget___c::*)()>(
     &::UnityEngine::UIElements::VisualElementFocusChangeTarget___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cc7fb0;
+  constexpr static std::size_t addrs = 0x6cc39b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementFocusChangeTarget___c*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElementFocusChangeTarget* (::UnityEngine::UIElements::VisualElementFocusChangeTarget___c::*)()>(
     &::UnityEngine::UIElements::VisualElementFocusChangeTarget___c::__cctor_b__9_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6cc7fb4;
+  constexpr static std::size_t addrs = 0x6cc39b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElementFocusChangeTarget* (*)(::UnityEngine::UIElements::Focusable*)>(
     &::UnityEngine::UIElements::VisualElementFocusChangeTarget::GetPooled)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6cc7c30;
+  constexpr static std::size_t addrs = 0x6cc3634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>(),
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusChangeTarget::*)()>(&::UnityEngine::UIElements::VisualElementFocusChangeTarget::Dispose)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6cc7cc0;
+  constexpr static std::size_t addrs = 0x6cc36c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusChangeTarget::*)(
     ::UnityEngine::UIElements::FocusController*, ::UnityEngine::UIElements::Focusable*)>(&::UnityEngine::UIElements::VisualElementFocusChangeTarget::ApplyTo)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6cc7d4c;
+  constexpr static std::size_t addrs = 0x6cc3750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>(),
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusChangeTarget::*)()>(&::UnityEngine::UIElements::VisualElementFocusChangeTarget::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6cc7d88;
+  constexpr static std::size_t addrs = 0x6cc378c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>(), { ".ctor", {}, {} })));
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Focusable* (::UnityEngine::UIElements::VisualElementFocusChangeTarget::*)()>(
     &::UnityEngine::UIElements::VisualElementFocusChangeTarget::get_target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc7e34;
+  constexpr static std::size_t addrs = 0x6cc3838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>(), { "get_target", {}, {} })));
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusChangeTarget::*)(::UnityEngine::UIElements::Focusable*)>(
     &::UnityEngine::UIElements::VisualElementFocusChangeTarget::set_target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc7e3c;
+  constexpr static std::size_t addrs = 0x6cc3840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>(),

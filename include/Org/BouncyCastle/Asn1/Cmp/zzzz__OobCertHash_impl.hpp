@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::OobCertHash::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::OobCertHash::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3348ea8;
+  constexpr static std::size_t addrs = 0x3347470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::OobCertHash* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Cmp::OobCertHash::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x33491fc;
+  constexpr static std::size_t addrs = 0x33477c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Cmp::OobCertHash::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::OobCertHash::get_HashAlg)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3349380;
+  constexpr static std::size_t addrs = 0x3347948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Crmf::CertId* (::Org::BouncyCastle::Asn1::Cmp::OobCertHash::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::OobCertHash::get_CertID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3349388;
+  constexpr static std::size_t addrs = 0x3347950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::OobCertHash::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::OobCertHash::ToAsn1Object)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3349390;
+  constexpr static std::size_t addrs = 0x3347958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

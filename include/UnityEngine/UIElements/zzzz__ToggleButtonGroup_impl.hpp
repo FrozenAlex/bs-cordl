@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory::*)()>(&::UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6d773d8;
+  constexpr static std::size_t addrs = 0x6d72ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory*>(), { ".ctor", {}, {} })));
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(
     &::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6d77440;
+  constexpr static std::size_t addrs = 0x6d72e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits*>(),
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits::*)()>(&::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6d775b8;
+  constexpr static std::size_t addrs = 0x6d72fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits*>(), { ".ctor", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ToggleButtonGroup::*)()>(&::UnityEngine::UIElements::ToggleButtonGroup::get_isMultipleSelection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d752c0;
+  constexpr static std::size_t addrs = 0x6d70cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(), { "get_isMultipleSelection", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)(bool)>(&::UnityEngine::UIElements::ToggleButtonGroup::set_isMultipleSelection)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x6d752c8;
+  constexpr static std::size_t addrs = 0x6d70ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ToggleButtonGroup::*)()>(&::UnityEngine::UIElements::ToggleButtonGroup::get_allowEmptySelection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d75728;
+  constexpr static std::size_t addrs = 0x6d7112c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(), { "get_allowEmptySelection", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)(bool)>(&::UnityEngine::UIElements::ToggleButtonGroup::set_allowEmptySelection)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x6d75730;
+  constexpr static std::size_t addrs = 0x6d71134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)()>(&::UnityEngine::UIElements::ToggleButtonGroup::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6d75918;
+  constexpr static std::size_t addrs = 0x6d7131c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(), { ".ctor", {}, {} })));
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)(::StringW)>(&::UnityEngine::UIElements::ToggleButtonGroup::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d75928;
+  constexpr static std::size_t addrs = 0x6d7132c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)(::StringW, ::UnityEngine::UIElements::ToggleButtonGroupState)>(
     &::UnityEngine::UIElements::ToggleButtonGroup::_ctor)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x6d75a80;
+  constexpr static std::size_t addrs = 0x6d71484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::ToggleButtonGroup::*)()>(
     &::UnityEngine::UIElements::ToggleButtonGroup::get_contentContainer)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6d75da4;
+  constexpr static std::size_t addrs = 0x6d717a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)()>(&::UnityEngine::UIElements::ToggleButtonGroup::OnViewDataReady)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6d75db4;
+  constexpr static std::size_t addrs = 0x6d717b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)()>(&::UnityEngine::UIElements::ToggleButtonGroup::UpdateMixedValueContent)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x6d76064;
+  constexpr static std::size_t addrs = 0x6d71a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)(::UnityEngine::UIElements::ToggleButtonGroupState)>(
     &::UnityEngine::UIElements::ToggleButtonGroup::SetValueWithoutNotify)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x6d761fc;
+  constexpr static std::size_t addrs = 0x6d71c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)(::UnityEngine::UIElements::VisualElement*, int32_t)>(
     &::UnityEngine::UIElements::ToggleButtonGroup::OnButtonGroupContainerElementAdded)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x6d763e0;
+  constexpr static std::size_t addrs = 0x6d71de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::ToggleButtonGroup::OnButtonGroupContainerElementRemoved)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x6d768bc;
+  constexpr static std::size_t addrs = 0x6d722c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)(::UnityEngine::UIElements::ToggleButtonGroupState)>(
     &::UnityEngine::UIElements::ToggleButtonGroup::UpdateButtonStates)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x6d75e2c;
+  constexpr static std::size_t addrs = 0x6d71830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(),
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::ToggleButtonGroup::OnOptionChange)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x6d76c38;
+  constexpr static std::size_t addrs = 0x6d7263c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ToggleButtonGroup::*)()>(&::UnityEngine::UIElements::ToggleButtonGroup::UpdateButtonsStyling)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x6d76720;
+  constexpr static std::size_t addrs = 0x6d72124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ToggleButtonGroup*>(), { "UpdateButtonsStyling", {}, {} })));

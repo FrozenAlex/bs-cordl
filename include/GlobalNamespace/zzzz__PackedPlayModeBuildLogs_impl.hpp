@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackedPlayModeBuildLogs_RuntimeBuildLog::*)(::UnityEngine::LogType, ::StringW)>(
     &::GlobalNamespace::PackedPlayModeBuildLogs_RuntimeBuildLog::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6444820;
+  constexpr static std::size_t addrs = 0x64425bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackedPlayModeBuildLogs_RuntimeBuildLog>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::PackedPlayModeBuildLogs_RuntimeBuildLog>* (
     ::GlobalNamespace::PackedPlayModeBuildLogs::*)()>(&::GlobalNamespace::PackedPlayModeBuildLogs::get_RuntimeBuildLogs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x644479c;
+  constexpr static std::size_t addrs = 0x6442538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackedPlayModeBuildLogs*>(), { "get_RuntimeBuildLogs", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackedPlayModeBuildLogs::*)(
     ::System::Collections::Generic::List_1<::GlobalNamespace::PackedPlayModeBuildLogs_RuntimeBuildLog>*)>(&::GlobalNamespace::PackedPlayModeBuildLogs::set_RuntimeBuildLogs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64447a4;
+  constexpr static std::size_t addrs = 0x6442540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackedPlayModeBuildLogs::*)()>(&::GlobalNamespace::PackedPlayModeBuildLogs::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x64447ac;
+  constexpr static std::size_t addrs = 0x6442548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackedPlayModeBuildLogs*>(), { ".ctor", {}, {} })));

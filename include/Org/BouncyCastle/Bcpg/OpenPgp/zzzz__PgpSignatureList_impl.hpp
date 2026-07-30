@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::*)(::ArrayW<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature*>)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x359e52c;
+  constexpr static std::size_t addrs = 0x359caf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::*)(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x359e5cc;
+  constexpr static std::size_t addrs = 0x359cb94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::*)(int32_t)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::get_Item)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x359e66c;
+  constexpr static std::size_t addrs = 0x359cc34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::*)(int32_t)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::Get)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x359e69c;
+  constexpr static std::size_t addrs = 0x359cc64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::*)()>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::get_Size)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x359e6a0;
+  constexpr static std::size_t addrs = 0x359cc68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList*>(), { "get_Size", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::*)()>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::get_Count)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x359e6b8;
+  constexpr static std::size_t addrs = 0x359cc80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList*>(), { "get_Count", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::*)()>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList::get_IsEmpty)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x359e6d0;
+  constexpr static std::size_t addrs = 0x359cc98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureList*>(), { "get_IsEmpty", {}, {} })));

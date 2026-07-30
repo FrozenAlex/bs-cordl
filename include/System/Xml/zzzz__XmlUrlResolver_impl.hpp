@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUrlResolver__GetEntityAsync_d__15::*)()>(&::System::Xml::XmlUrlResolver__GetEntityAsync_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x62e203c;
+  constexpr static std::size_t addrs = 0x62dfdd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUrlResolver__GetEntityAsync_d__15>(), { "MoveNext", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUrlResolver__GetEntityAsync_d__15::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::System::Xml::XmlUrlResolver__GetEntityAsync_d__15::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x62e2408;
+  constexpr static std::size_t addrs = 0x62e01a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUrlResolver__GetEntityAsync_d__15>(),
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDownloadManager* (*)()>(&::System::Xml::XmlUrlResolver::get_DownloadManager)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x62e1d34;
+  constexpr static std::size_t addrs = 0x62dfad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUrlResolver*>(), { "get_DownloadManager", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlUrlResolver::*)()>(&::System::Xml::XmlUrlResolver::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62e1e00;
+  constexpr static std::size_t addrs = 0x62dfb9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlUrlResolver*>(), { ".ctor", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::XmlUrlResolver::*)(::System::Uri*, ::StringW, ::System::Type*)>(&::System::Xml::XmlUrlResolver::GetEntity)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x62e1e04;
+  constexpr static std::size_t addrs = 0x62dfba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlUrlResolver*>(), { ::i2c::class_of<::System::Xml::XmlUrlResolver*>(), 4 }));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Uri* (::System::Xml::XmlUrlResolver::*)(::System::Uri*, ::StringW)>(&::System::Xml::XmlUrlResolver::ResolveUri)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62e1f40;
+  constexpr static std::size_t addrs = 0x62dfcdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlUrlResolver*>(), { ::i2c::class_of<::System::Xml::XmlUrlResolver*>(), 5 }));
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::Object*>* (::System::Xml::XmlUrlResolver::*)(::System::Uri*, ::StringW, ::System::Type*)>(
     &::System::Xml::XmlUrlResolver::GetEntityAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x62e1f44;
+  constexpr static std::size_t addrs = 0x62dfce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::XmlUrlResolver*>(), { ::i2c::class_of<::System::Xml::XmlUrlResolver*>(), 7 }));

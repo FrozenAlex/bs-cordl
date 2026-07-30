@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::OVRTelemetry_MarkerPoint::*)()>(&::GlobalNamespace::OVRTelemetry_MarkerPoint::get_NameHandle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5edc8e4;
+  constexpr static std::size_t addrs = 0x5eda650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetry_MarkerPoint>(), { "get_NameHandle", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_MarkerPoint::*)(::StringW)>(&::GlobalNamespace::OVRTelemetry_MarkerPoint::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5edc8ec;
+  constexpr static std::size_t addrs = 0x5eda658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_MarkerPoint::*)()>(&::GlobalNamespace::OVRTelemetry_MarkerPoint::Dispose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5edc978;
+  constexpr static std::size_t addrs = 0x5eda6e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetry_MarkerPoint>(), { "Dispose", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_TelemetryClient::*)(int32_t, ::StringW, bool, int32_t)>(
     &::GlobalNamespace::OVRTelemetry_TelemetryClient::MarkerAnnotation)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5edc9e4;
+  constexpr static std::size_t addrs = 0x5eda750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_TelemetryClient::*)(int32_t, ::StringW, int64_t, int32_t)>(
     &::GlobalNamespace::OVRTelemetry_TelemetryClient::MarkerAnnotation)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5edc9fc;
+  constexpr static std::size_t addrs = 0x5eda768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_TelemetryClient::*)(int32_t, ::StringW, double_t, int32_t)>(
     &::GlobalNamespace::OVRTelemetry_TelemetryClient::MarkerAnnotation)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5edca14;
+  constexpr static std::size_t addrs = 0x5eda780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_TelemetryClient::*)(int32_t, ::StringW, uint8_t*, int32_t, int32_t)>(
     &::GlobalNamespace::OVRTelemetry_TelemetryClient::MarkerAnnotation)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5edca2c;
+  constexpr static std::size_t addrs = 0x5eda798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_TelemetryClient::*)(int32_t, ::StringW, int64_t*, int32_t, int32_t)>(
     &::GlobalNamespace::OVRTelemetry_TelemetryClient::MarkerAnnotation)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5edca48;
+  constexpr static std::size_t addrs = 0x5eda7b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_TelemetryClient::*)(int32_t, ::StringW, double_t*, int32_t, int32_t)>(
     &::GlobalNamespace::OVRTelemetry_TelemetryClient::MarkerAnnotation)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5edca64;
+  constexpr static std::size_t addrs = 0x5eda7d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_TelemetryClient::*)(int32_t, ::StringW, ::GlobalNamespace::OVRPlugin_Bool*, int32_t, int32_t)>(
     &::GlobalNamespace::OVRTelemetry_TelemetryClient::MarkerAnnotation)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5edca80;
+  constexpr static std::size_t addrs = 0x5eda7ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_TelemetryClient::*)()>(&::GlobalNamespace::OVRTelemetry_TelemetryClient::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5edca9c;
+  constexpr static std::size_t addrs = 0x5eda808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetry_TelemetryClient*>(), { ".ctor", {}, {} })));
@@ -431,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_NullTelemetryClient::*)(int32_t, int32_t, int64_t, ::StringW)>(
     &::GlobalNamespace::OVRTelemetry_NullTelemetryClient::MarkerStart)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5edcaa0;
+  constexpr static std::size_t addrs = 0x5eda80c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetry_NullTelemetryClient*>(),
@@ -445,7 +445,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_NullTelemetryClient::*)(int32_t, int32_t, int32_t, int64_t)>(
     &::GlobalNamespace::OVRTelemetry_NullTelemetryClient::MarkerPointCached)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5edcaa4;
+  constexpr static std::size_t addrs = 0x5eda810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetry_NullTelemetryClient*>(),
@@ -459,7 +459,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_NullTelemetryClient::*)(int32_t, ::StringW, int32_t, int64_t)>(
     &::GlobalNamespace::OVRTelemetry_NullTelemetryClient::MarkerPoint)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5edcaa8;
+  constexpr static std::size_t addrs = 0x5eda814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetry_NullTelemetryClient*>(),
@@ -473,7 +473,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_NullTelemetryClient::*)(int32_t, ::StringW, ::GlobalNamespace::Qpl_OVRPlugin_Annotation*, int32_t, int32_t,
                                                                                                                      int64_t)>(&::GlobalNamespace::OVRTelemetry_NullTelemetryClient::MarkerPoint)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5edcaac;
+  constexpr static std::size_t addrs = 0x5eda818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetry_NullTelemetryClient*>(),
@@ -487,7 +487,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_NullTelemetryClient::*)(int32_t, ::StringW, ::GlobalNamespace::Qpl_OVRPlugin_Variant, int32_t)>(
     &::GlobalNamespace::OVRTelemetry_NullTelemetryClient::MarkerAnnotation)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5edcab0;
+  constexpr static std::size_t addrs = 0x5eda81c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetry_NullTelemetryClient*>(),
@@ -501,7 +501,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_NullTelemetryClient::*)(int32_t, ::StringW, ::StringW, int32_t)>(
     &::GlobalNamespace::OVRTelemetry_NullTelemetryClient::MarkerAnnotation)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5edcab4;
+  constexpr static std::size_t addrs = 0x5eda820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetry_NullTelemetryClient*>(),
@@ -515,7 +515,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_NullTelemetryClient::*)(int32_t, ::GlobalNamespace::Qpl_OVRPlugin_ResultType, int32_t, int64_t)>(
     &::GlobalNamespace::OVRTelemetry_NullTelemetryClient::MarkerEnd)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5edcab8;
+  constexpr static std::size_t addrs = 0x5eda824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetry_NullTelemetryClient*>(),
@@ -529,7 +529,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRTelemetry_NullTelemetryClient::*)(::StringW, ::by_ref<int32_t>)>(
     &::GlobalNamespace::OVRTelemetry_NullTelemetryClient::CreateMarkerHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5edcabc;
+  constexpr static std::size_t addrs = 0x5eda828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetry_NullTelemetryClient*>(),
@@ -543,7 +543,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRTelemetry_NullTelemetryClient::*)(int32_t)>(
     &::GlobalNamespace::OVRTelemetry_NullTelemetryClient::DestroyMarkerHandle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5edcac8;
+  constexpr static std::size_t addrs = 0x5eda834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetry_NullTelemetryClient*>(),
@@ -556,7 +556,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_NullTelemetryClient::*)()>(&::GlobalNamespace::OVRTelemetry_NullTelemetryClient::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5edc8dc;
+  constexpr static std::size_t addrs = 0x5eda648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetry_NullTelemetryClient*>(), { ".ctor", {}, {} })));
@@ -624,7 +624,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_QPLTelemetryClient::*)(int32_t, int32_t, int64_t, ::StringW)>(
     &::GlobalNamespace::OVRTelemetry_QPLTelemetryClient::MarkerStart)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5edcad0;
+  constexpr static std::size_t addrs = 0x5eda83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -638,7 +638,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_QPLTelemetryClient::*)(int32_t, int32_t, int32_t, int64_t)>(
     &::GlobalNamespace::OVRTelemetry_QPLTelemetryClient::MarkerPointCached)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5edcb0c;
+  constexpr static std::size_t addrs = 0x5eda878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -652,7 +652,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_QPLTelemetryClient::*)(int32_t, ::StringW, int32_t, int64_t)>(
     &::GlobalNamespace::OVRTelemetry_QPLTelemetryClient::MarkerPoint)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5edcb24;
+  constexpr static std::size_t addrs = 0x5eda890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -666,7 +666,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_QPLTelemetryClient::*)(int32_t, ::StringW, ::GlobalNamespace::Qpl_OVRPlugin_Annotation*, int32_t, int32_t,
                                                                                                                     int64_t)>(&::GlobalNamespace::OVRTelemetry_QPLTelemetryClient::MarkerPoint)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5edcb3c;
+  constexpr static std::size_t addrs = 0x5eda8a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -680,7 +680,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_QPLTelemetryClient::*)(int32_t, ::StringW, ::StringW, int32_t)>(
     &::GlobalNamespace::OVRTelemetry_QPLTelemetryClient::MarkerAnnotation)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5edcb5c;
+  constexpr static std::size_t addrs = 0x5eda8c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -694,7 +694,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_QPLTelemetryClient::*)(int32_t, ::StringW, ::GlobalNamespace::Qpl_OVRPlugin_Variant, int32_t)>(
     &::GlobalNamespace::OVRTelemetry_QPLTelemetryClient::MarkerAnnotation)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5edcb74;
+  constexpr static std::size_t addrs = 0x5eda8e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -708,7 +708,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_QPLTelemetryClient::*)(int32_t, ::GlobalNamespace::Qpl_OVRPlugin_ResultType, int32_t, int64_t)>(
     &::GlobalNamespace::OVRTelemetry_QPLTelemetryClient::MarkerEnd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5edcb90;
+  constexpr static std::size_t addrs = 0x5eda8fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -722,7 +722,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRTelemetry_QPLTelemetryClient::*)(::StringW, ::by_ref<int32_t>)>(
     &::GlobalNamespace::OVRTelemetry_QPLTelemetryClient::CreateMarkerHandle)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5edcba8;
+  constexpr static std::size_t addrs = 0x5eda914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -736,7 +736,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRTelemetry_QPLTelemetryClient::*)(int32_t)>(
     &::GlobalNamespace::OVRTelemetry_QPLTelemetryClient::DestroyMarkerHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5edcbb8;
+  constexpr static std::size_t addrs = 0x5eda924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -749,7 +749,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_QPLTelemetryClient::*)()>(&::GlobalNamespace::OVRTelemetry_QPLTelemetryClient::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5edc8e0;
+  constexpr static std::size_t addrs = 0x5eda64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetry_QPLTelemetryClient*>(), { ".ctor", {}, {} })));
@@ -816,7 +816,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRTelemetry_MarkersAttribute::*)()>(&::GlobalNamespace::OVRTelemetry_MarkersAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5edcbc4;
+  constexpr static std::size_t addrs = 0x5eda930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetry_MarkersAttribute*>(), { ".ctor", {}, {} })));
@@ -837,7 +837,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::GlobalNamespace::OVRTelemetry::get_IsActive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5edc290;
+  constexpr static std::size_t addrs = 0x5ed9ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetry*>(), { "get_IsActive", {}, {} })));
@@ -849,7 +849,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetry_TelemetryClient* (*)()>(&::GlobalNamespace::OVRTelemetry::get_Client)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5edc298;
+  constexpr static std::size_t addrs = 0x5eda004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetry*>(), { "get_Client", {}, {} })));
@@ -861,7 +861,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (*)(int32_t, int32_t, int64_t)>(&::GlobalNamespace::OVRTelemetry::Start)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5edc270;
+  constexpr static std::size_t addrs = 0x5ed9fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -875,7 +875,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::GlobalNamespace::Qpl_OVRPlugin_ResultType)>(&::GlobalNamespace::OVRTelemetry::SendEvent)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5edc3ac;
+  constexpr static std::size_t addrs = 0x5eda118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -889,7 +889,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (*)(::GlobalNamespace::OVRTelemetryMarker)>(&::GlobalNamespace::OVRTelemetry::AddSDKVersionAnnotation)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5edc48c;
+  constexpr static std::size_t addrs = 0x5eda1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -902,7 +902,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::GlobalNamespace::OVRTelemetry::GetPlayModeOrigin)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5edc64c;
+  constexpr static std::size_t addrs = 0x5eda3b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRTelemetry*>(), { "GetPlayModeOrigin", {}, {} })));
@@ -914,7 +914,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTelemetryMarker (*)(::GlobalNamespace::OVRTelemetryMarker)>(&::GlobalNamespace::OVRTelemetry::AddPlayModeOrigin)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5edc724;
+  constexpr static std::size_t addrs = 0x5eda490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -927,7 +927,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(bool)>(&::GlobalNamespace::OVRTelemetry::GetTelemetrySettingString)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5edc7cc;
+  constexpr static std::size_t addrs = 0x5eda538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

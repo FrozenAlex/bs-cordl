@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::IPEndPoint* (*)(::StringW, int32_t)>(&::LiteNetLib::NetUtils::MakeEndPoint)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x589eb28;
+  constexpr static std::size_t addrs = 0x589cfd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::IPAddress* (*)(::StringW)>(&::LiteNetLib::NetUtils::ResolveAddress)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x58a4ac8;
+  constexpr static std::size_t addrs = 0x58a2f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetUtils*>(), { "ResolveAddress", {}, { ::i2c::type_of<::StringW>() } })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::IPAddress* (*)(::StringW, ::System::Net::Sockets::AddressFamily)>(&::LiteNetLib::NetUtils::ResolveAddress)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x58a9500;
+  constexpr static std::size_t addrs = 0x58a79ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Net::IPAddress*> (*)(::StringW)>(&::LiteNetLib::NetUtils::ResolveAddresses)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58a95c4;
+  constexpr static std::size_t addrs = 0x58a7a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetUtils*>(), { "ResolveAddresses", {}, { ::i2c::type_of<::StringW>() } })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::StringW>* (*)(::LiteNetLib::LocalAddrType)>(&::LiteNetLib::NetUtils::GetLocalIpList)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x58a95e4;
+  constexpr static std::size_t addrs = 0x58a7a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::IList_1<::StringW>*, ::LiteNetLib::LocalAddrType)>(&::LiteNetLib::NetUtils::GetLocalIpList)> {
   constexpr static std::size_t size = 0x7c4;
-  constexpr static std::size_t addrs = 0x58a968c;
+  constexpr static std::size_t addrs = 0x58a7b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::LiteNetLib::LocalAddrType)>(&::LiteNetLib::NetUtils::GetLocalIp)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x589ecf0;
+  constexpr static std::size_t addrs = 0x589d19c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::LiteNetLib::NetUtils::PrintInterfaceInfos)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x58a9e50;
+  constexpr static std::size_t addrs = 0x58a82fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::NetUtils*>(), { "PrintInterfaceInfos", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::LiteNetLib::NetUtils::RelativeSequenceNumber)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58a8150;
+  constexpr static std::size_t addrs = 0x58a65fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

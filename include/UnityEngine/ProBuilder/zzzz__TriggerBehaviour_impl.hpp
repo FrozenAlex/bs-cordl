@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::TriggerBehaviour::*)()>(&::UnityEngine::ProBuilder::TriggerBehaviour::Initialize)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x66f33bc;
+  constexpr static std::size_t addrs = 0x66f1158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::TriggerBehaviour::*)()>(&::UnityEngine::ProBuilder::TriggerBehaviour::OnEnterPlayMode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x66f356c;
+  constexpr static std::size_t addrs = 0x66f1308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::TriggerBehaviour::*)(::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode)>(
     &::UnityEngine::ProBuilder::TriggerBehaviour::OnSceneLoaded)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x66f35e8;
+  constexpr static std::size_t addrs = 0x66f1384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::TriggerBehaviour::*)()>(&::UnityEngine::ProBuilder::TriggerBehaviour::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66f3664;
+  constexpr static std::size_t addrs = 0x66f1400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::TriggerBehaviour*>(), { ".ctor", {}, {} })));

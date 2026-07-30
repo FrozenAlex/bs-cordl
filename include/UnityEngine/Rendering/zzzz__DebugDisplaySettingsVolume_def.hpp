@@ -213,7 +213,7 @@ public:
   DebugDisplaySettingsVolume_Styles(DebugDisplaySettingsVolume_Styles const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11928 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -362,7 +362,7 @@ public:
   DebugDisplaySettingsVolume_Strings(DebugDisplaySettingsVolume_Strings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11929 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -390,7 +390,7 @@ public:
                                                                           ::UnityW<::UnityEngine::Rendering::Volume> volume) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11932 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11930 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -436,13 +436,13 @@ public:
 
   static inline ::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c* New_ctor();
 
-  /// @brief Method <GenerateTableColumns>b__9_2, addr 0x675a438, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <GenerateTableColumns>b__9_2, addr 0x67581d4, size 0x14, virtual false, abstract: false, final false
   inline ::System::Object* _GenerateTableColumns_b__9_2();
 
-  /// @brief Method <.cctor>b__11_0, addr 0x675a44c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__11_0, addr 0x67581e8, size 0x14, virtual false, abstract: false, final false
   inline ::System::Object* __cctor_b__11_0();
 
-  /// @brief Method .ctor, addr 0x675a434, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67581d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c* getStaticF___9();
@@ -468,7 +468,7 @@ public:
   WidgetFactory_DebugDisplaySettingsVolume___c(WidgetFactory_DebugDisplaySettingsVolume___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11931 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -488,16 +488,16 @@ public:
 
   static inline ::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <CreateComponentSelector>b__0, addr 0x675a460, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <CreateComponentSelector>b__0, addr 0x67581fc, size 0xc8, virtual false, abstract: false, final false
   inline int32_t _CreateComponentSelector_b__0();
 
-  /// @brief Method <CreateComponentSelector>b__1, addr 0x675a528, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method <CreateComponentSelector>b__1, addr 0x67582c4, size 0xdc, virtual false, abstract: false, final false
   inline void _CreateComponentSelector_b__1(int32_t value);
 
-  /// @brief Method <CreateComponentSelector>b__2, addr 0x675a604, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateComponentSelector>b__2, addr 0x67583a0, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateComponentSelector_b__2();
 
-  /// @brief Method <CreateComponentSelector>b__3, addr 0x675a65c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateComponentSelector>b__3, addr 0x67583f8, size 0x64, virtual false, abstract: false, final false
   inline void _CreateComponentSelector_b__3(int32_t value);
 
   constexpr ::UnityEngine::Rendering::DebugDisplaySettingsVolume_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -506,7 +506,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::DebugDisplaySettingsVolume_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6757d38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6755ad4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -524,7 +524,7 @@ public:
   WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11934 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11932 };
 
   /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::DebugDisplaySettingsVolume_SettingsPanel* ___panel;
@@ -549,13 +549,13 @@ public:
 
   static inline ::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <CreateCameraSelector>b__0, addr 0x675a6c0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method <CreateCameraSelector>b__0, addr 0x675845c, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> _CreateCameraSelector_b__0();
 
-  /// @brief Method <CreateCameraSelector>b__1, addr 0x675a78c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method <CreateCameraSelector>b__1, addr 0x6758528, size 0x1c8, virtual false, abstract: false, final false
   inline void _CreateCameraSelector_b__1(::UnityEngine::Object* value);
 
-  /// @brief Method <CreateCameraSelector>b__2, addr 0x675a954, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method <CreateCameraSelector>b__2, addr 0x67586f0, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* _CreateCameraSelector_b__2();
 
   constexpr ::UnityEngine::Rendering::DebugDisplaySettingsVolume_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -564,7 +564,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::DebugDisplaySettingsVolume_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x67582ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6756088, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -582,7 +582,7 @@ public:
   WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11933 };
 
   /// @brief Field panel, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::DebugDisplaySettingsVolume_SettingsPanel* ___panel;
@@ -619,10 +619,10 @@ public:
 
   static inline ::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <CreateVolumeTable>b__0, addr 0x675aad8, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method <CreateVolumeTable>b__0, addr 0x6758874, size 0x274, virtual false, abstract: false, final false
   inline bool _CreateVolumeTable_b__0();
 
-  /// @brief Method <CreateVolumeTable>b__1, addr 0x675aa20, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <CreateVolumeTable>b__1, addr 0x67587bc, size 0xb8, virtual false, abstract: false, final false
   inline bool _CreateVolumeTable_b__1();
 
   constexpr ::UnityEngine::Rendering::DebugDisplaySettingsVolume* const& __cordl_internal_get_data() const;
@@ -655,7 +655,7 @@ public:
 
   constexpr void __cordl_internal_set_volumes(::ArrayW<::UnityW<::UnityEngine::Rendering::Volume>> value);
 
-  /// @brief Method .ctor, addr 0x675928c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6757028, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -673,7 +673,7 @@ public:
   WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11934 };
 
   /// @brief Field data, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::DebugDisplaySettingsVolume* ___data;
@@ -724,7 +724,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::UnityEngine::Rendering::DebugDisplaySettingsVolume* value);
 
-  /// @brief Method .ctor, addr 0x675a1c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6757f64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -742,7 +742,7 @@ public:
   WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11937 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11935 };
 
   /// @brief Field data, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::DebugDisplaySettingsVolume* ___data;
@@ -771,13 +771,13 @@ public:
 
   static inline ::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1* New_ctor();
 
-  /// @brief Method <GenerateTableColumns>b__0, addr 0x675ad74, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method <GenerateTableColumns>b__0, addr 0x6758b10, size 0x18c, virtual false, abstract: false, final false
   inline ::System::Object* _GenerateTableColumns_b__0();
 
-  /// @brief Method <GenerateTableColumns>b__1, addr 0x675af00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GenerateTableColumns>b__1, addr 0x6758c9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> _GenerateTableColumns_b__1();
 
-  /// @brief Method <GenerateTableColumns>b__3, addr 0x675af08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GenerateTableColumns>b__3, addr 0x6758ca4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> _GenerateTableColumns_b__3();
 
   constexpr ::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_0* const& __cordl_internal_get_CS$__8__locals1() const;
@@ -792,7 +792,7 @@ public:
 
   constexpr void __cordl_internal_set_chain(::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume_VolumeParameterChain value);
 
-  /// @brief Method .ctor, addr 0x675a1cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6757f68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -810,7 +810,7 @@ public:
   WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1(WidgetFactory_DebugDisplaySettingsVolume___c__DisplayClass9_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11938 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11936 };
 
   /// @brief Field chain, offset: 0x10, size: 0x28, def value: None
   ::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume_VolumeParameterChain ___chain;
@@ -852,38 +852,38 @@ public:
   /// @brief Field s_EmptyDebugUIValue, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_EmptyDebugUIValue, put = setStaticF_s_EmptyDebugUIValue)) ::UnityEngine::Rendering::DebugUI_Value* s_EmptyDebugUIValue;
 
-  /// @brief Method CreateCameraSelector, addr 0x675807c, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method CreateCameraSelector, addr 0x6755e18, size 0x270, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_ObjectPopupField*
   CreateCameraSelector(::UnityEngine::Rendering::DebugDisplaySettingsVolume_SettingsPanel* panel,
                        ::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<::UnityW<::UnityEngine::Object>>*, ::UnityW<::UnityEngine::Object>>* refresh);
 
-  /// @brief Method CreateComponentSelector, addr 0x67575e4, size 0x754, virtual false, abstract: false, final false
+  /// @brief Method CreateComponentSelector, addr 0x6755380, size 0x754, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_EnumField* CreateComponentSelector(::UnityEngine::Rendering::DebugDisplaySettingsVolume_SettingsPanel* panel,
                                                                                      ::System::Action_2<::UnityEngine::Rendering::DebugUI_Field_1<int32_t>*, int32_t>* refresh);
 
-  /// @brief Method CreateVolumeParameterWidget, addr 0x675832c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CreateVolumeParameterWidget, addr 0x67560c8, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateVolumeParameterWidget(::StringW name, bool isResultParameter, ::UnityEngine::Rendering::VolumeParameter* param,
                                                                                       ::System::Func_1<bool>* isHiddenCallback);
 
-  /// @brief Method CreateVolumeTable, addr 0x6758f98, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method CreateVolumeTable, addr 0x6756d34, size 0x2f4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Table* CreateVolumeTable(::UnityEngine::Rendering::DebugDisplaySettingsVolume* data);
 
-  /// @brief Method GenerateTableColumns, addr 0x6759564, size 0x8fc, virtual false, abstract: false, final false
+  /// @brief Method GenerateTableColumns, addr 0x6757300, size 0x8fc, virtual false, abstract: false, final false
   static inline void GenerateTableColumns(::UnityEngine::Rendering::DebugUI_Table* table, ::UnityEngine::Rendering::DebugDisplaySettingsVolume* data,
                                           ::System::Collections::Generic::List_1<::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume_VolumeParameterChain>* resolutionChain);
 
-  /// @brief Method GenerateTableRows, addr 0x67592e4, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method GenerateTableRows, addr 0x6757080, size 0x280, virtual false, abstract: false, final false
   static inline void GenerateTableRows(::UnityEngine::Rendering::DebugUI_Table* table,
                                        ::System::Collections::Generic::List_1<::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume_VolumeParameterChain>* resolutionChain);
 
-  /// @brief Method GetResolutionChain, addr 0x675859c, size 0x9fc, virtual false, abstract: false, final false
+  /// @brief Method GetResolutionChain, addr 0x6756338, size 0x9fc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::WidgetFactory_DebugDisplaySettingsVolume_VolumeParameterChain>*
   GetResolutionChain(::UnityEngine::Rendering::DebugDisplaySettingsVolume* data);
 
-  /// @brief Method GetSelectedVolumeComponent, addr 0x6758414, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedVolumeComponent, addr 0x67561b0, size 0x188, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::VolumeComponent> GetSelectedVolumeComponent(::UnityEngine::Rendering::VolumeProfile* profile, ::System::Type* selectedType);
 
-  /// @brief Method SetTableColumnVisibility, addr 0x6759e60, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method SetTableColumnVisibility, addr 0x6757bfc, size 0x31c, virtual false, abstract: false, final false
   static inline void SetTableColumnVisibility(::UnityEngine::Rendering::DebugDisplaySettingsVolume* data, ::UnityEngine::Rendering::DebugUI_Table* table);
 
   static inline ::UnityEngine::Rendering::DebugUI_Value* getStaticF_s_EmptyDebugUIValue();
@@ -905,7 +905,7 @@ public:
   DebugDisplaySettingsVolume_WidgetFactory(DebugDisplaySettingsVolume_WidgetFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11937 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -925,7 +925,7 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugDisplaySettingsVolume_SettingsPanel* New_ctor(::UnityEngine::Rendering::DebugDisplaySettingsVolume* data);
 
-  /// @brief Method Refresh, addr 0x675af10, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x6758cac, size 0x2bc, virtual false, abstract: false, final false
   inline void Refresh();
 
   constexpr ::UnityEngine::Rendering::DebugUI_Table* const& __cordl_internal_get_m_VolumeTable() const;
@@ -934,13 +934,13 @@ public:
 
   constexpr void __cordl_internal_set_m_VolumeTable(::UnityEngine::Rendering::DebugUI_Table* value);
 
-  /// @brief Method <.ctor>b__0_0, addr 0x675b1cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x6758f68, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__0_0(::UnityEngine::Rendering::DebugUI_Field_1<::UnityW<::UnityEngine::Object>>* _, ::UnityEngine::Object* __);
 
-  /// @brief Method <.ctor>b__0_1, addr 0x675b1d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_1, addr 0x6758f6c, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__0_1(::UnityEngine::Rendering::DebugUI_Field_1<int32_t>* _, int32_t __);
 
-  /// @brief Method .ctor, addr 0x6757134, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6754ed0, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::DebugDisplaySettingsVolume* data);
 
 protected:
@@ -958,7 +958,7 @@ public:
   DebugDisplaySettingsVolume_SettingsPanel(DebugDisplaySettingsVolume_SettingsPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11938 };
 
   /// @brief Field m_VolumeTable, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Rendering::DebugUI_Table* ___m_VolumeTable;
@@ -1007,7 +1007,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
   constexpr operator ::UnityEngine::Rendering::IDebugDisplaySettingsQuery*() noexcept;
 
-  /// @brief Method CreatePanel, addr 0x67570d8, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method CreatePanel, addr 0x6754e74, size 0x5c, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* CreatePanel();
 
   static inline ::UnityEngine::Rendering::DebugDisplaySettingsVolume* New_ctor(::UnityEngine::Rendering::IVolumeDebugSettings* volumeDebugSettings);
@@ -1030,13 +1030,13 @@ public:
 
   constexpr void __cordl_internal_set_volumeComponentEnumIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6757028, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6754dc4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::IVolumeDebugSettings* volumeDebugSettings);
 
-  /// @brief Method get_AreAnySettingsActive, addr 0x67570d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AreAnySettingsActive, addr 0x6754e6c, size 0x8, virtual true, abstract: false, final true
   inline bool get_AreAnySettingsActive();
 
-  /// @brief Method get_volumeDebugSettings, addr 0x6757020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeDebugSettings, addr 0x6754dbc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::IVolumeDebugSettings* get_volumeDebugSettings();
 
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsData"
@@ -1060,7 +1060,7 @@ public:
   DebugDisplaySettingsVolume(DebugDisplaySettingsVolume const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11941 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11939 };
 
   /// @brief Field k_PanelTitle offset 0xffffffff size 0x8
   static constexpr ::ConstString k_PanelTitle{ u"Volume" };

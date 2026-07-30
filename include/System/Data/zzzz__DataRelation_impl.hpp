@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelation::*)(::StringW, ::System::Data::DataColumn*, ::System::Data::DataColumn*, bool)>(
     &::System::Data::DataRelation::_ctor)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x601ee0c;
+  constexpr static std::size_t addrs = 0x601cba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelation::*)(::StringW, ::ArrayW<::System::Data::DataColumn*>, ::ArrayW<::System::Data::DataColumn*>)>(
     &::System::Data::DataRelation::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x601f2d8;
+  constexpr static std::size_t addrs = 0x601d074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelation::*)(::StringW, ::ArrayW<::System::Data::DataColumn*>, ::ArrayW<::System::Data::DataColumn*>, bool)>(
     &::System::Data::DataRelation::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x601f2e0;
+  constexpr static std::size_t addrs = 0x601d07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelation::*)(::StringW, ::StringW, ::StringW, ::ArrayW<::StringW>, ::ArrayW<::StringW>, bool)>(
     &::System::Data::DataRelation::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x601f390;
+  constexpr static std::size_t addrs = 0x601d12c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelation::*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::ArrayW<::StringW>, ::ArrayW<::StringW>, bool)>(
     &::System::Data::DataRelation::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x601f450;
+  constexpr static std::size_t addrs = 0x601d1ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Data::DataColumn*> (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::get_ChildColumns)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x601f524;
+  constexpr static std::size_t addrs = 0x601d2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { ::i2c::class_of<::System::Data::DataRelation*>(), 4 }));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Data::DataColumn*> (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::get_ChildColumnsReference)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x601f628;
+  constexpr static std::size_t addrs = 0x601d3c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { "get_ChildColumnsReference", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataKey (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::get_ChildKey)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x601d014;
+  constexpr static std::size_t addrs = 0x601adb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { "get_ChildKey", {}, {} })));
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataTable* (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::get_ChildTable)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x601f640;
+  constexpr static std::size_t addrs = 0x601d3dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { ::i2c::class_of<::System::Data::DataRelation*>(), 5 }));
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataSet* (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::get_DataSet)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x601f658;
+  constexpr static std::size_t addrs = 0x601d3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { ::i2c::class_of<::System::Data::DataRelation*>(), 6 }));
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::get_ParentColumnNames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x601f670;
+  constexpr static std::size_t addrs = 0x601d40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { "get_ParentColumnNames", {}, {} })));
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::get_ChildColumnNames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x601f678;
+  constexpr static std::size_t addrs = 0x601d414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { "get_ChildColumnNames", {}, {} })));
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<::System::Object*>)>(&::System::Data::DataRelation::IsKeyNull)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x601f680;
+  constexpr static std::size_t addrs = 0x601d41c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Data::DataRow*> (*)(::System::Data::DataKey, ::System::Data::DataKey, ::System::Data::DataRow*,
                                                                                               ::System::Data::DataRowVersion)>(&::System::Data::DataRelation::GetChildRows)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x601f738;
+  constexpr static std::size_t addrs = 0x601d4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Data::DataRow*> (*)(::System::Data::DataKey, ::System::Data::DataKey, ::System::Data::DataRow*,
                                                                                               ::System::Data::DataRowVersion)>(&::System::Data::DataRelation::GetParentRows)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x601f7f0;
+  constexpr static std::size_t addrs = 0x601d58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataRow* (*)(::System::Data::DataKey, ::System::Data::DataKey, ::System::Data::DataRow*, ::System::Data::DataRowVersion)>(
     &::System::Data::DataRelation::GetParentRow)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x601f888;
+  constexpr static std::size_t addrs = 0x601d624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelation::*)(::System::Data::DataSet*)>(&::System::Data::DataRelation::SetDataSet)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x601fa58;
+  constexpr static std::size_t addrs = 0x601d7f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Data::DataColumn*> (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::get_ParentColumns)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x601fa6c;
+  constexpr static std::size_t addrs = 0x601d808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { ::i2c::class_of<::System::Data::DataRelation*>(), 7 }));
@@ -281,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Data::DataColumn*> (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::get_ParentColumnsReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x601fa84;
+  constexpr static std::size_t addrs = 0x601d820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { "get_ParentColumnsReference", {}, {} })));
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataKey (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::get_ParentKey)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x601d02c;
+  constexpr static std::size_t addrs = 0x601adc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { "get_ParentKey", {}, {} })));
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataTable* (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::get_ParentTable)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x601fa8c;
+  constexpr static std::size_t addrs = 0x601d828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { ::i2c::class_of<::System::Data::DataRelation*>(), 8 }));
@@ -317,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::get_RelationName)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x601faa4;
+  constexpr static std::size_t addrs = 0x601d840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { ::i2c::class_of<::System::Data::DataRelation*>(), 9 }));
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelation::*)(::StringW)>(&::System::Data::DataRelation::CheckNamespaceValidityForNestedRelations)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x601fabc;
+  constexpr static std::size_t addrs = 0x601d858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -342,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::CheckNestedRelations)> {
   constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x601fe24;
+  constexpr static std::size_t addrs = 0x601dbc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { "CheckNestedRelations", {}, {} })));
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::get_Nested)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6020258;
+  constexpr static std::size_t addrs = 0x601dff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { ::i2c::class_of<::System::Data::DataRelation*>(), 10 }));
@@ -366,7 +366,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelation::*)(bool)>(&::System::Data::DataRelation::set_Nested)> {
   constexpr static std::size_t size = 0xfb4;
-  constexpr static std::size_t addrs = 0x6020270;
+  constexpr static std::size_t addrs = 0x601e00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { ::i2c::class_of<::System::Data::DataRelation*>(), 11 }));
@@ -378,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::UniqueConstraint* (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::get_ParentKeyConstraint)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6021838;
+  constexpr static std::size_t addrs = 0x601f5d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { ::i2c::class_of<::System::Data::DataRelation*>(), 12 }));
@@ -390,7 +390,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelation::*)(::System::Data::UniqueConstraint*)>(&::System::Data::DataRelation::SetParentKeyConstraint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021850;
+  constexpr static std::size_t addrs = 0x601f5ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::ForeignKeyConstraint* (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::get_ChildKeyConstraint)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6021858;
+  constexpr static std::size_t addrs = 0x601f5f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { ::i2c::class_of<::System::Data::DataRelation*>(), 13 }));
@@ -415,7 +415,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::PropertyCollection* (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::get_ExtendedProperties)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6021870;
+  constexpr static std::size_t addrs = 0x601f60c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { "get_ExtendedProperties", {}, {} })));
@@ -427,7 +427,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::get_CheckMultipleNested)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60218dc;
+  constexpr static std::size_t addrs = 0x601f678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { "get_CheckMultipleNested", {}, {} })));
@@ -439,7 +439,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelation::*)(bool)>(&::System::Data::DataRelation::set_CheckMultipleNested)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60218e4;
+  constexpr static std::size_t addrs = 0x601f680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -452,7 +452,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelation::*)(::System::Data::ForeignKeyConstraint*)>(&::System::Data::DataRelation::SetChildKeyConstraint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60218ec;
+  constexpr static std::size_t addrs = 0x601f688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -465,7 +465,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::CheckState)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x60218f4;
+  constexpr static std::size_t addrs = 0x601f690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { "CheckState", {}, {} })));
@@ -477,7 +477,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::CheckStateForProperty)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x601f53c;
+  constexpr static std::size_t addrs = 0x601d2d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { "CheckStateForProperty", {}, {} })));
@@ -490,7 +490,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelation::*)(::StringW, ::ArrayW<::System::Data::DataColumn*>, ::ArrayW<::System::Data::DataColumn*>, bool)>(
     &::System::Data::DataRelation::Create)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x601f000;
+  constexpr static std::size_t addrs = 0x601cd9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -506,7 +506,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataRelation* (::System::Data::DataRelation::*)(::System::Data::DataSet*)>(&::System::Data::DataRelation::Clone)> {
   constexpr static std::size_t size = 0x644;
-  constexpr static std::size_t addrs = 0x6021afc;
+  constexpr static std::size_t addrs = 0x601f898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -520,7 +520,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelation::*)(::System::ComponentModel::PropertyChangedEventArgs*)>(
     &::System::Data::DataRelation::OnPropertyChanging)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x602224c;
+  constexpr static std::size_t addrs = 0x601ffe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -534,7 +534,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelation::*)(::StringW)>(&::System::Data::DataRelation::RaisePropertyChanging)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x60216ec;
+  constexpr static std::size_t addrs = 0x601f488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -547,7 +547,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::ToString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6022334;
+  constexpr static std::size_t addrs = 0x60200d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { ::i2c::class_of<::System::Data::DataRelation*>(), 3 }));
@@ -559,7 +559,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::ValidateMultipleNestedRelations)> {
   constexpr static std::size_t size = 0x4c8;
-  constexpr static std::size_t addrs = 0x6021224;
+  constexpr static std::size_t addrs = 0x601efc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { "ValidateMultipleNestedRelations", {}, {} })));
@@ -571,7 +571,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataRelation::*)(::System::Data::DataColumn*)>(&::System::Data::DataRelation::IsAutoGenerated)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x6022340;
+  constexpr static std::size_t addrs = 0x60200dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -584,7 +584,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::DataRelation::*)()>(&::System::Data::DataRelation::get_ObjectID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60224e0;
+  constexpr static std::size_t addrs = 0x602027c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRelation*>(), { "get_ObjectID", {}, {} })));

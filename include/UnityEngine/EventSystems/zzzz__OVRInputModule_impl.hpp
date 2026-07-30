@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::_ctor)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x5e47c34;
+  constexpr static std::size_t addrs = 0x5e459a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::OVRInputModule*>(), { ".ctor", {}, {} })));
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::Awake)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x5e47e4c;
+  constexpr static std::size_t addrs = 0x5e45bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EventSystems::OVRInputModule_InputMode (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::get_inputMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e482d0;
+  constexpr static std::size_t addrs = 0x5e4603c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::OVRInputModule*>(), { "get_inputMode", {}, {} })));
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::get_allowActivationOnMobileDevice)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e482d8;
+  constexpr static std::size_t addrs = 0x5e46044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(bool)>(&::UnityEngine::EventSystems::OVRInputModule::set_allowActivationOnMobileDevice)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e482e0;
+  constexpr static std::size_t addrs = 0x5e4604c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::get_inputActionsPerSecond)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e482e8;
+  constexpr static std::size_t addrs = 0x5e46054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::OVRInputModule*>(), { "get_inputActionsPerSecond", {}, {} })));
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(float_t)>(&::UnityEngine::EventSystems::OVRInputModule::set_inputActionsPerSecond)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e482f0;
+  constexpr static std::size_t addrs = 0x5e4605c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::get_horizontalAxis)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e482f8;
+  constexpr static std::size_t addrs = 0x5e46064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::OVRInputModule*>(), { "get_horizontalAxis", {}, {} })));
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(::StringW)>(&::UnityEngine::EventSystems::OVRInputModule::set_horizontalAxis)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e48300;
+  constexpr static std::size_t addrs = 0x5e4606c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::get_verticalAxis)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e48308;
+  constexpr static std::size_t addrs = 0x5e46074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::OVRInputModule*>(), { "get_verticalAxis", {}, {} })));
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(::StringW)>(&::UnityEngine::EventSystems::OVRInputModule::set_verticalAxis)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e48310;
+  constexpr static std::size_t addrs = 0x5e4607c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::get_submitButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e48318;
+  constexpr static std::size_t addrs = 0x5e46084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::OVRInputModule*>(), { "get_submitButton", {}, {} })));
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(::StringW)>(&::UnityEngine::EventSystems::OVRInputModule::set_submitButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e48320;
+  constexpr static std::size_t addrs = 0x5e4608c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -327,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::get_cancelButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e48328;
+  constexpr static std::size_t addrs = 0x5e46094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::OVRInputModule*>(), { "get_cancelButton", {}, {} })));
@@ -339,7 +339,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(::StringW)>(&::UnityEngine::EventSystems::OVRInputModule::set_cancelButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e48330;
+  constexpr static std::size_t addrs = 0x5e4609c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -352,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::UpdateModule)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e48338;
+  constexpr static std::size_t addrs = 0x5e460a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -365,7 +365,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::IsModuleSupported)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e4835c;
+  constexpr static std::size_t addrs = 0x5e460c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -378,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::ShouldActivateModule)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x5e48374;
+  constexpr static std::size_t addrs = 0x5e460e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::ActivateModule)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5e48520;
+  constexpr static std::size_t addrs = 0x5e4628c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -404,7 +404,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::DeactivateModule)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e485e4;
+  constexpr static std::size_t addrs = 0x5e46350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -417,7 +417,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::SendSubmitEventToSelectedObject)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x5e48854;
+  constexpr static std::size_t addrs = 0x5e465c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -430,7 +430,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule::*)(float_t)>(&::UnityEngine::EventSystems::OVRInputModule::AllowMoveEventProcessing)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5e48a64;
+  constexpr static std::size_t addrs = 0x5e467d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -443,7 +443,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::GetRawMoveVector)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5e48ab8;
+  constexpr static std::size_t addrs = 0x5e46824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::OVRInputModule*>(), { "GetRawMoveVector", {}, {} })));
@@ -455,7 +455,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::SendMoveEventToSelectedObject)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x5e48b68;
+  constexpr static std::size_t addrs = 0x5e468d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -468,7 +468,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::SendUpdateEventToSelectedObject)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x5e48d9c;
+  constexpr static std::size_t addrs = 0x5e46b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -482,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(::UnityEngine::EventSystems::PointerInputModule_MouseButtonEventData*)>(
     &::UnityEngine::EventSystems::OVRInputModule::ProcessMousePress)> {
   constexpr static std::size_t size = 0x748;
-  constexpr static std::size_t addrs = 0x5e48ef8;
+  constexpr static std::size_t addrs = 0x5e46c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -497,7 +497,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(::UnityEngine::EventSystems::PointerInputModule_MouseState*)>(
     &::UnityEngine::EventSystems::OVRInputModule::ProcessMouseEvent)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x5e49640;
+  constexpr static std::size_t addrs = 0x5e473ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -511,7 +511,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::Process)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x5e49a00;
+  constexpr static std::size_t addrs = 0x5e4776c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -524,7 +524,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(bool, bool, ::UnityEngine::EventSystems::PointerEventData*)>(&::UnityEngine::EventSystems::OVRInputModule::UseMouse)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5e49958;
+  constexpr static std::size_t addrs = 0x5e476c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -539,7 +539,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(
     ::UnityEngine::EventSystems::OVRPointerEventData*, ::UnityEngine::EventSystems::OVRPointerEventData*)>(&::UnityEngine::EventSystems::OVRInputModule::CopyFromTo)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e49c84;
+  constexpr static std::size_t addrs = 0x5e479f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -555,7 +555,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(
     ::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::EventSystems::PointerEventData*)>(&::UnityEngine::EventSystems::OVRInputModule::CopyFromTo)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5e49d04;
+  constexpr static std::size_t addrs = 0x5e47a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -571,7 +571,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule::*)(int32_t, ::by_ref<::UnityEngine::EventSystems::OVRPointerEventData*>, bool)>(
     &::UnityEngine::EventSystems::OVRInputModule::GetPointerData)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5e49d74;
+  constexpr static std::size_t addrs = 0x5e47ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -586,7 +586,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::ClearSelection)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x5e485e8;
+  constexpr static std::size_t addrs = 0x5e46354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::OVRInputModule*>(), { "ClearSelection", {}, {} })));
@@ -598,7 +598,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::EventSystems::OVRInputModule::GetRectTransformNormal)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x5e49e80;
+  constexpr static std::size_t addrs = 0x5e47bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -613,7 +613,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EventSystems::PointerInputModule_MouseState* (
     ::UnityEngine::EventSystems::OVRInputModule::*)(::UnityEngine::EventSystems::OVRInputModule_InputSource*, int32_t)>(&::UnityEngine::EventSystems::OVRInputModule::GetMouseStateFromInputSource)> {
   constexpr static std::size_t size = 0x9d4;
-  constexpr static std::size_t addrs = 0x5e4a030;
+  constexpr static std::size_t addrs = 0x5e47d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -627,7 +627,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EventSystems::PointerInputModule_MouseState* (::UnityEngine::EventSystems::OVRInputModule::*)(::UnityEngine::Transform*)>(
     &::UnityEngine::EventSystems::OVRInputModule::GetMouseStateFromRaycast)> {
   constexpr static std::size_t size = 0x730;
-  constexpr static std::size_t addrs = 0x5e4ae9c;
+  constexpr static std::size_t addrs = 0x5e48c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -641,7 +641,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EventSystems::PointerInputModule_MouseState* (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::GetCanvasPointerData)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x5e4b5cc;
+  constexpr static std::size_t addrs = 0x5e49338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::OVRInputModule*>(), { "GetCanvasPointerData", {}, {} })));
@@ -654,7 +654,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::OVRInputModule::ShouldStartDrag)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x5e4b950;
+  constexpr static std::size_t addrs = 0x5e496bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::OVRInputModule*>(),
@@ -667,7 +667,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::EventSystems::PointerEventData*)>(&::UnityEngine::EventSystems::OVRInputModule::IsPointerMoving)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5e49c3c;
+  constexpr static std::size_t addrs = 0x5e479a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::OVRInputModule*>(),
@@ -681,7 +681,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::EventSystems::OVRInputModule::*)(::UnityEngine::Vector2, ::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::OVRInputModule::SwipeAdjustedPosition)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5e4bc6c;
+  constexpr static std::size_t addrs = 0x5e499d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -696,7 +696,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::OVRInputModule::ProcessDrag)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x5e4bcf8;
+  constexpr static std::size_t addrs = 0x5e49a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -710,7 +710,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EventSystems::PointerEventData_FramePressState (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::GetGazeButtonState)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5e4c080;
+  constexpr static std::size_t addrs = 0x5e49dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -723,7 +723,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::GetExtraScrollDelta)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5e4aa04;
+  constexpr static std::size_t addrs = 0x5e48770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::OVRInputModule*>(), { "GetExtraScrollDelta", {}, {} })));
@@ -735,7 +735,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::EventSystems::OVRInputModule_InputSource*)>(&::UnityEngine::EventSystems::OVRInputModule::TrackInputSource)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x5e48080;
+  constexpr static std::size_t addrs = 0x5e45dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -749,7 +749,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::EventSystems::OVRInputModule_InputSource*)>(&::UnityEngine::EventSystems::OVRInputModule::UntrackInputSource)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x5e4c210;
+  constexpr static std::size_t addrs = 0x5e49f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -763,7 +763,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::OnDestroy)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5e4c3e4;
+  constexpr static std::size_t addrs = 0x5e4a150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -776,7 +776,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::EventSystems::OVRInputModule> (*)()>(&::UnityEngine::EventSystems::OVRInputModule::get_instance)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5e4c4b8;
+  constexpr static std::size_t addrs = 0x5e4a224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::OVRInputModule*>(), { "get_instance", {}, {} })));
@@ -788,7 +788,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::EventSystems::OVRInputModule*)>(&::UnityEngine::EventSystems::OVRInputModule::set_instance)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5e4c514;
+  constexpr static std::size_t addrs = 0x5e4a280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

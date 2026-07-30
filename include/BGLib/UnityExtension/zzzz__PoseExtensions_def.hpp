@@ -23,16 +23,16 @@ namespace BGLib::UnityExtension {
 class CORDL_TYPE PoseExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InterpolateTo, addr 0x3326c58, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method InterpolateTo, addr 0x3325220, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose InterpolateTo(::UnityEngine::Pose a, ::UnityEngine::Pose b, float_t t);
 
-  /// @brief Method Invert, addr 0x3326ce8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Invert, addr 0x33252b0, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose Invert(::UnityEngine::Pose pose);
 
-  /// @brief Method LerpTo, addr 0x3326d50, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method LerpTo, addr 0x3325318, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose LerpTo(::UnityEngine::Pose a, ::UnityEngine::Pose b, float_t t);
 
-  /// @brief Method MirrorController, addr 0x3326de0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method MirrorController, addr 0x33253a8, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose MirrorController(::UnityEngine::Pose pose);
 
 protected:
@@ -50,7 +50,7 @@ public:
   PoseExtensions(PoseExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20582 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20664 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

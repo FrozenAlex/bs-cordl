@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X9::DHDomainParameters* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::X9::DHDomainParameters::GetInstance)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3674248;
+  constexpr static std::size_t addrs = 0x3672810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X9::DHDomainParameters* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::X9::DHDomainParameters::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x367425c;
+  constexpr static std::size_t addrs = 0x3672824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Asn1::DerInteger*, ::Org::BouncyCastle::Asn1::DerInteger*, ::Org::BouncyCastle::Asn1::DerInteger*, ::Org::BouncyCastle::Asn1::DerInteger*,
     ::Org::BouncyCastle::Asn1::X9::DHValidationParms*)>(&::Org::BouncyCastle::Asn1::X9::DHDomainParameters::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x36745b8;
+  constexpr static std::size_t addrs = 0x3672b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X9::DHDomainParameters::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X9::DHDomainParameters::_ctor)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x36743e0;
+  constexpr static std::size_t addrs = 0x36729a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (*)(::System::Collections::IEnumerator*)>(
     &::Org::BouncyCastle::Asn1::X9::DHDomainParameters::GetNext)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3674664;
+  constexpr static std::size_t addrs = 0x3672c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::X9::DHDomainParameters::*)()>(
     &::Org::BouncyCastle::Asn1::X9::DHDomainParameters::get_P)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3674940;
+  constexpr static std::size_t addrs = 0x3672f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X9::DHDomainParameters*>(), { "get_P", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::X9::DHDomainParameters::*)()>(
     &::Org::BouncyCastle::Asn1::X9::DHDomainParameters::get_G)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3674948;
+  constexpr static std::size_t addrs = 0x3672f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X9::DHDomainParameters*>(), { "get_G", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::X9::DHDomainParameters::*)()>(
     &::Org::BouncyCastle::Asn1::X9::DHDomainParameters::get_Q)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3674950;
+  constexpr static std::size_t addrs = 0x3672f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X9::DHDomainParameters*>(), { "get_Q", {}, {} })));
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::X9::DHDomainParameters::*)()>(
     &::Org::BouncyCastle::Asn1::X9::DHDomainParameters::get_J)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3674958;
+  constexpr static std::size_t addrs = 0x3672f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X9::DHDomainParameters*>(), { "get_J", {}, {} })));
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X9::DHValidationParms* (::Org::BouncyCastle::Asn1::X9::DHDomainParameters::*)()>(
     &::Org::BouncyCastle::Asn1::X9::DHDomainParameters::get_ValidationParms)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3674960;
+  constexpr static std::size_t addrs = 0x3672f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X9::DHDomainParameters*>(), { "get_ValidationParms", {}, {} })));
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X9::DHDomainParameters::*)()>(
     &::Org::BouncyCastle::Asn1::X9::DHDomainParameters::ToAsn1Object)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3674968;
+  constexpr static std::size_t addrs = 0x3672f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

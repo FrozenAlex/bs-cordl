@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerAgreements::*)(::System::Action*)>(&::GlobalNamespace::PlayerAgreements::add_agreedToEulaEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3741bc4;
+  constexpr static std::size_t addrs = 0x3740604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerAgreements::*)(::System::Action*)>(&::GlobalNamespace::PlayerAgreements::remove_agreedToEulaEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3741c70;
+  constexpr static std::size_t addrs = 0x37406b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3741d1c;
+  constexpr static std::size_t addrs = 0x374075c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerAgreements*>(), { ".ctor", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerAgreements::*)(int32_t, int32_t, int32_t, int32_t, int32_t)>(&::GlobalNamespace::PlayerAgreements::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3741d28;
+  constexpr static std::size_t addrs = 0x3740768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreeToEula)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3741d38;
+  constexpr static std::size_t addrs = 0x3740778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerAgreements*>(), { "AgreeToEula", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreeToPrivacyPolicy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3741d5c;
+  constexpr static std::size_t addrs = 0x374079c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerAgreements*>(), { "AgreeToPrivacyPolicy", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreeToHealthAndSafety)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3741d68;
+  constexpr static std::size_t addrs = 0x37407a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerAgreements*>(), { "AgreeToHealthAndSafety", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreeToPlayerSensitivityFlag)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3741d74;
+  constexpr static std::size_t addrs = 0x37407b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerAgreements*>(), { "AgreeToPlayerSensitivityFlag", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreeToEndOfLifeNotice)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3741d80;
+  constexpr static std::size_t addrs = 0x37407c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerAgreements*>(), { "AgreeToEndOfLifeNotice", {}, {} })));
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreedToPreviousPrivacyPolicy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3741d8c;
+  constexpr static std::size_t addrs = 0x37407cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerAgreements*>(), { "AgreedToPreviousPrivacyPolicy", {}, {} })));
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreedToAnyPreviousEula)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3741d9c;
+  constexpr static std::size_t addrs = 0x37407dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerAgreements*>(), { "AgreedToAnyPreviousEula", {}, {} })));
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreedToAnyPreviousPrivacyPolicy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3741db0;
+  constexpr static std::size_t addrs = 0x37407f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerAgreements*>(), { "AgreedToAnyPreviousPrivacyPolicy", {}, {} })));
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreedToAnyPreviousHealthAndSafety)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3741dc4;
+  constexpr static std::size_t addrs = 0x3740804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerAgreements*>(), { "AgreedToAnyPreviousHealthAndSafety", {}, {} })));
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreedToAnyPreviousPlayerSensitivityFlag)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3741dd0;
+  constexpr static std::size_t addrs = 0x3740810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreedToEula)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3741de4;
+  constexpr static std::size_t addrs = 0x3740824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerAgreements*>(), { "AgreedToEula", {}, {} })));
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreedToPrivacyPolicy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3741df4;
+  constexpr static std::size_t addrs = 0x3740834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerAgreements*>(), { "AgreedToPrivacyPolicy", {}, {} })));
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreedToHealthAndSafety)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3741e04;
+  constexpr static std::size_t addrs = 0x3740844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerAgreements*>(), { "AgreedToHealthAndSafety", {}, {} })));
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreedToPlayerSenstivityFlag)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3741e14;
+  constexpr static std::size_t addrs = 0x3740854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerAgreements*>(), { "AgreedToPlayerSenstivityFlag", {}, {} })));
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreedToEndOfLifeNotice)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3741e24;
+  constexpr static std::size_t addrs = 0x3740864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerAgreements*>(), { "AgreedToEndOfLifeNotice", {}, {} })));

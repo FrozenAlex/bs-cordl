@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)()>(&::GlobalNamespace::BurstFireEffect::Awake)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x58c07c8;
+  constexpr static std::size_t addrs = 0x58beca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BurstFireEffect*>(), { "Awake", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)()>(&::GlobalNamespace::BurstFireEffect::Start)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x58c0920;
+  constexpr static std::size_t addrs = 0x58bedf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)()>(&::GlobalNamespace::BurstFireEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x58c0b14;
+  constexpr static std::size_t addrs = 0x58befec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)(::GlobalNamespace::LightColorBeatmapEventData*)>(
     &::GlobalNamespace::BurstFireEffect::HandleColorChangeBeatmapEvent)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x58c0bc8;
+  constexpr static std::size_t addrs = 0x58bf0a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)(float_t)>(&::GlobalNamespace::BurstFireEffect::StartEffect)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x58c0d70;
+  constexpr static std::size_t addrs = 0x58bf248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)()>(&::GlobalNamespace::BurstFireEffect::EndEffect)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x58c0d44;
+  constexpr static std::size_t addrs = 0x58bf21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BurstFireEffect*>(), { "EndEffect", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)()>(&::GlobalNamespace::BurstFireEffect::SetInitialValues)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x58c0a64;
+  constexpr static std::size_t addrs = 0x58bef3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BurstFireEffect*>(), { "SetInitialValues", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)(float_t)>(&::GlobalNamespace::BurstFireEffect::UpdateFadeOutProgress)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x58c0ec4;
+  constexpr static std::size_t addrs = 0x58bf39c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)()>(&::GlobalNamespace::BurstFireEffect::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x58c11a8;
+  constexpr static std::size_t addrs = 0x58bf680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BurstFireEffect*>(), { ".ctor", {}, {} })));

@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SemaphoreSlim_TaskNode::*)()>(&::System::Threading::SemaphoreSlim_TaskNode::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5cac43c;
+  constexpr static std::size_t addrs = 0x5caa1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SemaphoreSlim_TaskNode*>(), { ".ctor", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SemaphoreSlim_TaskNode::*)()>(
     &::System::Threading::SemaphoreSlim_TaskNode::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5cacb50;
+  constexpr static std::size_t addrs = 0x5caa8bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SemaphoreSlim_TaskNode::*)(::System::Threading::ThreadAbortException*)>(
     &::System::Threading::SemaphoreSlim_TaskNode::System_Threading_IThreadPoolWorkItem_MarkAborted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cacba0;
+  constexpr static std::size_t addrs = 0x5caa90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SemaphoreSlim__WaitUntilCountOrTimeoutAsync_d__32::*)()>(
     &::System::Threading::SemaphoreSlim__WaitUntilCountOrTimeoutAsync_d__32::MoveNext)> {
   constexpr static std::size_t size = 0x8a4;
-  constexpr static std::size_t addrs = 0x5cacba4;
+  constexpr static std::size_t addrs = 0x5caa910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SemaphoreSlim__WaitUntilCountOrTimeoutAsync_d__32::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::System::Threading::SemaphoreSlim__WaitUntilCountOrTimeoutAsync_d__32::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5cad448;
+  constexpr static std::size_t addrs = 0x5cab1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SemaphoreSlim__WaitUntilCountOrTimeoutAsync_d__32>(),
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::SemaphoreSlim::*)()>(&::System::Threading::SemaphoreSlim::get_CurrentCount)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cab794;
+  constexpr static std::size_t addrs = 0x5ca9500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SemaphoreSlim*>(), { "get_CurrentCount", {}, {} })));
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SemaphoreSlim::*)(int32_t)>(&::System::Threading::SemaphoreSlim::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cab7a0;
+  constexpr static std::size_t addrs = 0x5ca950c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SemaphoreSlim*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SemaphoreSlim::*)(int32_t, int32_t)>(&::System::Threading::SemaphoreSlim::_ctor)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5cab7a8;
+  constexpr static std::size_t addrs = 0x5ca9514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SemaphoreSlim::*)()>(&::System::Threading::SemaphoreSlim::Wait)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cab914;
+  constexpr static std::size_t addrs = 0x5ca9680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SemaphoreSlim*>(), { "Wait", {}, {} })));
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::SemaphoreSlim::*)(int32_t)>(&::System::Threading::SemaphoreSlim::Wait)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cabe30;
+  constexpr static std::size_t addrs = 0x5ca9b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SemaphoreSlim*>(), { "Wait", {}, { ::i2c::type_of<int32_t>() } })));
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::SemaphoreSlim::*)(int32_t, ::System::Threading::CancellationToken)>(&::System::Threading::SemaphoreSlim::Wait)> {
   constexpr static std::size_t size = 0x510;
-  constexpr static std::size_t addrs = 0x5cab920;
+  constexpr static std::size_t addrs = 0x5ca968c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SemaphoreSlim*>(),
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::SemaphoreSlim::*)(int32_t, uint32_t, ::System::Threading::CancellationToken)>(
     &::System::Threading::SemaphoreSlim::WaitUntilCountOrTimeout)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5cac1c8;
+  constexpr static std::size_t addrs = 0x5ca9f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Threading::SemaphoreSlim::*)()>(&::System::Threading::SemaphoreSlim::WaitAsync)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cac290;
+  constexpr static std::size_t addrs = 0x5ca9ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SemaphoreSlim*>(), { "WaitAsync", {}, {} })));
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Threading::SemaphoreSlim::*)(::System::Threading::CancellationToken)>(
     &::System::Threading::SemaphoreSlim::WaitAsync)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cac29c;
+  constexpr static std::size_t addrs = 0x5caa008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::System::Threading::SemaphoreSlim::*)(int32_t, ::System::Threading::CancellationToken)>(
     &::System::Threading::SemaphoreSlim::WaitAsync)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x5cabea8;
+  constexpr static std::size_t addrs = 0x5ca9c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::SemaphoreSlim_TaskNode* (::System::Threading::SemaphoreSlim::*)()>(
     &::System::Threading::SemaphoreSlim::CreateAndAddAsyncWaiter)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5cac2a8;
+  constexpr static std::size_t addrs = 0x5caa014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SemaphoreSlim*>(), { "CreateAndAddAsyncWaiter", {}, {} })));
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::SemaphoreSlim::*)(::System::Threading::SemaphoreSlim_TaskNode*)>(
     &::System::Threading::SemaphoreSlim::RemoveAsyncWaiter)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5cac488;
+  constexpr static std::size_t addrs = 0x5caa1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -348,7 +348,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<bool>* (::System::Threading::SemaphoreSlim::*)(::System::Threading::SemaphoreSlim_TaskNode*, int32_t, ::System::Threading::CancellationToken)>(
         &::System::Threading::SemaphoreSlim::WaitUntilCountOrTimeoutAsync)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5cac330;
+  constexpr static std::size_t addrs = 0x5caa09c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -365,7 +365,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::SemaphoreSlim::*)()>(&::System::Threading::SemaphoreSlim::Release)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cac500;
+  constexpr static std::size_t addrs = 0x5caa26c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SemaphoreSlim*>(), { "Release", {}, {} })));
@@ -377,7 +377,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::SemaphoreSlim::*)(int32_t)>(&::System::Threading::SemaphoreSlim::Release)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x5cac508;
+  constexpr static std::size_t addrs = 0x5caa274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SemaphoreSlim*>(), { "Release", {}, { ::i2c::type_of<int32_t>() } })));
@@ -389,7 +389,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::SemaphoreSlim_TaskNode*)>(&::System::Threading::SemaphoreSlim::QueueWaiterTask)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cac83c;
+  constexpr static std::size_t addrs = 0x5caa5a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SemaphoreSlim::*)()>(&::System::Threading::SemaphoreSlim::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5cac848;
+  constexpr static std::size_t addrs = 0x5caa5b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SemaphoreSlim*>(), { "Dispose", {}, {} })));
@@ -415,7 +415,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SemaphoreSlim::*)(bool)>(&::System::Threading::SemaphoreSlim::Dispose)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5cac8b8;
+  constexpr static std::size_t addrs = 0x5caa624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -428,7 +428,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Threading::SemaphoreSlim::CancellationTokenCanceledEventHandler)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5cac908;
+  constexpr static std::size_t addrs = 0x5caa674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -441,7 +441,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SemaphoreSlim::*)()>(&::System::Threading::SemaphoreSlim::CheckDispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5cabe38;
+  constexpr static std::size_t addrs = 0x5ca9ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SemaphoreSlim*>(), { "CheckDispose", {}, {} })));
@@ -453,7 +453,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Threading::SemaphoreSlim::GetResourceString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cab910;
+  constexpr static std::size_t addrs = 0x5ca967c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

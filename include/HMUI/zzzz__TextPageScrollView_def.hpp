@@ -26,15 +26,15 @@ public:
   /// @brief Field _text, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI> _text;
 
-  /// @brief Method AddText, addr 0x5893288, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method AddText, addr 0x5891734, size 0x64, virtual false, abstract: false, final false
   inline void AddText(::StringW text);
 
   static inline ::HMUI::TextPageScrollView* New_ctor();
 
-  /// @brief Method SetText, addr 0x5893208, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x58916b4, size 0x30, virtual false, abstract: false, final false
   inline void SetText(::StringW text);
 
-  /// @brief Method UpdateMeshes, addr 0x5893238, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method UpdateMeshes, addr 0x58916e4, size 0x50, virtual false, abstract: false, final false
   inline void UpdateMeshes();
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x58932ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5891798, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,7 +61,7 @@ public:
   TextPageScrollView(TextPageScrollView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19230 };
 
   /// @brief Field _text, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;

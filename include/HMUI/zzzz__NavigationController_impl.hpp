@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NavigationController___c__DisplayClass10_0::*)()>(&::HMUI::NavigationController___c__DisplayClass10_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32f3734;
+  constexpr static std::size_t addrs = 0x32f1404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::NavigationController___c__DisplayClass10_0*>(), { ".ctor", {}, {} })));
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::HMUI::NavigationController___c__DisplayClass10_0::*)(float_t, ::ArrayW<::HMUI::ViewController*>, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*)>(
         &::HMUI::NavigationController___c__DisplayClass10_0::_PopViewControllers_g__AnimationLayouter_0)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x32f37e0;
+  constexpr static std::size_t addrs = 0x32f14b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::NavigationController___c__DisplayClass10_0*>(),
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NavigationController___c__DisplayClass8_0::*)()>(&::HMUI::NavigationController___c__DisplayClass8_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32f3730;
+  constexpr static std::size_t addrs = 0x32f1400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::NavigationController___c__DisplayClass8_0*>(), { ".ctor", {}, {} })));
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NavigationController___c__DisplayClass8_0::*)(float_t, ::ArrayW<::HMUI::ViewController*>)>(
     &::HMUI::NavigationController___c__DisplayClass8_0::_PushViewController_g__AnimationLayouter_0)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x32f3a8c;
+  constexpr static std::size_t addrs = 0x32f175c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NavigationController::*)(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*)>(
     &::HMUI::NavigationController::LayoutViewControllers)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x32f3130;
+  constexpr static std::size_t addrs = 0x32f0e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::NavigationController*>(), { ::i2c::class_of<::HMUI::NavigationController*>(), 12 }));
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NavigationController::*)(::HMUI::ViewController*, ::System::Action*, bool)>(&::HMUI::NavigationController::PushViewController)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x32f12c0;
+  constexpr static std::size_t addrs = 0x32eef90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NavigationController::*)(::System::Action*, bool)>(&::HMUI::NavigationController::PopViewController)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x32f1564;
+  constexpr static std::size_t addrs = 0x32ef234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NavigationController::*)(int32_t, ::System::Action*, bool)>(&::HMUI::NavigationController::PopViewControllers)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x32f16d8;
+  constexpr static std::size_t addrs = 0x32ef3a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::HMUI::NavigationController::*)(float_t)>(&::HMUI::NavigationController::PositionVector)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x32f3710;
+  constexpr static std::size_t addrs = 0x32f13e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::NavigationController*>(), { "PositionVector", {}, { ::i2c::type_of<float_t>() } })));
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NavigationController::*)(::HMUI::ViewController*)>(&::HMUI::NavigationController::SetupViewControllerRect)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x32f36e4;
+  constexpr static std::size_t addrs = 0x32f13b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<float_t> (::HMUI
                                                                                                            ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*, float_t)>(
     &::HMUI::NavigationController::GetNewPositionsForViewControllers)> {
   constexpr static std::size_t size = 0x490;
-  constexpr static std::size_t addrs = 0x32f3254;
+  constexpr static std::size_t addrs = 0x32f0f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NavigationController::*)()>(&::HMUI::NavigationController::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32f37d4;
+  constexpr static std::size_t addrs = 0x32f14a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::NavigationController*>(), { ".ctor", {}, {} })));

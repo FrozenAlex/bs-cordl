@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext__get_AllObjectTypes_d__56::*)(int32_t)>(&::Zenject::InjectContext__get_AllObjectTypes_d__56::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6e67468;
+  constexpr static std::size_t addrs = 0x6e62e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext__get_AllObjectTypes_d__56::*)()>(
     &::Zenject::InjectContext__get_AllObjectTypes_d__56::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e67990;
+  constexpr static std::size_t addrs = 0x6e63394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::InjectContext__get_AllObjectTypes_d__56::*)()>(&::Zenject::InjectContext__get_AllObjectTypes_d__56::MoveNext)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x6e679ac;
+  constexpr static std::size_t addrs = 0x6e633b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext__get_AllObjectTypes_d__56*>(), { "MoveNext", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext__get_AllObjectTypes_d__56::*)()>(&::Zenject::InjectContext__get_AllObjectTypes_d__56::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6e67c80;
+  constexpr static std::size_t addrs = 0x6e63684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext__get_AllObjectTypes_d__56*>(), { "<>m__Finally1", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::Zenject::InjectContext__get_AllObjectTypes_d__56::*)()>(
     &::Zenject::InjectContext__get_AllObjectTypes_d__56::System_Collections_Generic_IEnumerator_System_Type__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e67d34;
+  constexpr static std::size_t addrs = 0x6e63738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext__get_AllObjectTypes_d__56::*)()>(
     &::Zenject::InjectContext__get_AllObjectTypes_d__56::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6e67d3c;
+  constexpr static std::size_t addrs = 0x6e63740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Zenject::InjectContext__get_AllObjectTypes_d__56::*)()>(
     &::Zenject::InjectContext__get_AllObjectTypes_d__56::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e67d74;
+  constexpr static std::size_t addrs = 0x6e63778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Type*>* (::Zenject::InjectContext__get_AllObjectTypes_d__56::*)()>(
     &::Zenject::InjectContext__get_AllObjectTypes_d__56::System_Collections_Generic_IEnumerable_System_Type__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6e67d7c;
+  constexpr static std::size_t addrs = 0x6e63780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Zenject::InjectContext__get_AllObjectTypes_d__56::*)()>(
     &::Zenject::InjectContext__get_AllObjectTypes_d__56::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e67e14;
+  constexpr static std::size_t addrs = 0x6e63818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::InjectContext__get_AllObjectTypes_d__56::__zenCreate)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e67e18;
+  constexpr static std::size_t addrs = 0x6e6381c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::InjectContext__get_AllObjectTypes_d__56::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x6e67ec4;
+  constexpr static std::size_t addrs = 0x6e638c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext__get_ParentContexts_d__52::*)(int32_t)>(&::Zenject::InjectContext__get_ParentContexts_d__52::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6e67348;
+  constexpr static std::size_t addrs = 0x6e62d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext__get_ParentContexts_d__52::*)()>(
     &::Zenject::InjectContext__get_ParentContexts_d__52::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e680f8;
+  constexpr static std::size_t addrs = 0x6e63afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -358,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::InjectContext__get_ParentContexts_d__52::*)()>(&::Zenject::InjectContext__get_ParentContexts_d__52::MoveNext)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x6e68114;
+  constexpr static std::size_t addrs = 0x6e63b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext__get_ParentContexts_d__52*>(), { "MoveNext", {}, {} })));
@@ -370,7 +370,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext__get_ParentContexts_d__52::*)()>(&::Zenject::InjectContext__get_ParentContexts_d__52::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6e683fc;
+  constexpr static std::size_t addrs = 0x6e63e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext__get_ParentContexts_d__52*>(), { "<>m__Finally1", {}, {} })));
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectContext* (::Zenject::InjectContext__get_ParentContexts_d__52::*)()>(
     &::Zenject::InjectContext__get_ParentContexts_d__52::System_Collections_Generic_IEnumerator_Zenject_InjectContext__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e684b0;
+  constexpr static std::size_t addrs = 0x6e63eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext__get_ParentContexts_d__52*>(),
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext__get_ParentContexts_d__52::*)()>(
     &::Zenject::InjectContext__get_ParentContexts_d__52::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6e684b8;
+  constexpr static std::size_t addrs = 0x6e63ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Zenject::InjectContext__get_ParentContexts_d__52::*)()>(
     &::Zenject::InjectContext__get_ParentContexts_d__52::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e684f0;
+  constexpr static std::size_t addrs = 0x6e63ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -425,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>* (::Zenject::InjectContext__get_ParentContexts_d__52::*)()>(
     &::Zenject::InjectContext__get_ParentContexts_d__52::System_Collections_Generic_IEnumerable_Zenject_InjectContext__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6e684f8;
+  constexpr static std::size_t addrs = 0x6e63efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext__get_ParentContexts_d__52*>(),
@@ -439,7 +439,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Zenject::InjectContext__get_ParentContexts_d__52::*)()>(
     &::Zenject::InjectContext__get_ParentContexts_d__52::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e68590;
+  constexpr static std::size_t addrs = 0x6e63f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -452,7 +452,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::InjectContext__get_ParentContexts_d__52::__zenCreate)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e68594;
+  constexpr static std::size_t addrs = 0x6e63f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -465,7 +465,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::InjectContext__get_ParentContexts_d__52::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x6e68640;
+  constexpr static std::size_t addrs = 0x6e64044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -640,7 +640,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext__get_ParentContextsAndSelf_d__54::*)(int32_t)>(
     &::Zenject::InjectContext__get_ParentContextsAndSelf_d__54::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6e673d8;
+  constexpr static std::size_t addrs = 0x6e62ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -654,7 +654,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext__get_ParentContextsAndSelf_d__54::*)()>(
     &::Zenject::InjectContext__get_ParentContextsAndSelf_d__54::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e68874;
+  constexpr static std::size_t addrs = 0x6e64278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -667,7 +667,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::InjectContext__get_ParentContextsAndSelf_d__54::*)()>(&::Zenject::InjectContext__get_ParentContextsAndSelf_d__54::MoveNext)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x6e68890;
+  constexpr static std::size_t addrs = 0x6e64294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext__get_ParentContextsAndSelf_d__54*>(), { "MoveNext", {}, {} })));
@@ -680,7 +680,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext__get_ParentContextsAndSelf_d__54::*)()>(
     &::Zenject::InjectContext__get_ParentContextsAndSelf_d__54::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6e68b4c;
+  constexpr static std::size_t addrs = 0x6e64550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -694,7 +694,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectContext* (::Zenject::InjectContext__get_ParentContextsAndSelf_d__54::*)()>(
     &::Zenject::InjectContext__get_ParentContextsAndSelf_d__54::System_Collections_Generic_IEnumerator_Zenject_InjectContext__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e68c00;
+  constexpr static std::size_t addrs = 0x6e64604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext__get_ParentContextsAndSelf_d__54*>(),
@@ -708,7 +708,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext__get_ParentContextsAndSelf_d__54::*)()>(
     &::Zenject::InjectContext__get_ParentContextsAndSelf_d__54::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6e68c08;
+  constexpr static std::size_t addrs = 0x6e6460c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -722,7 +722,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Zenject::InjectContext__get_ParentContextsAndSelf_d__54::*)()>(
     &::Zenject::InjectContext__get_ParentContextsAndSelf_d__54::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e68c40;
+  constexpr static std::size_t addrs = 0x6e64644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -736,7 +736,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::Zenject::InjectContext*>* (::Zenject::InjectContext__get_ParentContextsAndSelf_d__54::*)()>(
     &::Zenject::InjectContext__get_ParentContextsAndSelf_d__54::System_Collections_Generic_IEnumerable_Zenject_InjectContext__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6e68c48;
+  constexpr static std::size_t addrs = 0x6e6464c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext__get_ParentContextsAndSelf_d__54*>(),
@@ -750,7 +750,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Zenject::InjectContext__get_ParentContextsAndSelf_d__54::*)()>(
     &::Zenject::InjectContext__get_ParentContextsAndSelf_d__54::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e68ce0;
+  constexpr static std::size_t addrs = 0x6e646e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -763,7 +763,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::InjectContext__get_ParentContextsAndSelf_d__54::__zenCreate)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e68ce4;
+  constexpr static std::size_t addrs = 0x6e646e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -777,7 +777,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::InjectContext__get_ParentContextsAndSelf_d__54::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x6e68d90;
+  constexpr static std::size_t addrs = 0x6e64794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -952,7 +952,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext::*)()>(&::Zenject::InjectContext::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e6709c;
+  constexpr static std::size_t addrs = 0x6e62aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { ".ctor", {}, {} })));
@@ -964,7 +964,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext::*)(::Zenject::DiContainer*, ::System::Type*)>(&::Zenject::InjectContext::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6e67110;
+  constexpr static std::size_t addrs = 0x6e62b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -977,7 +977,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext::*)(::Zenject::DiContainer*, ::System::Type*, ::System::Object*)>(&::Zenject::InjectContext::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e67148;
+  constexpr static std::size_t addrs = 0x6e62b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -991,7 +991,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext::*)(::Zenject::DiContainer*, ::System::Type*, ::System::Object*, bool)>(&::Zenject::InjectContext::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e6718c;
+  constexpr static std::size_t addrs = 0x6e62b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1006,7 +1006,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext::*)()>(&::Zenject::InjectContext::Dispose)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e671d0;
+  constexpr static std::size_t addrs = 0x6e62bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "Dispose", {}, {} })));
@@ -1018,7 +1018,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext::*)()>(&::Zenject::InjectContext::Reset)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6e670a4;
+  constexpr static std::size_t addrs = 0x6e62aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "Reset", {}, {} })));
@@ -1030,7 +1030,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::BindingId (::Zenject::InjectContext::*)()>(&::Zenject::InjectContext::get_BindingId)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e6722c;
+  constexpr static std::size_t addrs = 0x6e62c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "get_BindingId", {}, {} })));
@@ -1042,7 +1042,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::Zenject::InjectContext::*)()>(&::Zenject::InjectContext::get_ObjectType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e67238;
+  constexpr static std::size_t addrs = 0x6e62c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "get_ObjectType", {}, {} })));
@@ -1054,7 +1054,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext::*)(::System::Type*)>(&::Zenject::InjectContext::set_ObjectType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e67240;
+  constexpr static std::size_t addrs = 0x6e62c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1067,7 +1067,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectContext* (::Zenject::InjectContext::*)()>(&::Zenject::InjectContext::get_ParentContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e67248;
+  constexpr static std::size_t addrs = 0x6e62c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "get_ParentContext", {}, {} })));
@@ -1079,7 +1079,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext::*)(::Zenject::InjectContext*)>(&::Zenject::InjectContext::set_ParentContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e67250;
+  constexpr static std::size_t addrs = 0x6e62c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1092,7 +1092,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Zenject::InjectContext::*)()>(&::Zenject::InjectContext::get_ObjectInstance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e67258;
+  constexpr static std::size_t addrs = 0x6e62c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "get_ObjectInstance", {}, {} })));
@@ -1104,7 +1104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext::*)(::System::Object*)>(&::Zenject::InjectContext::set_ObjectInstance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e67260;
+  constexpr static std::size_t addrs = 0x6e62c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1117,7 +1117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Zenject::InjectContext::*)()>(&::Zenject::InjectContext::get_Identifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e67268;
+  constexpr static std::size_t addrs = 0x6e62c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "get_Identifier", {}, {} })));
@@ -1129,7 +1129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext::*)(::System::Object*)>(&::Zenject::InjectContext::set_Identifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e67184;
+  constexpr static std::size_t addrs = 0x6e62b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1142,7 +1142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Zenject::InjectContext::*)()>(&::Zenject::InjectContext::get_MemberName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e67270;
+  constexpr static std::size_t addrs = 0x6e62c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "get_MemberName", {}, {} })));
@@ -1154,7 +1154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext::*)(::StringW)>(&::Zenject::InjectContext::set_MemberName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e67278;
+  constexpr static std::size_t addrs = 0x6e62c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "set_MemberName", {}, { ::i2c::type_of<::StringW>() } })));
@@ -1166,7 +1166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::Zenject::InjectContext::*)()>(&::Zenject::InjectContext::get_MemberType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e67280;
+  constexpr static std::size_t addrs = 0x6e62c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "get_MemberType", {}, {} })));
@@ -1178,7 +1178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext::*)(::System::Type*)>(&::Zenject::InjectContext::set_MemberType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e67140;
+  constexpr static std::size_t addrs = 0x6e62b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1191,7 +1191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::InjectContext::*)()>(&::Zenject::InjectContext::get_Optional)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e67288;
+  constexpr static std::size_t addrs = 0x6e62c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "get_Optional", {}, {} })));
@@ -1203,7 +1203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext::*)(bool)>(&::Zenject::InjectContext::set_Optional)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e67290;
+  constexpr static std::size_t addrs = 0x6e62c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "set_Optional", {}, { ::i2c::type_of<bool>() } })));
@@ -1215,7 +1215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectSources (::Zenject::InjectContext::*)()>(&::Zenject::InjectContext::get_SourceType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e67298;
+  constexpr static std::size_t addrs = 0x6e62c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "get_SourceType", {}, {} })));
@@ -1227,7 +1227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext::*)(::Zenject::InjectSources)>(&::Zenject::InjectContext::set_SourceType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e672a0;
+  constexpr static std::size_t addrs = 0x6e62ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1240,7 +1240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Zenject::InjectContext::*)()>(&::Zenject::InjectContext::get_ConcreteIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e672a8;
+  constexpr static std::size_t addrs = 0x6e62cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "get_ConcreteIdentifier", {}, {} })));
@@ -1252,7 +1252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext::*)(::System::Object*)>(&::Zenject::InjectContext::set_ConcreteIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e672b0;
+  constexpr static std::size_t addrs = 0x6e62cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1265,7 +1265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Zenject::InjectContext::*)()>(&::Zenject::InjectContext::get_FallBackValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e672b8;
+  constexpr static std::size_t addrs = 0x6e62cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "get_FallBackValue", {}, {} })));
@@ -1277,7 +1277,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext::*)(::System::Object*)>(&::Zenject::InjectContext::set_FallBackValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e672c0;
+  constexpr static std::size_t addrs = 0x6e62cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1290,7 +1290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::DiContainer* (::Zenject::InjectContext::*)()>(&::Zenject::InjectContext::get_Container)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e672c8;
+  constexpr static std::size_t addrs = 0x6e62ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "get_Container", {}, {} })));
@@ -1302,7 +1302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::InjectContext::*)(::Zenject::DiContainer*)>(&::Zenject::InjectContext::set_Container)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e672d0;
+  constexpr static std::size_t addrs = 0x6e62cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1316,7 +1316,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::Zenject::InjectContext*>* (::Zenject::InjectContext::*)()>(
     &::Zenject::InjectContext::get_ParentContexts)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6e672d8;
+  constexpr static std::size_t addrs = 0x6e62cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "get_ParentContexts", {}, {} })));
@@ -1329,7 +1329,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::Zenject::InjectContext*>* (::Zenject::InjectContext::*)()>(
     &::Zenject::InjectContext::get_ParentContextsAndSelf)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6e67368;
+  constexpr static std::size_t addrs = 0x6e62d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "get_ParentContextsAndSelf", {}, {} })));
@@ -1342,7 +1342,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>* (::Zenject::InjectContext::*)()>(
     &::Zenject::InjectContext::get_AllObjectTypes)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6e673f8;
+  constexpr static std::size_t addrs = 0x6e62dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "get_AllObjectTypes", {}, {} })));
@@ -1354,7 +1354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectContext* (::Zenject::InjectContext::*)(::System::Type*)>(&::Zenject::InjectContext::CreateSubContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e67488;
+  constexpr static std::size_t addrs = 0x6e62e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1367,7 +1367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectContext* (::Zenject::InjectContext::*)(::System::Type*, ::System::Object*)>(&::Zenject::InjectContext::CreateSubContext)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6e67490;
+  constexpr static std::size_t addrs = 0x6e62e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1380,7 +1380,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectContext* (::Zenject::InjectContext::*)()>(&::Zenject::InjectContext::Clone)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6e67548;
+  constexpr static std::size_t addrs = 0x6e62f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "Clone", {}, {} })));
@@ -1392,7 +1392,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Zenject::InjectContext::*)()>(&::Zenject::InjectContext::GetObjectGraphString)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x6e675ec;
+  constexpr static std::size_t addrs = 0x6e62ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::InjectContext*>(), { "GetObjectGraphString", {}, {} })));

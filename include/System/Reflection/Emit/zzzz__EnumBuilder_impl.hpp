@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Assembly* (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_Assembly)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b8ffb4;
+  constexpr static std::size_t addrs = 0x5b8ddf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_AssemblyQualifiedName)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b8ffec;
+  constexpr static std::size_t addrs = 0x5b8de30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_BaseType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b90024;
+  constexpr static std::size_t addrs = 0x5b8de68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_FullName)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9005c;
+  constexpr static std::size_t addrs = 0x5b8dea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Guid (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_GUID)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b90094;
+  constexpr static std::size_t addrs = 0x5b8ded8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Module* (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_Module)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b900cc;
+  constexpr static std::size_t addrs = 0x5b8df10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_Name)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b90104;
+  constexpr static std::size_t addrs = 0x5b8df48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_Namespace)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9013c;
+  constexpr static std::size_t addrs = 0x5b8df80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_UnderlyingSystemType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b90174;
+  constexpr static std::size_t addrs = 0x5b8dfb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::TypeAttributes (::System::Reflection::Emit::EnumBuilder::*)()>(
     &::System::Reflection::Emit::EnumBuilder::GetAttributeFlagsImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b901ac;
+  constexpr static std::size_t addrs = 0x5b8dff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Con
     ::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Reflection::CallingConventions, ::ArrayW<::System::Type*>,
                                                 ::ArrayW<::System::Reflection::ParameterModifier>)>(&::System::Reflection::Emit::EnumBuilder::GetConstructorImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b901e4;
+  constexpr static std::size_t addrs = 0x5b8e028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::ConstructorInfo*> (::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::EnumBuilder::GetConstructors)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9021c;
+  constexpr static std::size_t addrs = 0x5b8e060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Reflection::Emit::EnumBuilder::*)(bool)>(&::System::Reflection::Emit::EnumBuilder::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b90254;
+  constexpr static std::size_t addrs = 0x5b8e098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::System::Reflection::Emit::EnumBuilder::*)(::System::Type*, bool)>(
     &::System::Reflection::Emit::EnumBuilder::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9028c;
+  constexpr static std::size_t addrs = 0x5b8e0d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::GetElementType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b902c4;
+  constexpr static std::size_t addrs = 0x5b8e108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::EventInfo* (::System::Reflection::Emit::EnumBuilder::*)(::StringW, ::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::EnumBuilder::GetEvent)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b902fc;
+  constexpr static std::size_t addrs = 0x5b8e140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::EventInfo*> (::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::EnumBuilder::GetEvents)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b90334;
+  constexpr static std::size_t addrs = 0x5b8e178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::FieldInfo* (::System::Reflection::Emit::EnumBuilder::*)(::StringW, ::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::EnumBuilder::GetField)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9036c;
+  constexpr static std::size_t addrs = 0x5b8e1b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::FieldInfo*> (::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::EnumBuilder::GetFields)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b903a4;
+  constexpr static std::size_t addrs = 0x5b8e1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::Emit::EnumBuilder::*)(::StringW, bool)>(&::System::Reflection::Emit::EnumBuilder::GetInterface)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b903dc;
+  constexpr static std::size_t addrs = 0x5b8e220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Type*> (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::GetInterfaces)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b90414;
+  constexpr static std::size_t addrs = 0x5b8e258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::MemberInfo*> (::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::EnumBuilder::GetMembers)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9044c;
+  constexpr static std::size_t addrs = 0x5b8e290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -322,7 +322,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Met
     ::System::Reflection::Emit::EnumBuilder::*)(::StringW, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Reflection::CallingConventions, ::ArrayW<::System::Type*>,
                                                 ::ArrayW<::System::Reflection::ParameterModifier>)>(&::System::Reflection::Emit::EnumBuilder::GetMethodImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b90484;
+  constexpr static std::size_t addrs = 0x5b8e2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::MethodInfo*> (::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::EnumBuilder::GetMethods)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b904bc;
+  constexpr static std::size_t addrs = 0x5b8e300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Reflection::Emit::EnumBuilder::*)(::StringW, ::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::EnumBuilder::GetNestedType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b904f4;
+  constexpr static std::size_t addrs = 0x5b8e338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::PropertyInfo*> (::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::EnumBuilder::GetProperties)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9052c;
+  constexpr static std::size_t addrs = 0x5b8e370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -379,7 +379,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::Pro
     ::System::Reflection::Emit::EnumBuilder::*)(::StringW, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Type*, ::ArrayW<::System::Type*>,
                                                 ::ArrayW<::System::Reflection::ParameterModifier>)>(&::System::Reflection::Emit::EnumBuilder::GetPropertyImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b90564;
+  constexpr static std::size_t addrs = 0x5b8e3a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -392,7 +392,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::HasElementTypeImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9059c;
+  constexpr static std::size_t addrs = 0x5b8e3e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -408,7 +408,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (
                                                 ::ArrayW<::System::Reflection::ParameterModifier>, ::System::Globalization::CultureInfo*, ::ArrayW<::StringW>)>(
     &::System::Reflection::Emit::EnumBuilder::InvokeMember)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b905d4;
+  constexpr static std::size_t addrs = 0x5b8e418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -421,7 +421,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::IsArrayImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9060c;
+  constexpr static std::size_t addrs = 0x5b8e450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -434,7 +434,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::IsByRefImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b90644;
+  constexpr static std::size_t addrs = 0x5b8e488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -447,7 +447,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::IsCOMObjectImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b9067c;
+  constexpr static std::size_t addrs = 0x5b8e4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -460,7 +460,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)(::System::Type*, bool)>(&::System::Reflection::Emit::EnumBuilder::IsDefined)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b906b4;
+  constexpr static std::size_t addrs = 0x5b8e4f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -473,7 +473,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::IsPointerImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b906ec;
+  constexpr static std::size_t addrs = 0x5b8e530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -486,7 +486,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::IsPrimitiveImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5b90724;
+  constexpr static std::size_t addrs = 0x5b8e568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

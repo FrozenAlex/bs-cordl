@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CameraHistoryItem::*)(::UnityEngine::Rendering::BufferedRTHandleSystem*, uint32_t)>(
     &::UnityEngine::Rendering::CameraHistoryItem::OnCreate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6747410;
+  constexpr static std::size_t addrs = 0x67451ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::BufferedRTHandleSystem* (::UnityEngine::Rendering::CameraHistoryItem::*)()>(
     &::UnityEngine::Rendering::CameraHistoryItem::get_storage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x674741c;
+  constexpr static std::size_t addrs = 0x67451b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CameraHistoryItem*>(), { "get_storage", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::CameraHistoryItem::*)(uint32_t)>(&::UnityEngine::Rendering::CameraHistoryItem::MakeId)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6747424;
+  constexpr static std::size_t addrs = 0x67451c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::CameraHistoryItem::*)(int32_t, int32_t, ::by_ref<::UnityEngine::RenderTextureDescriptor>, ::StringW)>(
         &::UnityEngine::Rendering::CameraHistoryItem::AllocHistoryFrameRT)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6747434;
+  constexpr static std::size_t addrs = 0x67451d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CameraHistoryItem::*)(int32_t)>(&::UnityEngine::Rendering::CameraHistoryItem::ReleaseHistoryFrameRT)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x674749c;
+  constexpr static std::size_t addrs = 0x6745238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::CameraHistoryItem::*)(int32_t)>(
     &::UnityEngine::Rendering::CameraHistoryItem::GetPreviousFrameRT)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x67474b4;
+  constexpr static std::size_t addrs = 0x6745250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::CameraHistoryItem::*)(int32_t)>(
     &::UnityEngine::Rendering::CameraHistoryItem::GetCurrentFrameRT)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6747480;
+  constexpr static std::size_t addrs = 0x674521c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CameraHistoryItem::*)()>(&::UnityEngine::Rendering::CameraHistoryItem::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x67474d0;
+  constexpr static std::size_t addrs = 0x674526c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CameraHistoryItem*>(), { ".ctor", {}, {} })));

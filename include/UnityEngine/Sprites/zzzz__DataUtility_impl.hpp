@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Sprite*)>(&::UnityEngine::Sprites::DataUtility::GetInnerUV)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b2e734;
+  constexpr static std::size_t addrs = 0x6b2a138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Sprite*)>(&::UnityEngine::Sprites::DataUtility::GetOuterUV)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b2e748;
+  constexpr static std::size_t addrs = 0x6b2a14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Sprite*)>(&::UnityEngine::Sprites::DataUtility::GetPadding)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b2e75c;
+  constexpr static std::size_t addrs = 0x6b2a160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Sprite*)>(&::UnityEngine::Sprites::DataUtility::GetMinSize)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6b2e770;
+  constexpr static std::size_t addrs = 0x6b2a174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::System::IO::TextWriter*)>(&::GlobalNamespace::TextWriter_SyncTextWriter::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5c01f70;
+  constexpr static std::size_t addrs = 0x5bffdb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(&::GlobalNamespace::TextWriter_SyncTextWriter::get_Encoding)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c02140;
+  constexpr static std::size_t addrs = 0x5bfff84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IFormatProvider* (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::get_FormatProvider)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5c02160;
+  constexpr static std::size_t addrs = 0x5bfffa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(&::GlobalNamespace::TextWriter_SyncTextWriter::get_NewLine)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c0217c;
+  constexpr static std::size_t addrs = 0x5bfffc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::StringW)>(&::GlobalNamespace::TextWriter_SyncTextWriter::set_NewLine)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c0219c;
+  constexpr static std::size_t addrs = 0x5bfffe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(&::GlobalNamespace::TextWriter_SyncTextWriter::Close)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5c021bc;
+  constexpr static std::size_t addrs = 0x5c00000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(bool)>(&::GlobalNamespace::TextWriter_SyncTextWriter::Dispose)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5c021d8;
+  constexpr static std::size_t addrs = 0x5c0001c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(&::GlobalNamespace::TextWriter_SyncTextWriter::Flush)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5c0229c;
+  constexpr static std::size_t addrs = 0x5c000e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(char16_t)>(&::GlobalNamespace::TextWriter_SyncTextWriter::Write)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c022b8;
+  constexpr static std::size_t addrs = 0x5c000fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::ArrayW<char16_t>)>(&::GlobalNamespace::TextWriter_SyncTextWriter::Write)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c022d8;
+  constexpr static std::size_t addrs = 0x5c0011c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::ArrayW<char16_t>, int32_t, int32_t)>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::Write)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c022f8;
+  constexpr static std::size_t addrs = 0x5c0013c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::StringW)>(&::GlobalNamespace::TextWriter_SyncTextWriter::Write)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c02318;
+  constexpr static std::size_t addrs = 0x5c0015c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::StringW, ::System::Object*, ::System::Object*, ::System::Object*)>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::Write)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c02338;
+  constexpr static std::size_t addrs = 0x5c0017c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(&::GlobalNamespace::TextWriter_SyncTextWriter::WriteLine)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c02358;
+  constexpr static std::size_t addrs = 0x5c0019c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::ArrayW<char16_t>, int32_t, int32_t)>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::WriteLine)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c02378;
+  constexpr static std::size_t addrs = 0x5c001bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::StringW)>(&::GlobalNamespace::TextWriter_SyncTextWriter::WriteLine)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c02398;
+  constexpr static std::size_t addrs = 0x5c001dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::StringW, ::System::Object*)>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::WriteLine)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c023b8;
+  constexpr static std::size_t addrs = 0x5c001fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::StringW, ::System::Object*, ::System::Object*, ::System::Object*)>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::WriteLine)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5c023d8;
+  constexpr static std::size_t addrs = 0x5c0021c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::TextWriter_SyncTextWriter::*)(char16_t)>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::WriteAsync)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5c023f8;
+  constexpr static std::size_t addrs = 0x5c0023c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::StringW)>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::WriteAsync)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5c024b4;
+  constexpr static std::size_t addrs = 0x5c002f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::ArrayW<char16_t>, int32_t, int32_t)>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::WriteAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5c02570;
+  constexpr static std::size_t addrs = 0x5c003b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(
     &::GlobalNamespace::TextWriter_SyncTextWriter::FlushAsync)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5c02644;
+  constexpr static std::size_t addrs = 0x5c00488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

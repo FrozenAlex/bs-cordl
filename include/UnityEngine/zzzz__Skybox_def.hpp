@@ -27,10 +27,10 @@ public:
   // Declarations
   __declspec(property(get = get_material)) ::UnityW<::UnityEngine::Material> material;
 
-  /// @brief Method get_material, addr 0x6aa15ec, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_material, addr 0x6a9cf38, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
-  /// @brief Method get_material_Injected, addr 0x6aa173c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_material_Injected, addr 0x6a9d088, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_material_Injected(::System::IntPtr _unity_self);
 
 protected:

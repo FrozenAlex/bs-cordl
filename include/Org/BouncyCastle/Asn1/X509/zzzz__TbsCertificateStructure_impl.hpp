@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::GetInstance)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3664e1c;
+  constexpr static std::size_t addrs = 0x36633e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::GetInstance)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3664e30;
+  constexpr static std::size_t addrs = 0x36633f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::_ctor)> {
   constexpr static std::size_t size = 0x5f0;
-  constexpr static std::size_t addrs = 0x3664ed0;
+  constexpr static std::size_t addrs = 0x3663498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*>(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::*)()>(
     &::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::get_Version)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x36658b0;
+  constexpr static std::size_t addrs = 0x3663e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*>(), { "get_Version", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::*)()>(
     &::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::get_VersionNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36658d4;
+  constexpr static std::size_t addrs = 0x3663e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::*)()>(
     &::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::get_SerialNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36658dc;
+  constexpr static std::size_t addrs = 0x3663ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::*)()>(
     &::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::get_Signature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36658e4;
+  constexpr static std::size_t addrs = 0x3663eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*>(), { "get_Signature", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Name* (::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::*)()>(
     &::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::get_Issuer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36658ec;
+  constexpr static std::size_t addrs = 0x3663eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*>(), { "get_Issuer", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::Time* (::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::*)()>(
     &::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::get_StartDate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36658f4;
+  constexpr static std::size_t addrs = 0x3663ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*>(), { "get_StartDate", {}, {} })));
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::Time* (::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::*)()>(
     &::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::get_EndDate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36658fc;
+  constexpr static std::size_t addrs = 0x3663ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*>(), { "get_EndDate", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Name* (::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::*)()>(
     &::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::get_Subject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3665904;
+  constexpr static std::size_t addrs = 0x3663ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*>(), { "get_Subject", {}, {} })));
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* (::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::*)()>(
     &::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::get_SubjectPublicKeyInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x366590c;
+  constexpr static std::size_t addrs = 0x3663ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerBitString* (::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::*)()>(
     &::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::get_IssuerUniqueID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3665914;
+  constexpr static std::size_t addrs = 0x3663edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerBitString* (::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::*)()>(
     &::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::get_SubjectUniqueID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x366591c;
+  constexpr static std::size_t addrs = 0x3663ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Extensions* (::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::*)()>(
     &::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::get_Extensions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3665924;
+  constexpr static std::size_t addrs = 0x3663eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::*)()>(
     &::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x366592c;
+  constexpr static std::size_t addrs = 0x3663ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*>(),

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SHCoefficients::*)(::UnityEngine::Rendering::SphericalHarmonicsL2)>(
     &::UnityEngine::Rendering::SHCoefficients::_ctor)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x67af844;
+  constexpr static std::size_t addrs = 0x67ad5e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SHCoefficients::*)(::UnityEngine::Rendering::SphericalHarmonicsL2, ::UnityEngine::Vector4)>(
     &::UnityEngine::Rendering::SHCoefficients::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x67afaec;
+  constexpr static std::size_t addrs = 0x67ad888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Rendering::SphericalHarmonicsL2, int32_t)>(&::UnityEngine::Rendering::SHCoefficients::GetSHA)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x67af99c;
+  constexpr static std::size_t addrs = 0x67ad738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Rendering::SphericalHarmonicsL2, int32_t)>(&::UnityEngine::Rendering::SHCoefficients::GetSHB)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x67afa44;
+  constexpr static std::size_t addrs = 0x67ad7e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Rendering::SphericalHarmonicsL2)>(&::UnityEngine::Rendering::SHCoefficients::GetSHC)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x67afad8;
+  constexpr static std::size_t addrs = 0x67ad874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SHCoefficients::*)(::UnityEngine::Rendering::SHCoefficients)>(
     &::UnityEngine::Rendering::SHCoefficients::Equals)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x67afb44;
+  constexpr static std::size_t addrs = 0x67ad8e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SHCoefficients::*)(::System::Object*)>(&::UnityEngine::Rendering::SHCoefficients::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x67afd50;
+  constexpr static std::size_t addrs = 0x67adaec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::SHCoefficients::*)()>(&::UnityEngine::Rendering::SHCoefficients::GetHashCode)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x67afde4;
+  constexpr static std::size_t addrs = 0x67adb80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::SHCoefficients, ::UnityEngine::Rendering::SHCoefficients)>(
     &::UnityEngine::Rendering::SHCoefficients::op_Equality)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x67aff60;
+  constexpr static std::size_t addrs = 0x67adcfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::SHCoefficients, ::UnityEngine::Rendering::SHCoefficients)>(
     &::UnityEngine::Rendering::SHCoefficients::op_Inequality)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x67aff94;
+  constexpr static std::size_t addrs = 0x67add30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

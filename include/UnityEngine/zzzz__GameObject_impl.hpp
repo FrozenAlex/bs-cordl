@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::PrimitiveType)>(&::UnityEngine::GameObject::CreatePrimitive)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6adcd20;
+  constexpr static std::size_t addrs = 0x6ad8618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Component> (::UnityEngine::GameObject::*)(::System::Type*)>(&::UnityEngine::GameObject::GetComponent)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6ada1b0;
+  constexpr static std::size_t addrs = 0x6ad5aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(::System::Type*, ::System::IntPtr)>(&::UnityEngine::GameObject::GetComponentFastPath)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6adcec0;
+  constexpr static std::size_t addrs = 0x6ad87b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Component> (::UnityEngine::GameObject::*)(::StringW)>(&::UnityEngine::GameObject::GetComponentByName)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x6adcfac;
+  constexpr static std::size_t addrs = 0x6ad88a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Component> (::UnityEngine::GameObject::*)(::StringW, bool)>(&::UnityEngine::GameObject::GetComponentByNameWithCase)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x6add288;
+  constexpr static std::size_t addrs = 0x6ad8b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Component> (::UnityEngine::GameObject::*)(::StringW)>(&::UnityEngine::GameObject::GetComponent)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6add57c;
+  constexpr static std::size_t addrs = 0x6ad8e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "GetComponent", {}, { ::i2c::type_of<::StringW>() } })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Component> (::UnityEngine::GameObject::*)(::System::Type*, bool)>(&::UnityEngine::GameObject::GetComponentInChildren)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6ada4d4;
+  constexpr static std::size_t addrs = 0x6ad5dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Component> (::UnityEngine::GameObject::*)(::System::Type*)>(&::UnityEngine::GameObject::GetComponentInChildren)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6add5d4;
+  constexpr static std::size_t addrs = 0x6ad8ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Component> (::UnityEngine::GameObject::*)(::System::Type*, bool)>(&::UnityEngine::GameObject::GetComponentInParent)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6ada72c;
+  constexpr static std::size_t addrs = 0x6ad6024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Component> (::UnityEngine::GameObject::*)(::System::Type*)>(&::UnityEngine::GameObject::GetComponentInParent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6add630;
+  constexpr static std::size_t addrs = 0x6ad8f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Array* (::UnityEngine::GameObject::*)(::System::Type*, bool, bool, bool, bool, ::System::Object*)>(
     &::UnityEngine::GameObject::GetComponentsInternal)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6add638;
+  constexpr static std::size_t addrs = 0x6ad8f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Component>> (::UnityEngine::GameObject::*)(::System::Type*)>(&::UnityEngine::GameObject::GetComponents)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6ada974;
+  constexpr static std::size_t addrs = 0x6ad626c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(::System::Type*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>*)>(
     &::UnityEngine::GameObject::GetComponents)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6add784;
+  constexpr static std::size_t addrs = 0x6ad907c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Component>> (::UnityEngine::GameObject::*)(::System::Type*)>(
     &::UnityEngine::GameObject::GetComponentsInChildren)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6add79c;
+  constexpr static std::size_t addrs = 0x6ad9094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Component>> (::UnityEngine::GameObject::*)(::System::Type*, bool)>(
     &::UnityEngine::GameObject::GetComponentsInChildren)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6ada664;
+  constexpr static std::size_t addrs = 0x6ad5f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Component>> (::UnityEngine::GameObject::*)(::System::Type*)>(
     &::UnityEngine::GameObject::GetComponentsInParent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6add7a4;
+  constexpr static std::size_t addrs = 0x6ad909c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Component>> (::UnityEngine::GameObject::*)(::System::Type*, bool)>(
     &::UnityEngine::GameObject::GetComponentsInParent)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6ada8bc;
+  constexpr static std::size_t addrs = 0x6ad61b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::GameObject::*)(::System::Type*, ::by_ref<::UnityEngine::Component*>)>(&::UnityEngine::GameObject::TryGetComponent)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ada424;
+  constexpr static std::size_t addrs = 0x6ad5d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Component> (::UnityEngine::GameObject::*)(::System::Type*)>(&::UnityEngine::GameObject::TryGetComponentInternal)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6add7ac;
+  constexpr static std::size_t addrs = 0x6ad90a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(::System::Type*, ::System::IntPtr)>(&::UnityEngine::GameObject::TryGetComponentFastPath)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6add9bc;
+  constexpr static std::size_t addrs = 0x6ad92b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -294,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::StringW)>(&::UnityEngine::GameObject::FindWithTag)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6addaa8;
+  constexpr static std::size_t addrs = 0x6ad93a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "FindWithTag", {}, { ::i2c::type_of<::StringW>() } })));
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::System::Object*)>(&::UnityEngine::GameObject::FindGameObjectsWithTagForListInternal)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6addd20;
+  constexpr static std::size_t addrs = 0x6ad9618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*)>(
     &::UnityEngine::GameObject::FindGameObjectsWithTag)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6adde98;
+  constexpr static std::size_t addrs = 0x6ad9790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(::StringW, ::UnityEngine::SendMessageOptions)>(&::UnityEngine::GameObject::SendMessageUpwards)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6adde9c;
+  constexpr static std::size_t addrs = 0x6ad9794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(::StringW, ::UnityEngine::SendMessageOptions)>(&::UnityEngine::GameObject::SendMessage)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ade02c;
+  constexpr static std::size_t addrs = 0x6ad9924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(::StringW, ::UnityEngine::SendMessageOptions)>(&::UnityEngine::GameObject::BroadcastMessage)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ade1bc;
+  constexpr static std::size_t addrs = 0x6ad9ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -378,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Component> (::UnityEngine::GameObject::*)(::StringW)>(&::UnityEngine::GameObject::AddComponentInternal)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x6ade34c;
+  constexpr static std::size_t addrs = 0x6ad9c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Component> (::UnityEngine::GameObject::*)(::System::Type*)>(&::UnityEngine::GameObject::Internal_AddComponentWithType)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6ade628;
+  constexpr static std::size_t addrs = 0x6ad9f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -404,7 +404,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Component> (::UnityEngine::GameObject::*)(::System::Type*)>(&::UnityEngine::GameObject::AddComponent)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ade7c4;
+  constexpr static std::size_t addrs = 0x6ada0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -417,7 +417,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::GameObject::*)()>(&::UnityEngine::GameObject::GetComponentCount)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ade7c8;
+  constexpr static std::size_t addrs = 0x6ada0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "GetComponentCount", {}, {} })));
@@ -429,7 +429,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Component> (::UnityEngine::GameObject::*)(int32_t)>(&::UnityEngine::GameObject::QueryComponentAtIndex)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6ade884;
+  constexpr static std::size_t addrs = 0x6ada17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -442,7 +442,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Component> (::UnityEngine::GameObject::*)(int32_t)>(&::UnityEngine::GameObject::GetComponentAtIndex)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6adea20;
+  constexpr static std::size_t addrs = 0x6ada318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -455,7 +455,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::GameObject::*)(::UnityEngine::Component*)>(&::UnityEngine::GameObject::GetComponentIndex)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6adeab0;
+  constexpr static std::size_t addrs = 0x6ada3a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -468,7 +468,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::UnityEngine::GameObject::*)()>(&::UnityEngine::GameObject::get_transform)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6adebb4;
+  constexpr static std::size_t addrs = 0x6ada4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "get_transform", {}, {} })));
@@ -480,7 +480,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::GameObject::*)()>(&::UnityEngine::GameObject::get_layer)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6aded40;
+  constexpr static std::size_t addrs = 0x6ada638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "get_layer", {}, {} })));
@@ -492,7 +492,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(int32_t)>(&::UnityEngine::GameObject::set_layer)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6adedfc;
+  constexpr static std::size_t addrs = 0x6ada6f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "set_layer", {}, { ::i2c::type_of<int32_t>() } })));
@@ -504,7 +504,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::GameObject::*)()>(&::UnityEngine::GameObject::get_active)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6adeed0;
+  constexpr static std::size_t addrs = 0x6ada7c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "get_active", {}, {} })));
@@ -516,7 +516,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(bool)>(&::UnityEngine::GameObject::set_active)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6adef8c;
+  constexpr static std::size_t addrs = 0x6ada884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "set_active", {}, { ::i2c::type_of<bool>() } })));
@@ -528,7 +528,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(bool)>(&::UnityEngine::GameObject::SetActive)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6adf060;
+  constexpr static std::size_t addrs = 0x6ada958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "SetActive", {}, { ::i2c::type_of<bool>() } })));
@@ -540,7 +540,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::GameObject::*)()>(&::UnityEngine::GameObject::get_activeSelf)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6adf134;
+  constexpr static std::size_t addrs = 0x6adaa2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "get_activeSelf", {}, {} })));
@@ -552,7 +552,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::GameObject::*)()>(&::UnityEngine::GameObject::get_activeInHierarchy)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6adf1f0;
+  constexpr static std::size_t addrs = 0x6adaae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "get_activeInHierarchy", {}, {} })));
@@ -564,7 +564,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(bool)>(&::UnityEngine::GameObject::SetActiveRecursively)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6adf2ac;
+  constexpr static std::size_t addrs = 0x6adaba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "SetActiveRecursively", {}, { ::i2c::type_of<bool>() } })));
@@ -576,7 +576,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::GameObject::*)()>(&::UnityEngine::GameObject::get_isStatic)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6adf380;
+  constexpr static std::size_t addrs = 0x6adac78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "get_isStatic", {}, {} })));
@@ -588,7 +588,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(bool)>(&::UnityEngine::GameObject::set_isStatic)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6adf43c;
+  constexpr static std::size_t addrs = 0x6adad34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "set_isStatic", {}, { ::i2c::type_of<bool>() } })));
@@ -600,7 +600,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::GameObject::*)()>(&::UnityEngine::GameObject::get_isStaticBatchable)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6adf510;
+  constexpr static std::size_t addrs = 0x6adae08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "get_isStaticBatchable", {}, {} })));
@@ -612,7 +612,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::GameObject::*)()>(&::UnityEngine::GameObject::get_tag)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6adf5cc;
+  constexpr static std::size_t addrs = 0x6adaec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "get_tag", {}, {} })));
@@ -624,7 +624,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(::StringW)>(&::UnityEngine::GameObject::set_tag)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6adab18;
+  constexpr static std::size_t addrs = 0x6ad6410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "set_tag", {}, { ::i2c::type_of<::StringW>() } })));
@@ -636,7 +636,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::GameObject::*)(::StringW)>(&::UnityEngine::GameObject::CompareTag)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6adaca0;
+  constexpr static std::size_t addrs = 0x6ad6598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "CompareTag", {}, { ::i2c::type_of<::StringW>() } })));
@@ -648,7 +648,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::GameObject::*)(::UnityEngine::TagHandle)>(&::UnityEngine::GameObject::CompareTag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6adf900;
+  constexpr static std::size_t addrs = 0x6adb1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -661,7 +661,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::GameObject::*)(::StringW)>(&::UnityEngine::GameObject::CompareTag_Internal)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6adf788;
+  constexpr static std::size_t addrs = 0x6adb080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -674,7 +674,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::GameObject::*)(::UnityEngine::TagHandle)>(&::UnityEngine::GameObject::CompareTagHandle_Internal)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6adf908;
+  constexpr static std::size_t addrs = 0x6adb200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -687,7 +687,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::StringW)>(&::UnityEngine::GameObject::FindGameObjectWithTag)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x6addaac;
+  constexpr static std::size_t addrs = 0x6ad93a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -700,7 +700,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::GameObject>> (*)(::StringW)>(&::UnityEngine::GameObject::FindGameObjectsWithTag)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6adfa64;
+  constexpr static std::size_t addrs = 0x6adb35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -714,7 +714,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(::StringW, ::System::Object*, ::UnityEngine::SendMessageOptions)>(
     &::UnityEngine::GameObject::SendMessageUpwards)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x6addea8;
+  constexpr static std::size_t addrs = 0x6ad97a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -729,7 +729,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(::StringW, ::System::Object*)>(&::UnityEngine::GameObject::SendMessageUpwards)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6adfc28;
+  constexpr static std::size_t addrs = 0x6adb520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -742,7 +742,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(::StringW)>(&::UnityEngine::GameObject::SendMessageUpwards)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6adfc30;
+  constexpr static std::size_t addrs = 0x6adb528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -755,7 +755,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(::StringW, ::System::Object*, ::UnityEngine::SendMessageOptions)>(&::UnityEngine::GameObject::SendMessage)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x6ade038;
+  constexpr static std::size_t addrs = 0x6ad9930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -769,7 +769,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(::StringW, ::System::Object*)>(&::UnityEngine::GameObject::SendMessage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6adfc98;
+  constexpr static std::size_t addrs = 0x6adb590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -782,7 +782,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(::StringW)>(&::UnityEngine::GameObject::SendMessage)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6adfca0;
+  constexpr static std::size_t addrs = 0x6adb598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "SendMessage", {}, { ::i2c::type_of<::StringW>() } })));
@@ -795,7 +795,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(::StringW, ::System::Object*, ::UnityEngine::SendMessageOptions)>(
     &::UnityEngine::GameObject::BroadcastMessage)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x6ade1c8;
+  constexpr static std::size_t addrs = 0x6ad9ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -810,7 +810,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(::StringW, ::System::Object*)>(&::UnityEngine::GameObject::BroadcastMessage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6adfd08;
+  constexpr static std::size_t addrs = 0x6adb600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -823,7 +823,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(::StringW)>(&::UnityEngine::GameObject::BroadcastMessage)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6adfd10;
+  constexpr static std::size_t addrs = 0x6adb608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -836,7 +836,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(::StringW)>(&::UnityEngine::GameObject::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6adfd1c;
+  constexpr static std::size_t addrs = 0x6adb614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -848,7 +848,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)()>(&::UnityEngine::GameObject::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6adfeb8;
+  constexpr static std::size_t addrs = 0x6adb7b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { ".ctor", {}, {} })));
@@ -860,7 +860,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GameObject::*)(::StringW, ::ArrayW<::System::Type*>)>(&::UnityEngine::GameObject::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6adff14;
+  constexpr static std::size_t addrs = 0x6adb80c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -873,7 +873,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::GameObject*, ::StringW)>(&::UnityEngine::GameObject::Internal_CreateGameObject)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6adfd84;
+  constexpr static std::size_t addrs = 0x6adb67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -887,7 +887,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::StringW)>(&::UnityEngine::GameObject::Find)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x6ae0010;
+  constexpr static std::size_t addrs = 0x6adb908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "Find", {}, { ::i2c::type_of<::StringW>() } })));
@@ -899,7 +899,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t, bool)>(&::UnityEngine::GameObject::SetGameObjectsActive)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6ae02c0;
+  constexpr static std::size_t addrs = 0x6adbbb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -913,7 +913,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Collections::NativeArray_1<int32_t>, bool)>(&::UnityEngine::GameObject::SetGameObjectsActive)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6ae0314;
+  constexpr static std::size_t addrs = 0x6adbc0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -927,7 +927,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::ReadOnlySpan_1<int32_t>, bool)>(&::UnityEngine::GameObject::SetGameObjectsActive)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6ae0418;
+  constexpr static std::size_t addrs = 0x6adbd10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -942,7 +942,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::System::IntPtr, ::System::IntPtr, int32_t, ::UnityEngine::SceneManagement::Scene)>(
     &::UnityEngine::GameObject::InstantiateGameObjects)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6ae04c4;
+  constexpr static std::size_t addrs = 0x6adbdbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -959,7 +959,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t, ::Unity::Collections::NativeArray_1<int32_t>, ::Unity::Collections::NativeArray_1<int32_t>,
                                                                 ::UnityEngine::SceneManagement::Scene)>(&::UnityEngine::GameObject::InstantiateGameObjects)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6ae05a0;
+  constexpr static std::size_t addrs = 0x6adbe98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -976,7 +976,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SceneManagement::Scene (*)(int32_t)>(&::UnityEngine::GameObject::GetScene)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6ae0744;
+  constexpr static std::size_t addrs = 0x6adc03c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "GetScene", {}, { ::i2c::type_of<int32_t>() } })));
@@ -988,7 +988,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::SceneManagement::Scene (::UnityEngine::GameObject::*)()>(&::UnityEngine::GameObject::get_scene)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6ae07d4;
+  constexpr static std::size_t addrs = 0x6adc0cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "get_scene", {}, {} })));
@@ -1000,7 +1000,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::GameObject::*)()>(&::UnityEngine::GameObject::get_sceneCullingMask)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ae08b0;
+  constexpr static std::size_t addrs = 0x6adc1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "get_sceneCullingMask", {}, {} })));
@@ -1012,7 +1012,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::GameObject::*)()>(&::UnityEngine::GameObject::get_gameObject)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ae096c;
+  constexpr static std::size_t addrs = 0x6adc264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GameObject*>(), { "get_gameObject", {}, {} })));
@@ -1024,7 +1024,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::PrimitiveType)>(&::UnityEngine::GameObject::CreatePrimitive_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6adce40;
+  constexpr static std::size_t addrs = 0x6ad8738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1037,7 +1037,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::Type*)>(&::UnityEngine::GameObject::GetComponent_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6adce7c;
+  constexpr static std::size_t addrs = 0x6ad8774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1051,7 +1051,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::Type*, ::System::IntPtr)>(&::UnityEngine::GameObject::GetComponentFastPath_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6adcf58;
+  constexpr static std::size_t addrs = 0x6ad8850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1067,7 +1067,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::GameObject::GetComponentByName_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6add244;
+  constexpr static std::size_t addrs = 0x6ad8b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1083,7 +1083,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, bool)>(
     &::UnityEngine::GameObject::GetComponentByNameWithCase_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6add528;
+  constexpr static std::size_t addrs = 0x6ad8e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1099,7 +1099,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::Type*, bool)>(&::UnityEngine::GameObject::GetComponentInChildren_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6add580;
+  constexpr static std::size_t addrs = 0x6ad8e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1113,7 +1113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::Type*, bool)>(&::UnityEngine::GameObject::GetComponentInParent_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6add5dc;
+  constexpr static std::size_t addrs = 0x6ad8ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1128,7 +1128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Array* (*)(::System::IntPtr, ::System::Type*, bool, bool, bool, bool, ::System::Object*)>(
     &::UnityEngine::GameObject::GetComponentsInternal_Injected)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6add700;
+  constexpr static std::size_t addrs = 0x6ad8ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1145,7 +1145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::Type*)>(&::UnityEngine::GameObject::TryGetComponentInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6add978;
+  constexpr static std::size_t addrs = 0x6ad9270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1159,7 +1159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::Type*, ::System::IntPtr)>(&::UnityEngine::GameObject::TryGetComponentFastPath_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6adda54;
+  constexpr static std::size_t addrs = 0x6ad934c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1175,7 +1175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::System::Object*)>(
     &::UnityEngine::GameObject::FindGameObjectsWithTagForListInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6adde54;
+  constexpr static std::size_t addrs = 0x6ad974c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1192,7 +1192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::GameObject::AddComponentInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ade5e4;
+  constexpr static std::size_t addrs = 0x6ad9edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1207,7 +1207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::Type*)>(&::UnityEngine::GameObject::Internal_AddComponentWithType_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ade780;
+  constexpr static std::size_t addrs = 0x6ada078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1221,7 +1221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::GameObject::GetComponentCount_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ade848;
+  constexpr static std::size_t addrs = 0x6ada140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1234,7 +1234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, int32_t)>(&::UnityEngine::GameObject::QueryComponentAtIndex_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ade9dc;
+  constexpr static std::size_t addrs = 0x6ada2d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1248,7 +1248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::GameObject::GetComponentIndex_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6adeb70;
+  constexpr static std::size_t addrs = 0x6ada468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1262,7 +1262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::GameObject::get_transform_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6aded04;
+  constexpr static std::size_t addrs = 0x6ada5fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1275,7 +1275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::GameObject::get_layer_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6adedc0;
+  constexpr static std::size_t addrs = 0x6ada6b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1288,7 +1288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t)>(&::UnityEngine::GameObject::set_layer_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6adee8c;
+  constexpr static std::size_t addrs = 0x6ada784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1301,7 +1301,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::GameObject::get_active_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6adef50;
+  constexpr static std::size_t addrs = 0x6ada848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1314,7 +1314,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::GameObject::set_active_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6adf01c;
+  constexpr static std::size_t addrs = 0x6ada914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1327,7 +1327,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::GameObject::SetActive_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6adf0f0;
+  constexpr static std::size_t addrs = 0x6ada9e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1340,7 +1340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::GameObject::get_activeSelf_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6adf1b4;
+  constexpr static std::size_t addrs = 0x6adaaac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1353,7 +1353,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::GameObject::get_activeInHierarchy_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6adf270;
+  constexpr static std::size_t addrs = 0x6adab68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1366,7 +1366,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::GameObject::SetActiveRecursively_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6adf33c;
+  constexpr static std::size_t addrs = 0x6adac34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1380,7 +1380,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::GameObject::get_isStatic_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6adf400;
+  constexpr static std::size_t addrs = 0x6adacf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1393,7 +1393,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::GameObject::set_isStatic_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6adf4cc;
+  constexpr static std::size_t addrs = 0x6adadc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1406,7 +1406,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::GameObject::get_isStaticBatchable_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6adf590;
+  constexpr static std::size_t addrs = 0x6adae88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1419,7 +1419,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::GameObject::get_tag_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6adf700;
+  constexpr static std::size_t addrs = 0x6adaff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1433,7 +1433,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::GameObject::set_tag_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6adf744;
+  constexpr static std::size_t addrs = 0x6adb03c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1447,7 +1447,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::GameObject::CompareTag_Internal_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6adf9a0;
+  constexpr static std::size_t addrs = 0x6adb298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1462,7 +1462,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr, ::by_ref<::UnityEngine::TagHandle>)>(&::UnityEngine::GameObject::CompareTagHandle_Internal_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6adf9e4;
+  constexpr static std::size_t addrs = 0x6adb2dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1476,7 +1476,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::GameObject::FindGameObjectWithTag_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6adfa28;
+  constexpr static std::size_t addrs = 0x6adb320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1491,7 +1491,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::GameObject>> (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::GameObject::FindGameObjectsWithTag_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6adfb90;
+  constexpr static std::size_t addrs = 0x6adb488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1506,7 +1506,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::System::Object*, ::UnityEngine::SendMessageOptions)>(
     &::UnityEngine::GameObject::SendMessageUpwards_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6adfbcc;
+  constexpr static std::size_t addrs = 0x6adb4c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1524,7 +1524,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::System::Object*, ::UnityEngine::SendMessageOptions)>(
     &::UnityEngine::GameObject::SendMessage_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6adfc3c;
+  constexpr static std::size_t addrs = 0x6adb534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1542,7 +1542,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::System::Object*, ::UnityEngine::SendMessageOptions)>(
     &::UnityEngine::GameObject::BroadcastMessage_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6adfcac;
+  constexpr static std::size_t addrs = 0x6adb5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1560,7 +1560,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::GameObject*, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::GameObject::Internal_CreateGameObject_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6adffcc;
+  constexpr static std::size_t addrs = 0x6adb8c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1575,7 +1575,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::GameObject::Find_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ae0284;
+  constexpr static std::size_t addrs = 0x6adbb7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1589,7 +1589,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::System::IntPtr, ::System::IntPtr, int32_t, ::by_ref<::UnityEngine::SceneManagement::Scene>)>(
     &::UnityEngine::GameObject::InstantiateGameObjects_Injected)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6ae0534;
+  constexpr static std::size_t addrs = 0x6adbe2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1605,7 +1605,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::by_ref<::UnityEngine::SceneManagement::Scene>)>(&::UnityEngine::GameObject::GetScene_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ae0790;
+  constexpr static std::size_t addrs = 0x6adc088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1619,7 +1619,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::SceneManagement::Scene>)>(&::UnityEngine::GameObject::get_scene_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ae086c;
+  constexpr static std::size_t addrs = 0x6adc164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1633,7 +1633,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::System::IntPtr)>(&::UnityEngine::GameObject::get_sceneCullingMask_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ae0930;
+  constexpr static std::size_t addrs = 0x6adc228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

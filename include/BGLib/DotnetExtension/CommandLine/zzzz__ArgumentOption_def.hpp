@@ -7,12 +7,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
+#include <cstdint>
 CORDL_MODULE_EXPORT(ArgumentOption)
 namespace BGLib::DotnetExtension::CommandLine {
 struct ArgumentType;
 }
 namespace BGLib::DotnetExtension::CommandLine {
 struct CommandLineParserResult;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace BGLib::DotnetExtension::CommandLine {
@@ -32,20 +39,35 @@ public:
 
   __declspec(property(get = get_required)) bool required;
 
-  /// @brief Method ToDestinationArguments, addr 0x330f400, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Convert operator to "::System::IEquatable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>"
+  constexpr operator ::System::IEquatable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>*();
+
+  /// @brief Method Equals, addr 0x330d4d8, size 0x8c, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x330d364, size 0x174, virtual true, abstract: false, final true
+  inline bool Equals(::BGLib::DotnetExtension::CommandLine::ArgumentOption other);
+
+  /// @brief Method GetHashCode, addr 0x330d564, size 0x154, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method ToDestinationArguments, addr 0x330d258, size 0x9c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> ToDestinationArguments(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineArguments);
 
-  /// @brief Method ValidateArgumentValue, addr 0x330f1ec, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method ValidateArgumentValue, addr 0x330d044, size 0x214, virtual false, abstract: false, final false
   inline void ValidateArgumentValue(::StringW value);
 
-  /// @brief Method .ctor, addr 0x330f1b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330d00c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW hint, ::BGLib::DotnetExtension::CommandLine::ArgumentType type, ::ArrayW<::StringW> identifiers);
 
-  /// @brief Method get_expectsValue, addr 0x330f1d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_expectsValue, addr 0x330d030, size 0x14, virtual false, abstract: false, final false
   inline bool get_expectsValue();
 
-  /// @brief Method get_required, addr 0x330f1c4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_required, addr 0x330d01c, size 0x14, virtual false, abstract: false, final false
   inline bool get_required();
+
+  /// @brief Convert to "::System::IEquatable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>"
+  constexpr ::System::IEquatable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>* i___System__IEquatable_1___BGLib__DotnetExtension__CommandLine__ArgumentOption_();
 
   // Ctor Parameters []
   // @brief default ctor
@@ -56,7 +78,7 @@ public:
   constexpr ArgumentOption(::StringW name, ::ArrayW<::StringW> identifiers, ::StringW hint, ::BGLib::DotnetExtension::CommandLine::ArgumentType type) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20483 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

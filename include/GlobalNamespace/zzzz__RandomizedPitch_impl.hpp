@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9::*)(int32_t)>(
     &::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x331faf4;
+  constexpr static std::size_t addrs = 0x331e0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9::*)()>(
     &::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x331fb1c;
+  constexpr static std::size_t addrs = 0x331e0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9::*)()>(
     &::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9::MoveNext)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x331fb20;
+  constexpr static std::size_t addrs = 0x331e0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9*>(), { "MoveNext", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9::*)()>(
     &::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x331fbc4;
+  constexpr static std::size_t addrs = 0x331e18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9*>(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9::*)()>(
     &::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x331fbcc;
+  constexpr static std::size_t addrs = 0x331e194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9::*)()>(
     &::GlobalNamespace::RandomizedPitch__PlayDelayedCoroutine_d__9::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x331fc04;
+  constexpr static std::size_t addrs = 0x331e1cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10::*)(int32_t)>(
     &::GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x331fafc;
+  constexpr static std::size_t addrs = 0x331e0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10::*)()>(
     &::GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x331fc0c;
+  constexpr static std::size_t addrs = 0x331e1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10::*)()>(
     &::GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10::MoveNext)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x331fc10;
+  constexpr static std::size_t addrs = 0x331e1d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10::*)()>(
     &::GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x331fcc0;
+  constexpr static std::size_t addrs = 0x331e288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10*>(),
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10::*)()>(
     &::GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x331fcc8;
+  constexpr static std::size_t addrs = 0x331e290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10::*)()>(
     &::GlobalNamespace::RandomizedPitch__RestorePitchWithDelay_d__10::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x331fd00;
+  constexpr static std::size_t addrs = 0x331e2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -396,7 +396,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RandomizedPitch::*)()>(&::GlobalNamespace::RandomizedPitch::OnEnable)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x331f8b0;
+  constexpr static std::size_t addrs = 0x331de78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RandomizedPitch*>(), { "OnEnable", {}, {} })));
@@ -408,7 +408,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RandomizedPitch::*)()>(&::GlobalNamespace::RandomizedPitch::Play)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x331f908;
+  constexpr static std::size_t addrs = 0x331ded0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RandomizedPitch*>(), { "Play", {}, {} })));
@@ -420,7 +420,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RandomizedPitch::*)(float_t)>(&::GlobalNamespace::RandomizedPitch::PlayDelayed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x331fa58;
+  constexpr static std::size_t addrs = 0x331e020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -434,7 +434,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::RandomizedPitch::*)(float_t)>(
     &::GlobalNamespace::RandomizedPitch::PlayDelayedCoroutine)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x331fa90;
+  constexpr static std::size_t addrs = 0x331e058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -448,7 +448,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::RandomizedPitch::*)(float_t)>(
     &::GlobalNamespace::RandomizedPitch::RestorePitchWithDelay)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x331f9f4;
+  constexpr static std::size_t addrs = 0x331dfbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -461,7 +461,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RandomizedPitch::*)()>(&::GlobalNamespace::RandomizedPitch::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x331fb04;
+  constexpr static std::size_t addrs = 0x331e0cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RandomizedPitch*>(), { ".ctor", {}, {} })));

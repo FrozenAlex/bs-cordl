@@ -29,18 +29,18 @@ public:
   // Declarations
   __declspec(property(get = get_assetRuntimeKey)) ::StringW assetRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x37689ec, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3767510, size 0x98, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadCharacteristicCollectionAsync, addr 0x3768a84, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method LoadCharacteristicCollectionAsync, addr 0x37675a8, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicCollectionSO>> LoadCharacteristicCollectionAsync();
 
   static inline ::GlobalNamespace::BeatmapCharacteristicAsyncInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3768b08, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x376762c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetRuntimeKey, addr 0x37689a8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_assetRuntimeKey, addr 0x37674cc, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_assetRuntimeKey();
 
 protected:
@@ -58,7 +58,7 @@ public:
   BeatmapCharacteristicAsyncInstaller(BeatmapCharacteristicAsyncInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20950 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

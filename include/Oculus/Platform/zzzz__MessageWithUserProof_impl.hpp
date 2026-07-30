@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithUserProof::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithUserProof::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd6024;
+  constexpr static std::size_t addrs = 0x5dd3d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::UserProof* (::Oculus::Platform::MessageWithUserProof::*)()>(
     &::Oculus::Platform::MessageWithUserProof::GetUserProof)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5ddb2c0;
+  constexpr static std::size_t addrs = 0x5dd902c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::UserProof* (::Oculus::Platform::MessageWithUserProof::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithUserProof::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5ddb304;
+  constexpr static std::size_t addrs = 0x5dd9070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

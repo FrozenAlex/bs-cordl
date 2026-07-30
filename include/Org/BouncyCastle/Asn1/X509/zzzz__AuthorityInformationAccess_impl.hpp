@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*> (*)(::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*>)>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::Copy)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x355a5bc;
+  constexpr static std::size_t addrs = 0x3558b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*>(),
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::GetInstance)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x355a634;
+  constexpr static std::size_t addrs = 0x3558bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess* (*)(::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::FromExtensions)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x355a894;
+  constexpr static std::size_t addrs = 0x3558e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*>(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::_ctor)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x355a6d4;
+  constexpr static std::size_t addrs = 0x3558c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*>(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::*)(::Org::BouncyCastle::Asn1::X509::AccessDescription*)>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x355a90c;
+  constexpr static std::size_t addrs = 0x3558ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*>(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::*)(::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*>)>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x355a9ac;
+  constexpr static std::size_t addrs = 0x3558f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*>(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x355a9c8;
+  constexpr static std::size_t addrs = 0x3558f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*> (::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::*)()>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::GetAccessDescriptions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x355aa30;
+  constexpr static std::size_t addrs = 0x3558ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::*)()>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::ToAsn1Object)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x355aa38;
+  constexpr static std::size_t addrs = 0x3559000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*>(),
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::*)()>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::ToString)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x355aa98;
+  constexpr static std::size_t addrs = 0x3559060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*>(),

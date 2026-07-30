@@ -102,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x5993368, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5991a2c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::LightAxis axis, bool mirrored, ::UnityEngine::Transform* transform);
 
 protected:
@@ -191,22 +191,22 @@ public:
   /// @brief Field _tweeningManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Cleanup, addr 0x5992ec4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x5991588, size 0xa0, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method ComputeTargetAngle, addr 0x599308c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ComputeTargetAngle, addr 0x5991750, size 0xd0, virtual false, abstract: false, final false
   static inline float_t ComputeTargetAngle(float_t startAngle, float_t targetAngle, int32_t loopCount, ::GlobalNamespace::LightRotationDirection rotationOrientation);
 
-  /// @brief Method HandleRotationChangeBeatmapEvent, addr 0x5992f64, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method HandleRotationChangeBeatmapEvent, addr 0x5991628, size 0x128, virtual false, abstract: false, final false
   inline void HandleRotationChangeBeatmapEvent(::GlobalNamespace::LightRotationBeatmapEventData* currentEventData);
 
   static inline ::GlobalNamespace::LightRotationGroupEffect* New_ctor(::GlobalNamespace::LightRotationGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                                       ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method SetRotation, addr 0x59931d4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method SetRotation, addr 0x5991898, size 0x194, virtual false, abstract: false, final false
   inline void SetRotation(float_t rotation);
 
-  /// @brief Method SetRotationWithValidation, addr 0x599315c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetRotationWithValidation, addr 0x5991820, size 0x78, virtual false, abstract: false, final false
   inline void SetRotationWithValidation(float_t rotation);
 
   constexpr ::GlobalNamespace::LightAxis const& __cordl_internal_get__axis() const;
@@ -263,7 +263,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x5992c18, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59912dc, size 0x2ac, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightRotationGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 

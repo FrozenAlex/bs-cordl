@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::LongArray::*)(int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x352cee0;
+  constexpr static std::size_t addrs = 0x352b4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::LongArray::*)(::ArrayW<int64_t>)>(&::Org::BouncyCastle::Math::EC::LongArray::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3523b04;
+  constexpr static std::size_t addrs = 0x35220cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::LongArray::*)(::ArrayW<int64_t>, int32_t, int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x352cf40;
+  constexpr static std::size_t addrs = 0x352b508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::LongArray::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::LongArray::_ctor)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x35259f8;
+  constexpr static std::size_t addrs = 0x3523fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::LongArray::*)(::ArrayW<int64_t>, int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::CopyTo)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3523634;
+  constexpr static std::size_t addrs = 0x3521bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::EC::LongArray::*)()>(&::Org::BouncyCastle::Math::EC::LongArray::IsOne)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3525d14;
+  constexpr static std::size_t addrs = 0x35242dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::LongArray*>(), { "IsOne", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::EC::LongArray::*)()>(&::Org::BouncyCastle::Math::EC::LongArray::IsZero)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3525d98;
+  constexpr static std::size_t addrs = 0x3524360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::LongArray*>(), { "IsZero", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::LongArray::*)()>(&::Org::BouncyCastle::Math::EC::LongArray::GetUsedLength)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x352cff8;
+  constexpr static std::size_t addrs = 0x352b5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::LongArray*>(), { "GetUsedLength", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::LongArray::*)(int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::GetUsedLengthFrom)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x352d010;
+  constexpr static std::size_t addrs = 0x352b5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::LongArray::*)()>(&::Org::BouncyCastle::Math::EC::LongArray::Degree)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3525c64;
+  constexpr static std::size_t addrs = 0x352422c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::LongArray*>(), { "Degree", {}, {} })));
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::LongArray::*)(int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::DegreeFrom)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x352d24c;
+  constexpr static std::size_t addrs = 0x352b814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int64_t)>(&::Org::BouncyCastle::Math::EC::LongArray::BitLength)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x352d0f4;
+  constexpr static std::size_t addrs = 0x352b6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int64_t> (::Org::BouncyCastle::Math::EC::LongArray::*)(int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::ResizedInts)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x352d304;
+  constexpr static std::size_t addrs = 0x352b8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::LongArray::*)()>(
     &::Org::BouncyCastle::Math::EC::LongArray::ToBigInteger)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x3525e80;
+  constexpr static std::size_t addrs = 0x3524448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::LongArray*>(), { "ToBigInteger", {}, {} })));
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::ArrayW<int64_t>, int32_t, int32_t, int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::ShiftUp)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x352d3c0;
+  constexpr static std::size_t addrs = 0x352b988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::ArrayW<int64_t>, int32_t, ::ArrayW<int64_t>, int32_t, int32_t, int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::ShiftUp)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x352d440;
+  constexpr static std::size_t addrs = 0x352ba08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::LongArray*>(),
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (::Org::BouncyCastle::Math::EC::LongArray::*)()>(&::Org::BouncyCastle::Math::EC::LongArray::AddOne)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3526538;
+  constexpr static std::size_t addrs = 0x3524b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::LongArray*>(), { "AddOne", {}, {} })));
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::LongArray::*)(::Org::BouncyCastle::Math::EC::LongArray*, int32_t, int32_t)>(
     &::Org::BouncyCastle::Math::EC::LongArray::AddShiftedByBitsSafe)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x352d4e4;
+  constexpr static std::size_t addrs = 0x352baac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::ArrayW<int64_t>, int32_t, ::ArrayW<int64_t>, int32_t, int32_t, int32_t)>(
     &::Org::BouncyCastle::Math::EC::LongArray::AddShiftedUp)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x352d68c;
+  constexpr static std::size_t addrs = 0x352bc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::LongArray*>(),
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::ArrayW<int64_t>, int32_t, ::ArrayW<int64_t>, int32_t, int32_t, int32_t)>(
     &::Org::BouncyCastle::Math::EC::LongArray::AddShiftedDown)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x352d73c;
+  constexpr static std::size_t addrs = 0x352bd04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::LongArray*>(),
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::LongArray::*)(::Org::BouncyCastle::Math::EC::LongArray*, int32_t)>(
     &::Org::BouncyCastle::Math::EC::LongArray::AddShiftedByWords)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x35263e0;
+  constexpr static std::size_t addrs = 0x35249a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int64_t>, int32_t, ::ArrayW<int64_t>, int32_t, int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::Add)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x352d608;
+  constexpr static std::size_t addrs = 0x352bbd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int64_t>, int32_t, ::ArrayW<int64_t>, int32_t, ::ArrayW<int64_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Math::EC::LongArray::Add)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x352d7d8;
+  constexpr static std::size_t addrs = 0x352bda0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int64_t>, int32_t, ::ArrayW<int64_t>, int32_t, ::ArrayW<int64_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Math::EC::LongArray::AddBoth)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x352d880;
+  constexpr static std::size_t addrs = 0x352be48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -347,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int64_t>, int32_t, int32_t, int32_t, int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::Distribute)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x352d930;
+  constexpr static std::size_t addrs = 0x352bef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -363,7 +363,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::LongArray::*)()>(&::Org::BouncyCastle::Math::EC::LongArray::get_Length)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x352d9d8;
+  constexpr static std::size_t addrs = 0x352bfa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::LongArray*>(), { "get_Length", {}, {} })));
@@ -375,7 +375,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int64_t>, int32_t, int32_t, int64_t)>(&::Org::BouncyCastle::Math::EC::LongArray::FlipWord)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x352d9f0;
+  constexpr static std::size_t addrs = 0x352bfb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -389,7 +389,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::EC::LongArray::*)()>(&::Org::BouncyCastle::Math::EC::LongArray::TestBitZero)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3525e3c;
+  constexpr static std::size_t addrs = 0x3524404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::LongArray*>(), { "TestBitZero", {}, {} })));
@@ -401,7 +401,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<int64_t>, int32_t, int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::TestBit)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x352da7c;
+  constexpr static std::size_t addrs = 0x352c044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -415,7 +415,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int64_t>, int32_t, int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::FlipBit)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x352dab4;
+  constexpr static std::size_t addrs = 0x352c07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -429,7 +429,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int64_t, ::ArrayW<int64_t>, int32_t, ::ArrayW<int64_t>, int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::MultiplyWord)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x352daf4;
+  constexpr static std::size_t addrs = 0x352c0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -446,7 +446,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (
     ::Org::BouncyCastle::Math::EC::LongArray::*)(::Org::BouncyCastle::Math::EC::LongArray*, int32_t, ::ArrayW<int32_t>)>(&::Org::BouncyCastle::Math::EC::LongArray::ModMultiplyLD)> {
   constexpr static std::size_t size = 0x510;
-  constexpr static std::size_t addrs = 0x352dc0c;
+  constexpr static std::size_t addrs = 0x352c1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -462,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (
     ::Org::BouncyCastle::Math::EC::LongArray::*)(::Org::BouncyCastle::Math::EC::LongArray*, int32_t, ::ArrayW<int32_t>)>(&::Org::BouncyCastle::Math::EC::LongArray::ModMultiply)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x3526728;
+  constexpr static std::size_t addrs = 0x3524cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -478,7 +478,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (
     ::Org::BouncyCastle::Math::EC::LongArray::*)(::Org::BouncyCastle::Math::EC::LongArray*, int32_t, ::ArrayW<int32_t>)>(&::Org::BouncyCastle::Math::EC::LongArray::ModMultiplyAlt)> {
   constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x352e1d0;
+  constexpr static std::size_t addrs = 0x352c798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -494,7 +494,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (::Org::BouncyCastle::Math::EC::LongArray::*)(int32_t, ::ArrayW<int32_t>)>(
     &::Org::BouncyCastle::Math::EC::LongArray::ModReduce)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x352e824;
+  constexpr static std::size_t addrs = 0x352cdec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -509,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (
     ::Org::BouncyCastle::Math::EC::LongArray::*)(::Org::BouncyCastle::Math::EC::LongArray*, int32_t, ::ArrayW<int32_t>)>(&::Org::BouncyCastle::Math::EC::LongArray::Multiply)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x3526d6c;
+  constexpr static std::size_t addrs = 0x3525334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -523,7 +523,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::LongArray::*)(int32_t, ::ArrayW<int32_t>)>(&::Org::BouncyCastle::Math::EC::LongArray::Reduce)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x35271ac;
+  constexpr static std::size_t addrs = 0x3525774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -537,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (*)(::ArrayW<int64_t>, int32_t, int32_t, int32_t, ::ArrayW<int32_t>)>(
     &::Org::BouncyCastle::Math::EC::LongArray::ReduceResult)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x352e11c;
+  constexpr static std::size_t addrs = 0x352c6e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -553,7 +553,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<int64_t>, int32_t, int32_t, int32_t, ::ArrayW<int32_t>)>(&::Org::BouncyCastle::Math::EC::LongArray::ReduceInPlace)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x352e90c;
+  constexpr static std::size_t addrs = 0x352ced4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -569,7 +569,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int64_t>, int32_t, int32_t, int32_t, ::ArrayW<int32_t>)>(&::Org::BouncyCastle::Math::EC::LongArray::ReduceBitWise)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x352edf4;
+  constexpr static std::size_t addrs = 0x352d3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -585,7 +585,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int64_t>, int32_t, int32_t, int32_t, ::ArrayW<int32_t>)>(&::Org::BouncyCastle::Math::EC::LongArray::ReduceBit)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x352eebc;
+  constexpr static std::size_t addrs = 0x352d484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -601,7 +601,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int64_t>, int32_t, int32_t, int32_t, int32_t, ::ArrayW<int32_t>)>(&::Org::BouncyCastle::Math::EC::LongArray::ReduceWordWise)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x352ec7c;
+  constexpr static std::size_t addrs = 0x352d244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::LongArray*>(),
@@ -617,7 +617,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int64_t>, int32_t, int32_t, int64_t, int32_t, ::ArrayW<int32_t>)>(&::Org::BouncyCastle::Math::EC::LongArray::ReduceWord)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x352efc0;
+  constexpr static std::size_t addrs = 0x352d588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::LongArray*>(),
@@ -634,7 +634,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int64_t>, int32_t, int32_t, int32_t, int32_t, ::ArrayW<int32_t>)>(
     &::Org::BouncyCastle::Math::EC::LongArray::ReduceVectorWise)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x352eb6c;
+  constexpr static std::size_t addrs = 0x352d134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::LongArray*>(),
@@ -650,7 +650,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int64_t>, int32_t, ::ArrayW<int64_t>, int32_t, int32_t, int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::FlipVector)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x352f0b0;
+  constexpr static std::size_t addrs = 0x352d678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::LongArray*>(),
@@ -667,7 +667,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (::Org::BouncyCastle::Math::EC::LongArray::*)(int32_t, ::ArrayW<int32_t>)>(
     &::Org::BouncyCastle::Math::EC::LongArray::ModSquare)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x352736c;
+  constexpr static std::size_t addrs = 0x3525934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -682,7 +682,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (::Org::BouncyCastle::Math::EC::LongArray::*)(int32_t, int32_t, ::ArrayW<int32_t>)>(
     &::Org::BouncyCastle::Math::EC::LongArray::ModSquareN)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3527870;
+  constexpr static std::size_t addrs = 0x3525e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -697,7 +697,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (::Org::BouncyCastle::Math::EC::LongArray::*)(int32_t, ::ArrayW<int32_t>)>(
     &::Org::BouncyCastle::Math::EC::LongArray::Square)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x352766c;
+  constexpr static std::size_t addrs = 0x3525c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -710,7 +710,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int64_t>, int32_t, int32_t, ::ArrayW<int32_t>)>(&::Org::BouncyCastle::Math::EC::LongArray::SquareInPlace)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x352f280;
+  constexpr static std::size_t addrs = 0x352d848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -725,7 +725,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int64_t>, int32_t, ::ArrayW<int64_t>, int32_t, int32_t, int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::Interleave)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x352e6ac;
+  constexpr static std::size_t addrs = 0x352cc74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::LongArray*>(),
@@ -741,7 +741,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int64_t>, int32_t, ::ArrayW<int64_t>, int32_t, int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::Interleave3)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x352f364;
+  constexpr static std::size_t addrs = 0x352d92c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -757,7 +757,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int64_t)>(&::Org::BouncyCastle::Math::EC::LongArray::Interleave3)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x352f75c;
+  constexpr static std::size_t addrs = 0x352dd24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -770,7 +770,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::Interleave3_21to63)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x352f7e8;
+  constexpr static std::size_t addrs = 0x352ddb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -783,7 +783,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int64_t>, int32_t, ::ArrayW<int64_t>, int32_t, int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::Interleave5)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x352f460;
+  constexpr static std::size_t addrs = 0x352da28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -799,7 +799,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int64_t)>(&::Org::BouncyCastle::Math::EC::LongArray::Interleave5)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x352f898;
+  constexpr static std::size_t addrs = 0x352de60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -812,7 +812,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::Interleave3_13to65)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x352f94c;
+  constexpr static std::size_t addrs = 0x352df14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -825,7 +825,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int64_t>, int32_t, ::ArrayW<int64_t>, int32_t, int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::Interleave7)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x352f55c;
+  constexpr static std::size_t addrs = 0x352db24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -841,7 +841,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int64_t)>(&::Org::BouncyCastle::Math::EC::LongArray::Interleave7)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x352f9e4;
+  constexpr static std::size_t addrs = 0x352dfac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -854,7 +854,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int64_t>, int32_t, ::ArrayW<int64_t>, int32_t, int32_t, int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::Interleave2_n)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x352f658;
+  constexpr static std::size_t addrs = 0x352dc20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::LongArray*>(),
@@ -870,7 +870,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int64_t, int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::Interleave2_n)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x352fafc;
+  constexpr static std::size_t addrs = 0x352e0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -883,7 +883,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::Interleave4_16to64)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x352fbf0;
+  constexpr static std::size_t addrs = 0x352e1b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -896,7 +896,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int32_t)>(&::Org::BouncyCastle::Math::EC::LongArray::Interleave2_32to64)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x352f1bc;
+  constexpr static std::size_t addrs = 0x352d784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -910,7 +910,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (::Org::BouncyCastle::Math::EC::LongArray::*)(int32_t, ::ArrayW<int32_t>)>(
     &::Org::BouncyCastle::Math::EC::LongArray::ModInverse)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x3527a38;
+  constexpr static std::size_t addrs = 0x3526000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -924,7 +924,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::EC::LongArray::*)(::System::Object*)>(&::Org::BouncyCastle::Math::EC::LongArray::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x352fc88;
+  constexpr static std::size_t addrs = 0x352e250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -938,7 +938,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::EC::LongArray::*)(::Org::BouncyCastle::Math::EC::LongArray*)>(
     &::Org::BouncyCastle::Math::EC::LongArray::Equals)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x352fd1c;
+  constexpr static std::size_t addrs = 0x352e2e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -951,7 +951,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::LongArray::*)()>(&::Org::BouncyCastle::Math::EC::LongArray::GetHashCode)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x352fdd4;
+  constexpr static std::size_t addrs = 0x352e39c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -964,7 +964,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::LongArray* (::Org::BouncyCastle::Math::EC::LongArray::*)()>(&::Org::BouncyCastle::Math::EC::LongArray::Copy)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3526350;
+  constexpr static std::size_t addrs = 0x3524918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::LongArray*>(), { "Copy", {}, {} })));
@@ -976,7 +976,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Math::EC::LongArray::*)()>(&::Org::BouncyCastle::Math::EC::LongArray::ToString)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x352fe48;
+  constexpr static std::size_t addrs = 0x352e410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

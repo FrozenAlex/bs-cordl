@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::UnityEngine::Matrix4x4::*)()>(&::UnityEngine::Matrix4x4::GetRotation)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6ac9b08;
+  constexpr static std::size_t addrs = 0x6ac5400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "GetRotation", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Matrix4x4::*)()>(&::UnityEngine::Matrix4x4::GetLossyScale)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6ac9ba4;
+  constexpr static std::size_t addrs = 0x6ac549c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "GetLossyScale", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::FrustumPlanes (::UnityEngine::Matrix4x4::*)()>(&::UnityEngine::Matrix4x4::DecomposeProjection)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6ac9c44;
+  constexpr static std::size_t addrs = 0x6ac553c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "DecomposeProjection", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::UnityEngine::Matrix4x4::*)()>(&::UnityEngine::Matrix4x4::get_rotation)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ac9cf0;
+  constexpr static std::size_t addrs = 0x6ac55e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "get_rotation", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Matrix4x4::*)()>(&::UnityEngine::Matrix4x4::get_lossyScale)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ac9cf4;
+  constexpr static std::size_t addrs = 0x6ac55ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "get_lossyScale", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::FrustumPlanes (::UnityEngine::Matrix4x4::*)()>(&::UnityEngine::Matrix4x4::get_decomposeProjection)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6ac9cf8;
+  constexpr static std::size_t addrs = 0x6ac55f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "get_decomposeProjection", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(&::UnityEngine::Matrix4x4::TRS)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6ac9d68;
+  constexpr static std::size_t addrs = 0x6ac5660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Matrix4x4, ::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Matrix4x4::Inverse3DAffine)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ac9e54;
+  constexpr static std::size_t addrs = 0x6ac574c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Matrix4x4)>(&::UnityEngine::Matrix4x4::Inverse)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6ac9edc;
+  constexpr static std::size_t addrs = 0x6ac57d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (::UnityEngine::Matrix4x4::*)()>(&::UnityEngine::Matrix4x4::get_inverse)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ac9f8c;
+  constexpr static std::size_t addrs = 0x6ac5884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "get_inverse", {}, {} })));
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Matrix4x4)>(&::UnityEngine::Matrix4x4::Transpose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6aca00c;
+  constexpr static std::size_t addrs = 0x6ac5904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (::UnityEngine::Matrix4x4::*)()>(&::UnityEngine::Matrix4x4::get_transpose)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6aca0bc;
+  constexpr static std::size_t addrs = 0x6ac59b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "get_transpose", {}, {} })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(float_t, float_t, float_t, float_t, float_t, float_t)>(&::UnityEngine::Matrix4x4::Ortho)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6aca13c;
+  constexpr static std::size_t addrs = 0x6ac5a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(float_t, float_t, float_t, float_t)>(&::UnityEngine::Matrix4x4::Perspective)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6aca26c;
+  constexpr static std::size_t addrs = 0x6ac5b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Matrix4x4::LookAt)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6aca36c;
+  constexpr static std::size_t addrs = 0x6ac5c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(float_t, float_t, float_t, float_t, float_t, float_t)>(&::UnityEngine::Matrix4x4::Frustum)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6aca458;
+  constexpr static std::size_t addrs = 0x6ac5d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::FrustumPlanes)>(&::UnityEngine::Matrix4x4::Frustum)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6aca588;
+  constexpr static std::size_t addrs = 0x6ac5e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Matrix4x4::*)(::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4)>(
     &::UnityEngine::Matrix4x4::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6aca630;
+  constexpr static std::size_t addrs = 0x6ac5f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Matrix4x4::*)(int32_t, int32_t)>(&::UnityEngine::Matrix4x4::get_Item)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6aca64c;
+  constexpr static std::size_t addrs = 0x6ac5f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Matrix4x4::*)(int32_t, int32_t, float_t)>(&::UnityEngine::Matrix4x4::set_Item)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6aca740;
+  constexpr static std::size_t addrs = 0x6ac6038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Matrix4x4::*)(int32_t)>(&::UnityEngine::Matrix4x4::get_Item)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6aca654;
+  constexpr static std::size_t addrs = 0x6ac5f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Matrix4x4::*)(int32_t, float_t)>(&::UnityEngine::Matrix4x4::set_Item)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6aca748;
+  constexpr static std::size_t addrs = 0x6ac6040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Matrix4x4::*)()>(&::UnityEngine::Matrix4x4::GetHashCode)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6aca834;
+  constexpr static std::size_t addrs = 0x6ac612c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { ::i2c::class_of<::UnityEngine::Matrix4x4>(), 2 }));
@@ -317,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Matrix4x4::*)(::System::Object*)>(&::UnityEngine::Matrix4x4::Equals)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6acaa78;
+  constexpr static std::size_t addrs = 0x6ac6370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { ::i2c::class_of<::UnityEngine::Matrix4x4>(), 0 }));
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Matrix4x4::*)(::UnityEngine::Matrix4x4)>(&::UnityEngine::Matrix4x4::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6acab74;
+  constexpr static std::size_t addrs = 0x6ac646c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -342,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4)>(&::UnityEngine::Matrix4x4::op_Multiply)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6acac10;
+  constexpr static std::size_t addrs = 0x6ac6508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -356,7 +356,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Vector4)>(&::UnityEngine::Matrix4x4::op_Multiply)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6acacb4;
+  constexpr static std::size_t addrs = 0x6ac65ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -370,7 +370,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Matrix4x4::*)(int32_t)>(&::UnityEngine::Matrix4x4::GetColumn)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6aca9a8;
+  constexpr static std::size_t addrs = 0x6ac62a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "GetColumn", {}, { ::i2c::type_of<int32_t>() } })));
@@ -382,7 +382,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Matrix4x4::*)(int32_t)>(&::UnityEngine::Matrix4x4::GetRow)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6acace8;
+  constexpr static std::size_t addrs = 0x6ac65e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "GetRow", {}, { ::i2c::type_of<int32_t>() } })));
@@ -394,7 +394,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Matrix4x4::*)()>(&::UnityEngine::Matrix4x4::GetPosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6acadb8;
+  constexpr static std::size_t addrs = 0x6ac66b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "GetPosition", {}, {} })));
@@ -406,7 +406,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Matrix4x4::*)(int32_t, ::UnityEngine::Vector4)>(&::UnityEngine::Matrix4x4::SetColumn)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6acadc4;
+  constexpr static std::size_t addrs = 0x6ac66bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -419,7 +419,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Matrix4x4::*)(::UnityEngine::Vector3)>(&::UnityEngine::Matrix4x4::MultiplyPoint)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6acae3c;
+  constexpr static std::size_t addrs = 0x6ac6734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -432,7 +432,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Matrix4x4::*)(::UnityEngine::Vector3)>(&::UnityEngine::Matrix4x4::MultiplyPoint3x4)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6acaec8;
+  constexpr static std::size_t addrs = 0x6ac67c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -445,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Matrix4x4::*)(::UnityEngine::Vector3)>(&::UnityEngine::Matrix4x4::MultiplyVector)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6acaf20;
+  constexpr static std::size_t addrs = 0x6ac6818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -458,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Vector3)>(&::UnityEngine::Matrix4x4::Scale)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6acaf68;
+  constexpr static std::size_t addrs = 0x6ac6860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -471,7 +471,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Vector3)>(&::UnityEngine::Matrix4x4::Translate)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6acaf94;
+  constexpr static std::size_t addrs = 0x6ac688c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -484,7 +484,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Quaternion)>(&::UnityEngine::Matrix4x4::Rotate)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6acafc8;
+  constexpr static std::size_t addrs = 0x6ac68c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -497,7 +497,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)()>(&::UnityEngine::Matrix4x4::get_zero)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6acb060;
+  constexpr static std::size_t addrs = 0x6ac6958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "get_zero", {}, {} })));
@@ -509,7 +509,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)()>(&::UnityEngine::Matrix4x4::get_identity)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6acb0bc;
+  constexpr static std::size_t addrs = 0x6ac69b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { "get_identity", {}, {} })));
@@ -521,7 +521,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Matrix4x4::*)()>(&::UnityEngine::Matrix4x4::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6acb118;
+  constexpr static std::size_t addrs = 0x6ac6a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Matrix4x4>(), { ::i2c::class_of<::UnityEngine::Matrix4x4>(), 3 }));
@@ -533,7 +533,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Matrix4x4::*)(::StringW, ::System::IFormatProvider*)>(&::UnityEngine::Matrix4x4::ToString)> {
   constexpr static std::size_t size = 0x518;
-  constexpr static std::size_t addrs = 0x6acb128;
+  constexpr static std::size_t addrs = 0x6ac6a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -546,7 +546,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Quaternion>)>(&::UnityEngine::Matrix4x4::GetRotation_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ac9b60;
+  constexpr static std::size_t addrs = 0x6ac5458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -560,7 +560,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::Matrix4x4::GetLossyScale_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ac9c00;
+  constexpr static std::size_t addrs = 0x6ac54f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -574,7 +574,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::FrustumPlanes>)>(&::UnityEngine::Matrix4x4::DecomposeProjection_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ac9cac;
+  constexpr static std::size_t addrs = 0x6ac55a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -590,7 +590,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Quaternion>, ::by_ref<::UnityEngine::Vector3>,
                                                                 ::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Matrix4x4::TRS_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6ac9df8;
+  constexpr static std::size_t addrs = 0x6ac56f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -607,7 +607,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Matrix4x4::Inverse3DAffine_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ac9e98;
+  constexpr static std::size_t addrs = 0x6ac5790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -621,7 +621,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Matrix4x4::Inverse_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ac9f48;
+  constexpr static std::size_t addrs = 0x6ac5840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -635,7 +635,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Matrix4x4::Transpose_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6aca078;
+  constexpr static std::size_t addrs = 0x6ac5970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -649,7 +649,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t, float_t, float_t, float_t, float_t, ::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Matrix4x4::Ortho_Injected)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6aca1e8;
+  constexpr static std::size_t addrs = 0x6ac5ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -666,7 +666,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t, float_t, float_t, ::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Matrix4x4::Perspective_Injected)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6aca300;
+  constexpr static std::size_t addrs = 0x6ac5bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -683,7 +683,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>,
                                                                 ::by_ref<::UnityEngine::Matrix4x4>)>(&::UnityEngine::Matrix4x4::LookAt_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6aca3fc;
+  constexpr static std::size_t addrs = 0x6ac5cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -701,7 +701,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t, float_t, float_t, float_t, float_t, ::by_ref<::UnityEngine::Matrix4x4>)>(
     &::UnityEngine::Matrix4x4::Frustum_Injected)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6aca504;
+  constexpr static std::size_t addrs = 0x6ac5dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

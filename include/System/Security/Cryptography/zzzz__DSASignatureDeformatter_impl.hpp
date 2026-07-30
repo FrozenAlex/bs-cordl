@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::DSASignatureDeformatter::*)()>(&::System::Security::Cryptography::DSASignatureDeformatter::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5af8b0c;
+  constexpr static std::size_t addrs = 0x5af6950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DSASignatureDeformatter*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::DSASignatureDeformatter::*)(::System::Security::Cryptography::AsymmetricAlgorithm*)>(
     &::System::Security::Cryptography::DSASignatureDeformatter::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5af8b88;
+  constexpr static std::size_t addrs = 0x5af69cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DSASignatureDeformatter*>(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::DSASignatureDeformatter::*)(::System::Security::Cryptography::AsymmetricAlgorithm*)>(
     &::System::Security::Cryptography::DSASignatureDeformatter::SetKey)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5af8c88;
+  constexpr static std::size_t addrs = 0x5af6acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DSASignatureDeformatter*>(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::DSASignatureDeformatter::*)(::StringW)>(
     &::System::Security::Cryptography::DSASignatureDeformatter::SetHashAlgorithm)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5af8d80;
+  constexpr static std::size_t addrs = 0x5af6bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DSASignatureDeformatter*>(),
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Cryptography::DSASignatureDeformatter::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::System::Security::Cryptography::DSASignatureDeformatter::VerifySignature)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5af8e3c;
+  constexpr static std::size_t addrs = 0x5af6c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::DSASignatureDeformatter*>(),

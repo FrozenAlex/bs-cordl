@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Projection___c::*)()>(&::UnityEngine::ProBuilder::Projection___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x66da250;
+  constexpr static std::size_t addrs = 0x66d7fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Projection___c*>(), { ".ctor", {}, {} })));
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::P
                                                                                                               ::UnityEngine::ProBuilder::SimpleTuple_2<float_t, ::UnityEngine::Vector2>)>(
     &::UnityEngine::ProBuilder::Projection___c::_Sort_b__6_0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x66da254;
+  constexpr static std::size_t addrs = 0x66d7ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Projection___c*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::ProBuilder::Projection___c::*)(
     ::UnityEngine::ProBuilder::SimpleTuple_2<float_t, ::UnityEngine::Vector2>)>(&::UnityEngine::ProBuilder::Projection___c::_Sort_b__6_1)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x66da2ac;
+  constexpr static std::size_t addrs = 0x66d8048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector2> (*)(
     ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::IList_1<int32_t>*)>(&::UnityEngine::ProBuilder::Projection::PlanarProject)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x66d7448;
+  constexpr static std::size_t addrs = 0x66d51e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::ArrayW<::UnityEngine::Vector2> (*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::IList_1<int32_t>*, ::UnityEngine::Vector3)>(
         &::UnityEngine::ProBuilder::Projection::PlanarProject)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x66d7e00;
+  constexpr static std::size_t addrs = 0x66d5b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collec
                                                                 ::UnityEngine::Vector3, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*)>(
     &::UnityEngine::ProBuilder::Projection::PlanarProject)> {
   constexpr static std::size_t size = 0x7c4;
-  constexpr static std::size_t addrs = 0x66d7fd4;
+  constexpr static std::size_t addrs = 0x66d5d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, int32_t, ::UnityEngine::ProBuilder::AutoUnwrapSettings)>(
     &::UnityEngine::ProBuilder::Projection::PlanarProject)> {
   constexpr static std::size_t size = 0x4b8;
-  constexpr static std::size_t addrs = 0x66d8950;
+  constexpr static std::size_t addrs = 0x66d66ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*, ::UnityEngine::Vector3)>(
     &::UnityEngine::ProBuilder::Projection::PlanarProject)> {
   constexpr static std::size_t size = 0x460;
-  constexpr static std::size_t addrs = 0x66d8e08;
+  constexpr static std::size_t addrs = 0x66d6ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector2> (*)(
     ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::IList_1<int32_t>*)>(&::UnityEngine::ProBuilder::Projection::SphericalProject)> {
   constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x66d9268;
+  constexpr static std::size_t addrs = 0x66d7004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* (*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*, ::UnityEngine::ProBuilder::SortMethod)>(
         &::UnityEngine::ProBuilder::Projection::Sort)> {
   constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x66d9650;
+  constexpr static std::size_t addrs = 0x66d73ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::ProBuilder::ProjectionAxis)>(&::UnityEngine::ProBuilder::Projection::GetTangentToAxis)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x66d8884;
+  constexpr static std::size_t addrs = 0x66d6620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::ProBuilder::ProjectionAxis)>(&::UnityEngine::ProBuilder::Projection::ProjectionAxisToVector)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x66d9b5c;
+  constexpr static std::size_t addrs = 0x66d78f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Projection*>(),
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::ProjectionAxis (*)(::UnityEngine::Vector3)>(&::UnityEngine::ProBuilder::Projection::VectorToProjectionAxis)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x66d8798;
+  constexpr static std::size_t addrs = 0x66d6534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Plane (*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::IList_1<int32_t>*)>(
     &::UnityEngine::ProBuilder::Projection::FindBestPlane)> {
   constexpr static std::size_t size = 0x990;
-  constexpr static std::size_t addrs = 0x66d7470;
+  constexpr static std::size_t addrs = 0x66d520c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -294,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Plane (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, int32_t)>(&::UnityEngine::ProBuilder::Projection::FindBestPlane)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x66d9d2c;
+  constexpr static std::size_t addrs = 0x66d7ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

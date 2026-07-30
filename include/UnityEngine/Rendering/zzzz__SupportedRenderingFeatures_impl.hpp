@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::SupportedRenderingFeatures* (*)()>(&::UnityEngine::Rendering::SupportedRenderingFeatures::get_active)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6b25a1c;
+  constexpr static std::size_t addrs = 0x6b21420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SupportedRenderingFeatures*>(), { "get_active", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::SupportedRenderingFeatures*)>(&::UnityEngine::Rendering::SupportedRenderingFeatures::set_active)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6b207bc;
+  constexpr static std::size_t addrs = 0x6b1c1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SupportedRenderingFeatures*>(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::SupportedRenderingFeatures_LightmapMixedBakeModes (::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::get_defaultMixedLightingModes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b25b54;
+  constexpr static std::size_t addrs = 0x6b21558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::SupportedRenderingFeatures_LightmapMixedBakeModes (::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::get_mixedLightingModes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b25b5c;
+  constexpr static std::size_t addrs = 0x6b21560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LightmapBakeType (::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::get_lightmapBakeTypes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b25b64;
+  constexpr static std::size_t addrs = 0x6b21568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LightmapsMode (::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::get_lightmapsModes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b25b6c;
+  constexpr static std::size_t addrs = 0x6b21570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(&::UnityEngine::Rendering::SupportedRenderingFeatures::get_enlighten)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b25b74;
+  constexpr static std::size_t addrs = 0x6b21578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SupportedRenderingFeatures*>(), { "get_enlighten", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SupportedRenderingFeatures::*)(bool)>(&::UnityEngine::Rendering::SupportedRenderingFeatures::set_skyOcclusion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b25b7c;
+  constexpr static std::size_t addrs = 0x6b21580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(&::UnityEngine::Rendering::SupportedRenderingFeatures::get_rendersUIOverlay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b25b84;
+  constexpr static std::size_t addrs = 0x6b21588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SupportedRenderingFeatures::*)(bool)>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::set_rendersUIOverlay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b25b8c;
+  constexpr static std::size_t addrs = 0x6b21590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::get_ambientProbeBaking)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b25b94;
+  constexpr static std::size_t addrs = 0x6b21598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::get_defaultReflectionProbeBaking)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b25b9c;
+  constexpr static std::size_t addrs = 0x6b215a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::get_overridesLightProbeSystem)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b25ba4;
+  constexpr static std::size_t addrs = 0x6b215a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SupportedRenderingFeatures::*)(bool)>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::set_overridesLightProbeSystem)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b25bac;
+  constexpr static std::size_t addrs = 0x6b215b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SupportedRenderingFeatures::*)(bool)>(&::UnityEngine::Rendering::SupportedRenderingFeatures::set_supportsHDR)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b25bb4;
+  constexpr static std::size_t addrs = 0x6b215b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Rendering::SupportedRenderingFeatures::FallbackMixedLightingModeByRef)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6b25bbc;
+  constexpr static std::size_t addrs = 0x6b215c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::MixedLightingMode)>(&::UnityEngine::Rendering::SupportedRenderingFeatures::IsMixedLightingModeSupported)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6b25ce0;
+  constexpr static std::size_t addrs = 0x6b216e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SupportedRenderingFeatures*>(),
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::MixedLightingMode, ::System::IntPtr)>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::IsMixedLightingModeSupportedByRef)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6b25d50;
+  constexpr static std::size_t addrs = 0x6b21754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::LightmapBakeType)>(&::UnityEngine::Rendering::SupportedRenderingFeatures::IsLightmapBakeTypeSupported)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6b25e48;
+  constexpr static std::size_t addrs = 0x6b2184c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SupportedRenderingFeatures*>(),
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::LightmapBakeType, ::System::IntPtr)>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::IsLightmapBakeTypeSupportedByRef)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6b25eb8;
+  constexpr static std::size_t addrs = 0x6b218bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -308,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::LightmapsMode, ::System::IntPtr)>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::IsLightmapsModeSupportedByRef)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6b25fa4;
+  constexpr static std::size_t addrs = 0x6b219a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::System::IntPtr)>(&::UnityEngine::Rendering::SupportedRenderingFeatures::IsLightmapperSupportedByRef)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b26020;
+  constexpr static std::size_t addrs = 0x6b21a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SupportedRenderingFeatures*>(),
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Rendering::SupportedRenderingFeatures::IsUIOverlayRenderedBySRP)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6b26030;
+  constexpr static std::size_t addrs = 0x6b21a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -348,7 +348,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Rendering::SupportedRenderingFeatures::IsAmbientProbeBakingSupported)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6b26098;
+  constexpr static std::size_t addrs = 0x6b21a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -362,7 +362,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Rendering::SupportedRenderingFeatures::IsDefaultReflectionProbeBakingSupported)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6b26100;
+  constexpr static std::size_t addrs = 0x6b21b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SupportedRenderingFeatures*>(),
@@ -375,7 +375,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Rendering::SupportedRenderingFeatures::OverridesLightProbeSystem)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6b26168;
+  constexpr static std::size_t addrs = 0x6b21b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -389,7 +389,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Rendering::SupportedRenderingFeatures::FallbackLightmapperByRef)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b261d0;
+  constexpr static std::size_t addrs = 0x6b21bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -402,7 +402,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(&::UnityEngine::Rendering::SupportedRenderingFeatures::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6b25ac0;
+  constexpr static std::size_t addrs = 0x6b214c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SupportedRenderingFeatures*>(), { ".ctor", {}, {} })));

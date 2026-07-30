@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::NavigationMoveEvent___c::*)()>(&::UnityEngine::UIElements::NavigationMoveEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d9ece8;
+  constexpr static std::size_t addrs = 0x6d9a6ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::NavigationMoveEvent___c*>(), { ".ctor", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::NavigationMoveEvent* (::UnityEngine::UIElements::NavigationMoveEvent___c::*)()>(
     &::UnityEngine::UIElements::NavigationMoveEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d9ecec;
+  constexpr static std::size_t addrs = 0x6d9a6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::NavigationMoveEvent___c*>(), { "<.cctor>b__0_0", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::NavigationMoveEvent_Direction (*)(float_t, float_t, float_t)>(
     &::UnityEngine::UIElements::NavigationMoveEvent::DetermineMoveDirection)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d9e5d4;
+  constexpr static std::size_t addrs = 0x6d99fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::NavigationMoveEvent_Direction (::UnityEngine::UIElements::NavigationMoveEvent::*)()>(
     &::UnityEngine::UIElements::NavigationMoveEvent::get_direction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d9e628;
+  constexpr static std::size_t addrs = 0x6d9a02c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::NavigationMoveEvent*>(), { "get_direction", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::NavigationMoveEvent::*)(::UnityEngine::UIElements::NavigationMoveEvent_Direction)>(
     &::UnityEngine::UIElements::NavigationMoveEvent::set_direction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d9e630;
+  constexpr static std::size_t addrs = 0x6d9a034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::NavigationMoveEvent*>(),
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::NavigationMoveEvent::*)(::UnityEngine::Vector2)>(&::UnityEngine::UIElements::NavigationMoveEvent::set_move)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d9e638;
+  constexpr static std::size_t addrs = 0x6d9a03c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::NavigationMoveEvent* (*)(::UnityEngine::Vector2, ::UnityEngine::EventModifiers)>(
     &::UnityEngine::UIElements::NavigationMoveEvent::GetPooled)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6d9e640;
+  constexpr static std::size_t addrs = 0x6d9a044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::UIElements::NavigationMoveEvent* (*)(::UnityEngine::Vector2, ::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers)>(
         &::UnityEngine::UIElements::NavigationMoveEvent::GetPooled)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6d9acf0;
+  constexpr static std::size_t addrs = 0x6d966f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::NavigationMoveEvent* (*)(::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers)>(
     &::UnityEngine::UIElements::NavigationMoveEvent::GetPooled)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6d9e73c;
+  constexpr static std::size_t addrs = 0x6d9a140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
                                                                                                            ::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers)>(
     &::UnityEngine::UIElements::NavigationMoveEvent::GetPooled)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6d9ac3c;
+  constexpr static std::size_t addrs = 0x6d96640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::NavigationMoveEvent::*)()>(&::UnityEngine::UIElements::NavigationMoveEvent::Init)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d9e7ec;
+  constexpr static std::size_t addrs = 0x6d9a1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::NavigationMoveEvent::*)()>(&::UnityEngine::UIElements::NavigationMoveEvent::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d9e898;
+  constexpr static std::size_t addrs = 0x6d9a29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::NavigationMoveEvent*>(), { ".ctor", {}, {} })));
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::NavigationMoveEvent::*)()>(&::UnityEngine::UIElements::NavigationMoveEvent::LocalInit)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6d9e840;
+  constexpr static std::size_t addrs = 0x6d9a244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::NavigationMoveEvent*>(), { "LocalInit", {}, {} })));
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::NavigationMoveEvent::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::NavigationMoveEvent::PostDispatch)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6d9e8ec;
+  constexpr static std::size_t addrs = 0x6d9a2f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

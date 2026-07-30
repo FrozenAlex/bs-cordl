@@ -74,55 +74,55 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRRoomLayout>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRRoomLayout>*();
 
-  /// @brief Method Equals, addr 0x5e13ad0, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5e1183c, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x5e13980, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5e116ec, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRRoomLayout other);
 
-  /// @brief Method FetchAnchorsAsync, addr 0x5e13fbc, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method FetchAnchorsAsync, addr 0x5e11d28, size 0x368, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>>
   FetchAnchorsAsync(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors);
 
-  /// @brief Method FetchLayoutAnchorsAsync, addr 0x5e13c94, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method FetchLayoutAnchorsAsync, addr 0x5e11a00, size 0x328, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> FetchLayoutAnchorsAsync(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors);
 
-  /// @brief Method GetHashCode, addr 0x5e13b60, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5e118cc, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IOVRAnchorComponent<OVRRoomLayout>.FromAnchor, addr 0x5e13754, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRRoomLayout>.FromAnchor, addr 0x5e114c0, size 0x30, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRRoomLayout IOVRAnchorComponent_OVRRoomLayout__FromAnchor(::GlobalNamespace::OVRAnchor anchor);
 
-  /// @brief Method IOVRAnchorComponent<OVRRoomLayout>.SetEnabledAsync, addr 0x5e13934, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRRoomLayout>.SetEnabledAsync, addr 0x5e116a0, size 0x4c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRTask_1<bool> IOVRAnchorComponent_OVRRoomLayout__SetEnabledAsync(bool enabled, double_t timeout);
 
-  /// @brief Method IOVRAnchorComponent<OVRRoomLayout>.get_Handle, addr 0x5e136fc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRRoomLayout>.get_Handle, addr 0x5e11468, size 0x58, virtual true, abstract: false, final true
   inline uint64_t IOVRAnchorComponent_OVRRoomLayout__get_Handle();
 
-  /// @brief Method IOVRAnchorComponent<OVRRoomLayout>.get_Type, addr 0x5e136a0, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRRoomLayout>.get_Type, addr 0x5e1140c, size 0x54, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType IOVRAnchorComponent_OVRRoomLayout__get_Type();
 
-  /// @brief Method ToString, addr 0x5e13bcc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5e11938, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryGetRoomLayout, addr 0x5e14324, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method TryGetRoomLayout, addr 0x5e12090, size 0x114, virtual false, abstract: false, final false
   inline bool TryGetRoomLayout(::by_ref<::System::Guid> ceiling, ::by_ref<::System::Guid> floor, ::by_ref<::ArrayW<::System::Guid>> walls);
 
-  /// @brief Method .ctor, addr 0x5e13784, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e114f0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRAnchor anchor);
 
   static inline ::GlobalNamespace::OVRRoomLayout getStaticF_Null();
 
-  /// @brief Method get_Handle, addr 0x5e13c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x5e119f8, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
-  /// @brief Method get_IsEnabled, addr 0x5e1384c, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method get_IsEnabled, addr 0x5e115b8, size 0xe8, virtual true, abstract: false, final true
   inline bool get_IsEnabled();
 
-  /// @brief Method get_IsNull, addr 0x5e137ec, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method get_IsNull, addr 0x5e11558, size 0x60, virtual true, abstract: false, final true
   inline bool get_IsNull();
 
-  /// @brief Method get_Type, addr 0x5e136f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x5e11460, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType get_Type();
 
   /// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRRoomLayout>"
@@ -131,10 +131,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRRoomLayout>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::OVRRoomLayout>* i___System__IEquatable_1___GlobalNamespace__OVRRoomLayout_();
 
-  /// @brief Method op_Equality, addr 0x5e139ec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x5e11758, size 0x70, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRRoomLayout lhs, ::GlobalNamespace::OVRRoomLayout rhs);
 
-  /// @brief Method op_Inequality, addr 0x5e13a5c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x5e117c8, size 0x74, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRRoomLayout lhs, ::GlobalNamespace::OVRRoomLayout rhs);
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRRoomLayout value);

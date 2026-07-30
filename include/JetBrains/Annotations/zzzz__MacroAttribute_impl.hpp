@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::JetBrains::Annotations::MacroAttribute::*)()>(&::JetBrains::Annotations::MacroAttribute::get_Expression)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3aaac;
+  constexpr static std::size_t addrs = 0x6e364b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::MacroAttribute*>(), { "get_Expression", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::MacroAttribute::*)(::StringW)>(&::JetBrains::Annotations::MacroAttribute::set_Expression)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3aab4;
+  constexpr static std::size_t addrs = 0x6e364b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::JetBrains::Annotations::MacroAttribute::*)()>(&::JetBrains::Annotations::MacroAttribute::get_Editable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3aabc;
+  constexpr static std::size_t addrs = 0x6e364c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::MacroAttribute*>(), { "get_Editable", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::MacroAttribute::*)(int32_t)>(&::JetBrains::Annotations::MacroAttribute::set_Editable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3aac4;
+  constexpr static std::size_t addrs = 0x6e364c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::JetBrains::Annotations::MacroAttribute::*)()>(&::JetBrains::Annotations::MacroAttribute::get_Target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3aacc;
+  constexpr static std::size_t addrs = 0x6e364d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::MacroAttribute*>(), { "get_Target", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::MacroAttribute::*)(::StringW)>(&::JetBrains::Annotations::MacroAttribute::set_Target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3aad4;
+  constexpr static std::size_t addrs = 0x6e364d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::MacroAttribute::*)()>(&::JetBrains::Annotations::MacroAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e3aadc;
+  constexpr static std::size_t addrs = 0x6e364e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::MacroAttribute*>(), { ".ctor", {}, {} })));

@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SaberSwingRatingCounter::*)()>(&::GlobalNamespace::SaberSwingRatingCounter::get_beforeCutRating)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3708800;
+  constexpr static std::size_t addrs = 0x3707228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberSwingRatingCounter*>(), { "get_beforeCutRating", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SaberSwingRatingCounter::*)()>(&::GlobalNamespace::SaberSwingRatingCounter::get_afterCutRating)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3708808;
+  constexpr static std::size_t addrs = 0x3707230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberSwingRatingCounter*>(), { "get_afterCutRating", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberSwingRatingCounter::*)(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*)>(
     &::GlobalNamespace::SaberSwingRatingCounter::RegisterDidChangeReceiver)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3708810;
+  constexpr static std::size_t addrs = 0x3707238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberSwingRatingCounter::*)(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*)>(
     &::GlobalNamespace::SaberSwingRatingCounter::RegisterDidFinishReceiver)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3708874;
+  constexpr static std::size_t addrs = 0x370729c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberSwingRatingCounter::*)(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*)>(
     &::GlobalNamespace::SaberSwingRatingCounter::UnregisterDidChangeReceiver)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x37088d8;
+  constexpr static std::size_t addrs = 0x3707300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberSwingRatingCounter::*)(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*)>(
     &::GlobalNamespace::SaberSwingRatingCounter::UnregisterDidFinishReceiver)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x370893c;
+  constexpr static std::size_t addrs = 0x3707364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberSwingRatingCounter::*)(::GlobalNamespace::ISaberMovementData*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion,
                                                                                                             bool, bool)>(&::GlobalNamespace::SaberSwingRatingCounter::Init)> {
   constexpr static std::size_t size = 0x438;
-  constexpr static std::size_t addrs = 0x37089a0;
+  constexpr static std::size_t addrs = 0x37073c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberSwingRatingCounter*>(),
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberSwingRatingCounter::*)(::GlobalNamespace::BladeMovementDataElement, ::GlobalNamespace::BladeMovementDataElement,
                                                                                                             bool)>(&::GlobalNamespace::SaberSwingRatingCounter::ProcessNewData)> {
   constexpr static std::size_t size = 0x958;
-  constexpr static std::size_t addrs = 0x3708dd8;
+  constexpr static std::size_t addrs = 0x3707800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberSwingRatingCounter::*)()>(&::GlobalNamespace::SaberSwingRatingCounter::Finish)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x3709730;
+  constexpr static std::size_t addrs = 0x3708158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberSwingRatingCounter*>(), { "Finish", {}, {} })));
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberSwingRatingCounter::*)()>(&::GlobalNamespace::SaberSwingRatingCounter::DrawGizmos)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x37098f8;
+  constexpr static std::size_t addrs = 0x3708320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberSwingRatingCounter*>(), { "DrawGizmos", {}, {} })));
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberSwingRatingCounter::*)()>(&::GlobalNamespace::SaberSwingRatingCounter::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3709be0;
+  constexpr static std::size_t addrs = 0x3708608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberSwingRatingCounter*>(), { ".ctor", {}, {} })));

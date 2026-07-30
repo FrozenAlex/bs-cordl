@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Unity::Burst::Intrinsics::X86_Avx::get_IsAvxSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6490110;
+  constexpr static std::size_t addrs = 0x648deac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx*>(), { "get_IsAvxSupported", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_add_pd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6490118;
+  constexpr static std::size_t addrs = 0x648deb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_add_ps)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6490130;
+  constexpr static std::size_t addrs = 0x648decc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_addsub_pd)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x64901c8;
+  constexpr static std::size_t addrs = 0x648df64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_addsub_ps)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x64901f0;
+  constexpr static std::size_t addrs = 0x648df8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_and_pd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6490248;
+  constexpr static std::size_t addrs = 0x648dfe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_and_ps)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6490260;
+  constexpr static std::size_t addrs = 0x648dffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_andnot_pd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6490284;
+  constexpr static std::size_t addrs = 0x648e020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_andnot_ps)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x649029c;
+  constexpr static std::size_t addrs = 0x648e038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_blend_pd)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x64902c0;
+  constexpr static std::size_t addrs = 0x648e05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_blend_ps)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x649032c;
+  constexpr static std::size_t addrs = 0x648e0c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_blendv_pd)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6490398;
+  constexpr static std::size_t addrs = 0x648e134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_blendv_ps)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6490404;
+  constexpr static std::size_t addrs = 0x648e1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_div_pd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6490470;
+  constexpr static std::size_t addrs = 0x648e20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_div_ps)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6490488;
+  constexpr static std::size_t addrs = 0x648e224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_dp_ps)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6490520;
+  constexpr static std::size_t addrs = 0x648e2bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_hadd_pd)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x649058c;
+  constexpr static std::size_t addrs = 0x648e328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_hadd_ps)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x64905b8;
+  constexpr static std::size_t addrs = 0x648e354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_hsub_pd)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6490634;
+  constexpr static std::size_t addrs = 0x648e3d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_hsub_ps)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6490660;
+  constexpr static std::size_t addrs = 0x648e3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_max_pd)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64906dc;
+  constexpr static std::size_t addrs = 0x648e478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -371,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_max_ps)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x649073c;
+  constexpr static std::size_t addrs = 0x648e4d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -386,7 +386,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_min_pd)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6490868;
+  constexpr static std::size_t addrs = 0x648e604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -401,7 +401,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_min_ps)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x64908c8;
+  constexpr static std::size_t addrs = 0x648e664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -416,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_mul_pd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64909f4;
+  constexpr static std::size_t addrs = 0x648e790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -431,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_mul_ps)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6490a0c;
+  constexpr static std::size_t addrs = 0x648e7a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -446,7 +446,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_or_pd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6490aa4;
+  constexpr static std::size_t addrs = 0x648e840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -461,7 +461,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_or_ps)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6490abc;
+  constexpr static std::size_t addrs = 0x648e858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -476,7 +476,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_shuffle_pd)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6490ae0;
+  constexpr static std::size_t addrs = 0x648e87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -492,7 +492,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_shuffle_ps)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6490b6c;
+  constexpr static std::size_t addrs = 0x648e908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -508,7 +508,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_sub_pd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6490c44;
+  constexpr static std::size_t addrs = 0x648e9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_sub_ps)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6490c5c;
+  constexpr static std::size_t addrs = 0x648e9f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -538,7 +538,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_xor_pd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6490cf4;
+  constexpr static std::size_t addrs = 0x648ea90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -553,7 +553,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_xor_ps)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6490d0c;
+  constexpr static std::size_t addrs = 0x648eaa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -568,7 +568,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::cmp_pd)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x6490d30;
+  constexpr static std::size_t addrs = 0x648eacc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -584,7 +584,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_cmp_pd)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x64910f8;
+  constexpr static std::size_t addrs = 0x648ee94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -600,7 +600,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::cmp_ps)> {
   constexpr static std::size_t size = 0x6a4;
-  constexpr static std::size_t addrs = 0x649115c;
+  constexpr static std::size_t addrs = 0x648eef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -616,7 +616,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_cmp_ps)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6491c28;
+  constexpr static std::size_t addrs = 0x648f9c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -632,7 +632,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::cmp_sd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6491c8c;
+  constexpr static std::size_t addrs = 0x648fa28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -648,7 +648,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::cmp_ss)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6491ca4;
+  constexpr static std::size_t addrs = 0x648fa40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -663,7 +663,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_cvtepi32_pd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6491cd0;
+  constexpr static std::size_t addrs = 0x648fa6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -676,7 +676,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_cvtepi32_ps)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6491cf4;
+  constexpr static std::size_t addrs = 0x648fa90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -689,7 +689,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_cvtpd_ps)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6491d38;
+  constexpr static std::size_t addrs = 0x648fad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -702,7 +702,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_cvtps_epi32)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6491d6c;
+  constexpr static std::size_t addrs = 0x648fb08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -715,7 +715,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_cvtps_pd)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6491db8;
+  constexpr static std::size_t addrs = 0x648fb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -728,7 +728,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_cvttpd_epi32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6491dec;
+  constexpr static std::size_t addrs = 0x648fb88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -741,7 +741,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_cvtpd_epi32)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6491e4c;
+  constexpr static std::size_t addrs = 0x648fbe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -754,7 +754,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_cvttps_epi32)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6491e88;
+  constexpr static std::size_t addrs = 0x648fc24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -767,7 +767,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_cvtss_f32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6491f14;
+  constexpr static std::size_t addrs = 0x648fcb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -780,7 +780,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_extractf128_ps)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6491f1c;
+  constexpr static std::size_t addrs = 0x648fcb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -794,7 +794,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_extractf128_pd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6491f40;
+  constexpr static std::size_t addrs = 0x648fcdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -809,7 +809,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_extractf128_si256)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6491f64;
+  constexpr static std::size_t addrs = 0x648fd00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -823,7 +823,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_zeroall)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6491f88;
+  constexpr static std::size_t addrs = 0x648fd24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx*>(), { "mm256_zeroall", {}, {} })));
@@ -835,7 +835,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_zeroupper)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6491f8c;
+  constexpr static std::size_t addrs = 0x648fd28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx*>(), { "mm256_zeroupper", {}, {} })));
@@ -848,7 +848,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx::permutevar_ps)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6491f90;
+  constexpr static std::size_t addrs = 0x648fd2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -863,7 +863,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_permutevar_ps)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6492000;
+  constexpr static std::size_t addrs = 0x648fd9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -877,7 +877,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx::permute_ps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6492058;
+  constexpr static std::size_t addrs = 0x648fdf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx*>(),
@@ -890,7 +890,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_permute_ps)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6492060;
+  constexpr static std::size_t addrs = 0x648fdfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -905,7 +905,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx::permutevar_pd)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x64920c0;
+  constexpr static std::size_t addrs = 0x648fe5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -920,7 +920,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_permutevar_pd)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6492124;
+  constexpr static std::size_t addrs = 0x648fec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -934,7 +934,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_permute_pd)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x64921bc;
+  constexpr static std::size_t addrs = 0x648ff58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -948,7 +948,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx::permute_pd)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6492260;
+  constexpr static std::size_t addrs = 0x648fffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx*>(),
@@ -962,7 +962,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::Select4)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x64922bc;
+  constexpr static std::size_t addrs = 0x6490058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -978,7 +978,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_permute2f128_ps)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6492304;
+  constexpr static std::size_t addrs = 0x64900a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -994,7 +994,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_permute2f128_pd)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6492388;
+  constexpr static std::size_t addrs = 0x6490124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1010,7 +1010,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_permute2f128_si256)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x649240c;
+  constexpr static std::size_t addrs = 0x64901a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1026,7 +1026,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_broadcast_ss)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6492490;
+  constexpr static std::size_t addrs = 0x649022c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1039,7 +1039,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Avx::broadcast_ss)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x649249c;
+  constexpr static std::size_t addrs = 0x6490238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1052,7 +1052,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_broadcast_sd)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64924ac;
+  constexpr static std::size_t addrs = 0x6490248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1065,7 +1065,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_broadcast_ps)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64924bc;
+  constexpr static std::size_t addrs = 0x6490258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1078,7 +1078,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_broadcast_pd)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64924d8;
+  constexpr static std::size_t addrs = 0x6490274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1092,7 +1092,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_insertf128_ps)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x64924e8;
+  constexpr static std::size_t addrs = 0x6490284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1108,7 +1108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_insertf128_pd)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6492514;
+  constexpr static std::size_t addrs = 0x64902b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1124,7 +1124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_insertf128_si256)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6492540;
+  constexpr static std::size_t addrs = 0x64902dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1139,7 +1139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_load_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649256c;
+  constexpr static std::size_t addrs = 0x6490308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1152,7 +1152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_store_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6492578;
+  constexpr static std::size_t addrs = 0x6490314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx*>(),
@@ -1165,7 +1165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_load_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6492584;
+  constexpr static std::size_t addrs = 0x6490320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1178,7 +1178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_store_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6492590;
+  constexpr static std::size_t addrs = 0x649032c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx*>(),
@@ -1191,7 +1191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_loadu_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649259c;
+  constexpr static std::size_t addrs = 0x6490338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1204,7 +1204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_storeu_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64925a8;
+  constexpr static std::size_t addrs = 0x6490344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1218,7 +1218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_loadu_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64925b4;
+  constexpr static std::size_t addrs = 0x6490350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1231,7 +1231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_storeu_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64925c0;
+  constexpr static std::size_t addrs = 0x649035c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1245,7 +1245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_load_si256)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64925cc;
+  constexpr static std::size_t addrs = 0x6490368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1258,7 +1258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_store_si256)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64925d8;
+  constexpr static std::size_t addrs = 0x6490374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1272,7 +1272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_loadu_si256)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64925e4;
+  constexpr static std::size_t addrs = 0x6490380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1285,7 +1285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_storeu_si256)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64925f0;
+  constexpr static std::size_t addrs = 0x649038c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1299,7 +1299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*, void*)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_loadu2_m128)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64925fc;
+  constexpr static std::size_t addrs = 0x6490398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1312,7 +1312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*, void*)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_loadu2_m128d)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6492618;
+  constexpr static std::size_t addrs = 0x64903b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1325,7 +1325,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*, void*)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_loadu2_m128i)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6492628;
+  constexpr static std::size_t addrs = 0x64903c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1339,7 +1339,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_set_m128)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649260c;
+  constexpr static std::size_t addrs = 0x64903a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1353,7 +1353,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, void*, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_storeu2_m128)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6492638;
+  constexpr static std::size_t addrs = 0x64903d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1367,7 +1367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, void*, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_storeu2_m128d)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6492654;
+  constexpr static std::size_t addrs = 0x64903f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1381,7 +1381,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, void*, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_storeu2_m128i)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6492668;
+  constexpr static std::size_t addrs = 0x6490404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1395,7 +1395,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx::maskload_pd)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x649267c;
+  constexpr static std::size_t addrs = 0x6490418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx*>(),
@@ -1408,7 +1408,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_maskload_pd)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x64926a4;
+  constexpr static std::size_t addrs = 0x6490440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1422,7 +1422,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx::maskstore_pd)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64926f8;
+  constexpr static std::size_t addrs = 0x6490494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1437,7 +1437,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_maskstore_pd)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6492714;
+  constexpr static std::size_t addrs = 0x64904b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1452,7 +1452,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx::maskload_ps)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6492760;
+  constexpr static std::size_t addrs = 0x64904fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx*>(),
@@ -1465,7 +1465,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_maskload_ps)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x64927ac;
+  constexpr static std::size_t addrs = 0x6490548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1479,7 +1479,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx::maskstore_ps)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6492800;
+  constexpr static std::size_t addrs = 0x649059c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1494,7 +1494,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_maskstore_ps)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x649283c;
+  constexpr static std::size_t addrs = 0x64905d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1509,7 +1509,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_movehdup_ps)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x64928c0;
+  constexpr static std::size_t addrs = 0x649065c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1522,7 +1522,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_moveldup_ps)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x64928e4;
+  constexpr static std::size_t addrs = 0x6490680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1535,7 +1535,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_movedup_pd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6492908;
+  constexpr static std::size_t addrs = 0x64906a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1548,7 +1548,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_lddqu_si256)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649291c;
+  constexpr static std::size_t addrs = 0x64906b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1561,7 +1561,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_stream_si256)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6492928;
+  constexpr static std::size_t addrs = 0x64906c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1575,7 +1575,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_stream_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6492934;
+  constexpr static std::size_t addrs = 0x64906d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1589,7 +1589,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_stream_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6492940;
+  constexpr static std::size_t addrs = 0x64906dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1603,7 +1603,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_rcp_ps)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x649294c;
+  constexpr static std::size_t addrs = 0x64906e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1616,7 +1616,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_rsqrt_ps)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64929c8;
+  constexpr static std::size_t addrs = 0x6490764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1629,7 +1629,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_sqrt_pd)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6492aa4;
+  constexpr static std::size_t addrs = 0x6490840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1642,7 +1642,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_sqrt_ps)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6492af0;
+  constexpr static std::size_t addrs = 0x649088c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1655,7 +1655,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_round_pd)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6492bc0;
+  constexpr static std::size_t addrs = 0x649095c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1669,7 +1669,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_ceil_pd)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6492c38;
+  constexpr static std::size_t addrs = 0x64909d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1682,7 +1682,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_floor_pd)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6492ca0;
+  constexpr static std::size_t addrs = 0x6490a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1695,7 +1695,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_round_ps)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6492d08;
+  constexpr static std::size_t addrs = 0x6490aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1709,7 +1709,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_ceil_ps)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6492d68;
+  constexpr static std::size_t addrs = 0x6490b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1722,7 +1722,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_floor_ps)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6492dc4;
+  constexpr static std::size_t addrs = 0x6490b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1736,7 +1736,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_unpackhi_pd)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6492e20;
+  constexpr static std::size_t addrs = 0x6490bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1751,7 +1751,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_unpacklo_pd)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6492e3c;
+  constexpr static std::size_t addrs = 0x6490bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1766,7 +1766,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_unpackhi_ps)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6492e58;
+  constexpr static std::size_t addrs = 0x6490bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1781,7 +1781,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_unpacklo_ps)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6492ea0;
+  constexpr static std::size_t addrs = 0x6490c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1795,7 +1795,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_testz_si256)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6492ee4;
+  constexpr static std::size_t addrs = 0x6490c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1809,7 +1809,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_testc_si256)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6492f1c;
+  constexpr static std::size_t addrs = 0x6490cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1823,7 +1823,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_testnzc_si256)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6492f54;
+  constexpr static std::size_t addrs = 0x6490cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1837,7 +1837,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_testz_pd)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6492fb0;
+  constexpr static std::size_t addrs = 0x6490d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1851,7 +1851,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_testc_pd)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6492fe0;
+  constexpr static std::size_t addrs = 0x6490d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1865,7 +1865,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_testnzc_pd)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6493010;
+  constexpr static std::size_t addrs = 0x6490dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1879,7 +1879,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx::testz_pd)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x64930d4;
+  constexpr static std::size_t addrs = 0x6490e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1893,7 +1893,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx::testc_pd)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6493144;
+  constexpr static std::size_t addrs = 0x6490ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1907,7 +1907,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx::testnzc_pd)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x64931b4;
+  constexpr static std::size_t addrs = 0x6490f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1921,7 +1921,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_testz_ps)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6493258;
+  constexpr static std::size_t addrs = 0x6490ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1935,7 +1935,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_testc_ps)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6493288;
+  constexpr static std::size_t addrs = 0x6491024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1949,7 +1949,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_testnzc_ps)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x64932b8;
+  constexpr static std::size_t addrs = 0x6491054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1963,7 +1963,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx::testz_ps)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x649337c;
+  constexpr static std::size_t addrs = 0x6491118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1977,7 +1977,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx::testc_ps)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x64933ec;
+  constexpr static std::size_t addrs = 0x6491188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1991,7 +1991,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx::testnzc_ps)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x649345c;
+  constexpr static std::size_t addrs = 0x64911f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2005,7 +2005,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_movemask_pd)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6493510;
+  constexpr static std::size_t addrs = 0x64912ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2018,7 +2018,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_movemask_ps)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6493548;
+  constexpr static std::size_t addrs = 0x64912e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2031,7 +2031,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)()>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_setzero_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64935d0;
+  constexpr static std::size_t addrs = 0x649136c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx*>(), { "mm256_setzero_pd", {}, {} })));
@@ -2043,7 +2043,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)()>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_setzero_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64935dc;
+  constexpr static std::size_t addrs = 0x6491378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx*>(), { "mm256_setzero_ps", {}, {} })));
@@ -2055,7 +2055,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)()>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_setzero_si256)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64935e8;
+  constexpr static std::size_t addrs = 0x6491384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx*>(), { "mm256_setzero_si256", {}, {} })));
@@ -2067,7 +2067,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(double_t, double_t, double_t, double_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_set_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64935f4;
+  constexpr static std::size_t addrs = 0x6491390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2082,7 +2082,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(float_t, float_t, float_t, float_t, float_t, float_t, float_t, float_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_set_ps)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6493600;
+  constexpr static std::size_t addrs = 0x649139c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2101,7 +2101,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsic
     uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t,
     uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_set_epi8)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6493614;
+  constexpr static std::size_t addrs = 0x64913b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2123,7 +2123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t,
                                                                                             int16_t, int16_t, int16_t, int16_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_set_epi16)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x64936f8;
+  constexpr static std::size_t addrs = 0x6491494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2143,7 +2143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_set_epi32)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649375c;
+  constexpr static std::size_t addrs = 0x64914f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2160,7 +2160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(int64_t, int64_t, int64_t, int64_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_set_epi64x)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493770;
+  constexpr static std::size_t addrs = 0x649150c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2175,7 +2175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_set_m128d)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649377c;
+  constexpr static std::size_t addrs = 0x6491518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2190,7 +2190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_set_m128i)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493788;
+  constexpr static std::size_t addrs = 0x6491524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2204,7 +2204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(double_t, double_t, double_t, double_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_setr_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493794;
+  constexpr static std::size_t addrs = 0x6491530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2219,7 +2219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(float_t, float_t, float_t, float_t, float_t, float_t, float_t, float_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_setr_ps)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64937a0;
+  constexpr static std::size_t addrs = 0x649153c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2238,7 +2238,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsic
     uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t,
     uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_setr_epi8)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x64937b4;
+  constexpr static std::size_t addrs = 0x6491550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2260,7 +2260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t,
                                                                                             int16_t, int16_t, int16_t, int16_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_setr_epi16)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6493898;
+  constexpr static std::size_t addrs = 0x6491634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2280,7 +2280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_setr_epi32)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64938fc;
+  constexpr static std::size_t addrs = 0x6491698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2297,7 +2297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(int64_t, int64_t, int64_t, int64_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_setr_epi64x)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493910;
+  constexpr static std::size_t addrs = 0x64916ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2312,7 +2312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_setr_m128)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649391c;
+  constexpr static std::size_t addrs = 0x64916b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2327,7 +2327,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_setr_m128d)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493928;
+  constexpr static std::size_t addrs = 0x64916c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2342,7 +2342,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_setr_m128i)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493934;
+  constexpr static std::size_t addrs = 0x64916d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2356,7 +2356,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(double_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_set1_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493940;
+  constexpr static std::size_t addrs = 0x64916dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2369,7 +2369,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(float_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_set1_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649394c;
+  constexpr static std::size_t addrs = 0x64916e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2382,7 +2382,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(uint8_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_set1_epi8)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493958;
+  constexpr static std::size_t addrs = 0x64916f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2395,7 +2395,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(int16_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_set1_epi16)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493964;
+  constexpr static std::size_t addrs = 0x6491700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2408,7 +2408,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_set1_epi32)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493970;
+  constexpr static std::size_t addrs = 0x649170c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2421,7 +2421,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(int64_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_set1_epi64x)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649397c;
+  constexpr static std::size_t addrs = 0x6491718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2434,7 +2434,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_castpd_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493988;
+  constexpr static std::size_t addrs = 0x6491724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2447,7 +2447,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_castps_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493994;
+  constexpr static std::size_t addrs = 0x6491730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2460,7 +2460,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_castps_si256)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64939a0;
+  constexpr static std::size_t addrs = 0x649173c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2473,7 +2473,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_castpd_si256)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64939ac;
+  constexpr static std::size_t addrs = 0x6491748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2486,7 +2486,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_castsi256_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64939b8;
+  constexpr static std::size_t addrs = 0x6491754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2499,7 +2499,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_castsi256_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64939c4;
+  constexpr static std::size_t addrs = 0x6491760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2512,7 +2512,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_castps256_ps128)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64939d0;
+  constexpr static std::size_t addrs = 0x649176c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2525,7 +2525,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_castpd256_pd128)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64939dc;
+  constexpr static std::size_t addrs = 0x6491778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2538,7 +2538,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_castsi256_si128)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64939e8;
+  constexpr static std::size_t addrs = 0x6491784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2551,7 +2551,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_castps128_ps256)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64939f4;
+  constexpr static std::size_t addrs = 0x6491790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2564,7 +2564,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_castpd128_pd256)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493a0c;
+  constexpr static std::size_t addrs = 0x64917a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2577,7 +2577,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_castsi128_si256)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493a18;
+  constexpr static std::size_t addrs = 0x64917b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2590,7 +2590,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)()>(&::Unity::Burst::Intrinsics::X86_Avx::undefined_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493a24;
+  constexpr static std::size_t addrs = 0x64917c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx*>(), { "undefined_ps", {}, {} })));
@@ -2602,7 +2602,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)()>(&::Unity::Burst::Intrinsics::X86_Avx::undefined_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493a30;
+  constexpr static std::size_t addrs = 0x64917cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx*>(), { "undefined_pd", {}, {} })));
@@ -2614,7 +2614,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)()>(&::Unity::Burst::Intrinsics::X86_Avx::undefined_si128)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493a3c;
+  constexpr static std::size_t addrs = 0x64917d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx*>(), { "undefined_si128", {}, {} })));
@@ -2626,7 +2626,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)()>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_undefined_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493a48;
+  constexpr static std::size_t addrs = 0x64917e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx*>(), { "mm256_undefined_ps", {}, {} })));
@@ -2638,7 +2638,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)()>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_undefined_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493a54;
+  constexpr static std::size_t addrs = 0x64917f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx*>(), { "mm256_undefined_pd", {}, {} })));
@@ -2650,7 +2650,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)()>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_undefined_si256)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493a60;
+  constexpr static std::size_t addrs = 0x64917fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx*>(), { "mm256_undefined_si256", {}, {} })));
@@ -2662,7 +2662,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_zextps128_ps256)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493a6c;
+  constexpr static std::size_t addrs = 0x6491808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2675,7 +2675,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_zextpd128_pd256)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493a78;
+  constexpr static std::size_t addrs = 0x6491814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2688,7 +2688,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_zextsi128_si256)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493a84;
+  constexpr static std::size_t addrs = 0x6491820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2702,7 +2702,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_insert_epi8)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6493a90;
+  constexpr static std::size_t addrs = 0x649182c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2717,7 +2717,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_insert_epi16)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6493ae0;
+  constexpr static std::size_t addrs = 0x649187c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2732,7 +2732,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_insert_epi32)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6493b30;
+  constexpr static std::size_t addrs = 0x64918cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2747,7 +2747,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int64_t, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx::mm256_insert_epi64)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6493b80;
+  constexpr static std::size_t addrs = 0x649191c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2761,7 +2761,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_extract_epi32)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493bd0;
+  constexpr static std::size_t addrs = 0x649196c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2775,7 +2775,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx::mm256_extract_epi64)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493bdc;
+  constexpr static std::size_t addrs = 0x6491978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3926,7 +3926,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Unity::Burst::Intrinsics::X86_Avx2::get_IsAvx2Supported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6493be8;
+  constexpr static std::size_t addrs = 0x6491984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx2*>(), { "get_IsAvx2Supported", {}, {} })));
@@ -3938,7 +3938,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_movemask_epi8)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6493bf0;
+  constexpr static std::size_t addrs = 0x649198c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3951,7 +3951,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_extract_epi8)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493c24;
+  constexpr static std::size_t addrs = 0x64919c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3965,7 +3965,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_extract_epi16)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493c30;
+  constexpr static std::size_t addrs = 0x64919cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3979,7 +3979,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_cvtsd_f64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6493c3c;
+  constexpr static std::size_t addrs = 0x64919d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3992,7 +3992,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_cvtsi256_si32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6493c44;
+  constexpr static std::size_t addrs = 0x64919e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4005,7 +4005,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_cvtsi256_si64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6493c4c;
+  constexpr static std::size_t addrs = 0x64919e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4019,7 +4019,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_cmpeq_epi8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6493c54;
+  constexpr static std::size_t addrs = 0x64919f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4034,7 +4034,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_cmpeq_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6493cb4;
+  constexpr static std::size_t addrs = 0x6491a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4049,7 +4049,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_cmpeq_epi32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6493d14;
+  constexpr static std::size_t addrs = 0x6491ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4064,7 +4064,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_cmpeq_epi64)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6493d74;
+  constexpr static std::size_t addrs = 0x6491b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4079,7 +4079,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_cmpgt_epi8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6493d8c;
+  constexpr static std::size_t addrs = 0x6491b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4094,7 +4094,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_cmpgt_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6493dec;
+  constexpr static std::size_t addrs = 0x6491b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4109,7 +4109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_cmpgt_epi32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6493e4c;
+  constexpr static std::size_t addrs = 0x6491be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4124,7 +4124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_cmpgt_epi64)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6493eac;
+  constexpr static std::size_t addrs = 0x6491c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4139,7 +4139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_max_epi8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6493f3c;
+  constexpr static std::size_t addrs = 0x6491cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4154,7 +4154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_max_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6493f9c;
+  constexpr static std::size_t addrs = 0x6491d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4169,7 +4169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_max_epi32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6493ffc;
+  constexpr static std::size_t addrs = 0x6491d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4184,7 +4184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_max_epu8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x649405c;
+  constexpr static std::size_t addrs = 0x6491df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4199,7 +4199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_max_epu16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64940bc;
+  constexpr static std::size_t addrs = 0x6491e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4214,7 +4214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_max_epu32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x649411c;
+  constexpr static std::size_t addrs = 0x6491eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4229,7 +4229,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_min_epi8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x649417c;
+  constexpr static std::size_t addrs = 0x6491f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4244,7 +4244,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_min_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64941dc;
+  constexpr static std::size_t addrs = 0x6491f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4259,7 +4259,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_min_epi32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x649423c;
+  constexpr static std::size_t addrs = 0x6491fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4274,7 +4274,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_min_epu8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x649429c;
+  constexpr static std::size_t addrs = 0x6492038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4289,7 +4289,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_min_epu16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64942fc;
+  constexpr static std::size_t addrs = 0x6492098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4304,7 +4304,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_min_epu32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x649435c;
+  constexpr static std::size_t addrs = 0x64920f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4319,7 +4319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_and_si256)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64943bc;
+  constexpr static std::size_t addrs = 0x6492158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4334,7 +4334,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_andnot_si256)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64943d4;
+  constexpr static std::size_t addrs = 0x6492170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4349,7 +4349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_or_si256)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x64943ec;
+  constexpr static std::size_t addrs = 0x6492188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4364,7 +4364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_xor_si256)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6494404;
+  constexpr static std::size_t addrs = 0x64921a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4378,7 +4378,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_abs_epi8)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x649441c;
+  constexpr static std::size_t addrs = 0x64921b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4391,7 +4391,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_abs_epi16)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6494468;
+  constexpr static std::size_t addrs = 0x6492204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4404,7 +4404,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_abs_epi32)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x64944b4;
+  constexpr static std::size_t addrs = 0x6492250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4418,7 +4418,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_add_epi8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494500;
+  constexpr static std::size_t addrs = 0x649229c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4433,7 +4433,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_add_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494560;
+  constexpr static std::size_t addrs = 0x64922fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4448,7 +4448,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_add_epi32)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x64945c0;
+  constexpr static std::size_t addrs = 0x649235c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4463,7 +4463,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_add_epi64)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x649462c;
+  constexpr static std::size_t addrs = 0x64923c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4478,7 +4478,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_adds_epi8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494644;
+  constexpr static std::size_t addrs = 0x64923e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4493,7 +4493,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_adds_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64946a4;
+  constexpr static std::size_t addrs = 0x6492440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4508,7 +4508,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_adds_epu8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494704;
+  constexpr static std::size_t addrs = 0x64924a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4523,7 +4523,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_adds_epu16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494764;
+  constexpr static std::size_t addrs = 0x6492500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4538,7 +4538,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_sub_epi8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64947c4;
+  constexpr static std::size_t addrs = 0x6492560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4553,7 +4553,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_sub_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494824;
+  constexpr static std::size_t addrs = 0x64925c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4568,7 +4568,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_sub_epi32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494884;
+  constexpr static std::size_t addrs = 0x6492620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4583,7 +4583,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_sub_epi64)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x64948e4;
+  constexpr static std::size_t addrs = 0x6492680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4598,7 +4598,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_subs_epi8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x649496c;
+  constexpr static std::size_t addrs = 0x6492708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4613,7 +4613,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_subs_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64949cc;
+  constexpr static std::size_t addrs = 0x6492768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4628,7 +4628,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_subs_epu8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494a2c;
+  constexpr static std::size_t addrs = 0x64927c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4643,7 +4643,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_subs_epu16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494a8c;
+  constexpr static std::size_t addrs = 0x6492828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4658,7 +4658,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_avg_epu8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494aec;
+  constexpr static std::size_t addrs = 0x6492888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4673,7 +4673,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_avg_epu16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494b4c;
+  constexpr static std::size_t addrs = 0x64928e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4688,7 +4688,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_hadd_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494bac;
+  constexpr static std::size_t addrs = 0x6492948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4703,7 +4703,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_hadd_epi32)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6494c0c;
+  constexpr static std::size_t addrs = 0x64929a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4718,7 +4718,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_hadds_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494c78;
+  constexpr static std::size_t addrs = 0x6492a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4733,7 +4733,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_hsub_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494cd8;
+  constexpr static std::size_t addrs = 0x6492a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4748,7 +4748,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_hsub_epi32)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6494d38;
+  constexpr static std::size_t addrs = 0x6492ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4763,7 +4763,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_hsubs_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494d94;
+  constexpr static std::size_t addrs = 0x6492b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4778,7 +4778,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_madd_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494df4;
+  constexpr static std::size_t addrs = 0x6492b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4793,7 +4793,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_maddubs_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494e54;
+  constexpr static std::size_t addrs = 0x6492bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4808,7 +4808,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_mulhi_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494eb4;
+  constexpr static std::size_t addrs = 0x6492c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4823,7 +4823,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_mulhi_epu16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494f14;
+  constexpr static std::size_t addrs = 0x6492cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4838,7 +4838,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_mullo_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494f74;
+  constexpr static std::size_t addrs = 0x6492d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4853,7 +4853,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_mullo_epi32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6494fd4;
+  constexpr static std::size_t addrs = 0x6492d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4868,7 +4868,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_mul_epu32)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6495034;
+  constexpr static std::size_t addrs = 0x6492dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4883,7 +4883,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_mul_epi32)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6495070;
+  constexpr static std::size_t addrs = 0x6492e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4898,7 +4898,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_sign_epi8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64950ac;
+  constexpr static std::size_t addrs = 0x6492e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4913,7 +4913,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_sign_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x649510c;
+  constexpr static std::size_t addrs = 0x6492ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4928,7 +4928,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_sign_epi32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x649516c;
+  constexpr static std::size_t addrs = 0x6492f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4943,7 +4943,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_mulhrs_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64951cc;
+  constexpr static std::size_t addrs = 0x6492f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4958,7 +4958,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_sad_epu8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x649522c;
+  constexpr static std::size_t addrs = 0x6492fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4973,7 +4973,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_mpsadbw_epu8)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x649528c;
+  constexpr static std::size_t addrs = 0x6493028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4988,7 +4988,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_slli_si256)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64952f8;
+  constexpr static std::size_t addrs = 0x6493094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5002,7 +5002,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_bslli_epi128)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6495358;
+  constexpr static std::size_t addrs = 0x64930f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5016,7 +5016,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_srli_si256)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x64953c0;
+  constexpr static std::size_t addrs = 0x649315c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5030,7 +5030,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_bsrli_epi128)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6495418;
+  constexpr static std::size_t addrs = 0x64931b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5045,7 +5045,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_sll_epi16)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6495478;
+  constexpr static std::size_t addrs = 0x6493214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5060,7 +5060,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_sll_epi32)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x64954e4;
+  constexpr static std::size_t addrs = 0x6493280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5075,7 +5075,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_sll_epi64)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6495550;
+  constexpr static std::size_t addrs = 0x64932ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5089,7 +5089,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_slli_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64955bc;
+  constexpr static std::size_t addrs = 0x6493358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5103,7 +5103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_slli_epi32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x649561c;
+  constexpr static std::size_t addrs = 0x64933b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5117,7 +5117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_slli_epi64)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x649567c;
+  constexpr static std::size_t addrs = 0x6493418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5132,7 +5132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_sllv_epi32)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x64956dc;
+  constexpr static std::size_t addrs = 0x6493478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5147,7 +5147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_sllv_epi64)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x64957b4;
+  constexpr static std::size_t addrs = 0x6493550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5162,7 +5162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::sllv_epi32)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6495734;
+  constexpr static std::size_t addrs = 0x64934d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5177,7 +5177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::sllv_epi64)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x649580c;
+  constexpr static std::size_t addrs = 0x64935a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5192,7 +5192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_sra_epi16)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6495894;
+  constexpr static std::size_t addrs = 0x6493630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5207,7 +5207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_sra_epi32)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6495900;
+  constexpr static std::size_t addrs = 0x649369c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5221,7 +5221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_srai_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x649596c;
+  constexpr static std::size_t addrs = 0x6493708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5235,7 +5235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_srai_epi32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64959cc;
+  constexpr static std::size_t addrs = 0x6493768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5250,7 +5250,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_srav_epi32)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6495a2c;
+  constexpr static std::size_t addrs = 0x64937c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5265,7 +5265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::srav_epi32)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6495a84;
+  constexpr static std::size_t addrs = 0x6493820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5280,7 +5280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_srl_epi16)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6495b7c;
+  constexpr static std::size_t addrs = 0x6493918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5295,7 +5295,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_srl_epi32)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6495be8;
+  constexpr static std::size_t addrs = 0x6493984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5310,7 +5310,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_srl_epi64)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6495c54;
+  constexpr static std::size_t addrs = 0x64939f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5324,7 +5324,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_srli_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6495cc0;
+  constexpr static std::size_t addrs = 0x6493a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5338,7 +5338,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_srli_epi32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6495d20;
+  constexpr static std::size_t addrs = 0x6493abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5352,7 +5352,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_srli_epi64)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6495d80;
+  constexpr static std::size_t addrs = 0x6493b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5367,7 +5367,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_srlv_epi32)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6495de0;
+  constexpr static std::size_t addrs = 0x6493b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5382,7 +5382,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_srlv_epi64)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6495eb8;
+  constexpr static std::size_t addrs = 0x6493c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5397,7 +5397,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::srlv_epi32)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6495e38;
+  constexpr static std::size_t addrs = 0x6493bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5412,7 +5412,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::srlv_epi64)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6495f10;
+  constexpr static std::size_t addrs = 0x6493cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5427,7 +5427,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::blend_epi32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6495f98;
+  constexpr static std::size_t addrs = 0x6493d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5443,7 +5443,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_blend_epi32)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6495fa0;
+  constexpr static std::size_t addrs = 0x6493d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5459,7 +5459,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_alignr_epi8)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x649600c;
+  constexpr static std::size_t addrs = 0x6493da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5475,7 +5475,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_blendv_epi8)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6496078;
+  constexpr static std::size_t addrs = 0x6493e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5493,7 +5493,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_blend_epi16)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x64960e4;
+  constexpr static std::size_t addrs = 0x6493e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5509,7 +5509,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_packs_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6496150;
+  constexpr static std::size_t addrs = 0x6493eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5524,7 +5524,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_packs_epi32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64961b0;
+  constexpr static std::size_t addrs = 0x6493f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5539,7 +5539,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_packus_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6496210;
+  constexpr static std::size_t addrs = 0x6493fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5554,7 +5554,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_packus_epi32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6496270;
+  constexpr static std::size_t addrs = 0x649400c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5569,7 +5569,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_unpackhi_epi8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64962d0;
+  constexpr static std::size_t addrs = 0x649406c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5584,7 +5584,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_unpackhi_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6496330;
+  constexpr static std::size_t addrs = 0x64940cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5599,7 +5599,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_unpackhi_epi32)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6496390;
+  constexpr static std::size_t addrs = 0x649412c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5614,7 +5614,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_unpackhi_epi64)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64963c4;
+  constexpr static std::size_t addrs = 0x6494160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5629,7 +5629,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_unpacklo_epi8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64963e0;
+  constexpr static std::size_t addrs = 0x649417c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5644,7 +5644,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_unpacklo_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6496440;
+  constexpr static std::size_t addrs = 0x64941dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5659,7 +5659,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_unpacklo_epi32)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x64964a0;
+  constexpr static std::size_t addrs = 0x649423c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5674,7 +5674,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_unpacklo_epi64)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64964d4;
+  constexpr static std::size_t addrs = 0x6494270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5689,7 +5689,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_shuffle_epi8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64964f0;
+  constexpr static std::size_t addrs = 0x649428c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5703,7 +5703,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_shuffle_epi32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6496550;
+  constexpr static std::size_t addrs = 0x64942ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5717,7 +5717,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_shufflehi_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64965b0;
+  constexpr static std::size_t addrs = 0x649434c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5731,7 +5731,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_shufflelo_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6496610;
+  constexpr static std::size_t addrs = 0x64943ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5746,7 +5746,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_extracti128_si256)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6496670;
+  constexpr static std::size_t addrs = 0x649440c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5761,7 +5761,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_inserti128_si256)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x64966d0;
+  constexpr static std::size_t addrs = 0x649446c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5776,7 +5776,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::broadcastss_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64966fc;
+  constexpr static std::size_t addrs = 0x6494498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5789,7 +5789,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_broadcastss_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6496708;
+  constexpr static std::size_t addrs = 0x64944a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5802,7 +5802,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::broadcastsd_pd)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6496714;
+  constexpr static std::size_t addrs = 0x64944b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5815,7 +5815,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_broadcastsd_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649671c;
+  constexpr static std::size_t addrs = 0x64944b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5828,7 +5828,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::broadcastb_epi8)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6496728;
+  constexpr static std::size_t addrs = 0x64944c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5841,7 +5841,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::broadcastw_epi16)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649673c;
+  constexpr static std::size_t addrs = 0x64944d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5854,7 +5854,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::broadcastd_epi32)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6496750;
+  constexpr static std::size_t addrs = 0x64944ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5867,7 +5867,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::broadcastq_epi64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649675c;
+  constexpr static std::size_t addrs = 0x64944f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5880,7 +5880,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_broadcastb_epi8)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6496764;
+  constexpr static std::size_t addrs = 0x6494500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5893,7 +5893,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_broadcastw_epi16)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6496770;
+  constexpr static std::size_t addrs = 0x649450c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5906,7 +5906,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_broadcastd_epi32)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649677c;
+  constexpr static std::size_t addrs = 0x6494518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5919,7 +5919,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_broadcastq_epi64)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6496788;
+  constexpr static std::size_t addrs = 0x6494524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5932,7 +5932,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_broadcastsi128_si256)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6496794;
+  constexpr static std::size_t addrs = 0x6494530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5946,7 +5946,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_cvtepi8_epi16)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x64967a0;
+  constexpr static std::size_t addrs = 0x649453c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5959,7 +5959,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_cvtepi8_epi32)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6496808;
+  constexpr static std::size_t addrs = 0x64945a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5972,7 +5972,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_cvtepi8_epi64)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6496870;
+  constexpr static std::size_t addrs = 0x649460c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5985,7 +5985,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_cvtepi16_epi32)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x64968d8;
+  constexpr static std::size_t addrs = 0x6494674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5998,7 +5998,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_cvtepi16_epi64)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6496940;
+  constexpr static std::size_t addrs = 0x64946dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6011,7 +6011,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_cvtepi32_epi64)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x64969a8;
+  constexpr static std::size_t addrs = 0x6494744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6024,7 +6024,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_cvtepu8_epi16)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6496a10;
+  constexpr static std::size_t addrs = 0x64947ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6037,7 +6037,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_cvtepu8_epi32)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6496a78;
+  constexpr static std::size_t addrs = 0x6494814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6050,7 +6050,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_cvtepu8_epi64)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6496ae0;
+  constexpr static std::size_t addrs = 0x649487c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6063,7 +6063,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_cvtepu16_epi32)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6496b48;
+  constexpr static std::size_t addrs = 0x64948e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6076,7 +6076,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_cvtepu16_epi64)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6496bb0;
+  constexpr static std::size_t addrs = 0x649494c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6089,7 +6089,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_cvtepu32_epi64)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6496c18;
+  constexpr static std::size_t addrs = 0x64949b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6102,7 +6102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::maskload_epi32)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6496c80;
+  constexpr static std::size_t addrs = 0x6494a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx2*>(),
@@ -6115,7 +6115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::maskload_epi64)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6496ce8;
+  constexpr static std::size_t addrs = 0x6494a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Avx2*>(),
@@ -6128,7 +6128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::maskstore_epi32)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6496d58;
+  constexpr static std::size_t addrs = 0x6494af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6143,7 +6143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Avx2::maskstore_epi64)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6496dbc;
+  constexpr static std::size_t addrs = 0x6494b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6158,7 +6158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_maskload_epi32)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6496e28;
+  constexpr static std::size_t addrs = 0x6494bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6172,7 +6172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*, ::Unity::Burst::Intrinsics::v256)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_maskload_epi64)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6496e90;
+  constexpr static std::size_t addrs = 0x6494c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6187,7 +6187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_maskstore_epi32)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6496ef8;
+  constexpr static std::size_t addrs = 0x6494c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6203,7 +6203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_maskstore_epi64)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6496f1c;
+  constexpr static std::size_t addrs = 0x6494cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6219,7 +6219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_permutevar8x32_epi32)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6496f40;
+  constexpr static std::size_t addrs = 0x6494cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6234,7 +6234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_permutevar8x32_ps)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6496fa8;
+  constexpr static std::size_t addrs = 0x6494d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6249,7 +6249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_permute4x64_epi64)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x649702c;
+  constexpr static std::size_t addrs = 0x6494dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6263,7 +6263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_permute4x64_pd)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6497094;
+  constexpr static std::size_t addrs = 0x6494e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6278,7 +6278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_permute2x128_si256)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x649710c;
+  constexpr static std::size_t addrs = 0x6494ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6294,7 +6294,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_stream_load_si256)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6497190;
+  constexpr static std::size_t addrs = 0x6494f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6308,7 +6308,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_i32gather_epi32)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x649719c;
+  constexpr static std::size_t addrs = 0x6494f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6323,7 +6323,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_i32gather_pd)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x649726c;
+  constexpr static std::size_t addrs = 0x6495008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6338,7 +6338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_i32gather_ps)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6497324;
+  constexpr static std::size_t addrs = 0x64950c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6353,7 +6353,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_i64gather_pd)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x64973f4;
+  constexpr static std::size_t addrs = 0x6495190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6368,7 +6368,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_i64gather_ps)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x64974c4;
+  constexpr static std::size_t addrs = 0x6495260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6382,7 +6382,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*, ::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::i32gather_pd)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6497570;
+  constexpr static std::size_t addrs = 0x649530c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6396,7 +6396,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*, ::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::i32gather_ps)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6497614;
+  constexpr static std::size_t addrs = 0x64953b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6410,7 +6410,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*, ::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::i64gather_pd)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x64976d4;
+  constexpr static std::size_t addrs = 0x6495470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6424,7 +6424,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*, ::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::i64gather_ps)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6497794;
+  constexpr static std::size_t addrs = 0x6495530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6439,7 +6439,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_i32gather_epi64)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6497838;
+  constexpr static std::size_t addrs = 0x64955d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6454,7 +6454,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_i64gather_epi32)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x64978f0;
+  constexpr static std::size_t addrs = 0x649568c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6469,7 +6469,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(void*, ::Unity::Burst::Intrinsics::v256, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::mm256_i64gather_epi64)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x649799c;
+  constexpr static std::size_t addrs = 0x6495738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6484,7 +6484,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::i32gather_epi32)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6497a6c;
+  constexpr static std::size_t addrs = 0x6495808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6499,7 +6499,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::i32gather_epi64)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6497b2c;
+  constexpr static std::size_t addrs = 0x64958c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6514,7 +6514,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::i64gather_epi32)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6497bd0;
+  constexpr static std::size_t addrs = 0x649596c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6529,7 +6529,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Avx2::i64gather_epi64)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6497c74;
+  constexpr static std::size_t addrs = 0x6495a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6544,7 +6544,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, void*, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v256,
                                                                                             int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_mask_i32gather_pd)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6497d34;
+  constexpr static std::size_t addrs = 0x6495ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6562,7 +6562,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, void*, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256,
                                                                                             int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_mask_i32gather_ps)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6497dfc;
+  constexpr static std::size_t addrs = 0x6495b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6580,7 +6580,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, void*, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256,
                                                                                             int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_mask_i64gather_pd)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6497ec4;
+  constexpr static std::size_t addrs = 0x6495c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6598,7 +6598,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, void*, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v128,
                                                                                             int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_mask_i64gather_ps)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6497f8c;
+  constexpr static std::size_t addrs = 0x6495d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6616,7 +6616,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, void*, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256,
                                                                                             int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_mask_i32gather_epi32)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x649804c;
+  constexpr static std::size_t addrs = 0x6495de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6634,7 +6634,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, void*, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v256,
                                                                                             int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_mask_i32gather_epi64)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6498114;
+  constexpr static std::size_t addrs = 0x6495eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6652,7 +6652,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, void*, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256,
                                                                                             int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_mask_i64gather_epi64)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x64981dc;
+  constexpr static std::size_t addrs = 0x6495f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6670,7 +6670,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, void*, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v128,
                                                                                             int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mm256_mask_i64gather_epi32)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x64982a4;
+  constexpr static std::size_t addrs = 0x6496040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6688,7 +6688,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, void*, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128,
                                                                                             int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mask_i32gather_pd)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6498364;
+  constexpr static std::size_t addrs = 0x6496100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6706,7 +6706,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, void*, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128,
                                                                                             int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mask_i32gather_ps)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x649841c;
+  constexpr static std::size_t addrs = 0x64961b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6724,7 +6724,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, void*, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128,
                                                                                             int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mask_i64gather_pd)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x64984d4;
+  constexpr static std::size_t addrs = 0x6496270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6742,7 +6742,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, void*, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128,
                                                                                             int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mask_i64gather_ps)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x649858c;
+  constexpr static std::size_t addrs = 0x6496328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6760,7 +6760,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, void*, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128,
                                                                                             int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mask_i32gather_epi32)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6498640;
+  constexpr static std::size_t addrs = 0x64963dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6778,7 +6778,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, void*, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128,
                                                                                             int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mask_i32gather_epi64)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x64986f8;
+  constexpr static std::size_t addrs = 0x6496494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6796,7 +6796,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, void*, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128,
                                                                                             int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mask_i64gather_epi32)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x64987b0;
+  constexpr static std::size_t addrs = 0x649654c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6814,7 +6814,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, void*, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128,
                                                                                             int32_t)>(&::Unity::Burst::Intrinsics::X86_Avx2::mask_i64gather_epi64)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6498864;
+  constexpr static std::size_t addrs = 0x6496600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -8071,7 +8071,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Unity::Burst::Intrinsics::X86_Bmi1::get_IsBmi1Supported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649891c;
+  constexpr static std::size_t addrs = 0x64966b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Bmi1*>(), { "get_IsBmi1Supported", {}, {} })));
@@ -8083,7 +8083,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::Unity::Burst::Intrinsics::X86_Bmi1::andn_u32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6498924;
+  constexpr static std::size_t addrs = 0x64966c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8096,7 +8096,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&::Unity::Burst::Intrinsics::X86_Bmi1::andn_u64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649892c;
+  constexpr static std::size_t addrs = 0x64966c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8109,7 +8109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t, uint32_t)>(&::Unity::Burst::Intrinsics::X86_Bmi1::bextr_u32)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6498934;
+  constexpr static std::size_t addrs = 0x64966d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8123,7 +8123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, uint32_t, uint32_t)>(&::Unity::Burst::Intrinsics::X86_Bmi1::bextr_u64)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6498958;
+  constexpr static std::size_t addrs = 0x64966f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8137,7 +8137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::Unity::Burst::Intrinsics::X86_Bmi1::bextr2_u32)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x649897c;
+  constexpr static std::size_t addrs = 0x6496718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8150,7 +8150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&::Unity::Burst::Intrinsics::X86_Bmi1::bextr2_u64)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x64989ac;
+  constexpr static std::size_t addrs = 0x6496748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8163,7 +8163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::Unity::Burst::Intrinsics::X86_Bmi1::blsi_u32)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64989dc;
+  constexpr static std::size_t addrs = 0x6496778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -8176,7 +8176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t)>(&::Unity::Burst::Intrinsics::X86_Bmi1::blsi_u64)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64989e8;
+  constexpr static std::size_t addrs = 0x6496784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -8189,7 +8189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::Unity::Burst::Intrinsics::X86_Bmi1::blsmsk_u32)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64989f4;
+  constexpr static std::size_t addrs = 0x6496790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -8202,7 +8202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t)>(&::Unity::Burst::Intrinsics::X86_Bmi1::blsmsk_u64)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6498a00;
+  constexpr static std::size_t addrs = 0x649679c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -8215,7 +8215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::Unity::Burst::Intrinsics::X86_Bmi1::blsr_u32)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6498a0c;
+  constexpr static std::size_t addrs = 0x64967a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -8228,7 +8228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t)>(&::Unity::Burst::Intrinsics::X86_Bmi1::blsr_u64)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6498a18;
+  constexpr static std::size_t addrs = 0x64967b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -8241,7 +8241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::Unity::Burst::Intrinsics::X86_Bmi1::tzcnt_u32)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6498a24;
+  constexpr static std::size_t addrs = 0x64967c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -8254,7 +8254,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t)>(&::Unity::Burst::Intrinsics::X86_Bmi1::tzcnt_u64)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6498a7c;
+  constexpr static std::size_t addrs = 0x6496818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -8343,7 +8343,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Unity::Burst::Intrinsics::X86_Bmi2::get_IsBmi2Supported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6498ae0;
+  constexpr static std::size_t addrs = 0x649687c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Bmi2*>(), { "get_IsBmi2Supported", {}, {} })));
@@ -8355,7 +8355,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::Unity::Burst::Intrinsics::X86_Bmi2::bzhi_u32)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6498ae8;
+  constexpr static std::size_t addrs = 0x6496884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8368,7 +8368,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&::Unity::Burst::Intrinsics::X86_Bmi2::bzhi_u64)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6498b00;
+  constexpr static std::size_t addrs = 0x649689c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8381,7 +8381,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t, ::by_ref<uint32_t>)>(&::Unity::Burst::Intrinsics::X86_Bmi2::mulx_u32)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6498b18;
+  constexpr static std::size_t addrs = 0x64968b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -8395,7 +8395,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, uint64_t, ::by_ref<uint64_t>)>(&::Unity::Burst::Intrinsics::X86_Bmi2::mulx_u64)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6498b28;
+  constexpr static std::size_t addrs = 0x64968c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -8409,7 +8409,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::Unity::Burst::Intrinsics::X86_Bmi2::pdep_u32)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6498b64;
+  constexpr static std::size_t addrs = 0x6496900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8422,7 +8422,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&::Unity::Burst::Intrinsics::X86_Bmi2::pdep_u64)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6498ba4;
+  constexpr static std::size_t addrs = 0x6496940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8435,7 +8435,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::Unity::Burst::Intrinsics::X86_Bmi2::pext_u32)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6498be4;
+  constexpr static std::size_t addrs = 0x6496980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8448,7 +8448,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&::Unity::Burst::Intrinsics::X86_Bmi2::pext_u64)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6498c24;
+  constexpr static std::size_t addrs = 0x64969c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8561,7 +8561,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Burst::Intrinsics::X86_RoundingScope::*)(::Unity::Burst::Intrinsics::X86_MXCSRBits)>(
     &::Unity::Burst::Intrinsics::X86_RoundingScope::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6498c64;
+  constexpr static std::size_t addrs = 0x6496a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8574,7 +8574,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Burst::Intrinsics::X86_RoundingScope::*)()>(&::Unity::Burst::Intrinsics::X86_RoundingScope::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6498c6c;
+  constexpr static std::size_t addrs = 0x6496a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_RoundingScope>(), { "Dispose", {}, {} })));
@@ -8609,7 +8609,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Unity::Burst::Intrinsics::X86_F16C::get_IsF16CSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6498c70;
+  constexpr static std::size_t addrs = 0x6496a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_F16C*>(), { "get_IsF16CSupported", {}, {} })));
@@ -8621,7 +8621,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint16_t)>(&::Unity::Burst::Intrinsics::X86_F16C::HalfToFloat)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6498c78;
+  constexpr static std::size_t addrs = 0x6496a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -8634,7 +8634,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_F16C::cvtph_ps)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6498ce4;
+  constexpr static std::size_t addrs = 0x6496a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -8647,7 +8647,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_F16C::mm256_cvtph_ps)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6498d88;
+  constexpr static std::size_t addrs = 0x6496b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8660,7 +8660,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(uint32_t, int32_t)>(&::Unity::Burst::Intrinsics::X86_F16C::FloatToHalf)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x6498e80;
+  constexpr static std::size_t addrs = 0x6496c1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8673,7 +8673,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_F16C::cvtps_ph)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6499058;
+  constexpr static std::size_t addrs = 0x6496df4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_F16C*>(),
@@ -8686,7 +8686,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v256, int32_t)>(&::Unity::Burst::Intrinsics::X86_F16C::mm256_cvtps_ph)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6499124;
+  constexpr static std::size_t addrs = 0x6496ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8773,7 +8773,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Unity::Burst::Intrinsics::X86_Fma::get_IsFmaSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6499358;
+  constexpr static std::size_t addrs = 0x64970f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Fma*>(), { "get_IsFmaSupported", {}, {} })));
@@ -8785,7 +8785,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::Unity::Burst::Intrinsics::X86_Fma::FmaHelper)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6499360;
+  constexpr static std::size_t addrs = 0x64970fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Fma*>(),
@@ -8798,7 +8798,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::Unity::Burst::Intrinsics::X86_Fma::FnmaHelper)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x649937c;
+  constexpr static std::size_t addrs = 0x6497118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Fma*>(),
@@ -8812,7 +8812,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Fma::fmadd_pd)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6499398;
+  constexpr static std::size_t addrs = 0x6497134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8829,7 +8829,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Fma::mm256_fmadd_pd)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x64993e4;
+  constexpr static std::size_t addrs = 0x6497180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8846,7 +8846,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Fma::fmadd_ps)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6499430;
+  constexpr static std::size_t addrs = 0x64971cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8863,7 +8863,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Fma::mm256_fmadd_ps)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x64994a8;
+  constexpr static std::size_t addrs = 0x6497244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8880,7 +8880,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Fma::fmadd_sd)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x649951c;
+  constexpr static std::size_t addrs = 0x64972b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8897,7 +8897,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Fma::fmadd_ss)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6499568;
+  constexpr static std::size_t addrs = 0x6497304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8914,7 +8914,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Fma::fmaddsub_pd)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x649959c;
+  constexpr static std::size_t addrs = 0x6497338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8931,7 +8931,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Fma::mm256_fmaddsub_pd)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x64995e8;
+  constexpr static std::size_t addrs = 0x6497384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8949,7 +8949,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Fma::fmaddsub_ps)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6499634;
+  constexpr static std::size_t addrs = 0x64973d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8966,7 +8966,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Fma::mm256_fmaddsub_ps)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x64996ac;
+  constexpr static std::size_t addrs = 0x6497448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8984,7 +8984,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Fma::fmsub_pd)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x649975c;
+  constexpr static std::size_t addrs = 0x64974f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9001,7 +9001,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Fma::mm256_fmsub_pd)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x64997a8;
+  constexpr static std::size_t addrs = 0x6497544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9018,7 +9018,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Fma::fmsub_ps)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x64997f4;
+  constexpr static std::size_t addrs = 0x6497590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9035,7 +9035,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Fma::mm256_fmsub_ps)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x649986c;
+  constexpr static std::size_t addrs = 0x6497608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9052,7 +9052,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Fma::fmsub_sd)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x64998e0;
+  constexpr static std::size_t addrs = 0x649767c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9069,7 +9069,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Fma::fmsub_ss)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x649992c;
+  constexpr static std::size_t addrs = 0x64976c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9086,7 +9086,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Fma::fmsubadd_pd)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6499960;
+  constexpr static std::size_t addrs = 0x64976fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9103,7 +9103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Fma::mm256_fmsubadd_pd)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x64999ac;
+  constexpr static std::size_t addrs = 0x6497748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9121,7 +9121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Fma::fmsubadd_ps)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x64999f8;
+  constexpr static std::size_t addrs = 0x6497794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9138,7 +9138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Fma::mm256_fmsubadd_ps)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6499a70;
+  constexpr static std::size_t addrs = 0x649780c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9156,7 +9156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Fma::fnmadd_pd)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6499b18;
+  constexpr static std::size_t addrs = 0x64978b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9173,7 +9173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Fma::mm256_fnmadd_pd)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6499b64;
+  constexpr static std::size_t addrs = 0x6497900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9191,7 +9191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Fma::fnmadd_ps)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6499bb0;
+  constexpr static std::size_t addrs = 0x649794c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9208,7 +9208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Fma::mm256_fnmadd_ps)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6499c28;
+  constexpr static std::size_t addrs = 0x64979c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9226,7 +9226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Fma::fnmadd_sd)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6499c9c;
+  constexpr static std::size_t addrs = 0x6497a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9243,7 +9243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Fma::fnmadd_ss)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6499ce8;
+  constexpr static std::size_t addrs = 0x6497a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9260,7 +9260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Fma::fnmsub_pd)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6499d1c;
+  constexpr static std::size_t addrs = 0x6497ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9277,7 +9277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Fma::mm256_fnmsub_pd)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6499d68;
+  constexpr static std::size_t addrs = 0x6497b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9295,7 +9295,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Fma::fnmsub_ps)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6499db4;
+  constexpr static std::size_t addrs = 0x6497b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9312,7 +9312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v256 (*)(::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256, ::Unity::Burst::Intrinsics::v256)>(
     &::Unity::Burst::Intrinsics::X86_Fma::mm256_fnmsub_ps)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6499e34;
+  constexpr static std::size_t addrs = 0x6497bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9330,7 +9330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Fma::fnmsub_sd)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6499eb0;
+  constexpr static std::size_t addrs = 0x6497c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9347,7 +9347,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Fma::fnmsub_ss)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6499efc;
+  constexpr static std::size_t addrs = 0x6497c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9643,7 +9643,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Unity::Burst::Intrinsics::X86_Popcnt::get_IsPopcntSupported)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6499f34;
+  constexpr static std::size_t addrs = 0x6497cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Popcnt*>(), { "get_IsPopcntSupported", {}, {} })));
@@ -9655,7 +9655,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint32_t)>(&::Unity::Burst::Intrinsics::X86_Popcnt::popcnt_u32)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6499f88;
+  constexpr static std::size_t addrs = 0x6497d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -9668,7 +9668,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint64_t)>(&::Unity::Burst::Intrinsics::X86_Popcnt::popcnt_u64)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6499fb0;
+  constexpr static std::size_t addrs = 0x6497d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -9697,7 +9697,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Unity::Burst::Intrinsics::X86_Sse::get_IsSseSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64900fc;
+  constexpr static std::size_t addrs = 0x648de98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse*>(), { "get_IsSseSupported", {}, {} })));
@@ -9709,7 +9709,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Sse::load_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6499fd8;
+  constexpr static std::size_t addrs = 0x6497d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse*>(), { "load_ps", {}, { ::i2c::type_of<void*>() } })));
@@ -9721,7 +9721,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Sse::loadu_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64924cc;
+  constexpr static std::size_t addrs = 0x6490268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse*>(), { "loadu_ps", {}, { ::i2c::type_of<void*>() } })));
@@ -9733,7 +9733,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::store_ps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6499fe4;
+  constexpr static std::size_t addrs = 0x6497d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse*>(),
@@ -9746,7 +9746,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::storeu_ps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649264c;
+  constexpr static std::size_t addrs = 0x64903e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse*>(),
@@ -9759,7 +9759,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::stream_ps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6499fec;
+  constexpr static std::size_t addrs = 0x6497d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse*>(),
@@ -9772,7 +9772,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse::cvtsi32_ss)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6499ff4;
+  constexpr static std::size_t addrs = 0x6497d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse*>(),
@@ -9785,7 +9785,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int64_t)>(&::Unity::Burst::Intrinsics::X86_Sse::cvtsi64_ss)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649a008;
+  constexpr static std::size_t addrs = 0x6497da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse*>(),
@@ -9799,7 +9799,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::add_ss)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x649a01c;
+  constexpr static std::size_t addrs = 0x6497db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -9814,7 +9814,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::add_ps)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6490188;
+  constexpr static std::size_t addrs = 0x648df24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -9829,7 +9829,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::sub_ss)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x649a038;
+  constexpr static std::size_t addrs = 0x6497dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -9844,7 +9844,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::sub_ps)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6490cb4;
+  constexpr static std::size_t addrs = 0x648ea50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -9859,7 +9859,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::mul_ss)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x649a054;
+  constexpr static std::size_t addrs = 0x6497df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -9874,7 +9874,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::mul_ps)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6490a64;
+  constexpr static std::size_t addrs = 0x648e800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -9889,7 +9889,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::div_ss)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x649a070;
+  constexpr static std::size_t addrs = 0x6497e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -9904,7 +9904,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::div_ps)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x64904e0;
+  constexpr static std::size_t addrs = 0x648e27c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -9918,7 +9918,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::sqrt_ss)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x649a08c;
+  constexpr static std::size_t addrs = 0x6497e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -9931,7 +9931,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::sqrt_ps)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6492b34;
+  constexpr static std::size_t addrs = 0x64908d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -9944,7 +9944,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::rcp_ss)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x649a104;
+  constexpr static std::size_t addrs = 0x6497ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -9957,7 +9957,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::rcp_ps)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6492994;
+  constexpr static std::size_t addrs = 0x6490730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -9970,7 +9970,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::rsqrt_ss)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x649a120;
+  constexpr static std::size_t addrs = 0x6497ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -9983,7 +9983,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::rsqrt_ps)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6492a0c;
+  constexpr static std::size_t addrs = 0x64907a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -9997,7 +9997,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::min_ss)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x649a1a0;
+  constexpr static std::size_t addrs = 0x6497f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10012,7 +10012,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::min_ps)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6490920;
+  constexpr static std::size_t addrs = 0x648e6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10027,7 +10027,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::max_ss)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x649a230;
+  constexpr static std::size_t addrs = 0x6497fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10042,7 +10042,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::max_ps)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6490794;
+  constexpr static std::size_t addrs = 0x648e530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10057,7 +10057,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::and_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6490278;
+  constexpr static std::size_t addrs = 0x648e014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10072,7 +10072,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::andnot_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64902b4;
+  constexpr static std::size_t addrs = 0x648e050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10087,7 +10087,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::or_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6490ad4;
+  constexpr static std::size_t addrs = 0x648e870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10102,7 +10102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::xor_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6490d24;
+  constexpr static std::size_t addrs = 0x648eac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10117,7 +10117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmpeq_ss)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x649a2c0;
+  constexpr static std::size_t addrs = 0x649805c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10132,7 +10132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmpeq_ps)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6491800;
+  constexpr static std::size_t addrs = 0x648f59c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10147,7 +10147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmplt_ss)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x649a2e0;
+  constexpr static std::size_t addrs = 0x649807c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10162,7 +10162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmplt_ps)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6491848;
+  constexpr static std::size_t addrs = 0x648f5e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10177,7 +10177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmple_ss)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x649a300;
+  constexpr static std::size_t addrs = 0x649809c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10192,7 +10192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmple_ps)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6491890;
+  constexpr static std::size_t addrs = 0x648f62c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10207,7 +10207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmpgt_ss)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649a320;
+  constexpr static std::size_t addrs = 0x64980bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10222,7 +10222,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmpgt_ps)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6491be0;
+  constexpr static std::size_t addrs = 0x648f97c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10237,7 +10237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmpge_ss)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649a344;
+  constexpr static std::size_t addrs = 0x64980e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10252,7 +10252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmpge_ps)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6491b98;
+  constexpr static std::size_t addrs = 0x648f934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10267,7 +10267,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmpneq_ss)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x649a368;
+  constexpr static std::size_t addrs = 0x6498104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10282,7 +10282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmpneq_ps)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6491944;
+  constexpr static std::size_t addrs = 0x648f6e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10297,7 +10297,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmpnlt_ss)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x649a388;
+  constexpr static std::size_t addrs = 0x6498124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10312,7 +10312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmpnlt_ps)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6491994;
+  constexpr static std::size_t addrs = 0x648f730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10327,7 +10327,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmpnle_ss)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x649a3a8;
+  constexpr static std::size_t addrs = 0x6498144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10342,7 +10342,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmpnle_ps)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x64919f8;
+  constexpr static std::size_t addrs = 0x648f794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10357,7 +10357,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmpngt_ss)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649a3c8;
+  constexpr static std::size_t addrs = 0x6498164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10372,7 +10372,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmpngt_ps)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6491b34;
+  constexpr static std::size_t addrs = 0x648f8d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10387,7 +10387,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmpnge_ss)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649a3ec;
+  constexpr static std::size_t addrs = 0x6498188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10402,7 +10402,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmpnge_ps)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6491ad0;
+  constexpr static std::size_t addrs = 0x648f86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10417,7 +10417,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmpord_ss)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x649a410;
+  constexpr static std::size_t addrs = 0x64981ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10432,7 +10432,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmpord_ps)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6491a5c;
+  constexpr static std::size_t addrs = 0x648f7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10447,7 +10447,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmpunord_ss)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x649a444;
+  constexpr static std::size_t addrs = 0x64981e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10462,7 +10462,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::cmpunord_ps)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x64918d8;
+  constexpr static std::size_t addrs = 0x648f674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10476,7 +10476,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::comieq_ss)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649a46c;
+  constexpr static std::size_t addrs = 0x6498208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10490,7 +10490,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::comilt_ss)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649a480;
+  constexpr static std::size_t addrs = 0x649821c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10504,7 +10504,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::comile_ss)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649a494;
+  constexpr static std::size_t addrs = 0x6498230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10518,7 +10518,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::comigt_ss)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649a4a8;
+  constexpr static std::size_t addrs = 0x6498244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10532,7 +10532,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::comige_ss)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649a4bc;
+  constexpr static std::size_t addrs = 0x6498258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10546,7 +10546,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::comineq_ss)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649a4d0;
+  constexpr static std::size_t addrs = 0x649826c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10560,7 +10560,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::ucomieq_ss)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649a4e4;
+  constexpr static std::size_t addrs = 0x6498280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10574,7 +10574,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::ucomilt_ss)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649a4f8;
+  constexpr static std::size_t addrs = 0x6498294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10588,7 +10588,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::ucomile_ss)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649a50c;
+  constexpr static std::size_t addrs = 0x64982a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10602,7 +10602,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::ucomigt_ss)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649a520;
+  constexpr static std::size_t addrs = 0x64982bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10616,7 +10616,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::ucomige_ss)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649a534;
+  constexpr static std::size_t addrs = 0x64982d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10630,7 +10630,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::ucomineq_ss)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649a548;
+  constexpr static std::size_t addrs = 0x64982e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10644,7 +10644,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::cvtss_si32)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x649a55c;
+  constexpr static std::size_t addrs = 0x64982f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10657,7 +10657,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::cvt_ss2si)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x649a560;
+  constexpr static std::size_t addrs = 0x64982fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10670,7 +10670,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::cvtss_si64)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x649a624;
+  constexpr static std::size_t addrs = 0x64983c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10683,7 +10683,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::cvtss_f32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649a6e8;
+  constexpr static std::size_t addrs = 0x6498484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10696,7 +10696,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::cvttss_si32)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x649a6f0;
+  constexpr static std::size_t addrs = 0x649848c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10709,7 +10709,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::cvtt_ss2si)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x649a710;
+  constexpr static std::size_t addrs = 0x64984ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10722,7 +10722,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::cvttss_si64)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x649a730;
+  constexpr static std::size_t addrs = 0x64984cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10735,7 +10735,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(float_t)>(&::Unity::Burst::Intrinsics::X86_Sse::set_ss)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649a750;
+  constexpr static std::size_t addrs = 0x64984ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse*>(), { "set_ss", {}, { ::i2c::type_of<float_t>() } })));
@@ -10747,7 +10747,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(float_t)>(&::Unity::Burst::Intrinsics::X86_Sse::set1_ps)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x649a75c;
+  constexpr static std::size_t addrs = 0x64984f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse*>(), { "set1_ps", {}, { ::i2c::type_of<float_t>() } })));
@@ -10759,7 +10759,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(float_t)>(&::Unity::Burst::Intrinsics::X86_Sse::set_ps1)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x649a76c;
+  constexpr static std::size_t addrs = 0x6498508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse*>(), { "set_ps1", {}, { ::i2c::type_of<float_t>() } })));
@@ -10771,7 +10771,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(float_t, float_t, float_t, float_t)>(&::Unity::Burst::Intrinsics::X86_Sse::set_ps)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x649a77c;
+  constexpr static std::size_t addrs = 0x6498518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10785,7 +10785,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(float_t, float_t, float_t, float_t)>(&::Unity::Burst::Intrinsics::X86_Sse::setr_ps)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x649a798;
+  constexpr static std::size_t addrs = 0x6498534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10800,7 +10800,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::move_ss)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649a7b4;
+  constexpr static std::size_t addrs = 0x6498550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10814,7 +10814,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse::SHUFFLE)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649a7bc;
+  constexpr static std::size_t addrs = 0x6498558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10829,7 +10829,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse::shuffle_ps)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6490bd0;
+  constexpr static std::size_t addrs = 0x648e96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10845,7 +10845,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::unpackhi_ps)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6492e8c;
+  constexpr static std::size_t addrs = 0x6490c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10860,7 +10860,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::unpacklo_ps)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6492ed4;
+  constexpr static std::size_t addrs = 0x6490c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10875,7 +10875,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::movehl_ps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649a7d0;
+  constexpr static std::size_t addrs = 0x649856c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10890,7 +10890,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse::movelh_ps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649a7d8;
+  constexpr static std::size_t addrs = 0x6498574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10904,7 +10904,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::movemask_ps)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x64935a8;
+  constexpr static std::size_t addrs = 0x6491344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10918,7 +10918,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Burst::Intrinsics::v128>, ::by_ref<::Unity::Burst::Intrinsics::v128>, ::by_ref<::Unity::Burst::Intrinsics::v128>,
                                                                 ::by_ref<::Unity::Burst::Intrinsics::v128>)>(&::Unity::Burst::Intrinsics::X86_Sse::TRANSPOSE4_PS)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x649a7e0;
+  constexpr static std::size_t addrs = 0x649857c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10935,7 +10935,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)()>(&::Unity::Burst::Intrinsics::X86_Sse::setzero_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6493a00;
+  constexpr static std::size_t addrs = 0x649179c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse*>(), { "setzero_ps", {}, {} })));
@@ -10947,7 +10947,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Sse::loadu_si16)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649a8fc;
+  constexpr static std::size_t addrs = 0x6498698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10960,7 +10960,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::storeu_si16)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649a908;
+  constexpr static std::size_t addrs = 0x64986a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse*>(),
@@ -10973,7 +10973,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Sse::loadu_si64)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649a910;
+  constexpr static std::size_t addrs = 0x64986ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -10986,7 +10986,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse::storeu_si64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649a91c;
+  constexpr static std::size_t addrs = 0x64986b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse*>(),
@@ -11522,7 +11522,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Unity::Burst::Intrinsics::X86_Sse2::get_IsSse2Supported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649a924;
+  constexpr static std::size_t addrs = 0x64986c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(), { "get_IsSse2Supported", {}, {} })));
@@ -11534,7 +11534,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::SHUFFLE2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649a92c;
+  constexpr static std::size_t addrs = 0x64986c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11547,7 +11547,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t*, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::stream_si32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649a934;
+  constexpr static std::size_t addrs = 0x64986d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11560,7 +11560,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int64_t*, int64_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::stream_si64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649a93c;
+  constexpr static std::size_t addrs = 0x64986d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11573,7 +11573,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::stream_pd)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649a944;
+  constexpr static std::size_t addrs = 0x64986e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(),
@@ -11586,7 +11586,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::stream_si128)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649a94c;
+  constexpr static std::size_t addrs = 0x64986e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(),
@@ -11600,7 +11600,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::add_epi8)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x649a954;
+  constexpr static std::size_t addrs = 0x64986f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11615,7 +11615,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::add_epi16)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x649a9c4;
+  constexpr static std::size_t addrs = 0x6498760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11630,7 +11630,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::add_epi32)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x649aa34;
+  constexpr static std::size_t addrs = 0x64987d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11645,7 +11645,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::add_epi64)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649aa60;
+  constexpr static std::size_t addrs = 0x64987fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11660,7 +11660,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::adds_epi8)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x649aa6c;
+  constexpr static std::size_t addrs = 0x6498808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11675,7 +11675,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::adds_epi16)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x649aaf4;
+  constexpr static std::size_t addrs = 0x6498890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11690,7 +11690,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::adds_epu8)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x649ab80;
+  constexpr static std::size_t addrs = 0x649891c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11705,7 +11705,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::adds_epu16)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x649abf8;
+  constexpr static std::size_t addrs = 0x6498994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11720,7 +11720,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::avg_epu8)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x649ac70;
+  constexpr static std::size_t addrs = 0x6498a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11735,7 +11735,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::avg_epu16)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x649ace8;
+  constexpr static std::size_t addrs = 0x6498a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11750,7 +11750,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::madd_epi16)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x649ad60;
+  constexpr static std::size_t addrs = 0x6498afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11765,7 +11765,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::max_epi16)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x649ade4;
+  constexpr static std::size_t addrs = 0x6498b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11780,7 +11780,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::max_epu8)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x649aec0;
+  constexpr static std::size_t addrs = 0x6498c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11795,7 +11795,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::min_epi16)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x649af90;
+  constexpr static std::size_t addrs = 0x6498d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11810,7 +11810,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::min_epu8)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x649b06c;
+  constexpr static std::size_t addrs = 0x6498e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11825,7 +11825,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::mulhi_epi16)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x649b13c;
+  constexpr static std::size_t addrs = 0x6498ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11840,7 +11840,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::mulhi_epu16)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x649b1b0;
+  constexpr static std::size_t addrs = 0x6498f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11855,7 +11855,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::mullo_epi16)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x649b224;
+  constexpr static std::size_t addrs = 0x6498fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11870,7 +11870,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::mul_epu32)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649b294;
+  constexpr static std::size_t addrs = 0x6499030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11885,7 +11885,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::sad_epu8)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x649b2a0;
+  constexpr static std::size_t addrs = 0x649903c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11900,7 +11900,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::sub_epi8)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x649b3f4;
+  constexpr static std::size_t addrs = 0x6499190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11915,7 +11915,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::sub_epi16)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x649b464;
+  constexpr static std::size_t addrs = 0x6499200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11930,7 +11930,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::sub_epi32)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x649b4d4;
+  constexpr static std::size_t addrs = 0x6499270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11945,7 +11945,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::sub_epi64)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x649b544;
+  constexpr static std::size_t addrs = 0x64992e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11960,7 +11960,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::subs_epi8)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x649b588;
+  constexpr static std::size_t addrs = 0x6499324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11975,7 +11975,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::subs_epi16)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x649b610;
+  constexpr static std::size_t addrs = 0x64993ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -11990,7 +11990,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::subs_epu8)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x649b69c;
+  constexpr static std::size_t addrs = 0x6499438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12005,7 +12005,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::subs_epu16)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x649b710;
+  constexpr static std::size_t addrs = 0x64994ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12019,7 +12019,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::slli_si128)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x649b784;
+  constexpr static std::size_t addrs = 0x6499520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(),
@@ -12032,7 +12032,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::bslli_si128)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x649ba34;
+  constexpr static std::size_t addrs = 0x64997d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(),
@@ -12045,7 +12045,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::bsrli_si128)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x649ba38;
+  constexpr static std::size_t addrs = 0x64997d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(),
@@ -12058,7 +12058,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::slli_epi16)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x649bb24;
+  constexpr static std::size_t addrs = 0x64998c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(),
@@ -12072,7 +12072,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::sll_epi16)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x649bb9c;
+  constexpr static std::size_t addrs = 0x6499938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12086,7 +12086,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::slli_epi32)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x649bc6c;
+  constexpr static std::size_t addrs = 0x6499a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(),
@@ -12100,7 +12100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::sll_epi32)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x649bd44;
+  constexpr static std::size_t addrs = 0x6499ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12114,7 +12114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::slli_epi64)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x649be18;
+  constexpr static std::size_t addrs = 0x6499bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(),
@@ -12128,7 +12128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::sll_epi64)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x649bef8;
+  constexpr static std::size_t addrs = 0x6499c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12142,7 +12142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::srai_epi16)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x649bfd4;
+  constexpr static std::size_t addrs = 0x6499d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(),
@@ -12156,7 +12156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::sra_epi16)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x649c0b8;
+  constexpr static std::size_t addrs = 0x6499e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12170,7 +12170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::srai_epi32)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x649c198;
+  constexpr static std::size_t addrs = 0x6499f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(),
@@ -12184,7 +12184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::sra_epi32)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x649c27c;
+  constexpr static std::size_t addrs = 0x649a018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12198,7 +12198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::srli_si128)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x649c35c;
+  constexpr static std::size_t addrs = 0x649a0f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(),
@@ -12211,7 +12211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::srli_epi16)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x649c360;
+  constexpr static std::size_t addrs = 0x649a0fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(),
@@ -12225,7 +12225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::srl_epi16)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x649c444;
+  constexpr static std::size_t addrs = 0x649a1e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12239,7 +12239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::srli_epi32)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x649c524;
+  constexpr static std::size_t addrs = 0x649a2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(),
@@ -12253,7 +12253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::srl_epi32)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x649c608;
+  constexpr static std::size_t addrs = 0x649a3a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12267,7 +12267,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::srli_epi64)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x649c6e8;
+  constexpr static std::size_t addrs = 0x649a484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(),
@@ -12281,7 +12281,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::srl_epi64)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x649c7b8;
+  constexpr static std::size_t addrs = 0x649a554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12296,7 +12296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::and_si128)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649c884;
+  constexpr static std::size_t addrs = 0x649a620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12311,7 +12311,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::andnot_si128)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649c890;
+  constexpr static std::size_t addrs = 0x649a62c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12326,7 +12326,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::or_si128)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649c89c;
+  constexpr static std::size_t addrs = 0x649a638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12341,7 +12341,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::xor_si128)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649c8a8;
+  constexpr static std::size_t addrs = 0x649a644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12356,7 +12356,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpeq_epi8)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x649c8b4;
+  constexpr static std::size_t addrs = 0x649a650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12371,7 +12371,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpeq_epi16)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x649c928;
+  constexpr static std::size_t addrs = 0x649a6c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12386,7 +12386,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpeq_epi32)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x649c99c;
+  constexpr static std::size_t addrs = 0x649a738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12401,7 +12401,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpgt_epi8)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x649ca10;
+  constexpr static std::size_t addrs = 0x649a7ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12416,7 +12416,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpgt_epi16)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x649ca84;
+  constexpr static std::size_t addrs = 0x649a820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12431,7 +12431,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpgt_epi32)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x649caf8;
+  constexpr static std::size_t addrs = 0x649a894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12446,7 +12446,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmplt_epi8)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x649cb6c;
+  constexpr static std::size_t addrs = 0x649a908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12461,7 +12461,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmplt_epi16)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x649cb88;
+  constexpr static std::size_t addrs = 0x649a924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12476,7 +12476,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmplt_epi32)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x649cba4;
+  constexpr static std::size_t addrs = 0x649a940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12490,7 +12490,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvtepi32_pd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x649cbc0;
+  constexpr static std::size_t addrs = 0x649a95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12503,7 +12503,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvtsi32_sd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649cbd8;
+  constexpr static std::size_t addrs = 0x649a974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(),
@@ -12516,7 +12516,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int64_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvtsi64_sd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649cbe4;
+  constexpr static std::size_t addrs = 0x649a980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(),
@@ -12529,7 +12529,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int64_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvtsi64x_sd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649cbf0;
+  constexpr static std::size_t addrs = 0x649a98c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(),
@@ -12542,7 +12542,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvtepi32_ps)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x649cbfc;
+  constexpr static std::size_t addrs = 0x649a998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12555,7 +12555,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvtsi32_si128)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649cc2c;
+  constexpr static std::size_t addrs = 0x649a9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12568,7 +12568,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(int64_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvtsi64_si128)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649cc38;
+  constexpr static std::size_t addrs = 0x649a9d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12581,7 +12581,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(int64_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvtsi64x_si128)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649cc40;
+  constexpr static std::size_t addrs = 0x649a9dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12594,7 +12594,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvtsi128_si32)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x649cc48;
+  constexpr static std::size_t addrs = 0x649a9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12607,7 +12607,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvtsi128_si64)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x649cc4c;
+  constexpr static std::size_t addrs = 0x649a9e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12620,7 +12620,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvtsi128_si64x)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x649cc50;
+  constexpr static std::size_t addrs = 0x649a9ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12633,7 +12633,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(int64_t, int64_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::set_epi64x)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x649cc54;
+  constexpr static std::size_t addrs = 0x649a9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12646,7 +12646,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(int32_t, int32_t, int32_t, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::set_epi32)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649cc64;
+  constexpr static std::size_t addrs = 0x649aa00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12661,7 +12661,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::set_epi16)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x649cc78;
+  constexpr static std::size_t addrs = 0x649aa14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12679,7 +12679,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(int8_t, int8_t, int8_t, int8_t, int8_t, int8_t, int8_t, int8_t, int8_t, int8_t, int8_t, int8_t, int8_t,
                                                                                             int8_t, int8_t, int8_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::set_epi8)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x649cca8;
+  constexpr static std::size_t addrs = 0x649aa44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12698,7 +12698,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(int64_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::set1_epi64x)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649cd1c;
+  constexpr static std::size_t addrs = 0x649aab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12711,7 +12711,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::set1_epi32)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x649cd24;
+  constexpr static std::size_t addrs = 0x649aac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12724,7 +12724,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(int16_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::set1_epi16)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x649cd34;
+  constexpr static std::size_t addrs = 0x649aad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12737,7 +12737,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(int8_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::set1_epi8)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x649cd88;
+  constexpr static std::size_t addrs = 0x649ab24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12750,7 +12750,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(int32_t, int32_t, int32_t, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::setr_epi32)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x649cddc;
+  constexpr static std::size_t addrs = 0x649ab78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12765,7 +12765,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t, int16_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::setr_epi16)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x649cdf4;
+  constexpr static std::size_t addrs = 0x649ab90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12783,7 +12783,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(int8_t, int8_t, int8_t, int8_t, int8_t, int8_t, int8_t, int8_t, int8_t, int8_t, int8_t, int8_t, int8_t,
                                                                                             int8_t, int8_t, int8_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::setr_epi8)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x649ce24;
+  constexpr static std::size_t addrs = 0x649abc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12802,7 +12802,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)()>(&::Unity::Burst::Intrinsics::X86_Sse2::setzero_si128)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649ce98;
+  constexpr static std::size_t addrs = 0x649ac34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(), { "setzero_si128", {}, {} })));
@@ -12814,7 +12814,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::move_epi64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649cea4;
+  constexpr static std::size_t addrs = 0x649ac40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12828,7 +12828,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::packs_epi16)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x649ceac;
+  constexpr static std::size_t addrs = 0x649ac48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12843,7 +12843,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::packs_epi32)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x649cf64;
+  constexpr static std::size_t addrs = 0x649ad00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12858,7 +12858,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::packus_epi16)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x649d024;
+  constexpr static std::size_t addrs = 0x649adc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12872,7 +12872,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::extract_epi16)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x649d0c4;
+  constexpr static std::size_t addrs = 0x649ae60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12886,7 +12886,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::insert_epi16)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x649d108;
+  constexpr static std::size_t addrs = 0x649aea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12900,7 +12900,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::movemask_epi8)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x649d150;
+  constexpr static std::size_t addrs = 0x649aeec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12913,7 +12913,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::shuffle_epi32)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x649d1b8;
+  constexpr static std::size_t addrs = 0x649af54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12927,7 +12927,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::shufflehi_epi16)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x649d234;
+  constexpr static std::size_t addrs = 0x649afd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12941,7 +12941,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::shufflelo_epi16)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x649d2c8;
+  constexpr static std::size_t addrs = 0x649b064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12956,7 +12956,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::unpackhi_epi8)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x649d35c;
+  constexpr static std::size_t addrs = 0x649b0f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12971,7 +12971,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::unpackhi_epi16)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x649d3d8;
+  constexpr static std::size_t addrs = 0x649b174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -12986,7 +12986,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::unpackhi_epi32)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649d454;
+  constexpr static std::size_t addrs = 0x649b1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13001,7 +13001,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::unpackhi_epi64)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649d468;
+  constexpr static std::size_t addrs = 0x649b204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13016,7 +13016,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::unpacklo_epi8)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x649d474;
+  constexpr static std::size_t addrs = 0x649b210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13031,7 +13031,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::unpacklo_epi16)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x649d4e8;
+  constexpr static std::size_t addrs = 0x649b284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13046,7 +13046,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::unpacklo_epi32)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x649d55c;
+  constexpr static std::size_t addrs = 0x649b2f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13061,7 +13061,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::unpacklo_epi64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649d56c;
+  constexpr static std::size_t addrs = 0x649b308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13076,7 +13076,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::add_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649d574;
+  constexpr static std::size_t addrs = 0x649b310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13091,7 +13091,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::add_pd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649d588;
+  constexpr static std::size_t addrs = 0x649b324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13106,7 +13106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::div_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649d5ac;
+  constexpr static std::size_t addrs = 0x649b348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13121,7 +13121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::div_pd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649d5c0;
+  constexpr static std::size_t addrs = 0x649b35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13136,7 +13136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::max_sd)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x649d5e4;
+  constexpr static std::size_t addrs = 0x649b380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13151,7 +13151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::max_pd)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x649d66c;
+  constexpr static std::size_t addrs = 0x649b408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13166,7 +13166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::min_sd)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x649d710;
+  constexpr static std::size_t addrs = 0x649b4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13181,7 +13181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::min_pd)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x649d798;
+  constexpr static std::size_t addrs = 0x649b534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13196,7 +13196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::mul_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649d83c;
+  constexpr static std::size_t addrs = 0x649b5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13211,7 +13211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::mul_pd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649d850;
+  constexpr static std::size_t addrs = 0x649b5ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13226,7 +13226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::sqrt_sd)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x649d874;
+  constexpr static std::size_t addrs = 0x649b610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13240,7 +13240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::sqrt_pd)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x649d8e4;
+  constexpr static std::size_t addrs = 0x649b680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13254,7 +13254,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::sub_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649d95c;
+  constexpr static std::size_t addrs = 0x649b6f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13269,7 +13269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::sub_pd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649d970;
+  constexpr static std::size_t addrs = 0x649b70c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13284,7 +13284,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::and_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649d994;
+  constexpr static std::size_t addrs = 0x649b730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13299,7 +13299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::andnot_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649d9a0;
+  constexpr static std::size_t addrs = 0x649b73c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13314,7 +13314,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::or_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649d9ac;
+  constexpr static std::size_t addrs = 0x649b748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13329,7 +13329,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::xor_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649d9b8;
+  constexpr static std::size_t addrs = 0x649b754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13344,7 +13344,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpeq_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649d9c4;
+  constexpr static std::size_t addrs = 0x649b760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13359,7 +13359,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmplt_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649d9d8;
+  constexpr static std::size_t addrs = 0x649b774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13374,7 +13374,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmple_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649d9ec;
+  constexpr static std::size_t addrs = 0x649b788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13389,7 +13389,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpgt_sd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x649da00;
+  constexpr static std::size_t addrs = 0x649b79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13404,7 +13404,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpge_sd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x649da18;
+  constexpr static std::size_t addrs = 0x649b7b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13419,7 +13419,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpord_sd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649da30;
+  constexpr static std::size_t addrs = 0x649b7cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13434,7 +13434,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpunord_sd)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x649da54;
+  constexpr static std::size_t addrs = 0x649b7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13449,7 +13449,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpneq_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649da74;
+  constexpr static std::size_t addrs = 0x649b810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13464,7 +13464,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpnlt_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649da88;
+  constexpr static std::size_t addrs = 0x649b824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13479,7 +13479,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpnle_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649da9c;
+  constexpr static std::size_t addrs = 0x649b838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13494,7 +13494,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpngt_sd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x649dab0;
+  constexpr static std::size_t addrs = 0x649b84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13509,7 +13509,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpnge_sd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x649dac8;
+  constexpr static std::size_t addrs = 0x649b864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13524,7 +13524,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpeq_pd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649dae0;
+  constexpr static std::size_t addrs = 0x649b87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13539,7 +13539,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmplt_pd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649db04;
+  constexpr static std::size_t addrs = 0x649b8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13554,7 +13554,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmple_pd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649db28;
+  constexpr static std::size_t addrs = 0x649b8c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13569,7 +13569,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpgt_pd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649db4c;
+  constexpr static std::size_t addrs = 0x649b8e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13584,7 +13584,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpge_pd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649db70;
+  constexpr static std::size_t addrs = 0x649b90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13599,7 +13599,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpord_pd)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x649db94;
+  constexpr static std::size_t addrs = 0x649b930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13614,7 +13614,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpunord_pd)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x649dbd0;
+  constexpr static std::size_t addrs = 0x649b96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13629,7 +13629,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpneq_pd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649dc08;
+  constexpr static std::size_t addrs = 0x649b9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13644,7 +13644,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpnlt_pd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649dc2c;
+  constexpr static std::size_t addrs = 0x649b9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13659,7 +13659,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpnle_pd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649dc50;
+  constexpr static std::size_t addrs = 0x649b9ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13674,7 +13674,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpngt_pd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649dc74;
+  constexpr static std::size_t addrs = 0x649ba10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13689,7 +13689,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cmpnge_pd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649dc98;
+  constexpr static std::size_t addrs = 0x649ba34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13703,7 +13703,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::comieq_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649dcbc;
+  constexpr static std::size_t addrs = 0x649ba58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13717,7 +13717,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::comilt_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649dcd0;
+  constexpr static std::size_t addrs = 0x649ba6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13731,7 +13731,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::comile_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649dce4;
+  constexpr static std::size_t addrs = 0x649ba80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13745,7 +13745,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::comigt_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649dcf8;
+  constexpr static std::size_t addrs = 0x649ba94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13759,7 +13759,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::comige_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649dd0c;
+  constexpr static std::size_t addrs = 0x649baa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13773,7 +13773,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::comineq_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649dd20;
+  constexpr static std::size_t addrs = 0x649babc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13787,7 +13787,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::ucomieq_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649dd34;
+  constexpr static std::size_t addrs = 0x649bad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13801,7 +13801,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::ucomilt_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649dd48;
+  constexpr static std::size_t addrs = 0x649bae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13815,7 +13815,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::ucomile_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649dd5c;
+  constexpr static std::size_t addrs = 0x649baf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13829,7 +13829,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::ucomigt_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649dd70;
+  constexpr static std::size_t addrs = 0x649bb0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13843,7 +13843,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::ucomige_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649dd84;
+  constexpr static std::size_t addrs = 0x649bb20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13857,7 +13857,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::ucomineq_sd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649dd98;
+  constexpr static std::size_t addrs = 0x649bb34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13871,7 +13871,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvtpd_ps)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649ddac;
+  constexpr static std::size_t addrs = 0x649bb48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13884,7 +13884,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvtps_pd)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x649ddd0;
+  constexpr static std::size_t addrs = 0x649bb6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13897,7 +13897,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvtpd_epi32)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x649ddf0;
+  constexpr static std::size_t addrs = 0x649bb8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13910,7 +13910,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvtsd_si32)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x649df64;
+  constexpr static std::size_t addrs = 0x649bd00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13923,7 +13923,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvtsd_si64)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x649e044;
+  constexpr static std::size_t addrs = 0x649bde0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13936,7 +13936,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvtsd_si64x)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x649e124;
+  constexpr static std::size_t addrs = 0x649bec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13950,7 +13950,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cvtsd_ss)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x649e128;
+  constexpr static std::size_t addrs = 0x649bec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13964,7 +13964,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvtsd_f64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649e140;
+  constexpr static std::size_t addrs = 0x649bedc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13978,7 +13978,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::cvtss_sd)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x649e148;
+  constexpr static std::size_t addrs = 0x649bee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -13992,7 +13992,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvttpd_epi32)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x649e164;
+  constexpr static std::size_t addrs = 0x649bf00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14005,7 +14005,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvttsd_si32)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x649e1a4;
+  constexpr static std::size_t addrs = 0x649bf40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -14018,7 +14018,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvttsd_si64)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x649e1c4;
+  constexpr static std::size_t addrs = 0x649bf60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -14031,7 +14031,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvttsd_si64x)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x649e1e4;
+  constexpr static std::size_t addrs = 0x649bf80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14044,7 +14044,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvtps_epi32)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x649e204;
+  constexpr static std::size_t addrs = 0x649bfa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -14057,7 +14057,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::cvttps_epi32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x649e49c;
+  constexpr static std::size_t addrs = 0x649c238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -14070,7 +14070,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(double_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::set_sd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649e4fc;
+  constexpr static std::size_t addrs = 0x649c298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -14083,7 +14083,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(double_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::set1_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649e508;
+  constexpr static std::size_t addrs = 0x649c2a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -14096,7 +14096,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(double_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::set_pd1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649e514;
+  constexpr static std::size_t addrs = 0x649c2b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -14109,7 +14109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(double_t, double_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::set_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649e520;
+  constexpr static std::size_t addrs = 0x649c2bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -14122,7 +14122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(double_t, double_t)>(&::Unity::Burst::Intrinsics::X86_Sse2::setr_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649e52c;
+  constexpr static std::size_t addrs = 0x649c2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -14136,7 +14136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::unpackhi_pd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649e538;
+  constexpr static std::size_t addrs = 0x649c2d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -14151,7 +14151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::unpacklo_pd)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649e544;
+  constexpr static std::size_t addrs = 0x649c2e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -14165,7 +14165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::movemask_pd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649e54c;
+  constexpr static std::size_t addrs = 0x649c2e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -14179,7 +14179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::shuffle_pd)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x649e560;
+  constexpr static std::size_t addrs = 0x649c2fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -14195,7 +14195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse2::move_sd)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649e5b8;
+  constexpr static std::size_t addrs = 0x649c354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -14209,7 +14209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Sse2::loadu_si32)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649e5c0;
+  constexpr static std::size_t addrs = 0x649c35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -14222,7 +14222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::storeu_si32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649e5cc;
+  constexpr static std::size_t addrs = 0x649c368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(),
@@ -14235,7 +14235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Sse2::load_si128)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649e5d4;
+  constexpr static std::size_t addrs = 0x649c370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -14248,7 +14248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Sse2::loadu_si128)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649e5e0;
+  constexpr static std::size_t addrs = 0x649c37c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -14261,7 +14261,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::store_si128)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649e5ec;
+  constexpr static std::size_t addrs = 0x649c388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(),
@@ -14274,7 +14274,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse2::storeu_si128)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649e5f4;
+  constexpr static std::size_t addrs = 0x649c390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(),
@@ -14287,7 +14287,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Sse2::clflush)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x649e5fc;
+  constexpr static std::size_t addrs = 0x649c398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse2*>(), { "clflush", {}, { ::i2c::type_of<void*>() } })));
@@ -15409,7 +15409,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Unity::Burst::Intrinsics::X86_Sse3::get_IsSse3Supported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649e600;
+  constexpr static std::size_t addrs = 0x649c39c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse3*>(), { "get_IsSse3Supported", {}, {} })));
@@ -15422,7 +15422,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse3::addsub_ps)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x649e608;
+  constexpr static std::size_t addrs = 0x649c3a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15437,7 +15437,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse3::addsub_pd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649e648;
+  constexpr static std::size_t addrs = 0x649c3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15452,7 +15452,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse3::hadd_pd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649e66c;
+  constexpr static std::size_t addrs = 0x649c408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15467,7 +15467,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse3::hadd_ps)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x649e690;
+  constexpr static std::size_t addrs = 0x649c42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15482,7 +15482,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse3::hsub_pd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649e6d0;
+  constexpr static std::size_t addrs = 0x649c46c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15497,7 +15497,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse3::hsub_ps)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x649e6f4;
+  constexpr static std::size_t addrs = 0x649c490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15511,7 +15511,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse3::movedup_pd)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649e734;
+  constexpr static std::size_t addrs = 0x649c4d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15524,7 +15524,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse3::movehdup_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649e73c;
+  constexpr static std::size_t addrs = 0x649c4d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15537,7 +15537,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse3::moveldup_ps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649e748;
+  constexpr static std::size_t addrs = 0x649c4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15607,7 +15607,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Unity::Burst::Intrinsics::X86_Sse4_1::get_IsSse41Supported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649e754;
+  constexpr static std::size_t addrs = 0x649c4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse4_1*>(), { "get_IsSse41Supported", {}, {} })));
@@ -15619,7 +15619,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::stream_load_si128)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649e75c;
+  constexpr static std::size_t addrs = 0x649c4f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15633,7 +15633,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::blend_pd)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x649e768;
+  constexpr static std::size_t addrs = 0x649c504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15649,7 +15649,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::blend_ps)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x649e7e4;
+  constexpr static std::size_t addrs = 0x649c580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15665,7 +15665,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::blendv_pd)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x649e860;
+  constexpr static std::size_t addrs = 0x649c5fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15682,7 +15682,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::blendv_ps)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x649e8e4;
+  constexpr static std::size_t addrs = 0x649c680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15699,7 +15699,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::blendv_epi8)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x649e960;
+  constexpr static std::size_t addrs = 0x649c6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15716,7 +15716,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::blend_epi16)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x649e9dc;
+  constexpr static std::size_t addrs = 0x649c778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15732,7 +15732,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::dp_pd)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x649ea58;
+  constexpr static std::size_t addrs = 0x649c7f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15748,7 +15748,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::dp_ps)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x649eaa0;
+  constexpr static std::size_t addrs = 0x649c83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15763,7 +15763,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::extract_ps)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x649eb40;
+  constexpr static std::size_t addrs = 0x649c8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse4_1*>(),
@@ -15776,7 +15776,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::extractf_ps)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x649eb84;
+  constexpr static std::size_t addrs = 0x649c920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse4_1*>(),
@@ -15789,7 +15789,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::extract_epi8)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x649ebc8;
+  constexpr static std::size_t addrs = 0x649c964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse4_1*>(),
@@ -15802,7 +15802,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::extract_epi32)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x649ec0c;
+  constexpr static std::size_t addrs = 0x649c9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15816,7 +15816,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::extract_epi64)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x649ec50;
+  constexpr static std::size_t addrs = 0x649c9ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -15831,7 +15831,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::insert_ps)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x649ec94;
+  constexpr static std::size_t addrs = 0x649ca30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15847,7 +15847,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, uint8_t, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::insert_epi8)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x649ed14;
+  constexpr static std::size_t addrs = 0x649cab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15862,7 +15862,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::insert_epi32)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x649ed5c;
+  constexpr static std::size_t addrs = 0x649caf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15877,7 +15877,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int64_t, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::insert_epi64)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x649eda4;
+  constexpr static std::size_t addrs = 0x649cb40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15892,7 +15892,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::max_epi8)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x649edec;
+  constexpr static std::size_t addrs = 0x649cb88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15907,7 +15907,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::max_epi32)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x649eec4;
+  constexpr static std::size_t addrs = 0x649cc60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15922,7 +15922,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::max_epu32)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x649ef98;
+  constexpr static std::size_t addrs = 0x649cd34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15937,7 +15937,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::max_epu16)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x649f06c;
+  constexpr static std::size_t addrs = 0x649ce08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15952,7 +15952,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::min_epi8)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x649f140;
+  constexpr static std::size_t addrs = 0x649cedc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15967,7 +15967,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::min_epi32)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x649f218;
+  constexpr static std::size_t addrs = 0x649cfb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15982,7 +15982,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::min_epu32)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x649f2ec;
+  constexpr static std::size_t addrs = 0x649d088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -15997,7 +15997,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::min_epu16)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x649f3c0;
+  constexpr static std::size_t addrs = 0x649d15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16012,7 +16012,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::packus_epi32)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x649f494;
+  constexpr static std::size_t addrs = 0x649d230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16027,7 +16027,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::cmpeq_epi64)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x649f578;
+  constexpr static std::size_t addrs = 0x649d314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16041,7 +16041,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::cvtepi8_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x649f58c;
+  constexpr static std::size_t addrs = 0x649d328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16054,7 +16054,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::cvtepi8_epi32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x649f5ec;
+  constexpr static std::size_t addrs = 0x649d388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16067,7 +16067,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::cvtepi8_epi64)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x649f64c;
+  constexpr static std::size_t addrs = 0x649d3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16080,7 +16080,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::cvtepi16_epi32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x649f68c;
+  constexpr static std::size_t addrs = 0x649d428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16093,7 +16093,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::cvtepi16_epi64)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x649f6ec;
+  constexpr static std::size_t addrs = 0x649d488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16106,7 +16106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::cvtepi32_epi64)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x649f72c;
+  constexpr static std::size_t addrs = 0x649d4c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16119,7 +16119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::cvtepu8_epi16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x649f76c;
+  constexpr static std::size_t addrs = 0x649d508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16132,7 +16132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::cvtepu8_epi32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x649f7cc;
+  constexpr static std::size_t addrs = 0x649d568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16145,7 +16145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::cvtepu8_epi64)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x649f82c;
+  constexpr static std::size_t addrs = 0x649d5c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16158,7 +16158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::cvtepu16_epi32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x649f86c;
+  constexpr static std::size_t addrs = 0x649d608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16171,7 +16171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::cvtepu16_epi64)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x649f8cc;
+  constexpr static std::size_t addrs = 0x649d668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16184,7 +16184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::cvtepu32_epi64)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x649f90c;
+  constexpr static std::size_t addrs = 0x649d6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16198,7 +16198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::mul_epi32)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x649f94c;
+  constexpr static std::size_t addrs = 0x649d6e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16213,7 +16213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::mullo_epi32)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x649f958;
+  constexpr static std::size_t addrs = 0x649d6f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16227,7 +16227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::testz_si128)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x649f9c8;
+  constexpr static std::size_t addrs = 0x649d764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16241,7 +16241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::testc_si128)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x649f9e0;
+  constexpr static std::size_t addrs = 0x649d77c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16255,7 +16255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::testnzc_si128)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x649f9f8;
+  constexpr static std::size_t addrs = 0x649d794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16269,7 +16269,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::test_all_zeros)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x649fa24;
+  constexpr static std::size_t addrs = 0x649d7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16284,7 +16284,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::test_mix_ones_zeroes)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x649fa3c;
+  constexpr static std::size_t addrs = 0x649d7d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16298,7 +16298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::test_all_ones)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x649fa68;
+  constexpr static std::size_t addrs = 0x649d804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16311,7 +16311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::RoundDImpl)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x649faa4;
+  constexpr static std::size_t addrs = 0x649d840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16324,7 +16324,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::round_pd)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x649fbec;
+  constexpr static std::size_t addrs = 0x649d988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse4_1*>(),
@@ -16337,7 +16337,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::floor_pd)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x649fc30;
+  constexpr static std::size_t addrs = 0x649d9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16350,7 +16350,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::ceil_pd)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x649fc68;
+  constexpr static std::size_t addrs = 0x649da04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16363,7 +16363,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::round_ps)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x649fca0;
+  constexpr static std::size_t addrs = 0x649da3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse4_1*>(),
@@ -16376,7 +16376,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::floor_ps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649fd58;
+  constexpr static std::size_t addrs = 0x649daf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16389,7 +16389,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::ceil_ps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649fd60;
+  constexpr static std::size_t addrs = 0x649dafc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16403,7 +16403,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::round_sd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649fd68;
+  constexpr static std::size_t addrs = 0x649db04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16419,7 +16419,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::floor_sd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649fd8c;
+  constexpr static std::size_t addrs = 0x649db28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16434,7 +16434,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::ceil_sd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x649fdb0;
+  constexpr static std::size_t addrs = 0x649db4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16449,7 +16449,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::round_ss)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x649fdd4;
+  constexpr static std::size_t addrs = 0x649db70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16465,7 +16465,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::floor_ss)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x649fe10;
+  constexpr static std::size_t addrs = 0x649dbac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16480,7 +16480,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::ceil_ss)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x649fe4c;
+  constexpr static std::size_t addrs = 0x649dbe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16494,7 +16494,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::minpos_epu16)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x649fe88;
+  constexpr static std::size_t addrs = 0x649dc24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16508,7 +16508,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_1::mpsadbw_epu8)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x649fef8;
+  constexpr static std::size_t addrs = 0x649dc94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16523,7 +16523,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_1::MK_INSERTPS_NDX)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64a0028;
+  constexpr static std::size_t addrs = 0x649ddc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -16943,7 +16943,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Burst::Intrinsics::Sse4_2_X86_StrBoolArray::*)(int32_t, int32_t, bool)>(
     &::Unity::Burst::Intrinsics::Sse4_2_X86_StrBoolArray::SetBit)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x64a14c4;
+  constexpr static std::size_t addrs = 0x649f260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::Sse4_2_X86_StrBoolArray>(),
@@ -16956,7 +16956,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Burst::Intrinsics::Sse4_2_X86_StrBoolArray::*)(int32_t, int32_t)>(&::Unity::Burst::Intrinsics::Sse4_2_X86_StrBoolArray::GetBit)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64a14e8;
+  constexpr static std::size_t addrs = 0x649f284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -16985,7 +16985,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Unity::Burst::Intrinsics::X86_Sse4_2::get_IsSse42Supported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64a0038;
+  constexpr static std::size_t addrs = 0x649ddd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Sse4_2*>(), { "get_IsSse42Supported", {}, {} })));
@@ -16997,7 +16997,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_2::ComputeStriOutput)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x64a0040;
+  constexpr static std::size_t addrs = 0x649dddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17012,7 +17012,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_2::cmpistrm)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x64a0088;
+  constexpr static std::size_t addrs = 0x649de24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17027,7 +17027,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_2::cmpistri)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x64a0224;
+  constexpr static std::size_t addrs = 0x649dfc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17043,7 +17043,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, int32_t, ::Unity::Burst::Intrinsics::v128, int32_t, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_2::cmpestrm)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x64a03c0;
+  constexpr static std::size_t addrs = 0x649e15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17061,7 +17061,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, int32_t, ::Unity::Burst::Intrinsics::v128, int32_t, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_2::cmpestri)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x64a059c;
+  constexpr static std::size_t addrs = 0x649e338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17078,7 +17078,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_2::cmpistrz)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x64a0778;
+  constexpr static std::size_t addrs = 0x649e514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17093,7 +17093,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_2::cmpistrc)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x64a086c;
+  constexpr static std::size_t addrs = 0x649e608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17108,7 +17108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_2::cmpistrs)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x64a090c;
+  constexpr static std::size_t addrs = 0x649e6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17123,7 +17123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_2::cmpistro)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x64a0a00;
+  constexpr static std::size_t addrs = 0x649e79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17138,7 +17138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_2::cmpistra)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x64a0c60;
+  constexpr static std::size_t addrs = 0x649e9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17154,7 +17154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, int32_t, ::Unity::Burst::Intrinsics::v128, int32_t, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_2::cmpestrz)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64a0d08;
+  constexpr static std::size_t addrs = 0x649eaa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17172,7 +17172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, int32_t, ::Unity::Burst::Intrinsics::v128, int32_t, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_2::cmpestrc)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x64a0d24;
+  constexpr static std::size_t addrs = 0x649eac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17190,7 +17190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, int32_t, ::Unity::Burst::Intrinsics::v128, int32_t, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_2::cmpestrs)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64a0ee8;
+  constexpr static std::size_t addrs = 0x649ec84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17208,7 +17208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, int32_t, ::Unity::Burst::Intrinsics::v128, int32_t, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_2::cmpestro)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x64a0f04;
+  constexpr static std::size_t addrs = 0x649eca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17226,7 +17226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Burst::Intrinsics::v128, int32_t, ::Unity::Burst::Intrinsics::v128, int32_t, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_2::cmpestra)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x64a10c4;
+  constexpr static std::size_t addrs = 0x649ee60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17244,7 +17244,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Sse4_2::cmpgt_epi64)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64a1184;
+  constexpr static std::size_t addrs = 0x649ef20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17258,7 +17258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_2::crc32_u32)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64a1198;
+  constexpr static std::size_t addrs = 0x649ef34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17271,7 +17271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint8_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_2::crc32_u8)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x64a1218;
+  constexpr static std::size_t addrs = 0x649efb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17284,7 +17284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint16_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_2::crc32_u16)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x64a12ac;
+  constexpr static std::size_t addrs = 0x649f048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17297,7 +17297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, int64_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_2::crc32_u64)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x64a131c;
+  constexpr static std::size_t addrs = 0x649f0b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17310,7 +17310,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&::Unity::Burst::Intrinsics::X86_Sse4_2::crc32_u64)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x64a1384;
+  constexpr static std::size_t addrs = 0x649f120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17550,7 +17550,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Unity::Burst::Intrinsics::X86_Ssse3::get_IsSsse3Supported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64a14f8;
+  constexpr static std::size_t addrs = 0x649f294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86_Ssse3*>(), { "get_IsSsse3Supported", {}, {} })));
@@ -17562,7 +17562,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Ssse3::abs_epi8)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x64a1500;
+  constexpr static std::size_t addrs = 0x649f29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17575,7 +17575,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Ssse3::abs_epi16)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x64a15c0;
+  constexpr static std::size_t addrs = 0x649f35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17588,7 +17588,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86_Ssse3::abs_epi32)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x64a1684;
+  constexpr static std::size_t addrs = 0x649f420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17602,7 +17602,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Ssse3::shuffle_epi8)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64a1744;
+  constexpr static std::size_t addrs = 0x649f4e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17617,7 +17617,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128, int32_t)>(
     &::Unity::Burst::Intrinsics::X86_Ssse3::alignr_epi8)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x64a17c4;
+  constexpr static std::size_t addrs = 0x649f560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17633,7 +17633,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Ssse3::hadd_epi16)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x64a1864;
+  constexpr static std::size_t addrs = 0x649f600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17648,7 +17648,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Ssse3::hadds_epi16)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x64a18f0;
+  constexpr static std::size_t addrs = 0x649f68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17663,7 +17663,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Ssse3::hadd_epi32)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x64a19a8;
+  constexpr static std::size_t addrs = 0x649f744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17678,7 +17678,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Ssse3::hsub_epi16)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x64a19d4;
+  constexpr static std::size_t addrs = 0x649f770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17693,7 +17693,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Ssse3::hsubs_epi16)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x64a1a60;
+  constexpr static std::size_t addrs = 0x649f7fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17708,7 +17708,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Ssse3::hsub_epi32)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x64a1b18;
+  constexpr static std::size_t addrs = 0x649f8b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17723,7 +17723,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Ssse3::maddubs_epi16)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x64a1b44;
+  constexpr static std::size_t addrs = 0x649f8e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17738,7 +17738,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Ssse3::mulhrs_epi16)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x64a1be4;
+  constexpr static std::size_t addrs = 0x649f980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17753,7 +17753,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Ssse3::sign_epi8)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64a1c60;
+  constexpr static std::size_t addrs = 0x649f9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17768,7 +17768,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Ssse3::sign_epi16)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64a1ce0;
+  constexpr static std::size_t addrs = 0x649fa7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17783,7 +17783,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(::Unity::Burst::Intrinsics::v128, ::Unity::Burst::Intrinsics::v128)>(
     &::Unity::Burst::Intrinsics::X86_Ssse3::sign_epi32)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64a1d60;
+  constexpr static std::size_t addrs = 0x649fafc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17897,7 +17897,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::v128 (*)(void*)>(&::Unity::Burst::Intrinsics::X86::GenericCSharpLoad)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6490040;
+  constexpr static std::size_t addrs = 0x648dddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17910,7 +17910,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::Intrinsics::v128)>(&::Unity::Burst::Intrinsics::X86::GenericCSharpStore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x649004c;
+  constexpr static std::size_t addrs = 0x648dde8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -17924,7 +17924,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (*)(int32_t)>(&::Unity::Burst::Intrinsics::X86::Saturate_To_Int8)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6490054;
+  constexpr static std::size_t addrs = 0x648ddf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17937,7 +17937,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(int32_t)>(&::Unity::Burst::Intrinsics::X86::Saturate_To_UnsignedInt8)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6490070;
+  constexpr static std::size_t addrs = 0x648de0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17950,7 +17950,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (*)(int32_t)>(&::Unity::Burst::Intrinsics::X86::Saturate_To_Int16)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6490080;
+  constexpr static std::size_t addrs = 0x648de1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17963,7 +17963,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(int32_t)>(&::Unity::Burst::Intrinsics::X86::Saturate_To_UnsignedInt16)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64900a0;
+  constexpr static std::size_t addrs = 0x648de3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -17976,7 +17976,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::Unity::Burst::Intrinsics::X86::IsNaN)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64900b0;
+  constexpr static std::size_t addrs = 0x648de4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86*>(), { "IsNaN", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -17988,7 +17988,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint64_t)>(&::Unity::Burst::Intrinsics::X86::IsNaN)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64900c4;
+  constexpr static std::size_t addrs = 0x648de60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86*>(), { "IsNaN", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -18000,7 +18000,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::Unity::Burst::Intrinsics::X86::BurstIntrinsicSetCSRFromManaged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64900d8;
+  constexpr static std::size_t addrs = 0x648de74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -18013,7 +18013,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::Unity::Burst::Intrinsics::X86::BurstIntrinsicGetCSRFromManaged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64900dc;
+  constexpr static std::size_t addrs = 0x648de78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86*>(), { "BurstIntrinsicGetCSRFromManaged", {}, {} })));
@@ -18025,7 +18025,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::Unity::Burst::Intrinsics::X86::getcsr_raw)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64900e4;
+  constexpr static std::size_t addrs = 0x648de80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86*>(), { "getcsr_raw", {}, {} })));
@@ -18037,7 +18037,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::Unity::Burst::Intrinsics::X86::setcsr_raw)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64900f4;
+  constexpr static std::size_t addrs = 0x648de90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86*>(), { "setcsr_raw", {}, { ::i2c::type_of<int32_t>() } })));
@@ -18049,7 +18049,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::Unity::Burst::Intrinsics::X86::DoSetCSRTrampoline)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64900f8;
+  constexpr static std::size_t addrs = 0x648de94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -18062,7 +18062,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::Unity::Burst::Intrinsics::X86::DoGetCSRTrampoline)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64900ec;
+  constexpr static std::size_t addrs = 0x648de88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86*>(), { "DoGetCSRTrampoline", {}, {} })));
@@ -18074,7 +18074,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Burst::Intrinsics::X86_MXCSRBits (*)()>(&::Unity::Burst::Intrinsics::X86::get_MXCSR)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6490104;
+  constexpr static std::size_t addrs = 0x648dea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::Intrinsics::X86*>(), { "get_MXCSR", {}, {} })));
@@ -18086,7 +18086,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Burst::Intrinsics::X86_MXCSRBits)>(&::Unity::Burst::Intrinsics::X86::set_MXCSR)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x649010c;
+  constexpr static std::size_t addrs = 0x648dea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

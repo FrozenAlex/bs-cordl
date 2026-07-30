@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SliderSpawnInfoNetSerializable* (*)()>(&::GlobalNamespace::SliderSpawnInfoNetSerializable::Obtain)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x377f8fc;
+  constexpr static std::size_t addrs = 0x377e498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderSpawnInfoNetSerializable*>(), { "Obtain", {}, {} })));
@@ -38,7 +38,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Slider
                                                           ::GlobalNamespace::SliderMidAnchorMode, int32_t, float_t, ::UnityEngine::Vector3, float_t, ::UnityEngine::Vector3, float_t, float_t)>(
     &::GlobalNamespace::SliderSpawnInfoNetSerializable::Init)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x377f968;
+  constexpr static std::size_t addrs = 0x377e504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderSpawnInfoNetSerializable::*)()>(&::GlobalNamespace::SliderSpawnInfoNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x377fa74;
+  constexpr static std::size_t addrs = 0x377e610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderSpawnInfoNetSerializable*>(), { ".ctor", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderSpawnInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::SliderSpawnInfoNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x377facc;
+  constexpr static std::size_t addrs = 0x377e668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderSpawnInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::SliderSpawnInfoNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x377feb0;
+  constexpr static std::size_t addrs = 0x377ea4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

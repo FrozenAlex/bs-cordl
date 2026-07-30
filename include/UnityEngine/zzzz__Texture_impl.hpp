@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6ab206c;
+  constexpr static std::size_t addrs = 0x6aad9b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { ".ctor", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::get_mipmapCount)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6ab20c4;
+  constexpr static std::size_t addrs = 0x6aada10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { "get_mipmapCount", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::GraphicsFormat (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::get_graphicsFormat)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6ab21a8;
+  constexpr static std::size_t addrs = 0x6aadaf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { ::i2c::class_of<::UnityEngine::Texture*>(), 4 }));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::GetDataWidth)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6ab2204;
+  constexpr static std::size_t addrs = 0x6aadb50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { "GetDataWidth", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::GetDataHeight)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6ab22e8;
+  constexpr static std::size_t addrs = 0x6aadc34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { "GetDataHeight", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::TextureDimension (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::GetDimension)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6ab23cc;
+  constexpr static std::size_t addrs = 0x6aadd18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { "GetDimension", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::get_width)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ab24b0;
+  constexpr static std::size_t addrs = 0x6aaddfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { ::i2c::class_of<::UnityEngine::Texture*>(), 5 }));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Texture::*)(int32_t)>(&::UnityEngine::Texture::set_width)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6ab24b4;
+  constexpr static std::size_t addrs = 0x6aade00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { ::i2c::class_of<::UnityEngine::Texture*>(), 6 }));
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::get_height)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ab24ec;
+  constexpr static std::size_t addrs = 0x6aade38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { ::i2c::class_of<::UnityEngine::Texture*>(), 7 }));
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Texture::*)(int32_t)>(&::UnityEngine::Texture::set_height)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6ab24f0;
+  constexpr static std::size_t addrs = 0x6aade3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { ::i2c::class_of<::UnityEngine::Texture*>(), 8 }));
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::TextureDimension (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::get_dimension)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ab2528;
+  constexpr static std::size_t addrs = 0x6aade74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { ::i2c::class_of<::UnityEngine::Texture*>(), 9 }));
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Texture::*)(::UnityEngine::Rendering::TextureDimension)>(&::UnityEngine::Texture::set_dimension)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6ab252c;
+  constexpr static std::size_t addrs = 0x6aade78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { ::i2c::class_of<::UnityEngine::Texture*>(), 10 }));
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::get_isReadable)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6ab2564;
+  constexpr static std::size_t addrs = 0x6aadeb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { ::i2c::class_of<::UnityEngine::Texture*>(), 11 }));
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextureWrapMode (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::get_wrapMode)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6ab2648;
+  constexpr static std::size_t addrs = 0x6aadf94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { "get_wrapMode", {}, {} })));
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Texture::*)(::UnityEngine::TextureWrapMode)>(&::UnityEngine::Texture::set_wrapMode)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6ab272c;
+  constexpr static std::size_t addrs = 0x6aae078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Texture::*)(::UnityEngine::TextureWrapMode)>(&::UnityEngine::Texture::set_wrapModeU)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6ab2828;
+  constexpr static std::size_t addrs = 0x6aae174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Texture::*)(::UnityEngine::TextureWrapMode)>(&::UnityEngine::Texture::set_wrapModeV)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6ab2924;
+  constexpr static std::size_t addrs = 0x6aae270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Texture::*)(::UnityEngine::TextureWrapMode)>(&::UnityEngine::Texture::set_wrapModeW)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6ab2a20;
+  constexpr static std::size_t addrs = 0x6aae36c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::FilterMode (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::get_filterMode)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6ab2b1c;
+  constexpr static std::size_t addrs = 0x6aae468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { "get_filterMode", {}, {} })));
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Texture::*)(::UnityEngine::FilterMode)>(&::UnityEngine::Texture::set_filterMode)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6ab2c00;
+  constexpr static std::size_t addrs = 0x6aae54c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::get_anisoLevel)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6ab2cfc;
+  constexpr static std::size_t addrs = 0x6aae648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { "get_anisoLevel", {}, {} })));
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Texture::*)(int32_t)>(&::UnityEngine::Texture::set_anisoLevel)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6ab2de0;
+  constexpr static std::size_t addrs = 0x6aae72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { "set_anisoLevel", {}, { ::i2c::type_of<int32_t>() } })));
@@ -287,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::get_mipMapBias)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6ab2edc;
+  constexpr static std::size_t addrs = 0x6aae828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { "get_mipMapBias", {}, {} })));
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Texture::*)(float_t)>(&::UnityEngine::Texture::set_mipMapBias)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6ab2fc0;
+  constexpr static std::size_t addrs = 0x6aae90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { "set_mipMapBias", {}, { ::i2c::type_of<float_t>() } })));
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::get_texelSize)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6ab30c4;
+  constexpr static std::size_t addrs = 0x6aaea10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { "get_texelSize", {}, {} })));
@@ -323,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::GetNativeTexturePtr)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6ab31c8;
+  constexpr static std::size_t addrs = 0x6aaeb14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { "GetNativeTexturePtr", {}, {} })));
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::get_updateCount)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6ab32ac;
+  constexpr static std::size_t addrs = 0x6aaebf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { "get_updateCount", {}, {} })));
@@ -347,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::IncrementUpdateCount)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6ab3390;
+  constexpr static std::size_t addrs = 0x6aaecdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { "IncrementUpdateCount", {}, {} })));
@@ -359,7 +359,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::Internal_GetActiveTextureColorSpace)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6ab3474;
+  constexpr static std::size_t addrs = 0x6aaedc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { "Internal_GetActiveTextureColorSpace", {}, {} })));
@@ -371,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ColorSpace (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::get_activeTextureColorSpace)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ab3558;
+  constexpr static std::size_t addrs = 0x6aaeea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { "get_activeTextureColorSpace", {}, {} })));
@@ -383,7 +383,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::Texture::SetStreamingTextureMaterialDebugPropertiesWithSlot)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ab3570;
+  constexpr static std::size_t addrs = 0x6aaeebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -396,7 +396,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::Texture::SetStreamingTextureMaterialDebugProperties)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6ab35ac;
+  constexpr static std::size_t addrs = 0x6aaeef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -409,7 +409,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Texture::get_streamingTextureDiscardUnusedMips)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6ab3624;
+  constexpr static std::size_t addrs = 0x6aaef70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { "get_streamingTextureDiscardUnusedMips", {}, {} })));
@@ -421,7 +421,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::Texture::set_streamingTextureDiscardUnusedMips)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ab364c;
+  constexpr static std::size_t addrs = 0x6aaef98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -434,7 +434,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::Texture::*)(int32_t, int32_t)>(&::UnityEngine::Texture::GetPixelDataSize)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6ab3688;
+  constexpr static std::size_t addrs = 0x6aaefd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -447,7 +447,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::Texture::*)(int32_t, int32_t)>(&::UnityEngine::Texture::GetPixelDataOffset)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6ab379c;
+  constexpr static std::size_t addrs = 0x6aaf0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -460,7 +460,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextureColorSpace (::UnityEngine::Texture::*)(bool)>(&::UnityEngine::Texture::GetTextureColorSpace)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ab38b0;
+  constexpr static std::size_t addrs = 0x6aaf1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { "GetTextureColorSpace", {}, { ::i2c::type_of<bool>() } })));
@@ -473,7 +473,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextureColorSpace (::UnityEngine::Texture::*)(::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Texture::GetTextureColorSpace)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ab38bc;
+  constexpr static std::size_t addrs = 0x6aaf208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -487,7 +487,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Texture::*)(::UnityEngine::TextureFormat)>(&::UnityEngine::Texture::ValidateFormat)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x6ab393c;
+  constexpr static std::size_t addrs = 0x6aaf288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -501,7 +501,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Texture::*)(::UnityEngine::Experimental::Rendering::GraphicsFormat,
                                                                                         ::UnityEngine::Experimental::Rendering::GraphicsFormatUsage)>(&::UnityEngine::Texture::ValidateFormat)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6ab3b58;
+  constexpr static std::size_t addrs = 0x6aaf4a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -517,7 +517,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UnityException* (::UnityEngine::Texture::*)(::UnityEngine::Texture*)>(&::UnityEngine::Texture::CreateNonReadableException)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6ab3ccc;
+  constexpr static std::size_t addrs = 0x6aaf618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -531,7 +531,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UnityException* (::UnityEngine::Texture::*)(::UnityEngine::Texture*)>(
     &::UnityEngine::Texture::IgnoreMipmapLimitCannotBeToggledException)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6ab3d98;
+  constexpr static std::size_t addrs = 0x6aaf6e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -544,7 +544,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UnityException* (::UnityEngine::Texture::*)()>(&::UnityEngine::Texture::CreateNativeArrayLengthOverflowException)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6ab3e64;
+  constexpr static std::size_t addrs = 0x6aaf7b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Texture*>(), { "CreateNativeArrayLengthOverflowException", {}, {} })));
@@ -556,7 +556,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::Texture::get_mipmapCount_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ab216c;
+  constexpr static std::size_t addrs = 0x6aadab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -569,7 +569,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::Texture::GetDataWidth_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ab22ac;
+  constexpr static std::size_t addrs = 0x6aadbf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -582,7 +582,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::Texture::GetDataHeight_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ab2390;
+  constexpr static std::size_t addrs = 0x6aadcdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -595,7 +595,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::TextureDimension (*)(::System::IntPtr)>(&::UnityEngine::Texture::GetDimension_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ab2474;
+  constexpr static std::size_t addrs = 0x6aaddc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -608,7 +608,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::Texture::get_isReadable_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ab260c;
+  constexpr static std::size_t addrs = 0x6aadf58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -621,7 +621,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextureWrapMode (*)(::System::IntPtr)>(&::UnityEngine::Texture::get_wrapMode_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ab26f0;
+  constexpr static std::size_t addrs = 0x6aae03c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -634,7 +634,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::TextureWrapMode)>(&::UnityEngine::Texture::set_wrapMode_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ab27e4;
+  constexpr static std::size_t addrs = 0x6aae130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -648,7 +648,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::TextureWrapMode)>(&::UnityEngine::Texture::set_wrapModeU_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ab28e0;
+  constexpr static std::size_t addrs = 0x6aae22c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -662,7 +662,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::TextureWrapMode)>(&::UnityEngine::Texture::set_wrapModeV_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ab29dc;
+  constexpr static std::size_t addrs = 0x6aae328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -676,7 +676,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::TextureWrapMode)>(&::UnityEngine::Texture::set_wrapModeW_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ab2ad8;
+  constexpr static std::size_t addrs = 0x6aae424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -690,7 +690,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::FilterMode (*)(::System::IntPtr)>(&::UnityEngine::Texture::get_filterMode_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ab2bc4;
+  constexpr static std::size_t addrs = 0x6aae510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -703,7 +703,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::FilterMode)>(&::UnityEngine::Texture::set_filterMode_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ab2cb8;
+  constexpr static std::size_t addrs = 0x6aae604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -717,7 +717,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::Texture::get_anisoLevel_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ab2da4;
+  constexpr static std::size_t addrs = 0x6aae6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -730,7 +730,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t)>(&::UnityEngine::Texture::set_anisoLevel_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ab2e98;
+  constexpr static std::size_t addrs = 0x6aae7e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -743,7 +743,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::Texture::get_mipMapBias_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ab2f84;
+  constexpr static std::size_t addrs = 0x6aae8d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -756,7 +756,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::Texture::set_mipMapBias_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6ab3078;
+  constexpr static std::size_t addrs = 0x6aae9c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -769,7 +769,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector2>)>(&::UnityEngine::Texture::get_texelSize_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ab3184;
+  constexpr static std::size_t addrs = 0x6aaead0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -783,7 +783,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::Texture::GetNativeTexturePtr_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ab3270;
+  constexpr static std::size_t addrs = 0x6aaebbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -796,7 +796,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::System::IntPtr)>(&::UnityEngine::Texture::get_updateCount_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ab3354;
+  constexpr static std::size_t addrs = 0x6aaeca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -809,7 +809,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Texture::IncrementUpdateCount_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ab3438;
+  constexpr static std::size_t addrs = 0x6aaed84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -822,7 +822,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::Texture::Internal_GetActiveTextureColorSpace_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ab351c;
+  constexpr static std::size_t addrs = 0x6aaee68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -835,7 +835,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::System::IntPtr, int32_t, int32_t)>(&::UnityEngine::Texture::GetPixelDataSize_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6ab3748;
+  constexpr static std::size_t addrs = 0x6aaf094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -849,7 +849,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::System::IntPtr, int32_t, int32_t)>(&::UnityEngine::Texture::GetPixelDataOffset_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6ab385c;
+  constexpr static std::size_t addrs = 0x6aaf1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

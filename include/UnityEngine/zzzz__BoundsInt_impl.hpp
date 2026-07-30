@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3Int (::UnityEngine::BoundsInt::*)()>(&::UnityEngine::BoundsInt::get_position)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6a7ab4c;
+  constexpr static std::size_t addrs = 0x6a788e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoundsInt>(), { "get_position", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoundsInt::*)(::UnityEngine::Vector3Int)>(&::UnityEngine::BoundsInt::set_position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a7ab5c;
+  constexpr static std::size_t addrs = 0x6a788f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3Int (::UnityEngine::BoundsInt::*)()>(&::UnityEngine::BoundsInt::get_size)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6a7ab68;
+  constexpr static std::size_t addrs = 0x6a78904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BoundsInt>(), { "get_size", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoundsInt::*)(::UnityEngine::Vector3Int)>(&::UnityEngine::BoundsInt::set_size)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a7ab78;
+  constexpr static std::size_t addrs = 0x6a78914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BoundsInt::*)(::UnityEngine::Vector3Int, ::UnityEngine::Vector3Int)>(&::UnityEngine::BoundsInt::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6a7ab84;
+  constexpr static std::size_t addrs = 0x6a78920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::BoundsInt::*)()>(&::UnityEngine::BoundsInt::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6a7ab98;
+  constexpr static std::size_t addrs = 0x6a78934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::BoundsInt>(), { ::i2c::class_of<::UnityEngine::BoundsInt>(), 3 }));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::BoundsInt::*)(::StringW, ::System::IFormatProvider*)>(&::UnityEngine::BoundsInt::ToString)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6a7aba8;
+  constexpr static std::size_t addrs = 0x6a78944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::BoundsInt::*)(::System::Object*)>(&::UnityEngine::BoundsInt::Equals)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6a7ad10;
+  constexpr static std::size_t addrs = 0x6a78aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::BoundsInt>(), { ::i2c::class_of<::UnityEngine::BoundsInt>(), 0 }));
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::BoundsInt::*)(::UnityEngine::BoundsInt)>(&::UnityEngine::BoundsInt::Equals)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6a7add8;
+  constexpr static std::size_t addrs = 0x6a78b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::BoundsInt::*)()>(&::UnityEngine::BoundsInt::GetHashCode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a7ae44;
+  constexpr static std::size_t addrs = 0x6a78be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::BoundsInt>(), { ::i2c::class_of<::UnityEngine::BoundsInt>(), 2 }));

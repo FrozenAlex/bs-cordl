@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_FontAsset> (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::get_fontAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699e484;
+  constexpr static std::size_t addrs = 0x699c220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { "get_fontAsset", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)(::TMPro::TMP_FontAsset*)>(&::TMPro::TMP_SubMeshUI::set_fontAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699e48c;
+  constexpr static std::size_t addrs = 0x699c228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::get_spriteAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699e494;
+  constexpr static std::size_t addrs = 0x699c230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { "get_spriteAsset", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)(::TMPro::TMP_SpriteAsset*)>(&::TMPro::TMP_SubMeshUI::set_spriteAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699e49c;
+  constexpr static std::size_t addrs = 0x699c238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture> (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::get_mainTexture)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x699e4a4;
+  constexpr static std::size_t addrs = 0x699c240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { ::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), 35 }));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::get_material)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699e564;
+  constexpr static std::size_t addrs = 0x699c300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { ::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), 32 }));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)(::UnityEngine::Material*)>(&::TMPro::TMP_SubMeshUI::set_material)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x699e664;
+  constexpr static std::size_t addrs = 0x699c400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { ::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), 33 }));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::get_sharedMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699e7c8;
+  constexpr static std::size_t addrs = 0x699c564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { "get_sharedMaterial", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)(::UnityEngine::Material*)>(&::TMPro::TMP_SubMeshUI::set_sharedMaterial)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x699e7d0;
+  constexpr static std::size_t addrs = 0x699c56c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::get_fallbackMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699e830;
+  constexpr static std::size_t addrs = 0x699c5cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { "get_fallbackMaterial", {}, {} })));
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)(::UnityEngine::Material*)>(&::TMPro::TMP_SubMeshUI::set_fallbackMaterial)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x699e838;
+  constexpr static std::size_t addrs = 0x699c5d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::get_fallbackSourceMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699e988;
+  constexpr static std::size_t addrs = 0x699c724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { "get_fallbackSourceMaterial", {}, {} })));
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)(::UnityEngine::Material*)>(&::TMPro::TMP_SubMeshUI::set_fallbackSourceMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699e990;
+  constexpr static std::size_t addrs = 0x699c72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::get_materialForRendering)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x699e998;
+  constexpr static std::size_t addrs = 0x699c734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { ::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), 34 }));
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::get_isDefaultMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699e9f8;
+  constexpr static std::size_t addrs = 0x699c794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { "get_isDefaultMaterial", {}, {} })));
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)(bool)>(&::TMPro::TMP_SubMeshUI::set_isDefaultMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699ea00;
+  constexpr static std::size_t addrs = 0x699c79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { "set_isDefaultMaterial", {}, { ::i2c::type_of<bool>() } })));
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::get_padding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699ea08;
+  constexpr static std::size_t addrs = 0x699c7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { "get_padding", {}, {} })));
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)(float_t)>(&::TMPro::TMP_SubMeshUI::set_padding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699ea10;
+  constexpr static std::size_t addrs = 0x699c7ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { "set_padding", {}, { ::i2c::type_of<float_t>() } })));
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::get_mesh)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x699ea18;
+  constexpr static std::size_t addrs = 0x699c7b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { "get_mesh", {}, {} })));
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)(::UnityEngine::Mesh*)>(&::TMPro::TMP_SubMeshUI::set_mesh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699ead0;
+  constexpr static std::size_t addrs = 0x699c86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_Text> (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::get_textComponent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x699ead8;
+  constexpr static std::size_t addrs = 0x699c874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { "get_textComponent", {}, {} })));
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_SubMeshUI> (*)(::TMPro::TextMeshProUGUI*, ::TMPro::MaterialReference)>(&::TMPro::TMP_SubMeshUI::AddSubTextObject)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x699eb74;
+  constexpr static std::size_t addrs = 0x699c910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::OnEnable)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x699eeb0;
+  constexpr static std::size_t addrs = 0x699cc4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { ::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), 5 }));
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::OnDisable)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x699ef20;
+  constexpr static std::size_t addrs = 0x699ccbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { ::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), 7 }));
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::OnDestroy)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x699efd0;
+  constexpr static std::size_t addrs = 0x699cd6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { ::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), 8 }));
@@ -326,7 +326,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::OnTransformParentChanged)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x699f198;
+  constexpr static std::size_t addrs = 0x699cf34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { ::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), 12 }));
@@ -338,7 +338,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_SubMeshUI::*)(::UnityEngine::Material*)>(&::TMPro::TMP_SubMeshUI::GetModifiedMaterial)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x699f1ec;
+  constexpr static std::size_t addrs = 0x699cf88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { ::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), 58 }));
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::GetPaddingForMaterial)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x699e750;
+  constexpr static std::size_t addrs = 0x699c4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { "GetPaddingForMaterial", {}, {} })));
@@ -362,7 +362,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_SubMeshUI::*)(::UnityEngine::Material*)>(&::TMPro::TMP_SubMeshUI::GetPaddingForMaterial)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x699f2f8;
+  constexpr static std::size_t addrs = 0x699d094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -375,7 +375,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)(bool, bool)>(&::TMPro::TMP_SubMeshUI::UpdateMeshPadding)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x699f378;
+  constexpr static std::size_t addrs = 0x699d114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -388,7 +388,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::SetAllDirty)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x699f3f0;
+  constexpr static std::size_t addrs = 0x699d18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { ::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), 26 }));
@@ -400,7 +400,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::SetVerticesDirty)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x699f3f4;
+  constexpr static std::size_t addrs = 0x699d190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { ::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), 28 }));
@@ -412,7 +412,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::SetLayoutDirty)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x699f3f8;
+  constexpr static std::size_t addrs = 0x699d194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { ::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), 27 }));
@@ -424,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::SetMaterialDirty)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x699f3fc;
+  constexpr static std::size_t addrs = 0x699d198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { ::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), 29 }));
@@ -436,7 +436,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::SetPivotDirty)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x699f440;
+  constexpr static std::size_t addrs = 0x699d1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { "SetPivotDirty", {}, {} })));
@@ -448,7 +448,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::GetRootCanvasTransform)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x699f4a8;
+  constexpr static std::size_t addrs = 0x699d244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { "GetRootCanvasTransform", {}, {} })));
@@ -460,7 +460,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)(::UnityEngine::Rect, bool)>(&::TMPro::TMP_SubMeshUI::Cull)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x699f54c;
+  constexpr static std::size_t addrs = 0x699d2e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { ::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), 59 }));
@@ -472,7 +472,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::UpdateGeometry)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x699f550;
+  constexpr static std::size_t addrs = 0x699d2ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { ::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), 41 }));
@@ -484,7 +484,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)(::UnityEngine::UI::CanvasUpdate)>(&::TMPro::TMP_SubMeshUI::Rebuild)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x699f554;
+  constexpr static std::size_t addrs = 0x699d2f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { ::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), 37 }));
@@ -496,7 +496,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::RefreshMaterial)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x699f58c;
+  constexpr static std::size_t addrs = 0x699d328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { "RefreshMaterial", {}, {} })));
@@ -508,7 +508,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::UpdateMaterial)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x699f59c;
+  constexpr static std::size_t addrs = 0x699d338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { ::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), 40 }));
@@ -520,7 +520,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::RecalculateClipping)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x699f79c;
+  constexpr static std::size_t addrs = 0x699d538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { ::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), 63 }));
@@ -532,7 +532,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::GetMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699f7a0;
+  constexpr static std::size_t addrs = 0x699d53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { "GetMaterial", {}, {} })));
@@ -544,7 +544,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_SubMeshUI::*)(::UnityEngine::Material*)>(&::TMPro::TMP_SubMeshUI::GetMaterial)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x699e56c;
+  constexpr static std::size_t addrs = 0x699c308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -557,7 +557,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_SubMeshUI::*)(::UnityEngine::Material*)>(&::TMPro::TMP_SubMeshUI::CreateMaterialInstance)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x699f7a8;
+  constexpr static std::size_t addrs = 0x699d544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -570,7 +570,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::GetSharedMaterial)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x699f860;
+  constexpr static std::size_t addrs = 0x699d5fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { "GetSharedMaterial", {}, {} })));
@@ -582,7 +582,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)(::UnityEngine::Material*)>(&::TMPro::TMP_SubMeshUI::SetSharedMaterial)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x699e800;
+  constexpr static std::size_t addrs = 0x699c59c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -595,7 +595,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_SubMeshUI::*)()>(&::TMPro::TMP_SubMeshUI::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x699f880;
+  constexpr static std::size_t addrs = 0x699d61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_SubMeshUI*>(), { ".ctor", {}, {} })));

@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController__HideHintAfterDelay_d__12::*)(int32_t)>(&::HMUI::HoverHintController__HideHintAfterDelay_d__12::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x587c63c;
+  constexpr static std::size_t addrs = 0x587aae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController__HideHintAfterDelay_d__12::*)()>(
     &::HMUI::HoverHintController__HideHintAfterDelay_d__12::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x587ca04;
+  constexpr static std::size_t addrs = 0x587aeb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::HoverHintController__HideHintAfterDelay_d__12::*)()>(&::HMUI::HoverHintController__HideHintAfterDelay_d__12::MoveNext)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x587ca08;
+  constexpr static std::size_t addrs = 0x587aeb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__12*>(), { "MoveNext", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::HoverHintController__HideHintAfterDelay_d__12::*)()>(
     &::HMUI::HoverHintController__HideHintAfterDelay_d__12::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x587cac8;
+  constexpr static std::size_t addrs = 0x587af74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController__HideHintAfterDelay_d__12::*)()>(
     &::HMUI::HoverHintController__HideHintAfterDelay_d__12::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x587cad0;
+  constexpr static std::size_t addrs = 0x587af7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::HoverHintController__HideHintAfterDelay_d__12::*)()>(
     &::HMUI::HoverHintController__HideHintAfterDelay_d__12::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x587cb08;
+  constexpr static std::size_t addrs = 0x587afb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController__ShowHintAfterDelay_d__11::*)(int32_t)>(&::HMUI::HoverHintController__ShowHintAfterDelay_d__11::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x587c634;
+  constexpr static std::size_t addrs = 0x587aae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController__ShowHintAfterDelay_d__11::*)()>(
     &::HMUI::HoverHintController__ShowHintAfterDelay_d__11::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x587cb10;
+  constexpr static std::size_t addrs = 0x587afbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::HoverHintController__ShowHintAfterDelay_d__11::*)()>(&::HMUI::HoverHintController__ShowHintAfterDelay_d__11::MoveNext)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x587cb14;
+  constexpr static std::size_t addrs = 0x587afc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__11*>(), { "MoveNext", {}, {} })));
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::HoverHintController__ShowHintAfterDelay_d__11::*)()>(
     &::HMUI::HoverHintController__ShowHintAfterDelay_d__11::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x587cc04;
+  constexpr static std::size_t addrs = 0x587b0b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController__ShowHintAfterDelay_d__11::*)()>(
     &::HMUI::HoverHintController__ShowHintAfterDelay_d__11::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x587cc0c;
+  constexpr static std::size_t addrs = 0x587b0b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::HoverHintController__ShowHintAfterDelay_d__11::*)()>(
     &::HMUI::HoverHintController__ShowHintAfterDelay_d__11::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x587cc44;
+  constexpr static std::size_t addrs = 0x587b0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -408,7 +408,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)()>(&::HMUI::HoverHintController::Awake)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x587c2f8;
+  constexpr static std::size_t addrs = 0x587a7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController*>(), { "Awake", {}, {} })));
@@ -420,7 +420,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)(bool)>(&::HMUI::HoverHintController::OnApplicationFocus)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x587c3c0;
+  constexpr static std::size_t addrs = 0x587a86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController*>(), { "OnApplicationFocus", {}, { ::i2c::type_of<bool>() } })));
@@ -432,7 +432,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)(::HMUI::HoverHint*)>(&::HMUI::HoverHintController::ShowHint)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x587c0b8;
+  constexpr static std::size_t addrs = 0x587a564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -445,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)(::HMUI::HoverHint*)>(&::HMUI::HoverHintController::ShowHintInternal)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x587c3e4;
+  constexpr static std::size_t addrs = 0x587a890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -458,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)(::HMUI::HoverHint*)>(&::HMUI::HoverHintController::HideHint)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x587c1d8;
+  constexpr static std::size_t addrs = 0x587a684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -471,7 +471,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)(::HMUI::HoverHint*)>(&::HMUI::HoverHintController::HideHintInstant)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x587c1a4;
+  constexpr static std::size_t addrs = 0x587a650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -485,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::HMUI::HoverHintController::*)(::HMUI::HoverHint*, float_t)>(
     &::HMUI::HoverHintController::ShowHintAfterDelay)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x587c560;
+  constexpr static std::size_t addrs = 0x587aa0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -498,7 +498,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::HMUI::HoverHintController::*)(float_t)>(&::HMUI::HoverHintController::HideHintAfterDelay)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x587c5d0;
+  constexpr static std::size_t addrs = 0x587aa7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -511,7 +511,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)(::HMUI::HoverHint*)>(&::HMUI::HoverHintController::SetupAndShowHintPanel)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x587c450;
+  constexpr static std::size_t addrs = 0x587a8fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -524,7 +524,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::HMUI::HoverHint*)>(&::HMUI::HoverHintController::GetScreenTransformForHoverHint)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x587c644;
+  constexpr static std::size_t addrs = 0x587aaf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -537,7 +537,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)()>(&::HMUI::HoverHintController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x587ca00;
+  constexpr static std::size_t addrs = 0x587aeac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController*>(), { ".ctor", {}, {} })));

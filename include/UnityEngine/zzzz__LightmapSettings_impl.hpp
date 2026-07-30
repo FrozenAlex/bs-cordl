@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LightmapSettings::*)()>(&::UnityEngine::LightmapSettings::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6a84000;
+  constexpr static std::size_t addrs = 0x6a81d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightmapSettings*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::LightmapData*> (*)()>(&::UnityEngine::LightmapSettings::get_lightmaps)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6a84058;
+  constexpr static std::size_t addrs = 0x6a81df4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightmapSettings*>(), { "get_lightmaps", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<::UnityEngine::LightmapData*>)>(&::UnityEngine::LightmapSettings::set_lightmaps)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a84080;
+  constexpr static std::size_t addrs = 0x6a81e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LightmapsMode (*)()>(&::UnityEngine::LightmapSettings::get_lightmapsMode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6a840bc;
+  constexpr static std::size_t addrs = 0x6a81e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightmapSettings*>(), { "get_lightmapsMode", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::LightmapsMode)>(&::UnityEngine::LightmapSettings::set_lightmapsMode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a840e4;
+  constexpr static std::size_t addrs = 0x6a81e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::LightProbes> (*)()>(&::UnityEngine::LightmapSettings::get_lightProbes)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6a84120;
+  constexpr static std::size_t addrs = 0x6a81ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightmapSettings*>(), { "get_lightProbes", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::LightProbes*)>(&::UnityEngine::LightmapSettings::set_lightProbes)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6a8425c;
+  constexpr static std::size_t addrs = 0x6a81ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::LightmapSettings::Reset)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6a84318;
+  constexpr static std::size_t addrs = 0x6a820b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightmapSettings*>(), { "Reset", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LightmapsModeLegacy (*)()>(&::UnityEngine::LightmapSettings::get_lightmapsModeLegacy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a84340;
+  constexpr static std::size_t addrs = 0x6a820dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightmapSettings*>(), { "get_lightmapsModeLegacy", {}, {} })));
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::LightmapsModeLegacy)>(&::UnityEngine::LightmapSettings::set_lightmapsModeLegacy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a84348;
+  constexpr static std::size_t addrs = 0x6a820e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ColorSpace (*)()>(&::UnityEngine::LightmapSettings::get_bakedColorSpace)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6a8434c;
+  constexpr static std::size_t addrs = 0x6a820e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightmapSettings*>(), { "get_bakedColorSpace", {}, {} })));
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ColorSpace)>(&::UnityEngine::LightmapSettings::set_bakedColorSpace)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a8439c;
+  constexpr static std::size_t addrs = 0x6a82138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::LightmapSettings::get_lightProbes_Injected)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6a84234;
+  constexpr static std::size_t addrs = 0x6a81fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LightmapSettings*>(), { "get_lightProbes_Injected", {}, {} })));
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::LightmapSettings::set_lightProbes_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6a842dc;
+  constexpr static std::size_t addrs = 0x6a82078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

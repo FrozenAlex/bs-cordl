@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Ocsp::OcspReqGenerator_RequestObject::*)(
     ::Org::BouncyCastle::Ocsp::CertificateID*, ::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(&::Org::BouncyCastle::Ocsp::OcspReqGenerator_RequestObject::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3574648;
+  constexpr static std::size_t addrs = 0x3572c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Ocsp::Request* (::Org::BouncyCastle::Ocsp::OcspReqGenerator_RequestObject::*)()>(
     &::Org::BouncyCastle::Ocsp::OcspReqGenerator_RequestObject::ToRequest)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3575458;
+  constexpr static std::size_t addrs = 0x3573a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Ocsp::OcspReqGenerator_RequestObject*>(), { "ToRequest", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Ocsp::OcspReqGenerator::*)(::Org::BouncyCastle::Ocsp::CertificateID*)>(
     &::Org::BouncyCastle::Ocsp::OcspReqGenerator::AddRequest)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3574568;
+  constexpr static std::size_t addrs = 0x3572b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Ocsp::OcspReqGenerator::*)(
     ::Org::BouncyCastle::Ocsp::CertificateID*, ::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(&::Org::BouncyCastle::Ocsp::OcspReqGenerator::AddRequest)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3574650;
+  constexpr static std::size_t addrs = 0x3572c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Ocsp::OcspReqGenerator::*)(::Org::BouncyCastle::Asn1::X509::X509Name*)>(
     &::Org::BouncyCastle::Ocsp::OcspReqGenerator::SetRequestorName)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3574734;
+  constexpr static std::size_t addrs = 0x3572cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Ocsp::OcspReqGenerator*>(),
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Ocsp::OcspReqGenerator::*)(::Org::BouncyCastle::Asn1::X509::GeneralName*)>(
     &::Org::BouncyCastle::Ocsp::OcspReqGenerator::SetRequestorName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x357485c;
+  constexpr static std::size_t addrs = 0x3572e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Ocsp::OcspReqGenerator*>(),
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Ocsp::OcspReqGenerator::*)(::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(
     &::Org::BouncyCastle::Ocsp::OcspReqGenerator::SetRequestExtensions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3574864;
+  constexpr static std::size_t addrs = 0x3572e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Ocsp::OcspReqGenerator*>(),
@@ -164,7 +164,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Ocsp
                                                     ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*>, ::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Ocsp::OcspReqGenerator::GenerateRequest)> {
   constexpr static std::size_t size = 0xbec;
-  constexpr static std::size_t addrs = 0x357486c;
+  constexpr static std::size_t addrs = 0x3572e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Ocsp::OcspReq* (::Org::BouncyCastle::Ocsp::OcspReqGenerator::*)()>(
     &::Org::BouncyCastle::Ocsp::OcspReqGenerator::Generate)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x35754d0;
+  constexpr static std::size_t addrs = 0x3573a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Ocsp::OcspReqGenerator*>(), { "Generate", {}, {} })));
@@ -196,7 +196,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Ocsp
     ::Org::BouncyCastle::Ocsp::OcspReqGenerator::*)(::StringW, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*>)>(
     &::Org::BouncyCastle::Ocsp::OcspReqGenerator::Generate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35754e4;
+  constexpr static std::size_t addrs = 0x3573aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Ocsp::OcspReqGenerator*>(),
@@ -214,7 +214,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Ocsp
     ::Org::BouncyCastle::Ocsp::OcspReqGenerator::*)(::StringW, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*>,
                                                     ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Ocsp::OcspReqGenerator::Generate)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x35754ec;
+  constexpr static std::size_t addrs = 0x3573ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerable* (::Org::BouncyCastle::Ocsp::OcspReqGenerator::*)()>(
     &::Org::BouncyCastle::Ocsp::OcspReqGenerator::get_SignatureAlgNames)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x35758b4;
+  constexpr static std::size_t addrs = 0x3573e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Ocsp::OcspReqGenerator*>(), { "get_SignatureAlgNames", {}, {} })));
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Ocsp::OcspReqGenerator::*)()>(&::Org::BouncyCastle::Ocsp::OcspReqGenerator::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3575904;
+  constexpr static std::size_t addrs = 0x3573ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Ocsp::OcspReqGenerator*>(), { ".ctor", {}, {} })));

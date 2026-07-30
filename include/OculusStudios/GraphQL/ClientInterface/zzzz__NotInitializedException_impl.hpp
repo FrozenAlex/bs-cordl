@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::ClientInterface::NotInitializedException::*)()>(
     &::OculusStudios::GraphQL::ClientInterface::NotInitializedException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f2a170;
+  constexpr static std::size_t addrs = 0x5f27edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::ClientInterface::NotInitializedException::*)(::StringW)>(
     &::OculusStudios::GraphQL::ClientInterface::NotInitializedException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5f2a1c8;
+  constexpr static std::size_t addrs = 0x5f27f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::GraphQL::ClientInterface::NotInitializedException::*)(::StringW, ::System::Exception*)>(
     &::OculusStudios::GraphQL::ClientInterface::NotInitializedException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5f2a234;
+  constexpr static std::size_t addrs = 0x5f27fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::GraphQL::ClientInterface::NotInitializedException*>(),

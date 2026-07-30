@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::Timer_TimerComparer::*)(::System::Object*, ::System::Object*)>(
     &::System::Threading::Timer_TimerComparer::System_Collections_IComparer_Compare)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5cb82f0;
+  constexpr static std::size_t addrs = 0x5cb605c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::Timer_TimerComparer::*)(::System::Threading::Timer*, ::System::Threading::Timer*)>(
     &::System::Threading::Timer_TimerComparer::Compare)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5cb8398;
+  constexpr static std::size_t addrs = 0x5cb6104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Timer_Scheduler::*)()>(&::System::Threading::Timer_Scheduler::InitScheduler)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5cb8420;
+  constexpr static std::size_t addrs = 0x5cb618c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Timer_Scheduler*>(), { "InitScheduler", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Timer_Scheduler::*)()>(&::System::Threading::Timer_Scheduler::WakeupScheduler)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5cb8514;
+  constexpr static std::size_t addrs = 0x5cb6280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Timer_Scheduler*>(), { "WakeupScheduler", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Timer_Scheduler::*)()>(&::System::Threading::Timer_Scheduler::SchedulerThread)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5cb852c;
+  constexpr static std::size_t addrs = 0x5cb6298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Timer_Scheduler*>(), { "SchedulerThread", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Timer_Scheduler* (*)()>(&::System::Threading::Timer_Scheduler::get_Instance)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5cb89d8;
+  constexpr static std::size_t addrs = 0x5cb6744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Timer_Scheduler*>(), { "get_Instance", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Timer_Scheduler::*)()>(&::System::Threading::Timer_Scheduler::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5cb8a34;
+  constexpr static std::size_t addrs = 0x5cb67a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Timer_Scheduler*>(), { ".ctor", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Timer_Scheduler::*)(::System::Threading::Timer*)>(&::System::Threading::Timer_Scheduler::Remove)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5cb8000;
+  constexpr static std::size_t addrs = 0x5cb5d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Timer_Scheduler::*)(::System::Threading::Timer*, int64_t)>(&::System::Threading::Timer_Scheduler::Change)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5cb80d0;
+  constexpr static std::size_t addrs = 0x5cb5e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Timer_Scheduler::*)(::System::Threading::Timer*)>(&::System::Threading::Timer_Scheduler::Add)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5cb8ae4;
+  constexpr static std::size_t addrs = 0x5cb6850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Timer_Scheduler::*)(::System::Threading::Timer*)>(&::System::Threading::Timer_Scheduler::InternalRemove)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cb8ac4;
+  constexpr static std::size_t addrs = 0x5cb6830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Threading::Timer_Scheduler::TimerCB)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5cb8be8;
+  constexpr static std::size_t addrs = 0x5cb6954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Timer_Scheduler::*)(::System::Threading::Timer*)>(&::System::Threading::Timer_Scheduler::FireTimer)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5cb8c64;
+  constexpr static std::size_t addrs = 0x5cb69d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Threading::Timer_Scheduler::*)()>(&::System::Threading::Timer_Scheduler::RunSchedulerLoop)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x5cb8650;
+  constexpr static std::size_t addrs = 0x5cb63bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Timer_Scheduler*>(), { "RunSchedulerLoop", {}, {} })));
@@ -345,7 +345,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Timer_Scheduler* (*)()>(&::System::Threading::Timer::get_scheduler)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5cb7b14;
+  constexpr static std::size_t addrs = 0x5cb5880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Timer*>(), { "get_scheduler", {}, {} })));
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Timer::*)(::System::Threading::TimerCallback*, ::System::Object*, int32_t, int32_t)>(
     &::System::Threading::Timer::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cb7ba8;
+  constexpr static std::size_t addrs = 0x5cb5914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Timer::*)(::System::Threading::TimerCallback*, ::System::Object*, ::System::TimeSpan, ::System::TimeSpan)>(
     &::System::Threading::Timer::_ctor)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5cb7c1c;
+  constexpr static std::size_t addrs = 0x5cb5988;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Timer::*)(::System::Threading::TimerCallback*, ::System::Object*, int64_t, int64_t)>(
     &::System::Threading::Timer::Init)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5cb7bb4;
+  constexpr static std::size_t addrs = 0x5cb5920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -406,7 +406,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::Timer::*)(int32_t, int32_t)>(&::System::Threading::Timer::Change)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5cb7ec8;
+  constexpr static std::size_t addrs = 0x5cb5c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -419,7 +419,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::Timer::*)(::System::TimeSpan, ::System::TimeSpan)>(&::System::Threading::Timer::Change)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5cb7ee8;
+  constexpr static std::size_t addrs = 0x5cb5c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -432,7 +432,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Timer::*)()>(&::System::Threading::Timer::Dispose)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5cb7fc8;
+  constexpr static std::size_t addrs = 0x5cb5d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Timer*>(), { "Dispose", {}, {} })));
@@ -444,7 +444,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::Timer::*)(int64_t, int64_t, bool)>(&::System::Threading::Timer::Change)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x5cb7d08;
+  constexpr static std::size_t addrs = 0x5cb5a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -457,7 +457,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::ValueTask (::System::Threading::Timer::*)()>(&::System::Threading::Timer::DisposeAsync)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5cb8258;
+  constexpr static std::size_t addrs = 0x5cb5fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Timer*>(), { "DisposeAsync", {}, {} })));
@@ -469,7 +469,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::Timer::*)()>(&::System::Threading::Timer::KeepRootedWhileScheduled)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cb82ec;
+  constexpr static std::size_t addrs = 0x5cb6058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Timer*>(), { "KeepRootedWhileScheduled", {}, {} })));
@@ -481,7 +481,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)()>(&::System::Threading::Timer::GetTimeMonotonic)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cb80cc;
+  constexpr static std::size_t addrs = 0x5cb5e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Timer*>(), { "GetTimeMonotonic", {}, {} })));

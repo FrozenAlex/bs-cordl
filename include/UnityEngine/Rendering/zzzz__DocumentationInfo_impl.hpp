@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::UnityEngine::Rendering::DocumentationInfo::get_version)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x678245c;
+  constexpr static std::size_t addrs = 0x67801f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DocumentationInfo*>(), { "get_version", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW)>(&::UnityEngine::Rendering::DocumentationInfo::GetPackageLink)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x67824a0;
+  constexpr static std::size_t addrs = 0x678023c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW, ::StringW)>(&::UnityEngine::Rendering::DocumentationInfo::GetPackageLink)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x67825f8;
+  constexpr static std::size_t addrs = 0x6780394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::UnityEngine::Rendering::DocumentationInfo::GetPageLink)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x678278c;
+  constexpr static std::size_t addrs = 0x6780528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW)>(&::UnityEngine::Rendering::DocumentationInfo::GetPageLink)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x67821b0;
+  constexpr static std::size_t addrs = 0x677ff4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::UnityEngine::Rendering::DocumentationInfo::GetDefaultPackageLink)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6782910;
+  constexpr static std::size_t addrs = 0x67806ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DocumentationInfo*>(),
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::Rendering::DocumentationInfo::GetDefaultPackageLink)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x67829a0;
+  constexpr static std::size_t addrs = 0x678073c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DocumentationInfo::*)()>(&::UnityEngine::Rendering::DocumentationInfo::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6782a50;
+  constexpr static std::size_t addrs = 0x67807ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DocumentationInfo*>(), { ".ctor", {}, {} })));

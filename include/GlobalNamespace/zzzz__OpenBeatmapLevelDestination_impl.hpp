@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OpenBeatmapLevelDestination::*)(::StringW)>(&::GlobalNamespace::OpenBeatmapLevelDestination::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x370519c;
+  constexpr static std::size_t addrs = 0x3703bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

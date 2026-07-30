@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemote
     ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, ::StringW, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager_AddResourceLocatorInput::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3316914;
+  constexpr static std::size_t addrs = 0x3314edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3316e1c;
+  constexpr static std::size_t addrs = 0x33153e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>(), { ".ctor", {}, {} })));
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::__ctor_b__19_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3316e20;
+  constexpr static std::size_t addrs = 0x33153e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>(), { "<.ctor>b__19_0", {}, {} })));
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::*)(::AddressablesInternalBridge::Runtime::CatalogLocationData*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_UpdateCatalogsInternalAsync_b__25_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3316e24;
+  constexpr static std::size_t addrs = 0x33153ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_UpdateCatalogsInternalAsync_b__25_1)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3316e38;
+  constexpr static std::size_t addrs = 0x3315400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__20::*)()>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__20::MoveNext)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x3316edc;
+  constexpr static std::size_t addrs = 0x33154a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__20::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__20::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3317164;
+  constexpr static std::size_t addrs = 0x331572c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__20>(),
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__22::*)()>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__22::MoveNext)> {
   constexpr static std::size_t size = 0x438;
-  constexpr static std::size_t addrs = 0x331716c;
+  constexpr static std::size_t addrs = 0x3315734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__22::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__22::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x33175a4;
+  constexpr static std::size_t addrs = 0x3315b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__22>(),
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24::*)()>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24::MoveNext)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x3317624;
+  constexpr static std::size_t addrs = 0x3315bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -355,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3317810;
+  constexpr static std::size_t addrs = 0x3315dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24>(),
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25::*)()>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25::MoveNext)> {
   constexpr static std::size_t size = 0xc18;
-  constexpr static std::size_t addrs = 0x331787c;
+  constexpr static std::size_t addrs = 0x3315e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -417,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3318494;
+  constexpr static std::size_t addrs = 0x3316a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25>(),
@@ -472,7 +472,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__21::*)()>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__21::MoveNext)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x3318500;
+  constexpr static std::size_t addrs = 0x3316ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -486,7 +486,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__21::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__21::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3318798;
+  constexpr static std::size_t addrs = 0x3316d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__21>(),
@@ -531,7 +531,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::get_RemoteCatalogPath)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3315c2c;
+  constexpr static std::size_t addrs = 0x33141f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -545,7 +545,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(::System::Action*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::add_didCatalogLoadOrUpdateEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3315c70;
+  constexpr static std::size_t addrs = 0x3314238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -560,7 +560,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(::System::Action*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::remove_didCatalogLoadOrUpdateEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3315d1c;
+  constexpr static std::size_t addrs = 0x33142e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(),
@@ -575,7 +575,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemote
                                                                                                                     ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader*, ::StringW, ::StringW)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::_ctor)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x3315dc8;
+  constexpr static std::size_t addrs = 0x3314390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -592,7 +592,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::Initialize)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3316148;
+  constexpr static std::size_t addrs = 0x3314710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(), { "Initialize", {}, {} })));
@@ -605,7 +605,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)()>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::WaitInitAsync)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3315a20;
+  constexpr static std::size_t addrs = 0x3313fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(), { "WaitInitAsync", {}, {} })));
@@ -618,7 +618,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(::System::Threading::CancellationToken)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::InitializeInternalAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x33161ec;
+  constexpr static std::size_t addrs = 0x33147b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(),
@@ -632,7 +632,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::InternalIdTransformFunc)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x33162dc;
+  constexpr static std::size_t addrs = 0x33148a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -647,7 +647,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(::System::Threading::CancellationToken)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::UpdateCatalogsAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3315afc;
+  constexpr static std::size_t addrs = 0x33140c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(),
@@ -661,7 +661,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(::System::Threading::CancellationToken)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::UpdateCatalogsInternalAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3316474;
+  constexpr static std::size_t addrs = 0x3314a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(),
@@ -674,7 +674,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::Dispose)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3316538;
+  constexpr static std::size_t addrs = 0x3314b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(), { "Dispose", {}, {} })));
@@ -687,7 +687,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(::UnityEngine::Networking::UnityWebRequest*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::WebRequestOverride)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x33165f8;
+  constexpr static std::size_t addrs = 0x3314bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(),
@@ -702,7 +702,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager_AddResourceLocatorInput* (*)(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, bool)>(
         &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::CreateAddResourceLocatorInput)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x33167ec;
+  constexpr static std::size_t addrs = 0x3314db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -717,7 +717,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::MakeRemoteCatalogTopPriority)> {
   constexpr static std::size_t size = 0x4a8;
-  constexpr static std::size_t addrs = 0x3316920;
+  constexpr static std::size_t addrs = 0x3314ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -730,7 +730,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Networking::UnityWebRequest*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::IsMetaAddressableRequest)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x33167d4;
+  constexpr static std::size_t addrs = 0x3314d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(),
@@ -743,7 +743,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::IsMetaAddressableUrl)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x33163e0;
+  constexpr static std::size_t addrs = 0x33149a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

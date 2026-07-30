@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::StringFormatMethodAttribute::*)(::StringW)>(&::JetBrains::Annotations::StringFormatMethodAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3a8e0;
+  constexpr static std::size_t addrs = 0x6e362e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::JetBrains::Annotations::StringFormatMethodAttribute::*)()>(
     &::JetBrains::Annotations::StringFormatMethodAttribute::get_FormatParameterName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3a8e8;
+  constexpr static std::size_t addrs = 0x6e362ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::StringFormatMethodAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::StringFormatMethodAttribute::set_FormatParameterName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3a8f0;
+  constexpr static std::size_t addrs = 0x6e362f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

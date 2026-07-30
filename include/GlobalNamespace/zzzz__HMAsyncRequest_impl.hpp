@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HMAsyncRequest_CancelHander::*)(::System::Object*, ::System::IntPtr)>(
     &::GlobalNamespace::HMAsyncRequest_CancelHander::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x585988c;
+  constexpr static std::size_t addrs = 0x5857d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMAsyncRequest_CancelHander*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HMAsyncRequest_CancelHander::*)(::GlobalNamespace::HMAsyncRequest*)>(
     &::GlobalNamespace::HMAsyncRequest_CancelHander::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x58599d0;
+  constexpr static std::size_t addrs = 0x5857ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::GlobalNamespace::HMAsyncRequest_CancelHander::*)(::GlobalNamespace::HMAsyncRequest*, ::System::AsyncCallback*, ::System::Object*)>(
         &::GlobalNamespace::HMAsyncRequest_CancelHander::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x58599e4;
+  constexpr static std::size_t addrs = 0x5857ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HMAsyncRequest_CancelHander::*)(::System::IAsyncResult*)>(&::GlobalNamespace::HMAsyncRequest_CancelHander::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5859a04;
+  constexpr static std::size_t addrs = 0x5857f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::HMAsyncRequest_CancelHander* (::GlobalNamespace::HMAsyncRequest::*)()>(
     &::GlobalNamespace::HMAsyncRequest::get_CancelHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58597ec;
+  constexpr static std::size_t addrs = 0x5857ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMAsyncRequest*>(), { "get_CancelHandler", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HMAsyncRequest::*)(::GlobalNamespace::HMAsyncRequest_CancelHander*)>(
     &::GlobalNamespace::HMAsyncRequest::set_CancelHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58597f4;
+  constexpr static std::size_t addrs = 0x5857cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::HMAsyncRequest::*)()>(&::GlobalNamespace::HMAsyncRequest::get_cancelled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58597fc;
+  constexpr static std::size_t addrs = 0x5857cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMAsyncRequest*>(), { "get_cancelled", {}, {} })));
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HMAsyncRequest::*)()>(&::GlobalNamespace::HMAsyncRequest::Cancel)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5859804;
+  constexpr static std::size_t addrs = 0x5857d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HMAsyncRequest::*)()>(&::GlobalNamespace::HMAsyncRequest::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x585982c;
+  constexpr static std::size_t addrs = 0x5857d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HMAsyncRequest*>(), { ".ctor", {}, {} })));

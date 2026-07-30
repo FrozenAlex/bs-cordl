@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_m(float_t value);
 
-  /// @brief Method .ctor, addr 0x375aecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x37599f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, float_t bpm);
 
-  /// @brief Method get_bpm, addr 0x375aec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bpm, addr 0x37599e8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bpm();
 
 protected:
@@ -54,7 +54,7 @@ public:
   BpmChangeEventData(BpmChangeEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15339 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15337 };
 
   /// @brief Field m, offset: 0x14, size: 0x4, def value: None
   float_t ___m;

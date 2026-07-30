@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)()>(&::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x33f3aec;
+  constexpr static std::size_t addrs = 0x33f20b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>(), { ".ctor", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(::Org::BouncyCastle::Crypto::IMac*)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::_ctor)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x33f3b48;
+  constexpr static std::size_t addrs = 0x33f2110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x33f3d28;
+  constexpr static std::size_t addrs = 0x33f22f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::Init)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x33f3d6c;
+  constexpr static std::size_t addrs = 0x33f2334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>(),
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::GetOutputSize)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x33f42f8;
+  constexpr static std::size_t addrs = 0x33f28c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>(),
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::GetUpdateOutputSize)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x33f43d0;
+  constexpr static std::size_t addrs = 0x33f2998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>(),
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ProcessAadByte)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x33f44b4;
+  constexpr static std::size_t addrs = 0x33f2a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>(),
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ProcessAadBytes)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x33f46a4;
+  constexpr static std::size_t addrs = 0x33f2c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>(),
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(uint8_t, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ProcessByte)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x33f48a4;
+  constexpr static std::size_t addrs = 0x33f2e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>(),
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ProcessBytes)> {
   constexpr static std::size_t size = 0x4fc;
-  constexpr static std::size_t addrs = 0x33f4cd0;
+  constexpr static std::size_t addrs = 0x33f3298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>(),
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::DoFinal)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x33f51cc;
+  constexpr static std::size_t addrs = 0x33f3794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>(),
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)()>(&::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::GetMac)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x33f5748;
+  constexpr static std::size_t addrs = 0x33f3d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>(),
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)()>(&::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x33f57a8;
+  constexpr static std::size_t addrs = 0x33f3d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>(),
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)()>(&::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::CheckAad)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x33f4588;
+  constexpr static std::size_t addrs = 0x33f2b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>(), { "CheckAad", {}, {} })));
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)()>(&::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::CheckData)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x33f4b2c;
+  constexpr static std::size_t addrs = 0x33f30f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>(), { "CheckData", {}, {} })));
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::FinishAad)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x33f57b4;
+  constexpr static std::size_t addrs = 0x33f3d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>(),
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305_State)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::FinishData)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x33f5598;
+  constexpr static std::size_t addrs = 0x33f3b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>(),
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(uint64_t, uint32_t, uint64_t)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::IncrementCount)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x33f4640;
+  constexpr static std::size_t addrs = 0x33f2c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)()>(&::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::InitMac)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x33f58f4;
+  constexpr static std::size_t addrs = 0x33f3ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305*>(), { "InitMac", {}, {} })));
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(uint64_t)>(&::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::PadMac)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x33f57e0;
+  constexpr static std::size_t addrs = 0x33f3da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ProcessData)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x33f4c04;
+  constexpr static std::size_t addrs = 0x33f31cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::*)(bool, bool)>(&::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::Reset)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x33f41c4;
+  constexpr static std::size_t addrs = 0x33f278c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

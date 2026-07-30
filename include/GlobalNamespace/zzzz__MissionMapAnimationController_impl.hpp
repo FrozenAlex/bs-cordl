@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionMapAnimationController___c::*)()>(&::GlobalNamespace::MissionMapAnimationController___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5938ca4;
+  constexpr static std::size_t addrs = 0x593748c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionMapAnimationController___c*>(), { ".ctor", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MissionMapAnimationController___c::*)(::GlobalNamespace::MissionNodeConnection*)>(
     &::GlobalNamespace::MissionMapAnimationController___c::_UpdateNodesAndConnectionCoroutine_b__15_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5938ca8;
+  constexpr static std::size_t addrs = 0x5937490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MissionMapAnimationController___c::*)(::GlobalNamespace::MissionNodeConnection*)>(
     &::GlobalNamespace::MissionMapAnimationController___c::_UpdateNodesAndConnectionCoroutine_b__15_1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5938ce4;
+  constexpr static std::size_t addrs = 0x59374cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::*)(int32_t)>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5938b80;
+  constexpr static std::size_t addrs = 0x5937368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5938d08;
+  constexpr static std::size_t addrs = 0x59374f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::MoveNext)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5938d0c;
+  constexpr static std::size_t addrs = 0x59374f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5938e14;
+  constexpr static std::size_t addrs = 0x59375fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13*>(),
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5938e1c;
+  constexpr static std::size_t addrs = 0x5937604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13*>(),
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5938e54;
+  constexpr static std::size_t addrs = 0x593763c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13*>(),
@@ -303,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::*)(int32_t)>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5938b18;
+  constexpr static std::size_t addrs = 0x5937300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5938e5c;
+  constexpr static std::size_t addrs = 0x5937644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::MoveNext)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x5938e60;
+  constexpr static std::size_t addrs = 0x5937648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5939048;
+  constexpr static std::size_t addrs = 0x5937830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12*>(),
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5939050;
+  constexpr static std::size_t addrs = 0x5937838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -375,7 +375,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5939088;
+  constexpr static std::size_t addrs = 0x5937870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12*>(),
@@ -511,7 +511,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::*)(int32_t)>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5938c38;
+  constexpr static std::size_t addrs = 0x5937420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -526,7 +526,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5939090;
+  constexpr static std::size_t addrs = 0x5937878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -541,7 +541,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x5939094;
+  constexpr static std::size_t addrs = 0x593787c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -555,7 +555,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5939624;
+  constexpr static std::size_t addrs = 0x5937e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -570,7 +570,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x593962c;
+  constexpr static std::size_t addrs = 0x5937e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -585,7 +585,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5939664;
+  constexpr static std::size_t addrs = 0x5937e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -742,7 +742,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::*)(int32_t)>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5938bdc;
+  constexpr static std::size_t addrs = 0x59373c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -756,7 +756,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x593966c;
+  constexpr static std::size_t addrs = 0x5937e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -770,7 +770,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::MoveNext)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5939670;
+  constexpr static std::size_t addrs = 0x5937e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -784,7 +784,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59398f8;
+  constexpr static std::size_t addrs = 0x59380e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14*>(),
@@ -798,7 +798,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5939900;
+  constexpr static std::size_t addrs = 0x59380e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -812,7 +812,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::*)()>(
     &::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5939938;
+  constexpr static std::size_t addrs = 0x5938120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -923,7 +923,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MissionMapAnimationController::*)()>(&::GlobalNamespace::MissionMapAnimationController::get_animatedUpdateIsRequired)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5938624;
+  constexpr static std::size_t addrs = 0x5936e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -937,7 +937,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionMapAnimationController::*)()>(
     &::GlobalNamespace::MissionMapAnimationController::ScrollToTopMostNotClearedMission)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5938754;
+  constexpr static std::size_t addrs = 0x5936f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -951,7 +951,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionMapAnimationController::*)(bool, ::System::Action*)>(
     &::GlobalNamespace::MissionMapAnimationController::UpdateMissionMapAfterMissionWasCleared)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5938984;
+  constexpr static std::size_t addrs = 0x593716c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -966,7 +966,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MissionMapAnimationController::*)(::GlobalNamespace::MissionNode*, ::System::Action*)>(
     &::GlobalNamespace::MissionMapAnimationController::UpdateMissionMapCoroutine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5938ab0;
+  constexpr static std::size_t addrs = 0x5937298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -981,7 +981,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MissionMapAnimationController::*)(::GlobalNamespace::MissionNode*)>(
     &::GlobalNamespace::MissionMapAnimationController::UpdateClearedNodeStateCoroutine)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5938b20;
+  constexpr static std::size_t addrs = 0x5937308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionMapAnimationController*>(),
@@ -995,7 +995,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MissionMapAnimationController::*)()>(
     &::GlobalNamespace::MissionMapAnimationController::UpdateStageCoroutine)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5938b88;
+  constexpr static std::size_t addrs = 0x5937370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionMapAnimationController*>(), { "UpdateStageCoroutine", {}, {} })));
@@ -1008,7 +1008,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MissionMapAnimationController::*)()>(
     &::GlobalNamespace::MissionMapAnimationController::UpdateNodesAndConnectionCoroutine)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5938be4;
+  constexpr static std::size_t addrs = 0x59373cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1021,7 +1021,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionMapAnimationController::*)()>(&::GlobalNamespace::MissionMapAnimationController::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5938c40;
+  constexpr static std::size_t addrs = 0x5937428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionMapAnimationController*>(), { ".ctor", {}, {} })));

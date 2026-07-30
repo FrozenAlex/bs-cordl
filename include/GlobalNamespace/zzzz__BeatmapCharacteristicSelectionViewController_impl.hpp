@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::GlobalNamespace::BeatmapCharacteristic>*)>(
     &::GlobalNamespace::BeatmapCharacteristicSelectionViewController::add_didSelectBeatmapCharacteristicEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a10dc4;
+  constexpr static std::size_t addrs = 0x5a0f1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSelectionViewController>, ::GlobalNamespace::BeatmapCharacteristic>*)>(
     &::GlobalNamespace::BeatmapCharacteristicSelectionViewController::remove_didSelectBeatmapCharacteristicEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5a10e84;
+  constexpr static std::size_t addrs = 0x5a0f2b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapCharacteristic (::GlobalNamespace::BeatmapCharacteristicSelectionViewController::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicSelectionViewController::get_selectedBeatmapCharacteristic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a10f44;
+  constexpr static std::size_t addrs = 0x5a0f370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSelectionViewController::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicSelectionViewController::Init)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5a10f4c;
+  constexpr static std::size_t addrs = 0x5a0f378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*>(), { "Init", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSelectionViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::BeatmapCharacteristicSelectionViewController::DidActivate)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x5a11018;
+  constexpr static std::size_t addrs = 0x5a0f444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*>(),
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSelectionViewController::*)(bool, bool)>(
     &::GlobalNamespace::BeatmapCharacteristicSelectionViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5a1137c;
+  constexpr static std::size_t addrs = 0x5a0f7a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*>(),
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSelectionViewController::*)(::HMUI::SegmentedControl*, int32_t)>(
     &::GlobalNamespace::BeatmapCharacteristicSelectionViewController::HandleBeatmapCharacteristicSegmentedControlDidSelectCell)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5a1142c;
+  constexpr static std::size_t addrs = 0x5a0f858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSelectionViewController::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicSelectionViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5a11518;
+  constexpr static std::size_t addrs = 0x5a0f944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapCharacteristicSelectionViewController*>(), { ".ctor", {}, {} })));

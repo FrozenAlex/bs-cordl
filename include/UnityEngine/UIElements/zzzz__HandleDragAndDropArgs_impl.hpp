@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::HandleDragAndDropArgs::*)(::UnityEngine::Vector2, ::UnityEngine::UIElements::DragAndDropArgs)>(
     &::UnityEngine::UIElements::HandleDragAndDropArgs::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6d88548;
+  constexpr static std::size_t addrs = 0x6d83f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

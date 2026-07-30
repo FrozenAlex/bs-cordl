@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint::*)(double_t, double_t, int32_t)>(
     &::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x66a65b0;
+  constexpr static std::size_t addrs = 0x66a434c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* (::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint::get_Next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a65c8;
+  constexpr static std::size_t addrs = 0x66a4364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>(), { "get_Next", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint::*)(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint::set_Next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a65d0;
+  constexpr static std::size_t addrs = 0x66a436c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* (::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint::get_Previous)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a65d8;
+  constexpr static std::size_t addrs = 0x66a4374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>(), { "get_Previous", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint::*)(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint::set_Previous)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66a65e0;
+  constexpr static std::size_t addrs = 0x66a437c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>(),

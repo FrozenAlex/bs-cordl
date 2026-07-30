@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Timeline::MatchTargetFields, ::UnityEngine::Timeline::MatchTargetFields)>(
     &::UnityEngine::Timeline::MatchTargetFieldConstants::HasAny)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x69a8e18;
+  constexpr static std::size_t addrs = 0x69a6bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::MatchTargetFields (*)(::UnityEngine::Timeline::MatchTargetFields, ::UnityEngine::Timeline::MatchTargetFields)>(
     &::UnityEngine::Timeline::MatchTargetFieldConstants::Toggle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69a8e90;
+  constexpr static std::size_t addrs = 0x69a6c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

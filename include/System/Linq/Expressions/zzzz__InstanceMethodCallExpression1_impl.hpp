@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::InstanceMethodCallExpression1::*)(
     ::System::Reflection::MethodInfo*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::InstanceMethodCallExpression1::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5f82cb0;
+  constexpr static std::size_t addrs = 0x5f80a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::InstanceMethodCallExpression1::*)(int32_t)>(
     &::System::Linq::Expressions::InstanceMethodCallExpression1::GetArgument)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5f82cd8;
+  constexpr static std::size_t addrs = 0x5f80a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::InstanceMethodCallExpression1*>(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::InstanceMethodCallExpression1::*)()>(
     &::System::Linq::Expressions::InstanceMethodCallExpression1::get_ArgumentCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f82d7c;
+  constexpr static std::size_t addrs = 0x5f80b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::InstanceMethodCallExpression1*>(),
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressio
                                                                    ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*)>(
     &::System::Linq::Expressions::InstanceMethodCallExpression1::Rewrite)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5f82d84;
+  constexpr static std::size_t addrs = 0x5f80b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::InstanceMethodCallExpression1*>(),

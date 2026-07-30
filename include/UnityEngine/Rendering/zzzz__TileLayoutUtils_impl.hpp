@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::RectInt, uint32_t, ::by_ref<::UnityEngine::RectInt>, ::by_ref<::UnityEngine::RectInt>, ::by_ref<::UnityEngine::RectInt>,
                                                                 ::by_ref<::UnityEngine::RectInt>)>(&::UnityEngine::Rendering::TileLayoutUtils::TryLayoutByTiles)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x67c3ac4;
+  constexpr static std::size_t addrs = 0x67c1860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::RectInt, uint32_t, ::by_ref<::UnityEngine::RectInt>, ::by_ref<::UnityEngine::RectInt>)>(
     &::UnityEngine::Rendering::TileLayoutUtils::TryLayoutByRow)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x67c3b50;
+  constexpr static std::size_t addrs = 0x67c18ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::RectInt, uint32_t, ::by_ref<::UnityEngine::RectInt>, ::by_ref<::UnityEngine::RectInt>)>(
     &::UnityEngine::Rendering::TileLayoutUtils::TryLayoutByCol)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x67c3bb0;
+  constexpr static std::size_t addrs = 0x67c194c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

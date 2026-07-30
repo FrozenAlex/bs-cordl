@@ -37,7 +37,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::SpawnRotationChevron_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x599fd8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x599e444, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,15 +81,15 @@ public:
   /// @brief Field _lights, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__lights, put = __cordl_internal_set__lights)) ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>> _lights;
 
-  /// @brief Method ColorWasSet, addr 0x599fd00, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x599e3b8, size 0xc, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::SpawnRotationChevron* New_ctor();
 
-  /// @brief Method SetLightAmount, addr 0x599fd78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetLightAmount, addr 0x599e430, size 0x8, virtual false, abstract: false, final false
   inline void SetLightAmount(float_t amount);
 
-  /// @brief Method UpdateLights, addr 0x599fd0c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method UpdateLights, addr 0x599e3c4, size 0x6c, virtual false, abstract: false, final false
   inline void UpdateLights();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set__lights(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>> value);
 
-  /// @brief Method .ctor, addr 0x599fd80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x599e438, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

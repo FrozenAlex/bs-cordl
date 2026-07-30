@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::*)(int32_t)>(
     &::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58618a0;
+  constexpr static std::size_t addrs = 0x585fd9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::*)()>(
     &::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58619c0;
+  constexpr static std::size_t addrs = 0x585febc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::*)()>(
     &::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::MoveNext)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x58619c4;
+  constexpr static std::size_t addrs = 0x585fec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::*)()>(
     &::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5861ab8;
+  constexpr static std::size_t addrs = 0x585ffb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2*>(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::*)()>(
     &::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5861ac0;
+  constexpr static std::size_t addrs = 0x585ffbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::*)()>(
     &::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5861af8;
+  constexpr static std::size_t addrs = 0x585fff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator::*)(::GlobalNamespace::BloomFogEnvironmentParams*, float_t)>(
     &::GlobalNamespace::BloomFogParamsAnimator::AnimateBloomFogParamsChange)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5861718;
+  constexpr static std::size_t addrs = 0x585fc14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::BloomFogParamsAnimator::*)(::GlobalNamespace::BloomFogEnvironmentParams*, float_t)>(
     &::GlobalNamespace::BloomFogParamsAnimator::AnimationCoroutine)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5861830;
+  constexpr static std::size_t addrs = 0x585fd2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator::*)(::GlobalNamespace::BloomFogEnvironmentParams*, float_t)>(
     &::GlobalNamespace::BloomFogParamsAnimator::SetBloomFogParamsChange)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x58618a8;
+  constexpr static std::size_t addrs = 0x585fda4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> (::GlobalNamespace::BloomFogParamsAnimator::*)()>(
     &::GlobalNamespace::BloomFogParamsAnimator::GetDefaultBloomFogParams)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x58618f0;
+  constexpr static std::size_t addrs = 0x585fdec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomFogParamsAnimator*>(), { "GetDefaultBloomFogParams", {}, {} })));
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator::*)(::GlobalNamespace::BloomFogEnvironmentParams*)>(
     &::GlobalNamespace::BloomFogParamsAnimator::SetDefaultBloomFogParams)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5861908;
+  constexpr static std::size_t addrs = 0x585fe04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomFogParamsAnimator*>(),
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator::*)()>(&::GlobalNamespace::BloomFogParamsAnimator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58619bc;
+  constexpr static std::size_t addrs = 0x585feb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomFogParamsAnimator*>(), { ".ctor", {}, {} })));

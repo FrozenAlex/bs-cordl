@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightPairRotationEventEffect_RotationData::*)()>(
     &::GlobalNamespace::LightPairRotationEventEffect_RotationData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x599583c;
+  constexpr static std::size_t addrs = 0x5993f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightPairRotationEventEffect_RotationData*>(), { ".ctor", {}, {} })));
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightPairRotationEventEffect::*)()>(&::GlobalNamespace::LightPairRotationEventEffect::Start)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x5995490;
+  constexpr static std::size_t addrs = 0x5993b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightPairRotationEventEffect*>(), { "Start", {}, {} })));
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightPairRotationEventEffect::*)()>(&::GlobalNamespace::LightPairRotationEventEffect::Update)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x5995840;
+  constexpr static std::size_t addrs = 0x5993f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightPairRotationEventEffect*>(), { "Update", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightPairRotationEventEffect::*)()>(&::GlobalNamespace::LightPairRotationEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5995ae8;
+  constexpr static std::size_t addrs = 0x59941ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightPairRotationEventEffect*>(), { "OnDestroy", {}, {} })));
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightPairRotationEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::LightPairRotationEventEffect::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x5995b04;
+  constexpr static std::size_t addrs = 0x59941c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightPairRotationEventEffect*>(),
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightPairRotationEventEffect::*)(int32_t, ::GlobalNamespace::LightPairRotationEventEffect_RotationData*, float_t,
                                                                                                                  float_t)>(&::GlobalNamespace::LightPairRotationEventEffect::UpdateRotationData)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x5995eb4;
+  constexpr static std::size_t addrs = 0x5994578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightPairRotationEventEffect::*)()>(&::GlobalNamespace::LightPairRotationEventEffect::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x59960d0;
+  constexpr static std::size_t addrs = 0x5994794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightPairRotationEventEffect*>(), { ".ctor", {}, {} })));

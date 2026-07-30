@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CRC::*)()>(&::Org::BouncyCastle::Apache::Bzip2::CRC::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3655824;
+  constexpr static std::size_t addrs = 0x3653dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Apache::Bzip2::CRC*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CRC::*)()>(&::Org::BouncyCastle::Apache::Bzip2::CRC::InitialiseCRC)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3656cf0;
+  constexpr static std::size_t addrs = 0x36552b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Apache::Bzip2::CRC*>(), { "InitialiseCRC", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Apache::Bzip2::CRC::*)()>(&::Org::BouncyCastle::Apache::Bzip2::CRC::GetFinalCRC)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3656d24;
+  constexpr static std::size_t addrs = 0x36552ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Apache::Bzip2::CRC*>(), { "GetFinalCRC", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Apache::Bzip2::CRC::*)()>(&::Org::BouncyCastle::Apache::Bzip2::CRC::GetGlobalCRC)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3657824;
+  constexpr static std::size_t addrs = 0x3655dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Apache::Bzip2::CRC*>(), { "GetGlobalCRC", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CRC::*)(int32_t)>(&::Org::BouncyCastle::Apache::Bzip2::CRC::SetGlobalCRC)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x365782c;
+  constexpr static std::size_t addrs = 0x3655df4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CRC::*)(int32_t)>(&::Org::BouncyCastle::Apache::Bzip2::CRC::UpdateCRC)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3657698;
+  constexpr static std::size_t addrs = 0x3655c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

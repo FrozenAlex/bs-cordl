@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::PressureSensor::*)()>(
     &::UnityEngine::InputSystem::PressureSensor::get_atmosphericPressure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65610b0;
+  constexpr static std::size_t addrs = 0x655ee4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PressureSensor*>(), { "get_atmosphericPressure", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PressureSensor::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::PressureSensor::set_atmosphericPressure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65610b8;
+  constexpr static std::size_t addrs = 0x655ee54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::PressureSensor* (*)()>(&::UnityEngine::InputSystem::PressureSensor::get_current)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x65610c0;
+  constexpr static std::size_t addrs = 0x655ee5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PressureSensor*>(), { "get_current", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::PressureSensor*)>(&::UnityEngine::InputSystem::PressureSensor::set_current)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x656110c;
+  constexpr static std::size_t addrs = 0x655eea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PressureSensor::*)()>(&::UnityEngine::InputSystem::PressureSensor::MakeCurrent)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x656115c;
+  constexpr static std::size_t addrs = 0x655eef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PressureSensor::*)()>(&::UnityEngine::InputSystem::PressureSensor::OnRemoved)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x65611ac;
+  constexpr static std::size_t addrs = 0x655ef48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PressureSensor::*)()>(&::UnityEngine::InputSystem::PressureSensor::FinishSetup)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x656123c;
+  constexpr static std::size_t addrs = 0x655efd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PressureSensor::*)()>(&::UnityEngine::InputSystem::PressureSensor::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65612ac;
+  constexpr static std::size_t addrs = 0x655f048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PressureSensor*>(), { ".ctor", {}, {} })));

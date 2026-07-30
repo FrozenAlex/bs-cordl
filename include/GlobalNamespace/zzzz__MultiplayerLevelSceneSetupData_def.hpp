@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_hasSong(bool value);
 
-  /// @brief Method .ctor, addr 0x590c29c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x590a7bc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::GlobalNamespace::BeatmapKey> beatmapKey, bool hasSong);
 
 protected:
@@ -61,7 +61,7 @@ public:
   MultiplayerLevelSceneSetupData(MultiplayerLevelSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6701 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6697 };
 
   /// @brief Field beatmapKey, offset: 0x10, size: 0x10, def value: None
   ::GlobalNamespace::BeatmapKey ___beatmapKey;

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::IWebProxy* (*)()>(&::System::Net::Configuration::DefaultProxySectionInternal::GetDefaultProxy_UsingOldMonoCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6351ba0;
+  constexpr static std::size_t addrs = 0x634f93c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::IWebProxy* (*)()>(&::System::Net::Configuration::DefaultProxySectionInternal::GetSystemWebProxy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6351ba8;
+  constexpr static std::size_t addrs = 0x634f944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)()>(&::System::Net::Configuration::DefaultProxySectionInternal::get_ClassSyncObject)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6351bb0;
+  constexpr static std::size_t addrs = 0x634f94c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Configuration::DefaultProxySectionInternal* (*)()>(&::System::Net::Configuration::DefaultProxySectionInternal::GetSection)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6351c44;
+  constexpr static std::size_t addrs = 0x634f9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Configuration::DefaultProxySectionInternal*>(), { "GetSection", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::IWebProxy* (::System::Net::Configuration::DefaultProxySectionInternal::*)()>(
     &::System::Net::Configuration::DefaultProxySectionInternal::get_WebProxy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6351d50;
+  constexpr static std::size_t addrs = 0x634faec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Configuration::DefaultProxySectionInternal*>(), { "get_WebProxy", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Configuration::DefaultProxySectionInternal::*)()>(&::System::Net::Configuration::DefaultProxySectionInternal::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6351d4c;
+  constexpr static std::size_t addrs = 0x634fae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Configuration::DefaultProxySectionInternal*>(), { ".ctor", {}, {} })));

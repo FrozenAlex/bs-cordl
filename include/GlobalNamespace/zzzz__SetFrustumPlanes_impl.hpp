@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetFrustumPlanes::*)()>(&::GlobalNamespace::SetFrustumPlanes::Create)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5f48a30;
+  constexpr static std::size_t addrs = 0x5f466a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetFrustumPlanes::*)(
     ::UnityEngine::Rendering::Universal::ScriptableRenderer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::GlobalNamespace::SetFrustumPlanes::AddRenderPasses)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f48b10;
+  constexpr static std::size_t addrs = 0x5f46788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetFrustumPlanes::*)()>(&::GlobalNamespace::SetFrustumPlanes::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f48b30;
+  constexpr static std::size_t addrs = 0x5f467a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetFrustumPlanes*>(), { ".ctor", {}, {} })));
